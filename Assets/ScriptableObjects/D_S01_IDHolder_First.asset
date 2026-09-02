@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c59465da9bc39243a973773784e853a, type: 3}
+  m_Name: D_S01_IDHolder_First
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  lines:
+  - speaker: Xiao Peng
+    text: "\u2026\u2026\u8FD9\u662F\u6211\u7684\u8BC1\u4EF6\u5957\uFF1F"
+  - speaker: Xiao Peng
+    text: "\u7167\u7247\u548C\u540D\u5B57\u90FD\u5BF9\u5F97\u4E0A\uFF0C\u53EF\u6211\u4E3A\u4EC0\u4E48\u4F1A\u5728\u8FD9\u91CC\uFF1F"
+  - speaker: Xiao Peng
+    text: "\u91CC\u9762\u8FD8\u6709\u4E00\u5F20\u5DE5\u4F5C\u8BC1\u2026\u2026\u8FB9\u89D2\u5DF2\u7ECF\u88AB\u96E8\u6C34\u6CE1\u8F6F\u4E86\u3002"
