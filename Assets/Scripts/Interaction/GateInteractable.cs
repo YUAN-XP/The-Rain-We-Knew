@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GateInteractable :
     MonoBehaviour,
@@ -42,14 +43,14 @@ public class GateInteractable :
             return;
         }
 
-        // The gate is already open.
+        // Gate is already open.
         if (scene01State.gateOpened)
         {
             EnterGate();
             return;
         }
 
-        // The gate is still locked.
+        // Gate is still locked.
         if (!scene01State.hasGateKey)
         {
             if (lockedDialogueData != null)
@@ -62,7 +63,7 @@ public class GateInteractable :
             return;
         }
 
-        // The player has the key.
+        // Player has the key.
         scene01State.OpenGate();
 
         if (unlockDialogueData != null)
@@ -78,7 +79,11 @@ public class GateInteractable :
     private void EnterGate()
     {
         Debug.Log(
-            "Scene01: Player entered the gate."
+            "Scene01: Loading Scene02_Courtyard."
+        );
+
+        SceneManager.LoadScene(
+            "Scene02_Courtyard"
         );
     }
 }
