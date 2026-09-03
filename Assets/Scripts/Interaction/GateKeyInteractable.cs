@@ -6,12 +6,15 @@ public class GateKeyInteractable :
 {
     [SerializeField] private string interactionPrompt = "[E] Pick Up";
 
+    [Header("Item")]
+    [SerializeField] private ItemData gateKeyItem;
+
     [Header("Dialogue")]
     [SerializeField] private DialogueData dialogueData;
     [SerializeField] private DialogueManager dialogueManager;
 
-    [Header("Scene State")]
-    [SerializeField] private Scene01State scene01State;
+    [Header("Inventory")]
+    [SerializeField] private InventoryManager inventoryManager;
 
     private bool collected = false;
 
@@ -27,16 +30,28 @@ public class GateKeyInteractable :
             return;
         }
 
-        if (scene01State == null)
+        if (inventoryManager == null)
         {
-            Debug.LogWarning("GateKeyInteractable: Scene01State is missing.");
+            Debug.LogWarning(
+                "GateKeyInteractable: InventoryManager is missing."
+            );
+
+            return;
+        }
+
+        if (gateKeyItem == null)
+        {
+            Debug.LogWarning(
+                "GateKeyInteractable: GateKey ItemData is missing."
+            );
+
             return;
         }
 
         collected = true;
 
-        // Record that the player has obtained the gate key.
-        scene01State.GetGateKey();
+        // Add the key to the inventory.
+        inventoryManager.AddItem(gateKeyItem);
 
         // Play pickup dialogue.
         if (dialogueManager != null &&
@@ -45,19 +60,25 @@ public class GateKeyInteractable :
             dialogueManager.StartDialogue(dialogueData);
         }
 
-        // Disable further interaction with the key.
-        Collider2D keyCollider = GetComponent<Collider2D>();
+        // Disable further interaction.
+        Collider2D keyCollider =
+            GetComponent<Collider2D>();
 
         if (keyCollider != null)
         {
             keyCollider.enabled = false;
         }
 
-        SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
+        SpriteRenderer spriteRenderer =
+            GetComponent<SpriteRenderer>();
 
         if (spriteRenderer != null)
         {
             spriteRenderer.enabled = false;
         }
+
+        Debug.Log(
+            "Scene01: Gate key added to inventory."
+        );
     }
 }
