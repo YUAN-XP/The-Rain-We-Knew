@@ -8,41 +8,71 @@ public class InventoryUI : MonoBehaviour
     private enum InventoryTab
     {
         Items,
+        KeyItems,
         Files
     }
 
     [Header("Main")]
-    [SerializeField] private GameObject inventoryPanel;
+    [SerializeField]
+    private GameObject inventoryPanel;
 
     [Header("Managers")]
-    [SerializeField] private InventoryManager inventoryManager;
-    [SerializeField] private FileArchiveManager fileArchiveManager;
+    [SerializeField]
+    private InventoryManager inventoryManager;
+
+    [SerializeField]
+    private FileArchiveManager fileArchiveManager;
 
     [Header("Game Control")]
-    [SerializeField] private GameControlManager gameControlManager;
+    [SerializeField]
+    private GameControlManager gameControlManager;
 
     [Header("Tabs")]
-    [SerializeField] private Button itemsTabButton;
-    [SerializeField] private Button filesTabButton;
+    [SerializeField]
+    private Button itemsTabButton;
+
+    [SerializeField]
+    private Button keyItemsTabButton;
+
+    [SerializeField]
+    private Button filesTabButton;
 
     [Header("Pages")]
-    [SerializeField] private GameObject itemsPage;
-    [SerializeField] private GameObject filesPage;
+    [SerializeField]
+    private GameObject itemsPage;
+
+    [SerializeField]
+    private GameObject filesPage;
 
     [Header("Items UI")]
-    [SerializeField] private Transform itemsListContainer;
-    [SerializeField] private TMP_Text itemNameText;
-    [SerializeField] private TMP_Text itemDescriptionText;
-    [SerializeField] private Image itemPreviewImage;
+    [SerializeField]
+    private Transform itemsListContainer;
+
+    [SerializeField]
+    private TMP_Text itemNameText;
+
+    [SerializeField]
+    private TMP_Text itemDescriptionText;
+
+    [SerializeField]
+    private Image itemPreviewImage;
 
     [Header("Files UI")]
-    [SerializeField] private Transform filesListContainer;
-    [SerializeField] private TMP_Text fileNameText;
-    [SerializeField] private TMP_Text fileContentText;
-    [SerializeField] private Image filePreviewImage;
+    [SerializeField]
+    private Transform filesListContainer;
+
+    [SerializeField]
+    private TMP_Text fileNameText;
+
+    [SerializeField]
+    private TMP_Text fileContentText;
+
+    [SerializeField]
+    private Image filePreviewImage;
 
     [Header("Template")]
-    [SerializeField] private Button entryButtonTemplate;
+    [SerializeField]
+    private Button entryButtonTemplate;
 
     private InventoryTab currentTab =
         InventoryTab.Items;
@@ -61,6 +91,13 @@ public class InventoryUI : MonoBehaviour
         {
             itemsTabButton.onClick.AddListener(
                 ShowItems
+            );
+        }
+
+        if (keyItemsTabButton != null)
+        {
+            keyItemsTabButton.onClick.AddListener(
+                ShowKeyItems
             );
         }
 
@@ -132,14 +169,19 @@ public class InventoryUI : MonoBehaviour
             );
         }
 
-        if (currentTab ==
-            InventoryTab.Items)
+        switch (currentTab)
         {
-            ShowItems();
-        }
-        else
-        {
-            ShowFiles();
+            case InventoryTab.Items:
+                ShowItems();
+                break;
+
+            case InventoryTab.KeyItems:
+                ShowKeyItems();
+                break;
+
+            case InventoryTab.Files:
+                ShowFiles();
+                break;
         }
     }
 
@@ -165,16 +207,17 @@ public class InventoryUI : MonoBehaviour
         currentTab =
             InventoryTab.Items;
 
-        if (itemsPage != null)
-        {
-            itemsPage.SetActive(true);
-        }
+        ShowItemsPage();
+        RefreshItems();
+        ClearItemDetails();
+    }
 
-        if (filesPage != null)
-        {
-            filesPage.SetActive(false);
-        }
+    private void ShowKeyItems()
+    {
+        currentTab =
+            InventoryTab.KeyItems;
 
+        ShowItemsPage();
         RefreshItems();
         ClearItemDetails();
     }
@@ -198,6 +241,19 @@ public class InventoryUI : MonoBehaviour
         ClearFileDetails();
     }
 
+    private void ShowItemsPage()
+    {
+        if (itemsPage != null)
+        {
+            itemsPage.SetActive(true);
+        }
+
+        if (filesPage != null)
+        {
+            filesPage.SetActive(false);
+        }
+    }
+
     private void RefreshItems()
     {
         ClearItemEntries();
@@ -215,8 +271,38 @@ public class InventoryUI : MonoBehaviour
                 continue;
             }
 
+            if (!ShouldShowItem(item))
+            {
+                continue;
+            }
+
             CreateItemEntry(item);
         }
+    }
+
+    private bool ShouldShowItem(
+        ItemData item)
+    {
+        if (item == null)
+        {
+            return false;
+        }
+
+        if (currentTab ==
+            InventoryTab.Items)
+        {
+            return item.category ==
+                ItemCategory.Regular;
+        }
+
+        if (currentTab ==
+            InventoryTab.KeyItems)
+        {
+            return item.category ==
+                ItemCategory.KeyItem;
+        }
+
+        return false;
     }
 
     private void RefreshFiles()

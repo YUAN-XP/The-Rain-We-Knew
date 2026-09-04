@@ -149,10 +149,23 @@ public class DialogueManager : MonoBehaviour
 
         if (speakerText != null)
         {
-            speakerText.text =
-                line.speaker;
+            bool hasSpeaker =
+                !string.IsNullOrWhiteSpace(
+                    line.speaker
+                );
 
-            speakerText.ForceMeshUpdate();
+            speakerText.gameObject.SetActive(
+                hasSpeaker
+            );
+
+            speakerText.text = hasSpeaker
+                ? line.speaker
+                : string.Empty;
+
+            if (hasSpeaker)
+            {
+                speakerText.ForceMeshUpdate();
+            }
         }
 
         if (dialogueText != null)

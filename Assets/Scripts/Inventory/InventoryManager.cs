@@ -66,6 +66,16 @@ public class InventoryManager : MonoBehaviour
             return;
         }
 
+        if (item.isPermanent)
+        {
+            Debug.Log(
+                "Inventory: Permanent item cannot be removed - "
+                + item.itemName
+            );
+
+            return;
+        }
+
         if (items.Remove(item))
         {
             Debug.Log(

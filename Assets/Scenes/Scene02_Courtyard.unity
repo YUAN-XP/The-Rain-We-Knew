@@ -810,7 +810,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5293891166e143c1b2468b15ed639162, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RoomTransitionInteractable
-  interactionPrompt: '[E] Up'
+  interactionPrompt: "[E] \u4E0A\u697C"
   destination: {fileID: 967128108}
   screenFade: {fileID: 1903173821}
   gameControlManager: {fileID: 0}
@@ -1319,7 +1319,9 @@ GameObject:
   m_Component:
   - component: {fileID: 628903684}
   - component: {fileID: 628903685}
-  m_Layer: 0
+  - component: {fileID: 628903687}
+  - component: {fileID: 628903688}
+  m_Layer: 6
   m_Name: Wardrobe_Placeholder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1401,6 +1403,67 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
+--- !u!61 &628903687
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 628903683}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &628903688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 628903683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 581e8006e6a086f489a54b5b9e0d6667, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueInteractable
+  interactionPrompt: "[E] \u8C03\u67E5"
+  dialogueData: {fileID: 11400000, guid: 37e88fdefdda51149a67fd2a9b1b5459, type: 2}
+  dialogueManager: {fileID: 0}
 --- !u!1 &658174432
 GameObject:
   m_ObjectHideFlags: 0
@@ -1411,7 +1474,9 @@ GameObject:
   m_Component:
   - component: {fileID: 658174433}
   - component: {fileID: 658174434}
-  m_Layer: 0
+  - component: {fileID: 658174436}
+  - component: {fileID: 658174435}
+  m_Layer: 6
   m_Name: Lamp_Placeholder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1493,6 +1558,67 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
+--- !u!114 &658174435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 658174432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 581e8006e6a086f489a54b5b9e0d6667, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueInteractable
+  interactionPrompt: "[E] \u8C03\u67E5"
+  dialogueData: {fileID: 11400000, guid: d84658253384aa74bab1167d0e8e04fb, type: 2}
+  dialogueManager: {fileID: 0}
+--- !u!61 &658174436
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 658174432}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &733492396
 GameObject:
   m_ObjectHideFlags: 0
@@ -1832,7 +1958,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5293891166e143c1b2468b15ed639162, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RoomTransitionInteractable
-  interactionPrompt: '[E] Enter'
+  interactionPrompt: "[E] \u8FDB\u5165"
   destination: {fileID: 1490487863}
   screenFade: {fileID: 1903173821}
   gameControlManager: {fileID: 0}
@@ -2296,7 +2422,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1412023613}
   - component: {fileID: 1412023614}
-  m_Layer: 0
+  - component: {fileID: 1412023616}
+  - component: {fileID: 1412023615}
+  m_Layer: 6
   m_Name: Cabinet_Placeholder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2378,6 +2506,67 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
+--- !u!114 &1412023615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412023612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 581e8006e6a086f489a54b5b9e0d6667, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueInteractable
+  interactionPrompt: "[E] \u8C03\u67E5"
+  dialogueData: {fileID: 11400000, guid: 7f847f187a3421446ab37ceb441dc14c, type: 2}
+  dialogueManager: {fileID: 0}
+--- !u!61 &1412023616
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412023612}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1429807037
 GameObject:
   m_ObjectHideFlags: 0
@@ -2654,7 +2843,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5293891166e143c1b2468b15ed639162, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RoomTransitionInteractable
-  interactionPrompt: '[E] Down'
+  interactionPrompt: "[E] \u4E0B\u697C"
   destination: {fileID: 532214893}
   screenFade: {fileID: 1903173821}
   gameControlManager: {fileID: 0}
@@ -3925,7 +4114,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2113285639}
   - component: {fileID: 2113285640}
-  m_Layer: 0
+  - component: {fileID: 2113285642}
+  - component: {fileID: 2113285641}
+  m_Layer: 6
   m_Name: Bed_Placeholder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4007,6 +4198,67 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
+--- !u!114 &2113285641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2113285638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 581e8006e6a086f489a54b5b9e0d6667, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueInteractable
+  interactionPrompt: "[E] \u8C03\u67E5"
+  dialogueData: {fileID: 11400000, guid: 224168154210ef74389f36e1de5a486a, type: 2}
+  dialogueManager: {fileID: 0}
+--- !u!61 &2113285642
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2113285638}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &2144261739
 GameObject:
   m_ObjectHideFlags: 0
