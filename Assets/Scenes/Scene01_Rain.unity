@@ -1723,7 +1723,7 @@ Transform:
   m_GameObject: {fileID: 538973657}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.994, y: 0, z: 0}
+  m_LocalPosition: {x: -6.01, y: -0.1, z: 0}
   m_LocalScale: {x: 0.8, y: 1.8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2529,6 +2529,10 @@ MonoBehaviour:
   lookAheadDistance: 2
   minX: -13
   maxX: 31
+  followY: 0
+  verticalOffset: 0
+  minY: -10
+  maxY: 10
 --- !u!1 &933538716
 GameObject:
   m_ObjectHideFlags: 0
