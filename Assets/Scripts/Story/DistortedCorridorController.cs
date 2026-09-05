@@ -16,6 +16,7 @@ public class DistortedCorridorController : MonoBehaviour
     [SerializeField] private float distortionStartX=216;
     [SerializeField] private float distortionEndX=248;
     private PlayerController player;private StoryStateManager story;private StoryNoticeUI notice;private GameControlManager controls;
+    [SerializeField] private GameObject[] disabledDuringDistortion;
     private bool joined;
     private Color[] colors;
     public bool HasJoined=>joined;
@@ -26,11 +27,19 @@ public class DistortedCorridorController : MonoBehaviour
         corridorArea.SetActive(false);rearBoundary.enabled=false;guitarGuide.volume=0;
         if(sourceExtension!=null)sourceExtension.SetActive(false);
         if(joinedRearBoundary!=null)joinedRearBoundary.enabled=false;
+        ApplyStairState();
+    }
+    private void ApplyStairState()
+    {
+        if(story==null || !story.Has(StoryFlag.DistortedCorridorStarted))return;
+        foreach(var go in disabledDuringDistortion)if(go!=null)go.SetActive(false);
     }
     private void LateUpdate()
     {
-        if(story==null || player==null || !story.Has(StoryFlag.ChildShadowSequencePlayed))return;
+        if(story==null || player==null || !story.Has(StoryFlag.ChildShadowFollowupPlayed))return;
+        story.Set(StoryFlag.DistortedCorridorStarted);
         corridorArea.SetActive(true);
+        ApplyStairState();
         if(sourceExtension!=null)sourceExtension.SetActive(true);
         if(originalRightBoundary!=null)originalRightBoundary.SetActive(false);
         bool upstairs=Mathf.Abs(player.transform.position.y-joinPoint.position.y)<2;

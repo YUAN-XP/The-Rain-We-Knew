@@ -5,7 +5,8 @@ using UnityEngine;
 // Append new keys; their numeric values are serialized in scene components.
 public enum StoryFlag { CameraDoorRevealed, CameraTutorialTriggered, CameraFirstRaised,
     DeskEventTriggered, ChildShadowSequencePlayed, SprintUnlocked, ThreeDoorPuzzleCompleted,
-    Scene03BirthdayKnown, OverallsUnlocked, CorridorRemarkShown, DrawerOpened }
+    Scene03BirthdayKnown, OverallsUnlocked, CorridorRemarkShown, DrawerOpened, ChildShadowFollowupPlayed,
+    DistortedCorridorStarted, ParentShadowEventPlayed, GuideFirstDialoguePlayed, Scene01GateOpened, Scene01NewspaperTaken }
 public enum AdultOutfit { Default, Overalls }
 
 [DisallowMultipleComponent]
@@ -20,6 +21,12 @@ public class StoryStateManager : MonoBehaviour
         bool changed = value ? flags.Add(flag) : flags.Remove(flag);
         if (changed) Changed?.Invoke();
         return changed;
+    }
+    public bool OwnsOutfit(OutfitData data) => data!=null && (data.initiallyOwned || Has(data.unlockFlag));
+    public bool EquipOutfit(OutfitData data)
+    {
+        if(!OwnsOutfit(data))return false;
+        SetOutfit(data.outfit);return Outfit==data.outfit;
     }
     public void SetOutfit(AdultOutfit outfit)
     {

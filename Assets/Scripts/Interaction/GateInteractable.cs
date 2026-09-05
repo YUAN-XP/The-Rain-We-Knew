@@ -23,6 +23,10 @@ public class GateInteractable :
 
     public string GetInteractionPrompt()
     {
+        if(dialogueManager==null)dialogueManager=FindAnyObjectByType<DialogueManager>();
+        if(inventoryManager==null)inventoryManager=FindAnyObjectByType<InventoryManager>();
+        if(scene01State==null)scene01State=FindAnyObjectByType<Scene01State>();
+
         if (scene01State == null)
         {
             return interactionPrompt;
@@ -45,6 +49,10 @@ public class GateInteractable :
 
     public void Interact()
     {
+        if(dialogueManager==null)dialogueManager=FindAnyObjectByType<DialogueManager>();
+        if(inventoryManager==null)inventoryManager=FindAnyObjectByType<InventoryManager>();
+        if(scene01State==null)scene01State=FindAnyObjectByType<Scene01State>();
+
         if (scene01State == null ||
             dialogueManager == null ||
             inventoryManager == null ||

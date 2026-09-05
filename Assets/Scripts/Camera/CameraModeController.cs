@@ -56,11 +56,8 @@ public class CameraModeController : MonoBehaviour
     {
         if(IsBusy || IsRaised || controls==null || controls.IsLocked() || inventory==null || requiredItem==null || !inventory.HasItem(requiredItem)) return false;
         controls.AcquireLock(ControlLockReason.Camera); IsRaised=true; viewfinder.SetActive(true);
-        if(story.Has(StoryFlag.CameraTutorialTriggered) && !story.Has(StoryFlag.CameraFirstRaised)) {
-            bool inZone=false;
-            foreach(var zone in FindObjectsByType<CameraReactionZone>()) inZone|=zone.PlayerInContext;
-            if(!inZone) notice.Show("二楼有些不对劲。");
-        }
+        if(!story.Has(StoryFlag.CameraDoorRevealed))
+            notice.Show("二楼似乎有点不对劲");
         story.Set(StoryFlag.CameraFirstRaised); notice.Tutorial("");
         foreach(var target in FindObjectsByType<CameraRevealTarget>()) target.Preview(true);
         return true;

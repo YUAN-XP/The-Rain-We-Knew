@@ -9,7 +9,8 @@ public class InventoryUI : MonoBehaviour
     {
         Items,
         KeyItems,
-        Files
+        Files,
+        Outfits
     }
 
     [Header("Main")]
@@ -74,6 +75,10 @@ public class InventoryUI : MonoBehaviour
     [SerializeField]
     private Button entryButtonTemplate;
 
+    [Header("Adult Outfits")]
+    [SerializeField] private Button outfitsTabButton;
+    [SerializeField] private GameObject outfitsPage;
+
     private InventoryTab currentTab =
         InventoryTab.Items;
 
@@ -87,6 +92,8 @@ public class InventoryUI : MonoBehaviour
 
     private void Start()
     {
+        if(outfitsTabButton!=null)outfitsTabButton.onClick.AddListener(ShowOutfits);
+        if(outfitsPage!=null)outfitsPage.SetActive(false);
         if (itemsTabButton != null)
         {
             itemsTabButton.onClick.AddListener(
@@ -177,6 +184,10 @@ public class InventoryUI : MonoBehaviour
                 ShowKeyItems();
                 break;
 
+            case InventoryTab.Outfits:
+                ShowOutfits();
+                break;
+
             case InventoryTab.Files:
                 ShowFiles();
                 break;
@@ -220,8 +231,17 @@ public class InventoryUI : MonoBehaviour
         ClearItemDetails();
     }
 
+    private void ShowOutfits()
+    {
+        currentTab=InventoryTab.Outfits;
+        if(itemsPage!=null)itemsPage.SetActive(false);
+        if(filesPage!=null)filesPage.SetActive(false);
+        if(outfitsPage!=null)outfitsPage.SetActive(true);
+    }
+
     private void ShowFiles()
     {
+        if(outfitsPage!=null)outfitsPage.SetActive(false);
         currentTab =
             InventoryTab.Files;
 
@@ -241,6 +261,7 @@ public class InventoryUI : MonoBehaviour
 
     private void ShowItemsPage()
     {
+        if(outfitsPage!=null)outfitsPage.SetActive(false);
         if (itemsPage != null)
         {
             itemsPage.SetActive(true);

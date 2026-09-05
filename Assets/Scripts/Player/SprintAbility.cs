@@ -9,7 +9,7 @@ public class SprintAbility : MonoBehaviour
     private void Start(){story=FindAnyObjectByType<StoryStateManager>();notice=FindAnyObjectByType<StoryNoticeUI>();}
     public void ObserveMovement(float horizontal)
     {
-        if(story==null || horizontal<=0 || !story.Has(StoryFlag.ChildShadowSequencePlayed) || story.Has(StoryFlag.SprintUnlocked))return;
+        if(story==null || horizontal<=0 || !story.Has(StoryFlag.ChildShadowFollowupPlayed) || story.Has(StoryFlag.SprintUnlocked))return;
         story.Set(StoryFlag.SprintUnlocked);if(notice!=null)notice.Show("[Shift] 奔跑",4f);
     }
     public float GetMultiplier(bool shiftHeld)=>shiftHeld && story!=null && story.Has(StoryFlag.SprintUnlocked) ? speedMultiplier : 1f;

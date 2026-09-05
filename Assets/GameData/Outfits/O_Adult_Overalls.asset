@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 007fccb43d650d748893350a0a459c0e, type: 3}
+  m_Name: O_Adult_Overalls
+  m_EditorClassIdentifier: Assembly-CSharp::OutfitData
+  outfit: 1
+  outfitName: "\u80CC\u5E26\u88C5"
+  description: "\u4ECE\u6B21\u5367\u8863\u67DC\u91CC\u627E\u5230\u7684\u80CC\u5E26\u88C5\u3002"
+  preview: {fileID: -4573839739157995700, guid: 9d05ac13c54fd91458f7118da97ad240, type: 3}
+  initiallyOwned: 0
+  unlockFlag: 8

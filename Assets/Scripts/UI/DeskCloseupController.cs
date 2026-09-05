@@ -8,8 +8,8 @@ public class DeskCloseupController : MonoBehaviour
     [SerializeField] private TMP_FontAsset font;
     [SerializeField] private ItemData oilLamp;
     private GameControlManager controls; private StoryStateManager story; private InventoryManager inventory;
-    private GameObject canvas,desktop,lockPanel,computerPanel,outfitPanel;
-    private TMP_Text lockMessage,computerMessage,outfitMessage;
+    private GameObject canvas,desktop,lockPanel,computerPanel;
+    private TMP_Text lockMessage,computerMessage;
     private TMP_InputField password;
     private FourDigitLock[] wheels;
     public bool IsOpen => canvas!=null && canvas.activeSelf;
@@ -26,7 +26,7 @@ public class DeskCloseupController : MonoBehaviour
     {
         var root=RuntimePanelUI.Canvas("DeskAndOutfitCanvas",transform,130); canvas=root.gameObject;
         RuntimePanelUI.Panel("Backdrop",root,Vector2.zero,Vector2.one,new Color(.045f,.055f,.057f,.99f));
-        desktop=PageRoot("Desktop",root); lockPanel=PageRoot("Drawer",root); computerPanel=PageRoot("Computer",root); outfitPanel=PageRoot("AdultOutfit",root);
+        desktop=PageRoot("Desktop",root); lockPanel=PageRoot("Drawer",root); computerPanel=PageRoot("Computer",root);
         var desk=RuntimePanelUI.Panel("WoodDesktop",desktop.transform,new Vector2(.12f,.17f),new Vector2(.88f,.77f),new Color(.26f,.19f,.13f));
         RuntimePanelUI.Button("电脑",desk.transform,font,new Vector2(.5f,.38f),new Vector2(.85f,.9f),()=>ShowPage("Computer"));
         RuntimePanelUI.Button("抽屉",desk.transform,font,new Vector2(.08f,.1f),new Vector2(.45f,.38f),()=>ShowPage("Drawer"));
@@ -51,23 +51,26 @@ public class DeskCloseupController : MonoBehaviour
         RuntimePanelUI.Button("确认",computerPanel.transform,font,new Vector2(.52f,.18f),new Vector2(.7f,.27f),SubmitComputer);
         RuntimePanelUI.Button("返回",computerPanel.transform,font,new Vector2(.3f,.18f),new Vector2(.48f,.27f),()=>ShowPage("Desktop"));
         RuntimePanelUI.Text("电脑",computerPanel.transform,font,new Vector2(.3f,.65f),new Vector2(.7f,.75f),38);
-        outfitMessage=RuntimePanelUI.Text("",outfitPanel.transform,font,new Vector2(.25f,.62f),new Vector2(.75f,.76f),36);
-        RuntimePanelUI.Button("原本衣着",outfitPanel.transform,font,new Vector2(.27f,.38f),new Vector2(.48f,.53f),()=>ChooseOutfit(AdultOutfit.Default));
-        RuntimePanelUI.Button("背带装",outfitPanel.transform,font,new Vector2(.52f,.38f),new Vector2(.73f,.53f),()=>ChooseOutfit(AdultOutfit.Overalls));
-        RuntimePanelUI.Button("[Esc] 关闭",outfitPanel.transform,font,new Vector2(.4f,.17f),new Vector2(.6f,.26f),Close);
+
     }
     private GameObject PageRoot(string name,Transform root)=>RuntimePanelUI.Rect(name,root,Vector2.zero,Vector2.one).gameObject;
     public bool OpenDesk() => Open("Desktop");
-    public bool OpenWardrobe() { if(!Open("Outfit"))return false; story.Set(StoryFlag.OverallsUnlocked); ChooseOutfit(story.Outfit);return true; }
+    public bool OpenWardrobe()
+    {
+        if(controls==null || controls.IsLocked() || IsOpen)return false;
+        bool first=story.Set(StoryFlag.OverallsUnlocked);
+        GetComponent<StoryNoticeUI>().Show(first?"获得了服装「背带装」。":"衣柜已经空了。");
+        return true;
+    }
     private bool Open(string page) { if(controls==null || controls.IsLocked() || IsOpen)return false; controls.AcquireLock(ControlLockReason.CloseUp); canvas.SetActive(true); ShowPage(page);return true; }
     public void ShowPage(string page)
     {
         if(!IsOpen)return; Page=page;
-        desktop.SetActive(page=="Desktop"); lockPanel.SetActive(page=="Drawer"); computerPanel.SetActive(page=="Computer"); outfitPanel.SetActive(page=="Outfit");
+        desktop.SetActive(page=="Desktop"); lockPanel.SetActive(page=="Drawer"); computerPanel.SetActive(page=="Computer");
         if(page=="Computer"){ computerMessage.text=""; password.text=""; password.ActivateInputField(); }
         if(page=="Drawer")lockMessage.text="";
     }
-    public void ChooseOutfit(AdultOutfit outfit) { story.SetOutfit(outfit); outfitMessage.text="当前："+(story.Outfit==AdultOutfit.Default?"原本衣着":"背带装"); }
+
     public void SubmitComputer(){ if(IsOpen && Page=="Computer")computerMessage.text="密码错误"; }
     public void ConfirmLock()
     {

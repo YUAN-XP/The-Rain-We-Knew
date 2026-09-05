@@ -54,6 +54,9 @@ public class PuddleReflectionInteractable :
 
     public void Interact()
     {
+        if(dialogueManager==null)dialogueManager=FindAnyObjectByType<DialogueManager>();
+        if(gameControlManager==null)gameControlManager=FindAnyObjectByType<GameControlManager>();
+
         if (sequenceRunning)
         {
             return;

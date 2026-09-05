@@ -23,6 +23,17 @@ public class NewspaperFragmentInteractable :
     [SerializeField] private GameObject gateKeyObject;
 
     private bool collected = false;
+    private System.Collections.IEnumerator Start()
+    {
+        yield return null;
+        if(scene01State==null)scene01State=FindAnyObjectByType<Scene01State>();
+        if(scene01State!=null && scene01State.newspaperFragmentTaken)
+        {
+            collected=true;
+            var collider=GetComponent<Collider2D>();if(collider!=null)collider.enabled=false;
+            var visual=GetComponent<SpriteRenderer>();if(visual!=null)visual.enabled=false;
+        }
+    }
 
     public string GetInteractionPrompt()
     {
@@ -31,6 +42,10 @@ public class NewspaperFragmentInteractable :
 
     public void Interact()
     {
+        if(dialogueManager==null)dialogueManager=FindAnyObjectByType<DialogueManager>();
+        if(inventoryManager==null)inventoryManager=FindAnyObjectByType<InventoryManager>();
+        if(scene01State==null)scene01State=FindAnyObjectByType<Scene01State>();
+
         if (collected)
         {
             return;

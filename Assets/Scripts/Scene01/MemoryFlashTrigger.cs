@@ -38,11 +38,13 @@ public class MemoryFlashTrigger : MonoBehaviour
     [SerializeField]
     private AudioClip gunshotClip;
 
+    private string memoryCanvasName;
     private bool hasTriggered = false;
     private bool sequenceRunning = false;
 
     private void Awake()
     {
+        memoryCanvasName=memoryCanvasGroup!=null?memoryCanvasGroup.name:null;
         if (memoryCanvasGroup != null)
         {
             memoryCanvasGroup.alpha = 0f;
@@ -76,6 +78,11 @@ public class MemoryFlashTrigger : MonoBehaviour
 
     private IEnumerator PlayMemorySequence()
     {
+        if(gameControlManager==null)gameControlManager=FindAnyObjectByType<GameControlManager>();
+        if(memoryCanvasGroup==null && gameControlManager!=null && memoryCanvasName!=null)
+            foreach(var group in gameControlManager.GetComponentsInChildren<CanvasGroup>(true))
+                if(group.name==memoryCanvasName){memoryCanvasGroup=group;memoryText=group.GetComponentInChildren<TMP_Text>(true);break;}
+
         sequenceRunning = true;
         hasTriggered = true;
 

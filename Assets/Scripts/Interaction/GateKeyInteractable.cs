@@ -25,6 +25,9 @@ public class GateKeyInteractable :
 
     public void Interact()
     {
+        if(dialogueManager==null)dialogueManager=FindAnyObjectByType<DialogueManager>();
+        if(inventoryManager==null)inventoryManager=FindAnyObjectByType<InventoryManager>();
+
         if (collected)
         {
             return;

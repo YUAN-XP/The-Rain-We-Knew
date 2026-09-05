@@ -10,6 +10,10 @@ public class DialogueInteractable :
     [SerializeField] private DialogueData dialogueData;
     [SerializeField] private DialogueManager dialogueManager;
 
+    [Header("Optional first / repeat dialogue")]
+    [SerializeField] private DialogueData repeatDialogue;
+    [SerializeField] private StoryFlag firstPlayedFlag=StoryFlag.GuideFirstDialoguePlayed;
+
     private bool hasWarnedMissingDialogueManager;
 
     private void Awake()
@@ -50,7 +54,11 @@ public class DialogueInteractable :
             return;
         }
 
-        dialogueManager.StartDialogue(dialogueData);
+        var controls=FindAnyObjectByType<GameControlManager>();
+        if(controls!=null && controls.IsLocked())return;
+        var story=repeatDialogue!=null?FindAnyObjectByType<StoryStateManager>():null;
+        dialogueManager.StartDialogue(story!=null && story.Has(firstPlayedFlag)?repeatDialogue:dialogueData);
+        if(story!=null && dialogueManager.IsDialogueActive())story.Set(firstPlayedFlag);
     }
 
     private void ResolveDialogueManager()

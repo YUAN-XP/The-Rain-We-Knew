@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 public class PersistentRuntime : MonoBehaviour
 {
     private static PersistentRuntime instance;
+    public static PersistentRuntime Instance => instance;
 
     [Header("Persistent Objects")]
     [SerializeField] private Transform player;
