@@ -54,6 +54,16 @@ public class ScreenFadeController : MonoBehaviour
         IsFading = false;
     }
 
+    // Bridge endpoints deliberately keep the existing fade canvas opaque.
+    public IEnumerator FadeOutAndHold()
+    {
+        while (IsFading) yield return null;
+        IsFading = true;
+        SetCanvasState(canvasGroup != null ? canvasGroup.alpha : 0f, true);
+        yield return FadeTo(1f);
+        IsFading = false;
+    }
+
     private IEnumerator FadeTo(float targetAlpha)
     {
         if (canvasGroup == null)

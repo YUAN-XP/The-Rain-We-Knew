@@ -6,7 +6,10 @@ public enum ControlLockReason
 {
     Dialogue,
     Inventory,
-    Interaction
+    Interaction,
+    Camera,
+    CloseUp,
+    Cutscene
 }
 
 public class GameControlManager : MonoBehaviour

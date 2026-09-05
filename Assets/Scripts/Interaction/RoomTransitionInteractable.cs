@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Events;
 
 [DisallowMultipleComponent]
 public class RoomTransitionInteractable :
@@ -15,6 +16,8 @@ public class RoomTransitionInteractable :
 
     [Header("Existing Runtime")]
     [SerializeField] private GameControlManager gameControlManager;
+
+    [SerializeField] private UnityEvent onTransitionCompleted = new UnityEvent();
 
     private bool isTransitioning;
     private bool ownsInteractionLock;
@@ -62,6 +65,7 @@ public class RoomTransitionInteractable :
 
         ReleaseControlLock();
         isTransitioning = false;
+        onTransitionCompleted.Invoke();
     }
 
     private bool TryResolveReferences(

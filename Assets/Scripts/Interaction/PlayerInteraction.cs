@@ -14,6 +14,12 @@ public class PlayerInteraction : MonoBehaviour
 
     private IInteractable currentInteractable;
 
+    private void OnDisable()
+    {
+        currentInteractable = null;
+        if (interactionUI != null) interactionUI.HidePrompt();
+    }
+
     private void Update()
     {
         // 对话进行中时，不允许再次触发场景交互

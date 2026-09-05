@@ -153,9 +153,7 @@ public class InventoryUI : MonoBehaviour
         }
 
         if (gameControlManager != null &&
-            gameControlManager.IsLockedBy(
-                ControlLockReason.Dialogue
-            ))
+            gameControlManager.IsLocked())
         {
             return;
         }
