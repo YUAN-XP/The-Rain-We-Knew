@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c59465da9bc39243a973773784e853a, type: 3}
+  m_Name: D_S03_MechanicalTimer
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  lines:
+  - speaker: "\u7236\u4EB2"
+    text: "\u76F8\u673A\u6709\u5B9A\u65F6\u529F\u80FD\u3002\u628A\u76F8\u673A\u653E\u7A33\uFF0C\u62E8\u597D\u5B9A\u65F6\u5668\uFF0C\u5B83\u5C31\u4F1A\u81EA\u5DF1\u62CD\u4E86\u3002"

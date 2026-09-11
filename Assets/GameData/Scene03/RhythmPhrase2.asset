@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efedde6ab13186c49b86faa5720c5d98, type: 3}
+  m_Name: RhythmPhrase2
+  m_EditorClassIdentifier: Assembly-CSharp::RhythmPhraseData
+  heldChord: 275
+  notes:
+  - key: 119
+    time: 2
+    tone: {fileID: 8300000, guid: 6fd9bb6ad47eb514e90d683293435c9b, type: 3}
+  - key: 119
+    time: 2.675
+    tone: {fileID: 8300000, guid: 6fd9bb6ad47eb514e90d683293435c9b, type: 3}
+  - key: 115
+    time: 2.8999999
+    tone: {fileID: 8300000, guid: 5f49db88bc5675041933635e317fe8e2, type: 3}
+  - key: 119
+    time: 3.7999997
+    tone: {fileID: 8300000, guid: 6fd9bb6ad47eb514e90d683293435c9b, type: 3}
+  - key: 100
+    time: 4.7
+    tone: {fileID: 8300000, guid: 79e1a81a8c503da48948c4a087ae231e, type: 3}
+  - key: 97
+    time: 5.6
+    tone: {fileID: 8300000, guid: e8033e63f55a1c9459d418702d135fa7, type: 3}
+  - key: 32
+    time: 7.8499994
+    tone: {fileID: 8300000, guid: 8e198d450a4ad054d8f0ed5752de563e, type: 3}
+  perfectWindow: 0.13
+  goodWindow: 0.3
+  tail: 0.8

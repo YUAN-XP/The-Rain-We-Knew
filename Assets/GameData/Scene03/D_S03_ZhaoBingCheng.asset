@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c59465da9bc39243a973773784e853a, type: 3}
+  m_Name: D_S03_ZhaoBingCheng
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  lines:
+  - speaker: "\u8D75\u70B3\u7A0B"
+    text: "\u5C0F\u9E4F\uFF1F\u4ECA\u5929\u7ADF\u7136\u51FA\u6765\u73A9\u5566\u3002"
+  - speaker: "\u8096\u9E4F"
+    text: "\u55EF\u3002\u60A8\u5728\u9493\u9C7C\uFF1F"
+  - speaker: "\u8D75\u70B3\u7A0B"
+    text: "\u9493\u70B9\u9C7C\uFF0C\u62FF\u5230\u9694\u58C1\u9547\u96C6\u5E02\u5356\uFF0C\u8865\u8D34\u5BB6\u7528\u3002"
+  - speaker: "\u8D75\u70B3\u7A0B"
+    text: "\u6211\u548C\u8D75\u4ECA\u745E\u8FD8\u60F3\u7740\uFF0C\u4EE5\u540E\u6512\u70B9\u94B1\uFF0C\u53BB\u57CE\u5E02\u65C5\u6E38\u3002"
+  - speaker: "\u8D75\u70B3\u7A0B"
+    text: "\u6211\u513F\u5B50\u70B3\u745E\u6700\u8FD1\u56DE\u5BB6\uFF0C\u8BF4\u57CE\u91CC\u7684\u97F3\u4E50\u5267\u5F88\u597D\u770B\u3002\u6211\u4EEC\u4E5F\u60F3\u4EE5\u540E\u53BB\u57CE\u91CC\u542C\u542C\u97F3\u4E50\u3002"
+  - speaker: "\u8096\u9E4F"
+    text: "\u6211\u4E5F\u633A\u559C\u6B22\u97F3\u4E50\u7684\u3002"
+  - speaker: "\u8D75\u70B3\u7A0B"
+    text: "\u662F\u561B\uFF01\u4F60\u8FD9\u662F\u8981\u53BB\u54EA\u513F\uFF1F"
+  - speaker: "\u8096\u9E4F"
+    text: "\u53BB\u627E\u670B\u53CB\u3002"
+  - speaker: "\u8D75\u70B3\u7A0B"
+    text: "\u6628\u5929\u521A\u642C\u6765\u7684\u90A3\u4E2A\u7537\u5B69\u5427\uFF1F\u5FEB\u53BB\uFF0C\u522B\u8BA9\u670B\u53CB\u7B49\u6025\u4E86\u3002"
+  - speaker: "\u8D75\u70B3\u7A0B"
+    text: "\u8FD9\u5305\u5C0F\u9C7C\u4ED4\u9001\u4F60\u3002"
+  - speaker:
+    text: "\u83B7\u5F97\u4E86\u4E00\u5305\u5C0F\u9C7C\u4ED4\u3002"

@@ -10,6 +10,11 @@ public class RoomTransitionInteractable :
     [Header("Interaction")]
     [SerializeField] private string interactionPrompt = "[E] Enter";
 
+    [Header("Optional story lock")]
+    [SerializeField] private bool requireStoryFlag;
+    [SerializeField] private StoryFlag requiredStoryFlag;
+    [SerializeField] private DialogueData lockedDialogue;
+
     [Header("Transition")]
     [SerializeField] private Transform destination;
     [SerializeField] private ScreenFadeController screenFade;
@@ -18,6 +23,10 @@ public class RoomTransitionInteractable :
     [SerializeField] private GameControlManager gameControlManager;
 
     [SerializeField] private UnityEvent onTransitionCompleted = new UnityEvent();
+
+    [Header("Optional destination camera bounds")]
+    [SerializeField] private bool overrideCameraLimits;
+    [SerializeField] private Vector2 destinationCameraLimits;
 
     private bool isTransitioning;
     private bool ownsInteractionLock;
@@ -38,6 +47,17 @@ public class RoomTransitionInteractable :
         if (!TryResolveReferences(out Transform player))
         {
             return;
+        }
+
+        if (gameControlManager.IsLocked()) return;
+        if(requireStoryFlag)
+        {
+            var story=FindAnyObjectByType<StoryStateManager>();
+            if(story==null||!story.Has(requiredStoryFlag))
+            {
+                if(lockedDialogue!=null)FindAnyObjectByType<DialogueManager>(FindObjectsInactive.Include)?.StartDialogue(lockedDialogue);
+                return;
+            }
         }
 
         StartCoroutine(
@@ -116,7 +136,9 @@ public class RoomTransitionInteractable :
         }
 
         PlayerController playerController =
-            FindAnyObjectByType<PlayerController>();
+            gameControlManager.ActivePlayer != null
+                ? gameControlManager.ActivePlayer
+                : FindAnyObjectByType<PlayerController>();
 
         if (playerController == null)
         {
@@ -151,6 +173,8 @@ public class RoomTransitionInteractable :
 
         if (cameraFollow != null)
         {
+            if (overrideCameraLimits)
+                cameraFollow.SetLimits(destinationCameraLimits.x, destinationCameraLimits.y);
             cameraFollow.SnapToTarget();
         }
     }

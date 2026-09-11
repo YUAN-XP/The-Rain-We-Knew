@@ -37,8 +37,24 @@ public class PersistentRuntime : MonoBehaviour
         Scene scene,
         LoadSceneMode mode)
     {
+        ScenePlayerBinding binding = null;
+        foreach (var root in scene.GetRootGameObjects())
+        {
+            binding = root.GetComponentInChildren<ScenePlayerBinding>(true);
+            if (binding != null) break;
+        }
+        var activePlayer = binding != null ? binding.player : player != null ? player.GetComponent<PlayerController>() : null;
+        if (player != null) player.gameObject.SetActive(binding == null);
+        if (activePlayer != null)
+        {
+            activePlayer.gameObject.SetActive(true);
+            activePlayer.GetComponent<PlayerInteraction>()?.BindRuntime(
+                GetComponentInChildren<InteractionUI>(true), GetComponentInChildren<DialogueManager>(true));
+            GetComponent<GameControlManager>()?.BindPlayer(activePlayer, binding == null || binding.allowAdultOutfits);
+        }
+        if (binding != null) return;
         PlayerSpawnPoint spawnPoint =
-            FindFirstObjectByType<PlayerSpawnPoint>();
+            FindAnyObjectByType<PlayerSpawnPoint>();
 
         if (spawnPoint == null)
         {

@@ -78,8 +78,9 @@ public class DeskCloseupController : MonoBehaviour
         string code=""; foreach(var wheel in wheels)code+=wheel.Value;
         if(code!="0715") { lockMessage.text="密码不对。";return; }
         if(!story.Has(StoryFlag.Scene03BirthdayKnown)){ lockMessage.text="锁没有反应。";return; }
-        if(oilLamp==null)return;
-        inventory.AddItem(oilLamp); if(inventory.HasItem(oilLamp)){story.Set(StoryFlag.DrawerOpened); lockMessage.text=oilLamp.itemName;}
+        if(story.Has(StoryFlag.DrawerOpened)){lockMessage.text="抽屉已经打开，小油灯已取出。";return;}
+        if(oilLamp==null){Debug.LogWarning("Drawer needs its oil lamp ItemData.",this);return;}
+        inventory.AddItem(oilLamp); if(inventory.HasItem(oilLamp)){story.Set(StoryFlag.DrawerOpened);story.Set(StoryFlag.OilLampObtained); lockMessage.text="获得了小油灯。";}
     }
     public void Back() { if(Page=="Drawer" || Page=="Computer")ShowPage("Desktop"); else Close(); }
     public void Close()

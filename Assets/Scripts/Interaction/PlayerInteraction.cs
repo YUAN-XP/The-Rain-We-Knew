@@ -14,6 +14,11 @@ public class PlayerInteraction : MonoBehaviour
 
     private IInteractable currentInteractable;
 
+    public void BindRuntime(InteractionUI ui, DialogueManager dialogue)
+    {
+        interactionUI = ui;
+        dialogueManager = dialogue;
+    }
     private void OnDisable()
     {
         currentInteractable = null;
@@ -22,7 +27,7 @@ public class PlayerInteraction : MonoBehaviour
 
     private void Update()
     {
-        // ¶Ô»°½øĞĞÖĞÊ±£¬²»ÔÊĞíÔÙ´Î´¥·¢³¡¾°½»»¥
+        // å¯¹è¯è¿›è¡Œä¸­æ—¶ï¼Œä¸å…è®¸å†æ¬¡è§¦å‘åœºæ™¯äº¤äº’
         if (dialogueManager != null &&
             dialogueManager.IsDialogueActive())
         {
@@ -34,8 +39,8 @@ public class PlayerInteraction : MonoBehaviour
             return;
         }
 
-        // ¶Ô»°¸Õ¸ÕÔÚÕâÒ»Ö¡½áÊøÊ±£¬
-        // ºöÂÔ½áÊø¶Ô°×ËùÊ¹ÓÃµÄÄÇÒ»´Î E
+        // å¯¹è¯åˆšåˆšåœ¨è¿™ä¸€å¸§ç»“æŸæ—¶ï¼Œ
+        // å¿½ç•¥ç»“æŸå¯¹ç™½æ‰€ä½¿ç”¨çš„é‚£ä¸€æ¬¡ E
         if (dialogueManager != null &&
             dialogueManager.DidDialogueEndThisFrame())
         {

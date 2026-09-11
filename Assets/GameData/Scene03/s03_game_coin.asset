@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1040c18ddc48c2b41b969fe7a3f62c50, type: 3}
+  m_Name: s03_game_coin
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  itemId: s03_game_coin
+  itemName: "\u6E38\u620F\u5E01"
+  description: "\u4E00\u679A\u4ECE\u5C0F\u732B\u8EAB\u65C1\u62FE\u5230\u7684\u6E38\u620F\u5E01\uFF0C\u53EF\u4EE5\u7528\u6765\u5957\u5708\u3002"
+  icon: {fileID: 0}
+  category: 0
+  isPermanent: 0
+  canCombine: 0

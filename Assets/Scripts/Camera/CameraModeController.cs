@@ -20,6 +20,14 @@ public class CameraModeController : MonoBehaviour
     private Texture2D lensTexture;
     private Sprite lensSprite;
     private bool ownsRevealLock;
+    private CameraCaptureContext captureContext;
+    public void SetCaptureContext(CameraCaptureContext value)
+    {
+        if (captureContext == value) return;
+        if (IsRaised) Lower();
+        captureContext = value;
+    }
+    public bool ContextAvailable { get; set; } = true;
     public bool IsRaised { get; private set; }
     public bool IsBusy { get; private set; }
     public Camera CurrentCamera => Camera.main;
@@ -54,9 +62,11 @@ public class CameraModeController : MonoBehaviour
     }
     public bool Raise()
     {
-        if(IsBusy || IsRaised || controls==null || controls.IsLocked() || inventory==null || requiredItem==null || !inventory.HasItem(requiredItem)) return false;
+        if(!ContextAvailable || IsBusy || IsRaised || controls==null || controls.IsLocked() || inventory==null || requiredItem==null || !inventory.HasItem(requiredItem)) return false;
+        if (captureContext != null && !captureContext.CanRaise) return false;
         controls.AcquireLock(ControlLockReason.Camera); IsRaised=true; viewfinder.SetActive(true);
-        if(!story.Has(StoryFlag.CameraDoorRevealed))
+        if (captureContext != null) { captureContext.Preview(CurrentCamera); return true; }
+        if(controls.AllowsAdultOutfits && !story.Has(StoryFlag.CameraDoorRevealed))
             notice.Show("二楼似乎有点不对劲");
         story.Set(StoryFlag.CameraFirstRaised); notice.Tutorial("");
         foreach(var target in FindObjectsByType<CameraRevealTarget>()) target.Preview(true);
@@ -64,6 +74,7 @@ public class CameraModeController : MonoBehaviour
     }
     public void Lower()
     {
+        if (IsRaised && captureContext != null) captureContext.CancelPreview(CurrentCamera);
         IsRaised=false; if(viewfinder!=null)viewfinder.SetActive(false);
         foreach(var target in FindObjectsByType<CameraRevealTarget>()) target.Preview(false);
         if(controls!=null)controls.ReleaseLock(ControlLockReason.Camera);
@@ -72,6 +83,17 @@ public class CameraModeController : MonoBehaviour
     private IEnumerator Exposure()
     {
         IsBusy=true;
+        if (captureContext != null)
+        {
+            var context = captureContext;
+            if (shutterClip != null) sound.PlayOneShot(shutterClip, .55f);
+            flash.color = Color.white;
+            yield return new WaitForSecondsRealtime(.075f);
+            if (context != null) context.CommitCapture(CurrentCamera);
+            yield return new WaitForSecondsRealtime(.12f);
+            Lower(); flash.color = Color.clear; IsBusy = false;
+            yield break;
+        }
         var targets=FindObjectsByType<CameraRevealTarget>();
         var hits=new System.Collections.Generic.List<CameraRevealTarget>();
         foreach(var target in targets) if(target.CanCapture(CurrentCamera))hits.Add(target);
@@ -87,7 +109,7 @@ public class CameraModeController : MonoBehaviour
     }
     private void SceneChanged(Scene oldScene,Scene newScene)
     {
-        StopAllCoroutines(); Lower(); IsBusy=false;
+        StopAllCoroutines(); Lower(); captureContext=null; IsBusy=false;
         if(flash!=null)flash.color=Color.clear;
         if(ownsRevealLock && controls!=null)controls.ReleaseLock(ControlLockReason.Cutscene);ownsRevealLock=false;
     }

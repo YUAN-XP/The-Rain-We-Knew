@@ -61,6 +61,8 @@ public class DialogueInteractable :
         if(story!=null && dialogueManager.IsDialogueActive())story.Set(firstPlayedFlag);
     }
 
+    public void ConfigureDialogue(DialogueData data) { dialogueData=data;repeatDialogue=null; }
+
     private void ResolveDialogueManager()
     {
         if (dialogueManager != null)

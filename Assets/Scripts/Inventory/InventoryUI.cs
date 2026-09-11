@@ -165,6 +165,8 @@ public class InventoryUI : MonoBehaviour
             return;
         }
 
+        if(outfitsTabButton!=null)outfitsTabButton.interactable=gameControlManager==null || gameControlManager.AllowsAdultOutfits;
+        if(gameControlManager!=null && !gameControlManager.AllowsAdultOutfits && currentTab==InventoryTab.Outfits)currentTab=InventoryTab.Items;
         inventoryPanel.SetActive(true);
 
         if (gameControlManager != null)
@@ -233,6 +235,7 @@ public class InventoryUI : MonoBehaviour
 
     private void ShowOutfits()
     {
+        if(gameControlManager!=null && !gameControlManager.AllowsAdultOutfits)return;
         currentTab=InventoryTab.Outfits;
         if(itemsPage!=null)itemsPage.SetActive(false);
         if(filesPage!=null)filesPage.SetActive(false);
@@ -363,12 +366,11 @@ public class InventoryUI : MonoBehaviour
         newButton.gameObject.SetActive(true);
 
         TMP_Text buttonText =
-            newButton.GetComponentInChildren<TMP_Text>();
+            newButton.GetComponentInChildren<TMP_Text>(true);
 
         if (buttonText != null)
         {
-            buttonText.text =
-                item.itemName;
+            BindEntryLabel(buttonText, item.itemName);
         }
 
         newButton.onClick.AddListener(
@@ -398,12 +400,11 @@ public class InventoryUI : MonoBehaviour
         newButton.gameObject.SetActive(true);
 
         TMP_Text buttonText =
-            newButton.GetComponentInChildren<TMP_Text>();
+            newButton.GetComponentInChildren<TMP_Text>(true);
 
         if (buttonText != null)
         {
-            buttonText.text =
-                file.fileName;
+            BindEntryLabel(buttonText, file.fileName);
         }
 
         newButton.onClick.AddListener(
@@ -413,6 +414,17 @@ public class InventoryUI : MonoBehaviour
         spawnedFileEntries.Add(
             newButton.gameObject
         );
+    }
+
+    private static void BindEntryLabel(TMP_Text label, string value)
+    {
+        // Preserve Inspector styling; only repair a material from a different font atlas.
+        if (label.font != null && (label.fontSharedMaterial == null ||
+            label.fontSharedMaterial.mainTexture != label.font.atlasTexture))
+            label.fontSharedMaterial = label.font.material;
+        label.gameObject.SetActive(true);
+        label.enabled = true;
+        label.text = value;
     }
 
     private void ShowItemDetails(
@@ -469,6 +481,7 @@ public class InventoryUI : MonoBehaviour
 
         if (filePreviewImage != null)
         {
+            filePreviewImage.preserveAspect = true;
             filePreviewImage.sprite =
                 file.icon;
 

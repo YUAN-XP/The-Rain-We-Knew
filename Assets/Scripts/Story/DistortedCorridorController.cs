@@ -31,12 +31,12 @@ public class DistortedCorridorController : MonoBehaviour
     }
     private void ApplyStairState()
     {
-        if(story==null || !story.Has(StoryFlag.DistortedCorridorStarted))return;
+        if(story==null || story.Has(StoryFlag.Scene03Completed) || !story.Has(StoryFlag.DistortedCorridorStarted))return;
         foreach(var go in disabledDuringDistortion)if(go!=null)go.SetActive(false);
     }
     private void LateUpdate()
     {
-        if(story==null || player==null || !story.Has(StoryFlag.ChildShadowFollowupPlayed))return;
+        if(story==null || player==null || story.Has(StoryFlag.Scene03Completed) || !story.Has(StoryFlag.ChildShadowFollowupPlayed))return;
         story.Set(StoryFlag.DistortedCorridorStarted);
         corridorArea.SetActive(true);
         ApplyStairState();

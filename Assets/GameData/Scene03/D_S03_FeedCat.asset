@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c59465da9bc39243a973773784e853a, type: 3}
+  m_Name: D_S03_FeedCat
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  lines:
+  - speaker:
+    text: "\u628A\u5C0F\u9C7C\u4ED4\u653E\u5728\u4E00\u65C1\u3002"
+  - speaker:
+    text: "\u5C0F\u732B\u4F4E\u5934\u5403\u4E86\u8D77\u6765\uFF0C\u9732\u51FA\u539F\u672C\u62A4\u7740\u7684\u4E00\u679A\u6E38\u620F\u5E01\u3002"
+  - speaker:
+    text: "\u83B7\u5F97\u4E86\u6E38\u620F\u5E01\u3002"

@@ -13,11 +13,19 @@ public class Scene03TransitionBridge : MonoBehaviour
     private IEnumerator Transition()
     {
         controls=FindAnyObjectByType<GameControlManager>();if(controls!=null)controls.AcquireLock(ControlLockReason.Cutscene);
+        if(screenFade==null){Debug.LogWarning("Scene transition needs a ScreenFadeController.",this);if(controls!=null)controls.ReleaseLock(ControlLockReason.Cutscene);started=false;yield break;}
+        var puzzle=FindAnyObjectByType<ThreeDoorPuzzleController>();if(puzzle!=null)puzzle.enabled=false;
+        var sounds=FindObjectsByType<AudioSource>();var volumes=new float[sounds.Length];
+        for(int i=0;i<sounds.Length;i++)volumes[i]=sounds[i].volume;
+        for(float t=0;t<.65f;t+=Time.unscaledDeltaTime){for(int i=0;i<sounds.Length;i++)if(sounds[i]!=null)sounds[i].volume=volumes[i]*(1-t/.65f);yield return null;}
         yield return screenFade.FadeOutAndHold();EntryReached=true;
         if(!string.IsNullOrWhiteSpace(targetSceneName) && Application.CanStreamedLevelBeLoaded(targetSceneName)){
             SceneManager.LoadScene(targetSceneName);yield break;
         }
-        Debug.Log("Scene03 entry reached / waiting for scene implementation");
+        Debug.LogWarning("Scene transition target is unavailable; returning control.",this);
+        yield return screenFade.FadeThroughBlack(()=>{});
+        if(controls!=null)controls.ReleaseLock(ControlLockReason.Cutscene);
+        started=false;
     }
     private void OnDisable(){if(started && controls!=null)controls.ReleaseLock(ControlLockReason.Cutscene);}
 }

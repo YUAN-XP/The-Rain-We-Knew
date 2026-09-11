@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c59465da9bc39243a973773784e853a, type: 3}
+  m_Name: D_S03_Chess
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  lines:
+  - speaker: "\u5B59\u4ED8"
+    text: "\u5C06\u519B\uFF01\u8FD9\u6B65\u4F60\u53EF\u6CA1\u770B\u89C1\u5427\u3002"
+  - speaker: "\u738B\u5764"
+    text: "\u7B49\u7B49\uFF0C\u6211\u518D\u60F3\u60F3\u3002"
+  - speaker: "\u738B\u5E73"
+    text: "\u4E00\u76D8\u68CB\u4E0B\u8FD9\u4E48\u4E45\uFF0C\u8336\u90FD\u51C9\u4E86\u3002"

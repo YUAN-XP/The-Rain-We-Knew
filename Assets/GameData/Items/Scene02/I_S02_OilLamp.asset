@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
   itemId: key_oil_lamp
   itemName: "\u5C0F\u6CB9\u706F"
-  description: 
+  description: "\u4E00\u76CF\u5C0F\u6CB9\u706F\uFF0C\u5FAE\u5F31\u7684\u5149\u4E5F\u8BB8\u80FD\u7167\u4EAE\u524D\u9762\u7684\u9ED1\u6697\u3002"
   icon: {fileID: 0}
-  category: 1
-  isPermanent: 1
+  category: 0
+  isPermanent: 0
   canCombine: 0

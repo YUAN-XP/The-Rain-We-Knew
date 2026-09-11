@@ -42,7 +42,16 @@ public class FileArchiveManager : MonoBehaviour
             return false;
         }
 
-        return files.Contains(file);
+        return files.Contains(file) || !string.IsNullOrWhiteSpace(file.fileId) && HasFileById(file.fileId);
+    }
+
+    // Replace the runtime list entry, never mutate the source ScriptableObject.
+    public bool ReplaceFileById(FileData replacement)
+    {
+        if(replacement==null||string.IsNullOrWhiteSpace(replacement.fileId))return false;
+        for(int i=0;i<files.Count;i++)if(files[i]!=null&&files[i].fileId==replacement.fileId)
+        {files[i]=replacement;return true;}
+        AddFile(replacement);return true;
     }
 
     public bool HasFileById(string fileId)

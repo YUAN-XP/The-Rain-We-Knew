@@ -9,7 +9,8 @@ public enum ControlLockReason
     Interaction,
     Camera,
     CloseUp,
-    Cutscene
+    Cutscene,
+    SceneTransition
 }
 
 public class GameControlManager : MonoBehaviour
@@ -19,6 +20,19 @@ public class GameControlManager : MonoBehaviour
     [SerializeField] private PlayerInteraction playerInteraction;
     [SerializeField] private Rigidbody2D playerRigidbody;
 
+    public PlayerController ActivePlayer => playerController;
+    public bool AllowsAdultOutfits { get; private set; } = true;
+    public void BindPlayer(PlayerController player, bool adultOutfits = true)
+    {
+        if (player == null) return;
+        playerController = player;
+        playerInteraction = player.GetComponent<PlayerInteraction>();
+        playerRigidbody = player.GetComponent<Rigidbody2D>();
+        AllowsAdultOutfits = adultOutfits;
+        FindCurrentCamera();
+        if (cameraFollow != null) cameraFollow.SetTarget(player.transform);
+        ApplyControlState();
+    }
     private CameraFollow cameraFollow;
 
     private readonly HashSet<ControlLockReason> activeLocks =
@@ -48,7 +62,7 @@ public class GameControlManager : MonoBehaviour
     private void FindCurrentCamera()
     {
         cameraFollow =
-            FindFirstObjectByType<CameraFollow>();
+            FindAnyObjectByType<CameraFollow>();
 
         if (cameraFollow == null)
         {
