@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 007fccb43d650d748893350a0a459c0e, type: 3}
+  m_Name: Outfit_SchoolUniform
+  m_EditorClassIdentifier: Assembly-CSharp::OutfitData
+  outfit: 2
+  outfitName: "\u6821\u670D"
+  description: "\u5728\u4F53\u80B2\u5668\u6750\u5BA4\u627E\u5230\u7684\u6821\u670D\u3002"
+  preview: {fileID: 8932916814938391197, guid: 55d62fa54356e0c48a473422fb15e3a8, type: 3}
+  initiallyOwned: 0
+  unlockFlag: 56

@@ -2107,6 +2107,7 @@ GameObject:
   - component: {fileID: 2387255156208883649}
   - component: {fileID: 4585150623022000932}
   - component: {fileID: 7401005703318980273}
+  - component: {fileID: 9073064749260204485}
   m_Layer: 0
   m_Name: PersistentRuntime
   m_TagString: Untagged
@@ -2243,6 +2244,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DeskCloseupController
   font: {fileID: 11400000, guid: e016d2a2a11444e48b4aee4225c6fff5, type: 2}
   oilLamp: {fileID: 11400000, guid: aa55aff95e992b84e80839bcc7b43ebb, type: 2}
+--- !u!114 &9073064749260204485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4567935355354019462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ed1b21a7aa148b895e008714f391386, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Assembly-CSharp::OilLampController
+  requiredItem: {fileID: 11400000, guid: aa55aff95e992b84e80839bcc7b43ebb, type: 2}
+  chargeSeconds: 2.2
+  raisedOffset: {x: 0.55, y: 0.3, z: 0}
+  stowedOffset: {x: 0.38, y: -0.55, z: 0}
+  glowColor: {r: 1, g: 0.76, b: 0.32, a: 0.3}
+  glowDiameter: 6
 --- !u!1 &4674297944197135532
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,0 +1,356 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59a408b1b3cb76f43a4e440c24934ee2, type: 3}
+  m_Name: SchoolLayout
+  m_EditorClassIdentifier: Assembly-CSharp::SchoolLayoutData
+  rooms:
+  - id: Floor01
+    displayName: "\u4E00\u697C\u8FDE\u7EED\u4E3B\u8DEF"
+    floor: 1
+    origin: {x: 0, y: 0}
+    width: 112
+  - id: Floor02
+    displayName: "\u4E8C\u697C\u8FDE\u7EED\u8D70\u5ECA"
+    floor: 2
+    origin: {x: 0, y: 16}
+    width: 80
+  - id: Floor03Left
+    displayName: "\u4E09\u697C\u5DE6\u534A\uFF1B\u53F3\u7AEF\u5B9E\u4F53\u5C01\u53E3"
+    floor: 3
+    origin: {x: 0, y: 32}
+    width: 26
+  - id: Floor03Right
+    displayName: "\u4E09\u697C\u53F3\u534A\uFF1B\u5DE6\u7AEF\u5B9E\u4F53\u5C01\u53E3"
+    floor: 3
+    origin: {x: 48, y: 32}
+    width: 32
+  - id: Roof
+    displayName: "\u56DB\u697C\u5B8C\u6574\u5DE6\u53F3\u53EF\u8D70\u5929\u53F0"
+    floor: 4
+    origin: {x: 0, y: 48}
+    width: 80
+  - id: ReadingPassage
+    displayName: "\u4E09\u697C\u5FC5\u7ECF\u9605\u8BFB\u533A\u72EC\u7ACB\u5757\uFF1B\u4E0D\u662F\u7B2C\u4E94\u5C42"
+    floor: 3
+    origin: {x: 200, y: 64}
+    width: 28
+  - id: SecurityRoom
+    displayName: "\u5B89\u4FDD\u5BA4\u72EC\u7ACB\u5185\u90E8"
+    floor: 1
+    origin: {x: 200, y: 0}
+    width: 24
+  - id: EquipmentRoom
+    displayName: "\u4F53\u80B2\u5668\u6750\u5BA4\u72EC\u7ACB\u5185\u90E8"
+    floor: 1
+    origin: {x: 240, y: 0}
+    width: 28
+  - id: Class3_2
+    displayName: "\u9AD8\u4E09\u4E8C\u73ED\u72EC\u7ACB\u5185\u90E8\uFF1B\u4E24\u7248\u672C\u540C\u56DB\u684C\u4F4D\u7F6E"
+    floor: 2
+    origin: {x: 200, y: 16}
+    width: 40
+  - id: Class3_1
+    displayName: "\u9AD8\u4E09\u4E00\u73ED\u72EC\u7ACB\u5185\u90E8\uFF1B\u53CC\u95E8\u4FDD\u7559"
+    floor: 2
+    origin: {x: 260, y: 16}
+    width: 40
+  - id: MaleToilet
+    displayName: "\u7537\u5395\u72EC\u7ACB\u5185\u90E8"
+    floor: 2
+    origin: {x: 320, y: 16}
+    width: 22
+  - id: StaffOffice
+    displayName: "\u6559\u5E08\u529E\u516C\u5BA4\u72EC\u7ACB\u5185\u90E8\uFF0C\u8BED\u4E49\u5C5E\u4E8E\u4E09\u697C"
+    floor: 3
+    origin: {x: 260, y: 32}
+    width: 32
+  portals:
+  - id: Stair_F01_F02_Right_AtoB
+    sourceRoom: Floor01
+    targetRoom: Floor02
+    sourceLocal: {x: 60, y: 1.2}
+    destinationLocal: {x: 58.2, y: 1.2}
+    facing: -1
+    otherworld: 0
+    memory: 0
+    blockedText: 
+    onceOnlyFeedback: 0
+  - id: Stair_F01_F02_Right_BtoA
+    sourceRoom: Floor02
+    targetRoom: Floor01
+    sourceLocal: {x: 60, y: 1.2}
+    destinationLocal: {x: 61.8, y: 1.2}
+    facing: 1
+    otherworld: 0
+    memory: 0
+    blockedText: 
+    onceOnlyFeedback: 0
+  - id: Stair_F02_F03_Left_AtoB
+    sourceRoom: Floor02
+    targetRoom: Floor03Left
+    sourceLocal: {x: 4, y: 1.2}
+    destinationLocal: {x: 5.8, y: 1.2}
+    facing: 1
+    otherworld: 1
+    memory: 0
+    blockedText: "\u8FD9\u91CC\u5806\u6EE1\u4E86\u6742\u7269\uFF0C\u65E0\u6CD5\u901A\u884C"
+    onceOnlyFeedback: 1
+  - id: Stair_F02_F03_Left_BtoA
+    sourceRoom: Floor03Left
+    targetRoom: Floor02
+    sourceLocal: {x: 4, y: 1.2}
+    destinationLocal: {x: 5.8, y: 1.2}
+    facing: 1
+    otherworld: 1
+    memory: 0
+    blockedText: "\u8FD9\u91CC\u5806\u6EE1\u4E86\u6742\u7269\uFF0C\u65E0\u6CD5\u901A\u884C"
+    onceOnlyFeedback: 1
+  - id: Stair_F03_Roof_Left_AtoB
+    sourceRoom: Floor03Left
+    targetRoom: Roof
+    sourceLocal: {x: 16, y: 1.2}
+    destinationLocal: {x: 17.8, y: 1.2}
+    facing: 1
+    otherworld: 0
+    memory: 1
+    blockedText: "\u697C\u68AF\u95F4\u9501\u4E0A\u4E86\u3002"
+    onceOnlyFeedback: 0
+  - id: Stair_F03_Roof_Left_BtoA
+    sourceRoom: Roof
+    targetRoom: Floor03Left
+    sourceLocal: {x: 16, y: 1.2}
+    destinationLocal: {x: 17.8, y: 1.2}
+    facing: 1
+    otherworld: 0
+    memory: 1
+    blockedText: "\u697C\u68AF\u95F4\u9501\u4E0A\u4E86\u3002"
+    onceOnlyFeedback: 0
+  - id: Stair_F03_Roof_Right_AtoB
+    sourceRoom: Floor03Right
+    targetRoom: Roof
+    sourceLocal: {x: 22, y: 1.2}
+    destinationLocal: {x: 68.2, y: 1.2}
+    facing: -1
+    otherworld: 0
+    memory: 1
+    blockedText: "\u697C\u68AF\u95F4\u9501\u4E0A\u4E86\u3002"
+    onceOnlyFeedback: 0
+  - id: Stair_F03_Roof_Right_BtoA
+    sourceRoom: Roof
+    targetRoom: Floor03Right
+    sourceLocal: {x: 70, y: 1.2}
+    destinationLocal: {x: 20.2, y: 1.2}
+    facing: -1
+    otherworld: 0
+    memory: 1
+    blockedText: "\u697C\u68AF\u95F4\u9501\u4E0A\u4E86\u3002"
+    onceOnlyFeedback: 0
+  - id: Reading_Left_AtoB
+    sourceRoom: Floor03Left
+    targetRoom: ReadingPassage
+    sourceLocal: {x: 24, y: 1.2}
+    destinationLocal: {x: 3.8, y: 1.2}
+    facing: 1
+    otherworld: 0
+    memory: 0
+    blockedText: 
+    onceOnlyFeedback: 0
+  - id: Reading_Left_BtoA
+    sourceRoom: ReadingPassage
+    targetRoom: Floor03Left
+    sourceLocal: {x: 2, y: 1.2}
+    destinationLocal: {x: 22.2, y: 1.2}
+    facing: -1
+    otherworld: 0
+    memory: 0
+    blockedText: 
+    onceOnlyFeedback: 0
+  - id: Reading_Right_AtoB
+    sourceRoom: Floor03Right
+    targetRoom: ReadingPassage
+    sourceLocal: {x: 2, y: 1.2}
+    destinationLocal: {x: 24.2, y: 1.2}
+    facing: -1
+    otherworld: 0
+    memory: 0
+    blockedText: 
+    onceOnlyFeedback: 0
+  - id: Reading_Right_BtoA
+    sourceRoom: ReadingPassage
+    targetRoom: Floor03Right
+    sourceLocal: {x: 26, y: 1.2}
+    destinationLocal: {x: 3.8, y: 1.2}
+    facing: 1
+    otherworld: 0
+    memory: 0
+    blockedText: 
+    onceOnlyFeedback: 0
+  - id: Security_Door_AtoB
+    sourceRoom: Floor01
+    targetRoom: SecurityRoom
+    sourceLocal: {x: 18, y: 1.2}
+    destinationLocal: {x: 3.8, y: 1.2}
+    facing: 1
+    otherworld: 3
+    memory: 3
+    blockedText: "\u65E0\u53CD\u5E94"
+    onceOnlyFeedback: 0
+  - id: Security_Door_BtoA
+    sourceRoom: SecurityRoom
+    targetRoom: Floor01
+    sourceLocal: {x: 2, y: 1.2}
+    destinationLocal: {x: 16.2, y: 1.2}
+    facing: -1
+    otherworld: 3
+    memory: 3
+    blockedText: "\u65E0\u53CD\u5E94"
+    onceOnlyFeedback: 0
+  - id: Equipment_Door_AtoB
+    sourceRoom: Floor01
+    targetRoom: EquipmentRoom
+    sourceLocal: {x: 38, y: 1.2}
+    destinationLocal: {x: 3.8, y: 1.2}
+    facing: 1
+    otherworld: 2
+    memory: 2
+    blockedText: "\u95E8\u9501\u4F4F\u4E86\u3002"
+    onceOnlyFeedback: 0
+  - id: Equipment_Door_BtoA
+    sourceRoom: EquipmentRoom
+    targetRoom: Floor01
+    sourceLocal: {x: 2, y: 1.2}
+    destinationLocal: {x: 36.2, y: 1.2}
+    facing: -1
+    otherworld: 2
+    memory: 2
+    blockedText: "\u95E8\u9501\u4F4F\u4E86\u3002"
+    onceOnlyFeedback: 0
+  - id: Class3_2_Back_AtoB
+    sourceRoom: Floor02
+    targetRoom: Class3_2
+    sourceLocal: {x: 16, y: 1.2}
+    destinationLocal: {x: 3.8, y: 1.2}
+    facing: 1
+    otherworld: 0
+    memory: 0
+    blockedText: 
+    onceOnlyFeedback: 0
+  - id: Class3_2_Back_BtoA
+    sourceRoom: Class3_2
+    targetRoom: Floor02
+    sourceLocal: {x: 2, y: 1.2}
+    destinationLocal: {x: 14.2, y: 1.2}
+    facing: -1
+    otherworld: 0
+    memory: 0
+    blockedText: 
+    onceOnlyFeedback: 0
+  - id: Class3_2_Front_AtoB
+    sourceRoom: Floor02
+    targetRoom: Class3_2
+    sourceLocal: {x: 30, y: 1.2}
+    destinationLocal: {x: 36.2, y: 1.2}
+    facing: -1
+    otherworld: 1
+    memory: 0
+    blockedText: "\u88AB\u4E1C\u897F\u5835\u4F4F\u4E86"
+    onceOnlyFeedback: 0
+  - id: Class3_2_Front_BtoA
+    sourceRoom: Class3_2
+    targetRoom: Floor02
+    sourceLocal: {x: 38, y: 1.2}
+    destinationLocal: {x: 31.8, y: 1.2}
+    facing: 1
+    otherworld: 1
+    memory: 0
+    blockedText: "\u88AB\u4E1C\u897F\u5835\u4F4F\u4E86"
+    onceOnlyFeedback: 0
+  - id: Class3_1_Back_AtoB
+    sourceRoom: Floor02
+    targetRoom: Class3_1
+    sourceLocal: {x: 40, y: 1.2}
+    destinationLocal: {x: 3.8, y: 1.2}
+    facing: 1
+    otherworld: 1
+    memory: 0
+    blockedText: 
+    onceOnlyFeedback: 0
+  - id: Class3_1_Back_BtoA
+    sourceRoom: Class3_1
+    targetRoom: Floor02
+    sourceLocal: {x: 2, y: 1.2}
+    destinationLocal: {x: 38.2, y: 1.2}
+    facing: -1
+    otherworld: 1
+    memory: 0
+    blockedText: 
+    onceOnlyFeedback: 0
+  - id: Class3_1_Front_AtoB
+    sourceRoom: Floor02
+    targetRoom: Class3_1
+    sourceLocal: {x: 52, y: 1.2}
+    destinationLocal: {x: 36.2, y: 1.2}
+    facing: -1
+    otherworld: 1
+    memory: 0
+    blockedText: 
+    onceOnlyFeedback: 0
+  - id: Class3_1_Front_BtoA
+    sourceRoom: Class3_1
+    targetRoom: Floor02
+    sourceLocal: {x: 38, y: 1.2}
+    destinationLocal: {x: 53.8, y: 1.2}
+    facing: 1
+    otherworld: 1
+    memory: 0
+    blockedText: 
+    onceOnlyFeedback: 0
+  - id: MaleToilet_Door_AtoB
+    sourceRoom: Floor02
+    targetRoom: MaleToilet
+    sourceLocal: {x: 68, y: 1.2}
+    destinationLocal: {x: 3.8, y: 1.2}
+    facing: 1
+    otherworld: 1
+    memory: 0
+    blockedText: 
+    onceOnlyFeedback: 0
+  - id: MaleToilet_Door_BtoA
+    sourceRoom: MaleToilet
+    targetRoom: Floor02
+    sourceLocal: {x: 2, y: 1.2}
+    destinationLocal: {x: 69.8, y: 1.2}
+    facing: 1
+    otherworld: 1
+    memory: 0
+    blockedText: 
+    onceOnlyFeedback: 0
+  - id: StaffOffice_Door_AtoB
+    sourceRoom: Floor03Right
+    targetRoom: StaffOffice
+    sourceLocal: {x: 12, y: 1.2}
+    destinationLocal: {x: 3.8, y: 1.2}
+    facing: 1
+    otherworld: 1
+    memory: 4
+    blockedText: 
+    onceOnlyFeedback: 0
+  - id: StaffOffice_Door_BtoA
+    sourceRoom: StaffOffice
+    targetRoom: Floor03Right
+    sourceLocal: {x: 2, y: 1.2}
+    destinationLocal: {x: 13.8, y: 1.2}
+    facing: 1
+    otherworld: 1
+    memory: 4
+    blockedText: 
+    onceOnlyFeedback: 0

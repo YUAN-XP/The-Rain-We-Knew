@@ -57,6 +57,8 @@ public class CameraModeController : MonoBehaviour
     private void Update()
     {
         if (IsBusy) return;
+        // OilLampController owns R. Do not also process Q/Space on that frame.
+        if (Input.GetKeyDown(KeyCode.R)) return;
         if(Input.GetKeyDown(KeyCode.Q)) { if(IsRaised) Lower(); else Raise(); }
         else if(IsRaised && Input.GetKeyDown(KeyCode.Space)) Shoot();
     }
@@ -64,6 +66,8 @@ public class CameraModeController : MonoBehaviour
     {
         if(!ContextAvailable || IsBusy || IsRaised || controls==null || controls.IsLocked() || inventory==null || requiredItem==null || !inventory.HasItem(requiredItem)) return false;
         if (captureContext != null && !captureContext.CanRaise) return false;
+        var lamp = GetComponent<OilLampController>();
+        if (lamp != null) lamp.LowerLamp();
         controls.AcquireLock(ControlLockReason.Camera); IsRaised=true; viewfinder.SetActive(true);
         if (captureContext != null) { captureContext.Preview(CurrentCamera); return true; }
         if(controls.AllowsAdultOutfits && !story.Has(StoryFlag.CameraDoorRevealed))

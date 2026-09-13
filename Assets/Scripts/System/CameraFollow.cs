@@ -18,6 +18,7 @@ public class CameraFollow : MonoBehaviour
     [SerializeField] private float minY = -10f;
     [SerializeField] private float maxY = 10f;
 
+    public float Facing => lastDirection;
     public Vector2 HorizontalLimits => new Vector2(minX, maxX);
     public Vector2 VerticalLimits => new Vector2(minY, maxY);
     public bool FollowsY => followY;
@@ -58,6 +59,7 @@ public class CameraFollow : MonoBehaviour
     }
 
     public void SetTarget(Transform value) { target = value; lastDirection = 1f; }
+    public void SetFacing(float direction) { lastDirection = direction < 0 ? -1 : 1; }
     public void SetLimits(float left, float right) { minX = left; maxX = right; }
     public void SnapToTarget()
     {

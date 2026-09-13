@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 [DisallowMultipleComponent]
@@ -7,6 +8,15 @@ public class SprintAbility : MonoBehaviour
     [SerializeField] private bool allowStoryUnlock = true;
     private StoryStateManager story;
     private StoryNoticeUI notice;
+    private readonly HashSet<Object> temporarySuppressors = new HashSet<Object>();
+    public bool IsTemporarilySuppressed => temporarySuppressors.Count > 0;
+    // A local event owns its own suppression; it never removes the permanent
+    // unlock and cannot release another event's suppression.
+    public void SetTemporarilySuppressed(Object owner, bool suppressed)
+    {
+        if (owner == null) return;
+        if (suppressed) temporarySuppressors.Add(owner); else temporarySuppressors.Remove(owner);
+    }
     private void Start(){ResolveRuntime();}
     private void ResolveRuntime()
     {
@@ -25,6 +35,7 @@ public class SprintAbility : MonoBehaviour
     public float GetMultiplier(bool shiftHeld)
     {
         ResolveRuntime();
-        return shiftHeld && story!=null && story.Has(StoryFlag.SprintUnlocked) ? speedMultiplier : 1f;
+        temporarySuppressors.RemoveWhere(owner => owner == null);
+        return shiftHeld && !IsTemporarilySuppressed && story!=null && story.Has(StoryFlag.SprintUnlocked) ? speedMultiplier : 1f;
     }
 }

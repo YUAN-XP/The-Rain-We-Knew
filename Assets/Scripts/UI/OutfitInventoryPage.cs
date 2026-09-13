@@ -13,6 +13,15 @@ public class OutfitInventoryPage : MonoBehaviour
     [SerializeField] private Button wearButton;
     private StoryStateManager story;
     private OutfitData selected;
+    // Runtime installation also covers Scene01's serialized PersistentRuntime instance.
+    public void RegisterOutfit(OutfitData data)
+    {
+        if(data==null)return;
+        var entries=new System.Collections.Generic.List<OutfitData>(catalog??new OutfitData[0]);
+        foreach(var entry in entries)if(entry==data || (entry!=null && entry.outfit==data.outfit))return;
+        entries.Add(data);catalog=entries.ToArray();
+        if(story!=null)Refresh();
+    }
     private void Start()
     {
         story=FindAnyObjectByType<StoryStateManager>();

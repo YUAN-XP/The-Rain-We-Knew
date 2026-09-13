@@ -28,6 +28,11 @@ public class RoomTransitionInteractable :
     [SerializeField] private bool overrideCameraLimits;
     [SerializeField] private Vector2 destinationCameraLimits;
 
+    [SerializeField] private bool overrideVerticalCameraLimits;
+    [SerializeField] private Vector2 destinationVerticalCameraLimits;
+    [SerializeField] private bool overrideFacing;
+    [SerializeField] private bool destinationFacesLeft;
+
     private bool isTransitioning;
     private bool ownsInteractionLock;
 
@@ -175,6 +180,9 @@ public class RoomTransitionInteractable :
         {
             if (overrideCameraLimits)
                 cameraFollow.SetLimits(destinationCameraLimits.x, destinationCameraLimits.y);
+            if (overrideVerticalCameraLimits)
+                cameraFollow.SetVerticalLimits(true, 0, destinationVerticalCameraLimits.x, destinationVerticalCameraLimits.y);
+            if (overrideFacing) cameraFollow.SetFacing(destinationFacesLeft ? -1 : 1);
             cameraFollow.SnapToTarget();
         }
     }

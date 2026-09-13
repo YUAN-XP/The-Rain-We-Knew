@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c59465da9bc39243a973773784e853a, type: 3}
+  m_Name: D_Fog_Inquiry
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  lines:
+  - speaker: "\u8096\u9E4F"
+    text: "\u4F60\u6CA1\u4E8B\u5427\uFF1F"
+  - speaker: ???
+    text: "\u4F60\u600E\u4E48\u6765\u4E86\uFF1F"
+  - speaker: "\u8096\u9E4F"
+    text: "\u4F60\u8BA4\u8BC6\u6211\u5417\uFF1F\u8FD9\u91CC\u600E\u4E48\u4E86"

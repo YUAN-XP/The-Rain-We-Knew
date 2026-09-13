@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1040c18ddc48c2b41b969fe7a3f62c50, type: 3}
+  m_Name: Pencil
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  itemId: school_pencil
+  itemName: "\u94C5\u7B14"
+  description: "\u53EF\u4EE5\u7528\u6765\u6479\u51FA\u684C\u9762\u523B\u75D5\u7684\u94C5\u7B14\u3002"
+  icon: {fileID: -6279154268086027915, guid: 6af530e9fa839fa4aaf288f50d83eedb, type: 3}
+  category: 0
+  isPermanent: 1
+  canCombine: 0

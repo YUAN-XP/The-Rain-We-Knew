@@ -15,8 +15,11 @@ public enum StoryFlag { CameraDoorRevealed, CameraTutorialTriggered, CameraFirst
     Scene03RhythmCompleted, Scene03RiverSequenceCompleted, Scene03ReturnedHome,
     Scene03FamilySetupComplete, Scene03FamilyPhotoTaken, Scene03Completed,
     LivingRoomDoorOpened, Scene03CameraGentlemanEchoCollected, OilLampObtained,
-    Scene02Fragment2Collected, Scene03ReturnReactionPlayed, Scene03FileNoticeShown, Scene03DrawerNoticeShown }
-public enum AdultOutfit { Default, Overalls }
+    Scene02Fragment2Collected, Scene03ReturnReactionPlayed, Scene03FileNoticeShown, Scene03DrawerNoticeShown,
+    OilLampExhausted, FogIntroCompleted, EquipmentVoicePlayed, EquipmentDoorOpened,
+    BasketKeyRevealed, BasketKeyDropped, BasketKeyCollected, SchoolUniformOwned, PencilOwned,
+    SchoolNameRevealed, Scene05OpeningPlayed, SchoolSecurityClueSeen, SchoolEvidenceObtained }
+public enum AdultOutfit { Default, Overalls, SchoolUniform }
 
 [DisallowMultipleComponent]
 public class StoryStateManager : MonoBehaviour
@@ -43,6 +46,7 @@ public class StoryStateManager : MonoBehaviour
     public void SetOutfit(AdultOutfit outfit)
     {
         if (outfit == AdultOutfit.Overalls && !Has(StoryFlag.OverallsUnlocked)) return;
+        if (outfit == AdultOutfit.SchoolUniform && !Has(StoryFlag.SchoolUniformOwned)) return;
         Outfit = outfit;
         Changed?.Invoke();
     }
