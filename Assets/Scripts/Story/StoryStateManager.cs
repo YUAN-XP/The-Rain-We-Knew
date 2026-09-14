@@ -18,7 +18,11 @@ public enum StoryFlag { CameraDoorRevealed, CameraTutorialTriggered, CameraFirst
     Scene02Fragment2Collected, Scene03ReturnReactionPlayed, Scene03FileNoticeShown, Scene03DrawerNoticeShown,
     OilLampExhausted, FogIntroCompleted, EquipmentVoicePlayed, EquipmentDoorOpened,
     BasketKeyRevealed, BasketKeyDropped, BasketKeyCollected, SchoolUniformOwned, PencilOwned,
-    SchoolNameRevealed, Scene05OpeningPlayed, SchoolSecurityClueSeen, SchoolEvidenceObtained }
+    SchoolNameRevealed, Scene05OpeningPlayed, SchoolSecurityClueSeen, SchoolEvidenceObtained,
+    SchoolYouthConversationCompleted, SchoolUsbReceived, SchoolSecurityMemoryOpened,
+    SchoolMediaPasswordChanged, SchoolEvidenceSubmitted, SchoolOfficeHandoffReady,
+    SchoolToiletHeard, SchoolEquipmentRecalled, SchoolCourtHintSeen, SchoolCrowdSeen,
+    SchoolGateTried, SchoolFemaleToiletTried, SchoolRoofTried, SchoolSecurityWindowSeen }
 public enum AdultOutfit { Default, Overalls, SchoolUniform }
 
 [DisallowMultipleComponent]
@@ -29,6 +33,24 @@ public class StoryStateManager : MonoBehaviour
     // Session memory only; a reload resumes at a safe center in the remembered cell.
     public Vector2Int Scene03MazeCell { get; private set; } = new Vector2Int(14, 0);
     public void SetScene03MazeCell(Vector2Int cell) { Scene03MazeCell = cell; }
+    // Same-run school resume only. Never interpreted as a disk save or a chase checkpoint.
+    public bool HasSchoolPosition { get; private set; }
+    public string SchoolChangedMediaPassword => Has(StoryFlag.SchoolMediaPasswordChanged) ? "xpzt0715" : null;
+    public string SchoolRoomId { get; private set; }
+    public Vector2 SchoolLocalPosition { get; private set; }
+    public float SchoolFacing { get; private set; } = 1;
+    public void RememberSchoolPosition(string room, Vector2 localPosition, float facing)
+    {
+        SchoolRoomId = room; SchoolLocalPosition = localPosition;
+        SchoolFacing = facing < 0 ? -1 : 1; HasSchoolPosition = true;
+    }
+    // Observers see the entire transaction, never a half-copied / half-changed pair.
+    public void SetTogether(params StoryFlag[] values)
+    {
+        bool changed = false;
+        foreach (var flag in values) changed |= flags.Add(flag);
+        if (changed) Changed?.Invoke();
+    }
     public event Action Changed;
     public bool Has(StoryFlag flag) => flags.Contains(flag);
     public bool Set(StoryFlag flag, bool value = true)

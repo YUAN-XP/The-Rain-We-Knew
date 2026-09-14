@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c59465da9bc39243a973773784e853a, type: 3}
+  m_Name: S05_OFFICE_REFUSAL
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  lines:
+  - speaker:
+    text: "\u91CC\u9762\u90FD\u662F\u8001\u5E08\u548C\u9886\u5BFC\uFF0C\u6CA1\u6709\u4E8B\u60C5\u8FD8\u662F\u6700\u597D\u4E0D\u8981\u8FDB\u53BB\u4E86"

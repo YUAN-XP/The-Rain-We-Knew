@@ -6,6 +6,19 @@ using UnityEngine.Events;
 // Shared lightweight placeholder UI construction. Font is explicitly supplied by the scene.
 public static class RuntimePanelUI
 {
+    // Existing authored UI uses QHD pixel offsets. Preserve that appearance at
+    // QHD, but keep its off-centre tabs/labels inside smaller game windows.
+    // An Inspector-configured non-constant scaler is always left untouched.
+    public static void FitLegacyCanvas(GameObject panel)
+    {
+        var scaler = panel != null ? panel.GetComponentInParent<CanvasScaler>(true) : null;
+        if (scaler == null || scaler.uiScaleMode != CanvasScaler.ScaleMode.ConstantPixelSize) return;
+        scaler.referenceResolution = new Vector2(2560, 1440);
+        scaler.screenMatchMode = CanvasScaler.ScreenMatchMode.MatchWidthOrHeight;
+        scaler.matchWidthOrHeight = .5f;
+        scaler.uiScaleMode = CanvasScaler.ScaleMode.ScaleWithScreenSize;
+    }
+
     public static RectTransform Rect(string name, Transform parent, Vector2 min, Vector2 max)
     {
         var g = new GameObject(name, typeof(RectTransform));

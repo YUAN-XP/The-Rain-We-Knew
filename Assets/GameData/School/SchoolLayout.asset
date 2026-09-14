@@ -221,7 +221,7 @@ MonoBehaviour:
     destinationLocal: {x: 3.8, y: 1.2}
     facing: 1
     otherworld: 2
-    memory: 2
+    memory: 0
     blockedText: "\u95E8\u9501\u4F4F\u4E86\u3002"
     onceOnlyFeedback: 0
   - id: Equipment_Door_BtoA
@@ -231,7 +231,7 @@ MonoBehaviour:
     destinationLocal: {x: 36.2, y: 1.2}
     facing: -1
     otherworld: 2
-    memory: 2
+    memory: 0
     blockedText: "\u95E8\u9501\u4F4F\u4E86\u3002"
     onceOnlyFeedback: 0
   - id: Class3_2_Back_AtoB

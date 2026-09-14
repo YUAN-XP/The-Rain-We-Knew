@@ -17,6 +17,9 @@ public class InventoryUI : MonoBehaviour
     [SerializeField]
     private GameObject inventoryPanel;
 
+    [Tooltip("Fit legacy QHD pixel offsets to smaller windows; custom CanvasScaler modes are preserved.")]
+    [SerializeField] private bool fitLegacyCanvasToScreen = true;
+
     [Header("Managers")]
     [SerializeField]
     private InventoryManager inventoryManager;
@@ -92,6 +95,7 @@ public class InventoryUI : MonoBehaviour
 
     private void Start()
     {
+        if (fitLegacyCanvasToScreen) RuntimePanelUI.FitLegacyCanvas(inventoryPanel);
         if(outfitsTabButton!=null)outfitsTabButton.onClick.AddListener(ShowOutfits);
         if(outfitsPage!=null)outfitsPage.SetActive(false);
         if (itemsTabButton != null)
@@ -370,7 +374,7 @@ public class InventoryUI : MonoBehaviour
 
         if (buttonText != null)
         {
-            BindEntryLabel(buttonText, item.itemName);
+            BindEntryLabel(buttonText, inventoryManager.DisplayName(item));
         }
 
         newButton.onClick.AddListener(
@@ -438,13 +442,13 @@ public class InventoryUI : MonoBehaviour
         if (itemNameText != null)
         {
             itemNameText.text =
-                item.itemName;
+                inventoryManager.DisplayName(item);
         }
 
         if (itemDescriptionText != null)
         {
             itemDescriptionText.text =
-                item.description;
+                inventoryManager.DisplayDescription(item);
         }
 
         if (itemPreviewImage != null)

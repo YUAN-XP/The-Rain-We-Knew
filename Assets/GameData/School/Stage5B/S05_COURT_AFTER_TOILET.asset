@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c59465da9bc39243a973773784e853a, type: 3}
+  m_Name: S05_COURT_AFTER_TOILET
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  lines:
+  - speaker:
+    text: "\u4E0B\u5348\u7684\u4F53\u80B2\u8BFE\u5F88\u5FEB\u5C31\u8981\u5230\u4E86\uFF0C\u6211\u5F97\u6293\u7D27\u65F6\u95F4\u3002"

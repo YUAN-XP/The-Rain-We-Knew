@@ -3,7 +3,7 @@ using UnityEngine;
 
 public enum SchoolWorldVariant { Otherworld, Memory }
 public enum SchoolActor { Adult, Youth }
-public enum SchoolPhase { OtherworldExplore, YouthOpening, YouthEntrance }
+public enum SchoolPhase { OtherworldExplore, YouthOpening, YouthEntrance, YouthExplore, OfficeHandoff }
 public enum SchoolPortalGate { Open, Closed, EquipmentKey, SecurityClue, OfficeEvidence }
 
 [Serializable]

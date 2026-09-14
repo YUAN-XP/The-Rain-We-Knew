@@ -9,6 +9,15 @@ public class InventoryManager : MonoBehaviour
         new List<ItemData>();
 
     public IReadOnlyList<ItemData> Items => items;
+    private readonly Dictionary<ItemData, (string name, string description)> presentation
+        = new Dictionary<ItemData, (string name, string description)>();
+    // Session presentation only; the authored ItemData and its identity never change.
+    public void SetRuntimePresentation(ItemData item, string name, string description)
+    {
+        if (item != null && HasItem(item)) presentation[item] = (name, description);
+    }
+    public string DisplayName(ItemData item) => item != null && presentation.TryGetValue(item, out var value) ? value.name : item != null ? item.itemName : "";
+    public string DisplayDescription(ItemData item) => item != null && presentation.TryGetValue(item, out var value) ? value.description : item != null ? item.description : "";
 
     public void AddItem(ItemData item)
     {

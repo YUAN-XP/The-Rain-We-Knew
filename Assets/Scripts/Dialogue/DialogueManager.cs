@@ -9,6 +9,9 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private TMP_Text speakerText;
     [SerializeField] private TMP_Text dialogueText;
 
+    [Tooltip("Fit legacy QHD speaker/continue offsets to smaller windows; custom CanvasScaler modes are preserved.")]
+    [SerializeField] private bool fitLegacyCanvasToScreen = true;
+
     [Header("Game Control")]
     [SerializeField] private GameControlManager gameControlManager;
 
@@ -22,6 +25,7 @@ public class DialogueManager : MonoBehaviour
 
     private void Awake()
     {
+        if (fitLegacyCanvasToScreen) RuntimePanelUI.FitLegacyCanvas(dialoguePanel);
         if (dialoguePanel != null)
         {
             dialoguePanel.SetActive(false);
@@ -177,8 +181,21 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    private void EndDialogue()
+    public int CompletedCount { get; private set; }
+    public DialogueData LastCompletedDialogue { get; private set; }
+    public DialogueData CurrentDialogue => currentDialogue;
+    public int CurrentLineIndex => currentLineIndex;
+    // Cancel only the caller's own dialogue; cancellation is not natural completion.
+    public bool CancelDialogue(DialogueData owned)
     {
+        if (!isDialogueActive || owned == null || currentDialogue != owned) return false;
+        StopAllCoroutines();
+        EndDialogue(false);
+        return true;
+    }
+    private void EndDialogue(bool completed = true)
+    {
+        if (completed) { LastCompletedDialogue = currentDialogue; CompletedCount++; }
         isDialogueActive = false;
         canAdvanceDialogue = false;
 

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c59465da9bc39243a973773784e853a, type: 3}
+  m_Name: S05_STAGE_END_NOTICE
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  lines:
+  - speaker:
+    text: "\u5F00\u53D1\u68C0\u67E5\u70B9\uFF1AStage5B\u5DF2\u5B8C\u6210\uFF0C\u540E\u7EED\u8FFD\u9010\u5F85\u63A5\u5165"

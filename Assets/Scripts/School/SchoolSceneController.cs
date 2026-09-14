@@ -3,11 +3,12 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Scene04 exploration and only the minimal Scene05 opening. No 5B / 5C progression.
+// Scene04 exploration and the existing youth handover; optional Stage 5B flow owns subsequent Memory progression.
 public sealed class SchoolSceneController : MonoBehaviour
 {
     [Header("Shared school / existing modules")]
     public SchoolLayoutController layout;
+    public SchoolYouthController youthFlow;
     public BasketballThrowController basketball;
     public PencilDeskCloseup desk;
     public SchoolCameraCaptureContext captureContext;
@@ -57,7 +58,7 @@ public sealed class SchoolSceneController : MonoBehaviour
     public InventoryManager Inventory { get; private set; }
     public DialogueManager Dialogue { get; private set; }
     public bool Ready { get; private set; }
-    public bool Busy => busy || (basketball != null && basketball.IsOpen) || (desk != null && desk.IsOpen) || modal != null;
+    public bool Busy => busy || (youthFlow != null && youthFlow.Busy) || (basketball != null && basketball.IsOpen) || (desk != null && desk.IsOpen) || modal != null;
     public bool SecurityPanelOpen => modal != null && securityDigits != null;
     public string SecurityEnteredCode { get { if (securityDigits == null) return ""; string s = ""; foreach (var d in securityDigits) s += d.Value.ToString(); return s; } }
 
@@ -126,8 +127,17 @@ public sealed class SchoolSceneController : MonoBehaviour
         if (Story.Has(StoryFlag.Scene05OpeningPlayed))
         {
             SwitchToYouth();
-            layout.SetNarrative(SchoolActor.Youth, SchoolPhase.YouthEntrance);
-            notices?.Show(endpointNotice, 6);
+            if (youthFlow != null)
+            {
+                Controls.AcquireLock(ControlLockReason.SceneTransition); ownsTransition = true;
+                yield return youthFlow.ContinueOpening(true);
+                UnlockTransition();
+            }
+            else
+            {
+                layout.SetNarrative(SchoolActor.Youth, SchoolPhase.YouthEntrance);
+                notices?.Show(endpointNotice, 6);
+            }
         }
         else if (Story.Has(StoryFlag.SchoolNameRevealed))
             StartCoroutine(YouthOpening());
@@ -170,6 +180,7 @@ public sealed class SchoolSceneController : MonoBehaviour
     public void Interact(SchoolInteractable source)
     {
         if (source == null || !Ready || Busy || Controls.IsLocked()) return;
+        if (youthFlow != null && youthFlow.HandleLegacy(source)) return;
         if (layout.IsYouthEndpoint) { notices?.Show(endpointNotice, 5); return; }
         switch (source.action)
         {
@@ -302,6 +313,7 @@ public sealed class SchoolSceneController : MonoBehaviour
             uniformVisual.SetActive(!Story.Has(StoryFlag.SchoolUniformOwned) || pencil == null || !Inventory.HasItem(pencil));
     }
 
+    public void ShowSecurityPanel() { if (!SecurityPanelOpen) OpenSecurityPanel(); }
     void OpenSecurityPanel()
     {
         OpenModal("安保室密码锁");
@@ -325,7 +337,8 @@ public sealed class SchoolSceneController : MonoBehaviour
         // Explicit clue permission boundary. Stage 5A supplies no clue and never opens this door.
         bool hasClue = Story.Has(StoryFlag.SchoolSecurityClueSeen);
         if (!hasClue) { securityFeedback.text = securityNoResponse; return; }
-        // Later stages may replace this branch with their owned unlock interaction.
+        if (youthFlow != null && youthFlow.TrySecurityCode(SecurityEnteredCode)) return;
+        // Otherworld and missing permissions preserve the original no-response behavior.
         securityFeedback.text = securityNoResponse;
     }
     IEnumerator WindowView()
@@ -381,12 +394,16 @@ public sealed class SchoolSceneController : MonoBehaviour
         if (youthGrabbingArm != null) youthGrabbingArm.SetActive(true);
         yield return new WaitForSecondsRealtime(whiteHoldSeconds);
         yield return FadeWhite(0, whiteOutSeconds);
-        yield return Say(youthOpeningDialogue);
+        if (youthFlow != null) yield return youthFlow.ContinueOpening(false);
+        else
+        {
+            yield return Say(youthOpeningDialogue);
+            Story.Set(StoryFlag.Scene05OpeningPlayed);
+            layout.SetNarrative(SchoolActor.Youth, SchoolPhase.YouthEntrance);
+        }
         if (youthGrabbingArm != null) youthGrabbingArm.SetActive(false);
-        Story.Set(StoryFlag.Scene05OpeningPlayed);
-        layout.SetNarrative(SchoolActor.Youth, SchoolPhase.YouthEntrance);
         UnlockTransition(); busy = handingOver = false;
-        notices?.Show(endpointNotice, 7);
+        if (youthFlow == null) notices?.Show(endpointNotice, 7);
     }
     void SwitchToYouth()
     {
@@ -398,6 +415,7 @@ public sealed class SchoolSceneController : MonoBehaviour
             adult.gameObject.SetActive(false);
         }
         layout.ApplyVariant(SchoolWorldVariant.Memory);
+        layout.SetNarrative(SchoolActor.Youth, SchoolPhase.YouthOpening);
         youth.gameObject.SetActive(true);
         youth.transform.position = youthOpeningPosition.position;
         var body = youth.GetComponent<Rigidbody2D>();
