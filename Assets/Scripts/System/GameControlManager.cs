@@ -10,7 +10,8 @@ public enum ControlLockReason
     Camera,
     CloseUp,
     Cutscene,
-    SceneTransition
+    SceneTransition,
+    SchoolSequence
 }
 
 public class GameControlManager : MonoBehaviour

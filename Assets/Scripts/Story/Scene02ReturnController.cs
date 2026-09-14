@@ -11,6 +11,7 @@ public class Scene02ReturnController : MonoBehaviour
     public ItemData fragment, oilLamp;
     public Scene04TransitionBridge bridge;
     public AudioClip rain;
+    public SchoolHomeReturnController schoolHome;
     public Vector2 roomCameraLimits=new Vector2(345,355);
     public bool Ready {get;private set;}
     StoryStateManager story;GameControlManager controls;InventoryManager inventory;FileArchiveManager archive;DialogueManager dialogue;
@@ -27,6 +28,7 @@ public class Scene02ReturnController : MonoBehaviour
         if(runtime==null||interior==null||arrival==null||cleanPhoto==null||fragment==null||oilLamp==null||guide==null||guideAfterReturn==null)
         {Debug.LogWarning("Scene02 return needs its scene references and item/file assets.",this);Unlock();yield break;}
         story=runtime.GetComponent<StoryStateManager>();controls=runtime.GetComponent<GameControlManager>();inventory=runtime.GetComponent<InventoryManager>();archive=runtime.GetComponent<FileArchiveManager>();dialogue=runtime.GetComponentInChildren<DialogueManager>(true);
+        if(schoolHome!=null&&schoolHome.HasPriority){yield return schoolHome.Resume();busy=false;Unlock();Ready=true;yield break;}
         if(!story.Has(StoryFlag.Scene03Completed)){interior.SetActive(false);Ready=true;yield break;}
         busy=true;if(!ownsLock){controls.AcquireLock(ControlLockReason.Cutscene);ownsLock=true;}
         interior.SetActive(true);
@@ -58,7 +60,7 @@ public class Scene02ReturnController : MonoBehaviour
     {
         if(!Ready||busy||controls==null||controls.IsLocked())return;
         if(action==Scene02ReturnAction.Fog)
-        {if(inventory.HasItem(oilLamp))bridge.BeginTransition();else StartCoroutine(Act(action));return;}
+        {if(story.Has(StoryFlag.SchoolReturnedHome)){PersistentRuntime.Instance.GetComponent<StoryNoticeUI>().Show("先回房间休息吧。",3);return;}if(inventory.HasItem(oilLamp))bridge.BeginTransition();else StartCoroutine(Act(action));return;}
         if(!story.Has(StoryFlag.Scene03Completed))return;
         StartCoroutine(Act(action));
     }

@@ -9,6 +9,7 @@ public sealed class SchoolSceneController : MonoBehaviour
     [Header("Shared school / existing modules")]
     public SchoolLayoutController layout;
     public SchoolYouthController youthFlow;
+    public SchoolChaseController chase;
     public BasketballThrowController basketball;
     public PencilDeskCloseup desk;
     public SchoolCameraCaptureContext captureContext;
@@ -124,6 +125,10 @@ public sealed class SchoolSceneController : MonoBehaviour
         if (zhengTaoVisual != null) zhengTaoVisual.SetActive(false);
         Ready = true;
         SyncProps();
+        if(chase!=null) {
+            chase.Initialize();
+            if(chase.HasSessionToRestore){yield return chase.RestoreCheckpoint();yield break;}
+        }
         if (Story.Has(StoryFlag.Scene05OpeningPlayed))
         {
             SwitchToYouth();
@@ -162,7 +167,7 @@ public sealed class SchoolSceneController : MonoBehaviour
     {
         if (!Ready) return;
         if (modal != null && Input.GetKeyDown(KeyCode.Escape)) CloseModal();
-        if (Busy || Controls.IsLocked() || layout.Actor != SchoolActor.Adult
+        if ((chase!=null&&chase.IsActive) || Busy || Controls.IsLocked() || layout.Actor != SchoolActor.Adult
             || layout.Variant != SchoolWorldVariant.Otherworld || layout.CurrentRoom != "Floor01") return;
         var active = Controls.ActivePlayer;
         if (active == null) return;
@@ -180,6 +185,7 @@ public sealed class SchoolSceneController : MonoBehaviour
     public void Interact(SchoolInteractable source)
     {
         if (source == null || !Ready || Busy || Controls.IsLocked()) return;
+        if(chase!=null&&chase.HandleLegacy(source))return;
         if (youthFlow != null && youthFlow.HandleLegacy(source)) return;
         if (layout.IsYouthEndpoint) { notices?.Show(endpointNotice, 5); return; }
         switch (source.action)
@@ -337,6 +343,7 @@ public sealed class SchoolSceneController : MonoBehaviour
         // Explicit clue permission boundary. Stage 5A supplies no clue and never opens this door.
         bool hasClue = Story.Has(StoryFlag.SchoolSecurityClueSeen);
         if (!hasClue) { securityFeedback.text = securityNoResponse; return; }
+        if(chase!=null&&chase.TrySecurityCode(SecurityEnteredCode))return;
         if (youthFlow != null && youthFlow.TrySecurityCode(SecurityEnteredCode)) return;
         // Otherworld and missing permissions preserve the original no-response behavior.
         securityFeedback.text = securityNoResponse;

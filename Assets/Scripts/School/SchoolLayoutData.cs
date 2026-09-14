@@ -3,7 +3,7 @@ using UnityEngine;
 
 public enum SchoolWorldVariant { Otherworld, Memory }
 public enum SchoolActor { Adult, Youth }
-public enum SchoolPhase { OtherworldExplore, YouthOpening, YouthEntrance, YouthExplore, OfficeHandoff }
+public enum SchoolPhase { OtherworldExplore, YouthOpening, YouthEntrance, YouthExplore, OfficeHandoff, Chase, SecurityFinale, SchoolRecovery }
 public enum SchoolPortalGate { Open, Closed, EquipmentKey, SecurityClue, OfficeEvidence }
 
 [Serializable]
@@ -35,4 +35,3 @@ public class SchoolLayoutData : ScriptableObject
     public SchoolRoomDefinition Room(string id) => Array.Find(rooms,r=>r.id==id);
     public SchoolPortalDefinition Portal(string id) => Array.Find(portals,p=>p.id==id);
 }
-

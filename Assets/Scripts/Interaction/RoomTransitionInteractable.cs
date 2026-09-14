@@ -85,7 +85,7 @@ public class RoomTransitionInteractable :
         }
 
         yield return screenFade.FadeThroughBlack(
-            () => MovePlayerAndCamera(player)
+            () => MovePlayerAndCamera(player), this
         );
 
         ReleaseControlLock();
@@ -189,8 +189,15 @@ public class RoomTransitionInteractable :
 
     private void OnDisable()
     {
+        CancelTransition();
         ReleaseControlLock();
         isTransitioning = false;
+    }
+    public void CancelTransition()
+    {
+        if(!isTransitioning)return;
+        StopAllCoroutines();if(screenFade!=null)screenFade.CancelOwnedFade(this);
+        ReleaseControlLock();isTransitioning=false;
     }
 
     private void ReleaseControlLock()

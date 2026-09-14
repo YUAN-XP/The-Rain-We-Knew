@@ -1,0 +1,32 @@
+AUTO_FIXTURE/API; explicitly seeded earlier items/files/flags. NOT a real earlier-chapter route or native held input.
+PASS Nonempty diagnostic history seeded with original asset identities
+ISOLATED COMBINATION FIXTURE, not a route pass.
+DIAGNOSTIC SECURITY SETUP: after production opening/capture, explicitly place at Floor01 security door for isolated combination tests. Not a route pass.
+PASS Production security password UI opened
+PASS Password pause preserves actual enemy and random timer
+PASS Wrong 0000 does not enter or set checkpoint
+PASS Correct submission does not prematurely mark Arrived
+PASS Actual settled security Arrived captured CP_SECURITY
+PASS Security cleared enemy and school camera
+PASS AUTO_PHYSICS actual walk to SecurityRoom x=214.3 final=214.0637
+SETUP: final held threshold supplied through existing lamp API; native held input NOT tested.
+PASS AUTO_PHYSICS actual walk to SecurityRoom x=211.3 final=211.5305
+PASS Home fixture actual recipe generates full newspaper
+PASS AUTO_PHYSICS actual walk to SecurityRoom x=202.3 final=202.5405
+PASS Original security return door restored after completed finale
+PASS AUTO_PHYSICS actual walk to Floor01 x=2.3 final=2.539165
+PASS No-light school return entry rejected
+PASS Explicit return context reuses Scene02 fog without prematurely marking home
+PASS CP_FOG_RETURN independent from outgoing and security checkpoints
+PASS Return fog inventory pauses measured darkness clock
+PASS Timely relighting clears danger
+PASS Production Q camera raises in return fog
+PASS Q lowered lamp and actual darkness caused death in 2.988 seconds
+PASS Production return retry accepted CP_FOG_RETURN
+PASS Return death restores adult completed school-side entrance
+PASS Return death preserves consumed fragments, full newspaper and nonempty historical Files
+PASS Actual physical fog walk then home arrival ends free; total=5.96
+PASS Home position is original fog-side ground, not old living room
+PASS Home keeps archive identities without reissuing old photo
+PASS Existing desk controller opens at returned-home permissions (API proximity bypass disclosed)
+RESULT pass=27 fail=0; scene=Scene02_Courtyard

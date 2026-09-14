@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6acc264fa2b52184c9c5d5c5ce3ae7d1, type: 3}
+  m_Name: R_Newspaper
+  m_EditorClassIdentifier: Assembly-CSharp::CombinationRecipe
+  recipeId: assemble_school_newspaper
+  materials:
+  - item: {fileID: 11400000, guid: 2d03b7372e5e06d45921ba0e71dc4d06, type: 2}
+    count: 1
+    consume: 1
+    retainedTool: 0
+  - item: {fileID: 11400000, guid: b60a098668a37f94a8449a83a37908f8, type: 2}
+    count: 1
+    consume: 1
+    retainedTool: 0
+  - item: {fileID: 11400000, guid: 5d1abf915acde78419aac75f1ef758d3, type: 2}
+    count: 1
+    consume: 1
+    retainedTool: 0
+  prerequisites: 4d00000051000000
+  completedFlag: 82
+  resultFile: {fileID: 11400000, guid: c32f3ffdfa40bc547aba13d8a1c44afa, type: 2}
+  resultItem: {fileID: 0}
+  retainedResult: {fileID: 0}
+  resultName:
+  resultDescription:
+  restoreLamp: 0

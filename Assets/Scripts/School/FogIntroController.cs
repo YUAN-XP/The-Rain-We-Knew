@@ -7,7 +7,7 @@ public enum FogIntroPhase { Idle, Entering, FreeWalk, Encircled, Inquiry, Chargi
 
 // Scene02's separate same-scene fog block. Only the initial dispersal consumes
 // the lamp; all deaths restore CP_FOG_OUT without reloading inventory or story.
-public class FogIntroController : MonoBehaviour
+public partial class FogIntroController : MonoBehaviour
 {
     [Header("Existing runtime / same-scene entry")]
     [SerializeField] private ScreenFadeController screenFade;
@@ -106,6 +106,7 @@ public class FogIntroController : MonoBehaviour
     private void Update()
     {
         if (!IsActive || controls == null || controls.ActivePlayer == null) return;
+        if(schoolReturnMode){UpdateSchoolReturn();return;}
         if (Phase == FogIntroPhase.Dead)
         {
             if (!Input.GetKey(KeyCode.E)) retryArmed = true;

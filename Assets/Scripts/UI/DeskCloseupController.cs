@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class DeskCloseupController : MonoBehaviour
+public partial class DeskCloseupController : MonoBehaviour
 {
     [SerializeField] private TMP_FontAsset font;
     [SerializeField] private ItemData oilLamp;
@@ -51,6 +51,7 @@ public class DeskCloseupController : MonoBehaviour
         RuntimePanelUI.Button("确认",computerPanel.transform,font,new Vector2(.52f,.18f),new Vector2(.7f,.27f),SubmitComputer);
         RuntimePanelUI.Button("返回",computerPanel.transform,font,new Vector2(.3f,.18f),new Vector2(.48f,.27f),()=>ShowPage("Desktop"));
         RuntimePanelUI.Text("电脑",computerPanel.transform,font,new Vector2(.3f,.65f),new Vector2(.7f,.75f),38);
+        BuildSchoolComputer();
 
     }
     private GameObject PageRoot(string name,Transform root)=>RuntimePanelUI.Rect(name,root,Vector2.zero,Vector2.one).gameObject;
@@ -67,11 +68,12 @@ public class DeskCloseupController : MonoBehaviour
     {
         if(!IsOpen)return; Page=page;
         desktop.SetActive(page=="Desktop"); lockPanel.SetActive(page=="Drawer"); computerPanel.SetActive(page=="Computer");
+        SyncSchoolPage(page);
         if(page=="Computer"){ computerMessage.text=""; password.text=""; password.ActivateInputField(); }
         if(page=="Drawer")lockMessage.text="";
     }
 
-    public void SubmitComputer(){ if(IsOpen && Page=="Computer")computerMessage.text="密码错误"; }
+    public void SubmitComputer(){ if(IsOpen && Page=="Computer"&&!TryComputerLogin())computerMessage.text="密码错误"; }
     public void ConfirmLock()
     {
         if(!IsOpen || Page!="Drawer")return;
@@ -86,12 +88,13 @@ public class DeskCloseupController : MonoBehaviour
     public void Close()
     {
         if(!IsOpen)return;
+        if(FinishSchoolEmail())return;
         bool desk=Page!="Outfit"; canvas.SetActive(false); Page="";
         if(desk)story.Set(StoryFlag.DeskEventTriggered);
         controls.ReleaseLock(ControlLockReason.CloseUp);
     }
     private void Update() { if(IsOpen && Input.GetKeyDown(KeyCode.Escape))Back(); }
-    private void OnDisable() { if(controls!=null && IsOpen)Close(); }
-    private void SceneChanged(Scene oldScene,Scene newScene){Close();}
+    private void OnDisable() { suppressEmailCompletion=true;if(controls!=null && IsOpen)Close();suppressEmailCompletion=false; }
+    private void SceneChanged(Scene oldScene,Scene newScene){suppressEmailCompletion=true;Close();suppressEmailCompletion=false;}
     private void OnDestroy(){SceneManager.activeSceneChanged-=SceneChanged;}
 }

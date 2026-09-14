@@ -3,7 +3,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class InventoryUI : MonoBehaviour
+public partial class InventoryUI : MonoBehaviour
 {
     private enum InventoryTab
     {
@@ -163,8 +163,7 @@ public class InventoryUI : MonoBehaviour
             return;
         }
 
-        if (gameControlManager != null &&
-            gameControlManager.IsLocked())
+        if (!MayOpen())
         {
             return;
         }
@@ -198,15 +197,18 @@ public class InventoryUI : MonoBehaviour
                 ShowFiles();
                 break;
         }
+        Opened?.Invoke();
     }
 
-    private void CloseInventory()
+    public void CloseInventory()
     {
         if (inventoryPanel == null)
         {
             return;
         }
 
+        bool wasOpen=IsOpen;
+        ClearCombinationSelection();
         inventoryPanel.SetActive(false);
 
         if (gameControlManager != null)
@@ -215,10 +217,12 @@ public class InventoryUI : MonoBehaviour
                 ControlLockReason.Inventory
             );
         }
+        if(wasOpen)Closed?.Invoke();
     }
 
     private void ShowItems()
     {
+        ClearCombinationSelection();
         currentTab =
             InventoryTab.Items;
 
@@ -229,6 +233,7 @@ public class InventoryUI : MonoBehaviour
 
     private void ShowKeyItems()
     {
+        ClearCombinationSelection();
         currentTab =
             InventoryTab.KeyItems;
 
@@ -239,6 +244,7 @@ public class InventoryUI : MonoBehaviour
 
     private void ShowOutfits()
     {
+        ClearCombinationSelection();
         if(gameControlManager!=null && !gameControlManager.AllowsAdultOutfits)return;
         currentTab=InventoryTab.Outfits;
         if(itemsPage!=null)itemsPage.SetActive(false);
@@ -248,6 +254,7 @@ public class InventoryUI : MonoBehaviour
 
     private void ShowFiles()
     {
+        ClearCombinationSelection();
         if(outfitsPage!=null)outfitsPage.SetActive(false);
         currentTab =
             InventoryTab.Files;
@@ -380,6 +387,7 @@ public class InventoryUI : MonoBehaviour
         newButton.onClick.AddListener(
             () => ShowItemDetails(item)
         );
+        BindCombination(item,newButton);
 
         spawnedItemEntries.Add(
             newButton.gameObject
@@ -492,10 +500,12 @@ public class InventoryUI : MonoBehaviour
             filePreviewImage.enabled =
                 file.icon != null;
         }
+        FitFileReading();
     }
 
     private void ClearItemEntries()
     {
+        materialButtons.Clear();
         foreach (GameObject entry
                  in spawnedItemEntries)
         {

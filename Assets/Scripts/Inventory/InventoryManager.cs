@@ -19,6 +19,23 @@ public class InventoryManager : MonoBehaviour
     public string DisplayName(ItemData item) => item != null && presentation.TryGetValue(item, out var value) ? value.name : item != null ? item.itemName : "";
     public string DisplayDescription(ItemData item) => item != null && presentation.TryGetValue(item, out var value) ? value.description : item != null ? item.description : "";
 
+    // A checkpoint owns the complete session snapshot. This does not relax
+    // RemoveItem's permanent-item guard or modify any authored ItemData.
+    public sealed class SessionSnapshot
+    {
+        internal ItemData[] items;
+        internal Dictionary<ItemData, (string name, string description)> display;
+    }
+    public SessionSnapshot CaptureSession() => new SessionSnapshot {
+        items=items.ToArray(), display=new Dictionary<ItemData, (string name, string description)>(presentation)
+    };
+    internal void RestoreSession(SessionSnapshot snapshot)
+    {
+        if(snapshot==null)return;
+        items.Clear(); items.AddRange(snapshot.items);
+        presentation.Clear(); foreach(var pair in snapshot.display)presentation[pair.Key]=pair.Value;
+    }
+
     public void AddItem(ItemData item)
     {
         if (item == null)

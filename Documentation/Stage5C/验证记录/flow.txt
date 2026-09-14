@@ -1,0 +1,26 @@
+AUTO_FIXTURE/API; explicitly seeded earlier items/files/flags. NOT a real earlier-chapter route or native held input.
+PASS Nonempty diagnostic history seeded with original asset identities
+PASS Office original door and three-page opening finished
+PASS Adult/Memory/right floor actual handover
+PASS CP_OFFICE saved before adult handover
+PASS Camera production Raise allowed
+PASS Enemy actually moves while Q preview locks player
+PASS Preview leaves actual variant/collision root unchanged
+PASS Cancel did not clear enemy or commit
+PASS Space production exposure committed Otherworld
+PASS Production portal Stair_F03_Roof_Right_AtoB
+PASS Actual right-roof Arrived advances P2
+PASS AUTO_PHYSICS actual walk to Roof x=39 final=39.24723
+PASS Roof midpoint triggers one right threat
+PASS Production portal Stair_F03_Roof_Left_BtoA
+PASS Actual left-roof Arrived advances P3
+PASS Third floor left switches to Memory
+PASS Production portal Stair_F02_F03_Left_BtoA
+PASS Actual left stair advances P4
+PASS Chase death uses black/retry state
+PASS CP_OFFICE restored youth office
+PASS Checkpoint preserved five original item identities
+PASS Checkpoint preserved both nonempty original Files
+PASS Original outfit and USB0 survive retry
+PASS Restore released owned locks/preview/enemy
+RESULT pass=24 fail=0; step=Dormant; route=None; room=StaffOffice

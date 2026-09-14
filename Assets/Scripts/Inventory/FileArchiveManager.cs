@@ -9,6 +9,11 @@ public class FileArchiveManager : MonoBehaviour
         new List<FileData>();
 
     public IReadOnlyList<FileData> Files => files;
+    internal void RestoreSession(IReadOnlyList<FileData> snapshot)
+    {
+        if(snapshot==null)return;
+        files.Clear(); foreach(var file in snapshot)if(file!=null&&!HasFile(file))files.Add(file);
+    }
 
     public void AddFile(FileData file)
     {

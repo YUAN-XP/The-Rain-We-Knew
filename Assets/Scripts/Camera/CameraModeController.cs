@@ -31,6 +31,15 @@ public class CameraModeController : MonoBehaviour
     public bool IsRaised { get; private set; }
     public bool IsBusy { get; private set; }
     public Camera CurrentCamera => Camera.main;
+    // Checkpoint/scene owners cancel a pending exposure before restoring state.
+    // Lower alone intentionally remains a normal preview cancellation.
+    public void AbortCapture()
+    {
+        StopAllCoroutines(); Lower(); IsBusy=false;
+        if(flash!=null)flash.color=Color.clear;
+        if(ownsRevealLock && controls!=null)controls.ReleaseLock(ControlLockReason.Cutscene);
+        ownsRevealLock=false;
+    }
     private void Start()
     {
         controls=GetComponent<GameControlManager>(); inventory=GetComponent<InventoryManager>();

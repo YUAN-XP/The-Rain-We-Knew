@@ -1,0 +1,51 @@
+PASS Actual HEAD unchanged e4e39bda57a1fdcf29ca2da2a3b3c75aef58e9e3
+PASS No staged changes; no commit or push
+BASELINE_HASH_CHANGED ["Assets\\Scripts\\School\\FogIntroController.cs", "Assets\\Scripts\\School\\SchoolInteractable.cs", "Assets\\Scripts\\School\\SchoolLayoutData.cs", "Assets\\Scripts\\School\\SchoolPortal.cs", "Assets\\Scripts\\School\\SchoolSceneController.cs", "Assets\\Scenes\\Scene04_School.unity", "Assets\\Scenes\\Scene02_Courtyard.unity", "Assets\\Fonts\\ChineseMain SDF.asset", "Assets\\Scripts\\Inventory\\FileArchiveManager.cs", "Assets\\Scripts\\Inventory\\InventoryManager.cs", "Assets\\Scripts\\Inventory\\InventoryUI.cs", "Assets\\Scripts\\Camera\\CameraModeController.cs", "Assets\\Scripts\\System\\GameControlManager.cs", "Assets\\Scripts\\Story\\StoryStateManager.cs", "Assets\\Scripts\\Story\\Scene02ReturnController.cs", "Assets\\Scripts\\UI\\DeskCloseupController.cs", "Assets\\Scripts\\Interaction\\RoomTransitionInteractable.cs"]
+PASS Unchanged Assets/Scenes/Scene01_Rain.unity
+PASS Unchanged Assets/Scenes/Scene03_Childhood.unity
+PASS Unchanged Assets/Prefabs/PersistentRuntime.prefab
+PASS Unchanged Assets/GameData/School/SchoolLayout.asset
+PASS Unchanged Assets/Scripts/School/OilLampController.cs
+PASS Unchanged Assets/Scripts/School/SchoolYouthController.cs
+PASS Unchanged Assets/Scripts/School/SchoolYouthSecurity.cs
+PASS Unchanged Assets/Scripts/School/SchoolLayoutController.cs
+PASS All 223 pre-existing GameData assets/metas unchanged []
+PASS Scene02_Courtyard no original serialized object removed
+Scene02_Courtyard original Transform changes ['34431641'] (root child references only must be reviewed)
+PASS Scene02_Courtyard all 8 original RoomTransition components and camera limits unchanged (ignore trailing whitespace)
+PASS Scene02_Courtyard all 0 original SchoolPortal blocks unchanged except chase reference (ignore trailing whitespace)
+PASS Scene04_School no original serialized object removed
+Scene04_School original Transform changes ['582523085'] (root child references only must be reviewed)
+PASS Scene04_School all 56 original RoomTransition components and camera limits unchanged (ignore trailing whitespace)
+PASS Scene04_School all 50 original SchoolPortal blocks unchanged except chase reference (ignore trailing whitespace)
+PASS StoryFlag original numeric order unchanged
+StoryFlag added [(76, 'SchoolChaseStarted'), (77, 'SchoolChaseCompleted'), (78, 'SchoolSecurityEntered'), (79, 'SchoolOilTaken'), (80, 'SchoolLampRestored'), (81, 'SchoolFragment3Taken'), (82, 'SchoolNewspaperCombined'), (83, 'SchoolReturnedHome'), (84, 'SchoolGuideReturnSpoken'), (85, 'SchoolComputerLoggedIn'), (86, 'SchoolEmailRead')]
+PASS ControlLockReason original numeric order unchanged
+ControlLockReason added [(7, 'SchoolSequence')]
+PASS SchoolPhase original numeric order unchanged
+SchoolPhase added [(5, 'Chase'), (6, 'SecurityFinale'), (7, 'SchoolRecovery')]
+PASS Font baseline glyph table was 0 entries; now 476; no old Unicode/Glyph mapping removed. Empty baseline is not glyph preservation evidence.
+PASS ChineseMain SDF GUID unchanged
+PASS No duplicate GUIDs across Assets []
+PASS New source/data/folders have metas []
+TRACKED DIFF STAT
+ Assets/Fonts/ChineseMain SDF.asset                 | 9851 +++++++++++++++++++-
+ Assets/Scenes/Scene02_Courtyard.unity              |   91 +
+ Assets/Scenes/Scene04_School.unity                 | 1014 +-
+ Assets/Scripts/Camera/CameraModeController.cs      |    9 +
+ .../Interaction/RoomTransitionInteractable.cs      |    9 +-
+ Assets/Scripts/Inventory/FileArchiveManager.cs     |    7 +-
+ Assets/Scripts/Inventory/InventoryManager.cs       |   19 +-
+ Assets/Scripts/Inventory/InventoryUI.cs            |   18 +-
+ Assets/Scripts/School/FogIntroController.cs        |    3 +-
+ Assets/Scripts/School/SchoolInteractable.cs        |    7 +-
+ Assets/Scripts/School/SchoolLayoutData.cs          |    3 +-
+ Assets/Scripts/School/SchoolPortal.cs              |    6 +-
+ Assets/Scripts/School/SchoolSceneController.cs     |    9 +-
+ Assets/Scripts/Story/Scene02ReturnController.cs    |    4 +-
+ Assets/Scripts/Story/StoryStateManager.cs          |   12 +-
+ Assets/Scripts/System/GameControlManager.cs        |    3 +-
+ Assets/Scripts/UI/DeskCloseupController.cs         |   11 +-
+ Assets/Scripts/UI/ScreenFadeController.cs          |   24 +-
+ 18 files changed, 10708 insertions(+), 392 deletions(-)
+

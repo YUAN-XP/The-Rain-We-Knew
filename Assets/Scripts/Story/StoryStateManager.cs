@@ -22,7 +22,10 @@ public enum StoryFlag { CameraDoorRevealed, CameraTutorialTriggered, CameraFirst
     SchoolYouthConversationCompleted, SchoolUsbReceived, SchoolSecurityMemoryOpened,
     SchoolMediaPasswordChanged, SchoolEvidenceSubmitted, SchoolOfficeHandoffReady,
     SchoolToiletHeard, SchoolEquipmentRecalled, SchoolCourtHintSeen, SchoolCrowdSeen,
-    SchoolGateTried, SchoolFemaleToiletTried, SchoolRoofTried, SchoolSecurityWindowSeen }
+    SchoolGateTried, SchoolFemaleToiletTried, SchoolRoofTried, SchoolSecurityWindowSeen,
+    SchoolChaseStarted, SchoolChaseCompleted, SchoolSecurityEntered, SchoolOilTaken,
+    SchoolLampRestored, SchoolFragment3Taken, SchoolNewspaperCombined, SchoolReturnedHome,
+    SchoolGuideReturnSpoken, SchoolComputerLoggedIn, SchoolEmailRead }
 public enum AdultOutfit { Default, Overalls, SchoolUniform }
 
 [DisallowMultipleComponent]
@@ -52,6 +55,13 @@ public class StoryStateManager : MonoBehaviour
         if (changed) Changed?.Invoke();
     }
     public event Action Changed;
+    // Checkpoints restore only their chapter-local keys in one notification.
+    internal void RestoreSubset(IReadOnlyDictionary<StoryFlag,bool> values)
+    {
+        bool changed=false;
+        foreach(var pair in values)changed |= pair.Value ? flags.Add(pair.Key) : flags.Remove(pair.Key);
+        if(changed)Changed?.Invoke();
+    }
     public bool Has(StoryFlag flag) => flags.Contains(flag);
     public bool Set(StoryFlag flag, bool value = true)
     {

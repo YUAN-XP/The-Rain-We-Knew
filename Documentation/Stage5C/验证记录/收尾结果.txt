@@ -1,0 +1,140 @@
+Stage5C 最终收尾 — 2026-09-15T00:08:04+08:00
+Actual HEAD: e4e39bda57a1fdcf29ca2da2a3b3c75aef58e9e3
+工作区初始干净；现在仅本阶段修改/新文件；无暂存、无提交、无推送。
+
+最后正式运行：Scene02_Courtyard / Adult / 返家完成、电脑登录、邮件已读；最后背包关闭，locks为空。实际状态原文见 final-play-state.txt。
+退出Play前场景dirty=False；退出后Scene04_School Edit、dirty=False；原生Ctrl+S保存后清理序列化空白，原生Reload载入磁盘；最终Hierarchy场景名无星号，Play为灰色三角，Compilation指示消失。
+临时 Assets/Stage5CProbe、Assets/Editor/Stage5CEditor与Stage5CBuilder、对应meta及空Editor目录/meta均已删除。副本和截图留在仓库外工作区。没有新增诊断菜单、成功按钮或运行时造物入口。
+
+清理后Unity自带Roslyn生产编译：exit 0（compile-summary.txt）。Unity编辑器清理后重编译完成，实际Console最后红错0；Warning1来源Unity.Pipeline.Editor.EditorPipelineServer:ServerStarted，内容Editor is not in automated mode。另有5条Unity AI服务NoSubscription普通Log，非红错。未清空这些消息来伪造空Console。截图23实际检查并保存。
+本轮中途曾有inactive青年尚未Awake的NullReference，已修并两次以上真实LoadScene回归通过；该历史失败不能声称从未发生。组合故障注入的预期Warning另外留档，不属于当前最后Console。
+
+git diff --check：exit 0。
+新GUID唯一、生产源/资产meta齐全；原Scene01/Scene03、PersistentRuntime、学校Layout数据和223份既有GameData/meta未改。
+学校/家属院原过渡组件参数、落点与相机范围保持；忽略序列化行尾空白比对通过。原字体缓存基线0字形，当前缓存见resource-audit；源与GUID未改，不声称旧运行时字形被完整测试。
+
+以下断言数只描述脚本，不合并成玩法总PASS；API/夹具来源保留：
+flow: RESULT pass=24 fail=0; step=Dormant; route=None; room=StaffOffice
+security: RESULT pass=28 fail=0; step=SecurityArrival; route=LowerEscape; room=SecurityRoom
+risk-running: RESULT pass=5 fail=0; step=Dormant; route=None; room=StaffOffice
+edge: RESULT pass=5 fail=0; step=Dormant; route=None; room=StaffOffice
+combination: RESULT pass=43 fail=0; step=Exploring; route=Completed; room=SecurityRoom
+boundary: RESULT pass=12 fail=0; step=Dormant; route=None; room=StaffOffice
+home: RESULT pass=33 fail=0; scene=Scene02_Courtyard
+homefinal: RESULT pass=27 fail=0; scene=Scene02_Courtyard
+
+Native：真实E原办公室/死亡重试；真实E/Tab/右键油灯组合；真实不按Space安保死亡/E重试；Files点击滚动；电脑4268与0715失败、xPzT0715成功、读邮件/E独白；真实Tab和方向点按；相机灰色选择不可点击。
+未完成：双Shift/最终Space可控持续held、全程无夹具人工路线、Scene02原门全回归、5A/5B/Scene03整章回归、缺片全程、全部双分辨率UI、真实试听。C01–C60不是全通过。
+
+最终跟踪文件差异：
+ Assets/Fonts/ChineseMain SDF.asset                 | 9851 +++++++++++++++++++-
+ Assets/Scenes/Scene02_Courtyard.unity              |   91 +
+ Assets/Scenes/Scene04_School.unity                 | 1014 +-
+ Assets/Scripts/Camera/CameraModeController.cs      |    9 +
+ .../Interaction/RoomTransitionInteractable.cs      |    9 +-
+ Assets/Scripts/Inventory/FileArchiveManager.cs     |    7 +-
+ Assets/Scripts/Inventory/InventoryManager.cs       |   19 +-
+ Assets/Scripts/Inventory/InventoryUI.cs            |   18 +-
+ Assets/Scripts/School/FogIntroController.cs        |    3 +-
+ Assets/Scripts/School/SchoolInteractable.cs        |    7 +-
+ Assets/Scripts/School/SchoolLayoutData.cs          |    3 +-
+ Assets/Scripts/School/SchoolPortal.cs              |    6 +-
+ Assets/Scripts/School/SchoolSceneController.cs     |    9 +-
+ Assets/Scripts/Story/Scene02ReturnController.cs    |    4 +-
+ Assets/Scripts/Story/StoryStateManager.cs          |   12 +-
+ Assets/Scripts/System/GameControlManager.cs        |    3 +-
+ Assets/Scripts/UI/DeskCloseupController.cs         |   11 +-
+ Assets/Scripts/UI/ScreenFadeController.cs          |   24 +-
+ 18 files changed, 10708 insertions(+), 392 deletions(-)
+
+最终全部工作区条目（包括新文件）：
+ M "Assets/Fonts/ChineseMain SDF.asset"
+ M Assets/Scenes/Scene02_Courtyard.unity
+ M Assets/Scenes/Scene04_School.unity
+ M Assets/Scripts/Camera/CameraModeController.cs
+ M Assets/Scripts/Interaction/RoomTransitionInteractable.cs
+ M Assets/Scripts/Inventory/FileArchiveManager.cs
+ M Assets/Scripts/Inventory/InventoryManager.cs
+ M Assets/Scripts/Inventory/InventoryUI.cs
+ M Assets/Scripts/School/FogIntroController.cs
+ M Assets/Scripts/School/SchoolInteractable.cs
+ M Assets/Scripts/School/SchoolLayoutData.cs
+ M Assets/Scripts/School/SchoolPortal.cs
+ M Assets/Scripts/School/SchoolSceneController.cs
+ M Assets/Scripts/Story/Scene02ReturnController.cs
+ M Assets/Scripts/Story/StoryStateManager.cs
+ M Assets/Scripts/System/GameControlManager.cs
+ M Assets/Scripts/UI/DeskCloseupController.cs
+ M Assets/Scripts/UI/ScreenFadeController.cs
+?? Assets/GameData/School/Stage5C.meta
+?? Assets/GameData/School/Stage5C/D_ChaseOpening.asset
+?? Assets/GameData/School/Stage5C/D_ChaseOpening.asset.meta
+?? Assets/GameData/School/Stage5C/D_EmailRead.asset
+?? Assets/GameData/School/Stage5C/D_EmailRead.asset.meta
+?? Assets/GameData/School/Stage5C/D_HomeGuideFirst.asset
+?? Assets/GameData/School/Stage5C/D_HomeGuideFirst.asset.meta
+?? Assets/GameData/School/Stage5C/D_HomeGuideRepeat.asset
+?? Assets/GameData/School/Stage5C/D_HomeGuideRepeat.asset.meta
+?? Assets/GameData/School/Stage5C/D_SecurityCleared.asset
+?? Assets/GameData/School/Stage5C/D_SecurityCleared.asset.meta
+?? Assets/GameData/School/Stage5C/F_CompleteNewspaper.asset
+?? Assets/GameData/School/Stage5C/F_CompleteNewspaper.asset.meta
+?? Assets/GameData/School/Stage5C/I_NewspaperFragment03.asset
+?? Assets/GameData/School/Stage5C/I_NewspaperFragment03.asset.meta
+?? Assets/GameData/School/Stage5C/I_SchoolOil.asset
+?? Assets/GameData/School/Stage5C/I_SchoolOil.asset.meta
+?? Assets/GameData/School/Stage5C/R_Newspaper.asset
+?? Assets/GameData/School/Stage5C/R_Newspaper.asset.meta
+?? Assets/GameData/School/Stage5C/R_RestoreLamp.asset
+?? Assets/GameData/School/Stage5C/R_RestoreLamp.asset.meta
+?? Assets/GameData/School/Stage5C/SchoolHomeReturn.asset
+?? Assets/GameData/School/Stage5C/SchoolHomeReturn.asset.meta
+?? Assets/Scripts/Inventory/CombinationManager.cs
+?? Assets/Scripts/Inventory/CombinationManager.cs.meta
+?? Assets/Scripts/Inventory/CombinationRecipe.cs
+?? Assets/Scripts/Inventory/CombinationRecipe.cs.meta
+?? Assets/Scripts/Inventory/InventoryCombinationUI.cs
+?? Assets/Scripts/Inventory/InventoryCombinationUI.cs.meta
+?? Assets/Scripts/Inventory/InventoryContextClick.cs
+?? Assets/Scripts/Inventory/InventoryContextClick.cs.meta
+?? Assets/Scripts/School/FogSchoolReturn.cs
+?? Assets/Scripts/School/FogSchoolReturn.cs.meta
+?? Assets/Scripts/School/SchoolChaseCaptureContext.cs
+?? Assets/Scripts/School/SchoolChaseCaptureContext.cs.meta
+?? Assets/Scripts/School/SchoolChaseController.cs
+?? Assets/Scripts/School/SchoolChaseController.cs.meta
+?? Assets/Scripts/School/SchoolChaseGeometry.cs
+?? Assets/Scripts/School/SchoolChaseGeometry.cs.meta
+?? Assets/Scripts/School/SchoolChasePresentation.cs
+?? Assets/Scripts/School/SchoolChasePresentation.cs.meta
+?? Assets/Scripts/School/SchoolChaseSession.cs
+?? Assets/Scripts/School/SchoolChaseSession.cs.meta
+?? Assets/Scripts/School/SchoolChaseWeather.cs
+?? Assets/Scripts/School/SchoolChaseWeather.cs.meta
+?? Assets/Scripts/School/SchoolHomeData.cs
+?? Assets/Scripts/School/SchoolHomeData.cs.meta
+?? Assets/Scripts/School/SchoolHomeReturnController.cs
+?? Assets/Scripts/School/SchoolHomeReturnController.cs.meta
+?? Assets/Scripts/School/SchoolSecurityFinale.cs
+?? Assets/Scripts/School/SchoolSecurityFinale.cs.meta
+?? Assets/Scripts/School/SchoolSecurityPickup.cs
+?? Assets/Scripts/School/SchoolSecurityPickup.cs.meta
+?? Assets/Scripts/UI/DeskSchoolComputer.cs
+?? Assets/Scripts/UI/DeskSchoolComputer.cs.meta
+?? Documentation/Stage5C/关键画面与索引.md
+?? Documentation/Stage5C/后续接口说明.md
+?? Documentation/Stage5C/学校门路与追逐参数快照.md
+?? Documentation/Stage5C/最终报告.md
+?? Documentation/Stage5C/续接记录.md
+?? Documentation/Stage5C/自检结果.txt
+?? Documentation/Stage5C/验证记录/boundary.txt
+?? Documentation/Stage5C/验证记录/combination.txt
+?? Documentation/Stage5C/验证记录/compile-summary.txt
+?? Documentation/Stage5C/验证记录/edge.txt
+?? Documentation/Stage5C/验证记录/flow.txt
+?? Documentation/Stage5C/验证记录/home.txt
+?? Documentation/Stage5C/验证记录/homefinal.txt
+?? Documentation/Stage5C/验证记录/resource-audit.txt
+?? Documentation/Stage5C/验证记录/risk-running.txt
+?? Documentation/Stage5C/验证记录/security.txt
+?? Documentation/Stage5C/验证记录/真实输入记录.md

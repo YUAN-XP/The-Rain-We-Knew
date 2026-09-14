@@ -13,6 +13,13 @@ public class ScreenFadeController : MonoBehaviour
     [SerializeField] private float fadeDuration = 0.35f;
 
     public bool IsFading { get; private set; }
+    private object fadeOwner;
+    private int fadeGeneration;
+    public void CancelOwnedFade(object owner)
+    {
+        if(owner==null||!ReferenceEquals(fadeOwner,owner))return;
+        fadeGeneration++;fadeOwner=null;IsFading=false;SetCanvasState(0,false);
+    }
 
     private void Awake()
     {
@@ -25,7 +32,7 @@ public class ScreenFadeController : MonoBehaviour
     }
 
     public IEnumerator FadeThroughBlack(
-        Action actionWhileBlack)
+        Action actionWhileBlack, object owner = null)
     {
         if (IsFading)
         {
@@ -33,6 +40,7 @@ public class ScreenFadeController : MonoBehaviour
         }
 
         IsFading = true;
+        fadeOwner=owner;int run=++fadeGeneration;
         SetCanvasState(
             canvasGroup != null
                 ? canvasGroup.alpha
@@ -40,7 +48,8 @@ public class ScreenFadeController : MonoBehaviour
             true
         );
 
-        yield return FadeTo(1f);
+        yield return FadeTo(1f,run);
+        if(run!=fadeGeneration)yield break;
 
         actionWhileBlack?.Invoke();
 
@@ -48,10 +57,12 @@ public class ScreenFadeController : MonoBehaviour
         // have completed one frame at their new positions.
         yield return null;
 
-        yield return FadeTo(0f);
+        yield return FadeTo(0f,run);
+        if(run!=fadeGeneration)yield break;
 
         SetCanvasState(0f, false);
         IsFading = false;
+        fadeOwner=null;
     }
 
     // Bridge endpoints deliberately keep the existing fade canvas opaque.
@@ -59,12 +70,14 @@ public class ScreenFadeController : MonoBehaviour
     {
         while (IsFading) yield return null;
         IsFading = true;
+        fadeOwner=null;int run=++fadeGeneration;
         SetCanvasState(canvasGroup != null ? canvasGroup.alpha : 0f, true);
-        yield return FadeTo(1f);
+        yield return FadeTo(1f,run);
+        if(run!=fadeGeneration)yield break;
         IsFading = false;
     }
 
-    private IEnumerator FadeTo(float targetAlpha)
+    private IEnumerator FadeTo(float targetAlpha,int run)
     {
         if (canvasGroup == null)
         {
@@ -83,6 +96,7 @@ public class ScreenFadeController : MonoBehaviour
 
         while (elapsed < fadeDuration)
         {
+            if(run!=fadeGeneration)yield break;
             elapsed += Time.unscaledDeltaTime;
 
             canvasGroup.alpha = Mathf.Lerp(

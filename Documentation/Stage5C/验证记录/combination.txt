@@ -1,0 +1,48 @@
+AUTO_FIXTURE/API; explicitly seeded earlier items/files/flags. NOT a real earlier-chapter route or native held input.
+PASS Nonempty diagnostic history seeded with original asset identities
+ISOLATED COMBINATION FIXTURE, not a route pass.
+DIAGNOSTIC SECURITY SETUP: after production opening/capture, explicitly place at Floor01 security door for isolated combination tests. Not a route pass.
+PASS Production security password UI opened
+PASS Password pause preserves actual enemy and random timer
+PASS Wrong 0000 does not enter or set checkpoint
+PASS Correct submission does not prematurely mark Arrived
+PASS Actual settled security Arrived captured CP_SECURITY
+PASS Security cleared enemy and school camera
+PASS AUTO_PHYSICS actual walk to SecurityRoom x=214.3 final=214.0517
+PASS S0 blocks actual InventoryUI opening
+PASS Oil actual pickup enters locked tutorial with Key Item
+PASS Combination bag opens while own movement lock 0
+PASS Combination bag opens while own movement lock 1
+PASS Combination bag opens while own movement lock 2
+PASS Combination bag opens while own movement lock 3
+PASS Combination bag opens while own movement lock 4
+PASS Combination bag opens while own movement lock 5
+PASS Combination bag opens while own movement lock 6
+PASS Combination bag opens while own movement lock 7
+PASS Combination bag opens while own movement lock 8
+PASS Combination bag opens while own movement lock 9
+PASS Ten incomplete closes preserve horizontal physical position, lock and no enemy; before=(214.21, 0.90) after=(214.21, 0.90) step=OilTutorial
+PASS Camera not a selectable recipe material
+PASS Incomplete selection feedback preserves material
+PASS Duplicate selected entry rejected
+PASS Expected injected observer exception rolls back material, lamp and flag
+PASS Canonical lamp recipe succeeds
+PASS One original lamp retained, oil consumed, coherent S2
+PASS Repeat successful transaction cannot duplicate
+PASS First close starts one final threat and raised lamp with movement lock
+PASS Final threat actually approaches
+PASS Final inventory pauses enemy and resets held charge
+PASS Final bag close resumes same threat without reposition
+PASS Actual no-Space final approach eventually captures
+PASS CP_SECURITY restores oil0 / unfilled lamp / S0
+PASS CP_SECURITY keeps original five items and nonempty two Files
+PASS AUTO_PHYSICS actual walk to SecurityRoom x=214.3 final=214.0625
+API ONLY lamp threshold injection: no native Space hold or gradual visual pass claimed.
+PASS Lamp below threshold does not complete
+PASS Released held input resets progress
+PASS Dispersal API threshold ends in free exploration with usable lamp
+PASS AUTO_PHYSICS actual walk to SecurityRoom x=211.3 final=211.5361
+PASS Third fragment pickup exactly once after completion
+PASS Canonical three original fragments combine
+PASS Three materials consumed, unique full newspaper File
+RESULT pass=43 fail=0; step=Exploring; route=Completed; room=SecurityRoom

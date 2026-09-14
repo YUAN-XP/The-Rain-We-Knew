@@ -384,6 +384,7 @@ GameObject:
   - component: {fileID: 34431641}
   - component: {fileID: 34431640}
   - component: {fileID: 34431639}
+  - component: {fileID: 34431642}
   m_Layer: 0
   m_Name: Scene02ReturnChapter
   m_TagString: Untagged
@@ -434,6 +435,7 @@ MonoBehaviour:
   oilLamp: {fileID: 11400000, guid: aa55aff95e992b84e80839bcc7b43ebb, type: 2}
   bridge: {fileID: 34431639}
   rain: {fileID: 8300000, guid: 5bdb83b54d384f44db0074ae914ad026, type: 3}
+  schoolHome: {fileID: 34431642}
   roomCameraLimits: {x: 345, y: 355}
 --- !u!4 &34431641
 Transform:
@@ -452,8 +454,32 @@ Transform:
   - {fileID: 1010796208}
   - {fileID: 2079019048}
   - {fileID: 1824692751}
+  - {fileID: 1846609921}
+  - {fileID: 879889436}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &34431642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 34431638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d47f8273be0e656449c3ebccd614dcef, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Assembly-CSharp::SchoolHomeReturnController
+  previousReturn: {fileID: 34431640}
+  fog: {fileID: 1240336296}
+  data: {fileID: 11400000, guid: 09a9bf4c6c40a4e4fbe799eda41630cc, type: 2}
+  homeArrival: {fileID: 1846609921}
+  guideArrival: {fileID: 879889436}
+  cameraX: {x: -25, y: 285}
+  cameraY: {x: -1, y: 40}
+  followY: 1
+  cameraOffset: 0.5
+  cameraSize: 5
 --- !u!1 &44397868
 GameObject:
   m_ObjectHideFlags: 0
@@ -7303,6 +7329,37 @@ MeshRenderer:
   m_SortingOrder: 8
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &879889435
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 879889436}
+  m_Layer: 0
+  m_Name: SchoolHomeGuideArrival
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &879889436
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 879889435}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 16.274605, y: 1.8153851, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 34431641}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &889341484
 GameObject:
   m_ObjectHideFlags: 0
@@ -10637,6 +10694,7 @@ MonoBehaviour:
   inquiryDialogue: {fileID: 11400000, guid: 37e9521d8cf115f48aba0ad56e8c9721, type: 2}
   darknessSeconds: 3
   dispersalSeconds: 0.65
+  returnWalkLength: 25
 --- !u!4 &1240336297
 Transform:
   m_ObjectHideFlags: 0
@@ -11458,6 +11516,8 @@ MonoBehaviour:
   m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::SchoolRuntimeInstaller
   oilLamp: {fileID: 11400000, guid: aa55aff95e992b84e80839bcc7b43ebb, type: 2}
+  schoolUniform: {fileID: 0}
+  schoolUniformVisualPrefab: {fileID: 0}
 --- !u!4 &1429259134
 Transform:
   m_ObjectHideFlags: 0
@@ -15130,6 +15190,37 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -10.7, y: 7.82, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 34431641}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1846609920
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1846609921}
+  m_Layer: 0
+  m_Name: SchoolHomeArrival
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1846609921
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1846609920}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 19.274605, y: 1.4100001, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
