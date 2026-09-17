@@ -1,0 +1,9 @@
+scene=Assets/Scenes/Scene04_School.unity; playing=True; dirty=False; errors=0; warnings=0; logs=27
+player=Player position=(68.000, 48.905, 0.000) adult=True
+locks=Camera
+flags=SprintUnlocked,DrawerOpened,Scene01NewspaperTaken,CameraGentlemanCardObtained,Scene03FamilyPhotoTaken,Scene03Completed,LivingRoomDoorOpened,Scene02Fragment2Collected,OilLampExhausted,FogIntroCompleted,SchoolUniformOwned,PencilOwned,SchoolNameRevealed,Scene05OpeningPlayed,SchoolSecurityClueSeen,SchoolEvidenceObtained,SchoolYouthConversationCompleted,SchoolUsbReceived,SchoolSecurityMemoryOpened,SchoolMediaPasswordChanged,SchoolEvidenceSubmitted,SchoolOfficeHandoffReady,SchoolChaseStarted
+items=newspaper_fragment_01:I_S01_NewspaperFragment01,paper_fragment_02:I_S02_NewspaperFragment02,key_camera_old:I_S02_OldCamera,key_oil_lamp:I_S02_OilLamp,school_pencil:Pencil
+files=file_stained_photo:F_S02_CleanFamilyPhoto,s03_camera_gentleman:F_S03_CameraGentleman
+outfit=SchoolUniform
+dialogue=none
+school=Adult/Otherworld/Chase/Roof

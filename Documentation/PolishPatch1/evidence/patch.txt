@@ -1,0 +1,54 @@
+AUTO_FIXTURE/API; explicitly seeded earlier items/files/flags. NOT a real earlier-chapter route or native held input.
+PASS Nonempty diagnostic history seeded with original asset identities
+PASS Production office opening complete
+CONFIG player walk=5 sprint=1.7 enemy=8.925 final=4.75
+MEASURE preview enemy displacement=1.9558 dt=0.2178 speed=8.9803
+PASS Q preserves moving enemy
+PASS Q cancellation retains enemy
+PASS Production Raise at Floor03Right
+EXPOSURE Memory->Otherworld total=0.2162s activeEnemy=False room=Floor03Right route=OfficePressure refusal=
+PASS Production portal Stair_F03_Roof_Right_AtoB
+PASS Production Raise at Roof
+EXPOSURE Otherworld->Memory total=0.2147s activeEnemy=False room=Roof route=RoofCrossing refusal=
+PASS Roof actual O/M swap x=68
+PASS Memory collision root active only x=68
+PASS Memory roof stairs closed
+PASS Same roof position preserved
+PASS Production Raise at Roof
+EXPOSURE Memory->Otherworld total=0.2124s activeEnemy=False room=Roof route=RoofCrossing refusal=
+PASS Reversible roof x=68
+PASS Production Raise at Roof
+EXPOSURE Otherworld->Memory total=0.2141s activeEnemy=False room=Roof route=RoofCrossing refusal=
+PASS Roof actual O/M swap x=38
+PASS Memory collision root active only x=38
+PASS Memory roof stairs closed
+PASS Same roof position preserved
+PASS Production Raise at Roof
+EXPOSURE Memory->Otherworld total=0.2123s activeEnemy=False room=Roof route=RoofCrossing refusal=
+PASS Reversible roof x=38
+PASS Production Raise at Roof
+EXPOSURE Otherworld->Memory total=0.2111s activeEnemy=False room=Roof route=RoofCrossing refusal=
+PASS Roof actual O/M swap x=18
+PASS Memory collision root active only x=18
+PASS Memory roof stairs closed
+PASS Same roof position preserved
+PASS Production Raise at Roof
+EXPOSURE Memory->Otherworld total=0.2135s activeEnemy=False room=Roof route=RoofCrossing refusal=
+PASS Reversible roof x=18
+PASS AUTO_PHYSICS actual walk to Roof x=39 final=39.24549
+PASS Midpoint schedules right threat
+MEASURE API_PHYSICS run dx=6.5843 enemyDx=7.1631 dt=0.8026 gapBefore=3.8292 gapAfter=3.2505
+PASS Running alone loses separation
+PASS Production Raise at Roof
+EXPOSURE Otherworld->Memory total=0.2133s activeEnemy=False room=Roof route=RoofCrossing refusal=
+PASS Successful capture clears logical threat after shutter
+PASS Roof relief window remains enemy-free
+PASS Bag pauses relief without catch-up spawn
+PASS Single safe right respawn after relief
+PASS Production Raise at Roof
+EXPOSURE Memory->Otherworld total=0.2109s activeEnemy=False room=Roof route=RoofCrossing refusal=
+PASS Production Raise at Roof
+EXPOSURE Otherworld->Memory total=0.2118s activeEnemy=False room=Roof route=RoofCrossing refusal=
+PASS Repeated captures never retain old actor
+PASS Retry re-derives speed without multiplying again
+RESULT pass=39 fail=0; step=Dormant; route=None; room=StaffOffice

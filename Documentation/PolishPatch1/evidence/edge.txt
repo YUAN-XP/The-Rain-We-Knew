@@ -1,0 +1,30 @@
+AUTO_FIXTURE/API; explicitly seeded earlier items/files/flags. NOT a real earlier-chapter route or native held input.
+PASS Nonempty diagnostic history seeded with original asset identities
+PASS Production portal Reading_Right_AtoB
+PASS Adversarial start in right passage without any roof visit
+AUTO_PHYSICS: from real right-passage arrival, disable PlayerController temporarily and apply Rigidbody velocity 8.5 left only while controls free; no position/room/flag edits during this traversal. This is NOT native held input.
+TRACE x=224.200 variant=Otherworld enemyActive=False enemy=(49.16, 32.80) step=Escaping refusal=
+TRACE x=223.516 variant=Otherworld enemyActive=False enemy=(49.16, 32.80) step=Escaping refusal=
+TRACE x=222.676 variant=Otherworld enemyActive=False enemy=(49.16, 32.80) step=Escaping refusal=
+TRACE x=221.843 variant=Otherworld enemyActive=False enemy=(49.16, 32.80) step=Escaping refusal=
+TRACE x=221.013 variant=Otherworld enemyActive=False enemy=(49.16, 32.80) step=Escaping refusal=
+TRACE x=220.182 variant=Otherworld enemyActive=False enemy=(49.16, 32.80) step=Escaping refusal=
+TRACE x=219.352 variant=Otherworld enemyActive=False enemy=(49.16, 32.80) step=Escaping refusal=
+TRACE x=218.512 variant=Otherworld enemyActive=False enemy=(49.16, 32.80) step=Escaping refusal=
+TRACE x=217.684 variant=Otherworld enemyActive=False enemy=(49.16, 32.80) step=Escaping refusal=
+TRACE x=216.917 variant=Otherworld enemyActive=False enemy=(49.16, 32.80) step=Escaping refusal=
+TRACE x=216.905 variant=Otherworld enemyActive=False enemy=(49.16, 32.80) step=Escaping refusal=
+TRACE x=216.905 variant=Memory enemyActive=False enemy=(49.16, 32.80) step=Escaping refusal=
+TRACE x=216.327 variant=Memory enemyActive=False enemy=(49.16, 32.80) step=Escaping refusal=
+TRACE x=215.487 variant=Memory enemyActive=True enemy=(206.34, 64.80) step=Escaping refusal=
+TRACE x=214.628 variant=Memory enemyActive=True enemy=(207.27, 64.80) step=Escaping refusal=
+TRACE x=214.260 variant=Memory enemyActive=True enemy=(207.49, 64.80) step=Escaping refusal=
+TRACE x=214.260 variant=Memory enemyActive=True enemy=(207.49, 64.80) step=Escaping refusal=No same-side minimal clearance at ReadingPassage / (214.26, 64.91)
+TRACE x=213.783 variant=Memory enemyActive=True enemy=(208.09, 64.80) step=Escaping refusal=No same-side minimal clearance at ReadingPassage / (214.26, 64.91)
+TRACE x=212.955 variant=Memory enemyActive=True enemy=(208.98, 64.80) step=Escaping refusal=No same-side minimal clearance at ReadingPassage / (214.26, 64.91)
+TRACE x=212.115 variant=Memory enemyActive=True enemy=(209.89, 64.80) step=Escaping refusal=No same-side minimal clearance at ReadingPassage / (214.26, 64.91)
+TRACE x=211.781 variant=Memory enemyActive=True enemy=(210.20, 64.80) step=Escaping refusal=No same-side minimal clearance at ReadingPassage / (214.26, 64.91)
+TRACE x=211.781 variant=Memory enemyActive=True enemy=(210.20, 64.80) step=Escaping refusal=No same-side minimal clearance at ReadingPassage / (211.78, 64.91)
+PASS P1 repeated captures did not reach left of blockage alive; shots=3 x=211.417
+PASS Repeated preview/capture retained fixed route stage
+RESULT pass=5 fail=0; step=Dormant; route=None; room=StaffOffice

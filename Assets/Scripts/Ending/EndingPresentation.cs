@@ -16,10 +16,10 @@ public sealed partial class EndingDirector
         Shape("ForegroundLane",presentation,new Vector2(26,-1.25f),new Vector2(90,.4f),new Color(.15f,.2f,.22f),5);
         RiverBackdrop(childSet.transform,9,false);RiverBackdrop(youthSet.transform,23,true);
         if(riverLandmarksTemplate!=null){var view=Instantiate(riverLandmarksTemplate,childSet.transform);view.name="Scene03RiverVisualsOnly";view.SetActive(true);}
-        child=EndingActorView.Create("ChildMemoryView",childSet.transform,data.bodySprite,new Vector3(8.8f,2.05f,0),.72f,new Color(.39f,.44f,.48f));
-        boy=EndingActorView.Create("BoyMemoryView",childSet.transform,data.bodySprite,new Vector3(10.5f,2.05f,0),.74f,new Color(.36f,.36f,.39f));
-        youth=EndingActorView.Create("YouthMemoryView",youthSet.transform,data.bodySprite,new Vector3(22.7f,2.1f,0),.92f,new Color(.36f,.4f,.45f));
-        friend=EndingActorView.Create("FriendMemoryView",youthSet.transform,data.bodySprite,new Vector3(24.5f,2.1f,0),.94f,new Color(.3f,.34f,.37f));
+        child=EndingActorView.Create("ChildMemoryView",childSet.transform,data.bodySprite,new Vector3(8.8f,1.35f+.72f*1.055f,0),.72f,new Color(.39f,.44f,.48f));
+        boy=EndingActorView.Create("BoyMemoryView",childSet.transform,data.bodySprite,new Vector3(10.5f,1.35f+.74f*1.055f,0),.74f,new Color(.36f,.36f,.39f));
+        youth=EndingActorView.Create("YouthMemoryView",youthSet.transform,data.bodySprite,new Vector3(22.7f,1.35f+.92f*1.055f,0),.92f,new Color(.36f,.4f,.45f));
+        friend=EndingActorView.Create("FriendMemoryView",youthSet.transform,data.bodySprite,new Vector3(24.5f,1.35f+.94f*1.055f,0),.94f,new Color(.3f,.34f,.37f));
         Shape("CoveredArmWound",friend.transform,new Vector2(-.34f,.17f),new Vector2(.13f,.34f),new Color(.36f,.22f,.23f),25);
         foreach(var room in new[]{hospitalSet,wardSet}){
             float x=room==hospitalSet?38:49;Shape("HospitalWall",room.transform,new Vector2(x,3),new Vector2(28,9),new Color(.37f,.45f,.46f),-15);

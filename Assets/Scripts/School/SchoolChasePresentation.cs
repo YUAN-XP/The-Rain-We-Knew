@@ -43,7 +43,11 @@ public sealed partial class SchoolChaseController
         foreach(var portal in Layout.data.portals)
             if(portal.sourceRoom==room.id&&(target==SchoolWorldVariant.Memory?portal.memory:portal.otherworld)==SchoolPortalGate.Open
                 &&portal.targetRoom!="StaffOffice"&&portal.targetRoom!="MaleToilet"&&portal.targetRoom!="EquipmentRoom")exit=true;
-        if(!exit){reason="Target room has no permitted exit: "+room.id+"/"+target;return false;}
+        // Roof has a reversible camera exit. This is deliberately NOT a
+        // blanket exception for closed classrooms or the blocked reading area.
+        bool reversibleRoof=room.id=="Roof"
+            &&cameraTool!=null&&cameraTool.ContextAvailable;
+        if(!exit&&!reversibleRoof){reason="Target room has no permitted exit: "+room.id+"/"+target;return false;}
         var collider=Controls.ActivePlayer.GetComponent<Collider2D>();
         if(collider==null){reason="Player collider missing";return false;}
         Vector2 offset=(Vector2)collider.bounds.center-safe,half=(Vector2)collider.bounds.extents;
@@ -68,14 +72,29 @@ public sealed partial class SchoolChaseController
         if(!CanSwitchAtCurrentPosition(target,out Vector2 point,out string reason)) {
             LastSwitchRefusal=reason;Notice("这个位置无法安全切换。",3);EndPreview();return;
         }
-        OwnSequence();EndPreview();ClearEnemy();session.AdvanceGeneration();
-        Layout.ApplyVariant(target);
-        var p=Controls.ActivePlayer;p.transform.position=point;var body=p.GetComponent<Rigidbody2D>();if(body!=null){body.position=point;body.linearVelocity=Vector2.zero;}
-        Layout.EnterRoom(Layout.CurrentRoom);Physics2D.SyncTransforms();
-        LastSwitchRefusal="";grace=doorwayGrace;
-        // Retain the route; the next responsive tick restores its fixed
-        // pressure. Random encounters get a fresh nonaccumulated interval.
-        ResetRandom();ReleaseSequence();
+        var oldVariant=Layout.Variant;string room=Layout.CurrentRoom;
+        var p=Controls.ActivePlayer;Vector3 oldPosition=p.transform.position;
+        var body=p.GetComponent<Rigidbody2D>();Vector2 velocity=body!=null?body.linearVelocity:Vector2.zero;
+        OwnSequence();EndPreview();
+        try {
+            Layout.ApplyVariant(target);
+            p.transform.position=point;if(body!=null){body.position=point;body.linearVelocity=Vector2.zero;}
+            Layout.EnterRoom(room);Physics2D.SyncTransforms();
+            var collider=p.GetComponent<Collider2D>();
+            if(Layout.Variant!=target||!SchoolChaseGeometry.Ground(Layout,target,room,point.x,out float ground)
+                ||collider==null||!SchoolChaseGeometry.Clear(Layout,target,room,collider.bounds.center,collider.bounds.extents))
+                throw new System.InvalidOperationException("Target geometry did not commit safely");
+            // Only the committed world grants relief. Clear logical capture,
+            // doorway pursuit and the single pending spawn clock together.
+            ClearEnemy();session.AdvanceGeneration();LastSwitchRefusal="";grace=doorwayGrace;
+            captureReliefRemaining=room=="Roof"?roofCaptureReliefSeconds:captureReliefSeconds;
+            ResetRandom();
+        } catch(System.Exception error) {
+            Layout.ApplyVariant(oldVariant);p.transform.position=oldPosition;
+            if(body!=null){body.position=oldPosition;body.linearVelocity=velocity;}
+            Layout.EnterRoom(room);Physics2D.SyncTransforms();LastSwitchRefusal=error.Message;
+            Notice("这个位置无法安全切换。",3);
+        } finally {ReleaseSequence();}
     }
     void SetHorrorPresentation(bool active)
     {

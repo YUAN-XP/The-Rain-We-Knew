@@ -4,6 +4,7 @@ public class PlayerController : MonoBehaviour
 {
     [Header("Movement")]
     [SerializeField] private float moveSpeed = 5f;
+    public float WalkSpeed => moveSpeed;
 
     private Rigidbody2D rb;
     private SprintAbility sprintAbility;

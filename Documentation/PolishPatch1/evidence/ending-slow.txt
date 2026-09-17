@@ -1,0 +1,45 @@
+DIAGNOSTIC pre-car boarding context, nonempty history fixture. Actual car->memory->bed->completion production director; API movement/page/focus, NOT native held input. 2026-09-18T04:20:02.8509417+08:00
+CUE D_C01
+CUE D_C02
+CUE D_C03
+CUE D_C04
+CUE D_C05
+CUE D_C06
+CUE D_C07
+CUE D_C08
+CUE D_C09
+CUE D_C10
+CUE D_C11
+CUE D_C12
+CUE D_C13
+CUE D_C14
+CUE D_C15
+PASS No input holds position and cannot auto-trigger later memories
+ANCHOR step=WalkChild actor=(0.000, -0.200, 0.000) camera=(3.200, 1.150, -10.000) size=4.8 worldStage=(-5.800, 0.000, 0.000) feet=-1.1000
+ANCHOR step=Child actor=(5.003, -0.200, 0.000) camera=(8.203, 1.150, -10.000) size=4.8 worldStage=(-0.797, 0.000, 0.000) feet=-1.1000
+CUE D_F01
+PASS Dialogue continuous displacement=29.7560 time=7.0013 speed=4.2501
+CUE D_F02
+ANCHOR step=WalkYouth actor=(53.456, -0.200, 0.000) camera=(56.656, 1.150, -10.000) size=4.8 worldStage=(33.656, 0.000, 0.000) feet=-1.1000
+ANCHOR step=Youth actor=(58.457, -0.200, 0.000) camera=(61.657, 1.150, -10.000) size=4.8 worldStage=(38.657, 0.000, 0.000) feet=-1.1000
+PASS Esc-local pause stops actual walk
+PASS Pause holds memory action
+CUE D_F03
+CUE D_F04
+ANCHOR step=WalkHospital actor=(98.485, -0.200, 0.000) camera=(101.685, 1.150, -10.000) size=4.8 worldStage=(63.685, 0.000, 0.000) feet=-1.1000
+ANCHOR step=Hospital actor=(103.489, -0.200, 0.000) camera=(106.689, 1.150, -10.000) size=4.8 worldStage=(68.689, 0.000, 0.000) feet=-1.1000
+CUE D_F05
+ANCHOR step=WalkBed actor=(127.810, -0.200, 0.000) camera=(131.010, 1.150, -10.000) size=4.8 worldStage=(85.010, 0.000, 0.000) feet=-1.1000
+PASS No automatic bed investigation on arrival
+CUE D_F06
+CUE D_F07
+PASS All memories and active bed inspection reached focus
+PASS Exactly two beds completed passage
+Focus model supplied held samples frame by frame; NOT native input, no progress field assignment.
+CUE D_E01
+CUE D_E02
+CUE D_E03
+PASS Production non-death completion visible
+PASS Nonempty files preserved across ending
+PASS Ordinary moveSpeed unchanged
+DONE failures=0

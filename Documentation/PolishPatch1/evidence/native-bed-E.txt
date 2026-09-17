@@ -1,0 +1,9 @@
+scene=Assets/Scenes/EndingSequence.unity; playing=True; dirty=False; errors=0; warnings=0; logs=8
+player=Player position=(83.575, -0.200, 0.000) adult=True
+locks=Dialogue,EndingSequence
+flags=SprintUnlocked,Scene01IDHolderTaken,EndingIdentityReceived,CompleteCredentialArchived,EndingBoardingCompleted,EndingCarCompleted,EndingChildCompleted,EndingYouthCompleted,EndingHospitalCompleted
+items=
+files=file_xiaopeng_complete_credential:F_CompleteCredential,file_stained_photo:F_S02_CleanFamilyPhoto
+outfit=Default
+ending=BedIntro focus=0 paused=False
+dialogue=D_F06

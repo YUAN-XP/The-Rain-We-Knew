@@ -1,0 +1,7 @@
+DIAGNOSTIC youth placement to test original DialogueManager/lock, not a chapter route.
+PASS Original dialogue still owns Dialogue movement lock
+PASS Ordinary dialogue holds horizontal physics position
+PASS Natural dialogue completion releases its lock
+PASS Original inventory remains modal
+PASS Inventory closes cleanly
+DONE failures=0

@@ -93101,10 +93101,15 @@ MonoBehaviour:
   capture: {fileID: 1556183133}
   openingDialogue: {fileID: 11400000, guid: e150a4d25bf20f542a863637f1fc8c92, type: 2}
   homeData: {fileID: 11400000, guid: 09a9bf4c6c40a4e4fbe799eda41630cc, type: 2}
-  enemySpeed: 6.3
-  finalEnemySpeed: 0.85
+  enemySpeed: 8.925
+  finalEnemySpeed: 4.75
+  chaseRatio: 1.05
+  finaleRatio: 0.95
+  captureReliefSeconds: 0.12
+  roofCaptureReliefSeconds: 0.65
+  finalePromptLead: 1.2
   catchDistance: 0.7
-  safeSpawnDistance: 8
+  safeSpawnDistance: 10
   randomInterval: {x: 3.5, y: 5}
   doorwayGrace: 0.55
   officeThreatX: 49

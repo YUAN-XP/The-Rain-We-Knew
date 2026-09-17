@@ -1,0 +1,23 @@
+AUTO_FIXTURE/API; explicitly seeded earlier items/files/flags. NOT a real earlier-chapter route or native held input.
+PASS Nonempty diagnostic history seeded with original asset identities
+ISOLATED COMBINATION FIXTURE, not a route pass.
+DIAGNOSTIC SECURITY SETUP: after production opening/capture, explicitly place at Floor01 security door for isolated combination tests. Not a route pass.
+PASS Production security password UI opened
+PASS Password pause preserves actual enemy and random timer
+PASS Wrong 0000 does not enter or set checkpoint
+PASS Correct submission does not prematurely mark Arrived
+PASS Actual settled security Arrived captured CP_SECURITY
+PASS Security cleared enemy and school camera
+PASS AUTO_PHYSICS actual walk to SecurityRoom x=212.9 final=212.6516
+PASS Actual pickup locks before combination
+PASS Uncombined close stays locked without final threat
+PASS Actual original oil recipe succeeds
+PASS Successful close raises lamp but keeps movement locked
+FINAL_FRAME_TEST startPlayer=(212.73, 0.90, 0.00) enemy=(202.00, 0.80) D=10.0261 speed=4.75 promptLead=1.2; API held samples, not native input
+PASS Bag pauses same enemy and remaining prompt lead; cancels charge
+PASS Bag close does not refresh lead or reposition enemy
+FINAL_FRAME_TEST reactedAt=0.8008 finalStep=Dispersing elapsedNonPause=3.0021 hold=2.2014
+PASS 0.8s reaction plus full original charge succeeds against actual enemy clock
+PASS Dispersal dialogue naturally restores free control and usable lamp
+PASS Original nonempty Files preserved by full finale
+RESULT pass=17 fail=0; step=Exploring; route=Completed; room=SecurityRoom

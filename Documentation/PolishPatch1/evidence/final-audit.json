@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-09-18T04:34:15.703396",
+  "project_and_git_root": "D:/GitHub Desktop/ProjectMystery/ProjectMystery",
+  "head": "9bd531aa137ab0009cfc164c7ff90f85cf4898a4",
+  "head_unchanged": true,
+  "staged_changes": [],
+  "protected_file_checks": {
+    "Assets/Prefabs/PersistentRuntime.prefab": true,
+    "Assets/Scenes/EndingSequence.unity": true,
+    "Assets/GameData/School/SchoolLayout.asset": true,
+    "Assets/Scripts/School/OilLampController.cs": true,
+    "Assets/Scripts/School/SchoolChaseGeometry.cs": true,
+    "Assets/Scripts/School/SchoolChaseCaptureContext.cs": true,
+    "Assets/Scripts/Ending/EndingStageController.cs": true,
+    "Assets/Scripts/Ending/EndingHospital.cs": true,
+    "Assets/Scenes/Scene01_Rain.unity": true,
+    "Assets/Scenes/Scene02_Courtyard.unity": true,
+    "Assets/Scenes/Scene03_Childhood.unity": true,
+    "Assets/Scripts/Dialogue/DialogueManager.cs": true,
+    "Assets/Scripts/System/GameControlManager.cs": true
+  },
+  "diff_check_exit": 0,
+  "diff_check_output": "",
+  "new_script_meta_guid": "03ffc778aea2dde4198d09d0513e2bad",
+  "new_guid_occurrences": 1,
+  "temporary_validation_files_remaining": [],
+  "existing_editor_folder_removed": true,
+  "compile_summary": "Production Roslyn compile exit=0; 2026-09-18T04:32:40.1114385+08:00"
+}

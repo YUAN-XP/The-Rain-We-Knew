@@ -1,0 +1,43 @@
+AUTO_FIXTURE/API; explicitly seeded earlier items/files/flags. NOT a real earlier-chapter route or native held input.
+PASS Nonempty diagnostic history seeded with original asset identities
+CONTINUOUS AUTO_PHYSICS ROUTE from seeded office; only original Portal APIs and Rigidbody walking after start, no test position or route flag writes.
+PASS Live portal source Stair_F03_Roof_Right_AtoB
+PASS AUTO_PHYSICS actual walk to Floor03Right x=70 final=69.76368
+PASS Live original Arrived Stair_F03_Roof_Right_AtoB
+PASS Live portal source Stair_F03_Roof_Left_BtoA
+PASS AUTO_PHYSICS actual walk to Roof x=16 final=16.24162
+PASS Live original Arrived Stair_F03_Roof_Left_BtoA
+PASS Real roof movement crossed midpoint and exited left
+PASS Live portal source Stair_F02_F03_Left_BtoA
+PASS AUTO_PHYSICS actual walk to Floor03Left x=4 final=4.237333
+PASS Live original Arrived Stair_F02_F03_Left_BtoA
+PASS AUTO_PHYSICS actual walk to Floor02 x=39.9 final=39.66808
+PASS Live portal source Class3_1_Back_AtoB
+PASS AUTO_PHYSICS actual walk to Floor02 x=40 final=39.76791
+PASS Live original Arrived Class3_1_Back_AtoB
+PASS Live portal source Class3_1_Front_BtoA
+PASS AUTO_PHYSICS actual walk to Class3_1 x=298 final=297.7523
+PASS Live original Arrived Class3_1_Front_BtoA
+PASS Live portal source Stair_F01_F02_Right_BtoA
+PASS AUTO_PHYSICS actual walk to Floor02 x=60 final=59.75406
+PASS Live original Arrived Stair_F01_F02_Right_BtoA
+PASS AUTO_PHYSICS actual walk to Floor01 x=18 final=18.2481
+PASS Production security password UI opened
+PASS Password pause preserves actual enemy and random timer
+PASS Wrong 0000 does not enter or set checkpoint
+PASS Correct submission does not prematurely mark Arrived
+PASS Actual settled security Arrived captured CP_SECURITY
+PASS Security cleared enemy and school camera
+PASS AUTO_PHYSICS actual walk to SecurityRoom x=214.3 final=214.0688
+PASS Actual pickup locks before combination
+PASS Uncombined close stays locked without final threat
+PASS Actual original oil recipe succeeds
+PASS Successful close raises lamp but keeps movement locked
+FINAL_FRAME_TEST startPlayer=(214.21, 0.90, 0.00) enemy=(202.00, 0.80) D=11.5138 speed=4.75 promptLead=1.2; API held samples, not native input
+PASS Bag pauses same enemy and remaining prompt lead; cancels charge
+PASS Bag close does not refresh lead or reposition enemy
+FINAL_FRAME_TEST reactedAt=0.8001 finalStep=Dispersing elapsedNonPause=3.0011 hold=2.2010
+PASS 0.8s reaction plus full original charge succeeds against actual enemy clock
+PASS Dispersal dialogue naturally restores free control and usable lamp
+PASS Original nonempty Files preserved by full finale
+RESULT pass=38 fail=0; step=Exploring; route=Completed; room=SecurityRoom

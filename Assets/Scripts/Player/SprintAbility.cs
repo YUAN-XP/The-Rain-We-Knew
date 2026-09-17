@@ -5,6 +5,7 @@ using UnityEngine;
 public class SprintAbility : MonoBehaviour
 {
     [SerializeField,Range(1.1f,2.5f)] private float speedMultiplier=1.7f;
+    public float SpeedMultiplier => speedMultiplier;
     [SerializeField] private bool allowStoryUnlock = true;
     private StoryStateManager story;
     private StoryNoticeUI notice;

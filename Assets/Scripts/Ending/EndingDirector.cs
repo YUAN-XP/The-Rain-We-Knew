@@ -51,33 +51,36 @@ public sealed partial class EndingDirector:EndingStageController
     }
     void ResumeWalking(){
         shotCamera.orthographicSize=4.8f;veil.color=Color.clear;painHand.SetActive(true);Focus.RequireNewPress();
-        if(story.Has(StoryFlag.EndingHospitalCompleted)){SetSets(wardSet);Step=EndingStep.WalkBed;PlaceForeground(hospitalWatchX+.5f);}
-        else if(story.Has(StoryFlag.EndingYouthCompleted)){SetSets(hospitalSet);Step=EndingStep.WalkHospital;PlaceForeground(youthWatchX+.5f);}
-        else if(story.Has(StoryFlag.EndingChildCompleted)){SetSets(youthSet);Step=EndingStep.WalkYouth;PlaceForeground(childWatchX+.5f);}
-        else {SetSets(childSet);Step=EndingStep.WalkChild;PlaceForeground(0);}
+        PrepareWalkLane();PlaceForeground(0);
+        if(story.Has(StoryFlag.EndingHospitalCompleted))EnterWalkStage(EndingStep.WalkBed);
+        else if(story.Has(StoryFlag.EndingYouthCompleted))EnterWalkStage(EndingStep.WalkHospital);
+        else if(story.Has(StoryFlag.EndingChildCompleted))EnterWalkStage(EndingStep.WalkYouth);
+        else EnterWalkStage(EndingStep.WalkChild);
         ambience=Sound(Step==EndingStep.WalkChild?data.riverLoop:data.rainLoop,true,.18f);bedArmed=false;
     }
-    void PlaceForeground(float x){EndingSession.Place(player,new Vector3(x,0,0));if(shotCamera!=null)shotCamera.transform.position=new Vector3(x+3.2f,1.8f,-10);}
+    void PlaceForeground(float x){EndingSession.Place(player,new Vector3(x,foregroundY,0));if(shotCamera!=null)shotCamera.transform.position=new Vector3(x+3.2f,1.15f,-10);}
     protected override void Update(){
         base.Update();if(!ready||player==null||paused)return;
         if(IsWalking){
             float axis=Input.GetAxisRaw("Horizontal");
             TickWalk(axis,Delta);
-            if(Step==EndingStep.WalkBed){if(!Input.GetKey(KeyCode.E))bedArmed=true;bool near=Mathf.Abs(player.transform.position.x-bedsideX)<1.5f;
+            if(Step==EndingStep.WalkBed){if(!Input.GetKey(KeyCode.E)&&!dialogue.IsDialogueActive()&&!dialogue.DidDialogueEndThisFrame())bedArmed=true;bool near=Mathf.Abs(player.transform.position.x-bedAnchorX)<1.5f;
                 focusText.text=near?"[E] 调查":"";focusText.gameObject.SetActive(true);
                 if(near&&bedArmed&&Input.GetKeyDown(KeyCode.E))StartCoroutine(BedIntro());}
         }
         else if(Step==EndingStep.Focus){Focus.Tick(Input.GetKey(KeyCode.Space),Input.GetKeyDown(KeyCode.Space),Delta,data.focusSeconds,false);RenderFocus();if(Focus.Complete){story.Set(StoryFlag.EndingFocusCompleted);StartCoroutine(Declaration());}}
         else if(Step==EndingStep.Complete&&!endArmed){if(!Input.GetKey(KeyCode.E)&&!Input.GetKey(KeyCode.Space)){endArmed=true;exitButton.interactable=true;}}
     }
-    bool IsWalking=>Step==EndingStep.WalkChild||Step==EndingStep.WalkYouth||Step==EndingStep.WalkHospital||Step==EndingStep.WalkBed;
+    bool IsWalking=>Step==EndingStep.WalkChild||Step==EndingStep.Child||Step==EndingStep.WalkYouth||Step==EndingStep.Youth
+        ||Step==EndingStep.WalkHospital||Step==EndingStep.Hospital||Step==EndingStep.WalkBed;
     // Shared real input path, also exercised explicitly as API diagnostics (never labelled native).
     internal void TickWalk(float axis,float delta){
-        if(!IsWalking||paused||axis<=0)return;
-        float end=Step==EndingStep.WalkChild?childWatchX:Step==EndingStep.WalkYouth?youthWatchX:Step==EndingStep.WalkHospital?hospitalWatchX:bedsideX;
-        float x=Mathf.Min(end,player.transform.position.x+data.slowWalkSpeed*Mathf.Clamp(delta,0,.1f));player.transform.position=new Vector3(x,0,0);
-        shotCamera.transform.position=new Vector3(x+3.2f,1.8f,-10);
-        if(x<end-.001f)return;
+        if(!IsWalking||paused||Mathf.Abs(axis)<.001f)return;
+        float x=player.transform.position.x+Mathf.Clamp(axis,-1,1)*player.WalkSpeed*data.flashbackRatio*Mathf.Clamp(delta,0,.1f);
+        player.transform.position=new Vector3(x,foregroundY,0);
+        shotCamera.transform.position=new Vector3(x+3.2f,1.15f,-10);
+        UpdateWalkStage();
+        if(axis<=0||x<segmentTriggerX)return;
         if(Step==EndingStep.WalkChild){Step=EndingStep.Child;StartCoroutine(ChildMemory());}
         else if(Step==EndingStep.WalkYouth){Step=EndingStep.Youth;StartCoroutine(YouthMemory());}
         else if(Step==EndingStep.WalkHospital){Step=EndingStep.Hospital;StartCoroutine(HospitalMemory());}

@@ -1,0 +1,9 @@
+2026-09-18 04:34 Asia/Hong_Kong — 实际 Unity Console 窗口检查（清理探针并重新编译后）
+Errors: 0
+Warnings: 1
+Logs: 5
+Warning: Editor is not in automated mode. Modal Pop up might break continuous command workflow. Start the editor with -automate ...
+5 ordinary logs: Error reason is 'NoSubscription' and no additional error information was provided (https://generators.ai.unity.com/).
+以上 NoSubscription 条目是 Debug.Log，不是红色Error计数。未清空Console掩盖问题。
+先前测试中有临时探针inactive Transition / NullReference，已修正测试驱动；最终生产路线与结尾测试无红错。
+当前 Scene01_Rain，Edit Mode，标题无未保存标记。正式脚本和参数已保存磁盘。

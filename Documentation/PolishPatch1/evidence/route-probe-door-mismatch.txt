@@ -1,0 +1,27 @@
+AUTO_FIXTURE/API; explicitly seeded earlier items/files/flags. NOT a real earlier-chapter route or native held input.
+PASS Nonempty diagnostic history seeded with original asset identities
+CONTINUOUS AUTO_PHYSICS ROUTE from seeded office; only original Portal APIs and Rigidbody walking after start, no test position or route flag writes.
+PASS Live portal source Stair_F03_Roof_Right_AtoB
+PASS AUTO_PHYSICS actual walk to Floor03Right x=70 final=69.7629
+PASS Live original Arrived Stair_F03_Roof_Right_AtoB
+PASS Live portal source Stair_F03_Roof_Left_BtoA
+PASS AUTO_PHYSICS actual walk to Roof x=16 final=16.24002
+PASS Live original Arrived Stair_F03_Roof_Left_BtoA
+PASS Real roof movement crossed midpoint and exited left
+PASS Live portal source Stair_F02_F03_Left_BtoA
+PASS AUTO_PHYSICS actual walk to Floor03Left x=4 final=4.245089
+PASS Live original Arrived Stair_F02_F03_Left_BtoA
+PASS AUTO_PHYSICS actual walk to Floor02 x=39.9 final=39.65292
+PASS Live portal source Class3_1_Back_AtoB
+PASS AUTO_PHYSICS actual walk to Floor02 x=40 final=39.76662
+PASS Live original Arrived Class3_1_Back_AtoB
+PASS Live portal source Class3_1_Front_BtoA
+PASS AUTO_PHYSICS actual walk to Class3_1 x=298 final=297.7693
+PASS Live original Arrived Class3_1_Front_BtoA
+PASS Live portal source Stair_F01_F02_Right_BtoA
+PASS AUTO_PHYSICS actual walk to Floor02 x=60 final=59.76148
+FAIL Live original Arrived Stair_F01_F02_Right_BtoA
+PASS AUTO_PHYSICS actual walk to Floor02 x=18 final=18.23342
+FAIL Production security password UI opened
+PASS Password pause preserves actual enemy and random timer
+FAIL Wrong 0000 does not enter or set checkpoint

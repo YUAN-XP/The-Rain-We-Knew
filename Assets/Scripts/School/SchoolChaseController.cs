@@ -14,10 +14,16 @@ public sealed partial class SchoolChaseController : MonoBehaviour, ISchoolOffice
     public DialogueData openingDialogue;
     public SchoolHomeData homeData;
     [Header("Alpha chase parameters; actual held-input timing is a separate test")]
-    [Min(.1f)] public float enemySpeed=6.3f;
-    [Min(.1f)] public float finalEnemySpeed=.85f;
+    [Min(.1f)] public float enemySpeed=8.925f;
+    [Min(.1f)] public float finalEnemySpeed=4.75f;
+    [Header("Polish: speeds derive once from the unchanged adult controller")]
+    [Range(1.05f,1.12f)] public float chaseRatio=1.05f;
+    [Range(.9f,1f)] public float finaleRatio=.95f;
+    [Min(0)] public float captureReliefSeconds=.12f;
+    [Min(0)] public float roofCaptureReliefSeconds=.65f;
+    float captureReliefRemaining;
     [Min(.1f)] public float catchDistance=.7f;
-    [Min(1)] public float safeSpawnDistance=8f;
+    [Min(1)] public float safeSpawnDistance=10f;
     public Vector2 randomInterval=new Vector2(3.5f,5f);
     [Min(.05f)] public float doorwayGrace=.55f;
     [Header("Fixed threat locations in the existing RoomIDs")]
@@ -72,6 +78,7 @@ public sealed partial class SchoolChaseController : MonoBehaviour, ISchoolOffice
         cameraTool=runtime.GetComponent<CameraModeController>();lamp=runtime.GetComponent<OilLampController>();fade=FindAnyObjectByType<ScreenFadeController>();
         adult=runtime.GetComponentsInChildren<AdultOutfitController>(true).Select(x=>x.GetComponentInParent<PlayerController>(true)).FirstOrDefault();
         if(adult==null||cameraTool==null||lamp==null||fade==null){Debug.LogWarning("School chase could not resolve the original adult and tools.",this);return;}
+        ApplySpeedTuning();
         capture.chase=this;
         enemy=new GameObject("XiangYan_ChaseActor");enemy.transform.SetParent(transform,false);
         enemySprite=Sprite.Create(Texture2D.whiteTexture,new Rect(0,0,Texture2D.whiteTexture.width,Texture2D.whiteTexture.height),Vector2.one*.5f,Texture2D.whiteTexture.width);
@@ -89,6 +96,13 @@ public sealed partial class SchoolChaseController : MonoBehaviour, ISchoolOffice
     {
         var g=new GameObject(name);g.transform.SetParent(enemy.transform,false);g.transform.localPosition=position;g.transform.localScale=size;
         var r=g.AddComponent<SpriteRenderer>();r.sprite=enemySprite;r.color=color;r.sortingOrder=order;
+    }
+    void ApplySpeedTuning()
+    {
+        if(adult==null)return;
+        var sprint=adult.GetComponent<SprintAbility>();
+        enemySpeed=adult.WalkSpeed*(sprint!=null?sprint.SpeedMultiplier:1f)*chaseRatio;
+        finalEnemySpeed=adult.WalkSpeed*finaleRatio;
     }
     public bool TryExit(SchoolYouthController flow)
     {
@@ -260,6 +274,7 @@ public sealed partial class SchoolChaseController : MonoBehaviour, ISchoolOffice
             if(previousRoofX>roofMidpointX&&x<=roofMidpointX&&previousRoofX-x<=Mathf.Max(1,20*dt))roofCrossed=true;
             previousRoofX=x;
         }
+        captureReliefRemaining=Mathf.Max(0,captureReliefRemaining-dt);
         EnsureFixedThreat();
         if(!EnemyActive&&Route==SchoolChaseRoute.LowerEscape){randomRemaining-=dt;if(randomRemaining<=0)TryRandomSpawn();}
         TickEnemy(dt);
@@ -267,15 +282,24 @@ public sealed partial class SchoolChaseController : MonoBehaviour, ISchoolOffice
     partial void TickSecurity();
     void EnsureFixedThreat()
     {
-        if(EnemyActive||!IsEscaping)return;
+        if(EnemyActive||!IsEscaping||captureReliefRemaining>0||Paused)return;
         if(Route==SchoolChaseRoute.OfficePressure&&Layout.Variant==SchoolWorldVariant.Memory) {
-            if(Layout.CurrentRoom=="Floor03Right")Spawn(Layout.CurrentRoom,officeThreatX,true);
-            else if(Layout.CurrentRoom=="ReadingPassage")Spawn(Layout.CurrentRoom,readingThreatX,true);
+            if(Layout.CurrentRoom=="Floor03Right")SpawnFixed(Layout.CurrentRoom,officeThreatX,-1);
+            else if(Layout.CurrentRoom=="ReadingPassage")SpawnFixed(Layout.CurrentRoom,readingThreatX,-1);
         }
         else if(Route==SchoolChaseRoute.RoofCrossing&&roofCrossed&&Layout.CurrentRoom=="Roof")
             Spawn("Roof",Mathf.Min(77,Controls.ActivePlayer.transform.position.x+safeSpawnDistance+1),true);
         else if(Route==SchoolChaseRoute.ThirdFloorLeft&&Layout.CurrentRoom=="Floor03Left"&&Layout.Variant==SchoolWorldVariant.Memory)
-            Spawn("Floor03Left",thirdLeftThreatX,true);
+            SpawnFixed("Floor03Left",thirdLeftThreatX,1);
+    }
+    void SpawnFixed(string room,float authoredX,int side)
+    {
+        // Preserve the required approach side even after repeated captures.
+        // A passed fixed marker must never suppress this threat indefinitely.
+        float actorX=Controls.ActivePlayer.transform.position.x;
+        float x=side<0?Mathf.Min(authoredX,actorX-safeSpawnDistance-.05f)
+            :Mathf.Max(authoredX,actorX+safeSpawnDistance+.05f);
+        Spawn(room,x,true);
     }
     bool Spawn(string room,float x,bool safe)
     {
@@ -287,6 +311,7 @@ public sealed partial class SchoolChaseController : MonoBehaviour, ISchoolOffice
     }
     void TryRandomSpawn()
     {
+        if(captureReliefRemaining>0||Paused||!IsEscaping)return;
         float x=Controls.ActivePlayer.transform.position.x;bool left=random.Next(2)==0;
         foreach(float side in left?new[]{-1f,1f}:new[]{1f,-1f})
             if(Spawn(Layout.CurrentRoom,x+side*(safeSpawnDistance+1f+(float)random.NextDouble()*2),true)){ResetRandom();return;}
@@ -347,6 +372,7 @@ public sealed partial class SchoolChaseController : MonoBehaviour, ISchoolOffice
         var cam=Camera.main;var f=cam.GetComponent<CameraFollow>();cam.orthographicSize=cp.CameraSize;
         f.SetLimits(cp.CameraX.x,cp.CameraX.y);f.SetVerticalLimits(cp.FollowY,cp.CameraOffset,cp.CameraY.x,cp.CameraY.y);f.SetFacing(cp.Facing);f.SnapToTarget();
         lamp.SetStoryUsable(cp.LampUsable);lamp.RestoreUseState(cp.LampRaised);
+        ApplySpeedTuning();captureReliefRemaining=0;
         Route=cp.Route;roofCrossed=false;doorPending=false;pendingPortal=null;ResetRandom();grace=doorwayGrace;
         SetHorrorPresentation(cp.Reason!=SchoolCheckpointReason.Office);
         Step=cp.Reason==SchoolCheckpointReason.Office?SchoolChaseStep.Dormant:SchoolChaseStep.SecurityArrival;

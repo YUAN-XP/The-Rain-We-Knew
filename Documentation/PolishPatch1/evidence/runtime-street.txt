@@ -1,0 +1,8 @@
+MEASURE API_PHYSICS requestedVelocity=5 multiplier=1 dx=2.38228 fixedSeconds=0.50000 actualSpeed=4.76456; physical floor contact retained, not native Left/Right Shift
+MEASURE API_PHYSICS requestedVelocity=8.5 multiplier=1.7 dx=4.13228 fixedSeconds=0.50000 actualSpeed=8.26456; physical floor contact retained, not native Left/Right Shift
+PASS Original dialogue still owns Dialogue movement lock
+PASS Ordinary dialogue holds horizontal physics position
+PASS Natural dialogue completion releases its lock
+PASS Original inventory remains modal
+PASS Inventory closes cleanly
+DONE failures=0

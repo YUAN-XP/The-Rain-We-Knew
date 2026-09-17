@@ -1,0 +1,16 @@
+ Assets/GameData/Ending/Stage6/EndingData.asset   |  1 +
+ Assets/Scenes/Scene04_School.unity               | 11 +++++--
+ Assets/Scripts/Ending/EndingData.cs              |  5 ++-
+ Assets/Scripts/Ending/EndingDirector.cs          | 27 +++++++++-------
+ Assets/Scripts/Ending/EndingMemories.cs          | 25 ++++++++-------
+ Assets/Scripts/Ending/EndingPresentation.cs      |  8 ++---
+ Assets/Scripts/Player/PlayerController.cs        |  1 +
+ Assets/Scripts/Player/SprintAbility.cs           |  1 +
+ Assets/Scripts/School/SchoolChaseController.cs   | 40 +++++++++++++++++++-----
+ Assets/Scripts/School/SchoolChasePresentation.cs | 37 ++++++++++++++++------
+ Assets/Scripts/School/SchoolPortal.cs            |  2 +-
+ Assets/Scripts/School/SchoolSecurityFinale.cs    | 20 +++++++++---
+ 12 files changed, 125 insertions(+), 53 deletions(-)
+
+Untracked production source + meta: Assets/Scripts/Ending/EndingWalkStage.cs(.meta)
+Untracked reports/evidence: Documentation/PolishPatch1

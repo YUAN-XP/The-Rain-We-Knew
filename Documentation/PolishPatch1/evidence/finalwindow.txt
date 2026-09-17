@@ -1,0 +1,19 @@
+AUTO_FIXTURE/API; explicitly seeded earlier items/files/flags. NOT a real earlier-chapter route or native held input.
+PASS Nonempty diagnostic history seeded with original asset identities
+ISOLATED COMBINATION FIXTURE, not a route pass.
+DIAGNOSTIC SECURITY SETUP: after production opening/capture, explicitly place at Floor01 security door for isolated combination tests. Not a route pass.
+PASS Production security password UI opened
+PASS Password pause preserves actual enemy and random timer
+PASS Wrong 0000 does not enter or set checkpoint
+PASS Correct submission does not prematurely mark Arrived
+PASS Actual settled security Arrived captured CP_SECURITY
+PASS Security cleared enemy and school camera
+PASS AUTO_PHYSICS actual walk to SecurityRoom x=214.3 final=214.0635
+PASS Oil pickup movement lock
+PASS Original oil recipe
+FINAL_START player=(214.21, 0.90, 0.00) enemy=(202.00, 0.80) effectiveDistance=11.5138 configuredSpeed=4.75
+FINAL_MEASURE dx=2.3771 dt=0.5003 speed=4.7510
+FINAL_NO_INPUT captureAfter=3.6247
+PASS No input actually captured
+PASS Actual security checkpoint restores unfilled lamp
+RESULT pass=12 fail=0; step=SecurityArrival; route=OfficePressure; room=SecurityRoom

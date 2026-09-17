@@ -124,6 +124,7 @@ MonoBehaviour:
   panHold: 1.2
   boardingSeconds: 1.8
   slowWalkSpeed: 1.5
+  flashbackRatio: 0.85
   actionSeconds: 2.6
   focusSeconds: 3
   sirenDelay: 0.65

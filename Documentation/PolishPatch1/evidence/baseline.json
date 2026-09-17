@@ -1,0 +1,29 @@
+{
+  "head": "9bd531aa137ab0009cfc164c7ff90f85cf4898a4",
+  "worktree": "clean",
+  "staged": "clean",
+  "editor": "No Unity Editor process or window observed; Unity Hub processes only",
+  "last_saved_scene": "Assets/Scenes/Scene01_Rain.unity (Library/LastSceneManagerSetup.txt; not a live scene observation)",
+  "recorded": "2026-09-18T03:22:55.994477",
+  "sha256": {
+    "Assets/Scripts/School/SchoolChaseController.cs": "b743093636c7ae62c5b680b6c545ac179ab6b45a9b1a71ad40cf825d30cecec8",
+    "Assets/Scripts/School/SchoolChasePresentation.cs": "87457fd20a69b370a5cd7fcf35880e71927fe33989853d2451f29660a8082cac",
+    "Assets/Scripts/School/SchoolChaseCaptureContext.cs": "6eac6e3b6f0e7463ff55054af6c89d8ac51f0d4f9f1d683850c994d9e8330829",
+    "Assets/Scripts/School/SchoolChaseGeometry.cs": "0125c5ffb90b86d3b93eaf9f915e0c7b165a757e1d41c2993a4b88b49e96e32f",
+    "Assets/Scripts/School/SchoolSecurityFinale.cs": "372987574dee7dd0a2c7a8beb3183530523e909e2c16edc98613a014cbe636d2",
+    "Assets/Scripts/School/OilLampController.cs": "47cde171020e037df312c9ba2f4ffb7c862202fb1331f2975b1331ee89bcce98",
+    "Assets/Scripts/Ending/EndingDirector.cs": "7b6313944779382f89bab887f1dd0a7b5e591f95d0817f8fd433c634babf83a3",
+    "Assets/Scripts/Ending/EndingMemories.cs": "75f5a93d6e14ff638f1c2c37328fac6f9b89b49cdd2381308bdb01e943b5157d",
+    "Assets/Scripts/Ending/EndingPresentation.cs": "3493d28abfbfae9d29d425ed3c3813c864aab877ae303e763e79712ecf00d5be",
+    "Assets/Scripts/Ending/EndingStageController.cs": "5954c9c3b99468ea6881f437e6adafc5a6711609034f074cdc32d96bb1240eb2",
+    "Assets/Scripts/Ending/EndingHospital.cs": "d838df32b959e8e68908fe7bf2c5b6282d347ae3b961c4b3302724aeb8df037d",
+    "Assets/Scripts/Ending/EndingData.cs": "bd0644b97c9113229218d1f380ceb6c61b5911fbe5a58e569e262e15e5ac4b24",
+    "Assets/Scripts/Player/PlayerController.cs": "9b797a6b516d6527fed654532f4e4afd0d56854b1ae25108722b79c297613113",
+    "Assets/Scripts/Player/SprintAbility.cs": "53478616e5b9967591df956d2d20ec7f84c8b707c3b077e4f830e21e53ddd89b",
+    "Assets/Scenes/Scene04_School.unity": "1c1e354282f0b5680432acc612c3cb2fb4027158270bb17b33dbd97d97fe8104",
+    "Assets/Scenes/EndingSequence.unity": "275f29dd5007c54816a8d222306589d2e11f98f63ed85535e51988d6768304c9",
+    "Assets/GameData/School/SchoolLayout.asset": "eca141153d6cdf8d856fdbff6dc6629686a517c5dee4a1095dd282e8720d86bf",
+    "Assets/GameData/Ending/Stage6/EndingData.asset": "682a8c722fd05d45198aa465d6d508be838bc5f8b5a807f56d9ada37e31c40ec",
+    "Assets/Prefabs/PersistentRuntime.prefab": "f9a80c761dd1ca501c62f9fb523fa2b58a1675731fb62349d840c3b0f88b7c7d"
+  }
+}

@@ -13,7 +13,7 @@ public class SchoolPortal : MonoBehaviour, IInteractable
     public SchoolPortalDefinition Definition => school.data.Portal(portalId);
     public SchoolPortalGate Gate => school.Variant==SchoolWorldVariant.Otherworld ? Definition.otherworld : Definition.memory;
     void OnEnable(){ var c=GetComponent<Collider2D>(); if(c!=null && school!=null && school.data!=null) c.enabled=Gate!=SchoolPortalGate.Closed || !string.IsNullOrWhiteSpace(Definition.blockedText); }
-    public string GetInteractionPrompt()=>prompt;
+    public string GetInteractionPrompt()=>chase!=null&&chase.IsActive&&!chase.CanPass(Definition)?"":prompt;
     public bool CanPass()
     {
         if(chase!=null&&chase.IsActive)return chase.CanPass(Definition);

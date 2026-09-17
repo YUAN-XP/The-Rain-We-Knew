@@ -18,8 +18,11 @@ public sealed class EndingData : ScriptableObject
     [Header("Alpha timings / replaceable presentation")]
     [Min(.1f)] public float approachSpeed=1.4f, followSpeed=4.8f, followDistance=2.2f;
     [Min(.1f)] public float panSeconds=2.4f, panHold=1.2f, boardingSeconds=1.8f;
-    [Min(.1f)] public float slowWalkSpeed=1.5f, actionSeconds=2.6f, focusSeconds=3f, sirenDelay=.65f;
+    [HideInInspector] public float slowWalkSpeed=1.5f; // Serialized legacy value; Flashback Ratio now drives walking.
+    [Min(.1f)] public float actionSeconds=2.6f, focusSeconds=3f, sirenDelay=.65f;
     [Tooltip("Optional visual feet offset when replacing the existing Guide placeholder.")]
     public float guideVisualGroundOffset=0;
+    [Header("Ending walk only; ordinary movement and Sprint remain unchanged")]
+    [Range(.8f,1f)] public float flashbackRatio=.85f;
     public DialogueData Find(string id) { if(cues!=null)foreach(var c in cues)if(c.id==id)return c.dialogue; return null; }
 }

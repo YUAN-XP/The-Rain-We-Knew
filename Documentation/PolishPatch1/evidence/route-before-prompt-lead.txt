@@ -1,0 +1,39 @@
+AUTO_FIXTURE/API; explicitly seeded earlier items/files/flags. NOT a real earlier-chapter route or native held input.
+PASS Nonempty diagnostic history seeded with original asset identities
+CONTINUOUS AUTO_PHYSICS ROUTE from seeded office; only original Portal APIs and Rigidbody walking after start, no test position or route flag writes.
+PASS Live portal source Stair_F03_Roof_Right_AtoB
+PASS AUTO_PHYSICS actual walk to Floor03Right x=70 final=69.76622
+PASS Live original Arrived Stair_F03_Roof_Right_AtoB
+PASS Live portal source Stair_F03_Roof_Left_BtoA
+PASS AUTO_PHYSICS actual walk to Roof x=16 final=16.24777
+PASS Live original Arrived Stair_F03_Roof_Left_BtoA
+PASS Real roof movement crossed midpoint and exited left
+PASS Live portal source Stair_F02_F03_Left_BtoA
+PASS AUTO_PHYSICS actual walk to Floor03Left x=4 final=4.230309
+PASS Live original Arrived Stair_F02_F03_Left_BtoA
+PASS AUTO_PHYSICS actual walk to Floor02 x=39.9 final=39.66633
+PASS Live portal source Class3_1_Back_AtoB
+PASS AUTO_PHYSICS actual walk to Floor02 x=40 final=39.76491
+PASS Live original Arrived Class3_1_Back_AtoB
+PASS Live portal source Class3_1_Front_BtoA
+PASS AUTO_PHYSICS actual walk to Class3_1 x=298 final=297.7695
+PASS Live original Arrived Class3_1_Front_BtoA
+PASS Live portal source Stair_F01_F02_Right_BtoA
+PASS AUTO_PHYSICS actual walk to Floor02 x=60 final=59.76347
+PASS Live original Arrived Stair_F01_F02_Right_BtoA
+PASS AUTO_PHYSICS actual walk to Floor01 x=18 final=18.24461
+PASS Production security password UI opened
+PASS Password pause preserves actual enemy and random timer
+PASS Wrong 0000 does not enter or set checkpoint
+PASS Correct submission does not prematurely mark Arrived
+PASS Actual settled security Arrived captured CP_SECURITY
+PASS Security cleared enemy and school camera
+PASS AUTO_PHYSICS actual walk to SecurityRoom x=214.3 final=214.0607
+PASS Oil pickup movement lock
+PASS Original oil recipe
+FINAL_START player=(214.21, 0.90, 0.00) enemy=(202.00, 0.80) effectiveDistance=11.5138 configuredSpeed=4.75
+FINAL_MEASURE dx=2.3832 dt=0.5013 speed=4.7541
+FINAL_NO_INPUT captureAfter=2.4257
+PASS No input actually captured
+PASS Actual security checkpoint restores unfilled lamp
+RESULT pass=33 fail=0; step=SecurityArrival; route=LowerEscape; room=SecurityRoom
