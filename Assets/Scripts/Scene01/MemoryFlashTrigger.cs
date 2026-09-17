@@ -60,6 +60,7 @@ public class MemoryFlashTrigger : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        if (PersistentRuntime.Instance?.GetComponent<EndingSession>()?.IsEndingVisit == true) return;
         if (hasTriggered ||
             sequenceRunning)
         {

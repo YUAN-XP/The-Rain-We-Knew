@@ -53,6 +53,7 @@ public class PersistentRuntime : MonoBehaviour
             GetComponent<GameControlManager>()?.BindPlayer(activePlayer, binding == null || binding.allowAdultOutfits);
         }
         if (binding != null) return;
+        if (GetComponent<EndingSession>()?.TryApplyArrival(scene, activePlayer) == true) return;
         PlayerSpawnPoint spawnPoint =
             FindAnyObjectByType<PlayerSpawnPoint>();
 

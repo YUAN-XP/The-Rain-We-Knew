@@ -1,0 +1,9 @@
+scene=Assets/Scenes/EndingSequence.unity; playing=True; dirty=False; errors=0; warnings=1; logs=18
+player=Player position=(49.000, 0.000, 0.000) adult=True
+locks=EndingSequence
+flags=CameraDoorRevealed,SprintUnlocked,Scene01GateOpened,Scene03ReturnedHome,Scene03Completed,LivingRoomDoorOpened,SchoolUniformOwned,SchoolMediaPasswordChanged,SchoolChaseCompleted,SchoolReturnedHome,Scene01IDHolderTaken,EndingHandoverCompleted,EndingIdentityReceived,CompleteCredentialArchived,EndingStreetVisit,EndingStreetPanCompleted,EndingZhangCompleted,EndingBoardingCompleted,EndingCarCompleted,EndingChildCompleted,EndingYouthCompleted,EndingHospitalCompleted
+items=key_oil_lamp:I_S02_OilLamp
+files=file_stained_photo:F_S02_CleanFamilyPhoto,file_xiaopeng_complete_credential:F_CompleteCredential
+outfit=SchoolUniform
+ending=Focus focus=0 paused=False
+dialogue=none

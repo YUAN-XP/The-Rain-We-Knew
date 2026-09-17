@@ -18,6 +18,15 @@ public class IDHolderInteractable :
 
     private bool collected = false;
 
+    System.Collections.IEnumerator Start() {
+        yield return null;
+        Resolve(); var story=PersistentRuntime.Instance!=null?PersistentRuntime.Instance.GetComponent<StoryStateManager>():null;
+        if(story!=null && (story.Has(StoryFlag.Scene01IDHolderTaken)||story.Has(StoryFlag.CompleteCredentialArchived)||inventoryManager!=null&&inventoryManager.HasItem(idHolderItem))) {
+            story.Set(StoryFlag.Scene01IDHolderTaken); collected=true; HidePickup();
+        }
+    }
+    void Resolve(){var runtime=PersistentRuntime.Instance;if(runtime!=null){inventoryManager=runtime.GetComponent<InventoryManager>();dialogueManager=runtime.GetComponentInChildren<DialogueManager>(true);return;}if(inventoryManager==null)inventoryManager=FindAnyObjectByType<InventoryManager>(FindObjectsInactive.Include);if(dialogueManager==null)dialogueManager=FindAnyObjectByType<DialogueManager>(FindObjectsInactive.Include);}
+    void HidePickup(){foreach(var c in GetComponents<Collider2D>())c.enabled=false;foreach(var r in GetComponentsInChildren<SpriteRenderer>())r.enabled=false;}
     public string GetInteractionPrompt()
     {
         return interactionPrompt;
@@ -25,6 +34,7 @@ public class IDHolderInteractable :
 
     public void Interact()
     {
+        Resolve();
         if (collected)
         {
             return;
@@ -48,10 +58,11 @@ public class IDHolderInteractable :
             return;
         }
 
-        collected = true;
 
         // Add the ID holder to Items.
         inventoryManager.AddItem(idHolderItem);
+        if(!inventoryManager.HasItem(idHolderItem))return;
+        collected=true;PersistentRuntime.Instance?.GetComponent<StoryStateManager>()?.Set(StoryFlag.Scene01IDHolderTaken);
 
         // Play inspection dialogue.
         if (dialogueManager != null &&

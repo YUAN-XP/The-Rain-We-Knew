@@ -1,0 +1,130 @@
+﻿%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d63282fc4ffef4744a5c467b5300e835, type: 3}
+  m_Name: EndingData
+  m_EditorClassIdentifier: Assembly-CSharp::EndingData
+  cues:
+  - id: H01
+    dialogue: {fileID: 11400000, guid: f5f3ab8d9ecf1f64ba44824d91f8bfe7, type: 2}
+  - id: H02
+    dialogue: {fileID: 11400000, guid: 19623dea97919b246adb55c00f39eb0f, type: 2}
+  - id: H03
+    dialogue: {fileID: 11400000, guid: 3841890d30070f54092fde7a79f6e776, type: 2}
+  - id: H04
+    dialogue: {fileID: 11400000, guid: be56e3ac18d1cdd4dab7f6c649a85393, type: 2}
+  - id: H05
+    dialogue: {fileID: 11400000, guid: 971766f8f8de4a64ab73dd88ece4e5ce, type: 2}
+  - id: H06
+    dialogue: {fileID: 11400000, guid: 0eb9add8405e2744eba48b7087a5dff5, type: 2}
+  - id: H07
+    dialogue: {fileID: 11400000, guid: 163780eb18f0a214aae99ccf6ab5cfa8, type: 2}
+  - id: H08
+    dialogue: {fileID: 11400000, guid: 696058fbb4e6bc84da1952b35f779b6f, type: 2}
+  - id: H09
+    dialogue: {fileID: 11400000, guid: 355321d4d3d10064fbc23faf5f1d3b29, type: 2}
+  - id: Z01
+    dialogue: {fileID: 11400000, guid: 34fb81b8fb46d5843979ca23e2d0498f, type: 2}
+  - id: Z02
+    dialogue: {fileID: 11400000, guid: d76586ecb6f0f31459b56bfb83255e6a, type: 2}
+  - id: Z03
+    dialogue: {fileID: 11400000, guid: 78d5b453517875d4c9ad7f0bbefdbca2, type: 2}
+  - id: Z04
+    dialogue: {fileID: 11400000, guid: 1e7021d9df302a84d8c7756b7d384536, type: 2}
+  - id: Z05
+    dialogue: {fileID: 11400000, guid: d712c906786d1ab4aadab038d0e44129, type: 2}
+  - id: Z06
+    dialogue: {fileID: 11400000, guid: daebef205809d974697fd94e2d940285, type: 2}
+  - id: Z07
+    dialogue: {fileID: 11400000, guid: baa4ce79fd4522e4c95f1bb23b035b75, type: 2}
+  - id: Z08
+    dialogue: {fileID: 11400000, guid: d7b157a0411fcba4f83e800db91c4db9, type: 2}
+  - id: C01
+    dialogue: {fileID: 11400000, guid: fca4c852ac2fb20419ba9220a18e373f, type: 2}
+  - id: C02
+    dialogue: {fileID: 11400000, guid: 4f747528ee9b57745b0d3a0b518c61f1, type: 2}
+  - id: C03
+    dialogue: {fileID: 11400000, guid: 7751020b4c17d774a8eb4342333a36e5, type: 2}
+  - id: C04
+    dialogue: {fileID: 11400000, guid: 541a6cd763a0ef74d8c664793382e63f, type: 2}
+  - id: C05
+    dialogue: {fileID: 11400000, guid: 38f752ebad62ef54eaaf78cef0985502, type: 2}
+  - id: C06
+    dialogue: {fileID: 11400000, guid: 9e8101e9e7cce3d4ca9703d289f79d24, type: 2}
+  - id: C07
+    dialogue: {fileID: 11400000, guid: 8fbaef5cc8f450d43bc32e2fce0cd837, type: 2}
+  - id: C08
+    dialogue: {fileID: 11400000, guid: bab6a06854b850644a0763578b0b0117, type: 2}
+  - id: C09
+    dialogue: {fileID: 11400000, guid: 09a78964bd4184a4a965ac6d486238cf, type: 2}
+  - id: C10
+    dialogue: {fileID: 11400000, guid: 183ac39d67e4de04184b5ee721af1157, type: 2}
+  - id: C11
+    dialogue: {fileID: 11400000, guid: d5795f8b60a13b94f967353271e52769, type: 2}
+  - id: C12
+    dialogue: {fileID: 11400000, guid: 9199a2f4c2e2286438286a0f941a30cf, type: 2}
+  - id: C13
+    dialogue: {fileID: 11400000, guid: 47978d45b80d090468763451e79dfd63, type: 2}
+  - id: C14
+    dialogue: {fileID: 11400000, guid: f0c733a8a57e4584b939453c15b7ffac, type: 2}
+  - id: C15
+    dialogue: {fileID: 11400000, guid: eb9fb6334f61e2a4dab6b0e712b0bccf, type: 2}
+  - id: F01
+    dialogue: {fileID: 11400000, guid: 8126e23be5068b64cbb4bf640a5cfec1, type: 2}
+  - id: F02
+    dialogue: {fileID: 11400000, guid: cc6b4296c99f9c548b33924d6da2feab, type: 2}
+  - id: F03
+    dialogue: {fileID: 11400000, guid: d2875cd9583f7d54099e41dbb3296d63, type: 2}
+  - id: F04
+    dialogue: {fileID: 11400000, guid: 8d4157c0870fcd2489fd7a58b2ac11a7, type: 2}
+  - id: F05
+    dialogue: {fileID: 11400000, guid: 5e6b9dc064176884e8c6eac3ea7cc534, type: 2}
+  - id: F06
+    dialogue: {fileID: 11400000, guid: edb9039fa3f52e64f959b92ac01698fb, type: 2}
+  - id: F07
+    dialogue: {fileID: 11400000, guid: 6ce7be8f9c7bf0d4dbaf9e54308f4f34, type: 2}
+  - id: E01
+    dialogue: {fileID: 11400000, guid: f657323b3800f5c42a36434e3a9dd71d, type: 2}
+  - id: E02
+    dialogue: {fileID: 11400000, guid: 10d025b9b98c125409df8638874e84e3, type: 2}
+  - id: E03
+    dialogue: {fileID: 11400000, guid: f6263a4dc55343c439bf137e1439b02f, type: 2}
+  identityCard: {fileID: 11400000, guid: f28836884a39c0c4eafde05c0ec3e737, type: 2}
+  originalHolder: {fileID: 11400000, guid: a646b5f57a7482a4092434f4be47dc5c, type: 2}
+  completeCredential: {fileID: 11400000, guid: 5414f21fc2d3c6142b393533789ed202, type: 2}
+  credentialRecipe: {fileID: 11400000, guid: 0b16c56f6456a72449408990219b17eb, type: 2}
+  emailReaction: {fileID: 11400000, guid: 81ff51a8c63e6164596499088f568e88, type: 2}
+  font: {fileID: 11400000, guid: e016d2a2a11444e48b4aee4225c6fff5, type: 2}
+  bodySprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  treeSprite: {fileID: 0}
+  pavilionSprite: {fileID: 0}
+  siren: {fileID: 8300000, guid: de9eef4677d85244a983d4d3b500c06d, type: 3}
+  thunder: {fileID: 8300000, guid: 1bb6b8eec3c8fad4b8ade4e86dde5005, type: 3}
+  carLoop: {fileID: 8300000, guid: e35e6973b63f8144e84390471ff67bc6, type: 3}
+  riverLoop: {fileID: 8300000, guid: 51fef6a178099044ba195a43319418b6, type: 3}
+  rainLoop: {fileID: 8300000, guid: 9186e7213472da440bedf681632292a2, type: 3}
+  wheelsLoop: {fileID: 8300000, guid: 3f76d92e9397d45448b724a20478f1ad, type: 3}
+  monitorLoop: {fileID: 8300000, guid: 8834948afc18da94783a9bd1fc95ba91, type: 3}
+  monitorStop: {fileID: 8300000, guid: 916db6a0ad2f0654f8c9aae5545280ff, type: 3}
+  streetScene: Scene01_Rain
+  homeScene: Scene02_Courtyard
+  sequenceScene: EndingSequence
+  approachSpeed: 1.4
+  followSpeed: 4.8
+  followDistance: 2.2
+  panSeconds: 2.4
+  panHold: 1.2
+  boardingSeconds: 1.8
+  slowWalkSpeed: 1.5
+  actionSeconds: 2.6
+  focusSeconds: 3
+  sirenDelay: 0.65
+  guideVisualGroundOffset: 0

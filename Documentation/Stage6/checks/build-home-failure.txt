@@ -1,0 +1,12 @@
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> UnityEngine.MissingReferenceException: The object of type 'EndingData' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object. Parameter name: target
+  at UnityEngine.Object+MarshalledUnityObject.TryThrowEditorNullExceptionObject (UnityEngine.Object unityObj, System.String parameterName) [0x00065] in <2f52b751ded44e96b74c2c8a24c6c65b>:0 
+  at UnityEngine.Bindings.ThrowHelper.ThrowArgumentNullException (System.Object obj, System.String parameterName) [0x0000a] in <2f52b751ded44e96b74c2c8a24c6c65b>:0 
+  at UnityEditor.EditorUtility.SetDirty (UnityEngine.Object target) [0x00015] in <886e347bbf034f119b276a61ef97646f>:0 
+  at Stage6Builder.Build () [0x006f5] in D:\GitHub Desktop\ProjectMystery\ProjectMystery\Assets\Editor\Stage6Builder.cs:83 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <ee034d2b335a4869bde47687e6ac9c30>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <ee034d2b335a4869bde47687e6ac9c30>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <ee034d2b335a4869bde47687e6ac9c30>:0 
+  at Stage6Editor.Poll () [0x0024e] in D:\GitHub Desktop\ProjectMystery\ProjectMystery\Assets\Editor\Stage6Editor.cs:38 

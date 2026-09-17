@@ -33,6 +33,8 @@ public class RoomTransitionInteractable :
     [SerializeField] private bool overrideFacing;
     [SerializeField] private bool destinationFacesLeft;
 
+    public event System.Action<RoomTransitionInteractable> Arrived;
+    public event System.Action<RoomTransitionInteractable> MovedUnderFade;
     private bool isTransitioning;
     private bool ownsInteractionLock;
 
@@ -91,6 +93,7 @@ public class RoomTransitionInteractable :
         ReleaseControlLock();
         isTransitioning = false;
         onTransitionCompleted.Invoke();
+        Arrived?.Invoke(this);
     }
 
     private bool TryResolveReferences(
@@ -185,6 +188,7 @@ public class RoomTransitionInteractable :
             if (overrideFacing) cameraFollow.SetFacing(destinationFacesLeft ? -1 : 1);
             cameraFollow.SnapToTarget();
         }
+        MovedUnderFade?.Invoke(this);
     }
 
     private void OnDisable()

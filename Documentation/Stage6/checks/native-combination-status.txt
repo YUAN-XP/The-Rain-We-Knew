@@ -1,0 +1,8 @@
+scene=Assets/Scenes/Scene02_Courtyard.unity; playing=True; dirty=False; errors=0; warnings=0; logs=14
+player=Player position=(-20.000, 1.405, 0.000) adult=True
+locks=Inventory
+flags=CameraDoorRevealed,SprintUnlocked,Scene01GateOpened,Scene03ReturnedHome,Scene03Completed,LivingRoomDoorOpened,SchoolUniformOwned,SchoolMediaPasswordChanged,SchoolChaseCompleted,SchoolReturnedHome,Scene01IDHolderTaken,EndingHandoverCompleted,EndingIdentityReceived,EndingIdentityHintIssued,CompleteCredentialArchived,EndingZhangCompleted
+items=key_oil_lamp:I_S02_OilLamp
+files=file_stained_photo:F_S02_CleanFamilyPhoto,file_xiaopeng_complete_credential:F_CompleteCredential
+outfit=SchoolUniform
+dialogue=none

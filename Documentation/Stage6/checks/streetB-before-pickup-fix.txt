@@ -1,0 +1,24 @@
+DIAGNOSTIC post-handover fixture; real original SceneReturn API, original pickup API and real combination transaction. NOT native route. 2026-09-18T00:13:37.1898698+08:00
+PASS original scene loaded
+PASS visit reason set before load
+PASS original gate arrival, not first spawn
+PASS pan completes and returns control
+PASS cannot board without both conversation and file
+PASS Z cue 1
+PASS Z cue 2
+PASS Z cue 3
+PASS Z cue 4
+PASS Z cue 5
+PASS Z cue 6
+PASS Z cue 7
+PASS Z cue 8
+PASS conversation complete, missing file still no boarding
+PASS missing file feedback preserves free state
+PASS no holder: no early hint or automatic item
+PASS original unpicked point still interactable
+PASS original pickup stores history then valid hint
+PASS existing transaction combines actual two materials
+PASS consumed exactly two materials, one File
+PASS duplicate transaction rejected
+PASS both actual File and story allow new boarding interaction
+FAIL consumed holder does not respawn on reload

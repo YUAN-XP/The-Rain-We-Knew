@@ -1,0 +1,8 @@
+DIAGNOSTIC fixture + real transition API + automatic dialogue advancement; NOT native input, NOT inherited full route. 2026-09-18T00:02:27.9974273+08:00
+PASS 42 exact semantic cues bound
+PASS no email: entering bedroom does not trigger
+PASS no email: actual original exit does not trigger
+PASS email flag without completed reaction does not trigger
+PASS reaction natural completion recorded
+PASS reaction complete but still in bedroom does not trigger
+FAIL original exit Arrived starts H01 after visible approach

@@ -25,7 +25,12 @@ public enum StoryFlag { CameraDoorRevealed, CameraTutorialTriggered, CameraFirst
     SchoolGateTried, SchoolFemaleToiletTried, SchoolRoofTried, SchoolSecurityWindowSeen,
     SchoolChaseStarted, SchoolChaseCompleted, SchoolSecurityEntered, SchoolOilTaken,
     SchoolLampRestored, SchoolFragment3Taken, SchoolNewspaperCombined, SchoolReturnedHome,
-    SchoolGuideReturnSpoken, SchoolComputerLoggedIn, SchoolEmailRead }
+    SchoolGuideReturnSpoken, SchoolComputerLoggedIn, SchoolEmailRead,
+    Scene01IDHolderTaken, EndingEmailReactionCompleted, EndingHandoverCompleted,
+    EndingIdentityReceived, EndingIdentityHintIssued, CompleteCredentialArchived, EndingStreetVisit,
+    EndingStreetPanCompleted, EndingZhangCompleted, EndingBoardingCompleted, EndingCarCompleted,
+    EndingChildCompleted, EndingYouthCompleted, EndingHospitalCompleted, EndingFocusCompleted,
+    EndingNameHeard, EndingFinalLineCompleted, DemoCompleted }
 public enum AdultOutfit { Default, Overalls, SchoolUniform }
 
 [DisallowMultipleComponent]

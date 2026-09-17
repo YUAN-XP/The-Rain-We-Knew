@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using TMPro;
 using UnityEngine;
 
@@ -22,6 +22,11 @@ public class DialogueManager : MonoBehaviour
     private bool canAdvanceDialogue;
 
     private int dialogueEndFrame = -1;
+    public event System.Action<DialogueData> NaturallyCompleted;
+    readonly System.Collections.Generic.HashSet<Object> inputPausers = new System.Collections.Generic.HashSet<Object>();
+    float readableSeconds;
+    public void SetInputPaused(Object owner, bool paused) { if (paused) inputPausers.Add(owner); else inputPausers.Remove(owner); }
+
 
     private void Awake()
     {
@@ -47,6 +52,10 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
+        inputPausers.RemoveWhere(o => o == null);
+        if (inputPausers.Count > 0) return;
+        readableSeconds += Time.unscaledDeltaTime;
+        if (currentDialogue != null && readableSeconds < currentDialogue.minimumReadSeconds) return;
         if (Input.GetKeyDown(KeyCode.E) ||
             Input.GetKeyDown(KeyCode.Space))
         {
@@ -77,6 +86,8 @@ public class DialogueManager : MonoBehaviour
 
         isDialogueActive = true;
         canAdvanceDialogue = false;
+        // Populate before showing; prevent one frame of the previous scene's line.
+        DisplayCurrentLine();
 
         if (gameControlManager != null)
         {
@@ -134,6 +145,7 @@ public class DialogueManager : MonoBehaviour
 
     private void DisplayCurrentLine()
     {
+        readableSeconds = 0;
         if (currentDialogue == null)
         {
             return;
@@ -184,6 +196,8 @@ public class DialogueManager : MonoBehaviour
     public int CompletedCount { get; private set; }
     public DialogueData LastCompletedDialogue { get; private set; }
     public DialogueData CurrentDialogue => currentDialogue;
+    public UnityEngine.UI.Image PresentationBackground => dialoguePanel != null ? dialoguePanel.GetComponent<UnityEngine.UI.Image>() : null;
+    public Canvas PresentationCanvas => dialoguePanel != null ? dialoguePanel.GetComponentInParent<Canvas>() : null;
     public int CurrentLineIndex => currentLineIndex;
     // Cancel only the caller's own dialogue; cancellation is not natural completion.
     public bool CancelDialogue(DialogueData owned)
@@ -195,6 +209,7 @@ public class DialogueManager : MonoBehaviour
     }
     private void EndDialogue(bool completed = true)
     {
+        var ended = currentDialogue;
         if (completed) { LastCompletedDialogue = currentDialogue; CompletedCount++; }
         isDialogueActive = false;
         canAdvanceDialogue = false;
@@ -216,6 +231,7 @@ public class DialogueManager : MonoBehaviour
 
         currentDialogue = null;
         currentLineIndex = 0;
+        if (completed) NaturallyCompleted?.Invoke(ended);
     }
 
     public bool IsDialogueActive()

@@ -14,6 +14,8 @@ public sealed class CombinationManager : MonoBehaviour
     InventoryManager inventory;FileArchiveManager files;StoryStateManager story;
     bool busy;
     public void Configure(CombinationRecipe[] value){recipes=value??Array.Empty<CombinationRecipe>();Resolve();}
+    // Add chapter recipes without replacing recipes already installed by earlier chapters.
+    public void Register(CombinationRecipe value) { if(value!=null&&!recipes.Contains(value)) recipes=recipes.Concat(new[]{value}).ToArray(); Resolve(); }
     void Resolve(){inventory=GetComponent<InventoryManager>();files=GetComponent<FileArchiveManager>();story=GetComponent<StoryStateManager>();}
     bool Available(CombinationRecipe r)=>r!=null&&r.materials!=null&&r.materials.Length>0&&story!=null&&!story.Has(r.completedFlag)
         &&(r.prerequisites==null||r.prerequisites.All(story.Has));

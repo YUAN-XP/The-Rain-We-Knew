@@ -1,0 +1,26 @@
+DIAGNOSTIC fixture + real transition API + automatic dialogue advancement; NOT native input, NOT inherited full route. 2026-09-18T00:07:17.0412429+08:00
+PASS 42 exact semantic cues bound
+PASS no email: entering bedroom does not trigger
+PASS no email: actual original exit does not trigger
+PASS email flag without completed reaction does not trigger
+PASS reaction natural completion recorded
+PASS reaction complete but still in bedroom does not trigger
+PASS original exit Arrived starts H01 after visible approach; actual=D_H01 paused=False
+PASS cue H1
+PASS cue H2
+PASS cue H3
+PASS cue H4
+PASS cue H5
+PASS H05 awards real unique card before H06 finishes
+PASS disable releases own lock and only own dialogue
+PASS resume at uncompleted H06, no reward replay
+PASS cue H6
+PASS cue H7
+PASS cue H8
+PASS cue H9
+PASS H09 complete releases control
+PASS combination notice iff actual holder exists
+PASS no duplicate after interruption
+PASS reenter and exit does not restart handover
+PASS safe free endpoint
+DONE 2026-09-18T00:07:48.1147895+08:00

@@ -1,0 +1,50 @@
+DIAGNOSTIC seeded history + post-handover/zhang flags + prepared street position, original boarding/cues/actions, API walk/focus. NOT native keys, NOT inherited continuous route. 2026-09-18T00:40:05.4143672+08:00
+PASS credential transaction before departure
+PASS Zhang enters before guide
+PASS guide enters before adult final motion
+PASS all three ordered motions load sequence
+PASS boarding fact after car views initialized
+PASS one active AudioListener
+PASS cue C01
+PASS cue C02
+PASS cue C03
+PASS cue C04
+PASS cue C05
+PASS cue C06
+PASS cue C07
+PASS cue C08
+PASS cue C09
+PASS cue C10
+PASS cue C11
+PASS cue C12
+PASS cue C13
+PASS cue C14
+PASS cue C15
+PASS headache hands over to adult slow walk
+PASS no-input adult stays put
+PASS cue F01
+PASS early dialogue advance cannot skip gift action
+PASS held right during memory cannot cross next trigger
+PASS cue F02
+PASS child action plus dialogue complete
+PASS cue F03
+PASS cue F04
+PASS cue F05
+PASS exactly two stretchers active
+PASS both beds exit before ward opens
+PASS bed arrival alone does not enter closeup
+PASS cue F06
+PASS cue F07
+PASS F06 F07 then focus input context
+PASS previous held Space cannot start focus
+PASS fresh held input model accumulates partial focus
+PASS release preserves and pauses focus progress
+PASS pause invalidates held key, requires release and new press
+PASS cue E01
+PASS cue E02
+PASS cue E03
+PASS visible completion page, no death retry
+PASS nonempty diagnostic file/item/outfit history preserved
+PASS director disable releases own lock
+PASS same-runtime ending recovery does not replay declaration
+DONE 2026-09-18T00:41:08.2049733+08:00

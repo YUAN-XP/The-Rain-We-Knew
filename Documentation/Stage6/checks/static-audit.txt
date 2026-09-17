@@ -1,0 +1,28 @@
+STATIC AUDIT 2026-09-18T01:14:43.105957
+HEAD 2344c2e14a00ca17b23f998b027b0e5bc063d35c
+Baseline tracked scope changed:
+Assets\Scripts\Dialogue\DialogueData.cs
+Assets\Scripts\Dialogue\DialogueManager.cs
+Assets\Scripts\Interaction\IDHolderInteractable.cs
+Assets\Scripts\Interaction\PlayerInteraction.cs
+Assets\Scripts\Interaction\RoomTransitionInteractable.cs
+Assets\Scripts\Interaction\SceneReturnInteractable.cs
+Assets\Scripts\Inventory\CombinationManager.cs
+Assets\Scripts\Scene01\MemoryFlashTrigger.cs
+Assets\Scripts\Story\StoryStateManager.cs
+Assets\Scripts\System\GameControlManager.cs
+Assets\Scripts\System\PersistentRuntime.cs
+Assets\Scenes\Scene01_Rain.unity
+Assets\Scenes\Scene02_Courtyard.unity
+ProjectSettings\EditorBuildSettings.asset
+PASS old StoryFlag prefix preserved
+PASS font retains old Unicode 0; added 316
+GUID duplicates: []
+Missing scoped meta: []
+Verified package GUIDs: {'311925a002f4447b3a28927169b83ea6': 'com.unity.2d.sprite Square.png', 'a97c105638bdf8b4a8650670310a4cd3': 'URP Sprite-Lit-Default.mat'}
+Unresolved new refs: []
+Scene Scene01_Rain removed original object IDs: []
+Changed original Transform IDs: []
+Scene Scene02_Courtyard removed original object IDs: []
+Changed original Transform IDs: []
+git diff --check exit=0

@@ -79,7 +79,7 @@ public class PlayerInteraction : MonoBehaviour
             IInteractable interactable =
                 hit.GetComponent<IInteractable>();
 
-            if (interactable == null)
+            if (interactable == null || interactable is Behaviour behaviour && !behaviour.isActiveAndEnabled)
             {
                 continue;
             }
