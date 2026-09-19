@@ -41,6 +41,7 @@ public class MemoryFlashTrigger : MonoBehaviour
     private string memoryCanvasName;
     private bool hasTriggered = false;
     private bool sequenceRunning = false;
+    private bool ownsControlLock;
 
     private void Awake()
     {
@@ -61,8 +62,10 @@ public class MemoryFlashTrigger : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (PersistentRuntime.Instance?.GetComponent<EndingSession>()?.IsEndingVisit == true) return;
+        var story = PersistentRuntime.Instance != null
+            ? PersistentRuntime.Instance.GetComponent<StoryStateManager>() : null;
         if (hasTriggered ||
-            sequenceRunning)
+            sequenceRunning || (story != null && story.Has(StoryFlag.Scene01MemoryFlashPlayed)))
         {
             return;
         }
@@ -86,12 +89,16 @@ public class MemoryFlashTrigger : MonoBehaviour
 
         sequenceRunning = true;
         hasTriggered = true;
+        // Claim once at entry, including an interrupted scene unload. The scene's
+        // local boolean is recreated on reload; the existing runtime survives it.
+        PersistentRuntime.Instance?.GetComponent<StoryStateManager>()?.Set(StoryFlag.Scene01MemoryFlashPlayed);
 
         if (gameControlManager != null)
         {
             gameControlManager.AcquireLock(
                 ControlLockReason.Interaction
             );
+            ownsControlLock = true;
         }
 
         if (memoryCanvasGroup != null)
@@ -167,12 +174,29 @@ public class MemoryFlashTrigger : MonoBehaviour
                 ControlLockReason.Interaction
             );
         }
+        ownsControlLock = false;
 
         sequenceRunning = false;
 
         Debug.Log(
             "Scene01: Memory flash 01 completed."
         );
+    }
+
+    private void OnDisable()
+    {
+        if (!sequenceRunning) return;
+        StopAllCoroutines();
+        if (memoryCanvasGroup != null)
+        {
+            memoryCanvasGroup.alpha = 0f;
+            memoryCanvasGroup.blocksRaycasts = false;
+        }
+        if (memoryText != null) memoryText.text = "";
+        if (ownsControlLock && gameControlManager != null)
+            gameControlManager.ReleaseLock(ControlLockReason.Interaction);
+        ownsControlLock = false;
+        sequenceRunning = false;
     }
 
     private IEnumerator FadeCanvas(
