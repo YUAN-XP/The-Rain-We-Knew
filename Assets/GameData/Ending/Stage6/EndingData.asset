@@ -1,4 +1,4 @@
-﻿%YAML 1.1
+%YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!114 &11400000
 MonoBehaviour:
@@ -108,9 +108,9 @@ MonoBehaviour:
   pavilionSprite: {fileID: 0}
   siren: {fileID: 8300000, guid: de9eef4677d85244a983d4d3b500c06d, type: 3}
   thunder: {fileID: 8300000, guid: 1bb6b8eec3c8fad4b8ade4e86dde5005, type: 3}
-  carLoop: {fileID: 8300000, guid: e35e6973b63f8144e84390471ff67bc6, type: 3}
-  riverLoop: {fileID: 8300000, guid: 51fef6a178099044ba195a43319418b6, type: 3}
-  rainLoop: {fileID: 8300000, guid: 9186e7213472da440bedf681632292a2, type: 3}
+  carLoop: {fileID: 0}
+  riverLoop: {fileID: 0}
+  rainLoop: {fileID: 0}
   wheelsLoop: {fileID: 8300000, guid: 3f76d92e9397d45448b724a20478f1ad, type: 3}
   monitorLoop: {fileID: 8300000, guid: 8834948afc18da94783a9bd1fc95ba91, type: 3}
   monitorStop: {fileID: 8300000, guid: 916db6a0ad2f0654f8c9aae5545280ff, type: 3}
@@ -124,8 +124,8 @@ MonoBehaviour:
   panHold: 1.2
   boardingSeconds: 1.8
   slowWalkSpeed: 1.5
-  flashbackRatio: 0.85
   actionSeconds: 2.6
   focusSeconds: 3
   sirenDelay: 0.65
   guideVisualGroundOffset: 0
+  flashbackRatio: 0.85

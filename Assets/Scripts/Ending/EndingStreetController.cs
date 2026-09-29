@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -78,16 +78,19 @@ public sealed class EndingStreetController:EndingStageController
         var player=controls.ActivePlayer;var body=player.GetComponent<Rigidbody2D>();bool simulated=body.simulated;boardingBody=body;boardingSimulated=simulated;body.simulated=false;
         try {
             yield return Move(player.transform,playerWait.position,data.boardingSeconds*.6f);
-            yield return Move(zhang,driverDoor.position,data.boardingSeconds);zhang.gameObject.SetActive(false);yield return Wait(.3f);
-            yield return Move(guide,rearDoor.position+Vector3.up*.4f,data.boardingSeconds);guide.gameObject.SetActive(false);yield return Wait(.3f);
-            yield return Move(player.transform,rearDoor.position,data.boardingSeconds);
+            var comic=DemoComicSequence.For(gameObject);comic.BeginBoarding();
+            yield return Move(zhang,driverDoor.position,data.boardingSeconds);zhang.gameObject.SetActive(false);yield return comic.BoardingStep(0);
+            yield return Move(guide,rearDoor.position+Vector3.up*.4f,data.boardingSeconds);guide.gameObject.SetActive(false);yield return comic.BoardingStep(1);
+            yield return Move(player.transform,rearDoor.position,data.boardingSeconds);yield return comic.BoardingStep(2);
+            yield return comic.FinishBoarding();
             // Only the scene transition hides the original actor; boarding completion follows all three motions.
             session.SequenceStarted=true;boardingInProgress=false;yield return LoadSequence();
         } finally {if(body!=null)body.simulated=simulated;boardingBody=null;}
     }
     IEnumerator LoadSequence(){
         if(!Application.CanStreamedLevelBeLoaded(data.sequenceScene)){Debug.LogError("Ending sequence scene is not registered.",this);session.SequenceStarted=false;Unlock();yield break;}
-        yield return SceneManager.LoadSceneAsync(data.sequenceScene);
+        if(BlackSceneTransition.Begin(data.sequenceScene,controls))
+            while(BlackSceneTransition.IsActive)yield return null;
     }
     protected override void OnDisable(){
         if(boardingInProgress&&controls!=null&&controls.ActivePlayer!=null&&!session.SequenceStarted){EndingSession.Place(controls.ActivePlayer,boardingPlayerPosition);if(zhang!=null){zhang.position=zhangWaitingPosition;zhang.gameObject.SetActive(true);}if(guide!=null)guide.gameObject.SetActive(true);}

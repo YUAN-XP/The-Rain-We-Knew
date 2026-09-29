@@ -24,7 +24,6 @@ public sealed class SchoolHomeReturnController : MonoBehaviour
         previousReturn.cardObject.SetActive(story.Has(StoryFlag.CameraGentlemanCardObtained)&&!story.Has(StoryFlag.Scene03CameraGentlemanEchoCollected));
         // Do not reissue or replace archived history; the actual session owns it.
         runtime.GetComponent<DeskCloseupController>().ConfigureSchoolComputer(data);
-        var sound=gameObject.AddComponent<AudioSource>();sound.clip=previousReturn.rain;sound.loop=true;sound.volume=.18f;sound.Play();
         initialized=true;guideCompletion=dialogue.CompletedCount;
         if(story.Has(StoryFlag.SchoolReturnedHome)){ConfigureGuide();yield break;}
         while(WhiteSceneTransition.IsActive)yield return null;

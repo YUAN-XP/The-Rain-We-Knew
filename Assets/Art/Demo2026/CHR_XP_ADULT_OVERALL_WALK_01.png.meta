@@ -1,0 +1,325 @@
+fileFormatVersion: 2
+guid: 24c570a2c22cafe4eae93c1e18a0e3e2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4493919059410182682
+    second: CHR_XP_ADULT_OVERALL_WALK_01_0
+  - first:
+      213: -6112468117674096457
+    second: CHR_XP_ADULT_OVERALL_WALK_01_1
+  - first:
+      213: 2342330408982171999
+    second: CHR_XP_ADULT_OVERALL_WALK_01_2
+  - first:
+      213: 1691594017880930929
+    second: CHR_XP_ADULT_OVERALL_WALK_01_3
+  - first:
+      213: -8989140401842607725
+    second: CHR_XP_ADULT_OVERALL_WALK_01_4
+  - first:
+      213: -7012497101420877496
+    second: CHR_XP_ADULT_OVERALL_WALK_01_5
+  - first:
+      213: 5235959419511881540
+    second: CHR_XP_ADULT_OVERALL_WALK_01_6
+  - first:
+      213: 4314353898387738978
+    second: CHR_XP_ADULT_OVERALL_WALK_01_7
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CHR_XP_ADULT_OVERALL_WALK_01_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 631
+        width: 596
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ed9f7edc6462a1c0800000000000000
+      internalID: -4493919059410182682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_XP_ADULT_OVERALL_WALK_01_1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 823
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b88229d1a62c2ba0800000000000000
+      internalID: -6112468117674096457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_XP_ADULT_OVERALL_WALK_01_2
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 31
+        width: 524
+        height: 1214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f515af5c811a18020800000000000000
+      internalID: 2342330408982171999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_XP_ADULT_OVERALL_WALK_01_3
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 777
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17af7fbfbcfb97710800000000000000
+      internalID: 1691594017880930929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_XP_ADULT_OVERALL_WALK_01_4
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 19
+        width: 412
+        height: 613
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3992f085e68204380800000000000000
+      internalID: -8989140401842607725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_XP_ADULT_OVERALL_WALK_01_5
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 229
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8492a514a0b9eae90800000000000000
+      internalID: -7012497101420877496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_XP_ADULT_OVERALL_WALK_01_6
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 217
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44fbd5ac95dd9a840800000000000000
+      internalID: 5235959419511881540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_XP_ADULT_OVERALL_WALK_01_7
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 55
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26119bc130aafdb30800000000000000
+      internalID: 4314353898387738978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CHR_XP_ADULT_OVERALL_WALK_01_0: -4493919059410182682
+      CHR_XP_ADULT_OVERALL_WALK_01_1: -6112468117674096457
+      CHR_XP_ADULT_OVERALL_WALK_01_2: 2342330408982171999
+      CHR_XP_ADULT_OVERALL_WALK_01_3: 1691594017880930929
+      CHR_XP_ADULT_OVERALL_WALK_01_4: -8989140401842607725
+      CHR_XP_ADULT_OVERALL_WALK_01_5: -7012497101420877496
+      CHR_XP_ADULT_OVERALL_WALK_01_6: 5235959419511881540
+      CHR_XP_ADULT_OVERALL_WALK_01_7: 4314353898387738978
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

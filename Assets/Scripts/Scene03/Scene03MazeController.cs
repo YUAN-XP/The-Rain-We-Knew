@@ -103,7 +103,7 @@ public class Scene03MazeController : CameraCaptureContext
         chapter.follow.SetLimits(bounds.min.x + walkingViewSize * Camera.main.aspect, bounds.max.x - walkingViewSize * Camera.main.aspect);
         chapter.follow.SetVerticalLimits(true, 0, bounds.min.y + walkingViewSize, bounds.max.y - walkingViewSize);
         Camera.main.orthographicSize = walkingViewSize; chapter.follow.SnapToTarget();
-        chapter.neighbours.volume = .012f; chapter.ambience.volume = .055f; chapter.water.volume = .02f;
+        
     }
     public Vector2Int CellAt(Vector2 world)
     {
@@ -177,10 +177,10 @@ public class Scene03MazeController : CameraCaptureContext
         chapter.child.SetPlanarMovement(false); mazeSpace.gameObject.SetActive(false);
         chapter.homeRoot.SetActive(false); chapter.livingRoomRoot.SetActive(false); chapter.streetRoot.SetActive(false);
         riverRoot.SetActive(true); SetPosition(riverSpawn.position);
-        Camera.main.orthographicSize = previousSize;
+        Camera.main.orthographicSize = previousSize > 0 ? previousSize : 2.6f;
         chapter.follow.SetLimits(riverSpawn.position.x + 4, riverSpawn.position.x + 22);
         chapter.follow.SetVerticalLimits(previousFollowY, previousOffset, riverSpawn.position.y - 5, riverSpawn.position.y + 5);
-        chapter.follow.SnapToTarget(); chapter.neighbours.volume = 0; chapter.ambience.volume = .09f; chapter.water.volume = .18f;
+        chapter.follow.SnapToTarget(); RoomPresentationFraming.PrepareCurrentView(); 
     }
     public void ReleaseToHome()
     {

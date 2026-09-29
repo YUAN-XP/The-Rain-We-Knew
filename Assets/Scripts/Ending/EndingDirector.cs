@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
@@ -9,6 +9,8 @@ public sealed partial class EndingDirector:EndingStageController
     public GameObject riverLandmarksTemplate;
     [Header("Original actor walks along one foreground lane")]
     public float childWatchX=5, youthWatchX=19, hospitalWatchX=33, bedsideX=49;
+    [Header("Walking shot composition")]
+    public float memoryViewSize=3.2f, hospitalViewSize=2.5f;
     public EndingStep Step {get;private set;}
     public EndingFocusProgress Focus {get;private set;}
     public int ActiveStretchers {get;private set;}
@@ -25,7 +27,7 @@ public sealed partial class EndingDirector:EndingStageController
     TMP_Text focusText;
     Button exitButton;
     bool bedArmed,endArmed;
-    AudioSource ambience,monitor,footsteps,rain;
+    AudioSource monitor,footsteps;
     protected override bool PauseAvailable=>true;
     protected override IEnumerator Begin(){
         if(!session.SequenceStarted){Debug.LogWarning("Ending sequence requires actual boarding; no default completion or debug start.",this);yield break;}
@@ -44,7 +46,6 @@ public sealed partial class EndingDirector:EndingStageController
     IEnumerator Car(){
         Step=EndingStep.Car;SetSets(carSet);PlaceForeground(-2.2f);player.transform.position=new Vector3(-2.2f,.15f,0);
         shotCamera.transform.position=new Vector3(0,1.5f,-10);shotCamera.orthographicSize=4.4f;
-        ambience=Sound(data.carLoop,true,.3f);rain=Sound(data.rainLoop,true,.16f);
         for(int n=1;n<=15;n++){yield return Say("C"+n.ToString("00"));if(!speechCompleted)yield break;}
         painHand.SetActive(true);yield return FadeOwnedAudio(.7f);yield return Cover(Color.black,.55f);
         story.Set(StoryFlag.EndingCarCompleted);
@@ -56,9 +57,15 @@ public sealed partial class EndingDirector:EndingStageController
         else if(story.Has(StoryFlag.EndingYouthCompleted))EnterWalkStage(EndingStep.WalkHospital);
         else if(story.Has(StoryFlag.EndingChildCompleted))EnterWalkStage(EndingStep.WalkYouth);
         else EnterWalkStage(EndingStep.WalkChild);
-        ambience=Sound(Step==EndingStep.WalkChild?data.riverLoop:data.rainLoop,true,.18f);bedArmed=false;
+        bedArmed=false;
     }
-    void PlaceForeground(float x){EndingSession.Place(player,new Vector3(x,foregroundY,0));if(shotCamera!=null)shotCamera.transform.position=new Vector3(x+3.2f,1.15f,-10);}
+    void ApplyWalkComposition(float x){
+        if(!shotCamera)return;
+        bool hospital=Step==EndingStep.WalkHospital||Step==EndingStep.Hospital||Step==EndingStep.WalkBed||Step==EndingStep.BedIntro;
+        shotCamera.orthographicSize=hospital?hospitalViewSize:memoryViewSize;
+        shotCamera.transform.position=new Vector3(x+(hospital?1.5f:3.2f),hospital?.25f:.9f,-10);
+    }
+    void PlaceForeground(float x){EndingSession.Place(player,new Vector3(x,foregroundY,0));ApplyWalkComposition(x);}
     protected override void Update(){
         base.Update();if(!ready||player==null||paused)return;
         if(IsWalking){
@@ -78,7 +85,7 @@ public sealed partial class EndingDirector:EndingStageController
         if(!IsWalking||paused||Mathf.Abs(axis)<.001f)return;
         float x=player.transform.position.x+Mathf.Clamp(axis,-1,1)*player.WalkSpeed*data.flashbackRatio*Mathf.Clamp(delta,0,.1f);
         player.transform.position=new Vector3(x,foregroundY,0);
-        shotCamera.transform.position=new Vector3(x+3.2f,1.15f,-10);
+        ApplyWalkComposition(x);
         UpdateWalkStage();
         if(axis<=0||x<segmentTriggerX)return;
         if(Step==EndingStep.WalkChild){Step=EndingStep.Child;StartCoroutine(ChildMemory());}

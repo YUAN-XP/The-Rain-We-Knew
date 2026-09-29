@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: 8c710862e1e079f4d9081e0b69a5e89d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3466685311387172832
+    second: SPR_HOME_DRESSING_MEMORY_0
+  - first:
+      213: 2842141100269423126
+    second: SPR_HOME_DRESSING_MEMORY_1
+  - first:
+      213: 5804653675446324804
+    second: SPR_HOME_DRESSING_MEMORY_2
+  - first:
+      213: -88535332958740517
+    second: SPR_HOME_DRESSING_MEMORY_3
+  - first:
+      213: -7385905601343620296
+    second: SPR_HOME_DRESSING_MEMORY_4
+  - first:
+      213: -3442371897039846940
+    second: SPR_HOME_DRESSING_MEMORY_5
+  - first:
+      213: 7398910458140205065
+    second: SPR_HOME_DRESSING_MEMORY_6
+  - first:
+      213: 606260011523962829
+    second: SPR_HOME_DRESSING_MEMORY_7
+  - first:
+      213: 8957957062169637300
+    second: SPR_HOME_DRESSING_MEMORY_8
+  - first:
+      213: -8076511642068811746
+    second: SPR_HOME_DRESSING_MEMORY_9
+  - first:
+      213: 3584518466774388405
+    second: SPR_HOME_DRESSING_MEMORY_10
+  - first:
+      213: -7230194539286074329
+    second: SPR_HOME_DRESSING_MEMORY_11
+  - first:
+      213: -6895669736915144828
+    second: SPR_HOME_DRESSING_MEMORY_12
+  - first:
+      213: -6696457574600637043
+    second: SPR_HOME_DRESSING_MEMORY_13
+  - first:
+      213: -4998267841267327071
+    second: SPR_HOME_DRESSING_MEMORY_14
+  - first:
+      213: -1858278131740712528
+    second: SPR_HOME_DRESSING_MEMORY_15
+  - first:
+      213: -3649170432012846862
+    second: SPR_HOME_DRESSING_MEMORY_16
+  - first:
+      213: -2180194637599455362
+    second: SPR_HOME_DRESSING_MEMORY_17
+  - first:
+      213: 624073146182220295
+    second: SPR_HOME_DRESSING_MEMORY_18
+  - first:
+      213: 2775523644394193544
+    second: SPR_HOME_DRESSING_MEMORY_19
+  - first:
+      213: 5617969194360505491
+    second: SPR_HOME_DRESSING_MEMORY_20
+  - first:
+      213: -3987004161227777954
+    second: SPR_HOME_DRESSING_MEMORY_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPR_HOME_DRESSING_MEMORY_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 432
+        width: 339
+        height: 560
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0effb456ce32c1030800000000000000
+      internalID: 3466685311387172832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_DRESSING_MEMORY_1
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 337
+        width: 599
+        height: 667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61ac81bb540517720800000000000000
+      internalID: 2842141100269423126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_DRESSING_MEMORY_2
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 823
+        width: 45
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44ec42173c54e8050800000000000000
+      internalID: 5804653675446324804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_DRESSING_MEMORY_3
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 835
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdf5ce0759575cef0800000000000000
+      internalID: -88535332958740517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_DRESSING_MEMORY_4
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 837
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83b785fdcfdff7990800000000000000
+      internalID: -7385905601343620296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_DRESSING_MEMORY_5
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 847
+        width: 305
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e107248ffc3a30d0800000000000000
+      internalID: -3442371897039846940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_DRESSING_MEMORY_6
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 850
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 900ae5e4cd53ea660800000000000000
+      internalID: 7398910458140205065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_DRESSING_MEMORY_7
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 721
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc7f864b44ed96800800000000000000
+      internalID: 606260011523962829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_DRESSING_MEMORY_8
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 693
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b1b2db9c7e015c70800000000000000
+      internalID: 8957957062169637300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_DRESSING_MEMORY_9
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 469
+        width: 343
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e108e26e3777aef80800000000000000
+      internalID: -8076511642068811746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_DRESSING_MEMORY_10
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 711
+        width: 99
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5be4aeecd84ceb130800000000000000
+      internalID: 3584518466774388405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_DRESSING_MEMORY_11
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 690
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72c62ecaf5039ab90800000000000000
+      internalID: -7230194539286074329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_DRESSING_MEMORY_12
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 623
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48fe2cab8e8ad40a0800000000000000
+      internalID: -6895669736915144828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_DRESSING_MEMORY_13
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 495
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d858474b0576113a0800000000000000
+      internalID: -6696457574600637043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_DRESSING_MEMORY_14
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 517
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1af900d51e592aab0800000000000000
+      internalID: -4998267841267327071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_DRESSING_MEMORY_15
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 511
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b1e7bf72e11636e0800000000000000
+      internalID: -1858278131740712528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_DRESSING_MEMORY_16
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 479
+        width: 51
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f8f30383da8b5dc0800000000000000
+      internalID: -3649170432012846862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_DRESSING_MEMORY_17
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 467
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e774cac37846eb1e0800000000000000
+      internalID: -2180194637599455362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_DRESSING_MEMORY_18
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 29
+        width: 393
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70a3d00583729a800800000000000000
+      internalID: 624073146182220295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_DRESSING_MEMORY_19
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 339
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88240d99c04a48620800000000000000
+      internalID: 2775523644394193544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_DRESSING_MEMORY_20
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 54
+        width: 475
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39402fc873907fd40800000000000000
+      internalID: 5617969194360505491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_DRESSING_MEMORY_21
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 0
+        width: 485
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e589304e6d05ba8c0800000000000000
+      internalID: -3987004161227777954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SPR_HOME_DRESSING_MEMORY_0: 3466685311387172832
+      SPR_HOME_DRESSING_MEMORY_1: 2842141100269423126
+      SPR_HOME_DRESSING_MEMORY_10: 3584518466774388405
+      SPR_HOME_DRESSING_MEMORY_11: -7230194539286074329
+      SPR_HOME_DRESSING_MEMORY_12: -6895669736915144828
+      SPR_HOME_DRESSING_MEMORY_13: -6696457574600637043
+      SPR_HOME_DRESSING_MEMORY_14: -4998267841267327071
+      SPR_HOME_DRESSING_MEMORY_15: -1858278131740712528
+      SPR_HOME_DRESSING_MEMORY_16: -3649170432012846862
+      SPR_HOME_DRESSING_MEMORY_17: -2180194637599455362
+      SPR_HOME_DRESSING_MEMORY_18: 624073146182220295
+      SPR_HOME_DRESSING_MEMORY_19: 2775523644394193544
+      SPR_HOME_DRESSING_MEMORY_2: 5804653675446324804
+      SPR_HOME_DRESSING_MEMORY_20: 5617969194360505491
+      SPR_HOME_DRESSING_MEMORY_21: -3987004161227777954
+      SPR_HOME_DRESSING_MEMORY_3: -88535332958740517
+      SPR_HOME_DRESSING_MEMORY_4: -7385905601343620296
+      SPR_HOME_DRESSING_MEMORY_5: -3442371897039846940
+      SPR_HOME_DRESSING_MEMORY_6: 7398910458140205065
+      SPR_HOME_DRESSING_MEMORY_7: 606260011523962829
+      SPR_HOME_DRESSING_MEMORY_8: 8957957062169637300
+      SPR_HOME_DRESSING_MEMORY_9: -8076511642068811746
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

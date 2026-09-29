@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 693f8d30e4913f54c8eec4e23e522bd3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7546749495764219713
+    second: CHR_XP_ADULT_SCHOOL_BASE_0
+  - first:
+      213: 5445953246963120666
+    second: CHR_XP_ADULT_SCHOOL_BASE_1
+  - first:
+      213: -8854360244606839341
+    second: CHR_XP_ADULT_SCHOOL_BASE_2
+  - first:
+      213: -3770955543173529108
+    second: CHR_XP_ADULT_SCHOOL_BASE_3
+  - first:
+      213: -4883309709229110248
+    second: CHR_XP_ADULT_SCHOOL_BASE_4
+  - first:
+      213: -809029742904140675
+    second: CHR_XP_ADULT_SCHOOL_BASE_5
+  - first:
+      213: 4659425654874144450
+    second: CHR_XP_ADULT_SCHOOL_BASE_6
+  - first:
+      213: 807978871633406101
+    second: CHR_XP_ADULT_SCHOOL_BASE_7
+  - first:
+      213: 7653504320357951138
+    second: CHR_XP_ADULT_SCHOOL_BASE_8
+  - first:
+      213: -6165537996098033474
+    second: CHR_XP_ADULT_SCHOOL_BASE_9
+  - first:
+      213: -1296822799470305343
+    second: CHR_XP_ADULT_SCHOOL_BASE_10
+  - first:
+      213: 5362805284781312242
+    second: CHR_XP_ADULT_SCHOOL_BASE_11
+  - first:
+      213: 4686988876414646189
+    second: CHR_XP_ADULT_SCHOOL_BASE_12
+  - first:
+      213: -3611776312874803756
+    second: CHR_XP_ADULT_SCHOOL_BASE_13
+  - first:
+      213: 4004052934734127486
+    second: CHR_XP_ADULT_SCHOOL_BASE_14
+  - first:
+      213: -5731397269780533717
+    second: CHR_XP_ADULT_SCHOOL_BASE_15
+  - first:
+      213: 7827661082873051348
+    second: CHR_XP_ADULT_SCHOOL_BASE_16
+  - first:
+      213: -3497259376157836698
+    second: CHR_XP_ADULT_SCHOOL_BASE_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CHR_XP_ADULT_SCHOOL_BASE_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 0
+        width: 671
+        height: 1199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14772e79ea07bb860800000000000000
+      internalID: 7546749495764219713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_XP_ADULT_SCHOOL_BASE_1
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 0
+        width: 566
+        height: 1199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1a3f9ccf99e39b40800000000000000
+      internalID: 5445953246963120666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_XP_ADULT_SCHOOL_BASE_2
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 1093
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d55eda154efe1580800000000000000
+      internalID: -8854360244606839341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_XP_ADULT_SCHOOL_BASE_3
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 582
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce10a51b9efdaabc0800000000000000
+      internalID: -3770955543173529108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_XP_ADULT_SCHOOL_BASE_4
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 578
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81cce2d31bffa3cb0800000000000000
+      internalID: -4883309709229110248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_XP_ADULT_SCHOOL_BASE_5
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 507
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7c19793cbfb5c4f0800000000000000
+      internalID: -809029742904140675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_XP_ADULT_SCHOOL_BASE_6
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 465
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ce7d1842fa99a040800000000000000
+      internalID: 4659425654874144450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_XP_ADULT_SCHOOL_BASE_7
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 436
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 598eabdb084863b00800000000000000
+      internalID: 807978871633406101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_XP_ADULT_SCHOOL_BASE_8
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 425
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a66add11a5b63a60800000000000000
+      internalID: 7653504320357951138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_XP_ADULT_SCHOOL_BASE_9
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 392
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb82765ebdb9f6aa0800000000000000
+      internalID: -6165537996098033474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_XP_ADULT_SCHOOL_BASE_10
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 403
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cfd1f4e882c00ee0800000000000000
+      internalID: -1296822799470305343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_XP_ADULT_SCHOOL_BASE_11
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 384
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f84afe3ef28c6a40800000000000000
+      internalID: 5362805284781312242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_XP_ADULT_SCHOOL_BASE_12
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 363
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da7f6e4ec878b0140800000000000000
+      internalID: 4686988876414646189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_XP_ADULT_SCHOOL_BASE_13
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 337
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dd5de6549460edc0800000000000000
+      internalID: -3611776312874803756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_XP_ADULT_SCHOOL_BASE_14
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 291
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7120b40ee0419730800000000000000
+      internalID: 4004052934734127486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_XP_ADULT_SCHOOL_BASE_15
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 232
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2e6614ac8cf570b0800000000000000
+      internalID: -5731397269780533717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_XP_ADULT_SCHOOL_BASE_16
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 85
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d83cca384071ac60800000000000000
+      internalID: 7827661082873051348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_XP_ADULT_SCHOOL_BASE_17
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 39
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66a35bc602d377fc0800000000000000
+      internalID: -3497259376157836698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CHR_XP_ADULT_SCHOOL_BASE_0: 7546749495764219713
+      CHR_XP_ADULT_SCHOOL_BASE_1: 5445953246963120666
+      CHR_XP_ADULT_SCHOOL_BASE_10: -1296822799470305343
+      CHR_XP_ADULT_SCHOOL_BASE_11: 5362805284781312242
+      CHR_XP_ADULT_SCHOOL_BASE_12: 4686988876414646189
+      CHR_XP_ADULT_SCHOOL_BASE_13: -3611776312874803756
+      CHR_XP_ADULT_SCHOOL_BASE_14: 4004052934734127486
+      CHR_XP_ADULT_SCHOOL_BASE_15: -5731397269780533717
+      CHR_XP_ADULT_SCHOOL_BASE_16: 7827661082873051348
+      CHR_XP_ADULT_SCHOOL_BASE_17: -3497259376157836698
+      CHR_XP_ADULT_SCHOOL_BASE_2: -8854360244606839341
+      CHR_XP_ADULT_SCHOOL_BASE_3: -3770955543173529108
+      CHR_XP_ADULT_SCHOOL_BASE_4: -4883309709229110248
+      CHR_XP_ADULT_SCHOOL_BASE_5: -809029742904140675
+      CHR_XP_ADULT_SCHOOL_BASE_6: 4659425654874144450
+      CHR_XP_ADULT_SCHOOL_BASE_7: 807978871633406101
+      CHR_XP_ADULT_SCHOOL_BASE_8: 7653504320357951138
+      CHR_XP_ADULT_SCHOOL_BASE_9: -6165537996098033474
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

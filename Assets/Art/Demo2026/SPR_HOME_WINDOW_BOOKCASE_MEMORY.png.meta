@@ -1,0 +1,377 @@
+fileFormatVersion: 2
+guid: dbe75151ec9149841a69fc130e4c40aa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7743932923573588638
+    second: SPR_HOME_WINDOW_BOOKCASE_MEMORY_0
+  - first:
+      213: 4880075466351832449
+    second: SPR_HOME_WINDOW_BOOKCASE_MEMORY_1
+  - first:
+      213: -2934482499834037820
+    second: SPR_HOME_WINDOW_BOOKCASE_MEMORY_2
+  - first:
+      213: -7763703867555326549
+    second: SPR_HOME_WINDOW_BOOKCASE_MEMORY_3
+  - first:
+      213: 6144239913621153299
+    second: SPR_HOME_WINDOW_BOOKCASE_MEMORY_4
+  - first:
+      213: 2873322556903613446
+    second: SPR_HOME_WINDOW_BOOKCASE_MEMORY_5
+  - first:
+      213: -5213177145630849453
+    second: SPR_HOME_WINDOW_BOOKCASE_MEMORY_6
+  - first:
+      213: 3986802839211525709
+    second: SPR_HOME_WINDOW_BOOKCASE_MEMORY_7
+  - first:
+      213: -5588782992242444789
+    second: SPR_HOME_WINDOW_BOOKCASE_MEMORY_8
+  - first:
+      213: -6891125543991304590
+    second: SPR_HOME_WINDOW_BOOKCASE_MEMORY_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPR_HOME_WINDOW_BOOKCASE_MEMORY_0
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 35
+        width: 1065
+        height: 850
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e925e0207f9f77b60800000000000000
+      internalID: 7743932923573588638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_WINDOW_BOOKCASE_MEMORY_1
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 860
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18deff8e7c289b340800000000000000
+      internalID: 4880075466351832449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_WINDOW_BOOKCASE_MEMORY_2
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 39
+        width: 539
+        height: 808
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c9bac5c6bf9647d0800000000000000
+      internalID: -2934482499834037820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_WINDOW_BOOKCASE_MEMORY_3
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 781
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba5d9016778c14490800000000000000
+      internalID: -7763703867555326549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_WINDOW_BOOKCASE_MEMORY_4
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 759
+        width: 60
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3166a2ad5a9b44550800000000000000
+      internalID: 6144239913621153299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_WINDOW_BOOKCASE_MEMORY_5
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 765
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6046b5954a710e720800000000000000
+      internalID: 2873322556903613446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_WINDOW_BOOKCASE_MEMORY_6
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 759
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3560d73b10317a7b0800000000000000
+      internalID: -5213177145630849453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_WINDOW_BOOKCASE_MEMORY_7
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 731
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d46c8bc2f08f35730800000000000000
+      internalID: 3986802839211525709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_WINDOW_BOOKCASE_MEMORY_8
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 649
+        width: 40
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b06f4acaa77a072b0800000000000000
+      internalID: -5588782992242444789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_WINDOW_BOOKCASE_MEMORY_9
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 47
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e17c714ddcd50a0800000000000000
+      internalID: -6891125543991304590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SPR_HOME_WINDOW_BOOKCASE_MEMORY_0: 7743932923573588638
+      SPR_HOME_WINDOW_BOOKCASE_MEMORY_1: 4880075466351832449
+      SPR_HOME_WINDOW_BOOKCASE_MEMORY_2: -2934482499834037820
+      SPR_HOME_WINDOW_BOOKCASE_MEMORY_3: -7763703867555326549
+      SPR_HOME_WINDOW_BOOKCASE_MEMORY_4: 6144239913621153299
+      SPR_HOME_WINDOW_BOOKCASE_MEMORY_5: 2873322556903613446
+      SPR_HOME_WINDOW_BOOKCASE_MEMORY_6: -5213177145630849453
+      SPR_HOME_WINDOW_BOOKCASE_MEMORY_7: 3986802839211525709
+      SPR_HOME_WINDOW_BOOKCASE_MEMORY_8: -5588782992242444789
+      SPR_HOME_WINDOW_BOOKCASE_MEMORY_9: -6891125543991304590
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -23,6 +23,7 @@ public class NewspaperFragmentInteractable :
     [SerializeField] private GameObject gateKeyObject;
 
     private bool collected = false;
+    public bool IsCollected => collected;
     private System.Collections.IEnumerator Start()
     {
         yield return null;
@@ -41,6 +42,13 @@ public class NewspaperFragmentInteractable :
     }
 
     public void Interact()
+    {
+        if (collected) return;
+        var key = gateKeyObject != null ? gateKeyObject.GetComponent<GateKeyInteractable>() : null;
+        DemoCloseupPresentation.For(gameObject).OpenMailbox(this, key);
+    }
+
+    public void CollectFromCloseup()
     {
         if(dialogueManager==null)dialogueManager=FindAnyObjectByType<DialogueManager>();
         if(inventoryManager==null)inventoryManager=FindAnyObjectByType<InventoryManager>();

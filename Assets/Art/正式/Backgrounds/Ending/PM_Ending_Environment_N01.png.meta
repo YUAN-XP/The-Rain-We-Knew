@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 06f31676cf63f5e4ebae36c30993fc0f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9031068526859695553
+    second: PM_Ending_Environment_N01_0
+  - first:
+      213: 5743704762369044062
+    second: PM_Ending_Environment_N01_1
+  - first:
+      213: -1831026609180132677
+    second: PM_Ending_Environment_N01_2
+  - first:
+      213: -2088573578510053517
+    second: PM_Ending_Environment_N01_3
+  - first:
+      213: 4570256406131248217
+    second: PM_Ending_Environment_N01_4
+  - first:
+      213: -8025010828958843504
+    second: PM_Ending_Environment_N01_5
+  - first:
+      213: 8317006399011546687
+    second: PM_Ending_Environment_N01_6
+  - first:
+      213: 4506930227900526488
+    second: PM_Ending_Environment_N01_7
+  - first:
+      213: -1696818705787453611
+    second: PM_Ending_Environment_N01_8
+  - first:
+      213: -1849560926728273744
+    second: PM_Ending_Environment_N01_9
+  - first:
+      213: 7525403557432049364
+    second: PM_Ending_Environment_N01_10
+  - first:
+      213: 4942661018596842900
+    second: PM_Ending_Environment_N01_11
+  - first:
+      213: -7513467395621875059
+    second: PM_Ending_Environment_N01_12
+  - first:
+      213: -4062049630346239967
+    second: PM_Ending_Environment_N01_13
+  - first:
+      213: -3330845669377287761
+    second: PM_Ending_Environment_N01_14
+  - first:
+      213: -4408933441348231030
+    second: PM_Ending_Environment_N01_15
+  - first:
+      213: 3807796393538674420
+    second: PM_Ending_Environment_N01_16
+  - first:
+      213: 3856079919184949454
+    second: PM_Ending_Environment_N01_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PM_Ending_Environment_N01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 473
+        width: 1239
+        height: 543
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c5beadf9fcc45d70800000000000000
+      internalID: 9031068526859695553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_Environment_N01_1
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 991
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5ee9b7cc0db5bf40800000000000000
+      internalID: 5743704762369044062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_Environment_N01_2
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1013
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbab7890003e696e0800000000000000
+      internalID: -1831026609180132677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_Environment_N01_3
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 979
+        width: 61
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37f44a56565e303e0800000000000000
+      internalID: -2088573578510053517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_Environment_N01_4
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 987
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95c08e3bcffcc6f30800000000000000
+      internalID: 4570256406131248217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_Environment_N01_5
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 972
+        width: 57
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09dbe3d5b2f61a090800000000000000
+      internalID: -8025010828958843504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_Environment_N01_6
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 981
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f36ebb72141fb6370800000000000000
+      internalID: 8317006399011546687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_Environment_N01_7
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 991
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89f2b7dd925db8e30800000000000000
+      internalID: 4506930227900526488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_Environment_N01_8
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 913
+        width: 115
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55ffc419060b378e0800000000000000
+      internalID: -1696818705787453611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_Environment_N01_9
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 885
+        width: 161
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b04be3f22a0556e0800000000000000
+      internalID: -1849560926728273744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_Environment_N01_10
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 983
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4deb2380aaa9f6860800000000000000
+      internalID: 7525403557432049364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_Environment_N01_11
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 977
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49d92a2520cd79440800000000000000
+      internalID: 4942661018596842900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_Environment_N01_12
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 957
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d829a74363dcab790800000000000000
+      internalID: -7513467395621875059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_Environment_N01_13
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 959
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 120a4330263b0a7c0800000000000000
+      internalID: -4062049630346239967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_Environment_N01_14
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 16
+        width: 507
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa95e13e28576c1d0800000000000000
+      internalID: -3330845669377287761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_Environment_N01_15
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 587
+        width: 494
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a802916056250d2c0800000000000000
+      internalID: -4408933441348231030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_Environment_N01_16
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 45
+        width: 598
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fed2e535a208d430800000000000000
+      internalID: 3807796393538674420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_Environment_N01_17
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 25
+        width: 267
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec03980914c838530800000000000000
+      internalID: 3856079919184949454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PM_Ending_Environment_N01_0: 9031068526859695553
+      PM_Ending_Environment_N01_1: 5743704762369044062
+      PM_Ending_Environment_N01_10: 7525403557432049364
+      PM_Ending_Environment_N01_11: 4942661018596842900
+      PM_Ending_Environment_N01_12: -7513467395621875059
+      PM_Ending_Environment_N01_13: -4062049630346239967
+      PM_Ending_Environment_N01_14: -3330845669377287761
+      PM_Ending_Environment_N01_15: -4408933441348231030
+      PM_Ending_Environment_N01_16: 3807796393538674420
+      PM_Ending_Environment_N01_17: 3856079919184949454
+      PM_Ending_Environment_N01_2: -1831026609180132677
+      PM_Ending_Environment_N01_3: -2088573578510053517
+      PM_Ending_Environment_N01_4: 4570256406131248217
+      PM_Ending_Environment_N01_5: -8025010828958843504
+      PM_Ending_Environment_N01_6: 8317006399011546687
+      PM_Ending_Environment_N01_7: 4506930227900526488
+      PM_Ending_Environment_N01_8: -1696818705787453611
+      PM_Ending_Environment_N01_9: -1849560926728273744
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

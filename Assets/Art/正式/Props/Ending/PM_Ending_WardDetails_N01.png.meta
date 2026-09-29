@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: a232d8494238b2248945ee783cac66e1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7169008920039864338
+    second: PM_Ending_WardDetails_N01_0
+  - first:
+      213: -3405410789785397125
+    second: PM_Ending_WardDetails_N01_1
+  - first:
+      213: -1562422220713493732
+    second: PM_Ending_WardDetails_N01_2
+  - first:
+      213: -4650775631662893196
+    second: PM_Ending_WardDetails_N01_3
+  - first:
+      213: 7333267865217849793
+    second: PM_Ending_WardDetails_N01_4
+  - first:
+      213: 7224321365258472091
+    second: PM_Ending_WardDetails_N01_5
+  - first:
+      213: -5411966407724803108
+    second: PM_Ending_WardDetails_N01_6
+  - first:
+      213: -2054238989575304646
+    second: PM_Ending_WardDetails_N01_7
+  - first:
+      213: -1974571266474805704
+    second: PM_Ending_WardDetails_N01_8
+  - first:
+      213: 7636424667520604532
+    second: PM_Ending_WardDetails_N01_9
+  - first:
+      213: 4184892755268477344
+    second: PM_Ending_WardDetails_N01_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PM_Ending_WardDetails_N01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 633
+        width: 787
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee7ca69ce50928c90800000000000000
+      internalID: -7169008920039864338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_WardDetails_N01_1
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 981
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b781f88edec8db0d0800000000000000
+      internalID: -3405410789785397125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_WardDetails_N01_2
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 247
+        width: 754
+        height: 753
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1bf131b449215ae0800000000000000
+      internalID: -1562422220713493732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_WardDetails_N01_3
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 29
+        width: 563
+        height: 591
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 477b0b03430257fb0800000000000000
+      internalID: -4650775631662893196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_WardDetails_N01_4
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 501
+        width: 81
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c9d815254005c560800000000000000
+      internalID: 7333267865217849793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_WardDetails_N01_5
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 58
+        width: 477
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9a0f7f6102f14460800000000000000
+      internalID: 7224321365258472091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_WardDetails_N01_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 308
+        width: 33
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdb573bd935d4e4b0800000000000000
+      internalID: -5411966407724803108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_WardDetails_N01_7
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 306
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3a4b96d580ed73e0800000000000000
+      internalID: -2054238989575304646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_WardDetails_N01_8
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 311
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 836731615e9e894e0800000000000000
+      internalID: -1974571266474805704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_WardDetails_N01_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 197
+        width: 15
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 479989d86c70af960800000000000000
+      internalID: 7636424667520604532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_WardDetails_N01_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 6
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a122e4d9c9b31a30800000000000000
+      internalID: 4184892755268477344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PM_Ending_WardDetails_N01_0: -7169008920039864338
+      PM_Ending_WardDetails_N01_1: -3405410789785397125
+      PM_Ending_WardDetails_N01_10: 4184892755268477344
+      PM_Ending_WardDetails_N01_2: -1562422220713493732
+      PM_Ending_WardDetails_N01_3: -4650775631662893196
+      PM_Ending_WardDetails_N01_4: 7333267865217849793
+      PM_Ending_WardDetails_N01_5: 7224321365258472091
+      PM_Ending_WardDetails_N01_6: -5411966407724803108
+      PM_Ending_WardDetails_N01_7: -2054238989575304646
+      PM_Ending_WardDetails_N01_8: -1974571266474805704
+      PM_Ending_WardDetails_N01_9: 7636424667520604532
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

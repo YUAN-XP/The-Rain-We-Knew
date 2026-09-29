@@ -1,0 +1,1644 @@
+{
+  "assets": [
+    {
+      "key": "door_n",
+      "asset": "Assets/Art/正式/Props/SharedHome/PM_Home_Architecture_N02.png",
+      "rect": [
+        126,
+        557,
+        206,
+        438
+      ]
+    },
+    {
+      "key": "window_n",
+      "asset": "Assets/Art/正式/Props/SharedHome/PM_Home_Architecture_N02.png",
+      "rect": [
+        455,
+        586,
+        535,
+        380
+      ]
+    },
+    {
+      "key": "stairs_n",
+      "asset": "Assets/Art/正式/Props/SharedHome/PM_Home_Architecture_N02.png",
+      "rect": [
+        1068,
+        564,
+        373,
+        432
+      ]
+    },
+    {
+      "key": "door_d",
+      "asset": "Assets/Art/正式/Props/SharedHome/PM_Home_Architecture_N02.png",
+      "rect": [
+        115,
+        57,
+        220,
+        454
+      ]
+    },
+    {
+      "key": "window_d",
+      "asset": "Assets/Art/正式/Props/SharedHome/PM_Home_Architecture_N02.png",
+      "rect": [
+        452,
+        71,
+        542,
+        417
+      ]
+    },
+    {
+      "key": "stairs_d",
+      "asset": "Assets/Art/正式/Props/SharedHome/PM_Home_Architecture_N02.png",
+      "rect": [
+        1058,
+        57,
+        404,
+        456
+      ]
+    },
+    {
+      "key": "wall_n",
+      "asset": "Assets/Art/正式/Backgrounds/SharedHome/PM_Home_Surfaces_N01.png",
+      "rect": [
+        0,
+        492,
+        768,
+        532
+      ]
+    },
+    {
+      "key": "wall_d",
+      "asset": "Assets/Art/正式/Backgrounds/SharedHome/PM_Home_Surfaces_N01.png",
+      "rect": [
+        768,
+        492,
+        768,
+        532
+      ]
+    },
+    {
+      "key": "floor_n",
+      "asset": "Assets/Art/正式/Backgrounds/SharedHome/PM_Home_Surfaces_N01.png",
+      "rect": [
+        0,
+        0,
+        768,
+        490
+      ]
+    },
+    {
+      "key": "floor_d",
+      "asset": "Assets/Art/正式/Backgrounds/SharedHome/PM_Home_Surfaces_N01.png",
+      "rect": [
+        768,
+        0,
+        768,
+        490
+      ]
+    },
+    {
+      "key": "sofa_n",
+      "asset": "Assets/Art/正式/Props/SharedHome/PM_Home_Furniture_Normal_N01.png",
+      "rect": [
+        17,
+        604,
+        554,
+        239
+      ]
+    },
+    {
+      "key": "table_n",
+      "asset": "Assets/Art/正式/Props/SharedHome/PM_Home_Furniture_Normal_N01.png",
+      "rect": [
+        591,
+        604,
+        453,
+        281
+      ]
+    },
+    {
+      "key": "tv_n",
+      "asset": "Assets/Art/正式/Props/SharedHome/PM_Home_Furniture_Normal_N01.png",
+      "rect": [
+        1082,
+        604,
+        435,
+        307
+      ]
+    },
+    {
+      "key": "bed_n",
+      "asset": "Assets/Art/正式/Props/SharedHome/PM_Home_Furniture_Normal_N01.png",
+      "rect": [
+        33,
+        130,
+        575,
+        271
+      ]
+    },
+    {
+      "key": "wardrobe_n",
+      "asset": "Assets/Art/正式/Props/SharedHome/PM_Home_Furniture_Normal_N01.png",
+      "rect": [
+        661,
+        120,
+        340,
+        399
+      ]
+    },
+    {
+      "key": "desk_n",
+      "asset": "Assets/Art/正式/Props/SharedHome/PM_Home_Furniture_Normal_N01.png",
+      "rect": [
+        1110,
+        120,
+        393,
+        279
+      ]
+    },
+    {
+      "key": "sofa_d",
+      "asset": "Assets/Art/正式/Props/SharedHome/PM_Home_Furniture_Otherworld_N01.png",
+      "rect": [
+        10,
+        581,
+        562,
+        270
+      ]
+    },
+    {
+      "key": "table_d",
+      "asset": "Assets/Art/正式/Props/SharedHome/PM_Home_Furniture_Otherworld_N01.png",
+      "rect": [
+        577,
+        580,
+        480,
+        319
+      ]
+    },
+    {
+      "key": "tv_d",
+      "asset": "Assets/Art/正式/Props/SharedHome/PM_Home_Furniture_Otherworld_N01.png",
+      "rect": [
+        1070,
+        580,
+        459,
+        333
+      ]
+    },
+    {
+      "key": "bed_d",
+      "asset": "Assets/Art/正式/Props/SharedHome/PM_Home_Furniture_Otherworld_N01.png",
+      "rect": [
+        20,
+        118,
+        614,
+        305
+      ]
+    },
+    {
+      "key": "wardrobe_d",
+      "asset": "Assets/Art/正式/Props/SharedHome/PM_Home_Furniture_Otherworld_N01.png",
+      "rect": [
+        654,
+        110,
+        350,
+        418
+      ]
+    },
+    {
+      "key": "desk_d",
+      "asset": "Assets/Art/正式/Props/SharedHome/PM_Home_Furniture_Otherworld_N01.png",
+      "rect": [
+        1098,
+        102,
+        424,
+        312
+      ]
+    },
+    {
+      "key": "phone",
+      "asset": "Assets/Art/正式/Props/SharedHome/PM_Home_Details_N01.png",
+      "rect": [
+        45,
+        836,
+        360,
+        356
+      ]
+    },
+    {
+      "key": "camera",
+      "asset": "Assets/Art/正式/Props/SharedHome/PM_Home_Details_N01.png",
+      "rect": [
+        468,
+        832,
+        349,
+        271
+      ]
+    },
+    {
+      "key": "lamp",
+      "asset": "Assets/Art/正式/Props/SharedHome/PM_Home_Details_N01.png",
+      "rect": [
+        920,
+        828,
+        264,
+        385
+      ]
+    },
+    {
+      "key": "photo",
+      "asset": "Assets/Art/正式/Props/SharedHome/PM_Home_Details_N01.png",
+      "rect": [
+        44,
+        473,
+        343,
+        290
+      ]
+    },
+    {
+      "key": "plant",
+      "asset": "Assets/Art/正式/Props/SharedHome/PM_Home_Details_N01.png",
+      "rect": [
+        453,
+        470,
+        342,
+        356
+      ]
+    },
+    {
+      "key": "shoes",
+      "asset": "Assets/Art/正式/Props/SharedHome/PM_Home_Details_N01.png",
+      "rect": [
+        832,
+        458,
+        400,
+        296
+      ]
+    },
+    {
+      "key": "computer",
+      "asset": "Assets/Art/正式/Props/SharedHome/PM_Home_Details_N01.png",
+      "rect": [
+        36,
+        96,
+        442,
+        297
+      ]
+    },
+    {
+      "key": "guitar",
+      "asset": "Assets/Art/正式/Props/SharedHome/PM_Home_Details_N01.png",
+      "rect": [
+        532,
+        34,
+        222,
+        437
+      ]
+    },
+    {
+      "key": "cabinet",
+      "asset": "Assets/Art/正式/Props/SharedHome/PM_Home_Details_N01.png",
+      "rect": [
+        882,
+        54,
+        315,
+        371
+      ]
+    },
+    {
+      "key": "shadow_father",
+      "asset": "Assets/Art/正式/Characters/Scene02/PM_S02_ShadowFamily_N01.png",
+      "rect": [
+        175,
+        8,
+        357,
+        1016
+      ]
+    },
+    {
+      "key": "shadow_mother",
+      "asset": "Assets/Art/正式/Characters/Scene02/PM_S02_ShadowFamily_N01.png",
+      "rect": [
+        603,
+        10,
+        297,
+        918
+      ]
+    },
+    {
+      "key": "shadow_child",
+      "asset": "Assets/Art/正式/Characters/Scene02/PM_S02_ShadowFamily_N01.png",
+      "rect": [
+        913,
+        30,
+        507,
+        641
+      ]
+    },
+    {
+      "key": "facade_home",
+      "asset": "Assets/Art/正式/Backgrounds/Scene03/PM_S03_StreetFacades_N01.png",
+      "rect": [
+        18,
+        520,
+        476,
+        496
+      ]
+    },
+    {
+      "key": "facade_shop",
+      "asset": "Assets/Art/正式/Backgrounds/Scene03/PM_S03_StreetFacades_N01.png",
+      "rect": [
+        521,
+        520,
+        496,
+        497
+      ]
+    },
+    {
+      "key": "facade_chess",
+      "asset": "Assets/Art/正式/Backgrounds/Scene03/PM_S03_StreetFacades_N01.png",
+      "rect": [
+        1026,
+        520,
+        492,
+        496
+      ]
+    },
+    {
+      "key": "facade_food",
+      "asset": "Assets/Art/正式/Backgrounds/Scene03/PM_S03_StreetFacades_N01.png",
+      "rect": [
+        17,
+        28,
+        477,
+        480
+      ]
+    },
+    {
+      "key": "facade_zhao",
+      "asset": "Assets/Art/正式/Backgrounds/Scene03/PM_S03_StreetFacades_N01.png",
+      "rect": [
+        521,
+        28,
+        490,
+        482
+      ]
+    },
+    {
+      "key": "facade_alley",
+      "asset": "Assets/Art/正式/Backgrounds/Scene03/PM_S03_StreetFacades_N01.png",
+      "rect": [
+        1036,
+        28,
+        487,
+        480
+      ]
+    },
+    {
+      "key": "maze_ground_n",
+      "asset": "Assets/Art/正式/Backgrounds/Scene03/Maze/PM_S03_MazeModules_N01.png",
+      "rect": [
+        34,
+        608,
+        295,
+        289
+      ]
+    },
+    {
+      "key": "maze_ground_d",
+      "asset": "Assets/Art/正式/Backgrounds/Scene03/Maze/PM_S03_MazeModules_N01.png",
+      "rect": [
+        34,
+        151,
+        295,
+        292
+      ]
+    },
+    {
+      "key": "maze_wall_n",
+      "asset": "Assets/Art/正式/Backgrounds/Scene03/Maze/PM_S03_MazeModules_N01.png",
+      "rect": [
+        373,
+        780,
+        416,
+        38
+      ]
+    },
+    {
+      "key": "maze_wall_d",
+      "asset": "Assets/Art/正式/Backgrounds/Scene03/Maze/PM_S03_MazeModules_N01.png",
+      "rect": [
+        373,
+        320,
+        416,
+        39
+      ]
+    },
+    {
+      "key": "maze_shed_n",
+      "asset": "Assets/Art/正式/Backgrounds/Scene03/Maze/PM_S03_MazeModules_N01.png",
+      "rect": [
+        833,
+        588,
+        302,
+        344
+      ]
+    },
+    {
+      "key": "maze_shed_d",
+      "asset": "Assets/Art/正式/Backgrounds/Scene03/Maze/PM_S03_MazeModules_N01.png",
+      "rect": [
+        833,
+        120,
+        302,
+        361
+      ]
+    },
+    {
+      "key": "maze_corner_n",
+      "asset": "Assets/Art/正式/Backgrounds/Scene03/Maze/PM_S03_MazeModules_N01.png",
+      "rect": [
+        1178,
+        586,
+        354,
+        349
+      ]
+    },
+    {
+      "key": "maze_corner_d",
+      "asset": "Assets/Art/正式/Backgrounds/Scene03/Maze/PM_S03_MazeModules_N01.png",
+      "rect": [
+        1178,
+        118,
+        354,
+        374
+      ]
+    },
+    {
+      "key": "school_door_n",
+      "asset": "Assets/Art/正式/Props/Scene04/Architecture/PM_S04_SchoolArchitecture_N01.png",
+      "rect": [
+        67,
+        557,
+        371,
+        395
+      ]
+    },
+    {
+      "key": "school_window_n",
+      "asset": "Assets/Art/正式/Props/Scene04/Architecture/PM_S04_SchoolArchitecture_N01.png",
+      "rect": [
+        525,
+        660,
+        450,
+        239
+      ]
+    },
+    {
+      "key": "school_stairs_n",
+      "asset": "Assets/Art/正式/Props/Scene04/Architecture/PM_S04_SchoolArchitecture_N01.png",
+      "rect": [
+        1051,
+        549,
+        433,
+        412
+      ]
+    },
+    {
+      "key": "school_door_d",
+      "asset": "Assets/Art/正式/Props/Scene04/Architecture/PM_S04_SchoolArchitecture_N01.png",
+      "rect": [
+        67,
+        87,
+        371,
+        394
+      ]
+    },
+    {
+      "key": "school_window_d",
+      "asset": "Assets/Art/正式/Props/Scene04/Architecture/PM_S04_SchoolArchitecture_N01.png",
+      "rect": [
+        525,
+        190,
+        450,
+        238
+      ]
+    },
+    {
+      "key": "school_stairs_d",
+      "asset": "Assets/Art/正式/Props/Scene04/Architecture/PM_S04_SchoolArchitecture_N01.png",
+      "rect": [
+        1051,
+        79,
+        433,
+        413
+      ]
+    },
+    {
+      "key": "father",
+      "asset": "Assets/Art/正式/Characters/Scene03/PM_CH_NeighborhoodCast_N01.png",
+      "rect": [
+        160,
+        512,
+        203,
+        508
+      ]
+    },
+    {
+      "key": "mother",
+      "asset": "Assets/Art/正式/Characters/Scene03/PM_CH_NeighborhoodCast_N01.png",
+      "rect": [
+        480,
+        512,
+        187,
+        492
+      ]
+    },
+    {
+      "key": "limei",
+      "asset": "Assets/Art/正式/Characters/Scene03/PM_CH_NeighborhoodCast_N01.png",
+      "rect": [
+        827,
+        512,
+        213,
+        487
+      ]
+    },
+    {
+      "key": "storyteller",
+      "asset": "Assets/Art/正式/Characters/Scene03/PM_CH_NeighborhoodCast_N01.png",
+      "rect": [
+        1143,
+        511,
+        235,
+        507
+      ]
+    },
+    {
+      "key": "wangping",
+      "asset": "Assets/Art/正式/Characters/Scene03/PM_CH_NeighborhoodCast_N01.png",
+      "rect": [
+        136,
+        10,
+        224,
+        501
+      ]
+    },
+    {
+      "key": "sunfu",
+      "asset": "Assets/Art/正式/Characters/Scene03/PM_CH_NeighborhoodCast_N01.png",
+      "rect": [
+        500,
+        10,
+        208,
+        501
+      ]
+    },
+    {
+      "key": "zhaobingcheng",
+      "asset": "Assets/Art/正式/Characters/Scene03/PM_CH_NeighborhoodCast_N01.png",
+      "rect": [
+        824,
+        11,
+        214,
+        460
+      ]
+    },
+    {
+      "key": "rings_vendor",
+      "asset": "Assets/Art/正式/Characters/Scene03/PM_CH_NeighborhoodCast_N01.png",
+      "rect": [
+        1137,
+        10,
+        288,
+        501
+      ]
+    },
+    {
+      "key": "school_desks_n",
+      "asset": "Assets/Art/正式/Props/Scene04/Furniture/PM_S04_SchoolProps_Normal_N01.png",
+      "rect": [
+        23,
+        545,
+        487,
+        295
+      ]
+    },
+    {
+      "key": "school_board_n",
+      "asset": "Assets/Art/正式/Props/Scene04/Furniture/PM_S04_SchoolProps_Normal_N01.png",
+      "rect": [
+        532,
+        629,
+        505,
+        296
+      ]
+    },
+    {
+      "key": "school_office_n",
+      "asset": "Assets/Art/正式/Props/Scene04/Furniture/PM_S04_SchoolProps_Normal_N01.png",
+      "rect": [
+        1058,
+        535,
+        461,
+        394
+      ]
+    },
+    {
+      "key": "school_cctv_n",
+      "asset": "Assets/Art/正式/Props/Scene04/Furniture/PM_S04_SchoolProps_Normal_N01.png",
+      "rect": [
+        24,
+        94,
+        497,
+        357
+      ]
+    },
+    {
+      "key": "school_sports_n",
+      "asset": "Assets/Art/正式/Props/Scene04/Furniture/PM_S04_SchoolProps_Normal_N01.png",
+      "rect": [
+        565,
+        71,
+        435,
+        413
+      ]
+    },
+    {
+      "key": "school_toilet_n",
+      "asset": "Assets/Art/正式/Props/Scene04/Furniture/PM_S04_SchoolProps_Normal_N01.png",
+      "rect": [
+        1038,
+        115,
+        485,
+        339
+      ]
+    },
+    {
+      "key": "school_desks_d",
+      "asset": "Assets/Art/正式/Props/Scene04/Furniture/PM_S04_SchoolProps_Otherworld_N01.png",
+      "rect": [
+        23,
+        545,
+        487,
+        295
+      ]
+    },
+    {
+      "key": "school_board_d",
+      "asset": "Assets/Art/正式/Props/Scene04/Furniture/PM_S04_SchoolProps_Otherworld_N01.png",
+      "rect": [
+        532,
+        629,
+        505,
+        296
+      ]
+    },
+    {
+      "key": "school_office_d",
+      "asset": "Assets/Art/正式/Props/Scene04/Furniture/PM_S04_SchoolProps_Otherworld_N01.png",
+      "rect": [
+        1058,
+        535,
+        461,
+        394
+      ]
+    },
+    {
+      "key": "school_cctv_d",
+      "asset": "Assets/Art/正式/Props/Scene04/Furniture/PM_S04_SchoolProps_Otherworld_N01.png",
+      "rect": [
+        24,
+        94,
+        497,
+        357
+      ]
+    },
+    {
+      "key": "school_sports_d",
+      "asset": "Assets/Art/正式/Props/Scene04/Furniture/PM_S04_SchoolProps_Otherworld_N01.png",
+      "rect": [
+        565,
+        71,
+        435,
+        413
+      ]
+    },
+    {
+      "key": "school_toilet_d",
+      "asset": "Assets/Art/正式/Props/Scene04/Furniture/PM_S04_SchoolProps_Otherworld_N01.png",
+      "rect": [
+        1038,
+        115,
+        485,
+        339
+      ]
+    },
+    {
+      "key": "child_xp",
+      "asset": "Assets/Art/正式/Characters/LeadAges/PM_CH_LeadAges_N02.png",
+      "rect": [
+        62,
+        20,
+        293,
+        900
+      ]
+    },
+    {
+      "key": "child_qt",
+      "asset": "Assets/Art/正式/Characters/LeadAges/PM_CH_LeadAges_N02.png",
+      "rect": [
+        419,
+        20,
+        305,
+        929
+      ]
+    },
+    {
+      "key": "youth_xp",
+      "asset": "Assets/Art/正式/Characters/LeadAges/PM_CH_LeadAges_N02.png",
+      "rect": [
+        782,
+        17,
+        330,
+        1005
+      ]
+    },
+    {
+      "key": "youth_qt",
+      "asset": "Assets/Art/正式/Characters/LeadAges/PM_CH_LeadAges_N02.png",
+      "rect": [
+        1160,
+        17,
+        347,
+        1007
+      ]
+    },
+    {
+      "key": "chess_group",
+      "asset": "Assets/Art/正式/Characters/Scene03/Groups/PM_S03_NeighborhoodLife_N01.png",
+      "rect": [
+        13,
+        522,
+        455,
+        450
+      ]
+    },
+    {
+      "key": "diners",
+      "asset": "Assets/Art/正式/Characters/Scene03/Groups/PM_S03_NeighborhoodLife_N01.png",
+      "rect": [
+        476,
+        519,
+        627,
+        365
+      ]
+    },
+    {
+      "key": "shop_vendor",
+      "asset": "Assets/Art/正式/Characters/Scene03/Groups/PM_S03_NeighborhoodLife_N01.png",
+      "rect": [
+        1124,
+        512,
+        401,
+        449
+      ]
+    },
+    {
+      "key": "neighbours",
+      "asset": "Assets/Art/正式/Characters/Scene03/Groups/PM_S03_NeighborhoodLife_N01.png",
+      "rect": [
+        19,
+        42,
+        447,
+        459
+      ]
+    },
+    {
+      "key": "cat_stand",
+      "asset": "Assets/Art/正式/Characters/Scene03/Groups/PM_S03_NeighborhoodLife_N01.png",
+      "rect": [
+        742,
+        92,
+        261,
+        286
+      ]
+    },
+    {
+      "key": "dog",
+      "asset": "Assets/Art/正式/Characters/Scene03/Groups/PM_S03_NeighborhoodLife_N01.png",
+      "rect": [
+        1009,
+        88,
+        273,
+        195
+      ]
+    },
+    {
+      "key": "puddle_child",
+      "asset": "Assets/Art/正式/Characters/Scene03/Groups/PM_S03_NeighborhoodLife_N01.png",
+      "rect": [
+        1282,
+        56,
+        246,
+        420
+      ]
+    },
+    {
+      "key": "cat_sleep",
+      "asset": "Assets/Art/正式/Characters/Scene03/Groups/PM_S03_NeighborhoodLife_N02.png",
+      "rect": [
+        491,
+        81,
+        249,
+        197
+      ]
+    },
+    {
+      "key": "river_day",
+      "asset": "Assets/Art/正式/Backgrounds/Scene03/River/PM_S03_RiverPanorama_N01.png",
+      "rect": [
+        0,
+        512,
+        1536,
+        512
+      ]
+    },
+    {
+      "key": "river_rain",
+      "asset": "Assets/Art/正式/Backgrounds/Scene03/River/PM_S03_RiverPanorama_N01.png",
+      "rect": [
+        0,
+        0,
+        1536,
+        512
+      ]
+    },
+    {
+      "key": "town_day",
+      "asset": "Assets/Art/正式/Backgrounds/Scene03/River/PM_S03_RiverPanorama_N01.png",
+      "rect": [
+        0,
+        716,
+        1536,
+        308
+      ]
+    },
+    {
+      "key": "noticeboard",
+      "asset": "Assets/Art/正式/Props/Scene03/PM_S03_StreetDetails_N01.png",
+      "rect": [
+        48,
+        569,
+        420,
+        391
+      ]
+    },
+    {
+      "key": "ring_prizes",
+      "asset": "Assets/Art/正式/Props/Scene03/PM_S03_StreetDetails_N01.png",
+      "rect": [
+        477,
+        570,
+        573,
+        270
+      ]
+    },
+    {
+      "key": "pond",
+      "asset": "Assets/Art/正式/Props/Scene03/PM_S03_StreetDetails_N01.png",
+      "rect": [
+        1020,
+        534,
+        516,
+        419
+      ]
+    },
+    {
+      "key": "river_tree",
+      "asset": "Assets/Art/正式/Props/Scene03/PM_S03_StreetDetails_N01.png",
+      "rect": [
+        12,
+        42,
+        600,
+        513
+      ]
+    },
+    {
+      "key": "pavilion",
+      "asset": "Assets/Art/正式/Props/Scene03/PM_S03_StreetDetails_N01.png",
+      "rect": [
+        614,
+        38,
+        599,
+        404
+      ]
+    },
+    {
+      "key": "signpost",
+      "asset": "Assets/Art/正式/Props/Scene03/PM_S03_StreetDetails_N01.png",
+      "rect": [
+        1230,
+        40,
+        278,
+        472
+      ]
+    },
+    {
+      "key": "zhangruoyuan",
+      "asset": "Assets/Art/正式/Characters/Scene04/PM_CH_SchoolCast_N02.png",
+      "rect": [
+        127,
+        474,
+        194,
+        540
+      ]
+    },
+    {
+      "key": "director",
+      "asset": "Assets/Art/正式/Characters/Scene04/PM_CH_SchoolCast_N02.png",
+      "rect": [
+        454,
+        473,
+        229,
+        543
+      ]
+    },
+    {
+      "key": "xiangyan",
+      "asset": "Assets/Art/正式/Characters/Scene04/PM_CH_SchoolCast_N02.png",
+      "rect": [
+        839,
+        474,
+        245,
+        541
+      ]
+    },
+    {
+      "key": "xiangyan_shadow",
+      "asset": "Assets/Art/正式/Characters/Scene04/PM_CH_SchoolCast_N02.png",
+      "rect": [
+        1219,
+        473,
+        239,
+        544
+      ]
+    },
+    {
+      "key": "students_chat",
+      "asset": "Assets/Art/正式/Characters/Scene04/PM_CH_SchoolCast_N02.png",
+      "rect": [
+        51,
+        17,
+        320,
+        454
+      ]
+    },
+    {
+      "key": "student_read",
+      "asset": "Assets/Art/正式/Characters/Scene04/PM_CH_SchoolCast_N02.png",
+      "rect": [
+        449,
+        17,
+        284,
+        439
+      ]
+    },
+    {
+      "key": "student_sleep",
+      "asset": "Assets/Art/正式/Characters/Scene04/PM_CH_SchoolCast_N02.png",
+      "rect": [
+        808,
+        19,
+        302,
+        406
+      ]
+    },
+    {
+      "key": "students_back",
+      "asset": "Assets/Art/正式/Characters/Scene04/PM_CH_SchoolCast_N02.png",
+      "rect": [
+        1193,
+        16,
+        299,
+        456
+      ]
+    },
+    {
+      "key": "school_wall_n",
+      "asset": "Assets/Art/正式/Backgrounds/Scene04/PM_S04_SchoolSurfaces_N01.png",
+      "rect": [
+        0,
+        486,
+        768,
+        538
+      ]
+    },
+    {
+      "key": "school_wall_d",
+      "asset": "Assets/Art/正式/Backgrounds/Scene04/PM_S04_SchoolSurfaces_N01.png",
+      "rect": [
+        768,
+        486,
+        768,
+        538
+      ]
+    },
+    {
+      "key": "school_floor_n",
+      "asset": "Assets/Art/正式/Backgrounds/Scene04/PM_S04_SchoolSurfaces_N01.png",
+      "rect": [
+        0,
+        0,
+        768,
+        480
+      ]
+    },
+    {
+      "key": "school_floor_d",
+      "asset": "Assets/Art/正式/Backgrounds/Scene04/PM_S04_SchoolSurfaces_N01.png",
+      "rect": [
+        768,
+        0,
+        768,
+        480
+      ]
+    },
+    {
+      "key": "hoop",
+      "asset": "Assets/Art/正式/Props/Scene04/PM_S04_SchoolDetails_N01.png",
+      "rect": [
+        25,
+        510,
+        466,
+        514
+      ]
+    },
+    {
+      "key": "basketball",
+      "asset": "Assets/Art/正式/Props/Scene04/PM_S04_SchoolDetails_N01.png",
+      "rect": [
+        610,
+        676,
+        162,
+        171
+      ]
+    },
+    {
+      "key": "oil_lamp",
+      "asset": "Assets/Art/正式/Props/Scene04/PM_S04_SchoolDetails_N01.png",
+      "rect": [
+        811,
+        675,
+        120,
+        243
+      ]
+    },
+    {
+      "key": "folded_note",
+      "asset": "Assets/Art/正式/Props/Scene04/PM_S04_SchoolDetails_N01.png",
+      "rect": [
+        688,
+        537,
+        182,
+        129
+      ]
+    },
+    {
+      "key": "roof_hut",
+      "asset": "Assets/Art/正式/Props/Scene04/PM_S04_SchoolDetails_N01.png",
+      "rect": [
+        1027,
+        521,
+        509,
+        455
+      ]
+    },
+    {
+      "key": "water_tank",
+      "asset": "Assets/Art/正式/Props/Scene04/PM_S04_SchoolDetails_N01.png",
+      "rect": [
+        45,
+        27,
+        450,
+        459
+      ]
+    },
+    {
+      "key": "school_books",
+      "asset": "Assets/Art/正式/Props/Scene04/PM_S04_SchoolDetails_N01.png",
+      "rect": [
+        529,
+        23,
+        468,
+        472
+      ]
+    },
+    {
+      "key": "usb",
+      "asset": "Assets/Art/正式/Props/Scene04/PM_S04_SchoolDetails_N01.png",
+      "rect": [
+        1061,
+        298,
+        175,
+        135
+      ]
+    },
+    {
+      "key": "pencil",
+      "asset": "Assets/Art/正式/Props/Scene04/PM_S04_SchoolDetails_N01.png",
+      "rect": [
+        1215,
+        317,
+        280,
+        119
+      ]
+    },
+    {
+      "key": "postits",
+      "asset": "Assets/Art/正式/Props/Scene04/PM_S04_SchoolDetails_N01.png",
+      "rect": [
+        1058,
+        113,
+        180,
+        160
+      ]
+    },
+    {
+      "key": "folder",
+      "asset": "Assets/Art/正式/Props/Scene04/PM_S04_SchoolDetails_N01.png",
+      "rect": [
+        1228,
+        41,
+        278,
+        271
+      ]
+    },
+    {
+      "key": "hospital_wall",
+      "asset": "Assets/Art/正式/Backgrounds/Ending/PM_Ending_Environment_N01.png",
+      "rect": [
+        18,
+        599,
+        507,
+        359
+      ]
+    },
+    {
+      "key": "hospital_bed",
+      "asset": "Assets/Art/正式/Backgrounds/Ending/PM_Ending_Environment_N01.png",
+      "rect": [
+        545,
+        582,
+        489,
+        261
+      ]
+    },
+    {
+      "key": "gurney",
+      "asset": "Assets/Art/正式/Backgrounds/Ending/PM_Ending_Environment_N01.png",
+      "rect": [
+        1042,
+        583,
+        493,
+        222
+      ]
+    },
+    {
+      "key": "car_interior",
+      "asset": "Assets/Art/正式/Backgrounds/Ending/PM_Ending_Environment_N01.png",
+      "rect": [
+        10,
+        48,
+        541,
+        446
+      ]
+    },
+    {
+      "key": "nurse",
+      "asset": "Assets/Art/正式/Backgrounds/Ending/PM_Ending_Environment_N01.png",
+      "rect": [
+        718,
+        26,
+        181,
+        556
+      ]
+    },
+    {
+      "key": "doctor",
+      "asset": "Assets/Art/正式/Backgrounds/Ending/PM_Ending_Environment_N01.png",
+      "rect": [
+        1148,
+        14,
+        210,
+        579
+      ]
+    },
+    {
+      "key": "uniform_drop",
+      "asset": "Assets/Art/正式/Props/Ending/PM_Ending_Gestures_N01.png",
+      "rect": [
+        30,
+        538,
+        474,
+        400
+      ]
+    },
+    {
+      "key": "covered_bed",
+      "asset": "Assets/Art/正式/Props/Ending/PM_Ending_Gestures_N01.png",
+      "rect": [
+        505,
+        554,
+        538,
+        339
+      ]
+    },
+    {
+      "key": "reaching_hand",
+      "asset": "Assets/Art/正式/Props/Ending/PM_Ending_Gestures_N01.png",
+      "rect": [
+        1065,
+        610,
+        449,
+        255
+      ]
+    },
+    {
+      "key": "uniform_sleeve",
+      "asset": "Assets/Art/正式/Props/Ending/PM_Ending_Gestures_N01.png",
+      "rect": [
+        13,
+        140,
+        468,
+        264
+      ]
+    },
+    {
+      "key": "temple_hand",
+      "asset": "Assets/Art/正式/Props/Ending/PM_Ending_Gestures_N01.png",
+      "rect": [
+        506,
+        79,
+        254,
+        399
+      ]
+    },
+    {
+      "key": "dark_sleeve",
+      "asset": "Assets/Art/正式/Props/Ending/PM_Ending_Gestures_N01.png",
+      "rect": [
+        735,
+        47,
+        311,
+        441
+      ]
+    },
+    {
+      "key": "pendant",
+      "asset": "Assets/Art/正式/Props/Ending/PM_Ending_Gestures_N01.png",
+      "rect": [
+        1064,
+        117,
+        198,
+        365
+      ]
+    },
+    {
+      "key": "arm_wound",
+      "asset": "Assets/Art/正式/Props/Ending/PM_Ending_Gestures_N01.png",
+      "rect": [
+        1258,
+        76,
+        255,
+        344
+      ]
+    },
+    {
+      "key": "hoop_board",
+      "asset": "Assets/Art/正式/Props/Scene04/PM_S04_BasketballStand_Side_N01.png",
+      "rect": [
+        352,
+        1012,
+        32,
+        450
+      ]
+    },
+    {
+      "key": "hoop_rim",
+      "asset": "Assets/Art/正式/Props/Scene04/PM_S04_BasketballStand_Side_N01.png",
+      "rect": [
+        82,
+        935,
+        270,
+        201
+      ]
+    },
+    {
+      "key": "hoop_support",
+      "asset": "Assets/Art/正式/Props/Scene04/PM_S04_BasketballStand_Side_N01.png",
+      "rect": [
+        383,
+        72,
+        587,
+        1221
+      ]
+    },
+    {
+      "key": "maze_face_n",
+      "asset": "Assets/Art/正式/Props/Scene03/迷宫/PM_S03_MazeDetails_N01.png",
+      "rect": [
+        13,
+        634,
+        532,
+        158
+      ]
+    },
+    {
+      "key": "maze_face_d",
+      "asset": "Assets/Art/正式/Props/Scene03/迷宫/PM_S03_MazeDetails_N01.png",
+      "rect": [
+        14,
+        150,
+        531,
+        164
+      ]
+    },
+    {
+      "key": "maze_chalk_n",
+      "asset": "Assets/Art/正式/Props/Scene03/迷宫/PM_S03_MazeDetails_N01.png",
+      "rect": [
+        567,
+        540,
+        241,
+        393
+      ]
+    },
+    {
+      "key": "maze_chalk_d",
+      "asset": "Assets/Art/正式/Props/Scene03/迷宫/PM_S03_MazeDetails_N01.png",
+      "rect": [
+        539,
+        56,
+        291,
+        399
+      ]
+    },
+    {
+      "key": "maze_planter_n",
+      "asset": "Assets/Art/正式/Props/Scene03/迷宫/PM_S03_MazeDetails_N01.png",
+      "rect": [
+        838,
+        613,
+        410,
+        186
+      ]
+    },
+    {
+      "key": "maze_planter_d",
+      "asset": "Assets/Art/正式/Props/Scene03/迷宫/PM_S03_MazeDetails_N01.png",
+      "rect": [
+        838,
+        131,
+        410,
+        177
+      ]
+    },
+    {
+      "key": "maze_meter_n",
+      "asset": "Assets/Art/正式/Props/Scene03/迷宫/PM_S03_MazeDetails_N01.png",
+      "rect": [
+        1280,
+        562,
+        245,
+        412
+      ]
+    },
+    {
+      "key": "maze_meter_d",
+      "asset": "Assets/Art/正式/Props/Scene03/迷宫/PM_S03_MazeDetails_N01.png",
+      "rect": [
+        1274,
+        54,
+        251,
+        432
+      ]
+    },
+    {
+      "key": "seated_xp",
+      "asset": "Assets/Art/正式/Characters/Ending/PM_CH_AdultSeated_N01.png",
+      "rect": [
+        135,
+        16,
+        586,
+        1000
+      ]
+    },
+    {
+      "key": "seated_qt",
+      "asset": "Assets/Art/正式/Characters/Ending/PM_CH_AdultSeated_N01.png",
+      "rect": [
+        865,
+        12,
+        568,
+        1004
+      ]
+    },
+    {
+      "key": "car_rear",
+      "asset": "Assets/Art/正式/Backgrounds/Ending/PM_Ending_CarInterior_N02.png",
+      "rect": [
+        0,
+        0,
+        1672,
+        941
+      ]
+    },
+    {
+      "key": "ward_window",
+      "asset": "Assets/Art/正式/Props/Ending/PM_Ending_WardDetails_N01.png",
+      "rect": [
+        70,
+        633,
+        643,
+        338
+      ]
+    },
+    {
+      "key": "ward_panel",
+      "asset": "Assets/Art/正式/Props/Ending/PM_Ending_WardDetails_N01.png",
+      "rect": [
+        776,
+        636,
+        710,
+        240
+      ]
+    },
+    {
+      "key": "ward_curtain",
+      "asset": "Assets/Art/正式/Props/Ending/PM_Ending_WardDetails_N01.png",
+      "rect": [
+        180,
+        33,
+        449,
+        576
+      ]
+    },
+    {
+      "key": "ward_cabinet",
+      "asset": "Assets/Art/正式/Props/Ending/PM_Ending_WardDetails_N01.png",
+      "rect": [
+        936,
+        59,
+        353,
+        514
+      ]
+    },
+    {
+      "key": "hospital_plaster",
+      "asset": "Assets/Art/正式/Backgrounds/Ending/PM_Ending_Environment_N01.png",
+      "rect": [
+        249,
+        736,
+        228,
+        137
+      ]
+    },
+    {
+      "key": "hospital_dado",
+      "asset": "Assets/Art/正式/Backgrounds/Ending/PM_Ending_Environment_N01.png",
+      "rect": [
+        240,
+        624,
+        238,
+        68
+      ]
+    },
+    {
+      "key": "hospital_baseboard",
+      "asset": "Assets/Art/正式/Backgrounds/Ending/PM_Ending_Environment_N01.png",
+      "rect": [
+        225,
+        607,
+        255,
+        13
+      ]
+    },
+    {
+      "key": "street_gate",
+      "asset": "Assets/Art/正式/Props/Scene01/PM_S01_Prop_Gate_N01.png",
+      "rect": [
+        78,
+        88,
+        1388,
+        864
+      ]
+    },
+    {
+      "key": "adult_qt",
+      "asset": "Assets/Art/正式/Characters/IdentityApproved/PM_CH_QiuTian_Adult_Idle_A_v01.png",
+      "rect": [
+        290,
+        0,
+        493,
+        1536
+      ]
+    },
+    {
+      "key": "puppet_princess",
+      "asset": "Assets/Art/正式/UI/Scene03/PM_S03_ActivityPaper_N01.png",
+      "rect": [
+        44,
+        794,
+        343,
+        460
+      ]
+    },
+    {
+      "key": "puppet_knight",
+      "asset": "Assets/Art/正式/UI/Scene03/PM_S03_ActivityPaper_N01.png",
+      "rect": [
+        445,
+        792,
+        328,
+        462
+      ]
+    },
+    {
+      "key": "puppet_rebel",
+      "asset": "Assets/Art/正式/UI/Scene03/PM_S03_ActivityPaper_N01.png",
+      "rect": [
+        882,
+        794,
+        354,
+        460
+      ]
+    },
+    {
+      "key": "puppet_castle",
+      "asset": "Assets/Art/正式/UI/Scene03/PM_S03_ActivityPaper_N01.png",
+      "rect": [
+        20,
+        429,
+        395,
+        365
+      ]
+    },
+    {
+      "key": "puppet_ring",
+      "asset": "Assets/Art/正式/UI/Scene03/PM_S03_ActivityPaper_N01.png",
+      "rect": [
+        438,
+        439,
+        398,
+        312
+      ]
+    },
+    {
+      "key": "puppet_coin",
+      "asset": "Assets/Art/正式/UI/Scene03/PM_S03_ActivityPaper_N01.png",
+      "rect": [
+        896,
+        439,
+        324,
+        302
+      ]
+    },
+    {
+      "key": "puppet_prize",
+      "asset": "Assets/Art/正式/UI/Scene03/PM_S03_ActivityPaper_N01.png",
+      "rect": [
+        55,
+        10,
+        368,
+        421
+      ]
+    },
+    {
+      "key": "puppet_skittles",
+      "asset": "Assets/Art/正式/UI/Scene03/PM_S03_ActivityPaper_N01.png",
+      "rect": [
+        511,
+        15,
+        233,
+        417
+      ]
+    },
+    {
+      "key": "puppet_stage",
+      "asset": "Assets/Art/正式/UI/Scene03/PM_S03_ActivityPaper_N01.png",
+      "rect": [
+        832,
+        0,
+        421,
+        429
+      ]
+    }
+  ]
+}

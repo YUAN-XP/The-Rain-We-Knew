@@ -20,7 +20,7 @@ public class Scene03TransitionBridge : MonoBehaviour
         for(float t=0;t<.65f;t+=Time.unscaledDeltaTime){for(int i=0;i<sounds.Length;i++)if(sounds[i]!=null)sounds[i].volume=volumes[i]*(1-t/.65f);yield return null;}
         yield return screenFade.FadeOutAndHold();EntryReached=true;
         if(!string.IsNullOrWhiteSpace(targetSceneName) && Application.CanStreamedLevelBeLoaded(targetSceneName)){
-            SceneManager.LoadScene(targetSceneName);yield break;
+            BlackSceneTransition.Begin(targetSceneName,controls,null,true);yield break;
         }
         Debug.LogWarning("Scene transition target is unavailable; returning control.",this);
         yield return screenFade.FadeThroughBlack(()=>{});

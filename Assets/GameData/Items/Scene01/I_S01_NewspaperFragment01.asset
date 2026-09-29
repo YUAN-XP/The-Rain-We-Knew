@@ -15,5 +15,7 @@ MonoBehaviour:
   itemId: newspaper_fragment_01
   itemName: Newspaper Fragment 01
   description: A torn piece of an old newspaper.
-  icon: {fileID: 0}
+  icon: {fileID: -4390410972088809788, guid: 5cdbc21edcd793945b4010c2285f1740, type: 2}
+  category: 0
+  isPermanent: 0
   canCombine: 1

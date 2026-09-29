@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 4fdfd200816cec041a0aa21050651eab
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1882493733425911481
+    second: SPR_RIVER_TREE_PAVILION_0
+  - first:
+      213: -3664881825230382564
+    second: SPR_RIVER_TREE_PAVILION_1
+  - first:
+      213: 912081769299097606
+    second: SPR_RIVER_TREE_PAVILION_2
+  - first:
+      213: 8133297570462852957
+    second: SPR_RIVER_TREE_PAVILION_3
+  - first:
+      213: -7667075590977811042
+    second: SPR_RIVER_TREE_PAVILION_4
+  - first:
+      213: -1844832524836337503
+    second: SPR_RIVER_TREE_PAVILION_5
+  - first:
+      213: 1278616315301490857
+    second: SPR_RIVER_TREE_PAVILION_6
+  - first:
+      213: 7634957023959739898
+    second: SPR_RIVER_TREE_PAVILION_7
+  - first:
+      213: -969562370193755179
+    second: SPR_RIVER_TREE_PAVILION_8
+  - first:
+      213: 12107008099129760
+    second: SPR_RIVER_TREE_PAVILION_9
+  - first:
+      213: -8550877344225181088
+    second: SPR_RIVER_TREE_PAVILION_10
+  - first:
+      213: -4668851911347164656
+    second: SPR_RIVER_TREE_PAVILION_11
+  - first:
+      213: 5933359901713721462
+    second: SPR_RIVER_TREE_PAVILION_12
+  - first:
+      213: -5653512760873393058
+    second: SPR_RIVER_TREE_PAVILION_13
+  - first:
+      213: -6469065797152753642
+    second: SPR_RIVER_TREE_PAVILION_14
+  - first:
+      213: 9107238190258775071
+    second: SPR_RIVER_TREE_PAVILION_15
+  - first:
+      213: -59924335813514834
+    second: SPR_RIVER_TREE_PAVILION_16
+  - first:
+      213: -7144807041975147903
+    second: SPR_RIVER_TREE_PAVILION_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPR_RIVER_TREE_PAVILION_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 15
+        width: 981
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 749ef3f5ce900e5e0800000000000000
+      internalID: -1882493733425911481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_RIVER_TREE_PAVILION_1
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 743
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1a9b57b569b32dc0800000000000000
+      internalID: -3664881825230382564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_RIVER_TREE_PAVILION_2
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 631
+        width: 315
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 608be29698d58ac00800000000000000
+      internalID: 912081769299097606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_RIVER_TREE_PAVILION_3
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 27
+        width: 853
+        height: 682
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d576cfb5c074fd070800000000000000
+      internalID: 8133297570462852957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_RIVER_TREE_PAVILION_4
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 706
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9d03b53f53199590800000000000000
+      internalID: -7667075590977811042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_RIVER_TREE_PAVILION_5
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 707
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a80b0fc796d566e0800000000000000
+      internalID: -1844832524836337503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_RIVER_TREE_PAVILION_6
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 678
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a0709da3ce8eb110800000000000000
+      internalID: 1278616315301490857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_RIVER_TREE_PAVILION_7
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 666
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afd6e7826f0d4f960800000000000000
+      internalID: 7634957023959739898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_RIVER_TREE_PAVILION_8
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 680
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d3f309492c6b82f0800000000000000
+      internalID: -969562370193755179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_RIVER_TREE_PAVILION_9
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 664
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a99a0d72430b2000800000000000000
+      internalID: 12107008099129760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_RIVER_TREE_PAVILION_10
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 660
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 062c5832c5e255980800000000000000
+      internalID: -8550877344225181088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_RIVER_TREE_PAVILION_11
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 646
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01aaf3b5ce7e43fb0800000000000000
+      internalID: -4668851911347164656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_RIVER_TREE_PAVILION_12
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 646
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6786132f467875250800000000000000
+      internalID: 5933359901713721462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_RIVER_TREE_PAVILION_13
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 636
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e54e00bf810ba81b0800000000000000
+      internalID: -5653512760873393058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_RIVER_TREE_PAVILION_14
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 618
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 618b41c9ee24936a0800000000000000
+      internalID: -6469065797152753642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_RIVER_TREE_PAVILION_15
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 632
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f14ee3fb1e8636e70800000000000000
+      internalID: 9107238190258775071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_RIVER_TREE_PAVILION_16
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 614
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea92f62522b1b2ff0800000000000000
+      internalID: -59924335813514834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_RIVER_TREE_PAVILION_17
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 39
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 182ac52a9db88dc90800000000000000
+      internalID: -7144807041975147903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SPR_RIVER_TREE_PAVILION_0: -1882493733425911481
+      SPR_RIVER_TREE_PAVILION_1: -3664881825230382564
+      SPR_RIVER_TREE_PAVILION_10: -8550877344225181088
+      SPR_RIVER_TREE_PAVILION_11: -4668851911347164656
+      SPR_RIVER_TREE_PAVILION_12: 5933359901713721462
+      SPR_RIVER_TREE_PAVILION_13: -5653512760873393058
+      SPR_RIVER_TREE_PAVILION_14: -6469065797152753642
+      SPR_RIVER_TREE_PAVILION_15: 9107238190258775071
+      SPR_RIVER_TREE_PAVILION_16: -59924335813514834
+      SPR_RIVER_TREE_PAVILION_17: -7144807041975147903
+      SPR_RIVER_TREE_PAVILION_2: 912081769299097606
+      SPR_RIVER_TREE_PAVILION_3: 8133297570462852957
+      SPR_RIVER_TREE_PAVILION_4: -7667075590977811042
+      SPR_RIVER_TREE_PAVILION_5: -1844832524836337503
+      SPR_RIVER_TREE_PAVILION_6: 1278616315301490857
+      SPR_RIVER_TREE_PAVILION_7: 7634957023959739898
+      SPR_RIVER_TREE_PAVILION_8: -969562370193755179
+      SPR_RIVER_TREE_PAVILION_9: 12107008099129760
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -41,6 +41,7 @@ public sealed partial class EndingDirector
             bedAnchorX=wardSet.transform.Find("WardBed").position.x-1.5f;bedArmed=false;
         }
         UpdateWalkStage();
+        ApplyWalkComposition(x);
     }
 
     void UpdateWalkStage()

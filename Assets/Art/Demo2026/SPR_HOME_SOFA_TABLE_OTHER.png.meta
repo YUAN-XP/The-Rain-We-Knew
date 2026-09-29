@@ -1,0 +1,377 @@
+fileFormatVersion: 2
+guid: 8ebccb0b8bd11894e9dd5d6633c7eba2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2849359745374114348
+    second: SPR_HOME_SOFA_TABLE_OTHER_0
+  - first:
+      213: -2854457432132976860
+    second: SPR_HOME_SOFA_TABLE_OTHER_1
+  - first:
+      213: -5303892509614157236
+    second: SPR_HOME_SOFA_TABLE_OTHER_2
+  - first:
+      213: 8387535976455887971
+    second: SPR_HOME_SOFA_TABLE_OTHER_3
+  - first:
+      213: 4007387468097712412
+    second: SPR_HOME_SOFA_TABLE_OTHER_4
+  - first:
+      213: -4119810433135469546
+    second: SPR_HOME_SOFA_TABLE_OTHER_5
+  - first:
+      213: -3313753650259790166
+    second: SPR_HOME_SOFA_TABLE_OTHER_6
+  - first:
+      213: -7766885243936350396
+    second: SPR_HOME_SOFA_TABLE_OTHER_7
+  - first:
+      213: -5698610078733600197
+    second: SPR_HOME_SOFA_TABLE_OTHER_8
+  - first:
+      213: 6315700440125998302
+    second: SPR_HOME_SOFA_TABLE_OTHER_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPR_HOME_SOFA_TABLE_OTHER_0
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 15
+        width: 861
+        height: 852
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2252548795fa8720800000000000000
+      internalID: 2849359745374114348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_SOFA_TABLE_OTHER_1
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 61
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42f7d3bc61ee268d0800000000000000
+      internalID: -2854457432132976860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_SOFA_TABLE_OTHER_2
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 66
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c42d79d1dd9c466b0800000000000000
+      internalID: -5303892509614157236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_SOFA_TABLE_OTHER_3
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 52
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36c56711883866470800000000000000
+      internalID: 8387535976455887971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_SOFA_TABLE_OTHER_4
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 37
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c11f0519ba91d9730800000000000000
+      internalID: 4007387468097712412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_SOFA_TABLE_OTHER_5
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 82
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61c130f1d3e73d6c0800000000000000
+      internalID: -4119810433135469546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_SOFA_TABLE_OTHER_6
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 17
+        width: 825
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa67c13bc9e2302d0800000000000000
+      internalID: -3313753650259790166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_SOFA_TABLE_OTHER_7
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 49
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44f53f7750b763490800000000000000
+      internalID: -7766885243936350396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_SOFA_TABLE_OTHER_8
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 71
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3a7f9f63587ae0b0800000000000000
+      internalID: -5698610078733600197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_SOFA_TABLE_OTHER_9
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 61
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed40d799610e5a750800000000000000
+      internalID: 6315700440125998302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SPR_HOME_SOFA_TABLE_OTHER_0: 2849359745374114348
+      SPR_HOME_SOFA_TABLE_OTHER_1: -2854457432132976860
+      SPR_HOME_SOFA_TABLE_OTHER_2: -5303892509614157236
+      SPR_HOME_SOFA_TABLE_OTHER_3: 8387535976455887971
+      SPR_HOME_SOFA_TABLE_OTHER_4: 4007387468097712412
+      SPR_HOME_SOFA_TABLE_OTHER_5: -4119810433135469546
+      SPR_HOME_SOFA_TABLE_OTHER_6: -3313753650259790166
+      SPR_HOME_SOFA_TABLE_OTHER_7: -7766885243936350396
+      SPR_HOME_SOFA_TABLE_OTHER_8: -5698610078733600197
+      SPR_HOME_SOFA_TABLE_OTHER_9: 6315700440125998302
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

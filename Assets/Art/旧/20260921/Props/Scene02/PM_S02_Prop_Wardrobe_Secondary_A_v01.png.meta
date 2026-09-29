@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: ff059a5b03ca8144383e778f726a8392
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8026448519340664687
+    second: PM_S02_Prop_Wardrobe_Secondary_A_v01_0
+  - first:
+      213: -7013161772034694570
+    second: PM_S02_Prop_Wardrobe_Secondary_A_v01_1
+  - first:
+      213: -8865672815179093776
+    second: PM_S02_Prop_Wardrobe_Secondary_A_v01_2
+  - first:
+      213: 6827597965915206107
+    second: PM_S02_Prop_Wardrobe_Secondary_A_v01_3
+  - first:
+      213: -7410981721700260495
+    second: PM_S02_Prop_Wardrobe_Secondary_A_v01_4
+  - first:
+      213: 9059197837149993707
+    second: PM_S02_Prop_Wardrobe_Secondary_A_v01_5
+  - first:
+      213: 4657660673290287560
+    second: PM_S02_Prop_Wardrobe_Secondary_A_v01_6
+  - first:
+      213: 3663204925040191456
+    second: PM_S02_Prop_Wardrobe_Secondary_A_v01_7
+  - first:
+      213: 5230765915981962494
+    second: PM_S02_Prop_Wardrobe_Secondary_A_v01_8
+  - first:
+      213: 9061331930482041534
+    second: PM_S02_Prop_Wardrobe_Secondary_A_v01_9
+  - first:
+      213: -1960537703386304286
+    second: PM_S02_Prop_Wardrobe_Secondary_A_v01_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 9
+  spritePivot: {x: 0.49688056, y: 0.07988588}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PM_S02_Prop_Wardrobe_Secondary_A_v01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1107
+        height: 1386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1985dbcf8935c9090800000000000000
+      internalID: -8026448519340664687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_Wardrobe_Secondary_A_v01_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 940
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 652e581968e3cae90800000000000000
+      internalID: -7013161772034694570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_Wardrobe_Secondary_A_v01_2
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 281
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f8a9640c8dc6f480800000000000000
+      internalID: -8865672815179093776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_Wardrobe_Secondary_A_v01_3
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 267
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd13e830d2080ce50800000000000000
+      internalID: 6827597965915206107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_Wardrobe_Secondary_A_v01_4
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 104
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 175a421a367e62990800000000000000
+      internalID: -7410981721700260495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_Wardrobe_Secondary_A_v01_5
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 84
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beaff496f6cb8bd70800000000000000
+      internalID: 9059197837149993707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_Wardrobe_Secondary_A_v01_6
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 41
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c936cb74b553a040800000000000000
+      internalID: 4657660673290287560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_Wardrobe_Secondary_A_v01_7
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 37
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e76b78887156d230800000000000000
+      internalID: 3663204925040191456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_Wardrobe_Secondary_A_v01_8
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 37
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efc535503e9679840800000000000000
+      internalID: 5230765915981962494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_Wardrobe_Secondary_A_v01_9
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 15
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb2694cb16150cd70800000000000000
+      internalID: 9061331930482041534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_Wardrobe_Secondary_A_v01_10
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 23
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e036ec9855cac4e0800000000000000
+      internalID: -1960537703386304286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PM_S02_Prop_Wardrobe_Secondary_A_v01_0: -8026448519340664687
+      PM_S02_Prop_Wardrobe_Secondary_A_v01_1: -7013161772034694570
+      PM_S02_Prop_Wardrobe_Secondary_A_v01_10: -1960537703386304286
+      PM_S02_Prop_Wardrobe_Secondary_A_v01_2: -8865672815179093776
+      PM_S02_Prop_Wardrobe_Secondary_A_v01_3: 6827597965915206107
+      PM_S02_Prop_Wardrobe_Secondary_A_v01_4: -7410981721700260495
+      PM_S02_Prop_Wardrobe_Secondary_A_v01_5: 9059197837149993707
+      PM_S02_Prop_Wardrobe_Secondary_A_v01_6: 4657660673290287560
+      PM_S02_Prop_Wardrobe_Secondary_A_v01_7: 3663204925040191456
+      PM_S02_Prop_Wardrobe_Secondary_A_v01_8: 5230765915981962494
+      PM_S02_Prop_Wardrobe_Secondary_A_v01_9: 9061331930482041534
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

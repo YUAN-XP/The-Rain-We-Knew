@@ -15,5 +15,7 @@ MonoBehaviour:
   itemId: gate_key
   itemName: Gate Key
   description: An old key found beneath a newspaper fragment.
-  icon: {fileID: 0}
+  icon: {fileID: -6035343426038559913, guid: 5cdbc21edcd793945b4010c2285f1740, type: 2}
+  category: 0
+  isPermanent: 0
   canCombine: 0

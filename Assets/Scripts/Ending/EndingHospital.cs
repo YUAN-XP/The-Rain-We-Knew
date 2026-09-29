@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
@@ -38,11 +38,11 @@ public sealed partial class EndingDirector
         Step=EndingStep.BedIntro;focusText.text="";focusPage.SetActive(true);
         yield return Say("F06");if(!speechCompleted)yield break;yield return Say("F07");if(!speechCompleted)yield break;
         Focus.RequireNewPress();Step=EndingStep.Focus;focusText.text="长按空格努力看清";
-        monitor=Sound(data.monitorLoop,true,.06f);footsteps=Sound(data.wheelsLoop,true,.015f);rain=Sound(data.rainLoop,true,.02f);RenderFocus();
+        monitor=Sound(data.monitorLoop,true,.06f);footsteps=Sound(data.wheelsLoop,true,.015f);RenderFocus();
     }
     void RenderFocus(){float p=Focus.Progress;bedMist.color=new Color(.47f,.53f,.56f,Mathf.Lerp(.91f,.06f,p));
         foreach(var detail in bedDetails)detail.color=Color.Lerp(new Color(.4f,.45f,.47f),new Color(.83f,.87f,.83f),p);
-        if(monitor!=null)monitor.volume=Mathf.Lerp(.06f,.32f,p);if(footsteps!=null)footsteps.volume=Mathf.Lerp(.015f,.14f,Mathf.Clamp01((p-.22f)/.78f));if(rain!=null)rain.volume=Mathf.Lerp(.02f,.16f,Mathf.Clamp01((p-.55f)/.45f));
+        if(monitor!=null)monitor.volume=Mathf.Lerp(.06f,.32f,p);if(footsteps!=null)footsteps.volume=Mathf.Lerp(.015f,.14f,Mathf.Clamp01((p-.22f)/.78f));
     }
     IEnumerator Declaration(){
         Step=EndingStep.Declaration;focusText.text="";

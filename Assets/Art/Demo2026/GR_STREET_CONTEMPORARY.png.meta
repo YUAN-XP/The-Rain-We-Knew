@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: aa9c1ad0aa6e9bb4894ba606854cde57
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -388399509638652032
+    second: GR_STREET_CONTEMPORARY_0
+  - first:
+      213: -1632040429862273790
+    second: GR_STREET_CONTEMPORARY_1
+  - first:
+      213: 9208425450355051180
+    second: GR_STREET_CONTEMPORARY_2
+  - first:
+      213: 8912938368900984111
+    second: GR_STREET_CONTEMPORARY_3
+  - first:
+      213: -3010540426083311725
+    second: GR_STREET_CONTEMPORARY_4
+  - first:
+      213: 5479178832715767339
+    second: GR_STREET_CONTEMPORARY_5
+  - first:
+      213: -2188721100569064619
+    second: GR_STREET_CONTEMPORARY_6
+  - first:
+      213: -7383383112074310252
+    second: GR_STREET_CONTEMPORARY_7
+  - first:
+      213: -2229728743452694688
+    second: GR_STREET_CONTEMPORARY_8
+  - first:
+      213: 6528579546655966172
+    second: GR_STREET_CONTEMPORARY_9
+  - first:
+      213: 6826129242089601831
+    second: GR_STREET_CONTEMPORARY_10
+  - first:
+      213: 9130314490600753583
+    second: GR_STREET_CONTEMPORARY_11
+  - first:
+      213: -7376122253572741330
+    second: GR_STREET_CONTEMPORARY_12
+  - first:
+      213: -3144017640057709086
+    second: GR_STREET_CONTEMPORARY_13
+  - first:
+      213: 7076913944361590300
+    second: GR_STREET_CONTEMPORARY_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GR_STREET_CONTEMPORARY_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 29
+        width: 563
+        height: 965
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08f5d0d24b02c9af0800000000000000
+      internalID: -388399509638652032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_STREET_CONTEMPORARY_1
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 376
+        height: 1015
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20dbbfe30e3d959e0800000000000000
+      internalID: -1632040429862273790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_STREET_CONTEMPORARY_2
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 29
+        width: 565
+        height: 965
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa4415a826eacf70800000000000000
+      internalID: 9208425450355051180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_STREET_CONTEMPORARY_3
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 881
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2dea47493e11bb70800000000000000
+      internalID: 8912938368900984111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_STREET_CONTEMPORARY_4
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 607
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39fd959de696836d0800000000000000
+      internalID: -3010540426083311725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_STREET_CONTEMPORARY_5
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 558
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2edcd05e14f90c40800000000000000
+      internalID: 5479178832715767339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_STREET_CONTEMPORARY_6
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 467
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55bcd2061c910a1e0800000000000000
+      internalID: -2188721100569064619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_STREET_CONTEMPORARY_7
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 441
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49d413cad24f88990800000000000000
+      internalID: -7383383112074310252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_STREET_CONTEMPORARY_8
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 351
+        width: 27
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 067260d75896e01e0800000000000000
+      internalID: -2229728743452694688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_STREET_CONTEMPORARY_9
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 367
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd34f4ef18c2a9a50800000000000000
+      internalID: 6528579546655966172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_STREET_CONTEMPORARY_10
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 396
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72b38a911684bbe50800000000000000
+      internalID: 6826129242089601831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_STREET_CONTEMPORARY_11
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 355
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa90cdb97a465be70800000000000000
+      internalID: 9130314490600753583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_STREET_CONTEMPORARY_12
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 295
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2761f704efb2a990800000000000000
+      internalID: -7376122253572741330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_STREET_CONTEMPORARY_13
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 231
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ed5cc43d943e54d0800000000000000
+      internalID: -3144017640057709086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GR_STREET_CONTEMPORARY_14
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 65
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1e5eafbcbf363260800000000000000
+      internalID: 7076913944361590300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GR_STREET_CONTEMPORARY_0: -388399509638652032
+      GR_STREET_CONTEMPORARY_1: -1632040429862273790
+      GR_STREET_CONTEMPORARY_10: 6826129242089601831
+      GR_STREET_CONTEMPORARY_11: 9130314490600753583
+      GR_STREET_CONTEMPORARY_12: -7376122253572741330
+      GR_STREET_CONTEMPORARY_13: -3144017640057709086
+      GR_STREET_CONTEMPORARY_14: 7076913944361590300
+      GR_STREET_CONTEMPORARY_2: 9208425450355051180
+      GR_STREET_CONTEMPORARY_3: 8912938368900984111
+      GR_STREET_CONTEMPORARY_4: -3010540426083311725
+      GR_STREET_CONTEMPORARY_5: 5479178832715767339
+      GR_STREET_CONTEMPORARY_6: -2188721100569064619
+      GR_STREET_CONTEMPORARY_7: -7383383112074310252
+      GR_STREET_CONTEMPORARY_8: -2229728743452694688
+      GR_STREET_CONTEMPORARY_9: 6528579546655966172
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,897 @@
+fileFormatVersion: 2
+guid: 12b1d091a70b1884b81816f055251275
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -234415726626143027
+    second: MOD_SCHOOL_SPORTS_0
+  - first:
+      213: 7914866518966930496
+    second: MOD_SCHOOL_SPORTS_1
+  - first:
+      213: -3765641503465982194
+    second: MOD_SCHOOL_SPORTS_2
+  - first:
+      213: -3989623375966226156
+    second: MOD_SCHOOL_SPORTS_3
+  - first:
+      213: 5531597683928236589
+    second: MOD_SCHOOL_SPORTS_4
+  - first:
+      213: -4867190524141096660
+    second: MOD_SCHOOL_SPORTS_5
+  - first:
+      213: 535085758448031785
+    second: MOD_SCHOOL_SPORTS_6
+  - first:
+      213: -4522738073271725593
+    second: MOD_SCHOOL_SPORTS_7
+  - first:
+      213: -2628245073723045019
+    second: MOD_SCHOOL_SPORTS_8
+  - first:
+      213: 7189496203414663096
+    second: MOD_SCHOOL_SPORTS_9
+  - first:
+      213: -450222771155428652
+    second: MOD_SCHOOL_SPORTS_10
+  - first:
+      213: -2292083211527572447
+    second: MOD_SCHOOL_SPORTS_11
+  - first:
+      213: -7232883484218330840
+    second: MOD_SCHOOL_SPORTS_12
+  - first:
+      213: 3393447655792312425
+    second: MOD_SCHOOL_SPORTS_13
+  - first:
+      213: -3248998783387723796
+    second: MOD_SCHOOL_SPORTS_14
+  - first:
+      213: -7882947402553907221
+    second: MOD_SCHOOL_SPORTS_15
+  - first:
+      213: 9215634811885671749
+    second: MOD_SCHOOL_SPORTS_16
+  - first:
+      213: -9106388489952342693
+    second: MOD_SCHOOL_SPORTS_17
+  - first:
+      213: -5483656851828649130
+    second: MOD_SCHOOL_SPORTS_18
+  - first:
+      213: 1222199801806627033
+    second: MOD_SCHOOL_SPORTS_19
+  - first:
+      213: -4013668085356952550
+    second: MOD_SCHOOL_SPORTS_20
+  - first:
+      213: -1598415065481249718
+    second: MOD_SCHOOL_SPORTS_21
+  - first:
+      213: 143345483495948339
+    second: MOD_SCHOOL_SPORTS_22
+  - first:
+      213: 6547839440571818196
+    second: MOD_SCHOOL_SPORTS_23
+  - first:
+      213: 7033442601836076565
+    second: MOD_SCHOOL_SPORTS_24
+  - first:
+      213: -9153952005429184293
+    second: MOD_SCHOOL_SPORTS_25
+  - first:
+      213: 1025043050240550980
+    second: MOD_SCHOOL_SPORTS_26
+  - first:
+      213: -143299113402936251
+    second: MOD_SCHOOL_SPORTS_27
+  - first:
+      213: -3281392968966273132
+    second: MOD_SCHOOL_SPORTS_28
+  - first:
+      213: 1662585087599346488
+    second: MOD_SCHOOL_SPORTS_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MOD_SCHOOL_SPORTS_0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 467
+        width: 602
+        height: 766
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc40fac73203fbcf0800000000000000
+      internalID: -234415726626143027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOD_SCHOOL_SPORTS_1
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 457
+        width: 582
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04c08ab0a2147dd60800000000000000
+      internalID: 7914866518966930496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOD_SCHOOL_SPORTS_2
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 1173
+        width: 52
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e07317af001cdbbc0800000000000000
+      internalID: -3765641503465982194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOD_SCHOOL_SPORTS_3
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1179
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41930ff6da202a8c0800000000000000
+      internalID: -3989623375966226156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOD_SCHOOL_SPORTS_4
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 996
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d228aee29ce24cc40800000000000000
+      internalID: 5531597683928236589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOD_SCHOOL_SPORTS_5
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 946
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c213c6a7104447cb0800000000000000
+      internalID: -4867190524141096660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOD_SCHOOL_SPORTS_6
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 931
+        width: 74
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9285aac89a10d6700800000000000000
+      internalID: 535085758448031785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOD_SCHOOL_SPORTS_7
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 935
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e111825fa10c31c0800000000000000
+      internalID: -4522738073271725593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOD_SCHOOL_SPORTS_8
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 921
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56b411ec709968bd0800000000000000
+      internalID: -2628245073723045019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOD_SCHOOL_SPORTS_9
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 931
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bfec8694b836c360800000000000000
+      internalID: 7189496203414663096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOD_SCHOOL_SPORTS_10
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 903
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4da1d7766cc70c9f0800000000000000
+      internalID: -450222771155428652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOD_SCHOOL_SPORTS_11
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 859
+        width: 69
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 124334d8672e030e0800000000000000
+      internalID: -2292083211527572447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOD_SCHOOL_SPORTS_12
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 897
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8217065eac2af9b90800000000000000
+      internalID: -7232883484218330840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOD_SCHOOL_SPORTS_13
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 851
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9600267e9a2f71f20800000000000000
+      internalID: 3393447655792312425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOD_SCHOOL_SPORTS_14
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 859
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce79f7802dc39e2d0800000000000000
+      internalID: -3248998783387723796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOD_SCHOOL_SPORTS_15
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 849
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be7afaf5a152a9290800000000000000
+      internalID: -7882947402553907221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOD_SCHOOL_SPORTS_16
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 827
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5455b2ee80384ef70800000000000000
+      internalID: 9215634811885671749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOD_SCHOOL_SPORTS_17
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 789
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5d4fa58aeb9f9180800000000000000
+      internalID: -9106388489952342693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOD_SCHOOL_SPORTS_18
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 790
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 653dd9c952326e3b0800000000000000
+      internalID: -5483656851828649130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOD_SCHOOL_SPORTS_19
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 779
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d0ac378e3026f010800000000000000
+      internalID: 1222199801806627033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOD_SCHOOL_SPORTS_20
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 767
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a140af544269c48c0800000000000000
+      internalID: -4013668085356952550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOD_SCHOOL_SPORTS_21
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 660
+        width: 43
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4c7b5a77f941d9e0800000000000000
+      internalID: -1598415065481249718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOD_SCHOOL_SPORTS_22
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 706
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 330ceef25f34df100800000000000000
+      internalID: 143345483495948339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOD_SCHOOL_SPORTS_23
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 684
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d0639d77499eda50800000000000000
+      internalID: 6547839440571818196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOD_SCHOOL_SPORTS_24
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 600
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51ed98618cecb9160800000000000000
+      internalID: 7033442601836076565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOD_SCHOOL_SPORTS_25
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 600
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd83b699621a6f080800000000000000
+      internalID: -9153952005429184293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOD_SCHOOL_SPORTS_26
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 503
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4482219293fa93e00800000000000000
+      internalID: 1025043050240550980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOD_SCHOOL_SPORTS_27
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 467
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5445df03736e20ef0800000000000000
+      internalID: -143299113402936251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOD_SCHOOL_SPORTS_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 626
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4970d44fa762672d0800000000000000
+      internalID: -3281392968966273132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOD_SCHOOL_SPORTS_29
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 23
+        width: 580
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83388331450b21710800000000000000
+      internalID: 1662585087599346488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MOD_SCHOOL_SPORTS_0: -234415726626143027
+      MOD_SCHOOL_SPORTS_1: 7914866518966930496
+      MOD_SCHOOL_SPORTS_10: -450222771155428652
+      MOD_SCHOOL_SPORTS_11: -2292083211527572447
+      MOD_SCHOOL_SPORTS_12: -7232883484218330840
+      MOD_SCHOOL_SPORTS_13: 3393447655792312425
+      MOD_SCHOOL_SPORTS_14: -3248998783387723796
+      MOD_SCHOOL_SPORTS_15: -7882947402553907221
+      MOD_SCHOOL_SPORTS_16: 9215634811885671749
+      MOD_SCHOOL_SPORTS_17: -9106388489952342693
+      MOD_SCHOOL_SPORTS_18: -5483656851828649130
+      MOD_SCHOOL_SPORTS_19: 1222199801806627033
+      MOD_SCHOOL_SPORTS_2: -3765641503465982194
+      MOD_SCHOOL_SPORTS_20: -4013668085356952550
+      MOD_SCHOOL_SPORTS_21: -1598415065481249718
+      MOD_SCHOOL_SPORTS_22: 143345483495948339
+      MOD_SCHOOL_SPORTS_23: 6547839440571818196
+      MOD_SCHOOL_SPORTS_24: 7033442601836076565
+      MOD_SCHOOL_SPORTS_25: -9153952005429184293
+      MOD_SCHOOL_SPORTS_26: 1025043050240550980
+      MOD_SCHOOL_SPORTS_27: -143299113402936251
+      MOD_SCHOOL_SPORTS_28: -3281392968966273132
+      MOD_SCHOOL_SPORTS_29: 1662585087599346488
+      MOD_SCHOOL_SPORTS_3: -3989623375966226156
+      MOD_SCHOOL_SPORTS_4: 5531597683928236589
+      MOD_SCHOOL_SPORTS_5: -4867190524141096660
+      MOD_SCHOOL_SPORTS_6: 535085758448031785
+      MOD_SCHOOL_SPORTS_7: -4522738073271725593
+      MOD_SCHOOL_SPORTS_8: -2628245073723045019
+      MOD_SCHOOL_SPORTS_9: 7189496203414663096
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -101,6 +101,15 @@ public class MemoryFlashTrigger : MonoBehaviour
             ownsControlLock = true;
         }
 
+        if (DemoArtCatalog.Current != null)
+        {
+            yield return DemoComicSequence.For(gameObject).Memory(() => {
+                if (audioSource != null && gunshotClip != null) audioSource.PlayOneShot(gunshotClip);
+            });
+            if (ownsControlLock && gameControlManager != null) gameControlManager.ReleaseLock(ControlLockReason.Interaction);
+            ownsControlLock=false;sequenceRunning=false;
+            yield break;
+        }
         if (memoryCanvasGroup != null)
         {
             memoryCanvasGroup.blocksRaycasts = true;

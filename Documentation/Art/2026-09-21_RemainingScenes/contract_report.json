@@ -1,0 +1,59 @@
+{
+  "Scene02_Courtyard": {
+    "counts": {
+      "original_objects": 398,
+      "transforms": 398,
+      "physics": 56,
+      "logic": 131
+    },
+    "findings": [
+      {
+        "id": 1143665371,
+        "issue": "original component serialization changed",
+        "script": "{fileID: 11500000, guid: 0829374adb3342e5aab14c57b7876e86, type: 3}"
+      },
+      {
+        "id": 1905000003,
+        "issue": "original component serialization changed",
+        "script": "{fileID: 11500000, guid: 0829374adb3342e5aab14c57b7876e86, type: 3}"
+      }
+    ],
+    "added_serialized_objects": 578
+  },
+  "Scene03_Childhood": {
+    "counts": {
+      "original_objects": 3566,
+      "transforms": 3566,
+      "physics": 724,
+      "logic": 69
+    },
+    "findings": [],
+    "added_serialized_objects": 9735
+  },
+  "Scene04_School": {
+    "counts": {
+      "original_objects": 1419,
+      "transforms": 1419,
+      "physics": 159,
+      "logic": 246
+    },
+    "findings": [
+      {
+        "id": 1556183132,
+        "issue": "original component serialization changed",
+        "script": "{fileID: 11500000, guid: a7683410905c99149b2c85f747555558, type: 3}"
+      }
+    ],
+    "added_serialized_objects": 2469
+  },
+  "EndingSequence": {
+    "counts": {
+      "original_objects": 13,
+      "transforms": 13,
+      "physics": 1,
+      "logic": 3
+    },
+    "findings": [],
+    "added_serialized_objects": 1
+  }
+}

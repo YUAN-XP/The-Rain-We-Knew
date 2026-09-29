@@ -294,7 +294,8 @@ public class PencilDeskCloseup : MonoBehaviour
     IEnumerator ShowNameThenGrab()
     {
         yield return new WaitForSecondsRealtime(readableNameHold);
-        for (float time = 0; time < grabbingDuration; time += Time.unscaledDeltaTime)
+        if (DemoArtCatalog.Current != null) yield return DemoComicSequence.For(gameObject).DeskGrab();
+        else for (float time = 0; time < grabbingDuration; time += Time.unscaledDeltaTime)
         {
             hands.GrabProgress = Mathf.SmoothStep(0, 1, time / grabbingDuration);
             yield return null;

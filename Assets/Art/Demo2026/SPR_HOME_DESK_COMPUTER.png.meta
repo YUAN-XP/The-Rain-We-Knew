@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 4ac8d89e7d1f83845b837823a9aeddd0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6765308468482475825
+    second: SPR_HOME_DESK_COMPUTER_0
+  - first:
+      213: -1919144519041315627
+    second: SPR_HOME_DESK_COMPUTER_1
+  - first:
+      213: 2531689309751594322
+    second: SPR_HOME_DESK_COMPUTER_2
+  - first:
+      213: -5638885473374046585
+    second: SPR_HOME_DESK_COMPUTER_3
+  - first:
+      213: -5985506744330806089
+    second: SPR_HOME_DESK_COMPUTER_4
+  - first:
+      213: -3770621083573897952
+    second: SPR_HOME_DESK_COMPUTER_5
+  - first:
+      213: 5280074378902471903
+    second: SPR_HOME_DESK_COMPUTER_6
+  - first:
+      213: -8645484608388605958
+    second: SPR_HOME_DESK_COMPUTER_7
+  - first:
+      213: 2323455546838677908
+    second: SPR_HOME_DESK_COMPUTER_8
+  - first:
+      213: -5061331180287063924
+    second: SPR_HOME_DESK_COMPUTER_9
+  - first:
+      213: 7404400767932609791
+    second: SPR_HOME_DESK_COMPUTER_10
+  - first:
+      213: -6461846445061516952
+    second: SPR_HOME_DESK_COMPUTER_11
+  - first:
+      213: -4282899306281182514
+    second: SPR_HOME_DESK_COMPUTER_12
+  - first:
+      213: -3274546254710239636
+    second: SPR_HOME_DESK_COMPUTER_13
+  - first:
+      213: -6471506746504866737
+    second: SPR_HOME_DESK_COMPUTER_14
+  - first:
+      213: -760766661450211045
+    second: SPR_HOME_DESK_COMPUTER_15
+  - first:
+      213: -1104331778020583198
+    second: SPR_HOME_DESK_COMPUTER_16
+  - first:
+      213: -4578762593829213342
+    second: SPR_HOME_DESK_COMPUTER_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPR_HOME_DESK_COMPUTER_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 513
+        width: 765
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc8f824cacbcc12a0800000000000000
+      internalID: -6765308468482475825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_DESK_COMPUTER_1
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1017
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dc87ed5a34dd55e0800000000000000
+      internalID: -1919144519041315627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_DESK_COMPUTER_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 15
+        width: 741
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25dc565830e522320800000000000000
+      internalID: 2531689309751594322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_DESK_COMPUTER_3
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 521
+        width: 47
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 786fd6eb987aeb1b0800000000000000
+      internalID: -5638885473374046585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_DESK_COMPUTER_4
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 514
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bc157f14553feca0800000000000000
+      internalID: -5985506744330806089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_DESK_COMPUTER_5
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 521
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 025baf22a101cabc0800000000000000
+      internalID: -3770621083573897952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_DESK_COMPUTER_6
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 522
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd48f1e2ca7964940800000000000000
+      internalID: 5280074378902471903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_DESK_COMPUTER_7
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 519
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af7d3eded81150880800000000000000
+      internalID: -8645484608388605958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_DESK_COMPUTER_8
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 525
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 499fab872829e3020800000000000000
+      internalID: 2323455546838677908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_DESK_COMPUTER_9
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 529
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c88816c8b1a82c9b0800000000000000
+      internalID: -5061331180287063924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_DESK_COMPUTER_10
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 161
+        width: 721
+        height: 855
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff4b04ba447b1c660800000000000000
+      internalID: 7404400767932609791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_DESK_COMPUTER_11
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 429
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 861dcf005e8e256a0800000000000000
+      internalID: -6461846445061516952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_DESK_COMPUTER_12
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 29
+        width: 382
+        height: 532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecad750d5c51094c0800000000000000
+      internalID: -4282899306281182514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_DESK_COMPUTER_13
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 366
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6e0967d7897e82d0800000000000000
+      internalID: -3274546254710239636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_DESK_COMPUTER_14
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 37
+        width: 49
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f44980dc6e69036a0800000000000000
+      internalID: -6471506746504866737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_DESK_COMPUTER_15
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 87
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b11ec4b80c63175f0800000000000000
+      internalID: -760766661450211045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_DESK_COMPUTER_16
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 81
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e858e05910aca0f0800000000000000
+      internalID: -1104331778020583198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_DESK_COMPUTER_17
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 15
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26ba6f32ea7f470c0800000000000000
+      internalID: -4578762593829213342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SPR_HOME_DESK_COMPUTER_0: -6765308468482475825
+      SPR_HOME_DESK_COMPUTER_1: -1919144519041315627
+      SPR_HOME_DESK_COMPUTER_10: 7404400767932609791
+      SPR_HOME_DESK_COMPUTER_11: -6461846445061516952
+      SPR_HOME_DESK_COMPUTER_12: -4282899306281182514
+      SPR_HOME_DESK_COMPUTER_13: -3274546254710239636
+      SPR_HOME_DESK_COMPUTER_14: -6471506746504866737
+      SPR_HOME_DESK_COMPUTER_15: -760766661450211045
+      SPR_HOME_DESK_COMPUTER_16: -1104331778020583198
+      SPR_HOME_DESK_COMPUTER_17: -4578762593829213342
+      SPR_HOME_DESK_COMPUTER_2: 2531689309751594322
+      SPR_HOME_DESK_COMPUTER_3: -5638885473374046585
+      SPR_HOME_DESK_COMPUTER_4: -5985506744330806089
+      SPR_HOME_DESK_COMPUTER_5: -3770621083573897952
+      SPR_HOME_DESK_COMPUTER_6: 5280074378902471903
+      SPR_HOME_DESK_COMPUTER_7: -8645484608388605958
+      SPR_HOME_DESK_COMPUTER_8: 2323455546838677908
+      SPR_HOME_DESK_COMPUTER_9: -5061331180287063924
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

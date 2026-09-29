@@ -15,6 +15,7 @@ MonoBehaviour:
   outfit: 1
   outfitName: "\u80CC\u5E26\u88C5"
   description: "\u4ECE\u6B21\u5367\u8863\u67DC\u91CC\u627E\u5230\u7684\u80CC\u5E26\u88C5\u3002"
-  preview: {fileID: -4573839739157995700, guid: 9d05ac13c54fd91458f7118da97ad240, type: 3}
+  preview: {fileID: 6724620270565353328, guid: 5cdbc21edcd793945b4010c2285f1740, type: 2}
+  clothingImage: {fileID: 7804450710488511785, guid: 5cdbc21edcd793945b4010c2285f1740, type: 2}
   initiallyOwned: 0
   unlockFlag: 8

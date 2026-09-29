@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: 6e12197d7e256d64a9043cec252b8b29
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6685765432909642805
+    second: SPR_HOSPITAL_BED_CURTAINS_0
+  - first:
+      213: 6141691325639602609
+    second: SPR_HOSPITAL_BED_CURTAINS_1
+  - first:
+      213: -6481220779335532102
+    second: SPR_HOSPITAL_BED_CURTAINS_2
+  - first:
+      213: -5241919576303529005
+    second: SPR_HOSPITAL_BED_CURTAINS_3
+  - first:
+      213: -6448369141087350918
+    second: SPR_HOSPITAL_BED_CURTAINS_4
+  - first:
+      213: -4242348812155646143
+    second: SPR_HOSPITAL_BED_CURTAINS_5
+  - first:
+      213: 260401127448250444
+    second: SPR_HOSPITAL_BED_CURTAINS_6
+  - first:
+      213: 8370230908738242046
+    second: SPR_HOSPITAL_BED_CURTAINS_7
+  - first:
+      213: -8239910899314992193
+    second: SPR_HOSPITAL_BED_CURTAINS_8
+  - first:
+      213: 488105336083653653
+    second: SPR_HOSPITAL_BED_CURTAINS_9
+  - first:
+      213: -5873163572155551327
+    second: SPR_HOSPITAL_BED_CURTAINS_10
+  - first:
+      213: 2917555483307656680
+    second: SPR_HOSPITAL_BED_CURTAINS_11
+  - first:
+      213: -2819931063093213060
+    second: SPR_HOSPITAL_BED_CURTAINS_12
+  - first:
+      213: -8503456292355613183
+    second: SPR_HOSPITAL_BED_CURTAINS_13
+  - first:
+      213: 3861620647191909570
+    second: SPR_HOSPITAL_BED_CURTAINS_14
+  - first:
+      213: 822646254450558479
+    second: SPR_HOSPITAL_BED_CURTAINS_15
+  - first:
+      213: -2829454756015701190
+    second: SPR_HOSPITAL_BED_CURTAINS_16
+  - first:
+      213: 919610913362184025
+    second: SPR_HOSPITAL_BED_CURTAINS_17
+  - first:
+      213: -8148676441155896498
+    second: SPR_HOSPITAL_BED_CURTAINS_18
+  - first:
+      213: -4292302573496391468
+    second: SPR_HOSPITAL_BED_CURTAINS_19
+  - first:
+      213: 6758712338317725365
+    second: SPR_HOSPITAL_BED_CURTAINS_20
+  - first:
+      213: 8525703692078053911
+    second: SPR_HOSPITAL_BED_CURTAINS_21
+  - first:
+      213: -4701228626974650574
+    second: SPR_HOSPITAL_BED_CURTAINS_22
+  - first:
+      213: 7141187087425702822
+    second: SPR_HOSPITAL_BED_CURTAINS_23
+  - first:
+      213: -3315749399088952765
+    second: SPR_HOSPITAL_BED_CURTAINS_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPR_HOSPITAL_BED_CURTAINS_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 554
+        width: 794
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc3c5dfe2c36733a0800000000000000
+      internalID: -6685765432909642805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOSPITAL_BED_CURTAINS_1
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 1162
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b1b8d878bbab3550800000000000000
+      internalID: 6141691325639602609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOSPITAL_BED_CURTAINS_2
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 703
+        width: 309
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab143d84a041e06a0800000000000000
+      internalID: -6481220779335532102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOSPITAL_BED_CURTAINS_3
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 642
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d313411be5f047b0800000000000000
+      internalID: -5241919576303529005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOSPITAL_BED_CURTAINS_4
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 625
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7fc5ec5e6ac286a0800000000000000
+      internalID: -6448369141087350918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOSPITAL_BED_CURTAINS_5
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 594
+        width: 24
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14f89267b362025c0800000000000000
+      internalID: -4242348812155646143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOSPITAL_BED_CURTAINS_6
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 628
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c480aac12712d9300800000000000000
+      internalID: 260401127448250444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOSPITAL_BED_CURTAINS_7
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 574
+        width: 80
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef586530aa8092470800000000000000
+      internalID: 8370230908738242046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOSPITAL_BED_CURTAINS_8
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 630
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbbd579a1b4f5ad80800000000000000
+      internalID: -8239910899314992193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOSPITAL_BED_CURTAINS_9
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 620
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5142d32973916c600800000000000000
+      internalID: 488105336083653653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOSPITAL_BED_CURTAINS_10
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 552
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a177e539d45e7ea0800000000000000
+      internalID: -5873163572155551327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOSPITAL_BED_CURTAINS_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 640
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e5cb03114d3d7820800000000000000
+      internalID: 2917555483307656680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOSPITAL_BED_CURTAINS_12
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 570
+        width: 55
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c784d3583a79dd8d0800000000000000
+      internalID: -2819931063093213060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOSPITAL_BED_CURTAINS_13
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 568
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10e551b2e87adf980800000000000000
+      internalID: -8503456292355613183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOSPITAL_BED_CURTAINS_14
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 564
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c41035d48b379530800000000000000
+      internalID: 3861620647191909570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOSPITAL_BED_CURTAINS_15
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 554
+        width: 124
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f06c45ce860aa6b00800000000000000
+      internalID: 822646254450558479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOSPITAL_BED_CURTAINS_16
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 546
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3305a7f3e1cbb8d0800000000000000
+      internalID: -2829454756015701190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOSPITAL_BED_CURTAINS_17
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 529
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 957868ed04d13cc00800000000000000
+      internalID: 919610913362184025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOSPITAL_BED_CURTAINS_18
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 546
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4bfe4743f51aee80800000000000000
+      internalID: -8148676441155896498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOSPITAL_BED_CURTAINS_19
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 0
+        width: 552
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d8a04e0d8dae64c0800000000000000
+      internalID: -4292302573496391468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOSPITAL_BED_CURTAINS_20
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 535
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5be4a700015cbcd50800000000000000
+      internalID: 6758712338317725365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOSPITAL_BED_CURTAINS_21
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 529
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a7c8a3652615670800000000000000
+      internalID: 8525703692078053911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOSPITAL_BED_CURTAINS_22
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 49
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23f4741d871e1ceb0800000000000000
+      internalID: -4701228626974650574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOSPITAL_BED_CURTAINS_23
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 39
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ab8d9402d79a1360800000000000000
+      internalID: 7141187087425702822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOSPITAL_BED_CURTAINS_24
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 0
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34a86173d771cf1d0800000000000000
+      internalID: -3315749399088952765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SPR_HOSPITAL_BED_CURTAINS_0: -6685765432909642805
+      SPR_HOSPITAL_BED_CURTAINS_1: 6141691325639602609
+      SPR_HOSPITAL_BED_CURTAINS_10: -5873163572155551327
+      SPR_HOSPITAL_BED_CURTAINS_11: 2917555483307656680
+      SPR_HOSPITAL_BED_CURTAINS_12: -2819931063093213060
+      SPR_HOSPITAL_BED_CURTAINS_13: -8503456292355613183
+      SPR_HOSPITAL_BED_CURTAINS_14: 3861620647191909570
+      SPR_HOSPITAL_BED_CURTAINS_15: 822646254450558479
+      SPR_HOSPITAL_BED_CURTAINS_16: -2829454756015701190
+      SPR_HOSPITAL_BED_CURTAINS_17: 919610913362184025
+      SPR_HOSPITAL_BED_CURTAINS_18: -8148676441155896498
+      SPR_HOSPITAL_BED_CURTAINS_19: -4292302573496391468
+      SPR_HOSPITAL_BED_CURTAINS_2: -6481220779335532102
+      SPR_HOSPITAL_BED_CURTAINS_20: 6758712338317725365
+      SPR_HOSPITAL_BED_CURTAINS_21: 8525703692078053911
+      SPR_HOSPITAL_BED_CURTAINS_22: -4701228626974650574
+      SPR_HOSPITAL_BED_CURTAINS_23: 7141187087425702822
+      SPR_HOSPITAL_BED_CURTAINS_24: -3315749399088952765
+      SPR_HOSPITAL_BED_CURTAINS_3: -5241919576303529005
+      SPR_HOSPITAL_BED_CURTAINS_4: -6448369141087350918
+      SPR_HOSPITAL_BED_CURTAINS_5: -4242348812155646143
+      SPR_HOSPITAL_BED_CURTAINS_6: 260401127448250444
+      SPR_HOSPITAL_BED_CURTAINS_7: 8370230908738242046
+      SPR_HOSPITAL_BED_CURTAINS_8: -8239910899314992193
+      SPR_HOSPITAL_BED_CURTAINS_9: 488105336083653653
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

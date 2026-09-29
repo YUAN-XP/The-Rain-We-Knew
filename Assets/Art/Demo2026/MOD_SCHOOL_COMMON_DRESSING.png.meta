@@ -1,0 +1,377 @@
+fileFormatVersion: 2
+guid: 58ab1e72578141c43950f38008a35170
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4224819479253147517
+    second: MOD_SCHOOL_COMMON_DRESSING_0
+  - first:
+      213: -6418813587750038198
+    second: MOD_SCHOOL_COMMON_DRESSING_1
+  - first:
+      213: -9037194099552762760
+    second: MOD_SCHOOL_COMMON_DRESSING_2
+  - first:
+      213: 2655863031062096516
+    second: MOD_SCHOOL_COMMON_DRESSING_3
+  - first:
+      213: -4045505179854752759
+    second: MOD_SCHOOL_COMMON_DRESSING_4
+  - first:
+      213: 2080219722339041170
+    second: MOD_SCHOOL_COMMON_DRESSING_5
+  - first:
+      213: 7857544849882759470
+    second: MOD_SCHOOL_COMMON_DRESSING_6
+  - first:
+      213: 1838461904206196153
+    second: MOD_SCHOOL_COMMON_DRESSING_7
+  - first:
+      213: 6084791968428969342
+    second: MOD_SCHOOL_COMMON_DRESSING_8
+  - first:
+      213: 2628259121866094421
+    second: MOD_SCHOOL_COMMON_DRESSING_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MOD_SCHOOL_COMMON_DRESSING_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 747
+        width: 693
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7fd80daee291aa30800000000000000
+      internalID: 4224819479253147517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOD_SCHOOL_COMMON_DRESSING_1
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 590
+        width: 570
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4555bedc0bcbe6a0800000000000000
+      internalID: -6418813587750038198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOD_SCHOOL_COMMON_DRESSING_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 583
+        height: 615
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 874c6e9f8df659280800000000000000
+      internalID: -9037194099552762760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOD_SCHOOL_COMMON_DRESSING_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 602
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48a6c8afa558bd420800000000000000
+      internalID: 2655863031062096516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOD_SCHOOL_COMMON_DRESSING_4
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 527
+        width: 50
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90431c1197a7bd7c0800000000000000
+      internalID: -4045505179854752759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOD_SCHOOL_COMMON_DRESSING_5
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 603
+        width: 34
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29fb7c4e0dc6edc10800000000000000
+      internalID: 2080219722339041170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOD_SCHOOL_COMMON_DRESSING_6
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 489
+        width: 21
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2146ffe86b9b0d60800000000000000
+      internalID: 7857544849882759470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOD_SCHOOL_COMMON_DRESSING_7
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 0
+        width: 596
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bd6c4d7c57838910800000000000000
+      internalID: 1838461904206196153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOD_SCHOOL_COMMON_DRESSING_8
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 55
+        width: 61
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7dcb528e06817450800000000000000
+      internalID: 6084791968428969342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOD_SCHOOL_COMMON_DRESSING_9
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 87
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55732880fb3797420800000000000000
+      internalID: 2628259121866094421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MOD_SCHOOL_COMMON_DRESSING_0: 4224819479253147517
+      MOD_SCHOOL_COMMON_DRESSING_1: -6418813587750038198
+      MOD_SCHOOL_COMMON_DRESSING_2: -9037194099552762760
+      MOD_SCHOOL_COMMON_DRESSING_3: 2655863031062096516
+      MOD_SCHOOL_COMMON_DRESSING_4: -4045505179854752759
+      MOD_SCHOOL_COMMON_DRESSING_5: 2080219722339041170
+      MOD_SCHOOL_COMMON_DRESSING_6: 7857544849882759470
+      MOD_SCHOOL_COMMON_DRESSING_7: 1838461904206196153
+      MOD_SCHOOL_COMMON_DRESSING_8: 6084791968428969342
+      MOD_SCHOOL_COMMON_DRESSING_9: 2628259121866094421
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

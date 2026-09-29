@@ -96,6 +96,7 @@ public partial class InventoryUI : MonoBehaviour
     private void Start()
     {
         if (fitLegacyCanvasToScreen) RuntimePanelUI.FitLegacyCanvas(inventoryPanel);
+        ConfigureArtLayout();
         if(outfitsTabButton!=null)outfitsTabButton.onClick.AddListener(ShowOutfits);
         if(outfitsPage!=null)outfitsPage.SetActive(false);
         if (itemsTabButton != null)
@@ -388,6 +389,7 @@ public partial class InventoryUI : MonoBehaviour
             () => ShowItemDetails(item)
         );
         BindCombination(item,newButton);
+        DecorateArtEntry(newButton,item.icon);
 
         spawnedItemEntries.Add(
             newButton.gameObject
@@ -423,6 +425,7 @@ public partial class InventoryUI : MonoBehaviour
             () => ShowFileDetails(file)
         );
 
+        DecorateArtEntry(newButton,file.icon);
         spawnedFileEntries.Add(
             newButton.gameObject
         );
@@ -537,7 +540,7 @@ public partial class InventoryUI : MonoBehaviour
         if (itemNameText != null)
         {
             itemNameText.text =
-                "Select an item";
+                "选择一件物品";
         }
 
         if (itemDescriptionText != null)
@@ -558,7 +561,7 @@ public partial class InventoryUI : MonoBehaviour
         if (fileNameText != null)
         {
             fileNameText.text =
-                "Select a file";
+                "选择一份文件";
         }
 
         if (fileContentText != null)

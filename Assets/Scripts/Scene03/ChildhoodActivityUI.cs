@@ -110,8 +110,7 @@ public class ChildhoodActivityUI : MonoBehaviour
         heading.text="城门前的小骑士 · 第 "+(act+1)+" 幕";
         if(body==null)body=Text("",panel,.06f,.71f,.94f,.86f,27);
         string introduction=chapter.content.storyActs[act].Split('\n')[0];
-        int pause=introduction.IndexOf('，');
-        body.text=pause>=0?introduction.Substring(0,pause)+"……":"把角色放到两方之间，让故事继续。";
+        body.text=introduction;
         stage=RuntimePanelUI.Panel("木偶舞台",panel,new Vector2(.06f,.14f),new Vector2(.94f,.70f),new Color(.77f,.82f,.78f)).rectTransform;
         RuntimePanelUI.Panel("舞台地板",stage,Vector2.zero,new Vector2(1,.36f),new Color(.52f,.36f,.25f),false);
         for(int i=0;i<8;i++)RuntimePanelUI.Panel("木纹",stage,new Vector2(i*.125f,0),new Vector2(i*.125f+.004f,.36f),new Color(.38f,.26f,.23f),false);
@@ -135,7 +134,8 @@ public class ChildhoodActivityUI : MonoBehaviour
             var drag=card.gameObject.AddComponent<ChildhoodDragHandle>();drag.owner=this;drag.cardIndex=i;
         }
         if(status==null)status=Text("",panel,.12f,.02f,.88f,.115f,24);
-        status.text="让角色走上舞台 · 拖动卡片，放错了也可以再试";
+        var directions=chapter.content.storyActs[act].Split('\n');
+        status.text=directions.Length>1?directions[1]:"拖动角色卡片，让故事继续。";
     }
     public bool DropCard(int index,Vector2 screenPoint)
     {
@@ -153,10 +153,30 @@ public class ChildhoodActivityUI : MonoBehaviour
         foreach(var card in stage.GetComponentsInChildren<ChildhoodDragHandle>())card.gameObject.SetActive(false);
         slot.GetComponent<Image>().color=Color.clear;slot.GetComponent<Outline>().enabled=false;
         foreach(Transform c in slot)c.gameObject.SetActive(false);
-        Art("定格角色",slot,Character(index),.08f,0,.92f,1);
-        body.text=chapter.content.storyActs[act].Split('\n')[0];
-        status.text="";
-        yield return new WaitForSecondsRealtime(.6f);
+        var puppet=Art("演出角色",slot,Character(index),.08f,0,.92f,1);
+        body.text="";status.text="";
+        var origin=puppet.anchoredPosition;
+        float direction=index==2?1:-1;
+        for(float t=0;t<.95f;t+=Time.unscaledDeltaTime){
+            float progress=Mathf.SmoothStep(0,1,t/.95f);
+            puppet.anchoredPosition=origin+new Vector2(direction*(1-progress)*stage.rect.width*.17f,Mathf.Sin(progress*Mathf.PI)*5);
+            puppet.localRotation=Quaternion.Euler(0,0,Mathf.Sin(progress*Mathf.PI*2)*2f);yield return null;
+        }
+        puppet.anchoredPosition=origin;puppet.localRotation=Quaternion.identity;
+        var speech=RuntimePanelUI.Panel("木偶说书气泡",stage,new Vector2(.32f,.66f),new Vector2(.90f,.94f),new Color(.94f,.89f,.75f,.98f),false);
+        DemoPaintedFrame.Add(speech.transform,new Color(.26f,.26f,.23f),1.7f);
+        var speechText=Text("",speech.transform,.035f,.04f,.965f,.96f,23);speechText.color=new Color(.19f,.22f,.23f);
+        string narration=chapter.content.storyActs[act].Split('\n')[0];
+        foreach(string phrase in narration.Split(new[]{'，','；','。'},System.StringSplitOptions.RemoveEmptyEntries)){
+            speechText.text=phrase+"。";
+            float duration=Mathf.Max(1.4f,phrase.Length*.115f);
+            for(float t=0;t<duration;t+=Time.unscaledDeltaTime){
+                puppet.localRotation=Quaternion.Euler(0,0,Mathf.Sin(t*5.5f)*1.1f);
+                yield return null;
+            }
+        }
+        puppet.localRotation=Quaternion.identity;body.text=narration;
+        Destroy(speech.gameObject);
         continueStory=RuntimePanelUI.Button("继续听书",panel,chapter.font,new Vector2(.37f,.025f),new Vector2(.63f,.115f),ContinueStory);
     }
     public void ContinueStory()

@@ -36,7 +36,6 @@ public class Scene02ReturnController : MonoBehaviour
         fragmentObject.SetActive(!story.Has(StoryFlag.Scene02Fragment2Collected));
         cardObject.SetActive(story.Has(StoryFlag.CameraGentlemanCardObtained)&&!story.Has(StoryFlag.Scene03CameraGentlemanEchoCollected));
         archive.ReplaceFileById(cleanPhoto);
-        var sound=gameObject.AddComponent<AudioSource>();sound.clip=rain;sound.volume=.18f;sound.loop=true;sound.Play();
         var player=controls.ActivePlayer;var body=player.GetComponent<Rigidbody2D>();body.linearVelocity=Vector2.zero;
         if(!story.Has(StoryFlag.LivingRoomDoorOpened)||WhiteSceneTransition.IsActive)
         {

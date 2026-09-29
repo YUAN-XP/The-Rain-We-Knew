@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: 9ff1077dbb66cde49b15b487193e4440
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8055240405928319200
+    second: PM_S02_Prop_Door_Secondary_Revealed_A_v01_0
+  - first:
+      213: 4866316768586706026
+    second: PM_S02_Prop_Door_Secondary_Revealed_A_v01_1
+  - first:
+      213: 588988410351322229
+    second: PM_S02_Prop_Door_Secondary_Revealed_A_v01_2
+  - first:
+      213: -1445514484574507951
+    second: PM_S02_Prop_Door_Secondary_Revealed_A_v01_3
+  - first:
+      213: -3399024184420425432
+    second: PM_S02_Prop_Door_Secondary_Revealed_A_v01_4
+  - first:
+      213: 248627488572899212
+    second: PM_S02_Prop_Door_Secondary_Revealed_A_v01_5
+  - first:
+      213: 7701903492505228433
+    second: PM_S02_Prop_Door_Secondary_Revealed_A_v01_6
+  - first:
+      213: 123263805659724092
+    second: PM_S02_Prop_Door_Secondary_Revealed_A_v01_7
+  - first:
+      213: 9187525064643079270
+    second: PM_S02_Prop_Door_Secondary_Revealed_A_v01_8
+  - first:
+      213: -3995602307523830799
+    second: PM_S02_Prop_Door_Secondary_Revealed_A_v01_9
+  - first:
+      213: 1343098810058256924
+    second: PM_S02_Prop_Door_Secondary_Revealed_A_v01_10
+  - first:
+      213: -6739572229676418504
+    second: PM_S02_Prop_Door_Secondary_Revealed_A_v01_11
+  - first:
+      213: 1095195478145850143
+    second: PM_S02_Prop_Door_Secondary_Revealed_A_v01_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.038674034}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PM_S02_Prop_Door_Secondary_Revealed_A_v01_0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1294
+        width: 121
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 027e4408789063090800000000000000
+      internalID: -8055240405928319200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_Door_Secondary_Revealed_A_v01_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 23
+        width: 951
+        height: 1379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6c23247151a88340800000000000000
+      internalID: 4866316768586706026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_Door_Secondary_Revealed_A_v01_2
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 1312
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57400dfa6d18c2800800000000000000
+      internalID: 588988410351322229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_Door_Secondary_Revealed_A_v01_3
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 1276
+        width: 20
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15c21452c3080fbe0800000000000000
+      internalID: -1445514484574507951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_Door_Secondary_Revealed_A_v01_4
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 842
+        width: 96
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 821a8a8538d34d0d0800000000000000
+      internalID: -3399024184420425432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_Door_Secondary_Revealed_A_v01_5
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 1103
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8ff8c1326d437300800000000000000
+      internalID: 248627488572899212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_Door_Secondary_Revealed_A_v01_6
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 968
+        width: 46
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1945d158b68a2ea60800000000000000
+      internalID: 7701903492505228433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_Door_Secondary_Revealed_A_v01_7
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 1067
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c39b20637cbe5b100800000000000000
+      internalID: 123263805659724092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_Door_Secondary_Revealed_A_v01_8
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 817
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66c6c036e55a08f70800000000000000
+      internalID: 9187525064643079270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_Door_Secondary_Revealed_A_v01_9
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 567
+        width: 82
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fb9f44fed4cc88c0800000000000000
+      internalID: -3995602307523830799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_Door_Secondary_Revealed_A_v01_10
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 232
+        width: 130
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c12b5cf6045a3a210800000000000000
+      internalID: 1343098810058256924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_Door_Secondary_Revealed_A_v01_11
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 182
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83abc00d3ca3872a0800000000000000
+      internalID: -6739572229676418504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_Door_Secondary_Revealed_A_v01_12
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 158
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1b5f7a1c7ae23f00800000000000000
+      internalID: 1095195478145850143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PM_S02_Prop_Door_Secondary_Revealed_A_v01_0: -8055240405928319200
+      PM_S02_Prop_Door_Secondary_Revealed_A_v01_1: 4866316768586706026
+      PM_S02_Prop_Door_Secondary_Revealed_A_v01_10: 1343098810058256924
+      PM_S02_Prop_Door_Secondary_Revealed_A_v01_11: -6739572229676418504
+      PM_S02_Prop_Door_Secondary_Revealed_A_v01_12: 1095195478145850143
+      PM_S02_Prop_Door_Secondary_Revealed_A_v01_2: 588988410351322229
+      PM_S02_Prop_Door_Secondary_Revealed_A_v01_3: -1445514484574507951
+      PM_S02_Prop_Door_Secondary_Revealed_A_v01_4: -3399024184420425432
+      PM_S02_Prop_Door_Secondary_Revealed_A_v01_5: 248627488572899212
+      PM_S02_Prop_Door_Secondary_Revealed_A_v01_6: 7701903492505228433
+      PM_S02_Prop_Door_Secondary_Revealed_A_v01_7: 123263805659724092
+      PM_S02_Prop_Door_Secondary_Revealed_A_v01_8: 9187525064643079270
+      PM_S02_Prop_Door_Secondary_Revealed_A_v01_9: -3995602307523830799
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

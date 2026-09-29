@@ -1,0 +1,96 @@
+ Assets/Art/Backgrounds.meta                        |      8 -
+ Assets/Art/Backgrounds/Scene01.meta                |      8 -
+ .../Scene01/PM_S01_BG_Apartment_A_v01.png          |    Bin 2512725 -> 0 bytes
+ .../Scene01/PM_S01_BG_Apartment_A_v01.png.meta     |     62 -
+ .../Scene01/PM_S01_BG_Apartment_A_v02.png          |    Bin 2385667 -> 0 bytes
+ .../Scene01/PM_S01_BG_Apartment_A_v02.png.meta     |     62 -
+ .../Scene01/PM_S01_BG_Apartment_B_v01.png          |    Bin 2231074 -> 0 bytes
+ .../Scene01/PM_S01_BG_Apartment_B_v01.png.meta     |     62 -
+ .../Scene01/PM_S01_BG_Apartment_B_v02.png          |    Bin 2647825 -> 0 bytes
+ .../Scene01/PM_S01_BG_Apartment_B_v02.png.meta     |     62 -
+ .../Scene01/PM_S01_Ground_Wet_A_v01.png            |    Bin 1090566 -> 0 bytes
+ .../Scene01/PM_S01_Ground_Wet_A_v01.png.meta       |     62 -
+ .../Scene01/PM_S01_Ground_Wet_A_v02.png            |    Bin 1749684 -> 0 bytes
+ .../Scene01/PM_S01_Ground_Wet_A_v02.png.meta       |     62 -
+ .../Scene01/PM_S01_Ground_Wet_B_v01.png            |    Bin 2675695 -> 0 bytes
+ .../Scene01/PM_S01_Ground_Wet_B_v01.png.meta       |     62 -
+ .../Scene01/PM_S01_Ground_Wet_B_v02.png            |    Bin 1718251 -> 0 bytes
+ .../Scene01/PM_S01_Ground_Wet_B_v02.png.meta       |     62 -
+ .../Backgrounds/Scene01/PM_S01_Wall_Old_A_v01.png  |    Bin 2714576 -> 0 bytes
+ .../Scene01/PM_S01_Wall_Old_A_v01.png.meta         |     62 -
+ .../Backgrounds/Scene01/PM_S01_Wall_Old_A_v02.png  |    Bin 2166336 -> 0 bytes
+ .../Scene01/PM_S01_Wall_Old_A_v02.png.meta         |     62 -
+ .../Backgrounds/Scene01/PM_S01_Wall_Old_B_v01.png  |    Bin 2875755 -> 0 bytes
+ .../Scene01/PM_S01_Wall_Old_B_v01.png.meta         |     62 -
+ .../Backgrounds/Scene01/PM_S01_Wall_Old_B_v02.png  |    Bin 2570653 -> 0 bytes
+ .../Scene01/PM_S01_Wall_Old_B_v02.png.meta         |     62 -
+ .../Scene01/PM_S01_Window_Warm_A_v01.png           |    Bin 2424971 -> 0 bytes
+ .../Scene01/PM_S01_Window_Warm_A_v01.png.meta      |     62 -
+ .../Scene01/PM_S01_Window_Warm_Sparse_A_v01.png    |    Bin 1684545 -> 0 bytes
+ .../PM_S01_Window_Warm_Sparse_A_v01.png.meta       |     62 -
+ .../Art/Backgrounds/Scene01/PM_S01_Wires_A_v01.png |    Bin 524453 -> 0 bytes
+ .../Scene01/PM_S01_Wires_A_v01.png.meta            |     62 -
+ .../Art/Backgrounds/Scene01/PM_S01_Wires_A_v02.png |    Bin 697370 -> 0 bytes
+ .../Scene01/PM_S01_Wires_A_v02.png.meta            |     62 -
+ Assets/Art/Characters.meta                         |      8 -
+ Assets/Art/Characters/Scene01.meta                 |      8 -
+ .../Scene01/PM_CH_QiuTian_Adult_Idle_A_v01.png     |    Bin 1692275 -> 0 bytes
+ .../PM_CH_QiuTian_Adult_Idle_A_v01.png.meta        |     62 -
+ .../Scene01/PM_CH_XiaoPeng_Adult_Idle_A_v01.png    |    Bin 1615722 -> 0 bytes
+ .../PM_CH_XiaoPeng_Adult_Idle_A_v01.png.meta       |     62 -
+ Assets/Art/Effects.meta                            |      8 -
+ Assets/Art/Effects/Scene01.meta                    |      8 -
+ .../Scene01/PM_S01_Ground_Reflection_A_v01.png     |    Bin 2066140 -> 0 bytes
+ .../PM_S01_Ground_Reflection_A_v01.png.meta        |     62 -
+ .../Art/Effects/Scene01/PM_S01_Lamp_Glow_A_v01.png |    Bin 2507016 -> 0 bytes
+ .../Scene01/PM_S01_Lamp_Glow_A_v01.png.meta        |     62 -
+ .../Effects/Scene01/PM_S01_Rain_Overlay_A_v01.png  |    Bin 2443031 -> 0 bytes
+ .../Scene01/PM_S01_Rain_Overlay_A_v01.png.meta     |     62 -
+ .../Effects/Scene01/PM_S01_Rain_Overlay_A_v02.png  |    Bin 2667730 -> 0 bytes
+ .../Scene01/PM_S01_Rain_Overlay_A_v02.png.meta     |     62 -
+ Assets/Art/Props.meta                              |      8 -
+ Assets/Art/Props/Scene01.meta                      |      8 -
+ Assets/Art/Props/Scene01/Gate.meta                 |      8 -
+ .../Scene01/Gate/PM_S01_GatePillar_Left_v01.png    |    Bin 2138871 -> 0 bytes
+ .../Gate/PM_S01_GatePillar_Left_v01.png.meta       |     62 -
+ .../Scene01/Gate/PM_S01_GatePillar_Right_v01.png   |    Bin 2612700 -> 0 bytes
+ .../Gate/PM_S01_GatePillar_Right_v01.png.meta      |     62 -
+ .../Props/Scene01/Gate/PM_S01_Gate_Main_A_v01.png  |    Bin 2243729 -> 0 bytes
+ .../Scene01/Gate/PM_S01_Gate_Main_A_v01.png.meta   |     62 -
+ .../Art/Props/Scene01/PM_S01_Bicycle_Old_A_v01.png |    Bin 1638401 -> 0 bytes
+ .../Scene01/PM_S01_Bicycle_Old_A_v01.png.meta      |     62 -
+ .../Art/Props/Scene01/PM_S01_FG_Foliage_A_v01.png  |    Bin 1401121 -> 0 bytes
+ .../Props/Scene01/PM_S01_FG_Foliage_A_v01.png.meta |     62 -
+ .../Art/Props/Scene01/PM_S01_FG_Foliage_A_v02.png  |    Bin 1058875 -> 0 bytes
+ .../Props/Scene01/PM_S01_FG_Foliage_A_v02.png.meta |     62 -
+ .../Art/Props/Scene01/PM_S01_Lamp_Post_A_v01.png   |    Bin 1001538 -> 0 bytes
+ .../Props/Scene01/PM_S01_Lamp_Post_A_v01.png.meta  |     62 -
+ .../Props/Scene01/PM_S01_Mailbox_Main_A_v01.png    |    Bin 2397672 -> 0 bytes
+ .../Scene01/PM_S01_Mailbox_Main_A_v01.png.meta     |     62 -
+ .../Props/Scene01/PM_S01_Prop_IDHolder_A_v01.png   |    Bin 2022495 -> 0 bytes
+ .../Scene01/PM_S01_Prop_IDHolder_A_v01.png.meta    |     62 -
+ .../Props/Scene01/PM_S01_Prop_PoliceCar_A_v01.png  |    Bin 1387315 -> 0 bytes
+ .../Scene01/PM_S01_Prop_PoliceCar_A_v01.png.meta   |     62 -
+ .../Scene01/PM_S01_Prop_ReportersCrowd_A_v01.png   |    Bin 2278481 -> 0 bytes
+ .../PM_S01_Prop_ReportersCrowd_A_v01.png.meta      |     62 -
+ .../Art/Props/Scene01/PM_S01_Puddle_Base_A_v01.png |    Bin 2039295 -> 0 bytes
+ .../Scene01/PM_S01_Puddle_Base_A_v01.png.meta      |     62 -
+ .../Art/Props/Scene01/PM_S01_Puddle_Base_A_v02.png |    Bin 1634233 -> 0 bytes
+ .../Scene01/PM_S01_Puddle_Base_A_v02.png.meta      |     62 -
+ .../Props/Scene01/PM_S01_TrashBin_Bags_A_v01.png   |    Bin 2216949 -> 0 bytes
+ .../Scene01/PM_S01_TrashBin_Bags_A_v01.png.meta    |     62 -
+ .../Props/Scene01/PM_S01_UtilityBox_Main_A_v01.png |    Bin 1926939 -> 0 bytes
+ .../Scene01/PM_S01_UtilityBox_Main_A_v01.png.meta  |     62 -
+ Assets/Art/UI.meta                                 |      8 -
+ Assets/Fonts/ChineseMain SDF.asset                 |   9119 +-
+ Assets/Prefabs/PersistentRuntime.prefab            |    276 +-
+ Assets/Scenes/EndingSequence.unity                 |     22 +-
+ Assets/Scenes/Scene01_Rain.unity                   |  20237 +-
+ Assets/Scenes/Scene02_Courtyard.unity              |  50273 +-
+ Assets/Scenes/Scene03_Childhood.unity              | 461496 ++++++++++++++----
+ Assets/Scenes/Scene04_School.unity                 | 127940 +++--
+ Assets/Scripts/Interaction/PlayerInteraction.cs    |      7 +
+ .../Presentation/SceneActorVisualOverride.cs       |      5 +-
+ Assets/Scripts/School/SchoolChasePresentation.cs   |      5 +-
+ Assets/Scripts/System/CameraFollow.cs              |     15 +-
+ 95 files changed, 537856 insertions(+), 133913 deletions(-)

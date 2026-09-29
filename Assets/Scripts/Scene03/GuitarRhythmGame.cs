@@ -26,6 +26,12 @@ public class GuitarRhythmGame : MonoBehaviour
     bool[] judged;
     bool missed, transitioning, ownsLock, hadFocus = true;
     float phraseStarted;
+    RectTransform sustainTrack,sustainBar;
+    Image sustainInk;
+    readonly RhythmHoldTracker sustain = new RhythmHoldTracker();
+    [Min(.1f)] public float releaseGraceSeconds=.18f;
+    [Min(2)] public float spaceApproachSeconds=3.2f;
+    public bool SustainedChordFailed => sustain.Failed;
     static readonly KeyCode[] Keys={KeyCode.W,KeyCode.S,KeyCode.A,KeyCode.D,KeyCode.Space};
 
     public bool ValidateConfiguration()
@@ -42,7 +48,7 @@ public class GuitarRhythmGame : MonoBehaviour
         chapter.Controls.AcquireLock(ControlLockReason.CloseUp);ownsLock=true;
         Build();WaitingForStart=true;
         title.text="河堤边 · 生日快乐";
-        instruction.text="持续按住箭头和弦，再按到达竖线的音符\nW / S / A / D 每次一个；段尾松开它们，再按 Space";
+        instruction.text="右侧长条到横线后，持续按住对应方向键\n左侧音符到竖线时按键；段尾松开 W/S/A/D，再按 Space";
         feedback.text="按 [E] 开始";chord.text="第一段：持续按住 ←";
     }
     void Build()
@@ -57,7 +63,7 @@ public class GuitarRhythmGame : MonoBehaviour
         title=Text("",.74f,.9f,.98f,.98f,28);
         chordPlate=RuntimePanelUI.Panel("HeldChord",page,new Vector2(.75f,.72f),new Vector2(.97f,.89f),new Color(.27f,.34f,.29f));
         chord=RuntimePanelUI.Text("",chordPlate.transform,chapter.font,new Vector2(.02f,.05f),new Vector2(.98f,.95f),30);
-        track=RuntimePanelUI.Rect("FiveLanes",page,new Vector2(.06f,.20f),new Vector2(.96f,.65f));
+        track=RuntimePanelUI.Rect("FiveLanes",page,new Vector2(.06f,.20f),new Vector2(.70f,.65f));
         for(int i=0;i<5;i++)
         {
             float y=.90f-i*.18f;
@@ -65,6 +71,16 @@ public class GuitarRhythmGame : MonoBehaviour
             RuntimePanelUI.Text(i==4?"Space":Keys[i].ToString(),track,chapter.font,new Vector2(-.03f,y-.065f),new Vector2(.085f,y+.065f),i==4?23:30);
         }
         RuntimePanelUI.Panel("JudgementLine",track,new Vector2(.177f,.09f),new Vector2(.18f,.97f),new Color(.96f,.84f,.53f),false);
+        sustainTrack=RuntimePanelUI.Rect("SustainedChordLanes",page,new Vector2(.75f,.20f),new Vector2(.96f,.65f));
+        for(int i=0;i<2;i++){
+            float x=i*.5f;
+            RuntimePanelUI.Panel("ChordLane",sustainTrack,new Vector2(x+.045f,.12f),new Vector2(x+.455f,.97f),new Color(.20f,.27f,.28f),false);
+            RuntimePanelUI.Text(i==0?"←":"→",sustainTrack,chapter.font,new Vector2(x,0),new Vector2(x+.5f,.115f),30);
+        }
+        RuntimePanelUI.Panel("ChordJudgementLine",sustainTrack,new Vector2(.02f,.14f),new Vector2(.98f,.15f),new Color(.96f,.84f,.53f),false);
+        sustainInk=RuntimePanelUI.Panel("ContinuousChordNote",sustainTrack,Vector2.zero,Vector2.one,new Color(.60f,.72f,.68f),false);
+        sustainBar=sustainInk.rectTransform;sustainBar.gameObject.SetActive(false);
+        DemoPaintedFrame.Add(page,new Color(.68f,.73f,.64f));
         feedback=Text("",.05f,.105f,.95f,.20f,30);
         instruction=Text("",.04f,.015f,.96f,.105f,24);
     }
@@ -80,6 +96,7 @@ public class GuitarRhythmGame : MonoBehaviour
             token.sizeDelta=new Vector2(note.key==KeyCode.Space?76:44,42);tokens[i]=token;
             RuntimePanelUI.Text(note.key==KeyCode.Space?"拍":note.key.ToString(),token,chapter.font,Vector2.zero,Vector2.one,25).color=new Color(.19f,.22f,.18f);
         }
+        sustain.Reset(p.notes[0].time, p.notes[p.notes.Length-1].time, releaseGraceSeconds);
         missed=false;transitioning=false;phraseStarted=Time.unscaledTime;
         title.text=$"第 {PhraseIndex+1} / 4 段";
         chord.text="持续按住\n"+(p.heldChord==KeyCode.LeftArrow?"←":"→");
@@ -94,16 +111,33 @@ public class GuitarRhythmGame : MonoBehaviour
         if(WaitingForStart){if(Input.GetKeyDown(KeyCode.E)){WaitingForStart=false;StartPhrase();}return;}
         if(!hadFocus){hadFocus=true;StartPhrase();}
         bool held=HeldCorrectly();chordPlate.color=held?new Color(.37f,.52f,.33f):new Color(.37f,.31f,.23f);
+        if(sustain.Tick(PhraseTime,Time.unscaledDeltaTime,held)){
+            missed=true;feedback.text="Miss · 长条结束前请持续按住和弦";
+            feedback.color=new Color(1,.70f,.55f);Judged?.Invoke(phrases[PhraseIndex].heldChord,false,PhraseTime,"Miss · 和弦中断");
+        }
+        DrawSustain(PhraseTime,held);
         Tick(PhraseTime);
         if(transitioning)return;
         foreach(var key in Keys)if(Input.GetKeyDown(key))Hit(key,held,PhraseTime);
+    }
+    void DrawSustain(float time,bool held)
+    {
+        var p=phrases[PhraseIndex];float head=.145f+(p.notes[0].time-time)/approachSeconds*.80f;
+        float tail=.145f+(p.notes[p.notes.Length-1].time-time)/approachSeconds*.80f;
+        float x=p.heldChord==KeyCode.LeftArrow?.09f:.59f;
+        sustainBar.gameObject.SetActive(head<=.97f&&tail>=.145f);
+        sustainBar.anchorMin=new Vector2(x,Mathf.Clamp(head,.145f,.97f));
+        sustainBar.anchorMax=new Vector2(x+.32f,Mathf.Clamp(tail,.145f,.97f));
+        sustainBar.offsetMin=sustainBar.offsetMax=Vector2.zero;
+        sustainInk.color=sustain.Failed?new Color(.66f,.34f,.32f):held?new Color(.84f,.86f,.65f):new Color(.51f,.67f,.68f);
     }
     void Tick(float time)
     {
         var p=phrases[PhraseIndex];
         for(int i=0;i<p.notes.Length;i++)
         {
-            float normalized=.18f+(p.notes[i].time-time)/approachSeconds*.78f;
+            float lead=p.notes[i].key==KeyCode.Space?Mathf.Max(approachSeconds,spaceApproachSeconds):approachSeconds;
+            float normalized=.18f+(p.notes[i].time-time)/lead*.78f;
             tokens[i].anchorMin=tokens[i].anchorMax=new Vector2(normalized,.90f-Array.IndexOf(Keys,p.notes[i].key)*.18f);
             tokens[i].anchoredPosition=Vector2.zero;tokens[i].gameObject.SetActive(!judged[i]&&normalized>=.04f&&normalized<=1);
             if(!judged[i]&&time>p.notes[i].time+p.goodWindow)Judge(i,false,time,"Miss · 漏拍");
@@ -122,6 +156,9 @@ public class GuitarRhythmGame : MonoBehaviour
         if(!remaining)return;
         if(nearest<0||delta>p.goodWindow)
         {missed=true;feedback.text="Miss · 跟着当前音符";feedback.color=new Color(1,.70f,.55f);Judged?.Invoke(key,held,time,"Miss · 错键或时机");return;}
+        bool released=true;
+        if(key==KeyCode.Space)foreach(var noteKey in Keys)if(noteKey!=KeyCode.Space&&Input.GetKey(noteKey))released=false;
+        if(!released){Judge(nearest,false,time,"Miss · 拍弦前请松开 W/S/A/D");return;}
         bool ok=held;
         Judge(nearest,ok,time,!held?"Miss · 请持续按住正确和弦":delta<=p.perfectWindow?"Perfect":"Good");
     }

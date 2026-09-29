@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public sealed partial class SchoolChaseController
@@ -16,8 +17,10 @@ public sealed partial class SchoolChaseController
             hiddenSprites[renderer]=renderer.forceRenderingOff;renderer.forceRenderingOff=true;
         }
         foreach(var canvas in current.GetComponentsInChildren<Canvas>(true)) {hiddenCanvases[canvas]=canvas.enabled;canvas.enabled=false;}
+        foreach(var crop in target.GetComponentsInChildren<SpriteArtRegion>(true)) crop.Rebuild();
+        var retired=new HashSet<Renderer>(target.GetComponentsInChildren<RetiredArtVisibility>(true).SelectMany(x=>x.Renderers));
         foreach(var renderer in target.GetComponentsInChildren<SpriteRenderer>(true)) {
-            if(!renderer.enabled||renderer.sprite==null)continue;
+            if(!renderer.enabled||renderer.sprite==null||retired.Contains(renderer))continue;
             bool active=true;for(var p=renderer.transform;p!=target.transform&&p!=null;p=p.parent)if(!p.gameObject.activeSelf){active=false;break;}
             if(!active)continue;
             var ghost=new GameObject(renderer.name+"_Preview");ghost.transform.SetParent(previewRoot.transform,false);

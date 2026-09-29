@@ -1,0 +1,2743 @@
+fileFormatVersion: 2
+guid: 2d5c8b57292321e41be1cfbcdc08328d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1007421842513236996
+    second: FX_FOG_SHAPES_0
+  - first:
+      213: 10105115325094299
+    second: FX_FOG_SHAPES_1
+  - first:
+      213: 264897313645636774
+    second: FX_FOG_SHAPES_2
+  - first:
+      213: 663092177487551803
+    second: FX_FOG_SHAPES_3
+  - first:
+      213: 7473409163093962194
+    second: FX_FOG_SHAPES_4
+  - first:
+      213: -5516634531755828127
+    second: FX_FOG_SHAPES_5
+  - first:
+      213: -3506927392995206113
+    second: FX_FOG_SHAPES_6
+  - first:
+      213: -552219132265111335
+    second: FX_FOG_SHAPES_7
+  - first:
+      213: -6896738191102398555
+    second: FX_FOG_SHAPES_8
+  - first:
+      213: -6762667059503933625
+    second: FX_FOG_SHAPES_9
+  - first:
+      213: 4246808562367187150
+    second: FX_FOG_SHAPES_10
+  - first:
+      213: -257887195651922563
+    second: FX_FOG_SHAPES_11
+  - first:
+      213: 9122619764781440616
+    second: FX_FOG_SHAPES_12
+  - first:
+      213: -3503221442459683434
+    second: FX_FOG_SHAPES_13
+  - first:
+      213: 3704903446322078888
+    second: FX_FOG_SHAPES_14
+  - first:
+      213: -4050701275151618147
+    second: FX_FOG_SHAPES_15
+  - first:
+      213: 6031101133467410594
+    second: FX_FOG_SHAPES_16
+  - first:
+      213: -4751242813507218819
+    second: FX_FOG_SHAPES_17
+  - first:
+      213: -828345404957541776
+    second: FX_FOG_SHAPES_18
+  - first:
+      213: -3465103997427587590
+    second: FX_FOG_SHAPES_19
+  - first:
+      213: 2003614546047434695
+    second: FX_FOG_SHAPES_20
+  - first:
+      213: -5618041472532310242
+    second: FX_FOG_SHAPES_21
+  - first:
+      213: -5124119945782765019
+    second: FX_FOG_SHAPES_22
+  - first:
+      213: 56934608592990664
+    second: FX_FOG_SHAPES_23
+  - first:
+      213: 954309679101883131
+    second: FX_FOG_SHAPES_24
+  - first:
+      213: 511511939587863059
+    second: FX_FOG_SHAPES_25
+  - first:
+      213: -6911028320384904321
+    second: FX_FOG_SHAPES_26
+  - first:
+      213: -5256246076450760902
+    second: FX_FOG_SHAPES_27
+  - first:
+      213: 7444875403983839622
+    second: FX_FOG_SHAPES_28
+  - first:
+      213: -971008868060349338
+    second: FX_FOG_SHAPES_29
+  - first:
+      213: 4789356354670678561
+    second: FX_FOG_SHAPES_30
+  - first:
+      213: -188946316443555800
+    second: FX_FOG_SHAPES_31
+  - first:
+      213: 7174965221929492452
+    second: FX_FOG_SHAPES_32
+  - first:
+      213: 8595271892505667859
+    second: FX_FOG_SHAPES_33
+  - first:
+      213: 1627675918182538472
+    second: FX_FOG_SHAPES_34
+  - first:
+      213: 4858362885794265813
+    second: FX_FOG_SHAPES_35
+  - first:
+      213: 2138817315173719753
+    second: FX_FOG_SHAPES_36
+  - first:
+      213: -8972226875231886
+    second: FX_FOG_SHAPES_37
+  - first:
+      213: -3602202602089109532
+    second: FX_FOG_SHAPES_38
+  - first:
+      213: -6128511521319369578
+    second: FX_FOG_SHAPES_39
+  - first:
+      213: -4258624093957450655
+    second: FX_FOG_SHAPES_40
+  - first:
+      213: 2442369766777455012
+    second: FX_FOG_SHAPES_41
+  - first:
+      213: 1325051602475345005
+    second: FX_FOG_SHAPES_42
+  - first:
+      213: 2205539070688349488
+    second: FX_FOG_SHAPES_43
+  - first:
+      213: -2723114565838331403
+    second: FX_FOG_SHAPES_44
+  - first:
+      213: 2017479935221738930
+    second: FX_FOG_SHAPES_45
+  - first:
+      213: 3777430784986743292
+    second: FX_FOG_SHAPES_46
+  - first:
+      213: 4757597713378618220
+    second: FX_FOG_SHAPES_47
+  - first:
+      213: 5837750637485976603
+    second: FX_FOG_SHAPES_48
+  - first:
+      213: 2386044012043598996
+    second: FX_FOG_SHAPES_49
+  - first:
+      213: -6153040499135876000
+    second: FX_FOG_SHAPES_50
+  - first:
+      213: -1813653035820768681
+    second: FX_FOG_SHAPES_51
+  - first:
+      213: -199594980053459264
+    second: FX_FOG_SHAPES_52
+  - first:
+      213: 4976842814541210815
+    second: FX_FOG_SHAPES_53
+  - first:
+      213: 5381706252561275403
+    second: FX_FOG_SHAPES_54
+  - first:
+      213: 618170420820381440
+    second: FX_FOG_SHAPES_55
+  - first:
+      213: -2798958334965569656
+    second: FX_FOG_SHAPES_56
+  - first:
+      213: 3105461323466348100
+    second: FX_FOG_SHAPES_57
+  - first:
+      213: -8496082525728329207
+    second: FX_FOG_SHAPES_58
+  - first:
+      213: 628047158580831044
+    second: FX_FOG_SHAPES_59
+  - first:
+      213: -2795450743479224657
+    second: FX_FOG_SHAPES_60
+  - first:
+      213: -4849716591016331640
+    second: FX_FOG_SHAPES_61
+  - first:
+      213: -439760307819040484
+    second: FX_FOG_SHAPES_62
+  - first:
+      213: -8322342765535831200
+    second: FX_FOG_SHAPES_63
+  - first:
+      213: 496836931378124569
+    second: FX_FOG_SHAPES_64
+  - first:
+      213: 7090834661094887574
+    second: FX_FOG_SHAPES_65
+  - first:
+      213: 4187375366724449422
+    second: FX_FOG_SHAPES_66
+  - first:
+      213: -7244254117786871814
+    second: FX_FOG_SHAPES_67
+  - first:
+      213: -6385555124106457200
+    second: FX_FOG_SHAPES_68
+  - first:
+      213: -712953361898463767
+    second: FX_FOG_SHAPES_69
+  - first:
+      213: 492979947521353768
+    second: FX_FOG_SHAPES_70
+  - first:
+      213: 4586525818499945430
+    second: FX_FOG_SHAPES_71
+  - first:
+      213: 4713164773434937702
+    second: FX_FOG_SHAPES_72
+  - first:
+      213: -7805435223189507057
+    second: FX_FOG_SHAPES_73
+  - first:
+      213: -4384796700716708466
+    second: FX_FOG_SHAPES_74
+  - first:
+      213: -5146141056532583140
+    second: FX_FOG_SHAPES_75
+  - first:
+      213: -1035606479753726721
+    second: FX_FOG_SHAPES_76
+  - first:
+      213: 3249890321185276441
+    second: FX_FOG_SHAPES_77
+  - first:
+      213: 1522780408069436246
+    second: FX_FOG_SHAPES_78
+  - first:
+      213: -4904705822766971165
+    second: FX_FOG_SHAPES_79
+  - first:
+      213: -424004734831683959
+    second: FX_FOG_SHAPES_80
+  - first:
+      213: 237436996779144415
+    second: FX_FOG_SHAPES_81
+  - first:
+      213: 8286375743614975013
+    second: FX_FOG_SHAPES_82
+  - first:
+      213: -4402340136692211264
+    second: FX_FOG_SHAPES_83
+  - first:
+      213: -6862884446311004188
+    second: FX_FOG_SHAPES_84
+  - first:
+      213: -603166682614473260
+    second: FX_FOG_SHAPES_85
+  - first:
+      213: 2265921085630306479
+    second: FX_FOG_SHAPES_86
+  - first:
+      213: 2220244177592735323
+    second: FX_FOG_SHAPES_87
+  - first:
+      213: 660406334998730818
+    second: FX_FOG_SHAPES_88
+  - first:
+      213: 6833973091762116071
+    second: FX_FOG_SHAPES_89
+  - first:
+      213: -1622290166920185625
+    second: FX_FOG_SHAPES_90
+  - first:
+      213: -5846347857981358072
+    second: FX_FOG_SHAPES_91
+  - first:
+      213: -2713604607825203879
+    second: FX_FOG_SHAPES_92
+  - first:
+      213: 7419507813401293068
+    second: FX_FOG_SHAPES_93
+  - first:
+      213: 7128146306162523888
+    second: FX_FOG_SHAPES_94
+  - first:
+      213: -133110103914328512
+    second: FX_FOG_SHAPES_95
+  - first:
+      213: 6681026278234861985
+    second: FX_FOG_SHAPES_96
+  - first:
+      213: 4784782281681364848
+    second: FX_FOG_SHAPES_97
+  - first:
+      213: -6102016733577714781
+    second: FX_FOG_SHAPES_98
+  - first:
+      213: 7698589799987953370
+    second: FX_FOG_SHAPES_99
+  - first:
+      213: -3659516316785027033
+    second: FX_FOG_SHAPES_100
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 501
+        width: 1254
+        height: 731
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb670afb2be402f0800000000000000
+      internalID: -1007421842513236996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_1
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1191
+        width: 61
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b99dd518c86e32000800000000000000
+      internalID: 10105115325094299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_2
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 1213
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6acadc904ba1da300800000000000000
+      internalID: 264897313645636774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_3
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 1224
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d5c7c72d6c33900800000000000000
+      internalID: 663092177487551803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_4
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 1206
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dd6d5bb902e6b760800000000000000
+      internalID: 7473409163093962194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_5
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1211
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16c5a0b2f1af073b0800000000000000
+      internalID: -5516634531755828127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_6
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 1194
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1c1f67dd14e45fc0800000000000000
+      internalID: -3506927392995206113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_7
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1203
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d0e92fff9f1658f0800000000000000
+      internalID: -552219132265111335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_8
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1188
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5afa87ad72dd940a0800000000000000
+      internalID: -6896738191102398555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_9
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 1173
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7475808b32e2622a0800000000000000
+      internalID: -6762667059503933625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_10
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 930
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec8cbfc03e1bfea30800000000000000
+      internalID: 4246808562367187150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_11
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 863
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d75ab0f36fccb6cf0800000000000000
+      internalID: -257887195651922563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_12
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 586
+        width: 154
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86e51c4a75e0a9e70800000000000000
+      internalID: 9122619764781440616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_13
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 608
+        width: 138
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 695b8a0b8ae026fc0800000000000000
+      internalID: -3503221442459683434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_14
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 550
+        width: 211
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a4e5251e067a6330800000000000000
+      internalID: 3704903446322078888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_15
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 676
+        width: 66
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9fad5bd6a409c7c0800000000000000
+      internalID: -4050701275151618147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_16
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 658
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a0e7c8d686c2b350800000000000000
+      internalID: 6031101133467410594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_17
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 610
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d72564395d1301eb0800000000000000
+      internalID: -4751242813507218819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_18
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 593
+        width: 50
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07abd223e302184f0800000000000000
+      internalID: -828345404957541776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_19
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 614
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af5ea83f54a79efc0800000000000000
+      internalID: -3465103997427587590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_20
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 616
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cf76f360d44ecb10800000000000000
+      internalID: 2003614546047434695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_21
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 615
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e179c40eb05b802b0800000000000000
+      internalID: -5618041472532310242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_22
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 594
+        width: 7
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52adf1dde0873e8b0800000000000000
+      internalID: -5124119945782765019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_23
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 602
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c17c9099b54ac000800000000000000
+      internalID: 56934608592990664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_24
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 615
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf2b594d8936e3d00800000000000000
+      internalID: 954309679101883131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_25
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 610
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31271812661491700800000000000000
+      internalID: 511511939587863059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_26
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 578
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f731bcadb581710a0800000000000000
+      internalID: -6911028320384904321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_27
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 604
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a379c11da001e07b0800000000000000
+      internalID: -5256246076450760902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_28
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 594
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 681ef7b3cb2815760800000000000000
+      internalID: 7444875403983839622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_29
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 592
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66c328144984682f0800000000000000
+      internalID: -971008868060349338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_30
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 586
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 122d7eeba36377240800000000000000
+      internalID: 4789356354670678561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_31
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 594
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82863c6835ab06df0800000000000000
+      internalID: -188946316443555800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_32
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 531
+        width: 23
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef93e0dad8929360800000000000000
+      internalID: 7174965221929492452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_33
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 509
+        width: 34
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31923bc1f3a884770800000000000000
+      internalID: 8595271892505667859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_34
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 575
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ec5ab0bf9aa69610800000000000000
+      internalID: 1627675918182538472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_35
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 579
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5da75bdcd4f5c6340800000000000000
+      internalID: 4858362885794265813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_36
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 568
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ce5266240b9ead10800000000000000
+      internalID: 2138817315173719753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_37
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 568
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 271f144aecf10eff0800000000000000
+      internalID: -8972226875231886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_38
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 570
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e7ad7591d7620ec0800000000000000
+      internalID: -3602202602089109532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_39
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 554
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 694ced9dd3723faa0800000000000000
+      internalID: -6128511521319369578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_40
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 560
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1641fbf13f356e4c0800000000000000
+      internalID: -4258624093957450655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_41
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 562
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a18ce6dc5a05e120800000000000000
+      internalID: 2442369766777455012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_42
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 569
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d64ea9a7967836210800000000000000
+      internalID: 1325051602475345005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_43
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 565
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03dcf9e6916ab9e10800000000000000
+      internalID: 2205539070688349488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_44
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 562
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f1a384eabd853ad0800000000000000
+      internalID: -2723114565838331403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_45
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 562
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bdae50ef478ffb10800000000000000
+      internalID: 2017479935221738930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_46
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 501
+        width: 53
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf182c609412c6430800000000000000
+      internalID: 3777430784986743292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_47
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 552
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6ba42ad9e1660240800000000000000
+      internalID: 4757597713378618220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_48
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 546
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1c69aa664bd30150800000000000000
+      internalID: 5837750637485976603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_49
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 544
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49c7e4c136eec1120800000000000000
+      internalID: 2386044012043598996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_50
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 529
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 064f96824420c9aa0800000000000000
+      internalID: -6153040499135876000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_51
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 519
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 752281e4c2c94d6e0800000000000000
+      internalID: -1813653035820768681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_52
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 488
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ce56f25c65ea3df0800000000000000
+      internalID: -199594980053459264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_53
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 535
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb42fafdb2c411540800000000000000
+      internalID: 4976842814541210815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_54
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 512
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0ad96db259afaa40800000000000000
+      internalID: 5381706252561275403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_55
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 0
+        width: 649
+        height: 522
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00f07a7f8be249800800000000000000
+      internalID: 618170420820381440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_56
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 508
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 887224f493a1829d0800000000000000
+      internalID: -2798958334965569656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_57
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 521
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4461de8ce90d81b20800000000000000
+      internalID: 3105461323466348100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_58
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 511
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9023f8ff4f9d71a80800000000000000
+      internalID: -8496082525728329207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_59
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 497
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 443676d209547b800800000000000000
+      internalID: 628047158580831044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_60
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 487
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa6b1d71c509439d0800000000000000
+      internalID: -2795450743479224657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_61
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 614
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8863723947852bcb0800000000000000
+      internalID: -4849716591016331640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_62
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 503
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c11312a7458a5e9f0800000000000000
+      internalID: -439760307819040484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_63
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 490
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06bd1313959118c80800000000000000
+      internalID: -8322342765535831200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_64
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 495
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91796168e8e15e600800000000000000
+      internalID: 496836931378124569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_65
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 482
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 690969f2e84b76260800000000000000
+      internalID: 7090834661094887574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_66
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 192
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e84f4dad5bb8c1a30800000000000000
+      internalID: 4187375366724449422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_67
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 144
+        width: 45
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af717a6f24d377b90800000000000000
+      internalID: -7244254117786871814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_68
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 103
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f85fd5273f167a0800000000000000
+      internalID: -6385555124106457200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_69
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 111
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ed1f9ad1b41b16f0800000000000000
+      internalID: -712953361898463767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_70
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 112
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 828a66d76aa67d600800000000000000
+      internalID: 492979947521353768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_71
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 95
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d3d8d47eec96af30800000000000000
+      internalID: 4586525818499945430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_72
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 99
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6615978d366886140800000000000000
+      internalID: 4713164773434937702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_73
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 97
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f04b77cf4068da390800000000000000
+      internalID: -7805435223189507057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_74
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 101
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8dc971e1a21623c0800000000000000
+      internalID: -4384796700716708466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_75
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 93
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1d625979fb3598b0800000000000000
+      internalID: -5146141056532583140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_76
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 93
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff4bf2fb469c0a1f0800000000000000
+      internalID: -1035606479753726721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_77
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 97
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9128a39470ee91d20800000000000000
+      internalID: 3249890321185276441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_78
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 81
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65337ed86b0022510800000000000000
+      internalID: 1522780408069436246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_79
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 89
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e64f2a5a0cfeebb0800000000000000
+      internalID: -4904705822766971165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_80
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 81
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 986164da0f1ad1af0800000000000000
+      internalID: -424004734831683959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_81
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 87
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd47e89c0bb8b4300800000000000000
+      internalID: 237436996779144415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_82
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 85
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52c7591f5de1ff270800000000000000
+      internalID: 8286375743614975013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_83
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 87
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c1240468feb7e2c0800000000000000
+      internalID: -4402340136692211264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_84
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 81
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e7441b05f222c0a0800000000000000
+      internalID: -6862884446311004188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_85
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 85
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ddd96e091f11a7f0800000000000000
+      internalID: -603166682614473260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_86
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 77
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa8df06d83b227f10800000000000000
+      internalID: 2265921085630306479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_87
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 75
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b565b00f054efce10800000000000000
+      internalID: 2220244177592735323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_88
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 71
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 248540d001c3a2900800000000000000
+      internalID: 660406334998730818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_89
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 68
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e51f0ba15627de50800000000000000
+      internalID: 6833973091762116071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_90
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 63
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e8fc1e30b77c79e0800000000000000
+      internalID: -1622290166920185625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_91
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 67
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 800c7a339999ddea0800000000000000
+      internalID: -5846347857981358072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_92
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 49
+        width: 9
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95d27b98cf6575ad0800000000000000
+      internalID: -2713604607825203879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_93
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 59
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c01f40acb0367f660800000000000000
+      internalID: 7419507813401293068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_94
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 68
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe74d58c434ce260800000000000000
+      internalID: 7128146306162523888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_95
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 59
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04ecb24d019172ef0800000000000000
+      internalID: -133110103914328512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_96
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 49
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a13d31a006c7bc50800000000000000
+      internalID: 6681026278234861985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_97
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 63
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07763336226f66240800000000000000
+      internalID: 4784782281681364848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_98
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 65
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a36c955c18415ba0800000000000000
+      internalID: -6102016733577714781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_99
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 47
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ade3abb52a2e6da60800000000000000
+      internalID: 7698589799987953370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_FOG_SHAPES_100
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 35
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72858408c49c63dc0800000000000000
+      internalID: -3659516316785027033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FX_FOG_SHAPES_0: -1007421842513236996
+      FX_FOG_SHAPES_1: 10105115325094299
+      FX_FOG_SHAPES_10: 4246808562367187150
+      FX_FOG_SHAPES_100: -3659516316785027033
+      FX_FOG_SHAPES_11: -257887195651922563
+      FX_FOG_SHAPES_12: 9122619764781440616
+      FX_FOG_SHAPES_13: -3503221442459683434
+      FX_FOG_SHAPES_14: 3704903446322078888
+      FX_FOG_SHAPES_15: -4050701275151618147
+      FX_FOG_SHAPES_16: 6031101133467410594
+      FX_FOG_SHAPES_17: -4751242813507218819
+      FX_FOG_SHAPES_18: -828345404957541776
+      FX_FOG_SHAPES_19: -3465103997427587590
+      FX_FOG_SHAPES_2: 264897313645636774
+      FX_FOG_SHAPES_20: 2003614546047434695
+      FX_FOG_SHAPES_21: -5618041472532310242
+      FX_FOG_SHAPES_22: -5124119945782765019
+      FX_FOG_SHAPES_23: 56934608592990664
+      FX_FOG_SHAPES_24: 954309679101883131
+      FX_FOG_SHAPES_25: 511511939587863059
+      FX_FOG_SHAPES_26: -6911028320384904321
+      FX_FOG_SHAPES_27: -5256246076450760902
+      FX_FOG_SHAPES_28: 7444875403983839622
+      FX_FOG_SHAPES_29: -971008868060349338
+      FX_FOG_SHAPES_3: 663092177487551803
+      FX_FOG_SHAPES_30: 4789356354670678561
+      FX_FOG_SHAPES_31: -188946316443555800
+      FX_FOG_SHAPES_32: 7174965221929492452
+      FX_FOG_SHAPES_33: 8595271892505667859
+      FX_FOG_SHAPES_34: 1627675918182538472
+      FX_FOG_SHAPES_35: 4858362885794265813
+      FX_FOG_SHAPES_36: 2138817315173719753
+      FX_FOG_SHAPES_37: -8972226875231886
+      FX_FOG_SHAPES_38: -3602202602089109532
+      FX_FOG_SHAPES_39: -6128511521319369578
+      FX_FOG_SHAPES_4: 7473409163093962194
+      FX_FOG_SHAPES_40: -4258624093957450655
+      FX_FOG_SHAPES_41: 2442369766777455012
+      FX_FOG_SHAPES_42: 1325051602475345005
+      FX_FOG_SHAPES_43: 2205539070688349488
+      FX_FOG_SHAPES_44: -2723114565838331403
+      FX_FOG_SHAPES_45: 2017479935221738930
+      FX_FOG_SHAPES_46: 3777430784986743292
+      FX_FOG_SHAPES_47: 4757597713378618220
+      FX_FOG_SHAPES_48: 5837750637485976603
+      FX_FOG_SHAPES_49: 2386044012043598996
+      FX_FOG_SHAPES_5: -5516634531755828127
+      FX_FOG_SHAPES_50: -6153040499135876000
+      FX_FOG_SHAPES_51: -1813653035820768681
+      FX_FOG_SHAPES_52: -199594980053459264
+      FX_FOG_SHAPES_53: 4976842814541210815
+      FX_FOG_SHAPES_54: 5381706252561275403
+      FX_FOG_SHAPES_55: 618170420820381440
+      FX_FOG_SHAPES_56: -2798958334965569656
+      FX_FOG_SHAPES_57: 3105461323466348100
+      FX_FOG_SHAPES_58: -8496082525728329207
+      FX_FOG_SHAPES_59: 628047158580831044
+      FX_FOG_SHAPES_6: -3506927392995206113
+      FX_FOG_SHAPES_60: -2795450743479224657
+      FX_FOG_SHAPES_61: -4849716591016331640
+      FX_FOG_SHAPES_62: -439760307819040484
+      FX_FOG_SHAPES_63: -8322342765535831200
+      FX_FOG_SHAPES_64: 496836931378124569
+      FX_FOG_SHAPES_65: 7090834661094887574
+      FX_FOG_SHAPES_66: 4187375366724449422
+      FX_FOG_SHAPES_67: -7244254117786871814
+      FX_FOG_SHAPES_68: -6385555124106457200
+      FX_FOG_SHAPES_69: -712953361898463767
+      FX_FOG_SHAPES_7: -552219132265111335
+      FX_FOG_SHAPES_70: 492979947521353768
+      FX_FOG_SHAPES_71: 4586525818499945430
+      FX_FOG_SHAPES_72: 4713164773434937702
+      FX_FOG_SHAPES_73: -7805435223189507057
+      FX_FOG_SHAPES_74: -4384796700716708466
+      FX_FOG_SHAPES_75: -5146141056532583140
+      FX_FOG_SHAPES_76: -1035606479753726721
+      FX_FOG_SHAPES_77: 3249890321185276441
+      FX_FOG_SHAPES_78: 1522780408069436246
+      FX_FOG_SHAPES_79: -4904705822766971165
+      FX_FOG_SHAPES_8: -6896738191102398555
+      FX_FOG_SHAPES_80: -424004734831683959
+      FX_FOG_SHAPES_81: 237436996779144415
+      FX_FOG_SHAPES_82: 8286375743614975013
+      FX_FOG_SHAPES_83: -4402340136692211264
+      FX_FOG_SHAPES_84: -6862884446311004188
+      FX_FOG_SHAPES_85: -603166682614473260
+      FX_FOG_SHAPES_86: 2265921085630306479
+      FX_FOG_SHAPES_87: 2220244177592735323
+      FX_FOG_SHAPES_88: 660406334998730818
+      FX_FOG_SHAPES_89: 6833973091762116071
+      FX_FOG_SHAPES_9: -6762667059503933625
+      FX_FOG_SHAPES_90: -1622290166920185625
+      FX_FOG_SHAPES_91: -5846347857981358072
+      FX_FOG_SHAPES_92: -2713604607825203879
+      FX_FOG_SHAPES_93: 7419507813401293068
+      FX_FOG_SHAPES_94: 7128146306162523888
+      FX_FOG_SHAPES_95: -133110103914328512
+      FX_FOG_SHAPES_96: 6681026278234861985
+      FX_FOG_SHAPES_97: 4784782281681364848
+      FX_FOG_SHAPES_98: -6102016733577714781
+      FX_FOG_SHAPES_99: 7698589799987953370
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

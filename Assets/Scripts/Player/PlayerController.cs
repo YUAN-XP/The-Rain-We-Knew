@@ -28,6 +28,7 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         sprintAbility = GetComponent<SprintAbility>();
+        rb.interpolation = RigidbodyInterpolation2D.Interpolate;
     }
 
     private void Update()

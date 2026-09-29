@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: 336fb543ffd3e1246832a375b9dfeeae
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3431324858060275700
+    second: SPR_HOME_BEDS_OTHER_0
+  - first:
+      213: 2936494344829907906
+    second: SPR_HOME_BEDS_OTHER_1
+  - first:
+      213: 5609983501270181971
+    second: SPR_HOME_BEDS_OTHER_2
+  - first:
+      213: -1020870409003054787
+    second: SPR_HOME_BEDS_OTHER_3
+  - first:
+      213: -2409440713626589468
+    second: SPR_HOME_BEDS_OTHER_4
+  - first:
+      213: -2048478067743190558
+    second: SPR_HOME_BEDS_OTHER_5
+  - first:
+      213: 4769499713043830450
+    second: SPR_HOME_BEDS_OTHER_6
+  - first:
+      213: 4826609063154818292
+    second: SPR_HOME_BEDS_OTHER_7
+  - first:
+      213: -6640017665718242919
+    second: SPR_HOME_BEDS_OTHER_8
+  - first:
+      213: -3286622677025128469
+    second: SPR_HOME_BEDS_OTHER_9
+  - first:
+      213: 8366550124234166362
+    second: SPR_HOME_BEDS_OTHER_10
+  - first:
+      213: -9147957115157443972
+    second: SPR_HOME_BEDS_OTHER_11
+  - first:
+      213: -1903336665527430695
+    second: SPR_HOME_BEDS_OTHER_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPR_HOME_BEDS_OTHER_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 0
+        width: 1168
+        height: 670
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ff76a947c38e9f20800000000000000
+      internalID: 3431324858060275700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_BEDS_OTHER_1
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 31
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c3b7846c0680c820800000000000000
+      internalID: 2936494344829907906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_BEDS_OTHER_2
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 23
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 358e20d754aaadd40800000000000000
+      internalID: 5609983501270181971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_BEDS_OTHER_3
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 17
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d394aa595c325d1f0800000000000000
+      internalID: -1020870409003054787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_BEDS_OTHER_4
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 17
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e66ceccf62ff8ed0800000000000000
+      internalID: -2409440713626589468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_BEDS_OTHER_5
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 15
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e11df9fc085293e0800000000000000
+      internalID: -2048478067743190558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_BEDS_OTHER_6
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 15
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b61e4818baa03240800000000000000
+      internalID: 4769499713043830450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_BEDS_OTHER_7
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 0
+        width: 908
+        height: 578
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fc1607de5f8bf240800000000000000
+      internalID: 4826609063154818292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_BEDS_OTHER_8
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 49
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 991bb840d1be9d3a0800000000000000
+      internalID: -6640017665718242919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_BEDS_OTHER_9
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 19
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bef7c29a6129362d0800000000000000
+      internalID: -3286622677025128469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_BEDS_OTHER_10
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 0
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a505a769205fb1470800000000000000
+      internalID: 8366550124234166362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_BEDS_OTHER_11
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 23
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7a8882c87deb0180800000000000000
+      internalID: -9147957115157443972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_HOME_BEDS_OTHER_12
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 39
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d1d243136df595e0800000000000000
+      internalID: -1903336665527430695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SPR_HOME_BEDS_OTHER_0: 3431324858060275700
+      SPR_HOME_BEDS_OTHER_1: 2936494344829907906
+      SPR_HOME_BEDS_OTHER_10: 8366550124234166362
+      SPR_HOME_BEDS_OTHER_11: -9147957115157443972
+      SPR_HOME_BEDS_OTHER_12: -1903336665527430695
+      SPR_HOME_BEDS_OTHER_2: 5609983501270181971
+      SPR_HOME_BEDS_OTHER_3: -1020870409003054787
+      SPR_HOME_BEDS_OTHER_4: -2409440713626589468
+      SPR_HOME_BEDS_OTHER_5: -2048478067743190558
+      SPR_HOME_BEDS_OTHER_6: 4769499713043830450
+      SPR_HOME_BEDS_OTHER_7: 4826609063154818292
+      SPR_HOME_BEDS_OTHER_8: -6640017665718242919
+      SPR_HOME_BEDS_OTHER_9: -3286622677025128469
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

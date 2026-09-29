@@ -17,23 +17,11 @@ public class SceneReturnInteractable : MonoBehaviour,IInteractable
         if(controls==null || player==null || screenFade==null || string.IsNullOrEmpty(targetSceneName) || !Application.CanStreamedLevelBeLoaded(targetSceneName))
         {if(!warned){Debug.LogWarning("SceneReturnInteractable needs a valid destination, player, controls and fade.",this);warned=true;}return;}
         PersistentRuntime.Instance?.GetComponent<EndingSession>()?.PrepareStreetReturn(targetSceneName,arrivalPosition);
-        busy=true;controls.AcquireLock(ControlLockReason.Interaction);
-        var fade=Instantiate(screenFade);fade.name="SceneReturn_Fade";DontDestroyOnLoad(fade.gameObject);
-        // The persistent controls host owns this operation across destruction of the source scene.
-        controls.StartCoroutine(Return(controls,player,fade,targetSceneName,arrivalPosition));
-    }
-    private static IEnumerator Return(GameControlManager controls,PlayerController player,ScreenFadeController fade,string scene,Vector3 position)
-    {
-        try
-        {
-            yield return fade.FadeOutAndHold();
-            yield return SceneManager.LoadSceneAsync(scene);
-            yield return null;
-            bool endingArrival=controls.GetComponent<EndingSession>() is EndingSession ending && ending.IsEndingVisit && ending.Data!=null && scene==ending.Data.streetScene;
-            if(player!=null&&!endingArrival){player.transform.position=position;var rb=player.GetComponent<Rigidbody2D>();rb.position=position;rb.linearVelocity=Vector2.zero;}
-            var camera=FindAnyObjectByType<CameraFollow>();if(camera!=null)camera.SnapToTarget();
-            yield return fade.FadeThroughBlack(null);
-        }
-        finally{if(controls!=null)controls.ReleaseLock(ControlLockReason.Interaction);if(fade!=null)Destroy(fade.gameObject);}
+        busy=true;
+        if(!BlackSceneTransition.Begin(targetSceneName,controls,()=>{
+            bool endingArrival=controls.GetComponent<EndingSession>() is EndingSession ending && ending.IsEndingVisit && ending.Data!=null && targetSceneName==ending.Data.streetScene;
+            if(player!=null&&!endingArrival)EndingSession.Place(player,arrivalPosition);
+        }))busy=false;
+        return;
     }
 }

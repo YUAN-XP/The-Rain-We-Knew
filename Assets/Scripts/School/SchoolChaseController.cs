@@ -220,7 +220,9 @@ public sealed partial class SchoolChaseController : MonoBehaviour, ISchoolOffice
         var shot=Camera.main;var follow=shot.GetComponent<CameraFollow>();
         openingFollow=follow;openingFollowWasEnabled=follow.enabled;follow.enabled=false;
         shot.transform.position=new Vector3(Mathf.Clamp(shot.transform.position.x-openingCameraPan,follow.HorizontalLimits.x,follow.HorizontalLimits.y),shot.transform.position.y,shot.transform.position.z);
+        var comic=DemoComicSequence.For(gameObject);comic.BeginConfrontation(school.Dialogue);
         yield return Say(openingDialogue);
+        yield return comic.FinishConfrontation();
         if(!openingCompleted){Die();yield break;}
         Notice("相机似乎有反应...",3);
         yield return new WaitForSecondsRealtime(.8f);

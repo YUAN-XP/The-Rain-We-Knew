@@ -1,0 +1,715 @@
+fileFormatVersion: 2
+guid: 3f7008560d7676146ba4b471f16f587c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3281084041017991364
+    second: PM_S02_Env_StairLanding_Right_A_v01_0
+  - first:
+      213: 6410762814340320225
+    second: PM_S02_Env_StairLanding_Right_A_v01_1
+  - first:
+      213: -4550511053415288550
+    second: PM_S02_Env_StairLanding_Right_A_v01_2
+  - first:
+      213: 3319115958291073084
+    second: PM_S02_Env_StairLanding_Right_A_v01_3
+  - first:
+      213: 5594374550961853997
+    second: PM_S02_Env_StairLanding_Right_A_v01_4
+  - first:
+      213: -5126849693311349061
+    second: PM_S02_Env_StairLanding_Right_A_v01_5
+  - first:
+      213: -4519706997401863779
+    second: PM_S02_Env_StairLanding_Right_A_v01_6
+  - first:
+      213: -2641194387606666581
+    second: PM_S02_Env_StairLanding_Right_A_v01_7
+  - first:
+      213: -6530790943294828772
+    second: PM_S02_Env_StairLanding_Right_A_v01_8
+  - first:
+      213: 1891713668404809987
+    second: PM_S02_Env_StairLanding_Right_A_v01_9
+  - first:
+      213: -9024791754358122459
+    second: PM_S02_Env_StairLanding_Right_A_v01_10
+  - first:
+      213: 5297318854779896328
+    second: PM_S02_Env_StairLanding_Right_A_v01_11
+  - first:
+      213: -7425929873414217888
+    second: PM_S02_Env_StairLanding_Right_A_v01_12
+  - first:
+      213: -8595637303791132248
+    second: PM_S02_Env_StairLanding_Right_A_v01_13
+  - first:
+      213: -4229093951855675922
+    second: PM_S02_Env_StairLanding_Right_A_v01_14
+  - first:
+      213: 4508317584588775885
+    second: PM_S02_Env_StairLanding_Right_A_v01_15
+  - first:
+      213: 7037687310555766000
+    second: PM_S02_Env_StairLanding_Right_A_v01_16
+  - first:
+      213: 2361098960454185220
+    second: PM_S02_Env_StairLanding_Right_A_v01_17
+  - first:
+      213: 8990187770660915376
+    second: PM_S02_Env_StairLanding_Right_A_v01_18
+  - first:
+      213: -8608091156195256963
+    second: PM_S02_Env_StairLanding_Right_A_v01_19
+  - first:
+      213: -7167207607765339207
+    second: PM_S02_Env_StairLanding_Right_A_v01_20
+  - first:
+      213: -3494075434362215820
+    second: PM_S02_Env_StairLanding_Right_A_v01_21
+  - first:
+      213: 3043348349011621652
+    second: PM_S02_Env_StairLanding_Right_A_v01_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 9
+  spritePivot: {x: 0.49940193, y: 0.18490967}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PM_S02_Env_StairLanding_Right_A_v01_0
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 881
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3f5be8d27f3772d0800000000000000
+      internalID: -3281084041017991364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Env_StairLanding_Right_A_v01_1
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 897
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ebc90060da97f850800000000000000
+      internalID: 6410762814340320225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Env_StairLanding_Right_A_v01_2
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 25
+        width: 1615
+        height: 859
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1171ba7e4659d0c0800000000000000
+      internalID: -4550511053415288550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Env_StairLanding_Right_A_v01_3
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 861
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c38054ee06edf0e20800000000000000
+      internalID: 3319115958291073084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Env_StairLanding_Right_A_v01_4
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 826
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d26119a830633ad40800000000000000
+      internalID: 5594374550961853997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Env_StairLanding_Right_A_v01_5
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 830
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbe4b5dfd55c9d8b0800000000000000
+      internalID: -5126849693311349061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Env_StairLanding_Right_A_v01_6
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 822
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d99b30bae66c641c0800000000000000
+      internalID: -4519706997401863779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Env_StairLanding_Right_A_v01_7
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 122
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba203f7b2b7985bd0800000000000000
+      internalID: -2641194387606666581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Env_StairLanding_Right_A_v01_8
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 112
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1fc29a1d38fd55a0800000000000000
+      internalID: -6530790943294828772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Env_StairLanding_Right_A_v01_9
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 64
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30115060f87b04a10800000000000000
+      internalID: 1891713668404809987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Env_StairLanding_Right_A_v01_10
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 70
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5281c9df6bf71c280800000000000000
+      internalID: -9024791754358122459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Env_StairLanding_Right_A_v01_11
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 78
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80282299e6bd38940800000000000000
+      internalID: 5297318854779896328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Env_StairLanding_Right_A_v01_12
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 80
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06f1f28df1cc1f890800000000000000
+      internalID: -7425929873414217888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Env_StairLanding_Right_A_v01_13
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 46
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a1ee61f96926b880800000000000000
+      internalID: -8595637303791132248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Env_StairLanding_Right_A_v01_14
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 59
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee5b3ed157d3f45c0800000000000000
+      internalID: -4229093951855675922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Env_StairLanding_Right_A_v01_15
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 64
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc1af0405f2c09e30800000000000000
+      internalID: 4508317584588775885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Env_StairLanding_Right_A_v01_16
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 68
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fc53f95253eaa160800000000000000
+      internalID: 7037687310555766000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Env_StairLanding_Right_A_v01_17
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 66
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4017a61befe44c020800000000000000
+      internalID: 2361098960454185220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Env_StairLanding_Right_A_v01_18
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 62
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b80e46352093cc70800000000000000
+      internalID: 8990187770660915376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Env_StairLanding_Right_A_v01_19
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 66
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d75dcc873bae98880800000000000000
+      internalID: -8608091156195256963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Env_StairLanding_Right_A_v01_20
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 64
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b37bab77a6f88c90800000000000000
+      internalID: -7167207607765339207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Env_StairLanding_Right_A_v01_21
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 59
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 472eb64a7ec828fc0800000000000000
+      internalID: -3494075434362215820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Env_StairLanding_Right_A_v01_22
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 55
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 417fb96f2352c3a20800000000000000
+      internalID: 3043348349011621652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PM_S02_Env_StairLanding_Right_A_v01_0: -3281084041017991364
+      PM_S02_Env_StairLanding_Right_A_v01_1: 6410762814340320225
+      PM_S02_Env_StairLanding_Right_A_v01_10: -9024791754358122459
+      PM_S02_Env_StairLanding_Right_A_v01_11: 5297318854779896328
+      PM_S02_Env_StairLanding_Right_A_v01_12: -7425929873414217888
+      PM_S02_Env_StairLanding_Right_A_v01_13: -8595637303791132248
+      PM_S02_Env_StairLanding_Right_A_v01_14: -4229093951855675922
+      PM_S02_Env_StairLanding_Right_A_v01_15: 4508317584588775885
+      PM_S02_Env_StairLanding_Right_A_v01_16: 7037687310555766000
+      PM_S02_Env_StairLanding_Right_A_v01_17: 2361098960454185220
+      PM_S02_Env_StairLanding_Right_A_v01_18: 8990187770660915376
+      PM_S02_Env_StairLanding_Right_A_v01_19: -8608091156195256963
+      PM_S02_Env_StairLanding_Right_A_v01_2: -4550511053415288550
+      PM_S02_Env_StairLanding_Right_A_v01_20: -7167207607765339207
+      PM_S02_Env_StairLanding_Right_A_v01_21: -3494075434362215820
+      PM_S02_Env_StairLanding_Right_A_v01_22: 3043348349011621652
+      PM_S02_Env_StairLanding_Right_A_v01_3: 3319115958291073084
+      PM_S02_Env_StairLanding_Right_A_v01_4: 5594374550961853997
+      PM_S02_Env_StairLanding_Right_A_v01_5: -5126849693311349061
+      PM_S02_Env_StairLanding_Right_A_v01_6: -4519706997401863779
+      PM_S02_Env_StairLanding_Right_A_v01_7: -2641194387606666581
+      PM_S02_Env_StairLanding_Right_A_v01_8: -6530790943294828772
+      PM_S02_Env_StairLanding_Right_A_v01_9: 1891713668404809987
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

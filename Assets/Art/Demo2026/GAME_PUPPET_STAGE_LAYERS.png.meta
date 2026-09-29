@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 714ed64767aaf58448c4f0745c40ca8b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8579928073117763355
+    second: GAME_PUPPET_STAGE_LAYERS_0
+  - first:
+      213: -8446273031135935582
+    second: GAME_PUPPET_STAGE_LAYERS_1
+  - first:
+      213: -3320531246097456758
+    second: GAME_PUPPET_STAGE_LAYERS_2
+  - first:
+      213: 743215296151710312
+    second: GAME_PUPPET_STAGE_LAYERS_3
+  - first:
+      213: -2613309481182808635
+    second: GAME_PUPPET_STAGE_LAYERS_4
+  - first:
+      213: -6938587161431423038
+    second: GAME_PUPPET_STAGE_LAYERS_5
+  - first:
+      213: 3869883869403745772
+    second: GAME_PUPPET_STAGE_LAYERS_6
+  - first:
+      213: -2293446336122939922
+    second: GAME_PUPPET_STAGE_LAYERS_7
+  - first:
+      213: 25374890543989272
+    second: GAME_PUPPET_STAGE_LAYERS_8
+  - first:
+      213: -515754421300386196
+    second: GAME_PUPPET_STAGE_LAYERS_9
+  - first:
+      213: -1905227841109293316
+    second: GAME_PUPPET_STAGE_LAYERS_10
+  - first:
+      213: -4322705343028642614
+    second: GAME_PUPPET_STAGE_LAYERS_11
+  - first:
+      213: -2351389654064234335
+    second: GAME_PUPPET_STAGE_LAYERS_12
+  - first:
+      213: -3446366153316825764
+    second: GAME_PUPPET_STAGE_LAYERS_13
+  - first:
+      213: 3460758636231131469
+    second: GAME_PUPPET_STAGE_LAYERS_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GAME_PUPPET_STAGE_LAYERS_0
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 699
+        width: 77
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e8f96b30e8fde880800000000000000
+      internalID: -8579928073117763355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAME_PUPPET_STAGE_LAYERS_1
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 694
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a34e2fad6fc8ca80800000000000000
+      internalID: -8446273031135935582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAME_PUPPET_STAGE_LAYERS_2
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 618
+        width: 37
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a81a6c2bc6a1be1d0800000000000000
+      internalID: -3320531246097456758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAME_PUPPET_STAGE_LAYERS_3
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 50
+        width: 739
+        height: 658
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86a62c6cf5e605a00800000000000000
+      internalID: 743215296151710312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAME_PUPPET_STAGE_LAYERS_4
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 19
+        width: 892
+        height: 655
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c530fd6fd8abbbd0800000000000000
+      internalID: -2613309481182808635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAME_PUPPET_STAGE_LAYERS_5
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 570
+        width: 203
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c74bc72dbf25bf90800000000000000
+      internalID: -6938587161431423038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAME_PUPPET_STAGE_LAYERS_6
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 612
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced03dd20e694b530800000000000000
+      internalID: 3869883869403745772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAME_PUPPET_STAGE_LAYERS_7
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 592
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee598ff55ba0c20e0800000000000000
+      internalID: -2293446336122939922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAME_PUPPET_STAGE_LAYERS_8
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 602
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 812c61914562a5000800000000000000
+      internalID: 25374890543989272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAME_PUPPET_STAGE_LAYERS_9
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 564
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c66ad0f161ca7d8f0800000000000000
+      internalID: -515754421300386196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAME_PUPPET_STAGE_LAYERS_10
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 578
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf60f727f554f85e0800000000000000
+      internalID: -1905227841109293316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAME_PUPPET_STAGE_LAYERS_11
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 60
+        width: 166
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acc3818a46aa204c0800000000000000
+      internalID: -4322705343028642614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAME_PUPPET_STAGE_LAYERS_12
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 59
+        width: 146
+        height: 434
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a009fc519f2e5fd0800000000000000
+      internalID: -2351389654064234335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAME_PUPPET_STAGE_LAYERS_13
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 49
+        width: 167
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c550f914e3c0c20d0800000000000000
+      internalID: -3446366153316825764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAME_PUPPET_STAGE_LAYERS_14
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 49
+        width: 152
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d410cedc4a5170030800000000000000
+      internalID: 3460758636231131469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GAME_PUPPET_STAGE_LAYERS_0: -8579928073117763355
+      GAME_PUPPET_STAGE_LAYERS_1: -8446273031135935582
+      GAME_PUPPET_STAGE_LAYERS_10: -1905227841109293316
+      GAME_PUPPET_STAGE_LAYERS_11: -4322705343028642614
+      GAME_PUPPET_STAGE_LAYERS_12: -2351389654064234335
+      GAME_PUPPET_STAGE_LAYERS_13: -3446366153316825764
+      GAME_PUPPET_STAGE_LAYERS_14: 3460758636231131469
+      GAME_PUPPET_STAGE_LAYERS_2: -3320531246097456758
+      GAME_PUPPET_STAGE_LAYERS_3: 743215296151710312
+      GAME_PUPPET_STAGE_LAYERS_4: -2613309481182808635
+      GAME_PUPPET_STAGE_LAYERS_5: -6938587161431423038
+      GAME_PUPPET_STAGE_LAYERS_6: 3869883869403745772
+      GAME_PUPPET_STAGE_LAYERS_7: -2293446336122939922
+      GAME_PUPPET_STAGE_LAYERS_8: 25374890543989272
+      GAME_PUPPET_STAGE_LAYERS_9: -515754421300386196
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

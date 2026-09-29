@@ -19,6 +19,8 @@ public class CameraFollow : MonoBehaviour
     [SerializeField] private float maxY = 10f;
 
     public float Facing => lastDirection;
+    // Non-serialized, opt-in compensation when a room uses a tighter visual framing.
+    public float PresentationLimitPadding { get; set; }
     public Vector2 HorizontalLimits => new Vector2(minX, maxX);
     public Vector2 VerticalLimits => new Vector2(minY, maxY);
     public bool FollowsY => followY;
@@ -26,6 +28,13 @@ public class CameraFollow : MonoBehaviour
     public void SetVerticalLimits(bool enabled, float offset, float bottom, float top)
     { followY = enabled; verticalOffset = offset; minY = bottom; maxY = top; }
     private float lastDirection = 1f;
+    private Camera viewCamera;
+
+    private Vector3 ConfineToRoom(Vector3 position)
+    {
+        if (viewCamera == null) viewCamera = GetComponent<Camera>();
+        return RoomCameraBounds.Confine(viewCamera, target, position);
+    }
 
     private void OnEnable()
     {
@@ -51,11 +60,11 @@ public class CameraFollow : MonoBehaviour
         Vector3 targetPosition =
             GetTargetPosition();
 
-        transform.position = Vector3.Lerp(
+        transform.position = ConfineToRoom(Vector3.Lerp(
             transform.position,
             targetPosition,
-            smoothSpeed * Time.deltaTime
-        );
+            1f - Mathf.Exp(-smoothSpeed * Time.deltaTime)
+        ));
     }
 
     public void SetTarget(Transform value) { target = value; lastDirection = 1f; }
@@ -81,8 +90,8 @@ public class CameraFollow : MonoBehaviour
 
         desiredX = Mathf.Clamp(
             desiredX,
-            minX,
-            maxX
+            minX - PresentationLimitPadding,
+            maxX + PresentationLimitPadding
         );
 
         float desiredY = transform.position.y;
@@ -96,11 +105,11 @@ public class CameraFollow : MonoBehaviour
             );
         }
 
-        return new Vector3(
+        return ConfineToRoom(new Vector3(
             desiredX,
             desiredY,
             transform.position.z
-        );
+        ));
     }
 
     private void ResolveTarget()

@@ -1,0 +1,1327 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ec4acafb2a4b3d4cbc6d984c77edb80, type: 3}
+  m_Name: RemainingSceneArt
+  m_EditorClassIdentifier: Assembly-CSharp::PresentationArtLibrary
+  regions:
+  - key: door_n
+    source: {fileID: 21300000, guid: 02214b48f6707c2459fe5cf3e3e903a4, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 126
+      y: 557
+      width: 206
+      height: 438
+  - key: window_n
+    source: {fileID: 21300000, guid: 02214b48f6707c2459fe5cf3e3e903a4, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 455
+      y: 586
+      width: 535
+      height: 380
+  - key: stairs_n
+    source: {fileID: 21300000, guid: 02214b48f6707c2459fe5cf3e3e903a4, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 1068
+      y: 564
+      width: 373
+      height: 432
+  - key: door_d
+    source: {fileID: 21300000, guid: 02214b48f6707c2459fe5cf3e3e903a4, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 115
+      y: 57
+      width: 220
+      height: 454
+  - key: window_d
+    source: {fileID: 21300000, guid: 02214b48f6707c2459fe5cf3e3e903a4, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 452
+      y: 71
+      width: 542
+      height: 417
+  - key: stairs_d
+    source: {fileID: 21300000, guid: 02214b48f6707c2459fe5cf3e3e903a4, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 1058
+      y: 57
+      width: 404
+      height: 456
+  - key: wall_n
+    source: {fileID: 21300000, guid: e2a119c9e202a2f499d492c7b4fcfb66, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 0
+      y: 492
+      width: 768
+      height: 532
+  - key: wall_d
+    source: {fileID: 21300000, guid: e2a119c9e202a2f499d492c7b4fcfb66, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 768
+      y: 492
+      width: 768
+      height: 532
+  - key: floor_n
+    source: {fileID: 21300000, guid: e2a119c9e202a2f499d492c7b4fcfb66, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 768
+      height: 490
+  - key: floor_d
+    source: {fileID: 21300000, guid: e2a119c9e202a2f499d492c7b4fcfb66, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 768
+      y: 0
+      width: 768
+      height: 490
+  - key: sofa_n
+    source: {fileID: 21300000, guid: d1fbf3385b6d0b647be1b6603c3b72ab, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 17
+      y: 604
+      width: 554
+      height: 239
+  - key: table_n
+    source: {fileID: 21300000, guid: d1fbf3385b6d0b647be1b6603c3b72ab, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 591
+      y: 604
+      width: 453
+      height: 281
+  - key: tv_n
+    source: {fileID: 21300000, guid: d1fbf3385b6d0b647be1b6603c3b72ab, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 1082
+      y: 604
+      width: 435
+      height: 307
+  - key: bed_n
+    source: {fileID: 21300000, guid: d1fbf3385b6d0b647be1b6603c3b72ab, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 33
+      y: 130
+      width: 575
+      height: 271
+  - key: wardrobe_n
+    source: {fileID: 21300000, guid: d1fbf3385b6d0b647be1b6603c3b72ab, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 661
+      y: 120
+      width: 340
+      height: 399
+  - key: desk_n
+    source: {fileID: 21300000, guid: d1fbf3385b6d0b647be1b6603c3b72ab, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 1110
+      y: 120
+      width: 393
+      height: 279
+  - key: sofa_d
+    source: {fileID: 21300000, guid: 0e543dad33adf4a42b24351da087a0e9, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 10
+      y: 581
+      width: 562
+      height: 270
+  - key: table_d
+    source: {fileID: 21300000, guid: 0e543dad33adf4a42b24351da087a0e9, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 577
+      y: 580
+      width: 480
+      height: 319
+  - key: tv_d
+    source: {fileID: 21300000, guid: 0e543dad33adf4a42b24351da087a0e9, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 1070
+      y: 580
+      width: 459
+      height: 333
+  - key: bed_d
+    source: {fileID: 21300000, guid: 0e543dad33adf4a42b24351da087a0e9, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 20
+      y: 118
+      width: 614
+      height: 305
+  - key: wardrobe_d
+    source: {fileID: 21300000, guid: 0e543dad33adf4a42b24351da087a0e9, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 654
+      y: 110
+      width: 350
+      height: 418
+  - key: desk_d
+    source: {fileID: 21300000, guid: 0e543dad33adf4a42b24351da087a0e9, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 1098
+      y: 102
+      width: 424
+      height: 312
+  - key: phone
+    source: {fileID: 21300000, guid: 76681d9d09c031a41b61c814701a32e1, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 45
+      y: 836
+      width: 360
+      height: 356
+  - key: camera
+    source: {fileID: 21300000, guid: 76681d9d09c031a41b61c814701a32e1, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 468
+      y: 832
+      width: 349
+      height: 271
+  - key: lamp
+    source: {fileID: 21300000, guid: 76681d9d09c031a41b61c814701a32e1, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 920
+      y: 828
+      width: 264
+      height: 385
+  - key: photo
+    source: {fileID: 21300000, guid: 76681d9d09c031a41b61c814701a32e1, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 44
+      y: 473
+      width: 343
+      height: 290
+  - key: plant
+    source: {fileID: 21300000, guid: 76681d9d09c031a41b61c814701a32e1, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 453
+      y: 470
+      width: 342
+      height: 356
+  - key: shoes
+    source: {fileID: 21300000, guid: 76681d9d09c031a41b61c814701a32e1, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 832
+      y: 458
+      width: 400
+      height: 296
+  - key: computer
+    source: {fileID: 21300000, guid: 76681d9d09c031a41b61c814701a32e1, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 36
+      y: 96
+      width: 442
+      height: 297
+  - key: guitar
+    source: {fileID: 21300000, guid: 76681d9d09c031a41b61c814701a32e1, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 532
+      y: 34
+      width: 222
+      height: 437
+  - key: cabinet
+    source: {fileID: 21300000, guid: 76681d9d09c031a41b61c814701a32e1, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 882
+      y: 54
+      width: 315
+      height: 371
+  - key: shadow_father
+    source: {fileID: 21300000, guid: 4bee63599b263e742b6370cf1bebcf67, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 175
+      y: 8
+      width: 357
+      height: 1016
+  - key: shadow_mother
+    source: {fileID: 21300000, guid: 4bee63599b263e742b6370cf1bebcf67, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 603
+      y: 10
+      width: 297
+      height: 918
+  - key: shadow_child
+    source: {fileID: 21300000, guid: 4bee63599b263e742b6370cf1bebcf67, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 913
+      y: 30
+      width: 507
+      height: 641
+  - key: facade_home
+    source: {fileID: 21300000, guid: fc187e2e201dd364aa48a69ac9c3e913, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 18
+      y: 520
+      width: 476
+      height: 496
+  - key: facade_shop
+    source: {fileID: 21300000, guid: fc187e2e201dd364aa48a69ac9c3e913, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 521
+      y: 520
+      width: 496
+      height: 497
+  - key: facade_chess
+    source: {fileID: 21300000, guid: fc187e2e201dd364aa48a69ac9c3e913, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 1026
+      y: 520
+      width: 492
+      height: 496
+  - key: facade_food
+    source: {fileID: 21300000, guid: fc187e2e201dd364aa48a69ac9c3e913, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 17
+      y: 28
+      width: 477
+      height: 480
+  - key: facade_zhao
+    source: {fileID: 21300000, guid: fc187e2e201dd364aa48a69ac9c3e913, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 521
+      y: 28
+      width: 490
+      height: 482
+  - key: facade_alley
+    source: {fileID: 21300000, guid: fc187e2e201dd364aa48a69ac9c3e913, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 1036
+      y: 28
+      width: 487
+      height: 480
+  - key: maze_ground_n
+    source: {fileID: 21300000, guid: cb47c6ad6bb1d2843b790879c1ba3d3e, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 34
+      y: 608
+      width: 295
+      height: 289
+  - key: maze_ground_d
+    source: {fileID: 21300000, guid: cb47c6ad6bb1d2843b790879c1ba3d3e, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 34
+      y: 151
+      width: 295
+      height: 292
+  - key: maze_wall_n
+    source: {fileID: 21300000, guid: cb47c6ad6bb1d2843b790879c1ba3d3e, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 373
+      y: 780
+      width: 416
+      height: 38
+  - key: maze_wall_d
+    source: {fileID: 21300000, guid: cb47c6ad6bb1d2843b790879c1ba3d3e, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 373
+      y: 320
+      width: 416
+      height: 39
+  - key: maze_shed_n
+    source: {fileID: 21300000, guid: cb47c6ad6bb1d2843b790879c1ba3d3e, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 833
+      y: 588
+      width: 302
+      height: 344
+  - key: maze_shed_d
+    source: {fileID: 21300000, guid: cb47c6ad6bb1d2843b790879c1ba3d3e, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 833
+      y: 120
+      width: 302
+      height: 361
+  - key: maze_corner_n
+    source: {fileID: 21300000, guid: cb47c6ad6bb1d2843b790879c1ba3d3e, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 1178
+      y: 586
+      width: 354
+      height: 349
+  - key: maze_corner_d
+    source: {fileID: 21300000, guid: cb47c6ad6bb1d2843b790879c1ba3d3e, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 1178
+      y: 118
+      width: 354
+      height: 374
+  - key: school_door_n
+    source: {fileID: 21300000, guid: a5fbaa314e55efd418790f1ea310aa7b, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 67
+      y: 557
+      width: 371
+      height: 395
+  - key: school_window_n
+    source: {fileID: 21300000, guid: a5fbaa314e55efd418790f1ea310aa7b, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 525
+      y: 660
+      width: 450
+      height: 239
+  - key: school_stairs_n
+    source: {fileID: 21300000, guid: a5fbaa314e55efd418790f1ea310aa7b, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 1051
+      y: 549
+      width: 433
+      height: 412
+  - key: school_door_d
+    source: {fileID: 21300000, guid: a5fbaa314e55efd418790f1ea310aa7b, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 67
+      y: 87
+      width: 371
+      height: 394
+  - key: school_window_d
+    source: {fileID: 21300000, guid: a5fbaa314e55efd418790f1ea310aa7b, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 525
+      y: 190
+      width: 450
+      height: 238
+  - key: school_stairs_d
+    source: {fileID: 21300000, guid: a5fbaa314e55efd418790f1ea310aa7b, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 1051
+      y: 79
+      width: 433
+      height: 413
+  - key: father
+    source: {fileID: 21300000, guid: 06074a20eb2bac14390f03c19c999608, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 160
+      y: 512
+      width: 203
+      height: 508
+  - key: mother
+    source: {fileID: 21300000, guid: 06074a20eb2bac14390f03c19c999608, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 480
+      y: 512
+      width: 187
+      height: 492
+  - key: limei
+    source: {fileID: 21300000, guid: 06074a20eb2bac14390f03c19c999608, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 827
+      y: 512
+      width: 213
+      height: 487
+  - key: storyteller
+    source: {fileID: 21300000, guid: 06074a20eb2bac14390f03c19c999608, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 1143
+      y: 511
+      width: 235
+      height: 507
+  - key: wangping
+    source: {fileID: 21300000, guid: 06074a20eb2bac14390f03c19c999608, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 136
+      y: 10
+      width: 224
+      height: 501
+  - key: sunfu
+    source: {fileID: 21300000, guid: 06074a20eb2bac14390f03c19c999608, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 500
+      y: 10
+      width: 208
+      height: 501
+  - key: zhaobingcheng
+    source: {fileID: 21300000, guid: 06074a20eb2bac14390f03c19c999608, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 824
+      y: 11
+      width: 214
+      height: 460
+  - key: rings_vendor
+    source: {fileID: 21300000, guid: 06074a20eb2bac14390f03c19c999608, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 1137
+      y: 10
+      width: 288
+      height: 501
+  - key: school_desks_n
+    source: {fileID: 21300000, guid: 68fafd3de80c32e4d8537bc49e0686e5, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 23
+      y: 545
+      width: 487
+      height: 295
+  - key: school_board_n
+    source: {fileID: 21300000, guid: 68fafd3de80c32e4d8537bc49e0686e5, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 532
+      y: 629
+      width: 505
+      height: 296
+  - key: school_office_n
+    source: {fileID: 21300000, guid: 68fafd3de80c32e4d8537bc49e0686e5, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 1058
+      y: 535
+      width: 461
+      height: 394
+  - key: school_cctv_n
+    source: {fileID: 21300000, guid: 68fafd3de80c32e4d8537bc49e0686e5, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 24
+      y: 94
+      width: 497
+      height: 357
+  - key: school_sports_n
+    source: {fileID: 21300000, guid: 68fafd3de80c32e4d8537bc49e0686e5, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 565
+      y: 71
+      width: 435
+      height: 413
+  - key: school_toilet_n
+    source: {fileID: 21300000, guid: 68fafd3de80c32e4d8537bc49e0686e5, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 1038
+      y: 115
+      width: 485
+      height: 339
+  - key: school_desks_d
+    source: {fileID: 21300000, guid: c1bcf9560fa7b6845bb7a5547bc7f16d, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 23
+      y: 545
+      width: 487
+      height: 295
+  - key: school_board_d
+    source: {fileID: 21300000, guid: c1bcf9560fa7b6845bb7a5547bc7f16d, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 532
+      y: 629
+      width: 505
+      height: 296
+  - key: school_office_d
+    source: {fileID: 21300000, guid: c1bcf9560fa7b6845bb7a5547bc7f16d, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 1058
+      y: 535
+      width: 461
+      height: 394
+  - key: school_cctv_d
+    source: {fileID: 21300000, guid: c1bcf9560fa7b6845bb7a5547bc7f16d, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 24
+      y: 94
+      width: 497
+      height: 357
+  - key: school_sports_d
+    source: {fileID: 21300000, guid: c1bcf9560fa7b6845bb7a5547bc7f16d, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 565
+      y: 71
+      width: 435
+      height: 413
+  - key: school_toilet_d
+    source: {fileID: 21300000, guid: c1bcf9560fa7b6845bb7a5547bc7f16d, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 1038
+      y: 115
+      width: 485
+      height: 339
+  - key: child_xp
+    source: {fileID: 21300000, guid: 494b9d626c056c84c90860b2ab2e1d04, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 62
+      y: 20
+      width: 293
+      height: 900
+  - key: child_qt
+    source: {fileID: 21300000, guid: 494b9d626c056c84c90860b2ab2e1d04, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 419
+      y: 20
+      width: 305
+      height: 929
+  - key: youth_xp
+    source: {fileID: 21300000, guid: 494b9d626c056c84c90860b2ab2e1d04, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 782
+      y: 17
+      width: 330
+      height: 1005
+  - key: youth_qt
+    source: {fileID: 21300000, guid: 494b9d626c056c84c90860b2ab2e1d04, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 1160
+      y: 17
+      width: 347
+      height: 1007
+  - key: chess_group
+    source: {fileID: 21300000, guid: f62c693116e247c499bea5abd22ad87a, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 13
+      y: 522
+      width: 455
+      height: 450
+  - key: diners
+    source: {fileID: 21300000, guid: f62c693116e247c499bea5abd22ad87a, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 476
+      y: 519
+      width: 627
+      height: 365
+  - key: shop_vendor
+    source: {fileID: 21300000, guid: f62c693116e247c499bea5abd22ad87a, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 1124
+      y: 512
+      width: 401
+      height: 449
+  - key: neighbours
+    source: {fileID: 21300000, guid: f62c693116e247c499bea5abd22ad87a, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 19
+      y: 42
+      width: 447
+      height: 459
+  - key: cat_stand
+    source: {fileID: 21300000, guid: f62c693116e247c499bea5abd22ad87a, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 742
+      y: 92
+      width: 261
+      height: 286
+  - key: dog
+    source: {fileID: 21300000, guid: f62c693116e247c499bea5abd22ad87a, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 1009
+      y: 88
+      width: 273
+      height: 195
+  - key: puddle_child
+    source: {fileID: 21300000, guid: f62c693116e247c499bea5abd22ad87a, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 1282
+      y: 56
+      width: 246
+      height: 420
+  - key: cat_sleep
+    source: {fileID: 21300000, guid: 4530213692764384ba5cd2a04b9f484f, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 491
+      y: 81
+      width: 249
+      height: 197
+  - key: river_day
+    source: {fileID: 21300000, guid: 4da2898dbf8e9054a85076812cf12640, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 0
+      y: 512
+      width: 1536
+      height: 512
+  - key: river_rain
+    source: {fileID: 21300000, guid: 4da2898dbf8e9054a85076812cf12640, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1536
+      height: 512
+  - key: town_day
+    source: {fileID: 21300000, guid: 4da2898dbf8e9054a85076812cf12640, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 0
+      y: 716
+      width: 1536
+      height: 308
+  - key: noticeboard
+    source: {fileID: 21300000, guid: 79e2f58721eb14d44b02290c1ec65428, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 48
+      y: 569
+      width: 420
+      height: 391
+  - key: ring_prizes
+    source: {fileID: 21300000, guid: 79e2f58721eb14d44b02290c1ec65428, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 477
+      y: 570
+      width: 573
+      height: 270
+  - key: pond
+    source: {fileID: 21300000, guid: 79e2f58721eb14d44b02290c1ec65428, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 1020
+      y: 534
+      width: 516
+      height: 419
+  - key: river_tree
+    source: {fileID: 21300000, guid: 79e2f58721eb14d44b02290c1ec65428, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 12
+      y: 42
+      width: 600
+      height: 513
+  - key: pavilion
+    source: {fileID: 21300000, guid: 79e2f58721eb14d44b02290c1ec65428, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 614
+      y: 38
+      width: 599
+      height: 404
+  - key: signpost
+    source: {fileID: 21300000, guid: 79e2f58721eb14d44b02290c1ec65428, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 1230
+      y: 40
+      width: 278
+      height: 472
+  - key: zhangruoyuan
+    source: {fileID: 21300000, guid: 68098da7c29ed9341ba73a1c1710449c, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 127
+      y: 474
+      width: 194
+      height: 540
+  - key: director
+    source: {fileID: 21300000, guid: 68098da7c29ed9341ba73a1c1710449c, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 454
+      y: 473
+      width: 229
+      height: 543
+  - key: xiangyan
+    source: {fileID: 21300000, guid: 68098da7c29ed9341ba73a1c1710449c, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 839
+      y: 474
+      width: 245
+      height: 541
+  - key: xiangyan_shadow
+    source: {fileID: 21300000, guid: 68098da7c29ed9341ba73a1c1710449c, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 1219
+      y: 473
+      width: 239
+      height: 544
+  - key: students_chat
+    source: {fileID: 21300000, guid: 68098da7c29ed9341ba73a1c1710449c, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 51
+      y: 17
+      width: 320
+      height: 454
+  - key: student_read
+    source: {fileID: 21300000, guid: 68098da7c29ed9341ba73a1c1710449c, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 449
+      y: 17
+      width: 284
+      height: 439
+  - key: student_sleep
+    source: {fileID: 21300000, guid: 68098da7c29ed9341ba73a1c1710449c, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 808
+      y: 19
+      width: 302
+      height: 406
+  - key: students_back
+    source: {fileID: 21300000, guid: 68098da7c29ed9341ba73a1c1710449c, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 1193
+      y: 16
+      width: 299
+      height: 456
+  - key: school_wall_n
+    source: {fileID: 21300000, guid: 6cb85264bb528f04484dcacda046af7f, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 0
+      y: 486
+      width: 768
+      height: 538
+  - key: school_wall_d
+    source: {fileID: 21300000, guid: 6cb85264bb528f04484dcacda046af7f, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 768
+      y: 486
+      width: 768
+      height: 538
+  - key: school_floor_n
+    source: {fileID: 21300000, guid: 6cb85264bb528f04484dcacda046af7f, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 768
+      height: 480
+  - key: school_floor_d
+    source: {fileID: 21300000, guid: 6cb85264bb528f04484dcacda046af7f, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 768
+      y: 0
+      width: 768
+      height: 480
+  - key: hoop
+    source: {fileID: 21300000, guid: 6ffecdc4657f888408d06151e75f8301, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 25
+      y: 510
+      width: 466
+      height: 514
+  - key: basketball
+    source: {fileID: 21300000, guid: 6ffecdc4657f888408d06151e75f8301, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 610
+      y: 676
+      width: 162
+      height: 171
+  - key: oil_lamp
+    source: {fileID: 21300000, guid: 6ffecdc4657f888408d06151e75f8301, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 811
+      y: 675
+      width: 120
+      height: 243
+  - key: folded_note
+    source: {fileID: 21300000, guid: 6ffecdc4657f888408d06151e75f8301, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 688
+      y: 537
+      width: 182
+      height: 129
+  - key: roof_hut
+    source: {fileID: 21300000, guid: 6ffecdc4657f888408d06151e75f8301, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 1027
+      y: 521
+      width: 509
+      height: 455
+  - key: water_tank
+    source: {fileID: 21300000, guid: 6ffecdc4657f888408d06151e75f8301, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 45
+      y: 27
+      width: 450
+      height: 459
+  - key: school_books
+    source: {fileID: 21300000, guid: 6ffecdc4657f888408d06151e75f8301, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 529
+      y: 23
+      width: 468
+      height: 472
+  - key: usb
+    source: {fileID: 21300000, guid: 6ffecdc4657f888408d06151e75f8301, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 1061
+      y: 298
+      width: 175
+      height: 135
+  - key: pencil
+    source: {fileID: 21300000, guid: 6ffecdc4657f888408d06151e75f8301, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 1215
+      y: 317
+      width: 280
+      height: 119
+  - key: postits
+    source: {fileID: 21300000, guid: 6ffecdc4657f888408d06151e75f8301, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 1058
+      y: 113
+      width: 180
+      height: 160
+  - key: folder
+    source: {fileID: 21300000, guid: 6ffecdc4657f888408d06151e75f8301, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 1228
+      y: 41
+      width: 278
+      height: 271
+  - key: hospital_wall
+    source: {fileID: 21300000, guid: 06f31676cf63f5e4ebae36c30993fc0f, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 18
+      y: 599
+      width: 507
+      height: 359
+  - key: hospital_bed
+    source: {fileID: 21300000, guid: 06f31676cf63f5e4ebae36c30993fc0f, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 545
+      y: 582
+      width: 489
+      height: 261
+  - key: gurney
+    source: {fileID: 21300000, guid: 06f31676cf63f5e4ebae36c30993fc0f, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 1042
+      y: 583
+      width: 493
+      height: 222
+  - key: car_interior
+    source: {fileID: 21300000, guid: 06f31676cf63f5e4ebae36c30993fc0f, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 10
+      y: 48
+      width: 541
+      height: 446
+  - key: nurse
+    source: {fileID: 21300000, guid: 06f31676cf63f5e4ebae36c30993fc0f, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 718
+      y: 26
+      width: 181
+      height: 556
+  - key: doctor
+    source: {fileID: 21300000, guid: 06f31676cf63f5e4ebae36c30993fc0f, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 1148
+      y: 14
+      width: 210
+      height: 579
+  - key: uniform_drop
+    source: {fileID: 21300000, guid: dca52250f826be54f90c690dd3cbc3ef, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 30
+      y: 538
+      width: 474
+      height: 400
+  - key: covered_bed
+    source: {fileID: 21300000, guid: dca52250f826be54f90c690dd3cbc3ef, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 505
+      y: 554
+      width: 538
+      height: 339
+  - key: reaching_hand
+    source: {fileID: 21300000, guid: dca52250f826be54f90c690dd3cbc3ef, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 1065
+      y: 610
+      width: 449
+      height: 255
+  - key: uniform_sleeve
+    source: {fileID: 21300000, guid: dca52250f826be54f90c690dd3cbc3ef, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 13
+      y: 140
+      width: 468
+      height: 264
+  - key: temple_hand
+    source: {fileID: 21300000, guid: dca52250f826be54f90c690dd3cbc3ef, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 506
+      y: 79
+      width: 254
+      height: 399
+  - key: dark_sleeve
+    source: {fileID: 21300000, guid: dca52250f826be54f90c690dd3cbc3ef, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 735
+      y: 47
+      width: 311
+      height: 441
+  - key: pendant
+    source: {fileID: 21300000, guid: dca52250f826be54f90c690dd3cbc3ef, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 1064
+      y: 117
+      width: 198
+      height: 365
+  - key: arm_wound
+    source: {fileID: 21300000, guid: dca52250f826be54f90c690dd3cbc3ef, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 1258
+      y: 76
+      width: 255
+      height: 344
+  - key: hoop_board
+    source: {fileID: 21300000, guid: a60640dc60fe4434094a790a04d7239c, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 352
+      y: 1012
+      width: 32
+      height: 450
+  - key: hoop_rim
+    source: {fileID: 21300000, guid: a60640dc60fe4434094a790a04d7239c, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 82
+      y: 935
+      width: 270
+      height: 201
+  - key: hoop_support
+    source: {fileID: 21300000, guid: a60640dc60fe4434094a790a04d7239c, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 383
+      y: 72
+      width: 587
+      height: 1221
+  - key: maze_face_n
+    source: {fileID: 21300000, guid: a939183372b90954e9e4f5b28842248d, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 13
+      y: 634
+      width: 532
+      height: 158
+  - key: maze_face_d
+    source: {fileID: 21300000, guid: a939183372b90954e9e4f5b28842248d, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 14
+      y: 150
+      width: 531
+      height: 164
+  - key: maze_chalk_n
+    source: {fileID: 21300000, guid: a939183372b90954e9e4f5b28842248d, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 567
+      y: 540
+      width: 241
+      height: 393
+  - key: maze_chalk_d
+    source: {fileID: 21300000, guid: a939183372b90954e9e4f5b28842248d, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 539
+      y: 56
+      width: 291
+      height: 399
+  - key: maze_planter_n
+    source: {fileID: 21300000, guid: a939183372b90954e9e4f5b28842248d, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 838
+      y: 613
+      width: 410
+      height: 186
+  - key: maze_planter_d
+    source: {fileID: 21300000, guid: a939183372b90954e9e4f5b28842248d, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 838
+      y: 131
+      width: 410
+      height: 177
+  - key: maze_meter_n
+    source: {fileID: 21300000, guid: a939183372b90954e9e4f5b28842248d, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 1280
+      y: 562
+      width: 245
+      height: 412
+  - key: maze_meter_d
+    source: {fileID: 21300000, guid: a939183372b90954e9e4f5b28842248d, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 1274
+      y: 54
+      width: 251
+      height: 432
+  - key: seated_xp
+    source: {fileID: 21300000, guid: 6b5fadde28c093845a46abedf1b21743, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 135
+      y: 16
+      width: 586
+      height: 1000
+  - key: seated_qt
+    source: {fileID: 21300000, guid: 6b5fadde28c093845a46abedf1b21743, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 865
+      y: 12
+      width: 568
+      height: 1004
+  - key: car_rear
+    source: {fileID: 21300000, guid: ee7e440307dcba44aa19b0cacb70001e, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1672
+      height: 941
+  - key: ward_window
+    source: {fileID: 21300000, guid: a232d8494238b2248945ee783cac66e1, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 70
+      y: 633
+      width: 643
+      height: 338
+  - key: ward_panel
+    source: {fileID: 21300000, guid: a232d8494238b2248945ee783cac66e1, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 776
+      y: 636
+      width: 710
+      height: 240
+  - key: ward_curtain
+    source: {fileID: 21300000, guid: a232d8494238b2248945ee783cac66e1, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 180
+      y: 33
+      width: 449
+      height: 576
+  - key: ward_cabinet
+    source: {fileID: 21300000, guid: a232d8494238b2248945ee783cac66e1, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 936
+      y: 59
+      width: 353
+      height: 514
+  - key: hospital_plaster
+    source: {fileID: 21300000, guid: 06f31676cf63f5e4ebae36c30993fc0f, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 249
+      y: 736
+      width: 228
+      height: 137
+  - key: hospital_dado
+    source: {fileID: 21300000, guid: 06f31676cf63f5e4ebae36c30993fc0f, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 240
+      y: 624
+      width: 238
+      height: 68
+  - key: hospital_baseboard
+    source: {fileID: 21300000, guid: 06f31676cf63f5e4ebae36c30993fc0f, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 225
+      y: 607
+      width: 255
+      height: 13
+  - key: street_gate
+    source: {fileID: 21300000, guid: cd098dba08c9bc04894420e8e358feac, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 78
+      y: 88
+      width: 1388
+      height: 864
+  - key: adult_qt
+    source: {fileID: 21300000, guid: 895367b81fdb425d846fa93f510159d7, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 290
+      y: 0
+      width: 493
+      height: 1536
+  - key: puppet_princess
+    source: {fileID: 21300000, guid: 81ef832aabed01f40bd0a9e8ac22db64, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 44
+      y: 794
+      width: 343
+      height: 460
+  - key: puppet_knight
+    source: {fileID: 21300000, guid: 81ef832aabed01f40bd0a9e8ac22db64, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 445
+      y: 792
+      width: 328
+      height: 462
+  - key: puppet_rebel
+    source: {fileID: 21300000, guid: 81ef832aabed01f40bd0a9e8ac22db64, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 882
+      y: 794
+      width: 354
+      height: 460
+  - key: puppet_castle
+    source: {fileID: 21300000, guid: 81ef832aabed01f40bd0a9e8ac22db64, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 20
+      y: 429
+      width: 395
+      height: 365
+  - key: puppet_ring
+    source: {fileID: 21300000, guid: 81ef832aabed01f40bd0a9e8ac22db64, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 438
+      y: 439
+      width: 398
+      height: 312
+  - key: puppet_coin
+    source: {fileID: 21300000, guid: 81ef832aabed01f40bd0a9e8ac22db64, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 896
+      y: 439
+      width: 324
+      height: 302
+  - key: puppet_prize
+    source: {fileID: 21300000, guid: 81ef832aabed01f40bd0a9e8ac22db64, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 55
+      y: 10
+      width: 368
+      height: 421
+  - key: puppet_skittles
+    source: {fileID: 21300000, guid: 81ef832aabed01f40bd0a9e8ac22db64, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 511
+      y: 15
+      width: 233
+      height: 417
+  - key: puppet_stage
+    source: {fileID: 21300000, guid: 81ef832aabed01f40bd0a9e8ac22db64, type: 3}
+    pixels:
+      serializedVersion: 2
+      x: 832
+      y: 0
+      width: 421
+      height: 429

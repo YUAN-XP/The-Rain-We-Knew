@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: dca52250f826be54f90c690dd3cbc3ef
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3058342430665040216
+    second: PM_Ending_Gestures_N01_0
+  - first:
+      213: -4703707073958691052
+    second: PM_Ending_Gestures_N01_1
+  - first:
+      213: 1980277910830432031
+    second: PM_Ending_Gestures_N01_2
+  - first:
+      213: -5408349177396058136
+    second: PM_Ending_Gestures_N01_3
+  - first:
+      213: 5503025748937357557
+    second: PM_Ending_Gestures_N01_4
+  - first:
+      213: -5155827612311352641
+    second: PM_Ending_Gestures_N01_5
+  - first:
+      213: -613242657311276263
+    second: PM_Ending_Gestures_N01_6
+  - first:
+      213: 8635698989330359235
+    second: PM_Ending_Gestures_N01_7
+  - first:
+      213: -3195060983719921172
+    second: PM_Ending_Gestures_N01_8
+  - first:
+      213: 4600126658171844307
+    second: PM_Ending_Gestures_N01_9
+  - first:
+      213: -6109178699130365592
+    second: PM_Ending_Gestures_N01_10
+  - first:
+      213: 358890401921139827
+    second: PM_Ending_Gestures_N01_11
+  - first:
+      213: -5723531249730801800
+    second: PM_Ending_Gestures_N01_12
+  - first:
+      213: -3789633111649785565
+    second: PM_Ending_Gestures_N01_13
+  - first:
+      213: -8684676006001017443
+    second: PM_Ending_Gestures_N01_14
+  - first:
+      213: 918440713272904425
+    second: PM_Ending_Gestures_N01_15
+  - first:
+      213: -4081770023164274299
+    second: PM_Ending_Gestures_N01_16
+  - first:
+      213: 3053582111294418282
+    second: PM_Ending_Gestures_N01_17
+  - first:
+      213: -8078795355222860292
+    second: PM_Ending_Gestures_N01_18
+  - first:
+      213: 8919556572088325229
+    second: PM_Ending_Gestures_N01_19
+  - first:
+      213: 3927620856919785613
+    second: PM_Ending_Gestures_N01_20
+  - first:
+      213: -7227183623679358313
+    second: PM_Ending_Gestures_N01_21
+  - first:
+      213: 6400755191492815206
+    second: PM_Ending_Gestures_N01_22
+  - first:
+      213: -5731134684801594814
+    second: PM_Ending_Gestures_N01_23
+  - first:
+      213: -7817571755582741471
+    second: PM_Ending_Gestures_N01_24
+  - first:
+      213: 3001673337407041786
+    second: PM_Ending_Gestures_N01_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PM_Ending_Gestures_N01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 401
+        width: 502
+        height: 567
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ae94ba53c59e85d0800000000000000
+      internalID: -3058342430665040216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_Gestures_N01_1
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 485
+        width: 619
+        height: 532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f3339665319beb0800000000000000
+      internalID: -4703707073958691052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_Gestures_N01_2
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 427
+        width: 460
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1fb997944c5b7b10800000000000000
+      internalID: 1980277910830432031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_Gestures_N01_3
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 901
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e7280ce31fa1f4b0800000000000000
+      internalID: -5408349177396058136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_Gestures_N01_4
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 883
+        width: 163
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f83d3b23ccae5c40800000000000000
+      internalID: 5503025748937357557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_Gestures_N01_5
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 859
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fba08057a12d278b0800000000000000
+      internalID: -5155827612311352641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_Gestures_N01_6
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 550
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91348d16d035d77f0800000000000000
+      internalID: -613242657311276263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_Gestures_N01_7
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 546
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c36c361a7a28d770800000000000000
+      internalID: 8635698989330359235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_Gestures_N01_8
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 491
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce9f9a5a6fcd8a3d0800000000000000
+      internalID: -3195060983719921172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_Gestures_N01_9
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 480
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d63326b2dee6df30800000000000000
+      internalID: 4600126658171844307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_Gestures_N01_10
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 493
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86993f84756d73ba0800000000000000
+      internalID: -6109178699130365592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_Gestures_N01_11
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 30
+        width: 258
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3748ec74be80bf400800000000000000
+      internalID: 358890401921139827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_Gestures_N01_12
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 25
+        width: 315
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87fa2f627aee190b0800000000000000
+      internalID: -5723531249730801800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_Gestures_N01_13
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 23
+        width: 229
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3296e0763c4886bc0800000000000000
+      internalID: -3789633111649785565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_Gestures_N01_14
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 454
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9d73f89f25d97780800000000000000
+      internalID: -8684676006001017443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_Gestures_N01_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 483
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ea43ed66f4febc00800000000000000
+      internalID: 918440713272904425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_Gestures_N01_16
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 399
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58994724ac3aa57c0800000000000000
+      internalID: -4081770023164274299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_Gestures_N01_17
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 18
+        width: 261
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6de03c60c0806a20800000000000000
+      internalID: 3053582111294418282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_Gestures_N01_18
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 63
+        width: 17
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfd9dde7d6a52ef80800000000000000
+      internalID: -8078795355222860292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_Gestures_N01_19
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 103
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d645359c171a8cb70800000000000000
+      internalID: 8919556572088325229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_Gestures_N01_20
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 68
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d808e152c56b18630800000000000000
+      internalID: 3927620856919785613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_Gestures_N01_21
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 73
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79a421819c2e3bb90800000000000000
+      internalID: -7227183623679358313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_Gestures_N01_22
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 31
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 669aa2b1fec04d850800000000000000
+      internalID: 6400755191492815206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_Gestures_N01_23
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 15
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24a0b787e5be670b0800000000000000
+      internalID: -5731134684801594814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_Gestures_N01_24
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 34
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1242d5658e7628390800000000000000
+      internalID: -7817571755582741471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Ending_Gestures_N01_25
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 11
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af078ef2ff518a920800000000000000
+      internalID: 3001673337407041786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PM_Ending_Gestures_N01_0: -3058342430665040216
+      PM_Ending_Gestures_N01_1: -4703707073958691052
+      PM_Ending_Gestures_N01_10: -6109178699130365592
+      PM_Ending_Gestures_N01_11: 358890401921139827
+      PM_Ending_Gestures_N01_12: -5723531249730801800
+      PM_Ending_Gestures_N01_13: -3789633111649785565
+      PM_Ending_Gestures_N01_14: -8684676006001017443
+      PM_Ending_Gestures_N01_15: 918440713272904425
+      PM_Ending_Gestures_N01_16: -4081770023164274299
+      PM_Ending_Gestures_N01_17: 3053582111294418282
+      PM_Ending_Gestures_N01_18: -8078795355222860292
+      PM_Ending_Gestures_N01_19: 8919556572088325229
+      PM_Ending_Gestures_N01_2: 1980277910830432031
+      PM_Ending_Gestures_N01_20: 3927620856919785613
+      PM_Ending_Gestures_N01_21: -7227183623679358313
+      PM_Ending_Gestures_N01_22: 6400755191492815206
+      PM_Ending_Gestures_N01_23: -5731134684801594814
+      PM_Ending_Gestures_N01_24: -7817571755582741471
+      PM_Ending_Gestures_N01_25: 3001673337407041786
+      PM_Ending_Gestures_N01_3: -5408349177396058136
+      PM_Ending_Gestures_N01_4: 5503025748937357557
+      PM_Ending_Gestures_N01_5: -5155827612311352641
+      PM_Ending_Gestures_N01_6: -613242657311276263
+      PM_Ending_Gestures_N01_7: 8635698989330359235
+      PM_Ending_Gestures_N01_8: -3195060983719921172
+      PM_Ending_Gestures_N01_9: 4600126658171844307
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

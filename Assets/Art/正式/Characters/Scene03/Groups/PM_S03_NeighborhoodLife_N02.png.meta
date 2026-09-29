@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 4530213692764384ba5cd2a04b9f484f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 20515653422300877
+    second: PM_S03_NeighborhoodLife_N02_0
+  - first:
+      213: 5156378080521996098
+    second: PM_S03_NeighborhoodLife_N02_1
+  - first:
+      213: -4932201264968591497
+    second: PM_S03_NeighborhoodLife_N02_2
+  - first:
+      213: 4683383621305090300
+    second: PM_S03_NeighborhoodLife_N02_3
+  - first:
+      213: -3343063426624315385
+    second: PM_S03_NeighborhoodLife_N02_4
+  - first:
+      213: 8709980562803896868
+    second: PM_S03_NeighborhoodLife_N02_5
+  - first:
+      213: 4159640015448367993
+    second: PM_S03_NeighborhoodLife_N02_6
+  - first:
+      213: -8248370962769209479
+    second: PM_S03_NeighborhoodLife_N02_7
+  - first:
+      213: 9155270103504647080
+    second: PM_S03_NeighborhoodLife_N02_8
+  - first:
+      213: -4013332599879708218
+    second: PM_S03_NeighborhoodLife_N02_9
+  - first:
+      213: -1848099161551335553
+    second: PM_S03_NeighborhoodLife_N02_10
+  - first:
+      213: -2154124078355616242
+    second: PM_S03_NeighborhoodLife_N02_11
+  - first:
+      213: -3379160150067139403
+    second: PM_S03_NeighborhoodLife_N02_12
+  - first:
+      213: -4450537224637308102
+    second: PM_S03_NeighborhoodLife_N02_13
+  - first:
+      213: -2049655729286779754
+    second: PM_S03_NeighborhoodLife_N02_14
+  - first:
+      213: 462707119714550358
+    second: PM_S03_NeighborhoodLife_N02_15
+  - first:
+      213: -3608714200159638034
+    second: PM_S03_NeighborhoodLife_N02_16
+  - first:
+      213: -4831482387619353901
+    second: PM_S03_NeighborhoodLife_N02_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PM_S03_NeighborhoodLife_N02_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 523
+        width: 453
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dce329ac0e2e84000800000000000000
+      internalID: 20515653422300877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S03_NeighborhoodLife_N02_1
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 292
+        width: 633
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 247cf196b822f8740800000000000000
+      internalID: 5156378080521996098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S03_NeighborhoodLife_N02_2
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 477
+        width: 403
+        height: 513
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77790d8d41d4d8bb0800000000000000
+      internalID: -4932201264968591497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S03_NeighborhoodLife_N02_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 431
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf0c5c60798bef040800000000000000
+      internalID: 4683383621305090300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S03_NeighborhoodLife_N02_4
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 418
+        width: 9
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 700257a968d0b91d0800000000000000
+      internalID: -3343063426624315385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S03_NeighborhoodLife_N02_5
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 45
+        width: 273
+        height: 451
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 422bb76ac2110e870800000000000000
+      internalID: 8709980562803896868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S03_NeighborhoodLife_N02_6
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 45
+        width: 212
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 973ec4a2e820ab930800000000000000
+      internalID: 4159640015448367993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S03_NeighborhoodLife_N02_7
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 17
+        width: 526
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9779e74af46e78d80800000000000000
+      internalID: -8248370962769209479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S03_NeighborhoodLife_N02_8
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 423
+        width: 43
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a3f52607ad0e0f70800000000000000
+      internalID: 9155270103504647080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S03_NeighborhoodLife_N02_9
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 405
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c1dca29347cd48c0800000000000000
+      internalID: -4013332599879708218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S03_NeighborhoodLife_N02_10
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 397
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7f090eaa9b3a56e0800000000000000
+      internalID: -1848099161551335553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S03_NeighborhoodLife_N02_11
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 339
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0e6f7350930b12e0800000000000000
+      internalID: -2154124078355616242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S03_NeighborhoodLife_N02_12
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 357
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bca7104fbfca11d0800000000000000
+      internalID: -3379160150067139403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S03_NeighborhoodLife_N02_13
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 338
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3327d169f38c32c0800000000000000
+      internalID: -4450537224637308102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S03_NeighborhoodLife_N02_14
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 18
+        width: 271
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69c640849f82e83e0800000000000000
+      internalID: -2049655729286779754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S03_NeighborhoodLife_N02_15
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 35
+        width: 246
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65241a18caddb6600800000000000000
+      internalID: 462707119714550358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S03_NeighborhoodLife_N02_16
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 33
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeda3930e854bedc0800000000000000
+      internalID: -3608714200159638034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S03_NeighborhoodLife_N02_17
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 28
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3da6463ed5023fcb0800000000000000
+      internalID: -4831482387619353901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PM_S03_NeighborhoodLife_N02_0: 20515653422300877
+      PM_S03_NeighborhoodLife_N02_1: 5156378080521996098
+      PM_S03_NeighborhoodLife_N02_10: -1848099161551335553
+      PM_S03_NeighborhoodLife_N02_11: -2154124078355616242
+      PM_S03_NeighborhoodLife_N02_12: -3379160150067139403
+      PM_S03_NeighborhoodLife_N02_13: -4450537224637308102
+      PM_S03_NeighborhoodLife_N02_14: -2049655729286779754
+      PM_S03_NeighborhoodLife_N02_15: 462707119714550358
+      PM_S03_NeighborhoodLife_N02_16: -3608714200159638034
+      PM_S03_NeighborhoodLife_N02_17: -4831482387619353901
+      PM_S03_NeighborhoodLife_N02_2: -4932201264968591497
+      PM_S03_NeighborhoodLife_N02_3: 4683383621305090300
+      PM_S03_NeighborhoodLife_N02_4: -3343063426624315385
+      PM_S03_NeighborhoodLife_N02_5: 8709980562803896868
+      PM_S03_NeighborhoodLife_N02_6: 4159640015448367993
+      PM_S03_NeighborhoodLife_N02_7: -8248370962769209479
+      PM_S03_NeighborhoodLife_N02_8: 9155270103504647080
+      PM_S03_NeighborhoodLife_N02_9: -4013332599879708218
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

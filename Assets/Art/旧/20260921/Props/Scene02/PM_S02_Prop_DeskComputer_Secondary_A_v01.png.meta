@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: 9e49f7727f1f24f41ab37717f92e194a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1972772380864732015
+    second: PM_S02_Prop_DeskComputer_Secondary_A_v01_0
+  - first:
+      213: -5069931846892172741
+    second: PM_S02_Prop_DeskComputer_Secondary_A_v01_1
+  - first:
+      213: 8448748841780227609
+    second: PM_S02_Prop_DeskComputer_Secondary_A_v01_2
+  - first:
+      213: -8067272170334279670
+    second: PM_S02_Prop_DeskComputer_Secondary_A_v01_3
+  - first:
+      213: 3130598403056899614
+    second: PM_S02_Prop_DeskComputer_Secondary_A_v01_4
+  - first:
+      213: 1966553233254961810
+    second: PM_S02_Prop_DeskComputer_Secondary_A_v01_5
+  - first:
+      213: -3761313392511695948
+    second: PM_S02_Prop_DeskComputer_Secondary_A_v01_6
+  - first:
+      213: 5839078135018224838
+    second: PM_S02_Prop_DeskComputer_Secondary_A_v01_7
+  - first:
+      213: -4876045645946993784
+    second: PM_S02_Prop_DeskComputer_Secondary_A_v01_8
+  - first:
+      213: 1286271842404769925
+    second: PM_S02_Prop_DeskComputer_Secondary_A_v01_9
+  - first:
+      213: -6581960217380756380
+    second: PM_S02_Prop_DeskComputer_Secondary_A_v01_10
+  - first:
+      213: -3281509572407371453
+    second: PM_S02_Prop_DeskComputer_Secondary_A_v01_11
+  - first:
+      213: -5422149353691521053
+    second: PM_S02_Prop_DeskComputer_Secondary_A_v01_12
+  - first:
+      213: -2116039792757264499
+    second: PM_S02_Prop_DeskComputer_Secondary_A_v01_13
+  - first:
+      213: -3942401661537009940
+    second: PM_S02_Prop_DeskComputer_Secondary_A_v01_14
+  - first:
+      213: -532246816884452873
+    second: PM_S02_Prop_DeskComputer_Secondary_A_v01_15
+  - first:
+      213: 2961874213734561713
+    second: PM_S02_Prop_DeskComputer_Secondary_A_v01_16
+  - first:
+      213: 4931798085312208617
+    second: PM_S02_Prop_DeskComputer_Secondary_A_v01_17
+  - first:
+      213: -5100743998422836878
+    second: PM_S02_Prop_DeskComputer_Secondary_A_v01_18
+  - first:
+      213: -8383085894657158511
+    second: PM_S02_Prop_DeskComputer_Secondary_A_v01_19
+  - first:
+      213: 7205200115878608681
+    second: PM_S02_Prop_DeskComputer_Secondary_A_v01_20
+  - first:
+      213: -2577390953855458294
+    second: PM_S02_Prop_DeskComputer_Secondary_A_v01_21
+  - first:
+      213: -3090745284356868347
+    second: PM_S02_Prop_DeskComputer_Secondary_A_v01_22
+  - first:
+      213: 1969675923889589307
+    second: PM_S02_Prop_DeskComputer_Secondary_A_v01_23
+  - first:
+      213: 1213836860196028222
+    second: PM_S02_Prop_DeskComputer_Secondary_A_v01_24
+  - first:
+      213: -4290072626923399592
+    second: PM_S02_Prop_DeskComputer_Secondary_A_v01_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 9
+  spritePivot: {x: 0.52520716, y: 0.044198897}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PM_S02_Prop_DeskComputer_Secondary_A_v01_0
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 1055
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1942bd7c8fd4f94e0800000000000000
+      internalID: -1972772380864732015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_DeskComputer_Secondary_A_v01_1
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1038
+        width: 46
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3a4d8ec8dbf3a9b0800000000000000
+      internalID: -5069931846892172741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_DeskComputer_Secondary_A_v01_2
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1044
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91eadc6ee4cff3570800000000000000
+      internalID: 8448748841780227609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_DeskComputer_Secondary_A_v01_3
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1018
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a08a4dc04ba4b0090800000000000000
+      internalID: -8067272170334279670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_DeskComputer_Secondary_A_v01_4
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 1052
+        width: 45
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e169c9439ae127b20800000000000000
+      internalID: 3130598403056899614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_DeskComputer_Secondary_A_v01_5
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 1052
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 292de041fb99a4b10800000000000000
+      internalID: 1966553233254961810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_DeskComputer_Secondary_A_v01_6
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1036
+        width: 92
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b3cb66d5612dcbc0800000000000000
+      internalID: -3761313392511695948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_DeskComputer_Secondary_A_v01_7
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 1044
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ccf28580a2980150800000000000000
+      internalID: 5839078135018224838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_DeskComputer_Secondary_A_v01_8
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 1036
+        width: 59
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8834db4c15ec45cb0800000000000000
+      internalID: -4876045645946993784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_DeskComputer_Secondary_A_v01_9
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1028
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 580af1bfc61c9d110800000000000000
+      internalID: 1286271842404769925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_DeskComputer_Secondary_A_v01_10
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 1036
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46464451e0e28a4a0800000000000000
+      internalID: -6581960217380756380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_DeskComputer_Secondary_A_v01_11
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 1034
+        width: 38
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3495d991e6cb572d0800000000000000
+      internalID: -3281509572407371453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_DeskComputer_Secondary_A_v01_12
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 1040
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ef5a1ef3e7a0c4b0800000000000000
+      internalID: -5422149353691521053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_DeskComputer_Secondary_A_v01_13
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 1016
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8fac1e050152a2e0800000000000000
+      internalID: -2116039792757264499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_DeskComputer_Secondary_A_v01_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1435
+        height: 1038
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cee3d2a9396c949c0800000000000000
+      internalID: -3942401661537009940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_DeskComputer_Secondary_A_v01_15
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 1010
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f115ca07541d98f0800000000000000
+      internalID: -532246816884452873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_DeskComputer_Secondary_A_v01_16
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 763
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b7b90b97e0ba1920800000000000000
+      internalID: 2961874213734561713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_DeskComputer_Secondary_A_v01_17
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 767
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ee5cf29a34417440800000000000000
+      internalID: 4931798085312208617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_DeskComputer_Secondary_A_v01_18
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 23
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2791dcbbb548639b0800000000000000
+      internalID: -5100743998422836878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_DeskComputer_Secondary_A_v01_19
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 33
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1925f575bcb49ab80800000000000000
+      internalID: -8383085894657158511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_DeskComputer_Secondary_A_v01_20
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 15
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92f3c82a4530ef360800000000000000
+      internalID: 7205200115878608681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_DeskComputer_Secondary_A_v01_21
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 15
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a04e32445944b3cd0800000000000000
+      internalID: -2577390953855458294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_DeskComputer_Secondary_A_v01_22
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 15
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 507f1b21a877b15d0800000000000000
+      internalID: -3090745284356868347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_DeskComputer_Secondary_A_v01_23
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 16
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3c041621d1b55b10800000000000000
+      internalID: 1969675923889589307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_DeskComputer_Secondary_A_v01_24
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 17
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3f7243713a68d010800000000000000
+      internalID: 1213836860196028222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_DeskComputer_Secondary_A_v01_25
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 17
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8569a93fca99674c0800000000000000
+      internalID: -4290072626923399592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PM_S02_Prop_DeskComputer_Secondary_A_v01_0: -1972772380864732015
+      PM_S02_Prop_DeskComputer_Secondary_A_v01_1: -5069931846892172741
+      PM_S02_Prop_DeskComputer_Secondary_A_v01_10: -6581960217380756380
+      PM_S02_Prop_DeskComputer_Secondary_A_v01_11: -3281509572407371453
+      PM_S02_Prop_DeskComputer_Secondary_A_v01_12: -5422149353691521053
+      PM_S02_Prop_DeskComputer_Secondary_A_v01_13: -2116039792757264499
+      PM_S02_Prop_DeskComputer_Secondary_A_v01_14: -3942401661537009940
+      PM_S02_Prop_DeskComputer_Secondary_A_v01_15: -532246816884452873
+      PM_S02_Prop_DeskComputer_Secondary_A_v01_16: 2961874213734561713
+      PM_S02_Prop_DeskComputer_Secondary_A_v01_17: 4931798085312208617
+      PM_S02_Prop_DeskComputer_Secondary_A_v01_18: -5100743998422836878
+      PM_S02_Prop_DeskComputer_Secondary_A_v01_19: -8383085894657158511
+      PM_S02_Prop_DeskComputer_Secondary_A_v01_2: 8448748841780227609
+      PM_S02_Prop_DeskComputer_Secondary_A_v01_20: 7205200115878608681
+      PM_S02_Prop_DeskComputer_Secondary_A_v01_21: -2577390953855458294
+      PM_S02_Prop_DeskComputer_Secondary_A_v01_22: -3090745284356868347
+      PM_S02_Prop_DeskComputer_Secondary_A_v01_23: 1969675923889589307
+      PM_S02_Prop_DeskComputer_Secondary_A_v01_24: 1213836860196028222
+      PM_S02_Prop_DeskComputer_Secondary_A_v01_25: -4290072626923399592
+      PM_S02_Prop_DeskComputer_Secondary_A_v01_3: -8067272170334279670
+      PM_S02_Prop_DeskComputer_Secondary_A_v01_4: 3130598403056899614
+      PM_S02_Prop_DeskComputer_Secondary_A_v01_5: 1966553233254961810
+      PM_S02_Prop_DeskComputer_Secondary_A_v01_6: -3761313392511695948
+      PM_S02_Prop_DeskComputer_Secondary_A_v01_7: 5839078135018224838
+      PM_S02_Prop_DeskComputer_Secondary_A_v01_8: -4876045645946993784
+      PM_S02_Prop_DeskComputer_Secondary_A_v01_9: 1286271842404769925
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

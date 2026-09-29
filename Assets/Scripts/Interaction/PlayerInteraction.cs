@@ -14,6 +14,13 @@ public class PlayerInteraction : MonoBehaviour
 
     private IInteractable currentInteractable;
 
+    // Presentation reads the same target as the E prompt; it never performs its own scan.
+    public IInteractable CurrentVisualTarget =>
+        isActiveAndEnabled &&
+        (dialogueManager == null ||
+         (!dialogueManager.IsDialogueActive() && !dialogueManager.DidDialogueEndThisFrame()))
+            ? currentInteractable : null;
+
     public void BindRuntime(InteractionUI ui, DialogueManager dialogue)
     {
         interactionUI = ui;

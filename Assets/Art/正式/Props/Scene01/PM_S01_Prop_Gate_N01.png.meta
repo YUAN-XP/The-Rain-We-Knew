@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: cd098dba08c9bc04894420e8e358feac
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -15522426845501846
+    second: PM_S01_Prop_Gate_N01_0
+  - first:
+      213: -3878308259488019790
+    second: PM_S01_Prop_Gate_N01_1
+  - first:
+      213: -8264462471608041136
+    second: PM_S01_Prop_Gate_N01_2
+  - first:
+      213: -8813623575836246228
+    second: PM_S01_Prop_Gate_N01_3
+  - first:
+      213: -1750840915171294703
+    second: PM_S01_Prop_Gate_N01_4
+  - first:
+      213: 4137458138635754122
+    second: PM_S01_Prop_Gate_N01_5
+  - first:
+      213: -1043663091290101091
+    second: PM_S01_Prop_Gate_N01_6
+  - first:
+      213: -7844973275296820323
+    second: PM_S01_Prop_Gate_N01_7
+  - first:
+      213: 3404492739315875468
+    second: PM_S01_Prop_Gate_N01_8
+  - first:
+      213: -402827574594467309
+    second: PM_S01_Prop_Gate_N01_9
+  - first:
+      213: -4903340133391023493
+    second: PM_S01_Prop_Gate_N01_10
+  - first:
+      213: -7628063350503054569
+    second: PM_S01_Prop_Gate_N01_11
+  - first:
+      213: 6969288459307798706
+    second: PM_S01_Prop_Gate_N01_12
+  - first:
+      213: 4314357095033888806
+    second: PM_S01_Prop_Gate_N01_13
+  - first:
+      213: 8344712099076538222
+    second: PM_S01_Prop_Gate_N01_14
+  - first:
+      213: -4830704512895869781
+    second: PM_S01_Prop_Gate_N01_15
+  - first:
+      213: 8093860492419975425
+    second: PM_S01_Prop_Gate_N01_16
+  - first:
+      213: -4074248688884575975
+    second: PM_S01_Prop_Gate_N01_17
+  - first:
+      213: -2781291556454732482
+    second: PM_S01_Prop_Gate_N01_18
+  - first:
+      213: -7025415196949582592
+    second: PM_S01_Prop_Gate_N01_19
+  - first:
+      213: 5202846384386116611
+    second: PM_S01_Prop_Gate_N01_20
+  - first:
+      213: 1613735006933660151
+    second: PM_S01_Prop_Gate_N01_21
+  - first:
+      213: -5989421586209987584
+    second: PM_S01_Prop_Gate_N01_22
+  - first:
+      213: 3040953874285221436
+    second: PM_S01_Prop_Gate_N01_23
+  - first:
+      213: -3167398593991477583
+    second: PM_S01_Prop_Gate_N01_24
+  - first:
+      213: 6219853106073487184
+    second: PM_S01_Prop_Gate_N01_25
+  - first:
+      213: 2487941488418050136
+    second: PM_S01_Prop_Gate_N01_26
+  - first:
+      213: 2482028078493813936
+    second: PM_S01_Prop_Gate_N01_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PM_S01_Prop_Gate_N01_0
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1008
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6662dd5f6ad8cff0800000000000000
+      internalID: -15522426845501846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S01_Prop_Gate_N01_1
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 1012
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bac0c7af2b7d2ac0800000000000000
+      internalID: -3878308259488019790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S01_Prop_Gate_N01_2
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 989
+        width: 105
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05181484b2bbe4d80800000000000000
+      internalID: -8264462471608041136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S01_Prop_Gate_N01_3
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 987
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2fb54aed08bfa580800000000000000
+      internalID: -8813623575836246228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S01_Prop_Gate_N01_4
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 991
+        width: 57
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 112cef8c673c3b7e0800000000000000
+      internalID: -1750840915171294703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S01_Prop_Gate_N01_5
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 999
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8ade6281443b6930800000000000000
+      internalID: 4137458138635754122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S01_Prop_Gate_N01_6
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 1010
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9aa772b2f92481f0800000000000000
+      internalID: -1043663091290101091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S01_Prop_Gate_N01_7
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 1015
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d93108dde5e012390800000000000000
+      internalID: -7844973275296820323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S01_Prop_Gate_N01_8
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 1015
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8eb15fcb103f3f20800000000000000
+      internalID: 3404492739315875468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S01_Prop_Gate_N01_9
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1010
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31a8096847ed86af0800000000000000
+      internalID: -402827574594467309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S01_Prop_Gate_N01_10
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 999
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b72cf40b026d3fbb0800000000000000
+      internalID: -4903340133391023493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S01_Prop_Gate_N01_11
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 0
+        width: 1381
+        height: 988
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 713e6154ccca32690800000000000000
+      internalID: -7628063350503054569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S01_Prop_Gate_N01_12
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 977
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b0554acde2e7b060800000000000000
+      internalID: 6969288459307798706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S01_Prop_Gate_N01_13
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 975
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6206ea36becafdb30800000000000000
+      internalID: 4314357095033888806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S01_Prop_Gate_N01_14
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 976
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6f7c52217f5ec370800000000000000
+      internalID: 8344712099076538222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S01_Prop_Gate_N01_15
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 975
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac17f5f6d3e5fcb0800000000000000
+      internalID: -4830704512895869781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S01_Prop_Gate_N01_16
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 947
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 109c2481c3b235070800000000000000
+      internalID: 8093860492419975425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S01_Prop_Gate_N01_17
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 71
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9111f6c576c5577c0800000000000000
+      internalID: -4074248688884575975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S01_Prop_Gate_N01_18
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 15
+        width: 53
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3de8b8b01ed669d0800000000000000
+      internalID: -2781291556454732482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S01_Prop_Gate_N01_19
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 13
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00d6032c916b08e90800000000000000
+      internalID: -7025415196949582592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S01_Prop_Gate_N01_20
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 15
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30c82428839343840800000000000000
+      internalID: 5202846384386116611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S01_Prop_Gate_N01_21
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 15
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f1b4e95073256610800000000000000
+      internalID: 1613735006933660151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S01_Prop_Gate_N01_22
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 15
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 004a5e7fccc41eca0800000000000000
+      internalID: -5989421586209987584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S01_Prop_Gate_N01_23
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 15
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c365e1fdf63a33a20800000000000000
+      internalID: 3040953874285221436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S01_Prop_Gate_N01_24
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 17
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b6f017a2c32b04d0800000000000000
+      internalID: -3167398593991477583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S01_Prop_Gate_N01_25
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 15
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 057ce9e127b515650800000000000000
+      internalID: 6219853106073487184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S01_Prop_Gate_N01_26
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 15
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8505d1f1a91f68220800000000000000
+      internalID: 2487941488418050136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S01_Prop_Gate_N01_27
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 15
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bc4b25136fe17220800000000000000
+      internalID: 2482028078493813936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PM_S01_Prop_Gate_N01_0: -15522426845501846
+      PM_S01_Prop_Gate_N01_1: -3878308259488019790
+      PM_S01_Prop_Gate_N01_10: -4903340133391023493
+      PM_S01_Prop_Gate_N01_11: -7628063350503054569
+      PM_S01_Prop_Gate_N01_12: 6969288459307798706
+      PM_S01_Prop_Gate_N01_13: 4314357095033888806
+      PM_S01_Prop_Gate_N01_14: 8344712099076538222
+      PM_S01_Prop_Gate_N01_15: -4830704512895869781
+      PM_S01_Prop_Gate_N01_16: 8093860492419975425
+      PM_S01_Prop_Gate_N01_17: -4074248688884575975
+      PM_S01_Prop_Gate_N01_18: -2781291556454732482
+      PM_S01_Prop_Gate_N01_19: -7025415196949582592
+      PM_S01_Prop_Gate_N01_2: -8264462471608041136
+      PM_S01_Prop_Gate_N01_20: 5202846384386116611
+      PM_S01_Prop_Gate_N01_21: 1613735006933660151
+      PM_S01_Prop_Gate_N01_22: -5989421586209987584
+      PM_S01_Prop_Gate_N01_23: 3040953874285221436
+      PM_S01_Prop_Gate_N01_24: -3167398593991477583
+      PM_S01_Prop_Gate_N01_25: 6219853106073487184
+      PM_S01_Prop_Gate_N01_26: 2487941488418050136
+      PM_S01_Prop_Gate_N01_27: 2482028078493813936
+      PM_S01_Prop_Gate_N01_3: -8813623575836246228
+      PM_S01_Prop_Gate_N01_4: -1750840915171294703
+      PM_S01_Prop_Gate_N01_5: 4137458138635754122
+      PM_S01_Prop_Gate_N01_6: -1043663091290101091
+      PM_S01_Prop_Gate_N01_7: -7844973275296820323
+      PM_S01_Prop_Gate_N01_8: 3404492739315875468
+      PM_S01_Prop_Gate_N01_9: -402827574594467309
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

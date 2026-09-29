@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: cd9af0ca400b57d4fae50a8c6e4d4023
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 48694492705160022
+    second: SPR_PICKUPS_KEYS_FISH_COIN_0
+  - first:
+      213: -4718444596332012598
+    second: SPR_PICKUPS_KEYS_FISH_COIN_1
+  - first:
+      213: 2070926513408263198
+    second: SPR_PICKUPS_KEYS_FISH_COIN_2
+  - first:
+      213: 2405739396080417611
+    second: SPR_PICKUPS_KEYS_FISH_COIN_3
+  - first:
+      213: 6242724446443856595
+    second: SPR_PICKUPS_KEYS_FISH_COIN_4
+  - first:
+      213: 7511017316595883534
+    second: SPR_PICKUPS_KEYS_FISH_COIN_5
+  - first:
+      213: -7256103090313700687
+    second: SPR_PICKUPS_KEYS_FISH_COIN_6
+  - first:
+      213: 1091836243745766427
+    second: SPR_PICKUPS_KEYS_FISH_COIN_7
+  - first:
+      213: -4367787993178481762
+    second: SPR_PICKUPS_KEYS_FISH_COIN_8
+  - first:
+      213: -2178089719651288206
+    second: SPR_PICKUPS_KEYS_FISH_COIN_9
+  - first:
+      213: -439083335044417977
+    second: SPR_PICKUPS_KEYS_FISH_COIN_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPR_PICKUPS_KEYS_FISH_COIN_0
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 431
+        width: 388
+        height: 521
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65b7534126ffca000800000000000000
+      internalID: 48694492705160022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_PICKUPS_KEYS_FISH_COIN_1
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 545
+        width: 349
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acbd44793a7b48eb0800000000000000
+      internalID: -4718444596332012598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_PICKUPS_KEYS_FISH_COIN_2
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 471
+        width: 541
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1443a311b86dbc10800000000000000
+      internalID: 2070926513408263198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_PICKUPS_KEYS_FISH_COIN_3
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 489
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4b398d0c37e26120800000000000000
+      internalID: 2405739396080417611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_PICKUPS_KEYS_FISH_COIN_4
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 48
+        width: 489
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d2eee40fcc92a650800000000000000
+      internalID: 6242724446443856595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_PICKUPS_KEYS_FISH_COIN_5
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 109
+        width: 369
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0e5181547e7c3860800000000000000
+      internalID: 7511017316595883534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_PICKUPS_KEYS_FISH_COIN_6
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 39
+        width: 481
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1badc301fa42d4b90800000000000000
+      internalID: -7256103090313700687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_PICKUPS_KEYS_FISH_COIN_7
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 57
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1cfc55674bf62f00800000000000000
+      internalID: 1091836243745766427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_PICKUPS_KEYS_FISH_COIN_8
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 47
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9b516436ff7263c0800000000000000
+      internalID: -4367787993178481762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_PICKUPS_KEYS_FISH_COIN_9
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 31
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27b3143a0fed5c1e0800000000000000
+      internalID: -2178089719651288206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_PICKUPS_KEYS_FISH_COIN_10
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 31
+        width: 37
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74632eb780018e9f0800000000000000
+      internalID: -439083335044417977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SPR_PICKUPS_KEYS_FISH_COIN_0: 48694492705160022
+      SPR_PICKUPS_KEYS_FISH_COIN_1: -4718444596332012598
+      SPR_PICKUPS_KEYS_FISH_COIN_10: -439083335044417977
+      SPR_PICKUPS_KEYS_FISH_COIN_2: 2070926513408263198
+      SPR_PICKUPS_KEYS_FISH_COIN_3: 2405739396080417611
+      SPR_PICKUPS_KEYS_FISH_COIN_4: 6242724446443856595
+      SPR_PICKUPS_KEYS_FISH_COIN_5: 7511017316595883534
+      SPR_PICKUPS_KEYS_FISH_COIN_6: -7256103090313700687
+      SPR_PICKUPS_KEYS_FISH_COIN_7: 1091836243745766427
+      SPR_PICKUPS_KEYS_FISH_COIN_8: -4367787993178481762
+      SPR_PICKUPS_KEYS_FISH_COIN_9: -2178089719651288206
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

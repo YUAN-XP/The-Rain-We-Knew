@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: d742756bc37f6de4cb3a9ba2a9d7685c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3814201660343495318
+    second: CHR_BOY_CHILD_ACTION4_0
+  - first:
+      213: 4350499641611354040
+    second: CHR_BOY_CHILD_ACTION4_1
+  - first:
+      213: 775233816460085689
+    second: CHR_BOY_CHILD_ACTION4_2
+  - first:
+      213: -981156461711725387
+    second: CHR_BOY_CHILD_ACTION4_3
+  - first:
+      213: 2754093502831822127
+    second: CHR_BOY_CHILD_ACTION4_4
+  - first:
+      213: 1130882194892905511
+    second: CHR_BOY_CHILD_ACTION4_5
+  - first:
+      213: 2721310567766994285
+    second: CHR_BOY_CHILD_ACTION4_6
+  - first:
+      213: 7606173077193789218
+    second: CHR_BOY_CHILD_ACTION4_7
+  - first:
+      213: -8910124978576970056
+    second: CHR_BOY_CHILD_ACTION4_8
+  - first:
+      213: 1378391234643442021
+    second: CHR_BOY_CHILD_ACTION4_9
+  - first:
+      213: 3395908744386774045
+    second: CHR_BOY_CHILD_ACTION4_10
+  - first:
+      213: -397340491194256292
+    second: CHR_BOY_CHILD_ACTION4_11
+  - first:
+      213: -1171722707652677635
+    second: CHR_BOY_CHILD_ACTION4_12
+  - first:
+      213: -2946559866317619897
+    second: CHR_BOY_CHILD_ACTION4_13
+  - first:
+      213: 9107310658089707800
+    second: CHR_BOY_CHILD_ACTION4_14
+  - first:
+      213: -6900669132475649857
+    second: CHR_BOY_CHILD_ACTION4_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CHR_BOY_CHILD_ACTION4_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 655
+        height: 1299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6555856ccb311bc0800000000000000
+      internalID: -3814201660343495318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_BOY_CHILD_ACTION4_1
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 622
+        width: 542
+        height: 655
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bf75b5cf54106c30800000000000000
+      internalID: 4350499641611354040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_BOY_CHILD_ACTION4_2
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 1242
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b949f77c0f22ca00800000000000000
+      internalID: 775233816460085689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_BOY_CHILD_ACTION4_3
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 709
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bce79e756b3262f0800000000000000
+      internalID: -981156461711725387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_BOY_CHILD_ACTION4_4
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 680
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f258082f271883620800000000000000
+      internalID: 2754093502831822127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_BOY_CHILD_ACTION4_5
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 664
+        width: 13
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72cd7655d53b1bf00800000000000000
+      internalID: 1130882194892905511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_BOY_CHILD_ACTION4_6
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 656
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6da4431b8904c520800000000000000
+      internalID: 2721310567766994285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_BOY_CHILD_ACTION4_7
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 654
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22f864e4d1e8e8960800000000000000
+      internalID: 7606173077193789218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_BOY_CHILD_ACTION4_8
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 41
+        width: 530
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bea5933a80e85480800000000000000
+      internalID: -8910124978576970056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_BOY_CHILD_ACTION4_9
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 510
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5693f6e5687012310800000000000000
+      internalID: 1378391234643442021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_BOY_CHILD_ACTION4_10
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 504
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1401deb201b02f20800000000000000
+      internalID: 3395908744386774045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_BOY_CHILD_ACTION4_11
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 199
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c54bc7fadec5c7af0800000000000000
+      internalID: -397340491194256292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_BOY_CHILD_ACTION4_12
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 149
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dff6a1bc7643dbfe0800000000000000
+      internalID: -1171722707652677635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_BOY_CHILD_ACTION4_13
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 145
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74d37b2c967bb17d0800000000000000
+      internalID: -2946559866317619897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_BOY_CHILD_ACTION4_14
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 29
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819e09a7acaa36e70800000000000000
+      internalID: 9107310658089707800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_BOY_CHILD_ACTION4_15
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 39
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb0394e3cf5eb30a0800000000000000
+      internalID: -6900669132475649857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CHR_BOY_CHILD_ACTION4_0: -3814201660343495318
+      CHR_BOY_CHILD_ACTION4_1: 4350499641611354040
+      CHR_BOY_CHILD_ACTION4_10: 3395908744386774045
+      CHR_BOY_CHILD_ACTION4_11: -397340491194256292
+      CHR_BOY_CHILD_ACTION4_12: -1171722707652677635
+      CHR_BOY_CHILD_ACTION4_13: -2946559866317619897
+      CHR_BOY_CHILD_ACTION4_14: 9107310658089707800
+      CHR_BOY_CHILD_ACTION4_15: -6900669132475649857
+      CHR_BOY_CHILD_ACTION4_2: 775233816460085689
+      CHR_BOY_CHILD_ACTION4_3: -981156461711725387
+      CHR_BOY_CHILD_ACTION4_4: 2754093502831822127
+      CHR_BOY_CHILD_ACTION4_5: 1130882194892905511
+      CHR_BOY_CHILD_ACTION4_6: 2721310567766994285
+      CHR_BOY_CHILD_ACTION4_7: 7606173077193789218
+      CHR_BOY_CHILD_ACTION4_8: -8910124978576970056
+      CHR_BOY_CHILD_ACTION4_9: 1378391234643442021
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

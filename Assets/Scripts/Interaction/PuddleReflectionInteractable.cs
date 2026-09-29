@@ -38,6 +38,7 @@ public class PuddleReflectionInteractable :
 
     private bool reflectionSeen = false;
     private bool sequenceRunning = false;
+    private bool ownsInteractionLock;
 
     private void Awake()
     {
@@ -87,11 +88,12 @@ public class PuddleReflectionInteractable :
     {
         sequenceRunning = true;
 
-        if (gameControlManager != null)
+        if (gameControlManager != null && !gameControlManager.IsLockedBy(ControlLockReason.Interaction))
         {
             gameControlManager.AcquireLock(
                 ControlLockReason.Interaction
             );
+            ownsInteractionLock = true;
         }
 
         if (beforeReflectionDialogue != null)
@@ -110,6 +112,8 @@ public class PuddleReflectionInteractable :
         yield return new WaitForSeconds(
             beforeRevealDelay
         );
+
+        yield return DemoCloseupPresentation.For(gameObject).Puddle();
 
         if (reflectionObject != null)
         {
@@ -139,13 +143,23 @@ public class PuddleReflectionInteractable :
             );
         }
 
-        if (gameControlManager != null)
-        {
-            gameControlManager.ReleaseLock(
-                ControlLockReason.Interaction
-            );
-        }
+        ReleaseSequenceLock();
+        sequenceRunning = false;
+    }
 
+    private void ReleaseSequenceLock()
+    {
+        if (ownsInteractionLock && gameControlManager != null)
+            gameControlManager.ReleaseLock(ControlLockReason.Interaction);
+        ownsInteractionLock = false;
+    }
+
+    private void OnDisable()
+    {
+        StopAllCoroutines();
+        var closeup = GetComponent<DemoCloseupPresentation>();
+        if (closeup) closeup.Close();
+        ReleaseSequenceLock();
         sequenceRunning = false;
     }
 

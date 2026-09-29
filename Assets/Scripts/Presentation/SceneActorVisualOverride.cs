@@ -1,7 +1,8 @@
 using UnityEngine;
 
-// Owned by the scene, never parented to the persistent actor. Only the default
-// outfit is covered; existing outfit renderers and their selection stay intact.
+// May be owned by PersistentRuntime so the approved adult appearance survives
+// scene changes. Only the default adult outfit is covered; child/teen actors
+// and existing outfit renderers retain their own presentation.
 [DisallowMultipleComponent]
 public sealed class SceneActorVisualOverride : MonoBehaviour
 {

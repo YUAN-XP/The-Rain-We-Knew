@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: abcc239529d183542970af21392c6f08
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3880101237220895868
+    second: PM_S02_FX_BlackFog_Exit_A_v01_0
+  - first:
+      213: 2470628317742890670
+    second: PM_S02_FX_BlackFog_Exit_A_v01_1
+  - first:
+      213: -7403647397914980179
+    second: PM_S02_FX_BlackFog_Exit_A_v01_2
+  - first:
+      213: 3519395302890808089
+    second: PM_S02_FX_BlackFog_Exit_A_v01_3
+  - first:
+      213: -8012172088833594148
+    second: PM_S02_FX_BlackFog_Exit_A_v01_4
+  - first:
+      213: 6239821148239143835
+    second: PM_S02_FX_BlackFog_Exit_A_v01_5
+  - first:
+      213: 7453354974847492995
+    second: PM_S02_FX_BlackFog_Exit_A_v01_6
+  - first:
+      213: 7483880954426560209
+    second: PM_S02_FX_BlackFog_Exit_A_v01_7
+  - first:
+      213: -942547987744482827
+    second: PM_S02_FX_BlackFog_Exit_A_v01_8
+  - first:
+      213: 7393079864153499234
+    second: PM_S02_FX_BlackFog_Exit_A_v01_9
+  - first:
+      213: -8734198621843806799
+    second: PM_S02_FX_BlackFog_Exit_A_v01_10
+  - first:
+      213: -995460294510751650
+    second: PM_S02_FX_BlackFog_Exit_A_v01_11
+  - first:
+      213: -6873676873232475366
+    second: PM_S02_FX_BlackFog_Exit_A_v01_12
+  - first:
+      213: 7161488501244359540
+    second: PM_S02_FX_BlackFog_Exit_A_v01_13
+  - first:
+      213: -7964117349871310991
+    second: PM_S02_FX_BlackFog_Exit_A_v01_14
+  - first:
+      213: 2916245088181321309
+    second: PM_S02_FX_BlackFog_Exit_A_v01_15
+  - first:
+      213: 6764124058405493806
+    second: PM_S02_FX_BlackFog_Exit_A_v01_16
+  - first:
+      213: -8802833460663302054
+    second: PM_S02_FX_BlackFog_Exit_A_v01_17
+  - first:
+      213: -6504979565280888522
+    second: PM_S02_FX_BlackFog_Exit_A_v01_18
+  - first:
+      213: -5158279574910114051
+    second: PM_S02_FX_BlackFog_Exit_A_v01_19
+  - first:
+      213: -1272755266466767297
+    second: PM_S02_FX_BlackFog_Exit_A_v01_20
+  - first:
+      213: 8085711931615010651
+    second: PM_S02_FX_BlackFog_Exit_A_v01_21
+  - first:
+      213: -2962394885444830331
+    second: PM_S02_FX_BlackFog_Exit_A_v01_22
+  - first:
+      213: 567425237177529791
+    second: PM_S02_FX_BlackFog_Exit_A_v01_23
+  - first:
+      213: -8730554876551114527
+    second: PM_S02_FX_BlackFog_Exit_A_v01_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 9
+  spritePivot: {x: 0.50276244, y: 0.017265193}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PM_S02_FX_BlackFog_Exit_A_v01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1085
+        height: 1448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7cea118483e8d530800000000000000
+      internalID: 3880101237220895868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_FX_BlackFog_Exit_A_v01_1
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1439
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaef5137d5f694220800000000000000
+      internalID: 2470628317742890670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_FX_BlackFog_Exit_A_v01_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1385
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da05805fae5f04990800000000000000
+      internalID: -7403647397914980179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_FX_BlackFog_Exit_A_v01_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1332
+        width: 7
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9132cf4a16767d030800000000000000
+      internalID: 3519395302890808089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_FX_BlackFog_Exit_A_v01_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1208
+        width: 56
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc26cd7feb0fc090800000000000000
+      internalID: -8012172088833594148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_FX_BlackFog_Exit_A_v01_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1131
+        width: 6
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b93a3ca364c489650800000000000000
+      internalID: 6239821148239143835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_FX_BlackFog_Exit_A_v01_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1077
+        width: 6
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 383ecac2cd2af6760800000000000000
+      internalID: 7453354974847492995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_FX_BlackFog_Exit_A_v01_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1030
+        width: 6
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1de08e5a3161cd760800000000000000
+      internalID: 7483880954426560209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_FX_BlackFog_Exit_A_v01_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1027
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f91bb659956be2f0800000000000000
+      internalID: -942547987744482827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_FX_BlackFog_Exit_A_v01_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 971
+        width: 5
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26666fa57fe799660800000000000000
+      internalID: 7393079864153499234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_FX_BlackFog_Exit_A_v01_10
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 805
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b52b4311a4e9c680800000000000000
+      internalID: -8734198621843806799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_FX_BlackFog_Exit_A_v01_11
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 761
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e505ea5e22a6f22f0800000000000000
+      internalID: -995460294510751650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_FX_BlackFog_Exit_A_v01_12
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 715
+        width: 7
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1b19265d4bcb90a0800000000000000
+      internalID: -6873676873232475366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_FX_BlackFog_Exit_A_v01_13
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 721
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 473f6b349d7b26360800000000000000
+      internalID: 7161488501244359540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_FX_BlackFog_Exit_A_v01_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 501
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 177256b4775c97190800000000000000
+      internalID: -7964117349871310991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_FX_BlackFog_Exit_A_v01_15
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 506
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5e760fe475987820800000000000000
+      internalID: 2916245088181321309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_FX_BlackFog_Exit_A_v01_16
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 500
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2cdee54efefedd50800000000000000
+      internalID: 6764124058405493806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_FX_BlackFog_Exit_A_v01_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 431
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a58cd306b9d06d580800000000000000
+      internalID: -8802833460663302054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_FX_BlackFog_Exit_A_v01_18
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 377
+        width: 61
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 639f14cdc8ba9b5a0800000000000000
+      internalID: -6504979565280888522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_FX_BlackFog_Exit_A_v01_19
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 168
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df6645d6e0c1a68b0800000000000000
+      internalID: -5158279574910114051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_FX_BlackFog_Exit_A_v01_20
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 146
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3e9d3814d3465ee0800000000000000
+      internalID: -1272755266466767297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_FX_BlackFog_Exit_A_v01_21
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 46
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5fdc007928363070800000000000000
+      internalID: 8085711931615010651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_FX_BlackFog_Exit_A_v01_22
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 79
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58b70a01c8573e6d0800000000000000
+      internalID: -2962394885444830331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_FX_BlackFog_Exit_A_v01_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31
+        width: 5
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb5fe823f36efd700800000000000000
+      internalID: 567425237177529791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_FX_BlackFog_Exit_A_v01_24
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 26
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e0dd13a896d6d680800000000000000
+      internalID: -8730554876551114527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PM_S02_FX_BlackFog_Exit_A_v01_0: 3880101237220895868
+      PM_S02_FX_BlackFog_Exit_A_v01_1: 2470628317742890670
+      PM_S02_FX_BlackFog_Exit_A_v01_10: -8734198621843806799
+      PM_S02_FX_BlackFog_Exit_A_v01_11: -995460294510751650
+      PM_S02_FX_BlackFog_Exit_A_v01_12: -6873676873232475366
+      PM_S02_FX_BlackFog_Exit_A_v01_13: 7161488501244359540
+      PM_S02_FX_BlackFog_Exit_A_v01_14: -7964117349871310991
+      PM_S02_FX_BlackFog_Exit_A_v01_15: 2916245088181321309
+      PM_S02_FX_BlackFog_Exit_A_v01_16: 6764124058405493806
+      PM_S02_FX_BlackFog_Exit_A_v01_17: -8802833460663302054
+      PM_S02_FX_BlackFog_Exit_A_v01_18: -6504979565280888522
+      PM_S02_FX_BlackFog_Exit_A_v01_19: -5158279574910114051
+      PM_S02_FX_BlackFog_Exit_A_v01_2: -7403647397914980179
+      PM_S02_FX_BlackFog_Exit_A_v01_20: -1272755266466767297
+      PM_S02_FX_BlackFog_Exit_A_v01_21: 8085711931615010651
+      PM_S02_FX_BlackFog_Exit_A_v01_22: -2962394885444830331
+      PM_S02_FX_BlackFog_Exit_A_v01_23: 567425237177529791
+      PM_S02_FX_BlackFog_Exit_A_v01_24: -8730554876551114527
+      PM_S02_FX_BlackFog_Exit_A_v01_3: 3519395302890808089
+      PM_S02_FX_BlackFog_Exit_A_v01_4: -8012172088833594148
+      PM_S02_FX_BlackFog_Exit_A_v01_5: 6239821148239143835
+      PM_S02_FX_BlackFog_Exit_A_v01_6: 7453354974847492995
+      PM_S02_FX_BlackFog_Exit_A_v01_7: 7483880954426560209
+      PM_S02_FX_BlackFog_Exit_A_v01_8: -942547987744482827
+      PM_S02_FX_BlackFog_Exit_A_v01_9: 7393079864153499234
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

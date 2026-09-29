@@ -45,11 +45,11 @@ MonoBehaviour:
   - "\u8001\u56FD\u738B\u75C5\u91CD\uFF0C\u5E74\u8F7B\u516C\u4E3B\u6682\u4EE3\u5904\u7406\u57CE\u4E2D\u4E8B\u52A1\u3002\n\u628A\u516C\u4E3B\u62D6\u5230\u5BAB\u95E8\uFF0F\u738B\u5EA7\u7684\u4F4D\u7F6E\u3002"
   - "\u7CAE\u4ED3\u5C11\u7CAE\u5C1A\u672A\u67E5\u6E05\uFF0C\u53CD\u53DB\u8005\u717D\u52A8\u7FA4\u4F17\uFF1B\u8D8A\u6765\u8D8A\u591A\u4EBA\u4E0D\u660E\u771F\u76F8\uFF0C\u5374\u8DDF\u7740\u653B\u51FB\u516C\u4E3B\u3002\n\u628A\u53CD\u53DB\u8005\u62D6\u5230\u7FA4\u4F17\u6700\u524D\u65B9\u3002"
   - "\u5E74\u8F7B\u7684\u5B88\u95E8\u9A91\u58EB\u7AD9\u5230\u516C\u4E3B\u4E0E\u53CD\u53DB\u8005\uFF0F\u7FA4\u4F17\u4E4B\u95F4\u3002\n\u628A\u9A91\u58EB\u62D6\u5230\u4E24\u65B9\u4E4B\u95F4\u3002"
-  cicadas: {fileID: 8300000, guid: fac7c00165910ec4b9a761c36e94f6e0, type: 3}
-  neighbours: {fileID: 8300000, guid: bbce2ee47d36bc64db9a0bbcaf779cce, type: 3}
-  home: {fileID: 8300000, guid: f3bd084c2e14647448f492a643a9335d, type: 3}
+  cicadas: {fileID: 0}
+  neighbours: {fileID: 0}
+  home: {fileID: 0}
   phoneRing: {fileID: 8300000, guid: 5b42bc486e5ebc646b3ac81f2cae2e10, type: 3}
-  water: {fileID: 8300000, guid: 5f00ff414d17eb9469e356b167788f30, type: 3}
+  water: {fileID: 0}
   throwSound: {fileID: 8300000, guid: 1cb55fb970ac85c498c75e451e530404, type: 3}
   hitSound: {fileID: 8300000, guid: 470e3cda5370156408478e6916c8a458, type: 3}
   retrySound: {fileID: 8300000, guid: 253f737f00a74b94aa356c785c8d6269, type: 3}

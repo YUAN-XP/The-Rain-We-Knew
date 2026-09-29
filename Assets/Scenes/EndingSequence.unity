@@ -1,4 +1,4 @@
-﻿%YAML 1.1
+%YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!29 &1
 OcclusionCullingSettings:
@@ -148,11 +148,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d3db44d2db497d94ea127ed34ac62a8b, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CameraFollow
   target: {fileID: 0}
-  smoothSpeed: 5
-  lookAheadDistance: 2
+  smoothSpeed: 8
+  lookAheadDistance: 0.65
   minX: -15
   maxX: 33
   followY: 0
@@ -352,7 +352,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 73a6860330c9bea4c87d1ca161b8a6ba, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerSpawnPoint
 --- !u!4 &87897649
 Transform:
@@ -1048,6 +1048,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1740537106}
   - component: {fileID: 1740537105}
+  - component: {fileID: 1740537107}
   m_Layer: 0
   m_Name: EndingDirector
   m_TagString: Untagged
@@ -1065,7 +1066,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 518dd2bbd44708348bb0fcc6d98e6265, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EndingDirector
   data: {fileID: 11400000, guid: 7b1474c2b3f74d4499312d4e7fc8268d, type: 2}
   riverLandmarksTemplate: {fileID: 937666357}
@@ -1073,6 +1074,8 @@ MonoBehaviour:
   youthWatchX: 19
   hospitalWatchX: 33
   bedsideX: 49
+  memoryViewSize: 3.2
+  hospitalViewSize: 2.5
 --- !u!4 &1740537106
 Transform:
   m_ObjectHideFlags: 0
@@ -1087,6 +1090,51 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 937666358}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1740537107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740537104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57811c14ea604eb41b3f4aba2203b08e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EndingArtwork
+  art: {fileID: 11400000, guid: 2a4f808ad36e90a43885e7b02b192f27, type: 2}
+  softForeground: {fileID: 2100000, guid: 1c8fe777325af604ba5e714ea7729c06, type: 2}
+--- !u!1 &1842520677
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1842520678}
+  m_Layer: 0
+  m_Name: Demo2026_SparseForeground
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1842520678
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1842520677}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2067838846
@@ -1189,3 +1237,4 @@ SceneRoots:
   - {fileID: 87897649}
   - {fileID: 1740537106}
   - {fileID: 1252311791}
+  - {fileID: 1842520678}

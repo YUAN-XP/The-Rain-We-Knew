@@ -1,0 +1,325 @@
+fileFormatVersion: 2
+guid: d168690a6b7215b4eb1cf18d0d6ed85e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7056696647228540148
+    second: DOC_SIGNAGE_render_0
+  - first:
+      213: -7837062327843100564
+    second: DOC_SIGNAGE_render_1
+  - first:
+      213: -2686422064080498067
+    second: DOC_SIGNAGE_render_2
+  - first:
+      213: -7697921311306983517
+    second: DOC_SIGNAGE_render_3
+  - first:
+      213: -5657650571744238435
+    second: DOC_SIGNAGE_render_4
+  - first:
+      213: -121025826226629483
+    second: DOC_SIGNAGE_render_5
+  - first:
+      213: -2128243664937380976
+    second: DOC_SIGNAGE_render_6
+  - first:
+      213: 8694058935494953980
+    second: DOC_SIGNAGE_render_7
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DOC_SIGNAGE_render_0
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1246
+        width: 838
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f44fb1763c6ee160800000000000000
+      internalID: 7056696647228540148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DOC_SIGNAGE_render_1
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1246
+        width: 838
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c68e05ad5592d3390800000000000000
+      internalID: -7837062327843100564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DOC_SIGNAGE_render_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 866
+        width: 838
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d62d5b1bd59e7bad0800000000000000
+      internalID: -2686422064080498067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DOC_SIGNAGE_render_3
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 866
+        width: 838
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a753aa4a5d7b2590800000000000000
+      internalID: -7697921311306983517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DOC_SIGNAGE_render_4
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 486
+        width: 838
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9426efc7ccfb71b0800000000000000
+      internalID: -5657650571744238435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DOC_SIGNAGE_render_5
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 486
+        width: 838
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5941d1bf6a7025ef0800000000000000
+      internalID: -121025826226629483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DOC_SIGNAGE_render_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 106
+        width: 838
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0939ee3a9a5f672e0800000000000000
+      internalID: -2128243664937380976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DOC_SIGNAGE_render_7
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 106
+        width: 838
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfbcc7ae98087a870800000000000000
+      internalID: 8694058935494953980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DOC_SIGNAGE_render_0: 7056696647228540148
+      DOC_SIGNAGE_render_1: -7837062327843100564
+      DOC_SIGNAGE_render_2: -2686422064080498067
+      DOC_SIGNAGE_render_3: -7697921311306983517
+      DOC_SIGNAGE_render_4: -5657650571744238435
+      DOC_SIGNAGE_render_5: -121025826226629483
+      DOC_SIGNAGE_render_6: -2128243664937380976
+      DOC_SIGNAGE_render_7: 8694058935494953980
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

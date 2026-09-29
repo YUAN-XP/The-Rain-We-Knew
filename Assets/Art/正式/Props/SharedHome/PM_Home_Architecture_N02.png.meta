@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: 02214b48f6707c2459fe5cf3e3e903a4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1102289823102515417
+    second: PM_Home_Architecture_N02_0
+  - first:
+      213: 2904633850994882910
+    second: PM_Home_Architecture_N02_1
+  - first:
+      213: 4018349088220552996
+    second: PM_Home_Architecture_N02_2
+  - first:
+      213: 4717410758473144400
+    second: PM_Home_Architecture_N02_3
+  - first:
+      213: 2711257690815422433
+    second: PM_Home_Architecture_N02_4
+  - first:
+      213: 119119435847458689
+    second: PM_Home_Architecture_N02_5
+  - first:
+      213: -3859107775842724414
+    second: PM_Home_Architecture_N02_6
+  - first:
+      213: 8690255336178075190
+    second: PM_Home_Architecture_N02_7
+  - first:
+      213: -8580293965806632788
+    second: PM_Home_Architecture_N02_8
+  - first:
+      213: -3033374159454296554
+    second: PM_Home_Architecture_N02_9
+  - first:
+      213: 7140083444348558970
+    second: PM_Home_Architecture_N02_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PM_Home_Architecture_N02_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 556
+        width: 395
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 727427efe31e3b0f0800000000000000
+      internalID: -1102289823102515417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Home_Architecture_N02_1
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 586
+        width: 548
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e59ff1b19155f4820800000000000000
+      internalID: 2904633850994882910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Home_Architecture_N02_2
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 551
+        width: 423
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42f96e2a43b04c730800000000000000
+      internalID: 4018349088220552996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Home_Architecture_N02_3
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 0
+        width: 595
+        height: 538
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 058d566471c977140800000000000000
+      internalID: 4717410758473144400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Home_Architecture_N02_4
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 525
+        width: 55
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ef5993418250a520800000000000000
+      internalID: 2711257690815422433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Home_Architecture_N02_5
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 535
+        width: 67
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18f588bee7237a100800000000000000
+      internalID: 119119435847458689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Home_Architecture_N02_6
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 537
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c552fe9ce1b17ac0800000000000000
+      internalID: -3859107775842724414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Home_Architecture_N02_7
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 523
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63646507f2df99870800000000000000
+      internalID: 8690255336178075190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Home_Architecture_N02_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 23
+        width: 417
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca00ba3391cace880800000000000000
+      internalID: -8580293965806632788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Home_Architecture_N02_9
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 327
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 616a0e2064a47e5d0800000000000000
+      internalID: -3033374159454296554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_Home_Architecture_N02_10
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 51
+        width: 411
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7e1b07101ca61360800000000000000
+      internalID: 7140083444348558970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PM_Home_Architecture_N02_0: -1102289823102515417
+      PM_Home_Architecture_N02_1: 2904633850994882910
+      PM_Home_Architecture_N02_10: 7140083444348558970
+      PM_Home_Architecture_N02_2: 4018349088220552996
+      PM_Home_Architecture_N02_3: 4717410758473144400
+      PM_Home_Architecture_N02_4: 2711257690815422433
+      PM_Home_Architecture_N02_5: 119119435847458689
+      PM_Home_Architecture_N02_6: -3859107775842724414
+      PM_Home_Architecture_N02_7: 8690255336178075190
+      PM_Home_Architecture_N02_8: -8580293965806632788
+      PM_Home_Architecture_N02_9: -3033374159454296554
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

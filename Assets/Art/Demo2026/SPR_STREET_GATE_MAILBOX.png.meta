@@ -1,0 +1,3237 @@
+fileFormatVersion: 2
+guid: 3252ceff6f54e0145b83be9fa6d86a43
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2453249351265531941
+    second: SPR_STREET_GATE_MAILBOX_0
+  - first:
+      213: 4396966923090406057
+    second: SPR_STREET_GATE_MAILBOX_1
+  - first:
+      213: 1107894727127756426
+    second: SPR_STREET_GATE_MAILBOX_2
+  - first:
+      213: 1340200169860144526
+    second: SPR_STREET_GATE_MAILBOX_3
+  - first:
+      213: -7809121070227209865
+    second: SPR_STREET_GATE_MAILBOX_4
+  - first:
+      213: -9097255634883082294
+    second: SPR_STREET_GATE_MAILBOX_5
+  - first:
+      213: -7165275605133778760
+    second: SPR_STREET_GATE_MAILBOX_6
+  - first:
+      213: -4991571413414372527
+    second: SPR_STREET_GATE_MAILBOX_7
+  - first:
+      213: -6657337558812971986
+    second: SPR_STREET_GATE_MAILBOX_8
+  - first:
+      213: -2423285764323618326
+    second: SPR_STREET_GATE_MAILBOX_9
+  - first:
+      213: 2845391512882954101
+    second: SPR_STREET_GATE_MAILBOX_10
+  - first:
+      213: 1057694166996742254
+    second: SPR_STREET_GATE_MAILBOX_11
+  - first:
+      213: -8666391984188691914
+    second: SPR_STREET_GATE_MAILBOX_12
+  - first:
+      213: -482892871610265498
+    second: SPR_STREET_GATE_MAILBOX_13
+  - first:
+      213: 5630168787203026893
+    second: SPR_STREET_GATE_MAILBOX_14
+  - first:
+      213: -3608107533506713210
+    second: SPR_STREET_GATE_MAILBOX_15
+  - first:
+      213: 4054645018711047557
+    second: SPR_STREET_GATE_MAILBOX_16
+  - first:
+      213: 2673210906607709962
+    second: SPR_STREET_GATE_MAILBOX_17
+  - first:
+      213: 2221832299241105369
+    second: SPR_STREET_GATE_MAILBOX_18
+  - first:
+      213: 4214683205024754696
+    second: SPR_STREET_GATE_MAILBOX_19
+  - first:
+      213: -8617135508041308967
+    second: SPR_STREET_GATE_MAILBOX_20
+  - first:
+      213: -213069219845904071
+    second: SPR_STREET_GATE_MAILBOX_21
+  - first:
+      213: -4373028735714512645
+    second: SPR_STREET_GATE_MAILBOX_22
+  - first:
+      213: 6039494219533667460
+    second: SPR_STREET_GATE_MAILBOX_23
+  - first:
+      213: -6914553904076597147
+    second: SPR_STREET_GATE_MAILBOX_24
+  - first:
+      213: 8742998104601154686
+    second: SPR_STREET_GATE_MAILBOX_25
+  - first:
+      213: -5686838601691206200
+    second: SPR_STREET_GATE_MAILBOX_26
+  - first:
+      213: 2957701929906113772
+    second: SPR_STREET_GATE_MAILBOX_27
+  - first:
+      213: -8468723987449700137
+    second: SPR_STREET_GATE_MAILBOX_28
+  - first:
+      213: -1501476998714676276
+    second: SPR_STREET_GATE_MAILBOX_29
+  - first:
+      213: 1085272975865570640
+    second: SPR_STREET_GATE_MAILBOX_30
+  - first:
+      213: -7781944029914105161
+    second: SPR_STREET_GATE_MAILBOX_31
+  - first:
+      213: -9035905559235203590
+    second: SPR_STREET_GATE_MAILBOX_32
+  - first:
+      213: -8807171717894444517
+    second: SPR_STREET_GATE_MAILBOX_33
+  - first:
+      213: 4866466609090321963
+    second: SPR_STREET_GATE_MAILBOX_34
+  - first:
+      213: -6858189353648892500
+    second: SPR_STREET_GATE_MAILBOX_35
+  - first:
+      213: 4661713597383220853
+    second: SPR_STREET_GATE_MAILBOX_36
+  - first:
+      213: 4521411678130016834
+    second: SPR_STREET_GATE_MAILBOX_37
+  - first:
+      213: -7090952586638433625
+    second: SPR_STREET_GATE_MAILBOX_38
+  - first:
+      213: -8241160100118833480
+    second: SPR_STREET_GATE_MAILBOX_39
+  - first:
+      213: 1398902063622328821
+    second: SPR_STREET_GATE_MAILBOX_40
+  - first:
+      213: 7029492511847075007
+    second: SPR_STREET_GATE_MAILBOX_41
+  - first:
+      213: 6923350896173939897
+    second: SPR_STREET_GATE_MAILBOX_42
+  - first:
+      213: -7803502042156895436
+    second: SPR_STREET_GATE_MAILBOX_43
+  - first:
+      213: -9052406513407786865
+    second: SPR_STREET_GATE_MAILBOX_44
+  - first:
+      213: -5568716134315899233
+    second: SPR_STREET_GATE_MAILBOX_45
+  - first:
+      213: 499081585252287162
+    second: SPR_STREET_GATE_MAILBOX_46
+  - first:
+      213: -7364609793515793135
+    second: SPR_STREET_GATE_MAILBOX_47
+  - first:
+      213: -3381455573524388562
+    second: SPR_STREET_GATE_MAILBOX_48
+  - first:
+      213: -305902662097626128
+    second: SPR_STREET_GATE_MAILBOX_49
+  - first:
+      213: 6836515227307218636
+    second: SPR_STREET_GATE_MAILBOX_50
+  - first:
+      213: 6964958816603006416
+    second: SPR_STREET_GATE_MAILBOX_51
+  - first:
+      213: 1753298026956365886
+    second: SPR_STREET_GATE_MAILBOX_52
+  - first:
+      213: -786853423708466243
+    second: SPR_STREET_GATE_MAILBOX_53
+  - first:
+      213: 2638675302418767302
+    second: SPR_STREET_GATE_MAILBOX_54
+  - first:
+      213: 5829453419984023723
+    second: SPR_STREET_GATE_MAILBOX_55
+  - first:
+      213: -258048744582764600
+    second: SPR_STREET_GATE_MAILBOX_56
+  - first:
+      213: -7801052040267159287
+    second: SPR_STREET_GATE_MAILBOX_57
+  - first:
+      213: -5150579812789503097
+    second: SPR_STREET_GATE_MAILBOX_58
+  - first:
+      213: -1268168446436341397
+    second: SPR_STREET_GATE_MAILBOX_59
+  - first:
+      213: -4461025493551109175
+    second: SPR_STREET_GATE_MAILBOX_60
+  - first:
+      213: -5295599731622897498
+    second: SPR_STREET_GATE_MAILBOX_61
+  - first:
+      213: 3184676939591698128
+    second: SPR_STREET_GATE_MAILBOX_62
+  - first:
+      213: 4003481176452692016
+    second: SPR_STREET_GATE_MAILBOX_63
+  - first:
+      213: -4705253457557049637
+    second: SPR_STREET_GATE_MAILBOX_64
+  - first:
+      213: 6439526850827358675
+    second: SPR_STREET_GATE_MAILBOX_65
+  - first:
+      213: -3669882022645339661
+    second: SPR_STREET_GATE_MAILBOX_66
+  - first:
+      213: 3191809710293462504
+    second: SPR_STREET_GATE_MAILBOX_67
+  - first:
+      213: -5904057233488005898
+    second: SPR_STREET_GATE_MAILBOX_68
+  - first:
+      213: -4778372071982386263
+    second: SPR_STREET_GATE_MAILBOX_69
+  - first:
+      213: 6137381720224094347
+    second: SPR_STREET_GATE_MAILBOX_70
+  - first:
+      213: 3647669662237491471
+    second: SPR_STREET_GATE_MAILBOX_71
+  - first:
+      213: 1369019826900047503
+    second: SPR_STREET_GATE_MAILBOX_72
+  - first:
+      213: 5411884762121094713
+    second: SPR_STREET_GATE_MAILBOX_73
+  - first:
+      213: 6336580250348212155
+    second: SPR_STREET_GATE_MAILBOX_74
+  - first:
+      213: 752972671774265882
+    second: SPR_STREET_GATE_MAILBOX_75
+  - first:
+      213: 8482730169888426114
+    second: SPR_STREET_GATE_MAILBOX_76
+  - first:
+      213: 7838679995558411196
+    second: SPR_STREET_GATE_MAILBOX_77
+  - first:
+      213: 1224105603622717090
+    second: SPR_STREET_GATE_MAILBOX_78
+  - first:
+      213: -6372236027023754496
+    second: SPR_STREET_GATE_MAILBOX_79
+  - first:
+      213: -4434787998643619989
+    second: SPR_STREET_GATE_MAILBOX_80
+  - first:
+      213: -5123742740038897384
+    second: SPR_STREET_GATE_MAILBOX_81
+  - first:
+      213: -8178553921200361328
+    second: SPR_STREET_GATE_MAILBOX_82
+  - first:
+      213: 1952236450672793005
+    second: SPR_STREET_GATE_MAILBOX_83
+  - first:
+      213: 2390263352010797412
+    second: SPR_STREET_GATE_MAILBOX_84
+  - first:
+      213: -5447339144145407287
+    second: SPR_STREET_GATE_MAILBOX_85
+  - first:
+      213: 8402549662018710460
+    second: SPR_STREET_GATE_MAILBOX_86
+  - first:
+      213: 2280521121725196183
+    second: SPR_STREET_GATE_MAILBOX_87
+  - first:
+      213: -3548417718115975097
+    second: SPR_STREET_GATE_MAILBOX_88
+  - first:
+      213: 6728766234738066418
+    second: SPR_STREET_GATE_MAILBOX_89
+  - first:
+      213: 1501596705320698782
+    second: SPR_STREET_GATE_MAILBOX_90
+  - first:
+      213: -4792767194067683729
+    second: SPR_STREET_GATE_MAILBOX_91
+  - first:
+      213: -513991135515743620
+    second: SPR_STREET_GATE_MAILBOX_92
+  - first:
+      213: 6369878400777318854
+    second: SPR_STREET_GATE_MAILBOX_93
+  - first:
+      213: 8954621335273366222
+    second: SPR_STREET_GATE_MAILBOX_94
+  - first:
+      213: -7654152657406771497
+    second: SPR_STREET_GATE_MAILBOX_95
+  - first:
+      213: 4575815224177402563
+    second: SPR_STREET_GATE_MAILBOX_96
+  - first:
+      213: -2467081810243003763
+    second: SPR_STREET_GATE_MAILBOX_97
+  - first:
+      213: -4207820080601080744
+    second: SPR_STREET_GATE_MAILBOX_98
+  - first:
+      213: 3546520805324053163
+    second: SPR_STREET_GATE_MAILBOX_99
+  - first:
+      213: -4370181250608495742
+    second: SPR_STREET_GATE_MAILBOX_100
+  - first:
+      213: -2808059674466003680
+    second: SPR_STREET_GATE_MAILBOX_101
+  - first:
+      213: -8273358467122072577
+    second: SPR_STREET_GATE_MAILBOX_102
+  - first:
+      213: 2864034601740943014
+    second: SPR_STREET_GATE_MAILBOX_103
+  - first:
+      213: 8214756369567139435
+    second: SPR_STREET_GATE_MAILBOX_104
+  - first:
+      213: 4126314680573318713
+    second: SPR_STREET_GATE_MAILBOX_105
+  - first:
+      213: 1002071253584655965
+    second: SPR_STREET_GATE_MAILBOX_106
+  - first:
+      213: -607663253761965324
+    second: SPR_STREET_GATE_MAILBOX_107
+  - first:
+      213: 753214012710889557
+    second: SPR_STREET_GATE_MAILBOX_108
+  - first:
+      213: 3240852583815853622
+    second: SPR_STREET_GATE_MAILBOX_109
+  - first:
+      213: 6674845727710827026
+    second: SPR_STREET_GATE_MAILBOX_110
+  - first:
+      213: 4965535955116073734
+    second: SPR_STREET_GATE_MAILBOX_111
+  - first:
+      213: 3174947511515658034
+    second: SPR_STREET_GATE_MAILBOX_112
+  - first:
+      213: 8572303888092859721
+    second: SPR_STREET_GATE_MAILBOX_113
+  - first:
+      213: -2917101170480627277
+    second: SPR_STREET_GATE_MAILBOX_114
+  - first:
+      213: 2785885519859658559
+    second: SPR_STREET_GATE_MAILBOX_115
+  - first:
+      213: 2916661401652207535
+    second: SPR_STREET_GATE_MAILBOX_116
+  - first:
+      213: 510516119415869917
+    second: SPR_STREET_GATE_MAILBOX_117
+  - first:
+      213: 8206606984312427148
+    second: SPR_STREET_GATE_MAILBOX_118
+  - first:
+      213: -905533793166717372
+    second: SPR_STREET_GATE_MAILBOX_119
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_0
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 1179
+        width: 52
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd74c5086be44fdd0800000000000000
+      internalID: -2453249351265531941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_1
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1242
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aa22f3de1a250d30800000000000000
+      internalID: 4396966923090406057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 650
+        width: 624
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8e6afa6268006f00800000000000000
+      internalID: 1107894727127756426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_3
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 706
+        width: 228
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8d9e6c24f8599210800000000000000
+      internalID: 1340200169860144526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_4
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1197
+        width: 49
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 771c619d2cd60a390800000000000000
+      internalID: -7809121070227209865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_5
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 707
+        width: 283
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac78fdb033e00c180800000000000000
+      internalID: -9097255634883082294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_6
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 666
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b0aa36ecc3df8c90800000000000000
+      internalID: -7165275605133778760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 517
+        width: 67
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15b1178fe306abab0800000000000000
+      internalID: -4991571413414372527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_8
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 501
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c261923c26c93a0800000000000000
+      internalID: -6657337558812971986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_9
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 529
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae1da3cbf62ce5ed0800000000000000
+      internalID: -2423285764323618326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_10
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 570
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57fbc44618cdc7720800000000000000
+      internalID: 2845391512882954101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_11
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 17
+        width: 294
+        height: 605
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e60f7d0bd3fadae00800000000000000
+      internalID: 1057694166996742254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_12
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 546
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ae32a286acab780800000000000000
+      internalID: -8666391984188691914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_13
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 459
+        width: 65
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6601a13ed7b6c49f0800000000000000
+      internalID: -482892871610265498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_14
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 513
+        width: 17
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcf6aba9ea0622e40800000000000000
+      internalID: 5630168787203026893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_15
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 527
+        width: 86
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 689ebe9905d6dedc0800000000000000
+      internalID: -3608107533506713210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_16
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 0
+        width: 472
+        height: 661
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58d349e792ef44830800000000000000
+      internalID: 4054645018711047557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_17
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 527
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0f6d020827291520800000000000000
+      internalID: 2673210906607709962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_18
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 256
+        width: 110
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d761c254b885de10800000000000000
+      internalID: 2221832299241105369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_19
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 479
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80c2e4c6b009d7a30800000000000000
+      internalID: 4214683205024754696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_20
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 493
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d4eac539e8c96880800000000000000
+      internalID: -8617135508041308967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_21
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 505
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 939e3866ca60b0df0800000000000000
+      internalID: -213069219845904071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_22
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 500
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf0392fb881ef43c0800000000000000
+      internalID: -4373028735714512645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_23
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 473
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48c445a7ef790d350800000000000000
+      internalID: 6039494219533667460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_24
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 443
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 568593febd19a00a0800000000000000
+      internalID: -6914553904076597147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_25
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 409
+        width: 30
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e745aa8247e555970800000000000000
+      internalID: 8742998104601154686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_26
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 487
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cd67330c6a4411b0800000000000000
+      internalID: -5686838601691206200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_27
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 406
+        width: 78
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cec8a831c3edb0920800000000000000
+      internalID: 2957701929906113772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_28
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 469
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d02b33176c097a80800000000000000
+      internalID: -8468723987449700137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_29
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 430
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccb2135ff9ea92be0800000000000000
+      internalID: -1501476998714676276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_30
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 449
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0556cc2850aaf0f00800000000000000
+      internalID: 1085272975865570640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_31
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 411
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ba7ff2a22bf00490800000000000000
+      internalID: -7781944029914105161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_32
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 367
+        width: 47
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afdeec5a4c30a9280800000000000000
+      internalID: -9035905559235203590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_33
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 407
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1ae8072cf3a6c580800000000000000
+      internalID: -8807171717894444517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_34
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 369
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2ed02ae899298340800000000000000
+      internalID: 4866466609090321963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_35
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 388
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca5546d7e11d2d0a0800000000000000
+      internalID: -6858189353648892500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_36
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 391
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57e92a861dbb1b040800000000000000
+      internalID: 4661713597383220853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_37
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 365
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2421e3e37f74fbe30800000000000000
+      internalID: 4521411678130016834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_38
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 383
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a267422130e79d90800000000000000
+      internalID: -7090952586638433625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_39
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 328
+        width: 30
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b65b4f6d8481ad80800000000000000
+      internalID: -8241160100118833480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_40
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 353
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f115c1e306e96310800000000000000
+      internalID: 1398902063622328821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_41
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 354
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbcc9e71236cd8160800000000000000
+      internalID: 7029492511847075007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_42
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 312
+        width: 90
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bc74d565fea41060800000000000000
+      internalID: 6923350896173939897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_43
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 372
+        width: 46
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 433f335cc3464b390800000000000000
+      internalID: -7803502042156895436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_44
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 200
+        width: 64
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8085eddc346f5280800000000000000
+      internalID: -9052406513407786865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 329
+        width: 51
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f964d1f1e22f7b2b0800000000000000
+      internalID: -5568716134315899233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_46
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 340
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab2c6eabe081de600800000000000000
+      internalID: 499081585252287162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_47
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 345
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 115d0248966abc990800000000000000
+      internalID: -7364609793515793135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_48
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 345
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2560545218a211d0800000000000000
+      internalID: -3381455573524388562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_49
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 308
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fb13d9462731cbf0800000000000000
+      internalID: -305902662097626128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_50
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 300
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc61239b06e20ee50800000000000000
+      internalID: 6836515227307218636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_51
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 286
+        width: 23
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d5e8da442188a060800000000000000
+      internalID: 6964958816603006416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_52
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 282
+        width: 13
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e30a0222447f45810800000000000000
+      internalID: 1753298026956365886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_53
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 302
+        width: 13
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db39e85eaf88415f0800000000000000
+      internalID: -786853423708466243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_54
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 310
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cd544e05357e9420800000000000000
+      internalID: 2638675302418767302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_55
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 287
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba075dceff066e050800000000000000
+      internalID: 5829453419984023723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_56
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 312
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c7a864b80a3b6cf0800000000000000
+      internalID: -258048744582764600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_57
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 304
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9092a8940881db390800000000000000
+      internalID: -7801052040267159287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_58
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 278
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b326ff2f67588b0800000000000000
+      internalID: -5150579812789503097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_59
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 292
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b698dca548f866ee0800000000000000
+      internalID: -1268168446436341397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_60
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 294
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cbaceaf2f04712c0800000000000000
+      internalID: -4461025493551109175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_61
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 280
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a896f3f9104286b0800000000000000
+      internalID: -5295599731622897498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_62
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 274
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d6cdbcadce323c20800000000000000
+      internalID: 3184676939591698128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_63
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 248
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 038fc6b2be83f8730800000000000000
+      internalID: 4003481176452692016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_64
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 276
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bde222ce8e493beb0800000000000000
+      internalID: -4705253457557049637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_65
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 271
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d197218d8bcd5950800000000000000
+      internalID: 6439526850827358675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_66
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 272
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f9e1a88eb5f11dc0800000000000000
+      internalID: -3669882022645339661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_67
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 268
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ed2fa445069b4c20800000000000000
+      internalID: 3191809710293462504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_68
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 214
+        width: 26
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f43f582a33901ea0800000000000000
+      internalID: -5904057233488005898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_69
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 248
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a3b7dcdaefcfadb0800000000000000
+      internalID: -4778372071982386263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_70
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 262
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b88dee4482c5c2550800000000000000
+      internalID: 6137381720224094347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_71
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 263
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0182ab4b302f9230800000000000000
+      internalID: 3647669662237491471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_72
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 268
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8618d8774cbff210800000000000000
+      internalID: 1369019826900047503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_73
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 254
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 936c39b8480ea1b40800000000000000
+      internalID: 5411884762121094713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_74
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 240
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbfc2c04a2e00f750800000000000000
+      internalID: 6336580250348212155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_75
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 164
+        width: 23
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a129ea2d7a8137a00800000000000000
+      internalID: 752972671774265882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_76
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 254
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28840b56526b8b570800000000000000
+      internalID: 8482730169888426114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_77
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 242
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbb3833cce598cc60800000000000000
+      internalID: 7838679995558411196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_78
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 194
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a64f779f85ecf010800000000000000
+      internalID: 1224105603622717090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_79
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 228
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00b7d4058154197a0800000000000000
+      internalID: -6372236027023754496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_80
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 222
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b677eaecfc77472c0800000000000000
+      internalID: -4434787998643619989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_81
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 232
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 811be7bef1fc4e8b0800000000000000
+      internalID: -5123742740038897384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_82
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 99
+        width: 115
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 090797e5a80ff7e80800000000000000
+      internalID: -8178553921200361328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_83
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 232
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da5dbef55bcb71b10800000000000000
+      internalID: 1952236450672793005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_84
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 226
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 461fc30cadbeb2120800000000000000
+      internalID: 2390263352010797412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_85
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 176
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c2f12ed8e92764b0800000000000000
+      internalID: -5447339144145407287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_86
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 174
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbb2434266adb9470800000000000000
+      internalID: 8402549662018710460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_87
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 161
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 797a433a0e906af10800000000000000
+      internalID: 2280521121725196183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_88
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 190
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 740cefcb2ec71cec0800000000000000
+      internalID: -3548417718115975097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_89
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 176
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f3843e6d31616d50800000000000000
+      internalID: 6728766234738066418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 77
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9389886f3eb6d410800000000000000
+      internalID: 1501596705320698782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_91
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 144
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f66337251abac7db0800000000000000
+      internalID: -4792767194067683729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_92
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 119
+        width: 32
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7a62e519cfedd8f0800000000000000
+      internalID: -513991135515743620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_93
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 95
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c1f3cc08aa566850800000000000000
+      internalID: 6369878400777318854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_94
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 55
+        width: 32
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec26a1b29a4354c70800000000000000
+      internalID: 8954621335273366222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_95
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 69
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7de38a626bcf6c590800000000000000
+      internalID: -7654152657406771497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_96
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 111
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c22be2e3bf808f30800000000000000
+      internalID: 4575815224177402563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_97
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 95
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8a53ac2a2a23cdd0800000000000000
+      internalID: -2467081810243003763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_98
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 103
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85c54014ee1da95c0800000000000000
+      internalID: -4207820080601080744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_99
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 93
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baa5fd5d1e5c73130800000000000000
+      internalID: 3546520805324053163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_100
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 61
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28388698e4ff953c0800000000000000
+      internalID: -4370181250608495742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_101
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 75
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 025da539a94c709d0800000000000000
+      internalID: -2808059674466003680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_102
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 41
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff3f7bbee402f2d80800000000000000
+      internalID: -8273358467122072577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_103
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 63
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ae3235cb481fb720800000000000000
+      internalID: 2864034601740943014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_104
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 65
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b664d6cf46da00270800000000000000
+      internalID: 8214756369567139435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_105
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 69
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9365d0ff65d934930800000000000000
+      internalID: 4126314680573318713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_106
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 42
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d563b85fe7218ed00800000000000000
+      internalID: 1002071253584655965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_107
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 49
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f2c5708d752197f0800000000000000
+      internalID: -607663253761965324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_108
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 47
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 558aa736724f37a00800000000000000
+      internalID: 753214012710889557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_109
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 71
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63630c31142d9fc20800000000000000
+      internalID: 3240852583815853622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_110
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 77
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 212dcb213d0d1ac50800000000000000
+      internalID: 6674845727710827026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_111
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 63
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 603af1484a029e440800000000000000
+      internalID: 4965535955116073734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_112
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 77
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 237b66ca0fdaf0c20800000000000000
+      internalID: 3174947511515658034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_113
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 49
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94d897cd7f0f6f670800000000000000
+      internalID: 8572303888092859721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_114
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 63
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b140afd0ff5487d0800000000000000
+      internalID: -2917101170480627277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_115
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 87
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3fa32cbe1479a620800000000000000
+      internalID: 2785885519859658559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_116
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 37
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faf929777101a7820800000000000000
+      internalID: 2916661401652207535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_117
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 29
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd1d4eda4b7b51700800000000000000
+      internalID: 510516119415869917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_118
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 41
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c829e2f5299b3e170800000000000000
+      internalID: 8206606984312427148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_GATE_MAILBOX_119
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 23
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44e8f2610d5ee63f0800000000000000
+      internalID: -905533793166717372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SPR_STREET_GATE_MAILBOX_0: -2453249351265531941
+      SPR_STREET_GATE_MAILBOX_1: 4396966923090406057
+      SPR_STREET_GATE_MAILBOX_10: 2845391512882954101
+      SPR_STREET_GATE_MAILBOX_100: -4370181250608495742
+      SPR_STREET_GATE_MAILBOX_101: -2808059674466003680
+      SPR_STREET_GATE_MAILBOX_102: -8273358467122072577
+      SPR_STREET_GATE_MAILBOX_103: 2864034601740943014
+      SPR_STREET_GATE_MAILBOX_104: 8214756369567139435
+      SPR_STREET_GATE_MAILBOX_105: 4126314680573318713
+      SPR_STREET_GATE_MAILBOX_106: 1002071253584655965
+      SPR_STREET_GATE_MAILBOX_107: -607663253761965324
+      SPR_STREET_GATE_MAILBOX_108: 753214012710889557
+      SPR_STREET_GATE_MAILBOX_109: 3240852583815853622
+      SPR_STREET_GATE_MAILBOX_11: 1057694166996742254
+      SPR_STREET_GATE_MAILBOX_110: 6674845727710827026
+      SPR_STREET_GATE_MAILBOX_111: 4965535955116073734
+      SPR_STREET_GATE_MAILBOX_112: 3174947511515658034
+      SPR_STREET_GATE_MAILBOX_113: 8572303888092859721
+      SPR_STREET_GATE_MAILBOX_114: -2917101170480627277
+      SPR_STREET_GATE_MAILBOX_115: 2785885519859658559
+      SPR_STREET_GATE_MAILBOX_116: 2916661401652207535
+      SPR_STREET_GATE_MAILBOX_117: 510516119415869917
+      SPR_STREET_GATE_MAILBOX_118: 8206606984312427148
+      SPR_STREET_GATE_MAILBOX_119: -905533793166717372
+      SPR_STREET_GATE_MAILBOX_12: -8666391984188691914
+      SPR_STREET_GATE_MAILBOX_13: -482892871610265498
+      SPR_STREET_GATE_MAILBOX_14: 5630168787203026893
+      SPR_STREET_GATE_MAILBOX_15: -3608107533506713210
+      SPR_STREET_GATE_MAILBOX_16: 4054645018711047557
+      SPR_STREET_GATE_MAILBOX_17: 2673210906607709962
+      SPR_STREET_GATE_MAILBOX_18: 2221832299241105369
+      SPR_STREET_GATE_MAILBOX_19: 4214683205024754696
+      SPR_STREET_GATE_MAILBOX_2: 1107894727127756426
+      SPR_STREET_GATE_MAILBOX_20: -8617135508041308967
+      SPR_STREET_GATE_MAILBOX_21: -213069219845904071
+      SPR_STREET_GATE_MAILBOX_22: -4373028735714512645
+      SPR_STREET_GATE_MAILBOX_23: 6039494219533667460
+      SPR_STREET_GATE_MAILBOX_24: -6914553904076597147
+      SPR_STREET_GATE_MAILBOX_25: 8742998104601154686
+      SPR_STREET_GATE_MAILBOX_26: -5686838601691206200
+      SPR_STREET_GATE_MAILBOX_27: 2957701929906113772
+      SPR_STREET_GATE_MAILBOX_28: -8468723987449700137
+      SPR_STREET_GATE_MAILBOX_29: -1501476998714676276
+      SPR_STREET_GATE_MAILBOX_3: 1340200169860144526
+      SPR_STREET_GATE_MAILBOX_30: 1085272975865570640
+      SPR_STREET_GATE_MAILBOX_31: -7781944029914105161
+      SPR_STREET_GATE_MAILBOX_32: -9035905559235203590
+      SPR_STREET_GATE_MAILBOX_33: -8807171717894444517
+      SPR_STREET_GATE_MAILBOX_34: 4866466609090321963
+      SPR_STREET_GATE_MAILBOX_35: -6858189353648892500
+      SPR_STREET_GATE_MAILBOX_36: 4661713597383220853
+      SPR_STREET_GATE_MAILBOX_37: 4521411678130016834
+      SPR_STREET_GATE_MAILBOX_38: -7090952586638433625
+      SPR_STREET_GATE_MAILBOX_39: -8241160100118833480
+      SPR_STREET_GATE_MAILBOX_4: -7809121070227209865
+      SPR_STREET_GATE_MAILBOX_40: 1398902063622328821
+      SPR_STREET_GATE_MAILBOX_41: 7029492511847075007
+      SPR_STREET_GATE_MAILBOX_42: 6923350896173939897
+      SPR_STREET_GATE_MAILBOX_43: -7803502042156895436
+      SPR_STREET_GATE_MAILBOX_44: -9052406513407786865
+      SPR_STREET_GATE_MAILBOX_45: -5568716134315899233
+      SPR_STREET_GATE_MAILBOX_46: 499081585252287162
+      SPR_STREET_GATE_MAILBOX_47: -7364609793515793135
+      SPR_STREET_GATE_MAILBOX_48: -3381455573524388562
+      SPR_STREET_GATE_MAILBOX_49: -305902662097626128
+      SPR_STREET_GATE_MAILBOX_5: -9097255634883082294
+      SPR_STREET_GATE_MAILBOX_50: 6836515227307218636
+      SPR_STREET_GATE_MAILBOX_51: 6964958816603006416
+      SPR_STREET_GATE_MAILBOX_52: 1753298026956365886
+      SPR_STREET_GATE_MAILBOX_53: -786853423708466243
+      SPR_STREET_GATE_MAILBOX_54: 2638675302418767302
+      SPR_STREET_GATE_MAILBOX_55: 5829453419984023723
+      SPR_STREET_GATE_MAILBOX_56: -258048744582764600
+      SPR_STREET_GATE_MAILBOX_57: -7801052040267159287
+      SPR_STREET_GATE_MAILBOX_58: -5150579812789503097
+      SPR_STREET_GATE_MAILBOX_59: -1268168446436341397
+      SPR_STREET_GATE_MAILBOX_6: -7165275605133778760
+      SPR_STREET_GATE_MAILBOX_60: -4461025493551109175
+      SPR_STREET_GATE_MAILBOX_61: -5295599731622897498
+      SPR_STREET_GATE_MAILBOX_62: 3184676939591698128
+      SPR_STREET_GATE_MAILBOX_63: 4003481176452692016
+      SPR_STREET_GATE_MAILBOX_64: -4705253457557049637
+      SPR_STREET_GATE_MAILBOX_65: 6439526850827358675
+      SPR_STREET_GATE_MAILBOX_66: -3669882022645339661
+      SPR_STREET_GATE_MAILBOX_67: 3191809710293462504
+      SPR_STREET_GATE_MAILBOX_68: -5904057233488005898
+      SPR_STREET_GATE_MAILBOX_69: -4778372071982386263
+      SPR_STREET_GATE_MAILBOX_7: -4991571413414372527
+      SPR_STREET_GATE_MAILBOX_70: 6137381720224094347
+      SPR_STREET_GATE_MAILBOX_71: 3647669662237491471
+      SPR_STREET_GATE_MAILBOX_72: 1369019826900047503
+      SPR_STREET_GATE_MAILBOX_73: 5411884762121094713
+      SPR_STREET_GATE_MAILBOX_74: 6336580250348212155
+      SPR_STREET_GATE_MAILBOX_75: 752972671774265882
+      SPR_STREET_GATE_MAILBOX_76: 8482730169888426114
+      SPR_STREET_GATE_MAILBOX_77: 7838679995558411196
+      SPR_STREET_GATE_MAILBOX_78: 1224105603622717090
+      SPR_STREET_GATE_MAILBOX_79: -6372236027023754496
+      SPR_STREET_GATE_MAILBOX_8: -6657337558812971986
+      SPR_STREET_GATE_MAILBOX_80: -4434787998643619989
+      SPR_STREET_GATE_MAILBOX_81: -5123742740038897384
+      SPR_STREET_GATE_MAILBOX_82: -8178553921200361328
+      SPR_STREET_GATE_MAILBOX_83: 1952236450672793005
+      SPR_STREET_GATE_MAILBOX_84: 2390263352010797412
+      SPR_STREET_GATE_MAILBOX_85: -5447339144145407287
+      SPR_STREET_GATE_MAILBOX_86: 8402549662018710460
+      SPR_STREET_GATE_MAILBOX_87: 2280521121725196183
+      SPR_STREET_GATE_MAILBOX_88: -3548417718115975097
+      SPR_STREET_GATE_MAILBOX_89: 6728766234738066418
+      SPR_STREET_GATE_MAILBOX_9: -2423285764323618326
+      SPR_STREET_GATE_MAILBOX_90: 1501596705320698782
+      SPR_STREET_GATE_MAILBOX_91: -4792767194067683729
+      SPR_STREET_GATE_MAILBOX_92: -513991135515743620
+      SPR_STREET_GATE_MAILBOX_93: 6369878400777318854
+      SPR_STREET_GATE_MAILBOX_94: 8954621335273366222
+      SPR_STREET_GATE_MAILBOX_95: -7654152657406771497
+      SPR_STREET_GATE_MAILBOX_96: 4575815224177402563
+      SPR_STREET_GATE_MAILBOX_97: -2467081810243003763
+      SPR_STREET_GATE_MAILBOX_98: -4207820080601080744
+      SPR_STREET_GATE_MAILBOX_99: 3546520805324053163
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

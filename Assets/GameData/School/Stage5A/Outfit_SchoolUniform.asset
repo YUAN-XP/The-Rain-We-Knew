@@ -15,6 +15,7 @@ MonoBehaviour:
   outfit: 2
   outfitName: "\u6821\u670D"
   description: "\u5728\u4F53\u80B2\u5668\u6750\u5BA4\u627E\u5230\u7684\u6821\u670D\u3002"
-  preview: {fileID: 8932916814938391197, guid: 55d62fa54356e0c48a473422fb15e3a8, type: 3}
+  preview: {fileID: -5939878350018473159, guid: 5cdbc21edcd793945b4010c2285f1740, type: 2}
+  clothingImage: {fileID: -2615787283673966887, guid: 5cdbc21edcd793945b4010c2285f1740, type: 2}
   initiallyOwned: 0
   unlockFlag: 56

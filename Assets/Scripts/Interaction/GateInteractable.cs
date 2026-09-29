@@ -105,8 +105,6 @@ public class GateInteractable :
             "Scene01: Loading Scene02_Courtyard."
         );
 
-        SceneManager.LoadScene(
-            "Scene02_Courtyard"
-        );
+        BlackSceneTransition.Begin("Scene02_Courtyard", FindAnyObjectByType<GameControlManager>());
     }
 }

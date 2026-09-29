@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: 5cea70c5e712a4c49a15aeeb592b9343
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3942415541755542845
+    second: PM_S02_Env_Window_Rain_A_v01_0
+  - first:
+      213: 7339341930761754905
+    second: PM_S02_Env_Window_Rain_A_v01_1
+  - first:
+      213: -8784683489913137882
+    second: PM_S02_Env_Window_Rain_A_v01_2
+  - first:
+      213: -2738686824980923691
+    second: PM_S02_Env_Window_Rain_A_v01_3
+  - first:
+      213: 2290868216464550670
+    second: PM_S02_Env_Window_Rain_A_v01_4
+  - first:
+      213: 3447528020414828980
+    second: PM_S02_Env_Window_Rain_A_v01_5
+  - first:
+      213: 7361671971859448802
+    second: PM_S02_Env_Window_Rain_A_v01_6
+  - first:
+      213: 6775891314080546781
+    second: PM_S02_Env_Window_Rain_A_v01_7
+  - first:
+      213: 8261031868925991120
+    second: PM_S02_Env_Window_Rain_A_v01_8
+  - first:
+      213: -8488349470392216532
+    second: PM_S02_Env_Window_Rain_A_v01_9
+  - first:
+      213: 7859449423939263415
+    second: PM_S02_Env_Window_Rain_A_v01_10
+  - first:
+      213: -2523857446527872608
+    second: PM_S02_Env_Window_Rain_A_v01_11
+  - first:
+      213: -4634079265053313368
+    second: PM_S02_Env_Window_Rain_A_v01_12
+  - first:
+      213: -1152872081076525444
+    second: PM_S02_Env_Window_Rain_A_v01_13
+  - first:
+      213: 3077266309262400496
+    second: PM_S02_Env_Window_Rain_A_v01_14
+  - first:
+      213: 1799547337003159354
+    second: PM_S02_Env_Window_Rain_A_v01_15
+  - first:
+      213: 3587278074341188784
+    second: PM_S02_Env_Window_Rain_A_v01_16
+  - first:
+      213: 6345092050998540903
+    second: PM_S02_Env_Window_Rain_A_v01_17
+  - first:
+      213: 7024219795953725677
+    second: PM_S02_Env_Window_Rain_A_v01_18
+  - first:
+      213: -6261473317447055499
+    second: PM_S02_Env_Window_Rain_A_v01_19
+  - first:
+      213: -3774311427117161970
+    second: PM_S02_Env_Window_Rain_A_v01_20
+  - first:
+      213: -1152420425508710265
+    second: PM_S02_Env_Window_Rain_A_v01_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 9
+  spritePivot: {x: 0.49953958, y: 0.116712704}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PM_S02_Env_Window_Rain_A_v01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1074
+        height: 1397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c28eacd3f9b949c0800000000000000
+      internalID: -3942415541755542845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Env_Window_Rain_A_v01_1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1375
+        width: 140
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9191f2cb9949ad560800000000000000
+      internalID: 7339341930761754905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Env_Window_Rain_A_v01_2
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1359
+        width: 148
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6251d7fb8e8861680800000000000000
+      internalID: -8784683489913137882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Env_Window_Rain_A_v01_3
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1391
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5da38f5c7da3ef9d0800000000000000
+      internalID: -2738686824980923691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Env_Window_Rain_A_v01_4
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 1390
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0b2a9d518ccacf10800000000000000
+      internalID: 2290868216464550670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Env_Window_Rain_A_v01_5
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 1366
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b11802087418df20800000000000000
+      internalID: 3447528020414828980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Env_Window_Rain_A_v01_6
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1379
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e3c1a397a9e92660800000000000000
+      internalID: 7361671971859448802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Env_Window_Rain_A_v01_7
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1369
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddffc6cff3dc80e50800000000000000
+      internalID: 6775891314080546781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Env_Window_Rain_A_v01_8
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1350
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d8d38947b415a270800000000000000
+      internalID: 8261031868925991120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Env_Window_Rain_A_v01_9
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 1348
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2495ef3123533a80800000000000000
+      internalID: -8488349470392216532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Env_Window_Rain_A_v01_10
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1334
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bb5c042c9f521d60800000000000000
+      internalID: 7859449423939263415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Env_Window_Rain_A_v01_11
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 144
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a15bfb360579fcd0800000000000000
+      internalID: -2523857446527872608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Env_Window_Rain_A_v01_12
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 140
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a67e79f57170bfb0800000000000000
+      internalID: -4634079265053313368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Env_Window_Rain_A_v01_13
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 130
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c76e7ff43fc2000f0800000000000000
+      internalID: -1152872081076525444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Env_Window_Rain_A_v01_14
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 128
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fbdcda7765a4ba20800000000000000
+      internalID: 3077266309262400496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Env_Window_Rain_A_v01_15
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 130
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3fc292c4c649f810800000000000000
+      internalID: 1799547337003159354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Env_Window_Rain_A_v01_16
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 128
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b467a3076298c130800000000000000
+      internalID: 3587278074341188784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Env_Window_Rain_A_v01_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 33
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76a3ce64a9b4e0850800000000000000
+      internalID: 6345092050998540903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Env_Window_Rain_A_v01_18
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 39
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de0b61240ba0b7160800000000000000
+      internalID: 7024219795953725677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Env_Window_Rain_A_v01_19
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 10
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5774bf64137ca19a0800000000000000
+      internalID: -6261473317447055499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Env_Window_Rain_A_v01_20
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 15
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e02ebf211c3fe9bc0800000000000000
+      internalID: -3774311427117161970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Env_Window_Rain_A_v01_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78816a19ab7c100f0800000000000000
+      internalID: -1152420425508710265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PM_S02_Env_Window_Rain_A_v01_0: -3942415541755542845
+      PM_S02_Env_Window_Rain_A_v01_1: 7339341930761754905
+      PM_S02_Env_Window_Rain_A_v01_10: 7859449423939263415
+      PM_S02_Env_Window_Rain_A_v01_11: -2523857446527872608
+      PM_S02_Env_Window_Rain_A_v01_12: -4634079265053313368
+      PM_S02_Env_Window_Rain_A_v01_13: -1152872081076525444
+      PM_S02_Env_Window_Rain_A_v01_14: 3077266309262400496
+      PM_S02_Env_Window_Rain_A_v01_15: 1799547337003159354
+      PM_S02_Env_Window_Rain_A_v01_16: 3587278074341188784
+      PM_S02_Env_Window_Rain_A_v01_17: 6345092050998540903
+      PM_S02_Env_Window_Rain_A_v01_18: 7024219795953725677
+      PM_S02_Env_Window_Rain_A_v01_19: -6261473317447055499
+      PM_S02_Env_Window_Rain_A_v01_2: -8784683489913137882
+      PM_S02_Env_Window_Rain_A_v01_20: -3774311427117161970
+      PM_S02_Env_Window_Rain_A_v01_21: -1152420425508710265
+      PM_S02_Env_Window_Rain_A_v01_3: -2738686824980923691
+      PM_S02_Env_Window_Rain_A_v01_4: 2290868216464550670
+      PM_S02_Env_Window_Rain_A_v01_5: 3447528020414828980
+      PM_S02_Env_Window_Rain_A_v01_6: 7361671971859448802
+      PM_S02_Env_Window_Rain_A_v01_7: 6775891314080546781
+      PM_S02_Env_Window_Rain_A_v01_8: 8261031868925991120
+      PM_S02_Env_Window_Rain_A_v01_9: -8488349470392216532
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

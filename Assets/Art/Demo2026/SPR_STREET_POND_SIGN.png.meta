@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 1dba8a39371f0c445a21cc0a05b82095
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -965992369570458124
+    second: SPR_STREET_POND_SIGN_0
+  - first:
+      213: 4349029505314560724
+    second: SPR_STREET_POND_SIGN_1
+  - first:
+      213: -290815059816716456
+    second: SPR_STREET_POND_SIGN_2
+  - first:
+      213: -7696226235263219427
+    second: SPR_STREET_POND_SIGN_3
+  - first:
+      213: -3028193138400261449
+    second: SPR_STREET_POND_SIGN_4
+  - first:
+      213: -6582629353539428831
+    second: SPR_STREET_POND_SIGN_5
+  - first:
+      213: -5068983983444961256
+    second: SPR_STREET_POND_SIGN_6
+  - first:
+      213: -5712510234027369631
+    second: SPR_STREET_POND_SIGN_7
+  - first:
+      213: 6327002603006017619
+    second: SPR_STREET_POND_SIGN_8
+  - first:
+      213: -2211547843946756137
+    second: SPR_STREET_POND_SIGN_9
+  - first:
+      213: 8337574185436678527
+    second: SPR_STREET_POND_SIGN_10
+  - first:
+      213: 655012633671292399
+    second: SPR_STREET_POND_SIGN_11
+  - first:
+      213: 8151318178723971637
+    second: SPR_STREET_POND_SIGN_12
+  - first:
+      213: -577945975292481873
+    second: SPR_STREET_POND_SIGN_13
+  - first:
+      213: 3560166814888165516
+    second: SPR_STREET_POND_SIGN_14
+  - first:
+      213: -8527002630539091356
+    second: SPR_STREET_POND_SIGN_15
+  - first:
+      213: -4572158353643449898
+    second: SPR_STREET_POND_SIGN_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPR_STREET_POND_SIGN_0
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 660
+        width: 215
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f5d304de0b1892f0800000000000000
+      internalID: -965992369570458124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_POND_SIGN_1
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 856
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4da97fdfa4bda5c30800000000000000
+      internalID: 4349029505314560724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_POND_SIGN_2
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 692
+        width: 39
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8576a407e31d6fbf0800000000000000
+      internalID: -290815059816716456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_POND_SIGN_3
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 698
+        width: 82
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d190810f303813590800000000000000
+      internalID: -7696226235263219427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_POND_SIGN_4
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 749
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ba806a7262b9f5d0800000000000000
+      internalID: -3028193138400261449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_POND_SIGN_5
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 755
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12e193eaa7dc5a4a0800000000000000
+      internalID: -6582629353539428831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_POND_SIGN_6
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 680
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8185e967ce957a9b0800000000000000
+      internalID: -5068983983444961256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_POND_SIGN_7
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 690
+        width: 70
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16bd305553619b0b0800000000000000
+      internalID: -5712510234027369631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_POND_SIGN_8
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 620
+        width: 108
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 350452578570ec750800000000000000
+      internalID: 6327002603006017619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_POND_SIGN_9
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 0
+        width: 395
+        height: 785
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d7c5c504f00f41e0800000000000000
+      internalID: -2211547843946756137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_POND_SIGN_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 49
+        width: 1371
+        height: 643
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f798b6b1c8305b370800000000000000
+      internalID: 8337574185436678527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_POND_SIGN_11
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 672
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe5de591582171900800000000000000
+      internalID: 655012633671292399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_POND_SIGN_12
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 635
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 532c60e22bc4f1170800000000000000
+      internalID: 8151318178723971637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_POND_SIGN_13
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 635
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae23539239baf7f0800000000000000
+      internalID: -577945975292481873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_POND_SIGN_14
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 610
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c800b860bd0486130800000000000000
+      internalID: 3560166814888165516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_POND_SIGN_15
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 606
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46265e719400aa980800000000000000
+      internalID: -8527002630539091356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_STREET_POND_SIGN_16
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 37
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d15f32a33e6c80c0800000000000000
+      internalID: -4572158353643449898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SPR_STREET_POND_SIGN_0: -965992369570458124
+      SPR_STREET_POND_SIGN_1: 4349029505314560724
+      SPR_STREET_POND_SIGN_10: 8337574185436678527
+      SPR_STREET_POND_SIGN_11: 655012633671292399
+      SPR_STREET_POND_SIGN_12: 8151318178723971637
+      SPR_STREET_POND_SIGN_13: -577945975292481873
+      SPR_STREET_POND_SIGN_14: 3560166814888165516
+      SPR_STREET_POND_SIGN_15: -8527002630539091356
+      SPR_STREET_POND_SIGN_16: -4572158353643449898
+      SPR_STREET_POND_SIGN_2: -290815059816716456
+      SPR_STREET_POND_SIGN_3: -7696226235263219427
+      SPR_STREET_POND_SIGN_4: -3028193138400261449
+      SPR_STREET_POND_SIGN_5: -6582629353539428831
+      SPR_STREET_POND_SIGN_6: -5068983983444961256
+      SPR_STREET_POND_SIGN_7: -5712510234027369631
+      SPR_STREET_POND_SIGN_8: 6327002603006017619
+      SPR_STREET_POND_SIGN_9: -2211547843946756137
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

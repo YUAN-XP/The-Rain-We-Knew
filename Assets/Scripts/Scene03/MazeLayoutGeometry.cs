@@ -9,6 +9,15 @@ public static class MazeLayoutGeometry
         Sprite sprite = source.sprite; Material material = source.sharedMaterial;
         for (int layer = 0; layer < 2; layer++)
         {
+            var volume=maze.visuals[layer].GetComponent<MazeWallPresentation>();
+            if(volume){
+                Clear(maze.collisions[layer].transform);int n=0;
+                foreach(Rect rect in maze.layouts[layer].WallRects(maze.cellSize,maze.wallThickness)){
+                    var wall=Node("WallEdge_"+(n++).ToString("D3"),maze.collisions[layer].transform,rect.center);
+                    wall.gameObject.AddComponent<BoxCollider2D>().size=rect.size;
+                }
+                volume.layout=maze.layouts[layer];volume.cellSize=maze.cellSize;volume.wallThickness=maze.wallThickness;volume.Rebuild();continue;
+            }
             Clear(maze.visuals[layer].transform); Clear(maze.collisions[layer].transform);
             int index = 0;
             foreach (Rect rect in maze.layouts[layer].WallRects(maze.cellSize, maze.wallThickness))

@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: cb47c6ad6bb1d2843b790879c1ba3d3e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6522158206574865109
+    second: PM_S03_MazeModules_N01_0
+  - first:
+      213: 1239835508450192665
+    second: PM_S03_MazeModules_N01_1
+  - first:
+      213: -387327871833080355
+    second: PM_S03_MazeModules_N01_2
+  - first:
+      213: 8666198971058759212
+    second: PM_S03_MazeModules_N01_3
+  - first:
+      213: 3087846698131050765
+    second: PM_S03_MazeModules_N01_4
+  - first:
+      213: -1948076710575452629
+    second: PM_S03_MazeModules_N01_5
+  - first:
+      213: 8095504190742874718
+    second: PM_S03_MazeModules_N01_6
+  - first:
+      213: -3979151504348775524
+    second: PM_S03_MazeModules_N01_7
+  - first:
+      213: -8614605974102068792
+    second: PM_S03_MazeModules_N01_8
+  - first:
+      213: 6152217538033072007
+    second: PM_S03_MazeModules_N01_9
+  - first:
+      213: -4453270913518585058
+    second: PM_S03_MazeModules_N01_10
+  - first:
+      213: 7442652601792528380
+    second: PM_S03_MazeModules_N01_11
+  - first:
+      213: 8931001794137728892
+    second: PM_S03_MazeModules_N01_12
+  - first:
+      213: -1724072849479510379
+    second: PM_S03_MazeModules_N01_13
+  - first:
+      213: 5069959726570835278
+    second: PM_S03_MazeModules_N01_14
+  - first:
+      213: -7179043402872554485
+    second: PM_S03_MazeModules_N01_15
+  - first:
+      213: -4357683348801922875
+    second: PM_S03_MazeModules_N01_16
+  - first:
+      213: -3974068979190485543
+    second: PM_S03_MazeModules_N01_17
+  - first:
+      213: 2239796385931242663
+    second: PM_S03_MazeModules_N01_18
+  - first:
+      213: -9194007576601506267
+    second: PM_S03_MazeModules_N01_19
+  - first:
+      213: -8828774996720211693
+    second: PM_S03_MazeModules_N01_20
+  - first:
+      213: 1670195393141928028
+    second: PM_S03_MazeModules_N01_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PM_S03_MazeModules_N01_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 489
+        width: 311
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5da2bcf355c538a50800000000000000
+      internalID: 6522158206574865109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S03_MazeModules_N01_1
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 971
+        width: 109
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91de61573d7c43110800000000000000
+      internalID: 1239835508450192665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S03_MazeModules_N01_2
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 495
+        width: 313
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dddf7cb4a5fef9af0800000000000000
+      internalID: -387327871833080355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S03_MazeModules_N01_3
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 545
+        width: 343
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2620d67c06844870800000000000000
+      internalID: 8666198971058759212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S03_MazeModules_N01_4
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 389
+        width: 441
+        height: 559
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d01d6fa363c3ada20800000000000000
+      internalID: 3087846698131050765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S03_MazeModules_N01_5
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 897
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2e40f69d8a07f4e0800000000000000
+      internalID: -1948076710575452629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S03_MazeModules_N01_6
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 897
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5a4aee6b22095070800000000000000
+      internalID: 8095504190742874718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S03_MazeModules_N01_7
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 492
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9b74db0ac637c8c0800000000000000
+      internalID: -3979151504348775524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S03_MazeModules_N01_8
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 495
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c130b93285c27880800000000000000
+      internalID: -8614605974102068792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S03_MazeModules_N01_9
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 0
+        width: 352
+        height: 514
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 787b3674141116550800000000000000
+      internalID: 6152217538033072007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S03_MazeModules_N01_10
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 497
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1b3527d2bdc232c0800000000000000
+      internalID: -4453270913518585058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S03_MazeModules_N01_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 337
+        height: 456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfffa74cb1d994760800000000000000
+      internalID: 7442652601792528380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S03_MazeModules_N01_12
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 405
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c77a4f330da41fb70800000000000000
+      internalID: 8931001794137728892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S03_MazeModules_N01_13
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 0
+        width: 335
+        height: 474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 596d0efb0ecd218e0800000000000000
+      internalID: -1724072849479510379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S03_MazeModules_N01_14
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 73
+        width: 43
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4d8acf628d1c5640800000000000000
+      internalID: 5069959726570835278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S03_MazeModules_N01_15
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 15
+        width: 479
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0c7ba0bf0aee5c90800000000000000
+      internalID: -7179043402872554485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S03_MazeModules_N01_16
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 87
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c8d60f05166683c0800000000000000
+      internalID: -4357683348801922875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S03_MazeModules_N01_17
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 116
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dda376a15549d8c0800000000000000
+      internalID: -3974068979190485543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S03_MazeModules_N01_18
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 177
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aca2a032fa551f10800000000000000
+      internalID: 2239796385931242663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S03_MazeModules_N01_19
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 49
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52eca6e22d2586080800000000000000
+      internalID: -9194007576601506267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S03_MazeModules_N01_20
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 0
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31924a6dae3e97580800000000000000
+      internalID: -8828774996720211693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S03_MazeModules_N01_21
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 23
+        width: 15
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c50f7b96cd9bd2710800000000000000
+      internalID: 1670195393141928028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PM_S03_MazeModules_N01_0: 6522158206574865109
+      PM_S03_MazeModules_N01_1: 1239835508450192665
+      PM_S03_MazeModules_N01_10: -4453270913518585058
+      PM_S03_MazeModules_N01_11: 7442652601792528380
+      PM_S03_MazeModules_N01_12: 8931001794137728892
+      PM_S03_MazeModules_N01_13: -1724072849479510379
+      PM_S03_MazeModules_N01_14: 5069959726570835278
+      PM_S03_MazeModules_N01_15: -7179043402872554485
+      PM_S03_MazeModules_N01_16: -4357683348801922875
+      PM_S03_MazeModules_N01_17: -3974068979190485543
+      PM_S03_MazeModules_N01_18: 2239796385931242663
+      PM_S03_MazeModules_N01_19: -9194007576601506267
+      PM_S03_MazeModules_N01_2: -387327871833080355
+      PM_S03_MazeModules_N01_20: -8828774996720211693
+      PM_S03_MazeModules_N01_21: 1670195393141928028
+      PM_S03_MazeModules_N01_3: 8666198971058759212
+      PM_S03_MazeModules_N01_4: 3087846698131050765
+      PM_S03_MazeModules_N01_5: -1948076710575452629
+      PM_S03_MazeModules_N01_6: 8095504190742874718
+      PM_S03_MazeModules_N01_7: -3979151504348775524
+      PM_S03_MazeModules_N01_8: -8614605974102068792
+      PM_S03_MazeModules_N01_9: 6152217538033072007
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

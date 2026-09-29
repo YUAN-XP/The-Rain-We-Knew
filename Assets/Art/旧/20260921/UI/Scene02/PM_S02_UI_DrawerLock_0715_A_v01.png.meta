@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: e2512a806b77a624183a52b64c264049
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4851724760840075942
+    second: PM_S02_UI_DrawerLock_0715_A_v01_0
+  - first:
+      213: 5186035585075155695
+    second: PM_S02_UI_DrawerLock_0715_A_v01_1
+  - first:
+      213: -5058939460947838880
+    second: PM_S02_UI_DrawerLock_0715_A_v01_2
+  - first:
+      213: 8951608404900930514
+    second: PM_S02_UI_DrawerLock_0715_A_v01_3
+  - first:
+      213: 2131620294767234560
+    second: PM_S02_UI_DrawerLock_0715_A_v01_4
+  - first:
+      213: -2442262103622045240
+    second: PM_S02_UI_DrawerLock_0715_A_v01_5
+  - first:
+      213: -6029909484603547512
+    second: PM_S02_UI_DrawerLock_0715_A_v01_6
+  - first:
+      213: 6242335722661993090
+    second: PM_S02_UI_DrawerLock_0715_A_v01_7
+  - first:
+      213: -6720786723201876926
+    second: PM_S02_UI_DrawerLock_0715_A_v01_8
+  - first:
+      213: 278429747617691368
+    second: PM_S02_UI_DrawerLock_0715_A_v01_9
+  - first:
+      213: 389805876985361477
+    second: PM_S02_UI_DrawerLock_0715_A_v01_10
+  - first:
+      213: 5445094368756078254
+    second: PM_S02_UI_DrawerLock_0715_A_v01_11
+  - first:
+      213: 9136932106937206352
+    second: PM_S02_UI_DrawerLock_0715_A_v01_12
+  - first:
+      213: 1663062275165262034
+    second: PM_S02_UI_DrawerLock_0715_A_v01_13
+  - first:
+      213: -1480512891595989580
+    second: PM_S02_UI_DrawerLock_0715_A_v01_14
+  - first:
+      213: -646566867553840309
+    second: PM_S02_UI_DrawerLock_0715_A_v01_15
+  - first:
+      213: -5438219046783891293
+    second: PM_S02_UI_DrawerLock_0715_A_v01_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 9
+  spritePivot: {x: 0.5010359, y: 0.5050644}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PM_S02_UI_DrawerLock_0715_A_v01_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 25
+        width: 1386
+        height: 1004
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a55092a19063bacb0800000000000000
+      internalID: -4851724760840075942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_UI_DrawerLock_0715_A_v01_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 1028
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe290f843ef78f740800000000000000
+      internalID: 5186035585075155695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_UI_DrawerLock_0715_A_v01_2
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 974
+        width: 32
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0687ff91d590bc9b0800000000000000
+      internalID: -5058939460947838880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_UI_DrawerLock_0715_A_v01_3
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 1028
+        width: 91
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d36586aa608a3c70800000000000000
+      internalID: 8951608404900930514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_UI_DrawerLock_0715_A_v01_4
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 1007
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00e4d914d59059d10800000000000000
+      internalID: 2131620294767234560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_UI_DrawerLock_0715_A_v01_5
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 150
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c1b5317e875b1ed0800000000000000
+      internalID: -2442262103622045240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_UI_DrawerLock_0715_A_v01_6
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 137
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88062768545715ca0800000000000000
+      internalID: -6029909484603547512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_UI_DrawerLock_0715_A_v01_7
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 129
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28adff5344b31a650800000000000000
+      internalID: 6242335722661993090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_UI_DrawerLock_0715_A_v01_8
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 118
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24cf3606518fab2a0800000000000000
+      internalID: -6720786723201876926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_UI_DrawerLock_0715_A_v01_9
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 112
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e677a9516e2dd300800000000000000
+      internalID: 278429747617691368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_UI_DrawerLock_0715_A_v01_10
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 114
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 544721d316ed86500800000000000000
+      internalID: 389805876985361477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_UI_DrawerLock_0715_A_v01_11
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 118
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea69f22aa7cd09b40800000000000000
+      internalID: 5445094368756078254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_UI_DrawerLock_0715_A_v01_12
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 104
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0568ada7757ecce70800000000000000
+      internalID: 9136932106937206352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_UI_DrawerLock_0715_A_v01_13
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 123
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d01496f352641710800000000000000
+      internalID: 1663062275165262034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_UI_DrawerLock_0715_A_v01_14
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 104
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bdd8038e59247be0800000000000000
+      internalID: -1480512891595989580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_UI_DrawerLock_0715_A_v01_15
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 112
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b439aef0cdee607f0800000000000000
+      internalID: -646566867553840309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_UI_DrawerLock_0715_A_v01_16
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 96
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a8cea107909784b0800000000000000
+      internalID: -5438219046783891293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PM_S02_UI_DrawerLock_0715_A_v01_0: -4851724760840075942
+      PM_S02_UI_DrawerLock_0715_A_v01_1: 5186035585075155695
+      PM_S02_UI_DrawerLock_0715_A_v01_10: 389805876985361477
+      PM_S02_UI_DrawerLock_0715_A_v01_11: 5445094368756078254
+      PM_S02_UI_DrawerLock_0715_A_v01_12: 9136932106937206352
+      PM_S02_UI_DrawerLock_0715_A_v01_13: 1663062275165262034
+      PM_S02_UI_DrawerLock_0715_A_v01_14: -1480512891595989580
+      PM_S02_UI_DrawerLock_0715_A_v01_15: -646566867553840309
+      PM_S02_UI_DrawerLock_0715_A_v01_16: -5438219046783891293
+      PM_S02_UI_DrawerLock_0715_A_v01_2: -5058939460947838880
+      PM_S02_UI_DrawerLock_0715_A_v01_3: 8951608404900930514
+      PM_S02_UI_DrawerLock_0715_A_v01_4: 2131620294767234560
+      PM_S02_UI_DrawerLock_0715_A_v01_5: -2442262103622045240
+      PM_S02_UI_DrawerLock_0715_A_v01_6: -6029909484603547512
+      PM_S02_UI_DrawerLock_0715_A_v01_7: 6242335722661993090
+      PM_S02_UI_DrawerLock_0715_A_v01_8: -6720786723201876926
+      PM_S02_UI_DrawerLock_0715_A_v01_9: 278429747617691368
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

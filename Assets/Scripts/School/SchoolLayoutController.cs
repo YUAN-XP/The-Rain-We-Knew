@@ -27,6 +27,7 @@ public class SchoolLayoutController : MonoBehaviour
         camera.SetLimits(room.CameraX.x,room.CameraX.y);
         camera.SetVerticalLimits(true,0,room.CameraY,room.CameraY);
         camera.SnapToTarget();
+        RoomPresentationFraming.PrepareCurrentView();
     }
     void Start() { ApplyVariant(Variant); EnterRoom(CurrentRoom); }
 }

@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: 06074a20eb2bac14390f03c19c999608
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2594888672154028767
+    second: PM_CH_NeighborhoodCast_N01_0
+  - first:
+      213: -464446431601592342
+    second: PM_CH_NeighborhoodCast_N01_1
+  - first:
+      213: -4093925404983470443
+    second: PM_CH_NeighborhoodCast_N01_2
+  - first:
+      213: 8159201532976712522
+    second: PM_CH_NeighborhoodCast_N01_3
+  - first:
+      213: -650486418247348735
+    second: PM_CH_NeighborhoodCast_N01_4
+  - first:
+      213: -2225338065978379853
+    second: PM_CH_NeighborhoodCast_N01_5
+  - first:
+      213: -1633884295576236290
+    second: PM_CH_NeighborhoodCast_N01_6
+  - first:
+      213: -5281022784542663918
+    second: PM_CH_NeighborhoodCast_N01_7
+  - first:
+      213: -694873782890073728
+    second: PM_CH_NeighborhoodCast_N01_8
+  - first:
+      213: -4390562995044721421
+    second: PM_CH_NeighborhoodCast_N01_9
+  - first:
+      213: -5636174918671851258
+    second: PM_CH_NeighborhoodCast_N01_10
+  - first:
+      213: 5602348159493616795
+    second: PM_CH_NeighborhoodCast_N01_11
+  - first:
+      213: -3098899740307406580
+    second: PM_CH_NeighborhoodCast_N01_12
+  - first:
+      213: 5093993326604370536
+    second: PM_CH_NeighborhoodCast_N01_13
+  - first:
+      213: -5057324770894684507
+    second: PM_CH_NeighborhoodCast_N01_14
+  - first:
+      213: -4800753790769664358
+    second: PM_CH_NeighborhoodCast_N01_15
+  - first:
+      213: -5693053355771053719
+    second: PM_CH_NeighborhoodCast_N01_16
+  - first:
+      213: -2638838841494261071
+    second: PM_CH_NeighborhoodCast_N01_17
+  - first:
+      213: 5427545868716356719
+    second: PM_CH_NeighborhoodCast_N01_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PM_CH_NeighborhoodCast_N01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13
+        width: 435
+        height: 1011
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fda0d6fbf75e20420800000000000000
+      internalID: 2594888672154028767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_CH_NeighborhoodCast_N01_1
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 15
+        width: 318
+        height: 983
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae770336e64fd89f0800000000000000
+      internalID: -464446431601592342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_CH_NeighborhoodCast_N01_2
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 508
+        width: 183
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5965303e8847f27c0800000000000000
+      internalID: -4093925404983470443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_CH_NeighborhoodCast_N01_3
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 15
+        width: 475
+        height: 993
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4b46ef909e4b3170800000000000000
+      internalID: 8159201532976712522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_CH_NeighborhoodCast_N01_4
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 895
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10e862d8c0209f6f0800000000000000
+      internalID: -650486418247348735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_CH_NeighborhoodCast_N01_5
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 889
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b13430c1d20e11e0800000000000000
+      internalID: -2225338065978379853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_CH_NeighborhoodCast_N01_6
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 869
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efec61ec3e64359e0800000000000000
+      internalID: -1633884295576236290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_CH_NeighborhoodCast_N01_7
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 857
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21b179ce1c906b6b0800000000000000
+      internalID: -5281022784542663918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_CH_NeighborhoodCast_N01_8
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 834
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 081fa1fd9ff4b56f0800000000000000
+      internalID: -694873782890073728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_CH_NeighborhoodCast_N01_9
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 677
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fc526cd7369113c0800000000000000
+      internalID: -4390562995044721421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_CH_NeighborhoodCast_N01_10
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 627
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6012990f5c848c1b0800000000000000
+      internalID: -5636174918671851258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_CH_NeighborhoodCast_N01_11
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 15
+        width: 211
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b943ea2f7f98fbd40800000000000000
+      internalID: 5602348159493616795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_CH_NeighborhoodCast_N01_12
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 445
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c014d68da1f7ef4d0800000000000000
+      internalID: -3098899740307406580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_CH_NeighborhoodCast_N01_13
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 319
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 862c67001ff71b640800000000000000
+      internalID: 5093993326604370536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_CH_NeighborhoodCast_N01_14
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 319
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aed90d6ae5c0d9b0800000000000000
+      internalID: -5057324770894684507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_CH_NeighborhoodCast_N01_15
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 297
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9e601fdcdb406db0800000000000000
+      internalID: -4800753790769664358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_CH_NeighborhoodCast_N01_16
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 183
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 969bbe1d2263ef0b0800000000000000
+      internalID: -5693053355771053719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_CH_NeighborhoodCast_N01_17
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 155
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b23b390e06f06bd0800000000000000
+      internalID: -2638838841494261071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_CH_NeighborhoodCast_N01_18
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 55
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f643af21634825b40800000000000000
+      internalID: 5427545868716356719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PM_CH_NeighborhoodCast_N01_0: 2594888672154028767
+      PM_CH_NeighborhoodCast_N01_1: -464446431601592342
+      PM_CH_NeighborhoodCast_N01_10: -5636174918671851258
+      PM_CH_NeighborhoodCast_N01_11: 5602348159493616795
+      PM_CH_NeighborhoodCast_N01_12: -3098899740307406580
+      PM_CH_NeighborhoodCast_N01_13: 5093993326604370536
+      PM_CH_NeighborhoodCast_N01_14: -5057324770894684507
+      PM_CH_NeighborhoodCast_N01_15: -4800753790769664358
+      PM_CH_NeighborhoodCast_N01_16: -5693053355771053719
+      PM_CH_NeighborhoodCast_N01_17: -2638838841494261071
+      PM_CH_NeighborhoodCast_N01_18: 5427545868716356719
+      PM_CH_NeighborhoodCast_N01_2: -4093925404983470443
+      PM_CH_NeighborhoodCast_N01_3: 8159201532976712522
+      PM_CH_NeighborhoodCast_N01_4: -650486418247348735
+      PM_CH_NeighborhoodCast_N01_5: -2225338065978379853
+      PM_CH_NeighborhoodCast_N01_6: -1633884295576236290
+      PM_CH_NeighborhoodCast_N01_7: -5281022784542663918
+      PM_CH_NeighborhoodCast_N01_8: -694873782890073728
+      PM_CH_NeighborhoodCast_N01_9: -4390562995044721421
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

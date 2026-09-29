@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: b1bc4966a86b1014498af0a8ca682dc0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3468794078573574889
+    second: SPR_CAR_FOREGROUND_0
+  - first:
+      213: -373684410545122110
+    second: SPR_CAR_FOREGROUND_1
+  - first:
+      213: -2814448388211000178
+    second: SPR_CAR_FOREGROUND_2
+  - first:
+      213: -7155442671646596718
+    second: SPR_CAR_FOREGROUND_3
+  - first:
+      213: -531725658603154977
+    second: SPR_CAR_FOREGROUND_4
+  - first:
+      213: -785940636666123847
+    second: SPR_CAR_FOREGROUND_5
+  - first:
+      213: 3467352492755244069
+    second: SPR_CAR_FOREGROUND_6
+  - first:
+      213: -6616672665270203618
+    second: SPR_CAR_FOREGROUND_7
+  - first:
+      213: 4315063006805533301
+    second: SPR_CAR_FOREGROUND_8
+  - first:
+      213: -759264734258638524
+    second: SPR_CAR_FOREGROUND_9
+  - first:
+      213: -7301635403237441933
+    second: SPR_CAR_FOREGROUND_10
+  - first:
+      213: -1243762856606348573
+    second: SPR_CAR_FOREGROUND_11
+  - first:
+      213: 6239072360162985079
+    second: SPR_CAR_FOREGROUND_12
+  - first:
+      213: -1751651512592087253
+    second: SPR_CAR_FOREGROUND_13
+  - first:
+      213: 3145131909375995254
+    second: SPR_CAR_FOREGROUND_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPR_CAR_FOREGROUND_0
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 0
+        width: 1071
+        height: 671
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ea3b5406d1a32030800000000000000
+      internalID: 3468794078573574889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_CAR_FOREGROUND_1
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 633
+        width: 43
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c45b5b220860daf0800000000000000
+      internalID: -373684410545122110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_CAR_FOREGROUND_2
+      rect:
+        serializedVersion: 2
+        x: 1959
+        y: 624
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c330e3a1211f8d0800000000000000
+      internalID: -2814448388211000178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_CAR_FOREGROUND_3
+      rect:
+        serializedVersion: 2
+        x: 2043
+        y: 626
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29125d12dc2c2bc90800000000000000
+      internalID: -7155442671646596718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_CAR_FOREGROUND_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 17
+        width: 1175
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd19ff8a45eee98f0800000000000000
+      internalID: -531725658603154977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_CAR_FOREGROUND_5
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 305
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b9a8f0b727c715f0800000000000000
+      internalID: -785940636666123847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_CAR_FOREGROUND_6
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 112
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 524ddb9a8b28e1030800000000000000
+      internalID: 3467352492755244069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_CAR_FOREGROUND_7
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 69
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1b488f744bdc24a0800000000000000
+      internalID: -6616672665270203618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_CAR_FOREGROUND_8
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 33
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 572a21841fe22eb30800000000000000
+      internalID: 4315063006805533301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_CAR_FOREGROUND_9
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 30
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44158083fbc8675f0800000000000000
+      internalID: -759264734258638524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_CAR_FOREGROUND_10
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 31
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37ebd9659416baa90800000000000000
+      internalID: -7301635403237441933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_CAR_FOREGROUND_11
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 31
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ea472b85444dbee0800000000000000
+      internalID: -1243762856606348573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_CAR_FOREGROUND_12
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 17
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 774097b6143a59650800000000000000
+      internalID: 6239072360162985079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_CAR_FOREGROUND_13
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 17
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b274cadda32e0b7e0800000000000000
+      internalID: -1751651512592087253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_CAR_FOREGROUND_14
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 15
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67d2a16dec0c5ab20800000000000000
+      internalID: 3145131909375995254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SPR_CAR_FOREGROUND_0: 3468794078573574889
+      SPR_CAR_FOREGROUND_1: -373684410545122110
+      SPR_CAR_FOREGROUND_10: -7301635403237441933
+      SPR_CAR_FOREGROUND_11: -1243762856606348573
+      SPR_CAR_FOREGROUND_12: 6239072360162985079
+      SPR_CAR_FOREGROUND_13: -1751651512592087253
+      SPR_CAR_FOREGROUND_14: 3145131909375995254
+      SPR_CAR_FOREGROUND_2: -2814448388211000178
+      SPR_CAR_FOREGROUND_3: -7155442671646596718
+      SPR_CAR_FOREGROUND_4: -531725658603154977
+      SPR_CAR_FOREGROUND_5: -785940636666123847
+      SPR_CAR_FOREGROUND_6: 3467352492755244069
+      SPR_CAR_FOREGROUND_7: -6616672665270203618
+      SPR_CAR_FOREGROUND_8: 4315063006805533301
+      SPR_CAR_FOREGROUND_9: -759264734258638524
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

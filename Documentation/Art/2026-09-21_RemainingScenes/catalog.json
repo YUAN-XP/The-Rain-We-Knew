@@ -1,0 +1,475 @@
+[
+  {
+    "key": "PM_Home_Architecture_N02",
+    "source": "C:\\Users\\31975\\OneDrive\\Desktop\\游戏设计\\美术新\\02_场景\\Scene0203\\01_建筑\\PM_Home_Architecture_N02.png",
+    "asset": "Assets/Art/正式/Props/SharedHome/PM_Home_Architecture_N02.png",
+    "pixels": [
+      1536,
+      1024
+    ],
+    "alpha_bbox": [
+      0,
+      3,
+      1468,
+      1024
+    ],
+    "alpha_zero": 0.4092782338460286,
+    "generated": "C:\\Users\\31975\\.codex\\generated_images\\01a0721c-6a48-7793-9b57-5dfc41b9da2c\\exec-a3c29df1-2ac9-4e68-952a-f02e3acc6a0f.png"
+  },
+  {
+    "key": "PM_Home_Furniture_Normal_N01",
+    "source": "C:\\Users\\31975\\OneDrive\\Desktop\\游戏设计\\美术新\\02_场景\\Scene0203\\02_家具\\PM_Home_Furniture_Normal_N01.png",
+    "asset": "Assets/Art/正式/Props/SharedHome/PM_Home_Furniture_Normal_N01.png",
+    "pixels": [
+      1536,
+      1024
+    ],
+    "alpha_bbox": [
+      0,
+      7,
+      1522,
+      1024
+    ],
+    "alpha_zero": 0.5859349568684896,
+    "generated": "C:\\Users\\31975\\.codex\\generated_images\\01a0721c-6a48-7793-9b57-5dfc41b9da2c\\exec-a1127d01-584b-43e6-8bc4-b1f5eebc778a.png"
+  },
+  {
+    "key": "PM_Home_Surfaces_N01",
+    "source": "C:\\Users\\31975\\OneDrive\\Desktop\\游戏设计\\美术新\\02_场景\\Scene0203\\01_建筑\\PM_Home_Surfaces_N01.png",
+    "asset": "Assets/Art/正式/Backgrounds/SharedHome/PM_Home_Surfaces_N01.png",
+    "pixels": [
+      1536,
+      1024
+    ],
+    "alpha_bbox": null,
+    "alpha_zero": 0,
+    "generated": "C:\\Users\\31975\\.codex\\generated_images\\01a0721c-6a48-7793-9b57-5dfc41b9da2c\\exec-20bcbbf3-afd0-4630-a8a3-ceadb1d1b464.png"
+  },
+  {
+    "key": "PM_Home_Furniture_Otherworld_N01",
+    "source": "C:\\Users\\31975\\OneDrive\\Desktop\\游戏设计\\美术新\\02_场景\\Scene0203\\02_家具\\PM_Home_Furniture_Otherworld_N01.png",
+    "asset": "Assets/Art/正式/Props/SharedHome/PM_Home_Furniture_Otherworld_N01.png",
+    "pixels": [
+      1536,
+      1024
+    ],
+    "alpha_bbox": [
+      0,
+      7,
+      1536,
+      1024
+    ],
+    "alpha_zero": 0.5327669779459635,
+    "generated": "C:\\Users\\31975\\.codex\\generated_images\\01a0721c-6a48-7793-9b57-5dfc41b9da2c\\exec-7350e5df-db31-492f-ae25-7b7ce1411d09.png"
+  },
+  {
+    "key": "PM_Home_Details_N01",
+    "source": "C:\\Users\\31975\\OneDrive\\Desktop\\游戏设计\\美术新\\02_场景\\Scene0203\\03_道具\\PM_Home_Details_N01.png",
+    "asset": "Assets/Art/正式/Props/SharedHome/PM_Home_Details_N01.png",
+    "pixels": [
+      1254,
+      1254
+    ],
+    "alpha_bbox": [
+      0,
+      21,
+      1228,
+      1254
+    ],
+    "alpha_zero": 0.548384881298505,
+    "generated": "C:\\Users\\31975\\.codex\\generated_images\\01a0721c-6a48-7793-9b57-5dfc41b9da2c\\exec-11e1af9b-edb1-4217-ad42-3db38ad73a5b.png"
+  },
+  {
+    "key": "PM_S02_ShadowFamily_N01",
+    "source": "C:\\Users\\31975\\OneDrive\\Desktop\\游戏设计\\美术新\\01_角色\\残影\\PM_S02_ShadowFamily_N01.png",
+    "asset": "Assets/Art/正式/Characters/Scene02/PM_S02_ShadowFamily_N01.png",
+    "pixels": [
+      1536,
+      1024
+    ],
+    "alpha_bbox": [
+      33,
+      0,
+      1522,
+      1024
+    ],
+    "alpha_zero": 0.6477203369140625,
+    "generated": "C:\\Users\\31975\\.codex\\generated_images\\01a0721c-6a48-7793-9b57-5dfc41b9da2c\\exec-6e60f158-9231-42d8-b1ba-228a56e67c99.png"
+  },
+  {
+    "key": "PM_S03_StreetFacades_N01",
+    "source": "C:\\Users\\31975\\OneDrive\\Desktop\\游戏设计\\美术新\\02_场景\\Scene03\\01_建筑\\PM_S03_StreetFacades_N01.png",
+    "asset": "Assets/Art/正式/Backgrounds/Scene03/PM_S03_StreetFacades_N01.png",
+    "pixels": [
+      1536,
+      1024
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      1524,
+      1002
+    ],
+    "alpha_zero": 0.18579991658528647,
+    "generated": "C:\\Users\\31975\\.codex\\generated_images\\01a0721c-6a48-7793-9b57-5dfc41b9da2c\\exec-836050f2-d485-4779-b20f-0fbf7a52e654.png"
+  },
+  {
+    "key": "PM_S03_MazeModules_N01",
+    "source": "C:\\Users\\31975\\OneDrive\\Desktop\\游戏设计\\美术新\\02_场景\\Scene03\\03_迷宫\\PM_S03_MazeModules_N01.png",
+    "asset": "Assets/Art/正式/Backgrounds/Scene03/Maze/PM_S03_MazeModules_N01.png",
+    "pixels": [
+      1536,
+      1024
+    ],
+    "alpha_bbox": [
+      0,
+      9,
+      1532,
+      1024
+    ],
+    "alpha_zero": 0.5448888142903646,
+    "generated": "C:\\Users\\31975\\.codex\\generated_images\\01a0721c-6a48-7793-9b57-5dfc41b9da2c\\exec-9b7b9ace-c088-4390-a0ef-2f95b9e7eb4e.png"
+  },
+  {
+    "key": "PM_S04_SchoolArchitecture_N01",
+    "source": "C:\\Users\\31975\\OneDrive\\Desktop\\游戏设计\\美术新\\02_场景\\Scene04\\01_建筑\\PM_S04_SchoolArchitecture_N01.png",
+    "asset": "Assets/Art/正式/Props/Scene04/Architecture/PM_S04_SchoolArchitecture_N01.png",
+    "pixels": [
+      1536,
+      1024
+    ],
+    "alpha_bbox": [
+      55,
+      21,
+      1490,
+      998
+    ],
+    "alpha_zero": 0.35423914591471356,
+    "generated": "C:\\Users\\31975\\.codex\\generated_images\\01a0721c-6a48-7793-9b57-5dfc41b9da2c\\exec-9ce69bdc-31d5-44e1-8863-47c2d8aaff56.png"
+  },
+  {
+    "key": "PM_CH_NeighborhoodCast_N01",
+    "source": "C:\\Users\\31975\\OneDrive\\Desktop\\游戏设计\\美术新\\01_角色\\街区人物\\PM_CH_NeighborhoodCast_N01.png",
+    "asset": "Assets/Art/正式/Characters/Scene03/PM_CH_NeighborhoodCast_N01.png",
+    "pixels": [
+      1536,
+      1024
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      1524,
+      1010
+    ],
+    "alpha_zero": 0.6784127553304037,
+    "generated": "C:\\Users\\31975\\.codex\\generated_images\\01a0721c-6a48-7793-9b57-5dfc41b9da2c\\exec-fd3953a0-7290-45ab-8ab6-b113f7eeda6f.png"
+  },
+  {
+    "key": "PM_S04_SchoolProps_Normal_N01",
+    "source": "C:\\Users\\31975\\OneDrive\\Desktop\\游戏设计\\美术新\\02_场景\\Scene04\\02_家具\\PM_S04_SchoolProps_Normal_N01.png",
+    "asset": "Assets/Art/正式/Props/Scene04/Furniture/PM_S04_SchoolProps_Normal_N01.png",
+    "pixels": [
+      1536,
+      1024
+    ],
+    "alpha_bbox": [
+      0,
+      2,
+      1522,
+      1024
+    ],
+    "alpha_zero": 0.5517126719156901,
+    "generated": "C:\\Users\\31975\\.codex\\generated_images\\01a0721c-6a48-7793-9b57-5dfc41b9da2c\\exec-13dd2bb6-3e39-46b6-aed3-6837875a16f7.png"
+  },
+  {
+    "key": "PM_S04_SchoolProps_Otherworld_N01",
+    "source": "C:\\Users\\31975\\OneDrive\\Desktop\\游戏设计\\美术新\\02_场景\\Scene04\\02_家具\\PM_S04_SchoolProps_Otherworld_N01.png",
+    "asset": "Assets/Art/正式/Props/Scene04/Furniture/PM_S04_SchoolProps_Otherworld_N01.png",
+    "pixels": [
+      1536,
+      1024
+    ],
+    "alpha_bbox": [
+      0,
+      17,
+      1520,
+      1024
+    ],
+    "alpha_zero": 0.5333251953125,
+    "generated": "C:\\Users\\31975\\.codex\\generated_images\\01a0721c-6a48-7793-9b57-5dfc41b9da2c\\exec-b9e31073-162e-4c41-8e81-e93f062263f8.png"
+  },
+  {
+    "key": "PM_S03_NeighborhoodLife_N01",
+    "source": "C:\\Users\\31975\\OneDrive\\Desktop\\游戏设计\\美术新\\01_角色\\街区群像\\PM_S03_NeighborhoodLife_N01.png",
+    "asset": "Assets/Art/正式/Characters/Scene03/Groups/PM_S03_NeighborhoodLife_N01.png",
+    "pixels": [
+      1536,
+      1024
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      1526,
+      1024
+    ],
+    "alpha_zero": 0.5786329905192057,
+    "generated": "C:\\Users\\31975\\.codex\\generated_images\\01a0721c-6a48-7793-9b57-5dfc41b9da2c\\exec-8917d64b-c752-462f-b202-ebf118b62952.png"
+  },
+  {
+    "key": "PM_CH_LeadAges_N02",
+    "source": "C:\\Users\\31975\\OneDrive\\Desktop\\游戏设计\\美术新\\01_角色\\年龄版本\\PM_CH_LeadAges_N02.png",
+    "asset": "Assets/Art/正式/Characters/LeadAges/PM_CH_LeadAges_N02.png",
+    "pixels": [
+      1536,
+      1024
+    ],
+    "alpha_bbox": [
+      37,
+      0,
+      1520,
+      1024
+    ],
+    "alpha_zero": 0.5380071004231771,
+    "generated": "C:\\Users\\31975\\.codex\\generated_images\\01a0721c-6a48-7793-9b57-5dfc41b9da2c\\exec-afd622a7-b3ba-460a-9374-c0004abe9ea4.png"
+  },
+  {
+    "key": "PM_S03_RiverPanorama_N01",
+    "source": "C:\\Users\\31975\\OneDrive\\Desktop\\游戏设计\\美术新\\02_场景\\Scene03\\04_河堤\\PM_S03_RiverPanorama_N01.png",
+    "asset": "Assets/Art/正式/Backgrounds/Scene03/River/PM_S03_RiverPanorama_N01.png",
+    "pixels": [
+      1536,
+      1024
+    ],
+    "alpha_bbox": null,
+    "alpha_zero": 0,
+    "generated": "C:\\Users\\31975\\.codex\\generated_images\\01a0721c-6a48-7793-9b57-5dfc41b9da2c\\exec-b07b2e44-75ae-4291-b396-846e81e41abf.png"
+  },
+  {
+    "key": "PM_CH_SchoolCast_N01",
+    "source": "C:\\Users\\31975\\OneDrive\\Desktop\\游戏设计\\美术新\\01_角色\\学校人物\\PM_CH_SchoolCast_N01.png",
+    "asset": "Assets/Art/正式/Characters/Scene04/PM_CH_SchoolCast_N01.png",
+    "pixels": [
+      1536,
+      1024
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      1524,
+      1008
+    ],
+    "alpha_zero": 0.5984452565511068,
+    "generated": "C:\\Users\\31975\\.codex\\generated_images\\01a0721c-6a48-7793-9b57-5dfc41b9da2c\\exec-87ff8b99-5595-4268-950a-5c1e6ace3da7.png"
+  },
+  {
+    "key": "PM_S03_NeighborhoodLife_N02",
+    "source": "C:\\Users\\31975\\OneDrive\\Desktop\\游戏设计\\美术新\\01_角色\\街区群像\\PM_S03_NeighborhoodLife_N02.png",
+    "asset": "Assets/Art/正式/Characters/Scene03/Groups/PM_S03_NeighborhoodLife_N02.png",
+    "pixels": [
+      1536,
+      1024
+    ],
+    "alpha_bbox": [
+      0,
+      9,
+      1523,
+      1006
+    ],
+    "alpha_zero": 0.5794544219970703,
+    "generated": "C:\\Users\\31975\\.codex\\generated_images\\01a0721c-6a48-7793-9b57-5dfc41b9da2c\\exec-631cf723-e8ba-421e-b9a0-471e21da6a73.png"
+  },
+  {
+    "key": "PM_S03_StreetDetails_N01",
+    "source": "C:\\Users\\31975\\OneDrive\\Desktop\\游戏设计\\美术新\\02_场景\\Scene03\\02_道具\\PM_S03_StreetDetails_N01.png",
+    "asset": "Assets/Art/正式/Props/Scene03/PM_S03_StreetDetails_N01.png",
+    "pixels": [
+      1536,
+      1024
+    ],
+    "alpha_bbox": [
+      15,
+      8,
+      1522,
+      1024
+    ],
+    "alpha_zero": 0.5112393697102865,
+    "generated": "C:\\Users\\31975\\.codex\\generated_images\\01a0721c-6a48-7793-9b57-5dfc41b9da2c\\exec-16853ae9-54f5-464e-b33c-b07d03a4179a.png"
+  },
+  {
+    "key": "PM_S04_SchoolSurfaces_N01",
+    "source": "C:\\Users\\31975\\OneDrive\\Desktop\\游戏设计\\美术新\\02_场景\\Scene04\\01_建筑\\PM_S04_SchoolSurfaces_N01.png",
+    "asset": "Assets/Art/正式/Backgrounds/Scene04/PM_S04_SchoolSurfaces_N01.png",
+    "pixels": [
+      1536,
+      1024
+    ],
+    "alpha_bbox": null,
+    "alpha_zero": 0,
+    "generated": "C:\\Users\\31975\\.codex\\generated_images\\01a0721c-6a48-7793-9b57-5dfc41b9da2c\\exec-2b6c5e89-74b8-4512-a5aa-18df19fa9c6a.png"
+  },
+  {
+    "key": "PM_S04_SchoolDetails_N01",
+    "source": "C:\\Users\\31975\\OneDrive\\Desktop\\游戏设计\\美术新\\02_场景\\Scene04\\02_道具\\PM_S04_SchoolDetails_N01.png",
+    "asset": "Assets/Art/正式/Props/Scene04/PM_S04_SchoolDetails_N01.png",
+    "pixels": [
+      1536,
+      1024
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      1524,
+      1000
+    ],
+    "alpha_zero": 0.5272356669108073,
+    "generated": "C:\\Users\\31975\\.codex\\generated_images\\01a0721c-6a48-7793-9b57-5dfc41b9da2c\\exec-53217121-bbfe-4e8d-a492-89f8e88d21e7.png"
+  },
+  {
+    "key": "PM_Ending_Environment_N01",
+    "source": "C:\\Users\\31975\\OneDrive\\Desktop\\游戏设计\\美术新\\02_场景\\Ending\\PM_Ending_Environment_N01.png",
+    "asset": "Assets/Art/正式/Backgrounds/Ending/PM_Ending_Environment_N01.png",
+    "pixels": [
+      1536,
+      1024
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      1535,
+      1007
+    ],
+    "alpha_zero": 0.5664628346761068,
+    "generated": "C:\\Users\\31975\\.codex\\generated_images\\01a0721c-6a48-7793-9b57-5dfc41b9da2c\\exec-ebfa3dbe-f61a-4cee-a5fb-2e61d22bd67e.png"
+  },
+  {
+    "key": "PM_CH_SchoolCast_N02",
+    "source": "C:\\Users\\31975\\OneDrive\\Desktop\\游戏设计\\美术新\\01_角色\\校园\\PM_CH_SchoolCast_N02.png",
+    "asset": "Assets/Art/正式/Characters/Scene04/PM_CH_SchoolCast_N02.png",
+    "pixels": [
+      1536,
+      1024
+    ],
+    "alpha_bbox": [
+      33,
+      0,
+      1524,
+      1008
+    ],
+    "alpha_zero": 0.5936425526936849,
+    "generated": "C:\\Users\\31975\\.codex\\generated_images\\01a0721c-6a48-7793-9b57-5dfc41b9da2c\\exec-3858f3da-e73c-4f03-a725-20544f83b401.png"
+  },
+  {
+    "key": "PM_Ending_Gestures_N01",
+    "source": "C:\\Users\\31975\\OneDrive\\Desktop\\游戏设计\\美术新\\02_场景\\Ending\\动作附件\\PM_Ending_Gestures_N01.png",
+    "asset": "Assets/Art/正式/Props/Ending/PM_Ending_Gestures_N01.png",
+    "pixels": [
+      1536,
+      1024
+    ],
+    "alpha_bbox": [
+      0,
+      8,
+      1526,
+      1024
+    ],
+    "alpha_zero": 0.6423257191975912,
+    "generated": "C:\\Users\\31975\\.codex\\generated_images\\01a0721c-6a48-7793-9b57-5dfc41b9da2c\\exec-7520d238-3ed8-4e45-a0b9-5e78195c952b.png"
+  },
+  {
+    "key": "PM_S04_BasketballStand_Side_N01",
+    "source": "C:\\Users\\31975\\OneDrive\\Desktop\\游戏设计\\美术新\\02_场景\\Scene04\\02_道具\\PM_S04_BasketballStand_Side_N01.png",
+    "asset": "Assets/Art/正式/Props/Scene04/PM_S04_BasketballStand_Side_N01.png",
+    "pixels": [
+      1024,
+      1536
+    ],
+    "alpha_bbox": [
+      65,
+      70,
+      988,
+      1464
+    ],
+    "alpha_zero": 0.8668429056803385,
+    "generated": "C:\\Users\\31975\\.codex\\generated_images\\01a0721c-6a48-7793-9b57-5dfc41b9da2c\\exec-d2c4aaf7-6255-49fe-a7e5-6eab87155401.png"
+  },
+  {
+    "key": "PM_S03_MazeDetails_N01",
+    "source": "C:\\Users\\31975\\OneDrive\\Desktop\\游戏设计\\美术新\\02_场景\\Scene03\\03_迷宫\\PM_S03_MazeDetails_N01.png",
+    "asset": "Assets/Art/正式/Props/Scene03/迷宫/PM_S03_MazeDetails_N01.png",
+    "pixels": [
+      1536,
+      1024
+    ],
+    "alpha_bbox": [
+      0,
+      9,
+      1523,
+      1024
+    ],
+    "alpha_zero": 0.6472244262695312,
+    "generated": "C:\\Users\\31975\\.codex\\generated_images\\01a0721c-6a48-7793-9b57-5dfc41b9da2c\\exec-ff2e078e-41dc-4de8-8a64-bd959ca147a9.png"
+  },
+  {
+    "key": "PM_CH_AdultSeated_N01",
+    "source": "C:\\Users\\31975\\OneDrive\\Desktop\\游戏设计\\美术新\\01_角色\\结尾坐姿\\PM_CH_AdultSeated_N01.png",
+    "asset": "Assets/Art/正式/Characters/Ending/PM_CH_AdultSeated_N01.png",
+    "pixels": [
+      1536,
+      1024
+    ],
+    "alpha_bbox": [
+      121,
+      9,
+      1476,
+      1024
+    ],
+    "alpha_zero": 0.5704301198323568,
+    "generated": "C:\\Users\\31975\\.codex\\generated_images\\01a0721c-6a48-7793-9b57-5dfc41b9da2c\\exec-b6334e34-03b8-43cf-a0c4-4ef0db48ec1e.png"
+  },
+  {
+    "key": "PM_Ending_CarInterior_N02",
+    "source": "C:\\Users\\31975\\OneDrive\\Desktop\\游戏设计\\美术新\\02_场景\\Ending\\PM_Ending_CarInterior_N02.png",
+    "asset": "Assets/Art/正式/Backgrounds/Ending/PM_Ending_CarInterior_N02.png",
+    "pixels": [
+      1672,
+      941
+    ],
+    "alpha_bbox": null,
+    "alpha_zero": 0,
+    "generated": "C:\\Users\\31975\\.codex\\generated_images\\01a0721c-6a48-7793-9b57-5dfc41b9da2c\\exec-11ac4353-4186-40b4-96ab-718d061972f7.png"
+  },
+  {
+    "key": "PM_Ending_WardDetails_N01",
+    "source": "C:\\Users\\31975\\OneDrive\\Desktop\\游戏设计\\美术新\\02_场景\\Ending\\病房\\PM_Ending_WardDetails_N01.png",
+    "asset": "Assets/Art/正式/Props/Ending/PM_Ending_WardDetails_N01.png",
+    "pixels": [
+      1536,
+      1024
+    ],
+    "alpha_bbox": [
+      0,
+      21,
+      1489,
+      1020
+    ],
+    "alpha_zero": 0.6605014801025391,
+    "generated": "C:\\Users\\31975\\.codex\\generated_images\\01a0721c-6a48-7793-9b57-5dfc41b9da2c\\exec-5310a6fc-94be-49e1-ba02-812274669088.png"
+  },
+  {
+    "key": "PM_S03_ActivityPaper_N01",
+    "source": "C:\\Users\\31975\\OneDrive\\Desktop\\游戏设计\\美术新\\04_界面\\Scene03\\PM_S03_ActivityPaper_N01.png",
+    "asset": "Assets/Art/正式/UI/Scene03/PM_S03_ActivityPaper_N01.png",
+    "pixels": [
+      1254,
+      1254
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      1254,
+      1254
+    ],
+    "alpha_zero": 0.5437636246626425,
+    "generated": "C:\\Users\\31975\\.codex\\generated_images\\01a0721c-6a48-7793-9b57-5dfc41b9da2c\\exec-a228e8d2-0cdf-4c56-b854-0de2283d8755.png"
+  }
+]

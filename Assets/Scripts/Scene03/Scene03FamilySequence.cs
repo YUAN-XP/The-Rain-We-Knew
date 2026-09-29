@@ -17,7 +17,7 @@ public class Scene03FamilySequence : MonoBehaviour
     bool evening,ownsLock;
     Image flash;
     CanvasGroup frame;
-    AudioSource timer,rainSound;
+    AudioSource timer;
     IEnumerator Start()
     {
         while(!chapter.Ready)yield return null;
@@ -29,7 +29,7 @@ public class Scene03FamilySequence : MonoBehaviour
         foreach(float y in new[]{.025f,.975f})RuntimePanelUI.Panel("PhotoFrame",framing,new Vector2(.025f,y),new Vector2(.975f,y+.002f),new Color(.96f,.93f,.80f),false);
         foreach(float x in new[]{.025f,.975f})RuntimePanelUI.Panel("PhotoFrame",framing,new Vector2(x,.025f),new Vector2(x+.001f,.975f),new Color(.96f,.93f,.80f),false);
         flash.transform.SetAsLastSibling();
-        timer=gameObject.AddComponent<AudioSource>();timer.playOnAwake=false;rainSound=gameObject.AddComponent<AudioSource>();rainSound.playOnAwake=false;
+        timer=gameObject.AddComponent<AudioSource>();timer.playOnAwake=false;
         cameraPlacement.SetActive(AwaitingPlacement);placedCamera.SetActive(false);
     }
     void ApplyEvening()
@@ -47,7 +47,6 @@ public class Scene03FamilySequence : MonoBehaviour
         var neck=river.boy.Find("GuitarNeck");if(neck!=null)neck.gameObject.SetActive(false);
         var talk=river.boy.GetComponent<RiverTalkInteractable>();if(talk!=null)talk.enabled=false;
         var collider=river.boy.GetComponent<Collider2D>();if(collider!=null)collider.enabled=false;
-        chapter.neighbours.clip=chapter.content.home;chapter.neighbours.Play();
     }
     public void EnterLivingRoom()
     {
@@ -76,7 +75,7 @@ public class Scene03FamilySequence : MonoBehaviour
             var mode=PersistentRuntime.Instance.GetComponent<CameraModeController>();mode.Lower();mode.ContextAvailable=false;
             mother.position=motherPose.position;father.position=fatherPose.position;
             SetChild(childPose.position);river.boy.position=boyOutside.position;
-            Camera.main.transform.position=new Vector3(viewPoint.position.x,viewPoint.position.y,Camera.main.transform.position.z);Camera.main.orthographicSize=4.2f;frame.alpha=1;
+            Camera.main.transform.position=new Vector3(viewPoint.position.x,viewPoint.position.y,Camera.main.transform.position.z);Camera.main.orthographicSize=2.7f;frame.alpha=1;
             timer.clip=mechanicalTick;timer.loop=true;timer.volume=.5f;timer.Play();
             yield return new WaitForSecondsRealtime(1.5f);yield return chapter.Say(callBoy);
             Vector3 from=river.boy.position;Vector3 childFrom=chapter.child.transform.position;
@@ -85,10 +84,7 @@ public class Scene03FamilySequence : MonoBehaviour
             river.boy.position=boyEdge.position;
             yield return chapter.Say(readyForPhoto);timer.Stop();chapter.effects.PlayOneShot(shutter,.6f);
             yield return White(1,.08f);yield return White(0,.22f);frame.alpha=0;PhotoFrozen=true;
-            rainSound.clip=rain;rainSound.loop=true;rainSound.volume=0;rainSound.Play();
-            float ambient=chapter.ambience.volume,home=chapter.neighbours.volume;
-            for(float t=0;t<2.6f;t+=Time.unscaledDeltaTime)
-            {float k=t/2.6f;rainSound.volume=k*.4f;chapter.ambience.volume=ambient*(1-k);chapter.neighbours.volume=home*(1-k);yield return null;}
+            yield return new WaitForSecondsRealtime(2.6f);
             yield return White(1,.65f);
             if(!Application.CanStreamedLevelBeLoaded(returnSceneName)){Debug.LogWarning("Family photo needs its Scene02 return scene.",this);yield return White(0,.3f);yield break;}
             chapter.Story.Set(StoryFlag.Scene03FamilyPhotoTaken);chapter.Story.Set(StoryFlag.Scene03Completed);chapter.Story.Set(StoryFlag.Scene03BirthdayKnown);

@@ -42,7 +42,6 @@ public class ParentShadowSequence : MonoBehaviour
     {
         controls.AcquireLock(ControlLockReason.Cutscene);ownsLock=true;
         if(dimOverlay!=null)dimOverlay.enabled=true;
-        if(sound!=null)sound.Play();
         for(float t=0;t<introDuration-.5f;t+=Time.unscaledDeltaTime)
         {
             if(frameDoorAndLamp && Camera.main!=null && lamp!=null && approachPoint!=null){var pos=Camera.main.transform.position;pos.x=Mathf.Lerp(pos.x,(lamp.transform.position.x+approachPoint.position.x)*.5f,5f*Time.unscaledDeltaTime);Camera.main.transform.position=pos;}
@@ -69,6 +68,6 @@ public class ParentShadowSequence : MonoBehaviour
         Restore();story.Set(StoryFlag.ParentShadowEventPlayed);running=false;
     }
     private void SetShadowAlpha(float scale){for(int i=0;i<shadows.Length;i++){var c=shadowColors[i];c.a*=scale;shadows[i].color=c;}}
-    private void Restore(){foreach(var r in shadows)if(r!=null)r.enabled=false;if(lamp!=null)lamp.color=lampColor;if(dimOverlay!=null)dimOverlay.enabled=false;if(sound!=null)sound.Stop();}
+    private void Restore(){foreach(var r in shadows)if(r!=null)r.enabled=false;if(lamp!=null)lamp.color=lampColor;if(dimOverlay!=null)dimOverlay.enabled=false;}
     private void OnDisable(){if(running && story!=null)story.Set(StoryFlag.ParentShadowEventPlayed);StopAllCoroutines();if(ownsLock && controls!=null)controls.ReleaseLock(ControlLockReason.Cutscene);ownsLock=false;running=false;IsWaitingForApproach=false;Restore();}
 }

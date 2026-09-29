@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class DistortedCorridorController : MonoBehaviour
 {
@@ -17,7 +18,7 @@ public class DistortedCorridorController : MonoBehaviour
     [SerializeField] private float distortionEndX=248;
     private PlayerController player;private StoryStateManager story;private StoryNoticeUI notice;private GameControlManager controls;
     [SerializeField] private GameObject[] disabledDuringDistortion;
-    private bool joined;
+    private bool joined,joining;
     private Color[] colors;
     public bool HasJoined=>joined;
     private void Start()
@@ -49,12 +50,8 @@ public class DistortedCorridorController : MonoBehaviour
             if(player.transform.position.x>remarkWorldX && rb.linearVelocity.x>.1f && !story.Has(StoryFlag.CorridorRemarkShown)){
                 story.Set(StoryFlag.CorridorRemarkShown);notice.Show("走廊好像不一样了。",3.5f);
             }
-            if(player.transform.position.x>=joinPoint.position.x && !controls.IsLocked()){
-                player.transform.position+=spaceOffset;rb.position=player.transform.position;
-                // Preserve the exact screen-relative offset at the seam; no black frame or forced motion.
-                if(Camera.main!=null)Camera.main.transform.position+=spaceOffset;
-                joined=true;
-                if(joinedRearBoundary!=null)joinedRearBoundary.enabled=true;
+            if(player.transform.position.x>=joinPoint.position.x && !joining && !controls.IsLocked()){
+                StartCoroutine(JoinUnderBlack());
             }
         }
         float amount=0;
@@ -65,5 +62,13 @@ public class DistortedCorridorController : MonoBehaviour
         }
         guitarGuide.volume=player.transform.position.x<250 ? amount*.22f : 0;
         if(joined && !guitarGuide.isPlaying)guitarGuide.Play();
+    }
+    IEnumerator JoinUnderBlack(){
+        joining=true;controls.AcquireLock(ControlLockReason.SceneTransition);
+        try{
+            var fade=FindAnyObjectByType<ScreenFadeController>();
+            System.Action arrive=()=>{var rb=player.GetComponent<Rigidbody2D>();player.transform.position+=spaceOffset;rb.position=player.transform.position;rb.linearVelocity=Vector2.zero;joined=true;if(joinedRearBoundary)joinedRearBoundary.enabled=true;};
+            if(fade)yield return fade.FadeThroughBlack(arrive,this);else {arrive();RoomPresentationFraming.PrepareCurrentView();}
+        }finally{joining=false;if(controls)controls.ReleaseLock(ControlLockReason.SceneTransition);}
     }
 }

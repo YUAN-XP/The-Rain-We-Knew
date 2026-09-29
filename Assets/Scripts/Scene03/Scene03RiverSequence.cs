@@ -13,6 +13,11 @@ public class Scene03RiverSequence : MonoBehaviour, IInteractable
     public GameObject guitar;
     public Transform childVisual, fishingRod;
     public Transform[] seatedLegs;
+    [Header("River view composition")]
+    public Vector2 wideViewCenter = new Vector2(303,75.4f);
+    public float wideViewSize = 7.1f;
+    public bool usePaintedPoses;
+    SpriteRenderer boyPainting;
     public bool Busy {get;private set;}
     public bool Appreciating {get;private set;}
     public bool CanLeaveSong {get;private set;}
@@ -55,7 +60,7 @@ public class Scene03RiverSequence : MonoBehaviour, IInteractable
                 yield return Move(chapter.child.transform,childSeat.position,.8f);
                 boy.position=boySeat.position;
                 SetSeated(true);
-                yield return Zoom(3.4f,(childSeat.position+boySeat.position)/2+Vector3.up*.6f,1.1f);
+                yield return Zoom(2.6f,new Vector3((childSeat.position.x+boySeat.position.x)/2,72.1f,0),1.1f);
                 rhythm.Begin();
                 if(!rhythm.IsRunning)yield break;
                 while(rhythm.IsRunning)yield return null;
@@ -85,8 +90,8 @@ public class Scene03RiverSequence : MonoBehaviour, IInteractable
     {
         Appreciating=true;CanLeaveSong=false;leaveText.alpha=0;
         music.clip=fullBirthdaySong;music.loop=false;music.volume=.55f;music.Play();
-        float began=Time.unscaledTime;Vector3 center=(childSeat.position+boySeat.position)/2+Vector3.up;
-        yield return Zoom(7.1f,center,3);
+        float began=Time.unscaledTime;Vector3 center=new Vector3(wideViewCenter.x,wideViewCenter.y,0);
+        yield return Zoom(wideViewSize,center,3);
         while(music.isPlaying)
         {
             float elapsed=Time.unscaledTime-began;
@@ -95,7 +100,7 @@ public class Scene03RiverSequence : MonoBehaviour, IInteractable
             yield return null;
         }
         music.Stop();leaveText.alpha=0;CanLeaveSong=false;Appreciating=false;
-        yield return Zoom(5.2f,center,1.5f);
+        yield return Zoom(2.6f,new Vector3((childSeat.position.x+boySeat.position.x)/2,72.1f,0),1.5f);
     }
     IEnumerator Zoom(float size,Vector3 position,float seconds)
     {
@@ -119,7 +124,7 @@ public class Scene03RiverSequence : MonoBehaviour, IInteractable
             legPositions=new Vector3[seatedLegs.Length];legRotations=new Quaternion[seatedLegs.Length];
             for(int i=0;i<seatedLegs.Length;i++)
             {legPositions[i]=seatedLegs[i].localPosition;legRotations[i]=seatedLegs[i].localRotation;seatedLegs[i].localPosition+=new Vector3(.15f,.2f,0);seatedLegs[i].localRotation=Quaternion.Euler(0,0,90);}
-            childVisual.localPosition-=Vector3.up*.12f;boy.position-=Vector3.up*.15f;
+            if(!usePaintedPoses){childVisual.localPosition-=Vector3.up*.12f;boy.position-=Vector3.up*.15f;}
         }
         else
         {
@@ -127,6 +132,17 @@ public class Scene03RiverSequence : MonoBehaviour, IInteractable
             for(int i=0;i<seatedLegs.Length;i++){seatedLegs[i].localPosition=legPositions[i];seatedLegs[i].localRotation=legRotations[i];}
         }
         seated=value;
+        if(usePaintedPoses&&chapter&&chapter.child){var art=chapter.child.GetComponent<DemoActorArtwork>();if(art)art.SetPose(value?"CHR_XP_CHILD_ACTION4_B:2":null,1.08f,.48f);}
+
+    }
+    void LateUpdate(){
+        if(!usePaintedPoses||!boy)return;
+        if(!boyPainting){var p=boy.Find("NewArt_Actor");if(p)boyPainting=p.GetComponent<SpriteRenderer>();}
+        if(!boyPainting)return;
+        var sprite=DemoArtCatalog.Find(seated?"CHR_BOY_CHILD_ACTION4_V02:1":"CHR_BOY_CHILD_ACTION4_V02:0");if(!sprite)return;
+        boyPainting.sprite=sprite;float h=seated?1.18f:1.46f;float u=h/sprite.bounds.size.y;var scale=boyPainting.transform.parent.lossyScale;
+        boyPainting.transform.localScale=new Vector3(u/Mathf.Abs(scale.x),u/Mathf.Abs(scale.y),1);
+        boyPainting.transform.position=boy.position+Vector3.up*(-.7f+(seated?.48f:0));
     }
     void Update(){if(fishing&&fishingRod!=null)fishingRod.localRotation=Quaternion.Euler(0,0,Mathf.Sin(Time.unscaledTime*2)*5);}
     void Release(){if(ownsLock&&chapter!=null&&chapter.Controls!=null)chapter.Controls.ReleaseLock(ControlLockReason.Cutscene);ownsLock=false;}

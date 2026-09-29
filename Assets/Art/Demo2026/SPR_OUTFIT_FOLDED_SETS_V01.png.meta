@@ -1,0 +1,299 @@
+fileFormatVersion: 2
+guid: 943d0132e68305b408fd2623613d6c14
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8654758293997314018
+    second: SPR_OUTFIT_FOLDED_SETS_V01_0
+  - first:
+      213: -3366461383268336018
+    second: SPR_OUTFIT_FOLDED_SETS_V01_1
+  - first:
+      213: -1703044534771232841
+    second: SPR_OUTFIT_FOLDED_SETS_V01_2
+  - first:
+      213: -7126675282790863804
+    second: SPR_OUTFIT_FOLDED_SETS_V01_3
+  - first:
+      213: 4516521722977884453
+    second: SPR_OUTFIT_FOLDED_SETS_V01_4
+  - first:
+      213: 5996613448002959609
+    second: SPR_OUTFIT_FOLDED_SETS_V01_5
+  - first:
+      213: -7642612054828656694
+    second: SPR_OUTFIT_FOLDED_SETS_V01_6
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPR_OUTFIT_FOLDED_SETS_V01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 17
+        width: 908
+        height: 852
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e10ac6dbf2f14e780800000000000000
+      internalID: -8654758293997314018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_OUTFIT_FOLDED_SETS_V01_1
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 211
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e783c453de741d0800000000000000
+      internalID: -3366461383268336018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_OUTFIT_FOLDED_SETS_V01_2
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 190
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bf4a4cc4029d58e0800000000000000
+      internalID: -1703044534771232841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_OUTFIT_FOLDED_SETS_V01_3
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 23
+        width: 781
+        height: 728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44ca1bbc696f81d90800000000000000
+      internalID: -7126675282790863804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_OUTFIT_FOLDED_SETS_V01_4
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 166
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5299e66d398edae30800000000000000
+      internalID: 4516521722977884453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_OUTFIT_FOLDED_SETS_V01_5
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 178
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f8fb87d820483350800000000000000
+      internalID: 5996613448002959609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_OUTFIT_FOLDED_SETS_V01_6
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 176
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac7d1d314dcffe590800000000000000
+      internalID: -7642612054828656694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SPR_OUTFIT_FOLDED_SETS_V01_0: -8654758293997314018
+      SPR_OUTFIT_FOLDED_SETS_V01_1: -3366461383268336018
+      SPR_OUTFIT_FOLDED_SETS_V01_2: -1703044534771232841
+      SPR_OUTFIT_FOLDED_SETS_V01_3: -7126675282790863804
+      SPR_OUTFIT_FOLDED_SETS_V01_4: 4516521722977884453
+      SPR_OUTFIT_FOLDED_SETS_V01_5: 5996613448002959609
+      SPR_OUTFIT_FOLDED_SETS_V01_6: -7642612054828656694
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

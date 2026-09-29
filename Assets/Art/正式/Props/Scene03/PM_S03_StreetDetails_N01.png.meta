@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: 79e2f58721eb14d44b02290c1ec65428
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7318189529018051643
+    second: PM_S03_StreetDetails_N01_0
+  - first:
+      213: 1143300796686307141
+    second: PM_S03_StreetDetails_N01_1
+  - first:
+      213: -8850864816354883396
+    second: PM_S03_StreetDetails_N01_2
+  - first:
+      213: -424939021868029154
+    second: PM_S03_StreetDetails_N01_3
+  - first:
+      213: -751626771205352233
+    second: PM_S03_StreetDetails_N01_4
+  - first:
+      213: -8352817419414750374
+    second: PM_S03_StreetDetails_N01_5
+  - first:
+      213: 9170314952478320623
+    second: PM_S03_StreetDetails_N01_6
+  - first:
+      213: -8770100945387720041
+    second: PM_S03_StreetDetails_N01_7
+  - first:
+      213: 6506808899042951949
+    second: PM_S03_StreetDetails_N01_8
+  - first:
+      213: -5557349090336733900
+    second: PM_S03_StreetDetails_N01_9
+  - first:
+      213: 5193919802463159527
+    second: PM_S03_StreetDetails_N01_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PM_S03_StreetDetails_N01_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 479
+        width: 1475
+        height: 538
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c355e39561907a90800000000000000
+      internalID: -7318189529018051643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S03_StreetDetails_N01_1
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 1009
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54f88e16402dddf00800000000000000
+      internalID: 1143300796686307141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S03_StreetDetails_N01_2
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1001
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb80a2ae7596b2580800000000000000
+      internalID: -8850864816354883396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S03_StreetDetails_N01_3
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 969
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1baa5606305a1af0800000000000000
+      internalID: -424939021868029154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S03_StreetDetails_N01_4
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 983
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d491a21f6fa195f0800000000000000
+      internalID: -751626771205352233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S03_StreetDetails_N01_5
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 0
+        width: 615
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5bb61aefc4d41c80800000000000000
+      internalID: -8352817419414750374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S03_StreetDetails_N01_6
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 0
+        width: 655
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe76ce4ecd0834f70800000000000000
+      internalID: 9170314952478320623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S03_StreetDetails_N01_7
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 447
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 792f8d9f7a75a4680800000000000000
+      internalID: -8770100945387720041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S03_StreetDetails_N01_8
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 448
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d034ec81834dc4a50800000000000000
+      internalID: 6506808899042951949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S03_StreetDetails_N01_9
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 447
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43583a9427450e2b0800000000000000
+      internalID: -5557349090336733900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S03_StreetDetails_N01_10
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 23
+        width: 305
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e40fa1ba82841840800000000000000
+      internalID: 5193919802463159527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PM_S03_StreetDetails_N01_0: -7318189529018051643
+      PM_S03_StreetDetails_N01_1: 1143300796686307141
+      PM_S03_StreetDetails_N01_10: 5193919802463159527
+      PM_S03_StreetDetails_N01_2: -8850864816354883396
+      PM_S03_StreetDetails_N01_3: -424939021868029154
+      PM_S03_StreetDetails_N01_4: -751626771205352233
+      PM_S03_StreetDetails_N01_5: -8352817419414750374
+      PM_S03_StreetDetails_N01_6: 9170314952478320623
+      PM_S03_StreetDetails_N01_7: -8770100945387720041
+      PM_S03_StreetDetails_N01_8: 6506808899042951949
+      PM_S03_StreetDetails_N01_9: -5557349090336733900
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: f9698e0b267333247b7b976339ced2f9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6953974381196670550
+    second: CHR_YOUTH_WOUND_FAREWELL_PAIR2_0
+  - first:
+      213: 6307612863795751740
+    second: CHR_YOUTH_WOUND_FAREWELL_PAIR2_1
+  - first:
+      213: -7003524802355710621
+    second: CHR_YOUTH_WOUND_FAREWELL_PAIR2_2
+  - first:
+      213: -8141038499526633927
+    second: CHR_YOUTH_WOUND_FAREWELL_PAIR2_3
+  - first:
+      213: 5923880375912728245
+    second: CHR_YOUTH_WOUND_FAREWELL_PAIR2_4
+  - first:
+      213: 7872520730840737020
+    second: CHR_YOUTH_WOUND_FAREWELL_PAIR2_5
+  - first:
+      213: 6082092592706074787
+    second: CHR_YOUTH_WOUND_FAREWELL_PAIR2_6
+  - first:
+      213: -1588051031883305809
+    second: CHR_YOUTH_WOUND_FAREWELL_PAIR2_7
+  - first:
+      213: 8660631972166207158
+    second: CHR_YOUTH_WOUND_FAREWELL_PAIR2_8
+  - first:
+      213: -5471639000271886525
+    second: CHR_YOUTH_WOUND_FAREWELL_PAIR2_9
+  - first:
+      213: -8466668811234254420
+    second: CHR_YOUTH_WOUND_FAREWELL_PAIR2_10
+  - first:
+      213: -7813368769555802448
+    second: CHR_YOUTH_WOUND_FAREWELL_PAIR2_11
+  - first:
+      213: 1150676961008315947
+    second: CHR_YOUTH_WOUND_FAREWELL_PAIR2_12
+  - first:
+      213: -8083908273922782952
+    second: CHR_YOUTH_WOUND_FAREWELL_PAIR2_13
+  - first:
+      213: 2966657850387670621
+    second: CHR_YOUTH_WOUND_FAREWELL_PAIR2_14
+  - first:
+      213: 4190895733360448439
+    second: CHR_YOUTH_WOUND_FAREWELL_PAIR2_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CHR_YOUTH_WOUND_FAREWELL_PAIR2_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 15
+        width: 899
+        height: 823
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa90b9fd4258e7f90800000000000000
+      internalID: -6953974381196670550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_YOUTH_WOUND_FAREWELL_PAIR2_1
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 807
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3bea3ffa74298750800000000000000
+      internalID: 6307612863795751740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_YOUTH_WOUND_FAREWELL_PAIR2_2
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 799
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36533fb6c4b7ece90800000000000000
+      internalID: -7003524802355710621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_YOUTH_WOUND_FAREWELL_PAIR2_3
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 15
+        width: 501
+        height: 815
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9369fe42e98350f80800000000000000
+      internalID: -8141038499526633927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_YOUTH_WOUND_FAREWELL_PAIR2_4
+      rect:
+        serializedVersion: 2
+        x: 1453
+        y: 19
+        width: 379
+        height: 817
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b68f2ad0d9d53250800000000000000
+      internalID: 5923880375912728245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_YOUTH_WOUND_FAREWELL_PAIR2_5
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 562
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf429a0f4efc04d60800000000000000
+      internalID: 7872520730840737020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_YOUTH_WOUND_FAREWELL_PAIR2_6
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 575
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a8b74f1dfee76450800000000000000
+      internalID: 6082092592706074787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_YOUTH_WOUND_FAREWELL_PAIR2_7
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 519
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fac2767100c16f9e0800000000000000
+      internalID: -1588051031883305809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_YOUTH_WOUND_FAREWELL_PAIR2_8
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 534
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b68b5784eeb03870800000000000000
+      internalID: 8660631972166207158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_YOUTH_WOUND_FAREWELL_PAIR2_9
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 527
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 347ee99b155d014b0800000000000000
+      internalID: -5471639000271886525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_YOUTH_WOUND_FAREWELL_PAIR2_10
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 543
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca1e0831399508a80800000000000000
+      internalID: -8466668811234254420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_YOUTH_WOUND_FAREWELL_PAIR2_11
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 545
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b6de774086519390800000000000000
+      internalID: -7813368769555802448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_YOUTH_WOUND_FAREWELL_PAIR2_12
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 514
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2e6028799608ff00800000000000000
+      internalID: 1150676961008315947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_YOUTH_WOUND_FAREWELL_PAIR2_13
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 433
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819cdf7514030df80800000000000000
+      internalID: -8083908273922782952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_YOUTH_WOUND_FAREWELL_PAIR2_14
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 199
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d562b7ec89fab2920800000000000000
+      internalID: 2966657850387670621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHR_YOUTH_WOUND_FAREWELL_PAIR2_15
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 159
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b356a5177d092a30800000000000000
+      internalID: 4190895733360448439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CHR_YOUTH_WOUND_FAREWELL_PAIR2_0: -6953974381196670550
+      CHR_YOUTH_WOUND_FAREWELL_PAIR2_1: 6307612863795751740
+      CHR_YOUTH_WOUND_FAREWELL_PAIR2_10: -8466668811234254420
+      CHR_YOUTH_WOUND_FAREWELL_PAIR2_11: -7813368769555802448
+      CHR_YOUTH_WOUND_FAREWELL_PAIR2_12: 1150676961008315947
+      CHR_YOUTH_WOUND_FAREWELL_PAIR2_13: -8083908273922782952
+      CHR_YOUTH_WOUND_FAREWELL_PAIR2_14: 2966657850387670621
+      CHR_YOUTH_WOUND_FAREWELL_PAIR2_15: 4190895733360448439
+      CHR_YOUTH_WOUND_FAREWELL_PAIR2_2: -7003524802355710621
+      CHR_YOUTH_WOUND_FAREWELL_PAIR2_3: -8141038499526633927
+      CHR_YOUTH_WOUND_FAREWELL_PAIR2_4: 5923880375912728245
+      CHR_YOUTH_WOUND_FAREWELL_PAIR2_5: 7872520730840737020
+      CHR_YOUTH_WOUND_FAREWELL_PAIR2_6: 6082092592706074787
+      CHR_YOUTH_WOUND_FAREWELL_PAIR2_7: -1588051031883305809
+      CHR_YOUTH_WOUND_FAREWELL_PAIR2_8: 8660631972166207158
+      CHR_YOUTH_WOUND_FAREWELL_PAIR2_9: -5471639000271886525
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -52,9 +52,13 @@ public class ScreenFadeController : MonoBehaviour
         if(run!=fadeGeneration)yield break;
 
         actionWhileBlack?.Invoke();
+        RoomPresentationFraming.PrepareCurrentView();
 
         // Keep the destination hidden until transforms and the camera
         // have completed one frame at their new positions.
+        yield return null;
+        if(run!=fadeGeneration)yield break;
+        RoomPresentationFraming.PrepareCurrentView();
         yield return null;
 
         yield return FadeTo(0f,run);

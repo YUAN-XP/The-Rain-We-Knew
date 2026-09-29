@@ -17,6 +17,7 @@ public class GateKeyInteractable :
     [SerializeField] private InventoryManager inventoryManager;
 
     private bool collected = false;
+    public bool IsCollected => collected;
 
     public string GetInteractionPrompt()
     {
@@ -24,6 +25,11 @@ public class GateKeyInteractable :
     }
 
     public void Interact()
+    {
+        if (!collected) DemoCloseupPresentation.For(gameObject).OpenMailbox(null, this);
+    }
+
+    public void CollectFromCloseup()
     {
         if(dialogueManager==null)dialogueManager=FindAnyObjectByType<DialogueManager>();
         if(inventoryManager==null)inventoryManager=FindAnyObjectByType<InventoryManager>();

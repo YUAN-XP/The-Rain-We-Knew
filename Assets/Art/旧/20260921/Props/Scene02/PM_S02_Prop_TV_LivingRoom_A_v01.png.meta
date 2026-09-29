@@ -1,0 +1,715 @@
+fileFormatVersion: 2
+guid: 0f2da01c1f4ba164798c25e46d1493fe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3116397603766084743
+    second: PM_S02_Prop_TV_LivingRoom_A_v01_0
+  - first:
+      213: -7595513986613225749
+    second: PM_S02_Prop_TV_LivingRoom_A_v01_1
+  - first:
+      213: 452288785552115442
+    second: PM_S02_Prop_TV_LivingRoom_A_v01_2
+  - first:
+      213: 3889628394714755689
+    second: PM_S02_Prop_TV_LivingRoom_A_v01_3
+  - first:
+      213: 8975370604759249487
+    second: PM_S02_Prop_TV_LivingRoom_A_v01_4
+  - first:
+      213: 8910108846367300364
+    second: PM_S02_Prop_TV_LivingRoom_A_v01_5
+  - first:
+      213: -8761303039181666213
+    second: PM_S02_Prop_TV_LivingRoom_A_v01_6
+  - first:
+      213: -3689068834787934561
+    second: PM_S02_Prop_TV_LivingRoom_A_v01_7
+  - first:
+      213: 2396527186968140921
+    second: PM_S02_Prop_TV_LivingRoom_A_v01_8
+  - first:
+      213: 3541400488064353896
+    second: PM_S02_Prop_TV_LivingRoom_A_v01_9
+  - first:
+      213: -4911874164283131460
+    second: PM_S02_Prop_TV_LivingRoom_A_v01_10
+  - first:
+      213: -2154171208481421181
+    second: PM_S02_Prop_TV_LivingRoom_A_v01_11
+  - first:
+      213: 3044130276826163826
+    second: PM_S02_Prop_TV_LivingRoom_A_v01_12
+  - first:
+      213: 4722799158164160158
+    second: PM_S02_Prop_TV_LivingRoom_A_v01_13
+  - first:
+      213: -1485510174048229608
+    second: PM_S02_Prop_TV_LivingRoom_A_v01_14
+  - first:
+      213: 8927503749466280255
+    second: PM_S02_Prop_TV_LivingRoom_A_v01_15
+  - first:
+      213: 2672768311668309074
+    second: PM_S02_Prop_TV_LivingRoom_A_v01_16
+  - first:
+      213: 8833323653344651869
+    second: PM_S02_Prop_TV_LivingRoom_A_v01_17
+  - first:
+      213: -3234836102046879274
+    second: PM_S02_Prop_TV_LivingRoom_A_v01_18
+  - first:
+      213: 4057721041931608381
+    second: PM_S02_Prop_TV_LivingRoom_A_v01_19
+  - first:
+      213: -6588185896293728233
+    second: PM_S02_Prop_TV_LivingRoom_A_v01_20
+  - first:
+      213: -5028323499433290745
+    second: PM_S02_Prop_TV_LivingRoom_A_v01_21
+  - first:
+      213: -5198285030755983331
+    second: PM_S02_Prop_TV_LivingRoom_A_v01_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 9
+  spritePivot: {x: 0.4982735, y: 0.10313076}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PM_S02_Prop_TV_LivingRoom_A_v01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1403
+        height: 1066
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7842b57fb1baf3b20800000000000000
+      internalID: 3116397603766084743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_TV_LivingRoom_A_v01_1
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 1022
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be6586d9540579690800000000000000
+      internalID: -7595513986613225749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_TV_LivingRoom_A_v01_2
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 1022
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f60abe014ad64600800000000000000
+      internalID: 452288785552115442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_TV_LivingRoom_A_v01_3
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 988
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 962fe37ba6cbaf530800000000000000
+      internalID: 3889628394714755689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_TV_LivingRoom_A_v01_4
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1005
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f427820f20cee8c70800000000000000
+      internalID: 8975370604759249487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_TV_LivingRoom_A_v01_5
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1004
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0bd9c9b9c017ab70800000000000000
+      internalID: 8910108846367300364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_TV_LivingRoom_A_v01_6
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 963
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b58c6042e49996680800000000000000
+      internalID: -8761303039181666213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_TV_LivingRoom_A_v01_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 914
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9e3086b07bcdccc0800000000000000
+      internalID: -3689068834787934561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_TV_LivingRoom_A_v01_8
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 82
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97c5dc977cc224120800000000000000
+      internalID: 2396527186968140921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_TV_LivingRoom_A_v01_9
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 71
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86688721bf4952130800000000000000
+      internalID: 3541400488064353896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_TV_LivingRoom_A_v01_10
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 42
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb93c78c87485dbb0800000000000000
+      internalID: -4911874164283131460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_TV_LivingRoom_A_v01_11
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 56
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 388471df2b8da12e0800000000000000
+      internalID: -2154171208481421181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_TV_LivingRoom_A_v01_12
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 54
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27a2c38bb5cee3a20800000000000000
+      internalID: 3044130276826163826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_TV_LivingRoom_A_v01_13
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 52
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9e73e7dfc0ca8140800000000000000
+      internalID: 4722799158164160158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_TV_LivingRoom_A_v01_14
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 51
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81760a50e58626be0800000000000000
+      internalID: -1485510174048229608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_TV_LivingRoom_A_v01_15
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 31
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f31d7e53c5dd4eb70800000000000000
+      internalID: 8927503749466280255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_TV_LivingRoom_A_v01_16
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 31
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25cf8e75e94971520800000000000000
+      internalID: 2672768311668309074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_TV_LivingRoom_A_v01_17
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 40
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5ae9afcf05469a70800000000000000
+      internalID: 8833323653344651869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_TV_LivingRoom_A_v01_18
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 39
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d1f2ee34bd8b13d0800000000000000
+      internalID: -3234836102046879274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_TV_LivingRoom_A_v01_19
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 21
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3126f5f9cbef4830800000000000000
+      internalID: 4057721041931608381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_TV_LivingRoom_A_v01_20
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 23
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7108c2145df0294a0800000000000000
+      internalID: -6588185896293728233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_TV_LivingRoom_A_v01_21
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 18
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70497802b6ec73ab0800000000000000
+      internalID: -5028323499433290745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PM_S02_Prop_TV_LivingRoom_A_v01_22
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 29
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d102f846e4bfbd7b0800000000000000
+      internalID: -5198285030755983331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PM_S02_Prop_TV_LivingRoom_A_v01_0: 3116397603766084743
+      PM_S02_Prop_TV_LivingRoom_A_v01_1: -7595513986613225749
+      PM_S02_Prop_TV_LivingRoom_A_v01_10: -4911874164283131460
+      PM_S02_Prop_TV_LivingRoom_A_v01_11: -2154171208481421181
+      PM_S02_Prop_TV_LivingRoom_A_v01_12: 3044130276826163826
+      PM_S02_Prop_TV_LivingRoom_A_v01_13: 4722799158164160158
+      PM_S02_Prop_TV_LivingRoom_A_v01_14: -1485510174048229608
+      PM_S02_Prop_TV_LivingRoom_A_v01_15: 8927503749466280255
+      PM_S02_Prop_TV_LivingRoom_A_v01_16: 2672768311668309074
+      PM_S02_Prop_TV_LivingRoom_A_v01_17: 8833323653344651869
+      PM_S02_Prop_TV_LivingRoom_A_v01_18: -3234836102046879274
+      PM_S02_Prop_TV_LivingRoom_A_v01_19: 4057721041931608381
+      PM_S02_Prop_TV_LivingRoom_A_v01_2: 452288785552115442
+      PM_S02_Prop_TV_LivingRoom_A_v01_20: -6588185896293728233
+      PM_S02_Prop_TV_LivingRoom_A_v01_21: -5028323499433290745
+      PM_S02_Prop_TV_LivingRoom_A_v01_22: -5198285030755983331
+      PM_S02_Prop_TV_LivingRoom_A_v01_3: 3889628394714755689
+      PM_S02_Prop_TV_LivingRoom_A_v01_4: 8975370604759249487
+      PM_S02_Prop_TV_LivingRoom_A_v01_5: 8910108846367300364
+      PM_S02_Prop_TV_LivingRoom_A_v01_6: -8761303039181666213
+      PM_S02_Prop_TV_LivingRoom_A_v01_7: -3689068834787934561
+      PM_S02_Prop_TV_LivingRoom_A_v01_8: 2396527186968140921
+      PM_S02_Prop_TV_LivingRoom_A_v01_9: 3541400488064353896
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,72 @@
+2026-09-21T12:22:30.6721918+08:00 STATIC Scene04_School missingScripts=0 invalidCropOrPhysicsShape=0 newArtColliders=0
+2026-09-21T12:23:32.6402949+08:00 API preview copies=279 fullAtlases=0 immediateStateUnchanged=True; not continuous Q input or pursuit test
+2026-09-21T12:23:33.0704287+08:00 FIXTURE Memory classroom, not normal route
+2026-09-21T12:33:10.3705021+08:00 STATIC Scene04_School missingScripts=0 invalidCropOrPhysicsShape=0 newArtColliders=0
+2026-09-21T12:33:13.9271246+08:00 STATIC Scene02_Courtyard missingScripts=0 invalidCropOrPhysicsShape=0 newArtColliders=0
+2026-09-21T12:33:17.3671057+08:00 STATIC Scene03_Childhood missingScripts=0 invalidCropOrPhysicsShape=0 newArtColliders=0
+2026-09-21T12:33:19.2641140+08:00 STATIC EndingSequence missingScripts=0 invalidCropOrPhysicsShape=0 newArtColliders=0
+2026-09-21T12:35:23.2273242+08:00 FIXTURE Street shop, not normal route
+2026-09-21T12:37:04.3225053+08:00 API maze Enter fixture, not route
+2026-09-21T12:39:27.6313268+08:00 FIXTURE Memory classroom, not normal route
+2026-09-21T12:42:02.5100284+08:00 FIXTURE Memory classroom, not normal route
+2026-09-21T12:44:03.4883137+08:00 FIXTURE ending with explicit boarding session seed; not boarding route test
+2026-09-21T12:44:31.5490437+08:00 FIXTURE visual ending stage WalkChild
+2026-09-21T12:45:12.4043241+08:00 FIXTURE visual ending stage WalkBed
+2026-09-21T12:49:00.7370432+08:00 STATIC Scene03_Childhood missingScripts=0 invalidCropOrPhysicsShape=0 newArtColliders=0
+2026-09-21T12:50:52.1720944+08:00 API maze Enter fixture, not route
+2026-09-21T12:51:16.2713169+08:00 API maze preview fixture
+2026-09-21T12:56:04.1331554+08:00 API maze Enter fixture, not route
+2026-09-21T12:56:04.5398716+08:00 FIXTURE supplied camera item for real Q/Space visual test; not acquisition route
+2026-09-21T12:56:33.0414150+08:00 MAZE layout=0 position=(181.60, 71.60, 0.00) raised=True collisionOverlap=False
+2026-09-21T12:57:07.5541877+08:00 MAZE layout=1 position=(181.60, 71.60, 0.00) raised=False collisionOverlap=False
+2026-09-21T12:58:35.0138555+08:00 STATIC Scene03_Childhood missingScripts=0 invalidCropOrPhysicsShape=0 newArtColliders=0
+2026-09-21T12:59:18.0431083+08:00 FIXTURE ending with explicit boarding session seed; not boarding route test
+2026-09-21T12:59:52.0336346+08:00 FIXTURE visual ending stage WalkChild
+2026-09-21T13:00:20.5331985+08:00 FIXTURE visual ending stage WalkBed
+2026-09-21T13:05:46.9201346+08:00 PASS visibility lifecycle: inactive setup, show/hide/restore, second cycle
+2026-09-21T13:06:14.3282136+08:00 FIXTURE ending with explicit boarding session seed; not boarding route test
+2026-09-21T13:06:46.7625326+08:00 FIXTURE visual ending stage WalkChild
+2026-09-21T13:07:19.6460982+08:00 FIXTURE visual ending stage WalkBed
+2026-09-21T13:10:50.0809859+08:00 FIXTURE ending with explicit boarding session seed; not boarding route test
+2026-09-21T13:11:20.0942944+08:00 FIXTURE visual ending stage WalkChild
+2026-09-21T13:11:20.4944724+08:00 VIEW PersistentRuntime/Player enabled=False forceOff=False active=True
+2026-09-21T13:11:20.4944724+08:00 VIEW PersistentRuntime/Player/AdultOveralls_Placeholder/BlueBib enabled=True forceOff=False active=False
+2026-09-21T13:11:20.4955157+08:00 VIEW PersistentRuntime/Player/AdultOveralls_Placeholder/Strap enabled=True forceOff=False active=False
+2026-09-21T13:11:20.4960343+08:00 VIEW PersistentRuntime/Player/AdultOveralls_Placeholder/Strap enabled=True forceOff=False active=False
+2026-09-21T13:11:20.4960343+08:00 VIEW PersistentRuntime/Player/HeadachePose/BentForearm enabled=True forceOff=True active=True
+2026-09-21T13:11:20.4970422+08:00 VIEW PersistentRuntime/Player/HeadachePose/HandAtTemple enabled=True forceOff=True active=True
+2026-09-21T13:11:20.4975466+08:00 VIEW PersistentRuntime/Player/HeadachePose/NewArt_HeadacheHand enabled=True forceOff=False active=True
+2026-09-21T13:11:20.4975466+08:00 VIEW PersistentRuntime/AdultDefault_Visual enabled=True forceOff=False active=True
+2026-09-21T13:11:20.4980515+08:00 CARCOVER active=False previous=null
+2026-09-21T13:11:57.7864580+08:00 FIXTURE visual ending stage WalkBed
+2026-09-21T13:23:40.2771663+08:00 STATIC Scene02_Courtyard missingScripts=0 invalidCropOrPhysicsShape=0 newArtColliders=0
+2026-09-21T13:34:02.1850799+08:00 FIXTURE ending with explicit boarding session seed; not boarding route test
+2026-09-21T13:34:33.0062943+08:00 FIXTURE visual ending stage WalkBed
+2026-09-21T13:39:54.9876096+08:00 STATIC Scene03_Childhood missingScripts=0 invalidCropOrPhysicsShape=0 newArtColliders=0
+2026-09-21T13:40:56.6486790+08:00 FIXTURE Street shop, not normal route
+2026-09-21T13:40:57.0468224+08:00 API cat closeup fixture; not fish acquisition route
+2026-09-21T13:41:23.5274517+08:00 API puppet activity fixture; not NPC route
+2026-09-21T13:43:58.0124488+08:00 API rings fixture with supplied coin; not acquisition route
+2026-09-21T13:45:17.3953737+08:00 API maze Enter fixture, not route
+2026-09-21T13:45:17.7966991+08:00 FIXTURE supplied camera item for real Q/Space visual test; not acquisition route
+2026-09-21T13:46:10.7873304+08:00 MAZE layout=0 position=(181.60, 71.60, 0.00) raised=True collisionOverlap=False
+2026-09-21T13:46:36.8756739+08:00 MAZE layout=1 position=(181.60, 71.60, 0.00) raised=False collisionOverlap=False
+2026-09-21T13:47:23.3393745+08:00 FIXTURE ending with explicit boarding session seed; not boarding route test
+2026-09-21T13:47:44.1511133+08:00 FIXTURE visual ending stage WalkBed
+2026-09-21T13:48:40.6929258+08:00 FIXTURE visual ending stage WalkChild
+2026-09-21T13:49:12.3727524+08:00 FIXTURE visual ending stage WalkYouth
+2026-09-21T13:49:36.0452047+08:00 FIXTURE visual ending stage WalkHospital
+2026-09-21T13:52:45.9010907+08:00 FIXTURE ending with explicit boarding session seed; not boarding route test
+2026-09-21T13:53:22.7288466+08:00 FIXTURE visual ending stage WalkBed
+2026-09-21T13:53:59.2203575+08:00 FIXTURE visual ending stage WalkChild
+2026-09-21T13:56:37.4164426+08:00 STATIC Scene02_Courtyard missingScripts=0 invalidCropOrPhysicsShape=0 newArtColliders=0
+2026-09-21T13:56:39.9253776+08:00 STATIC Scene03_Childhood missingScripts=0 invalidCropOrPhysicsShape=0 newArtColliders=0
+2026-09-21T13:56:41.9936145+08:00 STATIC Scene04_School missingScripts=0 invalidCropOrPhysicsShape=0 newArtColliders=0
+2026-09-21T13:56:43.8180802+08:00 STATIC EndingSequence missingScripts=0 invalidCropOrPhysicsShape=0 newArtColliders=0
+2026-09-21T13:56:44.6223313+08:00 PASS visibility lifecycle: inactive setup, show/hide/restore, second cycle
+2026-09-21T13:59:22.3347821+08:00 FIXTURE ending with explicit boarding session seed; not boarding route test
+2026-09-21T13:59:53.4943605+08:00 FIXTURE visual ending stage WalkBed
+2026-09-21T13:59:53.8951841+08:00 FIXTURE placed at actual bed anchor for closeup art check; not continuous route
+2026-09-21T14:05:13.1777924+08:00 FIXTURE ending with explicit boarding session seed; not boarding route test
+2026-09-21T14:05:56.0153670+08:00 FIXTURE visual ending stage WalkBed
+2026-09-21T14:05:56.4124391+08:00 FIXTURE placed at actual bed anchor for closeup art check; not continuous route
