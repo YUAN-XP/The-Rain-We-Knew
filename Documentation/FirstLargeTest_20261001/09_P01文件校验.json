@@ -1,0 +1,2892 @@
+[
+  {
+    "path": "Assets/Editor/DemoArtImporter.cs",
+    "sha256": "1F7BD08D82A0F5B9F2FFF11BC4AE7189839A1FB00EE3665DBF5A1434484C2659",
+    "bytes": 5792
+  },
+  {
+    "path": "Assets/Editor/P01ClassroomPilot.cs",
+    "sha256": "6B80A318752436B64B1DB75C256718CA84E67EA13B3C9E0E5D25E7B5BBF4514B",
+    "bytes": 6686
+  },
+  {
+    "path": "Assets/Editor/P01ClassroomPilot.cs.meta",
+    "sha256": "2B049F808341A1B6C2AD62A0E13063F3B0979F177AFB3ECC25AA07BDF66CB349",
+    "bytes": 59
+  },
+  {
+    "path": "Assets/Editor/P01FoundationChecks.cs",
+    "sha256": "A75EF6F13489CF15DDA3C62A7A2BD3362284DA58B1A939C7F6204AD01FA79406",
+    "bytes": 17735
+  },
+  {
+    "path": "Assets/Editor/P01FoundationChecks.cs.meta",
+    "sha256": "2EB5F83E292AB097F0011C75D2C2F1FEC8312F66E5B63CA8D0CFC2B55FA0B5C3",
+    "bytes": 59
+  },
+  {
+    "path": "Assets/Editor/P01InputReplay.cs",
+    "sha256": "8B4EEE5823A153A10D38917EF275CE67C73C5160CB86B3DDE11021414A53545B",
+    "bytes": 7075
+  },
+  {
+    "path": "Assets/Editor/P01InputReplay.cs.meta",
+    "sha256": "15E4FBE037A6FA461EF664FBD2DA80CA0839DC57611F75D23D23B9C47348DEAF",
+    "bytes": 59
+  },
+  {
+    "path": "Assets/Editor/P01InteractionBindings.cs",
+    "sha256": "60CDF81E329E4604761A92351D2E949EABFCE0D2E5B8373EC5B87865CF535E5C",
+    "bytes": 7202
+  },
+  {
+    "path": "Assets/Editor/P01InteractionBindings.cs.meta",
+    "sha256": "306E45F5A02CDFCEEAB866C8DFF9139F8B3D19AD4BBB4D9823C61B790DF64EB8",
+    "bytes": 59
+  },
+  {
+    "path": "Assets/Editor/P01PersistenceChecks.cs",
+    "sha256": "E816DE4132F859712CA6DDBC30461D2108C9021DD7762B2BB8E013BD78F1294B",
+    "bytes": 5707
+  },
+  {
+    "path": "Assets/Editor/P01PersistenceChecks.cs.meta",
+    "sha256": "6EB97911840D33C4ACB3568DA0FC1CBC8D7CE17BCE7E9A027E8E01FBF284F7FE",
+    "bytes": 59
+  },
+  {
+    "path": "Assets/Editor/P01PondJunction.cs",
+    "sha256": "1A33BA22CC670625022292C972B3DBA0CF4E11D481C3B7D4ABAFB98AE9DAD749",
+    "bytes": 1107
+  },
+  {
+    "path": "Assets/Editor/P01PondJunction.cs.meta",
+    "sha256": "AD949E01DFC96729C11A122BD08A90D12400A8BC03D9325DBF3C7509B97A6657",
+    "bytes": 59
+  },
+  {
+    "path": "Assets/Editor/P01PromptChecks.cs",
+    "sha256": "F72A914B6FAE6F75642DF6084E30536DED3FBFFD7D9D26A5B29A868A04860459",
+    "bytes": 6373
+  },
+  {
+    "path": "Assets/Editor/P01PromptChecks.cs.meta",
+    "sha256": "F03E962FA0BE7475256270192CD4E03901164BC9161F630A8F1398B161448603",
+    "bytes": 59
+  },
+  {
+    "path": "Assets/Editor/P01RecoveryChecks.cs",
+    "sha256": "110A67FAB5C606C29F9BEA36457D8E32EF44155C475E76F28F027A183A1F2A0F",
+    "bytes": 6845
+  },
+  {
+    "path": "Assets/Editor/P01RecoveryChecks.cs.meta",
+    "sha256": "DB8AE9CE5C227B8979BF8E233AD25752B59FED1B099769F4241EADF065C4BE1D",
+    "bytes": 59
+  },
+  {
+    "path": "Assets/Editor/P01RestoreEdgeChecks.cs",
+    "sha256": "42464672B337E1A1F42D54562FFB98BA029F1D0D0AF4D0DCC1D6823BA1B1B919",
+    "bytes": 5332
+  },
+  {
+    "path": "Assets/Editor/P01RestoreEdgeChecks.cs.meta",
+    "sha256": "15FEF5063A804CAE1E98D545A6CFAFE151C10BF5C981FB73B6FB60474EF2BF0A",
+    "bytes": 59
+  },
+  {
+    "path": "Assets/Editor/P01SaveRegistryBuilder.cs",
+    "sha256": "9F6A87D283F0D537DC61F94975AEBD299D33F524106E2EBCA4ADF31E8517822D",
+    "bytes": 1011
+  },
+  {
+    "path": "Assets/Editor/P01SaveRegistryBuilder.cs.meta",
+    "sha256": "C5655FC6A9A4FEE3A0E098E0DE705A240B19D6E9C7A0E735D697CD3EE12BC384",
+    "bytes": 59
+  },
+  {
+    "path": "Assets/Editor/P01SceneChecks.cs",
+    "sha256": "5CCBABA52283C3E267E02149642D0C779697B527DAE7833F131BC7F06F04E47A",
+    "bytes": 21896
+  },
+  {
+    "path": "Assets/Editor/P01SceneChecks.cs.meta",
+    "sha256": "49937F5F5157A5DD129F6FEEEA8F3BB8EB90BE8E12BD1DC8282A823543A86127",
+    "bytes": 59
+  },
+  {
+    "path": "Assets/Editor/P01SpriteRegionCorrections.cs",
+    "sha256": "D08FFA5F06DE9CA590096710C003811C88468D436E4B0D08869D05DD47F9C430",
+    "bytes": 1839
+  },
+  {
+    "path": "Assets/Editor/P01SpriteRegionCorrections.cs.meta",
+    "sha256": "7E2EEA765E0A1B7178A6A73290A57E8F94080050E7DDA166D1EA2122ED2E17CD",
+    "bytes": 59
+  },
+  {
+    "path": "Assets/Editor/P01TransitionChecks.cs",
+    "sha256": "615455FD44407F87E7F766B9A7F72E00DAF6B124BA2F476B09417E091214BDC2",
+    "bytes": 7544
+  },
+  {
+    "path": "Assets/Editor/P01TransitionChecks.cs.meta",
+    "sha256": "B47DB735C325F8E49D6BEBE4F80A0583BE23684010E192EF52688DEBDA56D4C4",
+    "bytes": 59
+  },
+  {
+    "path": "Assets/Editor/P01ValidationBuild.cs",
+    "sha256": "B47D009C99FAAF1A5462B319C12628154CAF66AFC2F71ADEFA2214DFD64B4512",
+    "bytes": 1036
+  },
+  {
+    "path": "Assets/Editor/P01ValidationBuild.cs.meta",
+    "sha256": "1EC1BDB4DE607020A89561A872BCCE3A8A4D30EFF9FE7D86025670527E9AF387",
+    "bytes": 59
+  },
+  {
+    "path": "Assets/GameData/Ending/Stage6/D_C01.asset",
+    "sha256": "E4DB0033017C5DEB49DC4490F9D32F7D8BEE787E93A8287611F3367EA41BFA5D",
+    "bytes": 654
+  },
+  {
+    "path": "Assets/GameData/Ending/Stage6/D_C02.asset",
+    "sha256": "FA6E8DA5B15E0F94701A6862D50816C5CACD9D1BEE41004BCA468637B36A27FD",
+    "bytes": 685
+  },
+  {
+    "path": "Assets/GameData/Ending/Stage6/D_C03.asset",
+    "sha256": "56029347B2E4415134A6B0BA803282A80BF3F34CFABCE681D73F213E7A69D6A2",
+    "bytes": 594
+  },
+  {
+    "path": "Assets/GameData/Ending/Stage6/D_C04.asset",
+    "sha256": "C09CB57EB450FA7E7DAA426C38B0FFC7D0FC7239470E79215F0C3EBC81078C1A",
+    "bytes": 612
+  },
+  {
+    "path": "Assets/GameData/Ending/Stage6/D_C05.asset",
+    "sha256": "E9477806959B19B84C8B320B112C4BCDDA548EB864FE83C7BCB2EB23DDAC2CF8",
+    "bytes": 619
+  },
+  {
+    "path": "Assets/GameData/Ending/Stage6/D_C06.asset",
+    "sha256": "F56C1C4716312B459CFFA6AF6DFE3B192364C95410CCC941DF1BB0F9A5481F52",
+    "bytes": 678
+  },
+  {
+    "path": "Assets/GameData/Ending/Stage6/D_C07.asset",
+    "sha256": "320526DFF9EF2ED90DB3BD6756F874A8012FD6BEC8F9FB73C2EB4DFEF75F24DE",
+    "bytes": 624
+  },
+  {
+    "path": "Assets/GameData/Ending/Stage6/D_C08.asset",
+    "sha256": "27EC137B45BD121239BD7277F266EF3BD38BE98AF401F588A039D91AD0EE6068",
+    "bytes": 661
+  },
+  {
+    "path": "Assets/GameData/Ending/Stage6/D_C09.asset",
+    "sha256": "8EA73B4D675DC470FFC246D18B77E4033665439CA3C3C2BD3A3988E6CC829AD8",
+    "bytes": 750
+  },
+  {
+    "path": "Assets/GameData/Ending/Stage6/D_C10.asset",
+    "sha256": "F620C60ED573068D1C1F1672B75E8DD8A9DCBEB3CE06FC275162FB97BCC98733",
+    "bytes": 690
+  },
+  {
+    "path": "Assets/GameData/Ending/Stage6/D_C11.asset",
+    "sha256": "93254F58FD001E514CD3E35D1119F22C9C149B8AAC630C2FF94E8E7BEFFE43EF",
+    "bytes": 661
+  },
+  {
+    "path": "Assets/GameData/Ending/Stage6/D_C12.asset",
+    "sha256": "A36C932E70E4499A64104B9455FE1CCA7679B9B1935B94C21130E7FC81D14523",
+    "bytes": 654
+  },
+  {
+    "path": "Assets/GameData/Ending/Stage6/D_C13.asset",
+    "sha256": "ED421AA8332E8F16172E3AA4BD7BC4ECCF27EF51C95F5256E07CC400F64C53EE",
+    "bytes": 637
+  },
+  {
+    "path": "Assets/GameData/Ending/Stage6/D_C14.asset",
+    "sha256": "EA17B004D936CDD5FDC3368743DBF41933DBE0C23ECDFC3EF4E8354E9893B163",
+    "bytes": 606
+  },
+  {
+    "path": "Assets/GameData/Ending/Stage6/D_C15.asset",
+    "sha256": "2D632F265A0AF523C5CDB76B640E14A8EF3DCEC5A1B78934BBFF3DD5B004ACD1",
+    "bytes": 606
+  },
+  {
+    "path": "Assets/GameData/Ending/Stage6/D_E01.asset",
+    "sha256": "FCB0DBE9228D519ABADD854D1B20DB05F85A0E7ACCF3E3C9FBDE565622D5E701",
+    "bytes": 707
+  },
+  {
+    "path": "Assets/GameData/Ending/Stage6/D_E02.asset",
+    "sha256": "31CC53EB4B3A5E75958C3BCA2D68BEDBAC83B3E064B0045CF763B8DDB546B822",
+    "bytes": 612
+  },
+  {
+    "path": "Assets/GameData/Ending/Stage6/D_E03.asset",
+    "sha256": "B4516F096D9FBA30E0090C672A972B1CAAA04F500421590E297C7381B66A2642",
+    "bytes": 661
+  },
+  {
+    "path": "Assets/GameData/Ending/Stage6/D_F01.asset",
+    "sha256": "FEC4907A4BA5ECC8BB176A7DF97D91E8DC235A60C1A35480929F5F5879D05AD9",
+    "bytes": 682
+  },
+  {
+    "path": "Assets/GameData/Ending/Stage6/D_F02.asset",
+    "sha256": "AF92F8675298BDC807062752399CBC0DCD27E6EC43BB85F9F6FFF613180EC392",
+    "bytes": 649
+  },
+  {
+    "path": "Assets/GameData/Ending/Stage6/D_F03.asset",
+    "sha256": "A69732E4905CBEF6823E296AC7BFA2A4420B17219B8FCE9F7B5A48ED7767D5BD",
+    "bytes": 736
+  },
+  {
+    "path": "Assets/GameData/Ending/Stage6/D_F04.asset",
+    "sha256": "E22127648B1241313AE6FE3F6DE3D4F7415347C3C71E059AD25439806EC28981",
+    "bytes": 631
+  },
+  {
+    "path": "Assets/GameData/Ending/Stage6/D_F05.asset",
+    "sha256": "57DFC336B73EC5A19EC163B2BEBA803E0DA3D39B9CD56A612CDBB7D6894D251A",
+    "bytes": 653
+  },
+  {
+    "path": "Assets/GameData/Ending/Stage6/D_F06.asset",
+    "sha256": "DEB8674B8A0B961F34ACC916EE970208EE76FB3917B8BF9CE8B943977B45E127",
+    "bytes": 654
+  },
+  {
+    "path": "Assets/GameData/Ending/Stage6/D_F07.asset",
+    "sha256": "B03F005E0C400731B8E10907BF9B3B96D35D26BCB033B2970A9FD3681F58E3C9",
+    "bytes": 642
+  },
+  {
+    "path": "Assets/GameData/Ending/Stage6/D_H01.asset",
+    "sha256": "00B9660744B0BA13191AAF010DB25DCD3CFAB38DC58BA70111C208D0ADE2B8BE",
+    "bytes": 630
+  },
+  {
+    "path": "Assets/GameData/Ending/Stage6/D_H02.asset",
+    "sha256": "7C260A163C6347785D72F68128FF32538863D1504A086A44FF55DD5FDBB54C0A",
+    "bytes": 648
+  },
+  {
+    "path": "Assets/GameData/Ending/Stage6/D_H03.asset",
+    "sha256": "DD14F64CEB64EDDA78DA405105F89320FDAF0E22B2757425629AE687A766FF89",
+    "bytes": 630
+  },
+  {
+    "path": "Assets/GameData/Ending/Stage6/D_H04.asset",
+    "sha256": "D5F54277F33D21F4104C227BCA92441076A57EDCAC8CDEA48BA18A03281E512C",
+    "bytes": 606
+  },
+  {
+    "path": "Assets/GameData/Ending/Stage6/D_H05.asset",
+    "sha256": "8A2DB87454A86C4CBFCA7F5B24CB4B7AF1320FBEA2CF131CF7B90344699DBD40",
+    "bytes": 612
+  },
+  {
+    "path": "Assets/GameData/Ending/Stage6/D_H06.asset",
+    "sha256": "49F33D59C34ECF8AEE984D0F0D8B2D8D865551E7C7F9A2D9CA77F0C1C3843955",
+    "bytes": 762
+  },
+  {
+    "path": "Assets/GameData/Ending/Stage6/D_H07.asset",
+    "sha256": "9A5DFE7364B793DD1DE2C73B550A15E9232C1A57B942C14C2F0F7D1F0BD9EB9B",
+    "bytes": 600
+  },
+  {
+    "path": "Assets/GameData/Ending/Stage6/D_H08.asset",
+    "sha256": "81DBFCF2150268B465A9D3B31E2FB57DB66FF6AF9282C5C961A936FB9E4B9142",
+    "bytes": 678
+  },
+  {
+    "path": "Assets/GameData/Ending/Stage6/D_H09.asset",
+    "sha256": "41053FCC3D9C01CF98E1E9BE3012CFD16D6745027A28F391DFB43147A7BC20E9",
+    "bytes": 582
+  },
+  {
+    "path": "Assets/GameData/Ending/Stage6/D_Z01.asset",
+    "sha256": "C6BE8468CD858983C47FBBECD1F7904F995474E3A1B5677A724A4D395661883E",
+    "bytes": 673
+  },
+  {
+    "path": "Assets/GameData/Ending/Stage6/D_Z02.asset",
+    "sha256": "BC8E1B3A8DC3293B661270AC218492B44C21928A72A13348264AE126B144E488",
+    "bytes": 715
+  },
+  {
+    "path": "Assets/GameData/Ending/Stage6/D_Z03.asset",
+    "sha256": "B356240E7A40056E6A7095581D2F23AA3A5235986421FC0530A7C2AF0D266971",
+    "bytes": 666
+  },
+  {
+    "path": "Assets/GameData/Ending/Stage6/D_Z04.asset",
+    "sha256": "D44F3408B9F27F8419EC804D8DD80C749BF320C1C8287E7835E174DBF5972657",
+    "bytes": 799
+  },
+  {
+    "path": "Assets/GameData/Ending/Stage6/D_Z05.asset",
+    "sha256": "4CDB9B5468F8150C8D67312116E51CBA99C3081AE697BBB3FBC7DCA5E6A4F78C",
+    "bytes": 678
+  },
+  {
+    "path": "Assets/GameData/Ending/Stage6/D_Z06.asset",
+    "sha256": "125893E82D07A33FC79CA59C9E3CA677AE84BCA3FDB6F90913FBF98FB9C5B2AE",
+    "bytes": 595
+  },
+  {
+    "path": "Assets/GameData/Ending/Stage6/D_Z07.asset",
+    "sha256": "64B6F5E4F8903AA55A9DE01C8CD36B553E4AAAB415CD6A9E62F8344F09BFE41A",
+    "bytes": 654
+  },
+  {
+    "path": "Assets/GameData/Ending/Stage6/D_Z08.asset",
+    "sha256": "C950565A6FCDD579AA1A3370EF7F67E53117B155ACDFD9CDEDF393F2DA99D25E",
+    "bytes": 643
+  },
+  {
+    "path": "Assets/GameData/Scene03/D_S02_CameraGentlemanEcho.asset",
+    "sha256": "C3B274B6B0C7851F78E7D6C2C8EFE110BA58052F09D80B9E3489F67C32C32395",
+    "bytes": 671
+  },
+  {
+    "path": "Assets/GameData/Scene03/D_S02_GuideAfterChildhood.asset",
+    "sha256": "3AEBB6A785C8564B4B1127B01740E022914DE39EDD006B47A087B608370C520C",
+    "bytes": 813
+  },
+  {
+    "path": "Assets/GameData/Scene03/D_S02_ReturnFromFamilyPhoto.asset",
+    "sha256": "01222E740CF1070DB42918809A6031E72C5B1938873F404B46AA8B0058336453",
+    "bytes": 852
+  },
+  {
+    "path": "Assets/GameData/Scene03/D_S03_CallBoyIntoPhoto.asset",
+    "sha256": "58F407B43D93CBAD0B382AF26757246B319DBF06E44020A7D462320E1B8920DB",
+    "bytes": 713
+  },
+  {
+    "path": "Assets/GameData/Scene03/D_S03_CameraGentlemanCard.asset",
+    "sha256": "843953586F7C8BD9A92D29F897210CB171D59F14B1C08703D0D8E4D4CEDC07A2",
+    "bytes": 954
+  },
+  {
+    "path": "Assets/GameData/Scene03/D_S03_Cat.asset",
+    "sha256": "8482AAE7D47415BFE31BFB1DF9417C61566194347556244DDA2E5BBE4AEFD8AE",
+    "bytes": 778
+  },
+  {
+    "path": "Assets/GameData/Scene03/D_S03_Chess.asset",
+    "sha256": "CF79CCBB4FF98A31D4F51E4900C16D4CAD19CE3B0F0052AAA0D31113869A68C4",
+    "bytes": 972
+  },
+  {
+    "path": "Assets/GameData/Scene03/D_S03_Endpoint.asset",
+    "sha256": "D05CD8FE79FF6C171C65BAF2E244940272BD4FABF66E6F9425E0194410FDD3D0",
+    "bytes": 765
+  },
+  {
+    "path": "Assets/GameData/Scene03/D_S03_ExitLocked.asset",
+    "sha256": "9D0EAD76BF3AF9DBA93815A4D42CEC5AF7813007DC75F37E4207FA0AA908BEA3",
+    "bytes": 629
+  },
+  {
+    "path": "Assets/GameData/Scene03/D_S03_FamilyInvitation.asset",
+    "sha256": "17011BF744708A222BC4CF803A23DCCBF5DA68504DAC6D8F19A7821E852E30F8",
+    "bytes": 2009
+  },
+  {
+    "path": "Assets/GameData/Scene03/D_S03_FamilyReady.asset",
+    "sha256": "32E228A8F2BC900AD3A2ADB97533B556AFA969F6B65015410FBA88619DD95524",
+    "bytes": 586
+  },
+  {
+    "path": "Assets/GameData/Scene03/D_S03_FeedCat.asset",
+    "sha256": "787098B20F494DD5B707AFEA03A75EA81BCC368030F630BECE47F8A0DCDEB4B4",
+    "bytes": 956
+  },
+  {
+    "path": "Assets/GameData/Scene03/D_S03_FishRepeat.asset",
+    "sha256": "B2F556B44318CE6D4FE6AF67C5FE9124A9FD042939C532EB32B92E239B3708F6",
+    "bytes": 645
+  },
+  {
+    "path": "Assets/GameData/Scene03/D_S03_Gate.asset",
+    "sha256": "A6353B0EA160BD6DFDE861FA8B70C48F73EB261C3CC55536BEE3CD0266D82FC9",
+    "bytes": 725
+  },
+  {
+    "path": "Assets/GameData/Scene03/D_S03_GuitarPraise.asset",
+    "sha256": "688B59121067A690BFB78FA11C4906CC7CDF2E7B9AAE8E9639107170024C6EA2",
+    "bytes": 745
+  },
+  {
+    "path": "Assets/GameData/Scene03/D_S03_LiMei.asset",
+    "sha256": "1E63E6DDEBF38349EE2D0DB0B97AF7898A20C13531B434E060D560B4E7D9BC4E",
+    "bytes": 925
+  },
+  {
+    "path": "Assets/GameData/Scene03/D_S03_MazePrelude.asset",
+    "sha256": "2B9A213D55EC98F8AE2F7DD3BB59B1AA3FDB52911B9237048B5C6B531DFBE61E",
+    "bytes": 762
+  },
+  {
+    "path": "Assets/GameData/Scene03/D_S03_MechanicalTimer.asset",
+    "sha256": "9E6BB7E6E49D086D21B7EFA63C0CA50B13CEFE8BC94F193D67A560EF63E334A7",
+    "bytes": 728
+  },
+  {
+    "path": "Assets/GameData/Scene03/D_S03_MessageDelivered.asset",
+    "sha256": "CC3BB0470EC09EE7F0AB1E68046CA447AF782FB9C6087899040E8CA372B2405E",
+    "bytes": 1018
+  },
+  {
+    "path": "Assets/GameData/Scene03/D_S03_Parents.asset",
+    "sha256": "081BA94CA9C49F2F784545349D204D2D6FBD601222460AEA8711C1E074264D77",
+    "bytes": 1384
+  },
+  {
+    "path": "Assets/GameData/Scene03/D_S03_ParentsRepeat.asset",
+    "sha256": "295363C93E6EBCE52224A2C9BEB2EDECC343530C1B21558BDA4C9FE54A094F1C",
+    "bytes": 735
+  },
+  {
+    "path": "Assets/GameData/Scene03/D_S03_Phone.asset",
+    "sha256": "68CDA20EFA86D8968794A1DBB488322628B98E7AEFBDD09B204C5B056624C32B",
+    "bytes": 2022
+  },
+  {
+    "path": "Assets/GameData/Scene03/D_S03_Puddle.asset",
+    "sha256": "1AC9A7EDF6EA5602F8E0FF0A2943833FA370C93BED982C85803E1F495D4983DE",
+    "bytes": 619
+  },
+  {
+    "path": "Assets/GameData/Scene03/D_S03_Restaurant.asset",
+    "sha256": "E863984E23F59109F4B2DE9EF0B974E4112E891297B3C2FD0798BE0B33FC7959",
+    "bytes": 774
+  },
+  {
+    "path": "Assets/GameData/Scene03/D_S03_RingRetry.asset",
+    "sha256": "E3D573D1666DD5F70AED456A01E5B752757E30DD53C0D3EF5AA9FC7FFAF755C7",
+    "bytes": 608
+  },
+  {
+    "path": "Assets/GameData/Scene03/D_S03_RiverIntroduction.asset",
+    "sha256": "73DAA638DB4AAAA7AE144DF586690BFAD876442837D62585E4104EC628D05E27",
+    "bytes": 2007
+  },
+  {
+    "path": "Assets/GameData/Scene03/D_S03_RiverZhaoAside.asset",
+    "sha256": "3EBA02439E4A8AF5EE5AC712104F22E8629918FA8819AFAF4FCF6235C9A37C22",
+    "bytes": 721
+  },
+  {
+    "path": "Assets/GameData/Scene03/D_S03_RiverZhaoCall.asset",
+    "sha256": "CAF6DD195A0154C55E6B1AD68EA066C962C8DCD200B0ECB3E880E5BE3703B14B",
+    "bytes": 708
+  },
+  {
+    "path": "Assets/GameData/Scene03/D_S03_Shop.asset",
+    "sha256": "CA58F53ABC0A5441C23D043BAF651834243D0338C31C92EAADA3C4DC41FF77F7",
+    "bytes": 978
+  },
+  {
+    "path": "Assets/GameData/Scene03/D_S03_Stairs.asset",
+    "sha256": "1EF3AE3288A2AE8FDEC07F44F3807F77545F548BF844E5811585C80019D7B4B7",
+    "bytes": 670
+  },
+  {
+    "path": "Assets/GameData/Scene03/D_S03_StoryEnd.asset",
+    "sha256": "B426D7A3A05DEA7B082172180D25AA01C90B865FF402E87F4DF5ED38C68BA2DA",
+    "bytes": 2335
+  },
+  {
+    "path": "Assets/GameData/Scene03/D_S03_Table.asset",
+    "sha256": "0EB3E730AF2A8CCBD435CAD628D611117B4915E3CF1307C576A4A0B23F3C4C8B",
+    "bytes": 774
+  },
+  {
+    "path": "Assets/GameData/Scene03/D_S03_TakeCamera.asset",
+    "sha256": "DA4CECF0F10F84734DCE081F265D9767C67FD79B236933470210D73462144E08",
+    "bytes": 783
+  },
+  {
+    "path": "Assets/GameData/Scene03/D_S03_ZhaoBingCheng.asset",
+    "sha256": "0DABC3ECC952F2735981E944A58C5A410CF789A4864404052E06493174D1C5A8",
+    "bytes": 2649
+  },
+  {
+    "path": "Assets/GameData/Scene03/D_S03_ZhaoHome.asset",
+    "sha256": "38B090B87A3699CC11B129FFC6FD93FB1518A2CFF341732D7FCC053A2F406AE2",
+    "bytes": 999
+  },
+  {
+    "path": "Assets/GameData/School/D_Fog_Entry.asset",
+    "sha256": "4B4DA1302CAAC25E0AD0CD04825BE883BA0AF2F00D3F34E6F915DD690D99051F",
+    "bytes": 627
+  },
+  {
+    "path": "Assets/GameData/School/D_Fog_Inquiry.asset",
+    "sha256": "4C2F1D83851F3A687E36498028BFCC572E45C93E34BCBC622836EFD25B1949B2",
+    "bytes": 895
+  },
+  {
+    "path": "Assets/GameData/School/SchoolLayout.asset",
+    "sha256": "6A9B67F194C2570DE75C625B52434654CCB212913FDF4958C74128B73DFCAFA6",
+    "bytes": 9615
+  },
+  {
+    "path": "Assets/GameData/School/Stage5A/D_S04_BasketballInvestigate.asset",
+    "sha256": "00F6273AF281ED764D4EAE939ED68D55A926DF2E4C5F9D0EDB0BC9E820D68CF1",
+    "bytes": 581
+  },
+  {
+    "path": "Assets/GameData/School/Stage5A/D_S04_BasketballMiss.asset",
+    "sha256": "5CAB1832C885F38AD6C3D33877B4C3531D43BE54E9AA684AC6FEFAAEFDD19E5E",
+    "bytes": 585
+  },
+  {
+    "path": "Assets/GameData/School/Stage5A/D_S04_BasketballSuccess.asset",
+    "sha256": "F958D64438E3A699E15F4ABCB1E6B439024B9C5C653C7F24850C8AF25B30822B",
+    "bytes": 681
+  },
+  {
+    "path": "Assets/GameData/School/Stage5A/D_S04_BasketKeyObtained.asset",
+    "sha256": "6E7DE88540B14A306A244217C13321A20249CD9B915F5AD1E0F037F112336C57",
+    "bytes": 577
+  },
+  {
+    "path": "Assets/GameData/School/Stage5A/D_S04_BasketKeyRevealed.asset",
+    "sha256": "6C261AA804C013D27774071244A75DC52F9FC199627917A75043EE2CECE3CC6D",
+    "bytes": 663
+  },
+  {
+    "path": "Assets/GameData/School/Stage5A/D_S04_EquipmentEcho.asset",
+    "sha256": "C7BEAE599F6632D6223CDA9C33AD8AA8E6DB23BB3541865CAC3C9BCAA5A708E1",
+    "bytes": 567
+  },
+  {
+    "path": "Assets/GameData/School/Stage5A/D_S04_EquipmentLocked.asset",
+    "sha256": "F4498EE361D2A3AFC6F354CEB28CB3D4368C72D10025BDA7EFA8B4A6714BD563",
+    "bytes": 575
+  },
+  {
+    "path": "Assets/GameData/School/Stage5A/D_S04_EquipmentVoice.asset",
+    "sha256": "44CC1BE9A62382874833FEFDCBAEB91BB3A8964E05E2BB2A26C150F351D493AF",
+    "bytes": 1122
+  },
+  {
+    "path": "Assets/GameData/School/Stage5A/D_S04_FogReturn.asset",
+    "sha256": "359DCE157020D67BDD9C6D675492E18DA1D8612C47F7F357EC6CE0C201F122E9",
+    "bytes": 637
+  },
+  {
+    "path": "Assets/GameData/School/Stage5A/D_S04_PencilObtained.asset",
+    "sha256": "2973C512C89EE9DCC2C455B8ABF49E4231CB167F62DA6C482D424BE97A1E6F73",
+    "bytes": 757
+  },
+  {
+    "path": "Assets/GameData/School/Stage5A/D_S04_SecurityWindow.asset",
+    "sha256": "E158C44E4CBBEDC163408D26ACFAD05F641C1BD51B293405A67C00015C065726",
+    "bytes": 678
+  },
+  {
+    "path": "Assets/GameData/School/Stage5A/D_S04_UniformObtained.asset",
+    "sha256": "2EC78590F98DC7F5B8DC5D0924DB2F166BD901D4013C88EFD2749E0180C7A493",
+    "bytes": 746
+  },
+  {
+    "path": "Assets/GameData/School/Stage5A/D_S04_YouthOpening.asset",
+    "sha256": "3A36DFDDDE0D9BA2AD4D64D23DA652C2FC7AC5937A1A02BD72E810AB4DD87E83",
+    "bytes": 865
+  },
+  {
+    "path": "Assets/GameData/School/Stage5B/S05_COMPUTER_COPY.asset",
+    "sha256": "1B95BAFF0547737562C2994F95566D2DD16F3BC280B16C2343CDF29984D2D3E3",
+    "bytes": 631
+  },
+  {
+    "path": "Assets/GameData/School/Stage5B/S05_COMPUTER_NO_USB.asset",
+    "sha256": "5C99788091618C967FC770A454731177535176F072864DA774C1185F109BD103",
+    "bytes": 638
+  },
+  {
+    "path": "Assets/GameData/School/Stage5B/S05_COMPUTER_PASSWORD.asset",
+    "sha256": "864FEC5FF7AF213FFA2251D8571B34F477FC307E4B824B25D0C8DBC180FB2003",
+    "bytes": 814
+  },
+  {
+    "path": "Assets/GameData/School/Stage5B/S05_COURT_AFTER_TOILET.asset",
+    "sha256": "96B160B9494C7BBD6864AB7BDE5750F1FDB93B28B39601DF1F8FB6F3DF6647AA",
+    "bytes": 665
+  },
+  {
+    "path": "Assets/GameData/School/Stage5B/S05_CROWD_ONCE.asset",
+    "sha256": "C0C88F042AB012CD737AF226524658B3F1C0FD415B5FCFECA66749CCF9F3297E",
+    "bytes": 669
+  },
+  {
+    "path": "Assets/GameData/School/Stage5B/S05_DIRECTOR_AFTER_HANDOFF.asset",
+    "sha256": "2486F32F9E09A8341D9E43FB0616BD5B9F10E9D7DB96DB3D19E4EE259E4C6285",
+    "bytes": 1074
+  },
+  {
+    "path": "Assets/GameData/School/Stage5B/S05_DIRECTOR_BEFORE_HANDOFF.asset",
+    "sha256": "2809DFD3DED15C1AB76BEAF9A94D16FF5B9FCB2D4465FD609FFE48A303CD0087",
+    "bytes": 881
+  },
+  {
+    "path": "Assets/GameData/School/Stage5B/S05_DIRECTOR.asset",
+    "sha256": "AE8D7FE2479EEC0E966086C34261F78E6F49EAD692BDEBDB60951335B3B71F17",
+    "bytes": 1487
+  },
+  {
+    "path": "Assets/GameData/School/Stage5B/S05_EQUIPMENT_AFTER_PASSWORD.asset",
+    "sha256": "1D04266A4EF99CC8E1D2C901B6B0C1B6392688AECBBB639A2B8571AE20AB0E92",
+    "bytes": 773
+  },
+  {
+    "path": "Assets/GameData/School/Stage5B/S05_EQUIPMENT_BEFORE_PASSWORD.asset",
+    "sha256": "941CA088F71AFECA3AA80EF0DE3A30C789778049F7DFDF090F20294E0BF6084F",
+    "bytes": 876
+  },
+  {
+    "path": "Assets/GameData/School/Stage5B/S05_FEMALE_TOILET.asset",
+    "sha256": "D7233EC92C6C2E48D4DE9CA20946B119341116D99CB9685118165ACFDFFB325F",
+    "bytes": 660
+  },
+  {
+    "path": "Assets/GameData/School/Stage5B/S05_MONITOR_SUCCESS.asset",
+    "sha256": "A1025DB525F83716483C78B28D07183396ACFE7CC2AD668F0A8CA6C8B58A4A3A",
+    "bytes": 572
+  },
+  {
+    "path": "Assets/GameData/School/Stage5B/S05_OFFICE_REFUSAL.asset",
+    "sha256": "94D49B59279044D277062882E86468C054FD4D0D8FB5422204A7A9311B378E63",
+    "bytes": 679
+  },
+  {
+    "path": "Assets/GameData/School/Stage5B/S05_PASSWORD_SUCCESS.asset",
+    "sha256": "912019ACA49989024E8ADFD21320D1B43105C50E7A657894BABB116B1D406327",
+    "bytes": 579
+  },
+  {
+    "path": "Assets/GameData/School/Stage5B/S05_READING_EXIT_HINT.asset",
+    "sha256": "A1257219F3BBFF1299043C9C0DD3FE45BD0B148F775BEA841EE08C70B0307C7A",
+    "bytes": 562
+  },
+  {
+    "path": "Assets/GameData/School/Stage5B/S05_ROOF_LOCKED.asset",
+    "sha256": "42D134EC8E577BDD9D9E16FDB0A44922674982E8B74BF281B8DB1E4B1A598B37",
+    "bytes": 682
+  },
+  {
+    "path": "Assets/GameData/School/Stage5B/S05_SCHOOL_GATE.asset",
+    "sha256": "C9C3EE7B32B2F815C739F034251FD7BE03E135BEFD914FAFC20ED7575DC5B08A",
+    "bytes": 610
+  },
+  {
+    "path": "Assets/GameData/School/Stage5B/S05_SECURITY_NO_CLUE.asset",
+    "sha256": "5E06A92750E91FDF60A945BA3E5AA7BD7FFE3F759A8A119B0DC9528F3D22C764",
+    "bytes": 561
+  },
+  {
+    "path": "Assets/GameData/School/Stage5B/S05_SECURITY_NOTE_BODY.asset",
+    "sha256": "75C73BF8BAE464F35F95D991FCD793509B64D62CEE24B9CE7104AE52D2D63427",
+    "bytes": 713
+  },
+  {
+    "path": "Assets/GameData/School/Stage5B/S05_SECURITY_WINDOW_FACTS.asset",
+    "sha256": "B82E2AC34F55E3C4A496ECCE0C27CB2AD288C971CC29044192C37BD47249CD35",
+    "bytes": 638
+  },
+  {
+    "path": "Assets/GameData/School/Stage5B/S05_STAGE_END_NOTICE.asset",
+    "sha256": "853B3DDAE99A951799A07B7EAEB3F1D6847E0032D451E59D546D696B3DB9EEE1",
+    "bytes": 652
+  },
+  {
+    "path": "Assets/GameData/School/Stage5B/S05_TOILET_AFTER_SUBMISSION.asset",
+    "sha256": "3C22F6FA6823C0C1CEE7B877EBF8A5930E0C70A5DAD2FB685B7C34DE3BDFC1B6",
+    "bytes": 1368
+  },
+  {
+    "path": "Assets/GameData/School/Stage5B/S05_TOILET.asset",
+    "sha256": "8E19579575B26064BCE1455EFB940C6C643A6624A68DBFC98F1157BBAEE18FD9",
+    "bytes": 1660
+  },
+  {
+    "path": "Assets/GameData/School/Stage5B/S05_USB_CONTENT_DESCRIPTION.asset",
+    "sha256": "DDB82214F3CF6588FD2D38A33550703521F21AD55263D38108E87DACC3D8DF43",
+    "bytes": 622
+  },
+  {
+    "path": "Assets/GameData/School/Stage5B/S05_ZHANG_USB.asset",
+    "sha256": "8B7EDD934DC4BA1EA35D339D70C73C72E1A8E83D03202781BBF89F45B4E3348A",
+    "bytes": 2139
+  },
+  {
+    "path": "Assets/GameData/School/Stage5B/S05_ZHENG_FULL.asset",
+    "sha256": "41A454C44907A588623EEC44B9D0471D534E1E4C9A3650165274F0EBFECA2E5C",
+    "bytes": 5078
+  },
+  {
+    "path": "Assets/GameData/School/Stage5B/S05_ZHENG_REMAINING_17.asset",
+    "sha256": "D328268E4300343B3768DDA4E65F7BF52A828915B3DE07F914DDC767125E1573",
+    "bytes": 4654
+  },
+  {
+    "path": "Assets/GameData/School/Stage5C/D_ChaseOpening.asset",
+    "sha256": "3F716321367C06C89C84B4157F5EB8D3B725C6C0A8AB1633DB5E33B08CFB1FA7",
+    "bytes": 1116
+  },
+  {
+    "path": "Assets/GameData/School/Stage5C/D_EmailRead.asset",
+    "sha256": "83807C2F20DC668C7FC509F766B43BDFE5123EA1B1F06D93B74C5529B1A612AF",
+    "bytes": 579
+  },
+  {
+    "path": "Assets/GameData/School/Stage5C/D_HomeGuideFirst.asset",
+    "sha256": "0500E15A40E4579DC85F2732019FBFE7CBFD930497413C53E1A3C97150A23CFA",
+    "bytes": 1499
+  },
+  {
+    "path": "Assets/GameData/School/Stage5C/D_HomeGuideRepeat.asset",
+    "sha256": "727CF28D15D1832AA7098DAC58DBB5F32558DB1BD16F2104DAE0E487B665138B",
+    "bytes": 580
+  },
+  {
+    "path": "Assets/GameData/School/Stage5C/D_SecurityCleared.asset",
+    "sha256": "17E6D346ACB8903304270031171AC366C123A24769C8F8FD9EE5A3EC52866595",
+    "bytes": 651
+  },
+  {
+    "path": "Assets/Prefabs/PersistentRuntime.prefab",
+    "sha256": "8A9CB77E71207154EA23A1A7925BBD63BD861B370BC32A8335FE87C068EF7603",
+    "bytes": 191212
+  },
+  {
+    "path": "Assets/Resources/DemoArtCatalog.asset",
+    "sha256": "DB46C223E3D84A551F350D9F513F6F89EC5577DF937D86EEA38F18C6998D4452",
+    "bytes": 3150334
+  },
+  {
+    "path": "Assets/Resources/SaveAssetRegistry.asset",
+    "sha256": "D54DC167213F9F80A77BC5575F20C4426F49DD812C68C1F0A7A843BE27B1C921",
+    "bytes": 2750
+  },
+  {
+    "path": "Assets/Resources/SaveAssetRegistry.asset.meta",
+    "sha256": "A5AC1A1AC0AA88420D4B163790DF595FF67D67BA0785EF8E33B1954EB19D6350",
+    "bytes": 189
+  },
+  {
+    "path": "Assets/Scenes/Scene01_Rain.unity",
+    "sha256": "5736F95487BE6C61BD439D0F63119C19D4BD86343CF4EDB64D3BEB1A0A57C9A3",
+    "bytes": 662171
+  },
+  {
+    "path": "Assets/Scenes/Scene03_Childhood.unity",
+    "sha256": "70EF7CB4B3A657F920D856CB43CB84057DFDE9191F69A442BE6C2E10423650AA",
+    "bytes": 17140554
+  },
+  {
+    "path": "Assets/Scenes/Scene04_School.unity",
+    "sha256": "45AD4F9E454293ADAC6FC62AAF6242BCC3BF6A7DFFB78D2004A6C8A4D13B41B9",
+    "bytes": 6821470
+  },
+  {
+    "path": "Assets/ScriptableObjects/D_S01_Crowd_First.asset",
+    "sha256": "BB1A111096C0483C9CEC4B7DBB15A6D05200129E3C6E5352CEF0F8B2BFAEEDCB",
+    "bytes": 854
+  },
+  {
+    "path": "Assets/ScriptableObjects/D_S01_Gate_Locked.asset",
+    "sha256": "9823FC80AA94B8064A51F4882F8EA492A1E068D032EC2043F07D09761243645D",
+    "bytes": 841
+  },
+  {
+    "path": "Assets/ScriptableObjects/D_S01_Gate_Unlock.asset",
+    "sha256": "18F58C79A14AD7E9430E019B4B6B52E0050120F173599F3EE8EAA459A7B46D05",
+    "bytes": 678
+  },
+  {
+    "path": "Assets/ScriptableObjects/D_S01_GateKey_Pickup.asset",
+    "sha256": "D3CD9512EFDA647E5ED0D9A63B0D7080A93549DB6B6EE983561E86DB6B5D0917",
+    "bytes": 706
+  },
+  {
+    "path": "Assets/ScriptableObjects/D_S01_IDHolder_First.asset",
+    "sha256": "AA410C81518FAF1E4C114F6C765099620A3F9DE45D372A2A08D8DB1F8738C0AC",
+    "bytes": 1077
+  },
+  {
+    "path": "Assets/ScriptableObjects/D_S01_NewspaperFragment01.asset",
+    "sha256": "8813BA99262773B0CE62D2D9E70B17801FF93674E792A7CD4FC9452111FF75A1",
+    "bytes": 842
+  },
+  {
+    "path": "Assets/ScriptableObjects/D_S01_PoliceCar_First.asset",
+    "sha256": "D878A543463E245FC8B083EA792CB8BAA6FBADDE4B1A94AE371EC7D51A880E23",
+    "bytes": 871
+  },
+  {
+    "path": "Assets/ScriptableObjects/D_S01_Puddle_AfterReflection.asset",
+    "sha256": "A63F8930E9DDF988B5C83B15B380D2836472725D06842AFDEC6EF4FE673F7DEE",
+    "bytes": 816
+  },
+  {
+    "path": "Assets/ScriptableObjects/D_S01_Puddle_BeforeReflection.asset",
+    "sha256": "BD3087C18C675571437FFF7AD711C067A45E15A90289FB37E7C56721EA4F87FB",
+    "bytes": 712
+  },
+  {
+    "path": "Assets/ScriptableObjects/D_S01_Puddle_First.asset",
+    "sha256": "47F4E6E9C4C744B4E68972709975EDFC03B79A76B933EE01904E4A7018943B80",
+    "bytes": 896
+  },
+  {
+    "path": "Assets/ScriptableObjects/D_S01_Puddle_Repeat.asset",
+    "sha256": "CC214ABE96D7A1CA4D5E3157DA80B72EBAB16414B2167767A0D78D769592073D",
+    "bytes": 727
+  },
+  {
+    "path": "Assets/ScriptableObjects/D_S01_QiuTian_First.asset",
+    "sha256": "09A7D8F6CE50B02CFCF92512C3568CC1EFD4665DD1D0118CAE68C6D54BE312BA",
+    "bytes": 2075
+  },
+  {
+    "path": "Assets/ScriptableObjects/D_S02_AdultShadows.asset",
+    "sha256": "F8FBE16683C3BBDC3D5C9EA2447C3736FFDE2A1A9751D3C92DD4CC43CC97527D",
+    "bytes": 711
+  },
+  {
+    "path": "Assets/ScriptableObjects/D_S02_BrokenLamp_First.asset",
+    "sha256": "8666CEECBB300F21D303ABDC6C88A1E0C1EA3007128E12A0AB952341BCED1769",
+    "bytes": 793
+  },
+  {
+    "path": "Assets/ScriptableObjects/D_S02_DarkFog_First.asset",
+    "sha256": "BBB3E65B3D47A2D2A013971CBA404279E2441F700E001C0CB6FC58FCFFC7CB44",
+    "bytes": 905
+  },
+  {
+    "path": "Assets/ScriptableObjects/D_S02_Guide_First.asset",
+    "sha256": "AE2850AA984DF5C0BE8C2EC86068C92CE184F818B3E3096330513596957A41AF",
+    "bytes": 1661
+  },
+  {
+    "path": "Assets/ScriptableObjects/D_S02_Guide_Repeat.asset",
+    "sha256": "E599269258A9F7BAF9F96783879C8B4DC8ABA198B9D9E7CB72DD1FC14DCED491",
+    "bytes": 735
+  },
+  {
+    "path": "Assets/ScriptableObjects/D_S02_HiddenBedroom_Bed.asset",
+    "sha256": "BD23AE469DCC743E4017D538905FFA352421391EDF5A7231D583994551E69C69",
+    "bytes": 637
+  },
+  {
+    "path": "Assets/ScriptableObjects/D_S02_LivingRoom_Locked.asset",
+    "sha256": "E7A4932AEFCC1920AB02E994067664E815F39087FEE774A38402336608E2E155",
+    "bytes": 873
+  },
+  {
+    "path": "Assets/ScriptableObjects/D_S02_MasterBedroom_Bed.asset",
+    "sha256": "0BE086F7D9428A4FA8D473B4681D312630CFE8368ADCD30DA4848AB67C1BC5A7",
+    "bytes": 902
+  },
+  {
+    "path": "Assets/ScriptableObjects/D_S02_MasterBedroom_Cabinet.asset",
+    "sha256": "0231F1C2AD88FBE15CAD1C3FF77382847B276FDF8F040D3E2DC01C42D6B1C80A",
+    "bytes": 1009
+  },
+  {
+    "path": "Assets/ScriptableObjects/D_S02_MasterBedroom_Lamp.asset",
+    "sha256": "14A44BB7CA2CFC97023F24F686E6EA3944D526C27C33202604685266A8037AB0",
+    "bytes": 1024
+  },
+  {
+    "path": "Assets/ScriptableObjects/D_S02_MasterBedroom_Wardrobe.asset",
+    "sha256": "870955411400669FA506A413542370136B4520791FFFD84DDDFB146ADA974A86",
+    "bytes": 895
+  },
+  {
+    "path": "Assets/ScriptableObjects/D_S02_OldCamera_Pickup.asset",
+    "sha256": "E6BDF3258C87B8A73E2EA420A3ED649250AF40682195648B41DF9EB5C204498F",
+    "bytes": 1047
+  },
+  {
+    "path": "Assets/ScriptableObjects/D_S02_StainedPhoto_First.asset",
+    "sha256": "5EF4AA51CD3C0956A69A1AE69232C61112381876797430B49C3AC0761B6B58DC",
+    "bytes": 988
+  },
+  {
+    "path": "Assets/Scripts/Camera/CameraModeController.cs",
+    "sha256": "42963F87FC9C797BE617E8061A0059FA7CC3E68C3A68D0FA5D3CB80C1D296141",
+    "bytes": 6913
+  },
+  {
+    "path": "Assets/Scripts/Camera/CameraReactionZone.cs",
+    "sha256": "CADD53BB6D737739A95C00C94B95366FE8D9071BF6524F15A0DCEEF996EEB0DD",
+    "bytes": 1926
+  },
+  {
+    "path": "Assets/Scripts/Camera/CameraRevealTarget.cs",
+    "sha256": "9480265B7A1B284C1AFFB350538A6788D27535019D4A3C8DE2AA000961F6E3AD",
+    "bytes": 1730
+  },
+  {
+    "path": "Assets/Scripts/Dialogue/DialogueData.cs",
+    "sha256": "E41A817514E29979EADE3307465084DCC507599BA7500384F09C42DE931DB2C2",
+    "bytes": 371
+  },
+  {
+    "path": "Assets/Scripts/Dialogue/DialogueIdentity.cs",
+    "sha256": "BB34DD1982587E0103166ABFD235BC43236725E7955C7EBE0E61780C97CA09F7",
+    "bytes": 4909
+  },
+  {
+    "path": "Assets/Scripts/Dialogue/DialogueIdentity.cs.meta",
+    "sha256": "3837FBC44EDBEBF3F4F1139DA9ACE3488DC204072B566ADEADE3E0196DB75CD7",
+    "bytes": 59
+  },
+  {
+    "path": "Assets/Scripts/Dialogue/DialogueLine.cs",
+    "sha256": "32083D905F4193B26DCB572FAC2ECF867A1EC278BF6017AD71E95530E1351C9D",
+    "bytes": 474
+  },
+  {
+    "path": "Assets/Scripts/Dialogue/DialogueManager.cs",
+    "sha256": "2E546937286464D903297AF886605D82033539B20A658ABD7FB96B2131F8FEAD",
+    "bytes": 6537
+  },
+  {
+    "path": "Assets/Scripts/Dialogue/DialoguePortraitMask.cs",
+    "sha256": "8C0EA034C21162B00582E053DBF119C238A5F506E96E17D7D244958BB39AA308",
+    "bytes": 955
+  },
+  {
+    "path": "Assets/Scripts/Dialogue/DialoguePortraitMask.cs.meta",
+    "sha256": "870B9FDE078A1BE71A6D8B1BE5819BDC635459207C251B15C1E9710D23B1C556",
+    "bytes": 59
+  },
+  {
+    "path": "Assets/Scripts/Ending/EndingDirector.cs",
+    "sha256": "426701A7B2B391B980EDF9CCC535E8227EF682C1527429B77F4D62062D14BF34",
+    "bytes": 7676
+  },
+  {
+    "path": "Assets/Scripts/Ending/EndingHomeController.cs",
+    "sha256": "81EF454A07168C0AB61EABA9EB2FAEC1F51E1C8B46CDDCEBEC12881C1A11DD7F",
+    "bytes": 6767
+  },
+  {
+    "path": "Assets/Scripts/Ending/EndingSession.cs",
+    "sha256": "8CA48FB14390C671EA43207A0FBFAC3B91306E9DFA976CA19AD76411C9F8C33A",
+    "bytes": 3202
+  },
+  {
+    "path": "Assets/Scripts/Ending/EndingStageController.cs",
+    "sha256": "5C2C4F6227CEF75631BDDEB0F536C02B1ECAA2DB20A563E54F2D157BE4671114",
+    "bytes": 4238
+  },
+  {
+    "path": "Assets/Scripts/Interaction/GateInteractable.cs",
+    "sha256": "213520E8D179EA407D9C891C87E0A82BDD1C335E987934975ADC22121D07953E",
+    "bytes": 3006
+  },
+  {
+    "path": "Assets/Scripts/Interaction/GateKeyInteractable.cs",
+    "sha256": "B335C17DAFC586C3233525B429A09539F82BC2EF7E99C3BAEEBC83CCEC6A173B",
+    "bytes": 3086
+  },
+  {
+    "path": "Assets/Scripts/Interaction/InteractionReach.cs",
+    "sha256": "74D3A47CA7180A6882BF1B207B5B95F730C41DC4F09DFD86B6FFB4F1F302B45E",
+    "bytes": 381
+  },
+  {
+    "path": "Assets/Scripts/Interaction/InteractionReach.cs.meta",
+    "sha256": "E750C2651F689C762A8D335951110DDFFAD43B6A4C4BF083D4F29798FF37B63E",
+    "bytes": 59
+  },
+  {
+    "path": "Assets/Scripts/Interaction/NewspaperFragmentInteractable.cs",
+    "sha256": "0ECB4E243270DE3367BF310D7D115A60BAADCF58A1D782A785E90615741989E4",
+    "bytes": 3424
+  },
+  {
+    "path": "Assets/Scripts/Interaction/PlayerInteraction.cs",
+    "sha256": "774657BBFAB59BC6996E7C1F0ADB3C4C1DE4B70B7654987E6B69D9EEB22C6C0D",
+    "bytes": 5708
+  },
+  {
+    "path": "Assets/Scripts/Interaction/RoomTransitionInteractable.cs",
+    "sha256": "1D9D01A4CAE22BAB71D76A72D7B96862D2CD8BC07FBC1439800A7FF2894BA8F4",
+    "bytes": 6176
+  },
+  {
+    "path": "Assets/Scripts/Inventory/FileArchiveManager.cs",
+    "sha256": "3DED6DDB4CA415A320C64D334669CD656173AAB7EDA055A0081445A36B3EDF34",
+    "bytes": 1903
+  },
+  {
+    "path": "Assets/Scripts/Inventory/InventoryManager.cs",
+    "sha256": "C57C95434035B5CCCB67E4BA4A412841C758775B69C1F63EEBA013A849A8A507",
+    "bytes": 3250
+  },
+  {
+    "path": "Assets/Scripts/Inventory/InventoryUI.cs",
+    "sha256": "DD6E285E75215019388816885C600013D1D80AC30A315F5E1642CED9383C6351",
+    "bytes": 12755
+  },
+  {
+    "path": "Assets/Scripts/Player/PlayerController.cs",
+    "sha256": "32206EB836640CCE261BF7EB6915BDDF9438ED61BB78DB061CCBA873748B1B8B",
+    "bytes": 2216
+  },
+  {
+    "path": "Assets/Scripts/Presentation/BlackSceneTransition.cs",
+    "sha256": "939D113C03C4A3E0E8A9F8422D6F08A301F9AC15BF3AB7038D23AAAB7551272E",
+    "bytes": 2187
+  },
+  {
+    "path": "Assets/Scripts/Presentation/ChildhoodActivityArtwork.cs",
+    "sha256": "A064A40A2C8297D2780048C7826D9A70CC66B66AFD03A64181F3A25A76E97ACC",
+    "bytes": 3773
+  },
+  {
+    "path": "Assets/Scripts/Presentation/DemoCloseupPresentation.cs",
+    "sha256": "636F07017D87CF72CC1272BDC43649DDB9A04BA12AA27648FBC5A7DF342E072B",
+    "bytes": 6911
+  },
+  {
+    "path": "Assets/Scripts/Presentation/DemoComicSequence.cs",
+    "sha256": "0279C793DC662D07444C2E3891E10ABDCCFC30FCF552FCE5EDA38CECAC17A7F8",
+    "bytes": 7196
+  },
+  {
+    "path": "Assets/Scripts/Presentation/DemoDialogueArtwork.cs",
+    "sha256": "20D8F1B7C8A6E79E8EDB852E14AEB19DCBA9065AFC88DEA238A7ED1D599EF5AE",
+    "bytes": 8016
+  },
+  {
+    "path": "Assets/Scripts/Presentation/HandDrawnInteractionHighlight.cs",
+    "sha256": "107667ADEE53AC28C92A5D62A2E87B39817DED2A92E30B743993859C9A216264",
+    "bytes": 8520
+  },
+  {
+    "path": "Assets/Scripts/Scene03/ChildhoodActivityUI.cs",
+    "sha256": "0BAB1C005DA13F9A159E24029009B16942A5599F4C83D53CF4B5B3BC6914676D",
+    "bytes": 22816
+  },
+  {
+    "path": "Assets/Scripts/Scene03/ChildhoodDragHandle.cs",
+    "sha256": "B015C20EF59FA219FC4944C4862CB09C8BD3A8A2DCF783C8382FA64B53D2EC7B",
+    "bytes": 2722
+  },
+  {
+    "path": "Assets/Scripts/Scene03/GuitarRhythmGame.cs",
+    "sha256": "F213D3157CA084AC28F58FC12F24746732E3BC0C961C724BCCF8020764D77162",
+    "bytes": 11666
+  },
+  {
+    "path": "Assets/Scripts/Scene03/Scene03Chapter.cs",
+    "sha256": "79580280EBF2CCB1D91F6CF72EABF176D24D5EC84C910A66C0ECF9A932AE0586",
+    "bytes": 10490
+  },
+  {
+    "path": "Assets/Scripts/Scene03/Scene03FamilySequence.cs",
+    "sha256": "C96922FA9F1F904962C8C7D9A6DE2BF98206C731EEF8555DACE77931A42EC2B3",
+    "bytes": 6986
+  },
+  {
+    "path": "Assets/Scripts/Scene03/Scene03RiverSequence.cs",
+    "sha256": "FA633DB2DAAAFB54278BF01D776E212F58083764A368B3249CCA2C5890862AE4",
+    "bytes": 8747
+  },
+  {
+    "path": "Assets/Scripts/School/BasketballThrowController.cs",
+    "sha256": "031E43544F875CAC84764E33A17CA0EEED2565E00C224B6AD8BD7C892E9B8BF0",
+    "bytes": 24872
+  },
+  {
+    "path": "Assets/Scripts/School/FogIntroController.cs",
+    "sha256": "F331AE23991FB59F4C59B9FB61085F603BF0BC3B8B0538600D96DBC94A1AAB94",
+    "bytes": 17068
+  },
+  {
+    "path": "Assets/Scripts/School/FogSchoolReturn.cs",
+    "sha256": "0BB24B72B51032DAAAAF972BF8745A28D23EF86327BD59ADA103211A2A17A3D4",
+    "bytes": 3580
+  },
+  {
+    "path": "Assets/Scripts/School/OilLampController.cs",
+    "sha256": "9D168CFC2649E81B2EB0B7557D90E85A3296A3822DFA27E9D13F4E4E7F186A6A",
+    "bytes": 8326
+  },
+  {
+    "path": "Assets/Scripts/School/PencilDeskCloseup.cs",
+    "sha256": "7D69B2592313DFB6C5438605F69ADF6A51FB9B1781226563BF74E5B8B9D7F655",
+    "bytes": 15975
+  },
+  {
+    "path": "Assets/Scripts/School/SchoolChaseController.cs",
+    "sha256": "C74369A34576923691C13579E2B2F6CC5B2590842C95575A330914F3F7B41759",
+    "bytes": 26970
+  },
+  {
+    "path": "Assets/Scripts/School/SchoolChaseSession.cs",
+    "sha256": "151E82336595FE384561401F8A14186DA90D429619E7C56CC93AE844A3336768",
+    "bytes": 3610
+  },
+  {
+    "path": "Assets/Scripts/School/SchoolChaseWeather.cs",
+    "sha256": "B7E1AF453C2B2D8637ACDF9D2BB68506C46F56BBFA4F1FCD7310A8D318689055",
+    "bytes": 1812
+  },
+  {
+    "path": "Assets/Scripts/School/SchoolHomeReturnController.cs",
+    "sha256": "237603C5A3FF1E70BF66B2C927CB21CC458564719A87F74E73636056B4AE3632",
+    "bytes": 3907
+  },
+  {
+    "path": "Assets/Scripts/School/SchoolReadingChair.cs",
+    "sha256": "4D7D5FF627C02C8DEAE315ADD7F62C4C34BA619306E2AF2D1018261319FEF0B9",
+    "bytes": 10267
+  },
+  {
+    "path": "Assets/Scripts/School/SchoolSceneController.cs",
+    "sha256": "FAEA3B6CAFB44CE37002A007428221CF5958B2951A8324F5639965A5EE54D846",
+    "bytes": 25427
+  },
+  {
+    "path": "Assets/Scripts/School/SchoolSecurityFinale.cs",
+    "sha256": "FA69A451F49D518E23991DBA9A2AFAF3905162B28A7C34C09B312348D9D2D873",
+    "bytes": 9459
+  },
+  {
+    "path": "Assets/Scripts/School/SchoolYouthController.cs",
+    "sha256": "98D089B75C033F703F09605826189AD74ABEEBBD668C4B59FC8C86CBD13611DE",
+    "bytes": 15643
+  },
+  {
+    "path": "Assets/Scripts/School/SchoolYouthSecurity.cs",
+    "sha256": "88063FAE9C3C26BCDE96F7D11231BA2165DDCD521E720CA463C9E4E9A65E6BCF",
+    "bytes": 18825
+  },
+  {
+    "path": "Assets/Scripts/Story/ChildShadowSequence.cs",
+    "sha256": "9CCF5624F0BE6D00CE9C3554EA6541C84A4F5CC6E8D41DC15EBA4057ACFF8553",
+    "bytes": 4423
+  },
+  {
+    "path": "Assets/Scripts/Story/DistortedCorridorController.cs",
+    "sha256": "A29E8D6C7EFCEB6AC4059505B99CE2E2E01223E263164C3B2A967FD440022D54",
+    "bytes": 4636
+  },
+  {
+    "path": "Assets/Scripts/Story/ParentShadowSequence.cs",
+    "sha256": "2CFFE874C0018E164C718CB8A6649868FA50D84308360373DD415D00F42D1AB6",
+    "bytes": 4657
+  },
+  {
+    "path": "Assets/Scripts/Story/QuestProgress.cs",
+    "sha256": "43E298256659EC62C071F957E1D59ECC43F2CBA78901C1927765C7C356EAD296",
+    "bytes": 6857
+  },
+  {
+    "path": "Assets/Scripts/Story/QuestProgress.cs.meta",
+    "sha256": "AE6A4942A1CE6EA3C66C1A2822E62AE1011BC189D78A180CE1C03BD073A6DC76",
+    "bytes": 59
+  },
+  {
+    "path": "Assets/Scripts/Story/Scene02ReturnController.cs",
+    "sha256": "C5B0752E2275209B09880A8442525AEB6C73A2C06DBF4E03B50C6555FBFBB91B",
+    "bytes": 6343
+  },
+  {
+    "path": "Assets/Scripts/Story/Scene03TransitionBridge.cs",
+    "sha256": "417817BD94CC74D6EDA2066CD296403B56A5D620C4CF010C45A82EC2CDD47385",
+    "bytes": 1906
+  },
+  {
+    "path": "Assets/Scripts/Story/StoryStateManager.cs",
+    "sha256": "98F93C0C30BF30CDBD4F0001A151E78321940F437F539EE10D6EFE6ED1EA2CE6",
+    "bytes": 6200
+  },
+  {
+    "path": "Assets/Scripts/Story/ThreeDoorPuzzleController.cs",
+    "sha256": "4A0387E34EBB7FAA79851D86C4383484E945F2214AFA66A8CF55088064E4E1B2",
+    "bytes": 5247
+  },
+  {
+    "path": "Assets/Scripts/System/AcquisitionHistory.cs",
+    "sha256": "C8DA9F2F58E8992ACF587CE167C589351B3315185DB9956E6BAF6EF860B95F52",
+    "bytes": 699
+  },
+  {
+    "path": "Assets/Scripts/System/AcquisitionHistory.cs.meta",
+    "sha256": "59224913A913F104F83B80AC901896134B2679C953FAEF22AC4BBAA63E0C1001",
+    "bytes": 59
+  },
+  {
+    "path": "Assets/Scripts/System/CameraFollow.cs",
+    "sha256": "8E0C708BDC4C1297DC6178498D829F4A39071C41E161BD5C5DA94026B1244FAA",
+    "bytes": 3548
+  },
+  {
+    "path": "Assets/Scripts/System/CompanionSaveState.cs",
+    "sha256": "A3CE04876328B8B3FB96966532054E29304E6EFE0AF1099C2AA5593EC68636E8",
+    "bytes": 2319
+  },
+  {
+    "path": "Assets/Scripts/System/CompanionSaveState.cs.meta",
+    "sha256": "43048F16CE07E6158F024A81922D0FF48F45E19B5E7F846B38E8790BEC06E404",
+    "bytes": 59
+  },
+  {
+    "path": "Assets/Scripts/System/FourSlotSaveStore.cs",
+    "sha256": "CAC2DB0A385E4E0BCAE827CD046E54D6E5FEB4F8FC74CD06F16DFDFE22FE23C0",
+    "bytes": 5923
+  },
+  {
+    "path": "Assets/Scripts/System/FourSlotSaveStore.cs.meta",
+    "sha256": "EF410A64CCDE3C7D67FC616A4FF357C65C02C56C62BA8A56F57AA4F737F2CF32",
+    "bytes": 59
+  },
+  {
+    "path": "Assets/Scripts/System/GameControlManager.cs",
+    "sha256": "FB37FEE052F876E72B7246CA6C892880F37D6706B959AA495630C6C02ADEE7AB",
+    "bytes": 4451
+  },
+  {
+    "path": "Assets/Scripts/System/GamePause.cs",
+    "sha256": "1EA58292EE27B77FD512E7E8765B4786B7408B952B07718CF397C1D089E418FC",
+    "bytes": 8887
+  },
+  {
+    "path": "Assets/Scripts/System/GamePause.cs.meta",
+    "sha256": "8ABCD39E96B939068A096EF982D58FC4B58CD5A549C0D85AD3D189161B8CD424",
+    "bytes": 59
+  },
+  {
+    "path": "Assets/Scripts/System/GameplayClock.cs",
+    "sha256": "D7E8644608D931855E8A5425CB473D327E6B5740D29E213454834BCE7E0266BF",
+    "bytes": 1023
+  },
+  {
+    "path": "Assets/Scripts/System/GameplayClock.cs.meta",
+    "sha256": "70B7EABB20A27874D2D6CA3A7B7D98D9268EB61D933C6E2AA201F6CE7DDF26D4",
+    "bytes": 59
+  },
+  {
+    "path": "Assets/Scripts/System/GameplayInput.cs",
+    "sha256": "1BCB04DBDEBA7A970A40EA3747CEA1B1E2A5A33929DED987803E50DA2B23AE5E",
+    "bytes": 2790
+  },
+  {
+    "path": "Assets/Scripts/System/GameplayInput.cs.meta",
+    "sha256": "175D58491606FB2A59F018DB29909F4C4501591CF41F166C42CC79E4EA11F81C",
+    "bytes": 59
+  },
+  {
+    "path": "Assets/Scripts/System/GameSaveData.cs",
+    "sha256": "CF7CC9314A13A6B557236F830F068D9F28E33DDDD291E8C59E11A0D61D001697",
+    "bytes": 1614
+  },
+  {
+    "path": "Assets/Scripts/System/GameSaveData.cs.meta",
+    "sha256": "95072FB94AA0CABAC69B636402DFC56C384D6F037B22A0BBB8B1D656EF3A5036",
+    "bytes": 59
+  },
+  {
+    "path": "Assets/Scripts/System/GameSaveService.cs",
+    "sha256": "2108C40FF50DD5C65B19F539F6C483641E2677DA5AD1CA16C52F6264AE24AE63",
+    "bytes": 11432
+  },
+  {
+    "path": "Assets/Scripts/System/GameSaveService.cs.meta",
+    "sha256": "FA58EA64059385447B198615FDE3C40E3A515D5F00CEBA7E95AF7F1A6B686D4B",
+    "bytes": 59
+  },
+  {
+    "path": "Assets/Scripts/System/GroundedPlacement.cs",
+    "sha256": "99AEFDAA1509390671AA856FFD35B2160A58D3A86B285EFECF6A1000AE5BA5FB",
+    "bytes": 2025
+  },
+  {
+    "path": "Assets/Scripts/System/GroundedPlacement.cs.meta",
+    "sha256": "5E692F5BAFE9A2966397754B6685CC2D50B3F9475F65AD79E5A519902EC449C0",
+    "bytes": 59
+  },
+  {
+    "path": "Assets/Scripts/System/P01ColdSaveProbe.cs",
+    "sha256": "CECCA7B4539AA6A46E9138E63D51842601A756397BA66E177C38217945BFF73D",
+    "bytes": 7639
+  },
+  {
+    "path": "Assets/Scripts/System/P01ColdSaveProbe.cs.meta",
+    "sha256": "A50D81EE159187B158A4649C9446D5DB00354A49DFF1FACEA48937F7E21712AD",
+    "bytes": 59
+  },
+  {
+    "path": "Assets/Scripts/System/P01ReplayDriver.cs",
+    "sha256": "6F9FB6EDA623ADFD263ED8C12AD6D4A34256FFC7027351A1F090587FECB5D0E8",
+    "bytes": 312
+  },
+  {
+    "path": "Assets/Scripts/System/P01ReplayDriver.cs.meta",
+    "sha256": "5421CECC40A15D919BEBC54AA2DB3E86B10AD0E27B0A5A58E5AF736A28614662",
+    "bytes": 59
+  },
+  {
+    "path": "Assets/Scripts/System/P01SessionRestart.cs",
+    "sha256": "8C0A994B52E1A7EE0693FCC5684C6FF72F6E7983C3B3B7B69B97F52CC09F2A78",
+    "bytes": 848
+  },
+  {
+    "path": "Assets/Scripts/System/P01SessionRestart.cs.meta",
+    "sha256": "A749D97F42D37E2CB6C42B3143E6CDC9C89776294FACA36430AEDEF83E9DA0EF",
+    "bytes": 59
+  },
+  {
+    "path": "Assets/Scripts/System/PersistentRuntime.cs",
+    "sha256": "6817CA8B6195F7425C6FD373BD5C30E34F13C7346F1F912429A2D0F2104FBBF2",
+    "bytes": 2951
+  },
+  {
+    "path": "Assets/Scripts/System/SaveAssetRegistry.cs",
+    "sha256": "86AE1F470C94D4030BB6502F8E95C349381F84B2D4D1CB2DF0A136FDE7F0A0DB",
+    "bytes": 914
+  },
+  {
+    "path": "Assets/Scripts/System/SaveAssetRegistry.cs.meta",
+    "sha256": "F10B2C8A043C9EC0DFDD19E3E5427EB99394B23C3594618AB73E0CDE94676C11",
+    "bytes": 59
+  },
+  {
+    "path": "Assets/Scripts/UI/DeskCloseupController.cs",
+    "sha256": "7F60804CB34775298BB61C25262FFBA8F191AFDC1BC61E8D1F1C021A04334F66",
+    "bytes": 6732
+  },
+  {
+    "path": "Assets/Scripts/UI/InteractionUI.cs",
+    "sha256": "3C8919D62447D589B2CF778396A7BC037B78F97ACD5F1C2053509FCA8C7D37F3",
+    "bytes": 3568
+  },
+  {
+    "path": "Assets/Scripts/UI/ScreenFadeController.cs",
+    "sha256": "4ACC3E7855583F71BDCEE47422A419906B1000CB74FE45C56270C48209FB54FE",
+    "bytes": 3319
+  },
+  {
+    "path": "Assets/Scripts/UI/StoryNoticeUI.cs",
+    "sha256": "92EDACE45F5B1CA7DFD7A66F2AE50DA26A9A88EEC96099C14BBCC89C8242D0C9",
+    "bytes": 1108
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/01_全流程审计与分阶段实施方案.md",
+    "sha256": "CA16EC2622FE2C2AEA4C7129B5D31992E2F8A6B650133737C61557A131464393",
+    "bytes": 18908
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/02_需求与验收台账.csv",
+    "sha256": "E1F8EA0F35A8D225C9F1BC071EB91DE76A93565C585D38E0C43379C5D40A65EC",
+    "bytes": 64783
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/02_需求与验收台账.json",
+    "sha256": "107929538BDA61A49438BF42A847AFCD65DF0F0F6AD61FB6FA6EFE2FF0BEED15",
+    "bytes": 157666
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/02_需求与验收台账.md",
+    "sha256": "964B2FA289B6DEF7FDEA3CCD9D8DCEC0F48C31E00BC10B9DC4A3B488057E643C",
+    "bytes": 33062
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/03_执行与防回退规范.md",
+    "sha256": "87021BAF4CFC9889E77215093F40F3C1E2FB38C41C97998B3089EE33CC47AEE2",
+    "bytes": 10174
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/04_阶段测试与人工存档模板.md",
+    "sha256": "F15F30BE24AB3EC46EDB8A519AC83B5BD8DFF9263157437534FE983DF487EEF0",
+    "bytes": 10757
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/05_主卧空间测量.md",
+    "sha256": "D715F711AE75C91CED6B301DCC22FD1F92B14A3CE9FBC8510C219F6A7BCCD9DC",
+    "bytes": 1439
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/06_P01空间参数与防回退卡.md",
+    "sha256": "B7FD940A5B90527E56DE5F6D1137337596899BDC5248E3957F711C47B76A3026",
+    "bytes": 6909
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/07_P01阶段验收与人工存档.md",
+    "sha256": "85DBBABC04C6758AB5E7E69AB727024E8E33B4F78688ED6A494B3363E2F02363",
+    "bytes": 5622
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/bedroom-reach-check.txt",
+    "sha256": "8D83BA294F9BAB9FA835E7F4A3E0FEC6B93D9B5BE4C937F95CB8C410F0150A7E",
+    "bytes": 439
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/ColdCrossChapter/read-report.txt",
+    "sha256": "EB7D4B016A2625068BF1231541A76458C05D72D838EAD0D87402D1618BC2532C",
+    "bytes": 1353
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/ColdCrossChapter/write-report.txt",
+    "sha256": "B407FDB1104C1F94E9F40B6918D5FD9C8806C71A74D541D31F03DB9BE44D1902",
+    "bytes": 344
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/ColdFinal/read-report.txt",
+    "sha256": "8A3B72668921E37260E64C8745E9AFF44AC2670485CFE71F1F0A3F7552B6342A",
+    "bytes": 1353
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/ColdFinal/write-report.txt",
+    "sha256": "7117CF7C1078A4B89626A1B95F41C4B57ED5B9B6CAAC945ABCC39EBEAAF13070",
+    "bytes": 344
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassMemory_000.png",
+    "sha256": "9AD2C13A70D7515F96D848A7C37CE4026F2D4B72B3D4375C38A909235CD46759",
+    "bytes": 2609685
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassMemory_001.png",
+    "sha256": "5727EED33604F64EA70AF29913899D89D1EB550C6E27218CFC1691E7666F9493",
+    "bytes": 2626199
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassMemory_002.png",
+    "sha256": "87910B5DC6E1F37AFC2178F3BE99EB1D51CDAEB815FEB9AFD85B425DF0BFFD5F",
+    "bytes": 2641657
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassMemory_003.png",
+    "sha256": "A32C12B5B8511006B4CCB6BBDA74E7F23673FF7811867C3651944BB9E1404CC1",
+    "bytes": 2635586
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassMemory_004.png",
+    "sha256": "AD95B941BA8CED4090A0546AD70F04AD43B71C3D8EDF14D1CF52A2CEBA3F7EFA",
+    "bytes": 2618920
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassMemory_005.png",
+    "sha256": "67489D008D6E086FE6260AD3A7D615DD16F5DC0B59B6F225ACF2DDAD47E87E31",
+    "bytes": 2627552
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassMemory_006.png",
+    "sha256": "14A76911D193092D349FD3DEA1F88377AD4BAF56CF5F0043A010A7FE29360822",
+    "bytes": 2662001
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassMemory_007.png",
+    "sha256": "9BF234630C14F7B891DB03E82A275382E74BB3248B7F466A1547A3DEE37679C0",
+    "bytes": 2685212
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassMemory_008.png",
+    "sha256": "5B62BB70E8A4DF1CDCCABBB41A37A0E46F5765DCF2B6EAE7893224C5A1DFC2DF",
+    "bytes": 2630860
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassMemory_009.png",
+    "sha256": "C26CFDFE1D54A3FE5883303D1AE73CA0BA9F58A233F9167B42D258E955E3AF15",
+    "bytes": 2633105
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassMemory_010.png",
+    "sha256": "980D3849FAA6BAA183F470628DDFB1806E5D9A443681DDB1968603C236EB0BC4",
+    "bytes": 2634088
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassMemory_011.png",
+    "sha256": "CF7A400D528434F99BCB63DFFED77B6143C16F8697E5748C7247AC1F16914717",
+    "bytes": 2629096
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassMemory_012.png",
+    "sha256": "B44B5C9E1B17892A090078345471156F66F0C6C734F016D9BC00C2226AE579AC",
+    "bytes": 2617590
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassMemory_013.png",
+    "sha256": "B633079EC7FA009F66037F853FC12C99578CEC296D581B23F4D8EB787FEABE74",
+    "bytes": 2633677
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassMemory_014.png",
+    "sha256": "3BBA0BBDEBF9AEBD8DF80E7F6B57C40A84A4BBB13E49E8A14BA2BE9A80B4A406",
+    "bytes": 2675822
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassMemory_015.png",
+    "sha256": "21FDA21B93933BD1DB4792AAD620B0D45BD22EDBD4B4F54D2B6AF74FC20ECAF2",
+    "bytes": 2671097
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassMemory_016.png",
+    "sha256": "C2AED654220FB5794961DEDCD845899617952C2BE2701BE28C569D750DF3591E",
+    "bytes": 2655368
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassMemory_017.png",
+    "sha256": "1BD045DF27B8A69DC2437BE4E0821A80D12E608B8C9DCF9C1EF8F1C667EB25BC",
+    "bytes": 2660134
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassMemory_018.png",
+    "sha256": "64562C8A788B3A8D177891999E3CDE375CDBEC597B105F85B61D331E049B665D",
+    "bytes": 2631073
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassMemory_019.png",
+    "sha256": "9F6E3FCF0256EE0A363B9E4C2E9A35D26AFF2C23DD2D814545A9690500926B79",
+    "bytes": 2636275
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassMemory_020.png",
+    "sha256": "67ADBC908243A5392894155FE41C9164FE55BF4B9E6BA94426E42CE38B5A0775",
+    "bytes": 2642488
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassMemory_021.png",
+    "sha256": "5257E3CC39D725074227DB52AFBF10B138F4591DA2B630FAB8BD3CE5E329546F",
+    "bytes": 2634365
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassMemory_022.png",
+    "sha256": "6434409E6D49812010DBF3F4A63BA577B589CBC31E093B0BEDF6B33DEF5B6EA3",
+    "bytes": 2634253
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassMemory_023.png",
+    "sha256": "E38EA5B1126FD647983909101CD2ED8435BFDBEB68BBD32A66B6BE2D606C6942",
+    "bytes": 2650881
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassMemory_024.png",
+    "sha256": "893BE98D7E927C8D6CCD7A13FA8D22A7AA3DB35AA152C845C7B0C7CA7396F3A1",
+    "bytes": 2643080
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassMemory_025.png",
+    "sha256": "4C2A0CBD1B3D11595D0627349024C89904DF4427E9DD7F4C87463BF88FCA8A53",
+    "bytes": 2636511
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassMemory_026.png",
+    "sha256": "6DF88C5C452EBD46866461D2692441FFE71F0F7CF1CD3B927F27C94A89538A94",
+    "bytes": 2654278
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassMemory_027.png",
+    "sha256": "9F436D95B6700CB25E75FE92D7B6F8DFA23C0E91923B725BC34586B3B380FF0E",
+    "bytes": 2656188
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassMemory_028.png",
+    "sha256": "22975AC8C0A21474788E88AA3E76C060F1E6F57D2E4A651BD2177FCEF8BD6EA0",
+    "bytes": 2676341
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassMemory_029.png",
+    "sha256": "1BD86402D8AF4C70015200BB12AB8CFD71ABA90BC19D13AE027AC2C5BE78068D",
+    "bytes": 2664099
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassMemory_030.png",
+    "sha256": "5CEFB41FB62A76468BC3E184EF0BC8B5BC5D22FB0B3E0C006AE7F8DDAF6CA171",
+    "bytes": 2575647
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassMemory_031.png",
+    "sha256": "5454CDC0A801CB6220F5E6E51A0C8A8A24077CCC83EFA0487C79CF8496583179",
+    "bytes": 2626482
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassMemory_032.png",
+    "sha256": "833C680ADCC85DEE1B56E39063673A68CF62BC6FBFCA3F9BC5C405B6A52D19DA",
+    "bytes": 2622342
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassMemory_033.png",
+    "sha256": "194F395A84086F200C9C5E032205C8714A8262B6377CEB86BD8A2E45E890F092",
+    "bytes": 2631604
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassMemory_034.png",
+    "sha256": "9D302425611B7D3DB93DD4BAC0196776EB18938BA88853B60AAE844D19763707",
+    "bytes": 2674472
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassMemory_035.png",
+    "sha256": "F508689D365E63CD1C8AD50E99D1A82DDC551B0FCC2B7F886447C2BB03A7AC76",
+    "bytes": 2685320
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassMemory_036.png",
+    "sha256": "E3C759B132AFCC590344C5FF90E15F19194E7C9E4A3526238E3DDD1FE522310B",
+    "bytes": 2666158
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassMemory_037.png",
+    "sha256": "D82DF4B13742067BF38BC93F720A20E464FC00BC4F7C26B607AC693D85D93D03",
+    "bytes": 2654799
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassMemory_038.png",
+    "sha256": "D063C561C949EB2BF58EB9BB62785CEABDAF6C932E780B819F6BA33D52780EED",
+    "bytes": 2636064
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassMemory_039.png",
+    "sha256": "2F00A4932CEA67D97A4F2E1CAB3E4F0FDEE02A3AB32D8F7DACC5158651A328BB",
+    "bytes": 2611870
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassMemory_040.png",
+    "sha256": "31931368F2D6422AE095CB6FCB621982B2EFE7F7E2B6334EFA8A36BDC9F29450",
+    "bytes": 2610892
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassMemory_041.png",
+    "sha256": "53F03574CD4FB7F0E5174F634771FFE38EFAB35049610DF8F141DCF540275BC9",
+    "bytes": 2637282
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassMemory_042.png",
+    "sha256": "0B894E95AF76F8942AB2765561AD4314B148DFF8D9326E4097DE0CFD53AD8648",
+    "bytes": 2629499
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassMemory-contact-0.jpg",
+    "sha256": "AB7F90B5F3176F1CDB5215995639C7579BA6E605507969E0317AF55E73CE75E9",
+    "bytes": 340276
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassMemory-contact-16.jpg",
+    "sha256": "2C24E897626ACDA2F989B600C9D3F1A06EA9681CD524A9723F2B749D64FC4D40",
+    "bytes": 327301
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassMemory-contact-32.jpg",
+    "sha256": "B04989C6C4E290F755C9EF08E47841707A2CC95002F0BD77F4FD62BBADCC5178",
+    "bytes": 241902
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassMemory.txt",
+    "sha256": "98AC4CC74EE1DFA7FF66FD3D53E57B03FC6F0ECA9BA34DF734FF313E140F7DF9",
+    "bytes": 1873
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassOther_000.png",
+    "sha256": "DCD0302CE63B81F5B80C0FA0BB27D3DDF477100A03F8700DDE4277A9BBA22B10",
+    "bytes": 2573878
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassOther_001.png",
+    "sha256": "DA6C6734598EC4FF29AF6FCBA25BB7EEE6DD3EAEEE17BFCA6BEE65F492654C40",
+    "bytes": 2581111
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassOther_002.png",
+    "sha256": "CC74DE411DADEEF991A2E129A2AA3C8BC4886D54A637836023B16E618201E094",
+    "bytes": 2595939
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassOther_003.png",
+    "sha256": "BB03454FF4F97812639355800A2BD4A02E36CD6AF476A44F2E930720E9450A98",
+    "bytes": 2551275
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassOther_004.png",
+    "sha256": "E3927DB0EC47A04B0C265773F1875EB0DE8847C06B88A77871AB2F2C5145DBC0",
+    "bytes": 2575013
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassOther_005.png",
+    "sha256": "110DC10DFDA64259F8D84E38367A2D6ED145591848388727CE08CA6E1B44691D",
+    "bytes": 2619037
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassOther_006.png",
+    "sha256": "A0B12527C4A05DD244D3B40A0DC66600F2F469FD920571D44DC65B1357B2E8C9",
+    "bytes": 2643195
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassOther_007.png",
+    "sha256": "2B27FD9029B3711F0DFF756908A2D0A9679BE282AE0ABEB3744B635ED792E516",
+    "bytes": 2648861
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassOther_008.png",
+    "sha256": "75884FCABDC19A67A8E65CA0292A28D0C772E4245103BBFF4ED1F59476CFFF46",
+    "bytes": 2587716
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassOther_009.png",
+    "sha256": "0A88DCED0C9B59E7B465B9B78056115FDE1C434859BE4D5464C9F05A958E73C9",
+    "bytes": 2615161
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassOther_010.png",
+    "sha256": "93366A05B9F75B041D14F7FDCD3A8A1D99C52BEC5E2B1436C64ECE80FC6887A8",
+    "bytes": 2595590
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassOther_011.png",
+    "sha256": "B81721602C171D9AB29F7671B97E11A15732171BBC40CA7C59CA03FB91CABDAC",
+    "bytes": 2571768
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassOther_012.png",
+    "sha256": "484417FD2D86E476DAADAD311B2C276EE660F3FE023D05512B0784FAFEAFAC31",
+    "bytes": 2558694
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassOther_013.png",
+    "sha256": "69B23D0D04991F214A8FC2096D5277E03F8061FA6A4392A13FC6D82AB0D86E76",
+    "bytes": 2643505
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassOther_014.png",
+    "sha256": "F21865CAD573DC207104AF6C549361BD17909FC58FF3B33F85D1102C37660B51",
+    "bytes": 2623421
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassOther_015.png",
+    "sha256": "B366B0911EB165AEEDC41F0AA7958538D2FD71D850DDD5AE52E42A5F4452F925",
+    "bytes": 2595024
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassOther_016.png",
+    "sha256": "ED29FAC20815021F4D34EB5007C8C28C1359B4348A8E87A26E54628E127D9457",
+    "bytes": 2598874
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassOther_017.png",
+    "sha256": "205BCAE2D4507E66FD14EBA1A69013BB3E6DCCC827A8CF8D684EB7DC1412B374",
+    "bytes": 2561205
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassOther_018.png",
+    "sha256": "F847E790BF9AF2F397DBD0A3BDEF20699087C0696A30313886DCCE81A67C4151",
+    "bytes": 2589476
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassOther_019.png",
+    "sha256": "922FFD51DFE1E36C4A596019A99330DC0BA219CD075855D2B2EF9490D651B098",
+    "bytes": 2595878
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassOther_020.png",
+    "sha256": "D00CEB09CC9DF049BA8FFC59E07160B83FDC095C10755D5A73099C24210E2066",
+    "bytes": 2582630
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassOther_021.png",
+    "sha256": "ACAD359DAD8BD41521FBFD6315E6FD56B6270064283162E52FCD00B12292B493",
+    "bytes": 2592129
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassOther_022.png",
+    "sha256": "54D75EACE99E2C28C07911AAE92734DD276D003CC65860CCA5A0C4D935D91EA5",
+    "bytes": 2577140
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassOther_023.png",
+    "sha256": "66698845BE98E13145149926559077D4B7FBD152E6950C6491EC781DA8443ED7",
+    "bytes": 2577056
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassOther_024.png",
+    "sha256": "36C75505C74A2E654085EC230A0C64CCEF0CB4ED195802545701A6B7974D2B7D",
+    "bytes": 2605987
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassOther_025.png",
+    "sha256": "7C160ADCFEAA3A417C2A3672B3884F594FE0267958EDEBB8FA61BB5410A5473D",
+    "bytes": 2648003
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassOther_026.png",
+    "sha256": "B09964EECBDA81491871CCE0523FB075423885AF041253CAFD8CE424FF11E02E",
+    "bytes": 2633502
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassOther_027.png",
+    "sha256": "1A68F555C2CC0CA2A7A4711BA9DEF93D319D1D525B600AA3017DB6B2402D80A7",
+    "bytes": 2576954
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassOther_028.png",
+    "sha256": "ABA9823210264B86091F4A01132553E3E06580402389996D3058498DB7ABCC25",
+    "bytes": 2582492
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassOther_029.png",
+    "sha256": "8E6D91CFCD59DF464BA2FD77227FCCE616A4E7FAD5DB23D41DA1D812017797AD",
+    "bytes": 2620974
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassOther_030.png",
+    "sha256": "FBAFCE7294C6FB9B53F2451CB6307F04AF52F33C35D7A515199C93C0C0CBC711",
+    "bytes": 2611254
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassOther_031.png",
+    "sha256": "7A017446538228F16B91C69EF16FF3AADDB12E95F7AAF16A7A87DD6D8F951314",
+    "bytes": 2593842
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassOther_032.png",
+    "sha256": "E0FE64CDE2B56F4DA42E4C9A70B6A53F7BA5EB8CEEDE37F35F323718B9CD8866",
+    "bytes": 2661376
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassOther_033.png",
+    "sha256": "E92ABA1D61FF788AE3C13F1222A2A9887715F25885C1149BBE348A2EDD3E4E3F",
+    "bytes": 2662225
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassOther_034.png",
+    "sha256": "DDA8E58A72E1742A3405BBB069C2C09D32983D4FEC42126C773AF9923D5396EB",
+    "bytes": 2617734
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassOther_035.png",
+    "sha256": "112A56FA6BB7A2917939B5A8A721A400606EFFD2C049839660258425E22A2607",
+    "bytes": 2596533
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassOther_036.png",
+    "sha256": "6D342979D11052A2F59337E3C108FA98A0D32D21DF64A5538442302AE9731FEC",
+    "bytes": 2591219
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassOther_037.png",
+    "sha256": "1B6E14BDD226C38056E8A9E168F702E357BF2AF2B42128392920F01E828168D7",
+    "bytes": 2567349
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassOther_038.png",
+    "sha256": "D54DF439F8CA45F52DC6BBB0022D3A40C854D1C34BDD7142C287251E176D152F",
+    "bytes": 2615624
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassOther_039.png",
+    "sha256": "7ACC46441C4D9E8731868CBCC974C79FFD9B457FB3F2C5CA4105AED5EB158F35",
+    "bytes": 2588141
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassOther-contact-0.jpg",
+    "sha256": "AF56D0A8F6856AB69DFBD963963B45C046C52EC1682D64AE2BE23BB2D106E757",
+    "bytes": 289619
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassOther-contact-16.jpg",
+    "sha256": "B5AED487A1D27F696289CB56796C249B415CF03533D3500D322F63A90D1A4032",
+    "bytes": 284630
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassOther-contact-32.jpg",
+    "sha256": "433A392DE2D1A7EC3E588AEB929306CCE0474913AC08B666D856D1610BBFAE61",
+    "bytes": 158192
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final2ClassOther.txt",
+    "sha256": "56D68EA70710095E1B3BD358D6A1FA3662E74C0884500C69882AFEE90082C82B",
+    "bytes": 1754
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_000.png",
+    "sha256": "05113D9B4373AD03A2743032C072391ECDF21C6D187E08E68D0FFC851A830A94",
+    "bytes": 2744570
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_001.png",
+    "sha256": "BC4B84E5F8EA6044A4465C00E30AD87966AC62275163F92CA192F988471D5895",
+    "bytes": 2744447
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_002.png",
+    "sha256": "2AFABFD89475F581CA9E9C03231E43EE228994901DCEDF9AB31BD69EFE665747",
+    "bytes": 2756234
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_003.png",
+    "sha256": "D5C56B15F756F49A6A80409CC612BD408CCE1374B1863296B4CD78A2FB13CC34",
+    "bytes": 2708556
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_004.png",
+    "sha256": "2189146042669FBCF758C33DE00557E2155B027547619F4040D16CE4305927FA",
+    "bytes": 2686985
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_005.png",
+    "sha256": "C0E4DE17F47985D5E9702B757C87D2D9534F1F64ACB1FE4BECE3AEE853D5E9B8",
+    "bytes": 2722155
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_006.png",
+    "sha256": "2E706D0B6200DE0A0D3E4084F2791D55F20E006C72E978B39EE395E546163A57",
+    "bytes": 2737890
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_007.png",
+    "sha256": "22686366B8EDB31D4CB3F4BD0103C45F83AC76657B72EE848DAC573479B56EE1",
+    "bytes": 2754663
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_008.png",
+    "sha256": "EC6A8E7A0CFCDDED0278415296F853B0E8FA25203A2B16520531DBE7D56801B2",
+    "bytes": 2778437
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_009.png",
+    "sha256": "EA7E309DE59DC09D729B3E0000B99E546D206B62B4792AA1B1DD9B0F4568E4CA",
+    "bytes": 2767739
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_010.png",
+    "sha256": "9D741DA14121DA17813B4578AAB55C62F38C6C2309CABAD1A38D9933CEED7BDF",
+    "bytes": 2802848
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_011.png",
+    "sha256": "C80C39D283C78ECF8D5F8474EA134BF94524117C62C9D15AC03DDB3E40C22D4C",
+    "bytes": 2804305
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_012.png",
+    "sha256": "CA15F680A37FC8DE3F997CBB59555457622B9EC1EC3C679D92A95C6E9CE720E6",
+    "bytes": 2784449
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_013.png",
+    "sha256": "4DD84B8AC285631A3A75F13A3981EBDC368B8581C4C3A038C9BA5FF759EBAE52",
+    "bytes": 2822514
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_014.png",
+    "sha256": "BC07CD226609D3BB3D2B594DDCFC1D18DB7446DB3799C3D1F62EF3005F8F4A6E",
+    "bytes": 2855178
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_015.png",
+    "sha256": "BA86AEE4C593D3D18C12B069D1F58827AF17D6CED60390370A674B3582285869",
+    "bytes": 2871417
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_016.png",
+    "sha256": "B225488B83C9E0C435C037BE579FF9C62076225C54599950191D628644BEFF94",
+    "bytes": 2849903
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_017.png",
+    "sha256": "56923B30C2FC7BD5C5325B9A1BF391F3207127BF2322A33E47092A9F044CEA25",
+    "bytes": 2863982
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_018.png",
+    "sha256": "D8C3E1A0B44A9108FCCD5C0CBEEFA6F5DF56E9BDF715622321DE843A09A01F3D",
+    "bytes": 2853824
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_019.png",
+    "sha256": "2A80759FB32C0DB661E6FC5B4DBED75AE37E4644A717DC753F4A56C5E6ED39AE",
+    "bytes": 2820073
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_020.png",
+    "sha256": "512CD1623BCC7CC2DD9B96683DEF14639AFFE271BFBE50DCF4093BEE3B0A642C",
+    "bytes": 2808265
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_021.png",
+    "sha256": "C4450770D038B8BDCBB2BB0696260D548FF32618CF5A5F8CF403D661778F602D",
+    "bytes": 2798761
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_022.png",
+    "sha256": "F4EB7A257B80C5328A05172DD0E64E04F6150837ED03E85167379C05722678C9",
+    "bytes": 2821854
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_023.png",
+    "sha256": "147DEB28D0AE5491872BF994BB20A95D7899183E9A16598B955456329862E9DA",
+    "bytes": 2812479
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_024.png",
+    "sha256": "037A21171842DD50760E45B55F788FDACC3F4C7CD1A905871962E7569925D866",
+    "bytes": 2774838
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_025.png",
+    "sha256": "BB754A588174CB80257B3EFCA9B52227EFE0414AEFF1F15EA95317251900A0DF",
+    "bytes": 2709105
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_026.png",
+    "sha256": "17161D1811546675A46074D2DC3240C8E56EF2F531783A3FD2F0B0639E8E55E0",
+    "bytes": 2675314
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_027.png",
+    "sha256": "B7F64721D150D3DB679C16158B35A217C7A291865C51243B500D46F4F5634DD6",
+    "bytes": 2644037
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_028.png",
+    "sha256": "41DAAC35F9157431C867801BCF93171765DCD70B16679F20B97F063CF48916C0",
+    "bytes": 2614926
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_029.png",
+    "sha256": "0D5565EF121265B60167B71808BC52130D18C4368F0CFE662D3D4D6D26E88BCC",
+    "bytes": 2657740
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_030.png",
+    "sha256": "8ED9380E61904845BF40C72A85CC81E945B5F719FE6CE2FB197E279C90B1338E",
+    "bytes": 2686109
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_031.png",
+    "sha256": "658AF479EA46960CE985D56B282350308B833BBDF3A8D4ECD4DFDD84CBE2B615",
+    "bytes": 2741339
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_032.png",
+    "sha256": "0F0FDD1AAA41EE0E7FB5327FE2E84B0FECA1CB9E88D8C5284DB6A22F5A41DE67",
+    "bytes": 2708966
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_033.png",
+    "sha256": "57D56BA6E78545CBF391CC368FD46EBD5AD0239DE9921DC8969BA99FA90FDD87",
+    "bytes": 2678875
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_034.png",
+    "sha256": "AF56232DF952D4B2A222428A62E8C0B2ACB4116DD0A21FE2086727DCAF347E13",
+    "bytes": 2711783
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_035.png",
+    "sha256": "B375FA18BA7E9B7855317FE4BA94C4576E12C485B271606B80CE0DCF963ADF3F",
+    "bytes": 2760512
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_036.png",
+    "sha256": "D822B3F263D810D0219CB5F6EF70D6EC1E854EDFCFB30EC770222AC53C939024",
+    "bytes": 2795504
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_037.png",
+    "sha256": "75487C801703DA6DB977AC45541E7138CBCDB661E56C8CB25C163CE18178EB04",
+    "bytes": 2810020
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_038.png",
+    "sha256": "C91B82A24A18B86F480E5CC76E5D77E8ED2112DC8D8535FD49C1BD11247347CF",
+    "bytes": 2788773
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_039.png",
+    "sha256": "FDB7A8B80ABEF3222E254DCFD99D85F22973B5CBBB028A305672338E062A1FCF",
+    "bytes": 2727940
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_040.png",
+    "sha256": "A650BD09421C869D4882B7176447EAD891516A0CAC0A97CA4742251292DF06C2",
+    "bytes": 2667998
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_041.png",
+    "sha256": "63B4471714BED142C751944583070D60BB46EB488FFF8770387F38F3F886481D",
+    "bytes": 2699267
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_042.png",
+    "sha256": "3BC04321B142C59A53EFF6C074941C81916E7BFBA8D06F14DBD0127334189501",
+    "bytes": 2735622
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_043.png",
+    "sha256": "D74ADB1AAD4799110853E5E9FFADEC054D3FF9229630C559A3CFEE1BC8E431B3",
+    "bytes": 2711408
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_044.png",
+    "sha256": "5D9522B9B805F97EA2A7ADF8B400810C91DEC834219317D3DC7AAA3FC259507A",
+    "bytes": 2671649
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_045.png",
+    "sha256": "4C77E89C435ACCB2F4EC5D5E27B01BF684DBCC631A77BEF50E07EFF1BB5C1C22",
+    "bytes": 2625258
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_046.png",
+    "sha256": "68B2A8F1E5A14F81FAD26162EC6A3D06C43F7B2CC6B02946FEF4D07A0485EB1E",
+    "bytes": 2652285
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_047.png",
+    "sha256": "26960268414CDD4F381EF1103CF94C631568751B4B40E0A9EB449484B81D2AA9",
+    "bytes": 2664549
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_048.png",
+    "sha256": "42CC6CE43AEFAE08389871481CCF86AB7B409D92CB949905760394AFFBD7ACE6",
+    "bytes": 2695328
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_049.png",
+    "sha256": "5953046E15FF9DF537FEB4D7468E000F3215B6B9A9141EF67D3E0F29913A6D16",
+    "bytes": 2754871
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_050.png",
+    "sha256": "F48E188F1BB473B3687937A1D8725BE93A49A187E2576E4F8876736EB0571A81",
+    "bytes": 2820267
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_051.png",
+    "sha256": "BB1ECF5996311216601808F7ACCE7A895369B9342AFB89B8623789867ED81FD7",
+    "bytes": 2823419
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_052.png",
+    "sha256": "CFF5707D3DB184F22E7BACA0072B611B58DD2C6A7CAC85934AD151D03A5D1863",
+    "bytes": 2803717
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_053.png",
+    "sha256": "3164ABD235E8887DB79968CEDF2BEFEF4203A399DA79D139E7F2FA07C2DFEDE2",
+    "bytes": 2804508
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_054.png",
+    "sha256": "35763B6385C1F84331FA20FE31E71F5EE28B5B54A16B6AE6812141C098C8DD3C",
+    "bytes": 2806698
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_055.png",
+    "sha256": "24667041BEF799259AFA3A72AFD6917552E84D9F01FCED119094CCB6E4817281",
+    "bytes": 2842061
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_056.png",
+    "sha256": "5ABD86B9CA91D6159E58E7C23223D8ECC751E013538EC8C7108E34EB3A5C9654",
+    "bytes": 2875194
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_057.png",
+    "sha256": "2F240CA907B8631434B40EB23A7407C0C54E9250F8B1F5FC76E5AA50F1409F2A",
+    "bytes": 2844215
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_058.png",
+    "sha256": "DB1E3F3163AD379CD0E1CAD563363726EB44D47F61429629692714A2D1AE7794",
+    "bytes": 2880608
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_059.png",
+    "sha256": "E1235553882B7EC714167BB0A0B496F5594985FDD94F6833F20E228E4AD927CD",
+    "bytes": 2853600
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_060.png",
+    "sha256": "E9F732D5E5288FAEEB9C831D007B3A185C3A44C38C11777E389190025564A20D",
+    "bytes": 2845870
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_061.png",
+    "sha256": "E0D1B3C3B7E97A94592D0B038623EAB65C90E0E690E821F3937EDAD497251D6E",
+    "bytes": 2792179
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_062.png",
+    "sha256": "C83151B7E841A4477A7E8C1BBDF7B177EF85FF79A4A1997762E77A4CD69660DF",
+    "bytes": 2810381
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_063.png",
+    "sha256": "423C9C523EA6DB55E1246CB2298A24A3E56088A6554D5BD2EB3A5010A5900B47",
+    "bytes": 2798723
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_064.png",
+    "sha256": "7D781F862C0174BBA2981D641486AE3390BCC73B7411DD30F8B4DB8FFACF8CA3",
+    "bytes": 2771376
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_065.png",
+    "sha256": "8B03187EE3D83AA00B3C88F16B170C8BD99D087C1D307055A7152A05043557F9",
+    "bytes": 2770091
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_066.png",
+    "sha256": "A01CD7F78538FAA43C0274B417D3A929E64C94DFD1060FD4FEC33C8728D9698F",
+    "bytes": 2756894
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_067.png",
+    "sha256": "67853BDEE997BC2D4DD7BE9D391A17DD020632CCF095A458DD87E16B693E0298",
+    "bytes": 2746150
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_068.png",
+    "sha256": "30704FBCC8199D502865DE0E893814B1EEBBA4CCCEC777AE971F58E7FC40A3A5",
+    "bytes": 2726203
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_069.png",
+    "sha256": "AB326BE10E79E46184E8FD54DD9A245F8C65FE25825B7B596DA444D44483B584",
+    "bytes": 2686754
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_070.png",
+    "sha256": "B4A835312C5A56936B5126707968F33C2B5A6C1D836CCF49B21867389059212F",
+    "bytes": 2715337
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_071.png",
+    "sha256": "250C47ECDA2A813DF8D8A9FA74553B66204D4242C6D78851EF93C1EC941544D2",
+    "bytes": 2735841
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_072.png",
+    "sha256": "C6EAAF162F3F2003653829C00828576295A91A4DC125E2D6AE297D2661528DE4",
+    "bytes": 2770182
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_073.png",
+    "sha256": "43E021DE5A9F6C7FED0029413749D6576CA32AB2335EAA9B1AD8F69E603611E0",
+    "bytes": 2772023
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond_074.png",
+    "sha256": "5887FF8C0ED7ECFDC984F4B3FAAAECD4DDDF1E132593C19D9FF76179875C2E98",
+    "bytes": 2769309
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond-contact-0.jpg",
+    "sha256": "1B55C848FCC90E555525DC0C6299368AE29C98EB6ECF5F60BEC13172DE3091BB",
+    "bytes": 347280
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond-contact-16.jpg",
+    "sha256": "C8CCBB736CDE09A1FF75996FD4A7971791B4A8AD9C0A1A81DAAC7CC372DE1390",
+    "bytes": 348057
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond-contact-32.jpg",
+    "sha256": "5B961D959856D63E12D7D8B90C7E144D632D99FE07FB834AC41470794054FC10",
+    "bytes": 337113
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond-contact-48.jpg",
+    "sha256": "858AFAF333844E635AD865738D7C5E4F3B3D04A0FC26A7676115A2426A39036F",
+    "bytes": 357795
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond-contact-64.jpg",
+    "sha256": "71CFA1D8EFCFC4647995EE316C302397C74C323B828277E02AC410072444B879",
+    "bytes": 243882
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/Final3Pond.txt",
+    "sha256": "1FD3BE7536CA1B13EB1F15E02851B2159478987AFDF1EC747BDB89D9AB09A62A",
+    "bytes": 3147
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/FinalBedroom_000.png",
+    "sha256": "341038BF8A8866CC4659F907268FF984BB0FB4744981C49006BA25C7DF61974B",
+    "bytes": 2933873
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/FinalBedroom_001.png",
+    "sha256": "599FEC8D31CF9001845D5E38D26DA4B08B182B80B6147EBA1536E9EB4CA71587",
+    "bytes": 2933408
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/FinalBedroom_002.png",
+    "sha256": "EB16B51148099E66AAC9075D6BD6C00D65B203CE0132F8C98154A8E62EA48C95",
+    "bytes": 2943736
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/FinalBedroom_003.png",
+    "sha256": "91824B47608798F6EC2A88A99FFAEC472AE9074A14EAEA5C324003C064276CF2",
+    "bytes": 2947883
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/FinalBedroom_004.png",
+    "sha256": "00A033D4C705286C61E4B23B56B9DEC94B539AC9945831896EE70EB1FE82273E",
+    "bytes": 2947556
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/FinalBedroom_005.png",
+    "sha256": "0962783A71CB98CE4B6CE47263A29EDDD9ED29A34992EDCF6902D076DB0C80CA",
+    "bytes": 2960940
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/FinalBedroom_006.png",
+    "sha256": "280C3D8BB42FA40E0FC8FD101BFBD75F4192D5B27598F457EB9F61E051B8B9B9",
+    "bytes": 2939540
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/FinalBedroom_007.png",
+    "sha256": "D36E05A0BCCC29A6AD9EBF8B61EEECDFD65DACE7C488F087BE71525B7E16FA82",
+    "bytes": 3020612
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/FinalBedroom_008.png",
+    "sha256": "7751ACCF3927BF134185E4660A89F580B24CB2375F44F092D6956EF4E6CC662C",
+    "bytes": 3066143
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/FinalBedroom_009.png",
+    "sha256": "2C220BF74CF22F9C290A4026C862A094A2FE85E4827CB2FCF8E9A93E0F3E69F2",
+    "bytes": 3062814
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/FinalBedroom_010.png",
+    "sha256": "97EF4B39E87293923AE069B12729252048A34CAD1D6141E4C359D315639DFC7E",
+    "bytes": 3057616
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/FinalBedroom_011.png",
+    "sha256": "A560E0850EA8831488A59E0F5047791D7DC3A35FB198754629B712251E227C1E",
+    "bytes": 3058540
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/FinalBedroom_012.png",
+    "sha256": "AA3DAA05DB344036865B60B69BFA4BD324EDA83037A2DB6D32C23BCF18640E8A",
+    "bytes": 3045539
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/FinalBedroom_013.png",
+    "sha256": "51671E7692001442AF707DA569C4919784731BC161492731587B695D3426F713",
+    "bytes": 3054759
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/FinalBedroom_014.png",
+    "sha256": "C68E906B294BBA3E17DF9EAC638E26DF856128EC03BCAAAA6D359EF4C9DC5E95",
+    "bytes": 3062270
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/FinalBedroom_015.png",
+    "sha256": "3AB8690506576A9E24EFECFDAEECA441A4FFEBB203D9E1A84EF789E9E214AD4D",
+    "bytes": 3066190
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/FinalBedroom_016.png",
+    "sha256": "4F52807FFDA58BAC18953903CE5D69386AE264CFB6345526A1C10E6C5056E536",
+    "bytes": 3077340
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/FinalBedroom_017.png",
+    "sha256": "6FC25BD871DDECAB6BAD2F3CB3B20A61F988B3495CDD58EB8F222721C1CAAA56",
+    "bytes": 2995621
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/FinalBedroom_018.png",
+    "sha256": "167FF9C635EA219008D5F781E0F9F34E96C50C23505A55612EF6B1C8A9BBB623",
+    "bytes": 2942567
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/FinalBedroom_019.png",
+    "sha256": "D15B0707F7A20AAB2D52BCCE625E919D766D6EAE585554DBED890F90DD530B03",
+    "bytes": 2959228
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/FinalBedroom_020.png",
+    "sha256": "4EDEE8B27ADD1167C578858780D3A17D6D56CC445105F9EBA373CDED9180CDD3",
+    "bytes": 2961235
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/FinalBedroom_021.png",
+    "sha256": "E7E79F33A1DC5F25890B3C1DBE1C80588468E6F2C8CAF4D3F5F64017C06A05C1",
+    "bytes": 2954809
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/FinalBedroom_022.png",
+    "sha256": "09CCA9F06618AC5B8CAF4DECA80F3A9AB4ADD0955D2E9E729D5C5F09444C67BB",
+    "bytes": 2946695
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/FinalBedroom_023.png",
+    "sha256": "E7DDC40E94D4FDE9F9B527E958686B10F02C768DC0390F0B414C9CFF2A9DBAC0",
+    "bytes": 2928015
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/FinalBedroom_024.png",
+    "sha256": "BAEE5E02AD4A2F662CDDFCFB2018269AFB6D84A05C9D37F04A20EA71FD75424F",
+    "bytes": 2930801
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/FinalBedroom-contact-0.jpg",
+    "sha256": "AFB7CA0EC2B89F71B54A561DC4976E9E6DC96EBA7CA1C23E823150F3A2B0D69D",
+    "bytes": 259988
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/FinalBedroom-contact-16.jpg",
+    "sha256": "AFF0205E2628B62E0952965DF27E45962EC03855EB827EFAB44A98D08196DE1E",
+    "bytes": 154087
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/FinalBedroom.txt",
+    "sha256": "9CCC00D97C104E112A79D575A39225A4B6CF9E6E57CFD9A0C944B142B069E2B1",
+    "bytes": 1074
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/Continuous/visual-review.json",
+    "sha256": "7FDF8E0BC58F4A52874CAD7023D68F99FADA81B0797E90D3CC469BAF24F116F1",
+    "bytes": 758
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/identity-check.txt",
+    "sha256": "361C26931CDFBB247DFA79297C1E8534DC3CD36876F13580C9A3C727353BAEBB",
+    "bytes": 40
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/implementation-manifest.json",
+    "sha256": "B37AA57C6B75C78956ADBC7AC556EBD84DF104DA4644781C7839CABAC054B8A4",
+    "bytes": 28688
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/MainChain/main-chain-complete-status.txt",
+    "sha256": "AF62B9489606FAA03453D917736EF7492FF911B2DE5D4F2AECF91D7ECCAA3A47",
+    "bytes": 2270
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/MainChain/main-chain-input-events.txt",
+    "sha256": "B96B5684D4970E7E5307F7C530F70AB1D5E71CC45A810E654160E997C2F1AC43",
+    "bytes": 690463
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/MainChain/P01_MainChain_DemoCompleted.png",
+    "sha256": "51AEF44316FAFA1B456568A55DE3C0F9607B205095913CAC35D60502845B2A03",
+    "bytes": 84650
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/native-menu-check.json",
+    "sha256": "6A4EDD9ACA87C55757AB51AEDDB71E9C08AB4C7E80159B4EA584AF44A9841D88",
+    "bytes": 701
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01_Native_OverwriteConfirm.png",
+    "sha256": "595F3F4C4D43DAF123FAE2C7D6F75856A915DDAF089E7636B63D53AD4DC116C1",
+    "bytes": 2643865
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01_S02_master_measurement.png",
+    "sha256": "83B6550B527E2D19EF7B7F4DB7F616995875A4AFBECC83EFC4EBC42C32C5C45F",
+    "bytes": 3030004
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01_U01_final.png",
+    "sha256": "38BFD0A9E9609F5FA67C3E36EF320240BE622EC629761AD10AB958DD210AD125",
+    "bytes": 3353037
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01_U02_QiuTianSpeaking.png",
+    "sha256": "5A9F51BC369487AF04F4AE7DA1A553D727DEBF330D9A0927932F5DB6F81FE86D",
+    "bytes": 3732435
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01_U02_XiaoPengSpeaking.png",
+    "sha256": "7772D898EA32EE3835210E5EE18ABC36F887BCD1343F9027615414F3671673A2",
+    "bytes": 3754532
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01InteractionBindings/applied.txt",
+    "sha256": "9AC2C5FE84632B6991AE1ABFD09A7C95DD15C1392517E1BF2AAEEBE521AF611A",
+    "bytes": 1687
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01PromptChecks/1280x720.png",
+    "sha256": "74F502DD0A3031940BEC161AA60B1BB73C8131B755628F3F1AAFF713B9D25E36",
+    "bytes": 1068612
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01PromptChecks/1920x1080.png",
+    "sha256": "8B77DC801CE3DBBC7D381EB0FE365FBFCF6963C30F14AC0209ECF694AA5FD9B7",
+    "bytes": 2124379
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01PromptChecks/1920x1200.png",
+    "sha256": "1D3F67C46785644B4E6773627B75BCCD30482F6ACBE4309F1FDFEC0C93BCF257",
+    "bytes": 2292807
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01PromptChecks/2560x1080.png",
+    "sha256": "16F8F4CEFA13146FC1BED98FC76DCA9FDCCFD9B95CFCEB8E1E396AE5D0A2C141",
+    "bytes": 2786757
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01PromptChecks/2560x1440.png",
+    "sha256": "5CB376BF28EC13C0F96ACB9D6174C333BB05A6130E72962892E9599E4E363116",
+    "bytes": 3426160
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01PromptChecks/3840x2160.png",
+    "sha256": "3028AFA16A026E6D77904E6AA09D32697742744BCB6E2563DB33CB16B038D395",
+    "bytes": 6626595
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01PromptChecks/results.txt",
+    "sha256": "1559EBF1DBBE93277E61BEA8E2884C55241BC87B5AF09A2313F3806CBE32638F",
+    "bytes": 2633
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01Recovery/results.txt",
+    "sha256": "11E76588BEED43360A2CA114382EFF9E50B546AD51AAA7D82B479114E99F5969",
+    "bytes": 876
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01RestoreEdges/results.txt",
+    "sha256": "DA9EB1C60BC999864A1A3B7287ED4AEA09E7479647B1E75F6C41BD47CE4E6CAA",
+    "bytes": 746
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01SceneChecks/Bedroom_65.png",
+    "sha256": "B61F144643118AF117B36AF3DC0E0BA0A6660D59E7D2F863257C56ED1C1058FB",
+    "bytes": 2935690
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01SceneChecks/Bedroom_65.txt",
+    "sha256": "78C635EC472611043E8949346AFF23E82303985739F6E348F3C8FC5D396A86AB",
+    "bytes": 2137
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01SceneChecks/Bedroom_67.png",
+    "sha256": "D20740CCFBF2B9E59F2F6D1850D7538DC717B3662C09A19CCEB5390A086CE748",
+    "bytes": 2940691
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01SceneChecks/Bedroom_67.txt",
+    "sha256": "41E038009D1FA79102DEAA0BC7B02FEBD811CCEF04A6E3D3D73B635F8AC5978B",
+    "bytes": 2137
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01SceneChecks/Bedroom_70.png",
+    "sha256": "9D849E39C52E0B3CACBE85E9EB5493617573F13A9A4DCA42B42469914801AE04",
+    "bytes": 3030560
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01SceneChecks/Bedroom_70.txt",
+    "sha256": "F3C279797EA3F052A06D6983705DA111C67496E69207556293626AA577783F7E",
+    "bytes": 2705
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01SceneChecks/Bedroom_73.png",
+    "sha256": "C6A440EA0504A6648B705E21BE56171E669827EDF8236739ED35DC7B51D1A39C",
+    "bytes": 3051591
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01SceneChecks/Bedroom_73.txt",
+    "sha256": "1F73DAD534C99BA2FEAD07B2E9EE809C48A16A7A9D137F81C3BED240BB2FFEBD",
+    "bytes": 2527
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01SceneChecks/Bedroom_75.png",
+    "sha256": "348F50B8F5C51CD7526EFD7036D2D00CCCBA9B965ECF4D9691F1507AB39920E4",
+    "bytes": 3056692
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01SceneChecks/Bedroom_75.txt",
+    "sha256": "21471C4A8CEF5BA1D728812F8FCF4DF3AC0613B1BE5A46A22E6DC75C9D471115",
+    "bytes": 2527
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01SceneChecks/Classroom_201.png",
+    "sha256": "AA335AE6BBB7925C5C2F7C5F82B5AF0647D6869BF691AAA78BF656522EA8477D",
+    "bytes": 2570918
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01SceneChecks/Classroom_201.txt",
+    "sha256": "B69E597F48C0896C00A369762571E3AC6E713DB94192F54265D535542DD952D9",
+    "bytes": 3117
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01SceneChecks/Classroom_205.png",
+    "sha256": "5371CDAF772FDB1E9976EC1C76966AE5370109E0F793C9F6B77F725B5B6D5F3D",
+    "bytes": 2605801
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01SceneChecks/Classroom_205.txt",
+    "sha256": "5841422024F6B6A30CDDA4673F47DBB660763EF79538172D9D08E2610297DF2A",
+    "bytes": 3675
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01SceneChecks/Classroom_210.png",
+    "sha256": "C77C796E76830A1F6C0CA55A634D110595C18EFEEE72F8EA99AF67F6C7D9B5FD",
+    "bytes": 2529726
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01SceneChecks/Classroom_210.txt",
+    "sha256": "343AE9F891C88DE7C630FECA2CAF695D3BBBE84ADC1269F08BD836A4FA27225E",
+    "bytes": 4034
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01SceneChecks/Classroom_215.png",
+    "sha256": "0BFD20C06109FD3411A127E7ABE34ACA81FBBF7DDAEFFC4ED09338295CA1CCCA",
+    "bytes": 2558879
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01SceneChecks/Classroom_215.txt",
+    "sha256": "3A6799F77828F890E05E22C914E8819E3746FCD9A47B1F9B1876210F53A69178",
+    "bytes": 3287
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01SceneChecks/Classroom_219.png",
+    "sha256": "9714E5D5261E7069635C0FD81717FF4E72A31AFA1272D3A2D012FACA5479CB5C",
+    "bytes": 2562954
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01SceneChecks/Classroom_219.txt",
+    "sha256": "CDBF207AC1C0FE3648BF04F4F47C36EF9359082AAF62204A05ECFDE0B23ABE18",
+    "bytes": 3287
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01SceneChecks/coverage-runtime.txt",
+    "sha256": "822143960CEF9E6EAFCDAE5D6CAC08DD3C7649732BD38EE27D05A1DC293A90F7",
+    "bytes": 986
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01SceneChecks/coverage-Scene03.txt",
+    "sha256": "EB9A287C86C0AFB16D4FA37469BA670138B7137286E0CB31EC9F8CC4525AB500",
+    "bytes": 1707
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01SceneChecks/coverage-Scene03Home.txt",
+    "sha256": "04A58F7685B3540D05F77FD7F4115E612E8E5CAC5CB5223DD15F56448B847B71",
+    "bytes": 1292
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01SceneChecks/coverage-Scene03ReturnHome.txt",
+    "sha256": "FA320D1A3F25CDC57EFDF52D68A5E08C4C7DB6B2C4F0AFCC2BDEA03C6ACF5DF9",
+    "bytes": 1274
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01SceneChecks/coverage-SchoolMemory.txt",
+    "sha256": "AF03353A53C0C0F42573F808425F01AF582BD8329EA8915E7529638F1644B9E3",
+    "bytes": 7455
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01SceneChecks/coverage-SchoolOtherworld.txt",
+    "sha256": "2BE76057CB7AF7E1577CE13CEAFFB8C9DD2EFE981986C2F059A08F524019083B",
+    "bytes": 4245
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01SceneChecks/matrix.txt",
+    "sha256": "E6FED94AFEECA96F62851FA85DC1E8A18A03E5C19784DDB7D700C3410286A5AD",
+    "bytes": 1033
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01SceneChecks/Outline_Scene03_S03_Fish.png",
+    "sha256": "7C9936EABE0275F9BC4E91475F8EB7F817A510E855742FEE1417187B5653293D",
+    "bytes": 2834081
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01SceneChecks/Outline_SchoolMemory_B5_ReadingChair.png",
+    "sha256": "041E1886D8F9BAD3A992E9B693219E19C017495FC3B380C95A06EF2B834424D4",
+    "bytes": 2009775
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01SceneChecks/Outline_SchoolOtherworld_Basketball_Interaction.png",
+    "sha256": "011C3CA59EEED9CC2352BC77627DC95648FFBA3D2620AFF43E7E712B8DA2BF45",
+    "bytes": 570289
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01SceneChecks/Pond_59.png",
+    "sha256": "E63A1DD0242C301E731703E6CA44B41EBBDB314CF11829E26820651B6DB7C770",
+    "bytes": 2711963
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01SceneChecks/Pond_59.txt",
+    "sha256": "54F2BDB05C3CE6ABB1121EABE1ED8078A7E7EC7B6C915D22B14151B9E7F75E3F",
+    "bytes": 1842
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01SceneChecks/Pond_63.png",
+    "sha256": "9858C059893FF9E61B1DB2C3E79DC44826D22CB26BF1EA62AD00AB9B060692FC",
+    "bytes": 2748891
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01SceneChecks/Pond_63.txt",
+    "sha256": "E0647D04BC81776DA8736C461F1180CE160A6EC0EC6996595F3F53545EDFD9DD",
+    "bytes": 2388
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01SceneChecks/Pond_67.png",
+    "sha256": "BFAB7ED37FE057EF5134F5F5311D0E6F0F9849A3BE7A4BA4B206F6C9EADB7BCD",
+    "bytes": 2786808
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01SceneChecks/Pond_67.txt",
+    "sha256": "E5B0C3AE13C01835948E81AF0441508B808B5B1528EEC44B716ED76954F4DC7F",
+    "bytes": 2373
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01SceneChecks/Pond_72.png",
+    "sha256": "45EC3DD3C7DC5156902B42DA38577E7436C4C30063FECA4953C8653A9DD7EFD5",
+    "bytes": 2848252
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01SceneChecks/Pond_72.txt",
+    "sha256": "AC9B7C865F79F00186412B49460B81BD43F376FDE6A060FD317544F27634E6F2",
+    "bytes": 2000
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01SceneChecks/Pond_78.png",
+    "sha256": "89A85A9E5B9BF2DA38F6B3A63B8F954486651010FA08F553FF3203840A2FB1C4",
+    "bytes": 2763605
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01SceneChecks/Pond_78.txt",
+    "sha256": "DB3432CCCCF5E854D3DE4A7C3E5CFD2F2C3C63C96E15B40DF4F722B3A00C93CB",
+    "bytes": 1672
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01SceneChecks/Pond_82.png",
+    "sha256": "DFFB761D5D91A192CD13AA107170D0ED8DC2A72406A909DBCF70E36F28B95406",
+    "bytes": 2761825
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01SceneChecks/Pond_82.txt",
+    "sha256": "0971F10997F2C91F8B584545ACAA8D476FD6C154DBF88CD85A75ED6FBD893C41",
+    "bytes": 1672
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01SceneChecks/ReadingChairClosed.png",
+    "sha256": "9777DA0D05A35125FD0BF6B8AC2E6B4BD3B4F3E4335E3DAF3A29C028B0F2CB0B",
+    "bytes": 2001616
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01SceneChecks/ReadingChairVisuals.txt",
+    "sha256": "8BE7752A6D4337AE6F83AF37B5BF028F79D19D3D23F881267067F544494DF5F1",
+    "bytes": 1776
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01SpriteRegionCorrections/results.txt",
+    "sha256": "DD5ED33790E3CEE583F00E1C1970D6D3AD35F90568DE131DB0DB5FB63B392F82",
+    "bytes": 147
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01Standalone/build-result.txt",
+    "sha256": "D1D132C96F959AF64A15663987903A8505FB219878B7E49D9E7E7551EDA2649D",
+    "bytes": 48
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01Transitions/BedroomEnter.png",
+    "sha256": "C4821CD30BF34068196DC40FD44C5737505FA540E4370933E10931AB7086A07D",
+    "bytes": 2930302
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01Transitions/BedroomExit.png",
+    "sha256": "5A8DC93659D9F3003DD6D04283E85467D5B81788E86E6BFD13E7D91C843688C3",
+    "bytes": 2397394
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01Transitions/ClassEnter_Class3_2_Back_AtoB.png",
+    "sha256": "EE753E64D662402A13EA56C6900CC35F1026C0F9345DE10A3BD5F1C0C0B5ADEE",
+    "bytes": 2577716
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01Transitions/ClassExit_Class3_2_Back_BtoA.png",
+    "sha256": "F9141862F2715EC3811CBA492E6D69E3C21F2EC2256B65F7F9694788BFE47E28",
+    "bytes": 2126390
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01Transitions/MemoryEnter_Class3_2_Back_AtoB.png",
+    "sha256": "7EAF0046FB4762E422A2A3C03CEFC34CFD5242D70BB4402562047310850C3D58",
+    "bytes": 2617759
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01Transitions/MemoryEnter_Class3_2_Front_AtoB.png",
+    "sha256": "90498562783B1C6821D656C280925A0DF3F04012DFC2DD3F0811643FF9C685BC",
+    "bytes": 2618565
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01Transitions/MemoryExit_Class3_2_Back_BtoA.png",
+    "sha256": "EE3F36257A66085FA136BBA5DC98F7D5A640B024513FF5181450B015A00EC2FA",
+    "bytes": 2111220
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01Transitions/MemoryExit_Class3_2_Front_BtoA.png",
+    "sha256": "7390264F7745F4F8181EC94191B0BFDAE9B483EBE9047EDFAA6CB6769E26C13E",
+    "bytes": 2094574
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01Transitions/results.txt",
+    "sha256": "6FFD531158D7A96267CDC8857A2F93B7DA4D6AA2A2C947B89A3878A32991E1F1",
+    "bytes": 2979
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/P01Verification/persistence-runtime.txt",
+    "sha256": "E6A72AE55EDECA944F0455A758CA0B7A7C614E215885B7758F194B012D8C4354",
+    "bytes": 1356
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/portrait-rules-check.txt",
+    "sha256": "98509AEB15A6A8FDAE1BB71E5461151B2D5A13E9A61E290E4AE55FBD7B9B54C2",
+    "bytes": 705
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/prompt-geometry.txt",
+    "sha256": "12E2FCE0D27479F00A506BC540B112D04FA93785D145F5127F5FEA140B31E915",
+    "bytes": 75
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/reach-check.txt",
+    "sha256": "720BF4A3C6ECDA3DD8C4EADC9A7F3E96F08D318F7B0C8142281CCC42B2B5F513",
+    "bytes": 103
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/runtime-rules-check.txt",
+    "sha256": "08AC5C2E84E18DAE51FD9FA0CC0E4724D81D9DEF4A4306B22DFCEC6B02611996",
+    "bytes": 440
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/spatial-master-before.txt",
+    "sha256": "12B0223619E69F0AE4840D787FC80244292C956D2157EE0E559DCBF818ED5DD8",
+    "bytes": 5978
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/Evidence/static-verification.json",
+    "sha256": "2698D99110E5F9236AE211B44EC7FA84BAA7CC394859541FF5CEF882AD3DA685",
+    "bytes": 400
+  },
+  {
+    "path": "Documentation/FirstLargeTest_20261001/README_实施进度.md",
+    "sha256": "83715C9612A9FD17FCB4ED1C1E1505BFA1E86B622BCF5BD40C83639368DC8144",
+    "bytes": 5953
+  }
+]

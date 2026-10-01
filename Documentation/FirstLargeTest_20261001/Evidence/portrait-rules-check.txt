@@ -1,0 +1,13 @@
+PASS guide portrait appears for explicitly assigned anonymous guide
+PASS both portrait frames use the same curved mask
+PASS unknown fog voice does not inherit guide portrait
+PASS F01 retains subtitle while hiding all portraits
+PASS F02 retains subtitle while hiding all portraits
+PASS F02 identity remains anonymous in subtitle
+PASS F03 retains subtitle while hiding all portraits
+PASS F04 retains subtitle while hiding all portraits
+PASS F04 identity remains anonymous in subtitle
+PASS F05 retains subtitle while hiding all portraits
+PASS E01 retains subtitle while hiding all portraits
+PASS normal portrait returns after no-portrait exception
+PASS diagnostic cancellation never advances story completion

@@ -12,8 +12,8 @@ public sealed class ChildhoodActivityArtwork : MonoBehaviour
     float next;
     void LateUpdate()
     {
-        if (!art || Time.unscaledTime < next) return;
-        next = Time.unscaledTime + .1f;
+        if (!art || GameplayClock.Now < next) return;
+        next = GameplayClock.Now + .1f;
         if (!activities) { var chapter=GetComponent<Scene03Chapter>(); if(chapter)activities=chapter.activities; }
         if (!activities || !activities.IsOpen) return;
         foreach (var source in activities.GetComponentsInChildren<ChildhoodIllustration>(true))

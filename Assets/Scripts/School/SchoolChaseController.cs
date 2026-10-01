@@ -192,8 +192,8 @@ public sealed partial class SchoolChaseController : MonoBehaviour, ISchoolOffice
     }
     IEnumerator CaptureSecurityArrival()
     {
-        float timeout=Time.realtimeSinceStartup+2;
-        while(Time.realtimeSinceStartup<timeout) {
+        float timeout=GameplayClock.Now+2;
+        while(GameplayClock.Now<timeout) {
             yield return new WaitForFixedUpdate();
             var bodyCollider=Controls.ActivePlayer.GetComponent<Collider2D>();
             if(bodyCollider!=null&&SchoolChaseGeometry.Ground(Layout,Layout.Variant,Layout.CurrentRoom,Controls.ActivePlayer.transform.position.x,out float ground)
@@ -225,8 +225,8 @@ public sealed partial class SchoolChaseController : MonoBehaviour, ISchoolOffice
         yield return comic.FinishConfrontation();
         if(!openingCompleted){Die();yield break;}
         Notice("相机似乎有反应...",3);
-        yield return new WaitForSecondsRealtime(.8f);
-        while(Input.GetKey(KeyCode.E)||Input.GetKey(KeyCode.Space))yield return null;
+        yield return GameplayClock.Wait(.8f);
+        while(GameplayInput.GetKey(KeyCode.E)||GameplayInput.GetKey(KeyCode.Space))yield return null;
         inputAfterFrame=Time.frameCount+1;grace=doorwayGrace;Step=SchoolChaseStep.Escaping;
         cameraTool.ContextAvailable=true;cameraTool.SetCaptureContext(capture);RestoreOpeningCamera();follow.SnapToTarget();ReleaseSequence();
     }
@@ -259,16 +259,16 @@ public sealed partial class SchoolChaseController : MonoBehaviour, ISchoolOffice
         ||cameraTool!=null&&cameraTool.IsBusy;
     void Update()
     {
-        if(!ready)return;
+        if(!ready||GamePause.IsPaused)return;
         if(Step==SchoolChaseStep.Opening&&EnemyActive&&ownedDialogue!=null)
-            MoveEnemyTowards(officeThreatX+1.4f,.6f*Time.unscaledDeltaTime);
+            MoveEnemyTowards(officeThreatX+1.4f,.6f*GameplayClock.Delta);
         if(Step==SchoolChaseStep.Dead){
-            if(!Input.GetKey(KeyCode.E))retryArmed=true;
-            if(retryArmed&&Input.GetKeyDown(KeyCode.E)&&Time.frameCount>inputAfterFrame)StartCoroutine(RestoreCheckpoint());return;
+            if(!GameplayInput.GetKey(KeyCode.E))retryArmed=true;
+            if(retryArmed&&GameplayInput.GetKeyDown(KeyCode.E)&&Time.frameCount>inputAfterFrame)StartCoroutine(RestoreCheckpoint());return;
         }
         TickSecurity();
         if(!IsEscaping||Time.frameCount<=inputAfterFrame||Paused)return;
-        float dt=Time.unscaledDeltaTime;grace=Mathf.Max(0,grace-dt);
+        float dt=GameplayClock.Delta;grace=Mathf.Max(0,grace-dt);
         if(Route==SchoolChaseRoute.RoofCrossing&&Layout.CurrentRoom=="Roof") {
             float x=Controls.ActivePlayer.transform.position.x;
             // A continuous right-to-left crossing in the actual roof RoomID.
@@ -386,8 +386,20 @@ public sealed partial class SchoolChaseController : MonoBehaviour, ISchoolOffice
             cameraTool.ContextAvailable=true;SyncSecurityPickups();
         }
         Physics2D.SyncTransforms();yield return new WaitForFixedUpdate();yield return null;
-        while(Input.GetKey(KeyCode.E))yield return null;
+        while(GameplayInput.GetKey(KeyCode.E))yield return null;
         inputAfterFrame=Time.frameCount+1;deathPanel.SetActive(false);ReleaseSequence();
+    }
+    public void RestoreCompletedDiskState(Vector2 position)
+    {
+        Initialize();
+        if(!ready)throw new InvalidOperationException("学校追逐系统尚未就绪");
+        ClearEnemy(); EndPreview();
+        SetActor(SchoolActor.Adult,position);
+        Step=SchoolChaseStep.Exploring; Route=SchoolChaseRoute.Completed;
+        doorPending=false; pendingPortal=null;
+        Layout.SetNarrative(SchoolActor.Adult,SchoolPhase.SchoolRecovery);
+        cameraTool.SetCaptureContext(null); cameraTool.ContextAvailable=true;
+        SetHorrorPresentation(true); SyncSecurityPickups();
     }
     partial void RestoreSecurity(SchoolCheckpointReason reason);
     SchoolPortal FindPortal(string id)=>Layout.GetComponentsInChildren<SchoolPortal>(true).FirstOrDefault(p=>p.portalId==id&&p.gameObject.activeInHierarchy);

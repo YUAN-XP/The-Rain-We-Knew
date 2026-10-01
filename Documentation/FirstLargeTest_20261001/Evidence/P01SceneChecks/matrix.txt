@@ -1,0 +1,23 @@
+PASS load Scene02_Courtyard adult: 
+PASS settled Scene02_Courtyard adult: 
+PASS Bedroom snapshots captured; visual review pending
+PASS load Scene03_Childhood child: 
+PASS settled Scene03_Childhood child: 
+PASS Pond snapshots captured; visual review pending
+PASS guitar configuration remains valid
+PASS save forbidden while real guitar phrase is running
+PASS real guitar phrase and retries frozen while paused
+PASS guitar audio playhead frozen with listener
+PASS paused guitar cannot bypass save restriction
+PASS guitar resumes same phrase without restart
+PASS guitar keeps gameplay lock after resume
+PASS load Scene04_School adult: 
+PASS settled Scene04_School adult: 
+PASS Classroom snapshots captured; visual review pending
+PASS load Scene04_School youth: 
+PASS settled Scene04_School youth: 
+PASS school youth restored
+PASS load Scene04_School adult: 
+PASS settled Scene04_School adult: 
+PASS completed chase resumes adult free exploration
+PASS SUMMARY (direct state injection; not natural main-chain play)

@@ -24,7 +24,7 @@ public class CameraRevealTarget : MonoBehaviour
     {
         if(IsRevealed)yield break;
         doorRenderer.enabled=true;
-        for(float t=0;t<revealDuration;t+=Time.unscaledDeltaTime) {
+        for(float t=0;t<revealDuration;t+=GameplayClock.Delta) {
             float a=Mathf.Clamp01(t/revealDuration);
             doorRenderer.color=Color.Lerp(new Color(.75f,.9f,.8f,0),original,a);
             doorRenderer.color*=1f+.13f*Mathf.Sin(t*83f)*(1-a);

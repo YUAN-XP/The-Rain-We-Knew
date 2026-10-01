@@ -71,6 +71,7 @@ public class GateInteractable :
         // Player does not have the key.
         if (!inventoryManager.HasItem(gateKeyItem))
         {
+            FindAnyObjectByType<QuestProgress>()?.Publish(QuestEvent.GateKeyMissing);
             if (lockedDialogueData != null)
             {
                 dialogueManager.StartDialogue(

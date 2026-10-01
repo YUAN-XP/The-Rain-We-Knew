@@ -1,0 +1,10 @@
+PASS releasing owner A keeps owner B locked
+PASS legacy release cannot release another owner's lock
+PASS last owner release restores control
+PASS near target selected before modal
+PASS inventory hides prompt and blocks scene interaction
+PASS closing inventory restores target
+PASS solid wall blocks nearby target
+PASS other-floor target is not eligible
+PASS dialogue blocks scene interaction
+PASS dialogue-ending frame cannot reuse E target

@@ -72,19 +72,20 @@ public class Scene03FamilySequence : MonoBehaviour
         try
         {
             chapter.carriedCamera.SetActive(false);cameraPlacement.SetActive(false);placedCamera.SetActive(true);
+            PersistentRuntime.Instance.GetComponent<QuestProgress>()?.Publish(QuestEvent.CameraPlaced);
             var mode=PersistentRuntime.Instance.GetComponent<CameraModeController>();mode.Lower();mode.ContextAvailable=false;
             mother.position=motherPose.position;father.position=fatherPose.position;
             SetChild(childPose.position);river.boy.position=boyOutside.position;
             Camera.main.transform.position=new Vector3(viewPoint.position.x,viewPoint.position.y,Camera.main.transform.position.z);Camera.main.orthographicSize=2.7f;frame.alpha=1;
             timer.clip=mechanicalTick;timer.loop=true;timer.volume=.5f;timer.Play();
-            yield return new WaitForSecondsRealtime(1.5f);yield return chapter.Say(callBoy);
+            yield return GameplayClock.Wait(1.5f);yield return chapter.Say(callBoy);
             Vector3 from=river.boy.position;Vector3 childFrom=chapter.child.transform.position;
-            for(float t=0;t<1.2f;t+=Time.unscaledDeltaTime)
+            for(float t=0;t<1.2f;t+=GameplayClock.Delta)
             {float k=Mathf.Clamp01(t/1.2f);river.boy.position=Vector3.Lerp(from,boyEdge.position,k);SetChild(childFrom+Vector3.left*(.25f*Mathf.SmoothStep(0,1,k)));yield return null;}
             river.boy.position=boyEdge.position;
             yield return chapter.Say(readyForPhoto);timer.Stop();chapter.effects.PlayOneShot(shutter,.6f);
             yield return White(1,.08f);yield return White(0,.22f);frame.alpha=0;PhotoFrozen=true;
-            yield return new WaitForSecondsRealtime(2.6f);
+            yield return GameplayClock.Wait(2.6f);
             yield return White(1,.65f);
             if(!Application.CanStreamedLevelBeLoaded(returnSceneName)){Debug.LogWarning("Family photo needs its Scene02 return scene.",this);yield return White(0,.3f);yield break;}
             chapter.Story.Set(StoryFlag.Scene03FamilyPhotoTaken);chapter.Story.Set(StoryFlag.Scene03Completed);chapter.Story.Set(StoryFlag.Scene03BirthdayKnown);
@@ -93,7 +94,7 @@ public class Scene03FamilySequence : MonoBehaviour
         finally{Busy=false;Unlock();}
     }
     IEnumerator White(float alpha,float duration)
-    {float before=flash.color.a;for(float t=0;t<duration;t+=Time.unscaledDeltaTime){flash.color=new Color(1,1,1,Mathf.Lerp(before,alpha,t/duration));yield return null;}flash.color=new Color(1,1,1,alpha);}
+    {float before=flash.color.a;for(float t=0;t<duration;t+=GameplayClock.Delta){flash.color=new Color(1,1,1,Mathf.Lerp(before,alpha,t/duration));yield return null;}flash.color=new Color(1,1,1,alpha);}
     void SetChild(Vector3 p){var rb=chapter.child.GetComponent<Rigidbody2D>();rb.linearVelocity=Vector2.zero;rb.position=p;chapter.child.transform.position=p;}
     void Lock(){chapter.Controls.AcquireLock(ControlLockReason.Cutscene);ownsLock=true;}
     void Unlock(){if(ownsLock&&chapter!=null&&chapter.Controls!=null)chapter.Controls.ReleaseLock(ControlLockReason.Cutscene);ownsLock=false;}

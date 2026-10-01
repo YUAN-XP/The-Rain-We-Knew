@@ -101,7 +101,7 @@ public class ScreenFadeController : MonoBehaviour
         while (elapsed < fadeDuration)
         {
             if(run!=fadeGeneration)yield break;
-            elapsed += Time.unscaledDeltaTime;
+            elapsed += GameplayClock.Delta;
 
             canvasGroup.alpha = Mathf.Lerp(
                 startAlpha,

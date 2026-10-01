@@ -65,10 +65,10 @@ public class ThreeDoorPuzzleController : MonoBehaviour
         IsBusy=true;controls.AcquireLock(ControlLockReason.Cutscene);
         bool correct=door==CorrectDoor;
         if(!correct && errorClip!=null)errorSound.PlayOneShot(errorClip,.45f);
-        if(!correct){SetRecovery(0);foreach(var wall in normalWalls)wall.color=new Color(.7f,.42f,.4f);yield return new WaitForSecondsRealtime(.12f);}
+        if(!correct){SetRecovery(0);foreach(var wall in normalWalls)wall.color=new Color(.7f,.42f,.4f);yield return GameplayClock.Wait(.12f);}
         if(correct && Progress==2){
             Progress=3;SetRecovery(3);story.Set(StoryFlag.ThreeDoorPuzzleCompleted);
-            yield return new WaitForSecondsRealtime(1.2f);
+            yield return GameplayClock.Wait(1.2f);
             controls.ReleaseLock(ControlLockReason.Cutscene);IsBusy=false;
             bridge.BeginTransition();yield break;
         }
@@ -79,6 +79,7 @@ public class ThreeDoorPuzzleController : MonoBehaviour
         });
         controls.ReleaseLock(ControlLockReason.Cutscene);IsBusy=false;
     }
+    public void RestoreSave(int progress){Progress=Mathf.Clamp(progress,0,3);SetRecovery(Progress);}
     private void SetRecovery(int level)
     {
         for(int i=0;i<abnormalLayers.Length;i++)abnormalLayers[i].enabled=level<3 && i%3>=level;

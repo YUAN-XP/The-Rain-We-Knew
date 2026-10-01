@@ -14,6 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
   lines:
   - speaker: Xiao Peng
+    characterId: 2
+    age: 0
+    portraitMode: 0
+    portraitKey: ""
     text: Just rainwater...
   - speaker: Xiao Peng
+    characterId: 2
+    age: 0
+    portraitMode: 0
+    portraitKey: ""
     text: The surface is strangely still.

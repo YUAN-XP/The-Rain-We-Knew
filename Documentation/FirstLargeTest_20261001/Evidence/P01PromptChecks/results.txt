@@ -1,0 +1,43 @@
+PASS actual render size (1280, 720) got 1280x720
+PASS (1280, 720) center prompt fully inside rendered viewport
+PASS (1280, 720) prompt keeps readable proportional size
+PASS (1280, 720) left prompt fully inside rendered viewport
+PASS (1280, 720) right prompt fully inside rendered viewport
+PASS (1280, 720) top prompt fully inside rendered viewport
+PASS (1280, 720) bottom prompt fully inside rendered viewport
+PASS actual render size (1920, 1080) got 1920x1080
+PASS (1920, 1080) center prompt fully inside rendered viewport
+PASS (1920, 1080) prompt keeps readable proportional size
+PASS (1920, 1080) left prompt fully inside rendered viewport
+PASS (1920, 1080) right prompt fully inside rendered viewport
+PASS (1920, 1080) top prompt fully inside rendered viewport
+PASS (1920, 1080) bottom prompt fully inside rendered viewport
+PASS actual render size (2560, 1440) got 2560x1440
+PASS (2560, 1440) center prompt fully inside rendered viewport
+PASS (2560, 1440) prompt keeps readable proportional size
+PASS (2560, 1440) left prompt fully inside rendered viewport
+PASS (2560, 1440) right prompt fully inside rendered viewport
+PASS (2560, 1440) top prompt fully inside rendered viewport
+PASS (2560, 1440) bottom prompt fully inside rendered viewport
+PASS actual render size (3840, 2160) got 3840x2160
+PASS (3840, 2160) center prompt fully inside rendered viewport
+PASS (3840, 2160) prompt keeps readable proportional size
+PASS (3840, 2160) left prompt fully inside rendered viewport
+PASS (3840, 2160) right prompt fully inside rendered viewport
+PASS (3840, 2160) top prompt fully inside rendered viewport
+PASS (3840, 2160) bottom prompt fully inside rendered viewport
+PASS actual render size (1920, 1200) got 1920x1200
+PASS (1920, 1200) center prompt fully inside rendered viewport
+PASS (1920, 1200) prompt keeps readable proportional size
+PASS (1920, 1200) left prompt fully inside rendered viewport
+PASS (1920, 1200) right prompt fully inside rendered viewport
+PASS (1920, 1200) top prompt fully inside rendered viewport
+PASS (1920, 1200) bottom prompt fully inside rendered viewport
+PASS actual render size (2560, 1080) got 2560x1080
+PASS (2560, 1080) center prompt fully inside rendered viewport
+PASS (2560, 1080) prompt keeps readable proportional size
+PASS (2560, 1080) left prompt fully inside rendered viewport
+PASS (2560, 1080) right prompt fully inside rendered viewport
+PASS (2560, 1080) top prompt fully inside rendered viewport
+PASS (2560, 1080) bottom prompt fully inside rendered viewport
+PASS SUMMARY actual resolution rendering; camera offsets are diagnostic, not player input

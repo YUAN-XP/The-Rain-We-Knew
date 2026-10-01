@@ -93,7 +93,7 @@ public partial class DeskCloseupController : MonoBehaviour
         if(desk)story.Set(StoryFlag.DeskEventTriggered);
         controls.ReleaseLock(ControlLockReason.CloseUp);
     }
-    private void Update() { if(IsOpen && Input.GetKeyDown(KeyCode.Escape))Back(); }
+    private void Update() { if(IsOpen && GameplayInput.GetKeyDown(KeyCode.Escape))Back(); }
     private void OnDisable() { suppressEmailCompletion=true;if(controls!=null && IsOpen)Close();suppressEmailCompletion=false; }
     private void SceneChanged(Scene oldScene,Scene newScene){suppressEmailCompletion=true;Close();suppressEmailCompletion=false;}
     private void OnDestroy(){SceneManager.activeSceneChanged-=SceneChanged;}

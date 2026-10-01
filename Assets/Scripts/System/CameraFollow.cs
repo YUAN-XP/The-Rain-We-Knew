@@ -50,7 +50,7 @@ public class CameraFollow : MonoBehaviour
             return;
         }
 
-        float movementDirection = Input.GetAxisRaw("Horizontal");
+        float movementDirection = GameplayInput.GetAxisRaw("Horizontal");
 
         if (movementDirection != 0)
         {

@@ -14,8 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
   lines:
   - speaker: Xiao Peng
+    characterId: 2
+    age: 0
+    portraitMode: 0
+    portraitKey: ""
     text: Locked.
   - speaker: Xiao Peng
+    characterId: 2
+    age: 0
+    portraitMode: 0
+    portraitKey: ""
     text: The lock is old, but it is still holding.
   - speaker: Xiao Peng
+    characterId: 2
+    age: 0
+    portraitMode: 0
+    portraitKey: ""
     text: There must be a key somewhere nearby.

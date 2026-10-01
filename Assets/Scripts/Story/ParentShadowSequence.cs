@@ -42,15 +42,15 @@ public class ParentShadowSequence : MonoBehaviour
     {
         controls.AcquireLock(ControlLockReason.Cutscene);ownsLock=true;
         if(dimOverlay!=null)dimOverlay.enabled=true;
-        for(float t=0;t<introDuration-.5f;t+=Time.unscaledDeltaTime)
+        for(float t=0;t<introDuration-.5f;t+=GameplayClock.Delta)
         {
-            if(frameDoorAndLamp && Camera.main!=null && lamp!=null && approachPoint!=null){var pos=Camera.main.transform.position;pos.x=Mathf.Lerp(pos.x,(lamp.transform.position.x+approachPoint.position.x)*.5f,5f*Time.unscaledDeltaTime);Camera.main.transform.position=pos;}
+            if(frameDoorAndLamp && Camera.main!=null && lamp!=null && approachPoint!=null){var pos=Camera.main.transform.position;pos.x=Mathf.Lerp(pos.x,(lamp.transform.position.x+approachPoint.position.x)*.5f,5f*GameplayClock.Delta);Camera.main.transform.position=pos;}
             float strength=t<(introDuration-.5f)*.45f ? .8f+.15f*Mathf.Sin(t*32) : t<(introDuration-.5f)*.65f ? .04f : .45f;
             if(lamp!=null)lamp.color=new Color(lampColor.r*strength,lampColor.g*strength,lampColor.b*strength,lampColor.a);
             yield return null;
         }
         for(int i=0;i<shadows.Length;i++){shadows[i].enabled=true;var c=shadowColors[i];c.a=0;shadows[i].color=c;}
-        for(float t=0;t<.5f;t+=Time.unscaledDeltaTime){SetShadowAlpha(t/.5f);yield return null;}
+        for(float t=0;t<.5f;t+=GameplayClock.Delta){SetShadowAlpha(t/.5f);yield return null;}
         SetShadowAlpha(1);
         dialogueManager.StartDialogue(dialogue);
         controls.ReleaseLock(ControlLockReason.Cutscene);ownsLock=false;
@@ -58,7 +58,7 @@ public class ParentShadowSequence : MonoBehaviour
         IsWaitingForApproach=true;
         while(player!=null && Mathf.Abs(player.position.x-approachPoint.position.x)>approachDistance)yield return null;
         IsWaitingForApproach=false;
-        for(float t=0;t<fadeDuration;t+=Time.unscaledDeltaTime)
+        for(float t=0;t<fadeDuration;t+=GameplayClock.Delta)
         {
             SetShadowAlpha(1-t/fadeDuration);
             if(lamp!=null)lamp.color=Color.Lerp(new Color(lampColor.r*.45f,lampColor.g*.45f,lampColor.b*.45f,lampColor.a),lampColor,t/fadeDuration);

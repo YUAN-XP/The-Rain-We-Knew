@@ -81,7 +81,7 @@ public sealed partial class SchoolChaseController : IInventoryAccessPolicy
     }
     partial void TickSecurity()
     {
-        TickFinalCharge(Input.GetKey(KeyCode.Space),Time.unscaledDeltaTime);
+        TickFinalCharge(GameplayInput.GetKey(KeyCode.Space),GameplayClock.Delta);
     }
     void TickFinalCharge(bool spaceHeld,float dt)
     {
@@ -103,14 +103,14 @@ public sealed partial class SchoolChaseController : IInventoryAccessPolicy
     {
         Step=SchoolChaseStep.Dispersing;Route=SchoolChaseRoute.Completed;session.AdvanceGeneration();ClearEnemy();
         cameraTool.AbortCapture();cameraTool.SetCaptureContext(null);cameraTool.ContextAvailable=false;
-        for(float t=0;t<.85f;t+=Time.unscaledDeltaTime){finaleFlash.color=new Color(1,.9f,.64f,Mathf.Sin(t/.85f*Mathf.PI)*.65f);yield return null;}
+        for(float t=0;t<.85f;t+=GameplayClock.Delta){finaleFlash.color=new Color(1,.9f,.64f,Mathf.Sin(t/.85f*Mathf.PI)*.65f);yield return null;}
         finaleFlash.color=Color.clear;Story.Set(StoryFlag.SchoolChaseCompleted);
         yield return Say(finaleDialogue);
         // A cancelled dialogue does not re-enable capture. The threat has
         // already been permanently removed, and retry remains checkpointed.
         Step=SchoolChaseStep.Exploring;Layout.SetNarrative(SchoolActor.Adult,SchoolPhase.SchoolRecovery);
         lamp.RestoreUseState(true);SyncSecurityPickups();cameraTool.ContextAvailable=true;
-        while(Input.GetKey(KeyCode.Space)||Input.GetKey(KeyCode.E))yield return null;
+        while(GameplayInput.GetKey(KeyCode.Space)||GameplayInput.GetKey(KeyCode.E))yield return null;
         ReleaseSequence();SaveCompletedResume();
     }
     partial void RestoreSecurity(SchoolCheckpointReason reason)

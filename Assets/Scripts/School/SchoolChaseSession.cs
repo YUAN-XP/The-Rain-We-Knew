@@ -18,6 +18,7 @@ public sealed class SchoolChaseSession : MonoBehaviour
     public SchoolChaseCheckpoint CompletedResume { get; set; }
     public int Generation { get; private set; }
     public int AdvanceGeneration() => ++Generation;
+    public void ResetForDiskLoad(){Checkpoint=null;CompletedResume=null;PendingHomeArrival=false;PendingReturnFog=false;Generation++;}
     public void Store(SchoolChaseCheckpoint value) { Checkpoint = value; }
 }
 

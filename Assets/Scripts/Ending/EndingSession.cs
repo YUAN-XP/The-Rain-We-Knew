@@ -13,6 +13,7 @@ public sealed class EndingSession : MonoBehaviour
     public Vector3 StreetArrival { get; private set; }
     public bool SequenceStarted { get; set; }
     StoryStateManager story; DialogueManager dialogue;
+    public void ResetForDiskLoad(){HandoverStarted=false;HandoverNext=0;SirenPlayed=false;PendingStreetArrival=false;SequenceStarted=false;}
     public void Configure(EndingData data) {
         Data=data; story=GetComponent<StoryStateManager>();
         if(dialogue==null){dialogue=GetComponentInChildren<DialogueManager>(true);dialogue.NaturallyCompleted+=Completed;}

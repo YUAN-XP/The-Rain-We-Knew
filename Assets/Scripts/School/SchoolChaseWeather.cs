@@ -25,8 +25,8 @@ public sealed class SchoolChaseWeather : MonoBehaviour
         bool active=chase!=null&&chase.IsEscaping&&chase.school.layout.CurrentRoom=="Roof";
         canvas.SetActive(active);
         if(!active || chase.Paused)return;
-        time+=Time.unscaledDeltaTime;
-        foreach(var d in drops){var p=d.anchoredPosition;p+=new Vector2(-100,-690)*Time.unscaledDeltaTime;if(p.y<0)p=new Vector2((float)random.NextDouble()*1600,930);d.anchoredPosition=p;}
+        time+=GameplayClock.Delta;
+        foreach(var d in drops){var p=d.anchoredPosition;p+=new Vector2(-100,-690)*GameplayClock.Delta;if(p.y<0)p=new Vector2((float)random.NextDouble()*1600,930);d.anchoredPosition=p;}
         if(time>=nextThunder){lastLightning=time;nextThunder=time+6+(float)random.NextDouble()*5;}
         float alpha=Mathf.Max(0,.06f-(time-lastLightning)*.1f);
         flash.color=new Color(.72f,.79f,.9f,alpha);

@@ -1,0 +1,8 @@
+PASS Environment/Home_Floor01_Normal/S03_ExitHome type=Scene03Interactable paintedBounds=True outlineSeen=True width=0.9885074 selected=S03_ExitHome
+PASS Environment/Home_Floor01_Normal/S03_Phone type=Scene03Interactable paintedBounds=True outlineSeen=True width=0.1682805 selected=S03_Phone
+PASS Environment/Home_Floor01_Normal/S03_LivingRoomDoor type=RoomTransitionInteractable paintedBounds=True outlineSeen=True width=0.9885074 selected=S03_LivingRoomDoor
+PASS Environment/Home_Floor01_Normal/S03_Stairs type=Scene03Interactable paintedBounds=True outlineSeen=True width=5.732631 selected=S03_Stairs
+PASS Environment/LivingRoomInterior/S03_LivingRoomExit type=RoomTransitionInteractable paintedBounds=True outlineSeen=True width=0.9885074 selected=S03_LivingRoomExit
+PASS Environment/LivingRoomInterior/LivingRoomFurniture/S03_Parents type=Scene03Interactable paintedBounds=True outlineSeen=True width=0.7172012 selected=S03_Parents
+PASS Environment/LivingRoomInterior/LivingRoomFurniture/S03_Table type=DialogueInteractable paintedBounds=True outlineSeen=True width=1.173279 selected=S03_Table,S03_Camera
+PASS Environment/LivingRoomInterior/LivingRoomFurniture/S03_Camera type=Scene03Interactable paintedBounds=True outlineSeen=True width=0.4082052 selected=S03_Camera,S03_Table

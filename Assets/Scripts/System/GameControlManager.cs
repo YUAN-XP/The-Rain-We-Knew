@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -13,7 +14,9 @@ public enum ControlLockReason
     SceneTransition,
     SchoolSequence,
     EndingSequence,
-    EndingPause
+    EndingPause,
+    GlobalPause,
+    SaveRestore
 }
 
 public class GameControlManager : MonoBehaviour
@@ -40,6 +43,28 @@ public class GameControlManager : MonoBehaviour
 
     private readonly HashSet<ControlLockReason> activeLocks =
         new HashSet<ControlLockReason>();
+
+    private readonly Dictionary<ControlLockReason, HashSet<UnityEngine.Object>> ownedLocks =
+        new Dictionary<ControlLockReason, HashSet<UnityEngine.Object>>();
+
+    // Owner-scoped locks compose safely. Legacy callers retain their idempotent API.
+    public void AcquireLock(ControlLockReason reason, UnityEngine.Object owner)
+    {
+        if (!owner) throw new ArgumentNullException(nameof(owner));
+        if (!ownedLocks.TryGetValue(reason, out var owners))
+            ownedLocks[reason] = owners = new HashSet<UnityEngine.Object>();
+        if (owners.Add(owner)) ApplyControlState();
+    }
+    public void ReleaseLock(ControlLockReason reason, UnityEngine.Object owner)
+    {
+        if (ownedLocks.TryGetValue(reason, out var owners) && owners.Remove(owner)) ApplyControlState();
+    }
+    private void Update()
+    {
+        bool changed = false;
+        foreach (var owners in ownedLocks.Values) changed |= owners.RemoveWhere(owner => owner == null) > 0;
+        if (changed) ApplyControlState();
+    }
 
     private void Awake()
     {
@@ -93,19 +118,22 @@ public class GameControlManager : MonoBehaviour
 
     public bool IsLocked()
     {
-        return activeLocks.Count > 0;
+        if (activeLocks.Count > 0) return true;
+        foreach (var owners in ownedLocks.Values) if (owners.Count > 0) return true;
+        return false;
     }
 
     public bool IsLockedBy(
         ControlLockReason reason)
     {
-        return activeLocks.Contains(reason);
+        return activeLocks.Contains(reason) || ownedLocks.TryGetValue(reason, out var owners) && owners.Count > 0;
     }
 
+    public void ResetForLoad(){activeLocks.Clear();ownedLocks.Clear();ApplyControlState();}
     private void ApplyControlState()
     {
         bool canControl =
-            activeLocks.Count == 0;
+            !IsLocked();
 
         if (playerController != null)
         {

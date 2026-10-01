@@ -189,7 +189,7 @@ public sealed class BasketballThrowController : MonoBehaviour
     void Update()
     {
         if (!IsOpen) return;
-        if (Input.GetKeyDown(KeyCode.Escape) && CanCancel) { Cancel(); return; }
+        if (GameplayInput.GetKeyDown(KeyCode.Escape) && CanCancel) { Cancel(); return; }
         if (successPending)
         {
             successPending = false;
@@ -201,25 +201,25 @@ public sealed class BasketballThrowController : MonoBehaviour
 
     void UpdateAimInput()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (GameplayInput.GetMouseButtonDown(0))
         {
             Vector3 point = worldCamera.WorldToScreenPoint(ball.position);
             float radiusPixels = Mathf.Max(30f * Screen.height / 900f,
                 ballCollider.radius * Mathf.Abs(ball.transform.lossyScale.x) * Screen.height / (worldCamera.orthographicSize * 2f) * 1.5f);
-            if (Vector2.Distance(Input.mousePosition, point) <= radiusPixels)
+            if (Vector2.Distance(GameplayInput.mousePosition, point) <= radiusPixels)
             {
                 dragging = true;
                 dragOrigin = point;
             }
         }
         if (!dragging) return;
-        Vector2 pull = dragOrigin - (Vector2)Input.mousePosition;
+        Vector2 pull = dragOrigin - (Vector2)GameplayInput.mousePosition;
         aimedVelocity = ThrowTrajectory2D.VelocityFromScreenPull(pull, Screen.height, speedPerReferencePixel, maximumLaunchSpeed);
         float power = Mathf.Clamp01(aimedVelocity.magnitude / maximumLaunchSpeed);
         powerFill.rectTransform.anchorMax = new Vector2(power, 1);
         SetStatus("力度 " + Mathf.RoundToInt(power * 100) + "% · 轨迹线是篮球的飞行方向 · 松手投掷  [Esc] 取消");
         UpdateGuides();
-        if (!Input.GetMouseButtonUp(0)) return;
+        if (!GameplayInput.GetMouseButtonUp(0)) return;
         dragging = false;
         if (pull.magnitude * 900f / Mathf.Max(1, Screen.height) < minimumDragReferencePixels || aimedVelocity.magnitude < minimumLaunchSpeed)
         {
@@ -301,7 +301,7 @@ public sealed class BasketballThrowController : MonoBehaviour
         yield return Fade(1);
         RestorePhysics(true);
         RestoreCameraFrame();
-        yield return new WaitForSecondsRealtime(retryBlackHoldSeconds);
+        yield return GameplayClock.Wait(retryBlackHoldSeconds);
         yield return Fade(0);
         State = ThrowState.Closed;
         restoreKeyOnAbort = false;
@@ -315,7 +315,7 @@ public sealed class BasketballThrowController : MonoBehaviour
         SetStatus("击中了挡板！");
         Vector3 start = ball.transform.position;
         Vector3 aboveHoop = hoopCenter.position + Vector3.up * .38f;
-        for (float t = 0; t < boardToHoopSeconds; t += Time.unscaledDeltaTime)
+        for (float t = 0; t < boardToHoopSeconds; t += GameplayClock.Delta)
         {
             float f = Mathf.Clamp01(t / boardToHoopSeconds);
             MoveBall(Vector3.Lerp(start, aboveHoop, f) + Vector3.up * (.6f * Mathf.Sin(f * Mathf.PI)));
@@ -324,7 +324,7 @@ public sealed class BasketballThrowController : MonoBehaviour
         MoveBall(aboveHoop);
         Vector3 keyFrom = keyVisual.position;
         float fallDuration = Mathf.Max(hoopToFloorSeconds, keyFallSeconds);
-        for (float t = 0; t < fallDuration; t += Time.unscaledDeltaTime)
+        for (float t = 0; t < fallDuration; t += GameplayClock.Delta)
         {
             float b = Mathf.Clamp01(t / hoopToFloorSeconds);
             // Vertical entry crosses the actual hoop center before moving toward its landing marker.
@@ -342,7 +342,7 @@ public sealed class BasketballThrowController : MonoBehaviour
             Play(bounceSound, .3f / (i + 1));
             float height = firstBounceHeight * Mathf.Pow(.46f, i);
             float seconds = firstBounceSeconds * Mathf.Pow(.78f, i);
-            for (float t = 0; t < seconds; t += Time.unscaledDeltaTime)
+            for (float t = 0; t < seconds; t += GameplayClock.Delta)
             {
                 float f = t / seconds;
                 MoveBall(ballRestPoint.position + Vector3.up * (4 * height * f * (1 - f)));
@@ -419,7 +419,7 @@ public sealed class BasketballThrowController : MonoBehaviour
     {
         ball.transform.position = position;
         ball.position = position;
-        ball.transform.Rotate(0, 0, -180 * Time.unscaledDeltaTime);
+        ball.transform.Rotate(0, 0, -180 * GameplayClock.Delta);
     }
 
     void RestorePhysics(bool restorePosition)
@@ -524,7 +524,7 @@ public sealed class BasketballThrowController : MonoBehaviour
             p.z = ball.transform.position.z;
             trajectory.SetPosition(i, p);
         }
-        Vector3 mouseWorld = worldCamera.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y,
+        Vector3 mouseWorld = worldCamera.ScreenToWorldPoint(new Vector3(GameplayInput.mousePosition.x, GameplayInput.mousePosition.y,
             Mathf.Abs(worldCamera.transform.position.z - ball.transform.position.z)));
         mouseWorld.z = ball.transform.position.z;
         pullLine.positionCount = 2;
@@ -541,7 +541,7 @@ public sealed class BasketballThrowController : MonoBehaviour
     {
         if (curtain == null) yield break;
         float start = curtain.alpha;
-        for (float t = 0; t < retryFadeSeconds; t += Time.unscaledDeltaTime)
+        for (float t = 0; t < retryFadeSeconds; t += GameplayClock.Delta)
         { curtain.alpha = Mathf.Lerp(start, alpha, t / retryFadeSeconds); yield return null; }
         curtain.alpha = alpha;
     }

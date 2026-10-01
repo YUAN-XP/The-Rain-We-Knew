@@ -69,14 +69,14 @@ public sealed partial class EndingDirector:EndingStageController
     protected override void Update(){
         base.Update();if(!ready||player==null||paused)return;
         if(IsWalking){
-            float axis=Input.GetAxisRaw("Horizontal");
+            float axis=GameplayInput.GetAxisRaw("Horizontal");
             TickWalk(axis,Delta);
-            if(Step==EndingStep.WalkBed){if(!Input.GetKey(KeyCode.E)&&!dialogue.IsDialogueActive()&&!dialogue.DidDialogueEndThisFrame())bedArmed=true;bool near=Mathf.Abs(player.transform.position.x-bedAnchorX)<1.5f;
+            if(Step==EndingStep.WalkBed){if(!GameplayInput.GetKey(KeyCode.E)&&!dialogue.IsDialogueActive()&&!dialogue.DidDialogueEndThisFrame())bedArmed=true;bool near=Mathf.Abs(player.transform.position.x-bedAnchorX)<1.5f;
                 focusText.text=near?"[E] 调查":"";focusText.gameObject.SetActive(true);
-                if(near&&bedArmed&&Input.GetKeyDown(KeyCode.E))StartCoroutine(BedIntro());}
+                if(near&&bedArmed&&GameplayInput.GetKeyDown(KeyCode.E))StartCoroutine(BedIntro());}
         }
-        else if(Step==EndingStep.Focus){Focus.Tick(Input.GetKey(KeyCode.Space),Input.GetKeyDown(KeyCode.Space),Delta,data.focusSeconds,false);RenderFocus();if(Focus.Complete){story.Set(StoryFlag.EndingFocusCompleted);StartCoroutine(Declaration());}}
-        else if(Step==EndingStep.Complete&&!endArmed){if(!Input.GetKey(KeyCode.E)&&!Input.GetKey(KeyCode.Space)){endArmed=true;exitButton.interactable=true;}}
+        else if(Step==EndingStep.Focus){Focus.Tick(GameplayInput.GetKey(KeyCode.Space),GameplayInput.GetKeyDown(KeyCode.Space),Delta,data.focusSeconds,false);RenderFocus();if(Focus.Complete){story.Set(StoryFlag.EndingFocusCompleted);StartCoroutine(Declaration());}}
+        else if(Step==EndingStep.Complete&&!endArmed){if(!GameplayInput.GetKey(KeyCode.E)&&!GameplayInput.GetKey(KeyCode.Space)){endArmed=true;exitButton.interactable=true;}}
     }
     bool IsWalking=>Step==EndingStep.WalkChild||Step==EndingStep.Child||Step==EndingStep.WalkYouth||Step==EndingStep.Youth
         ||Step==EndingStep.WalkHospital||Step==EndingStep.Hospital||Step==EndingStep.WalkBed;

@@ -1,0 +1,688 @@
+{
+  "timestamp": "2026-10-01T10:57:50.7655404+08:00",
+  "phase": "P01 in progress - NOT phase acceptance",
+  "baseline": "f67cba7d7d1ecfc1459390208c8886db455f8d2c",
+  "feedbackSha256": "8f7a14aefc71c4955e229a76e52e77d8404c7928e54d3910af1aa8a4a91b807a",
+  "directedRuntimeAssertionsPassed": 34,
+  "identityLinesChecked": 341,
+  "changedAssetsFiles": [
+    {
+      "path": "Assets/Editor/P01FoundationChecks.cs",
+      "sha256": "a75ef6f13489cf15dda3c62a7a2bd3362284da58b1a939c7f6204ad01fa79406"
+    },
+    {
+      "path": "Assets/Editor/P01FoundationChecks.cs.meta",
+      "sha256": "2eb5f83e292ab097f0011c75d2c2f1fec8312f66e5b63ca8d0cfc2b55fa0b5c3"
+    },
+    {
+      "path": "Assets/GameData/Ending/Stage6/D_C01.asset",
+      "sha256": "e4db0033017c5deb49dc4490f9d32f7d8bee787e93a8287611f3367ea41bfa5d"
+    },
+    {
+      "path": "Assets/GameData/Ending/Stage6/D_C02.asset",
+      "sha256": "fa6e8da5b15e0f94701a6862d50816c5cacd9d1bee41004bca468637b36a27fd"
+    },
+    {
+      "path": "Assets/GameData/Ending/Stage6/D_C03.asset",
+      "sha256": "56029347b2e4415134a6b0ba803282a80bf3f34cfabce681d73f213e7a69d6a2"
+    },
+    {
+      "path": "Assets/GameData/Ending/Stage6/D_C04.asset",
+      "sha256": "c09cb57eb450fa7e7daa426c38b0ffc7d0fc7239470e79215f0c3ebc81078c1a"
+    },
+    {
+      "path": "Assets/GameData/Ending/Stage6/D_C05.asset",
+      "sha256": "e9477806959b19b84c8b320b112c4bcdda548eb864fe83c7bcb2eb23ddac2cf8"
+    },
+    {
+      "path": "Assets/GameData/Ending/Stage6/D_C06.asset",
+      "sha256": "f56c1c4716312b459cffa6af6dfe3b192364c95410ccc941df1bb0f9a5481f52"
+    },
+    {
+      "path": "Assets/GameData/Ending/Stage6/D_C07.asset",
+      "sha256": "320526dff9ef2ed90db3bd6756f874a8012fd6bec8f9fb73c2eb4dfef75f24de"
+    },
+    {
+      "path": "Assets/GameData/Ending/Stage6/D_C08.asset",
+      "sha256": "27ec137b45bd121239bd7277f266ef3bd38be98af401f588a039d91ad0ee6068"
+    },
+    {
+      "path": "Assets/GameData/Ending/Stage6/D_C09.asset",
+      "sha256": "8ea73b4d675dc470ffc246d18b77e4033665439ca3c3c2bd3a3988e6cc829ad8"
+    },
+    {
+      "path": "Assets/GameData/Ending/Stage6/D_C10.asset",
+      "sha256": "f620c60ed573068d1c1f1672b75e8dd8a9dcbeb3ce06fc275162fb97bcc98733"
+    },
+    {
+      "path": "Assets/GameData/Ending/Stage6/D_C11.asset",
+      "sha256": "93254f58fd001e514cd3e35d1119f22c9c149b8aac630c2ff94e8e7beffe43ef"
+    },
+    {
+      "path": "Assets/GameData/Ending/Stage6/D_C12.asset",
+      "sha256": "a36c932e70e4499a64104b9455fe1cca7679b9b1935b94c21130e7fc81d14523"
+    },
+    {
+      "path": "Assets/GameData/Ending/Stage6/D_C13.asset",
+      "sha256": "ed421aa8332e8f16172e3aa4bd7bc4eccf27ef51c95f5256e07cc400f64c53ee"
+    },
+    {
+      "path": "Assets/GameData/Ending/Stage6/D_C14.asset",
+      "sha256": "ea17b004d936cdd5fdc3368743dbf41933dbe0c23ecdfc3ef4e8354e9893b163"
+    },
+    {
+      "path": "Assets/GameData/Ending/Stage6/D_C15.asset",
+      "sha256": "2d632f265a0af523c5cdb76b640e14a8ef3dcec5a1b78934bbff3dd5b004acd1"
+    },
+    {
+      "path": "Assets/GameData/Ending/Stage6/D_E01.asset",
+      "sha256": "fcb0dbe9228d519abadd854d1b20db05f85a0e7accf3e3c9fbde565622d5e701"
+    },
+    {
+      "path": "Assets/GameData/Ending/Stage6/D_E02.asset",
+      "sha256": "31cc53eb4b3a5e75958c3bca2d68bedbac83b3e064b0045cf763b8ddb546b822"
+    },
+    {
+      "path": "Assets/GameData/Ending/Stage6/D_E03.asset",
+      "sha256": "b4516f096d9fba30e0090c672a972b1caaa04f500421590e297c7381b66a2642"
+    },
+    {
+      "path": "Assets/GameData/Ending/Stage6/D_F01.asset",
+      "sha256": "fec4907a4ba5ecc8bb176a7df97d91e8dc235a60c1a35480929f5f5879d05ad9"
+    },
+    {
+      "path": "Assets/GameData/Ending/Stage6/D_F02.asset",
+      "sha256": "af92f8675298bdc807062752399cbc0dcd27e6ec43bb85f9f6fff613180ec392"
+    },
+    {
+      "path": "Assets/GameData/Ending/Stage6/D_F03.asset",
+      "sha256": "a69732e4905cbef6823e296ac7bfa2a4420b17219b8fce9f7b5a48ed7767d5bd"
+    },
+    {
+      "path": "Assets/GameData/Ending/Stage6/D_F04.asset",
+      "sha256": "e22127648b1241313ae6fe3f6de3d4f7415347c3c71e059ad25439806ec28981"
+    },
+    {
+      "path": "Assets/GameData/Ending/Stage6/D_F05.asset",
+      "sha256": "57dfc336b73ec5a19ec163b2beba803e0da3d39b9cd56a612cdbb7d6894d251a"
+    },
+    {
+      "path": "Assets/GameData/Ending/Stage6/D_F06.asset",
+      "sha256": "deb8674b8a0b961f34acc916ee970208ee76fb3917b8bf9ce8b943977b45e127"
+    },
+    {
+      "path": "Assets/GameData/Ending/Stage6/D_F07.asset",
+      "sha256": "b03f005e0c400731b8e10907bf9b3b96d35d26bcb033b2970a9fd3681f58e3c9"
+    },
+    {
+      "path": "Assets/GameData/Ending/Stage6/D_H01.asset",
+      "sha256": "00b9660744b0ba13191aaf010db25dcd3cfab38dc58ba70111c208d0ade2b8be"
+    },
+    {
+      "path": "Assets/GameData/Ending/Stage6/D_H02.asset",
+      "sha256": "7c260a163c6347785d72f68128ff32538863d1504a086a44ff55dd5fdbb54c0a"
+    },
+    {
+      "path": "Assets/GameData/Ending/Stage6/D_H03.asset",
+      "sha256": "dd14f64ceb64edda78da405105f89320fdaf0e22b2757425629ae687a766ff89"
+    },
+    {
+      "path": "Assets/GameData/Ending/Stage6/D_H04.asset",
+      "sha256": "d5f54277f33d21f4104c227bca92441076a57edcac8cdea48ba18a03281e512c"
+    },
+    {
+      "path": "Assets/GameData/Ending/Stage6/D_H05.asset",
+      "sha256": "8a2db87454a86c4cbfca7f5b24cb4b7af1320fbea2cf131cf7b90344699dbd40"
+    },
+    {
+      "path": "Assets/GameData/Ending/Stage6/D_H06.asset",
+      "sha256": "49f33d59c34ecf8aee984d0f0d8b2d8d865551e7c7f9a2d9ca77f0c1c3843955"
+    },
+    {
+      "path": "Assets/GameData/Ending/Stage6/D_H07.asset",
+      "sha256": "9a5dfe7364b793dd1de2c73b550a15e9232c1a57b942c14c2f0f7d1f0bd9eb9b"
+    },
+    {
+      "path": "Assets/GameData/Ending/Stage6/D_H08.asset",
+      "sha256": "81dbfcf2150268b465a9d3b31e2fb57db66ff6af9282c5c961a936fb9e4b9142"
+    },
+    {
+      "path": "Assets/GameData/Ending/Stage6/D_H09.asset",
+      "sha256": "41053fcc3d9c01cf98e1e9be3012cfd16d6745027a28f391dfb43147a7bc20e9"
+    },
+    {
+      "path": "Assets/GameData/Ending/Stage6/D_Z01.asset",
+      "sha256": "c6be8468cd858983c47fbbecd1f7904f995474e3a1b5677a724a4d395661883e"
+    },
+    {
+      "path": "Assets/GameData/Ending/Stage6/D_Z02.asset",
+      "sha256": "bc8e1b3a8dc3293b661270ac218492b44c21928a72a13348264ae126b144e488"
+    },
+    {
+      "path": "Assets/GameData/Ending/Stage6/D_Z03.asset",
+      "sha256": "b356240e7a40056e6a7095581d2f23aa3a5235986421fc0530a7c2af0d266971"
+    },
+    {
+      "path": "Assets/GameData/Ending/Stage6/D_Z04.asset",
+      "sha256": "d44f3408b9f27f8419ec804d8dd80c749bf320c1c8287e7835e174dbf5972657"
+    },
+    {
+      "path": "Assets/GameData/Ending/Stage6/D_Z05.asset",
+      "sha256": "4cdb9b5468f8150c8d67312116e51cba99c3081ae697bbb3fbc7dca5e6a4f78c"
+    },
+    {
+      "path": "Assets/GameData/Ending/Stage6/D_Z06.asset",
+      "sha256": "125893e82d07a33fc79ca59c9e3ca677ae84bca3fdb6f90913fbf98fb9c5b2ae"
+    },
+    {
+      "path": "Assets/GameData/Ending/Stage6/D_Z07.asset",
+      "sha256": "64b6f5e4f8903aa55a9de01c8cd36b553e4aaab415cd6a9e62f8344f09bfe41a"
+    },
+    {
+      "path": "Assets/GameData/Ending/Stage6/D_Z08.asset",
+      "sha256": "c950565a6fcdd579aa1a3370ef7f67e53117b155acdfd9cdedf393f2da99d25e"
+    },
+    {
+      "path": "Assets/GameData/Scene03/D_S02_CameraGentlemanEcho.asset",
+      "sha256": "c3b274b6b0c7851f78e7d6c2c8efe110ba58052f09d80b9e3489f67c32c32395"
+    },
+    {
+      "path": "Assets/GameData/Scene03/D_S02_GuideAfterChildhood.asset",
+      "sha256": "3aebb6a785c8564b4b1127b01740e022914de39edd006b47a087b608370c520c"
+    },
+    {
+      "path": "Assets/GameData/Scene03/D_S02_ReturnFromFamilyPhoto.asset",
+      "sha256": "01222e740cf1070db42918809a6031e72c5b1938873f404b46aa8b0058336453"
+    },
+    {
+      "path": "Assets/GameData/Scene03/D_S03_CallBoyIntoPhoto.asset",
+      "sha256": "58f407b43d93cbad0b382af26757246b319dbf06e44020a7d462320e1b8920db"
+    },
+    {
+      "path": "Assets/GameData/Scene03/D_S03_CameraGentlemanCard.asset",
+      "sha256": "843953586f7c8bd9a92d29f897210cb171d59f14b1c08703d0d8e4d4cedc07a2"
+    },
+    {
+      "path": "Assets/GameData/Scene03/D_S03_Cat.asset",
+      "sha256": "8482aae7d47415bfe31bfb1df9417c61566194347556244dda2e5bbe4aefd8ae"
+    },
+    {
+      "path": "Assets/GameData/Scene03/D_S03_Chess.asset",
+      "sha256": "cf79ccbb4ff98a31d4f51e4900c16d4cad19ce3b0f0052aaa0d31113869a68c4"
+    },
+    {
+      "path": "Assets/GameData/Scene03/D_S03_Endpoint.asset",
+      "sha256": "d05cd8fe79ff6c171c65baf2e244940272bd4fabf66e6f9425e0194410fdd3d0"
+    },
+    {
+      "path": "Assets/GameData/Scene03/D_S03_ExitLocked.asset",
+      "sha256": "9d0ead76bf3af9dba93815a4d42cec5af7813007dc75f37e4207fa0aa908bea3"
+    },
+    {
+      "path": "Assets/GameData/Scene03/D_S03_FamilyInvitation.asset",
+      "sha256": "17011bf744708a222bc4cf803a23dccbf5da68504dac6d8f19a7821e852e30f8"
+    },
+    {
+      "path": "Assets/GameData/Scene03/D_S03_FamilyReady.asset",
+      "sha256": "32e228a8f2bc900ad3a2adb97533b556afa969f6b65015410fba88619dd95524"
+    },
+    {
+      "path": "Assets/GameData/Scene03/D_S03_FeedCat.asset",
+      "sha256": "787098b20f494dd5b707afea03a75ea81bcc368030f630bece47f8a0dcdeb4b4"
+    },
+    {
+      "path": "Assets/GameData/Scene03/D_S03_FishRepeat.asset",
+      "sha256": "b2f556b44318ce6d4fe6af67c5fe9124a9fd042939c532eb32b92e239b3708f6"
+    },
+    {
+      "path": "Assets/GameData/Scene03/D_S03_Gate.asset",
+      "sha256": "a6353b0ea160bd6dfde861fa8b70c48f73eb261c3cc55536bee3cd0266d82fc9"
+    },
+    {
+      "path": "Assets/GameData/Scene03/D_S03_GuitarPraise.asset",
+      "sha256": "688b59121067a690bfb78fa11c4906cc7cdf2e7b9aae8e9639107170024c6ea2"
+    },
+    {
+      "path": "Assets/GameData/Scene03/D_S03_LiMei.asset",
+      "sha256": "1e63e6ddebf38349ee2d0db0b97af7898a20c13531b434e060d560b4e7d9bc4e"
+    },
+    {
+      "path": "Assets/GameData/Scene03/D_S03_MazePrelude.asset",
+      "sha256": "2b9a213d55ec98f8ae2f7dd3bb59b1aa3fdb52911b9237048b5c6b531dfbe61e"
+    },
+    {
+      "path": "Assets/GameData/Scene03/D_S03_MechanicalTimer.asset",
+      "sha256": "9e6bb7e6e49d086d21b7efa63c0ca50b13cefe8bc94f193d67a560ef63e334a7"
+    },
+    {
+      "path": "Assets/GameData/Scene03/D_S03_MessageDelivered.asset",
+      "sha256": "cc3bb0470ec09ee7f0ab1e68046ca447af782fb9c6087899040e8ca372b2405e"
+    },
+    {
+      "path": "Assets/GameData/Scene03/D_S03_Parents.asset",
+      "sha256": "081ba94ca9c49f2f784545349d204d2d6fbd601222460aea8711c1e074264d77"
+    },
+    {
+      "path": "Assets/GameData/Scene03/D_S03_ParentsRepeat.asset",
+      "sha256": "295363c93e6ebce52224a2c9beb2edecc343530c1b21558bda4c9fe54a094f1c"
+    },
+    {
+      "path": "Assets/GameData/Scene03/D_S03_Phone.asset",
+      "sha256": "68cda20efa86d8968794a1dbb488322628b98e7aefbdd09b204c5b056624c32b"
+    },
+    {
+      "path": "Assets/GameData/Scene03/D_S03_Puddle.asset",
+      "sha256": "1ac9a7edf6ea5602f8e0ff0a2943833fa370c93bed982c85803e1f495d4983de"
+    },
+    {
+      "path": "Assets/GameData/Scene03/D_S03_Restaurant.asset",
+      "sha256": "e863984e23f59109f4b2de9ef0b974e4112e891297b3c2fd0798be0b33fc7959"
+    },
+    {
+      "path": "Assets/GameData/Scene03/D_S03_RingRetry.asset",
+      "sha256": "e3d573d1666dd5f70aed456a01e5b752757e30dd53c0d3ef5aa9fc7ffaf755c7"
+    },
+    {
+      "path": "Assets/GameData/Scene03/D_S03_RiverIntroduction.asset",
+      "sha256": "73daa638db4aaaa7ae144df586690bfad876442837d62585e4104ec628d05e27"
+    },
+    {
+      "path": "Assets/GameData/Scene03/D_S03_RiverZhaoAside.asset",
+      "sha256": "3eba02439e4a8af5ee5ac712104f22e8629918fa8819afaf4fcf6235c9a37c22"
+    },
+    {
+      "path": "Assets/GameData/Scene03/D_S03_RiverZhaoCall.asset",
+      "sha256": "caf6dd195a0154c55e6b1ad68ea066c962c8dcd200b0ecb3e880e5be3703b14b"
+    },
+    {
+      "path": "Assets/GameData/Scene03/D_S03_Shop.asset",
+      "sha256": "ca58f53abc0a5441c23d043baf651834243d0338c31c92eaada3c4dc41ff77f7"
+    },
+    {
+      "path": "Assets/GameData/Scene03/D_S03_Stairs.asset",
+      "sha256": "1ef3ae3288a2ae8fdec07f44f3807f77545f548bf844e5811585c80019d7b4b7"
+    },
+    {
+      "path": "Assets/GameData/Scene03/D_S03_StoryEnd.asset",
+      "sha256": "b426d7a3a05dea7b082172180d25aa01c90b865ff402e87f4df5ed38c68ba2da"
+    },
+    {
+      "path": "Assets/GameData/Scene03/D_S03_Table.asset",
+      "sha256": "0eb3e730af2a8ccbd435cad628d611117b4915e3cf1307c576a4a0b23f3c4c8b"
+    },
+    {
+      "path": "Assets/GameData/Scene03/D_S03_TakeCamera.asset",
+      "sha256": "da4cecf0f10f84734dce081f265d9767c67fd79b236933470210d73462144e08"
+    },
+    {
+      "path": "Assets/GameData/Scene03/D_S03_ZhaoBingCheng.asset",
+      "sha256": "0dabc3ecc952f2735981e944a58c5a410cf789a4864404052e06493174d1c5a8"
+    },
+    {
+      "path": "Assets/GameData/Scene03/D_S03_ZhaoHome.asset",
+      "sha256": "38b090b87a3699cc11b129ffc6fd93fb1518a2cff341732d7fcc053a2f406ae2"
+    },
+    {
+      "path": "Assets/GameData/School/D_Fog_Entry.asset",
+      "sha256": "4b4da1302caac25e0ad0cd04825be883ba0af2f00d3f34e6f915dd690d99051f"
+    },
+    {
+      "path": "Assets/GameData/School/D_Fog_Inquiry.asset",
+      "sha256": "4c2f1d83851f3a687e36498028bfcc572e45c93e34bcbc622836efd25b1949b2"
+    },
+    {
+      "path": "Assets/GameData/School/Stage5A/D_S04_BasketballInvestigate.asset",
+      "sha256": "00f6273af281ed764d4eae939ed68d55a926df2e4c5f9d0edb0bc9e820d68cf1"
+    },
+    {
+      "path": "Assets/GameData/School/Stage5A/D_S04_BasketballMiss.asset",
+      "sha256": "5cab1832c885f38ad6c3d33877b4c3531d43be54e9aa684ac6fefaaefdd19e5e"
+    },
+    {
+      "path": "Assets/GameData/School/Stage5A/D_S04_BasketballSuccess.asset",
+      "sha256": "f958d64438e3a699e15f4abcb1e6b439024b9c5c653c7f24850c8af25b30822b"
+    },
+    {
+      "path": "Assets/GameData/School/Stage5A/D_S04_BasketKeyObtained.asset",
+      "sha256": "6e7de88540b14a306a244217c13321a20249cd9b915f5ad1e0f037f112336c57"
+    },
+    {
+      "path": "Assets/GameData/School/Stage5A/D_S04_BasketKeyRevealed.asset",
+      "sha256": "6c261aa804c013d27774071244a75dc52f9fc199627917a75043ee2cece3cc6d"
+    },
+    {
+      "path": "Assets/GameData/School/Stage5A/D_S04_EquipmentEcho.asset",
+      "sha256": "c7beae599f6632d6223cda9c33ad8aa8e6db23bb3541865cac3c9bcaa5a708e1"
+    },
+    {
+      "path": "Assets/GameData/School/Stage5A/D_S04_EquipmentLocked.asset",
+      "sha256": "f4498ee361d2a3afc6f354ceb28cb3d4368c72d10025bda7efa8b4a6714bd563"
+    },
+    {
+      "path": "Assets/GameData/School/Stage5A/D_S04_EquipmentVoice.asset",
+      "sha256": "44cc1be9a62382874833fefdcbaeb91bb3a8964e05e2bb2a26c150f351d493af"
+    },
+    {
+      "path": "Assets/GameData/School/Stage5A/D_S04_FogReturn.asset",
+      "sha256": "359dce157020d67bdd9c6d675492e18da1d8612c47f7f357ec6ce0c201f122e9"
+    },
+    {
+      "path": "Assets/GameData/School/Stage5A/D_S04_PencilObtained.asset",
+      "sha256": "2973c512c89ee9dcc2c455b8abf49e4231cb167f62da6c482d424be97a1e6f73"
+    },
+    {
+      "path": "Assets/GameData/School/Stage5A/D_S04_SecurityWindow.asset",
+      "sha256": "e158c44e4cbbedc163408d26acfad05f641c1bd51b293405a67c00015c065726"
+    },
+    {
+      "path": "Assets/GameData/School/Stage5A/D_S04_UniformObtained.asset",
+      "sha256": "2ec78590f98dc7f5b8dc5d0924db2f166bd901d4013c88efd2749e0180c7a493"
+    },
+    {
+      "path": "Assets/GameData/School/Stage5A/D_S04_YouthOpening.asset",
+      "sha256": "3a36dfddde0d9ba2ad4d64d23da652c2fc7ac5937a1a02bd72e810ab4dd87e83"
+    },
+    {
+      "path": "Assets/GameData/School/Stage5B/S05_COMPUTER_COPY.asset",
+      "sha256": "1b95baff0547737562c2994f95566d2dd16f3bc280b16c2343cdf29984d2d3e3"
+    },
+    {
+      "path": "Assets/GameData/School/Stage5B/S05_COMPUTER_NO_USB.asset",
+      "sha256": "5c99788091618c967fc770a454731177535176f072864da774c1185f109bd103"
+    },
+    {
+      "path": "Assets/GameData/School/Stage5B/S05_COMPUTER_PASSWORD.asset",
+      "sha256": "864fec5ff7af213ffa2251d8571b34f477fc307e4b824b25d0c8dbc180fb2003"
+    },
+    {
+      "path": "Assets/GameData/School/Stage5B/S05_COURT_AFTER_TOILET.asset",
+      "sha256": "96b160b9494c7bbd6864ab7bde5750f1fdb93b28b39601df1f8fb6f3df6647aa"
+    },
+    {
+      "path": "Assets/GameData/School/Stage5B/S05_CROWD_ONCE.asset",
+      "sha256": "c0c88f042ab012cd737af226524658b3f1c0fd415b5fcfeca66749ccf9f3297e"
+    },
+    {
+      "path": "Assets/GameData/School/Stage5B/S05_DIRECTOR_AFTER_HANDOFF.asset",
+      "sha256": "2486f32f9e09a8341d9e43fb0616bd5b9f10e9d7db96db3d19e4ee259e4c6285"
+    },
+    {
+      "path": "Assets/GameData/School/Stage5B/S05_DIRECTOR_BEFORE_HANDOFF.asset",
+      "sha256": "2809dfd3ded15c1ab76beaf9a94d16ff5b9fcb2d4465fd609ffe48a303cd0087"
+    },
+    {
+      "path": "Assets/GameData/School/Stage5B/S05_DIRECTOR.asset",
+      "sha256": "ae8d7fe2479eec0e966086c34261f78e6f49ead692bdebdb60951335b3b71f17"
+    },
+    {
+      "path": "Assets/GameData/School/Stage5B/S05_EQUIPMENT_AFTER_PASSWORD.asset",
+      "sha256": "1d04266a4ef99cc8e1d2c901b6b0c1b6392688aecbbb639a2b8571ae20ab0e92"
+    },
+    {
+      "path": "Assets/GameData/School/Stage5B/S05_EQUIPMENT_BEFORE_PASSWORD.asset",
+      "sha256": "941ca088f71afeca3aa80ef0de3a30c789778049f7dfdf090f20294e0bf6084f"
+    },
+    {
+      "path": "Assets/GameData/School/Stage5B/S05_FEMALE_TOILET.asset",
+      "sha256": "d7233ec92c6c2e48d4de9ca20946b119341116d99cb9685118165acfdffb325f"
+    },
+    {
+      "path": "Assets/GameData/School/Stage5B/S05_MONITOR_SUCCESS.asset",
+      "sha256": "a1025db525f83716483c78b28d07183396acfe7cc2ad668f0a8ca6c8b58a4a3a"
+    },
+    {
+      "path": "Assets/GameData/School/Stage5B/S05_OFFICE_REFUSAL.asset",
+      "sha256": "94d49b59279044d277062882e86468c054fd4d0d8fb5422204a7a9311b378e63"
+    },
+    {
+      "path": "Assets/GameData/School/Stage5B/S05_PASSWORD_SUCCESS.asset",
+      "sha256": "912019aca49989024e8adfd21320d1b43105c50e7a657894babb116b1d406327"
+    },
+    {
+      "path": "Assets/GameData/School/Stage5B/S05_READING_EXIT_HINT.asset",
+      "sha256": "a1257219f3bbff1299043c9c0dd3fe45bd0b148f775bea841ee08c70b0307c7a"
+    },
+    {
+      "path": "Assets/GameData/School/Stage5B/S05_ROOF_LOCKED.asset",
+      "sha256": "42d134ec8e577bdd9d9e16fdb0a44922674982e8b74bf281b8db1e4b1a598b37"
+    },
+    {
+      "path": "Assets/GameData/School/Stage5B/S05_SCHOOL_GATE.asset",
+      "sha256": "c9c3ee7b32b2f815c739f034251fd7be03e135befd914fafc20ed7575dc5b08a"
+    },
+    {
+      "path": "Assets/GameData/School/Stage5B/S05_SECURITY_NO_CLUE.asset",
+      "sha256": "5e06a92750e91fdf60a945ba3e5aa7bd7ffe3f759a8a119b0dc9528f3d22c764"
+    },
+    {
+      "path": "Assets/GameData/School/Stage5B/S05_SECURITY_NOTE_BODY.asset",
+      "sha256": "75c73bf8bae464f35f95d991fcd793509b64d62cee24b9ce7104ae52d2d63427"
+    },
+    {
+      "path": "Assets/GameData/School/Stage5B/S05_SECURITY_WINDOW_FACTS.asset",
+      "sha256": "b82e2ac34f55e3c4a496ecce0c27cb2ad288c971cc29044192c37bd47249cd35"
+    },
+    {
+      "path": "Assets/GameData/School/Stage5B/S05_STAGE_END_NOTICE.asset",
+      "sha256": "853b3ddae99a951799a07b7eaeb3f1d6847e0032d451e59d546d696b3db9eee1"
+    },
+    {
+      "path": "Assets/GameData/School/Stage5B/S05_TOILET_AFTER_SUBMISSION.asset",
+      "sha256": "3c22f6fa6823c0c1cee7b877ebf8a5930e0c70a5dad2fb685b7c34de3bdfc1b6"
+    },
+    {
+      "path": "Assets/GameData/School/Stage5B/S05_TOILET.asset",
+      "sha256": "8e19579575b26064bce1455efb940c6c643a6624a68dbfc98f1157bbaee18fd9"
+    },
+    {
+      "path": "Assets/GameData/School/Stage5B/S05_USB_CONTENT_DESCRIPTION.asset",
+      "sha256": "ddb82214f3cf6588fd2d38a33550703521f21ad55263d38108e87dacc3d8df43"
+    },
+    {
+      "path": "Assets/GameData/School/Stage5B/S05_ZHANG_USB.asset",
+      "sha256": "8b7edd934dc4ba1ea35d339d70c73c72e1a8e83d03202781bbf89f45b4e3348a"
+    },
+    {
+      "path": "Assets/GameData/School/Stage5B/S05_ZHENG_FULL.asset",
+      "sha256": "41a454c44907a588623eec44b9d0471d534e1e4c9a3650165274f0ebfeca2e5c"
+    },
+    {
+      "path": "Assets/GameData/School/Stage5B/S05_ZHENG_REMAINING_17.asset",
+      "sha256": "d328268e4300343b3768dda4e65f7bf52a828915b3de07f914ddc767125e1573"
+    },
+    {
+      "path": "Assets/GameData/School/Stage5C/D_ChaseOpening.asset",
+      "sha256": "3f716321367c06c89c84b4157f5eb8d3b725c6c0a8ab1633db5e33b08cfb1fa7"
+    },
+    {
+      "path": "Assets/GameData/School/Stage5C/D_EmailRead.asset",
+      "sha256": "83807c2f20dc668c7fc509f766b43bdfe5123ea1b1f06d93b74c5529b1a612af"
+    },
+    {
+      "path": "Assets/GameData/School/Stage5C/D_HomeGuideFirst.asset",
+      "sha256": "0500e15a40e4579dc85f2732019fbfe7cbfd930497413c53e1a3c97150a23cfa"
+    },
+    {
+      "path": "Assets/GameData/School/Stage5C/D_HomeGuideRepeat.asset",
+      "sha256": "727cf28d15d1832aa7098dac58dbb5f32558db1bd16f2104dae0e487b665138b"
+    },
+    {
+      "path": "Assets/GameData/School/Stage5C/D_SecurityCleared.asset",
+      "sha256": "17e6d346acb8903304270031171ac366c123a24769c8f8fd9ee5a3ec52866595"
+    },
+    {
+      "path": "Assets/Prefabs/PersistentRuntime.prefab",
+      "sha256": "8a9cb77e71207154ea23a1a7925bbd63bd861b370bc32a8335fe87c068ef7603"
+    },
+    {
+      "path": "Assets/Scenes/Scene01_Rain.unity",
+      "sha256": "5736f95487be6c61bd439d0f63119c19d4bd86343cf4edb64d3beb1a0a57c9a3"
+    },
+    {
+      "path": "Assets/Scenes/Scene03_Childhood.unity",
+      "sha256": "505794c93dd2b1576a42131c798a9ff78370905fb0d685c076329d8f8eda3e15"
+    },
+    {
+      "path": "Assets/Scenes/Scene04_School.unity",
+      "sha256": "3e3971eb850905fba33b1ff11dab58e2a7e3cf68d63f8f5b830772839d967b92"
+    },
+    {
+      "path": "Assets/ScriptableObjects/D_S01_Crowd_First.asset",
+      "sha256": "bb1a111096c0483c9cec4b7dbb15a6d05200129e3c6e5352cef0f8b2bfaeedcb"
+    },
+    {
+      "path": "Assets/ScriptableObjects/D_S01_Gate_Locked.asset",
+      "sha256": "9823fc80aa94b8064a51f4882f8ea492a1e068d032ec2043f07d09761243645d"
+    },
+    {
+      "path": "Assets/ScriptableObjects/D_S01_Gate_Unlock.asset",
+      "sha256": "18f58c79a14ad7e9430e019b4b6b52e0050120f173599f3ee8eaa459a7b46d05"
+    },
+    {
+      "path": "Assets/ScriptableObjects/D_S01_GateKey_Pickup.asset",
+      "sha256": "d3cd9512efda647e5ed0d9a63b0d7080a93549db6b6ee983561e86db6b5d0917"
+    },
+    {
+      "path": "Assets/ScriptableObjects/D_S01_IDHolder_First.asset",
+      "sha256": "aa410c81518faf1e4c114f6c765099620a3f9de45d372a2a08d8db1f8738c0ac"
+    },
+    {
+      "path": "Assets/ScriptableObjects/D_S01_NewspaperFragment01.asset",
+      "sha256": "8813ba99262773b0ce62d2d9e70b17801ff93674e792a7cd4fc9452111ff75a1"
+    },
+    {
+      "path": "Assets/ScriptableObjects/D_S01_PoliceCar_First.asset",
+      "sha256": "d878a543463e245fc8b083ea792cb8baa6fbadde4b1a94ae371ec7d51a880e23"
+    },
+    {
+      "path": "Assets/ScriptableObjects/D_S01_Puddle_AfterReflection.asset",
+      "sha256": "a63f8930e9ddf988b5c83b15b380d2836472725d06842afdec6ef4fe673f7dee"
+    },
+    {
+      "path": "Assets/ScriptableObjects/D_S01_Puddle_BeforeReflection.asset",
+      "sha256": "bd3087c18c675571437fff7ad711c067a45e15a90289fb37e7c56721ea4f87fb"
+    },
+    {
+      "path": "Assets/ScriptableObjects/D_S01_Puddle_First.asset",
+      "sha256": "47f4e6e9c4c744b4e68972709975edfc03b79a76b933ee01904e4a7018943b80"
+    },
+    {
+      "path": "Assets/ScriptableObjects/D_S01_Puddle_Repeat.asset",
+      "sha256": "cc214abe96d7a1ca4d5e3157da80b72ebab16414b2167767a0d78d769592073d"
+    },
+    {
+      "path": "Assets/ScriptableObjects/D_S01_QiuTian_First.asset",
+      "sha256": "09a7d8f6ce50b02cfcf92512c3568cc1efd4665dd1d0118cae68c6d54be312ba"
+    },
+    {
+      "path": "Assets/ScriptableObjects/D_S02_AdultShadows.asset",
+      "sha256": "f8fbe16683c3bbdc3d5c9ea2447c3736ffde2a1a9751d3c92dd4cc43cc97527d"
+    },
+    {
+      "path": "Assets/ScriptableObjects/D_S02_BrokenLamp_First.asset",
+      "sha256": "8666ceecbb300f21d303abdc6c88a1e0c1ea3007128e12a0ab952341bced1769"
+    },
+    {
+      "path": "Assets/ScriptableObjects/D_S02_DarkFog_First.asset",
+      "sha256": "bbb3e65b3d47a2d2a013971cba404279e2441f700e001c0cb6fc58fcffc7cb44"
+    },
+    {
+      "path": "Assets/ScriptableObjects/D_S02_Guide_First.asset",
+      "sha256": "ae2850aa984df5c0be8c2ec86068c92ce184f818b3e3096330513596957a41af"
+    },
+    {
+      "path": "Assets/ScriptableObjects/D_S02_Guide_Repeat.asset",
+      "sha256": "e599269258a9f7baf9f96783879c8b4dc8aba198b9d9e7cb72dd1fc14dced491"
+    },
+    {
+      "path": "Assets/ScriptableObjects/D_S02_HiddenBedroom_Bed.asset",
+      "sha256": "bd23ae469dcc743e4017d538905ffa352421391edf5a7231d583994551e69c69"
+    },
+    {
+      "path": "Assets/ScriptableObjects/D_S02_LivingRoom_Locked.asset",
+      "sha256": "e7a4932aefcc1920ab02e994067664e815f39087fee774a38402336608e2e155"
+    },
+    {
+      "path": "Assets/ScriptableObjects/D_S02_MasterBedroom_Bed.asset",
+      "sha256": "0be086f7d9428a4fa8d473b4681d312630cfe8368adcd30da4848ab67c1bc5a7"
+    },
+    {
+      "path": "Assets/ScriptableObjects/D_S02_MasterBedroom_Cabinet.asset",
+      "sha256": "0231f1c2ad88fbe15cad1c3ff77382847b276fdf8f040d3e2dc01c42d6b1c80a"
+    },
+    {
+      "path": "Assets/ScriptableObjects/D_S02_MasterBedroom_Lamp.asset",
+      "sha256": "14a44bb7ca2cfc97023f24f686e6ea3944d526c27c33202604685266a8037ab0"
+    },
+    {
+      "path": "Assets/ScriptableObjects/D_S02_MasterBedroom_Wardrobe.asset",
+      "sha256": "870955411400669fa506a413542370136b4520791fffd84dddfb146ada974a86"
+    },
+    {
+      "path": "Assets/ScriptableObjects/D_S02_OldCamera_Pickup.asset",
+      "sha256": "e6bdf3258c87b8a73e2ea420a3ed649250af40682195648b41df9eb5c204498f"
+    },
+    {
+      "path": "Assets/ScriptableObjects/D_S02_StainedPhoto_First.asset",
+      "sha256": "5ef4aa51cd3c0956a69a1ae69232c61112381876797430b49c3ac0761b6b58dc"
+    },
+    {
+      "path": "Assets/Scripts/Dialogue/DialogueData.cs",
+      "sha256": "e41a817514e29979eade3307465084dcc507599ba7500384f09c42de931db2c2"
+    },
+    {
+      "path": "Assets/Scripts/Dialogue/DialogueIdentity.cs",
+      "sha256": "bb34dd1982587e0103166abfd235bc43236725e7955c7ebe0e61780c97ca09f7"
+    },
+    {
+      "path": "Assets/Scripts/Dialogue/DialogueIdentity.cs.meta",
+      "sha256": "3837fbc44edbebf3f4f1139da9ace3488dc204072b566adeade3e0196db75cd7"
+    },
+    {
+      "path": "Assets/Scripts/Dialogue/DialogueLine.cs",
+      "sha256": "32083d905f4193b26dcb572fac2ecf867a1ec278bf6017ad71e95530e1351c9d"
+    },
+    {
+      "path": "Assets/Scripts/Dialogue/DialogueManager.cs",
+      "sha256": "1cbbe69c4207ed1dcf229c546572a5757bb18fd4de5b5267cd353d509c3bffda"
+    },
+    {
+      "path": "Assets/Scripts/Dialogue/DialoguePortraitMask.cs",
+      "sha256": "8c0ea034c21162b00582e053dbf119c238a5f506e96e17d7d244958bb39aa308"
+    },
+    {
+      "path": "Assets/Scripts/Dialogue/DialoguePortraitMask.cs.meta",
+      "sha256": "870b9fde078a1be71a6d8b1be5819bdc635459207c251b15c1e9710d23b1c556"
+    },
+    {
+      "path": "Assets/Scripts/Interaction/InteractionReach.cs",
+      "sha256": "74d3a47ca7180a6882bf1b207b5b95f730c41dc4f09dfd86b6ffb4f1f302b45e"
+    },
+    {
+      "path": "Assets/Scripts/Interaction/InteractionReach.cs.meta",
+      "sha256": "e750c2651f689c762a8d335951110ddffad43b6a4c4bf083d4f29798ff37b63e"
+    },
+    {
+      "path": "Assets/Scripts/Interaction/PlayerInteraction.cs",
+      "sha256": "36ec407f0928ae6fcf984186d4816ff9e9d26a65359be28b34a878a4ea73721d"
+    },
+    {
+      "path": "Assets/Scripts/Presentation/DemoDialogueArtwork.cs",
+      "sha256": "ead091c8ff69a52b1be79af89414e0935990e408644a40567fec2d0f235676d4"
+    },
+    {
+      "path": "Assets/Scripts/Presentation/HandDrawnInteractionHighlight.cs",
+      "sha256": "c9d72bc24bb73b9bd599774b47808f7f92076af9f2221b6391106c070d5fccc1"
+    },
+    {
+      "path": "Assets/Scripts/System/GameControlManager.cs",
+      "sha256": "1b5dc52b8be0c85edd13e6f287a91fd99dca50253ae4a064bc23082c9391c6a6"
+    },
+    {
+      "path": "Assets/Scripts/UI/InteractionUI.cs",
+      "sha256": "220541de4bade01be6dde751ef4f6ea7c3506b4ca5ee0f4b1de40336d6ec1180"
+    }
+  ],
+  "githubUpload": "manual by user; no remote operation",
+  "editorState": "2026-10-01T10:55:32.5652100+08:00 scene=Scene01_Rain dirty=False playing=False counts=0,0,2 art=943 newCloseupType=DemoCloseupPresentation"
+}

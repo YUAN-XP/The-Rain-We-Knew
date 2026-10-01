@@ -166,7 +166,7 @@ public sealed class SchoolSceneController : MonoBehaviour
     void Update()
     {
         if (!Ready) return;
-        if (modal != null && Input.GetKeyDown(KeyCode.Escape)) CloseModal();
+        if (modal != null && GameplayInput.GetKeyDown(KeyCode.Escape)) CloseModal();
         if ((chase!=null&&chase.IsActive) || Busy || Controls.IsLocked() || layout.Actor != SchoolActor.Adult
             || layout.Variant != SchoolWorldVariant.Otherworld || layout.CurrentRoom != "Floor01") return;
         var active = Controls.ActivePlayer;
@@ -221,7 +221,7 @@ public sealed class SchoolSceneController : MonoBehaviour
         busy = true; LockInteraction();
         Story.Set(StoryFlag.EquipmentVoicePlayed);
         if (effects != null && equipmentMovementSound != null)
-        { effects.PlayOneShot(equipmentMovementSound, .4f); yield return new WaitForSecondsRealtime(.65f); }
+        { effects.PlayOneShot(equipmentMovementSound, .4f); yield return GameplayClock.Wait(.65f); }
         yield return Say(equipmentVoiceDialogue);
         UnlockInteraction(); busy = false;
     }
@@ -399,7 +399,7 @@ public sealed class SchoolSceneController : MonoBehaviour
         layout.SetNarrative(SchoolActor.Youth, SchoolPhase.YouthOpening);
         if (zhengTaoVisual != null) zhengTaoVisual.SetActive(true);
         if (youthGrabbingArm != null) youthGrabbingArm.SetActive(true);
-        yield return new WaitForSecondsRealtime(whiteHoldSeconds);
+        yield return GameplayClock.Wait(whiteHoldSeconds);
         yield return FadeWhite(0, whiteOutSeconds);
         if (youthFlow != null) yield return youthFlow.ContinueOpening(false);
         else
@@ -437,7 +437,7 @@ public sealed class SchoolSceneController : MonoBehaviour
     {
         whiteFlash.blocksRaycasts = true;
         float from = whiteFlash.alpha;
-        for (float t = 0; t < duration; t += Time.unscaledDeltaTime)
+        for (float t = 0; t < duration; t += GameplayClock.Delta)
         { whiteFlash.alpha = Mathf.Lerp(from, target, t / duration); yield return null; }
         whiteFlash.alpha = target;
         whiteFlash.blocksRaycasts = target > 0;

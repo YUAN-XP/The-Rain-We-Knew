@@ -14,4 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
   lines:
   - speaker: "\u8D75\u70B3\u7A0B"
+    characterId: 13
+    age: 0
+    portraitMode: 0
+    portraitKey: ""
     text: "\u5C0F\u9E4F\u96BE\u5F97\u4EA4\u4E0A\u4E2A\u670B\u53CB\u2026\u2026\u4E5F\u4E0D\u77E5\u9053\u8FD9\u5B69\u5B50\u4F1A\u5728\u9547\u4E0A\u4F4F\u591A\u4E45\u3002"

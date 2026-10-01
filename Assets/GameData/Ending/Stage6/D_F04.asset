@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: D_F04
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
   lines:
-  - speaker: "\u90D1\u6D9B"
+  - speaker: "？？？"
+    characterId: 5
+    age: 3
+    portraitMode: 0
+    portraitKey: ""
     text: "\u5BF9\u4E0D\u8D77\uFF0C\u6211\u2014\u2014"
+  hideAllPortraits: 1
   minimumReadSeconds: 0.85

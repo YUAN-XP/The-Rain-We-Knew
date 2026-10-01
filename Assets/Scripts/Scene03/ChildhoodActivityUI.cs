@@ -88,10 +88,10 @@ public class ChildhoodActivityUI : MonoBehaviour
             chapter.Inventory.RemoveItem(chapter.content.fishItem);chapter.Story.Set(StoryFlag.CatFed);
             body.text="把小鱼仔放在一旁。";closeupCoin.gameObject.SetActive(true);chapter.coinVisual.SetActive(true);
             Vector3 from=chapter.catVisual.transform.localPosition;Vector2 portraitFrom=catPortrait.anchoredPosition;
-            for(float t=0;t<.9f;t+=Time.unscaledDeltaTime)
+            for(float t=0;t<.9f;t+=GameplayClock.Delta)
             {float f=Mathf.SmoothStep(0,1,t/.9f);chapter.catVisual.transform.localPosition=Vector3.Lerp(from,new Vector3(2,0,0),f);catPortrait.anchoredPosition=portraitFrom+Vector2.right*(stage.rect.width*.23f*f);yield return null;}
             chapter.catVisual.transform.localPosition=new Vector3(2,0,0);
-            body.text="小猫移开了，游戏币露了出来。";yield return new WaitForSecondsRealtime(1);
+            body.text="小猫移开了，游戏币露了出来。";yield return GameplayClock.Wait(1);
         }
         page.SetActive(false);yield return chapter.Say(chapter.content.feedCat);
         if(!chapter.Story.Has(StoryFlag.GameCoinObtained)){chapter.Inventory.AddItem(chapter.content.coinItem);chapter.Story.Set(StoryFlag.GameCoinObtained);}
@@ -149,7 +149,7 @@ public class ChildhoodActivityUI : MonoBehaviour
     IEnumerator Reconstruct(int index)
     {
         // Leave the snapped card visible before revealing the completed puppet scene.
-        yield return new WaitForSecondsRealtime(.45f);
+        yield return GameplayClock.Wait(.45f);
         foreach(var card in stage.GetComponentsInChildren<ChildhoodDragHandle>())card.gameObject.SetActive(false);
         slot.GetComponent<Image>().color=Color.clear;slot.GetComponent<Outline>().enabled=false;
         foreach(Transform c in slot)c.gameObject.SetActive(false);
@@ -157,7 +157,7 @@ public class ChildhoodActivityUI : MonoBehaviour
         body.text="";status.text="";
         var origin=puppet.anchoredPosition;
         float direction=index==2?1:-1;
-        for(float t=0;t<.95f;t+=Time.unscaledDeltaTime){
+        for(float t=0;t<.95f;t+=GameplayClock.Delta){
             float progress=Mathf.SmoothStep(0,1,t/.95f);
             puppet.anchoredPosition=origin+new Vector2(direction*(1-progress)*stage.rect.width*.17f,Mathf.Sin(progress*Mathf.PI)*5);
             puppet.localRotation=Quaternion.Euler(0,0,Mathf.Sin(progress*Mathf.PI*2)*2f);yield return null;
@@ -170,7 +170,7 @@ public class ChildhoodActivityUI : MonoBehaviour
         foreach(string phrase in narration.Split(new[]{'，','；','。'},System.StringSplitOptions.RemoveEmptyEntries)){
             speechText.text=phrase+"。";
             float duration=Mathf.Max(1.4f,phrase.Length*.115f);
-            for(float t=0;t<duration;t+=Time.unscaledDeltaTime){
+            for(float t=0;t<duration;t+=GameplayClock.Delta){
                 puppet.localRotation=Quaternion.Euler(0,0,Mathf.Sin(t*5.5f)*1.1f);
                 yield return null;
             }
@@ -266,27 +266,27 @@ public class ChildhoodActivityUI : MonoBehaviour
         float t=0;int hit=-1;
         while(t<5)
         {
-            t+=Time.unscaledDeltaTime;
+            t+=GameplayClock.Delta;
             Vector2 p=start+v*t+Vector2.down*(250*t*t);ring.anchoredPosition=p;ring.localRotation=Quaternion.Euler(0,0,t*220);
             if(v.y-500*t<0)for(int i=0;i<4;i++)if(!targetsHit[i]&&Mathf.Abs(p.x-targets[i].x)<36&&Mathf.Abs(p.y-targets[i].y)<24){hit=i;break;}
             if(hit>=0||p.y<0||p.x>1150)break;yield return null;
         }
         if(hit>=0){targetsHit[hit]=true;targetViews[hit].GetComponent<Image>().color=new Color(.36f,.73f,.46f);chapter.effects.PlayOneShot(chapter.content.hitSound,.3f);status.text="套中了！ · 剩余 "+attempts+" 次";yield return Wobble(targetViews[hit]);}
-        else {status.text="差一点…… · 剩余 "+attempts+" 次";yield return new WaitForSecondsRealtime(.5f);}
-        yield return new WaitForSecondsRealtime(.3f);flying=false;ring.anchoredPosition=start;ring.localRotation=Quaternion.identity;UpdateStatus();
+        else {status.text="差一点…… · 剩余 "+attempts+" 次";yield return GameplayClock.Wait(.5f);}
+        yield return GameplayClock.Wait(.3f);flying=false;ring.anchoredPosition=start;ring.localRotation=Quaternion.identity;UpdateStatus();
         if(HitCount==4){yield return Win();}
         else if(attempts==0)
         {
             retrying=true;chapter.effects.PlayOneShot(chapter.content.retrySound,.25f);
             yield return chapter.Fade(1,.22f);page.SetActive(false);
-            yield return new WaitForSecondsRealtime(.3f);yield return chapter.Fade(0,.25f);
+            yield return GameplayClock.Wait(.3f);yield return chapter.Fade(0,.25f);
             yield return chapter.Say(chapter.content.ringRetry);
             ResetRound();page.SetActive(true);retrying=false;UpdateStatus();
         }
     }
     IEnumerator Wobble(RectTransform target)
     {
-        for(float t=0;t<.45f;t+=Time.unscaledDeltaTime){target.localRotation=Quaternion.Euler(0,0,Mathf.Sin(t*40)*13*(1-t/.45f));target.localScale=Vector3.one*(1+.13f*Mathf.Sin(t/.45f*Mathf.PI));yield return null;}
+        for(float t=0;t<.45f;t+=GameplayClock.Delta){target.localRotation=Quaternion.Euler(0,0,Mathf.Sin(t*40)*13*(1-t/.45f));target.localScale=Vector3.one*(1+.13f*Mathf.Sin(t/.45f*Mathf.PI));yield return null;}
         target.localRotation=Quaternion.identity;target.localScale=Vector3.one;
     }
     IEnumerator Win()
@@ -305,7 +305,7 @@ public class ChildhoodActivityUI : MonoBehaviour
     }
     void Update()
     {
-        if(IsOpen&&Input.GetKeyDown(KeyCode.Escape))Close();
+        if(IsOpen&&GameplayInput.GetKeyDown(KeyCode.Escape))Close();
         if(mode!="套圈挑战"||!IsOpen||trajectoryDots==null)return;
         float scale=Mathf.Min((stage.rect.width-60)/1120f,(stage.rect.height-50)/380f);
         launchPad.localScale=Vector3.one*scale;

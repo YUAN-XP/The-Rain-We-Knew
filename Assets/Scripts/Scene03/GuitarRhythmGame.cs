@@ -15,7 +15,7 @@ public class GuitarRhythmGame : MonoBehaviour
     public bool WaitingForStart {get;private set;}
     public int PhraseIndex {get;private set;}
     public int RetryCount {get;private set;}
-    public float PhraseTime => Time.unscaledTime - phraseStarted;
+    public float PhraseTime => GameplayClock.Now - phraseStarted;
     public event Action<KeyCode,bool,float,string> Judged;
     public event Action<int> PhraseStarted;
     RectTransform canvas, page, track;
@@ -97,28 +97,28 @@ public class GuitarRhythmGame : MonoBehaviour
             RuntimePanelUI.Text(note.key==KeyCode.Space?"拍":note.key.ToString(),token,chapter.font,Vector2.zero,Vector2.one,25).color=new Color(.19f,.22f,.18f);
         }
         sustain.Reset(p.notes[0].time, p.notes[p.notes.Length-1].time, releaseGraceSeconds);
-        missed=false;transitioning=false;phraseStarted=Time.unscaledTime;
+        missed=false;transitioning=false;phraseStarted=GameplayClock.Now;
         title.text=$"第 {PhraseIndex+1} / 4 段";
         chord.text="持续按住\n"+(p.heldChord==KeyCode.LeftArrow?"←":"→");
         feedback.text="跟着琴弦慢慢来";
         instruction.text="音符到竖线时按键 · 段尾松开 W/S/A/D 后按 Space · Good / Perfect 均可通过";
         PhraseStarted?.Invoke(PhraseIndex);
     }
-    bool HeldCorrectly()=>Input.GetKey(phrases[PhraseIndex].heldChord)&&!Input.GetKey(phrases[PhraseIndex].heldChord==KeyCode.LeftArrow?KeyCode.RightArrow:KeyCode.LeftArrow);
+    bool HeldCorrectly()=>GameplayInput.GetKey(phrases[PhraseIndex].heldChord)&&!GameplayInput.GetKey(phrases[PhraseIndex].heldChord==KeyCode.LeftArrow?KeyCode.RightArrow:KeyCode.LeftArrow);
     void Update()
     {
-        if(!IsRunning||transitioning||!Application.isFocused)return;
-        if(WaitingForStart){if(Input.GetKeyDown(KeyCode.E)){WaitingForStart=false;StartPhrase();}return;}
+        if(GameplayInput.Blocked||!IsRunning||transitioning||!Application.isFocused)return;
+        if(WaitingForStart){if(GameplayInput.GetKeyDown(KeyCode.E)){WaitingForStart=false;StartPhrase();}return;}
         if(!hadFocus){hadFocus=true;StartPhrase();}
         bool held=HeldCorrectly();chordPlate.color=held?new Color(.37f,.52f,.33f):new Color(.37f,.31f,.23f);
-        if(sustain.Tick(PhraseTime,Time.unscaledDeltaTime,held)){
+        if(sustain.Tick(PhraseTime,GameplayClock.Delta,held)){
             missed=true;feedback.text="Miss · 长条结束前请持续按住和弦";
             feedback.color=new Color(1,.70f,.55f);Judged?.Invoke(phrases[PhraseIndex].heldChord,false,PhraseTime,"Miss · 和弦中断");
         }
         DrawSustain(PhraseTime,held);
         Tick(PhraseTime);
         if(transitioning)return;
-        foreach(var key in Keys)if(Input.GetKeyDown(key))Hit(key,held,PhraseTime);
+        foreach(var key in Keys)if(GameplayInput.GetKeyDown(key))Hit(key,held,PhraseTime);
     }
     void DrawSustain(float time,bool held)
     {
@@ -157,7 +157,7 @@ public class GuitarRhythmGame : MonoBehaviour
         if(nearest<0||delta>p.goodWindow)
         {missed=true;feedback.text="Miss · 跟着当前音符";feedback.color=new Color(1,.70f,.55f);Judged?.Invoke(key,held,time,"Miss · 错键或时机");return;}
         bool released=true;
-        if(key==KeyCode.Space)foreach(var noteKey in Keys)if(noteKey!=KeyCode.Space&&Input.GetKey(noteKey))released=false;
+        if(key==KeyCode.Space)foreach(var noteKey in Keys)if(noteKey!=KeyCode.Space&&GameplayInput.GetKey(noteKey))released=false;
         if(!released){Judge(nearest,false,time,"Miss · 拍弦前请松开 W/S/A/D");return;}
         bool ok=held;
         Judge(nearest,ok,time,!held?"Miss · 请持续按住正确和弦":delta<=p.perfectWindow?"Perfect":"Good");
@@ -175,16 +175,16 @@ public class GuitarRhythmGame : MonoBehaviour
         if(missed)
         {
             RetryCount++;feedback.text="这一段再来一次，前面弹好的都还在。";
-            yield return new WaitForSecondsRealtime(1.4f);StartPhrase();yield break;
+            yield return GameplayClock.Wait(1.4f);StartPhrase();yield break;
         }
         PhraseIndex++;
         if(PhraseIndex<phrases.Length)
-        {feedback.text="这一段弹好了";yield return new WaitForSecondsRealtime(1.2f);StartPhrase();yield break;}
+        {feedback.text="这一段弹好了";yield return GameplayClock.Wait(1.2f);StartPhrase();yield break;}
         feedback.text="让这首歌继续吧。";
-        for(float t=0;t<.7f;t+=Time.unscaledDeltaTime){group.alpha=1-t/.7f;yield return null;}
+        for(float t=0;t<.7f;t+=GameplayClock.Delta){group.alpha=1-t/.7f;yield return null;}
         page.gameObject.SetActive(false);Completed=true;IsRunning=false;transitioning=false;Release();
     }
-    void OnApplicationFocus(bool focus){if(!focus&&IsRunning&&!WaitingForStart)hadFocus=false;}
+    void OnApplicationFocus(bool focus){ /* Global pause preserves the exact phrase instead of restarting it. */ }
     void Release(){if(ownsLock&&chapter!=null&&chapter.Controls!=null)chapter.Controls.ReleaseLock(ControlLockReason.CloseUp);ownsLock=false;}
     void OnDisable(){StopAllCoroutines();IsRunning=false;Release();if(canvas!=null)canvas.gameObject.SetActive(false);}
 }

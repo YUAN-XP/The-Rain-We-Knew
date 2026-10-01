@@ -14,8 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
   lines:
   - speaker: Xiao Peng
+    characterId: 2
+    age: 0
+    portraitMode: 0
+    portraitKey: ""
     text: A police car...
   - speaker: Xiao Peng
+    characterId: 2
+    age: 0
+    portraitMode: 0
+    portraitKey: ""
     text: The lights are off, but it looks like it has been here for a while.
   - speaker: Xiao Peng
+    characterId: 2
+    age: 0
+    portraitMode: 0
+    portraitKey: ""
     text: Why would the police be here?

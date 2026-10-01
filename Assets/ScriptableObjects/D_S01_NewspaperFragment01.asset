@@ -14,8 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
   lines:
   - speaker: Xiao Peng
+    characterId: 2
+    age: 0
+    portraitMode: 0
+    portraitKey: ""
     text: A torn piece of newspaper...
   - speaker: Xiao Peng
+    characterId: 2
+    age: 0
+    portraitMode: 0
+    portraitKey: ""
     text: Most of the article is missing.
   - speaker: Xiao Peng
+    characterId: 2
+    age: 0
+    portraitMode: 0
+    portraitKey: ""
     text: I should keep this.

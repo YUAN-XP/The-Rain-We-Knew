@@ -14,8 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
   lines:
   - speaker: Xiao Peng
+    characterId: 2
+    age: 0
+    portraitMode: 0
+    portraitKey: ""
     text: There are too many people gathered here.
   - speaker: Xiao Peng
+    characterId: 2
+    age: 0
+    portraitMode: 0
+    portraitKey: ""
     text: No one seems to notice me.
   - speaker: Xiao Peng
+    characterId: 2
+    age: 0
+    portraitMode: 0
+    portraitKey: ""
     text: ...What are they all looking at?

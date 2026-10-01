@@ -36,7 +36,7 @@ public static class DemoArtImporter
                 var texture=AssetDatabase.LoadAssetAtPath<Texture2D>(source.path);
                 if(texture.width!=source.width||texture.height!=source.height)throw new Exception("Unexpected texture resize: "+source.id);
                 foreach(var r in source.regions){
-                    var rect=new Rect(r.x,r.y,r.w,r.h);
+                    var rect=P01SpriteRegionCorrections.Correct(r.key,new Rect(r.x,r.y,r.w,r.h));
                     if(r.w<=0||r.h<=0||r.x<0||r.y<0||rect.xMax>texture.width||rect.yMax>texture.height)throw new Exception("Invalid sprite region: "+r.key);
                     if(!existing.TryGetValue(r.key,out var sprite)||sprite.texture!=texture||sprite.rect!=rect){
                         if(sprite)UnityEngine.Object.DestroyImmediate(sprite,true);

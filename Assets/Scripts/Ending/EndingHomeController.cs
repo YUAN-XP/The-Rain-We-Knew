@@ -11,6 +11,8 @@ public sealed class EndingHomeController : EndingStageController
     public Transform approachStart,approachStop;
     bool following,noticeRunning;
     float lastPlayerX,followDirection=1;
+    public float SaveFollowDirection=>followDirection;
+    public void RestoreFollowDirection(float direction){followDirection=direction<0?-1:1;if(controls&&controls.ActivePlayer)lastPlayerX=controls.ActivePlayer.transform.position.x;}
     GameObject offeredCard;
     protected override bool PauseAvailable=>busy||session!=null&&session.HandoverStarted;
     protected override IEnumerator Begin(){

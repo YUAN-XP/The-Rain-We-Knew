@@ -105,12 +105,13 @@ public partial class FogIntroController : MonoBehaviour
     }
     private void Update()
     {
+        if(GamePause.IsPaused)return;
         if (!IsActive || controls == null || controls.ActivePlayer == null) return;
         if(schoolReturnMode){UpdateSchoolReturn();return;}
         if (Phase == FogIntroPhase.Dead)
         {
-            if (!Input.GetKey(KeyCode.E)) retryArmed = true;
-            if (retryArmed && Input.GetKeyDown(KeyCode.E) && Time.frameCount > completedFrame) StartCoroutine(Retry());
+            if (!GameplayInput.GetKey(KeyCode.E)) retryArmed = true;
+            if (retryArmed && GameplayInput.GetKeyDown(KeyCode.E) && Time.frameCount > completedFrame) StartCoroutine(Retry());
             return;
         }
         if (Phase == FogIntroPhase.FreeWalk || Phase == FogIntroPhase.Encircled)
@@ -132,17 +133,17 @@ public partial class FogIntroController : MonoBehaviour
         if (Phase == FogIntroPhase.Charging)
         {
             if (approachingCrowd != null)
-                approachingCrowd.position = Vector3.MoveTowards(approachingCrowd.position, crowdStart + crowdApproachOffset, crowdApproachSpeed * Time.unscaledDeltaTime);
+                approachingCrowd.position = Vector3.MoveTowards(approachingCrowd.position, crowdStart + crowdApproachOffset, crowdApproachSpeed * GameplayClock.Delta);
             // Require release after the last dialogue key, then a new held input.
-            if (!Input.GetKey(KeyCode.Space)) spaceArmed = true;
+            if (!GameplayInput.GetKey(KeyCode.Space)) spaceArmed = true;
             bool responsive = !controls.IsLockedBy(ControlLockReason.Dialogue) && !controls.IsLockedBy(ControlLockReason.Inventory)
                 && !controls.IsLockedBy(ControlLockReason.CloseUp) && !controls.IsLockedBy(ControlLockReason.SceneTransition) && Time.timeScale > 0;
-            lamp.TickCharge(spaceArmed && responsive && Input.GetKey(KeyCode.Space), responsive ? Time.unscaledDeltaTime : 0);
+            lamp.TickCharge(spaceArmed && responsive && GameplayInput.GetKey(KeyCode.Space), responsive ? GameplayClock.Delta : 0);
             chargeText.text = "长按空格" + (lamp.Charge01 > 0 ? "  " + Mathf.RoundToInt(lamp.Charge01 * 100) + "%" : "");
         }
         if (Phase == FogIntroPhase.Encircled || Phase == FogIntroPhase.Inquiry || Phase == FogIntroPhase.Charging)
         {
-            float a = .7f + .18f * Mathf.Sin(Time.unscaledTime * 2.4f);
+            float a = .7f + .18f * Mathf.Sin(GameplayClock.Now * 2.4f);
             bullyingLeft.alpha = a; bullyingRight.alpha = a;
         }
     }
@@ -159,7 +160,7 @@ public partial class FogIntroController : MonoBehaviour
     {
         if (lamp.IsIlluminating) { ClearDanger(); return; }
         if (!DangerClockRuns()) { if (heartbeat != null) heartbeat.Pause(); return; }
-        darkTime += Time.unscaledDeltaTime;
+        darkTime += GameplayClock.Delta;
         dangerText.text = "这里太黑了，有些令人不安...";
         if (heartbeat != null)
         {
@@ -182,7 +183,7 @@ public partial class FogIntroController : MonoBehaviour
         // required actual light and the cutscene keeps that lamp pose.
         if (!lamp.IsIlluminating) { ReleaseCutscene(); Phase = FogIntroPhase.Encircled; yield break; }
         spaceArmed = false;
-        while (Input.GetKey(KeyCode.Space)) yield return null;
+        while (GameplayInput.GetKey(KeyCode.Space)) yield return null;
         if (Phase != FogIntroPhase.Inquiry) yield break;
         spaceArmed = true; lamp.BeginCharge(); Phase = FogIntroPhase.Charging;
         chargeText.text = "长按空格";
@@ -195,7 +196,7 @@ public partial class FogIntroController : MonoBehaviour
     private IEnumerator Disperse()
     {
         ClearDanger(); chargeText.text = "";
-        for (float t = 0; t < dispersalSeconds; t += Time.unscaledDeltaTime)
+        for (float t = 0; t < dispersalSeconds; t += GameplayClock.Delta)
         {
             float alpha = Mathf.Clamp01(t / dispersalSeconds); whiteMask.color = new Color(1, 1, 1, alpha);
             bullyingLeft.alpha = bullyingRight.alpha = 1 - alpha;
@@ -228,7 +229,7 @@ public partial class FogIntroController : MonoBehaviour
         checkpoint.Restore(controls, lamp); ResetTransient();
         if (fogVisualRoot != null) fogVisualRoot.SetActive(false);
         yield return null; yield return new WaitForFixedUpdate();
-        while (Input.GetKey(KeyCode.E)) yield return null;
+        while (GameplayInput.GetKey(KeyCode.E)) yield return null;
         retryFrame = Time.frameCount + 1; uiRoot.SetActive(false); Phase = FogIntroPhase.Idle;
         ReleaseCutscene();
     }

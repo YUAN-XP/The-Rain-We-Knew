@@ -88,7 +88,7 @@ public class Scene02ReturnController : MonoBehaviour
     IEnumerator DrawerNotice()
     {
         float free=0;
-        while(free<.75f){free=controls.IsLocked()?0:free+Time.unscaledDeltaTime;yield return null;}
+        while(free<.75f){free=controls.IsLocked()?0:free+GameplayClock.Delta;yield return null;}
         if(story.Set(StoryFlag.Scene03DrawerNoticeShown))PersistentRuntime.Instance.GetComponent<StoryNoticeUI>().Show("二楼抽屉应该可以打开了。",4);
     }
     IEnumerator Say(DialogueData data){if(data==null)yield break;while(dialogue.IsDialogueActive())yield return null;dialogue.StartDialogue(data);yield return null;while(dialogue.IsDialogueActive())yield return null;}

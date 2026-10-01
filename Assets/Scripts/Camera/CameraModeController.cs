@@ -67,9 +67,9 @@ public class CameraModeController : MonoBehaviour
     {
         if (IsBusy) return;
         // OilLampController owns R. Do not also process Q/Space on that frame.
-        if (Input.GetKeyDown(KeyCode.R)) return;
-        if(Input.GetKeyDown(KeyCode.Q)) { if(IsRaised) Lower(); else Raise(); }
-        else if(IsRaised && Input.GetKeyDown(KeyCode.Space)) Shoot();
+        if (GameplayInput.GetKeyDown(KeyCode.R)) return;
+        if(GameplayInput.GetKeyDown(KeyCode.Q)) { if(IsRaised) Lower(); else Raise(); }
+        else if(IsRaised && GameplayInput.GetKeyDown(KeyCode.Space)) Shoot();
     }
     public bool Raise()
     {
@@ -101,9 +101,9 @@ public class CameraModeController : MonoBehaviour
             var context = captureContext;
             if (shutterClip != null) sound.PlayOneShot(shutterClip, .55f);
             flash.color = Color.white;
-            yield return new WaitForSecondsRealtime(.075f);
+            yield return GameplayClock.Wait(.075f);
             if (context != null) context.CommitCapture(CurrentCamera);
-            yield return new WaitForSecondsRealtime(.12f);
+            yield return GameplayClock.Wait(.12f);
             Lower(); flash.color = Color.clear; IsBusy = false;
             yield break;
         }
@@ -111,8 +111,8 @@ public class CameraModeController : MonoBehaviour
         var hits=new System.Collections.Generic.List<CameraRevealTarget>();
         foreach(var target in targets) if(target.CanCapture(CurrentCamera))hits.Add(target);
         if(shutterClip!=null) sound.PlayOneShot(shutterClip,.55f);
-        flash.color=Color.white; yield return new WaitForSecondsRealtime(.075f);
-        flash.color=Color.black; yield return new WaitForSecondsRealtime(blackHold);
+        flash.color=Color.white; yield return GameplayClock.Wait(.075f);
+        flash.color=Color.black; yield return GameplayClock.Wait(blackHold);
         // Transfer from camera to reveal lock without a frame of unlocked input.
         if(hits.Count>0) {controls.AcquireLock(ControlLockReason.Cutscene);ownsRevealLock=true;}
         Lower(); flash.color=Color.clear;

@@ -32,12 +32,12 @@ public class ChildhoodDragHandle : MonoBehaviour, IPointerDownHandler, IPointerU
         else if(!owner.DropCard(cardIndex,e.position))StartCoroutine(Return());
         else {settled=true;StartCoroutine(Snap());}
     }
-    IEnumerator Snap(){Vector3 from=rect.position,to=owner.StorySlot.position;for(float t=0;t<.2f;t+=Time.unscaledDeltaTime){float f=Mathf.SmoothStep(0,1,t/.2f);rect.position=Vector3.Lerp(from,to,f);rect.localScale=Vector3.Lerp(initialScale*1.12f,initialScale*.8f,f);yield return null;}rect.position=to;}
+    IEnumerator Snap(){Vector3 from=rect.position,to=owner.StorySlot.position;for(float t=0;t<.2f;t+=GameplayClock.Delta){float f=Mathf.SmoothStep(0,1,t/.2f);rect.position=Vector3.Lerp(from,to,f);rect.localScale=Vector3.Lerp(initialScale*1.12f,initialScale*.8f,f);yield return null;}rect.position=to;}
     IEnumerator Return()
     {
         returning=true;Vector2 drop=rect.anchoredPosition;rect.localScale=initialScale;
-        for(float t=0;t<.22f;t+=Time.unscaledDeltaTime){rect.anchoredPosition=drop+Vector2.right*Mathf.Sin(t*70)*9;yield return null;}
-        for(float t=0;t<.2f;t+=Time.unscaledDeltaTime){rect.anchoredPosition=Vector2.Lerp(drop,origin,Mathf.SmoothStep(0,1,t/.2f));yield return null;}
+        for(float t=0;t<.22f;t+=GameplayClock.Delta){rect.anchoredPosition=drop+Vector2.right*Mathf.Sin(t*70)*9;yield return null;}
+        for(float t=0;t<.2f;t+=GameplayClock.Delta){rect.anchoredPosition=Vector2.Lerp(drop,origin,Mathf.SmoothStep(0,1,t/.2f));yield return null;}
         rect.anchoredPosition=origin;returning=false;
     }
 }

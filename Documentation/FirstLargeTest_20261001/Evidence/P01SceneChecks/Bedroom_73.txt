@@ -1,0 +1,15 @@
+DIAGNOSTIC position sampling, not natural input
+scene=Scene02_Courtyard player=(73.00, 1.41, 0.00) feet=0.51 speed=2.2 camera=(71.36, 1.85, -10.00) size=2.5 aspect=1.777778
+Environment/MasterBedroomInterior/Wardrobe_Placeholder/NewArt_Visual min=(66.55, 0.86, -0.10) max=(67.87, 2.91, 0.10) order=-4 sprite=SPR_HOME_WARDROBE_FRONT_V02:2 texture=1254x1254
+Environment/MasterBedroomInterior/CompactLayout_Applied/Ground_0 min=(62.80, 0.02, -0.10) max=(70.80, 1.02, 0.10) order=-34 sprite=TEX_FLOOR_QUIET_V04:1 texture=2048x768
+PersistentRuntime/Player/Demo2026_PlayerPainting min=(72.82, 0.51, -0.10) max=(73.18, 2.31, 0.10) order=2 sprite=CHR_XP_ADULT_DEFAULT_TURN3_CLEAN_V02:1 texture=1536x1024
+Environment/MasterBedroomInterior/CompactLayout_Applied/Wall_3 min=(74.80, 1.02, -0.10) max=(78.80, 4.02, 0.10) order=-35 sprite=MOD_HOME_WALL_CLOSE_OTHER_V03 texture=1448x1086
+Environment/MasterBedroomInterior/CompactLayout_Applied/Wall_1 min=(66.80, 1.02, -0.10) max=(70.80, 4.02, 0.10) order=-35 sprite=MOD_HOME_WALL_CLOSE_OTHER_V03 texture=1448x1086
+Environment/MasterBedroomInterior/NewArt_RoomShell/BedroomWindow min=(69.89, 1.35, -0.10) max=(72.51, 3.00, 0.10) order=-15 sprite=SPR_HOME_WINDOW_BOOKCASE_OTHER:0_VisualRegion texture=1774x887
+Environment/MasterBedroomInterior/Demo2026_Bookcase min=(72.26, 0.86, -0.10) max=(73.38, 2.68, 0.10) order=-5 sprite=SPR_HOME_WINDOW_BOOKCASE_OTHER:1 texture=1774x887
+Environment/MasterBedroomInterior/Cabinet_Placeholder/NewArt_Visual min=(73.58, 0.86, -0.10) max=(75.29, 1.74, 0.10) order=-4 sprite=SPR_HOME_EMPTY_SIDEBOARD_V01:1_VisualRegion texture=2032x774
+Environment/MasterBedroomInterior/Bed_Placeholder/NewArt_Visual min=(69.74, 0.86, -0.10) max=(72.14, 2.01, 0.10) order=-3 sprite=SPR_HOME_BEDS_OTHER:0_VisualRegion texture=2172x724
+Environment/MasterBedroomInterior/Lamp_Placeholder/NewArt_Visual min=(73.87, 1.73, -0.10) max=(74.16, 2.15, 0.10) order=-2 sprite=SPR_HOME_DRESSING_OTHER:2_VisualRegion texture=1536x1024
+Environment/MasterBedroomInterior/CompactLayout_Applied/Wall_2 min=(70.80, 1.02, -0.10) max=(74.80, 4.02, 0.10) order=-35 sprite=MOD_HOME_WALL_CLOSE_OTHER_V03 texture=1448x1086
+Environment/MasterBedroomInterior/CameraItem_Placeholder/NewArt_Visual min=(74.63, 1.73, -0.10) max=(75.04, 1.93, 0.10) order=-2 sprite=SPR_CAMERA_TABLETOP_V02:0_VisualRegion texture=1254x1254
+Environment/MasterBedroomInterior/CompactLayout_Applied/Ground_1 min=(70.80, 0.02, -0.10) max=(78.80, 1.02, 0.10) order=-34 sprite=TEX_FLOOR_QUIET_V04:1 texture=2048x768

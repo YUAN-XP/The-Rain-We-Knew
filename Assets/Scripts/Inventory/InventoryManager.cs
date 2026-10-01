@@ -54,6 +54,7 @@ public class InventoryManager : MonoBehaviour
         }
 
         items.Add(item);
+        GetComponent<AcquisitionHistory>()?.Record("item:"+item.itemId);
 
         Debug.Log(
             "Inventory: Added item - "

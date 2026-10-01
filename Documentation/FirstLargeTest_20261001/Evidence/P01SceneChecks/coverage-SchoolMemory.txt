@@ -1,0 +1,47 @@
+PASS School/Memory/Floor01/B5_SchoolGateNotice type=SchoolYouthInteractable paintedBounds=False outlineSeen=False width=0.9000001 selected=B5_SchoolGateNotice
+PASS School/Memory/Floor02/Stair_F02_F03_Left_AtoB type=SchoolPortal paintedBounds=True outlineSeen=True width=2.815663 selected=Stair_F02_F03_Left_AtoB
+PASS School/Memory/Floor03Left/Stair_F02_F03_Left_BtoA type=SchoolPortal paintedBounds=True outlineSeen=True width=2.815663 selected=Stair_F02_F03_Left_BtoA
+PASS School/Memory/Floor01/B5_SecurityWindow type=SchoolInteractable paintedBounds=True outlineSeen=True width=1.955041 selected=B5_SecurityWindow
+PASS School/Memory/Roof/Stair_F03_Roof_Left_BtoA type=SchoolPortal paintedBounds=True outlineSeen=True width=1.125546 selected=Stair_F03_Roof_Left_BtoA
+PASS School/Memory/Floor03Left/Stair_F03_Roof_Left_AtoB type=SchoolPortal paintedBounds=True outlineSeen=True width=1.125546 selected=Stair_F03_Roof_Left_AtoB
+PASS School/Memory/Floor02/Class3_2_Back_AtoB type=SchoolPortal paintedBounds=True outlineSeen=True width=1.125546 selected=Class3_2_Back_AtoB
+PASS School/Memory/Floor01/Security_Door_AtoB type=SchoolInteractable paintedBounds=True outlineSeen=True width=1.125546 selected=Security_Door_AtoB
+PASS School/Memory/Floor01/B5_SecurityNote type=SchoolYouthInteractable paintedBounds=True outlineSeen=True width=0.4931624 selected=B5_SecurityNote
+PASS School/Memory/Floor03Left/Reading_Left_AtoB type=SchoolPortal paintedBounds=True outlineSeen=True width=1.125546 selected=Reading_Left_AtoB
+PASS School/Memory/Floor02/Class3_2_Front_AtoB type=SchoolPortal paintedBounds=True outlineSeen=True width=1.125546 selected=Class3_2_Front_AtoB
+PASS School/Memory/Floor01/Equipment_Door_AtoB type=SchoolInteractable paintedBounds=True outlineSeen=True width=1.125546 selected=Equipment_Door_AtoB
+PASS School/Memory/Floor02/Class3_1_Back_AtoB type=SchoolPortal paintedBounds=True outlineSeen=True width=1.125546 selected=Class3_1_Back_AtoB
+PASS School/Memory/Floor02/B5_Crowd/NoticeLeft type=SchoolYouthInteractable paintedBounds=True outlineSeen=True width=0.5908629 selected=NoticeLeft,NoticeRight
+PASS School/Memory/Floor02/B5_Crowd/NoticeRight type=SchoolYouthInteractable paintedBounds=True outlineSeen=True width=0.5908629 selected=NoticeLeft,NoticeRight
+PASS School/Memory/Floor03Right/Reading_Right_AtoB type=SchoolPortal paintedBounds=True outlineSeen=True width=1.125546 selected=Reading_Right_AtoB
+PASS School/Memory/Floor02/Class3_1_Front_AtoB type=SchoolPortal paintedBounds=True outlineSeen=True width=1.125546 selected=Class3_1_Front_AtoB
+PASS School/Memory/Floor01/Stair_F01_F02_Right_AtoB type=SchoolPortal paintedBounds=True outlineSeen=True width=2.815663 selected=Stair_F01_F02_Right_AtoB
+PASS School/Memory/Floor03Right/StaffOffice_Door_AtoB type=SchoolPortal paintedBounds=True outlineSeen=True width=1.125546 selected=StaffOffice_Door_AtoB
+PASS School/Memory/Floor02/Stair_F01_F02_Right_BtoA type=SchoolPortal paintedBounds=True outlineSeen=True width=2.815663 selected=Stair_F01_F02_Right_BtoA
+PASS School/Memory/Floor02/MaleToilet_Door_AtoB type=SchoolPortal paintedBounds=True outlineSeen=True width=1.125546 selected=MaleToilet_Door_AtoB
+PASS School/Memory/Roof/Stair_F03_Roof_Right_BtoA type=SchoolPortal paintedBounds=True outlineSeen=True width=1.125546 selected=Stair_F03_Roof_Right_BtoA
+PASS School/Memory/Floor03Right/Stair_F03_Roof_Right_AtoB type=SchoolPortal paintedBounds=True outlineSeen=True width=1.125546 selected=Stair_F03_Roof_Right_AtoB
+PASS School/Memory/Floor02/B5_FemaleToiletNotice type=SchoolYouthInteractable paintedBounds=False outlineSeen=False width=1.100006 selected=B5_FemaleToiletNotice
+PASS School/Memory/Class3_2/Class3_2_Back_BtoA type=SchoolPortal paintedBounds=True outlineSeen=True width=1.125546 selected=Class3_2_Back_BtoA
+PASS School/Memory/SecurityRoom/Security_Door_BtoA type=SchoolInteractable paintedBounds=True outlineSeen=True width=1.125546 selected=Security_Door_BtoA
+PASS School/Memory/ReadingPassage/Reading_Left_BtoA type=SchoolPortal paintedBounds=True outlineSeen=True width=1.125546 selected=Reading_Left_BtoA
+PASS School/Memory/Class3_2/OwnDesk_Investigation type=SchoolInteractable paintedBounds=True outlineSeen=True width=1.146767 selected=OwnDesk_Investigation
+PROBE x=208 transform=(208.00, 64.93, 0.00) shape=(208.00, 64.93, 0.00) surface=(208.00, 64.43, 0.00) feet=(208.00, 64.06) point=(208.00, 65.20) floor=Ground hits=B5_ReadingChair:True
+PROBE x=207.1766 transform=(207.18, 64.93, 0.00) shape=(207.18, 64.93, 0.00) surface=(208.00, 64.43, 0.00) feet=(207.18, 64.06) point=(208.00, 65.20) floor=Ground hits=B5_ReadingChair:True
+PROBE x=208.8234 transform=(208.82, 64.93, 0.00) shape=(208.82, 64.93, 0.00) surface=(208.00, 64.43, 0.00) feet=(208.82, 64.06) point=(208.00, 65.20) floor=Ground hits=B5_ReadingChair:True
+PROBE x=207.65 transform=(207.65, 64.93, 0.00) shape=(207.65, 64.93, 0.00) surface=(208.00, 64.43, 0.00) feet=(207.65, 64.06) point=(208.00, 65.20) floor=Ground hits=B5_ReadingChair:True
+PROBE x=208.35 transform=(208.35, 64.93, 0.00) shape=(208.35, 64.93, 0.00) surface=(208.00, 64.43, 0.00) feet=(208.35, 64.06) point=(208.00, 65.20) floor=Ground hits=B5_ReadingChair:True
+PASS School/Memory/ReadingPassage/B5_ReadingChair type=SchoolYouthInteractable paintedBounds=True outlineSeen=True width=1.146767 selected=B5_ReadingChair
+PASS School/Memory/Class3_2/ScratchedDesk_Investigation type=SchoolInteractable paintedBounds=True outlineSeen=True width=1.146767 selected=ScratchedDesk_Investigation,B5_ZhengTaoInteraction
+PASS School/Memory/SecurityRoom/B5_SecurityComputer type=SchoolYouthInteractable paintedBounds=True outlineSeen=True width=1.267763 selected=B5_SecurityComputer
+PASS School/Memory/Class3_2/ZhengTao_OpeningOnly/B5_ZhengTaoInteraction type=SchoolYouthInteractable paintedBounds=True outlineSeen=True width=0.5994898 selected=B5_ZhengTaoInteraction,ScratchedDesk_Investigation
+PASS School/Memory/Class3_2/Class3_2_Front_BtoA type=SchoolPortal paintedBounds=True outlineSeen=True width=1.125546 selected=Class3_2_Front_BtoA
+PASS School/Memory/ReadingPassage/Reading_Right_BtoA type=SchoolPortal paintedBounds=True outlineSeen=True width=1.125546 selected=Reading_Right_BtoA
+PASS School/Memory/EquipmentRoom/Equipment_Door_BtoA type=SchoolPortal paintedBounds=True outlineSeen=True width=1.125546 selected=Equipment_Door_BtoA
+PASS School/Memory/StaffOffice/StaffOffice_Door_BtoA type=SchoolPortal paintedBounds=True outlineSeen=True width=1.125546 selected=StaffOffice_Door_BtoA
+PASS School/Memory/Class3_1/Class3_1_Back_BtoA type=SchoolPortal paintedBounds=True outlineSeen=True width=1.125546 selected=Class3_1_Back_BtoA
+PASS School/Memory/StaffOffice/B5_Director type=SchoolYouthInteractable paintedBounds=True outlineSeen=True width=0.6561779 selected=B5_Director
+PASS School/Memory/Class3_1/B5_ZhangRuoyuan type=SchoolYouthInteractable paintedBounds=True outlineSeen=True width=0.4825187 selected=B5_ZhangRuoyuan
+PASS School/Memory/Class3_1/Class3_1_Front_BtoA type=SchoolPortal paintedBounds=True outlineSeen=True width=1.125546 selected=Class3_1_Front_BtoA
+PASS School/Memory/MaleToilet/MaleToilet_Door_BtoA type=SchoolPortal paintedBounds=True outlineSeen=True width=1.125546 selected=MaleToilet_Door_BtoA
+PASS School/Memory/MaleToilet/B5_ToiletListening type=SchoolYouthInteractable paintedBounds=False outlineSeen=False width=0.7999878 selected=B5_ToiletListening

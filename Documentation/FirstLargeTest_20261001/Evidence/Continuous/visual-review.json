@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-01",
+  "status": "P01 sample visual review passed",
+  "method": "Actual D/A input; isolated diagnostic starting placement; sampled frames every 0.5 seconds, not video",
+  "reviewed": {
+    "FinalBedroom": 25,
+    "Final3Pond": 75,
+    "Final2ClassOther": 40,
+    "Final2ClassMemory": 43
+  },
+  "fullSizePond": [
+    11,
+    24
+  ],
+  "fixes": [
+    "Pond junction and approach local Y 0.68; both ends checked",
+    "Classroom alternate wall/floor flipX; standing student local Y 0.32"
+  ],
+  "excluded": [
+    "FinalPond",
+    "FinalClassOther",
+    "FinalClassMemory",
+    "Final2Pond superseded by Final3Pond"
+  ],
+  "laterPhase": [
+    "P04 background pixel density and camera placeholder",
+    "P05 formal school character art"
+  ]
+}

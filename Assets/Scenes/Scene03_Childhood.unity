@@ -19049,6 +19049,7 @@ GameObject:
   - component: {fileID: 51821376}
   - component: {fileID: 51821378}
   - component: {fileID: 51821377}
+  - component: {fileID: 51821379}
   m_Layer: 6
   m_Name: Stage4B_Entry
   m_TagString: Untagged
@@ -19132,6 +19133,22 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.3, y: 2.1}
   m_EdgeRadius: 0
+--- !u!114 &51821379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 51821375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495a9edc27acfc3408afd4976a2d9469, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteractionReach
+  anchor: {fileID: 51821376}
+  visualSurface: {fileID: 0}
+  horizontalReach: 0.55
+  verticalReach: 1.8
 --- !u!1 &51850540
 GameObject:
   m_ObjectHideFlags: 0
@@ -227832,6 +227849,7 @@ GameObject:
   - component: {fileID: 800640320}
   - component: {fileID: 800640322}
   - component: {fileID: 800640321}
+  - component: {fileID: 800640323}
   m_Layer: 6
   m_Name: FamilyCameraPlacement
   m_TagString: Untagged
@@ -227913,6 +227931,30 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.2, y: 2}
   m_EdgeRadius: 0
+--- !u!114 &800640323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800640319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0829374adb3342e5aab14c57b7876e86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HandDrawnInteractionHighlight
+  interactionSource: {fileID: 800640321}
+  visuals:
+  - {fileID: 488989775}
+  outlineMaterial: {fileID: 2100000, guid: f4d8c11774e8e0d4a9e3fef0a7f13a1b, type: 2}
+  lineColor: {r: 0.94, g: 0.93, b: 0.84, a: 0.62}
+  strokePixels: 1.6
+  redrawRate: 6
+  strokeVariation: 0.16
+  maximumHighlightGap: 0
+  opacityBreath: 0
+  outerContour: []
+  contourMaterial: {fileID: 0}
 --- !u!1 &800999294
 GameObject:
   m_ObjectHideFlags: 0
@@ -270936,6 +270978,7 @@ GameObject:
   - component: {fileID: 934707212}
   - component: {fileID: 934707211}
   - component: {fileID: 934707213}
+  - component: {fileID: 934707214}
   m_Layer: 6
   m_Name: S03_Puddle
   m_TagString: Untagged
@@ -271046,6 +271089,22 @@ MonoBehaviour:
   opacityBreath: 0.09
   outerContour: []
   contourMaterial: {fileID: 0}
+--- !u!114 &934707214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 934707209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495a9edc27acfc3408afd4976a2d9469, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteractionReach
+  anchor: {fileID: 934707210}
+  visualSurface: {fileID: 0}
+  horizontalReach: 0.55
+  verticalReach: 1.8
 --- !u!1 &935035844
 GameObject:
   m_ObjectHideFlags: 0
@@ -286183,6 +286242,7 @@ GameObject:
   - component: {fileID: 986729838}
   - component: {fileID: 986729840}
   - component: {fileID: 986729839}
+  - component: {fileID: 986729841}
   m_Layer: 6
   m_Name: S03_LivingRoomExit
   m_TagString: Untagged
@@ -286279,6 +286339,30 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.1, y: 2}
   m_EdgeRadius: 0
+--- !u!114 &986729841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 986729837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0829374adb3342e5aab14c57b7876e86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HandDrawnInteractionHighlight
+  interactionSource: {fileID: 986729839}
+  visuals:
+  - {fileID: 1387327750}
+  outlineMaterial: {fileID: 2100000, guid: f4d8c11774e8e0d4a9e3fef0a7f13a1b, type: 2}
+  lineColor: {r: 0.94, g: 0.93, b: 0.84, a: 0.62}
+  strokePixels: 1.6
+  redrawRate: 6
+  strokeVariation: 0.16
+  maximumHighlightGap: 0
+  opacityBreath: 0
+  outerContour: []
+  contourMaterial: {fileID: 0}
 --- !u!1 &987319356
 GameObject:
   m_ObjectHideFlags: 0
@@ -302526,6 +302610,7 @@ GameObject:
   - component: {fileID: 1040791133}
   - component: {fileID: 1040791135}
   - component: {fileID: 1040791134}
+  - component: {fileID: 1040791136}
   m_Layer: 6
   m_Name: S03_Storyteller
   m_TagString: Untagged
@@ -302609,6 +302694,30 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.3, y: 2.1}
   m_EdgeRadius: 0
+--- !u!114 &1040791136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1040791132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0829374adb3342e5aab14c57b7876e86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HandDrawnInteractionHighlight
+  interactionSource: {fileID: 1040791134}
+  visuals:
+  - {fileID: 1089967697}
+  outlineMaterial: {fileID: 2100000, guid: f4d8c11774e8e0d4a9e3fef0a7f13a1b, type: 2}
+  lineColor: {r: 0.94, g: 0.93, b: 0.84, a: 0.62}
+  strokePixels: 1.6
+  redrawRate: 6
+  strokeVariation: 0.16
+  maximumHighlightGap: 0
+  opacityBreath: 0
+  outerContour: []
+  contourMaterial: {fileID: 0}
 --- !u!1 &1040795343
 GameObject:
   m_ObjectHideFlags: 0
@@ -393722,6 +393831,7 @@ GameObject:
   - component: {fileID: 1359009152}
   - component: {fileID: 1359009154}
   - component: {fileID: 1359009153}
+  - component: {fileID: 1359009155}
   m_Layer: 6
   m_Name: S03_Fish
   m_TagString: Untagged
@@ -393805,6 +393915,30 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.3, y: 2.1}
   m_EdgeRadius: 0
+--- !u!114 &1359009155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1359009151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0829374adb3342e5aab14c57b7876e86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HandDrawnInteractionHighlight
+  interactionSource: {fileID: 1359009153}
+  visuals:
+  - {fileID: 303001785}
+  outlineMaterial: {fileID: 2100000, guid: f4d8c11774e8e0d4a9e3fef0a7f13a1b, type: 2}
+  lineColor: {r: 0.94, g: 0.93, b: 0.84, a: 0.62}
+  strokePixels: 1.6
+  redrawRate: 6
+  strokeVariation: 0.16
+  maximumHighlightGap: 0
+  opacityBreath: 0
+  outerContour: []
+  contourMaterial: {fileID: 0}
 --- !u!1 &1359158497
 GameObject:
   m_ObjectHideFlags: 0
@@ -413959,6 +414093,7 @@ GameObject:
   - component: {fileID: 1422128202}
   - component: {fileID: 1422128204}
   - component: {fileID: 1422128203}
+  - component: {fileID: 1422128205}
   m_Layer: 6
   m_Name: S03_ZhaoHome
   m_TagString: Untagged
@@ -414044,6 +414179,30 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.3, y: 2.1}
   m_EdgeRadius: 0
+--- !u!114 &1422128205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422128201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0829374adb3342e5aab14c57b7876e86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HandDrawnInteractionHighlight
+  interactionSource: {fileID: 1422128203}
+  visuals:
+  - {fileID: 2031826613}
+  outlineMaterial: {fileID: 2100000, guid: f4d8c11774e8e0d4a9e3fef0a7f13a1b, type: 2}
+  lineColor: {r: 0.94, g: 0.93, b: 0.84, a: 0.62}
+  strokePixels: 1.6
+  redrawRate: 6
+  strokeVariation: 0.16
+  maximumHighlightGap: 0
+  opacityBreath: 0
+  outerContour: []
+  contourMaterial: {fileID: 0}
 --- !u!1 &1422235788
 GameObject:
   m_ObjectHideFlags: 0
@@ -438400,7 +438559,7 @@ Transform:
   m_GameObject: {fileID: 1494963899}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 72.2, y: 0.70000076, z: 0}
+  m_LocalPosition: {x: 72.2, y: 0.68, z: 0}
   m_LocalScale: {x: 1.1745318, y: 1.1745318, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -476569,7 +476728,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b21fc2c969e5b2f499e422a9bff41836, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerInteraction
-  interactionRadius: 1.6
+  interactionRadius: 0.55
   interactableLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -496916,6 +497075,7 @@ GameObject:
   - component: {fileID: 1690560274}
   - component: {fileID: 1690560276}
   - component: {fileID: 1690560275}
+  - component: {fileID: 1690560277}
   m_Layer: 6
   m_Name: S03_ExitHome
   m_TagString: Untagged
@@ -496999,6 +497159,30 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.3, y: 2.1}
   m_EdgeRadius: 0
+--- !u!114 &1690560277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1690560273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0829374adb3342e5aab14c57b7876e86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HandDrawnInteractionHighlight
+  interactionSource: {fileID: 1690560275}
+  visuals:
+  - {fileID: 1630292210}
+  outlineMaterial: {fileID: 2100000, guid: f4d8c11774e8e0d4a9e3fef0a7f13a1b, type: 2}
+  lineColor: {r: 0.94, g: 0.93, b: 0.84, a: 0.62}
+  strokePixels: 1.6
+  redrawRate: 6
+  strokeVariation: 0.16
+  maximumHighlightGap: 0
+  opacityBreath: 0
+  outerContour: []
+  contourMaterial: {fileID: 0}
 --- !u!1 &1690637877
 GameObject:
   m_ObjectHideFlags: 0
@@ -511298,7 +511482,7 @@ Transform:
   m_GameObject: {fileID: 1742733296}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 66.36152, y: 0.70000076, z: 0}
+  m_LocalPosition: {x: 66.36152, y: 0.68, z: 0}
   m_LocalScale: {x: 1.1745318, y: 1.1745318, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -535499,6 +535683,7 @@ GameObject:
   - component: {fileID: 1826703572}
   - component: {fileID: 1826703574}
   - component: {fileID: 1826703573}
+  - component: {fileID: 1826703575}
   m_Layer: 6
   m_Name: S03_Rings
   m_TagString: Untagged
@@ -535582,6 +535767,30 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.3, y: 2.1}
   m_EdgeRadius: 0
+--- !u!114 &1826703575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1826703571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0829374adb3342e5aab14c57b7876e86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HandDrawnInteractionHighlight
+  interactionSource: {fileID: 1826703573}
+  visuals:
+  - {fileID: 63532522}
+  outlineMaterial: {fileID: 2100000, guid: f4d8c11774e8e0d4a9e3fef0a7f13a1b, type: 2}
+  lineColor: {r: 0.94, g: 0.93, b: 0.84, a: 0.62}
+  strokePixels: 1.6
+  redrawRate: 6
+  strokeVariation: 0.16
+  maximumHighlightGap: 0
+  opacityBreath: 0
+  outerContour: []
+  contourMaterial: {fileID: 0}
 --- !u!1 &1827082323
 GameObject:
   m_ObjectHideFlags: 0
@@ -540352,6 +540561,7 @@ GameObject:
   - component: {fileID: 1840928551}
   - component: {fileID: 1840928553}
   - component: {fileID: 1840928552}
+  - component: {fileID: 1840928554}
   m_Layer: 6
   m_Name: S03_LiMei
   m_TagString: Untagged
@@ -540435,6 +540645,30 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.3, y: 2.1}
   m_EdgeRadius: 0
+--- !u!114 &1840928554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840928550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0829374adb3342e5aab14c57b7876e86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HandDrawnInteractionHighlight
+  interactionSource: {fileID: 1840928552}
+  visuals:
+  - {fileID: 1107182029}
+  outlineMaterial: {fileID: 2100000, guid: f4d8c11774e8e0d4a9e3fef0a7f13a1b, type: 2}
+  lineColor: {r: 0.94, g: 0.93, b: 0.84, a: 0.62}
+  strokePixels: 1.6
+  redrawRate: 6
+  strokeVariation: 0.16
+  maximumHighlightGap: 0
+  opacityBreath: 0
+  outerContour: []
+  contourMaterial: {fileID: 0}
 --- !u!1 &1841014874
 GameObject:
   m_ObjectHideFlags: 0

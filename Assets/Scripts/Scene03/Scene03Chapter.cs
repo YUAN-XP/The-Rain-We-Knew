@@ -70,6 +70,7 @@ public class Scene03Chapter : MonoBehaviour
         if(livingRoomRoot!=null)livingRoomRoot.SetActive(!street);
         var p=(street?streetSpawn:homeSpawn).position;child.transform.position=p;child.GetComponent<Rigidbody2D>().position=p;
         child.GetComponent<Rigidbody2D>().linearVelocity=Vector2.zero;
+        GroundedPlacement.Settle(child);
         follow.SetLimits(street?-22:-19,street?135:15);Camera.main.orthographicSize=street?5.7f:5.2f;follow.SnapToTarget();
     }
     public void ReturnHomeFromRiver()
@@ -166,7 +167,7 @@ public class Scene03Chapter : MonoBehaviour
     {
         if(alpha<=0){RoomPresentationFraming.PrepareCurrentView();yield return null;}
         float start=curtain.alpha;curtain.blocksRaycasts=true;
-        for(float t=0;t<duration;t+=Time.unscaledDeltaTime){curtain.alpha=Mathf.Lerp(start,alpha,t/duration);yield return null;}
+        for(float t=0;t<duration;t+=GameplayClock.Delta){curtain.alpha=Mathf.Lerp(start,alpha,t/duration);yield return null;}
         curtain.alpha=alpha;curtain.blocksRaycasts=alpha>.01f;
     }
     void Lock(){Controls.AcquireLock(ControlLockReason.Interaction);ownsLock=true;}

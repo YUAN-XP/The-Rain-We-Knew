@@ -1,0 +1,22 @@
+PASS load accepted: 
+PASS restore settled: 
+PASS load accepted: 
+PASS restore settled: 
+PASS guide position and follow direction restore
+PASS load accepted: 
+PASS restore settled: 
+PASS final charge survives global pause without reset or progress
+PASS pause cannot save final charge
+PASS threat lead countdown freezes
+PASS removed-room fault starts guarded restoration
+PASS failed restore keeps movement locked
+PASS failed restore retains opaque curtain
+PASS failure offers retry and restart
+PASS retry button recovers control
+PASS successful retry removes failed curtain
+PASS new game replaces rather than duplicates persistent runtime
+PASS new game clears old story
+PASS new game restores clock audio and input
+PASS new game preserves disk slots byte for byte
+PASS new game resets play clock
+PASS SUMMARY diagnostic fault injection, not native UI play

@@ -195,10 +195,10 @@ public sealed class SchoolYouthSecurity : MonoBehaviour
             controller.Story.SetTogether(StoryFlag.SchoolEvidenceObtained, StoryFlag.SchoolMediaPasswordChanged);
             DestroyComputerScreen();
             controller.Notice(monitorSuccessNotice, successNoticeSeconds);
-            yield return new WaitForSecondsRealtime(successNoticeSeconds);
+            yield return GameplayClock.Wait(successNoticeSeconds);
             if (!Ready || token != generation) yield break;
             controller.Notice(passwordSuccessNotice, successNoticeSeconds);
-            yield return new WaitForSecondsRealtime(successNoticeSeconds);
+            yield return GameplayClock.Wait(successNoticeSeconds);
         }
         finally
         {
@@ -257,7 +257,7 @@ public sealed class SchoolYouthSecurity : MonoBehaviour
         computerScreen.SetActive(true);
         progressLabel.text = label;
         float duration = Mathf.Max(.15f, seconds);
-        for (float elapsed = 0; elapsed < duration; elapsed += Time.unscaledDeltaTime)
+        for (float elapsed = 0; elapsed < duration; elapsed += GameplayClock.Delta)
         {
             if (!CanContinueComputer(token) || progressFill == null) yield break;
             ComputerProgress = Mathf.Clamp01(elapsed / duration);

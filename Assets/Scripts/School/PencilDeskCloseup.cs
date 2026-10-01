@@ -85,7 +85,7 @@ public class PencilDeskCloseup : MonoBehaviour
         }
         controls.AcquireLock(ControlLockReason.CloseUp);
         ownsLock = true;
-        inputArmed = !Input.GetMouseButton(0);
+        inputArmed = !GameplayInput.GetMouseButton(0);
         drawing = false;
         if (!ownDesk && hasPencil && CoverageReached()) StartCompletion();
         return true;
@@ -226,18 +226,18 @@ public class PencilDeskCloseup : MonoBehaviour
     void Update()
     {
         if (!IsOpen || completing) return;
-        if (Input.GetKeyDown(KeyCode.Escape)) { Close(); return; }
+        if (GameplayInput.GetKeyDown(KeyCode.Escape)) { Close(); return; }
         if (!CanRub) return;
-        if (!Input.GetMouseButton(0)) { inputArmed = true; drawing = false; }
-        if (!RectTransformUtility.ScreenPointToLocalPointInRectangle(desktop, Input.mousePosition, null, out var deskPoint)) return;
+        if (!GameplayInput.GetMouseButton(0)) { inputArmed = true; drawing = false; }
+        if (!RectTransformUtility.ScreenPointToLocalPointInRectangle(desktop, GameplayInput.mousePosition, null, out var deskPoint)) return;
         var deskRect = desktop.rect;
         hands.TipPosition = new Vector2(
             Mathf.Clamp01((deskPoint.x - deskRect.xMin) / deskRect.width) * 1000,
             Mathf.Clamp01((deskPoint.y - deskRect.yMin) / deskRect.height) * 500);
-        if (!inputArmed || !Input.GetMouseButton(0)) return;
-        if (!RectTransformUtility.ScreenPointToLocalPointInRectangle(writingSurface, Input.mousePosition, null, out var local)) return;
+        if (!inputArmed || !GameplayInput.GetMouseButton(0)) return;
+        if (!RectTransformUtility.ScreenPointToLocalPointInRectangle(writingSurface, GameplayInput.mousePosition, null, out var local)) return;
         var point = local + new Vector2(Width * .5f, Height * .5f);
-        if (Input.GetMouseButtonDown(0)) { drawing = true; previousPixel = point; }
+        if (GameplayInput.GetMouseButtonDown(0)) { drawing = true; previousPixel = point; }
         if (!drawing) return;
         // Movement is sampled between frames. Holding still can reveal one brush footprint only.
         float distance = Vector2.Distance(previousPixel, point);
@@ -293,15 +293,15 @@ public class PencilDeskCloseup : MonoBehaviour
 
     IEnumerator ShowNameThenGrab()
     {
-        yield return new WaitForSecondsRealtime(readableNameHold);
+        yield return GameplayClock.Wait(readableNameHold);
         if (DemoArtCatalog.Current != null) yield return DemoComicSequence.For(gameObject).DeskGrab();
-        else for (float time = 0; time < grabbingDuration; time += Time.unscaledDeltaTime)
+        else for (float time = 0; time < grabbingDuration; time += GameplayClock.Delta)
         {
             hands.GrabProgress = Mathf.SmoothStep(0, 1, time / grabbingDuration);
             yield return null;
         }
         hands.GrabProgress = 1;
-        yield return new WaitForSecondsRealtime(grabbedHold);
+        yield return GameplayClock.Wait(grabbedHold);
         sequence = null;
         dispatched = true;
         // Keep the close-up and its lock until the chapter has acquired its own transition lock.

@@ -39,15 +39,15 @@ public class PlayerController : MonoBehaviour
             return;
         }
 
-        horizontalInput = Input.GetAxisRaw("Horizontal");
-        verticalInput = planarMovement ? Input.GetAxisRaw("Vertical") : 0;
+        horizontalInput = GameplayInput.GetAxisRaw("Horizontal");
+        verticalInput = planarMovement ? GameplayInput.GetAxisRaw("Vertical") : 0;
         if (sprintAbility != null) sprintAbility.ObserveMovement(horizontalInput);
     }
 
     private void FixedUpdate()
     {
         float multiplier = sprintAbility != null
-            ? sprintAbility.GetMultiplier(Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift)) : 1f;
+            ? sprintAbility.GetMultiplier(GameplayInput.GetKey(KeyCode.LeftShift) || GameplayInput.GetKey(KeyCode.RightShift)) : 1f;
         if (planarMovement)
             rb.linearVelocity = canMove ? Vector2.ClampMagnitude(new Vector2(horizontalInput, verticalInput), 1) * moveSpeed * multiplier : Vector2.zero;
         else rb.linearVelocity = new Vector2(horizontalInput * moveSpeed * multiplier, rb.linearVelocity.y);

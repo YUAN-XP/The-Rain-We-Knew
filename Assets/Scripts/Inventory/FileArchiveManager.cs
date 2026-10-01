@@ -33,6 +33,7 @@ public class FileArchiveManager : MonoBehaviour
         }
 
         files.Add(file);
+        GetComponent<AcquisitionHistory>()?.Record("file:"+file.fileId);
 
         Debug.Log(
             "Files: Added file - "

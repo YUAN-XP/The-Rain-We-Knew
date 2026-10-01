@@ -40,7 +40,7 @@ public sealed class BlackSceneTransition : MonoBehaviour
  IEnumerator Fade(float target, float seconds)
  {
   float from=curtain.alpha;
-  for(float t=0;t<seconds;t+=Time.unscaledDeltaTime){curtain.alpha=Mathf.Lerp(from,target,Mathf.SmoothStep(0,1,t/seconds));yield return null;}
+  for(float t=0;t<seconds;t+=GameplayClock.Delta){curtain.alpha=Mathf.Lerp(from,target,Mathf.SmoothStep(0,1,t/seconds));yield return null;}
   curtain.alpha=target;
  }
  void OnDestroy(){IsActive=false;if(ownsLock&&controls)controls.ReleaseLock(ControlLockReason.SceneTransition);}

@@ -44,7 +44,7 @@ public sealed class SchoolHomeReturnController : MonoBehaviour
     {
         session.PendingReturnFog=false;session.PendingHomeArrival=false;story.Set(StoryFlag.SchoolReturnedHome);ConfigureGuide();StartCoroutine(FreeNotice());
     }
-    IEnumerator FreeNotice(){float free=0;while(free<.3f){free=controls.IsLocked()?0:free+Time.unscaledDeltaTime;yield return null;}PersistentRuntime.Instance.GetComponent<StoryNoticeUI>().Show("二楼电脑应该可以打开了",5);}
+    IEnumerator FreeNotice(){float free=0;while(free<.3f){free=controls.IsLocked()?0:free+GameplayClock.Delta;yield return null;}PersistentRuntime.Instance.GetComponent<StoryNoticeUI>().Show("二楼电脑应该可以打开了",5);}
     void ConfigureGuide(){previousReturn.guide.position=guideArrival.position;previousReturn.guideInteraction.ConfigureDialogue(story.Has(StoryFlag.SchoolGuideReturnSpoken)?data.guideRepeat:data.guideFirst);}
     void Update()
     {

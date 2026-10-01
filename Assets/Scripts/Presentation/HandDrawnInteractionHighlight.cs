@@ -13,7 +13,7 @@ public sealed class HandDrawnInteractionHighlight : MonoBehaviour
     [SerializeField, Range(2f, 12f)] private float redrawRate = 6f;
     [SerializeField, Range(0f, .35f)] private float strokeVariation = .16f;
 
-    [Tooltip("0 preserves existing scenes. Positive values gate only the visual outline by collider surface gap.")]
+    [Tooltip("Legacy serialized field only. Reach is owned by PlayerInteraction.")]
     [SerializeField, Min(0)] private float maximumHighlightGap;
     [SerializeField, Range(0, .4f)] private float opacityBreath;
 
@@ -31,6 +31,21 @@ public sealed class HandDrawnInteractionHighlight : MonoBehaviour
     private static readonly int StrokePixels = Shader.PropertyToID("_StrokePixels");
     private static readonly int RedrawRate = Shader.PropertyToID("_RedrawRate");
     private static readonly int StrokeVariation = Shader.PropertyToID("_StrokeVariation");
+
+    // The current painted footprint is authoritative; old placeholder sensors can be larger.
+    public bool TryGetInteractionBounds(out Bounds bounds)
+    {
+        bounds=default;bool found=false;
+        if(visuals==null)return false;
+        foreach(var visual in visuals)
+        {
+            if(!visual||!visual.enabled||!visual.gameObject.activeInHierarchy||!visual.sprite||visual.color.a<=.01f)continue;
+            // A custom contour may deliberately use an invisible calibrated surface.
+            if(visual.forceRenderingOff&&(outerContour==null||outerContour.Length<3))continue;
+            if(!found){bounds=visual.bounds;found=true;}else bounds.Encapsulate(visual.bounds);
+        }
+        return found;
+    }
 
     private void Awake()
     {
@@ -72,12 +87,13 @@ public sealed class HandDrawnInteractionHighlight : MonoBehaviour
                         controls != null && !controls.IsLocked() && interaction != null &&
                         ReferenceEquals(interaction.CurrentVisualTarget, target) && HasActiveCollider();
         // Empty prompts are used by several existing story-gated interactions.
-        if (selected) selected = !string.IsNullOrWhiteSpace(target.GetInteractionPrompt()) && IsNear(player);
+        if (selected) selected = !string.IsNullOrWhiteSpace(target.GetInteractionPrompt());
         for (int i = 0; i < outlines.Length; i++)
         {
             var output = outlines[i]; var source = visuals[i];
             bool visible = selected && source != null && source.enabled &&
-                source.gameObject.activeInHierarchy && source.sprite != null && source.color.a > .01f;
+                source.gameObject.activeInHierarchy && source.sprite != null && source.color.a > .01f &&
+                (!source.forceRenderingOff || (contours != null && contours[i] != null));
             if (contours != null && contours[i] != null)
             {
                 contours[i].enabled = visible;
@@ -125,20 +141,6 @@ public sealed class HandDrawnInteractionHighlight : MonoBehaviour
         Color color = lineColor; color.a *= source.color.a * (1f - opacityBreath * (.5f + .5f * Mathf.Sin(Time.time * 2.6f)));
         line.startColor = color; line.endColor = color;
         line.sortingLayerID = source.sortingLayerID; line.sortingOrder = source.sortingOrder + 1;
-    }
-
-    private bool IsNear(PlayerController player)
-    {
-        if (maximumHighlightGap <= 0) return true;
-        var body = player != null ? player.GetComponent<Collider2D>() : null;
-        if (body == null || !body.enabled) return false;
-        foreach (var candidate in interactionColliders)
-        {
-            if (candidate == null || !candidate.enabled || !candidate.gameObject.activeInHierarchy) continue;
-            var gap = candidate.Distance(body);
-            if (gap.isValid && gap.distance <= maximumHighlightGap) return true;
-        }
-        return false;
     }
 
     private bool HasActiveCollider()

@@ -189,6 +189,8 @@ public class RoomTransitionInteractable :
             cameraFollow.SnapToTarget();
         }
         MovedUnderFade?.Invoke(this);
+        GroundedPlacement.Settle(player.GetComponent<PlayerController>());
+        RoomPresentationFraming.PrepareCurrentView();
     }
 
     private void OnDisable()

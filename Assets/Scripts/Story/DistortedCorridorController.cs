@@ -30,6 +30,7 @@ public class DistortedCorridorController : MonoBehaviour
         if(joinedRearBoundary!=null)joinedRearBoundary.enabled=false;
         ApplyStairState();
     }
+    public void RestoreSave(bool value){joined=value;joining=false;if(joinedRearBoundary)joinedRearBoundary.enabled=value;if(value){corridorArea.SetActive(true);rearBoundary.enabled=true;if(sourceExtension)sourceExtension.SetActive(true);if(originalRightBoundary)originalRightBoundary.SetActive(false);}ApplyStairState();}
     private void ApplyStairState()
     {
         if(story==null || story.Has(StoryFlag.Scene03Completed) || !story.Has(StoryFlag.DistortedCorridorStarted))return;

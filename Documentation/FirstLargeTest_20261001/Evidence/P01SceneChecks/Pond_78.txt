@@ -1,0 +1,11 @@
+DIAGNOSTIC position sampling, not natural input
+scene=Scene03_Childhood player=(78.00, 31.21, 0.00) feet=30.50538 speed=1.9 camera=(77.62, 31.90, -10.00) size=2.6 aspect=1.777778
+Environment/ChildhoodStreet/赵炳程/NewArt_Actor min=(72.79, 30.50, -0.10) max=(73.41, 32.10, 0.10) order=7 sprite=CHR_STORY_ZHAO_ZHANG_BASE:1_VisualRegion texture=1536x1024
+Environment/ChildhoodStreet/NewArt_Street/Pavement_13 min=(69.00, 29.73, -0.10) max=(77.00, 30.73, 0.10) order=-27 sprite=TEX_FLOOR_QUIET_V04:0 texture=2048x768
+Environment/ChildhoodStreet/NewArt_Street/CloseScale_WallFill_77 min=(77.00, 30.70, -0.10) max=(88.04, 32.67, 0.10) order=-32 sprite=PondDeparture_InfillWithoutEndPier_V3 texture=1774x887
+Environment/ChildhoodStreet/NewArt_Street/CloseScale_PondJunction min=(67.30, 30.70, -0.10) max=(77.10, 32.30, 0.10) order=-29 sprite=MOD_POND_WALL_JUNCTION_V05:inset texture=2172x724
+YoungXiaoPeng/随身家庭相机 min=(77.84, 31.15, -0.10) max=(78.16, 31.37, 0.10) order=9 sprite=Square texture=256x256
+YoungXiaoPeng/Demo2026_PlayerPainting min=(77.85, 30.51, -0.10) max=(78.15, 31.86, 0.10) order=12 sprite=CHR_XP_CHILD_TURN3:1 texture=1536x1024
+Environment/ChildhoodStreet/NewArt_Street/Demo2026_FarTown_72 min=(72.00, 30.70, -0.10) max=(92.00, 41.94, 0.10) order=-45 sprite=BG_STREET_FAR_DAY texture=1672x940
+Environment/ChildhoodStreet/NewArt_Street/Pavement_14 min=(77.00, 29.73, -0.10) max=(85.00, 30.73, 0.10) order=-27 sprite=TEX_FLOOR_QUIET_V04:0 texture=2048x768
+Environment/ChildhoodStreet/NewArt_Street/Seam_DeparturePier min=(76.89, 30.70, -0.10) max=(77.31, 32.05, 0.10) order=-28 sprite=PondApproach_StreetPier_NoPondEdge texture=1774x887

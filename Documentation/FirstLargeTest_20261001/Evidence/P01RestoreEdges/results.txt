@@ -1,0 +1,20 @@
+PASS zero-velocity airborne state cannot save
+PASS pausing airborne state cannot bypass support check
+PASS load accepted Scene01_Rain: 
+PASS load settled: 
+PASS collected newspaper stays collected
+PASS uncollected key is revealed after newspaper restore
+PASS load accepted Scene01_Rain: 
+PASS load settled: 
+PASS collected key cannot respawn
+PASS load accepted Scene01_Rain: 
+PASS load settled: 
+PASS consumed key stays removed after gate opened
+PASS load accepted Scene03_Childhood: 
+PASS load settled: 
+PASS living-room companion captured by role
+PASS load accepted Scene03_Childhood: 
+PASS load settled: 
+PASS companion room and position survive scene reload
+PASS restore does not publish new quest milestones
+PASS SUMMARY

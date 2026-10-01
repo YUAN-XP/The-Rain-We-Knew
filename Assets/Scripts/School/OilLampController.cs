@@ -61,7 +61,7 @@ public class OilLampController : MonoBehaviour
             useHintShown = true;
             if (notice != null) notice.Show("[R] 使用小油灯", 3);
         }
-        if (!Input.GetKeyDown(KeyCode.R) || !CanRespondThisFrame) return;
+        if (!GameplayInput.GetKeyDown(KeyCode.R) || !CanRespondThisFrame) return;
         if (!Owned) return;
         if (!StoryUsable) { ShowExhausted(); return; }
         if (IsRaised) LowerLamp(); else RaiseLamp();

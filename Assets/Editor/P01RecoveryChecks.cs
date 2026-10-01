@@ -1,0 +1,34 @@
+using System;
+using System.IO;
+using System.Linq;
+using System.Collections;
+using System.Collections.Generic;
+using System.Reflection;
+using UnityEditor;
+using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
+using static UnityEngine.Object;
+
+// Isolated diagnostic faults; no personal save directory is written.
+public sealed class P01RecoveryChecks {
+ static string Folder=>Path.GetFullPath(Path.Combine(Application.dataPath,"../Temp/P01Recovery"));
+ P01SessionRestart host; List<string> lines=new List<string>(); GameSaveService saves; GameSaveData baseline; FourSlotSaveStore store;
+ public static void Run(){if(!EditorApplication.isPlaying)throw new Exception("Requires Scene01 Play Mode");var test=new P01RecoveryChecks();test.host=new GameObject("P01RecoveryRunner").AddComponent<P01SessionRestart>();DontDestroyOnLoad(test.host.gameObject);test.host.StartCoroutine(test.Tests());}
+ void Check(bool ok,string name){lines.Add((ok?"PASS ":"FAIL ")+name);File.WriteAllLines(Path.Combine(Folder,"results.txt"),lines);}
+ IEnumerator Until(Func<bool> ready,float timeout=30){float end=Time.realtimeSinceStartup+timeout;while(!ready()&&Time.realtimeSinceStartup<end)yield return null;}
+ static void Set(object obj,string name,object value)=>obj.GetType().GetField(name,BindingFlags.Instance|BindingFlags.NonPublic).SetValue(obj,value);
+ GameSaveData Fixture(string scene,Vector3 pos,params StoryFlag[] flags){var d=JsonUtility.FromJson<GameSaveData>(JsonUtility.ToJson(baseline));d.scene=scene;d.position=pos;d.actor="adult";d.story.flags=flags.Select(x=>x.ToString()).ToArray();d.companions=new SavedCompanion[0];d.school=new SavedSchool();return d;}
+ IEnumerator Load(GameSaveData data){store.Write(1,data,true);Check(saves.Load(1,out var error),"load accepted: "+error);yield return Until(()=>!saves.IsRestoring);Check(saves.LastError==null,"restore settled: "+saves.LastError);for(int i=0;i<20;i++)yield return new WaitForFixedUpdate();}
+ IEnumerator Tests(){
+ Directory.CreateDirectory(Folder);var rt=PersistentRuntime.Instance;saves=rt.GetComponent<GameSaveService>();var pause=rt.GetComponent<GamePause>();pause.SetPaused(false);store=new FourSlotSaveStore(Path.Combine(Folder,"slots"));typeof(GameSaveService).GetProperty("Store").GetSetMethod(true).Invoke(saves,new object[]{store});yield return Until(()=>saves.CanSave(out _));baseline=saves.Capture(1);
+ var guideState=Fixture("Scene02_Courtyard",new Vector3(70,1.41f,0),StoryFlag.SchoolReturnedHome,StoryFlag.SchoolEmailRead,StoryFlag.EndingEmailReactionCompleted,StoryFlag.EndingHandoverCompleted);
+ yield return Load(guideState);var home=FindAnyObjectByType<EndingHomeController>();home.RestoreFollowDirection(-1);home.guide.position=EndingSession.CompanionAnchor(home.guide,rt.GetComponent<GameControlManager>().ActivePlayer,1.4f,home.data.guideVisualGroundOffset);var recorded=saves.Capture(1);var expected=recorded.companions.Single(x=>x.role=="home-guide");yield return Load(recorded);home=FindAnyObjectByType<EndingHomeController>();Check(Vector3.Distance(home.guide.position,expected.position)<.04f&&home.SaveFollowDirection==-1,"guide position and follow direction restore");
+ var school=Fixture("Scene04_School",new Vector3(208,17.41f,0),StoryFlag.FogIntroCompleted);school.school=new SavedSchool{present=true,room="Class3_2",variant=0,actor=0,phase=0};yield return Load(school);
+ var chase=FindAnyObjectByType<SchoolChaseController>();chase.Initialize();var lamp=rt.GetComponent<OilLampController>();var item=(ItemData)typeof(OilLampController).GetField("requiredItem",BindingFlags.Instance|BindingFlags.NonPublic).GetValue(lamp);rt.GetComponent<InventoryManager>().AddItem(item);lamp.SetStoryUsable(true);lamp.RestoreUseState(true);rt.GetComponent<StoryStateManager>().Set(StoryFlag.SchoolChaseStarted);Set(chase,"<Step>k__BackingField",SchoolChaseStep.FinalCharge);Set(chase,"finaleLeadRemaining",.9f);Set(chase,"spaceArmed",true);lamp.BeginCharge();lamp.TickCharge(true,.6f);float charge=lamp.Charge01;pause.SetPaused(true);float clock=GameplayClock.Now;float pauseEnd=Time.realtimeSinceStartup+.75f;while(Time.realtimeSinceStartup<pauseEnd)yield return null;
+ Check(lamp.IsCharging&&Mathf.Abs(lamp.Charge01-charge)<.00001f&&GameplayClock.Now==clock,"final charge survives global pause without reset or progress");Check(!saves.CanSave(out _),"pause cannot save final charge");Check((float)typeof(SchoolChaseController).GetField("finaleLeadRemaining",BindingFlags.Instance|BindingFlags.NonPublic).GetValue(chase)==.9f,"threat lead countdown freezes");Set(chase,"<Step>k__BackingField",SchoolChaseStep.Dormant);pause.SetPaused(false);lamp.CancelCharge();
+ // A syntactically valid save can fail after scene load if a room was removed by a later build.
+ var broken=Fixture("Scene04_School",new Vector3(208,17.41f,0),StoryFlag.FogIntroCompleted);broken.school=new SavedSchool{present=true,room="P01_MissingRoom",variant=0,actor=0,phase=0};store.Write(1,broken,true);Check(saves.Load(1,out _),"removed-room fault starts guarded restoration");yield return Until(()=>!saves.IsRestoring);Check(saves.LastError!=null&&rt.GetComponent<GameControlManager>().IsLockedBy(ControlLockReason.SaveRestore),"failed restore keeps movement locked");var curtain=GameObject.Find("SaveRestoreCurtain");Check(curtain&&curtain.GetComponentInChildren<Image>().color.a==1,"failed restore retains opaque curtain");var buttons=curtain.GetComponentsInChildren<Button>();Check(buttons.Length==2,"failure offers retry and restart");store.Write(1,baseline,true);buttons.Single(x=>x.GetComponentInChildren<TMP_Text>().text=="重试载入").onClick.Invoke();yield return Until(()=>!saves.IsRestoring);Check(saves.LastError==null&&!rt.GetComponent<GameControlManager>().IsLocked(),"retry button recovers control");yield return null;Check(!GameObject.Find("SaveRestoreCurtain"),"successful retry removes failed curtain");
+ byte[] before=File.ReadAllBytes(store.SlotPath(1));var old=rt;P01SessionRestart.Begin(rt.gameObject);yield return Until(()=>PersistentRuntime.Instance&&PersistentRuntime.Instance!=old);yield return Until(()=>PersistentRuntime.Instance.GetComponent<GameSaveService>().CanSave(out _));var current=PersistentRuntime.Instance;Check(current&&current!=old&&FindObjectsByType<PersistentRuntime>().Length==1,"new game replaces rather than duplicates persistent runtime");Check(current.GetComponent<StoryStateManager>().CaptureSave().flags.Length==0,"new game clears old story");Check(Time.timeScale==1&&!AudioListener.pause&&!GamePause.IsPaused,"new game restores clock audio and input");Check(before.SequenceEqual(File.ReadAllBytes(store.SlotPath(1))),"new game preserves disk slots byte for byte");Check(GameplayClock.Elapsed<10,"new game resets play clock");Check(lines.All(x=>!x.StartsWith("FAIL")),"SUMMARY diagnostic fault injection, not native UI play");Destroy(host.gameObject);
+ }
+}

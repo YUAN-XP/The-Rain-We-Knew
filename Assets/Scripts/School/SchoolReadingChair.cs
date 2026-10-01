@@ -91,7 +91,7 @@ public class SchoolReadingChair : MonoBehaviour
         if (!IsOpen) return;
         if (flow == null || !flow.IsYouthMemory || controls == null || controls.ActivePlayer != player)
         { Close(); return; }
-        if (Time.frameCount > openedFrame && Input.GetKeyDown(KeyCode.Escape)) Close();
+        if (Time.frameCount > openedFrame && GameplayInput.GetKeyDown(KeyCode.Escape)) Close();
     }
 
     void BuildUI()

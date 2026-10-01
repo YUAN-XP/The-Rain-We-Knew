@@ -1,0 +1,33 @@
+scene=Scene02_Courtyard
+player=(70.00, 1.41, 0.00) feet=(70.00, 0.54) speed=2.2
+COLLIDER Environment/MasterBedroomInterior/Ground_MasterBedroom bounds=Center: (70.00, 0.00, 0.00), Extents: (6.60, 0.50, 0.00) trigger=False enabled=True
+COLLIDER Environment/MasterBedroomInterior/Wardrobe_Placeholder bounds=Center: (67.21, 1.36, 0.00), Extents: (1.58, 0.93, 0.00) trigger=True enabled=True
+RENDERER Environment/MasterBedroomInterior/Wardrobe_Placeholder/NewArt_Visual bounds=Center: (67.21, 1.89, 0.00), Extents: (0.66, 1.03, 0.10) order=-4
+RENDERER Environment/MasterBedroomInterior/Wardrobe_Placeholder/NewArt_Visual/PaintedContact_Runtime bounds=Center: (67.21, 0.85, 0.00), Extents: (0.61, 0.04, 0.00) order=-5
+COLLIDER Environment/MasterBedroomInterior/Bed_Placeholder bounds=Center: (70.94, 0.91, 0.00), Extents: (2.45, 0.46, 0.00) trigger=True enabled=True
+RENDERER Environment/MasterBedroomInterior/Bed_Placeholder/NewArt_Visual bounds=Center: (70.94, 1.44, 0.00), Extents: (1.20, 0.58, 0.10) order=-3
+RENDERER Environment/MasterBedroomInterior/Bed_Placeholder/NewArt_Visual/HandDrawnHighlight_Runtime bounds=Center: (70.94, 1.44, 0.00), Extents: (1.20, 0.58, 0.10) order=-2
+RENDERER Environment/MasterBedroomInterior/Bed_Placeholder/NewArt_Visual/PaintedContact_Runtime bounds=Center: (70.94, 0.85, 0.00), Extents: (1.10, 0.04, 0.00) order=-4
+COLLIDER Environment/MasterBedroomInterior/Cabinet_Placeholder bounds=Center: (74.43, 0.99, 0.00), Extents: (1.58, 0.50, 0.00) trigger=True enabled=True
+RENDERER Environment/MasterBedroomInterior/Cabinet_Placeholder/NewArt_Visual bounds=Center: (74.43, 1.30, 0.00), Extents: (0.86, 0.44, 0.10) order=-4
+RENDERER Environment/MasterBedroomInterior/Cabinet_Placeholder/NewArt_Visual/PaintedContact_Runtime bounds=Center: (74.43, 0.85, 0.00), Extents: (0.79, 0.04, 0.00) order=-5
+COLLIDER Environment/MasterBedroomInterior/Lamp_Placeholder bounds=Center: (74.01, 2.24, 0.00), Extents: (0.30, 0.83, 0.00) trigger=True enabled=True
+RENDERER Environment/MasterBedroomInterior/Lamp_Placeholder/NewArt_Visual bounds=Center: (74.01, 1.94, 0.00), Extents: (0.14, 0.21, 0.10) order=-2
+COLLIDER Environment/MasterBedroomInterior/CameraItem_Placeholder bounds=Center: (74.84, 1.96, 0.00), Extents: (0.50, 0.50, 0.00) trigger=True enabled=True
+RENDERER Environment/MasterBedroomInterior/CameraItem_Placeholder/NewArt_Visual bounds=Center: (74.84, 1.83, 0.00), Extents: (0.20, 0.10, 0.10) order=-2
+COLLIDER Environment/MasterBedroomInterior/ExitDoor_Point bounds=Center: (63.75, 2.19, 0.00), Extents: (0.58, 1.81, 0.00) trigger=False enabled=True
+RENDERER Environment/MasterBedroomInterior/ExitDoor_Point/NewArt_Visual bounds=Center: (63.75, 1.61, 0.00), Extents: (0.50, 1.11, 0.10) order=-6
+COLLIDER Environment/MasterBedroomInterior/RightBoundary bounds=Center: (76.30, 2.26, 0.00), Extents: (0.50, 1.79, 0.00) trigger=False enabled=True
+COLLIDER Environment/MasterBedroomInterior/MasterBedroom_ShadowEvent bounds=Center: (66.58, 1.60, 0.00), Extents: (0.65, 1.70, 0.00) trigger=True enabled=True
+RENDERER Environment/MasterBedroomInterior/NewArt_RoomShell/BedroomWindow bounds=Center: (71.20, 2.18, 0.00), Extents: (1.31, 0.83, 0.10) order=-15
+RENDERER Environment/MasterBedroomInterior/NewArt_Atmosphere/LowMist bounds=Center: (69.75, 0.75, 0.00), Extents: (11.25, 0.68, 0.00) order=4
+RENDERER Environment/MasterBedroomInterior/NewArt_Atmosphere/SoftWindowLight bounds=Center: (72.00, 1.60, 0.00), Extents: (2.50, 2.00, 0.00) order=-8
+RENDERER Environment/MasterBedroomInterior/Demo2026_Bookcase bounds=Center: (72.82, 1.77, 0.00), Extents: (0.56, 0.91, 0.10) order=-5
+RENDERER Environment/MasterBedroomInterior/Demo2026_Bookcase/PaintedContact_Runtime bounds=Center: (72.82, 0.85, 0.00), Extents: (0.52, 0.04, 0.00) order=-6
+RENDERER Environment/MasterBedroomInterior/CompactLayout_Applied/Wall_0 bounds=Center: (64.80, 2.52, 0.00), Extents: (2.00, 1.50, 0.10) order=-35
+RENDERER Environment/MasterBedroomInterior/CompactLayout_Applied/Wall_1 bounds=Center: (68.80, 2.52, 0.00), Extents: (2.00, 1.50, 0.10) order=-35
+RENDERER Environment/MasterBedroomInterior/CompactLayout_Applied/Wall_2 bounds=Center: (72.80, 2.52, 0.00), Extents: (2.00, 1.50, 0.10) order=-35
+RENDERER Environment/MasterBedroomInterior/CompactLayout_Applied/Wall_3 bounds=Center: (76.80, 2.52, 0.00), Extents: (2.00, 1.50, 0.10) order=-35
+RENDERER Environment/MasterBedroomInterior/CompactLayout_Applied/Ground_0 bounds=Center: (66.80, 0.52, 0.00), Extents: (4.00, 0.50, 0.10) order=-34
+RENDERER Environment/MasterBedroomInterior/CompactLayout_Applied/Ground_1 bounds=Center: (74.80, 0.52, 0.00), Extents: (4.00, 0.50, 0.10) order=-34
+PAINTING {"painting":{"instanceID":568105584918875288},"material":{"instanceID":568105584918858314},"horizontal":[{"pixel":0.0,"world":58.5},{"pixel":45.603515625,"world":58.63999938964844},{"pixel":135.75,"world":59.59000015258789},{"pixel":224.8359375,"world":60.540000915527347},{"pixel":456.03515625,"world":63.79999923706055},{"pixel":601.330078125,"world":65.3499984741211},{"pixel":746.625,"world":66.9000015258789},{"pixel":906.767578125,"world":69.11000061035156},{"pixel":1198.41796875,"world":71.55999755859375},{"pixel":1492.189453125,"world":74.01000213623047},{"pixel":1629.0,"world":75.80999755859375},{"pixel":1824.140625,"world":77.38999938964844},{"pixel":2019.28125,"world":78.97000122070313},{"pixel":2172.0,"world":81.5}],"vertical":[{"pixel":0.0,"world":5.0},{"pixel":197.1654510498047,"world":3.0},{"pixel":226.8462677001953,"world":2.6500000953674318},{"pixel":378.4304504394531,"world":1.649999976158142},{"pixel":412.35137939453127,"world":1.4500000476837159},{"pixel":572.4158325195313,"world":0.6800000071525574},{"pixel":597.8565063476563,"world":0.5},{"pixel":724.0,"world":-1.100000023841858}],"actorRegion":{"serializedVersion":"2","x":45.0,"y":-4.0,"width":55.0,"height":19.0},"sortingOrder":-30,"recoverySource":{"instanceID":0},"tint":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"fadeLeft":{"x":0.0,"y":0.0}}

@@ -1,0 +1,20 @@
+BOUND Environment/ChildhoodStreet/S03_LiMei => Environment/ChildhoodStreet/李梅/NewArt_Actor
+BOUND Environment/ChildhoodStreet/S03_Fish => Environment/ChildhoodStreet/赵炳程/NewArt_Actor
+BOUND Environment/ChildhoodStreet/S03_Rings => Environment/ChildhoodStreet/套圈老板/NewArt_Actor
+BOUND Environment/ChildhoodStreet/S03_Storyteller => Environment/ChildhoodStreet/说书人/NewArt_Actor
+BOUND Environment/ChildhoodStreet/S03_ZhaoHome => Environment/ChildhoodStreet/NewArt_Street/ZhaoHome
+BOUND Environment/Home_Floor01_Normal/S03_ExitHome => Environment/Home_Floor01_Normal/家门/NewArt_Visual
+BOUND Environment/LivingRoomInterior/S03_LivingRoomExit => Environment/LivingRoomInterior/LivingRoomExitVisual/NewArt_Visual
+BOUND Environment/LivingRoomInterior/FamilyCameraPlacement => Environment/LivingRoomInterior/LivingRoomFurniture/TV_Cabinet/NewArt_Visual
+POINT_ANCHOR Environment/ChildhoodStreet/Stage4B_Entry
+POINT_ANCHOR Environment/ChildhoodStreet/S03_Puddle
+PUDDLE_TEXT 水面晃得厉害，什么也照不清。
+BOUND School/Otherworld/Floor01/Basketball_Interaction => School/Otherworld/Floor01/Basketball/NewArt_Visual
+ALIGNED reading chair hotspot and child seat/stand anchors to (208.00, 65.20, 0.00)
+BOUND School/Memory/ReadingPassage/B5_ReadingChair => School/Memory/ReadingPassage/ReadingDesk/NewArt_Desk
+POINT_ANCHOR School/Memory/ReadingPassage/B5_ReadingChair
+POINT_ANCHOR School/Otherworld/Floor01/FogReturnBoundary
+POINT_ANCHOR School/Otherworld/Floor01/EquipmentEcho
+POINT_ANCHOR School/Memory/Floor01/B5_SchoolGateNotice
+POINT_ANCHOR School/Memory/Floor02/B5_FemaleToiletNotice
+POINT_ANCHOR School/Memory/MaleToilet/B5_ToiletListening

@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-01T07:59:29.711Z",
+  "scope": "Native sky clicks and Escape in Unity Game view, QHD game render. Not a complete main-chain playthrough.",
+  "checks": [
+    "Escape opened pause",
+    "Save opened four slots",
+    "Overwrite opened confirmation",
+    "Cancel returned without changing slot-01 bytes",
+    "Escape returned one menu level",
+    "Load damaged slot displayed error without changing scene",
+    "Normal slot confirmation loaded Scene01 and dismissed menu"
+  ],
+  "issueFixed": "Damaged JSON was exposing parser English; replace with Chinese player-facing error",
+  "movement": "A single d tap produced only a tiny movement; held key is not provided by installed API."
+}

@@ -25,6 +25,7 @@ public sealed class SchoolYouthController : MonoBehaviour
     public bool Ready => school != null && school.Ready && Story != null;
     public bool IsYouthMemory => Ready && school.layout.Actor == SchoolActor.Youth && school.layout.Variant == SchoolWorldVariant.Memory;
     public bool Busy => busy || modal != null || (security != null && security.IsOpen) || (readingChair != null && readingChair.IsOpen);
+    public bool ModalOpen => modal != null;
     public bool LastDialogueCompleted { get; private set; }
     public bool HasUnsubmittedUsb => usbItem != null && Inventory != null && Inventory.HasItem(usbItem) && !Story.Has(StoryFlag.SchoolEvidenceSubmitted);
     public bool OfficeCanEnter => IsYouthMemory && Story.Has(StoryFlag.SchoolEvidenceObtained)
@@ -176,7 +177,7 @@ public sealed class SchoolYouthController : MonoBehaviour
         if (school.youthGrabbingArm != null && school.youthGrabbingArm.activeSelf
             && Dialogue.CurrentDialogue == zhengFull && Dialogue.CurrentLineIndex >= 2)
             school.youthGrabbingArm.SetActive(false);
-        if (modal != null && Input.GetKeyDown(KeyCode.Escape)) EndModal();
+        if (modal != null && GameplayInput.GetKeyDown(KeyCode.Escape)) EndModal();
         if (Busy || school.SecurityPanelOpen || Controls.IsLocked() || Dialogue.DidDialogueEndThisFrame()) return;
         SaveSessionPosition();
         if (school.layout.CurrentRoom == "Floor02" && Controls.ActivePlayer.transform.position.x > 41

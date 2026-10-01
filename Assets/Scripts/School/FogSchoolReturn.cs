@@ -34,8 +34,8 @@ public partial class FogIntroController
     void UpdateSchoolReturn()
     {
         if(Phase==FogIntroPhase.Dead){
-            if(!Input.GetKey(KeyCode.E))retryArmed=true;
-            if(retryArmed&&Input.GetKeyDown(KeyCode.E)&&Time.frameCount>completedFrame)RetrySchoolReturn();return;
+            if(!GameplayInput.GetKey(KeyCode.E))retryArmed=true;
+            if(retryArmed&&GameplayInput.GetKeyDown(KeyCode.E)&&Time.frameCount>completedFrame)RetrySchoolReturn();return;
         }
         if(Phase!=FogIntroPhase.FreeWalk||returnFinishing)return;
         UpdateDarkness();if(Phase==FogIntroPhase.Dead)return;

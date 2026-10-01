@@ -51,6 +51,7 @@ public class Scene03RiverSequence : MonoBehaviour, IInteractable
     }
     IEnumerator Sequence()
     {
+        PersistentRuntime.Instance.GetComponent<QuestProgress>()?.Publish(QuestEvent.BoyFound);
         Busy=true;chapter.Controls.AcquireLock(ControlLockReason.Cutscene);ownsLock=true;
         try
         {
@@ -75,7 +76,7 @@ public class Scene03RiverSequence : MonoBehaviour, IInteractable
             yield return chapter.Say(zhaoCall);
             SetSeated(false);
             Vector3 childFrom=chapter.child.transform.position,boyFrom=boy.position;
-            for(float t=0;t<1.4f;t+=Time.unscaledDeltaTime)
+            for(float t=0;t<1.4f;t+=GameplayClock.Delta)
             {float k=t/1.4f;PlaceChild(Vector3.Lerp(childFrom,departure.position,k));boy.position=Vector3.Lerp(boyFrom,departure.position+Vector3.right,k);yield return null;}
             PlaceChild(departure.position);boy.position=departure.position+Vector3.right;
             fishing=true;yield return chapter.Say(zhaoAside);fishing=false;
@@ -90,13 +91,13 @@ public class Scene03RiverSequence : MonoBehaviour, IInteractable
     {
         Appreciating=true;CanLeaveSong=false;leaveText.alpha=0;
         music.clip=fullBirthdaySong;music.loop=false;music.volume=.55f;music.Play();
-        float began=Time.unscaledTime;Vector3 center=new Vector3(wideViewCenter.x,wideViewCenter.y,0);
+        float began=GameplayClock.Now;Vector3 center=new Vector3(wideViewCenter.x,wideViewCenter.y,0);
         yield return Zoom(wideViewSize,center,3);
         while(music.isPlaying)
         {
-            float elapsed=Time.unscaledTime-began;
+            float elapsed=GameplayClock.Now-began;
             CanLeaveSong=elapsed>=8;leaveText.alpha=CanLeaveSong?Mathf.Clamp01((elapsed-8)/.8f):0;
-            if(CanLeaveSong&&Input.GetKeyDown(KeyCode.E))break;
+            if(CanLeaveSong&&GameplayInput.GetKeyDown(KeyCode.E))break;
             yield return null;
         }
         music.Stop();leaveText.alpha=0;CanLeaveSong=false;Appreciating=false;
@@ -105,13 +106,13 @@ public class Scene03RiverSequence : MonoBehaviour, IInteractable
     IEnumerator Zoom(float size,Vector3 position,float seconds)
     {
         var from=view.transform.position;position.z=from.z;float old=view.orthographicSize;
-        for(float t=0;t<seconds;t+=Time.unscaledDeltaTime){float k=Mathf.SmoothStep(0,1,t/seconds);view.orthographicSize=Mathf.Lerp(old,size,k);view.transform.position=Vector3.Lerp(from,position,k);yield return null;}
+        for(float t=0;t<seconds;t+=GameplayClock.Delta){float k=Mathf.SmoothStep(0,1,t/seconds);view.orthographicSize=Mathf.Lerp(old,size,k);view.transform.position=Vector3.Lerp(from,position,k);yield return null;}
         view.orthographicSize=size;view.transform.position=position;
     }
     IEnumerator Move(Transform actor,Vector3 target,float seconds)
     {
         Vector3 from=actor.position;
-        for(float t=0;t<seconds;t+=Time.unscaledDeltaTime){Vector3 p=Vector3.Lerp(from,target,t/seconds);if(actor==chapter.child.transform)PlaceChild(p);else actor.position=p;yield return null;}
+        for(float t=0;t<seconds;t+=GameplayClock.Delta){Vector3 p=Vector3.Lerp(from,target,t/seconds);if(actor==chapter.child.transform)PlaceChild(p);else actor.position=p;yield return null;}
         if(actor==chapter.child.transform)PlaceChild(target);else actor.position=target;
     }
     void PlaceChild(Vector3 position){var body=chapter.child.GetComponent<Rigidbody2D>();body.linearVelocity=Vector2.zero;body.position=position;chapter.child.transform.position=position;}
@@ -144,7 +145,7 @@ public class Scene03RiverSequence : MonoBehaviour, IInteractable
         boyPainting.transform.localScale=new Vector3(u/Mathf.Abs(scale.x),u/Mathf.Abs(scale.y),1);
         boyPainting.transform.position=boy.position+Vector3.up*(-.7f+(seated?.48f:0));
     }
-    void Update(){if(fishing&&fishingRod!=null)fishingRod.localRotation=Quaternion.Euler(0,0,Mathf.Sin(Time.unscaledTime*2)*5);}
+    void Update(){if(fishing&&fishingRod!=null)fishingRod.localRotation=Quaternion.Euler(0,0,Mathf.Sin(GameplayClock.Now*2)*5);}
     void Release(){if(ownsLock&&chapter!=null&&chapter.Controls!=null)chapter.Controls.ReleaseLock(ControlLockReason.Cutscene);ownsLock=false;}
     void OnDisable(){StopAllCoroutines();SetSeated(false);if(music!=null)music.Stop();Busy=false;Release();}
 }

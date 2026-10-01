@@ -40,6 +40,13 @@ public class DialogueManager : MonoBehaviour
         canAdvanceDialogue = false;
     }
 
+    private void OnDisable()
+    {
+        if (!isDialogueActive) return;
+        StopAllCoroutines();
+        EndDialogue(false);
+    }
+
     private void Update()
     {
         if (!isDialogueActive)
@@ -54,10 +61,10 @@ public class DialogueManager : MonoBehaviour
 
         inputPausers.RemoveWhere(o => o == null);
         if (inputPausers.Count > 0) return;
-        readableSeconds += Time.unscaledDeltaTime;
+        readableSeconds += GameplayClock.Delta;
         if (currentDialogue != null && readableSeconds < currentDialogue.minimumReadSeconds) return;
-        if (Input.GetKeyDown(KeyCode.E) ||
-            Input.GetKeyDown(KeyCode.Space))
+        if (GameplayInput.GetKeyDown(KeyCode.E) ||
+            GameplayInput.GetKeyDown(KeyCode.Space))
         {
             ShowNextLine();
         }
@@ -92,7 +99,7 @@ public class DialogueManager : MonoBehaviour
         if (gameControlManager != null)
         {
             gameControlManager.AcquireLock(
-                ControlLockReason.Dialogue
+                ControlLockReason.Dialogue, this
             );
         }
 
@@ -225,7 +232,7 @@ public class DialogueManager : MonoBehaviour
         if (gameControlManager != null)
         {
             gameControlManager.ReleaseLock(
-                ControlLockReason.Dialogue
+                ControlLockReason.Dialogue, this
             );
         }
 

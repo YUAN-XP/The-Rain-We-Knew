@@ -77,16 +77,16 @@ public sealed class DemoCloseupPresentation : MonoBehaviour
         bool advance=false;
         var next=RuntimePanelUI.Button("继续 [E / 空格]",canvas,Font,new Vector2(.68f,.025f),new Vector2(.90f,.105f),()=>advance=true);
         next.name="PuddleContinue";next.gameObject.SetActive(false);
-        yield return new WaitForSecondsRealtime(.75f);
+        yield return GameplayClock.Wait(.75f);
         var flash=RuntimePanelUI.Panel("ReflectionFlash",canvas,Vector2.zero,Vector2.one,new Color(.86f,.88f,.84f,.7f),false);
-        yield return new WaitForSecondsRealtime(.065f);flash.color=new Color(.03f,.02f,.035f,.9f);
+        yield return GameplayClock.Wait(.065f);flash.color=new Color(.03f,.02f,.035f,.9f);
         face.sprite=DemoArtCatalog.Find("CHR_XP_ADULT_REFLECTION_INJURED");face.color=new Color(.77f,.71f,.72f,.84f);
-        yield return new WaitForSecondsRealtime(.075f);Destroy(flash.gameObject);
-        yield return new WaitForSecondsRealtime(.75f);
+        yield return GameplayClock.Wait(.075f);Destroy(flash.gameObject);
+        yield return GameplayClock.Wait(.75f);
         // Require a new press after the reveal; a held interaction must not skip it.
-        while(IsOpen&&(Input.GetKey(KeyCode.E)||Input.GetKey(KeyCode.Space)||Input.GetMouseButton(0)))yield return null;
+        while(IsOpen&&(GameplayInput.GetKey(KeyCode.E)||GameplayInput.GetKey(KeyCode.Space)||GameplayInput.GetMouseButton(0)))yield return null;
         if(IsOpen)next.gameObject.SetActive(true);
-        while(IsOpen&&!advance&&!Input.GetKeyDown(KeyCode.E)&&!Input.GetKeyDown(KeyCode.Space))yield return null;
+        while(IsOpen&&!advance&&!GameplayInput.GetKeyDown(KeyCode.E)&&!GameplayInput.GetKeyDown(KeyCode.Space))yield return null;
         Close();yield return null;
     }
     public void Close()
@@ -94,6 +94,6 @@ public sealed class DemoCloseupPresentation : MonoBehaviour
         StopAllCoroutines();busy=false;if(canvas){canvas.gameObject.SetActive(false);Destroy(canvas.gameObject);canvas=null;}
         if(ownsLock&&controls)controls.ReleaseLock(ControlLockReason.CloseUp);ownsLock=false;
     }
-    void Update(){if(IsOpen&&!busy&&Input.GetKeyDown(KeyCode.Escape))Close();}
+    void Update(){if(IsOpen&&!busy&&GameplayInput.GetKeyDown(KeyCode.Escape))Close();}
     void OnDisable()=>Close();
 }

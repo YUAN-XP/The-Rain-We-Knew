@@ -30,7 +30,7 @@ public enum StoryFlag { CameraDoorRevealed, CameraTutorialTriggered, CameraFirst
     EndingIdentityReceived, EndingIdentityHintIssued, CompleteCredentialArchived, EndingStreetVisit,
     EndingStreetPanCompleted, EndingZhangCompleted, EndingBoardingCompleted, EndingCarCompleted,
     EndingChildCompleted, EndingYouthCompleted, EndingHospitalCompleted, EndingFocusCompleted,
-    EndingNameHeard, EndingFinalLineCompleted, DemoCompleted, Scene01MemoryFlashPlayed }
+    EndingNameHeard, EndingFinalLineCompleted, DemoCompleted, Scene01MemoryFlashPlayed, Scene01GateKeyCollected }
 public enum AdultOutfit { Default, Overalls, SchoolUniform }
 
 [DisallowMultipleComponent]
@@ -73,6 +73,14 @@ public class StoryStateManager : MonoBehaviour
         bool changed = value ? flags.Add(flag) : flags.Remove(flag);
         if (changed) Changed?.Invoke();
         return changed;
+    }
+    public void RefreshObservers(){Changed?.Invoke();}
+    public StorySnapshot CaptureSave(){var list=new List<string>();foreach(var flag in flags)list.Add(flag.ToString());list.Sort(StringComparer.Ordinal);return new StorySnapshot{flags=list.ToArray(),outfit=(int)Outfit,mazeCell=Scene03MazeCell,hasSchoolPosition=HasSchoolPosition,schoolRoom=SchoolRoomId,schoolLocal=SchoolLocalPosition,schoolFacing=SchoolFacing};}
+    public void RestoreSave(StorySnapshot value,bool notify=true){
+        flags.Clear();foreach(string name in value.flags)flags.Add((StoryFlag)Enum.Parse(typeof(StoryFlag),name));
+        Outfit=(AdultOutfit)value.outfit;Scene03MazeCell=value.mazeCell;HasSchoolPosition=value.hasSchoolPosition;
+        SchoolRoomId=value.schoolRoom;SchoolLocalPosition=value.schoolLocal;SchoolFacing=value.schoolFacing;
+        if(notify)Changed?.Invoke();
     }
     public bool OwnsOutfit(OutfitData data) => data!=null && (data.initiallyOwned || Has(data.unlockFlag));
     public bool EquipOutfit(OutfitData data)

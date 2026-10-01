@@ -14,28 +14,80 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
   lines:
   - speaker: Xiao Peng
+    characterId: 2
+    age: 0
+    portraitMode: 0
+    portraitKey: ""
     text: Who are you?
   - speaker: ???
+    characterId: 3
+    age: 0
+    portraitMode: 0
+    portraitKey: ""
     text: Can you still walk?
   - speaker: Xiao Peng
+    characterId: 2
+    age: 0
+    portraitMode: 0
+    portraitKey: ""
     text: I asked who you are.
   - speaker: ???
+    characterId: 3
+    age: 0
+    portraitMode: 0
+    portraitKey: ""
     text: Looks like you really don't remember anything.
   - speaker: Xiao Peng
+    characterId: 2
+    age: 0
+    portraitMode: 0
+    portraitKey: ""
     text: What?
   - speaker: Xiao Peng
+    characterId: 2
+    age: 0
+    portraitMode: 0
+    portraitKey: ""
     text: Where is this?
   - speaker: ???
+    characterId: 3
+    age: 0
+    portraitMode: 0
+    portraitKey: ""
     text: Somewhere you've always wanted to come back to.
   - speaker: Xiao Peng
+    characterId: 2
+    age: 0
+    portraitMode: 0
+    portraitKey: ""
     text: Me?
   - speaker: Xiao Peng
+    characterId: 2
+    age: 0
+    portraitMode: 0
+    portraitKey: ""
     text: Do we know each other?
   - speaker: ???
+    characterId: 3
+    age: 0
+    portraitMode: 0
+    portraitKey: ""
     text: At least I know you.
   - speaker: Xiao Peng
+    characterId: 2
+    age: 0
+    portraitMode: 0
+    portraitKey: ""
     text: Then tell me what happened.
   - speaker: ???
+    characterId: 3
+    age: 0
+    portraitMode: 0
+    portraitKey: ""
     text: You wouldn't believe me yet.
   - speaker: ???
+    characterId: 3
+    age: 0
+    portraitMode: 0
+    portraitKey: ""
     text: Go through that gate. You'll find what you forgot.

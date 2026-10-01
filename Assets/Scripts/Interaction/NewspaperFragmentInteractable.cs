@@ -31,6 +31,7 @@ public class NewspaperFragmentInteractable :
         if(scene01State!=null && scene01State.newspaperFragmentTaken)
         {
             collected=true;
+            if(gateKeyObject!=null){gateKeyObject.SetActive(true);gateKeyObject.GetComponent<GateKeyInteractable>()?.RestoreCollectedState();}
             var collider=GetComponent<Collider2D>();if(collider!=null)collider.enabled=false;
             var visual=GetComponent<SpriteRenderer>();if(visual!=null)visual.enabled=false;
         }

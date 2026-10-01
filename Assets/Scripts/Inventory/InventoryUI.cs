@@ -131,7 +131,7 @@ public partial class InventoryUI : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Tab))
+        if (GameplayInput.GetKeyDown(KeyCode.Tab))
         {
             ToggleInventory();
         }

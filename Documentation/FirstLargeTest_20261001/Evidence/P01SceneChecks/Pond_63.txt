@@ -1,0 +1,15 @@
+DIAGNOSTIC position sampling, not natural input
+scene=Scene03_Childhood player=(63.00, 31.21, 0.00) feet=30.50538 speed=1.9 camera=(63.65, 31.90, -10.00) size=2.6 aspect=1.777778
+Environment/ChildhoodStreet/NewArt_Street/Demo2026_FarTown_52 min=(52.00, 30.70, -0.10) max=(72.00, 41.94, 0.10) order=-45 sprite=BG_STREET_FAR_DAY texture=1672x940
+Environment/ChildhoodStreet/NewArt_Street/Seam_ApproachPier min=(65.21, 30.70, -0.10) max=(65.63, 32.05, 0.10) order=-28 sprite=PondApproach_StreetPier_NoPondEdge texture=1774x887
+Environment/ChildhoodStreet/NewArt_Street/Pavement_12 min=(61.00, 29.73, -0.10) max=(69.00, 30.73, 0.10) order=-27 sprite=TEX_FLOOR_QUIET_V04:0 texture=2048x768
+Environment/ChildhoodStreet/NewArt_Street/ZhaoHome min=(59.23, 30.73, -0.03) max=(62.77, 32.67, 0.03) order=-12 sprite=MOD_STREET_RESIDENTIAL_CHILD:1_VisualRegion texture=1774x887
+Environment/ChildhoodStreet/NewArt_Street/Pavement_11 min=(53.00, 29.73, -0.10) max=(61.00, 30.73, 0.10) order=-27 sprite=TEX_FLOOR_QUIET_V04:0 texture=2048x768
+Environment/ChildhoodStreet/NewArt_Street/Seam_PondApproach min=(65.40, 30.70, -0.10) max=(67.33, 32.30, 0.10) order=-29 sprite=PondApproach_ContinuousPanel_V05C texture=2172x724
+Environment/ChildhoodStreet/NewArt_Street/Demo2026_LinkWall_52 min=(51.99, 30.70, -0.10) max=(64.02, 32.67, 0.10) order=-32 sprite=MOD_STREET_LINK_WALL_V02:0 texture=1774x887
+Environment/ChildhoodStreet/NewArt_Street/Planter_66 min=(65.72, 30.50, -0.04) max=(66.28, 31.05, 0.04) order=-5 sprite=MOD_SCHOOL_COMMON_DRESSING:2_VisualRegion texture=1254x1254
+Environment/ChildhoodStreet/NewArt_Street/CloseScale_PondJunction min=(67.30, 30.70, -0.10) max=(77.10, 32.30, 0.10) order=-29 sprite=MOD_POND_WALL_JUNCTION_V05:inset texture=2172x724
+YoungXiaoPeng/随身家庭相机 min=(62.84, 31.15, -0.10) max=(63.16, 31.37, 0.10) order=9 sprite=Square texture=256x256
+YoungXiaoPeng/Demo2026_PlayerPainting min=(62.85, 30.51, -0.10) max=(63.15, 31.86, 0.10) order=12 sprite=CHR_XP_CHILD_TURN3:1 texture=1536x1024
+Environment/ChildhoodStreet/NewArt_Street/Demo2026_LinkPier_64 min=(63.80, 30.70, -0.10) max=(64.20, 32.06, 0.10) order=-31 sprite=MOD_STREET_LINK_WALL_V02:2 texture=1774x887
+Environment/ChildhoodStreet/NewArt_Street/CloseScale_WallFill_64 min=(64.00, 30.70, -0.10) max=(65.30, 31.98, 0.10) order=-32 sprite=PondApproach_PlainWithoutBakedPier_V2 texture=1774x887

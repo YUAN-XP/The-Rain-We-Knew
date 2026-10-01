@@ -1,0 +1,41 @@
+PASS free movement allows save: 
+PASS older task event cannot rewind
+PASS hidden task state
+PASS first acquisition deduplicates
+PASS save denied for Dialogue
+PASS save denied for Inventory
+PASS save denied for Interaction
+PASS save denied for Camera
+PASS save denied for CloseUp
+PASS save denied for Cutscene
+PASS save denied for SceneTransition
+PASS save denied for SchoolSequence
+PASS save denied for EndingSequence
+PASS save denied for EndingPause
+PASS save denied for SaveRestore
+PASS gameplay clock frozen
+PASS physics and audio pause together
+PASS unscaled gameplay wait frozen
+PASS player position frozen
+PASS pause menu can save free-roam state
+PASS clock and waits resume
+PASS pause releases only its lock
+PASS resume preserves dialogue owner lock
+PASS write slot 1: 
+PASS write slot 2: 
+PASS write slot 3: 
+PASS write slot 4: 
+PASS overwrite needs explicit confirmation
+PASS cancelled overwrite retains bytes
+PASS confirmed overwrite succeeds
+PASS continue selects most recent valid save
+PASS damaged slot explained
+PASS damage isolated from other slots
+PASS damaged slot rejected before world mutation
+PASS load accepted: 
+PASS scene restore completed: 
+PASS player position restored
+PASS story and outfit restored
+PASS task state restored
+PASS restore releases control after initialization
+PASS SUMMARY

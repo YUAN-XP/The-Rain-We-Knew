@@ -17,7 +17,7 @@ public class Scene03TransitionBridge : MonoBehaviour
         var puzzle=FindAnyObjectByType<ThreeDoorPuzzleController>();if(puzzle!=null)puzzle.enabled=false;
         var sounds=FindObjectsByType<AudioSource>();var volumes=new float[sounds.Length];
         for(int i=0;i<sounds.Length;i++)volumes[i]=sounds[i].volume;
-        for(float t=0;t<.65f;t+=Time.unscaledDeltaTime){for(int i=0;i<sounds.Length;i++)if(sounds[i]!=null)sounds[i].volume=volumes[i]*(1-t/.65f);yield return null;}
+        for(float t=0;t<.65f;t+=GameplayClock.Delta){for(int i=0;i<sounds.Length;i++)if(sounds[i]!=null)sounds[i].volume=volumes[i]*(1-t/.65f);yield return null;}
         yield return screenFade.FadeOutAndHold();EntryReached=true;
         if(!string.IsNullOrWhiteSpace(targetSceneName) && Application.CanStreamedLevelBeLoaded(targetSceneName)){
             BlackSceneTransition.Begin(targetSceneName,controls,null,true);yield break;

@@ -34,16 +34,16 @@ public class ChildShadowSequence : MonoBehaviour
         while(controls.IsLocked())yield return null;
         controls.AcquireLock(ControlLockReason.Cutscene);ownsLock=true;
         childVisual.transform.position=bedroomSpawn.position;childVisual.gameObject.SetActive(true);
-        yield return new WaitForSecondsRealtime(.55f);
+        yield return GameplayClock.Wait(.55f);
         var camera=Camera.main;var original=camera!=null?camera.transform.position:Vector3.zero;
         while(Vector3.Distance(childVisual.transform.position,bedroomExit.position)>.03f)
         {
-            childVisual.transform.position=Vector3.MoveTowards(childVisual.transform.position,bedroomExit.position,runSpeed*Time.unscaledDeltaTime);
-            if(camera!=null){var pos=camera.transform.position;pos.x=Mathf.Lerp(pos.x,childVisual.transform.position.x+2f,4f*Time.unscaledDeltaTime);camera.transform.position=pos;}
+            childVisual.transform.position=Vector3.MoveTowards(childVisual.transform.position,bedroomExit.position,runSpeed*GameplayClock.Delta);
+            if(camera!=null){var pos=camera.transform.position;pos.x=Mathf.Lerp(pos.x,childVisual.transform.position.x+2f,4f*GameplayClock.Delta);camera.transform.position=pos;}
             yield return null;
         }
         childVisual.gameObject.SetActive(false);
-        if(camera!=null){var from=camera.transform.position;for(float t=0;t<.4f;t+=Time.unscaledDeltaTime){camera.transform.position=Vector3.Lerp(from,original,t/.4f);yield return null;}camera.transform.position=original;}
+        if(camera!=null){var from=camera.transform.position;for(float t=0;t<.4f;t+=GameplayClock.Delta){camera.transform.position=Vector3.Lerp(from,original,t/.4f);yield return null;}camera.transform.position=original;}
         story.Set(StoryFlag.ChildShadowSequencePlayed);
         controls.ReleaseLock(ControlLockReason.Cutscene);ownsLock=false;IsPlaying=false;
     }
@@ -61,9 +61,9 @@ public class ChildShadowSequence : MonoBehaviour
         childVisual.gameObject.SetActive(true);
         if(notice!=null)notice.Show("等等。",3f);
         var camera=Camera.main;
-        for(float elapsed=0;elapsed<6f;elapsed+=Time.unscaledDeltaTime)
+        for(float elapsed=0;elapsed<6f;elapsed+=GameplayClock.Delta)
         {
-            childVisual.transform.position+=Vector3.right*(runSpeed*Time.unscaledDeltaTime);
+            childVisual.transform.position+=Vector3.right*(runSpeed*GameplayClock.Delta);
             if(elapsed>.75f && (camera==null || camera.WorldToViewportPoint(childVisual.bounds.min).x>1.1f))break;
             yield return null;
         }

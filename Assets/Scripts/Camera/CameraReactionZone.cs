@@ -25,7 +25,7 @@ public class CameraReactionZone : MonoBehaviour
     {
         story.Set(StoryFlag.CameraTutorialTriggered); controls.AcquireLock(ControlLockReason.Cutscene); ownsLock=true;
         notice.Show("相机似乎有些反应……",2.5f);
-        yield return new WaitForSecondsRealtime(1.1f);
+        yield return GameplayClock.Wait(1.1f);
         controls.ReleaseLock(ControlLockReason.Cutscene); ownsLock=false;
         if(!story.Has(StoryFlag.CameraFirstRaised))notice.Tutorial("[Q] 举起 / 放下相机");
     }

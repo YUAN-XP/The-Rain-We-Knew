@@ -32,14 +32,14 @@ public sealed class DemoComicSequence : MonoBehaviour
     IEnumerator Reveal(int index,float duration=.32f)
     {
         if(index<0||index>=panels.Count)yield break;var group=panels[index];
-        for(float t=0;t<duration;t+=Time.unscaledDeltaTime){if(!group)yield break;group.alpha=Mathf.Clamp01(t/duration);yield return null;}
+        for(float t=0;t<duration;t+=GameplayClock.Delta){if(!group)yield break;group.alpha=Mathf.Clamp01(t/duration);yield return null;}
         if(group)group.alpha=1;
     }
     static IEnumerator FreshAdvance(float minimum)
     {
-        yield return new WaitForSecondsRealtime(minimum);
-        while(Input.GetKey(KeyCode.E)||Input.GetKey(KeyCode.Space)||Input.GetMouseButton(0))yield return null;
-        while(!Input.GetKeyDown(KeyCode.E)&&!Input.GetKeyDown(KeyCode.Space)&&!Input.GetMouseButtonDown(0))yield return null;
+        yield return GameplayClock.Wait(minimum);
+        while(GameplayInput.GetKey(KeyCode.E)||GameplayInput.GetKey(KeyCode.Space)||GameplayInput.GetMouseButton(0))yield return null;
+        while(!GameplayInput.GetKeyDown(KeyCode.E)&&!GameplayInput.GetKeyDown(KeyCode.Space)&&!GameplayInput.GetMouseButtonDown(0))yield return null;
         yield return null;
     }
     public IEnumerator Memory(Action gunshot)
@@ -50,12 +50,12 @@ public sealed class DemoComicSequence : MonoBehaviour
         var second=Frame("VoiceInDarkness",new Vector2(.505f,.54f),new Vector2(.935f,.91f));
         var cloud=Art(second,"FX_FOG_SHAPES:0",new Vector2(-.1f,-.1f),new Vector2(1.1f,1.1f));cloud.color=new Color(.28f,.36f,.43f,.8f);
         Frame("AbruptMemory",new Vector2(.065f,.09f),new Vector2(.935f,.505f));
-        yield return Reveal(0);yield return new WaitForSecondsRealtime(1.2f);
-        yield return Reveal(1);yield return new WaitForSecondsRealtime(1.0f);
+        yield return Reveal(0);yield return GameplayClock.Wait(1.2f);
+        yield return Reveal(1);yield return GameplayClock.Wait(1.0f);
         gunshot?.Invoke();panels[2].alpha=1;
         var flash=RuntimePanelUI.Panel("MemoryWhiteStroke",panels[2].transform,new Vector2(0,.43f),new Vector2(1,.57f),new Color(.83f,.85f,.82f),false);
-        yield return new WaitForSecondsRealtime(.08f);flash.color=new Color(.11f,.13f,.16f);
-        yield return new WaitForSecondsRealtime(.95f);Close();
+        yield return GameplayClock.Wait(.08f);flash.color=new Color(.11f,.13f,.16f);
+        yield return GameplayClock.Wait(.95f);Close();
     }
     public IEnumerator DeskGrab()
     {
@@ -65,7 +65,7 @@ public sealed class DemoComicSequence : MonoBehaviour
         Art(second,"CHR_ADULT_WRIST_GRAB_CUFF3:0",new Vector2(.01f,.02f),new Vector2(.99f,.98f));
         var third=Frame("SchoolMemory",new Vector2(.06f,.09f),new Vector2(.585f,.91f),"BG_SCHOOL_CLASS3_2_MEMORY");
         Art(third,"CHR_YOUTH_GRAB_PAIR2:0",new Vector2(.02f,.01f),new Vector2(.98f,.93f));
-        yield return Reveal(0);yield return new WaitForSecondsRealtime(.6f);yield return Reveal(1);yield return new WaitForSecondsRealtime(.6f);yield return Reveal(2);
+        yield return Reveal(0);yield return GameplayClock.Wait(.6f);yield return Reveal(1);yield return GameplayClock.Wait(.6f);yield return Reveal(2);
         yield return FreshAdvance(.85f);Close();
     }
     public void BeginConfrontation(DialogueManager dialogue)
@@ -82,8 +82,8 @@ public sealed class DemoComicSequence : MonoBehaviour
         if(dialogueCanvas){priorDialogueOrder=dialogueCanvas.sortingOrder;priorOverride=dialogueCanvas.overrideSorting;dialogueCanvas.overrideSorting=true;dialogueCanvas.sortingOrder=215;}
         StartCoroutine(RevealThreat());
     }
-    IEnumerator RevealThreat(){for(int i=0;i<4;i++){yield return Reveal(i,.5f);yield return new WaitForSecondsRealtime(.5f);}}
-    public IEnumerator FinishConfrontation(){while(panels.Count==4&&panels[3]&&panels[3].alpha<1)yield return null;yield return new WaitForSecondsRealtime(.3f);Close();}
+    IEnumerator RevealThreat(){for(int i=0;i<4;i++){yield return Reveal(i,.5f);yield return GameplayClock.Wait(.5f);}}
+    public IEnumerator FinishConfrontation(){while(panels.Count==4&&panels[3]&&panels[3].alpha<1)yield return null;yield return GameplayClock.Wait(.3f);Close();}
     public void BeginBoarding()
     {
         Begin();
@@ -97,7 +97,7 @@ public sealed class DemoComicSequence : MonoBehaviour
         Art(c,"SPR_POLICE_CAR_SINGLE_DOOR_STATES:1",new Vector2(-.1f,.07f),new Vector2(1.15f,.85f));
         Art(c,"CHR_XP_ADULT_DEFAULT_TURN3:1",new Vector2(.27f,.12f),new Vector2(.61f,.82f));
     }
-    public IEnumerator BoardingStep(int step){yield return Reveal(step);yield return new WaitForSecondsRealtime(.65f);}
+    public IEnumerator BoardingStep(int step){yield return Reveal(step);yield return GameplayClock.Wait(.65f);}
     public IEnumerator FinishBoarding(){yield return FreshAdvance(.55f);Close();}
     public void Close()
     {

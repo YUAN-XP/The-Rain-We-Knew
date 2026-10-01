@@ -14,20 +14,56 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
   lines:
   - speaker: "\u7236\u4EB2"
+    characterId: 10
+    age: 0
+    portraitMode: 0
+    portraitKey: ""
     text: "\u4F60\u7238\u7238\u5988\u5988\u6765\u4E86\u561B\uFF1F"
   - speaker: "\u7537\u5B69"
+    characterId: 4
+    age: 0
+    portraitMode: 0
+    portraitKey: ""
     text: "\u5728\u8DEF\u4E0A\u5462\uFF0C\u4F30\u8BA1\u8FD8\u8981\u4E00\u4F1A\u3002"
   - speaker: "\u7537\u5B69"
+    characterId: 4
+    age: 0
+    portraitMode: 0
+    portraitKey: ""
     text: "\u6211\u5148\u8DD1\u51FA\u6765\u73A9\u4E86\u3002"
   - speaker: "\u7236\u4EB2"
+    characterId: 10
+    age: 0
+    portraitMode: 0
+    portraitKey: ""
     text: "\u5C0F\u9E4F\uFF0C\u76F8\u673A\u7ED9\u6211\u5427\uFF0C\u5F85\u4F1A\u7ED9\u4F60\u62CD\u5F20\u7167\u3002"
   - speaker: "\u7537\u5B69"
+    characterId: 4
+    age: 0
+    portraitMode: 0
+    portraitKey: ""
     text: "\u8981\u4E0D\u6211\u73B0\u5728\u7ED9\u4F60\u4EEC\u62CD\u4E00\u5F20\u5168\u5BB6\u798F\u5427\u3002"
   - speaker: "\u7236\u4EB2"
+    characterId: 10
+    age: 0
+    portraitMode: 0
+    portraitKey: ""
     text: "\u53EF\u4EE5\u5440\u3002"
   - speaker: "\u6BCD\u4EB2"
+    characterId: 9
+    age: 0
+    portraitMode: 0
+    portraitKey: ""
     text: "\u4F60\u4E5F\u4E00\u8D77\u6765\u5427\uFF0C\u96BE\u5F97\u5C0F\u9E4F\u613F\u610F\u51FA\u53BB\u627E\u670B\u53CB\u73A9\u3002"
   - speaker: "\u7537\u5B69"
+    characterId: 4
+    age: 0
+    portraitMode: 0
+    portraitKey: ""
     text: "\u6211\u4E5F\u6765\uFF1F"
   - speaker: "\u6BCD\u4EB2"
+    characterId: 9
+    age: 0
+    portraitMode: 0
+    portraitKey: ""
     text: "\u6765\u5440\u3002"

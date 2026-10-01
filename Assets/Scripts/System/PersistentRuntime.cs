@@ -21,6 +21,11 @@ public class PersistentRuntime : MonoBehaviour
         instance = this;
 
         DontDestroyOnLoad(gameObject);
+        if(!GetComponent<GameplayClock>())gameObject.AddComponent<GameplayClock>();
+        if(!GetComponent<QuestProgress>())gameObject.AddComponent<QuestProgress>();
+        if(!GetComponent<AcquisitionHistory>())gameObject.AddComponent<AcquisitionHistory>();
+        if(!GetComponent<GameSaveService>())gameObject.AddComponent<GameSaveService>();
+        if(!GetComponent<GamePause>())gameObject.AddComponent<GamePause>();
 
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
@@ -78,6 +83,7 @@ public class PersistentRuntime : MonoBehaviour
 
         player.position =
             spawnPoint.transform.position;
+        GroundedPlacement.Settle(activePlayer);
 
         Debug.Log(
             "PersistentRuntime: Player moved to spawn point in "
