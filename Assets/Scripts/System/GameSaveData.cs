@@ -11,7 +11,7 @@ using UnityEngine;
 [Serializable] public sealed class SavedCompanion { public string role,parent; public Vector3 position,scale=Vector3.one; public bool active; public float direction=1; }
 [Serializable] public sealed class GameSaveData {
     public int version=1,slot; public long savedUtcTicks; public double playSeconds;
-    public string scene,actor; public Vector3 position,scale=Vector3.one,cameraPosition; public bool planar,followY,lampRaised,cameraAvailable;
+    public string scene,actor,actorFacing; public Vector3 position,scale=Vector3.one,cameraPosition; public bool planar,followY,lampRaised,cameraAvailable;
     public float facing=1,cameraSize,cameraOffset; public Vector2 cameraX,cameraY;
     public StorySnapshot story; public QuestSnapshot quests; public SavedItem[] items=new SavedItem[0]; public SavedFile[] files=new SavedFile[0];
     public string[] firstObtained=new string[0]; public SavedSchool school=new SavedSchool();

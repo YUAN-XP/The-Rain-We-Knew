@@ -61,6 +61,7 @@ public class OilLampController : MonoBehaviour
             useHintShown = true;
             if (notice != null) notice.Show("[R] 使用小油灯", 3);
         }
+        if (GetComponent<P02ToolMotion>()) return;
         if (!GameplayInput.GetKeyDown(KeyCode.R) || !CanRespondThisFrame) return;
         if (!Owned) return;
         if (!StoryUsable) { ShowExhausted(); return; }
@@ -125,7 +126,19 @@ public class OilLampController : MonoBehaviour
         { if (visual != null) visual.SetActive(false); return; }
         if (visual == null) BuildVisual();
         if (visual == null) return;
-        visual.SetActive(true);
+        var motion=GetComponent<P02ToolMotion>();
+        if(motion){
+            visual.SetActive(motion.LampVisible);
+            body.enabled=false;
+            if(!motion.LampVisible)return;
+            var p=controls.ActivePlayer.GetComponent<P02ActorPresentation>();
+            if(p&&p.Rig)visual.transform.position=p.Rig.HandLamp.position;
+            glow.enabled=IsIlluminating;
+            glow.transform.localScale=Vector3.one*glowDiameter*Mathf.Lerp(1,2.4f,Charge01);
+            glow.color=new Color(glowColor.r,glowColor.g,glowColor.b,glowColor.a*Mathf.Lerp(1,2.2f,Charge01));
+            return;
+        }
+        body.enabled=true;visual.SetActive(true);
         var actor = controls.ActivePlayer.transform;
         var offset = IsRaised ? raisedOffset : stowedOffset;
         offset.x *= Mathf.Sign(actor.localScale.x);

@@ -2162,12 +2162,48 @@
     "actions": "成年各服装、少年、童年分别建立动作矩阵；左右待机走跑、相机取收、油灯取收/持灯走跑，Q/R切换先收后取；迷宫八向纳入",
     "acceptance": "走跑有不同动作；完整循环脚不滑；不把获得相机/灯永久挂身上；相机童年可用；变装不改年龄",
     "code_entry": "Presentation/DemoActorArtwork.cs; Player/PlayerController.cs; Player/SprintAbility.cs; Camera/CameraModeController.cs; School/OilLampController.cs",
-    "status": "已审计待实施",
+    "status": "P02 内部验证完成，用户授权阶段存档",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "19_P02最终候选详细报告_2026-10-04.md",
+      "18_P02证据索引与版本核对.md",
+      "stage_handoff_status.json",
+      "stage_source_hashes.json",
+      "gameplay_boundary_audit.json",
+      "stage_close_cleanup.json",
+      "P02Evidence/PV20r2_review.html",
+      "P02Evidence/idle_cycles_PV20r2/idle_cycle_report.json",
+      "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\PV20r2_foreground_validation.json",
+      "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\PV20r2_standalone_validation.json",
+      "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\PV20r2_cold_coverage_validation.json"
+    ],
+    "human_acceptance": "2026-10-04 用户明确授权存档并进入P03；未追加声称人工审美复查",
     "regression_to": [],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_date": "2026-10-04",
+    "implemented_scope": "20方向、122状态矩阵；混合原生蒙皮、比例与方向、走跑/待机和停步恢复、成年三服装及童年相机、持灯取收与切换；实机、独立构建及冷进程回归。",
+    "remaining_scope": "用户人工审美验收；通过后 GitHub 留档。原隐蔽卧室退出镜头及既有环境接缝未修，见报告边界；P04新返街玩法未实施。",
+    "preparation_evidence": [
+      "10_P02人物运动制作与验收规范.md",
+      "11_P02动作矩阵与源图核验.json"
+    ],
+    "historical_evidence": [
+      "14_P02人物样板问题与复测记录.md",
+      "r13_review_evidence.json",
+      "C:\\Users\\31975\\Documents\\Codex\\2026-09-22\\demo-demo-gdd-gdd-demo\\work\\2026-10-02-P02\\sample_runs\\20261002_062231\\motion_measurements.json",
+      "C:\\Users\\31975\\Documents\\Codex\\2026-09-22\\demo-demo-gdd-gdd-demo\\work\\2026-10-02-P02\\gameplay_runs\\20261002_062354\\gameplay_measurements.json",
+      "16_P02阶段性反馈与交接报告_2026-10-02.md",
+      "18_P02证据索引与版本核对.md",
+      "stage_handoff_status.json",
+      "final_native_validation.json",
+      "final_save_review.json",
+      "normal_opening_validation.json",
+      "handover_native_validation.json",
+      "river_final_validation.json",
+      "stage_close_cleanup.json",
+      "gameplay_boundary_audit.json"
+    ],
+    "archive_authorization": "上面说错了，你帮我完成P02存档吧，我已经打开了GitHub Desktop。完成后就可以直接开始P03"
   },
   {
     "id": "A02",
@@ -2185,12 +2221,44 @@
     "actions": "建立成人邱天和童年男孩独立走跑待机，跟随距离和转向及过门恢复",
     "acceptance": "左右方向身份特征不镜像错位；收证件、河堤离开及返街不滑步不瞬移",
     "code_entry": "Ending/EndingHomeController.cs; Scene03/Scene03RiverSequence.cs",
-    "status": "已审计待实施",
+    "status": "P02 内部验证完成，用户授权阶段存档",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "19_P02最终候选详细报告_2026-10-04.md",
+      "18_P02证据索引与版本核对.md",
+      "stage_handoff_status.json",
+      "stage_source_hashes.json",
+      "gameplay_boundary_audit.json",
+      "stage_close_cleanup.json",
+      "P02Evidence/PV20r2_review.html",
+      "P02Evidence/idle_cycles_PV20r2/idle_cycle_report.json",
+      "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\PV20r2_foreground_validation.json",
+      "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\PV20r2_standalone_validation.json",
+      "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\PV20r2_cold_coverage_validation.json"
+    ],
+    "human_acceptance": "2026-10-04 用户明确授权存档并进入P03；未追加声称人工审美复查",
     "regression_to": [],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_date": "2026-10-04",
+    "implemented_scope": "邱天和童年男孩独立左右动作；原位移驱动、河堤起身离亭、跟随、递证与过门/读档；修正邱天透明身体来源绑定，不改原剧情与跟随规则。",
+    "remaining_scope": "用户人工审美验收；通过后 GitHub 留档。原隐蔽卧室退出镜头及既有环境接缝未修，见报告边界；P04新返街玩法未实施。",
+    "preparation_evidence": [
+      "10_P02人物运动制作与验收规范.md",
+      "11_P02动作矩阵与源图核验.json"
+    ],
+    "historical_evidence": [
+      "16_P02阶段性反馈与交接报告_2026-10-02.md",
+      "18_P02证据索引与版本核对.md",
+      "stage_handoff_status.json",
+      "final_native_validation.json",
+      "final_save_review.json",
+      "normal_opening_validation.json",
+      "handover_native_validation.json",
+      "river_final_validation.json",
+      "stage_close_cleanup.json",
+      "gameplay_boundary_audit.json"
+    ],
+    "archive_authorization": "上面说错了，你帮我完成P02存档吧，我已经打开了GitHub Desktop。完成后就可以直接开始P03"
   },
   {
     "id": "A03",
@@ -2282,8 +2350,8 @@
     "actions": "角色脚点到目标交互锚点/最近可达点的距离判定，按对象配置；提示绑肖鹏头顶，描边同条件",
     "acceptance": "远离无提示；到达才提示；墙另一侧不可交互；遮罩/背包/对话不穿透输入；屏幕边缘不裁字",
     "code_entry": "Interaction/PlayerInteraction.cs; UI/InteractionUI.cs",
-    "status": "P01范围完成，待人工验收存档",
-    "implementation_commit": null,
+    "status": "P01范围已存档，后续章节按原阶段实施",
+    "implementation_commit": "c6a4664fa9a810b2f4d78a7abd3d20ef53198f40",
     "test_evidence": [
       "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/Evidence/reach-check.txt",
       "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/Evidence/runtime-rules-check.txt",
@@ -2300,12 +2368,14 @@
       "Evidence/Continuous/visual-review.json",
       "Evidence/MainChain/main-chain-complete-status.txt"
     ],
-    "human_acceptance": "未验收",
+    "human_acceptance": "用户同意进入P02；未单独记录逐项人工审计结果",
     "regression_to": [],
     "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
     "implementation_date": "2026-10-01",
     "implemented_scope": "可见边界/显式锚点测距、头顶提示、墙阻挡及模态输入；主卧六目标及童年/学校五种状态共97个目标的选中覆盖通过，其中90个有可见美术的目标描边通过；六种实际分辨率30个边界位置、同比字号通过。",
-    "remaining_scope": "P01范围无待办；普通积水正式显示仍由P04制作。"
+    "remaining_scope": "P01范围无待办；普通积水正式显示仍由P04制作。",
+    "archive_date": "2026-10-02",
+    "archive_confirmation": "用户确认已留档并要求进入P02；本地origin/main与HEAD一致，未重新发起远端认证或查询。"
   },
   {
     "id": "U02",
@@ -2326,8 +2396,8 @@
     "actions": "稳定角色ID、年龄、表情与portraitMode；统一半圆底半身、底线和讲话微放大；后续阶段补艺术表情",
     "acceptance": "邱天/赵炳程/张若媛/孙付/王平正确；未知剪影和无立绘例外独立；逐句无闪烁",
     "code_entry": "Presentation/DemoDialogueArtwork.cs; Dialogue/DialogueData.cs",
-    "status": "P01范围完成，待人工验收存档",
-    "implementation_commit": null,
+    "status": "P01范围已存档，后续章节按原阶段实施",
+    "implementation_commit": "c6a4664fa9a810b2f4d78a7abd3d20ef53198f40",
     "test_evidence": [
       "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/Evidence/identity-check.txt",
       "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/Evidence/portrait-rules-check.txt",
@@ -2339,12 +2409,14 @@
       "Evidence/Continuous/visual-review.json",
       "Evidence/MainChain/main-chain-complete-status.txt"
     ],
-    "human_acceptance": "未验收",
+    "human_acceptance": "用户同意进入P02；未单独记录逐项人工审计结果",
     "regression_to": [],
     "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
     "implementation_date": "2026-10-01",
     "implemented_scope": "稳定身份341行、统一底线和弧形底、2.5%发言强调及无立绘例外通过。",
-    "remaining_scope": "P01身份及立绘共用规则已验；新表情、角色正式素材在后续章节制作。"
+    "remaining_scope": "P01身份及立绘共用规则已验；新表情、角色正式素材在后续章节制作。",
+    "archive_date": "2026-10-02",
+    "archive_confirmation": "用户确认已留档并要求进入P02；本地origin/main与HEAD一致，未重新发起远端认证或查询。"
   },
   {
     "id": "U03",
@@ -2393,8 +2465,8 @@
     "actions": "建立各房间的人体比例、有效画幅、横向宽度和行走时间预算，先样板后推广",
     "acceptance": "镜头缩放不能代替房间重排；禁止直接将旧大场景横向压缩；世界坐标热点同步迁移",
     "code_entry": "Presentation/RoomPresentationFraming.cs; System/CameraFollow.cs; System/RoomCameraBounds.cs",
-    "status": "P01范围完成，待人工验收存档",
-    "implementation_commit": null,
+    "status": "P01范围已存档，后续章节按原阶段实施",
+    "implementation_commit": "c6a4664fa9a810b2f4d78a7abd3d20ef53198f40",
     "test_evidence": [
       "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/Evidence/spatial-master-before.txt",
       "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/Evidence/P01_S02_master_measurement.png",
@@ -2404,12 +2476,14 @@
       "Evidence/Continuous/visual-review.json",
       "Evidence/MainChain/main-chain-complete-status.txt"
     ],
-    "human_acceptance": "未验收",
+    "human_acceptance": "用户同意进入P02；未单独记录逐项人工审计结果",
     "regression_to": [],
     "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
     "implementation_date": "2026-10-01",
     "implemented_scope": "Class3_2两世界40→20迁移；三样板全跨度定点图和空间参数已记录。",
-    "remaining_scope": "P01三样板与共用规则已验；推广其他房间及远景像素预算按P04等章节阶段实施。"
+    "remaining_scope": "P01三样板与共用规则已验；推广其他房间及远景像素预算按P04等章节阶段实施。",
+    "archive_date": "2026-10-02",
+    "archive_confirmation": "用户确认已留档并要求进入P02；本地origin/main与HEAD一致，未重新发起远端认证或查询。"
   },
   {
     "id": "G02",
@@ -2425,8 +2499,8 @@
     "actions": "Scene3所有可交互有统一描边；全图门梯生成点地面校验；场景群组补空白；各场景阶段落实",
     "acceptance": "每个定向入口在正常/重访/读档状态均不从半空落下；脚底不靠改排序伪装落地",
     "code_entry": "Interaction/PlayerInteraction.cs; System/RoomCameraBounds.cs; School/SchoolLayoutController.cs",
-    "status": "P01范围完成，待人工验收存档",
-    "implementation_commit": null,
+    "status": "P01范围已存档，后续章节按原阶段实施",
+    "implementation_commit": "c6a4664fa9a810b2f4d78a7abd3d20ef53198f40",
     "test_evidence": [
       "Evidence/P01Transitions/results.txt",
       "Evidence/P01RestoreEdges/results.txt",
@@ -2434,12 +2508,14 @@
       "Evidence/Continuous/visual-review.json",
       "Evidence/MainChain/main-chain-complete-status.txt"
     ],
-    "human_acceptance": "未验收",
+    "human_acceptance": "用户同意进入P02；未单独记录逐项人工审计结果",
     "regression_to": [],
     "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
     "implementation_date": "2026-10-01",
     "implemented_scope": "共用GroundedPlacement在门口、场景生成和童年区域切换黑幕内落地；课堂两世界和卧室门往返通过。",
-    "remaining_scope": "P01描边覆盖及共用入口落地规则已验；各章节装饰与正式缺失物件按后续阶段实施。"
+    "remaining_scope": "P01描边覆盖及共用入口落地规则已验；各章节装饰与正式缺失物件按后续阶段实施。",
+    "archive_date": "2026-10-02",
+    "archive_confirmation": "用户确认已留档并要求进入P02；本地origin/main与HEAD一致，未重新发起远端认证或查询。"
   },
   {
     "id": "G03",
@@ -2559,8 +2635,8 @@
     "actions": "先做稳定状态数据契约和磁盘四槽；P07做正式界面；日期、游玩时长、任务名；空槽不可读",
     "acceptance": "保存→退进程→加载：物品文件服装/剧情/世界/同伴/任务/位置一致；损坏槽明确提示不重置其他槽",
     "code_entry": "Story/StoryStateManager.cs; Ending/EndingSession.cs; Inventory/*; 新增SaveService",
-    "status": "P01范围完成，待人工验收存档",
-    "implementation_commit": null,
+    "status": "P01范围已存档，后续章节按原阶段实施",
+    "implementation_commit": "c6a4664fa9a810b2f4d78a7abd3d20ef53198f40",
     "test_evidence": [
       "Evidence/P01Verification/persistence-runtime.txt",
       "Evidence/ColdCrossChapter/write-report.txt",
@@ -2571,12 +2647,14 @@
       "Evidence/Continuous/visual-review.json",
       "Evidence/MainChain/main-chain-complete-status.txt"
     ],
-    "human_acceptance": "未验收",
+    "human_acceptance": "用户同意进入P02；未单独记录逐项人工审计结果",
     "regression_to": [],
     "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
     "implementation_date": "2026-10-01",
     "implemented_scope": "四槽校验原子写入、自由行动限定、损坏隔离、保护恢复；两个独立进程跨四章存读通过；实际菜单覆盖取消与读取通过。",
-    "remaining_scope": "P01磁盘四槽与恢复基础已验；正式槽位美术P07。"
+    "remaining_scope": "P01磁盘四槽与恢复基础已验；正式槽位美术P07。",
+    "archive_date": "2026-10-02",
+    "archive_confirmation": "用户确认已留档并要求进入P02；本地origin/main与HEAD一致，未重新发起远端认证或查询。"
   },
   {
     "id": "N04",
@@ -2628,8 +2706,8 @@
     "actions": "独立任务投影状态/事件；P07完成黑边左上图标文字渐显、旧任务划线消失再新任务",
     "acceptance": "24节点有唯一事件与隐藏态；重复触发不倒退；读档只显示当前任务；黑划线在黑边仍可辨",
     "code_entry": "Story/StoryStateManager.cs; 新增QuestPresentation",
-    "status": "P01范围完成，待人工验收存档",
-    "implementation_commit": null,
+    "status": "P01范围已存档，后续章节按原阶段实施",
+    "implementation_commit": "c6a4664fa9a810b2f4d78a7abd3d20ef53198f40",
     "test_evidence": [
       "Evidence/P01RestoreEdges/results.txt",
       "Evidence/ColdCrossChapter/read-report.txt",
@@ -2637,12 +2715,14 @@
       "Evidence/Continuous/visual-review.json",
       "Evidence/MainChain/main-chain-complete-status.txt"
     ],
-    "human_acceptance": "未验收",
+    "human_acceptance": "用户同意进入P02；未单独记录逐项人工审计结果",
     "regression_to": [],
     "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
     "implementation_date": "2026-10-01",
     "implemented_scope": "24稳定事件、当前任务/隐藏态、首次获得去重与存档恢复基础已接入；重复加载不重放。",
-    "remaining_scope": "P01事件与恢复基础已验；新增剧情接入及P07任务动画仍按原计划。"
+    "remaining_scope": "P01事件与恢复基础已验；新增剧情接入及P07任务动画仍按原计划。",
+    "archive_date": "2026-10-02",
+    "archive_confirmation": "用户确认已留档并要求进入P02；本地origin/main与HEAD一致，未重新发起远端认证或查询。"
   },
   {
     "id": "N06",
@@ -2727,8 +2807,8 @@
     "actions": "先统一模拟时钟和模态输入，P07做左下正式菜单；继续/四槽保存/设置/回主菜单/退出；后二者取消左确认右",
     "acceptance": "物理、敌人、unscaled协程、节奏时钟和音频暂停一致；ESC只关最上层；取消不丢进度",
     "code_entry": "System/GameControlManager.cs; Ending/EndingStageController.cs; Scene03/GuitarRhythmGame.cs",
-    "status": "P01范围完成，待人工验收存档",
-    "implementation_commit": null,
+    "status": "P01范围已存档，后续章节按原阶段实施",
+    "implementation_commit": "c6a4664fa9a810b2f4d78a7abd3d20ef53198f40",
     "test_evidence": [
       "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/Evidence/runtime-rules-check.txt",
       "Evidence/P01Verification/persistence-runtime.txt",
@@ -2739,12 +2819,14 @@
       "Evidence/Continuous/visual-review.json",
       "Evidence/MainChain/main-chain-complete-status.txt"
     ],
-    "human_acceptance": "未验收",
+    "human_acceptance": "用户同意进入P02；未单独记录逐项人工审计结果",
     "regression_to": [],
     "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
     "implementation_date": "2026-10-01",
     "implemented_scope": "统一时钟/物理/追逐/吉他音频暂停、所有者控制锁、ESC基础菜单；暂停不可绕过禁存。",
-    "remaining_scope": "P01暂停及基础菜单已验；正式菜单、设置P07。"
+    "remaining_scope": "P01暂停及基础菜单已验；正式菜单、设置P07。",
+    "archive_date": "2026-10-02",
+    "archive_confirmation": "用户确认已留档并要求进入P02；本地origin/main与HEAD一致，未重新发起远端认证或查询。"
   },
   {
     "id": "Q01",
@@ -3319,8 +3401,8 @@
     "actions": "墙地从左到右双向检查；同色同压顶同地面，禁止竖向透视网格地板；正向柜；家具在后排地面、人物在前走道",
     "acceptance": "不是只升高家具：墙脚必须在家具脚后方，地面在脚下；完整连续录像无缝和悬浮",
     "code_entry": "Presentation/ContinuousRoomArtwork.cs; Presentation/EndingArtwork.cs",
-    "status": "P01范围完成，待人工验收存档",
-    "implementation_commit": null,
+    "status": "P01范围已存档，后续章节按原阶段实施",
+    "implementation_commit": "c6a4664fa9a810b2f4d78a7abd3d20ef53198f40",
     "test_evidence": [
       "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/Evidence/spatial-master-before.txt",
       "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/Evidence/P01_S02_master_measurement.png",
@@ -3329,12 +3411,14 @@
       "Evidence/Continuous/visual-review.json",
       "Evidence/MainChain/main-chain-complete-status.txt"
     ],
-    "human_acceptance": "未验收",
+    "human_acceptance": "用户同意进入P02；未单独记录逐项人工审计结果",
     "regression_to": [],
     "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
     "implementation_date": "2026-10-01",
     "implemented_scope": "主卧墙脚/家具脚/人物脚层次与池塘6站位、课堂5站位已核对。",
-    "remaining_scope": "P01三样板双向输入回放及逐组画面复核已验；后续各场景继续遵守本基线。"
+    "remaining_scope": "P01三样板双向输入回放及逐组画面复核已验；后续各场景继续遵守本基线。",
+    "archive_date": "2026-10-02",
+    "archive_confirmation": "用户确认已留档并要求进入P02；本地origin/main与HEAD一致，未重新发起远端认证或查询。"
   },
   {
     "id": "B05",

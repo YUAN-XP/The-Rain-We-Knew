@@ -1,0 +1,218 @@
+{
+  "version": "PV20r2",
+  "scope": "Explicit opt-in standalone diagnostics and isolated stores, not a natural story playthrough",
+  "standalone": {
+    "scope": "Opt-in isolated standalone diagnostics; original input flow is a separate test",
+    "build": "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\build_PV20\\ProjectMystery.exe",
+    "build_sha256": "a9f784d5d7e032d37a1e58e6c9c158f9ee729638be4d3079f891802c90c2f11b",
+    "reports": [
+      {
+        "file": "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\standalone_PV20r2\\eight_final\\cold-report.txt",
+        "passed": 11,
+        "failed": 0,
+        "summary": "PASS SUMMARY"
+      },
+      {
+        "file": "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\standalone_PV20r2\\eight_final\\state-report.txt",
+        "passed": 100,
+        "failed": 0,
+        "summary": "PASS SUMMARY"
+      },
+      {
+        "file": "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\standalone_PV20r2\\lamp_final\\cold-report.txt",
+        "passed": 12,
+        "failed": 0,
+        "summary": "PASS SUMMARY"
+      },
+      {
+        "file": "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\standalone_PV20r2\\lamp_final\\state-report.txt",
+        "passed": 38,
+        "failed": 0,
+        "summary": "PASS SUMMARY"
+      },
+      {
+        "file": "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\standalone_PV20r2\\motion_1920_final\\report.txt",
+        "passed": 91,
+        "failed": 0,
+        "summary": "PASS SUMMARY"
+      }
+    ],
+    "failed": 0
+  },
+  "cold_coverage": {
+    "cases": [
+      {
+        "case": "eight_down",
+        "reports": [
+          {
+            "file": "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\standalone_PV20r2_cold_coverage\\eight_down\\state-report.txt",
+            "passed": 14,
+            "failed": 0,
+            "summary": true
+          },
+          {
+            "file": "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\standalone_PV20r2_cold_coverage\\eight_down\\cold-report.txt",
+            "passed": 11,
+            "failed": 0,
+            "summary": true
+          }
+        ]
+      },
+      {
+        "case": "eight_down_left",
+        "reports": [
+          {
+            "file": "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\standalone_PV20r2_cold_coverage\\eight_down_left\\state-report.txt",
+            "passed": 14,
+            "failed": 0,
+            "summary": true
+          },
+          {
+            "file": "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\standalone_PV20r2_cold_coverage\\eight_down_left\\cold-report.txt",
+            "passed": 11,
+            "failed": 0,
+            "summary": true
+          }
+        ]
+      },
+      {
+        "case": "eight_down_right",
+        "reports": [
+          {
+            "file": "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\standalone_PV20r2_cold_coverage\\eight_down_right\\state-report.txt",
+            "passed": 14,
+            "failed": 0,
+            "summary": true
+          },
+          {
+            "file": "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\standalone_PV20r2_cold_coverage\\eight_down_right\\cold-report.txt",
+            "passed": 11,
+            "failed": 0,
+            "summary": true
+          }
+        ]
+      },
+      {
+        "case": "eight_left",
+        "reports": [
+          {
+            "file": "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\standalone_PV20r2_cold_coverage\\eight_left\\state-report.txt",
+            "passed": 14,
+            "failed": 0,
+            "summary": true
+          },
+          {
+            "file": "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\standalone_PV20r2_cold_coverage\\eight_left\\cold-report.txt",
+            "passed": 11,
+            "failed": 0,
+            "summary": true
+          }
+        ]
+      },
+      {
+        "case": "eight_right",
+        "reports": [
+          {
+            "file": "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\standalone_PV20r2_cold_coverage\\eight_right\\state-report.txt",
+            "passed": 14,
+            "failed": 0,
+            "summary": true
+          },
+          {
+            "file": "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\standalone_PV20r2_cold_coverage\\eight_right\\cold-report.txt",
+            "passed": 11,
+            "failed": 0,
+            "summary": true
+          }
+        ]
+      },
+      {
+        "case": "eight_up",
+        "reports": [
+          {
+            "file": "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\standalone_PV20r2_cold_coverage\\eight_up\\state-report.txt",
+            "passed": 14,
+            "failed": 0,
+            "summary": true
+          },
+          {
+            "file": "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\standalone_PV20r2_cold_coverage\\eight_up\\cold-report.txt",
+            "passed": 11,
+            "failed": 0,
+            "summary": true
+          }
+        ]
+      },
+      {
+        "case": "eight_up_left",
+        "reports": [
+          {
+            "file": "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\standalone_PV20r2_cold_coverage\\eight_up_left\\state-report.txt",
+            "passed": 14,
+            "failed": 0,
+            "summary": true
+          },
+          {
+            "file": "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\standalone_PV20r2_cold_coverage\\eight_up_left\\cold-report.txt",
+            "passed": 11,
+            "failed": 0,
+            "summary": true
+          }
+        ]
+      },
+      {
+        "case": "eight_up_right",
+        "reports": [
+          {
+            "file": "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\standalone_PV20r2_cold_coverage\\eight_up_right\\state-report.txt",
+            "passed": 14,
+            "failed": 0,
+            "summary": true
+          },
+          {
+            "file": "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\standalone_PV20r2_cold_coverage\\eight_up_right\\cold-report.txt",
+            "passed": 11,
+            "failed": 0,
+            "summary": true
+          }
+        ]
+      },
+      {
+        "case": "lamp_left",
+        "reports": [
+          {
+            "file": "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\standalone_PV20r2_cold_coverage\\lamp_left\\state-report.txt",
+            "passed": 16,
+            "failed": 0,
+            "summary": true
+          },
+          {
+            "file": "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\standalone_PV20r2_cold_coverage\\lamp_left\\cold-report.txt",
+            "passed": 12,
+            "failed": 0,
+            "summary": true
+          }
+        ]
+      },
+      {
+        "case": "lamp_right",
+        "reports": [
+          {
+            "file": "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\standalone_PV20r2_cold_coverage\\lamp_right\\state-report.txt",
+            "passed": 16,
+            "failed": 0,
+            "summary": true
+          },
+          {
+            "file": "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\standalone_PV20r2_cold_coverage\\lamp_right\\cold-report.txt",
+            "passed": 12,
+            "failed": 0,
+            "summary": true
+          }
+        ]
+      }
+    ],
+    "failed": 0,
+    "scope": "10 directions; separate warm preparation and fresh process cold loading; final PV20r2 build"
+  }
+}

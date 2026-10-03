@@ -8,9 +8,11 @@ public static class CompanionSaveState {
     public static SavedCompanion[] Capture(){
         var result=new List<SavedCompanion>();
         var river=UnityEngine.Object.FindAnyObjectByType<Scene03RiverSequence>(FindObjectsInactive.Include);
-        if(river&&river.boy){var chapter=river.chapter;string parent=river.boy.IsChildOf(chapter.homeRoot.transform)?"home":river.boy.IsChildOf(chapter.livingRoomRoot.transform)?"living":"river";result.Add(Snapshot("childhood-boy",river.boy,parent));}
+        if(river&&river.boy){var chapter=river.chapter;string parent=river.boy.IsChildOf(chapter.homeRoot.transform)?"home":river.boy.IsChildOf(chapter.livingRoomRoot.transform)?"living":"river";result.Add(Snapshot("childhood-boy",river.boy,parent,river.boy.GetComponent<P02ActorPresentation>()?.Direction=="left"?-1:1));}
         var home=UnityEngine.Object.FindAnyObjectByType<EndingHomeController>(FindObjectsInactive.Include);
         if(home&&home.guide)result.Add(Snapshot("home-guide",home.guide,"authored",home.SaveFollowDirection));
+        var street=UnityEngine.Object.FindAnyObjectByType<EndingStreetController>(FindObjectsInactive.Include);
+        if(street&&street.guide&&street.HasFollowingGuide)result.Add(Snapshot("street-guide",street.guide,"authored",street.SaveFollowDirection));
         return result.ToArray();
     }
     public static void Restore(SavedCompanion[] states){
@@ -24,9 +26,15 @@ public static class CompanionSaveState {
             }else if(state.role=="home-guide"){
                 var home=UnityEngine.Object.FindAnyObjectByType<EndingHomeController>(FindObjectsInactive.Include);
                 if(!home||!home.guide)throw new InvalidOperationException("家属院引路人未就绪");actor=home.guide;home.RestoreFollowDirection(state.direction);
+            }else if(state.role=="street-guide"){
+                var street=UnityEngine.Object.FindAnyObjectByType<EndingStreetController>(FindObjectsInactive.Include);
+                if(!street||!street.guide||!street.HasFollowingGuide)throw new InvalidOperationException("街道引路人未就绪");actor=street.guide;street.RestoreFollowDirection(state.direction);
             }
             if(!actor)throw new InvalidOperationException("未知同伴状态");
             actor.position=state.position;actor.localScale=state.scale;actor.gameObject.SetActive(state.active);
+            actor.GetComponent<P02ActorPresentation>()?.RestoreFacing(state.direction<0);
+            actor.GetComponent<P02CompanionFollow>()?.Relocated();
+            actor.GetComponent<P02ActorPresentation>()?.ResetTravel();
         }
     }
 }

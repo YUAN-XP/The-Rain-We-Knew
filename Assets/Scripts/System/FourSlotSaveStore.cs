@@ -48,7 +48,7 @@ public sealed class FourSlotSaveStore {
         var roles=new System.Collections.Generic.HashSet<string>();
         foreach(var c in d.companions){
             if(c==null||!roles.Add(c.role)||
-                !(c.role=="childhood-boy"&&d.scene=="Scene03_Childhood"&&(c.parent=="home"||c.parent=="living"||c.parent=="river")||c.role=="home-guide"&&d.scene=="Scene02_Courtyard"&&c.parent=="authored"))throw new InvalidDataException("同伴身份不兼容");
+                !(c.role=="childhood-boy"&&d.scene=="Scene03_Childhood"&&(c.parent=="home"||c.parent=="living"||c.parent=="river")||c.role=="home-guide"&&d.scene=="Scene02_Courtyard"&&c.parent=="authored"||c.role=="street-guide"&&d.scene=="Scene01_Rain"&&c.parent=="authored"))throw new InvalidDataException("同伴身份不兼容");
             foreach(float v in new[]{c.position.x,c.position.y,c.position.z,c.scale.x,c.scale.y,c.scale.z,c.direction})if(float.IsNaN(v)||float.IsInfinity(v))throw new InvalidDataException("同伴坐标无效");
         }
         if(d.items.Select(x=>x.key).Distinct().Count()!=d.items.Length||d.files.Select(x=>x.key).Distinct().Count()!=d.files.Length)throw new InvalidDataException("重复库存");

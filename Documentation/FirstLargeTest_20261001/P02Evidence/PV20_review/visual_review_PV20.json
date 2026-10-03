@@ -1,0 +1,261 @@
+{
+  "candidate": "PV20 body / PV20r1 tools / PV20r2 visible guide binding",
+  "status": "Internal motion review complete; user art acceptance pending",
+  "verified_independent": {
+    "skinCount": 20,
+    "minimumWalkingCycles": 3.0013701915740967,
+    "minimumRunningCycles": 3.0019490718841553,
+    "normalRate": 1,
+    "slowRate": 0.25,
+    "observedGroups": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "jointSheets": [
+      "upper_walk",
+      "upper_run",
+      "lower_walk",
+      "lower_run"
+    ],
+    "idleComparisonGroups": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "native_review": {
+    "groups": [
+      "adult default, overalls, school, child camera",
+      "youth, guide street, guide home, handover",
+      "maze short eight directions"
+    ],
+    "normalObserved": true,
+    "quarterSpeedObserved": "All final review groups observed, including maze, river, latest focused handover, offer left/right and lamp four doors",
+    "toolsFrameSheetsObserved": [
+      "adult_default",
+      "adult_overalls",
+      "adult_school",
+      "child_street"
+    ],
+    "riverStaticAndDepartureCloseupsObserved": true,
+    "foreground_final_validation": "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\PV20r2_foreground_validation.json"
+  },
+  "spatial_review": {
+    "bedroomSheets": [
+      0,
+      1
+    ],
+    "pondSheets": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "otherClassSheets": [
+      0,
+      1
+    ],
+    "memoryClassSheets": [
+      0,
+      1,
+      2
+    ],
+    "capturedFrames": 183,
+    "observedLegacyConcern": "Existing floor colour and texture seams at some pond/classroom positions; no environment edits in P02, not certified as art-fixed"
+  },
+  "standalone_review": {
+    "motionReport": "D:\\GitHub Desktop\\ProjectMystery\\ProjectMystery\\Documentation\\FirstLargeTest_20261001\\P02Evidence\\PV20_review\\standalone\\motion_1920_postframe\\report.txt",
+    "cases": 6,
+    "releaseCases": 24,
+    "normalReleaseSeconds": ".334-.338 at requested 15 fps; one youth left release .60086 seconds",
+    "phaseZeroAndLeanZero": true,
+    "eightRestoreScreensObserved": true,
+    "lampRightLeftWarmColdScreensObserved": true
+  },
+  "independentEvidence": [
+    {
+      "key": "adult_default_right",
+      "report": "D:\\GitHub Desktop\\ProjectMystery\\ProjectMystery\\Documentation\\FirstLargeTest_20261001\\P02Evidence\\production_runs\\adult_default_right\\20261003_194322\\sample_motion_probe.json",
+      "movie": "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/P02Evidence/production_runs/adult_default_right/20261003_194322/continuous_motion.mp4",
+      "walkCycles": 3.0013701915740967,
+      "runCycles": 3.021007776260376,
+      "failed": []
+    },
+    {
+      "key": "adult_default_left",
+      "report": "D:\\GitHub Desktop\\ProjectMystery\\ProjectMystery\\Documentation\\FirstLargeTest_20261001\\P02Evidence\\production_runs\\adult_default_left\\20261003_194502\\sample_motion_probe.json",
+      "movie": "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/P02Evidence/production_runs/adult_default_left/20261003_194502/continuous_motion.mp4",
+      "walkCycles": 3.009777784347534,
+      "runCycles": 3.057304620742798,
+      "failed": []
+    },
+    {
+      "key": "adult_overalls_right",
+      "report": "D:\\GitHub Desktop\\ProjectMystery\\ProjectMystery\\Documentation\\FirstLargeTest_20261001\\P02Evidence\\production_runs\\adult_overalls_right\\20261003_194329\\sample_motion_probe.json",
+      "movie": "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/P02Evidence/production_runs/adult_overalls_right/20261003_194329/continuous_motion.mp4",
+      "walkCycles": 3.007044792175293,
+      "runCycles": 3.1346828937530518,
+      "failed": []
+    },
+    {
+      "key": "adult_overalls_left",
+      "report": "D:\\GitHub Desktop\\ProjectMystery\\ProjectMystery\\Documentation\\FirstLargeTest_20261001\\P02Evidence\\production_runs\\adult_overalls_left\\20261003_194336\\sample_motion_probe.json",
+      "movie": "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/P02Evidence/production_runs/adult_overalls_left/20261003_194336/continuous_motion.mp4",
+      "walkCycles": 3.0073609352111816,
+      "runCycles": 3.0125303268432617,
+      "failed": []
+    },
+    {
+      "key": "adult_school_right",
+      "report": "D:\\GitHub Desktop\\ProjectMystery\\ProjectMystery\\Documentation\\FirstLargeTest_20261001\\P02Evidence\\production_runs\\adult_school_right\\20261003_194342\\sample_motion_probe.json",
+      "movie": "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/P02Evidence/production_runs/adult_school_right/20261003_194342/continuous_motion.mp4",
+      "walkCycles": 3.1283154487609863,
+      "runCycles": 3.0215108394622803,
+      "failed": []
+    },
+    {
+      "key": "adult_school_left",
+      "report": "D:\\GitHub Desktop\\ProjectMystery\\ProjectMystery\\Documentation\\FirstLargeTest_20261001\\P02Evidence\\production_runs\\adult_school_left\\20261003_194349\\sample_motion_probe.json",
+      "movie": "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/P02Evidence/production_runs/adult_school_left/20261003_194349/continuous_motion.mp4",
+      "walkCycles": 3.0062570571899414,
+      "runCycles": 3.147775173187256,
+      "failed": []
+    },
+    {
+      "key": "child_right",
+      "report": "D:\\GitHub Desktop\\ProjectMystery\\ProjectMystery\\Documentation\\FirstLargeTest_20261001\\P02Evidence\\production_runs\\child_right\\20261003_194356\\sample_motion_probe.json",
+      "movie": "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/P02Evidence/production_runs/child_right/20261003_194356/continuous_motion.mp4",
+      "walkCycles": 3.0086119174957275,
+      "runCycles": 3.0019490718841553,
+      "failed": []
+    },
+    {
+      "key": "child_left",
+      "report": "D:\\GitHub Desktop\\ProjectMystery\\ProjectMystery\\Documentation\\FirstLargeTest_20261001\\P02Evidence\\production_runs\\child_left\\20261003_194402\\sample_motion_probe.json",
+      "movie": "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/P02Evidence/production_runs/child_left/20261003_194402/continuous_motion.mp4",
+      "walkCycles": 3.0063490867614746,
+      "runCycles": 3.0839807987213135,
+      "failed": []
+    },
+    {
+      "key": "qt_adult_right",
+      "report": "D:\\GitHub Desktop\\ProjectMystery\\ProjectMystery\\Documentation\\FirstLargeTest_20261001\\P02Evidence\\production_runs\\qt_adult_right\\20261003_194409\\sample_motion_probe.json",
+      "movie": "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/P02Evidence/production_runs/qt_adult_right/20261003_194409/continuous_motion.mp4",
+      "walkCycles": 3.0092813968658447,
+      "runCycles": 3.1384053230285645,
+      "failed": []
+    },
+    {
+      "key": "qt_adult_left",
+      "report": "D:\\GitHub Desktop\\ProjectMystery\\ProjectMystery\\Documentation\\FirstLargeTest_20261001\\P02Evidence\\production_runs\\qt_adult_left\\20261003_194415\\sample_motion_probe.json",
+      "movie": "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/P02Evidence/production_runs/qt_adult_left/20261003_194415/continuous_motion.mp4",
+      "walkCycles": 3.007145881652832,
+      "runCycles": 3.0252137184143066,
+      "failed": []
+    },
+    {
+      "key": "boy_child_right",
+      "report": "D:\\GitHub Desktop\\ProjectMystery\\ProjectMystery\\Documentation\\FirstLargeTest_20261001\\P02Evidence\\production_runs\\boy_child_right\\20261003_194422\\sample_motion_probe.json",
+      "movie": "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/P02Evidence/production_runs/boy_child_right/20261003_194422/continuous_motion.mp4",
+      "walkCycles": 3.017183303833008,
+      "runCycles": 3.08994460105896,
+      "failed": []
+    },
+    {
+      "key": "boy_child_left",
+      "report": "D:\\GitHub Desktop\\ProjectMystery\\ProjectMystery\\Documentation\\FirstLargeTest_20261001\\P02Evidence\\production_runs\\boy_child_left\\20261003_194429\\sample_motion_probe.json",
+      "movie": "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/P02Evidence/production_runs/boy_child_left/20261003_194429/continuous_motion.mp4",
+      "walkCycles": 3.0025858879089355,
+      "runCycles": 3.086780548095703,
+      "failed": []
+    },
+    {
+      "key": "youth_right",
+      "report": "D:\\GitHub Desktop\\ProjectMystery\\ProjectMystery\\Documentation\\FirstLargeTest_20261001\\P02Evidence\\production_runs\\youth_right\\20261003_194435\\sample_motion_probe.json",
+      "movie": "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/P02Evidence/production_runs/youth_right/20261003_194435/continuous_motion.mp4",
+      "walkCycles": 3.109238862991333,
+      "runCycles": 3.0351362228393555,
+      "failed": []
+    },
+    {
+      "key": "youth_left",
+      "report": "D:\\GitHub Desktop\\ProjectMystery\\ProjectMystery\\Documentation\\FirstLargeTest_20261001\\P02Evidence\\production_runs\\youth_left\\20261003_194442\\sample_motion_probe.json",
+      "movie": "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/P02Evidence/production_runs/youth_left/20261003_194442/continuous_motion.mp4",
+      "walkCycles": 3.011678457260132,
+      "runCycles": 3.137258768081665,
+      "failed": []
+    },
+    {
+      "key": "child_up",
+      "report": "D:\\GitHub Desktop\\ProjectMystery\\ProjectMystery\\Documentation\\FirstLargeTest_20261001\\P02Evidence\\production_runs\\child_up\\20261003_194449\\sample_motion_probe.json",
+      "movie": "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/P02Evidence/production_runs/child_up/20261003_194449/continuous_motion.mp4",
+      "walkCycles": 3.0027072429656982,
+      "runCycles": 3.1115689277648926,
+      "failed": []
+    },
+    {
+      "key": "child_down",
+      "report": "D:\\GitHub Desktop\\ProjectMystery\\ProjectMystery\\Documentation\\FirstLargeTest_20261001\\P02Evidence\\production_runs\\child_down\\20261003_194455\\sample_motion_probe.json",
+      "movie": "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/P02Evidence/production_runs/child_down/20261003_194455/continuous_motion.mp4",
+      "walkCycles": 3.0076746940612793,
+      "runCycles": 3.047619581222534,
+      "failed": []
+    },
+    {
+      "key": "child_up_left",
+      "report": "D:\\GitHub Desktop\\ProjectMystery\\ProjectMystery\\Documentation\\FirstLargeTest_20261001\\P02Evidence\\production_runs\\child_up_left\\20261003_194508\\sample_motion_probe.json",
+      "movie": "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/P02Evidence/production_runs/child_up_left/20261003_194508/continuous_motion.mp4",
+      "walkCycles": 3.010422945022583,
+      "runCycles": 3.1398067474365234,
+      "failed": []
+    },
+    {
+      "key": "child_up_right",
+      "report": "D:\\GitHub Desktop\\ProjectMystery\\ProjectMystery\\Documentation\\FirstLargeTest_20261001\\P02Evidence\\production_runs\\child_up_right\\20261003_194515\\sample_motion_probe.json",
+      "movie": "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/P02Evidence/production_runs/child_up_right/20261003_194515/continuous_motion.mp4",
+      "walkCycles": 3.001913547515869,
+      "runCycles": 3.0525290966033936,
+      "failed": []
+    },
+    {
+      "key": "child_down_left",
+      "report": "D:\\GitHub Desktop\\ProjectMystery\\ProjectMystery\\Documentation\\FirstLargeTest_20261001\\P02Evidence\\production_runs\\child_down_left\\20261003_194521\\sample_motion_probe.json",
+      "movie": "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/P02Evidence/production_runs/child_down_left/20261003_194521/continuous_motion.mp4",
+      "walkCycles": 3.0092294216156006,
+      "runCycles": 3.1202211380004883,
+      "failed": []
+    },
+    {
+      "key": "child_down_right",
+      "report": "D:\\GitHub Desktop\\ProjectMystery\\ProjectMystery\\Documentation\\FirstLargeTest_20261001\\P02Evidence\\production_runs\\child_down_right\\20261003_194528\\sample_motion_probe.json",
+      "movie": "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/P02Evidence/production_runs/child_down_right/20261003_194528/continuous_motion.mp4",
+      "walkCycles": 3.0045433044433594,
+      "runCycles": 3.0883560180664062,
+      "failed": []
+    }
+  ],
+  "sourceProtection": "D:\\GitHub Desktop\\ProjectMystery\\ProjectMystery\\Documentation\\FirstLargeTest_20261001\\P02Evidence\\PV20_protected_source_check.json",
+  "notes": [
+    "Numerical mesh/sole checks are not substitutes for visual review",
+    "Editor input scenarios start from isolated authored snapshots; natural chain documented separately",
+    "The tiny actor in maze-wide standalone screen is present; independent close view is the visual evidence",
+    "Historical failed evidence is not used to certify PV20"
+  ],
+  "created": "2026-10-03T22:03:50.177813",
+  "updated_at": "2026-10-04T02:48:41.420910+08:00",
+  "idle_final_review": {
+    "normalObserved": true,
+    "quarterSpeedObserved": true,
+    "source": "D:\\GitHub Desktop\\ProjectMystery\\ProjectMystery\\Documentation\\FirstLargeTest_20261001\\P02Evidence\\idle_cycles_PV20r2\\idle_twenty_views.mp4",
+    "metadata": "D:\\GitHub Desktop\\ProjectMystery\\ProjectMystery\\Documentation\\FirstLargeTest_20261001\\P02Evidence\\idle_cycles_PV20r2\\idle_cycle_report.json",
+    "originalGamePaused": true,
+    "cycles_min": 4.487668991088867
+  },
+  "human_art_accepted": false,
+  "original_camera_continuity_passed": false
+}

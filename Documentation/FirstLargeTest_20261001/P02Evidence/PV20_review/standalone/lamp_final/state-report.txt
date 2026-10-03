@@ -1,0 +1,39 @@
+PV17 isolated state QA pid=21716 resolution=2560x1440 cold=False
+PASS load slot 4 
+PASS load finished 
+PASS raise owned usable lamp
+PASS capture requested direction right
+PASS save right 
+PASS load slot 3 
+PASS load finished 
+PASS right direction right expected right
+PASS right one native body
+PASS right position
+PASS right lamp restored=True
+PASS right story unchanged
+PASS right inventory unchanged
+PASS right companion count
+PASS right lamp visual adopted
+PASS raise owned usable lamp
+PASS capture requested direction left
+PASS save left 
+PASS load slot 3 
+PASS load finished 
+PASS left direction left expected left
+PASS left one native body
+PASS left position
+PASS left lamp restored=True
+PASS left story unchanged
+PASS left inventory unchanged
+PASS left companion count
+PASS left lamp visual adopted
+PASS load slot 4 
+PASS load finished 
+PASS legacy missing actorFacing direction left expected left
+PASS legacy missing actorFacing one native body
+PASS legacy missing actorFacing position
+PASS legacy missing actorFacing lamp restored=False
+PASS legacy missing actorFacing story unchanged
+PASS legacy missing actorFacing inventory unchanged
+PASS legacy missing actorFacing companion count
+PASS SUMMARY

@@ -1,0 +1,101 @@
+PV17 isolated state QA pid=34456 resolution=2560x1440 cold=False
+PASS load slot 4 
+PASS load finished 
+PASS capture requested direction up
+PASS save up 
+PASS load slot 3 
+PASS load finished 
+PASS up direction up expected up
+PASS up one native body
+PASS up position
+PASS up lamp restored=False
+PASS up story unchanged
+PASS up inventory unchanged
+PASS up companion count
+PASS capture requested direction up_left
+PASS save up_left 
+PASS load slot 3 
+PASS load finished 
+PASS up_left direction up_left expected up_left
+PASS up_left one native body
+PASS up_left position
+PASS up_left lamp restored=False
+PASS up_left story unchanged
+PASS up_left inventory unchanged
+PASS up_left companion count
+PASS capture requested direction left
+PASS save left 
+PASS load slot 3 
+PASS load finished 
+PASS left direction left expected left
+PASS left one native body
+PASS left position
+PASS left lamp restored=False
+PASS left story unchanged
+PASS left inventory unchanged
+PASS left companion count
+PASS capture requested direction down_left
+PASS save down_left 
+PASS load slot 3 
+PASS load finished 
+PASS down_left direction down_left expected down_left
+PASS down_left one native body
+PASS down_left position
+PASS down_left lamp restored=False
+PASS down_left story unchanged
+PASS down_left inventory unchanged
+PASS down_left companion count
+PASS capture requested direction down
+PASS save down 
+PASS load slot 3 
+PASS load finished 
+PASS down direction down expected down
+PASS down one native body
+PASS down position
+PASS down lamp restored=False
+PASS down story unchanged
+PASS down inventory unchanged
+PASS down companion count
+PASS capture requested direction down_right
+PASS save down_right 
+PASS load slot 3 
+PASS load finished 
+PASS down_right direction down_right expected down_right
+PASS down_right one native body
+PASS down_right position
+PASS down_right lamp restored=False
+PASS down_right story unchanged
+PASS down_right inventory unchanged
+PASS down_right companion count
+PASS capture requested direction right
+PASS save right 
+PASS load slot 3 
+PASS load finished 
+PASS right direction right expected right
+PASS right one native body
+PASS right position
+PASS right lamp restored=False
+PASS right story unchanged
+PASS right inventory unchanged
+PASS right companion count
+PASS capture requested direction up_right
+PASS save up_right 
+PASS load slot 3 
+PASS load finished 
+PASS up_right direction up_right expected up_right
+PASS up_right one native body
+PASS up_right position
+PASS up_right lamp restored=False
+PASS up_right story unchanged
+PASS up_right inventory unchanged
+PASS up_right companion count
+PASS load slot 4 
+PASS load finished 
+PASS legacy missing actorFacing direction left expected left
+PASS legacy missing actorFacing one native body
+PASS legacy missing actorFacing position
+PASS legacy missing actorFacing lamp restored=False
+PASS legacy missing actorFacing story unchanged
+PASS legacy missing actorFacing inventory unchanged
+PASS legacy missing actorFacing companion count
+PASS SUMMARY

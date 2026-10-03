@@ -1,0 +1,13 @@
+PV17 isolated state QA pid=15208 resolution=1920x1080 cold=True
+PASS read previous process save 
+PASS load slot 3 
+PASS load finished 
+PASS cold process direction left expected left
+PASS cold process one native body
+PASS cold process position
+PASS cold process lamp restored=True
+PASS cold process story unchanged
+PASS cold process inventory unchanged
+PASS cold process companion count
+PASS cold process lamp visual adopted
+PASS SUMMARY

@@ -1,0 +1,48 @@
+{
+  "version": "PV20r2",
+  "scope": "Final focused fixture uses diagnostic camera limits; authored room camera continuity remains unpassed.",
+  "foreground": {
+    "label": "guide_handover_PV20r2_foreground_view_fixture",
+    "folder": "Documentation\\FirstLargeTest_20261001\\P02Evidence\\native_gameplay_runs\\20261004_012018_guide_handover_PV20r2_foreground_view_fixture",
+    "frames": 2458,
+    "focused": 2458,
+    "errors": [],
+    "visible_native_parts_min": 10
+  },
+  "functional": {
+    "scope": "Functional metadata; native video and images require visual review. Setup is an isolated saved state, not natural completion.",
+    "folder": "D:\\GitHub Desktop\\ProjectMystery\\ProjectMystery\\Documentation\\FirstLargeTest_20261001\\P02Evidence\\native_gameplay_runs\\20261004_012018_guide_handover_PV20r2_foreground_view_fixture",
+    "checks": [
+      {
+        "passed": true,
+        "label": "No duplicate native bodies, old actor layers or tools",
+        "detail": []
+      },
+      {
+        "passed": true,
+        "label": "Owning native bodies actually display all painted parts",
+        "detail": {
+          "samples": 4916,
+          "invisible": []
+        }
+      },
+      {
+        "passed": true,
+        "label": "Guide approaches through authored story motion",
+        "detail": null
+      },
+      {
+        "passed": true,
+        "label": "Handover completes and enables follow",
+        "detail": null
+      },
+      {
+        "passed": true,
+        "label": "No residual tool after recording",
+        "detail": null
+      }
+    ],
+    "failed": 0
+  },
+  "human_art_accepted": false
+}

@@ -1,0 +1,23 @@
+{
+  "step": "after",
+  "scene": "Scene01_Rain",
+  "tool": "None",
+  "ownsCamera": false,
+  "ownsLamp": false,
+  "cameraRaised": false,
+  "lampRaised": false,
+  "canBeginCamera": false,
+  "cameraFollowEnabled": true,
+  "player": {
+    "x": -3.4167726039886475,
+    "y": -0.0950000211596489,
+    "z": 0.0
+  },
+  "camera": {
+    "x": -2.766773223876953,
+    "y": 0.6499999761581421,
+    "z": -10.0
+  },
+  "flags": [],
+  "evidence_status": "Historical earlier opening probe; current fresh cleanup is stage_close_cleanup.json"
+}

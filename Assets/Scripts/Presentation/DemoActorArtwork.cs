@@ -14,6 +14,8 @@ public sealed class DemoActorArtwork : MonoBehaviour
  float phase;
  bool originalForceOff;
  string poseKey;float poseHeight,poseLift;
+ public bool HasExplicitPose => !string.IsNullOrEmpty(poseKey);
+ public bool OwnsPaintedBody => paint&&paint.enabled&&paint.sprite&&!paint.forceRenderingOff;
  public void SetPose(string key,float height=1,float lift=0){poseKey=key;poseHeight=height;poseLift=lift;}
 
  [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
@@ -24,6 +26,12 @@ public sealed class DemoActorArtwork : MonoBehaviour
  void LateUpdate()
  {
   if(!body||!paint)return;
+  var native=GetComponent<P02ActorPresentation>();
+  if(native&&native.OwnsBody){paint.enabled=false;body.forceRenderingOff=true;
+   HideLegacyOutfit();
+   if(PersistentRuntime.Instance){var old=PersistentRuntime.Instance.transform.Find("AdultDefault_Visual");if(old&&old.TryGetComponent<SpriteRenderer>(out var legacy))legacy.forceRenderingOff=true;}
+   return;}
+
   if(!story&&PersistentRuntime.Instance)story=PersistentRuntime.Instance.GetComponent<StoryStateManager>();
   bool adult=GetComponent<AdultOutfitController>()!=null;
   prefix=adult?(story&&story.Outfit==AdultOutfit.Overalls?"CHR_XP_ADULT_OVERALL":story&&story.Outfit==AdultOutfit.SchoolUniform?"CHR_XP_ADULT_SCHOOL":"CHR_XP_ADULT_DEFAULT"):(name.Contains("Youth")?"CHR_XP_YOUTH":"CHR_XP_CHILD");
@@ -44,8 +52,17 @@ public sealed class DemoActorArtwork : MonoBehaviour
   paint.transform.position=foot;var scale=transform.lossyScale;float unit=height/sprite.bounds.size.y;paint.transform.localScale=new Vector3(unit/Mathf.Abs(scale.x),unit/Mathf.Abs(scale.y),1);
   paint.color=new Color(1,1,1,body.color.a);paint.enabled=gameObject.activeInHierarchy;
   body.forceRenderingOff=true;
-  foreach(var r in GetComponentsInChildren<SpriteRenderer>(true))if(r!=paint&&r!=body&&(r.name.Contains("Placeholder")||r.transform.parent.name.Contains("Placeholder")||r.name=="BlueBib"||r.name=="Strap"||r.name.Contains("SchoolUniform")))r.forceRenderingOff=true;
+  HideLegacyOutfit();
   if(PersistentRuntime.Instance){var old=PersistentRuntime.Instance.transform.Find("AdultDefault_Visual");if(old&&old.TryGetComponent<SpriteRenderer>(out var r))r.forceRenderingOff=true;}
+ }
+ void HideLegacyOutfit(){
+  foreach(var r in GetComponentsInChildren<SpriteRenderer>(true)){
+   if(r==paint||r==body||r.GetComponentInParent<P02CharacterRig>())continue;
+   bool legacy=r.name=="BlueBib"||r.name=="Strap";
+   for(var t=r.transform;t&&t!=transform;t=t.parent)
+    legacy|=t.name.Contains("Placeholder")||t.name.Contains("SchoolUniform");
+   if(legacy)r.forceRenderingOff=true;
+  }
  }
  void OnDisable(){if(body)body.forceRenderingOff=originalForceOff;if(paint)paint.enabled=false;}
 }

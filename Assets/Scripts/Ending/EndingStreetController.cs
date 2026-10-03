@@ -14,6 +14,10 @@ public sealed class EndingStreetController:EndingStageController
     bool activeVisit,followGuide,noticeRunning,panOwned;
     Vector3 panPosition;Vector2 panX,panY;bool panFollowY,panEnabled;float panOffset,panFacing,panSize;
     float lastPlayerX;
+    P02CompanionFollow nativeFollow;
+    public bool HasFollowingGuide=>activeVisit&&followGuide;
+    public float SaveFollowDirection=>nativeFollow?nativeFollow.FacingSide:1;
+    public void RestoreFollowDirection(float direction){if(nativeFollow)nativeFollow.RestoreSide(direction);if(controls&&controls.ActivePlayer)lastPlayerX=controls.ActivePlayer.transform.position.x;guide?.GetComponent<P02ActorPresentation>()?.RestoreFacing(direction<0);}
     Rigidbody2D boardingBody;bool boardingSimulated;
     Vector3 zhangWaitingPosition,boardingPlayerPosition;bool hasWaitingPosition,boardingInProgress;
     public string Prompt=>!activeVisit||busy?"":story.Has(StoryFlag.EndingZhangCompleted)?"[E] 上车":"[E] 对话";
@@ -30,7 +34,10 @@ public sealed class EndingStreetController:EndingStageController
         if(originalGuide!=null)originalGuide.enabled=false;if(originalCar!=null)originalCar.enabled=false;
         foreach(var c in guide.GetComponents<Collider2D>())c.enabled=false;
         guide.gameObject.SetActive(true);guide.position=EndingSession.CompanionAnchor(guide,controls.ActivePlayer,-data.followDistance,data.guideVisualGroundOffset);
-        followGuide=true;lastPlayerX=controls.ActivePlayer.transform.position.x;
+        var painted=guide.Find("NewArt_Actor");if(!painted)painted=guide.Find("QiuTian_Visual");
+        P02ActorPresentation.AttachCompanion(guide,painted?painted.GetComponent<SpriteRenderer>():guide.GetComponent<SpriteRenderer>(),"qt_adult",1.8f);
+        nativeFollow=guide.GetComponent<P02CompanionFollow>()??guide.gameObject.AddComponent<P02CompanionFollow>();
+        nativeFollow.Begin(controls.ActivePlayer.transform,data.followDistance);nativeFollow.Relocated();followGuide=true;lastPlayerX=controls.ActivePlayer.transform.position.x;
         runtime.GetComponent<CameraModeController>()?.SetCaptureContext(null);
         cam=Camera.main;follow=cam.GetComponent<CameraFollow>();
         if(inventory.HasItem(data.originalHolder))inventory.SetRuntimePresentation(data.originalHolder,"破旧证件套",data.originalHolder.description);
@@ -65,6 +72,7 @@ public sealed class EndingStreetController:EndingStageController
                 guide.position=Vector3.MoveTowards(guide.position,EndingSession.CompanionAnchor(guide,controls.ActivePlayer,-Mathf.Sign(dx)*data.followDistance,data.guideVisualGroundOffset),data.followSpeed*Delta);
             lastPlayerX=player.position.x;
         }
+        if(nativeFollow)nativeFollow.Observe(Delta,!followGuide||busy||paused||controls.IsLocked());
         if(!noticeRunning&&!story.Has(StoryFlag.EndingIdentityHintIssued)&&inventory.HasItem(data.identityCard)&&inventory.HasItem(data.originalHolder))StartCoroutine(Hint());
     }
     IEnumerator Hint(){noticeRunning=true;while(controls.IsLocked()||paused)yield return null;
@@ -74,7 +82,7 @@ public sealed class EndingStreetController:EndingStageController
         noticeRunning=false;
     }
     IEnumerator Board(){
-        if(!CanBoard)yield break;Lock();followGuide=false;boardingInProgress=true;boardingPlayerPosition=controls.ActivePlayer.transform.position;
+        if(!CanBoard)yield break;Lock();followGuide=false;if(nativeFollow)nativeFollow.End();boardingInProgress=true;boardingPlayerPosition=controls.ActivePlayer.transform.position;
         var player=controls.ActivePlayer;var body=player.GetComponent<Rigidbody2D>();bool simulated=body.simulated;boardingBody=body;boardingSimulated=simulated;body.simulated=false;
         try {
             yield return Move(player.transform,playerWait.position,data.boardingSeconds*.6f);
@@ -94,6 +102,6 @@ public sealed class EndingStreetController:EndingStageController
     }
     protected override void OnDisable(){
         if(boardingInProgress&&controls!=null&&controls.ActivePlayer!=null&&!session.SequenceStarted){EndingSession.Place(controls.ActivePlayer,boardingPlayerPosition);if(zhang!=null){zhang.position=zhangWaitingPosition;zhang.gameObject.SetActive(true);}if(guide!=null)guide.gameObject.SetActive(true);}
-        boardingInProgress=false;
+        boardingInProgress=false;if(nativeFollow)nativeFollow.End();
         base.OnDisable();RestorePan();if(boardingBody!=null)boardingBody.simulated=boardingSimulated;boardingBody=null;}
 }

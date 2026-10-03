@@ -1,0 +1,78 @@
+{
+  "version": "PV20r2",
+  "base_commit": "c6a4664fa9a810b2f4d78a7abd3d20ef53198f40",
+  "scope": "Source and serialized asset preservation. Real input and visual tests reported separately.",
+  "checks": [
+    {
+      "passed": true,
+      "label": "if(following&&!paused&&!busy&&!controls.IsLocked()) matches P01 baseline",
+      "detail": "Assets/Scripts/Ending/EndingHomeController.cs"
+    },
+    {
+      "passed": true,
+      "label": "if(followGuide&&!busy&&!paused&&!controls.IsLocked()) matches P01 baseline",
+      "detail": "Assets/Scripts/Ending/EndingStreetController.cs"
+    },
+    {
+      "passed": true,
+      "label": "IEnumerator Sequence() matches P01 baseline",
+      "detail": "Assets/Scripts/Scene03/Scene03RiverSequence.cs"
+    },
+    {
+      "passed": true,
+      "label": "void ExitedBedroom( matches P01 baseline",
+      "detail": "Assets/Scripts/Ending/EndingHomeController.cs"
+    },
+    {
+      "passed": true,
+      "label": "bool ReceiveCard() matches P01 baseline",
+      "detail": "Assets/Scripts/Ending/EndingHomeController.cs"
+    },
+    {
+      "passed": true,
+      "label": "IEnumerator Notice() matches P01 baseline",
+      "detail": "Assets/Scripts/Ending/EndingHomeController.cs"
+    },
+    {
+      "passed": true,
+      "label": "public void Interact() matches P01 baseline",
+      "detail": "Assets/Scripts/Ending/EndingStreetController.cs"
+    },
+    {
+      "passed": true,
+      "label": "IEnumerator Talk() matches P01 baseline",
+      "detail": "Assets/Scripts/Ending/EndingStreetController.cs"
+    },
+    {
+      "passed": true,
+      "label": "PlayerController.cs unchanged",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "label": "SprintAbility.cs unchanged",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "label": "Tracked scenes, GameData, story, school flow, maze, camera follow, prefabs and build scene order unchanged",
+      "detail": []
+    },
+    {
+      "passed": true,
+      "label": "Companion observer cannot move actors or advance story",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "label": "Animation never overwrites player moveSpeed",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "label": "Approach retains authored speed",
+      "detail": null
+    }
+  ],
+  "failed": 0
+}

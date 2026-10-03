@@ -10,7 +10,7 @@ using UnityEngine.SceneManagement;
 [InitializeOnLoad]
 public static class DemoIntegrationBridge
 {
-    public const string Work="C:/Users/31975/Documents/Codex/2026-09-22/demo-demo-gdd-gdd-demo/work/2026-09-23-integration/";
+    public const string Work="D:/游戏设计/Codex工作区/work/2026-09-23-integration/";
     static double next;
     static DemoIntegrationBridge(){if(!Application.dataPath.Replace('\\','/').Equals("D:/GitHub Desktop/ProjectMystery/ProjectMystery/Assets",StringComparison.OrdinalIgnoreCase))return;EditorApplication.update+=Tick;File.WriteAllText(Work+"bridge_ready.txt",DateTime.Now.ToString("O"));}
     static void Tick()

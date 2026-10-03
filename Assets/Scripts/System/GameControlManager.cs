@@ -16,7 +16,8 @@ public enum ControlLockReason
     EndingSequence,
     EndingPause,
     GlobalPause,
-    SaveRestore
+    SaveRestore,
+    ToolMotion
 }
 
 public class GameControlManager : MonoBehaviour

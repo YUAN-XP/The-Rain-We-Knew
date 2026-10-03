@@ -17,7 +17,7 @@ public class Scene03RiverSequence : MonoBehaviour, IInteractable
     public Vector2 wideViewCenter = new Vector2(303,75.4f);
     public float wideViewSize = 7.1f;
     public bool usePaintedPoses;
-    SpriteRenderer boyPainting;
+    SpriteRenderer boyPainting;P02ActorPresentation boyView;
     public bool Busy {get;private set;}
     public bool Appreciating {get;private set;}
     public bool CanLeaveSong {get;private set;}
@@ -132,7 +132,7 @@ public class Scene03RiverSequence : MonoBehaviour, IInteractable
             childVisual.localPosition=childVisualPosition;boy.position=boyStandingPosition;
             for(int i=0;i<seatedLegs.Length;i++){seatedLegs[i].localPosition=legPositions[i];seatedLegs[i].localRotation=legRotations[i];}
         }
-        seated=value;
+        seated=value;if(boyView)boyView.SetStaticPose(value);
         if(usePaintedPoses&&chapter&&chapter.child){var art=chapter.child.GetComponent<DemoActorArtwork>();if(art)art.SetPose(value?"CHR_XP_CHILD_ACTION4_B:2":null,1.08f,.48f);}
 
     }
@@ -140,6 +140,10 @@ public class Scene03RiverSequence : MonoBehaviour, IInteractable
         if(!usePaintedPoses||!boy)return;
         if(!boyPainting){var p=boy.Find("NewArt_Actor");if(p)boyPainting=p.GetComponent<SpriteRenderer>();}
         if(!boyPainting)return;
+        if(!boyView){boyView=P02ActorPresentation.AttachCompanion(boy,boyPainting,"boy_child",1.46f);boyView.SetStaticPose(seated);}
+        boyPainting.forceRenderingOff=boyView&&boyView.OwnsBody;
+        if(guitar)guitar.SetActive(!usePaintedPoses); // the approved seated pose already paints this guitar
+        if(boyView&&boyView.OwnsBody)return;
         var sprite=DemoArtCatalog.Find(seated?"CHR_BOY_CHILD_ACTION4_V02:1":"CHR_BOY_CHILD_ACTION4_V02:0");if(!sprite)return;
         boyPainting.sprite=sprite;float h=seated?1.18f:1.46f;float u=h/sprite.bounds.size.y;var scale=boyPainting.transform.parent.lossyScale;
         boyPainting.transform.localScale=new Vector3(u/Mathf.Abs(scale.x),u/Mathf.Abs(scale.y),1);

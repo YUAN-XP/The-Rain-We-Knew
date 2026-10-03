@@ -45,6 +45,7 @@ public sealed class GameSaveService : MonoBehaviour {
         var data=new GameSaveData{slot=slot,savedUtcTicks=DateTime.UtcNow.Ticks,playSeconds=GameplayClock.Elapsed,scene=SceneManager.GetActiveScene().name,
             actor=controls.AllowsAdultOutfits?"adult":SceneManager.GetActiveScene().name=="Scene03_Childhood"?"child":"youth",
             position=p.transform.position,scale=p.transform.localScale,planar=p.IsPlanarMovement,facing=follow.Facing,
+            actorFacing=p.GetComponent<P02ActorPresentation>()?.Direction,
             cameraPosition=cam.transform.position,cameraSize=cam.orthographicSize,cameraX=follow.HorizontalLimits,cameraY=follow.VerticalLimits,followY=follow.FollowsY,cameraOffset=follow.VerticalOffset,
             companions=CompanionSaveState.Capture(),story=story.CaptureSave(),quests=quests.Capture(),firstObtained=acquisition.Capture(),
             lampRaised=GetComponent<OilLampController>()?.IsRaised==true,cameraAvailable=GetComponent<CameraModeController>()?.ContextAvailable==true};
@@ -111,10 +112,20 @@ public sealed class GameSaveService : MonoBehaviour {
         var corridor=FindAnyObjectByType<DistortedCorridorController>();if(corridor)corridor.RestoreSave(data.distortedJoined);
         var doors=FindAnyObjectByType<ThreeDoorPuzzleController>();if(doors)doors.RestoreSave(data.threeDoorProgress);
         p.SetPlanarMovement(data.planar);p.transform.localScale=data.scale;EndingSession.Place(p,data.position);
+        p.GetComponent<P02ActorPresentation>()?.RestoreDirection(string.IsNullOrEmpty(data.actorFacing)?(data.facing<0?"left":"right"):data.actorFacing);
         var cam=Camera.main;var follow=cam.GetComponent<CameraFollow>();follow.SetTarget(p.transform);follow.SetFacing(data.facing);
         follow.SetLimits(data.cameraX.x,data.cameraX.y);follow.SetVerticalLimits(data.followY,data.cameraOffset,data.cameraY.x,data.cameraY.y);
         cam.orthographicSize=data.cameraSize;cam.transform.position=data.cameraPosition;RoomPresentationFraming.PrepareCurrentView();
-        GetComponent<CameraModeController>().ContextAvailable=data.cameraAvailable;GetComponent<OilLampController>()?.RestoreUseState(data.lampRaised);
+        GetComponent<CameraModeController>().ContextAvailable=data.cameraAvailable;
+        // A cold load may return directly to Scene01 without visiting the
+        // chapter installer. Restore the owned lamp's runtime dependency only;
+        // ownership, exhaustion and use eligibility still come from the save.
+        var restoredLamp=GetComponent<OilLampController>();
+        if(!restoredLamp){
+            var lampItem=snapshot.items.FirstOrDefault(i=>i&&i.itemId=="key_oil_lamp");
+            if(lampItem){restoredLamp=gameObject.AddComponent<OilLampController>();restoredLamp.ConfigureItem(lampItem);}
+        }
+        restoredLamp?.RestoreUseState(data.lampRaised);
         inventory.RestoreSession(snapshot);archive.RestoreSession(data.files.Select(f=>Registry.Resolve<FileData>(f.key)).ToArray());
         quests.Restore(data.quests);acquisition.Restore(data.firstObtained);story.RefreshObservers();CompanionSaveState.Restore(data.companions);
         GameplayClock.Restore(data.playSeconds);Physics2D.SyncTransforms();yield return null;

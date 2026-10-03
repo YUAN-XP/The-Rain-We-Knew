@@ -1,0 +1,70 @@
+{
+  "created_at": "2026-10-02",
+  "base_commit": "c6a4664fa9a810b2f4d78a7abd3d20ef53198f40",
+  "state": "P02准备与规范，无游戏实现或动画通过声明",
+  "files": [
+    {
+      "name": "02_需求与验收台账.json",
+      "sha256": "735f02979d234d2f5120d9c89ac4418ff3e87267be6d3648d427c9df4571f809",
+      "observed_original_sha256": "107929538bda61a49438bf42a847afcd65df0f0f6ad61fb6fa6efe2ff0beed15"
+    },
+    {
+      "name": "02_需求与验收台账.csv",
+      "sha256": "72595fad8ce4da5693f65c17a31e30a8d774dcdb4fc10a313cfb74000ef59a06",
+      "observed_original_sha256": "e1f8ea0f35a8d225c9f1bc071eb91de76a93565c585d38e0c43379c5d40a65ec"
+    },
+    {
+      "name": "02_需求与验收台账.md",
+      "sha256": "82f4d972395c3be8730cfa4cf3ac5eeebccbd702f11989621824b896703d4349",
+      "observed_original_sha256": "964b2fa289b6def7fdea3ccd9d8dcec0f48c31e00bc10b9dc4a3b488057e643c"
+    },
+    {
+      "name": "03_执行与防回退规范.md",
+      "sha256": "ef9dba9b48a76c5c0f698314db7822b29901c601954c36039da8bdb81f389520",
+      "observed_original_sha256": "87021baf4cfc9889e77215093f40f3c1e2fb38c41c97998b3089ee33cc47aee2"
+    },
+    {
+      "name": "04_阶段测试与人工存档模板.md",
+      "sha256": "dd249c483eb3e13bba938020ea2824c8eaf613a4fac708ff0ffd05b87fa89775",
+      "observed_original_sha256": "f15f30be24ab3ec46edb8a519ac83b5bd8dff9263157437534fe983df487eef0"
+    },
+    {
+      "name": "README_实施进度.md",
+      "sha256": "a8a6b27df1116f981efce15490328fea5d26cb17bbd3f04ab5ee538cb0131216",
+      "observed_original_sha256": "83715c9612a9fd17fcb4ed1c1e1505bfa1e86b622bcf5bd40c83639368dc8144"
+    },
+    {
+      "name": "07_P01阶段验收与人工存档.md",
+      "sha256": "8bfa2e3a8874bbcecc290c3b62797cfc5c1d2ca2948597bf1aa16c5e528a38c7",
+      "observed_original_sha256": "85dbbabc04c6758ab5e7e69ab727024e8e33b4f78688ed6a494b3363e2f02363"
+    },
+    {
+      "name": "10_P02人物运动制作与验收规范.md",
+      "sha256": "b2cefd1c3a761c47d13321701402eb4c5e5cce7716a5d92dddf4b7f3eb8e6102",
+      "observed_original_sha256": null
+    },
+    {
+      "name": "11_P02动作矩阵与源图核验.json",
+      "sha256": "38086996c53daaf949ffdd65d8128a11d7f096e8a096b1c6cdc663cc162dafcd",
+      "observed_original_sha256": null
+    }
+  ],
+  "validation": {
+    "ledger_entries": 121,
+    "original_requirement_content_preserved": true,
+    "p01_commit_updated_entries": [
+      "U01",
+      "U02",
+      "G01",
+      "G02",
+      "N03",
+      "N05",
+      "N08",
+      "B04"
+    ],
+    "source_records": 7,
+    "motion_combinations": 122,
+    "new_runtime_tests": 0,
+    "new_animation_assets": 0
+  }
+}

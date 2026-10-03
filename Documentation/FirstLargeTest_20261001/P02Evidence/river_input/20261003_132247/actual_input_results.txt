@@ -1,0 +1,39 @@
+Editor-only scheduled keys through original GuitarRhythmGame; no completion or sequence override
+DIALOGUE D_S03_RiverIntroduction
+PHRASE 0 retries=0
+JUDGED 0 W True time=2.010841 Perfect
+JUDGED 0 W True time=2.678246 Perfect
+JUDGED 0 S True time=2.903038 Perfect
+JUDGED 0 W True time=3.809265 Perfect
+JUDGED 0 A True time=4.702606 Perfect
+JUDGED 0 D True time=5.610657 Perfect
+JUDGED 0 Space True time=7.85907 Perfect
+PHRASE 1 retries=0
+JUDGED 1 W True time=2.00563 Perfect
+JUDGED 1 W True time=2.680817 Perfect
+JUDGED 1 S True time=2.901001 Perfect
+JUDGED 1 W True time=3.801651 Perfect
+JUDGED 1 D True time=4.705551 Perfect
+JUDGED 1 A True time=5.602127 Perfect
+JUDGED 1 Space True time=7.860291 Perfect
+PHRASE 2 retries=0
+JUDGED 2 W True time=2.001129 Perfect
+JUDGED 2 W True time=2.686554 Perfect
+JUDGED 2 D True time=2.914566 Perfect
+JUDGED 2 A True time=3.812103 Perfect
+JUDGED 2 S True time=4.716324 Perfect
+JUDGED 2 A True time=5.603378 Perfect
+JUDGED 2 S True time=6.504883 Perfect
+JUDGED 2 Space True time=8.753372 Perfect
+PHRASE 3 retries=0
+JUDGED 3 A True time=2.001221 Perfect
+JUDGED 3 A True time=2.687424 Perfect
+JUDGED 3 S True time=2.904358 Perfect
+JUDGED 3 W True time=3.809143 Perfect
+JUDGED 3 D True time=4.711578 Perfect
+JUDGED 3 W True time=5.608276 Perfect
+JUDGED 3 Space True time=7.853149 Perfect
+DIALOGUE D_S03_GuitarPraise
+DIALOGUE D_S03_RiverZhaoCall
+DIALOGUE D_S03_RiverZhaoAside
+FINAL rhythm=True retries=0 sequence=True returned=True

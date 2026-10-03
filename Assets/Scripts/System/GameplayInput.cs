@@ -3,8 +3,8 @@ using UnityEngine;
 // The pause UI reads Unity Input itself; gameplay never sees its opening/closing frame.
 public static class GameplayInput
 {
-#if UNITY_EDITOR
-    // Explicitly installed only by the editor replay harness. Null keeps native input.
+#if UNITY_EDITOR || DEVELOPMENT_BUILD
+    // Explicit opt-in diagnostic replay only. Release builds use native input.
     public interface IReplaySource {
         bool Key(KeyCode key); bool KeyDown(KeyCode key); float Axis(string axis);
         bool Mouse(int button); bool MouseDown(int button); bool MouseUp(int button); Vector3 Pointer { get; }
@@ -12,43 +12,43 @@ public static class GameplayInput
     public static IReplaySource Replay;
 #endif
     static bool RawKey(KeyCode key) {
-#if UNITY_EDITOR
+#if UNITY_EDITOR || DEVELOPMENT_BUILD
         if(Replay!=null)return Replay.Key(key);
 #endif
         return Input.GetKey(key);
     }
     public static bool RawKeyDown(KeyCode key) {
-#if UNITY_EDITOR
+#if UNITY_EDITOR || DEVELOPMENT_BUILD
         if(Replay!=null)return Replay.KeyDown(key);
 #endif
         return Input.GetKeyDown(key);
     }
     static float RawAxis(string axis) {
-#if UNITY_EDITOR
+#if UNITY_EDITOR || DEVELOPMENT_BUILD
         if(Replay!=null)return Replay.Axis(axis);
 #endif
         return Input.GetAxisRaw(axis);
     }
     static bool RawMouse(int button) {
-#if UNITY_EDITOR
+#if UNITY_EDITOR || DEVELOPMENT_BUILD
         if(Replay!=null)return Replay.Mouse(button);
 #endif
         return Input.GetMouseButton(button);
     }
     static bool RawMouseDown(int button) {
-#if UNITY_EDITOR
+#if UNITY_EDITOR || DEVELOPMENT_BUILD
         if(Replay!=null)return Replay.MouseDown(button);
 #endif
         return Input.GetMouseButtonDown(button);
     }
     static bool RawMouseUp(int button) {
-#if UNITY_EDITOR
+#if UNITY_EDITOR || DEVELOPMENT_BUILD
         if(Replay!=null)return Replay.MouseUp(button);
 #endif
         return Input.GetMouseButtonUp(button);
     }
     static Vector3 RawPointer { get {
-#if UNITY_EDITOR
+#if UNITY_EDITOR || DEVELOPMENT_BUILD
         if(Replay!=null)return Replay.Pointer;
 #endif
         return Input.mousePosition;
@@ -56,7 +56,7 @@ public static class GameplayInput
     static int consumedFrame=-1, escapeFrame=-1;
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
     static void Reset(){consumedFrame=-1;escapeFrame=-1;
-#if UNITY_EDITOR
+#if UNITY_EDITOR || DEVELOPMENT_BUILD
         Replay=null;
 #endif
     }

@@ -43,3 +43,11 @@ TestResults/
 
 # JetBrains Rider plugin
 Assets/Plugins/Editor/JetBrains*
+# P02 local recording and rollback caches (kept on D, outside stage commits)
+/Documentation/FirstLargeTest_20261001/P02MotionVersions/
+/Documentation/FirstLargeTest_20261001/P02ProductionVersions/
+/Documentation/FirstLargeTest_20261001/P02Evidence/native_gameplay_runs/
+/Documentation/FirstLargeTest_20261001/P02Evidence/production_runs/
+/Documentation/FirstLargeTest_20261001/P02Evidence/idle_cycles_PV20r2/*.mp4
+/Assets/Scenes/Validation/P02*.unity
+/Assets/Scenes/Validation/P02*.unity.meta

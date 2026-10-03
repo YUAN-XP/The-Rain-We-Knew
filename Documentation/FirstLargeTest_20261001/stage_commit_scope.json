@@ -1,0 +1,4809 @@
+{
+  "version": "PV20r2",
+  "created": "2026-10-04T03:24:34.379737+08:00",
+  "approval_state": "User explicitly authorized P02 archival and P03",
+  "base_commit": "c6a4664fa9a810b2f4d78a7abd3d20ef53198f40",
+  "selected": [
+    {
+      "status": " M",
+      "path": ".gitignore",
+      "bytes": 1123,
+      "sha256": "445fd55631ca0c183fab2e89d7aec6b9954b1da9936d4354ad58dafe60e46500"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion.meta",
+      "bytes": 172,
+      "sha256": "04aa526211ebdaa48c85813f978bc6d130de6e1b5baa7bb390af60e282d0a815"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Candidates.meta",
+      "bytes": 172,
+      "sha256": "56fe758d84055702f1dbe7db6bad1c5d0d4f4ca7a606c9ff2465eac2d3eba0dc"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Candidates/child_far_leg_PV18_cutout.png",
+      "bytes": 1291109,
+      "sha256": "792d1a30b2451bb4ac5b625070b8a761c319fdd6efe736499f0e6f8ebb2a9bbf"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Candidates/child_far_leg_PV18_cutout.png.meta",
+      "bytes": 103880,
+      "sha256": "9a48a055115be155acf6b7132696a4d7b7c16bf7ede59af5962ad0b983755978"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Candidates/child_up_left_farleg_PV18.asset",
+      "bytes": 25469,
+      "sha256": "d4e3e0cf5e862caa30380b9fc93857a8516ec55aa2405ba4a9b5cb06541f02fc"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Candidates/child_up_left_farleg_PV18.asset.meta",
+      "bytes": 189,
+      "sha256": "afdb9e6459ad93af2dc22b1fdbdbe236537d68472bbac0d76fc3cce41bcadcac"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/P02_XP_Default_Right.prefab",
+      "bytes": 76046,
+      "sha256": "31d3ad049c7752f6f67a8dc9bf6f1944347f8b189e603d9d67c5a539570acf6b"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/P02_XP_Default_Right.prefab.meta",
+      "bytes": 154,
+      "sha256": "99bce290c35db5d1ab1235885d87b206d8b646a42885506f81ef5596e008e25d"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production.meta",
+      "bytes": 172,
+      "sha256": "a02c33d7279b5d14c723010299a6b8f8bfe5d3f932ace710c623b616f8df736d"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/P02_adult_default_left.prefab",
+      "bytes": 76372,
+      "sha256": "550ceadc464e71abd8d93917d696d08eb3c66d9cd8faf83e9a456e8444a683d3"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/P02_adult_default_left.prefab.meta",
+      "bytes": 154,
+      "sha256": "76c417ea55aa78c23444881e203fbe836d7a06a949bb356b1521630da80261c5"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/P02_adult_default_right.prefab",
+      "bytes": 76323,
+      "sha256": "24267684a3a0c89f3491bcf3a6ba5115dff95a1c3e7f537c3e93abae7c96b633"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/P02_adult_default_right.prefab.meta",
+      "bytes": 154,
+      "sha256": "fc90365d7d0a73e34b59936a7962c45a3d5782d558414c706f60ecc54f7bb8e9"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/P02_adult_overalls_left.prefab",
+      "bytes": 76378,
+      "sha256": "b70f6448877d5d52ffb6c05d7866d3ea5d0c9a89081f75080c298c04aa854225"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/P02_adult_overalls_left.prefab.meta",
+      "bytes": 154,
+      "sha256": "7c64b06d887828105d1b5758e1aa5ef2854fc668bc8a733d7b5366db8ea19719"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/P02_adult_overalls_right.prefab",
+      "bytes": 76405,
+      "sha256": "9da71e94aca3d7e32c4e7ef899de60e7b6ab06d3a6c17a43679d9620b2c56659"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/P02_adult_overalls_right.prefab.meta",
+      "bytes": 154,
+      "sha256": "31545bf82a2e1404a60e5f533d84abb6244aaf8ee3cb55f5b194b58c3fc96fbe"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/P02_adult_school_left.prefab",
+      "bytes": 76374,
+      "sha256": "e01fbd86e218ac904e81e1f8dde0c3aea6589037dc881c6d24beefb4be754c58"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/P02_adult_school_left.prefab.meta",
+      "bytes": 154,
+      "sha256": "fa5a4321820aed900049d38daeeb07efc7364474913663dc146226f37ca37390"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/P02_adult_school_right.prefab",
+      "bytes": 76362,
+      "sha256": "1246ef36e352fe187379ac315cdd1746315661f94bf448dcd70f0f870a823a37"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/P02_adult_school_right.prefab.meta",
+      "bytes": 154,
+      "sha256": "c45c06b9315e386bc7b84da1a11f0fad2042d32da45d559360245701de787678"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/P02_boy_child_left.prefab",
+      "bytes": 76460,
+      "sha256": "9489b533548bc7a3ae45b5b62f2c32821b310c0f87540645674895ba903c9644"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/P02_boy_child_left.prefab.meta",
+      "bytes": 154,
+      "sha256": "16058a3acd1d7605a8f8424653091211a76e696a36bc0f49a2c886c3a74e924b"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/P02_boy_child_right.prefab",
+      "bytes": 76432,
+      "sha256": "3147b53481daa4640c90197ce0b3368990d18d069a605367de2e5dacec6efb69"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/P02_boy_child_right.prefab.meta",
+      "bytes": 154,
+      "sha256": "ec8669c06e19caba485de94c0e4d3be6eaa7f897092a1e710305065f742883fd"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/P02_child_down.prefab",
+      "bytes": 76225,
+      "sha256": "638f670020f5fdb55247653a1d60d607792796f70ba0b3f07606198128c5d8b0"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/P02_child_down.prefab.meta",
+      "bytes": 154,
+      "sha256": "58efcc47155e75cb9d1dd5cd82aed1e36ad49fe9df3ccc4ddb2763ed9555fb73"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/P02_child_down_left.prefab",
+      "bytes": 83539,
+      "sha256": "47228097f142324f5a394938adfc39688461c4d55e823f63b03d358baf9b4930"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/P02_child_down_left.prefab.meta",
+      "bytes": 154,
+      "sha256": "70864021b47c6b5fe9501a9ebb0bbb94ccecad66c5af8d7c4966a7553fe99576"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/P02_child_down_right.prefab",
+      "bytes": 83449,
+      "sha256": "fa65f5834ad5eb43ab7426aa1ee2a0eba363dee8e3b231ac9e8c9a0df839e747"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/P02_child_down_right.prefab.meta",
+      "bytes": 154,
+      "sha256": "15c3ae73a8a8beb4d44b84db5dee50b4edce713b4c73f16899d3716432299774"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/P02_child_left.prefab",
+      "bytes": 76401,
+      "sha256": "731d78b377c32c672694c5d8587045c53f981616087645aa52f4b0e17f4c7a76"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/P02_child_left.prefab.meta",
+      "bytes": 154,
+      "sha256": "485bc96b42d261efe323c57413cdc6bb7dd1980363790041899bd23d6c1f34f6"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/P02_child_right.prefab",
+      "bytes": 76426,
+      "sha256": "669e568d1d58cc746748a80554323ecd68c8236524b68fe55dce9795c263f1bc"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/P02_child_right.prefab.meta",
+      "bytes": 154,
+      "sha256": "370118bbf14956821cea272b6df2dfd2b942fc59137f723c8a1f368c14783ec0"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/P02_child_up.prefab",
+      "bytes": 76260,
+      "sha256": "90b82eda6e56944582f493241898d64f3f9d15365b2d10bb7c9f4435c2c8dcd5"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/P02_child_up.prefab.meta",
+      "bytes": 154,
+      "sha256": "c03855eb805efa6efb20dbd8922b95291957854bf1e4442c395ba84de6910d9b"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/P02_child_up_left.prefab",
+      "bytes": 83459,
+      "sha256": "356980d96406dbb8598c0ed48b3fd9a9a2393e45215fd454a33037d09a735ffc"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/P02_child_up_left.prefab.meta",
+      "bytes": 154,
+      "sha256": "3f391f6dde918eed3f298712c3bc6fcae6c3235b3a142a702db52fffd79be6b2"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/P02_child_up_right.prefab",
+      "bytes": 83495,
+      "sha256": "3d6239e0cb40844fca41c7d6949de47da2ac8ebe85616a2b2ddd07cebc06d13d"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/P02_child_up_right.prefab.meta",
+      "bytes": 154,
+      "sha256": "556fa144ac383e8e41afe274bd282bb9c631e2fa597ce3a3c8a292d7c0793243"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/P02_qt_adult_left.prefab",
+      "bytes": 76378,
+      "sha256": "93c4a52f5912c5aa8a29abfa301b76eff051f8191ff7d2319faaa9ae072de935"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/P02_qt_adult_left.prefab.meta",
+      "bytes": 154,
+      "sha256": "a81b1d057d0f73b557a4b932a1070d05f64bfc17efbd584266b967971312b1fd"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/P02_qt_adult_right.prefab",
+      "bytes": 76360,
+      "sha256": "eb0af101cbb737729aee0ef487a93ac085a3a429e03e5291f0bd6605e4ce4d3b"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/P02_qt_adult_right.prefab.meta",
+      "bytes": 154,
+      "sha256": "591b5f2e78c68e3dd176babb91c50bc63923a73d83aedc7d64995e1ddb1683ca"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/P02_youth_left.prefab",
+      "bytes": 76428,
+      "sha256": "ab092ce61545a70f6d6de9d2fbd5d30d167c17394b194c6fc90da2173176517b"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/P02_youth_left.prefab.meta",
+      "bytes": 154,
+      "sha256": "abe5b42561793a73425fcd5761f1d9094ca7a93b7494c7edbd79f6d3d54566ee"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/P02_youth_right.prefab",
+      "bytes": 76394,
+      "sha256": "0965f997b10b5289b23b5e4ad4d303ffaa09b4c72dd01e4332a091baf80749b6"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/P02_youth_right.prefab.meta",
+      "bytes": 154,
+      "sha256": "738d3e9fd44db6a3969a17bdf5d2c9b8ab58407bba9e280f65a6beda3f3d465a"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_default_left.asset",
+      "bytes": 23691,
+      "sha256": "01935067c4cca3f0134abd018928fa7fa50fa9c664537eaf93e7448d91a9a3d6"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_default_left.asset.meta",
+      "bytes": 189,
+      "sha256": "8f4b83c75b961551f08560178b4f35f74c21e0711d4be0810ee1e2c948f7f4fb"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_default_left_atlas_v01.png",
+      "bytes": 1861568,
+      "sha256": "101ca3bc200b82ca8dd6459260fdedd3b86149146c64f51e6214b625bba94589"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_default_left_atlas_v01.png.meta",
+      "bytes": 935963,
+      "sha256": "62efac0e82c5ab2eabd7fec246c38390ded3753ea649fd4cf42254c4cdb4f7d8"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_default_left_core_PV03.png",
+      "bytes": 1871311,
+      "sha256": "44a909619a2fcb379c199fff38c0f152931f9532cf11a4eb8a83bf05341d9c3d"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_default_left_core_PV03.png.meta",
+      "bytes": 107955,
+      "sha256": "8a8295e5780a89b0fe8c1bd75ae61b44a61d0de60e430ecb48c7c569c3af0fc8"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_default_left_head_source.png",
+      "bytes": 1664056,
+      "sha256": "a17fe7c4ebf99650d8afb93e3e279c925df3baaf1a8c3e973957424c2a5becfc"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_default_left_head_source.png.meta",
+      "bytes": 209058,
+      "sha256": "f4655c03a94fbcbbd0f3fdea414af93af8a5a48bfd12a7314d246044b888be85"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_default_right.asset",
+      "bytes": 26887,
+      "sha256": "d171ff5aab673cbe361eb5b00247742b186cbac5b1296a6da8390bd759c2a15e"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_default_right.asset.meta",
+      "bytes": 189,
+      "sha256": "4872fa1477e799606df250c7c13d9373b21623654cbfd80848e42a43831b2f81"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_default_right_XP_Default_Right_HandPoses_v01.png",
+      "bytes": 1811249,
+      "sha256": "ab22c036b80f41b1d24d437c53aeeafff619fea0861ac61380b676a4e32fee2e"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_default_right_XP_Default_Right_HandPoses_v01.png.meta",
+      "bytes": 208568,
+      "sha256": "30b1e4b5affb21d10d7b98dc01129a3befd6e9973d0e180bf7ee9a2e6753cff6"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_default_right_XP_Default_Right_LeftPalm_v01.png",
+      "bytes": 1574820,
+      "sha256": "68713dc4d01e6f234ffe34496ae9fc73fcf46f766e9609c39fa3e30cf0134b86"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_default_right_XP_Default_Right_LeftPalm_v01.png.meta",
+      "bytes": 106537,
+      "sha256": "19c8e74cbc2cdb17994c702031f7299e2405ea348cabbf3fe4524b5ddd9d0edd"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_default_right_XP_Default_Right_Limbs_Continuous_v01.png",
+      "bytes": 1621613,
+      "sha256": "691445b0f7878c85120ef9c7269316926d73241fbfa985ed2ba8efe3b37bbae2"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_default_right_XP_Default_Right_Limbs_Continuous_v01.png.meta",
+      "bytes": 406852,
+      "sha256": "42e9a36ea8640a0c2ad4e498294f0d4424befb566bcab9760a2fcbe558095119"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_default_right_XP_Default_Right_Parts_Candidate02.png",
+      "bytes": 914147,
+      "sha256": "2c7556de0d87d0df44f7e55818530e768419d5c470d41d8f6293396031ab06f2"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_default_right_XP_Default_Right_Parts_Candidate02.png.meta",
+      "bytes": 416605,
+      "sha256": "87393ed7f1b667fe6e8c8f5e63cfecca3d77d9cba44e3b2803623be78d162b53"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_default_right_XP_Default_Right_Torso_Continuous_v01.png",
+      "bytes": 801965,
+      "sha256": "dd703586d4e9f5981d1a64acfa3a866ab6194e0bace75bdbc2799b7a8a6cbc32"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_default_right_XP_Default_Right_Torso_Continuous_v01.png.meta",
+      "bytes": 3397,
+      "sha256": "eb7144ab3d823b885e093b8837b8d158a2733a209496139318e3ac0fe3c1eb03"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_default_right_core_PV03.png",
+      "bytes": 1871311,
+      "sha256": "44a909619a2fcb379c199fff38c0f152931f9532cf11a4eb8a83bf05341d9c3d"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_default_right_core_PV03.png.meta",
+      "bytes": 3810,
+      "sha256": "c940ae3788535cd51fc28143daeb549e991fa9fa1a70a07e2e653e6ce2ae0d24"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_default_right_core_R_PV03.png",
+      "bytes": 780011,
+      "sha256": "db49aad73574cbcaa9a894697d70213e3a27d6fc7d00a2531384a4b1536ec7e4"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_default_right_core_R_PV03.png.meta",
+      "bytes": 106465,
+      "sha256": "48fb0241948f973b4b4a96f1bb3bb9fa03b411d6cae5dc471d0b4f80a476d269"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_overalls_left.asset",
+      "bytes": 30541,
+      "sha256": "9ef9c19c93e9dacc201f8e14f80d8a97ef8e1595086cdaa4d5532528df4c0003"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_overalls_left.asset.meta",
+      "bytes": 189,
+      "sha256": "9ec9e8b7a5f320734226fbfc672c5e670ae09a39e3582ad59c87cdbfbe973cbb"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_overalls_left_atlas_v01.png",
+      "bytes": 2172303,
+      "sha256": "803d4695631f9ffc48c61ad03ae2de186030763dab174e5fb22dba827f15f0b9"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_overalls_left_atlas_v01.png.meta",
+      "bytes": 1025251,
+      "sha256": "ab7539144fe1944cd1d999301ad6450aae9e071d30aaff3af02003b39aaaf029"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_overalls_left_core_PV03.png",
+      "bytes": 1945770,
+      "sha256": "586fb69864b4c7edadd22467e912c02c66816c4256869cb336c95274cd2916ec"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_overalls_left_core_PV03.png.meta",
+      "bytes": 106592,
+      "sha256": "daa82d3a0fb6cf74c6ca99bc568763fb5ac00221683f8a455c4a72898c889547"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_overalls_left_head_source.png",
+      "bytes": 1664056,
+      "sha256": "a17fe7c4ebf99650d8afb93e3e279c925df3baaf1a8c3e973957424c2a5becfc"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_overalls_left_head_source.png.meta",
+      "bytes": 106684,
+      "sha256": "7c7697c1ffc0f324f22dab4e407fc0380c2469c269cd10e04bdf4b3470ec020a"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_overalls_right.asset",
+      "bytes": 29690,
+      "sha256": "26d165c7b88897f753cbcdce664dc17ac94a4a6005287d37dce20759043b5819"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_overalls_right.asset.meta",
+      "bytes": 189,
+      "sha256": "5f7765997945d684c39f8c0cfb4ee5d3ecef381d25804db9051d2367df8fd5af"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_overalls_right_atlas_v01.png",
+      "bytes": 2107305,
+      "sha256": "c7a997a3f92430ac0db6e8bc2b0c98151554fe2323e30152583337be17aaecf7"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_overalls_right_atlas_v01.png.meta",
+      "bytes": 1026681,
+      "sha256": "0de199e3390a65885b5084c022588bf061c7cb79889ee2f2629319f2f8b36328"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_overalls_right_core_PV03.png",
+      "bytes": 1945770,
+      "sha256": "586fb69864b4c7edadd22467e912c02c66816c4256869cb336c95274cd2916ec"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_overalls_right_core_PV03.png.meta",
+      "bytes": 106596,
+      "sha256": "e46785eeaf28be2d34f6f297331f99e18b33eae386e4fdbbc678c7bea1ae0556"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_overalls_right_head_source.png",
+      "bytes": 914147,
+      "sha256": "2c7556de0d87d0df44f7e55818530e768419d5c470d41d8f6293396031ab06f2"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_overalls_right_head_source.png.meta",
+      "bytes": 107953,
+      "sha256": "b7fb6c405d838a0a3d8e8bbf8043def14d1f5289e7e072d4aa52e73e8eaf2ace"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_school_left.asset",
+      "bytes": 31380,
+      "sha256": "d7accd47f82d75881d8edc6ec6b9d2ee60287044d3b0b859d9860cd0f1783719"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_school_left.asset.meta",
+      "bytes": 189,
+      "sha256": "ded6cc9b16dbe6ea432cc33b67e46ca5f81f151c3d032b539a75fa3af1e33730"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_school_left_atlas_v01.png",
+      "bytes": 2056653,
+      "sha256": "3f85abb5060ed411e25ce46dece0e964f56c1418773eb9421e07f519078fe66a"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_school_left_atlas_v01.png.meta",
+      "bytes": 1016209,
+      "sha256": "607af4eb7b0dcb9f3adc09bb08592624615c6f366f5a0a297c467fcaf553c653"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_school_left_core_PV03.png",
+      "bytes": 1452135,
+      "sha256": "16714ac17607691d38846c3ab4ca06d3df7729e79ee4002b44c53762c9ce378b"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_school_left_core_PV03.png.meta",
+      "bytes": 105443,
+      "sha256": "7f9cdfdad5721cee1a3cf578961196ca3579ea58b4e2f23ef90775a9b334ec7b"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_school_left_head_source_v01.png",
+      "bytes": 1771684,
+      "sha256": "aafb1050864ced3a8129b972e182b274e54f088aed50c9107037fb0ba67adf85"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_school_left_head_source_v01.png.meta",
+      "bytes": 105595,
+      "sha256": "9f0b31a46840cd4ae9cae1e0ed9d8108984b68ca5cda0204cf13676e47430791"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_school_right.asset",
+      "bytes": 82202,
+      "sha256": "f0bcf20a9bcfc3f8df350bb8930b16a0d345a1c9283c0cbe32f970801518df58"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_school_right.asset.meta",
+      "bytes": 189,
+      "sha256": "778f687879e3499e3c4788fca9359874706f9c1e567c80c509a468397b4fc127"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_school_right_atlas_v01.png",
+      "bytes": 1978488,
+      "sha256": "f0e23504e26f07f94a656efd850250f34b61efc082f2fa253ff54d245398d284"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_school_right_atlas_v01.png.meta",
+      "bytes": 812291,
+      "sha256": "86bb7e76a2194bc79b6e3ce7e19fc949ee7ef441ab196f2c1f2e6648b942c09e"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_school_right_core_PV03.png",
+      "bytes": 1452135,
+      "sha256": "16714ac17607691d38846c3ab4ca06d3df7729e79ee4002b44c53762c9ce378b"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_school_right_core_PV03.png.meta",
+      "bytes": 105466,
+      "sha256": "42c914ee4d8554bc64a6c21413e4af766e420760c2452da12cceb51d8310cbe4"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_school_right_head_source_v01.png",
+      "bytes": 1771684,
+      "sha256": "aafb1050864ced3a8129b972e182b274e54f088aed50c9107037fb0ba67adf85"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_school_right_head_source_v01.png.meta",
+      "bytes": 104798,
+      "sha256": "f9fb84b2b722a1d4cebe5697818604765ace3a9793d9b313e0a52329db2dcb6f"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_school_right_shoe_v01.png",
+      "bytes": 1769905,
+      "sha256": "d4d7fec260306b2e982586908f99f2a260fcb12a331858922319832a0f871036"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/adult_school_right_shoe_v01.png.meta",
+      "bytes": 205451,
+      "sha256": "27324545f96827dad719a8ccc121ed152a9fd387c322b2ea90dbbf9777279e7a"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/boy_child_left.asset",
+      "bytes": 27186,
+      "sha256": "bd8e6066346e463e968f3ce04619a4e5187a39f84effd5d52349cbc2f6c02a75"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/boy_child_left.asset.meta",
+      "bytes": 189,
+      "sha256": "7d4d49926eda5efbc842dd3b2a1770a0ff82caca805a6cd79bbb298ac2d90914"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/boy_child_left_atlas_v01.png",
+      "bytes": 1825689,
+      "sha256": "6662fead212d97416ce7b3720d201e21c2335cc66f255733faafa8d2a3a43573"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/boy_child_left_atlas_v01.png.meta",
+      "bytes": 1019247,
+      "sha256": "fe3cb972a6e82a283316b43c8ae0e5a8506ffc505e0648571a3630ba2d39c037"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/boy_child_left_core_PV03.png",
+      "bytes": 1492090,
+      "sha256": "bfa22abe567b3fc9772de4b22d46223436d4ad58262d0bc87a4b0cd6fe0ae9ad"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/boy_child_left_core_PV03.png.meta",
+      "bytes": 105188,
+      "sha256": "a559bd347c4348d5657b84ee3234665dffb62db2ca61364cc7096c5cea2a1d3c"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/boy_child_left_head_source_v01.png",
+      "bytes": 1299651,
+      "sha256": "8cdcbef34660981e7373aeafdd14981331313a9748c9e583db1706320d72a7f0"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/boy_child_left_head_source_v01.png.meta",
+      "bytes": 105483,
+      "sha256": "2954f7888abe30aff2b637f996789629a90e4a58b28ce368cd67e10c93a17983"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/boy_child_right.asset",
+      "bytes": 29815,
+      "sha256": "30208b9ed69dbc236c4f6ec12207b4b830f95eaba13fc4464ef011a12fee33a1"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/boy_child_right.asset.meta",
+      "bytes": 189,
+      "sha256": "90ab59b10b0e367fef57edd9a4d1c3544a410a5c3ab165fc502d7f2d45730706"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/boy_child_right_atlas_v01.png",
+      "bytes": 1844602,
+      "sha256": "bc97483b77e1bb0cfa3ce8b55f4eb5de563ef76a71078494e8affe9cf8c30f84"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/boy_child_right_atlas_v01.png.meta",
+      "bytes": 1020369,
+      "sha256": "e4dc26e33465644219db01e40f33eab8e657cad4a518423a7be441062fc97bfb"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/boy_child_right_core_PV03.png",
+      "bytes": 1492090,
+      "sha256": "bfa22abe567b3fc9772de4b22d46223436d4ad58262d0bc87a4b0cd6fe0ae9ad"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/boy_child_right_core_PV03.png.meta",
+      "bytes": 105463,
+      "sha256": "d95884948b21afa08a04adde1d7993dba1924f1fc35ca2aee859fc02e6e5067c"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/boy_child_right_head_source_v01.png",
+      "bytes": 920114,
+      "sha256": "ff929298314169a4ec6676f8c422fc5663e6657f5fcc285fb8a33dab8b3822e4"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/boy_child_right_head_source_v01.png.meta",
+      "bytes": 105026,
+      "sha256": "b113d4b012963e8557cf2fa208a3ec84e90923daba38cdb2b7fa9d6d55ee18c4"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_down.asset",
+      "bytes": 21105,
+      "sha256": "af97f1be0660dcfb95844c2837cda0ee8e5330f1b91edcd422452afb54873142"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_down.asset.meta",
+      "bytes": 189,
+      "sha256": "2285a94f318af545c83c461a05a1111475d84525c6f6196903fcea2fc64d1704"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_down_atlas_v01.png",
+      "bytes": 2044406,
+      "sha256": "c34fce96051d5cab170ca913bf17ddb97e8a9afdacdff4dbebaf6ef771e0dffc"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_down_atlas_v01.png.meta",
+      "bytes": 1117245,
+      "sha256": "810b04ad0a97ac23e92fb9bfd79c940c0beac26afde392ae3a9213df21fa6711"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_down_head_source_v01.png",
+      "bytes": 1838742,
+      "sha256": "ccfda64752ef9fad101f4c49373ec4c189e34d4482d6ff6e68d12eff05c10c16"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_down_head_source_v01.png.meta",
+      "bytes": 105850,
+      "sha256": "93a22e5e809c0b2b91333473f5196083ae5d914a4c973850418e044d016af434"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_down_left.asset",
+      "bytes": 27567,
+      "sha256": "94823aeca3193b5474b4d617ae6305686f604c03de6b2e8b20c85fdefb7af057"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_down_left.asset.meta",
+      "bytes": 189,
+      "sha256": "c7f01e318916296d5ad262179afff01d432dcfa857ee12c4da542887e037ee1a"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_down_left_atlas_v01.png",
+      "bytes": 2044406,
+      "sha256": "c34fce96051d5cab170ca913bf17ddb97e8a9afdacdff4dbebaf6ef771e0dffc"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_down_left_atlas_v01.png.meta",
+      "bytes": 953845,
+      "sha256": "14e9cb5e5edfade3080f1e5311726a81ba1ba2b82407b06c28f0d196acbf33d7"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_down_left_head_source_v01.png",
+      "bytes": 2063015,
+      "sha256": "ea67c27cd5fe9b63e6099328a07cde9c15b6ade1ec8ce9c5351fb9b443527030"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_down_left_head_source_v01.png.meta",
+      "bytes": 105859,
+      "sha256": "5fa4b3bc9a0292ee5c8a99afcf40571cb145395ab94a180a5dedbcec35d6d38f"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_down_left_quarter_core_PV03.png",
+      "bytes": 1211269,
+      "sha256": "8049424c1bb0367ab34ce31d16faac7b30ecf86b2473d7fedc20cdd39d4ee2c0"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_down_left_quarter_core_PV03.png.meta",
+      "bytes": 101007,
+      "sha256": "6b928f482d76232b9f2bd1db974cedfc6150fc6b5b091dbbfacf96c1c47f5ca1"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_down_left_quarter_core_PV04.png",
+      "bytes": 1483169,
+      "sha256": "b4eca8f5571421afe2ba0c05c24325f2b8ecd75f329580923e01a41679337b74"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_down_left_quarter_core_PV04.png.meta",
+      "bytes": 105739,
+      "sha256": "004946db5b17b3918a01dd430ac8582d021aecdccc9aee48b43b9dcb93bf289b"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_down_left_quarter_limbs_PV04.png",
+      "bytes": 1367843,
+      "sha256": "6e38eaa8f84f0b088f1dea97ed16c96ee63ff4d19464a0754def2948abd30567"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_down_left_quarter_limbs_PV04.png.meta",
+      "bytes": 991143,
+      "sha256": "8705af397094f69f2dbc0f59957681cfb997326384ae0358a2975dd16d900ae9"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_down_right.asset",
+      "bytes": 28488,
+      "sha256": "db478405768f5e3f9b953a8a2b933e4ab0c9df855108ede0b8d927d25d2044c0"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_down_right.asset.meta",
+      "bytes": 189,
+      "sha256": "0ee738744299b2a8292869e5c89325d1ddea8d85c5a54908fcb0ae6f071710fa"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_down_right_atlas_v01.png",
+      "bytes": 2044406,
+      "sha256": "c34fce96051d5cab170ca913bf17ddb97e8a9afdacdff4dbebaf6ef771e0dffc"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_down_right_atlas_v01.png.meta",
+      "bytes": 953887,
+      "sha256": "7940224707e0526fdb8dccf98b1c491fad9645536142b2b87bfb55143747adaa"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_down_right_head_source_v01.png",
+      "bytes": 2063015,
+      "sha256": "ea67c27cd5fe9b63e6099328a07cde9c15b6ade1ec8ce9c5351fb9b443527030"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_down_right_head_source_v01.png.meta",
+      "bytes": 106129,
+      "sha256": "e2c06def2bd35f70e1da00eec5ef0cd167bd58668fad8d7939fd4216769ef992"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_down_right_quarter_core_PV03.png",
+      "bytes": 1211269,
+      "sha256": "8049424c1bb0367ab34ce31d16faac7b30ecf86b2473d7fedc20cdd39d4ee2c0"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_down_right_quarter_core_PV03.png.meta",
+      "bytes": 99299,
+      "sha256": "ff21d5efd9358081ebe8f19a92ac560e11eff7dee5e0e80df86fe6a9703326aa"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_down_right_quarter_core_PV04.png",
+      "bytes": 1381461,
+      "sha256": "142daa1d7c2e13764d7163fca9beaa2fb48e5c105abe40332bf353139e75a320"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_down_right_quarter_core_PV04.png.meta",
+      "bytes": 107984,
+      "sha256": "baa9f80b840f1281f9c31661c1ff5537f03b65790a318be82b6dafa633b398e8"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_down_right_quarter_limbs_PV04.png",
+      "bytes": 1381461,
+      "sha256": "142daa1d7c2e13764d7163fca9beaa2fb48e5c105abe40332bf353139e75a320"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_down_right_quarter_limbs_PV04.png.meta",
+      "bytes": 988960,
+      "sha256": "becced3886b6223897ae7a2a7ffa221dcd1423a436b3d6f0a088a054fc49c34f"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_left.asset",
+      "bytes": 26755,
+      "sha256": "8c14e436685dce9a56a1a9e63429cc53720138955cf04c0af6700fdc2610c08e"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_left.asset.meta",
+      "bytes": 189,
+      "sha256": "bc18be1dde24818b1ad238723d8e212ea29925aa753ddcb787ea372fd945ccfe"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_left_atlas_v01.png",
+      "bytes": 1892580,
+      "sha256": "f483295b13a5de730c7df05c437da7f6dee91bbfdbabefbe69b77384306705bb"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_left_atlas_v01.png.meta",
+      "bytes": 1016526,
+      "sha256": "501ab6cf33754fc5593b135950bd1316641ed53735596aee5df51f8ba9d76b38"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_left_core_PV03.png",
+      "bytes": 1995822,
+      "sha256": "ad938c4d0e9fa2d14d61625d09fc42d30e0509da3bff1165934da3b7edba8103"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_left_core_PV03.png.meta",
+      "bytes": 106041,
+      "sha256": "99afdc827701d34791e84e02927682e0ef02e7063bdf19204ae3f26ac9f113fb"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_left_head_source_v01.png",
+      "bytes": 1838742,
+      "sha256": "ccfda64752ef9fad101f4c49373ec4c189e34d4482d6ff6e68d12eff05c10c16"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_left_head_source_v01.png.meta",
+      "bytes": 105888,
+      "sha256": "6ad328d7dfc4703d782aa323e98671101751a46bd7368020109b7cbe06908614"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_left_profile_torso_v01.png",
+      "bytes": 2001025,
+      "sha256": "90df22c7164e29530185338b29486e450ca798884f66e9eb6fa25e47c1390862"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_left_profile_torso_v01.png.meta",
+      "bytes": 100209,
+      "sha256": "d7a1179d4ba4679c66198bb7a53248b193d63701fc2ad281246f5dd94b02b55c"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_quarter_shorts_PV18.png",
+      "bytes": 1956688,
+      "sha256": "bffd83f1e68d5b46958ecab02eacf8e96d052268f23176aed9bc2cdf247b7680"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_quarter_shorts_PV18.png.meta",
+      "bytes": 1440353,
+      "sha256": "7b3b50be72f33203ca29d676b06761bf65c32eb520182426751a9a006f4e4b4a"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_right.asset",
+      "bytes": 30203,
+      "sha256": "e934db55a43945853800a794960f5d17d794ce38516a5dd034059aa3ebb2c73e"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_right.asset.meta",
+      "bytes": 189,
+      "sha256": "f51437f0339a898bd04d9540b6d8d9fa530ac057dfc49397e369e83e88bcd358"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_right_atlas_v01.png",
+      "bytes": 2040941,
+      "sha256": "f9bbf5c867051af00bac6b31dcb952763d71c0fdf34fd49e67ab012d55cb7fd4"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_right_atlas_v01.png.meta",
+      "bytes": 1014510,
+      "sha256": "27ca18b9d4e783b2e83e9bdf84b66b7318d06446225539d4059a8bd0400caae6"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_right_core_PV03.png",
+      "bytes": 1995822,
+      "sha256": "ad938c4d0e9fa2d14d61625d09fc42d30e0509da3bff1165934da3b7edba8103"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_right_core_PV03.png.meta",
+      "bytes": 106051,
+      "sha256": "2e741a6d13135192640e85c3ae264a0de5aac26c3a7705d73c90597a94a46553"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_right_head_source_v01.png",
+      "bytes": 1838742,
+      "sha256": "ccfda64752ef9fad101f4c49373ec4c189e34d4482d6ff6e68d12eff05c10c16"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_right_head_source_v01.png.meta",
+      "bytes": 104783,
+      "sha256": "5e9c1913ed43722c6a431a160fe5fc682e425993390c76730e40bdddc66178c6"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_right_profile_torso_v01.png",
+      "bytes": 2001025,
+      "sha256": "90df22c7164e29530185338b29486e450ca798884f66e9eb6fa25e47c1390862"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_right_profile_torso_v01.png.meta",
+      "bytes": 100516,
+      "sha256": "32b82d206417a929986936185b3fa5e8a9926ed11646f973567bc5f6d21b5a8e"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_up.asset",
+      "bytes": 19959,
+      "sha256": "f56b4c7c9d099d3f55c3dc87eef57352fff9ba8735cad68b2acec32a6801b781"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_up.asset.meta",
+      "bytes": 189,
+      "sha256": "11d5eb448130d3f12aea61a74580c7374fbdd038bb4a258789533ce2db777911"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_up_atlas_v01.png",
+      "bytes": 2072651,
+      "sha256": "c223a1251fee4e4942210013a2294bae78745e81341e400fc482290096e0f5ae"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_up_atlas_v01.png.meta",
+      "bytes": 1121109,
+      "sha256": "c55f7de2ca66b3d47db60828e72a1b22669a33948c3b202686495094e3f17ee2"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_up_head_source_v01.png",
+      "bytes": 2063015,
+      "sha256": "ea67c27cd5fe9b63e6099328a07cde9c15b6ade1ec8ce9c5351fb9b443527030"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_up_head_source_v01.png.meta",
+      "bytes": 103943,
+      "sha256": "5984f74ccfebcb05690df2928c854248b647ef750745131042b55c3be9834db6"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_up_left.asset",
+      "bytes": 26087,
+      "sha256": "fc0bbfe24c4f26dd4cdc852025fe15dcc9393a51f2ccc378b93b92442fa78b74"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_up_left.asset.meta",
+      "bytes": 189,
+      "sha256": "9852c16d190f7e2748c53d46b51e19a6515ce08c96aebc5ebc612fb40d92271b"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_up_left_atlas_v01.png",
+      "bytes": 2072651,
+      "sha256": "c223a1251fee4e4942210013a2294bae78745e81341e400fc482290096e0f5ae"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_up_left_atlas_v01.png.meta",
+      "bytes": 956243,
+      "sha256": "4244f03e8dfe663e04dde9fa3149ed73f8637d7e2522e8e908affdb7af5013f0"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_up_left_head_source_v01.png",
+      "bytes": 2063015,
+      "sha256": "ea67c27cd5fe9b63e6099328a07cde9c15b6ade1ec8ce9c5351fb9b443527030"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_up_left_head_source_v01.png.meta",
+      "bytes": 105652,
+      "sha256": "644165e7a775f78808e9dbfb98f0d48507206a27d9b599201c69a0f1be1b0bcf"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_up_left_quarter_core_PV03.png",
+      "bytes": 1211269,
+      "sha256": "8049424c1bb0367ab34ce31d16faac7b30ecf86b2473d7fedc20cdd39d4ee2c0"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_up_left_quarter_core_PV03.png.meta",
+      "bytes": 100734,
+      "sha256": "182a40d2f1dc955b657468ae86761083302cbecab3a7f3bd84d842e46b32a5cb"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_up_left_quarter_core_PV04.png",
+      "bytes": 1483169,
+      "sha256": "b4eca8f5571421afe2ba0c05c24325f2b8ecd75f329580923e01a41679337b74"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_up_left_quarter_core_PV04.png.meta",
+      "bytes": 104686,
+      "sha256": "fe013b3a009296709099ed507c90aae4a7197daf5ae8ac273b21ca6085461074"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_up_left_quarter_limbs_PV04.png",
+      "bytes": 1246793,
+      "sha256": "18fb974cff969e1d5ec754d737740ee5bb659c778030d1789d9c92c1c8656869"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_up_left_quarter_limbs_PV04.png.meta",
+      "bytes": 991032,
+      "sha256": "489ab3ef55e3a1911af75b0b9020c51b5d29e1431d118316b95a47b04c417189"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_up_right.asset",
+      "bytes": 24715,
+      "sha256": "d3ff4a41fae6b6dc30dc0a1ecdf40f7876dfc04c87679de327db9a0f7ca769eb"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_up_right.asset.meta",
+      "bytes": 189,
+      "sha256": "fb5e9e4860258d5ef14720333f8c24535570479979c7e9f7b90a5b3a6334d953"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_up_right_atlas_v01.png",
+      "bytes": 2072651,
+      "sha256": "c223a1251fee4e4942210013a2294bae78745e81341e400fc482290096e0f5ae"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_up_right_atlas_v01.png.meta",
+      "bytes": 956280,
+      "sha256": "9288c5aef11bb0702c4fda47301cd84f858220c33563dd08b76b57ecd121b0b9"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_up_right_head_direction_PV03.png",
+      "bytes": 2049803,
+      "sha256": "eb639fd9587da0d85e4e27af89027e338ce9a2e24692cda9eb73184377d5ec2e"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_up_right_head_direction_PV03.png.meta",
+      "bytes": 105676,
+      "sha256": "0fe85bff6e7159240cde588c02d69e79c5cebc92f0d75fa081d0d98721a5333f"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_up_right_head_source_v01.png",
+      "bytes": 2063015,
+      "sha256": "ea67c27cd5fe9b63e6099328a07cde9c15b6ade1ec8ce9c5351fb9b443527030"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_up_right_head_source_v01.png.meta",
+      "bytes": 3117,
+      "sha256": "c398ff5eb996dd17b36d3035d0e7bc22317127180001c2e478ec75494b01266a"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_up_right_quarter_core_PV03.png",
+      "bytes": 1211269,
+      "sha256": "8049424c1bb0367ab34ce31d16faac7b30ecf86b2473d7fedc20cdd39d4ee2c0"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_up_right_quarter_core_PV03.png.meta",
+      "bytes": 100749,
+      "sha256": "f798c7b894a2ced8ce8d4cd72443fa7cb31f004bc4c95389b03a7051b9e3f61b"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_up_right_quarter_core_PV04.png",
+      "bytes": 1483169,
+      "sha256": "b4eca8f5571421afe2ba0c05c24325f2b8ecd75f329580923e01a41679337b74"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_up_right_quarter_core_PV04.png.meta",
+      "bytes": 105787,
+      "sha256": "f3e697a92b571caf56381118f2d1f4440f43aea4d8a6561db1d2faac65cb9af7"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_up_right_quarter_limbs_PV04.png",
+      "bytes": 1127434,
+      "sha256": "b62cef2e012bad440f872bece0e7a9d7a864f7ee50943b12ae800919c216f37a"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/child_up_right_quarter_limbs_PV04.png.meta",
+      "bytes": 987465,
+      "sha256": "0128ed357e160c865e8c6dfa3d30ce9ba83f6093de20c1146ee401b3b069ec1f"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/qt_adult_left.asset",
+      "bytes": 29233,
+      "sha256": "5143f805e940c5454d2ca8454e29941284c7750db1010d58aefb899c32fd54eb"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/qt_adult_left.asset.meta",
+      "bytes": 189,
+      "sha256": "98535144a90e1a80073df17f3ca07f4bd19b36d84b2f9b3dc387de27d928b736"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/qt_adult_left_atlas_v01.png",
+      "bytes": 1744508,
+      "sha256": "a173accbc923236aacbc1673d99302fc1ece56783f4010019a2e764e5a18d29c"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/qt_adult_left_atlas_v01.png.meta",
+      "bytes": 1019767,
+      "sha256": "37cc5e0b810e84baa29f379ba69952b61247f353d07edd7300e5e40b9394879e"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/qt_adult_left_core_PV03.png",
+      "bytes": 1497657,
+      "sha256": "2e7233e4eae0acba0608c2cad2e58ca4c4d8f379f6a975e1c4f740e81a9cfa94"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/qt_adult_left_core_PV03.png.meta",
+      "bytes": 105724,
+      "sha256": "2f821f009e248ee5fadc4d03ccae14ee5907efb63d13e209a8a060bf0c68bc09"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/qt_adult_left_head_source_v01.png",
+      "bytes": 1299651,
+      "sha256": "8cdcbef34660981e7373aeafdd14981331313a9748c9e583db1706320d72a7f0"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/qt_adult_left_head_source_v01.png.meta",
+      "bytes": 105705,
+      "sha256": "d9974074e9f1b1b2c97f89f8aa5c112526e5bf014a09f22312aa94bac659b7a6"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/qt_adult_right.asset",
+      "bytes": 25785,
+      "sha256": "499e29afb4f4840c5a62a2e13a75c5f2d37901664d709b353b37d517046e1fc2"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/qt_adult_right.asset.meta",
+      "bytes": 189,
+      "sha256": "548e252ca10ef51dc0b0988a804bde3802a788bbde85b6c233bef9d0ba1781cc"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/qt_adult_right_atlas_v01.png",
+      "bytes": 1025752,
+      "sha256": "56b465156ef7817dc32dca331a292661abaf7bb7225c2b9648a8d609ef43714d"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/qt_adult_right_atlas_v01.png.meta",
+      "bytes": 1016220,
+      "sha256": "c00a468a10fbba1bc77282d1ed2f13538237460c10130aa5c290fc12414f6fbb"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/qt_adult_right_core_PV03.png",
+      "bytes": 1497657,
+      "sha256": "2e7233e4eae0acba0608c2cad2e58ca4c4d8f379f6a975e1c4f740e81a9cfa94"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/qt_adult_right_core_PV03.png.meta",
+      "bytes": 105196,
+      "sha256": "7f6f765d8fe1e4003cbd820f8f16495d30764c3326cadd0fd84029f9fd636646"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/qt_adult_right_head_source_v01.png",
+      "bytes": 824507,
+      "sha256": "96f141b4973aabe8adc99ba03d62199c3fc8d4b1943fc7e004a9db8927fe077e"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/qt_adult_right_head_source_v01.png.meta",
+      "bytes": 105427,
+      "sha256": "de8fb1e0d09597868f1818a95187f2161467618bcb9181c702488a6b8e53578e"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/youth_left.asset",
+      "bytes": 31375,
+      "sha256": "ec9959059ee5d6208dc1a47c11b83a52b2fb9b0c8437489c08d283572ae82a9d"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/youth_left.asset.meta",
+      "bytes": 189,
+      "sha256": "8f206437ced9ffc341574364ec3897b86299db957e46ae21ad3443cb7728f349"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/youth_left_atlas_v01.png",
+      "bytes": 2056653,
+      "sha256": "3f85abb5060ed411e25ce46dece0e964f56c1418773eb9421e07f519078fe66a"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/youth_left_atlas_v01.png.meta",
+      "bytes": 1016133,
+      "sha256": "556b110a4cbcd91c0add7674bb0ee33573f03f56b086656154735c612f7c70b4"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/youth_left_core_PV03.png",
+      "bytes": 1452135,
+      "sha256": "16714ac17607691d38846c3ab4ca06d3df7729e79ee4002b44c53762c9ce378b"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/youth_left_core_PV03.png.meta",
+      "bytes": 105418,
+      "sha256": "2f7ce58e196a7a25d6ce73e255a8ac8a40f9618f0def9557f791f2ca3d956fca"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/youth_left_head_source_v01.png",
+      "bytes": 1673033,
+      "sha256": "af2deea4e7a13a1cc89397e768837e01483e4e96e4533ae2ec6aaf82562d80c7"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/youth_left_head_source_v01.png.meta",
+      "bytes": 105485,
+      "sha256": "ce7aec489560a8e3cb54c36dd9527fb99ea10e02b43d88c5ddaf6a2d000bb11d"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/youth_right.asset",
+      "bytes": 82477,
+      "sha256": "aa5257f4c1f4a112181cdccb33277b11c31a83c85d93f9060e9c7440b87cdb4b"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/youth_right.asset.meta",
+      "bytes": 189,
+      "sha256": "e201e3d5d7bfc91873b099522712c6d48b69d5e35d5181dfa8471f6369db5b60"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/youth_right_atlas_v01.png",
+      "bytes": 1978488,
+      "sha256": "f0e23504e26f07f94a656efd850250f34b61efc082f2fa253ff54d245398d284"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/youth_right_atlas_v01.png.meta",
+      "bytes": 812209,
+      "sha256": "0dbc336af0a50b86252af6a5101aa13e67e23cd0321a0f61e2d1ba84cd6108e6"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/youth_right_core_PV03.png",
+      "bytes": 1452135,
+      "sha256": "16714ac17607691d38846c3ab4ca06d3df7729e79ee4002b44c53762c9ce378b"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/youth_right_core_PV03.png.meta",
+      "bytes": 105445,
+      "sha256": "8e045dc070d87696c564d08a983394d1c1528ee428e268c4474596aa854d1099"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/youth_right_head_source_v01.png",
+      "bytes": 1673033,
+      "sha256": "af2deea4e7a13a1cc89397e768837e01483e4e96e4533ae2ec6aaf82562d80c7"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/youth_right_head_source_v01.png.meta",
+      "bytes": 104686,
+      "sha256": "a13699c4358f3e0a707ff148da6af83d2163d06605d211d0785d642612f9848e"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/youth_right_shoe_v01.png",
+      "bytes": 1769905,
+      "sha256": "d4d7fec260306b2e982586908f99f2a260fcb12a331858922319832a0f871036"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/Production/youth_right_shoe_v01.png.meta",
+      "bytes": 205041,
+      "sha256": "c7ac440ddd290419977d27c0750a814128a6cf22003bf7bae8c27219613de3ef"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/XP_Default_Right.asset",
+      "bytes": 25353,
+      "sha256": "068a5fce03eb492c56e9ed658b8372eef31e26af8b07e12cbc09fc5d9920c8e9"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/XP_Default_Right.asset.meta",
+      "bytes": 189,
+      "sha256": "196e904a439dd2e3291ba58ae71121a33eb69f4391e1aca3f713cdd914b52521"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/XP_Default_Right_HandPoses_v01.png",
+      "bytes": 1811249,
+      "sha256": "ab22c036b80f41b1d24d437c53aeeafff619fea0861ac61380b676a4e32fee2e"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/XP_Default_Right_HandPoses_v01.png.meta",
+      "bytes": 196291,
+      "sha256": "908122e5f740a5817befe36886cafd289c14e76a81302c0720788198f099783a"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/XP_Default_Right_LeftPalm_v01.png",
+      "bytes": 1574820,
+      "sha256": "68713dc4d01e6f234ffe34496ae9fc73fcf46f766e9609c39fa3e30cf0134b86"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/XP_Default_Right_LeftPalm_v01.png.meta",
+      "bytes": 99942,
+      "sha256": "cb4921314b150c8ad3ce4b5cae0f431d1aeff1c82f9fe27b59148f6d8eb96591"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/XP_Default_Right_Limbs_Continuous_v01.png",
+      "bytes": 1621613,
+      "sha256": "691445b0f7878c85120ef9c7269316926d73241fbfa985ed2ba8efe3b37bbae2"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/XP_Default_Right_Limbs_Continuous_v01.png.meta",
+      "bytes": 382571,
+      "sha256": "bb582d9524575d93ac30c1a7d51f54a17b2cb2cd430db351a8eb1bd338e6bce2"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/XP_Default_Right_Parts_Candidate02.png",
+      "bytes": 914147,
+      "sha256": "2c7556de0d87d0df44f7e55818530e768419d5c470d41d8f6293396031ab06f2"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/XP_Default_Right_Parts_Candidate02.png.meta",
+      "bytes": 389945,
+      "sha256": "d6c64894acc7132e26f806ddca5bd21e6447b3d5c8607be94f4917979d7306e6"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/XP_Default_Right_Torso_Candidate04.png",
+      "bytes": 892872,
+      "sha256": "9e883610aa5fc8d3da71ce61373ad556effb683229897e5a65a7bf09d22eb4bd"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/XP_Default_Right_Torso_Candidate04.png.meta",
+      "bytes": 41649,
+      "sha256": "0f783d29df5764a00d6039653ed0ef5493b5e3dc125ab69ffb6a6922929252a5"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/XP_Default_Right_Torso_Continuous_v01.png",
+      "bytes": 801965,
+      "sha256": "dd703586d4e9f5981d1a64acfa3a866ab6194e0bace75bdbc2799b7a8a6cbc32"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/XP_Default_Right_Torso_Continuous_v01.png.meta",
+      "bytes": 100485,
+      "sha256": "86053149a1e603f1e6dbd9c69843f5be8213c50d6ca3e10291df01a91b85ceda"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/continuous_source_generation_prompts.json",
+      "bytes": 3487,
+      "sha256": "d7df3d4b444d2ef0aeab0f33a5dd70efd4be5c8ec978ea4a4c0fcb0b301084a8"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/continuous_source_generation_prompts.json.meta",
+      "bytes": 158,
+      "sha256": "f019e7a655c4a46f40c58692a36248be9c1e828db965bb161b1e20406fcb08d7"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/sample_source_manifest.json",
+      "bytes": 5039,
+      "sha256": "cf5af4fed964e2d1f9fc720704707ead03578fb0c6fd92248fbeaed08b2a9744"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/sample_source_manifest.json.meta",
+      "bytes": 158,
+      "sha256": "d1ff7ef4f22da38f46570fa8b86b6640ee6ab9d1ff2789e6233cfd077ea1878f"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/sample_source_trace.json",
+      "bytes": 2229,
+      "sha256": "ad9a4b802121188b66de89187dfb3fe37d647184a8133bcb90d8baaa924f5484"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/sample_source_trace.json.meta",
+      "bytes": 158,
+      "sha256": "eaceef308b67e9e7a449f451e21f69f6fb3b98a776c620ccff924c36a1233040"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/selected_torso_generation_prompt.json",
+      "bytes": 1445,
+      "sha256": "48dd981fb5acc48dbac25015153b6014c35fefb39435b4985f25a66529c9430c"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Art/P02Motion/selected_torso_generation_prompt.json.meta",
+      "bytes": 158,
+      "sha256": "2acc7ea0af9ad07c46cc3f555180866a80f2d80630f4e9f537120a6576922778"
+    },
+    {
+      "status": " M",
+      "path": "Assets/Editor/DemoIntegrationBridge.cs",
+      "bytes": 3124,
+      "sha256": "b6508443128b9ec5350a11c62d42956dc2c1c7eccab035b1a168e23e722f699f"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Editor/P02FarLegCandidateReview.cs",
+      "bytes": 3445,
+      "sha256": "da332dfe0f095e8e0309276e1c54e8049e6152b3f1297ab6b85ce73c4879e0c8"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Editor/P02FarLegCandidateReview.cs.meta",
+      "bytes": 59,
+      "sha256": "511ecd0bb840a13b9ae411ee915bfce9581476d5c06b4c88661c04de85f5cefb"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Editor/P02FinalRegression.cs",
+      "bytes": 5689,
+      "sha256": "6aa2cd2a381620f40586866ee731b7aeef39e901e705cc4da53b6d33af9ff6b4"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Editor/P02FinalRegression.cs.meta",
+      "bytes": 59,
+      "sha256": "121955de5af8909b71cc5198898888055eb730615c579122b5ed6bccdc4d68ed"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Editor/P02GameplayMotionReview.cs",
+      "bytes": 7572,
+      "sha256": "6d3bb3c5252b1704fcc2e377325c40b097b9b2c685bf04498c841efab073f93d"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Editor/P02GameplayMotionReview.cs.meta",
+      "bytes": 59,
+      "sha256": "422bc07efe49dfc96d5157fc081d6c1ca6b74e2c11e8879dcc33c52a5a2bae1e"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Editor/P02HeldCameraImporter.cs",
+      "bytes": 2367,
+      "sha256": "35f9217e425c3133f32bafd97e7a03e61db19bbadcdd0f7ce9413b1979d173c8"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Editor/P02HeldCameraImporter.cs.meta",
+      "bytes": 59,
+      "sha256": "7a33166462ff1fe52d9f40f549551093f4d05306b628fbea72c75c367d60e3d3"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Editor/P02HipWeightReview.cs",
+      "bytes": 5288,
+      "sha256": "558af3328d0485bda98b26f732a735d643ad909ffa0567721bc27379766e54d3"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Editor/P02HipWeightReview.cs.meta",
+      "bytes": 59,
+      "sha256": "52ae00995f9f1bab09e87564723a71350cdad7af9c1c1d9d89ce255b32898a31"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Editor/P02IdleCycleReview.cs",
+      "bytes": 5074,
+      "sha256": "1f159d8be0cede2f8176cd5b50231708d9ad5c57fe10d9e813b13aae2c4e5daf"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Editor/P02IdleCycleReview.cs.meta",
+      "bytes": 59,
+      "sha256": "18038ac97a7fc1ba5e72dbceced974f390072a714b56a5d1bbf1ae3a9399b2ab"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Editor/P02MainChainReview.cs",
+      "bytes": 3587,
+      "sha256": "8910f8917b3a2e23a877df954ac02c4b6076e9bd50d0a33afb3b5298adea002f"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Editor/P02MainChainReview.cs.meta",
+      "bytes": 59,
+      "sha256": "e1efd148a47735de7abd44fbfca7451ff76450fa95c05480e7a70e0cae534e1c"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Editor/P02PV17Build.cs",
+      "bytes": 1236,
+      "sha256": "8de9659253e359f6a35a9956301140c5eda62a4e02265be289494190e92526fc"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Editor/P02PV17Build.cs.meta",
+      "bytes": 59,
+      "sha256": "7e98e1a6fc31893d5d67e91c77357fc39ff2bcb707aad2e1764feb3501296aea"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Editor/P02PV17SpatialChecks.cs",
+      "bytes": 22142,
+      "sha256": "b31f5628d38281edeef8aff034e9a8aaa000c1200cfa80afab6be3cfc39b0b1a"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Editor/P02PV17SpatialChecks.cs.meta",
+      "bytes": 59,
+      "sha256": "bf970e577f32555ae240527b29254723a51f5c1e3f4ab279f9a244f064b4df9b"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Editor/P02PV17TransitionChecks.cs",
+      "bytes": 8381,
+      "sha256": "ec6d41c002b8aa20ffa8b60410e8b7ebc84bfcab7ddd00542608b786fd57d797"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Editor/P02PV17TransitionChecks.cs.meta",
+      "bytes": 59,
+      "sha256": "e29adece80b41ceccc97bab85314475eb9da6ca11b9d64c680cbb4660d186811"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Editor/P02PV20r2ExtraChecks.cs",
+      "bytes": 3772,
+      "sha256": "e3ca94f2fcd44b989ed9c8b47ab57b9dc2bf949b3b04f4f594341706846371fe"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Editor/P02PV20r2ExtraChecks.cs.meta",
+      "bytes": 59,
+      "sha256": "82210ef5b25d89a0f4f874dc254b56f37efddd6a96fb4c95671eeb46b4008914"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Editor/P02ProductionFactory.cs",
+      "bytes": 19125,
+      "sha256": "d2dc53d418bd37d03bf99df1d3f943c8dc982bfcb0ab9f920cae97853ed75cfe"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Editor/P02ProductionFactory.cs.meta",
+      "bytes": 59,
+      "sha256": "9603fd45ec81d42a611104b3ff311583fc8af1898d86364ebcb1006c0689649d"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Editor/P02ProductionInputReview.cs",
+      "bytes": 16044,
+      "sha256": "33e592c5984c1c0398ed04d43432f15bbc38f41c7271f6edc8bc228337923f25"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Editor/P02ProductionInputReview.cs.meta",
+      "bytes": 59,
+      "sha256": "d0272dda25556b45884f879003295846391a2d6410aecd7f5818c6cd192d23c9"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Editor/P02ResourceBudget.cs",
+      "bytes": 1174,
+      "sha256": "fab72569e39baccb11da7931cb61ef9af61b94ae6694296837a01e19f8db9c47"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Editor/P02ResourceBudget.cs.meta",
+      "bytes": 59,
+      "sha256": "fb8ed2ed0d0dff996f6701ef9a642db570609027fd346a10614e8041b3460f0b"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Editor/P02RigFactory.cs",
+      "bytes": 19819,
+      "sha256": "ab6dedb65cbd18144ad7c8cf70b929bf60449aae47a580bdb35b7c933019188e"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Editor/P02RigFactory.cs.meta",
+      "bytes": 59,
+      "sha256": "a5074a3a631186d690da55a4a4d8b4b16a700de6013a2d810852fc836f269e1d"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Editor/P02RiverInputCheck.cs",
+      "bytes": 4438,
+      "sha256": "38041a94c4fba11f009b35962f3763088f6179fcb5eedddd5a968377b331572e"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Editor/P02RiverInputCheck.cs.meta",
+      "bytes": 59,
+      "sha256": "8ede6fe436264b004afbb5e8df9d59bc824ea5b1fdaefe2aec7afab74c3abdad"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Editor/P02ScenarioChecks.cs",
+      "bytes": 12214,
+      "sha256": "33318aa49c9fe68d24a3a9a2293616a03140a14bf6d78275df15795cd3f1f596"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Editor/P02ScenarioChecks.cs.meta",
+      "bytes": 59,
+      "sha256": "ee20757afb3643f1203af6dde822fd7143d522335886e14183f9984de2237e8d"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Resources/P02HeldCamera.meta",
+      "bytes": 172,
+      "sha256": "6b0fdd166d1f8eae0191f56ecb7fd4afe6ff40ef5f4121b4d89dd7e94d6d22c8"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Resources/P02HeldCamera/hand_camera_PV18.png",
+      "bytes": 900087,
+      "sha256": "4ecb4475ae73876e39a01b7da955f4570ab3be01f25540c7bcac12897d3bb9b4"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Resources/P02HeldCamera/hand_camera_PV18.png.meta",
+      "bytes": 4322,
+      "sha256": "4d846e0073f69068159bedb0e32f867321cc28c308f2fad1c4ce35b92b4f449f"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Resources/P02MotionLibrary.asset",
+      "bytes": 2814,
+      "sha256": "1551adac1bba5465efb62765e87b37d2a648c6102305141fbaf219ad0a5c829e"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Resources/P02MotionLibrary.asset.meta",
+      "bytes": 189,
+      "sha256": "654a6c87e99d1886afd9af44ae37eb02617ce16c2dc68098a2d93edd8c4bdd58"
+    },
+    {
+      "status": " M",
+      "path": "Assets/Scripts/Camera/CameraModeController.cs",
+      "bytes": 7410,
+      "sha256": "eb65b607c13e9a93d387e70c5c61ae726dc706465f50bc97140da8447af6b67b"
+    },
+    {
+      "status": " M",
+      "path": "Assets/Scripts/Ending/EndingHomeController.cs",
+      "bytes": 8130,
+      "sha256": "8fdc28885e934cab9c6494615eb8a9c4054315a3b73a7bdb23b22b76d3193b11"
+    },
+    {
+      "status": " M",
+      "path": "Assets/Scripts/Ending/EndingStreetController.cs",
+      "bytes": 9325,
+      "sha256": "1f2266882a1b2710cf8a38b119d6c248b3205af2477af840b7e01301417a36f2"
+    },
+    {
+      "status": " M",
+      "path": "Assets/Scripts/Presentation/DemoActorArtwork.cs",
+      "bytes": 4906,
+      "sha256": "0becbedcfefca1c095522e95ed42cc038329162c7696ca9ec38ffe901d676a2b"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Scripts/Presentation/P02ActorPresentation.cs",
+      "bytes": 9389,
+      "sha256": "92af17acbf2703ab644a328330fa075730578632526142435537b1caf42adbef"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Scripts/Presentation/P02ActorPresentation.cs.meta",
+      "bytes": 59,
+      "sha256": "b4f433376fa9ec57c0bcebcd26382133ee39456d1bd4f04c84f634ad1d52c80d"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Scripts/Presentation/P02CharacterRig.cs",
+      "bytes": 36320,
+      "sha256": "b533f633ee360aafbcddf865b67af1b41e57713f55c1de07cdc703d940bbc2c0"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Scripts/Presentation/P02CharacterRig.cs.meta",
+      "bytes": 59,
+      "sha256": "a91a01de0372e95b291bc0d0470eeb30c58c2dfcf692b67605fcf1c3b26ce691"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Scripts/Presentation/P02CompanionFollow.cs",
+      "bytes": 2063,
+      "sha256": "0da0590eabf368dcbb1181df03b3b09877d79df972c292e23efacd9debc49d62"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Scripts/Presentation/P02CompanionFollow.cs.meta",
+      "bytes": 59,
+      "sha256": "e8c5b128ccb2f0efaefe24d93dd0fe03f84f19b84d1a0dff0582ec6a09481961"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Scripts/Presentation/P02GameplayMotionProbe.cs",
+      "bytes": 9525,
+      "sha256": "2df8504562833b4e45a1e351e99e15867098372a4c5750eca34e483d52361ecf"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Scripts/Presentation/P02GameplayMotionProbe.cs.meta",
+      "bytes": 59,
+      "sha256": "f37a2b77790cef9b5048cbe25dc189f4f41eaa005fb8e3f178e50548378378f6"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Scripts/Presentation/P02MotionLibrary.cs",
+      "bytes": 709,
+      "sha256": "04563aa83ae6eb28a31dfc179135d0c326af771dd2778102818bf25b5e522590"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Scripts/Presentation/P02MotionLibrary.cs.meta",
+      "bytes": 59,
+      "sha256": "75add2105fe90cd021169e8ecda9c7f6181374c9d543e7b20f67169f3c7a2ac4"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Scripts/Presentation/P02MotionSampleProbe.cs",
+      "bytes": 16906,
+      "sha256": "575c5f3251ee37068b797c74e1816bb4c8254ed90e206d8659c13d1df3865318"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Scripts/Presentation/P02MotionSampleProbe.cs.meta",
+      "bytes": 59,
+      "sha256": "ab1a540f415742376ce090c2e566e5d342e3126fcc41518119351e66cd1c0734"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Scripts/Presentation/P02RigDefinition.cs",
+      "bytes": 2903,
+      "sha256": "d6a7343a63da9471fb4ac8fcc000b8ad95277a2241a1feffaffda6588aa4717c"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Scripts/Presentation/P02RigDefinition.cs.meta",
+      "bytes": 59,
+      "sha256": "a36432e974f929eaef2eba6dac14a9ddd97327a4307fa157031c162b4b60cba6"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Scripts/Presentation/P02RigGroundContact.cs",
+      "bytes": 3173,
+      "sha256": "100efd914bf2858dffe8309e0011f8cdf9f6448af035e5384fa3d42c2fe933c6"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Scripts/Presentation/P02RigGroundContact.cs.meta",
+      "bytes": 59,
+      "sha256": "753fbe1483455a067574779dbfc740f31e962c11c10618d74acfa30661aeb080"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Scripts/Presentation/P02ToolMotion.cs",
+      "bytes": 8237,
+      "sha256": "1ea786673b19ef3331d62626d672527c3a44ab786a97247b4f200fb4a2882f40"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Scripts/Presentation/P02ToolMotion.cs.meta",
+      "bytes": 59,
+      "sha256": "b2094924b5c41cd8067b273775a41180a7f0b4ad0575057dcf49e72e8a83c263"
+    },
+    {
+      "status": " M",
+      "path": "Assets/Scripts/Presentation/RuntimeToolArtwork.cs",
+      "bytes": 1029,
+      "sha256": "ef3f9ecc349dfa16cd2f1ce04de7e071af7366dd08ac114e41efb15ce4da36b7"
+    },
+    {
+      "status": " M",
+      "path": "Assets/Scripts/Presentation/SpriteVisibilityAlphaLink.cs",
+      "bytes": 1408,
+      "sha256": "53c960bfe64707a9d88cd6ea24b2f7361f929a26045464a5126196e263e374d8"
+    },
+    {
+      "status": " M",
+      "path": "Assets/Scripts/Scene03/Scene03RiverSequence.cs",
+      "bytes": 9323,
+      "sha256": "9b2a5aacce70faca8bf5a9587e0fd9cda01c09aa52d95375817151b5ee997350"
+    },
+    {
+      "status": " M",
+      "path": "Assets/Scripts/School/OilLampController.cs",
+      "bytes": 9195,
+      "sha256": "16cdcaa7da450080d212bd620f455dae30636c03f7d643cb17ab6d4ce8dbf321"
+    },
+    {
+      "status": " M",
+      "path": "Assets/Scripts/System/CompanionSaveState.cs",
+      "bytes": 3247,
+      "sha256": "e07b27a6376f18e2d988278e1fe13bd4f9557abc42caac777c163ef5130463b6"
+    },
+    {
+      "status": " M",
+      "path": "Assets/Scripts/System/FourSlotSaveStore.cs",
+      "bytes": 5994,
+      "sha256": "9ade6f885f237133a9ddc34fb06f16cc8ff80cdcb5c53fdecf85b360c45456c6"
+    },
+    {
+      "status": " M",
+      "path": "Assets/Scripts/System/GameControlManager.cs",
+      "bytes": 4632,
+      "sha256": "681fbaebd41a8c364d8d00c15a9bd80fdeb9a4372ce26ca2a402db41dce02a05"
+    },
+    {
+      "status": " M",
+      "path": "Assets/Scripts/System/GameSaveData.cs",
+      "bytes": 1626,
+      "sha256": "d6d908c3d06ab88b810823bead21620d6693f049c049722f1cd95e033cef417f"
+    },
+    {
+      "status": " M",
+      "path": "Assets/Scripts/System/GameSaveService.cs",
+      "bytes": 12190,
+      "sha256": "e3e8b9a126bd86ca4f3a6ae824225fdfc684aa38edd3d0b42a8a289ce4c7c044"
+    },
+    {
+      "status": " M",
+      "path": "Assets/Scripts/System/GameplayInput.cs",
+      "bytes": 2971,
+      "sha256": "165a11a21c3a9c3aab575ae12467ecf09d3ecddb254ab839532dd27d0bb68c42"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Scripts/System/P02StandaloneCheck.cs",
+      "bytes": 9086,
+      "sha256": "5f1083d3f9a0ab0a9a260ad4c87b4d2078b6bdf52ecc99c5acdf57449d7e7924"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Scripts/System/P02StandaloneCheck.cs.meta",
+      "bytes": 59,
+      "sha256": "68f24786168bc9f139113989417ee1971e896f5afe328994490dfb552fc24340"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Scripts/System/P02StateProbe.cs",
+      "bytes": 6052,
+      "sha256": "b4518b41d7e657830c26928957a62396db281cf97c707113ee15be1d3f51dff7"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Scripts/System/P02StateProbe.cs.meta",
+      "bytes": 59,
+      "sha256": "4346ef749bb078efa69766a7ac0c37cf7fa2af034d714ba151c7ed895a278705"
+    },
+    {
+      "status": " M",
+      "path": "Documentation/FirstLargeTest_20261001/02_需求与验收台账.csv",
+      "bytes": 63268,
+      "sha256": "2c63e3c68f3e36ebef0f5b6445c7a4b22fc54e80c5e815a42174c2c545e4d47e"
+    },
+    {
+      "status": " M",
+      "path": "Documentation/FirstLargeTest_20261001/02_需求与验收台账.json",
+      "bytes": 167629,
+      "sha256": "dc2165ab8e0dd7e07fefab050b6269e0ccc96638caf4104406d99493869bd2ba"
+    },
+    {
+      "status": " M",
+      "path": "Documentation/FirstLargeTest_20261001/02_需求与验收台账.md",
+      "bytes": 36645,
+      "sha256": "d8fe999d3927c9a1cbebd0361e0a67ce67f9a6a05bd8780b26ff2b3440276862"
+    },
+    {
+      "status": " M",
+      "path": "Documentation/FirstLargeTest_20261001/03_执行与防回退规范.md",
+      "bytes": 11908,
+      "sha256": "f949d74c504be158045987191ff2b67e6819a5c51887c531a67a32f7bb331151"
+    },
+    {
+      "status": " M",
+      "path": "Documentation/FirstLargeTest_20261001/04_阶段测试与人工存档模板.md",
+      "bytes": 11324,
+      "sha256": "dd249c483eb3e13bba938020ea2824c8eaf613a4fac708ff0ffd05b87fa89775"
+    },
+    {
+      "status": " M",
+      "path": "Documentation/FirstLargeTest_20261001/07_P01阶段验收与人工存档.md",
+      "bytes": 6292,
+      "sha256": "8bfa2e3a8874bbcecc290c3b62797cfc5c1d2ca2948597bf1aa16c5e528a38c7"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/10_P02人物运动制作与验收规范.md",
+      "bytes": 16596,
+      "sha256": "7edfd6cd93aaf8089a30ab8a6069c78775df8c82b541753141de2e4be0f29565"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/11_P02动作矩阵与源图核验.json",
+      "bytes": 233457,
+      "sha256": "d5b00d053219327c257cdcb443903a03c9be8f58ff10019f112c122ecffaaa1a"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/12_P02准备资料校验.json",
+      "bytes": 2657,
+      "sha256": "8f44f6fca7da39609582ebecae733f977ff7349ac24f91387f630372a120226a"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/13_P02工具选择与核验记录.md",
+      "bytes": 3427,
+      "sha256": "444ee0832963af81726345bd0d715e033b4858bbdc7348af75eee6ab10d1b5fd"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/14_P02人物样板问题与复测记录.md",
+      "bytes": 9687,
+      "sha256": "fecd153312158107b11a660cf512cd017dbfd68cb72c4a53dc9550686938ca2d"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/15_P02完整阶段执行记录.md",
+      "bytes": 1802,
+      "sha256": "79168387c8417b4b8ffa570a53563c6497f774217904fa7af20090086ff5c0d7"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/16_P02阶段性反馈与交接报告_2026-10-02.md",
+      "bytes": 46049,
+      "sha256": "39a772704018745eb77295cf525e0f4ac91d3dec56a2db4e4512be9252fe0b4d"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/17_下一窗口接续任务说明.md",
+      "bytes": 2183,
+      "sha256": "d31440308dec7f647b0a84f6dee784469a0e3207df0196e32eee5d104da6bc03"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/18_P02证据索引与版本核对.md",
+      "bytes": 11471,
+      "sha256": "e432be68a706fda4af47ad3204217dcf02bf6cddc2cf655352dfd695f367f4a3"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/19_P02最终候选详细报告_2026-10-04.md",
+      "bytes": 29341,
+      "sha256": "e52b0463fe78fd83166ac4e30b634607f8db04293c3bdef80df7b0dc8b947c09"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/20_P02提交范围与英文内容.md",
+      "bytes": 2900,
+      "sha256": "c5f276ea2a2c907847ed4831535655f343b0ffcae30931dfb9c87b0e55ada8ea"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/21_P02阶段存档记录.md",
+      "status": "??",
+      "bytes": 1654,
+      "sha256": "147702d9ff7f63d38d2fa077a4bf0891b1cb1d19bfbbde2ba4878c9197060f14"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/PV20_group_1.jpg",
+      "bytes": 306300,
+      "sha256": "0b91834e87a1746229a439407f91366a6a42a373cedf01276f6d3a38206002d4"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/PV20_group_2.jpg",
+      "bytes": 314389,
+      "sha256": "388330cbebcc4472b72f358c76ddb84904607fe360f3718098f2f52c47982a24"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/PV20_group_3.jpg",
+      "bytes": 291640,
+      "sha256": "b5f42821a358d5ab76353aeddd4bc6fb284ec25ddcad29ac81ac114266ed2964"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/PV20_group_4.jpg",
+      "bytes": 332927,
+      "sha256": "5d291b2bffe28dff5ea485f48cb06f6a52c7f98dd3a39af35d0636a4dd2266e5"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/PV20_group_5.jpg",
+      "bytes": 376584,
+      "sha256": "8114a9cd78fce504fa35d614cf3787546ad7251b6ed1dda4a424aed49842e198"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/PV20_idle_recovery_1.jpg",
+      "bytes": 201698,
+      "sha256": "ad0b6db6c794f4f1595151ea6c9b44d1d0fa8bc724694cdc52543fefe3157494"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/PV20_idle_recovery_2.jpg",
+      "bytes": 194534,
+      "sha256": "91f9ff77ce570a32e15f172c7b7dbfa22358acec99e9921599466aa67d33fb81"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/PV20_idle_recovery_3.jpg",
+      "bytes": 189360,
+      "sha256": "5dab6612eaf4a88479d4f60dd211361170bced0ac51dd5a477fcb34efe1b2692"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/PV20_idle_recovery_4.jpg",
+      "bytes": 212956,
+      "sha256": "5cc3fe14a4ba263ee260a1ff5db145dff358091e31d932f8c7392e306f504dac"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/PV20_idle_recovery_5.jpg",
+      "bytes": 238247,
+      "sha256": "501fb344b42419b36f1425b8e362d8794818dab27e135f32f56dca4584d3fe12"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/PV20_lower_run_1.jpg",
+      "bytes": 284643,
+      "sha256": "cf07bbd51af8932508d85470aac3ddba39ce8774740845fa53d1b64e1dd58a45"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/PV20_lower_run_2.jpg",
+      "bytes": 288671,
+      "sha256": "4d3c237532d02fdd4d202cbf6160059b65fa8d2f49fe2dea996f6385231f6845"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/PV20_lower_run_3.jpg",
+      "bytes": 253522,
+      "sha256": "c4e2c4d6cad724ebf56cedec811b8ef73b37be73fcca5b879a110ea457319fe1"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/PV20_lower_run_4.jpg",
+      "bytes": 271965,
+      "sha256": "de1ec4bc0f0a0945637cb2718a6ef195e8add0d51f2598f433dd94e817ccd1e2"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/PV20_lower_run_5.jpg",
+      "bytes": 291310,
+      "sha256": "ba4ed4619a3025fe096e4de0164b5bc04577d6e2f5d69046160dc171fb8cd903"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/PV20_lower_walk_1.jpg",
+      "bytes": 290257,
+      "sha256": "f2ffe3867fff1e7363d6aa93e08d8ed619b8027f5715b99517d7dfbcd2b1598a"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/PV20_lower_walk_2.jpg",
+      "bytes": 293707,
+      "sha256": "9fb4a4f30db55166ace916ebd986afaf97814d79b8391e8327475388067c04e0"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/PV20_lower_walk_3.jpg",
+      "bytes": 262980,
+      "sha256": "e86bdf243cf4c9736b6169f183abf2265c786e5dee78e804fd39b25b73750b75"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/PV20_lower_walk_4.jpg",
+      "bytes": 288415,
+      "sha256": "72fec6c2b3b43fe81bb5c3c4d7507d5f7ff5ba8c4a2ea18ff82cbf6336fb8013"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/PV20_lower_walk_5.jpg",
+      "bytes": 321161,
+      "sha256": "9c92cadd95a65923edccebf4f5f5fdd96b71d8f0173f47e0ff03cd4f131c3233"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/PV20_native_validation.json",
+      "bytes": 2265,
+      "sha256": "50c7b0e17d767d906ec4dd910d4c12ce25f4f907357abc0b133fb6ee23264df1"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/PV20_run_phases_1.jpg",
+      "bytes": 659190,
+      "sha256": "a3c5079f663c43cc1cd2d7ebefe7cd886bbc6cac0076612b81fc5377990f9f54"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/PV20_run_phases_2.jpg",
+      "bytes": 678548,
+      "sha256": "b7016b2139ff931a120f4f55a7ac68344b5887e9ef27724310bcc04ed8d5378b"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/PV20_run_phases_3.jpg",
+      "bytes": 625141,
+      "sha256": "8ccbfa0ebd2d4954b19d9aabb187c8d99ba8c6f57e5757dd1d3139a47a02f67b"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/PV20_run_phases_4.jpg",
+      "bytes": 684472,
+      "sha256": "bb0d395a5be4af1fd6dbf95568b5a228e722fbde7a6238cbc3aa97c05d0f3d65"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/PV20_run_phases_5.jpg",
+      "bytes": 757670,
+      "sha256": "e2eb9f113733083a83ee1db7bd8cc14d47d9c473f4e91bae7feff6e0a03a2d1d"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/PV20_upper_run_1.jpg",
+      "bytes": 284374,
+      "sha256": "6558dcf33def6e59076f4462393b3c8ffec79c9dbd885574ed5aaefa2cc5d608"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/PV20_upper_run_2.jpg",
+      "bytes": 294446,
+      "sha256": "91a8ba5521d02a017641666907ebbddb56e475f8393df3084a11020fdb9c679e"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/PV20_upper_run_3.jpg",
+      "bytes": 266524,
+      "sha256": "9cf4460ec86ba09f0853172f862cf9394f0e303c43887583d9b5f226aa12f4a1"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/PV20_upper_run_4.jpg",
+      "bytes": 307856,
+      "sha256": "7ce9885c4eb25cf4d3f93059b907a8426f2c0e37ed75a4e21da51d443cad9caf"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/PV20_upper_run_5.jpg",
+      "bytes": 360360,
+      "sha256": "24ac7cdbae8bc654704eaafeeb91fe17d787e40e2762860267b0b29d77d1fab1"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/PV20_upper_walk_1.jpg",
+      "bytes": 259885,
+      "sha256": "07807beabb851012ec0814369c3857155d416807aa1208607bc4aed46e73a968"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/PV20_upper_walk_2.jpg",
+      "bytes": 267147,
+      "sha256": "2c23bff283197f18baae6d4662778b73eca274aed0f17dce65c468b84b580fb9"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/PV20_upper_walk_3.jpg",
+      "bytes": 244007,
+      "sha256": "be0809580b20cfa423ea09acb137556bf8c894c92a77601d1d1d0eac3e7943d8"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/PV20_upper_walk_4.jpg",
+      "bytes": 290908,
+      "sha256": "3c9c2dd5f416e7c74de7f846a4b08811f0387c59b02afb9cd751e49076f08bde"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/PV20_upper_walk_5.jpg",
+      "bytes": 342143,
+      "sha256": "771cfdec7c4a926a2cc6d08254237eb08a2b7e27a8bee1545f01ad692dc16658"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/batch_index.json",
+      "bytes": 10702,
+      "sha256": "10e8f9f62dd658c1300ab2713fa24e13c0920cfa28bda636b14af32f268ff57e"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/file_manifest.json",
+      "bytes": 22156,
+      "sha256": "dfe02badbe635e4b1ec83b302a71a08c5ca585804b05489e4fd1b0323289666e"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/historical_comparisons/before_child_quarter_20261003_171012.png",
+      "bytes": 246896,
+      "sha256": "bacbbf4dadb73ded1b95fa1e2b874258fa7bbf1937dbcbde0d6578d479d121d1"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/historical_comparisons/before_direction_20261002_152731.jpg",
+      "bytes": 381813,
+      "sha256": "5235cfdc3428591f97423af7315042be60f35b422114eabd95062da25a57c81c"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/room_transition/results.txt",
+      "bytes": 4344,
+      "sha256": "d58f70ced5e9b110d65cf92ff1bab3ba1bc01f5929c79c0911cdf3ab2dd6ad74"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/standalone/eight_final/cold-report.txt",
+      "bytes": 420,
+      "sha256": "0f4c5fd05e451c3f6cbc824e90f32156301b785b7aa48dd41031a58c604f4574"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/standalone/eight_final/state-plan.json",
+      "bytes": 314,
+      "sha256": "a12c96399f15a562f9a3dbb939f29ecade608e7e3139cce79624da3befd10ef6"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/standalone/eight_final/state-report.txt",
+      "bytes": 3096,
+      "sha256": "32fadd1e482244e8de5180f117a7adbac96d2c383fb2c07b3528668334e3a1f8"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/standalone/lamp_final/cold-report.txt",
+      "bytes": 450,
+      "sha256": "305fc5af24dc80847ed0b03e853a7df65eb3ed34525aa51a51d2ecea28dede0a"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/standalone/lamp_final/state-plan.json",
+      "bytes": 218,
+      "sha256": "a7abeef7d0b0bc6f88b17849f5989e68f3ac06f147066633de184a767be7c6e9"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/standalone/lamp_final/state-report.txt",
+      "bytes": 1247,
+      "sha256": "87f19e6cfc7da23cf94c327af59615cb31813b142511608d66cc90de9b1b2fe6"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/standalone/motion_1920_postframe/plan.json",
+      "bytes": 869,
+      "sha256": "f2450d5391fd3e1f951da38e34e3f4486e156ce26cd66fc374502ae7a85c8126"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/standalone/motion_1920_postframe/report.txt",
+      "bytes": 6642,
+      "sha256": "b451732fa8d38fa14145fb22ad873ba2f44c6214b0d3a2f8ae8cb878e350cb86"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/visual_review_PV20.json",
+      "bytes": 14204,
+      "sha256": "5246c7a459d0ce1d0a47a429520171177b570c4a404e25e6168604b0b37e7d06"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20r2_review.html",
+      "bytes": 7445,
+      "sha256": "d4e647fcad15a9936a4d3c7501a6e754d1e03c5886bbc0bb540985219831db5f"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/idle_cycles_PV20r2/idle_cycle_report.json",
+      "bytes": 2530,
+      "sha256": "85486b12ac97ea222c326c8e1e26b62f65de2df849c3b8668320403a0a9d7b1c"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/idle_cycles_PV20r2/idle_first.png",
+      "bytes": 299268,
+      "sha256": "b7dd536ed1541353365b468e523784e25b0c1dd8377114d70f78ac46187d8a23"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/idle_cycles_PV20r2/idle_last.png",
+      "bytes": 299115,
+      "sha256": "391dd9c767b51a29841542d1314c666424285d1ccd0ac3ae30737e182e4b836b"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/river_input/20261002_210056/D_S03_GuitarPraise.png",
+      "bytes": 3475247,
+      "sha256": "32a91c5a9f2b8468c20fee6e3dbb21579d4ae72e989ef5c9a05d65874fae2109"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/river_input/20261002_210056/D_S03_RiverZhaoAside.png",
+      "bytes": 3422886,
+      "sha256": "81e12b1da783f91d3c11e19645d3471c86b65274f8ef4f9f80d74adc483a3da2"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/river_input/20261002_210056/D_S03_RiverZhaoCall.png",
+      "bytes": 3490195,
+      "sha256": "179f0297b9a39405bc861eef343ee7392914b47f03bdb3badda7cb4e2c3c6d1a"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/river_input/20261002_210056/actual_input_results.txt",
+      "bytes": 1471,
+      "sha256": "99203e550fb6e01656efbc682f3c568d08d97a580a71c400deac505dc9601a9f"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/river_input/20261002_210056/returned_home.png",
+      "bytes": 2614308,
+      "sha256": "b6782c01b278a8d5937c76b8dd80e1e250adac1662d3fd4e49134a2961125a19"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/river_input/20261002_210655/D_S03_GuitarPraise.png",
+      "bytes": 3475036,
+      "sha256": "c05a18426cd313fb8a8433aa18ee64e45ef6796dd464f78d98f94b5e072b333f"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/river_input/20261002_210655/D_S03_RiverIntroduction.png",
+      "bytes": 3464967,
+      "sha256": "10df948b89d577a8ade2710053a18d6b1ebc5f4115bd79fa36e60716a9fe58f5"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/river_input/20261002_210655/D_S03_RiverZhaoAside.png",
+      "bytes": 3423061,
+      "sha256": "0fb8200f08edfc869ae9ea8e30360c8d0f46a181dfcc982562d95cbebc9efa89"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/river_input/20261002_210655/D_S03_RiverZhaoCall.png",
+      "bytes": 3490373,
+      "sha256": "addecfe17e4bfefc5a57780a601858c0e85bc24d06ce284806ba487d406b7a7b"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/river_input/20261002_210655/actual_input_results.txt",
+      "bytes": 1500,
+      "sha256": "117eb6a1f8d27ac70fc7866cb98940230eff8da42dc82041bc0edf2cf689f793"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/river_input/20261002_210655/returned_home.png",
+      "bytes": 2613234,
+      "sha256": "87cc3e5a8ac7520b7f439504145ee18050332a389bb48f7c8ef984eb8527ac62"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/river_input/20261003_132247/D_S03_GuitarPraise.png",
+      "bytes": 3477109,
+      "sha256": "bf098f451f564f6baf6839b6e81e078be4f06d4796a901704a02e58eaf9751d8"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/river_input/20261003_132247/D_S03_RiverIntroduction.png",
+      "bytes": 3464774,
+      "sha256": "a00518da9c2523ccc3dda8aa3a991be64314295299ac4f83511cd6dec987d489"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/river_input/20261003_132247/D_S03_RiverZhaoAside.png",
+      "bytes": 3423444,
+      "sha256": "d4cdcbd93ed083cb398d7028763b2755fc1d4798a47b4b4f84c464a5261611cb"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/river_input/20261003_132247/D_S03_RiverZhaoCall.png",
+      "bytes": 3490229,
+      "sha256": "38a4b8032507b566014ac297343d04128ac8db2a6693654f97a0e15c0e341506"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/river_input/20261003_132247/actual_input_results.txt",
+      "bytes": 1504,
+      "sha256": "fcd8298d66da8e98b7cbeb9a51da0f5363f78de510ebe4c51af5b0f4559ec049"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/river_input/20261003_132247/returned_home.png",
+      "bytes": 2611537,
+      "sha256": "5a2487341f0e42e45eb7a87f1fc5057c38a0bd3bffc5bb7d99bb0ce36828ebc8"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/river_input/20261003_132543/D_S03_GuitarPraise.png",
+      "bytes": 3475312,
+      "sha256": "37dc0688e26566cd1f6a1f4e53a8839509dc8d224893e8e9bf0d3dbd70b66b35"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/river_input/20261003_132543/D_S03_RiverIntroduction.png",
+      "bytes": 3465250,
+      "sha256": "b24460acea9c3c067c447776bf2134c68f063e25a215f5489c6d300500437e66"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/river_input/20261003_132543/D_S03_RiverZhaoAside.png",
+      "bytes": 3423166,
+      "sha256": "58271cd32b9911e441ed6ba917d70ed73d9ab72727fdac1d60fb90f7539048d2"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/river_input/20261003_132543/D_S03_RiverZhaoCall.png",
+      "bytes": 3490256,
+      "sha256": "a04eee19d36de0cf533d10cda0299c3343db521d23b738fb775f0355bb64a071"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/river_input/20261003_132543/actual_input_results.txt",
+      "bytes": 1505,
+      "sha256": "ca67302f2b87441966051d6b00928e407dd44a2250754a2d5c1b56c4a896283d"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/river_input/20261003_132543/returned_home.png",
+      "bytes": 2613218,
+      "sha256": "ead844729168a489acbd2fb370731cd2c3a494086af5c148d10a7ff0c2a2acb0"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/river_input/20261003_210243/D_S03_GuitarPraise.png",
+      "bytes": 3475322,
+      "sha256": "b7e16173e69dacf008229fc9be2245e32a976694c4f54d527df6670196d3c74f"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/river_input/20261003_210243/D_S03_RiverIntroduction.png",
+      "bytes": 3462525,
+      "sha256": "259e4d82e595158c135a9e57e91e92e2bc96089e33f0a446d4aa1bf3fa2cc0f5"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/river_input/20261003_210243/D_S03_RiverZhaoAside.png",
+      "bytes": 3423095,
+      "sha256": "3ca4777a3e8b5ec2184ecabf176c028a156e50f9baa7d87de8d81d04e7d87f2e"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/river_input/20261003_210243/D_S03_RiverZhaoCall.png",
+      "bytes": 3490328,
+      "sha256": "51889d3ae5c69ada4ff4d0db55dd69c15c7ff9d42b4a7ab947de8275b9cc97d9"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/river_input/20261003_210243/actual_input_results.txt",
+      "bytes": 1504,
+      "sha256": "b8638c61735330cc95c4c6588665b2d4a71a6abd7e84fb7787e76fea10f6aa44"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/river_input/20261003_210243/returned_home.png",
+      "bytes": 2614674,
+      "sha256": "5c7e2db0de3cf2d244dd3212bd216adc0a3b09451428739147760573347f446d"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/river_input/20261003_220204/D_S03_GuitarPraise.png",
+      "bytes": 3475730,
+      "sha256": "029f8b6ba5c6ffad170f41aa58e537db5e3844545a9ecf8fca99ea42c7e813bb"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/river_input/20261003_220204/D_S03_RiverIntroduction.png",
+      "bytes": 3449951,
+      "sha256": "91619d119faaf3636a9f880cc158cc2c1ca3ef3fd5afec54b47b00f2bc740171"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/river_input/20261003_220204/D_S03_RiverZhaoAside.png",
+      "bytes": 3423029,
+      "sha256": "ae0f459b69a925cc215b77307a41179423234db1b0e413dfff4e66a04135b180"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/river_input/20261003_220204/D_S03_RiverZhaoCall.png",
+      "bytes": 3490131,
+      "sha256": "c9673e86001711bcc3494e8b0ba5e2dccb60b61ae60dd6c1ef7f1bc652fe9b36"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/river_input/20261003_220204/actual_input_results.txt",
+      "bytes": 1498,
+      "sha256": "cda62d38fb3a423fbab3cd95f6ea2999de8fa0a71f6137c9e34cba547af5e446"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/river_input/20261003_220204/returned_home.png",
+      "bytes": 2613667,
+      "sha256": "56a92fd8af280ad1d42ff88eb1d8fbad7e51d51f9d3a164ebc8ce3a86ad889f7"
+    },
+    {
+      "status": " M",
+      "path": "Documentation/FirstLargeTest_20261001/README_实施进度.md",
+      "bytes": 7544,
+      "sha256": "1fb1f57c3ff6962909707f871634d4ca9211d2bc92c997c902f647f8cfdc6cd0"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/final_native_validation.json",
+      "bytes": 3587,
+      "sha256": "96ff7b0c0e8c1117f0cf8220cfaceb27075ec4d6bce63803e2720fb4ff780e21"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/final_save_review.json",
+      "bytes": 7662,
+      "sha256": "ee712f3af51d9326da104f0f2ffa02d5d3708d204c27d9ddc119a61ee0fe03c1"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/gameplay_boundary_audit.json",
+      "bytes": 2380,
+      "sha256": "097c7cc68761f6d4956ed24ff7e71825cdf8fa8bb7468399a45753521a8dfdea"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/handover_native_validation.json",
+      "bytes": 1668,
+      "sha256": "aa2a704687a2a8f534ddc1e6a7656e940b1e3b6076e467cd5849435660084c6b"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/normal_opening_validation.json",
+      "bytes": 853,
+      "sha256": "da81e702b3d3094c3db9e433567d89cc77b29519b204929b8bd8b79972f3abc4"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/opening_after_check.json",
+      "bytes": 545,
+      "sha256": "ac0cae75a91708b743d8f0c0fea0fc094d9efcd726b7ed9e138288a89d5981c8"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/opening_before_check.json",
+      "bytes": 544,
+      "sha256": "7d509e68cf9aabb647a8cfbea0fe2ae2d6c32d91c3de1b6433c8a6b9b1b8aace"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/production_skin_manifest.json",
+      "bytes": 187918,
+      "sha256": "cdcd2c739f4de505a590d103896cc2ff7cb20143d84b3df74ab406f09a670125"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/production_source_trace.json",
+      "bytes": 104835,
+      "sha256": "9ae5f57fc48ece94ef71c3ad49867aeefc3cd111eff0c82f58c392555c124810"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/river_final_validation.json",
+      "bytes": 999,
+      "sha256": "762b5896a4fb4a5eb44766532d3f33fbcbfa382a64b50c74dd941ea24d5a1613"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/runtime_integration_maps.json",
+      "bytes": 1352,
+      "sha256": "8a976f808fdfd0b87b8e61366de10b57c626a0a403fd567f83ea85e2c647381b"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/stage_archive_verification.json",
+      "bytes": 172975,
+      "sha256": "ceb61a5e7dfbde9fab904d7c88aca898a0da1169bd10e7cecc8a860d7c0300e0"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/stage_close_cleanup.json",
+      "bytes": 571,
+      "sha256": "1126737a3ed8a8b07ee182c38dc2c4eaaad9576be24ce2d8553572ca11fcd74a"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/stage_commit_scope.json",
+      "sha256": null,
+      "note": "Manifest includes itself without a circular checksum"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/stage_handoff_document_validation.json",
+      "bytes": 987,
+      "sha256": "0d5e3f7f8556d209720909229b7b303f29c5e73de90aeb40e5199e3a3927c488"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/stage_handoff_status.json",
+      "bytes": 12049,
+      "sha256": "977f8ec14e904d5ff3325a378870d9ec0f2f1e33966364956772394a73d4429a"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/stage_source_hashes.json",
+      "bytes": 86763,
+      "sha256": "b90897be13444b8a6d817e26616afb64915f8888c9a0509d05254b79b20de1b6"
+    }
+  ],
+  "excluded": [
+    {
+      "status": " M",
+      "path": "Assets/Fonts/ChineseMain SDF.asset",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": " M",
+      "path": "Assets/Scripts/Player/PlayerController.cs",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": " M",
+      "path": "Assets/TextMesh Pro/Settings/DefaultVolumeProfile.asset",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": " M",
+      "path": "Assets/TextMesh Pro/Settings/UniversalRP.asset",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": " M",
+      "path": "Assets/TextMesh Pro/Settings/UniversalRenderPipelineGlobalSettings.asset",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": " M",
+      "path": "ProjectSettings/ProjectSettings.asset",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": " M",
+      "path": "ProjectSettings/UnityConnectSettings.asset",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Assets/Scenes/Validation.meta",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Assets/_Recovery/0 (1).unity",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Assets/_Recovery/0 (1).unity.meta",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_protected_source_check.json",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/room_transition/BedroomEnter.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/room_transition/BedroomEnter_world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/room_transition/BedroomExit.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/room_transition/BedroomExit_world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/room_transition/ClassEnter_Class3_2_Back_AtoB.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/room_transition/ClassEnter_Class3_2_Back_AtoB_world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/room_transition/ClassExit_Class3_2_Back_BtoA.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/room_transition/ClassExit_Class3_2_Back_BtoA_world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/room_transition/MemoryEnter_Class3_2_Back_AtoB.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/room_transition/MemoryEnter_Class3_2_Back_AtoB_world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/room_transition/MemoryEnter_Class3_2_Front_AtoB.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/room_transition/MemoryEnter_Class3_2_Front_AtoB_world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/room_transition/MemoryExit_Class3_2_Back_BtoA.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/room_transition/MemoryExit_Class3_2_Back_BtoA_world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/room_transition/MemoryExit_Class3_2_Front_BtoA.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/room_transition/MemoryExit_Class3_2_Front_BtoA_world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/room_transition/StairsDown.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/room_transition/StairsDown_world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/room_transition/StairsUp.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/room_transition/StairsUp_world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/standalone/eight_final/cold-restored-world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/standalone/eight_final/down_left_restored-world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/standalone/eight_final/down_restored-world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/standalone/eight_final/down_right_restored-world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/standalone/eight_final/left_restored-world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/standalone/eight_final/right_restored-world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/standalone/eight_final/up_left_restored-world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/standalone/eight_final/up_restored-world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/standalone/eight_final/up_right_restored-world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/standalone/lamp_final/cold-restored-world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/standalone/lamp_final/left_restored-world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/standalone/lamp_final/right_restored-world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/standalone/motion_1920_postframe/0_A_LeftShift_world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/standalone/motion_1920_postframe/0_A_world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/standalone/motion_1920_postframe/0_D_LeftShift_world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/standalone/motion_1920_postframe/0_D_world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/standalone/motion_1920_postframe/0_restored_world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/standalone/motion_1920_postframe/1_A_LeftShift_world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/standalone/motion_1920_postframe/1_A_world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/standalone/motion_1920_postframe/1_D_LeftShift_world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/standalone/motion_1920_postframe/1_D_world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/standalone/motion_1920_postframe/1_restored_world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/standalone/motion_1920_postframe/2_A_LeftShift_world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/standalone/motion_1920_postframe/2_A_world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/standalone/motion_1920_postframe/2_D_LeftShift_world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/standalone/motion_1920_postframe/2_D_world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/standalone/motion_1920_postframe/2_restored_world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/standalone/motion_1920_postframe/3_A_LeftShift_world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/standalone/motion_1920_postframe/3_A_world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/standalone/motion_1920_postframe/3_D_LeftShift_world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/standalone/motion_1920_postframe/3_D_world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/standalone/motion_1920_postframe/3_restored_world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/standalone/motion_1920_postframe/4_A_LeftShift_world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/standalone/motion_1920_postframe/4_A_world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/standalone/motion_1920_postframe/4_D_LeftShift_world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/standalone/motion_1920_postframe/4_D_world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/standalone/motion_1920_postframe/4_restored_world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/standalone/motion_1920_postframe/5_A_LeftShift_world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/standalone/motion_1920_postframe/5_A_world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/standalone/motion_1920_postframe/5_D_LeftShift_world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/standalone/motion_1920_postframe/5_D_world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/PV20_review/standalone/motion_1920_postframe/5_restored_world.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/gameplay_runs/20261002_052416/gameplay_measurements.json",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/gameplay_runs/20261002_052416/gameplay_motion_probe.json",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/gameplay_runs/20261002_052416/source_manifest.json",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/gameplay_runs/20261002_054701/cleanup_state.json",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/gameplay_runs/20261002_054701/gameplay_motion_probe.json",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/gameplay_runs/20261002_054701/source_manifest.json",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/gameplay_runs/20261002_055100/before_state.json",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/gameplay_runs/20261002_055100/cleanup_state.json",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/gameplay_runs/20261002_055100/gameplay_measurements.json",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/gameplay_runs/20261002_055100/gameplay_motion_probe.json",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/gameplay_runs/20261002_055100/source_manifest.json",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/gameplay_runs/20261002_060058/before_state.json",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/gameplay_runs/20261002_060058/cleanup_state.json",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/gameplay_runs/20261002_060058/contact_off.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/gameplay_runs/20261002_060058/contact_on.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/gameplay_runs/20261002_060058/gameplay_motion_probe.json",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/gameplay_runs/20261002_060058/source_manifest.json",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/gameplay_runs/20261002_060834/before_state.json",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/gameplay_runs/20261002_060834/cleanup_state.json",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/gameplay_runs/20261002_060834/contact_off.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/gameplay_runs/20261002_060834/contact_on.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/gameplay_runs/20261002_060834/gameplay_measurements.json",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/gameplay_runs/20261002_060834/gameplay_motion_probe.json",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/gameplay_runs/20261002_060834/source_manifest.json",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/gameplay_runs/20261002_062354/before_state.json",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/gameplay_runs/20261002_062354/cleanup_state.json",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/gameplay_runs/20261002_062354/contact_off.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/gameplay_runs/20261002_062354/contact_on.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/gameplay_runs/20261002_062354/gameplay_measurements.json",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/gameplay_runs/20261002_062354/gameplay_motion_probe.json",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/gameplay_runs/20261002_062354/source_manifest.json",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Bedroom_65.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Bedroom_65.txt",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Bedroom_67.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Bedroom_67.txt",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Bedroom_70.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Bedroom_70.txt",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Bedroom_73.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Bedroom_73.txt",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Bedroom_75.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Bedroom_75.txt",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Classroom_201.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Classroom_201.txt",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Classroom_205.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Classroom_205.txt",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Classroom_210.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Classroom_210.txt",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Classroom_215.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Classroom_215.txt",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Classroom_219.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Classroom_219.txt",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassMemory.txt",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassMemory_000.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassMemory_001.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassMemory_002.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassMemory_003.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassMemory_004.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassMemory_005.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassMemory_006.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassMemory_007.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassMemory_008.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassMemory_009.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassMemory_010.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassMemory_011.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassMemory_012.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassMemory_013.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassMemory_014.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassMemory_015.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassMemory_016.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassMemory_017.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassMemory_018.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassMemory_019.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassMemory_020.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassMemory_021.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassMemory_022.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassMemory_023.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassMemory_024.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassMemory_025.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassMemory_026.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassMemory_027.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassMemory_028.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassMemory_029.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassMemory_030.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassMemory_031.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassMemory_032.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassMemory_033.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassMemory_034.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassMemory_035.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassMemory_036.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassMemory_037.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassMemory_038.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassMemory_039.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassMemory_040.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassMemory_041.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassMemory_042.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassMemory_review_0.jpg",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassMemory_review_1.jpg",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassMemory_review_2.jpg",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassOther.txt",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassOther_000.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassOther_001.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassOther_002.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassOther_003.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassOther_004.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassOther_005.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassOther_006.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassOther_007.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassOther_008.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassOther_009.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassOther_010.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassOther_011.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassOther_012.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassOther_013.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassOther_014.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassOther_015.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassOther_016.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassOther_017.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassOther_018.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassOther_019.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassOther_020.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassOther_021.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassOther_022.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassOther_023.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassOther_024.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassOther_025.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassOther_026.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassOther_027.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassOther_028.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassOther_029.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassOther_030.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassOther_031.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassOther_032.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassOther_033.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassOther_034.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassOther_035.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassOther_036.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassOther_037.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassOther_038.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassOther_039.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassOther_review_0.jpg",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2ClassOther_review_1.jpg",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond.txt",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_000.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_001.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_002.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_003.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_004.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_005.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_006.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_007.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_008.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_009.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_010.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_011.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_012.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_013.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_014.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_015.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_016.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_017.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_018.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_019.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_020.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_021.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_022.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_023.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_024.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_025.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_026.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_027.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_028.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_029.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_030.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_031.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_032.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_033.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_034.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_035.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_036.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_037.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_038.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_039.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_040.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_041.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_042.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_043.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_044.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_045.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_046.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_047.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_048.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_049.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_050.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_051.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_052.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_053.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_054.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_055.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_056.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_057.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_058.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_059.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_060.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_061.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_062.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_063.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_064.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_065.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_066.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_067.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_068.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_069.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_070.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_071.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_072.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_073.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_074.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_review_0.jpg",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_review_1.jpg",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_review_2.jpg",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Final2Pond_review_3.jpg",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/FinalBedroom.txt",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/FinalBedroom_000.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/FinalBedroom_001.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/FinalBedroom_002.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/FinalBedroom_003.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/FinalBedroom_004.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/FinalBedroom_005.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/FinalBedroom_006.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/FinalBedroom_007.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/FinalBedroom_008.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/FinalBedroom_009.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/FinalBedroom_010.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/FinalBedroom_011.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/FinalBedroom_012.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/FinalBedroom_013.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/FinalBedroom_014.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/FinalBedroom_015.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/FinalBedroom_016.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/FinalBedroom_017.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/FinalBedroom_018.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/FinalBedroom_019.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/FinalBedroom_020.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/FinalBedroom_021.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/FinalBedroom_022.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/FinalBedroom_023.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/FinalBedroom_024.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/FinalBedroom_review_0.jpg",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/FinalBedroom_review_1.jpg",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Pond_59.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Pond_59.txt",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Pond_63.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Pond_63.txt",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Pond_67.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Pond_67.txt",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Pond_72.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Pond_72.txt",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Pond_78.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Pond_78.txt",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Pond_82.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/Pond_82.txt",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/continuous-final.txt",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/continuous-slots/slot-01.json",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/matrix.txt",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Evidence/spatial_PV20/slots/slot-01.json",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/02_需求与验收台账.csv",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/02_需求与验收台账.json",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/02_需求与验收台账.md",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/10_P02人物运动制作与验收规范.md",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/11_P02动作矩阵与源图核验.json",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/14_P02人物样板问题与复测记录.md",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/R13_browser_review.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/README_R13_未验收.md",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/README_实施进度.md",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/archive_manifest.json",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/before_after.html",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/browser_playback_review.json",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/comparison_frames.json",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/gameplay_review_queue.json",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/gameplay_runs/20261002_062354/before_state.json",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/gameplay_runs/20261002_062354/cleanup_state.json",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/gameplay_runs/20261002_062354/contact_off.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/gameplay_runs/20261002_062354/contact_on.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/gameplay_runs/20261002_062354/frames/00055.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/gameplay_runs/20261002_062354/frames/00174.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/gameplay_runs/20261002_062354/frames/00514.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/gameplay_runs/20261002_062354/frames/00660.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/gameplay_runs/20261002_062354/gameplay_measurements.json",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/gameplay_runs/20261002_062354/gameplay_motion.mp4",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/gameplay_runs/20261002_062354/gameplay_motion_probe.json",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/gameplay_runs/20261002_062354/source_manifest.json",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/native_skin_import.json",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/preview.html",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/r13_review_evidence.json",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/sample_runs/20261002_031453/frames/0057_walk_2.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/sample_runs/20261002_031453/frames/0183_run_6.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/sample_runs/20261002_062231/continuous_motion.mp4",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/sample_runs/20261002_062231/frames/0026_walk_0.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/sample_runs/20261002_062231/frames/0031_walk_5.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/sample_runs/20261002_062231/frames/0032_walk_6.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/sample_runs/20261002_062231/frames/0040_walk_12.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/sample_runs/20261002_062231/frames/0048_walk_18.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/sample_runs/20261002_062231/frames/0183_run_18.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/sample_runs/20261002_062231/frames/0191_run_0.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/sample_runs/20261002_062231/frames/0199_run_6.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/sample_runs/20261002_062231/frames/0206_run_12.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/sample_runs/20261002_062231/joints/0026_walk_0_hip_knee_ankle.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/sample_runs/20261002_062231/joints/0026_walk_0_neck_shoulder_wrist.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/sample_runs/20261002_062231/joints/0032_walk_6_hip_knee_ankle.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/sample_runs/20261002_062231/joints/0032_walk_6_neck_shoulder_wrist.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/sample_runs/20261002_062231/joints/0040_walk_12_hip_knee_ankle.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/sample_runs/20261002_062231/joints/0040_walk_12_neck_shoulder_wrist.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/sample_runs/20261002_062231/joints/0048_walk_18_hip_knee_ankle.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/sample_runs/20261002_062231/joints/0048_walk_18_neck_shoulder_wrist.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/sample_runs/20261002_062231/joints/0183_run_18_hip_knee_ankle.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/sample_runs/20261002_062231/joints/0183_run_18_neck_shoulder_wrist.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/sample_runs/20261002_062231/joints/0191_run_0_hip_knee_ankle.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/sample_runs/20261002_062231/joints/0191_run_0_neck_shoulder_wrist.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/sample_runs/20261002_062231/joints/0199_run_6_hip_knee_ankle.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/sample_runs/20261002_062231/joints/0199_run_6_neck_shoulder_wrist.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/sample_runs/20261002_062231/joints/0206_run_12_hip_knee_ankle.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/sample_runs/20261002_062231/joints/0206_run_12_neck_shoulder_wrist.png",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/sample_runs/20261002_062231/motion_measurements.json",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/sample_runs/20261002_062231/sample_motion_probe.json",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/sample_source_manifest.json",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/sample_source_trace.json",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/P02Review_R13_未验收/snapshot_manifest.json",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    },
+    {
+      "status": "??",
+      "path": "Documentation/FirstLargeTest_20261001/stage_git_status.txt",
+      "reason": "Outside selected P02 source/report scope or local QA media"
+    }
+  ],
+  "local_media_git_ignored": true,
+  "summary": "Complete P02 character motion, held-item animation, and regression evidence",
+  "description": "Implement Unity 2D Animation rigs for Xiao Peng's adult outfits, childhood and youth variants, Qiu Tian, and the childhood companion across 20 directional skins and 122 state combinations.\n\nRepair joint continuity, body-facing alignment, garment proportions, foot planting and roll, running arm swing and lean, and canonical idle recovery. Add the handheld camera artwork and preserve camera/lamp draw, hold, stow, switching, transition, and restore behavior.\n\nKeep authored movement speeds, scene layouts, item acquisition, story trigger order, and companion movement rules. Fix Qiu Tian's visible-artwork binding without changing the original handover or reward flow.\n\nValidation includes three-cycle native previews, focused interaction checks, the original guitar input, segmented main-story progression, standalone builds, and cold-process restores. The final development build succeeded with 0 errors and 3 recorded warnings.\n\nKnown issues: the pre-existing hidden-bedroom exit camera limits and environmental floor seams remain outside this motion change. Archived with explicit user authorization to proceed to P03. No additional human art review is claimed.",
+  "approval_quote": "上面说错了，你帮我完成P02存档吧，我已经打开了GitHub Desktop。完成后就可以直接开始P03"
+}

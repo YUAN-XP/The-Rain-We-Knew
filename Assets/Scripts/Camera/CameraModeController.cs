@@ -28,6 +28,7 @@ public class CameraModeController : MonoBehaviour
         captureContext = value;
     }
     public bool ContextAvailable { get; set; } = true;
+    public bool CanBeginPresentation => ContextAvailable && !IsBusy && inventory != null && requiredItem != null && inventory.HasItem(requiredItem) && (captureContext == null || captureContext.CanRaise);
     public bool IsRaised { get; private set; }
     public bool IsBusy { get; private set; }
     public Camera CurrentCamera => Camera.main;
@@ -66,6 +67,8 @@ public class CameraModeController : MonoBehaviour
     private void Update()
     {
         if (IsBusy) return;
+        var motion=GetComponent<P02ToolMotion>();
+        if(motion){if(motion.CameraReady&&IsRaised&&GameplayInput.GetKeyDown(KeyCode.Space))Shoot();return;}
         // OilLampController owns R. Do not also process Q/Space on that frame.
         if (GameplayInput.GetKeyDown(KeyCode.R)) return;
         if(GameplayInput.GetKeyDown(KeyCode.Q)) { if(IsRaised) Lower(); else Raise(); }

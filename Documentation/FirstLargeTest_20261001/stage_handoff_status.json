@@ -1,0 +1,379 @@
+{
+  "created": "2026-10-04T02:08:15.784155+08:00",
+  "task": "P02 user-authorized archive preparation; P03 authorized next",
+  "version": "PV20r2",
+  "base_commit": "c6a4664fa9a810b2f4d78a7abd3d20ef53198f40",
+  "project": "D:\\GitHub Desktop\\ProjectMystery\\ProjectMystery",
+  "work": "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02",
+  "phase": "P02",
+  "phase_complete": true,
+  "human_accepted": true,
+  "commit_created": false,
+  "push_performed": false,
+  "total_requirement_count": 121,
+  "phase_counts": {
+    "P01": 8,
+    "P02": 2,
+    "P03": 13,
+    "P04": 24,
+    "P05": 26,
+    "P06": 13,
+    "P07": 31,
+    "P08": 4
+  },
+  "motion_matrix_combinations": 122,
+  "native_direction_skin_count": 20,
+  "skins": [
+    {
+      "actor": "adult_default",
+      "direction": "right",
+      "height": 1.8
+    },
+    {
+      "actor": "adult_default",
+      "direction": "left",
+      "height": 1.8
+    },
+    {
+      "actor": "adult_overalls",
+      "direction": "right",
+      "height": 1.8
+    },
+    {
+      "actor": "adult_overalls",
+      "direction": "left",
+      "height": 1.8
+    },
+    {
+      "actor": "adult_school",
+      "direction": "right",
+      "height": 1.8
+    },
+    {
+      "actor": "adult_school",
+      "direction": "left",
+      "height": 1.8
+    },
+    {
+      "actor": "child",
+      "direction": "right",
+      "height": 1.35
+    },
+    {
+      "actor": "child",
+      "direction": "left",
+      "height": 1.35
+    },
+    {
+      "actor": "qt_adult",
+      "direction": "right",
+      "height": 1.8
+    },
+    {
+      "actor": "qt_adult",
+      "direction": "left",
+      "height": 1.8
+    },
+    {
+      "actor": "boy_child",
+      "direction": "right",
+      "height": 1.46
+    },
+    {
+      "actor": "boy_child",
+      "direction": "left",
+      "height": 1.46
+    },
+    {
+      "actor": "youth",
+      "direction": "right",
+      "height": 1.72
+    },
+    {
+      "actor": "youth",
+      "direction": "left",
+      "height": 1.72
+    },
+    {
+      "actor": "child",
+      "direction": "up",
+      "height": 1.35
+    },
+    {
+      "actor": "child",
+      "direction": "down",
+      "height": 1.35
+    },
+    {
+      "actor": "child",
+      "direction": "up_left",
+      "height": 1.35
+    },
+    {
+      "actor": "child",
+      "direction": "up_right",
+      "height": 1.35
+    },
+    {
+      "actor": "child",
+      "direction": "down_left",
+      "height": 1.35
+    },
+    {
+      "actor": "child",
+      "direction": "down_right",
+      "height": 1.35
+    }
+  ],
+  "editor_end_state": "Scene01_Rain edit mode; original pause rule preserved; import workers restored to 2",
+  "fresh_opening_cleanup": {
+    "scene": "Scene01_Rain",
+    "saveDirectory": "C:\\Users\\31975\\AppData\\LocalLow\\DefaultCompany\\ProjectMystery\\Saves",
+    "expectedSaveDirectory": "C:\\Users\\31975\\AppData\\LocalLow\\DefaultCompany\\ProjectMystery\\Saves",
+    "tool": "None",
+    "testObjects": [],
+    "flags": [],
+    "replayActive": false,
+    "ownsCamera": false,
+    "ownsLamp": false,
+    "cameraRaised": false,
+    "lampRaised": false,
+    "cameraFollowEnabled": false,
+    "paused": true,
+    "originalPauseLock": true,
+    "passed": true,
+    "actualWalkSpeed": 2.200000047683716
+  },
+  "test_results": {
+    "independent_skin_count": 20,
+    "foreground": [
+      {
+        "label": "guide_handover_PV20r2_foreground_view_fixture",
+        "folder": "Documentation\\FirstLargeTest_20261001\\P02Evidence\\native_gameplay_runs\\20261004_012018_guide_handover_PV20r2_foreground_view_fixture",
+        "frames": 2458,
+        "focused": 2458,
+        "errors": [],
+        "visible_native_parts_min": 10
+      },
+      {
+        "label": "credential_right_PV20r2_foreground",
+        "folder": "Documentation\\FirstLargeTest_20261001\\P02Evidence\\native_gameplay_runs\\20261004_012231_credential_right_PV20r2_foreground",
+        "frames": 163,
+        "focused": 163,
+        "errors": [],
+        "visible_native_parts_min": 10
+      },
+      {
+        "label": "credential_left_PV20r2_foreground",
+        "folder": "Documentation\\FirstLargeTest_20261001\\P02Evidence\\native_gameplay_runs\\20261004_012308_credential_left_PV20r2_foreground",
+        "frames": 170,
+        "focused": 170,
+        "errors": [],
+        "visible_native_parts_min": 10
+      },
+      {
+        "label": "lamp_four_doors_PV20r2_foreground",
+        "folder": "Documentation\\FirstLargeTest_20261001\\P02Evidence\\native_gameplay_runs\\20261004_012443_lamp_four_doors_PV20r2_foreground",
+        "frames": 1324,
+        "focused": 1324,
+        "errors": [],
+        "visible_native_parts_min": 10
+      }
+    ],
+    "cold_direction_cases": 10,
+    "cold_reports": 20,
+    "build_errors": 0,
+    "build_warnings": 3,
+    "idle_cycles": {
+      "scope": "Independent native idle skins, original game remains paused. Three breathing cycles; no production input or scene change claim.",
+      "seconds": 16.002748489379883,
+      "frames": 319,
+      "passed": true,
+      "originalGamePaused": true,
+      "rows": [
+        {
+          "skin": "adult_default_right",
+          "cycles": 4.487668991088867,
+          "parts": 10
+        },
+        {
+          "skin": "adult_overalls_right",
+          "cycles": 4.487668991088867,
+          "parts": 10
+        },
+        {
+          "skin": "adult_overalls_left",
+          "cycles": 4.487668991088867,
+          "parts": 10
+        },
+        {
+          "skin": "adult_school_right",
+          "cycles": 4.487668991088867,
+          "parts": 10
+        },
+        {
+          "skin": "adult_school_left",
+          "cycles": 4.487668991088867,
+          "parts": 10
+        },
+        {
+          "skin": "child_right",
+          "cycles": 4.487668991088867,
+          "parts": 10
+        },
+        {
+          "skin": "child_left",
+          "cycles": 4.487668991088867,
+          "parts": 10
+        },
+        {
+          "skin": "qt_adult_right",
+          "cycles": 4.487668991088867,
+          "parts": 10
+        },
+        {
+          "skin": "qt_adult_left",
+          "cycles": 4.487668991088867,
+          "parts": 10
+        },
+        {
+          "skin": "boy_child_right",
+          "cycles": 4.487668991088867,
+          "parts": 10
+        },
+        {
+          "skin": "boy_child_left",
+          "cycles": 4.487668991088867,
+          "parts": 10
+        },
+        {
+          "skin": "youth_right",
+          "cycles": 4.487668991088867,
+          "parts": 10
+        },
+        {
+          "skin": "youth_left",
+          "cycles": 4.487668991088867,
+          "parts": 10
+        },
+        {
+          "skin": "child_up",
+          "cycles": 4.487668991088867,
+          "parts": 10
+        },
+        {
+          "skin": "child_down",
+          "cycles": 4.487668991088867,
+          "parts": 10
+        },
+        {
+          "skin": "adult_default_left",
+          "cycles": 4.487668991088867,
+          "parts": 10
+        },
+        {
+          "skin": "child_up_left",
+          "cycles": 4.487668991088867,
+          "parts": 11
+        },
+        {
+          "skin": "child_up_right",
+          "cycles": 4.487668991088867,
+          "parts": 11
+        },
+        {
+          "skin": "child_down_left",
+          "cycles": 4.487668991088867,
+          "parts": 11
+        },
+        {
+          "skin": "child_down_right",
+          "cycles": 4.487668991088867,
+          "parts": 11
+        }
+      ],
+      "recording_format": "RGBA32",
+      "video_bytes": 17637260,
+      "video_sha256": "9cbcd17cff823e42d37d425680ab2a91ca6d2d23956d334ec3d45628220dcd7a",
+      "encoded_duration_observed_seconds": 15.772967
+    }
+  },
+  "independent_build_current_version": {
+    "scope": "Opt-in isolated standalone diagnostics; original input flow is a separate test",
+    "build": "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\build_PV20\\ProjectMystery.exe",
+    "build_sha256": "a9f784d5d7e032d37a1e58e6c9c158f9ee729638be4d3079f891802c90c2f11b",
+    "reports": [
+      {
+        "file": "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\standalone_PV20r2\\eight_final\\cold-report.txt",
+        "passed": 11,
+        "failed": 0,
+        "summary": "PASS SUMMARY"
+      },
+      {
+        "file": "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\standalone_PV20r2\\eight_final\\state-report.txt",
+        "passed": 100,
+        "failed": 0,
+        "summary": "PASS SUMMARY"
+      },
+      {
+        "file": "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\standalone_PV20r2\\lamp_final\\cold-report.txt",
+        "passed": 12,
+        "failed": 0,
+        "summary": "PASS SUMMARY"
+      },
+      {
+        "file": "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\standalone_PV20r2\\lamp_final\\state-report.txt",
+        "passed": 38,
+        "failed": 0,
+        "summary": "PASS SUMMARY"
+      },
+      {
+        "file": "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\standalone_PV20r2\\motion_1920_final\\report.txt",
+        "passed": 91,
+        "failed": 0,
+        "summary": "PASS SUMMARY"
+      }
+    ],
+    "failed": 0
+  },
+  "full_natural_demo_current_version": {
+    "completed": true,
+    "continuous_same_final_version_claim": false,
+    "scope": "Segmented original-input main chain PV20/PV20r1 completed; final guide artwork binding r2 reviewed in targeted foreground fixture."
+  },
+  "visual_status": "Internal motion review complete; human art audit pending. Original hidden-room exit camera continuity not passed.",
+  "evidence": [
+    "19_P02最终候选详细报告_2026-10-04.md",
+    "18_P02证据索引与版本核对.md",
+    "stage_handoff_status.json",
+    "stage_source_hashes.json",
+    "gameplay_boundary_audit.json",
+    "stage_close_cleanup.json",
+    "P02Evidence/PV20r2_review.html",
+    "P02Evidence/idle_cycles_PV20r2/idle_cycle_report.json",
+    "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\PV20r2_foreground_validation.json",
+    "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\PV20r2_standalone_validation.json",
+    "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\PV20r2_cold_coverage_validation.json"
+  ],
+  "observations": [
+    "Original hidden-bedroom camera limits remain stale on exit; not modified by P02.",
+    "Original pond/classroom floor seams remain outside P02.",
+    "Idle cleanup ran while original GlobalPause was active; no focus bypass."
+  ],
+  "critical_visual_issues": [],
+  "implementation_and_internal_verification_complete": true,
+  "updated_at": "2026-10-04T02:34:57.934863+08:00",
+  "archive": "D:\\游戏设计\\正式美术\\06_动画\\P02_PV20r2_已授权存档",
+  "review_preview": "D:\\GitHub Desktop\\ProjectMystery\\ProjectMystery\\Documentation\\FirstLargeTest_20261001\\P02Evidence\\PV20r2_review.html",
+  "final_report": "D:\\GitHub Desktop\\ProjectMystery\\ProjectMystery\\Documentation\\FirstLargeTest_20261001\\19_P02最终候选详细报告_2026-10-04.md",
+  "current_evidence_index": "D:\\GitHub Desktop\\ProjectMystery\\ProjectMystery\\Documentation\\FirstLargeTest_20261001\\18_P02证据索引与版本核对.md",
+  "git_scope": "D:\\GitHub Desktop\\ProjectMystery\\ProjectMystery\\Documentation\\FirstLargeTest_20261001\\stage_commit_scope.json",
+  "storage_cleanup_final": {
+    "files": 93,
+    "bytes": 435876428,
+    "record": "D:\\游戏设计\\Codex工作区\\维护记录\\PV20r2_obsolete_final_media_cleanup.json"
+  },
+  "approval_basis": "Explicit user instruction to archive P02 and proceed to P03",
+  "approval_quote": "上面说错了，你帮我完成P02存档吧，我已经打开了GitHub Desktop。完成后就可以直接开始P03",
+  "approved_at": "2026-10-04T03:24:34.379737+08:00"
+}

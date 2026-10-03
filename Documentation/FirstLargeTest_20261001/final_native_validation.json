@@ -1,0 +1,82 @@
+{
+  "version": "PV20r2",
+  "scope": "Eight isolated background input reports are functional data, not foreground focus proof. Superseded offscreen handover is excluded.",
+  "background_functional": [
+    {
+      "failed": 0,
+      "label": "adult_default",
+      "folder": "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/P02Evidence/native_gameplay_runs/20261004_002324_adult_default_PV20r2_final/"
+    },
+    {
+      "failed": 0,
+      "label": "adult_overalls",
+      "folder": "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/P02Evidence/native_gameplay_runs/20261004_002410_adult_overalls_PV20r2_final/"
+    },
+    {
+      "failed": 0,
+      "label": "adult_school",
+      "folder": "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/P02Evidence/native_gameplay_runs/20261004_002456_adult_school_PV20r2_final/"
+    },
+    {
+      "failed": 0,
+      "label": "child_street",
+      "folder": "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/P02Evidence/native_gameplay_runs/20261004_002546_child_street_PV20r2_final/"
+    },
+    {
+      "failed": 0,
+      "label": "youth",
+      "folder": "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/P02Evidence/native_gameplay_runs/20261004_002618_youth_PV20r2_final/"
+    },
+    {
+      "failed": 0,
+      "label": "guide_follow_street",
+      "folder": "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/P02Evidence/native_gameplay_runs/20261004_002647_guide_follow_street_PV20r2_final/"
+    },
+    {
+      "failed": 0,
+      "label": "guide_follow_home",
+      "folder": "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/P02Evidence/native_gameplay_runs/20261004_002721_guide_follow_home_PV20r2_final/"
+    },
+    {
+      "failed": 0,
+      "label": "maze_short_eight",
+      "folder": "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/P02Evidence/native_gameplay_runs/20261004_002755_maze_short_eight_PV20r2_final/"
+    }
+  ],
+  "foreground": [
+    {
+      "label": "guide_handover_PV20r2_foreground_view_fixture",
+      "folder": "Documentation\\FirstLargeTest_20261001\\P02Evidence\\native_gameplay_runs\\20261004_012018_guide_handover_PV20r2_foreground_view_fixture",
+      "frames": 2458,
+      "focused": 2458,
+      "errors": [],
+      "visible_native_parts_min": 10
+    },
+    {
+      "label": "credential_right_PV20r2_foreground",
+      "folder": "Documentation\\FirstLargeTest_20261001\\P02Evidence\\native_gameplay_runs\\20261004_012231_credential_right_PV20r2_foreground",
+      "frames": 163,
+      "focused": 163,
+      "errors": [],
+      "visible_native_parts_min": 10
+    },
+    {
+      "label": "credential_left_PV20r2_foreground",
+      "folder": "Documentation\\FirstLargeTest_20261001\\P02Evidence\\native_gameplay_runs\\20261004_012308_credential_left_PV20r2_foreground",
+      "frames": 170,
+      "focused": 170,
+      "errors": [],
+      "visible_native_parts_min": 10
+    },
+    {
+      "label": "lamp_four_doors_PV20r2_foreground",
+      "folder": "Documentation\\FirstLargeTest_20261001\\P02Evidence\\native_gameplay_runs\\20261004_012443_lamp_four_doors_PV20r2_foreground",
+      "frames": 1324,
+      "focused": 1324,
+      "errors": [],
+      "visible_native_parts_min": 10
+    }
+  ],
+  "failed": 0,
+  "human_art_accepted": false
+}

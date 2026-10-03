@@ -1,0 +1,123 @@
+Process 28056 resolution 1920x1080; isolated saved-state QA, not natural story completion
+Requested diagnostic frame rate 15
+PASS load fixture Scene01_Rain_adult_default.json 
+PASS restore fixture 0
+Authored sprint permission 0 allowed=True unlocked=True
+Idle observation 0 D settled=True seconds=0.3350477 phase=0 lean=0 speed=0
+PASS canonical idle measured after LateUpdate 0 D
+Idle observation 0 D,LeftShift settled=True seconds=0.3350906 phase=0 lean=0 speed=0
+PASS canonical idle measured after LateUpdate 0 D,LeftShift
+Idle observation 0 A settled=True seconds=0.3350992 phase=0 lean=0 speed=0
+PASS canonical idle measured after LateUpdate 0 A
+Idle observation 0 A,LeftShift settled=True seconds=0.3346624 phase=0 lean=0 speed=3.576271E-06
+PASS canonical idle measured after LateUpdate 0 A,LeftShift
+PASS actual motion follows authored sprint permission 0 47/36 allowed=True
+PASS phase follows actual displacement 0 error=5.526775E-08
+PASS canonical idle after release 0
+PASS one visible native body 0
+PASS left-facing restored after actual movement 0
+PASS original serialized player speed retained 0 speed=2.2
+PASS save free roam 0 
+PASS load free roam 0 
+PASS saved facing remains left 0
+PASS load fixture Scene01_Rain_adult_overalls.json 
+PASS restore fixture 1
+Authored sprint permission 1 allowed=True unlocked=True
+Idle observation 1 D settled=True seconds=0.3371868 phase=0 lean=0 speed=7.152532E-06
+PASS canonical idle measured after LateUpdate 1 D
+Idle observation 1 D,LeftShift settled=True seconds=0.3351765 phase=0 lean=0 speed=0
+PASS canonical idle measured after LateUpdate 1 D,LeftShift
+Idle observation 1 A settled=True seconds=0.3351784 phase=0 lean=0 speed=0
+PASS canonical idle measured after LateUpdate 1 A
+Idle observation 1 A,LeftShift settled=True seconds=0.3345642 phase=0 lean=0 speed=0
+PASS canonical idle measured after LateUpdate 1 A,LeftShift
+PASS actual motion follows authored sprint permission 1 47/36 allowed=True
+PASS phase follows actual displacement 1 error=5.133538E-08
+PASS canonical idle after release 1
+PASS one visible native body 1
+PASS left-facing restored after actual movement 1
+PASS original serialized player speed retained 1 speed=2.2
+PASS save free roam 1 
+PASS load free roam 1 
+PASS saved facing remains left 1
+PASS load fixture Scene01_Rain_adult_school.json 
+PASS restore fixture 2
+Authored sprint permission 2 allowed=True unlocked=True
+Idle observation 2 D settled=True seconds=0.3371086 phase=0 lean=0 speed=0
+PASS canonical idle measured after LateUpdate 2 D
+Idle observation 2 D,LeftShift settled=True seconds=0.3366699 phase=0 lean=0 speed=0
+PASS canonical idle measured after LateUpdate 2 D,LeftShift
+Idle observation 2 A settled=True seconds=0.3348351 phase=0 lean=0 speed=0
+PASS canonical idle measured after LateUpdate 2 A
+Idle observation 2 A,LeftShift settled=True seconds=0.3351097 phase=0 lean=0 speed=0
+PASS canonical idle measured after LateUpdate 2 A,LeftShift
+PASS actual motion follows authored sprint permission 2 47/36 allowed=True
+PASS phase follows actual displacement 2 error=5.575055E-08
+PASS canonical idle after release 2
+PASS one visible native body 2
+PASS left-facing restored after actual movement 2
+PASS original serialized player speed retained 2 speed=2.2
+PASS save free roam 2 
+PASS load free roam 2 
+PASS saved facing remains left 2
+PASS load fixture Scene02_Courtyard_adult_default.json 
+PASS restore fixture 3
+Authored sprint permission 3 allowed=False unlocked=False
+Idle observation 3 D settled=True seconds=0.3360481 phase=0 lean=0 speed=0
+PASS canonical idle measured after LateUpdate 3 D
+Idle observation 3 D,LeftShift settled=True seconds=0.3365173 phase=0 lean=0 speed=0
+PASS canonical idle measured after LateUpdate 3 D,LeftShift
+Idle observation 3 A settled=True seconds=0.3351402 phase=0 lean=0 speed=0
+PASS canonical idle measured after LateUpdate 3 A
+Idle observation 3 A,LeftShift settled=True seconds=0.3352394 phase=0 lean=0 speed=0
+PASS canonical idle measured after LateUpdate 3 A,LeftShift
+PASS actual motion follows authored sprint permission 3 82/0 allowed=False
+PASS phase follows actual displacement 3 error=4.407333E-08
+PASS canonical idle after release 3
+PASS one visible native body 3
+PASS left-facing restored after actual movement 3
+PASS original serialized player speed retained 3 speed=2.2
+PASS save free roam 3 
+PASS load free roam 3 
+PASS saved facing remains left 3
+PASS load fixture Scene03_Childhood_child.json 
+PASS restore fixture 4
+Authored sprint permission 4 allowed=True unlocked=True
+Idle observation 4 D settled=True seconds=0.3355026 phase=0 lean=0 speed=0
+PASS canonical idle measured after LateUpdate 4 D
+Idle observation 4 D,LeftShift settled=True seconds=0.3347549 phase=0 lean=0 speed=0
+PASS canonical idle measured after LateUpdate 4 D,LeftShift
+Idle observation 4 A settled=True seconds=0.3347244 phase=0 lean=0 speed=0
+PASS canonical idle measured after LateUpdate 4 A
+Idle observation 4 A,LeftShift settled=True seconds=0.3440323 phase=0 lean=0 speed=0
+PASS canonical idle measured after LateUpdate 4 A,LeftShift
+PASS actual motion follows authored sprint permission 4 47/36 allowed=True
+PASS phase follows actual displacement 4 error=5.561789E-08
+PASS canonical idle after release 4
+PASS one visible native body 4
+PASS left-facing restored after actual movement 4
+PASS original serialized player speed retained 4 speed=1.9
+PASS save free roam 4 
+PASS load free roam 4 
+PASS saved facing remains left 4
+PASS load fixture Scene04_School_youth.json 
+PASS restore fixture 5
+Authored sprint permission 5 allowed=True unlocked=True
+Idle observation 5 D settled=True seconds=0.3365936 phase=0 lean=0 speed=0
+PASS canonical idle measured after LateUpdate 5 D
+Idle observation 5 D,LeftShift settled=True seconds=0.3379288 phase=0 lean=0 speed=0
+PASS canonical idle measured after LateUpdate 5 D,LeftShift
+Idle observation 5 A settled=True seconds=0.6008606 phase=0 lean=0 speed=0
+PASS canonical idle measured after LateUpdate 5 A
+Idle observation 5 A,LeftShift settled=True seconds=0.3348541 phase=0 lean=0 speed=0
+PASS canonical idle measured after LateUpdate 5 A,LeftShift
+PASS actual motion follows authored sprint permission 5 47/36 allowed=True
+PASS phase follows actual displacement 5 error=5.835395E-08
+PASS canonical idle after release 5
+PASS one visible native body 5
+PASS left-facing restored after actual movement 5
+PASS original serialized player speed retained 5 speed=2.15
+PASS save free roam 5 
+PASS load free roam 5 
+PASS saved facing remains left 5
+PASS SUMMARY

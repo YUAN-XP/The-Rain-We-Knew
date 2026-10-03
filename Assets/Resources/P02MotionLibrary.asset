@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa00c25a736db004297373e152db07a9, type: 3}
+  m_Name: P02MotionLibrary
+  m_EditorClassIdentifier: Assembly-CSharp::P02MotionLibrary
+  entries:
+  - actor: adult_default
+    direction: right
+    rig: {fileID: 11400000, guid: 915b2f94201812d4e82442930a91be93, type: 2}
+  - actor: adult_overalls
+    direction: right
+    rig: {fileID: 11400000, guid: c3f87464d259d5141b84f104ea33d141, type: 2}
+  - actor: adult_overalls
+    direction: left
+    rig: {fileID: 11400000, guid: e24b588f0c59b6d409f5b175a17bc156, type: 2}
+  - actor: adult_school
+    direction: right
+    rig: {fileID: 11400000, guid: 13b25ea95787f564cb7ca3160a3879b3, type: 2}
+  - actor: adult_school
+    direction: left
+    rig: {fileID: 11400000, guid: caf448a965529094ba52d4b36cdb452e, type: 2}
+  - actor: child
+    direction: right
+    rig: {fileID: 11400000, guid: 9599863d104d0734e9d11aba736f658b, type: 2}
+  - actor: child
+    direction: left
+    rig: {fileID: 11400000, guid: d6a758a5db8764c41bbae86c533f8b8b, type: 2}
+  - actor: qt_adult
+    direction: right
+    rig: {fileID: 11400000, guid: 3929e60effcf4df4e9529dc6c3d25c24, type: 2}
+  - actor: qt_adult
+    direction: left
+    rig: {fileID: 11400000, guid: 5e637cd8593d68e428bfabf125a48328, type: 2}
+  - actor: boy_child
+    direction: right
+    rig: {fileID: 11400000, guid: f658122ce687b2940a66baa0e24076e6, type: 2}
+  - actor: boy_child
+    direction: left
+    rig: {fileID: 11400000, guid: 6c2b380d029f26d4d84d1c0bf97a5556, type: 2}
+  - actor: youth
+    direction: right
+    rig: {fileID: 11400000, guid: 308f375268fffc3458de746008c71f57, type: 2}
+  - actor: youth
+    direction: left
+    rig: {fileID: 11400000, guid: 91a5d2325349fb743a1d3df1901cdd94, type: 2}
+  - actor: child
+    direction: up
+    rig: {fileID: 11400000, guid: 088a808ecd0cd38448f1aa00f00b2722, type: 2}
+  - actor: child
+    direction: down
+    rig: {fileID: 11400000, guid: 7d1a80d24d4f5cc46b932a0a05067f26, type: 2}
+  - actor: adult_default
+    direction: left
+    rig: {fileID: 11400000, guid: ea4a1f0b16abafe41828bd130fcc1ecb, type: 2}
+  - actor: child
+    direction: up_left
+    rig: {fileID: 11400000, guid: dc429b9852afe744cb271f4f4ccf0e0a, type: 2}
+  - actor: child
+    direction: up_right
+    rig: {fileID: 11400000, guid: aca0d655075ffbf429cc36434ef45a65, type: 2}
+  - actor: child
+    direction: down_left
+    rig: {fileID: 11400000, guid: 0f83daf28c784fe438fd9f106f5f9368, type: 2}
+  - actor: child
+    direction: down_right
+    rig: {fileID: 11400000, guid: 142f6e12093868945969d3091bceeefe, type: 2}

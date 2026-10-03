@@ -1,8 +1,16 @@
+> 2026年10月4日存档更新：用户已明确授权P02提交存档及开始P03。下文保留制作和审计时的历史状态；最新提交与上传结果见Git历史及21号存档记录。没有追加未实际进行的人工审美检查。
+
 # 第一轮大型测试实施进度
 
-更新日期：2026-10-01。正式工程：D:\GitHub Desktop\ProjectMystery\ProjectMystery。实施基线为 main 的 f67cba7d7d1ecfc1459390208c8886db455f8d2c。修改保留在本地，用户负责 GitHub Desktop 提交与上传；本阶段尚未提交。
+## 2026年10月4日最终候选
 
-**P01 计划内基础系统与三样板阶段已完成验证，待用户人工验收及 GitHub 存档。** P02 尚未开始。完整结论、测试边界和提交说明见 07_P01阶段验收与人工存档.md；本结论不代表后续阶段的全部美术与新增内容已完成。
+当前为PV20身体、PV20r1持物修复、PV20r2可见邱天绑定。P02制作和本轮内部检查完成，等待用户人工美术审计；未提交或上传。最新结果与限制见 [19号详细报告](<D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/19_P02最终候选详细报告_2026-10-04.md>)。以下R13/PV16内容按其日期作为历史；规范继续适用，不能当成当前完成状态。
+
+
+
+更新日期：2026-10-04。正式工程：D:\GitHub Desktop\ProjectMystery\ProjectMystery。当前基线为 main 的 c6a4664fa9a810b2f4d78a7abd3d20ef53198f40，提交标题 Complete P01 interaction, save system, and spatial regression checks。用户确认已上传留档；本地origin/main与HEAD一致，本轮未重新发起远端认证。P02尚未提交。
+
+**P01基础系统与三样板阶段已留档；P02人物制作和本轮内部动作检查已完成，待人工审计。** 原镜头与环境接缝未作为P02修复，限制见19号报告；不代表全Demo完成。
 
 ## 已落地
 
@@ -45,3 +53,9 @@
 ## 防止回退
 
 读取 03_执行与防回退规范.md 与 06_P01空间参数与防回退卡.md 后再修改样板。不要重跑旧整场重建脚本，不要运行会重置 121 项台账的 build_audit.py。保留原文、原需求编号及后续阶段归属。
+
+## P02 当前结果
+
+Unity 2D Animation已完成20方向及122组合候选，修复结构、比例、方向、走跑/停止、持物和同伴交接，并完成适用原输入、独立构建及冷存读。完整结果见 [19号详细报告](<D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/19_P02最终候选详细报告_2026-10-04.md>)，预览见 [最终预览](<D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/P02Evidence/PV20r2_review.html>)。
+
+用户人工美术审计、批准后的GitHub留档尚未进行。原隐蔽卧室退出镜头及环境接缝未修；P04新返街玩法及后续阶段保留。所有新增输出放D。不要重跑旧整场重建或台账重置脚本。

@@ -1,0 +1,74 @@
+PASS fixture Scene02_Courtyard: 
+PASS fixture settled
+PASS BedroomExit transition forbids save
+PASS BedroomExit fade and position freeze together
+PASS BedroomExit placement occurs under opaque curtain
+PASS BedroomExit already grounded at curtain completion
+PASS BedroomExit no visible landing drop after arrival
+PASS BedroomExit control released
+PASS BedroomExit exactly one animated native body after transition
+PASS BedroomEnter transition forbids save
+PASS BedroomEnter placement occurs under opaque curtain
+PASS BedroomEnter already grounded at curtain completion
+PASS BedroomEnter no visible landing drop after arrival
+PASS BedroomEnter control released
+PASS BedroomEnter exactly one animated native body after transition
+PASS fixture Scene02_Courtyard: 
+PASS fixture settled
+PASS StairsUp transition forbids save
+PASS StairsUp fade and position freeze together
+PASS StairsUp placement occurs under opaque curtain
+PASS StairsUp already grounded at curtain completion
+PASS StairsUp no visible landing drop after arrival
+PASS StairsUp control released
+PASS StairsUp exactly one animated native body after transition
+PASS StairsDown transition forbids save
+PASS StairsDown placement occurs under opaque curtain
+PASS StairsDown already grounded at curtain completion
+PASS StairsDown no visible landing drop after arrival
+PASS StairsDown control released
+PASS StairsDown exactly one animated native body after transition
+PASS fixture Scene04_School: 
+PASS fixture settled
+PASS otherworld classroom preserves its single open rear door
+PASS blocked classroom front door cannot transition
+PASS ClassExit_Class3_2_Back_BtoA transition forbids save
+PASS ClassExit_Class3_2_Back_BtoA placement occurs under opaque curtain
+PASS ClassExit_Class3_2_Back_BtoA already grounded at curtain completion
+PASS ClassExit_Class3_2_Back_BtoA no visible landing drop after arrival
+PASS ClassExit_Class3_2_Back_BtoA control released
+PASS ClassExit_Class3_2_Back_BtoA exactly one animated native body after transition
+PASS ClassEnter_Class3_2_Back_AtoB transition forbids save
+PASS ClassEnter_Class3_2_Back_AtoB placement occurs under opaque curtain
+PASS ClassEnter_Class3_2_Back_AtoB already grounded at curtain completion
+PASS ClassEnter_Class3_2_Back_AtoB no visible landing drop after arrival
+PASS ClassEnter_Class3_2_Back_AtoB control released
+PASS ClassEnter_Class3_2_Back_AtoB exactly one animated native body after transition
+PASS fixture Scene04_School: 
+PASS fixture settled
+PASS memory classroom has both authored doors open
+PASS MemoryExit_Class3_2_Back_BtoA transition forbids save
+PASS MemoryExit_Class3_2_Back_BtoA placement occurs under opaque curtain
+PASS MemoryExit_Class3_2_Back_BtoA already grounded at curtain completion
+PASS MemoryExit_Class3_2_Back_BtoA no visible landing drop after arrival
+PASS MemoryExit_Class3_2_Back_BtoA control released
+PASS MemoryExit_Class3_2_Back_BtoA exactly one animated native body after transition
+PASS MemoryEnter_Class3_2_Back_AtoB transition forbids save
+PASS MemoryEnter_Class3_2_Back_AtoB placement occurs under opaque curtain
+PASS MemoryEnter_Class3_2_Back_AtoB already grounded at curtain completion
+PASS MemoryEnter_Class3_2_Back_AtoB no visible landing drop after arrival
+PASS MemoryEnter_Class3_2_Back_AtoB control released
+PASS MemoryEnter_Class3_2_Back_AtoB exactly one animated native body after transition
+PASS MemoryExit_Class3_2_Front_BtoA transition forbids save
+PASS MemoryExit_Class3_2_Front_BtoA placement occurs under opaque curtain
+PASS MemoryExit_Class3_2_Front_BtoA already grounded at curtain completion
+PASS MemoryExit_Class3_2_Front_BtoA no visible landing drop after arrival
+PASS MemoryExit_Class3_2_Front_BtoA control released
+PASS MemoryExit_Class3_2_Front_BtoA exactly one animated native body after transition
+PASS MemoryEnter_Class3_2_Front_AtoB transition forbids save
+PASS MemoryEnter_Class3_2_Front_AtoB placement occurs under opaque curtain
+PASS MemoryEnter_Class3_2_Front_AtoB already grounded at curtain completion
+PASS MemoryEnter_Class3_2_Front_AtoB no visible landing drop after arrival
+PASS MemoryEnter_Class3_2_Front_AtoB control released
+PASS MemoryEnter_Class3_2_Front_AtoB exactly one animated native body after transition
+PASS SUMMARY diagnostic interaction calls, not native keyboard play
