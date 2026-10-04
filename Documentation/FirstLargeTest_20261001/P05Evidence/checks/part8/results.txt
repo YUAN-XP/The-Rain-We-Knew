@@ -1,0 +1,87 @@
+PASS original E dialogue and transaction finished
+PASS settled starting
+PASS original Scene01 has no automatic movement
+PASS original start has no unearned tools
+PASS original isolated save loader 
+PASS settled isolated loader Scene04_School StaffOffice
+PASS load succeeds 
+PASS original E dialogue and transaction finished
+PASS actor on actual collider floor
+PASS settled isolated loader Scene04_School StaffOffice
+PASS original E dialogue and transaction finished
+PASS original office exit starts adult chase after handover
+PASS chase remains unsaveable
+PASS settled isolated loader Scene04_School StaffOffice
+PASS settled 80_OriginalChaseOpening
+PASS original Q camera preview opens
+PASS continuous NPC meshes hidden at rendered camera-preview frame: 
+PASS settled 80_OriginalChaseOpening
+PASS original Space capture commits world Otherworld refusal=
+PASS camera switching stays on actual floor
+PASS native sprint reaches 70
+PASS native route displacement matches speed and elapsed frame time 70 max delta=0.03604126 excess=0
+PASS settled original gateway Stair_F03_Roof_Right_AtoB
+PASS grounded arrival Stair_F03_Roof_Right_AtoB
+PASS original chase route enters actual roof
+PASS native sprint reaches 16
+PASS native route displacement matches speed and elapsed frame time 16 max delta=0.06672478 excess=0
+PASS original right-to-left roof crossing recorded by native sprint
+PASS settled original sprint route to 16
+PASS settled original gateway Stair_F03_Roof_Left_BtoA
+PASS grounded arrival Stair_F03_Roof_Left_BtoA
+PASS original roof left exit advances route
+PASS settled original gateway Stair_F03_Roof_Left_BtoA
+PASS original Q camera preview opens
+PASS continuous NPC meshes hidden at rendered camera-preview frame: 
+PASS settled original gateway Stair_F03_Roof_Left_BtoA
+PASS original Space capture commits world Memory refusal=
+PASS camera switching stays on actual floor
+PASS native sprint reaches 4
+PASS native route displacement matches speed and elapsed frame time 4 max delta=0.1297226 excess=0
+PASS settled original gateway Stair_F02_F03_Left_BtoA
+PASS grounded arrival Stair_F02_F03_Left_BtoA
+PASS original second-floor route advances
+PASS settled original gateway Stair_F02_F03_Left_BtoA
+PASS original Q camera preview opens
+PASS continuous NPC meshes hidden at rendered camera-preview frame: 
+PASS settled original gateway Stair_F02_F03_Left_BtoA
+PASS original Space capture commits world Otherworld refusal=
+PASS camera switching stays on actual floor
+PASS settled original sprint route to 27
+PASS original Q camera preview opens
+PASS continuous NPC meshes hidden at rendered camera-preview frame: 
+PASS settled original sprint route to 27
+PASS original Space capture commits world Memory refusal=
+PASS camera switching stays on actual floor
+PASS settled original sprint route to 27
+PASS original Q camera preview opens
+PASS continuous NPC meshes hidden at rendered camera-preview frame: 
+PASS settled original sprint route to 27
+PASS original Space capture commits world Otherworld refusal=
+PASS camera switching stays on actual floor
+PASS native sprint reaches 27
+PASS native route displacement matches speed and elapsed frame time 27 max delta=0.05438042 excess=0
+PASS settled original gateway Stair_F01_F02_Right_BtoA
+PASS grounded arrival Stair_F01_F02_Right_BtoA
+PASS native sprint reaches 44
+PASS native route displacement matches speed and elapsed frame time 44 max delta=0.06256104 excess=0
+PASS original security code panel opens during chase
+PASS incorrect original code rejected
+PASS original 4268 permits security entry
+PASS settled original sprint route to 44
+PASS chase arrives original security room
+PASS settled original sprint route to 44
+PASS original oil pickup opens combination tutorial
+PASS original Tab inventory opens for oil tutorial
+PASS original oil recipe completes 小油灯
+PASS settled 82_ChaseSecurityArrival
+PASS original E dialogue and transaction finished
+PASS original final charge completes chase and restores lamp
+PASS settled 82_ChaseSecurityArrival
+PASS settled 83_ChaseCompleted
+PASS save free movement 
+PASS reload 84_ChaseCompletionReload 
+PASS settled 83_ChaseCompleted
+PASS restored 84_ChaseCompletionReload
+PASS restored position 84_ChaseCompletionReload
+PASS settled 83_ChaseCompleted

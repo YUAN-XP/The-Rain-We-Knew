@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using TMPro;
 using UnityEngine;
@@ -98,7 +98,7 @@ public class PencilDeskCloseup : MonoBehaviour
         RuntimePanelUI.Panel("DeskShadow", root, new Vector2(.117f, .205f), new Vector2(.897f, .812f), new Color(.025f, .022f, .02f));
         desktop = RuntimePanelUI.Panel("WornWoodDesktop", root, new Vector2(.11f, .22f), new Vector2(.89f, .83f), new Color(.48f, .34f, .215f)).rectTransform;
         desktop.gameObject.AddComponent<RectMask2D>();
-        var art = RuntimePanelUI.Rect("WoodgrainAndFaintMarks", desktop, Vector2.zero, Vector2.one).gameObject.AddComponent<PencilDeskSurfaceGraphic>();
+        var art = P05ArtworkUI.Paint(desktop, "PaintedWoodDesktop", "P05_Desk", Vector2.zero, Vector2.one, false);
         art.raycastTarget = false;
         writingSurface = RuntimePanelUI.Rect("EngravingSurface", desktop, new Vector2(.5f, .5f), new Vector2(.5f, .5f));
         writingSurface.sizeDelta = new Vector2(Width, Height);
@@ -294,8 +294,7 @@ public class PencilDeskCloseup : MonoBehaviour
     IEnumerator ShowNameThenGrab()
     {
         yield return GameplayClock.Wait(readableNameHold);
-        if (DemoArtCatalog.Current != null) yield return DemoComicSequence.For(gameObject).DeskGrab();
-        else for (float time = 0; time < grabbingDuration; time += GameplayClock.Delta)
+        for (float time = 0; time < grabbingDuration; time += GameplayClock.Delta)
         {
             hands.GrabProgress = Mathf.SmoothStep(0, 1, time / grabbingDuration);
             yield return null;

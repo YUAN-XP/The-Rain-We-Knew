@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using TMPro;
 using UnityEngine;
@@ -180,12 +180,12 @@ public sealed class SchoolYouthController : MonoBehaviour
         if (modal != null && GameplayInput.GetKeyDown(KeyCode.Escape)) EndModal();
         if (Busy || school.SecurityPanelOpen || Controls.IsLocked() || Dialogue.DidDialogueEndThisFrame()) return;
         SaveSessionPosition();
-        if (school.layout.CurrentRoom == "Floor02" && Controls.ActivePlayer.transform.position.x > 41
-            && Controls.ActivePlayer.transform.position.x < 51)
+        if (school.layout.CurrentRoom == "Floor02" && Controls.ActivePlayer.transform.position.x > 17.5f
+            && Controls.ActivePlayer.transform.position.x < 22.5f)
             OnceNotice(StoryFlag.SchoolCrowdSeen, "太多人把路口堵住了，不知道在说些什么，过不去");
         if (school.layout.CurrentRoom == "EquipmentRoom" && !Story.Has(StoryFlag.SchoolEquipmentRecalled))
             Run(OnceDialogue(Story.Has(StoryFlag.SchoolMediaPasswordChanged) ? equipmentRecallAfterPassword : equipmentRecall, StoryFlag.SchoolEquipmentRecalled));
-        if (school.layout.CurrentRoom == "Floor01" && Controls.ActivePlayer.transform.position.x >= 77
+        if (school.layout.CurrentRoom == "Floor01" && Controls.ActivePlayer.transform.position.x >= 38+P05SchoolCoordinates.Local("Floor01",77)
             && Story.Has(StoryFlag.SchoolToiletHeard) && !Story.Has(StoryFlag.SchoolCourtHintSeen))
         {
             Story.Set(StoryFlag.SchoolCourtHintSeen);
@@ -201,7 +201,7 @@ public sealed class SchoolYouthController : MonoBehaviour
         var point = (Vector2)Controls.ActivePlayer.transform.position - room.origin;
         // Save only an actually occupied, safe room point. No transient teleport/fade frame is sampled.
         if (point.x < .6f || point.x > room.width - .6f || point.y < .4f || point.y > 3f) return;
-        var camera = FindAnyObjectByType<CameraFollow>();
+        var camera = Camera.main?Camera.main.GetComponent<CameraFollow>():null;
         Story.RememberSchoolPosition(room.id, point, camera != null ? camera.Facing : 1);
     }
 
@@ -216,7 +216,7 @@ public sealed class SchoolYouthController : MonoBehaviour
         var body = player.GetComponent<Rigidbody2D>();
         if (body != null) { body.position = point; body.linearVelocity = Vector2.zero; }
         school.layout.EnterRoom(room.id);
-        var camera = FindAnyObjectByType<CameraFollow>();
+        var camera = Camera.main?Camera.main.GetComponent<CameraFollow>():null;
         if (camera != null) { camera.SetFacing(Story.SchoolFacing); camera.SnapToTarget(); }
         if (Story.Has(StoryFlag.SchoolEvidenceObtained) && !Story.Has(StoryFlag.SchoolEvidenceSubmitted) && Inventory.HasItem(usbItem))
             Inventory.SetRuntimePresentation(usbItem, "U盘（监控）", "已拷入用于举报的监控视频");

@@ -1,0 +1,36 @@
+PASS original E dialogue and transaction finished
+PASS settled starting
+PASS original Scene01 has no automatic movement
+PASS original start has no unearned tools
+PASS original isolated save loader 
+PASS settled isolated loader Scene04_School Roof
+PASS load succeeds 
+PASS original E dialogue and transaction finished
+PASS actor on actual collider floor
+PASS settled isolated loader Scene04_School Roof
+PASS actual roof exit visible and grounded Otherworld Stair_F03_Roof_Left_BtoA
+PASS settled isolated loader Scene04_School Roof
+PASS actual roof exit visible and grounded Otherworld Stair_F03_Roof_Right_BtoA
+PASS settled Otherworld_Stair_F03_Roof_Left_BtoA
+PASS continuous position reached 40
+PASS no teleport on walking path 40 max frame delta=0.01328659
+PASS settled continuous native walk to 40
+PASS continuous position reached 70
+PASS no teleport on walking path 70 max frame delta=0.01441956
+PASS no misleading central roof access Otherworld
+PASS original isolated save loader 
+PASS settled isolated loader Scene04_School Roof
+PASS load succeeds 
+PASS original E dialogue and transaction finished
+PASS actor on actual collider floor
+PASS settled isolated loader Scene04_School Roof
+PASS actual roof exit visible and grounded Memory Stair_F03_Roof_Left_BtoA
+PASS settled isolated loader Scene04_School Roof
+PASS actual roof exit visible and grounded Memory Stair_F03_Roof_Right_BtoA
+PASS settled Memory_Stair_F03_Roof_Left_BtoA
+PASS continuous position reached 40
+PASS no teleport on walking path 40 max frame delta=0.01706696
+PASS settled continuous native walk to 40
+PASS continuous position reached 70
+PASS no teleport on walking path 70 max frame delta=0.01885605
+PASS no misleading central roof access Memory

@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class PersistentRuntime : MonoBehaviour
@@ -42,6 +42,7 @@ public class PersistentRuntime : MonoBehaviour
         Scene scene,
         LoadSceneMode mode)
     {
+        if(P05WorldLink.IsPreloading(scene))return;
         ScenePlayerBinding binding = null;
         foreach (var root in scene.GetRootGameObjects())
         {

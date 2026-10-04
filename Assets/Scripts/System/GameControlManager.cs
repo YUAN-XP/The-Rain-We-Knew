@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -83,6 +83,7 @@ public class GameControlManager : MonoBehaviour
         Scene scene,
         LoadSceneMode mode)
     {
+        if(P05WorldLink.IsPreloading(scene))return;
         FindCurrentCamera();
 
         ApplyControlState();
@@ -91,7 +92,7 @@ public class GameControlManager : MonoBehaviour
     private void FindCurrentCamera()
     {
         cameraFollow =
-            FindAnyObjectByType<CameraFollow>();
+            Camera.main?Camera.main.GetComponent<CameraFollow>():null;
 
         if (cameraFollow == null)
         {

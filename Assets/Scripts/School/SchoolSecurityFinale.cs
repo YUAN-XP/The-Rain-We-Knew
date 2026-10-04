@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
@@ -130,6 +130,7 @@ public sealed partial class SchoolChaseController : IInventoryAccessPolicy
         if(Step==SchoolChaseStep.Exploring&&Story.Has(StoryFlag.SchoolChaseCompleted))
             session.CompletedResume=SchoolChaseCheckpoint.Capture(school,SchoolCheckpointReason.Security,SchoolChaseRoute.Completed);
     }
+    public void TryBeginWalkingReturn(){BeginHomeReturn();}
     void BeginHomeReturn()
     {
         if(Step!=SchoolChaseStep.Exploring||Controls.IsLocked()||!Story.Has(StoryFlag.SchoolChaseCompleted)||Layout.CurrentRoom!="Floor01")return;
@@ -138,7 +139,8 @@ public sealed partial class SchoolChaseController : IInventoryAccessPolicy
         var cp=SchoolChaseCheckpoint.Capture(school,SchoolCheckpointReason.FogReturn,SchoolChaseRoute.Completed);if(cp==null)return;
         session.Store(cp);session.AdvanceGeneration();session.PendingReturnFog=true;session.PendingHomeArrival=false;
         cameraTool.AbortCapture();cameraTool.SetCaptureContext(null);ClearEnemy();
-        if(WhiteSceneTransition.Begin(homeData.homeScene,Controls))Step=SchoolChaseStep.FogReturn;
+        if(P05WorldLink.Available&&P05WorldLink.Owner.BeginReturn())Step=SchoolChaseStep.FogReturn;
+        else if(WhiteSceneTransition.Begin(homeData.homeScene,Controls))Step=SchoolChaseStep.FogReturn;
         else session.PendingReturnFog=false;
     }
 }

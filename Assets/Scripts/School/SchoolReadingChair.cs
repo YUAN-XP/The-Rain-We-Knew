@@ -41,7 +41,7 @@ public class SchoolReadingChair : MonoBehaviour
             || flow.Dialogue.IsDialogueActive() || flow.Dialogue.DidDialogueEndThisFrame()) return;
         player = controls.ActivePlayer;
         layout = FindAnyObjectByType<SchoolLayoutController>();
-        follow = FindAnyObjectByType<CameraFollow>();
+        follow = Camera.main?Camera.main.GetComponent<CameraFollow>():null;
         view = follow != null ? follow.GetComponent<Camera>() : null;
         if (player == null || layout == null || follow == null || view == null || !view.orthographic
             || seat == null || flow.font == null)
@@ -72,13 +72,14 @@ public class SchoolReadingChair : MonoBehaviour
         openedFrame = Time.frameCount;
         if (body != null) { body.linearVelocity = Vector2.zero; body.simulated = false; }
         player.transform.position = seat.position;
-        // Placeholder seated pose only; no adult outfit component or permanent scale change.
-        player.transform.localScale = new Vector3(originalScale.x, originalScale.y * .82f, originalScale.z);
+        // Painted seated pose matches the bench seat and floor; restore the original actor on exit.
+        player.GetComponent<P02ActorPresentation>()?.SetStaticPose(true);
+        player.GetComponent<DemoActorArtwork>()?.SetPose("P05_YouthSeated",1.18f,-.21f);
         follow.enabled = false;
         view.orthographicSize = Mathf.Max(originalSize, wideSize);
         var room = layout.data != null ? layout.data.Room(roomId) : null;
-        float centerX = room != null ? room.origin.x + room.width * .5f : seat.position.x;
-        float centerY = room != null ? room.CameraY : cameraPosition.y;
+        float centerX = seat.position.x+1.3f;
+        float centerY = room != null ? room.origin.y+1.6f : cameraPosition.y;
         view.transform.position = new Vector3(centerX, centerY, cameraPosition.z);
         Physics2D.SyncTransforms();
         BuildUI();
@@ -112,9 +113,11 @@ public class SchoolReadingChair : MonoBehaviour
         if (music != null) music.Stop();
         bool restoreWorld = snapshotValid && player != null && layout != null && follow != null && view != null
             && flow != null && flow.IsYouthMemory && controls != null && controls.ActivePlayer == player
-            && layout.gameObject.scene == gameObject.scene && view.gameObject.scene == gameObject.scene;
+            && layout.gameObject.scene == gameObject.scene;
         if (snapshotValid && player != null)
         {
+            player.GetComponent<DemoActorArtwork>()?.SetPose(null);
+            player.GetComponent<P02ActorPresentation>()?.SetStaticPose(false);
             player.transform.localScale = originalScale;
             player.transform.rotation = originalRotation;
             if (restoreWorld)

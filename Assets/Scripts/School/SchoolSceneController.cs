@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -60,6 +60,7 @@ public sealed class SchoolSceneController : MonoBehaviour
     public DialogueManager Dialogue { get; private set; }
     public bool Ready { get; private set; }
     public bool Busy => busy || (youthFlow != null && youthFlow.Busy) || (basketball != null && basketball.IsOpen) || (desk != null && desk.IsOpen) || modal != null;
+    public bool ModalOpen => modal != null;
     public bool SecurityPanelOpen => modal != null && securityDigits != null;
     public string SecurityEnteredCode { get { if (securityDigits == null) return ""; string s = ""; foreach (var d in securityDigits) s += d.Value.ToString(); return s; } }
 
@@ -351,15 +352,8 @@ public sealed class SchoolSceneController : MonoBehaviour
     IEnumerator WindowView()
     {
         OpenModal("安保室窗内");
-        // Literal window framing and visible oil jar; no item object/collider or pickup button in this UI.
-        var room = RuntimePanelUI.Panel("窗内房间", modal.transform, new Vector2(.12f, .24f), new Vector2(.88f, .82f), new Color(.15f, .19f, .18f));
-        RuntimePanelUI.Panel("桌面", room.transform, new Vector2(.13f, .20f), new Vector2(.87f, .29f), new Color(.37f, .28f, .19f));
-        RuntimePanelUI.Panel("异常监控外框", room.transform, new Vector2(.16f, .30f), new Vector2(.52f, .74f), new Color(.09f, .10f, .10f));
-        for (int i = 0; i < 6; i++) RuntimePanelUI.Panel("监控杂讯", room.transform, new Vector2(.18f, .35f + i * .052f), new Vector2(.50f, .36f + i * .052f), new Color(.30f, .34f, .29f), false);
-        RuntimePanelUI.Panel("灯油壶", room.transform, new Vector2(.63f, .30f), new Vector2(.76f, .56f), new Color(.65f, .48f, .20f));
-        RuntimePanelUI.Panel("壶口", room.transform, new Vector2(.66f, .55f), new Vector2(.73f, .62f), new Color(.37f, .32f, .22f));
-        RuntimePanelUI.Text("灯油", room.transform, font, new Vector2(.62f, .32f), new Vector2(.78f, .53f), 22);
-        foreach (float x in new[] { .32f, .64f }) RuntimePanelUI.Panel("窗栅", room.transform, new Vector2(x, 0), new Vector2(x + .025f, 1), new Color(.055f, .06f, .06f));
+        var room=P05ArtworkUI.Paint(modal.transform,"PaintedInsideSecurity","P05_Security",new Vector2(.12f,.24f),new Vector2(.88f,.82f));
+        P05ArtworkUI.Paint(room.transform,"VisibleOilJar","P05_OilJar",new Vector2(.46f,.31f),new Vector2(.59f,.55f));
         if (securityWindowDialogue != null && securityWindowDialogue.lines != null && securityWindowDialogue.lines.Length > 0)
             RuntimePanelUI.Text(securityWindowDialogue.lines[0].text, modal.transform, font, new Vector2(.08f, .055f), new Vector2(.92f, .21f), 27);
         yield return null;

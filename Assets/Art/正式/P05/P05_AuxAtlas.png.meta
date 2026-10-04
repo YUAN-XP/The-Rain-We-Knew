@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: f1daf73a86df17843a47584b2c26dd8f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8892204795271821074
+    second: P05_AuxAtlas_0
+  - first:
+      213: 6456454426180687655
+    second: P05_AuxAtlas_1
+  - first:
+      213: 2857861132475249090
+    second: P05_AuxAtlas_2
+  - first:
+      213: 1767161739325843050
+    second: P05_AuxAtlas_3
+  - first:
+      213: 3989554390455509968
+    second: P05_AuxAtlas_4
+  - first:
+      213: -7761797845070670555
+    second: P05_AuxAtlas_5
+  - first:
+      213: 3788805146768680503
+    second: P05_AuxAtlas_6
+  - first:
+      213: -7161844955511838059
+    second: P05_AuxAtlas_7
+  - first:
+      213: -6824549395906269859
+    second: P05_AuxAtlas_8
+  - first:
+      213: 2584151524235917084
+    second: P05_AuxAtlas_9
+  - first:
+      213: 5626358790577714931
+    second: P05_AuxAtlas_10
+  - first:
+      213: -746301870615173987
+    second: P05_AuxAtlas_11
+  - first:
+      213: -3086937443162508023
+    second: P05_AuxAtlas_12
+  - first:
+      213: 426383242198957316
+    second: P05_AuxAtlas_13
+  - first:
+      213: 7374224801800274976
+    second: P05_AuxAtlas_14
+  - first:
+      213: 1233430793570120846
+    second: P05_AuxAtlas_15
+  - first:
+      213: 3292453702573436826
+    second: P05_AuxAtlas_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: P05_AuxAtlas_0
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 877
+        width: 365
+        height: 651
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee84cc30ada889480800000000000000
+      internalID: -8892204795271821074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P05_AuxAtlas_1
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1527
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7279ff4c71fe99950800000000000000
+      internalID: 6456454426180687655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P05_AuxAtlas_2
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1496
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c13592fe8929a720800000000000000
+      internalID: 2857861132475249090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P05_AuxAtlas_3
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 946
+        width: 511
+        height: 568
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a66ad253d38368810800000000000000
+      internalID: 1767161739325843050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P05_AuxAtlas_4
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 1135
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d3633f949ebd5730800000000000000
+      internalID: 3989554390455509968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P05_AuxAtlas_5
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 971
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5259b22dbfd884490800000000000000
+      internalID: -7761797845070670555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P05_AuxAtlas_6
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 968
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 736a150053a849430800000000000000
+      internalID: 3788805146768680503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P05_AuxAtlas_7
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 959
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59a2b4245f30c9c90800000000000000
+      internalID: -7161844955511838059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P05_AuxAtlas_8
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 893
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5d66e08b745a41a0800000000000000
+      internalID: -6824549395906269859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P05_AuxAtlas_9
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 541
+        width: 463
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c17bddfae10ccd320800000000000000
+      internalID: 2584151524235917084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P05_AuxAtlas_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 527
+        width: 519
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f6f743a287d41e40800000000000000
+      internalID: 5626358790577714931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P05_AuxAtlas_11
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 21
+        width: 501
+        height: 513
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d94e5ca176a94a5f0800000000000000
+      internalID: -746301870615173987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P05_AuxAtlas_12
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 539
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 905327030cef825d0800000000000000
+      internalID: -3086937443162508023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P05_AuxAtlas_13
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 531
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40db279bc41dae500800000000000000
+      internalID: 426383242198957316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P05_AuxAtlas_14
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 529
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0244e2d0362865660800000000000000
+      internalID: 7374224801800274976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P05_AuxAtlas_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 515
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8476c195c60e1110800000000000000
+      internalID: 1233430793570120846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P05_AuxAtlas_16
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 111
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9f2f45c23521bd20800000000000000
+      internalID: 3292453702573436826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      P05_AuxAtlas_0: -8892204795271821074
+      P05_AuxAtlas_1: 6456454426180687655
+      P05_AuxAtlas_10: 5626358790577714931
+      P05_AuxAtlas_11: -746301870615173987
+      P05_AuxAtlas_12: -3086937443162508023
+      P05_AuxAtlas_13: 426383242198957316
+      P05_AuxAtlas_14: 7374224801800274976
+      P05_AuxAtlas_15: 1233430793570120846
+      P05_AuxAtlas_16: 3292453702573436826
+      P05_AuxAtlas_2: 2857861132475249090
+      P05_AuxAtlas_3: 1767161739325843050
+      P05_AuxAtlas_4: 3989554390455509968
+      P05_AuxAtlas_5: -7761797845070670555
+      P05_AuxAtlas_6: 3788805146768680503
+      P05_AuxAtlas_7: -7161844955511838059
+      P05_AuxAtlas_8: -6824549395906269859
+      P05_AuxAtlas_9: 2584151524235917084
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

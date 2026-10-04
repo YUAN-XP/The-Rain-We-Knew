@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -156,6 +156,7 @@ public sealed partial class SchoolChaseController : MonoBehaviour, ISchoolOffice
         // Pause is owned before dismissing the password UI; no vulnerable gap.
         RecordDoor(d);school.CloseModal();securityDoor.transition.Interact();return true;
     }
+    public void RecordWalkDoor(SchoolPortal portal){if(IsActive&&CanPass(portal.Definition))RecordDoor(portal.Definition);}
     void RecordDoor(SchoolPortalDefinition d)
     {
         doorPending=true;pendingPortal=d.id;

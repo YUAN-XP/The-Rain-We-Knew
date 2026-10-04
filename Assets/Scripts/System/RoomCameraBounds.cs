@@ -16,9 +16,10 @@ public sealed class RoomCameraBounds : MonoBehaviour
  static RoomCameraBounds Resolve(Camera camera,Transform actor)
  {
   if(!camera||!camera.orthographic||!actor)return null;
+  var regionScene=P05WorldLink.Available?P05WorldLink.BoundsScene(actor.position):camera.gameObject.scene;
   RoomCameraBounds selected=null;
   foreach(var room in active)
-   if(room&&room.isActiveAndEnabled&&room.gameObject.scene==camera.gameObject.scene&&room.actorRegion.Contains(actor.position)&&WallExists(room.leftWall)&&WallExists(room.rightWall))
+   if(room&&room.isActiveAndEnabled&&room.gameObject.scene==regionScene&&room.actorRegion.Contains(actor.position)&&WallExists(room.leftWall)&&WallExists(room.rightWall))
     if(!selected||room.priority>selected.priority)selected=room;
   return selected;
  }

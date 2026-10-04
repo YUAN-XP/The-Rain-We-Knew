@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -62,36 +62,15 @@ public sealed class SchoolYouthSecurity : MonoBehaviour
         ownedModal = modal;
         int token = ++generation;
 
-        var paper = RuntimePanelUI.Panel("SecurityNotePaper", modal.transform,
-            new Vector2(.13f, .16f), new Vector2(.87f, .82f), new Color(.88f, .84f, .61f));
-        RuntimePanelUI.Panel("FoldedCorner", paper.transform, new Vector2(.935f, .89f), Vector2.one,
-            new Color(.70f, .66f, .45f), false);
-        var body = RuntimePanelUI.Text(noteBody, paper.transform, controller.font,
-            new Vector2(.055f, .18f), new Vector2(.45f, .83f), 29);
-        body.color = new Color(.19f, .23f, .22f);
-        body.alignment = TextAlignmentOptions.MidlineLeft;
-        body.enableAutoSizing = true;
-        body.fontSizeMin = 22;
-        body.fontSizeMax = 29;
-
-        var grid = RuntimePanelUI.Rect("NoteDigitGrid", paper.transform, new Vector2(.53f, .10f), new Vector2(.95f, .90f));
-        for (int i = 0; i < 9; i++)
-        {
-            int x = i % 3, y = i / 3;
-            Vector2 lo = new Vector2(x / 3f + .023f, (2 - y) / 3f + .023f);
-            RuntimePanelUI.Panel("NumberCell" + (i + 1), grid, lo, lo + Vector2.one * .287f,
-                new Color(.95f, .93f, .78f), false);
-        }
-        var ink = RuntimePanelUI.Rect("BluePathFourTwoSixEight", grid, Vector2.zero, Vector2.one)
-            .gameObject.AddComponent<SchoolSecurityNotePathGraphic>();
-        ink.raycastTarget = false;
-        for (int i = 0; i < 9; i++)
-        {
-            int x = i % 3, y = i / 3;
-            Vector2 lo = new Vector2(x / 3f, (2 - y) / 3f);
-            var number = RuntimePanelUI.Text((i + 1).ToString(), grid, controller.font, lo, lo + Vector2.one / 3, 35);
-            number.color = i == 3 ? Color.white : new Color(.14f, .23f, .29f);
-        }
+        // Match the provided irregular drawing, without arrows or start/end badges.
+        var paper = RuntimePanelUI.Rect("SecurityNotePaper", modal.transform,new Vector2(.30f,.14f),new Vector2(.70f,.83f));
+        var aspect=paper.gameObject.AddComponent<AspectRatioFitter>();aspect.aspectMode=AspectRatioFitter.AspectMode.FitInParent;aspect.aspectRatio=719f/874;
+        P05ArtworkUI.Paint(paper,"PaintedPaper","P05_NotePaper",Vector2.zero,Vector2.one,false);
+        var body=RuntimePanelUI.Text(noteBody,paper,controller.font,new Vector2(.09f,.68f),new Vector2(.88f,.93f),23);
+        body.color=new Color(.19f,.23f,.22f);body.alignment=TextAlignmentOptions.MidlineLeft;body.enableAutoSizing=true;body.fontSizeMin=18;body.fontSizeMax=23;
+        var ink=RuntimePanelUI.Rect("OriginalNineCellDiagram",paper,Vector2.zero,Vector2.one).gameObject.AddComponent<SchoolSecurityNotePathGraphic>();ink.raycastTarget=false;
+        // Small conventional keypad numbers retain the existing 4268 clue's legibility.
+        for(int i=0;i<9;i++){var c=P05ArtworkUI.NoteCenters[i];var uv=new Vector2(c.x/719,1-c.y/874);var n=RuntimePanelUI.Text((i+1).ToString(),paper,controller.font,uv-new Vector2(.025f,.025f),uv+new Vector2(.025f,.025f),17);n.color=new Color(.15f,.32f,.48f);n.rectTransform.localEulerAngles=new Vector3(0,0,-18);}
         Canvas.ForceUpdateCanvases();
         body.ForceMeshUpdate();
         StartCoroutine(MarkNoteAfterPresentation(modal, body, token));
@@ -117,22 +96,7 @@ public sealed class SchoolYouthSecurity : MonoBehaviour
         if (modal == null) return;
         ownedModal = modal;
         ++generation;
-        var room = RuntimePanelUI.Panel("NormalSecurityRoomView", modal.transform,
-            new Vector2(.12f, .25f), new Vector2(.88f, .82f), new Color(.67f, .74f, .65f));
-        RuntimePanelUI.Panel("RoomFloor", room.transform, Vector2.zero, new Vector2(1, .19f), new Color(.40f, .43f, .35f), false);
-        RuntimePanelUI.Panel("OfficeDesk", room.transform, new Vector2(.10f, .21f), new Vector2(.88f, .28f), new Color(.53f, .37f, .23f), false);
-        RuntimePanelUI.Panel("LeftDeskLeg", room.transform, new Vector2(.15f, .04f), new Vector2(.18f, .23f), new Color(.42f, .30f, .20f), false);
-        RuntimePanelUI.Panel("RightDeskLeg", room.transform, new Vector2(.80f, .04f), new Vector2(.83f, .23f), new Color(.42f, .30f, .20f), false);
-        var monitor = RuntimePanelUI.Panel("NormalMonitorHousing", room.transform,
-            new Vector2(.14f, .34f), new Vector2(.49f, .83f), new Color(.13f, .18f, .18f), false);
-        BuildNeutralMonitor(monitor.transform);
-        var computer = RuntimePanelUI.Panel("PublicComputerHousing", room.transform,
-            new Vector2(.59f, .32f), new Vector2(.82f, .66f), new Color(.18f, .23f, .24f), false);
-        RuntimePanelUI.Panel("PublicComputerScreen", computer.transform, new Vector2(.06f, .08f), new Vector2(.94f, .92f), new Color(.41f, .65f, .65f), false);
-        RuntimePanelUI.Panel("ComputerStand", room.transform, new Vector2(.69f, .25f), new Vector2(.72f, .35f), new Color(.19f, .24f, .23f), false);
-        RuntimePanelUI.Panel("Keyboard", room.transform, new Vector2(.58f, .275f), new Vector2(.83f, .30f), new Color(.22f, .28f, .27f), false);
-        foreach (float x in new[] { .31f, .64f })
-            RuntimePanelUI.Panel("ForegroundWindowBar", room.transform, new Vector2(x, 0), new Vector2(x + .018f, 1), new Color(.24f, .29f, .27f), false);
+        P05ArtworkUI.Paint(modal.transform,"InsideSecurityRoom","P05_Security",new Vector2(.12f,.25f),new Vector2(.88f,.82f));
         var text = RuntimePanelUI.Text(windowFacts, modal.transform, controller.font,
             new Vector2(.12f, .08f), new Vector2(.88f, .22f), 29);
         text.enableAutoSizing = true; text.fontSizeMin = 22; text.fontSizeMax = 29;
@@ -269,16 +233,7 @@ public sealed class SchoolYouthSecurity : MonoBehaviour
         yield return null;
     }
 
-    static void BuildNeutralMonitor(Transform parent)
-    {
-        // Ordinary unoccupied campus geometry only: no invented abuse footage or horror noise.
-        var view = RuntimePanelUI.Panel("NeutralCorridorView", parent,
-            new Vector2(.055f, .075f), new Vector2(.945f, .925f), new Color(.47f, .61f, .55f), false);
-        RuntimePanelUI.Panel("CorridorFloor", view.transform, Vector2.zero, new Vector2(1, .23f), new Color(.34f, .45f, .39f), false);
-        for (int i = 0; i < 3; i++)
-            RuntimePanelUI.Panel("CorridorWindow" + i, view.transform,
-                new Vector2(.08f + i * .31f, .39f), new Vector2(.25f + i * .31f, .81f), new Color(.62f, .77f, .74f), false);
-    }
+    static void BuildNeutralMonitor(Transform parent){P05ArtworkUI.Paint(parent,"PaintedCampusMonitor","P05_Monitors",new Vector2(.03f,.03f),new Vector2(.97f,.97f));}
 
     void DestroyComputerScreen()
     {
@@ -306,61 +261,14 @@ public sealed class SchoolYouthSecurity : MonoBehaviour
     void OnDisable() { Close(); }
 }
 
-// Mesh-native note diagram. Text digits are added above this graphic by the close-up.
+// The reference's irregular blue boxes and thin four-to-two-to-six-to-eight line.
 [RequireComponent(typeof(CanvasRenderer))]
-public sealed class SchoolSecurityNotePathGraphic : MaskableGraphic
-{
-    static readonly Vector2[] Path = {
-        new Vector2(1f / 6, .5f), new Vector2(.5f, 5f / 6),
-        new Vector2(5f / 6, .5f), new Vector2(.5f, 1f / 6)
-    };
-
-    protected override void OnPopulateMesh(VertexHelper vh)
-    {
-        vh.Clear();
-        Rect r = rectTransform.rect;
-        float unit = Mathf.Min(r.width, r.height);
-        Color ink = new Color(.10f, .37f, .64f, .94f);
-        for (int i = 0; i < Path.Length - 1; i++)
-        {
-            Vector2 a = Point(r, Path[i]), b = Point(r, Path[i + 1]);
-            Vector2 direction = (b - a).normalized;
-            Segment(vh, a + direction * unit * .045f, b - direction * unit * .045f, unit * .009f, ink);
-            Vector2 tip = Vector2.Lerp(a, b, .70f);
-            Vector2 normal = new Vector2(-direction.y, direction.x);
-            Triangle(vh, tip, tip - direction * unit * .050f + normal * unit * .025f,
-                tip - direction * unit * .050f - normal * unit * .025f, ink);
-        }
-        // Filled starting node at 4; a small ring distinguishes the endpoint at 8.
-        Disc(vh, Point(r, Path[0]), unit * .052f, ink);
-        Vector2 end = Point(r, Path[3]);
-        Disc(vh, end, unit * .052f, ink);
-        Disc(vh, end, unit * .040f, new Color(.95f, .93f, .78f));
-    }
-    static Vector2 Point(Rect r, Vector2 uv) => r.min + Vector2.Scale(r.size, uv);
-    static void Segment(VertexHelper vh, Vector2 a, Vector2 b, float thickness, Color color)
-    {
-        Vector2 d = (b - a).normalized;
-        Vector2 n = new Vector2(-d.y, d.x) * thickness * .5f;
-        int start = vh.currentVertCount;
-        vh.AddVert(a - n, color, Vector2.zero); vh.AddVert(a + n, color, Vector2.zero);
-        vh.AddVert(b + n, color, Vector2.zero); vh.AddVert(b - n, color, Vector2.zero);
-        vh.AddTriangle(start, start + 1, start + 2); vh.AddTriangle(start, start + 2, start + 3);
-    }
-    static void Triangle(VertexHelper vh, Vector2 a, Vector2 b, Vector2 c, Color color)
-    {
-        int start = vh.currentVertCount;
-        vh.AddVert(a, color, Vector2.zero); vh.AddVert(b, color, Vector2.zero); vh.AddVert(c, color, Vector2.zero);
-        vh.AddTriangle(start, start + 1, start + 2);
-    }
-    static void Disc(VertexHelper vh, Vector2 center, float radius, Color color)
-    {
-        const int sides = 24;
-        for (int i = 0; i < sides; i++)
-        {
-            float a = i * Mathf.PI * 2 / sides, b = (i + 1) * Mathf.PI * 2 / sides;
-            Triangle(vh, center, center + new Vector2(Mathf.Cos(a), Mathf.Sin(a)) * radius,
-                center + new Vector2(Mathf.Cos(b), Mathf.Sin(b)) * radius, color);
-        }
-    }
+public sealed class SchoolSecurityNotePathGraphic:MaskableGraphic {
+ protected override void OnPopulateMesh(VertexHelper vh){vh.Clear();var r=rectTransform.rect;var ink=new Color(.10f,.37f,.64f,.94f);var size=new Vector2(42,42);float angle=-18*Mathf.Deg2Rad;
+  var centers=P05ArtworkUI.NoteCenters;
+  Vector2 P(Vector2 p)=>r.min+Vector2.Scale(r.size,new Vector2(p.x/719,1-p.y/874));
+  for(int i=0;i<9;i++){var c=centers[i];var v=new Vector2[4];for(int j=0;j<4;j++){var d=new Vector2(j==0||j==3?-size.x*.5f:size.x*.5f,j<2?-size.y*.5f:size.y*.5f);v[j]=P(c+new Vector2(d.x*Mathf.Cos(angle)-d.y*Mathf.Sin(angle),d.x*Mathf.Sin(angle)+d.y*Mathf.Cos(angle)));}for(int j=0;j<4;j++)Line(vh,v[j],v[(j+1)%4],r.width/719*1.5f,ink);}
+  var path=new[]{3,1,5,7};for(int i=0;i<3;i++)Line(vh,P(centers[path[i]]),P(centers[path[i+1]]),r.width/719*1.3f,ink);
+ }
+ static void Line(VertexHelper vh,Vector2 a,Vector2 b,float w,Color c){var d=(b-a).normalized;var n=new Vector2(-d.y,d.x)*w*.5f;int s=vh.currentVertCount;vh.AddVert(a-n,c,Vector2.zero);vh.AddVert(a+n,c,Vector2.zero);vh.AddVert(b+n,c,Vector2.zero);vh.AddVert(b-n,c,Vector2.zero);vh.AddTriangle(s,s+1,s+2);vh.AddTriangle(s,s+2,s+3);}
 }

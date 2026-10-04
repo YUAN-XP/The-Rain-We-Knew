@@ -1,0 +1,1073 @@
+{
+  "generated": "2026-10-05T02:32:44",
+  "base": "30bba12",
+  "bytes": 75744022,
+  "files": [
+    {
+      "path": "checks/build-messages.txt",
+      "bytes": 1235,
+      "sha256": "3795bcc9418d8b715f6b998186f0fe970664c20e1938d54c17ffc20852c81f03"
+    },
+    {
+      "path": "checks/build-result.txt",
+      "bytes": 99,
+      "sha256": "4c0552edbde30fe02e791208c0c6d98a6dc3316476b9a26fda21415a53178220"
+    },
+    {
+      "path": "checks/build-scenes.txt",
+      "bytes": 184,
+      "sha256": "96994f2aef66b723bb6f327e3ea0803416ad1f11802928a8158bcadedae7d2cc"
+    },
+    {
+      "path": "checks/final-edit-checks.txt",
+      "bytes": 1829,
+      "sha256": "892d79a6be1b2a7dfde6f1d878ba237f5ff075a56decee94553bd4c2931ee382"
+    },
+    {
+      "path": "checks/final-edit-summary.txt",
+      "bytes": 20,
+      "sha256": "5649616a268e71653b06c772b0fdcd5af5064f14f73677cfbfb1acada80f4c0b"
+    },
+    {
+      "path": "checks/final_isolation_check.json",
+      "bytes": 524,
+      "sha256": "b36f399fac5dd2f4374b5701af8a9cce0bdf61332c3979d2373125433cb779e4"
+    },
+    {
+      "path": "checks/final_media_delivery.json",
+      "bytes": 2361,
+      "sha256": "fff08fbf60b4dddbae7fe75cb10425e27d000826b95397ef7982dfbc8f12953e"
+    },
+    {
+      "path": "checks/final_rerun_part0.json",
+      "bytes": 165,
+      "sha256": "6cc2f99420c4b8efee29fb490e65e669127a84f5112b41e6d0b85d6c3ff4feca"
+    },
+    {
+      "path": "checks/final_rerun_part3.json",
+      "bytes": 165,
+      "sha256": "f14f9ee9f2640cf25ad8748ed91fb11571733cda6649f43eff5ba6311991b239"
+    },
+    {
+      "path": "checks/final_rerun_part8.json",
+      "bytes": 165,
+      "sha256": "ae99ae8e5eaabf12efec2274a996bb494b7c6a6f8691f09ff46817012ef571be"
+    },
+    {
+      "path": "checks/final_rerun_part9.json",
+      "bytes": 165,
+      "sha256": "82fce1af557ad6016364659610a93874946499ea3d89ad2bdba6ba000da23522"
+    },
+    {
+      "path": "checks/gameplay_boundary_audit.json",
+      "bytes": 184918,
+      "sha256": "8e65aaff05d6fc0a45ae15e21d3e5278c4226cf1bd99612b5faecbfb132837b9"
+    },
+    {
+      "path": "checks/image_generation_prompts.json",
+      "bytes": 13236,
+      "sha256": "2f0c26f3bec1068e3b807f35dfafd692ae5f46679782e4f54590cd2e533a9198"
+    },
+    {
+      "path": "checks/media_clock_corrections.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "checks/media_delivery_optimization.json",
+      "bytes": 2002,
+      "sha256": "afad4950f0393fa84e9d5652709e0f0e409ce3ff363c904959053d691a4a9668"
+    },
+    {
+      "path": "checks/part0/captures.csv",
+      "bytes": 288,
+      "sha256": "769a5e21dc21e290fffff26b8aeb52f404df4e3f0cbe23e24260a27b37e1ce19"
+    },
+    {
+      "path": "checks/part0/results.txt",
+      "bytes": 1713,
+      "sha256": "717574d4b218f430066b6927ff1cb047755c5167a1cbf3c4763a23f7ca4fe88d"
+    },
+    {
+      "path": "checks/part0/status.txt",
+      "bytes": 25,
+      "sha256": "26408cc36882ad1e5fbe28ca8122fe50051892c1098c653978e15bf9975b2fe8"
+    },
+    {
+      "path": "checks/part1/captures.csv",
+      "bytes": 1055,
+      "sha256": "558e06132ec9f4fcbe64dfb831f8076fc23d98caddf7bea8b2ece662fad721d6"
+    },
+    {
+      "path": "checks/part1/results.txt",
+      "bytes": 3404,
+      "sha256": "fb5d70626362911bdcbc452a0a41c555305aef164eb8d3187eccafacaf99dbc7"
+    },
+    {
+      "path": "checks/part1/status.txt",
+      "bytes": 25,
+      "sha256": "3268a836c9e94333f9d408ffa87ea2a514abf8eb31c710616c683aaee54f54b0"
+    },
+    {
+      "path": "checks/part2/captures.csv",
+      "bytes": 818,
+      "sha256": "658e120d227e100c743961476563c8c1e4b338f48ee71107100a14a180c0da6f"
+    },
+    {
+      "path": "checks/part2/results.txt",
+      "bytes": 3157,
+      "sha256": "31d318322a256da2e73109208647d829ad686a99cd150e8aca9a6974588b8617"
+    },
+    {
+      "path": "checks/part2/status.txt",
+      "bytes": 25,
+      "sha256": "b1803c8c1ec7da72b5e6628073fa37c79c51f384438bdaf96f2a2f30b6eb2493"
+    },
+    {
+      "path": "checks/part3/captures.csv",
+      "bytes": 275,
+      "sha256": "925f76671fc029646739b4c5bc4bae2ff963f516a1f218c2cafc5a6bcc9ccf83"
+    },
+    {
+      "path": "checks/part3/legacy_position_trace.txt",
+      "bytes": 145176,
+      "sha256": "e8b8aae52098f05694685dfd9ab63ce3658b343ff4b03ea664e5306a2c0ce756"
+    },
+    {
+      "path": "checks/part3/results.txt",
+      "bytes": 1724,
+      "sha256": "d02d57da286fc1457260e39a53cc259b64a2a470392c5d2d8953aade0e7209c2"
+    },
+    {
+      "path": "checks/part3/status.txt",
+      "bytes": 25,
+      "sha256": "f3ce4c14a3a9e1ba917b1bbb7567d727a93d75888036a85000639ebd204e25b5"
+    },
+    {
+      "path": "checks/part4/captures.csv",
+      "bytes": 6063,
+      "sha256": "768c8498433ad350c46640574515c829cf4ee12984309f13372d30ab80cc33a2"
+    },
+    {
+      "path": "checks/part4/results.txt",
+      "bytes": 26103,
+      "sha256": "f14594a005b522b932fa4c9a2079ee7a36426818591995801e87281e1a5870bf"
+    },
+    {
+      "path": "checks/part4/status.txt",
+      "bytes": 26,
+      "sha256": "b7a7f978fe281faca169d2cb4358217caf6ca194eaea9dce320e47c0646c838a"
+    },
+    {
+      "path": "checks/part5/captures.csv",
+      "bytes": 520,
+      "sha256": "447a4fe9c49323ff95794f3afbddbc90a4016131a218a4421255431f17afe7d7"
+    },
+    {
+      "path": "checks/part5/results.txt",
+      "bytes": 1756,
+      "sha256": "652a73baab6de8cd1162cb59a5f8c646ad2c5303ad306d157f1a8a6d965408be"
+    },
+    {
+      "path": "checks/part5/status.txt",
+      "bytes": 25,
+      "sha256": "58c9f56fd96736ff9d11348918c719c81a26febf516869861ddfb0142ca304ce"
+    },
+    {
+      "path": "checks/part6/captures.csv",
+      "bytes": 74,
+      "sha256": "204451da628ce2fceb647f9ac3f3d24a194c16c9abc5b34e63d9f947d2962ace"
+    },
+    {
+      "path": "checks/part6/results.txt",
+      "bytes": 681,
+      "sha256": "7739f342aab1a34fd8b5e0c46888a01a57b2700d7142f64814ebd18bdd2b54ec"
+    },
+    {
+      "path": "checks/part6/status.txt",
+      "bytes": 25,
+      "sha256": "c6b89c5223bc309690d03aca5992095c8058c66dcef26fcda641cd2562ade8ed"
+    },
+    {
+      "path": "checks/part7/captures.csv",
+      "bytes": 294,
+      "sha256": "61071dbfbd8d4906458dec0ffdffacc17b31871e6d6b993232c8910f5c74706d"
+    },
+    {
+      "path": "checks/part7/results.txt",
+      "bytes": 5282,
+      "sha256": "956183dc3c7cef43ac108a6b8b308a509b2b7d21f893be06e637c92511b08782"
+    },
+    {
+      "path": "checks/part7/status.txt",
+      "bytes": 25,
+      "sha256": "8055ee1833dec04670146ce7fc6c784dc5c69887aa396320828c4cfaee0344c4"
+    },
+    {
+      "path": "checks/part8/captures.csv",
+      "bytes": 375,
+      "sha256": "b670b9a86a53c173077ba5cf2875b0f8b0c20efaeb22404844b92245a3682abc"
+    },
+    {
+      "path": "checks/part8/results.txt",
+      "bytes": 4340,
+      "sha256": "36f0f609266b8a1d55861480cb5aa6237d1d3677bf8a1ced837e93fd95fb397b"
+    },
+    {
+      "path": "checks/part8/status.txt",
+      "bytes": 25,
+      "sha256": "8ad36bad967ed1bc4260a63e2ef8c3b2814047dab668fc7b7223652df3bb6e70"
+    },
+    {
+      "path": "checks/part9/captures.csv",
+      "bytes": 203,
+      "sha256": "f1686eb3424f0fd73121e077d167b2abb920f37aa66c013a5972626ff3cca46f"
+    },
+    {
+      "path": "checks/part9/legacy_position_trace.txt",
+      "bytes": 54625,
+      "sha256": "fd6f50887ead43d3f1d7bfead556b7dc27b80bb5afb0c628fae3230a4c6adabb"
+    },
+    {
+      "path": "checks/part9/results.txt",
+      "bytes": 1972,
+      "sha256": "31c3d030271b50f068be9fbb8175dd39ae0485867e1cdc832d7af921f262c1af"
+    },
+    {
+      "path": "checks/part9/status.txt",
+      "bytes": 25,
+      "sha256": "9046a6f91a2aa8d734ee9a4d5d7bdd50b21ea9c46ed8fea2a7b2a6dcf1a5079d"
+    },
+    {
+      "path": "checks/playback_review.json",
+      "bytes": 2663,
+      "sha256": "9694af753e388cc21d9328980be6ae40e0420eacfff436d959c93a68ef0d797e"
+    },
+    {
+      "path": "checks/stage_verification.json",
+      "bytes": 4153,
+      "sha256": "4665c634636c4164cfaa95e0957bcaf86af60c443fce748579f5d383b1e5a4c9"
+    },
+    {
+      "path": "commit_scope.json",
+      "bytes": 24541,
+      "sha256": "45feb24e4898a73791e1a70d571b3670bef4033c6f17103155cfe6c1f09f8d46"
+    },
+    {
+      "path": "comparisons/01_FogSchoolWalk_temporal.jpg",
+      "bytes": 117432,
+      "sha256": "81a34ef25043695b415b3f9d841b3798f8efcc4b64eb3c4a7a0f9f395e9a94ad"
+    },
+    {
+      "path": "comparisons/03_PencilNameGrab_temporal.jpg",
+      "bytes": 280213,
+      "sha256": "30548cddfc4e1c242944a91958ad46ece09599868db16fd5d76184374a7bd66e"
+    },
+    {
+      "path": "comparisons/04_ClassroomLife_temporal.jpg",
+      "bytes": 162456,
+      "sha256": "a919bb98ff2356e97c14cdd27551221dce052edf740d198e4371f94b17ea2e17"
+    },
+    {
+      "path": "comparisons/06_OfficeLife_temporal.jpg",
+      "bytes": 150064,
+      "sha256": "319018660e85d47a4bceacee51705633211a04a88da1986af9a34185329618e8"
+    },
+    {
+      "path": "comparisons/07_ReturnWalk_temporal.jpg",
+      "bytes": 115080,
+      "sha256": "c367080faf8284428a9263cadb4b55920acc4e3940b861efa18f319077d6a1bd"
+    },
+    {
+      "path": "comparisons/08_CourtLife_temporal.jpg",
+      "bytes": 264318,
+      "sha256": "53cd515e9393823abf94b07cc32c2ae8b5b64d9911877d27379f4874b29b4e8a"
+    },
+    {
+      "path": "comparisons/09_CorridorLife_temporal.jpg",
+      "bytes": 166064,
+      "sha256": "fa6e2dfa28e203bfdf20000460f9817201913452ce8d01e4c4196937c812bd5e"
+    },
+    {
+      "path": "comparisons/before_04_ClassroomLife_temporal.jpg",
+      "bytes": 223689,
+      "sha256": "017bafcb894b8e57bbafc8824409c2737b7c72c4ad6f30ca650b5493828d8c19"
+    },
+    {
+      "path": "comparisons/before_06_OfficeLife_temporal.jpg",
+      "bytes": 209924,
+      "sha256": "921eef77ebe4fef3baaec8238bcc7f5fc0b5e5c64e6952a66815496f2d18799a"
+    },
+    {
+      "path": "comparisons/before_court_native.png",
+      "bytes": 576528,
+      "sha256": "e5ee8b624441e9dca29d5387766b65943d4ca0a83505cccfc3a33e4951390a1c"
+    },
+    {
+      "path": "comparisons/survey_Memory_1.jpg",
+      "bytes": 403801,
+      "sha256": "88e09737648b3c13ee275aa7c247fd89614d4e7e1bce8e899dd7aeb2fe89c973"
+    },
+    {
+      "path": "comparisons/survey_Memory_2.jpg",
+      "bytes": 404908,
+      "sha256": "972a09cf100ad1174615309d087c717542a0ea7f42f55e7b194155fb9035a6c5"
+    },
+    {
+      "path": "comparisons/survey_Otherworld_1.jpg",
+      "bytes": 432309,
+      "sha256": "085721ea2a6735d63dcc56a59988a660ca076241cc83ae47bdc747c12b9511bd"
+    },
+    {
+      "path": "comparisons/survey_Otherworld_2.jpg",
+      "bytes": 441380,
+      "sha256": "d0016a3ef68948b458a78a4d6dcfdcd89ca737bae8e335f243cc7009b43c8b27"
+    },
+    {
+      "path": "review.html",
+      "bytes": 6467,
+      "sha256": "c367e15f6456eb9a9e356eabdfbcb1b125cba685668e64ec3f5820250f3f652a"
+    },
+    {
+      "path": "runtime/01_FogEntry.jpg",
+      "bytes": 308340,
+      "sha256": "960de12396e1d2bbc494c5d2084b49663d521c4621a90e83afd4d2a3c7d96ee5"
+    },
+    {
+      "path": "runtime/02_FogHumanFigures.jpg",
+      "bytes": 340377,
+      "sha256": "d193539158af406728148dbb4605a7c7c10eaba3a5e142cae656ac63b974959e"
+    },
+    {
+      "path": "runtime/03_ContinuousSchoolArrival.jpg",
+      "bytes": 358555,
+      "sha256": "cceb9fec17b34da90a7c0d55b856ca9b1ead85f2fa00ab6aa0bef91e65e5c4d0"
+    },
+    {
+      "path": "runtime/04_ContinuousArrivalReload.jpg",
+      "bytes": 358200,
+      "sha256": "78b5b1f1e57a6d440a7059a9a543aed8c9e3a92d6b62f30d4a2a9d8b1c1abc3f"
+    },
+    {
+      "path": "runtime/05_WindowLooksInside.jpg",
+      "bytes": 334916,
+      "sha256": "ec49ba22fd862d7a35a682131a9c34003bf0d49a95265b3952f4d3c1ca5f8e67"
+    },
+    {
+      "path": "runtime/06_KeyPreview.jpg",
+      "bytes": 497326,
+      "sha256": "e2a3407713f87769ef98ed3025b00b597ed5e30fbd43fbf985edc76681141a5e"
+    },
+    {
+      "path": "runtime/07_BallDrag.jpg",
+      "bytes": 542888,
+      "sha256": "8389cd3306233f5e9da2a5070430f43ed87bec6fa7572bda24fffebf9c9305a8"
+    },
+    {
+      "path": "runtime/07_BallInHand.jpg",
+      "bytes": 515797,
+      "sha256": "8ec53604e47702a67c4de30a2acf750c94c3fcd8ece12ef1d894d97e070548d9"
+    },
+    {
+      "path": "runtime/08_KeyGrounded.jpg",
+      "bytes": 475567,
+      "sha256": "11d7e8ba8812f81c83cf3d68ccf8b1934f9a5066f01e765d5890e4211fc44e29"
+    },
+    {
+      "path": "runtime/09_EquipmentCompact.jpg",
+      "bytes": 440782,
+      "sha256": "606051241e0b1c4d6e1fdbc58c2fb5ede40869844d3942452db04c687b25f2fa"
+    },
+    {
+      "path": "runtime/10_EquipmentReload.jpg",
+      "bytes": 437956,
+      "sha256": "3f13ccfd258b3b7aa0cded177c05acb98328392d501130dd055438e39463ebc5"
+    },
+    {
+      "path": "runtime/11_DownStairs.jpg",
+      "bytes": 443952,
+      "sha256": "f52f7c1986d2a91d45b80665ce4e77e4dea2243a17df557f680ef5fa6ce26b4a"
+    },
+    {
+      "path": "runtime/12_ClassroomOther.jpg",
+      "bytes": 407885,
+      "sha256": "16fb17e353ffd355940a2bf13d4a059ac02b7e75dd99bfe52c02fae59f9902e6"
+    },
+    {
+      "path": "runtime/13_DeskBeforeRubbing.jpg",
+      "bytes": 594883,
+      "sha256": "1582ca9a7c0d233580a01a1e7d2cd5525444ba1d462ce49930bea8cb42e6cf1f"
+    },
+    {
+      "path": "runtime/14_NameReveal.jpg",
+      "bytes": 564276,
+      "sha256": "54e572ba89dff6a0b9f833fd4a6678b7710c7c5cc92d9e1a61c6a85b58507992"
+    },
+    {
+      "path": "runtime/15_WristGrab.jpg",
+      "bytes": 557391,
+      "sha256": "039a02d9cbd18229372df3acb54d5d1e356db73fc6ae4034bfd36d2ee56706d9"
+    },
+    {
+      "path": "runtime/16_YouthOpening.jpg",
+      "bytes": 377469,
+      "sha256": "5f7c58504a5be668e68d8bf470c099e1fe0251d7a07fa7c84de7f8e8acbcc088"
+    },
+    {
+      "path": "runtime/17_YouthOpeningReload.jpg",
+      "bytes": 377538,
+      "sha256": "d6b73c55ffc2110dd979482c7a584c50814c0fdeb7bb9e60e01ccc447ca66d08"
+    },
+    {
+      "path": "runtime/20_ClassroomMemory.jpg",
+      "bytes": 360374,
+      "sha256": "9ab4abfca41ecbd08e63443b9341e9f4f72dee439b554c7e87a09b9148355dbd"
+    },
+    {
+      "path": "runtime/21_CorridorIdentity.jpg",
+      "bytes": 375886,
+      "sha256": "103eeebf4cafabbc18010b027fa952ab861c8eee43ad6df174141174f3c37e04"
+    },
+    {
+      "path": "runtime/22_ZhangRuoyuan.jpg",
+      "bytes": 355336,
+      "sha256": "0323e343bcac2c032726573954a5e600492ce964c863c51254f3cbe4809969c3"
+    },
+    {
+      "path": "runtime/23_NoteNineCells.jpg",
+      "bytes": 390800,
+      "sha256": "3ceb5f7f7666aef26ea49beb133d6a4a0cae5105ab74adbe1fd1d8030980f914"
+    },
+    {
+      "path": "runtime/24_SecurityRoomMemory.jpg",
+      "bytes": 378555,
+      "sha256": "bb0d0bf3a0ad5e32e1583663fd6e2720505dca4a52145de71eed5442bca6465c"
+    },
+    {
+      "path": "runtime/25_SecurityReload.jpg",
+      "bytes": 377261,
+      "sha256": "50918884e228a7846e7da5cec4b2b67d57d74cc6c9a9c0517b07737029c4c4fe"
+    },
+    {
+      "path": "runtime/26_ReadingContinuousLeft.jpg",
+      "bytes": 345036,
+      "sha256": "e7710aca48adc5ba2f9b97b559ac4d20a82a7bc43829decdb8ea41aa04243edc"
+    },
+    {
+      "path": "runtime/27_ReadingSeatedWide.jpg",
+      "bytes": 435477,
+      "sha256": "00308c1a53cccae3dcd88ee3b14b8ed6cdd3f35caec2204726d61d6c887817ef"
+    },
+    {
+      "path": "runtime/28_ReadingReload.jpg",
+      "bytes": 417453,
+      "sha256": "75f5fe8baec98490424d02fd36aaf09d71a61a742eabfcab47e8582941d57ec2"
+    },
+    {
+      "path": "runtime/29_ReadingContinuousRight.jpg",
+      "bytes": 305890,
+      "sha256": "976ef2897d64ddd3ecf5c06296399b6e7e60604d505a97fd14160f77000dba9a"
+    },
+    {
+      "path": "runtime/30_TeachersDirector.jpg",
+      "bytes": 341280,
+      "sha256": "447585d3b6d6a77784031c4a887ded0ea853a11d3e79272a60345df35a2aac9d"
+    },
+    {
+      "path": "runtime/40_ReturnFogNoCut.jpg",
+      "bytes": 283730,
+      "sha256": "2a9a994cf23828aeae7344049fdacd8be3935c14429bc7602fbe2f2a5f28e2af"
+    },
+    {
+      "path": "runtime/41_WalkedHome.jpg",
+      "bytes": 338726,
+      "sha256": "63e75556d7459b145643266adc914fda00eebc2fd0d745dff2d54a761ea2e8f8"
+    },
+    {
+      "path": "runtime/42_HomeReturnReload.jpg",
+      "bytes": 338803,
+      "sha256": "5f14b1375b33ba5f64a2ac4bd34eeed7bc87387f81ccf22b7408256334ef4982"
+    },
+    {
+      "path": "runtime/43_LegacySchoolReload.jpg",
+      "bytes": 480626,
+      "sha256": "e4a4ddb2f176e1619105dd5cc67cb6f75282f6f21380e3cf108fc08ec414ab59"
+    },
+    {
+      "path": "runtime/44_LegacyRepeat0.jpg",
+      "bytes": 480632,
+      "sha256": "48a514a29420f3b5a9e8e8cd7898a62ab35b28ec93c839f3461ab501a5771aa0"
+    },
+    {
+      "path": "runtime/44_LegacyRepeat1.jpg",
+      "bytes": 480534,
+      "sha256": "35382ea916c2121f0f61fffea4a8cf82b2640a7612d13a05d2b20b5247badffa"
+    },
+    {
+      "path": "runtime/44_LegacyRepeat2.jpg",
+      "bytes": 480556,
+      "sha256": "565b4adccb934b10c7d646349a85d57a9eb91ec04f6e6673c90ce0185e0c5d0b"
+    },
+    {
+      "path": "runtime/50_ZhangDialoguePortrait.jpg",
+      "bytes": 438465,
+      "sha256": "768120e718ccd8ea0388c6d0498d179544fbec7633790689fc5ea1eeea1a94c1"
+    },
+    {
+      "path": "runtime/51_CourtStudents.jpg",
+      "bytes": 548150,
+      "sha256": "135129c123d519aa0fdec954220d1e41698447c5a560fc5de9dd3713b2a348ad"
+    },
+    {
+      "path": "runtime/52_CorridorTurn.jpg",
+      "bytes": 396184,
+      "sha256": "ee2b9df4643547417b7014c7cb06cd5dcee8d421442a1a65685d88ac7db49461"
+    },
+    {
+      "path": "runtime/53_CorridorPauseResume.jpg",
+      "bytes": 396153,
+      "sha256": "d71d954502addba0a084e90b2f7685161cfcca78ef8a387d30d23dd375a09235"
+    },
+    {
+      "path": "runtime/60_FloorAfterWalking.jpg",
+      "bytes": 382560,
+      "sha256": "af38846c15ca23d381c6354538d6ba47ae5d6de363b26dcdc2c53d4d5e76afd3"
+    },
+    {
+      "path": "runtime/70_ClassLifeStable.jpg",
+      "bytes": 360228,
+      "sha256": "bc5ed5bd64575dca08e32ab1ad324ba458ce28f1e6f501cc0342fc4370b8e498"
+    },
+    {
+      "path": "runtime/71_OfficeLifeStable.jpg",
+      "bytes": 335976,
+      "sha256": "0948909151e717612618752b47e59cb5dc6f3fafadd44d663c666e27215f8014"
+    },
+    {
+      "path": "runtime/72_CourtLifeStable.jpg",
+      "bytes": 556997,
+      "sha256": "1da7fc2d88e6dc743933e3befee670a724a0b13d138aeb0dd659b07548434361"
+    },
+    {
+      "path": "runtime/73_CorridorLifeStable.jpg",
+      "bytes": 369830,
+      "sha256": "31108fdd3f805c1fd751c89eeb10b6339b79be56d639feb9048fc8d4f4859c1d"
+    },
+    {
+      "path": "runtime/80_OriginalChaseOpening.jpg",
+      "bytes": 314972,
+      "sha256": "a5b7a284bb8da1456a521c7769bb90200665de25889e6c376967648d5507807e"
+    },
+    {
+      "path": "runtime/81_ChaseRoofCrossed.jpg",
+      "bytes": 622672,
+      "sha256": "49ac274101c45406880c665dfce7309f3027e1ef704695b24157814befb1ce36"
+    },
+    {
+      "path": "runtime/82_ChaseSecurityArrival.jpg",
+      "bytes": 440575,
+      "sha256": "b9a70f16ba3dd9643d0a85f495e9fbf09767ae238ee1521864c27f6d391f4b44"
+    },
+    {
+      "path": "runtime/83_ChaseCompleted.jpg",
+      "bytes": 418751,
+      "sha256": "ae9a3166fc5ef4725bd16987d0ef661634d4838e07912f019a195025ffb26a61"
+    },
+    {
+      "path": "runtime/84_ChaseCompletionReload.jpg",
+      "bytes": 444721,
+      "sha256": "a12b8543ae2b0be1a52b4b4cdc079bd37e2f4c7c6cf45d1c984589ceca33186f"
+    },
+    {
+      "path": "runtime/Memory_Class3_1_Left.jpg",
+      "bytes": 347185,
+      "sha256": "2665328c429eef87323e0ad6fcab196039de5b8e6a2bc1d23e692c59bd944518"
+    },
+    {
+      "path": "runtime/Memory_Class3_1_Middle.jpg",
+      "bytes": 339800,
+      "sha256": "ae658f43ebde4a764af80577cea2876ade43bc1a80a8ddbad7e11fcf50640a76"
+    },
+    {
+      "path": "runtime/Memory_Class3_1_Right.jpg",
+      "bytes": 356589,
+      "sha256": "e943ceb62e03d486c7afb6435d6a192ee403eef3b9ba5aff89d53af1a1c0c449"
+    },
+    {
+      "path": "runtime/Memory_Class3_2_Left.jpg",
+      "bytes": 364824,
+      "sha256": "cc5ae4bb0dae0bc745f3c85da257aef09a92ca1377ba47e6aae5cd3933fdbf14"
+    },
+    {
+      "path": "runtime/Memory_Class3_2_Middle.jpg",
+      "bytes": 362923,
+      "sha256": "80d74556406950f8e34ef8c4dc9c9a339adb9377766261bc46ba9d34f71e14cb"
+    },
+    {
+      "path": "runtime/Memory_Class3_2_Right.jpg",
+      "bytes": 365110,
+      "sha256": "43f477a417a8169d937490385250e4b57c9f821962e51f601e880d6e2804827d"
+    },
+    {
+      "path": "runtime/Memory_EquipmentRoom_Left.jpg",
+      "bytes": 372996,
+      "sha256": "42b72f3185ed316d63405f764223b907c217ec1980168526d295d92f8f4682ea"
+    },
+    {
+      "path": "runtime/Memory_EquipmentRoom_Middle.jpg",
+      "bytes": 354624,
+      "sha256": "a419768766c1c323b464a39f2b0296d9a965b0131780d45ffe9c76655af02560"
+    },
+    {
+      "path": "runtime/Memory_EquipmentRoom_Right.jpg",
+      "bytes": 356006,
+      "sha256": "be68f818163911cd3eea3031659b2246e527374f94f451600dc95ddda128d1e4"
+    },
+    {
+      "path": "runtime/Memory_Floor01_Left.jpg",
+      "bytes": 347396,
+      "sha256": "8333d982a6cd42424f27ca6c4bff1326f1baecc27d1409032f7d6ccb1a0c93a2"
+    },
+    {
+      "path": "runtime/Memory_Floor01_Middle.jpg",
+      "bytes": 439082,
+      "sha256": "28244ccb15f0d3456533782e1b0d3f5a521662a0fd7ea478917039f7052e3e67"
+    },
+    {
+      "path": "runtime/Memory_Floor01_Right.jpg",
+      "bytes": 526820,
+      "sha256": "a580adc486e72081b4b9b3620d9eb20442c7db5676d10bfb729df448121db092"
+    },
+    {
+      "path": "runtime/Memory_Floor02_Left.jpg",
+      "bytes": 372518,
+      "sha256": "7280329ff8d526742622710a0947a5222982d1a073f723418ccb7080a49ecb0b"
+    },
+    {
+      "path": "runtime/Memory_Floor02_Middle.jpg",
+      "bytes": 401417,
+      "sha256": "bf37df04839b39fbd49f287542538fdf61bfade960f1cdd2e623fe09dff01133"
+    },
+    {
+      "path": "runtime/Memory_Floor02_Right.jpg",
+      "bytes": 389372,
+      "sha256": "96549a6a8ff855840f4eca5593c45cd02089d5232a10694b25a9b736cca37320"
+    },
+    {
+      "path": "runtime/Memory_Floor03Left_Left.jpg",
+      "bytes": 348321,
+      "sha256": "751cda877d0e785111de9e83af72cfe30c6f1dd2809fdd6be335b0d0b55c59f1"
+    },
+    {
+      "path": "runtime/Memory_Floor03Left_Middle.jpg",
+      "bytes": 352657,
+      "sha256": "118b1617c423d0ff205673b7342dc987a426f2c09117999bcac2af88edd404f4"
+    },
+    {
+      "path": "runtime/Memory_Floor03Left_Right.jpg",
+      "bytes": 329255,
+      "sha256": "4677facf320a1221c51eac2c491a71f315a002fa1ec2ba8576f7236d3ca08fdd"
+    },
+    {
+      "path": "runtime/Memory_Floor03Right_Left.jpg",
+      "bytes": 305336,
+      "sha256": "34918ab1ca0481f8c9ac304e3f107f5c38a6ab46ed4a3b2944da2b03c88d0843"
+    },
+    {
+      "path": "runtime/Memory_Floor03Right_Middle.jpg",
+      "bytes": 314828,
+      "sha256": "7cfec3702146c83b46341ca9c167b0e59fb95c58ec30496db8bddd32b56890b4"
+    },
+    {
+      "path": "runtime/Memory_Floor03Right_Right.jpg",
+      "bytes": 307747,
+      "sha256": "55b54de7c4294f7cf6bf50e801c2158e6b9f1ff71b08a0b439e4fb82b54bd2f2"
+    },
+    {
+      "path": "runtime/Memory_MaleToilet_Left.jpg",
+      "bytes": 321471,
+      "sha256": "41aa5f5dd2c3ee4deed2e616fe58d75b308c2470e67b1c12edc1797b18636e99"
+    },
+    {
+      "path": "runtime/Memory_MaleToilet_Middle.jpg",
+      "bytes": 317930,
+      "sha256": "bb379efd8fa80a0aaf412005450c7423410e6edae9c3bfb7c2cd2864c9d011f5"
+    },
+    {
+      "path": "runtime/Memory_MaleToilet_Right.jpg",
+      "bytes": 318518,
+      "sha256": "699410599cbda8ef7faa84ef20f829e6e154e5fe1aba04b1e395153a26892a24"
+    },
+    {
+      "path": "runtime/Memory_ReadingPassage_Left.jpg",
+      "bytes": 344710,
+      "sha256": "f9db0a9c3f72082477f3359979e37218d81f3665c3a3bef7ca22a1e3be537d11"
+    },
+    {
+      "path": "runtime/Memory_ReadingPassage_Middle.jpg",
+      "bytes": 435911,
+      "sha256": "da8571517e8e9d64f47e2748651ff0619b06d0e75c7c2e7b9ccd864395527bb1"
+    },
+    {
+      "path": "runtime/Memory_ReadingPassage_Right.jpg",
+      "bytes": 317863,
+      "sha256": "4fe2ebdfe437ecff2500d8e077b448239c147bc70b08ee381f690779fe205a48"
+    },
+    {
+      "path": "runtime/Memory_Roof_Left.jpg",
+      "bytes": 633226,
+      "sha256": "f453c1db432ea0345c818929dfee5fa4ddbde1395433a1a5fc8fe54423685fe7"
+    },
+    {
+      "path": "runtime/Memory_Roof_Middle.jpg",
+      "bytes": 625746,
+      "sha256": "8b15f2874fcc5c208ce46e1dac2c76635893d6c2aaaf53ba9133c90baa8689b0"
+    },
+    {
+      "path": "runtime/Memory_Roof_Right.jpg",
+      "bytes": 622318,
+      "sha256": "8c877225af2c12dd3ae5f3438a5b8fbc1de88acb6d6831dbda91fdde8dd899a1"
+    },
+    {
+      "path": "runtime/Memory_RoofContinuousMiddle.jpg",
+      "bytes": 625981,
+      "sha256": "9cad3e720d146a5cd97714ca6d25e71ce1e88bbd0244804f6e3a89f4f9834c5c"
+    },
+    {
+      "path": "runtime/Memory_SecurityRoom_Left.jpg",
+      "bytes": 378855,
+      "sha256": "9692bef80fb13d2dab619d060ac1b483b0255d6ff0cd0404afa69adccb08bb21"
+    },
+    {
+      "path": "runtime/Memory_SecurityRoom_Middle.jpg",
+      "bytes": 373618,
+      "sha256": "7f296307f1de01d643d55f0d54c3bc5e2bf681e893dc67ea07252d35be50f4df"
+    },
+    {
+      "path": "runtime/Memory_SecurityRoom_Right.jpg",
+      "bytes": 372926,
+      "sha256": "7d9b17555ff09aad3eefdb346f64ff4ed20c29944a605660887a330699f19927"
+    },
+    {
+      "path": "runtime/Memory_StaffOffice_Left.jpg",
+      "bytes": 343670,
+      "sha256": "2911d3bdbb7625b9566346d4b6304872308a181abaf7fa9d3a405ab48208159c"
+    },
+    {
+      "path": "runtime/Memory_StaffOffice_Middle.jpg",
+      "bytes": 356584,
+      "sha256": "fe9a895d568150fac81292133754be5c49752c12880517a2b33fbcfbf7dadd1c"
+    },
+    {
+      "path": "runtime/Memory_StaffOffice_Right.jpg",
+      "bytes": 337608,
+      "sha256": "01f3d03dde385ae1d285910ec8d1816eae4f08c3cb470269fb61bd41b7b2461d"
+    },
+    {
+      "path": "runtime/Memory_Stair_F03_Roof_Left_BtoA.jpg",
+      "bytes": 623164,
+      "sha256": "296661896ef51c8894f8378e9ff72d1625aa303bf51e6fdb254c841cb0aba61a"
+    },
+    {
+      "path": "runtime/Memory_Stair_F03_Roof_Right_BtoA.jpg",
+      "bytes": 624840,
+      "sha256": "38c3f5ffa5f6853d1163358ea495feda48deddfbd3d5c561aff44485eb2d73ca"
+    },
+    {
+      "path": "runtime/Otherworld_Class3_1_Left.jpg",
+      "bytes": 404434,
+      "sha256": "fd48097f25057deb3ad2d5886ec3496c7eb347432b3ccad0515d5ea111fad96b"
+    },
+    {
+      "path": "runtime/Otherworld_Class3_1_Middle.jpg",
+      "bytes": 399371,
+      "sha256": "3a463de36332419dc9857c4f28f0b4ecc3973bc9ec8914b52ea580f6528b062b"
+    },
+    {
+      "path": "runtime/Otherworld_Class3_1_Right.jpg",
+      "bytes": 394640,
+      "sha256": "c71565606252953e0d6cfc2874110f14e65a5c2523d9da542028cddd8af4bbea"
+    },
+    {
+      "path": "runtime/Otherworld_Class3_2_Left.jpg",
+      "bytes": 409380,
+      "sha256": "504cd8a32de453390e8627f075bf711720a42822a2afc86d8fbd6fbc935baee2"
+    },
+    {
+      "path": "runtime/Otherworld_Class3_2_Middle.jpg",
+      "bytes": 403472,
+      "sha256": "55807f2cc173cf19b3be771b733d835ac46c402caca0088de0c0c80f50dc8201"
+    },
+    {
+      "path": "runtime/Otherworld_Class3_2_Right.jpg",
+      "bytes": 408307,
+      "sha256": "c55f660385ad703ee87b8fe8b1add386f9c2550c9439b2e66b4d80db6b46e824"
+    },
+    {
+      "path": "runtime/Otherworld_EquipmentRoom_Left.jpg",
+      "bytes": 442326,
+      "sha256": "58928971001f8e3227a48bb7a16a0e62e277cbf135400fe18d527f9eef5c4e96"
+    },
+    {
+      "path": "runtime/Otherworld_EquipmentRoom_Middle.jpg",
+      "bytes": 434255,
+      "sha256": "e3e555f8fa4eab608f34eb980a3be59e17483b0189f5fdefad38c617ceec7f8c"
+    },
+    {
+      "path": "runtime/Otherworld_EquipmentRoom_Right.jpg",
+      "bytes": 436008,
+      "sha256": "30804b9e8dc14e7c6a81da014c84ebcd044ce1b60e89190b35be6894c724e27d"
+    },
+    {
+      "path": "runtime/Otherworld_Floor01_Left.jpg",
+      "bytes": 370756,
+      "sha256": "c26a45ebe00f23c60dec9bbcf0a78a128bc4442838185f363207bdd45836d329"
+    },
+    {
+      "path": "runtime/Otherworld_Floor01_Middle.jpg",
+      "bytes": 440134,
+      "sha256": "915f0026bf9284847e7216cf3cc7c8177c47af3d0554642b0fd831e817077e91"
+    },
+    {
+      "path": "runtime/Otherworld_Floor01_Right.jpg",
+      "bytes": 458103,
+      "sha256": "4b22d06fb5abde6d572956ec08716aebca29028e0fb783ca83affa84c6778237"
+    },
+    {
+      "path": "runtime/Otherworld_Floor02_Left.jpg",
+      "bytes": 410186,
+      "sha256": "c36014c6d8c60a45aaef05f5c704973de3b80bd81006756343a9d24fdab2afba"
+    },
+    {
+      "path": "runtime/Otherworld_Floor02_Middle.jpg",
+      "bytes": 390727,
+      "sha256": "710ccd8889951a2550d2c0b188f5b8c28f83fa9a2331feafcc282d385f8f09fe"
+    },
+    {
+      "path": "runtime/Otherworld_Floor02_Right.jpg",
+      "bytes": 427682,
+      "sha256": "a2f8630c741ea611c3769879c2ce7f8f1b641a808162872e8fdf71c78d48e03b"
+    },
+    {
+      "path": "runtime/Otherworld_Floor03Left_Left.jpg",
+      "bytes": 410017,
+      "sha256": "ddc8d32f983cd939f89cd00d9852328db6ace4571d39b6b7c0b2d0b80d141617"
+    },
+    {
+      "path": "runtime/Otherworld_Floor03Left_Middle.jpg",
+      "bytes": 412509,
+      "sha256": "e2540c00066d097fb65ac4c0fc75b900845169d67c6e1117f2fb72c73a7f2d6f"
+    },
+    {
+      "path": "runtime/Otherworld_Floor03Left_Right.jpg",
+      "bytes": 399287,
+      "sha256": "331cce0d7423d25931c65992fe3826bd00ce74d4b8003aa3e5447da001218e26"
+    },
+    {
+      "path": "runtime/Otherworld_Floor03Right_Left.jpg",
+      "bytes": 376486,
+      "sha256": "a321cbb9dcd77381224b73e9c46049e0c8b45bc0097de4a41afaae8b26e906f1"
+    },
+    {
+      "path": "runtime/Otherworld_Floor03Right_Middle.jpg",
+      "bytes": 378302,
+      "sha256": "34aeabb21b1a59b51c1dc417fd9ef37d0c69f66c86247296f6ca76e483e66273"
+    },
+    {
+      "path": "runtime/Otherworld_Floor03Right_Right.jpg",
+      "bytes": 377754,
+      "sha256": "fbe34122e14f3caaaf8b500cf570e89a30d531f0008d52fa5314bad63d1c69d8"
+    },
+    {
+      "path": "runtime/Otherworld_MaleToilet_Left.jpg",
+      "bytes": 377416,
+      "sha256": "9a20f13d075d3f962b7f2344c7f7db29f25bcc4420bf0363730dd45c3bc71b4c"
+    },
+    {
+      "path": "runtime/Otherworld_MaleToilet_Middle.jpg",
+      "bytes": 375841,
+      "sha256": "569000dc15ffe146ae6da26705c2d36af708a36bf59143db6751f5526be4ebea"
+    },
+    {
+      "path": "runtime/Otherworld_MaleToilet_Right.jpg",
+      "bytes": 376279,
+      "sha256": "3937bb95be76ec2f721d3215120cc8fd973c84f1e0792c49a957de56ccd04f67"
+    },
+    {
+      "path": "runtime/Otherworld_ReadingPassage_Left.jpg",
+      "bytes": 411225,
+      "sha256": "acb276d4376cbcf0c2080a1cfc51bb4055e26a4f3633d11c8867ec05e396dcb0"
+    },
+    {
+      "path": "runtime/Otherworld_ReadingPassage_Middle.jpg",
+      "bytes": 549315,
+      "sha256": "bac4bbf23829760b9da85f0e9fe334bac62e80911d0f7efd950da5c3f3b10285"
+    },
+    {
+      "path": "runtime/Otherworld_ReadingPassage_Right.jpg",
+      "bytes": 378142,
+      "sha256": "e35a3146d3e4c441a81946d2a610f4e9e864c5b5b2244c1a446dc757921d16f4"
+    },
+    {
+      "path": "runtime/Otherworld_Roof_Left.jpg",
+      "bytes": 622636,
+      "sha256": "3de82e4c507eac6405827c403b8653760bea91c78f04b8f51b0974e5be9873a0"
+    },
+    {
+      "path": "runtime/Otherworld_Roof_Middle.jpg",
+      "bytes": 615342,
+      "sha256": "c46c714ee1f1d517daa6b6104823a0786fa14f500a015417901ce882e4249fa7"
+    },
+    {
+      "path": "runtime/Otherworld_Roof_Right.jpg",
+      "bytes": 611397,
+      "sha256": "934d495f55140ddc3aa6ec8dd0e371fd283ae4bed26be97f158db78e9ec0e010"
+    },
+    {
+      "path": "runtime/Otherworld_RoofContinuousMiddle.jpg",
+      "bytes": 616587,
+      "sha256": "6f7576e34cf893bc0b40ae08cd1304ddcc5b8338b866d9893376eee90b4fb294"
+    },
+    {
+      "path": "runtime/Otherworld_SecurityRoom_Left.jpg",
+      "bytes": 447903,
+      "sha256": "f0995284fdf00e2485df885f2110938a552af9b16896b130cfcb239571fb4e77"
+    },
+    {
+      "path": "runtime/Otherworld_SecurityRoom_Middle.jpg",
+      "bytes": 437132,
+      "sha256": "6c205fe37c4e0fc2aab38edf2ee7215a3011191643b7bdaf7cbc92932861a8da"
+    },
+    {
+      "path": "runtime/Otherworld_SecurityRoom_Right.jpg",
+      "bytes": 437274,
+      "sha256": "85c79a2f94e0d64cd828684b1afbeaf6aadf6d2e4f4023f8ecce09d59647eada"
+    },
+    {
+      "path": "runtime/Otherworld_StaffOffice_Left.jpg",
+      "bytes": 369550,
+      "sha256": "6ac16f246d178e28ca95fb57535fcdbf63461962abc56d0f51d2494c61b25f49"
+    },
+    {
+      "path": "runtime/Otherworld_StaffOffice_Middle.jpg",
+      "bytes": 376448,
+      "sha256": "c10f921d5641bc1f5b0943b506391fda0a2a1c74010208db9fb7a3e8be2d1a3e"
+    },
+    {
+      "path": "runtime/Otherworld_StaffOffice_Right.jpg",
+      "bytes": 381188,
+      "sha256": "86f8d12502799f96cbc290cf18e0f781b330bd2167e0fa4c414afecf9a371f54"
+    },
+    {
+      "path": "runtime/Otherworld_Stair_F03_Roof_Left_BtoA.jpg",
+      "bytes": 613823,
+      "sha256": "0a804af13eafefe5c16d8420e4068b950ba6356543976825c2f0100037532646"
+    },
+    {
+      "path": "runtime/Otherworld_Stair_F03_Roof_Right_BtoA.jpg",
+      "bytes": 615374,
+      "sha256": "d209b7257831712aeb2cc16ccda8eb03a97020806b0f3821b3fa65a8009af816"
+    },
+    {
+      "path": "source_hashes.json",
+      "bytes": 15782,
+      "sha256": "cb14dfea62f1c921b65397ec0da002f30a4346e13a54537d7f1a85579bede1e2"
+    },
+    {
+      "path": "source_reference/NoteLayout_UserReference.jpeg",
+      "bytes": 63295,
+      "sha256": "eb6234a6bb4134cdc536a5adaa20fe7dc1bbd9bccdf364e3214ce9fb6914e446"
+    },
+    {
+      "path": "videos/01_FogSchoolWalk.mp4",
+      "bytes": 1577395,
+      "sha256": "fa56f863eedc9eb5c76d62d8f489d101bb52a4ced853ee7524b5c72cb1a7ba84"
+    },
+    {
+      "path": "videos/01_FogSchoolWalk.mp4.txt",
+      "bytes": 114,
+      "sha256": "570cda87c2665c184a9fa3b9038cd7f97d027f3bc4a37e9c55d83cd77f2d107a"
+    },
+    {
+      "path": "videos/02_Basketball.mp4",
+      "bytes": 2915251,
+      "sha256": "321dc075e4a3359cf6c9f49483dab2108d6bb423e5b5419c04ffa2f6cc8fb16f"
+    },
+    {
+      "path": "videos/02_Basketball.mp4.txt",
+      "bytes": 115,
+      "sha256": "c1ced7292b436300a1be2644d6af956c61de561c121bfdc6d5265c6799297aba"
+    },
+    {
+      "path": "videos/03_PencilNameGrab.mp4",
+      "bytes": 3753937,
+      "sha256": "eef7b0456b158a3336f2186f9bbe561825c2a96a75fb82545e90ccc04489d5ec"
+    },
+    {
+      "path": "videos/03_PencilNameGrab.mp4.txt",
+      "bytes": 115,
+      "sha256": "bd6ca3f402d1b305e23e7971fa83e903f3947d6a42925b1fc437b31252c09c27"
+    },
+    {
+      "path": "videos/04_ClassroomLife.mp4",
+      "bytes": 544958,
+      "sha256": "b410f3f45e737dbf4009002c788f6367feddc58904fe3e1dab003c3360b58159"
+    },
+    {
+      "path": "videos/04_ClassroomLife.mp4.txt",
+      "bytes": 115,
+      "sha256": "21788b74a2164df08c53a978a7934ba51dfd27c0a92a730e44dbd5f9ff90c84f"
+    },
+    {
+      "path": "videos/05_ReadingRest.mp4",
+      "bytes": 685087,
+      "sha256": "ac77fecaeeefffb515be5fe46172e695c44f3be7624ad615ddd192c8441741ba"
+    },
+    {
+      "path": "videos/05_ReadingRest.mp4.txt",
+      "bytes": 114,
+      "sha256": "e319f8b8944e8c235efea05ca0b79eee59a39f7644eb594a875237516d611b83"
+    },
+    {
+      "path": "videos/06_OfficeLife.mp4",
+      "bytes": 522080,
+      "sha256": "28277e79a1e4fb0b2ed4806537ee7e60d51ba63631c828e8a3a32855d10804b7"
+    },
+    {
+      "path": "videos/06_OfficeLife.mp4.txt",
+      "bytes": 115,
+      "sha256": "21788b74a2164df08c53a978a7934ba51dfd27c0a92a730e44dbd5f9ff90c84f"
+    },
+    {
+      "path": "videos/07_ReturnWalk.mp4",
+      "bytes": 3875761,
+      "sha256": "d574e57de82c00d01f1355dca8e1ff3032abbd7b0b0b1dc9c9696f132e867c67"
+    },
+    {
+      "path": "videos/07_ReturnWalk.mp4.txt",
+      "bytes": 115,
+      "sha256": "624ed2e1c7688de2d5eeea809a41575a0bfeaf3d4d7edb7b3485edc6ca1cdbde"
+    },
+    {
+      "path": "videos/08_CourtLife.mp4",
+      "bytes": 2911507,
+      "sha256": "0736d2a1e0acf17b1fa67edbdebf2b9c39c4d761f113fb7449002615bc763b72"
+    },
+    {
+      "path": "videos/08_CourtLife.mp4.txt",
+      "bytes": 115,
+      "sha256": "5b1843e4c9c6927e6a931e6a9d92053a909bdd31a490b4856fde80322bd967e3"
+    },
+    {
+      "path": "videos/09_CorridorLife.mp4",
+      "bytes": 670687,
+      "sha256": "3a98b83fdbccac3235a9eaabf759117c1b3dcf346ed954da7c690868f97faf7c"
+    },
+    {
+      "path": "videos/09_CorridorLife.mp4.txt",
+      "bytes": 115,
+      "sha256": "21788b74a2164df08c53a978a7934ba51dfd27c0a92a730e44dbd5f9ff90c84f"
+    }
+  ],
+  "video_note": "H264 same original duration, no interpolated motion, no audio track"
+}

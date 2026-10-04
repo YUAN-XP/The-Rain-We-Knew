@@ -1,0 +1,494 @@
+PASS original E dialogue and transaction finished
+PASS settled WAIT Unity foreground; original pause preserved
+PASS original Scene01 has no automatic movement
+PASS original start has no unearned tools
+PASS original isolated save loader 
+PASS settled isolated loader Scene04_School Floor01
+PASS load succeeds 
+PASS original E dialogue and transaction finished
+PASS actor on actual collider floor
+PASS settled WAIT Unity foreground; original pause preserved
+PASS original E dialogue and transaction finished
+PASS actor framed Otherworld Floor01 Left
+PASS visible feet above letterbox Otherworld Floor01 Left y=0.23149
+PASS settled WAIT Unity foreground; original pause preserved
+PASS original E dialogue and transaction finished
+PASS actor framed Otherworld Floor01 Middle
+PASS visible feet above letterbox Otherworld Floor01 Middle y=0.23149
+PASS settled Otherworld_Floor01_Left
+PASS original E dialogue and transaction finished
+PASS actor framed Otherworld Floor01 Right
+PASS visible feet above letterbox Otherworld Floor01 Right y=0.23149
+PASS settled Otherworld_Floor01_Middle
+PASS original E dialogue and transaction finished
+PASS actor framed Otherworld Floor02 Left
+PASS visible feet above letterbox Otherworld Floor02 Left y=0.2314901
+PASS settled Otherworld_Floor01_Right
+PASS original E dialogue and transaction finished
+PASS actor framed Otherworld Floor02 Middle
+PASS visible feet above letterbox Otherworld Floor02 Middle y=0.2314901
+PASS settled Otherworld_Floor02_Left
+PASS original E dialogue and transaction finished
+PASS actor framed Otherworld Floor02 Right
+PASS visible feet above letterbox Otherworld Floor02 Right y=0.2314901
+PASS settled Otherworld_Floor02_Middle
+PASS original E dialogue and transaction finished
+PASS actor framed Otherworld Floor03Left Left
+PASS visible feet above letterbox Otherworld Floor03Left Left y=0.2314906
+PASS settled Otherworld_Floor02_Right
+PASS original E dialogue and transaction finished
+PASS actor framed Otherworld Floor03Left Middle
+PASS visible feet above letterbox Otherworld Floor03Left Middle y=0.2314906
+PASS settled Otherworld_Floor03Left_Left
+PASS original E dialogue and transaction finished
+PASS actor framed Otherworld Floor03Left Right
+PASS visible feet above letterbox Otherworld Floor03Left Right y=0.2314906
+PASS settled Otherworld_Floor03Left_Middle
+PASS original E dialogue and transaction finished
+PASS actor framed Otherworld Floor03Right Left
+PASS visible feet above letterbox Otherworld Floor03Right Left y=0.2314906
+PASS settled Otherworld_Floor03Left_Right
+PASS original E dialogue and transaction finished
+PASS actor framed Otherworld Floor03Right Middle
+PASS visible feet above letterbox Otherworld Floor03Right Middle y=0.2314906
+PASS settled Otherworld_Floor03Right_Left
+PASS original E dialogue and transaction finished
+PASS actor framed Otherworld Floor03Right Right
+PASS visible feet above letterbox Otherworld Floor03Right Right y=0.2314911
+PASS settled Otherworld_Floor03Right_Middle
+PASS original E dialogue and transaction finished
+PASS actor framed Otherworld Roof Left
+PASS visible feet above letterbox Otherworld Roof Left y=0.2314901
+PASS settled Otherworld_Floor03Right_Right
+PASS original E dialogue and transaction finished
+PASS actor framed Otherworld Roof Middle
+PASS visible feet above letterbox Otherworld Roof Middle y=0.2314901
+PASS settled Otherworld_Roof_Left
+PASS original E dialogue and transaction finished
+PASS actor framed Otherworld Roof Right
+PASS visible feet above letterbox Otherworld Roof Right y=0.2314901
+PASS settled Otherworld_Roof_Middle
+PASS original E dialogue and transaction finished
+PASS actor framed Otherworld ReadingPassage Left
+PASS visible feet above letterbox Otherworld ReadingPassage Left y=0.2314906
+PASS settled Otherworld_Roof_Right
+PASS original E dialogue and transaction finished
+PASS actor framed Otherworld ReadingPassage Middle
+PASS visible feet above letterbox Otherworld ReadingPassage Middle y=0.1381569
+PASS settled Otherworld_ReadingPassage_Left
+PASS original E dialogue and transaction finished
+PASS actor framed Otherworld ReadingPassage Right
+PASS visible feet above letterbox Otherworld ReadingPassage Right y=0.2314906
+PASS settled Otherworld_ReadingPassage_Middle
+PASS original E dialogue and transaction finished
+PASS actor framed Otherworld SecurityRoom Left
+PASS visible feet above letterbox Otherworld SecurityRoom Left y=0.23149
+PASS settled Otherworld_ReadingPassage_Right
+PASS original E dialogue and transaction finished
+PASS actor framed Otherworld SecurityRoom Middle
+PASS visible feet above letterbox Otherworld SecurityRoom Middle y=0.23149
+PASS settled Otherworld_SecurityRoom_Left
+PASS original E dialogue and transaction finished
+PASS actor framed Otherworld SecurityRoom Right
+PASS visible feet above letterbox Otherworld SecurityRoom Right y=0.23149
+PASS settled Otherworld_SecurityRoom_Middle
+PASS original E dialogue and transaction finished
+PASS actor framed Otherworld EquipmentRoom Left
+PASS visible feet above letterbox Otherworld EquipmentRoom Left y=0.23149
+PASS settled Otherworld_SecurityRoom_Right
+PASS original E dialogue and transaction finished
+PASS actor framed Otherworld EquipmentRoom Middle
+PASS visible feet above letterbox Otherworld EquipmentRoom Middle y=0.23149
+PASS settled Otherworld_EquipmentRoom_Left
+PASS original E dialogue and transaction finished
+PASS actor framed Otherworld EquipmentRoom Right
+PASS visible feet above letterbox Otherworld EquipmentRoom Right y=0.23149
+PASS settled Otherworld_EquipmentRoom_Middle
+PASS original E dialogue and transaction finished
+PASS actor framed Otherworld Class3_2 Left
+PASS visible feet above letterbox Otherworld Class3_2 Left y=0.2314901
+PASS settled Otherworld_EquipmentRoom_Right
+PASS original E dialogue and transaction finished
+PASS actor framed Otherworld Class3_2 Middle
+PASS visible feet above letterbox Otherworld Class3_2 Middle y=0.2314901
+PASS settled Otherworld_Class3_2_Left
+PASS original E dialogue and transaction finished
+PASS actor framed Otherworld Class3_2 Right
+PASS visible feet above letterbox Otherworld Class3_2 Right y=0.2314901
+PASS settled Otherworld_Class3_2_Middle
+PASS original E dialogue and transaction finished
+PASS actor framed Otherworld Class3_1 Left
+PASS visible feet above letterbox Otherworld Class3_1 Left y=0.2314901
+PASS settled Otherworld_Class3_2_Right
+PASS original E dialogue and transaction finished
+PASS actor framed Otherworld Class3_1 Middle
+PASS visible feet above letterbox Otherworld Class3_1 Middle y=0.2314901
+PASS settled Otherworld_Class3_1_Left
+PASS original E dialogue and transaction finished
+PASS actor framed Otherworld Class3_1 Right
+PASS visible feet above letterbox Otherworld Class3_1 Right y=0.2314901
+PASS settled Otherworld_Class3_1_Middle
+PASS original E dialogue and transaction finished
+PASS actor framed Otherworld MaleToilet Left
+PASS visible feet above letterbox Otherworld MaleToilet Left y=0.2314901
+PASS settled Otherworld_Class3_1_Right
+PASS original E dialogue and transaction finished
+PASS actor framed Otherworld MaleToilet Middle
+PASS visible feet above letterbox Otherworld MaleToilet Middle y=0.2314901
+PASS settled Otherworld_MaleToilet_Left
+PASS original E dialogue and transaction finished
+PASS actor framed Otherworld MaleToilet Right
+PASS visible feet above letterbox Otherworld MaleToilet Right y=0.2314901
+PASS settled Otherworld_MaleToilet_Middle
+PASS original E dialogue and transaction finished
+PASS actor framed Otherworld StaffOffice Left
+PASS visible feet above letterbox Otherworld StaffOffice Left y=0.2314906
+PASS settled Otherworld_MaleToilet_Right
+PASS original E dialogue and transaction finished
+PASS actor framed Otherworld StaffOffice Middle
+PASS visible feet above letterbox Otherworld StaffOffice Middle y=0.2314906
+PASS settled Otherworld_StaffOffice_Left
+PASS original E dialogue and transaction finished
+PASS actor framed Otherworld StaffOffice Right
+PASS visible feet above letterbox Otherworld StaffOffice Right y=0.2314906
+PASS settled Otherworld_StaffOffice_Middle
+PASS original E dialogue and transaction finished
+PASS settled original gateway Stair_F01_F02_Right_AtoB
+PASS grounded arrival Stair_F01_F02_Right_AtoB
+PASS original gate destination Otherworld Stair_F01_F02_Right_AtoB
+PASS original E dialogue and transaction finished
+PASS settled original gateway Stair_F01_F02_Right_BtoA
+PASS grounded arrival Stair_F01_F02_Right_BtoA
+PASS original gate destination Otherworld Stair_F01_F02_Right_BtoA
+PASS original E dialogue and transaction finished
+PASS original blocked gate preserved Otherworld Stair_F02_F03_Left_AtoB
+PASS original E dialogue and transaction finished
+PASS original blocked gate preserved Otherworld Stair_F02_F03_Left_BtoA
+PASS original E dialogue and transaction finished
+PASS settled original gateway Stair_F03_Roof_Left_AtoB
+PASS grounded arrival Stair_F03_Roof_Left_AtoB
+PASS original gate destination Otherworld Stair_F03_Roof_Left_AtoB
+PASS original E dialogue and transaction finished
+PASS settled original gateway Stair_F03_Roof_Left_BtoA
+PASS grounded arrival Stair_F03_Roof_Left_BtoA
+PASS original gate destination Otherworld Stair_F03_Roof_Left_BtoA
+PASS original E dialogue and transaction finished
+PASS settled original gateway Stair_F03_Roof_Right_AtoB
+PASS grounded arrival Stair_F03_Roof_Right_AtoB
+PASS original gate destination Otherworld Stair_F03_Roof_Right_AtoB
+PASS original E dialogue and transaction finished
+PASS settled original gateway Stair_F03_Roof_Right_BtoA
+PASS grounded arrival Stair_F03_Roof_Right_BtoA
+PASS original gate destination Otherworld Stair_F03_Roof_Right_BtoA
+PASS original E dialogue and transaction finished
+PASS settled original gateway Class3_2_Back_AtoB
+PASS grounded arrival Class3_2_Back_AtoB
+PASS original gate destination Otherworld Class3_2_Back_AtoB
+PASS original E dialogue and transaction finished
+PASS settled original gateway Class3_2_Back_BtoA
+PASS grounded arrival Class3_2_Back_BtoA
+PASS original gate destination Otherworld Class3_2_Back_BtoA
+PASS original E dialogue and transaction finished
+PASS original blocked gate preserved Otherworld Class3_2_Front_AtoB
+PASS original E dialogue and transaction finished
+PASS original blocked gate preserved Otherworld Class3_2_Front_BtoA
+PASS original E dialogue and transaction finished
+PASS original blocked gate preserved Otherworld Class3_1_Back_AtoB
+PASS original E dialogue and transaction finished
+PASS original blocked gate preserved Otherworld Class3_1_Back_BtoA
+PASS original E dialogue and transaction finished
+PASS original blocked gate preserved Otherworld Class3_1_Front_AtoB
+PASS original E dialogue and transaction finished
+PASS original blocked gate preserved Otherworld Class3_1_Front_BtoA
+PASS original E dialogue and transaction finished
+PASS original blocked gate preserved Otherworld MaleToilet_Door_AtoB
+PASS original E dialogue and transaction finished
+PASS original blocked gate preserved Otherworld MaleToilet_Door_BtoA
+PASS original E dialogue and transaction finished
+PASS original blocked gate preserved Otherworld StaffOffice_Door_AtoB
+PASS original E dialogue and transaction finished
+PASS original blocked gate preserved Otherworld StaffOffice_Door_BtoA
+PASS settled original gateway Class3_2_Back_BtoA
+PASS original E dialogue and transaction finished
+PASS settled original gateway Equipment_Door_BtoA
+PASS grounded arrival Equipment_Door_BtoA
+PASS continuous position reached 47
+PASS no teleport on walking path 47 max frame delta=0.01263428
+PASS right reading reverse walk Otherworld
+PASS continuous position reached 25
+PASS no teleport on walking path 25 max frame delta=0.01243782
+PASS left reading reverse walk Otherworld
+PASS original isolated save loader 
+PASS settled isolated loader Scene04_School Floor01
+PASS load succeeds 
+PASS original E dialogue and transaction finished
+PASS actor on actual collider floor
+PASS settled isolated loader Scene04_School Floor01
+PASS settled isolated loader Scene04_School Floor01
+PASS actual Zhang dialogue and portrait bound
+PASS original E dialogue and transaction finished
+PASS original E dialogue and transaction finished
+PASS actor framed Memory Floor01 Left
+PASS visible feet above letterbox Memory Floor01 Left y=0.1609998
+PASS settled 50_ZhangDialoguePortrait
+PASS original E dialogue and transaction finished
+PASS actor framed Memory Floor01 Middle
+PASS visible feet above letterbox Memory Floor01 Middle y=0.1609998
+PASS settled Memory_Floor01_Left
+PASS original E dialogue and transaction finished
+PASS actor framed Memory Floor01 Right
+PASS visible feet above letterbox Memory Floor01 Right y=0.1609998
+PASS settled Memory_Floor01_Middle
+PASS original E dialogue and transaction finished
+PASS actor framed Memory Floor02 Left
+PASS visible feet above letterbox Memory Floor02 Left y=0.1609993
+PASS settled Memory_Floor01_Right
+PASS original E dialogue and transaction finished
+PASS actor framed Memory Floor02 Middle
+PASS visible feet above letterbox Memory Floor02 Middle y=0.1609993
+PASS settled Memory_Floor02_Left
+PASS original E dialogue and transaction finished
+PASS actor framed Memory Floor02 Right
+PASS visible feet above letterbox Memory Floor02 Right y=0.1609993
+PASS settled Memory_Floor02_Middle
+PASS original E dialogue and transaction finished
+PASS actor framed Memory Floor03Left Left
+PASS visible feet above letterbox Memory Floor03Left Left y=0.1610012
+PASS settled Memory_Floor02_Right
+PASS original E dialogue and transaction finished
+PASS actor framed Memory Floor03Left Middle
+PASS visible feet above letterbox Memory Floor03Left Middle y=0.1610012
+PASS settled Memory_Floor03Left_Left
+PASS original E dialogue and transaction finished
+PASS actor framed Memory Floor03Left Right
+PASS visible feet above letterbox Memory Floor03Left Right y=0.1610012
+PASS settled Memory_Floor03Left_Middle
+PASS original E dialogue and transaction finished
+PASS actor framed Memory Floor03Right Left
+PASS visible feet above letterbox Memory Floor03Right Left y=0.1610012
+PASS settled Memory_Floor03Left_Right
+PASS original E dialogue and transaction finished
+PASS actor framed Memory Floor03Right Middle
+PASS visible feet above letterbox Memory Floor03Right Middle y=0.1610012
+PASS settled Memory_Floor03Right_Left
+PASS original E dialogue and transaction finished
+PASS actor framed Memory Floor03Right Right
+PASS visible feet above letterbox Memory Floor03Right Right y=0.1610012
+PASS settled Memory_Floor03Right_Middle
+PASS original E dialogue and transaction finished
+PASS actor framed Memory Roof Left
+PASS visible feet above letterbox Memory Roof Left y=0.1610012
+PASS settled Memory_Floor03Right_Right
+PASS original E dialogue and transaction finished
+PASS actor framed Memory Roof Middle
+PASS visible feet above letterbox Memory Roof Middle y=0.1610012
+PASS settled Memory_Roof_Left
+PASS original E dialogue and transaction finished
+PASS actor framed Memory Roof Right
+PASS visible feet above letterbox Memory Roof Right y=0.1610012
+PASS settled Memory_Roof_Middle
+PASS original E dialogue and transaction finished
+PASS actor framed Memory ReadingPassage Left
+PASS visible feet above letterbox Memory ReadingPassage Left y=0.1610012
+PASS settled Memory_Roof_Right
+PASS original E dialogue and transaction finished
+PASS actor framed Memory ReadingPassage Middle
+PASS visible feet above letterbox Memory ReadingPassage Middle y=0.1610012
+PASS settled Memory_ReadingPassage_Left
+PASS original E dialogue and transaction finished
+PASS actor framed Memory ReadingPassage Right
+PASS visible feet above letterbox Memory ReadingPassage Right y=0.1610012
+PASS settled Memory_ReadingPassage_Middle
+PASS original E dialogue and transaction finished
+PASS actor framed Memory SecurityRoom Left
+PASS visible feet above letterbox Memory SecurityRoom Left y=0.1609998
+PASS settled Memory_ReadingPassage_Right
+PASS original E dialogue and transaction finished
+PASS actor framed Memory SecurityRoom Middle
+PASS visible feet above letterbox Memory SecurityRoom Middle y=0.1609998
+PASS settled Memory_SecurityRoom_Left
+PASS original E dialogue and transaction finished
+PASS actor framed Memory SecurityRoom Right
+PASS visible feet above letterbox Memory SecurityRoom Right y=0.1609998
+PASS settled Memory_SecurityRoom_Middle
+PASS original E dialogue and transaction finished
+PASS actor framed Memory EquipmentRoom Left
+PASS visible feet above letterbox Memory EquipmentRoom Left y=0.1609998
+PASS settled Memory_SecurityRoom_Right
+PASS original E dialogue and transaction finished
+PASS actor framed Memory EquipmentRoom Middle
+PASS visible feet above letterbox Memory EquipmentRoom Middle y=0.1609998
+PASS settled Memory_EquipmentRoom_Left
+PASS original E dialogue and transaction finished
+PASS actor framed Memory EquipmentRoom Right
+PASS visible feet above letterbox Memory EquipmentRoom Right y=0.1609998
+PASS settled Memory_EquipmentRoom_Middle
+PASS original E dialogue and transaction finished
+PASS actor framed Memory Class3_2 Left
+PASS visible feet above letterbox Memory Class3_2 Left y=0.1609998
+PASS settled Memory_EquipmentRoom_Right
+PASS original E dialogue and transaction finished
+PASS actor framed Memory Class3_2 Middle
+PASS visible feet above letterbox Memory Class3_2 Middle y=0.1609993
+PASS settled Memory_Class3_2_Left
+PASS original E dialogue and transaction finished
+PASS actor framed Memory Class3_2 Right
+PASS visible feet above letterbox Memory Class3_2 Right y=0.1609993
+PASS settled Memory_Class3_2_Middle
+PASS original E dialogue and transaction finished
+PASS actor framed Memory Class3_1 Left
+PASS visible feet above letterbox Memory Class3_1 Left y=0.1609993
+PASS settled Memory_Class3_2_Right
+PASS original E dialogue and transaction finished
+PASS actor framed Memory Class3_1 Middle
+PASS visible feet above letterbox Memory Class3_1 Middle y=0.1609993
+PASS settled Memory_Class3_1_Left
+PASS original E dialogue and transaction finished
+PASS actor framed Memory Class3_1 Right
+PASS visible feet above letterbox Memory Class3_1 Right y=0.1609993
+PASS settled Memory_Class3_1_Middle
+PASS original E dialogue and transaction finished
+PASS actor framed Memory MaleToilet Left
+PASS visible feet above letterbox Memory MaleToilet Left y=0.1609993
+PASS settled Memory_Class3_1_Right
+PASS original E dialogue and transaction finished
+PASS actor framed Memory MaleToilet Middle
+PASS visible feet above letterbox Memory MaleToilet Middle y=0.1609993
+PASS settled Memory_MaleToilet_Left
+PASS original E dialogue and transaction finished
+PASS actor framed Memory MaleToilet Right
+PASS visible feet above letterbox Memory MaleToilet Right y=0.1609993
+PASS settled Memory_MaleToilet_Middle
+PASS original E dialogue and transaction finished
+PASS actor framed Memory StaffOffice Left
+PASS visible feet above letterbox Memory StaffOffice Left y=0.1610012
+PASS settled Memory_MaleToilet_Right
+PASS original E dialogue and transaction finished
+PASS actor framed Memory StaffOffice Middle
+PASS visible feet above letterbox Memory StaffOffice Middle y=0.1610012
+PASS settled Memory_StaffOffice_Left
+PASS original E dialogue and transaction finished
+PASS actor framed Memory StaffOffice Right
+PASS visible feet above letterbox Memory StaffOffice Right y=0.1610012
+PASS settled Memory_StaffOffice_Middle
+PASS original E dialogue and transaction finished
+PASS settled original gateway Stair_F01_F02_Right_AtoB
+PASS grounded arrival Stair_F01_F02_Right_AtoB
+PASS original gate destination Memory Stair_F01_F02_Right_AtoB
+PASS original E dialogue and transaction finished
+PASS settled original gateway Stair_F01_F02_Right_BtoA
+PASS grounded arrival Stair_F01_F02_Right_BtoA
+PASS original gate destination Memory Stair_F01_F02_Right_BtoA
+PASS original E dialogue and transaction finished
+PASS settled original gateway Stair_F02_F03_Left_AtoB
+PASS grounded arrival Stair_F02_F03_Left_AtoB
+PASS original gate destination Memory Stair_F02_F03_Left_AtoB
+PASS original E dialogue and transaction finished
+PASS settled original gateway Stair_F02_F03_Left_BtoA
+PASS grounded arrival Stair_F02_F03_Left_BtoA
+PASS original gate destination Memory Stair_F02_F03_Left_BtoA
+PASS original E dialogue and transaction finished
+PASS original blocked gate preserved Memory Stair_F03_Roof_Left_AtoB
+PASS original E dialogue and transaction finished
+PASS original blocked gate preserved Memory Stair_F03_Roof_Left_BtoA
+PASS original E dialogue and transaction finished
+PASS original blocked gate preserved Memory Stair_F03_Roof_Right_AtoB
+PASS original E dialogue and transaction finished
+PASS original blocked gate preserved Memory Stair_F03_Roof_Right_BtoA
+PASS original E dialogue and transaction finished
+PASS settled original gateway Class3_2_Back_AtoB
+PASS grounded arrival Class3_2_Back_AtoB
+PASS original gate destination Memory Class3_2_Back_AtoB
+PASS original E dialogue and transaction finished
+PASS settled original gateway Class3_2_Back_BtoA
+PASS grounded arrival Class3_2_Back_BtoA
+PASS original gate destination Memory Class3_2_Back_BtoA
+PASS original E dialogue and transaction finished
+PASS settled original gateway Class3_2_Front_AtoB
+PASS grounded arrival Class3_2_Front_AtoB
+PASS original gate destination Memory Class3_2_Front_AtoB
+PASS original E dialogue and transaction finished
+PASS settled original gateway Class3_2_Front_BtoA
+PASS grounded arrival Class3_2_Front_BtoA
+PASS original gate destination Memory Class3_2_Front_BtoA
+PASS original E dialogue and transaction finished
+PASS settled original gateway Class3_1_Back_AtoB
+PASS grounded arrival Class3_1_Back_AtoB
+PASS original gate destination Memory Class3_1_Back_AtoB
+PASS original E dialogue and transaction finished
+PASS settled original gateway Class3_1_Back_BtoA
+PASS grounded arrival Class3_1_Back_BtoA
+PASS original gate destination Memory Class3_1_Back_BtoA
+PASS original E dialogue and transaction finished
+PASS settled original gateway Class3_1_Front_AtoB
+PASS grounded arrival Class3_1_Front_AtoB
+PASS original gate destination Memory Class3_1_Front_AtoB
+PASS original E dialogue and transaction finished
+PASS settled original gateway Class3_1_Front_BtoA
+PASS grounded arrival Class3_1_Front_BtoA
+PASS original gate destination Memory Class3_1_Front_BtoA
+PASS original E dialogue and transaction finished
+PASS settled original gateway MaleToilet_Door_AtoB
+PASS grounded arrival MaleToilet_Door_AtoB
+PASS original gate destination Memory MaleToilet_Door_AtoB
+PASS original E dialogue and transaction finished
+PASS settled original gateway MaleToilet_Door_BtoA
+PASS grounded arrival MaleToilet_Door_BtoA
+PASS original gate destination Memory MaleToilet_Door_BtoA
+PASS original E dialogue and transaction finished
+PASS settled original gateway StaffOffice_Door_AtoB
+PASS grounded arrival StaffOffice_Door_AtoB
+PASS original gate destination Memory StaffOffice_Door_AtoB
+PASS original E dialogue and transaction finished
+PASS settled original gateway StaffOffice_Door_BtoA
+PASS grounded arrival StaffOffice_Door_BtoA
+PASS original gate destination Memory StaffOffice_Door_BtoA
+PASS settled original gateway StaffOffice_Door_BtoA
+PASS original E dialogue and transaction finished
+PASS settled original gateway Equipment_Door_BtoA
+PASS grounded arrival Equipment_Door_BtoA
+PASS continuous position reached 47
+PASS no teleport on walking path 47 max frame delta=0.06486511
+PASS right reading reverse walk Memory
+PASS continuous position reached 25
+PASS no teleport on walking path 25 max frame delta=0.0691185
+PASS left reading reverse walk Memory
+PASS settled continuous native walk to 25
+PASS NPC complete source painting never switched or flashed
+PASS NPC world roots and scale remain fixed
+PASS desks chairs monitors and shoe vertices remain pinned
+PASS continuous local motion observed C01 range=0.08584701
+PASS continuous local motion observed S01 range=0.003768732
+PASS continuous local motion observed S02 range=0.003541618
+PASS continuous local motion observed S04 range=0.002988484
+PASS continuous local motion observed S05 range=0.003052374
+PASS continuous local motion observed S06 range=0.003086696
+PASS continuous local motion observed S07 range=0.003257585
+PASS continuous local motion observed R01 range=0.002958517
+PASS continuous local motion observed S03 range=0.007028305
+PASS continuous local motion observed ZhangRuoyuan range=0.002840356
+PASS continuous local motion observed Director range=0.003300368
+PASS continuous local motion observed T01 range=0.007350242
+PASS continuous local motion observed T02 range=0.004154611
+PASS visible feet above letterbox corridor after turn y=0.1609993
+PASS settled 51_CourtStudents
+PASS visible feet above letterbox corridor pause resume y=0.1609993
+PASS settled 52_CorridorTurn
+PASS NPC complete source painting never switched or flashed
+PASS NPC world roots and scale remain fixed
+PASS desks chairs monitors and shoe vertices remain pinned
+PASS continuous local motion observed C01 range=0.08584881
+PASS continuous local motion observed S01 range=0.003768029
+PASS continuous local motion observed S02 range=0.003541761
+PASS continuous local motion observed S04 range=0.002988237
+PASS continuous local motion observed S05 range=0.003052996
+PASS continuous local motion observed S06 range=0.003086722
+PASS continuous local motion observed S07 range=0.003257662
+PASS continuous local motion observed R01 range=0.002958516
+PASS continuous local motion observed S03 range=0.007028511
+PASS continuous local motion observed ZhangRuoyuan range=0.002840034
+PASS continuous local motion observed Director range=0.003300217
+PASS continuous local motion observed T01 range=0.007350543
+PASS continuous local motion observed T02 range=0.004155051
+PASS six distinct corridor students
+PASS no floating character name labels

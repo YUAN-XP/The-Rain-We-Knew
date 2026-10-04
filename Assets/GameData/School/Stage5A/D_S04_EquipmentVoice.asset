@@ -17,23 +17,25 @@ MonoBehaviour:
     characterId: 2
     age: 0
     portraitMode: 0
-    portraitKey: ""
+    portraitKey: 
     text: "\u6709\u4EBA\u5728\u91CC\u9762\u5417\uFF1F"
   - speaker: ???
     characterId: 23
     age: 0
-    portraitMode: 1
-    portraitKey: ""
+    portraitMode: 2
+    portraitKey: P05_Anonymous_CLOSEUP
     text: "\u4ED6\u4EEC\u628A\u6211\u9501\u91CC\u9762\u4E86\uFF0C\u94A5\u5319\u88AB\u4ED6\u4EEC\u62FF\u8D70\u4E86\u3002"
   - speaker: "\u8096\u9E4F"
     characterId: 2
     age: 0
     portraitMode: 0
-    portraitKey: ""
+    portraitKey: 
     text: "\u4F60\u662F\u8C01\uFF0C\u6211\u8981\u53BB\u54EA\u91CC\u627E\u4ED6\u4EEC\uFF1F"
   - speaker: 
     characterId: 1
     age: 0
     portraitMode: 1
-    portraitKey: ""
+    portraitKey: 
     text: "\u6CA1\u6709\u56DE\u5E94..."
+  hideAllPortraits: 0
+  minimumReadSeconds: 0

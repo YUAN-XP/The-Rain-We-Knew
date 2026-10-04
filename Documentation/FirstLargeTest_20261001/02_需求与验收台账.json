@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "id": "M01",
     "title": "记者与证件套",
@@ -1368,17 +1368,24 @@
     "actions": "重做连接拓扑/预加载过渡带；取消E入口切图",
     "acceptance": "从住宅走入黑雾并连到学校；无黑屏传送和全景闪现",
     "code_entry": "School/SchoolLayoutController.cs; School/SchoolLayoutData.cs; School/SchoolSceneController.cs; School/SchoolYouthController.cs; School/BasketballThrowController.cs; School/FogIntroController.cs; School/FogSchoolReturn.cs; Assets/GameData/School/SchoolLayout.asset",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "P05Evidence/checks/part0/results.txt",
+      "P05Evidence/checks/part3/results.txt",
+      "31_P05阶段报告与人工审计.md",
+      "P05Evidence/review.html"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [
       "B01",
       "B03",
       "B04",
       "B05"
     ],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "住宅与校园增量常驻；按原持灯条件直接穿黑雾步行接入，保留原入口对白、问询和长按驱散顺序。",
+    "verification_scope": "Editor隔离夹具，原输入回放/交互接口及实际画面；不是全Demo手工通关；人工审美待审核"
   },
   {
     "id": "M38",
@@ -1397,17 +1404,23 @@
     "actions": "替换占位人；匿名说话者使用黑色剪影",
     "acceptance": "场景无方块纸片；不显示邱天或泄露身份",
     "code_entry": "School/SchoolLayoutController.cs; School/SchoolLayoutData.cs; School/SchoolSceneController.cs; School/SchoolYouthController.cs; School/BasketballThrowController.cs; School/FogIntroController.cs; School/FogSchoolReturn.cs; Assets/GameData/School/SchoolLayout.asset",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "P05Evidence/checks/part0/results.txt",
+      "31_P05阶段报告与人工审计.md",
+      "P05Evidence/review.html"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [
       "B01",
       "B03",
       "B04",
       "B05"
     ],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "黑雾群像换成连续手绘剪影；发言者保持未知身份，不误绑定邱天。",
+    "verification_scope": "Editor隔离夹具，原输入回放/交互接口及实际画面；不是全Demo手工通关；人工审美待审核"
   },
   {
     "id": "M39",
@@ -1428,17 +1441,26 @@
     "actions": "学校左侧雾挡；灯油恢复后直接走回住宅",
     "acceptance": "往返同一连通规则；门禁前不可穿越，解锁后流畅",
     "code_entry": "School/SchoolLayoutController.cs; School/SchoolLayoutData.cs; School/SchoolSceneController.cs; School/SchoolYouthController.cs; School/BasketballThrowController.cs; School/FogIntroController.cs; School/FogSchoolReturn.cs; Assets/GameData/School/SchoolLayout.asset",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "P05Evidence/checks/part1/results.txt",
+      "P05Evidence/checks/part3/results.txt",
+      "P05Evidence/checks/part8/results.txt",
+      "P05Evidence/checks/part9/results.txt",
+      "31_P05阶段报告与人工审计.md",
+      "P05Evidence/review.html"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [
       "B01",
       "B03",
       "B04",
       "B05"
     ],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "恢复油灯且完成原追逐后，从校园连续走回住宅；此前边界继续阻挡；存读档恢复场景接管关系。",
+    "verification_scope": "Editor隔离夹具，原输入回放/交互接口及实际画面；不是全Demo手工通关；人工审美待审核"
   },
   {
     "id": "M40",
@@ -1458,17 +1480,24 @@
     "actions": "窗看进安保室；生成匹配现风格室内近景",
     "acceptance": "窗口方向正确；无矢量方块替代最终画面；线索仍可读",
     "code_entry": "School/SchoolLayoutController.cs; School/SchoolLayoutData.cs; School/SchoolSceneController.cs; School/SchoolYouthController.cs; School/BasketballThrowController.cs; School/FogIntroController.cs; School/FogSchoolReturn.cs; Assets/GameData/School/SchoolLayout.asset",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "P05Evidence/checks/part1/results.txt",
+      "P05Evidence/checks/part2/results.txt",
+      "31_P05阶段报告与人工审计.md",
+      "P05Evidence/review.html"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [
       "B01",
       "B03",
       "B04",
       "B05"
     ],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "安保窗调查展示朝向正确的室内手绘近景，保留原调查与关闭控制。",
+    "verification_scope": "Editor隔离夹具，原输入回放/交互接口及实际画面；不是全Demo手工通关；人工审美待审核"
   },
   {
     "id": "M41",
@@ -1487,17 +1516,25 @@
     "actions": "门槛对墙脚且与互动一致",
     "acceptance": "每扇门都测两侧进出，无门插地",
     "code_entry": "School/SchoolLayoutController.cs; School/SchoolLayoutData.cs; School/SchoolSceneController.cs; School/SchoolYouthController.cs; School/BasketballThrowController.cs; School/FogIntroController.cs; School/FogSchoolReturn.cs; Assets/GameData/School/SchoolLayout.asset",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "P05Evidence/checks/part4/results.txt",
+      "P05Evidence/checks/part5/results.txt",
+      "P05Evidence/checks/part8/results.txt",
+      "31_P05阶段报告与人工审计.md",
+      "P05Evidence/review.html"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [
       "B01",
       "B03",
       "B04",
       "B05"
     ],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "统一校园门脚和门口支撑高度，按原门户定义逐扇验证允许进出或锁定。",
+    "verification_scope": "Editor隔离夹具，原输入回放/交互接口及实际画面；不是全Demo手工通关；人工审美待审核"
   },
   {
     "id": "M42",
@@ -1516,17 +1553,23 @@
     "actions": "独立未知人剪影绑定",
     "acceptance": "不显示邱天；名字按未知规则",
     "code_entry": "School/SchoolLayoutController.cs; School/SchoolLayoutData.cs; School/SchoolSceneController.cs; School/SchoolYouthController.cs; School/BasketballThrowController.cs; School/FogIntroController.cs; School/FogSchoolReturn.cs; Assets/GameData/School/SchoolLayout.asset",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "P05Evidence/checks/part1/results.txt",
+      "31_P05阶段报告与人工审计.md",
+      "P05Evidence/review.html"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [
       "B01",
       "B03",
       "B04",
       "B05"
     ],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "器材室未知声音使用未知说话者，无邱天名字或立绘泄漏。",
+    "verification_scope": "Editor隔离夹具，原输入回放/交互接口及实际画面；不是全Demo手工通关；人工审美待审核"
   },
   {
     "id": "M43",
@@ -1545,17 +1588,24 @@
     "actions": "重新标定门和楼梯规格",
     "acceptance": "成人通过不显巨物；正常/记忆状态对应",
     "code_entry": "School/SchoolLayoutController.cs; School/SchoolLayoutData.cs; School/SchoolSceneController.cs; School/SchoolYouthController.cs; School/BasketballThrowController.cs; School/FogIntroController.cs; School/FogSchoolReturn.cs; Assets/GameData/School/SchoolLayout.asset",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "P05Evidence/checks/part4/results.txt",
+      "P05Evidence/checks/part5/results.txt",
+      "31_P05阶段报告与人工审计.md",
+      "P05Evidence/review.html"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [
       "B01",
       "B03",
       "B04",
       "B05"
     ],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "校园门高2.35、楼梯门与层高统一，在两种世界按成人尺寸检查。",
+    "verification_scope": "Editor隔离夹具，原输入回放/交互接口及实际画面；不是全Demo手工通关；人工审美待审核"
   },
   {
     "id": "M44",
@@ -1574,17 +1624,25 @@
     "actions": "清除旧重复背景，统一中远近景衔接",
     "acceptance": "仍为室外；走动全宽没有重叠、亮缝或纹理打架",
     "code_entry": "School/SchoolLayoutController.cs; School/SchoolLayoutData.cs; School/SchoolSceneController.cs; School/SchoolYouthController.cs; School/BasketballThrowController.cs; School/FogIntroController.cs; School/FogSchoolReturn.cs; Assets/GameData/School/SchoolLayout.asset",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "P05Evidence/checks/part1/results.txt",
+      "P05Evidence/checks/part4/results.txt",
+      "P05Evidence/checks/part7/results.txt",
+      "31_P05阶段报告与人工审计.md",
+      "P05Evidence/review.html"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [
       "B01",
       "B03",
       "B04",
       "B05"
     ],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "保留室外球场；清除旧重叠地面，墙图裁掉内嵌天空/地面，统一安静地面，全宽检查。",
+    "verification_scope": "Editor隔离夹具，原输入回放/交互接口及实际画面；不是全Demo手工通关；人工审美待审核"
   },
   {
     "id": "M45",
@@ -1603,17 +1661,23 @@
     "actions": "手部锚点持球；缩球架距离与一二楼空走廊",
     "acceptance": "真实鼠标拖拽可命中、掉钥匙、拾取开门；失败可重试",
     "code_entry": "School/SchoolLayoutController.cs; School/SchoolLayoutData.cs; School/SchoolSceneController.cs; School/SchoolYouthController.cs; School/BasketballThrowController.cs; School/FogIntroController.cs; School/FogSchoolReturn.cs; Assets/GameData/School/SchoolLayout.asset",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "P05Evidence/checks/part1/results.txt",
+      "31_P05阶段报告与人工审计.md",
+      "P05Evidence/review.html"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [
       "B01",
       "B03",
       "B04",
       "B05"
     ],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "投篮时篮球挂到现有真实手锚；缩短球场投掷距离，保留原鼠标物理投篮、失败重试、掉钥匙及拾取。",
+    "verification_scope": "Editor隔离夹具，原输入回放/交互接口及实际画面；不是全Demo手工通关；人工审美待审核"
   },
   {
     "id": "M46",
@@ -1632,17 +1696,24 @@
     "actions": "缩短房间，减少乱放重复球架；校服合理放置",
     "acceptance": "入口中间末端完整检查；球架校服不悬空且可互动",
     "code_entry": "School/SchoolLayoutController.cs; School/SchoolLayoutData.cs; School/SchoolSceneController.cs; School/SchoolYouthController.cs; School/BasketballThrowController.cs; School/FogIntroController.cs; School/FogSchoolReturn.cs; Assets/GameData/School/SchoolLayout.asset",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "P05Evidence/checks/part1/results.txt",
+      "P05Evidence/checks/part4/results.txt",
+      "31_P05阶段报告与人工审计.md",
+      "P05Evidence/review.html"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [
       "B01",
       "B03",
       "B04",
       "B05"
     ],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "器材室缩至11单位，整理球架与地面校服，入口、中部、末端检查。",
+    "verification_scope": "Editor隔离夹具，原输入回放/交互接口及实际画面；不是全Demo手工通关；人工审美待审核"
   },
   {
     "id": "M47",
@@ -1661,17 +1732,24 @@
     "actions": "两世界楼梯采用下行视觉与目标连接",
     "acceptance": "一二楼上下往返视觉拓扑一致",
     "code_entry": "School/SchoolLayoutController.cs; School/SchoolLayoutData.cs; School/SchoolSceneController.cs; School/SchoolYouthController.cs; School/BasketballThrowController.cs; School/FogIntroController.cs; School/FogSchoolReturn.cs; Assets/GameData/School/SchoolLayout.asset",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "P05Evidence/checks/part4/results.txt",
+      "P05Evidence/checks/part8/results.txt",
+      "31_P05阶段报告与人工审计.md",
+      "P05Evidence/review.html"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [
       "B01",
       "B03",
       "B04",
       "B05"
     ],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "二楼下行楼梯与一楼上行入口对齐，两种世界保留原连接。",
+    "verification_scope": "Editor隔离夹具，原输入回放/交互接口及实际画面；不是全Demo手工通关；人工审美待审核"
   },
   {
     "id": "M48",
@@ -1690,17 +1768,25 @@
     "actions": "缩教室，桌椅后排与人物前走道分开",
     "acceptance": "桌椅脚确实在地面且不与人共错层；双门有效",
     "code_entry": "School/SchoolLayoutController.cs; School/SchoolLayoutData.cs; School/SchoolSceneController.cs; School/SchoolYouthController.cs; School/BasketballThrowController.cs; School/FogIntroController.cs; School/FogSchoolReturn.cs; Assets/GameData/School/SchoolLayout.asset",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "P05Evidence/checks/part2/results.txt",
+      "P05Evidence/checks/part4/results.txt",
+      "P05Evidence/checks/part7/results.txt",
+      "31_P05阶段报告与人工审计.md",
+      "P05Evidence/review.html"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [
       "B01",
       "B03",
       "B04",
       "B05"
     ],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "两间教室缩为14/16单位，家具后排落脚与主角前排脚线分开，双门仍有效。",
+    "verification_scope": "Editor隔离夹具，原输入回放/交互接口及实际画面；不是全Demo手工通关；人工审美待审核"
   },
   {
     "id": "M49",
@@ -1719,17 +1805,23 @@
     "actions": "重画桌面、臂、字迹、抓来的手；字迹程序呈现",
     "acceptance": "写出姓名与抓腕按顺序触发；不预露完整答案，无多手",
     "code_entry": "School/SchoolLayoutController.cs; School/SchoolLayoutData.cs; School/SchoolSceneController.cs; School/SchoolYouthController.cs; School/BasketballThrowController.cs; School/FogIntroController.cs; School/FogSchoolReturn.cs; Assets/GameData/School/SchoolLayout.asset",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "P05Evidence/checks/part1/results.txt",
+      "31_P05阶段报告与人工审计.md",
+      "P05Evidence/review.html"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [
       "B01",
       "B03",
       "B04",
       "B05"
     ],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "拓印桌面与手部采用手绘素材，沿用姓名显现和随后抓腕的原触发顺序，不预露完整答案。",
+    "verification_scope": "Editor隔离夹具，原输入回放/交互接口及实际画面；不是全Demo手工通关；人工审美待审核"
   },
   {
     "id": "M50",
@@ -1748,17 +1840,26 @@
     "actions": "清除右向校服旧叠层；郑涛站位移到正确行走带",
     "acceptance": "左/右/转向及暂停恢复均无虚影；桌椅不穿插",
     "code_entry": "School/SchoolLayoutController.cs; School/SchoolLayoutData.cs; School/SchoolSceneController.cs; School/SchoolYouthController.cs; School/BasketballThrowController.cs; School/FogIntroController.cs; School/FogSchoolReturn.cs; Assets/GameData/School/SchoolLayout.asset",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "P05Evidence/checks/part1/results.txt",
+      "P05Evidence/checks/part2/results.txt",
+      "P05Evidence/checks/part4/results.txt",
+      "P05Evidence/checks/part6/results.txt",
+      "31_P05阶段报告与人工审计.md",
+      "P05Evidence/review.html"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [
       "B01",
       "B03",
       "B04",
       "B05"
     ],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "高中肖鹏沿用P02绑定；移除旧虚影显示，郑涛座位固定落地，复查朝向、暂停恢复与遮挡。",
+    "verification_scope": "Editor隔离夹具，原输入回放/交互接口及实际画面；不是全Demo手工通关；人工审美待审核"
   },
   {
     "id": "M51",
@@ -1777,17 +1878,24 @@
     "actions": "核对生成点与可见脚底",
     "acceptance": "学生脚落地，镜头移动不飘",
     "code_entry": "School/SchoolLayoutController.cs; School/SchoolLayoutData.cs; School/SchoolSceneController.cs; School/SchoolYouthController.cs; School/BasketballThrowController.cs; School/FogIntroController.cs; School/FogSchoolReturn.cs; Assets/GameData/School/SchoolLayout.asset",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "P05Evidence/checks/part4/results.txt",
+      "P05Evidence/checks/part7/results.txt",
+      "31_P05阶段报告与人工审计.md",
+      "P05Evidence/review.html"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [
       "B01",
       "B03",
       "B04",
       "B05"
     ],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "学生与桌椅固定后排支撑线，整幅画面不换帧位移，镜头移动时不漂浮。",
+    "verification_scope": "Editor隔离夹具，原输入回放/交互接口及实际画面；不是全Demo手工通关；人工审美待审核"
   },
   {
     "id": "M52",
@@ -1806,17 +1914,25 @@
     "actions": "压缩空路，加不同学生和贴墙鞋柜",
     "acceptance": "不重复同一NPC充数；通路、门窗、交互均可读",
     "code_entry": "School/SchoolLayoutController.cs; School/SchoolLayoutData.cs; School/SchoolSceneController.cs; School/SchoolYouthController.cs; School/BasketballThrowController.cs; School/FogIntroController.cs; School/FogSchoolReturn.cs; Assets/GameData/School/SchoolLayout.asset",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "P05Evidence/checks/part4/results.txt",
+      "P05Evidence/checks/part6/results.txt",
+      "P05Evidence/checks/part7/results.txt",
+      "31_P05阶段报告与人工审计.md",
+      "P05Evidence/review.html"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [
       "B01",
       "B03",
       "B04",
       "B05"
     ],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "二楼走廊缩至36单位；六名不同学生、鞋柜和门窗布置，保留通路与原人群阻挡。",
+    "verification_scope": "Editor隔离夹具，原输入回放/交互接口及实际画面；不是全Demo手工通关；人工审美待审核"
   },
   {
     "id": "M53",
@@ -1835,17 +1951,25 @@
     "actions": "消除浮空分身与头顶标签；正确张若媛立绘",
     "acceptance": "身份映射准确；单个稳定NPC ID仅一个实例",
     "code_entry": "School/SchoolLayoutController.cs; School/SchoolLayoutData.cs; School/SchoolSceneController.cs; School/SchoolYouthController.cs; School/BasketballThrowController.cs; School/FogIntroController.cs; School/FogSchoolReturn.cs; Assets/GameData/School/SchoolLayout.asset",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "P05Evidence/checks/part2/results.txt",
+      "P05Evidence/checks/part4/results.txt",
+      "P05Evidence/checks/part7/results.txt",
+      "31_P05阶段报告与人工审计.md",
+      "P05Evidence/review.html"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [
       "B01",
       "B03",
       "B04",
       "B05"
     ],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "张若媛实际对白绑定正确立绘；学生使用不同身份源图，不悬挂姓名标签，同一NPC ID不重复。",
+    "verification_scope": "Editor隔离夹具，原输入回放/交互接口及实际画面；不是全Demo手工通关；人工审美待审核"
   },
   {
     "id": "M54",
@@ -1866,17 +1990,24 @@
     "actions": "按原图不规整九格和直线连接重绘，保留密码语义",
     "acceptance": "逐点对照原图70；九格非正方阵，无箭头，无错误连线",
     "code_entry": "School/SchoolLayoutController.cs; School/SchoolLayoutData.cs; School/SchoolSceneController.cs; School/SchoolYouthController.cs; School/BasketballThrowController.cs; School/FogIntroController.cs; School/FogSchoolReturn.cs; Assets/GameData/School/SchoolLayout.asset",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "P05Evidence/checks/part2/results.txt",
+      "P05Evidence/checks/part4/results.txt",
+      "31_P05阶段报告与人工审计.md",
+      "P05Evidence/review.html"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [
       "B01",
       "B03",
       "B04",
       "B05"
     ],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "按文档第70图散置九格便利贴，保留直线连接、不加箭头；底纸与逻辑线索分开。",
+    "verification_scope": "Editor隔离夹具，原输入回放/交互接口及实际画面；不是全Demo手工通关；人工审美待审核"
   },
   {
     "id": "M55",
@@ -1895,17 +2026,26 @@
     "actions": "加监控，调整桌尺寸及门距，右界操作台后",
     "acceptance": "线索/电脑可操作；无大片空白或过小工作台",
     "code_entry": "School/SchoolLayoutController.cs; School/SchoolLayoutData.cs; School/SchoolSceneController.cs; School/SchoolYouthController.cs; School/BasketballThrowController.cs; School/FogIntroController.cs; School/FogSchoolReturn.cs; Assets/GameData/School/SchoolLayout.asset",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "P05Evidence/checks/part1/results.txt",
+      "P05Evidence/checks/part2/results.txt",
+      "P05Evidence/checks/part4/results.txt",
+      "P05Evidence/checks/part8/results.txt",
+      "31_P05阶段报告与人工审计.md",
+      "P05Evidence/review.html"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [
       "B01",
       "B03",
       "B04",
       "B05"
     ],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "安保室缩至9单位；墙上监控、正面工作台和柜子重新布置，原密码与电脑功能保留。",
+    "verification_scope": "Editor隔离夹具，原输入回放/交互接口及实际画面；不是全Demo手工通关；人工审美待审核"
   },
   {
     "id": "M56",
@@ -1926,17 +2066,25 @@
     "actions": "替换普通门为铁栅楼梯间门",
     "acceptance": "明确是楼梯入口，世界锁定规则保留",
     "code_entry": "School/SchoolLayoutController.cs; School/SchoolLayoutData.cs; School/SchoolSceneController.cs; School/SchoolYouthController.cs; School/BasketballThrowController.cs; School/FogIntroController.cs; School/FogSchoolReturn.cs; Assets/GameData/School/SchoolLayout.asset",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "P05Evidence/checks/part4/results.txt",
+      "P05Evidence/checks/part5/results.txt",
+      "P05Evidence/checks/part8/results.txt",
+      "31_P05阶段报告与人工审计.md",
+      "P05Evidence/review.html"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [
       "B01",
       "B03",
       "B04",
       "B05"
     ],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "三楼上下楼入口改为铁制楼梯门，原正常/记忆世界门禁保留。",
+    "verification_scope": "Editor隔离夹具，原输入回放/交互接口及实际画面；不是全Demo手工通关；人工审美待审核"
   },
   {
     "id": "M57",
@@ -1955,17 +2103,25 @@
     "actions": "取消门割裂；改为连接三楼两段的开放长廊",
     "acceptance": "两端连续步行；里世界障碍不被新通路绕过",
     "code_entry": "School/SchoolLayoutController.cs; School/SchoolLayoutData.cs; School/SchoolSceneController.cs; School/SchoolYouthController.cs; School/BasketballThrowController.cs; School/FogIntroController.cs; School/FogSchoolReturn.cs; Assets/GameData/School/SchoolLayout.asset",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "P05Evidence/checks/part2/results.txt",
+      "P05Evidence/checks/part4/results.txt",
+      "P05Evidence/checks/part8/results.txt",
+      "31_P05阶段报告与人工审计.md",
+      "P05Evidence/review.html"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [
       "B01",
       "B03",
       "B04",
       "B05"
     ],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "三楼公共阅读区设于x26–48，左右边界连续步行接入；追逐路线记录与世界阻挡继续有效。",
+    "verification_scope": "Editor隔离夹具，原输入回放/交互接口及实际画面；不是全Demo手工通关；人工审美待审核"
   },
   {
     "id": "M58",
@@ -1984,17 +2140,24 @@
     "actions": "补书绿植学生与公共家具，恢复可坐长椅音乐观景",
     "acceptance": "非教室桌排；进出休憩控制正常；休憩音乐与环境音范围区分",
     "code_entry": "School/SchoolLayoutController.cs; School/SchoolLayoutData.cs; School/SchoolSceneController.cs; School/SchoolYouthController.cs; School/BasketballThrowController.cs; School/FogIntroController.cs; School/FogSchoolReturn.cs; Assets/GameData/School/SchoolLayout.asset",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "P05Evidence/checks/part2/results.txt",
+      "P05Evidence/checks/part4/results.txt",
+      "31_P05阶段报告与人工审计.md",
+      "P05Evidence/review.html"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [
       "B01",
       "B03",
       "B04",
       "B05"
     ],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "阅读区用长椅、绿植、书架与独立读者，坐下远景复用原休憩控制与吉他音频，退出恢复行走。",
+    "verification_scope": "Editor隔离夹具，原输入回放/交互接口及实际画面；不是全Demo手工通关；人工审美待审核"
   },
   {
     "id": "M59",
@@ -2013,17 +2176,26 @@
     "actions": "缩短办公室、统一人桌比例，补教师，去头顶标签",
     "acceptance": "主任不叠桌；写字打字循环；任务递交仍可完成",
     "code_entry": "School/SchoolLayoutController.cs; School/SchoolLayoutData.cs; School/SchoolSceneController.cs; School/SchoolYouthController.cs; School/BasketballThrowController.cs; School/FogIntroController.cs; School/FogSchoolReturn.cs; Assets/GameData/School/SchoolLayout.asset",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "P05Evidence/checks/part2/results.txt",
+      "P05Evidence/checks/part4/results.txt",
+      "P05Evidence/checks/part7/results.txt",
+      "P05Evidence/checks/part8/results.txt",
+      "31_P05阶段报告与人工审计.md",
+      "P05Evidence/review.html"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [
       "B01",
       "B03",
       "B04",
       "B05"
     ],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "办公室缩至14单位，主任与桌分层，教师原地写字/打字；原U盘提交、告别及出门触发仍有效。",
+    "verification_scope": "Editor隔离夹具，原输入回放/交互接口及实际画面；不是全Demo手工通关；人工审美待审核"
   },
   {
     "id": "M60",
@@ -2071,17 +2243,25 @@
     "actions": "补完整城市远景覆盖全部可见范围",
     "acceptance": "两端及相机移动无黑色缺口",
     "code_entry": "School/SchoolLayoutController.cs; School/SchoolLayoutData.cs; School/SchoolSceneController.cs; School/SchoolYouthController.cs; School/BasketballThrowController.cs; School/FogIntroController.cs; School/FogSchoolReturn.cs; Assets/GameData/School/SchoolLayout.asset",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "P05Evidence/checks/part4/results.txt",
+      "P05Evidence/checks/part5/results.txt",
+      "P05Evidence/checks/part8/results.txt",
+      "31_P05阶段报告与人工审计.md",
+      "P05Evidence/review.html"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [
       "B01",
       "B03",
       "B04",
       "B05"
     ],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "完整天台恐怖远景覆盖全宽，两种世界左中右及真实移动检查无黑色缺口。",
+    "verification_scope": "Editor隔离夹具，原输入回放/交互接口及实际画面；不是全Demo手工通关；人工审美待审核"
   },
   {
     "id": "M62",
@@ -2100,17 +2280,25 @@
     "actions": "删除中央不可用楼梯，将形象用于真实两端出口",
     "acceptance": "中央无误导热点；两端上下楼仍正确",
     "code_entry": "School/SchoolLayoutController.cs; School/SchoolLayoutData.cs; School/SchoolSceneController.cs; School/SchoolYouthController.cs; School/BasketballThrowController.cs; School/FogIntroController.cs; School/FogSchoolReturn.cs; Assets/GameData/School/SchoolLayout.asset",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "P05Evidence/checks/part4/results.txt",
+      "P05Evidence/checks/part5/results.txt",
+      "P05Evidence/checks/part8/results.txt",
+      "31_P05阶段报告与人工审计.md",
+      "P05Evidence/review.html"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [
       "B01",
       "B03",
       "B04",
       "B05"
     ],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "两端真实楼梯出口x16/70，取消中央误导入口，保留两端原门户连接。",
+    "verification_scope": "Editor隔离夹具，原输入回放/交互接口及实际画面；不是全Demo手工通关；人工审美待审核"
   },
   {
     "id": "M63",
@@ -2612,12 +2800,20 @@
     "actions": "教室小动作、走廊呼吸、球场聊天看四周运球、主任呼吸和老师写字打字",
     "acceptance": "每组身份动作不同；不同步机械呼吸；椅子/桌/篮球的支撑关系正确",
     "code_entry": "School/SchoolYouthController.cs; Presentation/DemoActorArtwork.cs",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "P05Evidence/checks/part4/results.txt",
+      "P05Evidence/checks/part7/results.txt",
+      "P05Evidence/checks/part8/results.txt",
+      "31_P05阶段报告与人工审计.md",
+      "P05Evidence/review.html"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "13个校园身份采用稳定单幅画面的小幅连续动作；固定桌椅、监控与脚底，运球独立球体；暂停与相机预览隐藏一致。",
+    "verification_scope": "Editor隔离夹具，原输入回放/交互接口及实际画面；不是全Demo手工通关；人工审美待审核"
   },
   {
     "id": "A05",

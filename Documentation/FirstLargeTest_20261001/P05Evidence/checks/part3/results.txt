@@ -1,0 +1,39 @@
+PASS original E dialogue and transaction finished
+PASS settled starting
+PASS original Scene01 has no automatic movement
+PASS original start has no unearned tools
+PASS original isolated save loader 
+PASS settled isolated loader Scene04_School Floor01
+PASS load succeeds 
+PASS original E dialogue and transaction finished
+PASS actor on actual collider floor
+PASS settled isolated loader Scene04_School Floor01
+PASS settled isolated loader Scene04_School Floor01
+PASS settled isolated loader Scene04_School Floor01
+PASS settled isolated loader Scene04_School Floor01
+PASS continuous position reached 10
+PASS walking displacement matches actual speed and frame duration 10 max frame delta=0.08692932 excess=0
+PASS settled continuous native walk to 10
+PASS settled continuous native walk to 10
+PASS home ownership restored with one camera and dormant school
+PASS settled 41_WalkedHome
+PASS save free movement 
+PASS reload 42_HomeReturnReload 
+PASS settled 41_WalkedHome
+PASS restored 42_HomeReturnReload
+PASS restored position 42_HomeReturnReload
+PASS settled 41_WalkedHome
+PASS original isolated save loader 
+PASS settled isolated loader Scene04_School Floor01
+PASS load succeeds 
+PASS original E dialogue and transaction finished
+PASS actor on actual collider floor
+PASS settled isolated loader Scene04_School Floor01
+PASS old school save coordinate migrated once actual=(68.00, 1.01, 0.00)
+PASS settled isolated loader Scene04_School Floor01
+PASS save free movement 
+PASS reload 43_LegacySchoolReload 
+PASS settled isolated loader Scene04_School Floor01
+PASS restored 43_LegacySchoolReload
+PASS restored position 43_LegacySchoolReload
+PASS settled isolated loader Scene04_School Floor01

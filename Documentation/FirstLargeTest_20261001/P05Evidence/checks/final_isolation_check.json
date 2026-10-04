@@ -1,0 +1,12 @@
+{
+  "generated": "2026-10-05T02:32:44",
+  "passed": true,
+  "edit_mode_probe": "edit mode scene=Scene01_Rain replay=False serializedDrivers=0",
+  "start_evidence": "runtime/part3/results.txt",
+  "font_baseline_sha256": "8b265be2701ddc96ea3b9c17a81bd3c0895960693a3b8bd55a84ab085b5d1acf",
+  "notes": [
+    "Play Mode exited; editor restored to Scene01.",
+    "Runtime start checks used original Scene01 before any isolated fixture.",
+    "Original focus pause retained. User actual old slots were not loaded."
+  ]
+}

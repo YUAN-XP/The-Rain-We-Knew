@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
@@ -31,7 +31,7 @@ public sealed class GameSaveService : MonoBehaviour {
         foreach(var fog in FindObjectsByType<FogIntroController>())if(fog.IsActive)return false;
         foreach(var rhythm in FindObjectsByType<GuitarRhythmGame>())if(rhythm.IsRunning)return false;
         foreach(var chapter in FindObjectsByType<Scene03Chapter>())if(!chapter.Ready||chapter.Busy)return false;
-        foreach(var s in FindObjectsByType<SchoolSceneController>())if(!s.Ready||s.Busy)return false;
+        foreach(var s in FindObjectsByType<SchoolSceneController>())if(s.isActiveAndEnabled&&(!s.Ready||s.Busy))return false;
         var body=controls.ActivePlayer.GetComponent<Rigidbody2D>();
         if(body&&!controls.ActivePlayer.IsPlanarMovement&&Mathf.Abs(body.linearVelocity.y)>.15f){reason="当前无法保存：请站稳后重试。";return false;}
         if(!GroundedPlacement.IsSupported(controls.ActivePlayer)){reason="当前无法保存：请站稳后重试。";return false;}
@@ -51,10 +51,10 @@ public sealed class GameSaveService : MonoBehaviour {
             lampRaised=GetComponent<OilLampController>()?.IsRaised==true,cameraAvailable=GetComponent<CameraModeController>()?.ContextAvailable==true};
         data.items=inventory.Items.Select(i=>new SavedItem{key=Registry.Key(i),id=i.itemId,displayName=inventory.DisplayName(i),description=inventory.DisplayDescription(i)}).ToArray();
         data.files=archive.Files.Select(f=>new SavedFile{key=Registry.Key(f),id=f.fileId}).ToArray();
-        var school=FindAnyObjectByType<SchoolLayoutController>();if(school)data.school=new SavedSchool{present=true,room=school.CurrentRoom,variant=(int)school.Variant,actor=(int)school.Actor,phase=(int)school.Phase};
-        var doors=FindAnyObjectByType<ThreeDoorPuzzleController>();if(doors)data.threeDoorProgress=doors.Progress;
-        var corridor=FindAnyObjectByType<DistortedCorridorController>();if(corridor){data.distortedJoined=corridor.HasJoined;data.corridorLampStage=corridor.LampStage;}
-        data.courtyardLayoutRevision=P03SceneLayoutMigration.Revision;data.childhoodLayoutRevision=P04SceneLayoutMigration.Revision;
+        var school=FindAnyObjectByType<SchoolLayoutController>();if(school&&school.isActiveAndEnabled&&SceneManager.GetActiveScene().name=="Scene04_School")data.school=new SavedSchool{present=true,room=school.CurrentRoom,variant=(int)school.Variant,actor=(int)school.Actor,phase=(int)school.Phase};
+        var doors=FindAnyObjectByType<ThreeDoorPuzzleController>();if(doors&&doors.gameObject.scene==SceneManager.GetActiveScene())data.threeDoorProgress=doors.Progress;
+        var corridor=FindAnyObjectByType<DistortedCorridorController>();if(corridor&&corridor.gameObject.scene==SceneManager.GetActiveScene()){data.distortedJoined=corridor.HasJoined;data.corridorLampStage=corridor.LampStage;}
+        data.courtyardLayoutRevision=P03SceneLayoutMigration.Revision;data.childhoodLayoutRevision=P04SceneLayoutMigration.Revision;data.schoolLayoutRevision=P05SchoolCoordinates.Revision;
         FourSlotSaveStore.Validate(data,slot);return data;
     }
     public bool Save(int slot,bool overwrite,out string error){
@@ -91,7 +91,7 @@ public sealed class GameSaveService : MonoBehaviour {
         RuntimePanelUI.Button("重新开始",root,font,new Vector2(.53f,.3f),new Vector2(.8f,.43f),()=>P01SessionRestart.Begin(gameObject));
     }
     IEnumerator RestoreRoutine(GameSaveData data){
-        P03SceneLayoutMigration.Apply(data);P04SceneLayoutMigration.Apply(data);
+        P03SceneLayoutMigration.Apply(data);P04SceneLayoutMigration.Apply(data);P05SchoolCoordinates.Migrate(data);
         var dialogue=GetComponentInChildren<DialogueManager>(true);if(dialogue&&dialogue.IsDialogueActive())dialogue.CancelDialogue(dialogue.CurrentDialogue);
         GetComponent<CameraModeController>()?.AbortCapture();GetComponent<OilLampController>()?.LowerLamp();GetComponentInChildren<InventoryUI>(true)?.CloseInventory();
         GetComponent<SchoolChaseSession>()?.ResetForDiskLoad();GetComponent<EndingSession>()?.ResetForDiskLoad();
@@ -104,7 +104,9 @@ public sealed class GameSaveService : MonoBehaviour {
         while(quiet<3){
             bool ready=true;foreach(ControlLockReason r in Enum.GetValues(typeof(ControlLockReason)))if(r!=ControlLockReason.SaveRestore&&controls.IsLockedBy(r))ready=false;
             var child=FindAnyObjectByType<Scene03Chapter>();if(child&&!child.Ready)ready=false;
-            var school=FindAnyObjectByType<SchoolSceneController>();if(school&&!school.Ready)ready=false;
+            var school=FindAnyObjectByType<SchoolSceneController>();if(school&&school.isActiveAndEnabled&&!school.Ready)ready=false;
+            // Finish P05 neighbour residency before restoring the saved position.
+            if(data.scene=="Scene04_School"&&(!P05WorldLink.Owner||!P05WorldLink.Owner.BothResident||P05WorldLink.PreloadingScene!=null))ready=false;
             quiet=ready?quiet+1:0;if(Time.realtimeSinceStartup>deadline)throw new InvalidOperationException("场景初始化超时，未放开玩家控制");yield return null;
         }
         if(data.school.present&&story.Has(StoryFlag.SchoolChaseCompleted))FindAnyObjectByType<SchoolChaseController>()?.RestoreCompletedDiskState(data.position);
@@ -130,6 +132,6 @@ public sealed class GameSaveService : MonoBehaviour {
         restoredLamp?.RestoreUseState(data.lampRaised);
         inventory.RestoreSession(snapshot);archive.RestoreSession(data.files.Select(f=>Registry.Resolve<FileData>(f.key)).ToArray());
         quests.Restore(data.quests);acquisition.Restore(data.firstObtained);story.RefreshObservers();CompanionSaveState.Restore(data.companions);
-        GameplayClock.Restore(data.playSeconds);Physics2D.SyncTransforms();yield return null;
+        GameplayClock.Restore(data.playSeconds);Physics2D.SyncTransforms();if(data.scene=="Scene04_School")GroundedPlacement.Settle(p);yield return null;
     }
 }

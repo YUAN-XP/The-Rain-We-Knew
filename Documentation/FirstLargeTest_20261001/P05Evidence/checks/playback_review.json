@@ -1,0 +1,65 @@
+{
+  "generated": "2026-10-05T02:32:44",
+  "normal_speed_completed": true,
+  "half_speed_completed": true,
+  "clips": [
+    {
+      "file": "videos/04_ClassroomLife.mp4",
+      "bytes": 544958,
+      "sha256": "b410f3f45e737dbf4009002c788f6367feddc58904fe3e1dab003c3360b58159",
+      "duration_seconds": 18.033333,
+      "normal_rate": 1,
+      "half_rate": 0.5,
+      "normal_ended": true,
+      "half_ended": true
+    },
+    {
+      "file": "videos/06_OfficeLife.mp4",
+      "bytes": 522080,
+      "sha256": "28277e79a1e4fb0b2ed4806537ee7e60d51ba63631c828e8a3a32855d10804b7",
+      "duration_seconds": 18.033333,
+      "normal_rate": 1,
+      "half_rate": 0.5,
+      "normal_ended": true,
+      "half_ended": true
+    },
+    {
+      "file": "videos/08_CourtLife.mp4",
+      "bytes": 2911507,
+      "sha256": "0736d2a1e0acf17b1fa67edbdebf2b9c39c4d761f113fb7449002615bc763b72",
+      "duration_seconds": 18.033333,
+      "normal_rate": 1,
+      "half_rate": 0.5,
+      "normal_ended": true,
+      "half_ended": true
+    },
+    {
+      "file": "videos/09_CorridorLife.mp4",
+      "bytes": 670687,
+      "sha256": "3a98b83fdbccac3235a9eaabf759117c1b3dcf346ed954da7c690868f97faf7c",
+      "duration_seconds": 18.033333,
+      "normal_rate": 1,
+      "half_rate": 0.5,
+      "normal_ended": true,
+      "half_ended": true
+    }
+  ],
+  "method": "Actual browser playback of the same final Game recordings, with temporal screenshot inspection across the complete 18-second clips. Half speed took at least 36 seconds. Furniture, feet and root position inspected; no frame interpolation.",
+  "viewport": "Default browser viewport; user resized its panel during playback. Office half speed repeated with whole video visible; court and corridor reviewed separately at both rates.",
+  "observations": {
+    "classroom": "Desk, chair and body anchors remain fixed; small wrist and head movement. No whole-painting jump seen.",
+    "office": "Desks and monitors remain fixed; restrained writing/typing movement, no root teleport seen.",
+    "court": "NPC stays planted and ball changes height; independent gameplay pickup ball intentionally remains.",
+    "corridor": "Stable students and shoe locker; idle motion is subtle, no sudden position jump seen."
+  },
+  "manual_judgment_pending": [
+    "Movement amplitude and perceived liveliness",
+    "Campus visual atmosphere and room proportions"
+  ],
+  "not_claimed": [
+    "Every video frame inspected",
+    "Audio listening review",
+    "Complete fresh-game Demo playthrough",
+    "Visual approval of every one of the 13 NPCs in a dedicated moving closeup"
+  ]
+}

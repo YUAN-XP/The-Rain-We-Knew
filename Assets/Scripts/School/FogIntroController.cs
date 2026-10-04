@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -57,6 +57,7 @@ public partial class FogIntroController : MonoBehaviour
         if (approachingCrowd != null) crowdStart = approachingCrowd.position;
         ResetFigures(); if (fogVisualRoot != null) fogVisualRoot.SetActive(false);
     }
+    public void PrepareContinuousBackdrop(){if(Phase==FogIntroPhase.Idle&&fogVisualRoot)fogVisualRoot.SetActive(true);}
     private bool Resolve()
     {
         var runtime = PersistentRuntime.Instance;
@@ -87,6 +88,8 @@ public partial class FogIntroController : MonoBehaviour
     private IEnumerator Enter()
     {
         OwnTransition();
+        if(P05WorldLink.Available){if(fogVisualRoot)fogVisualRoot.SetActive(true);uiRoot.SetActive(true);var cam=Camera.main;var follow=cam.GetComponent<CameraFollow>();cam.orthographicSize=cameraSize;follow.SetLimits(0,82);follow.SetVerticalLimits(true,0,cameraY,cameraY);RoomPresentationFraming.PrepareCurrentView();}
+        else {
         yield return screenFade.FadeThroughBlack(() =>
         {
             if (fogVisualRoot != null) fogVisualRoot.SetActive(true);
@@ -99,6 +102,7 @@ public partial class FogIntroController : MonoBehaviour
             follow.SetLimits(fogCameraLimits.x, fogCameraLimits.y); follow.SetVerticalLimits(true, 0, cameraY, cameraY);
             follow.SnapToTarget(); Physics2D.SyncTransforms();
         });
+        }
         ReleaseTransition();
         yield return Say(entryDialogue);
         Phase = FogIntroPhase.FreeWalk;
@@ -198,9 +202,12 @@ public partial class FogIntroController : MonoBehaviour
         ClearDanger(); chargeText.text = "";
         for (float t = 0; t < dispersalSeconds; t += GameplayClock.Delta)
         {
-            float alpha = Mathf.Clamp01(t / dispersalSeconds); whiteMask.color = new Color(1, 1, 1, alpha);
+            float alpha = Mathf.Clamp01(t / dispersalSeconds); whiteMask.color = new Color(1, 1, 1, alpha*(P05WorldLink.Available?.25f:1));
             bullyingLeft.alpha = bullyingRight.alpha = 1 - alpha;
             yield return null;
+        }
+        if(P05WorldLink.Available&&P05WorldLink.Owner.CompleteFog()){
+            ResetFigures();whiteMask.color=Color.clear;uiRoot.SetActive(false);story.Set(StoryFlag.FogIntroCompleted);lamp.SetStoryUsable(false);if(sprint)sprint.SetTemporarilySuppressed(this,false);Phase=FogIntroPhase.Completed;ReleaseCutscene();yield break;
         }
         whiteMask.color = Color.white; ResetFigures();
         if (!WhiteSceneTransition.Begin(schoolSceneName, controls))

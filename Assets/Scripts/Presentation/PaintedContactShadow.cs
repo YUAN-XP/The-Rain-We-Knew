@@ -17,7 +17,7 @@ public sealed class PaintedContactShadow : MonoBehaviour
   g.AddComponent<MeshFilter>().sharedMesh=mesh;ink=g.AddComponent<MeshRenderer>();ink.sharedMaterial=material;ink.shadowCastingMode=UnityEngine.Rendering.ShadowCastingMode.Off;ink.receiveShadows=false;
  }
  void LateUpdate(){
-  if(!ink||!target)return;ink.enabled=target.enabled&&!target.forceRenderingOff&&target.gameObject.activeInHierarchy&&target.color.a>.01f;
+  if(!ink||!target)return;ink.enabled=target.enabled&&(!target.forceRenderingOff||target.GetComponent<P05PaintedLoop>()?.VisualActive==true)&&target.gameObject.activeInHierarchy&&target.color.a>.01f;
   var b=target.bounds;ink.transform.position=new Vector3(b.center.x,b.min.y-.008f,target.transform.position.z);
   var scale=ink.transform.parent.lossyScale;ink.transform.localScale=new Vector3(Mathf.Max(minimumWidth,b.size.x*widthFactor)/Mathf.Abs(scale.x),depth/Mathf.Abs(scale.y),1);
   ink.sortingLayerID=target.sortingLayerID;ink.sortingOrder=target.sortingOrder-1;

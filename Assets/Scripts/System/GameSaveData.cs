@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using UnityEngine;
 
 [Serializable] public sealed class StorySnapshot {
@@ -17,6 +17,6 @@ using UnityEngine;
     public string[] firstObtained=new string[0]; public SavedSchool school=new SavedSchool();
     public SavedCompanion[] companions=new SavedCompanion[0];
     public int threeDoorProgress; public bool distortedJoined;
-    public int courtyardLayoutRevision,childhoodLayoutRevision,corridorLampStage;
+    public int courtyardLayoutRevision,childhoodLayoutRevision,corridorLampStage,schoolLayoutRevision;
 }
 [Serializable] public sealed class SaveEnvelope { public string format="ProjectMystery.Save.1"; public string payload,sha256; }

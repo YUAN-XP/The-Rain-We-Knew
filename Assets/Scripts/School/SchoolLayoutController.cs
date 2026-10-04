@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 // One coordinate contract; variants change geometry/doors independently of actor and chapter.
 public class SchoolLayoutController : MonoBehaviour
@@ -22,9 +22,9 @@ public class SchoolLayoutController : MonoBehaviour
     {
         var room=data.Room(roomId); if(room==null)return;
         CurrentRoom=roomId;
-        var camera=FindAnyObjectByType<CameraFollow>();
+        var camera=Camera.main?Camera.main.GetComponent<CameraFollow>():null;
         if(camera==null)return;
-        camera.SetLimits(room.CameraX.x,room.CameraX.y);
+        if(roomId.StartsWith("Floor03")||roomId=="ReadingPassage")camera.SetLimits(0,80);else camera.SetLimits(room.CameraX.x,room.CameraX.y);
         camera.SetVerticalLimits(true,0,room.CameraY,room.CameraY);
         camera.SnapToTarget();
         RoomPresentationFraming.PrepareCurrentView();

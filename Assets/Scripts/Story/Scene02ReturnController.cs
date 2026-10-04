@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using UnityEngine;
 
 public class Scene02ReturnController : MonoBehaviour
@@ -18,6 +18,7 @@ public class Scene02ReturnController : MonoBehaviour
     bool busy,ownsLock;
     void Awake()
     {
+        if(P05WorldLink.IsPreloading(gameObject.scene))return;
         var runtime=PersistentRuntime.Instance;
         if(runtime!=null&&runtime.GetComponent<StoryStateManager>().Has(StoryFlag.Scene03Completed))
         {controls=runtime.GetComponent<GameControlManager>();controls.AcquireLock(ControlLockReason.Cutscene);ownsLock=true;}
@@ -52,12 +53,14 @@ public class Scene02ReturnController : MonoBehaviour
     }
     public string Prompt(Scene02ReturnAction action)
     {
+        if(action==Scene02ReturnAction.Fog&&P05WorldLink.Available)return "";
         if(action==Scene02ReturnAction.Fog)return inventory!=null&&inventory.HasItem(oilLamp)?"[E] 进入":"[E] 调查";
         return action==Scene02ReturnAction.Fragment?"[E] 拾取":"[E] 调查";
     }
     public void Interact(Scene02ReturnAction action)
     {
         if(!Ready||busy||controls==null||controls.IsLocked())return;
+        if(action==Scene02ReturnAction.Fog&&P05WorldLink.Available)return;
         if(action==Scene02ReturnAction.Fog)
         {if(story.Has(StoryFlag.SchoolReturnedHome)){PersistentRuntime.Instance.GetComponent<StoryNoticeUI>().Show("先回房间休息吧。",3);return;}if(inventory.HasItem(oilLamp))bridge.BeginTransition();else StartCoroutine(Act(action));return;}
         if(!story.Has(StoryFlag.Scene03Completed))return;

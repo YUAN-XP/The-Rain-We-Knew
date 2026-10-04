@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using UnityEngine;
 
 public partial class FogIntroController
@@ -14,13 +14,15 @@ public partial class FogIntroController
         if(!Resolve()||home==null||fogSpawn==null||screenFade==null||!story.Has(StoryFlag.SchoolChaseCompleted))return false;
         var session=PersistentRuntime.Instance.GetComponent<SchoolChaseSession>();
         if(session==null||!session.PendingReturnFog||session.Checkpoint==null||session.Checkpoint.Reason!=SchoolCheckpointReason.FogReturn)return false;
-        schoolReturnMode=true;schoolHome=home;returnFinishing=false;returnExitX=fogSpawn.position.x;
+        schoolReturnMode=true;schoolHome=home;returnFinishing=false;returnExitX=P05WorldLink.Available?10.1f:fogSpawn.position.x;
         if(uiRoot==null)BuildUI();ResetTransient();OwnTransition();Phase=FogIntroPhase.Entering;
         lamp.ChargeCompleted-=ChargeCompleted;cameraTool.AbortCapture();cameraTool.SetCaptureContext(null);cameraTool.ContextAvailable=true;
         StartCoroutine(EnterSchoolReturn());return true;
     }
     IEnumerator EnterSchoolReturn()
     {
+        if(P05WorldLink.Available){fogVisualRoot.SetActive(true);uiRoot.SetActive(true);ResetFigures();var follow=Camera.main.GetComponent<CameraFollow>();follow.SetLimits(0,82);follow.SetVerticalLimits(true,0,cameraY,cameraY);follow.SetFacing(-1);RoomPresentationFraming.PrepareCurrentView();}
+        else {
         yield return screenFade.FadeThroughBlack(()=>{
             fogVisualRoot.SetActive(true);uiRoot.SetActive(true);ResetFigures();
             var p=controls.ActivePlayer;Vector3 position=fogSpawn.position+Vector3.right*returnWalkLength;p.transform.position=position;
@@ -29,6 +31,7 @@ public partial class FogIntroController
             follow.SetLimits(fogCameraLimits.x,fogCameraLimits.y);follow.SetVerticalLimits(true,0,cameraY,cameraY);follow.SetFacing(-1);follow.SnapToTarget();
             lamp.RestoreUseState(true);Physics2D.SyncTransforms();
         });
+        }
         Phase=FogIntroPhase.FreeWalk;ReleaseTransition();
     }
     void UpdateSchoolReturn()
@@ -52,6 +55,7 @@ public partial class FogIntroController
     {
         OwnTransition();ClearDanger();cameraTool.AbortCapture();
         var session=PersistentRuntime.Instance.GetComponent<SchoolChaseSession>();session.PendingHomeArrival=true;
+        if(P05WorldLink.Available){fogVisualRoot.SetActive(false);uiRoot.SetActive(false);schoolHome.FinishArrival();P05WorldLink.Owner.ArriveHome();Phase=FogIntroPhase.Completed;ReleaseTransition();yield break;}
         yield return screenFade.FadeThroughBlack(()=>{fogVisualRoot.SetActive(false);uiRoot.SetActive(false);schoolHome.PlaceHome();});
         Phase=FogIntroPhase.Completed;ReleaseTransition();schoolHome.FinishArrival();
     }

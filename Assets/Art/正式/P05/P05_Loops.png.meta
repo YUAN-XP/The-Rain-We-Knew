@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 7a4de22fa8bc10b47b07b21468901ce5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5489231052310760868
+    second: P05_Loops_0
+  - first:
+      213: 6675418770077359214
+    second: P05_Loops_1
+  - first:
+      213: -4954251925316919473
+    second: P05_Loops_2
+  - first:
+      213: -4454113752107616950
+    second: P05_Loops_3
+  - first:
+      213: -2319674389780960583
+    second: P05_Loops_4
+  - first:
+      213: -1603243767075953206
+    second: P05_Loops_5
+  - first:
+      213: 9114223682152792672
+    second: P05_Loops_6
+  - first:
+      213: 6457321201823371959
+    second: P05_Loops_7
+  - first:
+      213: 2577802646321359435
+    second: P05_Loops_8
+  - first:
+      213: -6903129463289399128
+    second: P05_Loops_9
+  - first:
+      213: 4356260602282294784
+    second: P05_Loops_10
+  - first:
+      213: 4831013857667748777
+    second: P05_Loops_11
+  - first:
+      213: -275354059385780667
+    second: P05_Loops_12
+  - first:
+      213: 8526557792900164485
+    second: P05_Loops_13
+  - first:
+      213: -4087841583872092479
+    second: P05_Loops_14
+  - first:
+      213: 2121963657765340422
+    second: P05_Loops_15
+  - first:
+      213: -7256741989057981746
+    second: P05_Loops_16
+  - first:
+      213: 6473487612621444255
+    second: P05_Loops_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: P05_Loops_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 833
+        width: 391
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4adc6031f8aad2c40800000000000000
+      internalID: 5489231052310760868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P05_Loops_1
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 833
+        width: 359
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6c9f65e00ad3ac50800000000000000
+      internalID: 6675418770077359214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P05_Loops_2
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 833
+        width: 421
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4f90b76f16fe3bb0800000000000000
+      internalID: -4954251925316919473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P05_Loops_3
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 1160
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a457170342fcf22c0800000000000000
+      internalID: -4454113752107616950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P05_Loops_4
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1108
+        width: 57
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bae882ce6cdecfd0800000000000000
+      internalID: -2319674389780960583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P05_Loops_5
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1092
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac52417c94220c9e0800000000000000
+      internalID: -1603243767075953206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P05_Loops_6
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 1100
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0628b22562a3c7e70800000000000000
+      internalID: 9114223682152792672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P05_Loops_7
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 1088
+        width: 56
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b2d743bb630d9950800000000000000
+      internalID: 6457321201823371959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P05_Loops_8
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1046
+        width: 49
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4aeb0b59d136c320800000000000000
+      internalID: 2577802646321359435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P05_Loops_9
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 1082
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a83a16d3582330a0800000000000000
+      internalID: -6903129463289399128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P05_Loops_10
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1059
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00eb014ffeb847c30800000000000000
+      internalID: 4356260602282294784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P05_Loops_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 409
+        height: 411
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a3964bf1853b0340800000000000000
+      internalID: 4831013857667748777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P05_Loops_12
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 416
+        width: 421
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54649de11febd2cf0800000000000000
+      internalID: -275354059385780667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P05_Loops_13
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 708
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58b27a2132b645670800000000000000
+      internalID: 8526557792900164485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P05_Loops_14
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 416
+        width: 365
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c6db3fdcb11547c0800000000000000
+      internalID: -4087841583872092479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P05_Loops_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 407
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 605446f34bab27d10800000000000000
+      internalID: 2121963657765340422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P05_Loops_16
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 0
+        width: 395
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec2998bdb9fda4b90800000000000000
+      internalID: -7256741989057981746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P05_Loops_17
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 15
+        width: 391
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9451388fa276d950800000000000000
+      internalID: 6473487612621444255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      P05_Loops_0: 5489231052310760868
+      P05_Loops_1: 6675418770077359214
+      P05_Loops_10: 4356260602282294784
+      P05_Loops_11: 4831013857667748777
+      P05_Loops_12: -275354059385780667
+      P05_Loops_13: 8526557792900164485
+      P05_Loops_14: -4087841583872092479
+      P05_Loops_15: 2121963657765340422
+      P05_Loops_16: -7256741989057981746
+      P05_Loops_17: 6473487612621444255
+      P05_Loops_2: -4954251925316919473
+      P05_Loops_3: -4454113752107616950
+      P05_Loops_4: -2319674389780960583
+      P05_Loops_5: -1603243767075953206
+      P05_Loops_6: 9114223682152792672
+      P05_Loops_7: 6457321201823371959
+      P05_Loops_8: 2577802646321359435
+      P05_Loops_9: -6903129463289399128
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

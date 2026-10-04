@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 // Permission wrapper only. Movement/fade remains the established generic transition.
 public class SchoolPortal : MonoBehaviour, IInteractable
@@ -13,7 +13,7 @@ public class SchoolPortal : MonoBehaviour, IInteractable
     public SchoolPortalDefinition Definition => school.data.Portal(portalId);
     public SchoolPortalGate Gate => school.Variant==SchoolWorldVariant.Otherworld ? Definition.otherworld : Definition.memory;
     void OnEnable(){ var c=GetComponent<Collider2D>(); if(c!=null && school!=null && school.data!=null) c.enabled=Gate!=SchoolPortalGate.Closed || !string.IsNullOrWhiteSpace(Definition.blockedText); }
-    public string GetInteractionPrompt()=>chase!=null&&chase.IsActive&&!chase.CanPass(Definition)?"":prompt;
+    public string GetInteractionPrompt()=>portalId.StartsWith("Reading_")?"":chase!=null&&chase.IsActive&&!chase.CanPass(Definition)?"":prompt;
     public bool CanPass()
     {
         if(chase!=null&&chase.IsActive)return chase.CanPass(Definition);
@@ -30,6 +30,7 @@ public class SchoolPortal : MonoBehaviour, IInteractable
     }
     public void Interact()
     {
+        if(portalId.StartsWith("Reading_"))return;
         var runtime=PersistentRuntime.Instance;if(runtime==null)return;
         var controls=runtime.GetComponent<GameControlManager>();if(controls==null||controls.IsLocked())return;
         if(chase!=null&&chase.HandlePortal(this))return;

@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using TMPro;
 using UnityEngine;
 
@@ -32,8 +32,9 @@ public sealed class GamePause : MonoBehaviour
         foreach(var x in FindObjectsByType<ChildhoodActivityUI>())if(x.IsOpen)return true;
         foreach(var x in FindObjectsByType<PencilDeskCloseup>())if(x.IsOpen)return true;
         foreach(var x in FindObjectsByType<BasketballThrowController>())if(x.IsOpen&&x.CanCancel)return true;
-        foreach(var x in FindObjectsByType<SchoolSceneController>())if(x.SecurityPanelOpen)return true;
+        foreach(var x in FindObjectsByType<SchoolSceneController>())if(x.ModalOpen)return true;
         foreach(var x in FindObjectsByType<SchoolYouthController>())if(x.ModalOpen)return true;
+        foreach(var x in FindObjectsByType<SchoolYouthSecurity>())if(x.IsOpen)return true;
         foreach(var x in FindObjectsByType<SchoolReadingChair>())if(x.IsOpen)return true;
         // Other school pages own CloseUp/Inventory; their existing ESC handlers run first.
         return controls&&controls.IsLockedBy(ControlLockReason.Inventory);

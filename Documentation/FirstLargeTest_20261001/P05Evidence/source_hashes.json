@@ -1,0 +1,441 @@
+{
+  "base": "30bba12",
+  "generated": "2026-10-05T02:32:44",
+  "files": [
+    {
+      "path": "Assets/GameData/School/D_Fog_Entry.asset",
+      "bytes": 671,
+      "sha256": "7fc33d5960a9865892b5d6057a80a4e8ea0b6270ee1766de1dfea7a29fc572bc"
+    },
+    {
+      "path": "Assets/GameData/School/D_Fog_Inquiry.asset",
+      "bytes": 956,
+      "sha256": "7aaeb28fe47bfa94311ef75d4e151ecbadd70da701db5323ea13f9fe8d27a01d"
+    },
+    {
+      "path": "Assets/GameData/School/SchoolLayout.asset",
+      "bytes": 9710,
+      "sha256": "3469ea260e10aa0e53a755ae3ea3a99067f90c9a46e5cb7efd0c223c78897a9e"
+    },
+    {
+      "path": "Assets/GameData/School/Stage5A/D_S04_EquipmentVoice.asset",
+      "bytes": 1181,
+      "sha256": "8acb723f7c7f886320fd5c5926b38fec261076114c033f487c73625fe8214e01"
+    },
+    {
+      "path": "Assets/Resources/DemoArtCatalog.asset",
+      "bytes": 3631259,
+      "sha256": "b9ebbf24ad563598b388c880966c9fdb798894d83f0e91506b86fb95336b0feb"
+    },
+    {
+      "path": "Assets/Scenes/Scene02_Courtyard.unity",
+      "bytes": 2553066,
+      "sha256": "e9a3e1c0ba88a3b15c0864bd8976c333d69cd3cb8da756d8e4b0eb85bc0e7756"
+    },
+    {
+      "path": "Assets/Scenes/Scene04_School.unity",
+      "bytes": 8459569,
+      "sha256": "41c54e9d2aecbf7cc3f3d112c3a9b9fe0d431049bc21ef5f69b468d7b2b31710"
+    },
+    {
+      "path": "Assets/Scripts/Presentation/PaintedContactShadow.cs",
+      "bytes": 1851,
+      "sha256": "2d61b31fd3971d1bfdc76c161df350c98d147428bcc2b90d07ac89a58e6ab425"
+    },
+    {
+      "path": "Assets/Scripts/School/FogIntroController.cs",
+      "bytes": 17908,
+      "sha256": "bd146359435f02bce72b34e95cecfb63d8ee08609c9efa1df8cd3b2f0aab7c76"
+    },
+    {
+      "path": "Assets/Scripts/School/FogSchoolReturn.cs",
+      "bytes": 4145,
+      "sha256": "119a92b5684c8aa32e04ee06b800b613c9f48ed1ba9063ab946c3940c0326369"
+    },
+    {
+      "path": "Assets/Scripts/School/PencilDeskCloseup.cs",
+      "bytes": 15832,
+      "sha256": "11507a6d37e538126b74dafa43dd282aa333dfc46819b3a157cf049874c82715"
+    },
+    {
+      "path": "Assets/Scripts/School/PencilDeskHandsGraphic.cs",
+      "bytes": 1714,
+      "sha256": "5f499d89e0c390c47add5e4fa7f788cbe5a952cd6e7971c310212a7900a150ac"
+    },
+    {
+      "path": "Assets/Scripts/School/SchoolChaseController.cs",
+      "bytes": 27097,
+      "sha256": "5d10fd3447d99af10cf9f8da4678445b0619c48bfd247ceb8f102297136ad952"
+    },
+    {
+      "path": "Assets/Scripts/School/SchoolLayoutController.cs",
+      "bytes": 1536,
+      "sha256": "583f974b5d4cf560bba39d21583c33aee70ecbb2f412da950948d98b3898eb0d"
+    },
+    {
+      "path": "Assets/Scripts/School/SchoolPortal.cs",
+      "bytes": 2628,
+      "sha256": "b4915f74edf6a7e47a5dd103773db649761e59062cd380f2a9dc3ed458449a32"
+    },
+    {
+      "path": "Assets/Scripts/School/SchoolReadingChair.cs",
+      "bytes": 10413,
+      "sha256": "73f9874cd25fb4e289fd5b81fd85c00a027e529de2e1ab04adc1ee8e252bf403"
+    },
+    {
+      "path": "Assets/Scripts/School/SchoolSceneController.cs",
+      "bytes": 24427,
+      "sha256": "1dd7106c827100b8ad94f8a31c44475b0eaf150db287e1d5809d9d48191be690"
+    },
+    {
+      "path": "Assets/Scripts/School/SchoolSecurityFinale.cs",
+      "bytes": 9627,
+      "sha256": "4cb8a7e874094fd7c0ba677bcf00e8326ac60bab9bac4a9c09cf955816eb7823"
+    },
+    {
+      "path": "Assets/Scripts/School/SchoolYouthController.cs",
+      "bytes": 15737,
+      "sha256": "f049d83256fb7b5ec6bcf80567a6ffea3cc7ba49d6771945b513b52db6654def"
+    },
+    {
+      "path": "Assets/Scripts/School/SchoolYouthSecurity.cs",
+      "bytes": 14720,
+      "sha256": "a3b422e56b9f4e6b7fb0f95ff32ad0fad8b805a680ec94c07f33319f1367e2d5"
+    },
+    {
+      "path": "Assets/Scripts/Story/Scene02ReturnController.cs",
+      "bytes": 6562,
+      "sha256": "f64a0bf024b83db2447d4e4a15acf43e67e4130c66b4ff542dfefb07385d1086"
+    },
+    {
+      "path": "Assets/Scripts/System/CompanionSaveState.cs",
+      "bytes": 3650,
+      "sha256": "2f156c36073c8fdb5188a781217983dc6233c15d0470b58a9c2c739be2281dca"
+    },
+    {
+      "path": "Assets/Scripts/System/GameControlManager.cs",
+      "bytes": 4544,
+      "sha256": "4e791f3811b53ee17e8a371ceefb34d9223cef7b840da0626ca9719b9c0464fe"
+    },
+    {
+      "path": "Assets/Scripts/System/GamePause.cs",
+      "bytes": 8973,
+      "sha256": "2be2425818364229480f0d4844c53d5056df5eb3f7e7788ae7ca6b4facb9c699"
+    },
+    {
+      "path": "Assets/Scripts/System/GameSaveData.cs",
+      "bytes": 1732,
+      "sha256": "30e60df8ab7266628a143ef6525aa00d58bf68660736f587d140551aa25805aa"
+    },
+    {
+      "path": "Assets/Scripts/System/GameSaveService.cs",
+      "bytes": 13240,
+      "sha256": "ef3fcdf512685cc23382b63659bc3e461a1a4d5db3b0a7d7b5571ed6843cd90a"
+    },
+    {
+      "path": "Assets/Scripts/System/PersistentRuntime.cs",
+      "bytes": 3006,
+      "sha256": "da3dd790520acdd9d0a54d00ae44d8bfab9981603972802b73b5dcf76d21ec1d"
+    },
+    {
+      "path": "Assets/Scripts/System/RoomCameraBounds.cs",
+      "bytes": 2498,
+      "sha256": "274d5d631b13cf5be86957bc9269944c7d4e79c9cdf89f88132b7d460d8bc8ad"
+    },
+    {
+      "path": "Assets/Art/正式/P05.meta",
+      "bytes": 172,
+      "sha256": "bb5f658dc3565ffe9fd7642527b1f50d9a4d08be6dd415e08f802c024e9f1124"
+    },
+    {
+      "path": "Assets/Art/正式/P05/P05FeatheredPainting.mat",
+      "bytes": 1023,
+      "sha256": "587235231a63e6699c55b0eb25ec4352217549fa24ff7a7952e7060fc7bb7d4c"
+    },
+    {
+      "path": "Assets/Art/正式/P05/P05FeatheredPainting.mat.meta",
+      "bytes": 188,
+      "sha256": "afb9bbba26cad8a477c1dd9b4fdca492f6cf3f485634576460bfe92a5ed2393e"
+    },
+    {
+      "path": "Assets/Art/正式/P05/P05FeatheredPainting.shader",
+      "bytes": 1171,
+      "sha256": "34500f54179b93afc2da8923a678302d5d9ec5b1643b24f536dc1aa8fe2808ba"
+    },
+    {
+      "path": "Assets/Art/正式/P05/P05FeatheredPainting.shader.meta",
+      "bytes": 204,
+      "sha256": "253e12a9383f9e722c68cc242cfade36931b9270407438ac2f85a9c51829a486"
+    },
+    {
+      "path": "Assets/Art/正式/P05/P05_AuxAtlas.png",
+      "bytes": 1968705,
+      "sha256": "eb5d7481200b52cf64c9555ffaf9a7b356a242ae381fa599c84b614e7a47c69e"
+    },
+    {
+      "path": "Assets/Art/正式/P05/P05_AuxAtlas.png.meta",
+      "bytes": 13213,
+      "sha256": "fe42e4389cd00d2be55bbc735c40360fd6f2de602726b0c9a6a9c2f3bdee3072"
+    },
+    {
+      "path": "Assets/Art/正式/P05/P05_Desk.png",
+      "bytes": 2610344,
+      "sha256": "9638e6e53eefca0c71fa24ee179042c9be065f0f327a9597e9b797aaf05a3a48"
+    },
+    {
+      "path": "Assets/Art/正式/P05/P05_Desk.png.meta",
+      "bytes": 3281,
+      "sha256": "dddaf623cf8c446ee2ab078cfb36afba72069ea3f371017592ce40b6065eb002"
+    },
+    {
+      "path": "Assets/Art/正式/P05/P05_Downstairs.png",
+      "bytes": 1803370,
+      "sha256": "b065f9e641401d7bb64e9b106fb21f3618b6f27c5a884855cd56e45c7b5d3f36"
+    },
+    {
+      "path": "Assets/Art/正式/P05/P05_Downstairs.png.meta",
+      "bytes": 3303,
+      "sha256": "a1ed6bd4fbd0afd5af122fa9900f040c5bb49216a35aced9570b388dc845ba90"
+    },
+    {
+      "path": "Assets/Art/正式/P05/P05_Hands.png",
+      "bytes": 1784024,
+      "sha256": "f64607ed9f417f151b0e61c44b96497d96353a6cf4cc747fd3f4260d53932ba7"
+    },
+    {
+      "path": "Assets/Art/正式/P05/P05_Hands.png.meta",
+      "bytes": 5109,
+      "sha256": "98d0652607e9bac9a6697b91d56e883ee5bf9e921704c2f9860c003db6aeacc1"
+    },
+    {
+      "path": "Assets/Art/正式/P05/P05_Loops.png",
+      "bytes": 1441298,
+      "sha256": "1d60e5858e74318a0753c73ed7cc9afb79001cf228beb8d983056982b8f8acd2"
+    },
+    {
+      "path": "Assets/Art/正式/P05/P05_Loops.png.meta",
+      "bytes": 13695,
+      "sha256": "2fe1f7753264cbb8a4e2017d4e8e72e9a4558c24ca78f4ef42743d9802b6986d"
+    },
+    {
+      "path": "Assets/Art/正式/P05/P05_Roof.png",
+      "bytes": 2438766,
+      "sha256": "0942b0a89385792079ec16585e5e80d89848c0c6e33672ea993c1cc0ef039291"
+    },
+    {
+      "path": "Assets/Art/正式/P05/P05_Roof.png.meta",
+      "bytes": 3281,
+      "sha256": "0d8f1c6c84a4b55a75e1e3becec10758ddbdba3a2d7bb871db7d9395a25716d2"
+    },
+    {
+      "path": "Assets/Art/正式/P05/P05_Security.png",
+      "bytes": 1743750,
+      "sha256": "259659f5e0ae2c17d6caf5bcdb1eae37aa7c1ce4261e042416dc5f3c7689a12e"
+    },
+    {
+      "path": "Assets/Art/正式/P05/P05_Security.png.meta",
+      "bytes": 3293,
+      "sha256": "5bce01642de2186143d5a81e789720222fa86fb2f7f81bb1e584b37323efeb15"
+    },
+    {
+      "path": "Assets/Art/正式/P05/P05_Students.png",
+      "bytes": 1809267,
+      "sha256": "e3fa1365a7b50eb3cdff8f8bd6636d261d3dd428fe5a2e729e4eb3d0d2e2f952"
+    },
+    {
+      "path": "Assets/Art/正式/P05/P05_Students.png.meta",
+      "bytes": 8880,
+      "sha256": "b9b46e96091bea0d3a7a91e2b477007dca3211af57ec06f0ac569b9fa029611a"
+    },
+    {
+      "path": "Assets/Art/正式/P05/P05_Working.png",
+      "bytes": 1332682,
+      "sha256": "ca1e73794dae97c434627d6b95289e70333cf235a961cb6b73b492d8e452c006"
+    },
+    {
+      "path": "Assets/Art/正式/P05/P05_Working.png.meta",
+      "bytes": 15046,
+      "sha256": "ec205867a34ba3b290ccb03de71d72fb4487cef6fcad5980cd4670a5bb6ae900"
+    },
+    {
+      "path": "Assets/Art/正式/P05/P05_YouthSeated.png",
+      "bytes": 828620,
+      "sha256": "6731771581febb0cad5a01ac8fbf808defa64cc98d8a4127de1749610e29079a"
+    },
+    {
+      "path": "Assets/Art/正式/P05/P05_YouthSeated.png.meta",
+      "bytes": 3306,
+      "sha256": "e65aa36b666ed14f05087a2abbdfa7e3a345a7bc01689f3a924253f091b42f4e"
+    },
+    {
+      "path": "Assets/Editor/P05Audit.cs",
+      "bytes": 2916,
+      "sha256": "9ecdeb0e6cf2d6774367e38460f6976286690969a48faff173c747ae5755a261"
+    },
+    {
+      "path": "Assets/Editor/P05Audit.cs.meta",
+      "bytes": 59,
+      "sha256": "1a2635bd9fa1676b905cae2dcd8106731f0f6afad92c8dd5e4920722dbe72497"
+    },
+    {
+      "path": "Assets/Editor/P05EvidenceRecorder.cs",
+      "bytes": 2913,
+      "sha256": "ab016750a695ee2b5625dd7e6b1af0e967a4ba11c4655e2b83f4d57a45f7d3c2"
+    },
+    {
+      "path": "Assets/Editor/P05EvidenceRecorder.cs.meta",
+      "bytes": 59,
+      "sha256": "86a6b13027fb237c45718cff640ba1ac478fa96ba1a984cf091f5c13e2acdc58"
+    },
+    {
+      "path": "Assets/Editor/P05FinalVerify.cs",
+      "bytes": 4431,
+      "sha256": "c541a96de7f9feae25e551887b60405016538e2a4e3fcd902a4eb981a2db2efc"
+    },
+    {
+      "path": "Assets/Editor/P05FinalVerify.cs.meta",
+      "bytes": 59,
+      "sha256": "638f5323ee258666a556cb0c9129ae82733410335998090fe073c25942b290b8"
+    },
+    {
+      "path": "Assets/Editor/P05GroundAlignment.cs",
+      "bytes": 6044,
+      "sha256": "0aa1311568aca5d437e731fcac7e2495e11ddd875211cad5a76a9e23e738344d"
+    },
+    {
+      "path": "Assets/Editor/P05GroundAlignment.cs.meta",
+      "bytes": 59,
+      "sha256": "be776fe65a7cc7ababc79fb3016fb6db402008b236d86a79c3ffc2ac4aea1213"
+    },
+    {
+      "path": "Assets/Editor/P05ProductionBuild.cs",
+      "bytes": 16644,
+      "sha256": "c0b78175b923c0e66b3719fbeff13446d51a3291db97d7d42509dc0b9104c457"
+    },
+    {
+      "path": "Assets/Editor/P05ProductionBuild.cs.meta",
+      "bytes": 59,
+      "sha256": "7ec45d3960a52f69f871a44be64df98bbe8a90d09c5cca8afbadf637e933c6c8"
+    },
+    {
+      "path": "Assets/Editor/P05Refinements.cs",
+      "bytes": 10595,
+      "sha256": "bb593dfcb66e8ae0d8c322bda4b78674d9dd36e46e4b603d2422fd152ff67d11"
+    },
+    {
+      "path": "Assets/Editor/P05Refinements.cs.meta",
+      "bytes": 59,
+      "sha256": "17bbd3b19cd61e934d03479a33dc18c28baff02b534bc448dd8a7004fe5ee2e7"
+    },
+    {
+      "path": "Assets/Editor/P05Regression.cs",
+      "bytes": 44090,
+      "sha256": "72b095404b6fc190c781974ba71eb032a4b192f389c261318674bb02b50d4f4e"
+    },
+    {
+      "path": "Assets/Editor/P05Regression.cs.meta",
+      "bytes": 59,
+      "sha256": "74b5d8ba0c5ecd162a6b9814e999fc2bb3c2e0dba3b332b3565d7fa89f5ddc07"
+    },
+    {
+      "path": "Assets/Editor/P05ValidationBuild.cs",
+      "bytes": 1230,
+      "sha256": "d02a324f8d57e4c5eab1932d15194c20ec2a159e297f9b2022ae48f7a672a48a"
+    },
+    {
+      "path": "Assets/Editor/P05ValidationBuild.cs.meta",
+      "bytes": 59,
+      "sha256": "671663c7d3524dd9cda232e66ded5b4f15000a5d3f88fd2d82792c870639e0b7"
+    },
+    {
+      "path": "Assets/Editor/P05WorldBuild.cs",
+      "bytes": 4879,
+      "sha256": "f5cf4657179cf081645f54289e451980f47c5c3094054b8c801c6c11dabd0766"
+    },
+    {
+      "path": "Assets/Editor/P05WorldBuild.cs.meta",
+      "bytes": 59,
+      "sha256": "3a939d09b9b5821f0e0658efd44a0d5c73ff4715d6ce2b9d1704f5b24d7c9c90"
+    },
+    {
+      "path": "Assets/Scripts/Presentation/P05WorldFeather.cs",
+      "bytes": 402,
+      "sha256": "244948f4aabeaac8d164e70db9a6eef5a674e8b49782fb2db2e470e54db1ef4c"
+    },
+    {
+      "path": "Assets/Scripts/Presentation/P05WorldFeather.cs.meta",
+      "bytes": 59,
+      "sha256": "b4504accaea52c15c0c8278c2fb7a3df159f1091983b89f849c7ebbb948e6da7"
+    },
+    {
+      "path": "Assets/Scripts/School/P05ArtworkUI.cs",
+      "bytes": 675,
+      "sha256": "2078307b999a87e720fb623bb41e5fc7a1a6b0e57114a140fc3567547c02e206"
+    },
+    {
+      "path": "Assets/Scripts/School/P05ArtworkUI.cs.meta",
+      "bytes": 59,
+      "sha256": "c6bb67e0c4df20fd63889c6bcb030096c280813285bea9eb7655ea528e70f9aa"
+    },
+    {
+      "path": "Assets/Scripts/School/P05BasketHand.cs",
+      "bytes": 1062,
+      "sha256": "643603a4271e1d31bf118fa1b2d8486ba7a7fd8c4aac11e380a3cad525885f7f"
+    },
+    {
+      "path": "Assets/Scripts/School/P05BasketHand.cs.meta",
+      "bytes": 59,
+      "sha256": "ed028cdbde4b660ae2adf77241dcebdd3ca508d63f94e3e8ac5f273d64934cf4"
+    },
+    {
+      "path": "Assets/Scripts/School/P05DribbleBall.cs",
+      "bytes": 504,
+      "sha256": "e458a05e7e59774da3bf89b14a111fd36da95d280b93621981fbe71796175407"
+    },
+    {
+      "path": "Assets/Scripts/School/P05DribbleBall.cs.meta",
+      "bytes": 59,
+      "sha256": "80ff67c80e20797916b538936deb9fca6b3ac0d9644f00baf79b25e8ec68ee76"
+    },
+    {
+      "path": "Assets/Scripts/School/P05PaintedLoop.cs",
+      "bytes": 5743,
+      "sha256": "3fd814fbc9f12b5bb7bc43f0a833368ad45648107afbacbca6a8a1e62d609064"
+    },
+    {
+      "path": "Assets/Scripts/School/P05PaintedLoop.cs.meta",
+      "bytes": 59,
+      "sha256": "a6d8b80c7adcedd640754a68eea81403e9f0937dfb2d78ae182530ac15b3f973"
+    },
+    {
+      "path": "Assets/Scripts/School/P05ReadingWalk.cs",
+      "bytes": 1166,
+      "sha256": "c26e7cffee9b9637fd3157123ffe1ac149fa14472aa602696495e96a77f1c8fd"
+    },
+    {
+      "path": "Assets/Scripts/School/P05ReadingWalk.cs.meta",
+      "bytes": 59,
+      "sha256": "26e14caa1fa5015df95bd857e9e44389f574c2a545acec0354dbb7e3ef08d4df"
+    },
+    {
+      "path": "Assets/Scripts/School/P05SchoolCoordinates.cs",
+      "bytes": 2599,
+      "sha256": "9322748a4d9502776f240803cc3b2c8daf4e90a3ac21f223950d540ed9166ab6"
+    },
+    {
+      "path": "Assets/Scripts/School/P05SchoolCoordinates.cs.meta",
+      "bytes": 59,
+      "sha256": "00945faaa407092829456bfbe88a64b4e605bfbf690010f7c1bf66a9cc443425"
+    },
+    {
+      "path": "Assets/Scripts/School/P05WorldLink.cs",
+      "bytes": 8382,
+      "sha256": "d69a80d6dbe0f990a57f32fc25643f4ea1cc28a436fb1addeb5f5633819e0d17"
+    },
+    {
+      "path": "Assets/Scripts/School/P05WorldLink.cs.meta",
+      "bytes": 59,
+      "sha256": "0bf9dce17b523dfc8f651f9296ea811d46dd36ab924229a0218b5737356c0df4"
+    }
+  ]
+}

@@ -1,6 +1,7 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 // Explicit narrative roles, never scene hierarchy names or arbitrary object paths.
 public static class CompanionSaveState {
@@ -8,11 +9,11 @@ public static class CompanionSaveState {
     public static SavedCompanion[] Capture(){
         var result=new List<SavedCompanion>();
         var river=UnityEngine.Object.FindAnyObjectByType<Scene03RiverSequence>(FindObjectsInactive.Include);
-        if(river&&river.boy){var chapter=river.chapter;string parent=river.boy.IsChildOf(chapter.homeRoot.transform)?"home":river.boy.IsChildOf(chapter.livingRoomRoot.transform)?"living":river.boy.IsChildOf(chapter.streetRoot.transform)?"street":"river";result.Add(Snapshot("childhood-boy",river.boy,parent,river.boy.GetComponent<P02ActorPresentation>()?.Direction=="left"?-1:1));}
+        if(river&&river.gameObject.scene==SceneManager.GetActiveScene()&&river.boy){var chapter=river.chapter;string parent=river.boy.IsChildOf(chapter.homeRoot.transform)?"home":river.boy.IsChildOf(chapter.livingRoomRoot.transform)?"living":river.boy.IsChildOf(chapter.streetRoot.transform)?"street":"river";result.Add(Snapshot("childhood-boy",river.boy,parent,river.boy.GetComponent<P02ActorPresentation>()?.Direction=="left"?-1:1));}
         var home=UnityEngine.Object.FindAnyObjectByType<EndingHomeController>(FindObjectsInactive.Include);
-        if(home&&home.guide)result.Add(Snapshot("home-guide",home.guide,"authored",home.SaveFollowDirection));
+        if(home&&home.gameObject.scene==SceneManager.GetActiveScene()&&home.guide)result.Add(Snapshot("home-guide",home.guide,"authored",home.SaveFollowDirection));
         var street=UnityEngine.Object.FindAnyObjectByType<EndingStreetController>(FindObjectsInactive.Include);
-        if(street&&street.guide&&street.HasFollowingGuide)result.Add(Snapshot("street-guide",street.guide,"authored",street.SaveFollowDirection));
+        if(street&&street.gameObject.scene==SceneManager.GetActiveScene()&&street.guide&&street.HasFollowingGuide)result.Add(Snapshot("street-guide",street.guide,"authored",street.SaveFollowDirection));
         return result.ToArray();
     }
     public static void Restore(SavedCompanion[] states){

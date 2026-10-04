@@ -1,0 +1,37 @@
+PASS original E dialogue and transaction finished
+PASS settled starting
+PASS original Scene01 has no automatic movement
+PASS original start has no unearned tools
+PASS original isolated save loader 
+PASS settled isolated loader Scene02_Courtyard Floor01
+PASS load succeeds 
+PASS original E dialogue and transaction finished
+PASS actor on actual collider floor
+PASS settled isolated loader Scene02_Courtyard Floor01
+PASS one shared main camera after additive preload
+PASS preloaded school narrative remains dormant
+PASS outbound fog still requires actual raised usable lamp
+PASS settled isolated loader Scene02_Courtyard Floor01
+PASS settled isolated loader Scene02_Courtyard Floor01
+PASS original E dialogue and transaction finished
+PASS original fog entry dialogue finished without teleport
+PASS save prohibited during fog encounter
+PASS settled isolated loader Scene02_Courtyard Floor01
+PASS settled 01_FogEntry
+PASS original E dialogue and transaction finished
+PASS original inquiry precedes lamp charge
+PASS settled 01_FogEntry
+PASS settled 02_FogHumanFigures
+PASS original dispersal consumes lamp fuel once
+PASS continuous position reached 39.4
+PASS walking displacement matches actual speed and frame duration 39.4 max frame delta=0.0759964 excess=0
+PASS settled continuous native walk to 39.4
+PASS continuous school arrival keeps two resident scenes
+PASS settled continuous native walk to 39.4
+PASS settled 03_ContinuousSchoolArrival
+PASS save free movement 
+PASS reload 04_ContinuousArrivalReload 
+PASS settled 03_ContinuousSchoolArrival
+PASS restored 04_ContinuousArrivalReload
+PASS restored position 04_ContinuousArrivalReload
+PASS settled 03_ContinuousSchoolArrival

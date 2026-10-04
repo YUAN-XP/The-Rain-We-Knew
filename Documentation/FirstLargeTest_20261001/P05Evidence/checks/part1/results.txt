@@ -1,0 +1,79 @@
+PASS original E dialogue and transaction finished
+PASS settled WAIT Unity foreground; original pause preserved
+PASS original Scene01 has no automatic movement
+PASS original start has no unearned tools
+PASS original isolated save loader 
+PASS settled isolated loader Scene04_School Floor01
+PASS load succeeds 
+PASS original E dialogue and transaction finished
+PASS actor on actual collider floor
+PASS settled isolated loader Scene04_School Floor01
+PASS K0 invisible and unpickable
+PASS school left remains sealed before restored lamp and chase completion
+PASS settled isolated loader Scene04_School Floor01
+PASS inside-room painting used in closeup
+PASS original E dialogue and transaction finished
+PASS settled 05_WindowLooksInside
+PASS settled 05_WindowLooksInside
+PASS settled 06_KeyPreview
+PASS original E dialogue and transaction finished
+PASS real camera capture reveals original key
+PASS key logical renderer visible after K1
+PASS original basketball aiming opens
+PASS settled 06_KeyPreview
+PASS basketball attached to existing real hand anchor
+PASS aiming prohibits save
+PASS real pointer began basketball drag
+PASS settled 07_BallInHand
+PASS settled 07_BallDrag
+PASS pointer release launched original physics
+PASS original E dialogue and transaction finished
+PASS real miss retries without reward
+PASS original E retries by reopening
+PASS real pointer began basketball drag
+PASS settled 07_BallDrag
+PASS settled 07_BallDrag
+PASS pointer release launched original physics
+PASS original E dialogue and transaction finished
+PASS actual physical board impact drops key
+PASS drop renderer and pickup root share original marker
+PASS settled 07_BallDrag
+PASS original E dialogue and transaction finished
+PASS original key pickup gives single item
+PASS settled original interaction BasketKey
+PASS key unlocks equipment door through original interaction
+PASS settled original interaction BasketKey
+PASS original E dialogue and transaction finished
+PASS original uniform and pencil reward order retained
+PASS settled original interaction UniformAndPencil
+PASS save free movement 
+PASS reload 10_EquipmentReload 
+PASS settled original interaction UniformAndPencil
+PASS restored 10_EquipmentReload
+PASS restored position 10_EquipmentReload
+PASS settled original interaction UniformAndPencil
+PASS settled original gateway Equipment_Door_BtoA
+PASS grounded arrival Equipment_Door_BtoA
+PASS settled original gateway Stair_F01_F02_Right_AtoB
+PASS grounded arrival Stair_F01_F02_Right_AtoB
+PASS settled original gateway Stair_F01_F02_Right_AtoB
+PASS original otherworld front classroom door remains blocked
+PASS settled original gateway Class3_2_Back_AtoB
+PASS grounded arrival Class3_2_Back_AtoB
+PASS settled original gateway Class3_2_Back_AtoB
+PASS pencil desk ready with owned item
+PASS name hidden before rubbing
+PASS settled 12_ClassroomOther
+PASS real pointer sweeps satisfy both original glyph coverages
+PASS settled 13_DeskBeforeRubbing
+PASS settled 14_NameReveal
+PASS original E dialogue and transaction finished
+PASS original reveal then Zheng dialogue hands over youth
+PASS settled 15_WristGrab
+PASS settled 16_YouthOpening
+PASS save free movement 
+PASS reload 17_YouthOpeningReload 
+PASS settled 16_YouthOpening
+PASS restored 17_YouthOpeningReload
+PASS restored position 17_YouthOpeningReload
+PASS settled 16_YouthOpening

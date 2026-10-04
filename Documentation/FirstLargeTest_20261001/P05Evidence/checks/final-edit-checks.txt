@@ -1,0 +1,36 @@
+PASS no missing scripts Scene01_Rain
+PASS no serialized test driver Scene01_Rain
+PASS no missing scripts Scene02_Courtyard
+PASS no serialized test driver Scene02_Courtyard
+PASS no broken serialized behaviour references Scene02_Courtyard count=0
+PASS no missing scripts Scene03_Childhood
+PASS no serialized test driver Scene03_Childhood
+PASS no missing scripts Scene04_School
+PASS no serialized test driver Scene04_School
+PASS no broken serialized behaviour references Scene04_School count=0
+PASS 12 unique rooms
+PASS unique original portal IDs
+PASS all portal room references valid
+PASS distinct campus identities 13
+PASS seated NPC base sources available for pinned continuous motion
+PASS all life-loop sprite references valid
+PASS six separate corridor students
+PASS life-loop visible feet aligned to authored floor anchors
+PASS Otherworld real roof exit grounded Left
+PASS Otherworld real roof exit grounded Right
+PASS Otherworld no fake central roof entrance
+PASS Memory real roof exit grounded Left
+PASS Memory real roof exit grounded Right
+PASS Memory no fake central roof entrance
+PASS no missing scripts EndingSequence
+PASS no serialized test driver EndingSequence
+PASS native texture pixels retained P05_AuxAtlas.png 1024x1536
+PASS native texture pixels retained P05_Desk.png 1536x1024
+PASS native texture pixels retained P05_Downstairs.png 1536x1024
+PASS native texture pixels retained P05_Hands.png 1536x1024
+PASS native texture pixels retained P05_Loops.png 1254x1254
+PASS native texture pixels retained P05_Roof.png 1536x1024
+PASS native texture pixels retained P05_Security.png 1536x1024
+PASS native texture pixels retained P05_Students.png 1024x1536
+PASS native texture pixels retained P05_Working.png 1247x1261
+PASS native texture pixels retained P05_YouthSeated.png 1143x1376

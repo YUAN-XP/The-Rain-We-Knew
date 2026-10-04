@@ -1,0 +1,11 @@
+Build player | Warning | Importer(NativeFormatImporter) generated inconsistent result for asset(guid:e016d2a2a11444e48b4aee4225c6fff5) "Assets/Fonts/ChineseMain SDF.asset"
+Build player | Warning | Importer(NativeFormatImporter) generated inconsistent result for asset(guid:e016d2a2a11444e48b4aee4225c6fff5) "Assets/Fonts/ChineseMain SDF.asset"
+Preprocess Player | Log | 1 URP assets included in build
+- UniversalRP - Assets/TextMesh Pro/Settings/UniversalRP.asset
+	 - Renderer2D - Assets/TextMesh Pro/Settings/Renderer2D.asset - UnityEngine.Rendering.Universal.Renderer2DData
+
+Preprocess Player | Log | [TestRunBuilder] Creating new file 'Assets/Resources/PerformanceTestRunInfo.json' (3307 bytes)
+Preprocess Player | Log | [TestRunBuilder] Creating new file 'Assets/Resources/PerformanceTestRunSettings.json' (23 bytes)
+Preprocess Player | Warning | Pipeline: No RuntimePipelineManager components found in build scenes. Pipeline will be disabled in Player builds.
+Prepare splash screen | Log | Including Unity Splash Screen logo because 'Show Unity Logo' is enabled.
+Postprocess built player | Log | Stripping Runtime Debug Shader Variants, you won't be able to use some features of Rendering Debugger in the Player Build.
