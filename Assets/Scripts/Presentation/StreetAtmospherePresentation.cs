@@ -6,7 +6,9 @@ public sealed class StreetAtmospherePresentation : MonoBehaviour
 {
     [SerializeField] private Material effectMaterial;
     [SerializeField] private Vector2 coverage = new Vector2(-39,59);
-    [SerializeField] private float[] lampPositions = { -10, 10.1f, 26 };
+    [SerializeField] private Transform[] lampEmitters;
+    [SerializeField] private float groundY=-1.08f;
+    private readonly List<MeshRenderer> lampPools=new List<MeshRenderer>();
     [SerializeField] private SpriteRenderer policeVisual;
     [SerializeField] private SpriteRenderer reportersVisual;
     [SerializeField, Range(0,1)] private float rainOpacity = .11f;
@@ -30,7 +32,12 @@ public sealed class StreetAtmospherePresentation : MonoBehaviour
         Effect("DistantHaze",new Vector2(center,2),new Vector2(width,8),-35,1,new Color(.36f,.40f,.56f,.09f));
         Effect("LowDriftingMist",new Vector2(center,-.6f),new Vector2(width,1.8f),3,1,new Color(.43f,.53f,.61f,fogOpacity));
         Effect("DrawnRain",new Vector2(center,2),new Vector2(width,13),42,3,new Color(.65f,.73f,.84f,rainOpacity));
-        foreach(float x in lampPositions)Effect("LampPool",new Vector2(x+.4f,1.13f),new Vector2(4.8f,4.4f),-12,0,new Color(1,.66f,.38f,.20f));
+        if(lampEmitters!=null)foreach(var emitter in lampEmitters)
+        {
+            if(!emitter)continue;
+            float height=Mathf.Max(.1f,emitter.position.y-groundY);
+            lampPools.Add(Effect("LampPool",new Vector2(emitter.position.x,groundY+height*.5f),new Vector2(height*1.08f,height),-12,0,new Color(1,.66f,.38f,.20f)));
+        }
         if(policeVisual!=null)
         {
             red=Effect("PoliceRed",Vector2.zero,new Vector2(.46f,.34f),12,2,Color.clear);
@@ -69,7 +76,7 @@ public sealed class StreetAtmospherePresentation : MonoBehaviour
             if(show)
             {
                 if(Time.time>=nextFlash){flashUntil=Time.time+.10f;nextFlash=Time.time+4.5f+(float)flashRandom.NextDouble()*4.5f;}
-                var b=reportersVisual.bounds;flash.transform.position=new Vector3(b.min.x+.045f,b.min.y+b.size.y*.82f,0);
+                var b=reportersVisual.bounds;flash.transform.position=new Vector3(b.min.x+b.size.x*.125f,b.min.y+b.size.y*.76f,0);
                 TintPulse(flash,new Color(.90f,.94f,1),Time.time<flashUntil?.60f:0);
             }
         }

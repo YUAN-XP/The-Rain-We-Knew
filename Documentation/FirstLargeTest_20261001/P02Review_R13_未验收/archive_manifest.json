@@ -1,0 +1,710 @@
+{
+  "revision": "R13",
+  "sample_run": "20261002_062231",
+  "gameplay_run": "20261002_062354",
+  "phase_complete": false,
+  "human_accepted": false,
+  "github_commit_created": false,
+  "formal_review_path": "C:\\Users\\31975\\OneDrive\\Desktop\\游戏设计\\正式美术\\00_美术GDD与清单\\第一轮大型测试实施_2026-10-02_P02\\审核资料_R13_未验收",
+  "repository_review_path": "D:\\GitHub Desktop\\ProjectMystery\\ProjectMystery\\Documentation\\FirstLargeTest_20261001\\P02Review_R13_未验收",
+  "rollback_path": "D:\\GitHub Desktop\\ProjectMystery\\ProjectMystery\\Documentation\\FirstLargeTest_20261001\\P02MotionVersions\\R13_20261002_062231",
+  "candidate_verification": [
+    {
+      "path": "Assets\\Editor\\P02RigFactory.cs",
+      "sha256": "7D18DB0401A0C8AF6A1873C4AA29F15B536870A010F1EF189DE525AFC0A0C894",
+      "stage_repo_snapshot_match": true
+    },
+    {
+      "path": "Assets\\Scripts\\Presentation\\P02CharacterRig.cs",
+      "sha256": "CCDB094114DA798CF2355992DE5DCE2001B9747712C2DD5094E52A3BD705C0A0",
+      "stage_repo_snapshot_match": true
+    },
+    {
+      "path": "Assets\\Scripts\\Presentation\\P02RigDefinition.cs",
+      "sha256": "2612A79D4371266C571231B704FF106552E6F3E046C679BBF22BF19D82067E1D",
+      "stage_repo_snapshot_match": true
+    },
+    {
+      "path": "Assets\\Scripts\\Presentation\\P02RigGroundContact.cs",
+      "sha256": "BBDEA33072D530A3379A93FB62BFDF59EEFFCB2419F3B89719EECD89FE1C1AF8",
+      "stage_repo_snapshot_match": true
+    },
+    {
+      "path": "Assets\\Art\\P02Motion\\sample_source_manifest.json",
+      "sha256": "CF5AF4FED964E2D1F9FC720704707EAD03578FB0C6FD92248FBEAED08B2A9744",
+      "stage_repo_snapshot_match": true
+    },
+    {
+      "path": "Assets\\Scripts\\Presentation\\P02GameplayMotionProbe.cs",
+      "sha256": "2DF8504562833B4E45A1E351E99E15867098372A4C5750ECA34E483D52361ECF",
+      "stage_repo_snapshot_match": true
+    },
+    {
+      "path": "Assets\\Editor\\P02GameplayMotionReview.cs",
+      "sha256": "D9D10333E959868ABF06E0C3274024856C69E4E9C2AD33B38ABC47488C85C687",
+      "stage_repo_snapshot_match": true
+    },
+    {
+      "path": "Assets\\Scripts\\Presentation\\P02MotionSampleProbe.cs",
+      "sha256": "D7B1787D58BED418A64B4BA483718DCFCC363E049785CAEB8EBFDD0F81E4CE01",
+      "stage_repo_snapshot_match": true
+    }
+  ],
+  "protected_files": [
+    {
+      "path": "Assets\\Fonts\\ChineseMain SDF.asset",
+      "sha256": "42BBF7DC552C916DE51F6CA98403DC4F93DED8AB57C521DDCF91353A99CBE2E1",
+      "unchanged_during_archive": true
+    },
+    {
+      "path": "Assets\\TextMesh Pro\\Settings\\DefaultVolumeProfile.asset",
+      "sha256": "4789B43834DD5EFB32EEC4C3B436BAF0895C9F8CF2A0624121DA8DD812EE984A",
+      "unchanged_during_archive": true
+    },
+    {
+      "path": "Assets\\TextMesh Pro\\Settings\\UniversalRP.asset",
+      "sha256": "2DEFC3C74F9757F7B801F994D10CD813757B09A39EE075AF79FA514661206AFA",
+      "unchanged_during_archive": true
+    },
+    {
+      "path": "Assets\\TextMesh Pro\\Settings\\UniversalRenderPipelineGlobalSettings.asset",
+      "sha256": "BFC54032128CCC23E35BDA0FF97066C1E92002E799FF5E58F3B02C0EF91F34B5",
+      "unchanged_during_archive": true
+    },
+    {
+      "path": "ProjectSettings\\ProjectSettings.asset",
+      "sha256": "4ADEB9D91CA44EDA4F7DC42CD5976EB7B00A694CEC9D56E4D7A5C1B91D5257D1",
+      "unchanged_during_archive": true
+    },
+    {
+      "path": "ProjectSettings\\UnityConnectSettings.asset",
+      "sha256": "98F142992D8A623501C99648E1B7363ADCA08B67BB50390B566DF368D00BC9A0",
+      "unchanged_during_archive": true
+    }
+  ],
+  "formal_files": [
+    {
+      "path": "02_需求与验收台账.csv",
+      "sha256": "2317CD59B3C2CD1E88BBBF725A8F6CC57A58D94E0CF94B335E944F3C84DA6BD3",
+      "bytes": 65729
+    },
+    {
+      "path": "02_需求与验收台账.json",
+      "sha256": "6DDF2CD67F6138F3459848D445D5B9E4CF04CC9520E1C4326546D570B75CC020",
+      "bytes": 165082
+    },
+    {
+      "path": "02_需求与验收台账.md",
+      "sha256": "4737D9821384A551EE8DE75B9833FDFA4F99FBC7E5E35FA0C61A9E336A7A1C87",
+      "bytes": 34394
+    },
+    {
+      "path": "10_P02人物运动制作与验收规范.md",
+      "sha256": "E5F605B24C3FF1A6FFAA249D6CE7489E9A917CBE2A9CE0A0D2E441A86B982FE5",
+      "bytes": 15183
+    },
+    {
+      "path": "11_P02动作矩阵与源图核验.json",
+      "sha256": "6250A79D80B0E62F3FF956CC6D285A6D4A911BA1779AA20BF31BFF640F65B9B4",
+      "bytes": 59070
+    },
+    {
+      "path": "14_P02人物样板问题与复测记录.md",
+      "sha256": "A261D86B3ED1EE703D5372AD7A3FBF01D55C2D3CA3FD0250A518D07DA656B32F",
+      "bytes": 9161
+    },
+    {
+      "path": "before_after.html",
+      "sha256": "D439B5DD227EFF5419A0D7E1FF8642C377445C4A05BB1FD449948BF947715C61",
+      "bytes": 4607
+    },
+    {
+      "path": "browser_playback_review.json",
+      "sha256": "ED7CA303F2E489FF370B22E254DFD546CE35FA3317BE963309FF0D91663291B7",
+      "bytes": 4961
+    },
+    {
+      "path": "comparison_frames.json",
+      "sha256": "0EC9AC5D0A0D79D90F8813DFDF59473B197653556FFD25152861496CA14AED43",
+      "bytes": 570
+    },
+    {
+      "path": "gameplay_review_queue.json",
+      "sha256": "529331D0520F30CD665606C8421E19C7CF2145E9584B59E8F07896F6D4BBEBEA",
+      "bytes": 689
+    },
+    {
+      "path": "gameplay_runs/20261002_062354/frames/00055.png",
+      "sha256": "726F8F4D8DBB2C1396B826CADF2EC3A054A28279DFC34DF16CD8AA055B929AFB",
+      "bytes": 3075858
+    },
+    {
+      "path": "gameplay_runs/20261002_062354/frames/00174.png",
+      "sha256": "4D95CB1BED02EDEABE01A38AC77AD856921EBFD353A8DD0FA277B00D22CDEEE8",
+      "bytes": 3081861
+    },
+    {
+      "path": "gameplay_runs/20261002_062354/frames/00514.png",
+      "sha256": "1B2FFC1D222AB8FCC44D059B63DD26E251B97EE6FB3B4E9521A3D3E2A8C70B7B",
+      "bytes": 3109923
+    },
+    {
+      "path": "gameplay_runs/20261002_062354/frames/00660.png",
+      "sha256": "714DA4C59D3B919DAA085E58592F3C44DBE1D3AAE95BEB4DA474B79E35DFA4DB",
+      "bytes": 3150510
+    },
+    {
+      "path": "gameplay_runs\\20261002_062354\\before_state.json",
+      "sha256": "C525B22DE79688FCE08FCC46B4AF9D2A8675E370EFBAC5C5EFD0DFD0F215B644",
+      "bytes": 516
+    },
+    {
+      "path": "gameplay_runs\\20261002_062354\\cleanup_state.json",
+      "sha256": "FD7D613EACB699029707CA85AE661CAA573D20D653CC790488A92C06CC5919BE",
+      "bytes": 517
+    },
+    {
+      "path": "gameplay_runs\\20261002_062354\\contact_off.png",
+      "sha256": "4B7CECB7800B3805CDB2E8F7FD4B7B1FFEB45C92E2D403B34771F60E7531202A",
+      "bytes": 3207541
+    },
+    {
+      "path": "gameplay_runs\\20261002_062354\\contact_on.png",
+      "sha256": "40DCE76188CFC7ADB96B4E61C320E61A3DD79A312658488CA246C5A308DD3C85",
+      "bytes": 3207772
+    },
+    {
+      "path": "gameplay_runs\\20261002_062354\\gameplay_measurements.json",
+      "sha256": "5E5FCCA124C09C5FE58EB22132B8B23D0AEDA7405C8F36683CB788C6CCB06149",
+      "bytes": 2395
+    },
+    {
+      "path": "gameplay_runs\\20261002_062354\\gameplay_motion_probe.json",
+      "sha256": "294FADA1A5A3ACB2DFD2644519FEA54E5A8B040FAEF3417EF06C529A842E4C35",
+      "bytes": 1520595
+    },
+    {
+      "path": "gameplay_runs\\20261002_062354\\gameplay_motion_slow.mp4",
+      "sha256": "2ED4C41CE80D263C1C8733373E533EECDC66837D58DF94FC92B7D9B5BF63F1B6",
+      "bytes": 72844021
+    },
+    {
+      "path": "gameplay_runs\\20261002_062354\\gameplay_motion.mp4",
+      "sha256": "CA5D7DCE30426C7ACDFA35A4E01D9C78FEA036EDDD2A84B91459D63CCBFBB7D6",
+      "bytes": 24663366
+    },
+    {
+      "path": "gameplay_runs\\20261002_062354\\source_manifest.json",
+      "sha256": "CF5AF4FED964E2D1F9FC720704707EAD03578FB0C6FD92248FBEAED08B2A9744",
+      "bytes": 5039
+    },
+    {
+      "path": "native_skin_import.json",
+      "sha256": "F7E08992DB12A537522E046E8FB6FC2ADBC9B1EB3BA5491C9C358AB9E1002FB9",
+      "bytes": 368
+    },
+    {
+      "path": "R13_browser_review.png",
+      "sha256": "5AD43ACE975FF4DB3DEFAD920D8FAD125287B0ECDE752FE782DD7110C722D03F",
+      "bytes": 38523
+    },
+    {
+      "path": "r13_review_evidence.json",
+      "sha256": "A591FB8BC55050AB66490A5767A8B6665CA67BDAB9B33FFC80744F19D405467F",
+      "bytes": 11076
+    },
+    {
+      "path": "README_实施进度.md",
+      "sha256": "2F59DA21672EB173F1E7E034CB1770135FD6C404EDA17FCBBB4824699EFC73D8",
+      "bytes": 7394
+    },
+    {
+      "path": "README_R13_未验收.md",
+      "sha256": "632D0C0A1EC682F9A17D46BC716335C58A32C38541EB7C62F961D13422A01098",
+      "bytes": 1074
+    },
+    {
+      "path": "sample_runs/20261002_031453/frames/0057_walk_2.png",
+      "sha256": "511BD992135E6F6D546F4F13A69AFE5E93B4A24B3F7F9A0938B4B76632BF58AC",
+      "bytes": 191600
+    },
+    {
+      "path": "sample_runs/20261002_031453/frames/0183_run_6.png",
+      "sha256": "FF3DAD23C4B72C3F04CADFBF24A1F2BB666628804E1747FD3F82E868A4E3FAD0",
+      "bytes": 221641
+    },
+    {
+      "path": "sample_runs/20261002_062231/frames/0026_walk_0.png",
+      "sha256": "07E47CE077103D07E54BF60893D0A39AEA1DECB4514CECA485B7E8E3F750C508",
+      "bytes": 218133
+    },
+    {
+      "path": "sample_runs/20261002_062231/frames/0031_walk_5.png",
+      "sha256": "916C96D19E2FA7C68104D0B176411548F799E5EEF378BAE4D630D3F08515B1F5",
+      "bytes": 186849
+    },
+    {
+      "path": "sample_runs/20261002_062231/frames/0032_walk_6.png",
+      "sha256": "8A0D4CBFBDF9D7938FD5C4D2C0508CA19367D4CF0FB5775FB8119B45D055B947",
+      "bytes": 186687
+    },
+    {
+      "path": "sample_runs/20261002_062231/frames/0040_walk_12.png",
+      "sha256": "6EAE50B270375074ABC8C4420F58F10DC62CABB49811D6716006DB0865F9B48D",
+      "bytes": 224210
+    },
+    {
+      "path": "sample_runs/20261002_062231/frames/0048_walk_18.png",
+      "sha256": "E6413ADFE538FD006B56D8411BC6024CAFE1E74670C6910E5DC080350C454507",
+      "bytes": 186967
+    },
+    {
+      "path": "sample_runs/20261002_062231/frames/0183_run_18.png",
+      "sha256": "7D5260D257AB3FAA1DC293D638A62B61AE9ED3FBD8FA842F17EDF3277E452D62",
+      "bytes": 213187
+    },
+    {
+      "path": "sample_runs/20261002_062231/frames/0191_run_0.png",
+      "sha256": "86B0A17AAE1A67875F457B3540A814091D73F5CEA53DE47B540A756E65AE7F6D",
+      "bytes": 214340
+    },
+    {
+      "path": "sample_runs/20261002_062231/frames/0199_run_6.png",
+      "sha256": "0FC651D71FEB551BDB14BEEE317775F8B933971EA76556A510AF6814D9EA55B4",
+      "bytes": 216866
+    },
+    {
+      "path": "sample_runs/20261002_062231/frames/0206_run_12.png",
+      "sha256": "B7798CCA93D82DFA34A151A025C110C656FEEEF1A20550E4D670CE470F220779",
+      "bytes": 218283
+    },
+    {
+      "path": "sample_runs/20261002_062231/joints/0026_walk_0_hip_knee_ankle.png",
+      "sha256": "687BAC9166EDEA3B7689FE684D62CB61ABE2FCE603A60E0FE6700D194DA63FAF",
+      "bytes": 195014
+    },
+    {
+      "path": "sample_runs/20261002_062231/joints/0026_walk_0_neck_shoulder_wrist.png",
+      "sha256": "8BC4C64BC054D302E8E641D21CCB2DA9316E4133C7D999A6111C58AEA9CFE069",
+      "bytes": 148403
+    },
+    {
+      "path": "sample_runs/20261002_062231/joints/0032_walk_6_hip_knee_ankle.png",
+      "sha256": "655A90F6C38716170B25D31D8200A605B6D26D908C21323B39313DC687B7F861",
+      "bytes": 136599
+    },
+    {
+      "path": "sample_runs/20261002_062231/joints/0032_walk_6_neck_shoulder_wrist.png",
+      "sha256": "8EB3C225129C3DB6974ACAA6978CA49BB64AC8932F304B4FE2D463D583BF40E5",
+      "bytes": 137919
+    },
+    {
+      "path": "sample_runs/20261002_062231/joints/0040_walk_12_hip_knee_ankle.png",
+      "sha256": "EB3A35AC3AEC17A78DAFD5FC7B85C8498EC221554B71E4F6A64C56D0C84ADB41",
+      "bytes": 203084
+    },
+    {
+      "path": "sample_runs/20261002_062231/joints/0040_walk_12_neck_shoulder_wrist.png",
+      "sha256": "A3C727DA9AEE799F6CE5CF8C138B0245AA31A4DD65E43F178776DD5C071160DE",
+      "bytes": 157880
+    },
+    {
+      "path": "sample_runs/20261002_062231/joints/0048_walk_18_hip_knee_ankle.png",
+      "sha256": "4D245DD756E436456FAB16E588829155D344F3A52841BCC56417CCB0DDF9CB18",
+      "bytes": 138417
+    },
+    {
+      "path": "sample_runs/20261002_062231/joints/0048_walk_18_neck_shoulder_wrist.png",
+      "sha256": "E90C09B6136C40E37B1936E849479CB67C2227B84980153BED3DF0A69E61D932",
+      "bytes": 136466
+    },
+    {
+      "path": "sample_runs/20261002_062231/joints/0183_run_18_hip_knee_ankle.png",
+      "sha256": "D943CF89AA900F9397C1219D0456A968CCBC1D12358FDDD814FEE0083A4571F9",
+      "bytes": 184441
+    },
+    {
+      "path": "sample_runs/20261002_062231/joints/0183_run_18_neck_shoulder_wrist.png",
+      "sha256": "6F1F2F8E1F63F8077AB5CD2B7E4F9475205E10CE635ABE3393B72A58ACB81AE0",
+      "bytes": 152653
+    },
+    {
+      "path": "sample_runs/20261002_062231/joints/0191_run_0_hip_knee_ankle.png",
+      "sha256": "B75E7F245D4A4B72F2758595E6ED25741185AA1221BACBC96E636885907A4385",
+      "bytes": 151227
+    },
+    {
+      "path": "sample_runs/20261002_062231/joints/0191_run_0_neck_shoulder_wrist.png",
+      "sha256": "85990B1FC4A0CEE0C76654E7A9052080E8F15A76AD3124C4E00FB38514CE151A",
+      "bytes": 177926
+    },
+    {
+      "path": "sample_runs/20261002_062231/joints/0199_run_6_hip_knee_ankle.png",
+      "sha256": "7BD875B5011868610081BF294EC74244CE9D627A20F37EAA9D48C0088C5EA1F1",
+      "bytes": 190207
+    },
+    {
+      "path": "sample_runs/20261002_062231/joints/0199_run_6_neck_shoulder_wrist.png",
+      "sha256": "F45E5DBBDF3055FCAC20059ED226EB6113FD61A3168009A6B61DF9F599B49BDE",
+      "bytes": 161664
+    },
+    {
+      "path": "sample_runs/20261002_062231/joints/0206_run_12_hip_knee_ankle.png",
+      "sha256": "10A05B61F17FA4540BE10957B397DD14D93E09D602C3FFCDC9C023F00299C03C",
+      "bytes": 154431
+    },
+    {
+      "path": "sample_runs/20261002_062231/joints/0206_run_12_neck_shoulder_wrist.png",
+      "sha256": "9CB019754795F0061E02B3B3ED1C5EFBF9741DF76600E7DBF5D07A1F011A9AFC",
+      "bytes": 183513
+    },
+    {
+      "path": "sample_runs\\20261002_062231\\continuous_motion_slow.mp4",
+      "sha256": "FF830BD8F8D59FC64DC2E10367505567A6AAF34ED850059CBEC131AFB7376E4B",
+      "bytes": 9825322
+    },
+    {
+      "path": "sample_runs\\20261002_062231\\continuous_motion.mp4",
+      "sha256": "AE9E8BD6A9CD53AD68E580B9F6EB594BDEA3BA09781443FF60C0695A1701C4F8",
+      "bytes": 8865678
+    },
+    {
+      "path": "sample_runs\\20261002_062231\\motion_measurements.json",
+      "sha256": "7839BB09F27EBE3F084045C3507738BFEA021E9937FB4BA4BC5C36E61248108F",
+      "bytes": 4490
+    },
+    {
+      "path": "sample_runs\\20261002_062231\\sample_motion_probe.json",
+      "sha256": "E26A891D53DC7A7196156FBB034A0638483A5A8A4EFD05FBC5FAFD1EA23C87E9",
+      "bytes": 519070
+    },
+    {
+      "path": "sample_source_manifest.json",
+      "sha256": "CF5AF4FED964E2D1F9FC720704707EAD03578FB0C6FD92248FBEAED08B2A9744",
+      "bytes": 5039
+    },
+    {
+      "path": "sample_source_trace.json",
+      "sha256": "AD9A4B802121188B66DE89187DFB3FE37D647184A8133BCB90D8BAAA924F5484",
+      "bytes": 2229
+    },
+    {
+      "path": "preview.html",
+      "sha256": "F3C8BB1E9F400D2933174B2F98A722D3F8FDB8320E028EF449867269232AF34F",
+      "bytes": 5666
+    },
+    {
+      "path": "snapshot_manifest.json",
+      "sha256": "192C83D8B4771DFD70F1F2AB8B4DD00A9BD10B1779D30097D609A87C88FE548D",
+      "bytes": 3325
+    }
+  ],
+  "repository_files": [
+    {
+      "path": "02_需求与验收台账.csv",
+      "sha256": "2317CD59B3C2CD1E88BBBF725A8F6CC57A58D94E0CF94B335E944F3C84DA6BD3",
+      "bytes": 65729
+    },
+    {
+      "path": "02_需求与验收台账.json",
+      "sha256": "6DDF2CD67F6138F3459848D445D5B9E4CF04CC9520E1C4326546D570B75CC020",
+      "bytes": 165082
+    },
+    {
+      "path": "02_需求与验收台账.md",
+      "sha256": "4737D9821384A551EE8DE75B9833FDFA4F99FBC7E5E35FA0C61A9E336A7A1C87",
+      "bytes": 34394
+    },
+    {
+      "path": "10_P02人物运动制作与验收规范.md",
+      "sha256": "E5F605B24C3FF1A6FFAA249D6CE7489E9A917CBE2A9CE0A0D2E441A86B982FE5",
+      "bytes": 15183
+    },
+    {
+      "path": "11_P02动作矩阵与源图核验.json",
+      "sha256": "6250A79D80B0E62F3FF956CC6D285A6D4A911BA1779AA20BF31BFF640F65B9B4",
+      "bytes": 59070
+    },
+    {
+      "path": "14_P02人物样板问题与复测记录.md",
+      "sha256": "A261D86B3ED1EE703D5372AD7A3FBF01D55C2D3CA3FD0250A518D07DA656B32F",
+      "bytes": 9161
+    },
+    {
+      "path": "before_after.html",
+      "sha256": "D439B5DD227EFF5419A0D7E1FF8642C377445C4A05BB1FD449948BF947715C61",
+      "bytes": 4607
+    },
+    {
+      "path": "browser_playback_review.json",
+      "sha256": "ED7CA303F2E489FF370B22E254DFD546CE35FA3317BE963309FF0D91663291B7",
+      "bytes": 4961
+    },
+    {
+      "path": "comparison_frames.json",
+      "sha256": "0EC9AC5D0A0D79D90F8813DFDF59473B197653556FFD25152861496CA14AED43",
+      "bytes": 570
+    },
+    {
+      "path": "gameplay_review_queue.json",
+      "sha256": "529331D0520F30CD665606C8421E19C7CF2145E9584B59E8F07896F6D4BBEBEA",
+      "bytes": 689
+    },
+    {
+      "path": "gameplay_runs/20261002_062354/frames/00055.png",
+      "sha256": "726F8F4D8DBB2C1396B826CADF2EC3A054A28279DFC34DF16CD8AA055B929AFB",
+      "bytes": 3075858
+    },
+    {
+      "path": "gameplay_runs/20261002_062354/frames/00174.png",
+      "sha256": "4D95CB1BED02EDEABE01A38AC77AD856921EBFD353A8DD0FA277B00D22CDEEE8",
+      "bytes": 3081861
+    },
+    {
+      "path": "gameplay_runs/20261002_062354/frames/00514.png",
+      "sha256": "1B2FFC1D222AB8FCC44D059B63DD26E251B97EE6FB3B4E9521A3D3E2A8C70B7B",
+      "bytes": 3109923
+    },
+    {
+      "path": "gameplay_runs/20261002_062354/frames/00660.png",
+      "sha256": "714DA4C59D3B919DAA085E58592F3C44DBE1D3AAE95BEB4DA474B79E35DFA4DB",
+      "bytes": 3150510
+    },
+    {
+      "path": "gameplay_runs\\20261002_062354\\before_state.json",
+      "sha256": "C525B22DE79688FCE08FCC46B4AF9D2A8675E370EFBAC5C5EFD0DFD0F215B644",
+      "bytes": 516
+    },
+    {
+      "path": "gameplay_runs\\20261002_062354\\cleanup_state.json",
+      "sha256": "FD7D613EACB699029707CA85AE661CAA573D20D653CC790488A92C06CC5919BE",
+      "bytes": 517
+    },
+    {
+      "path": "gameplay_runs\\20261002_062354\\contact_off.png",
+      "sha256": "4B7CECB7800B3805CDB2E8F7FD4B7B1FFEB45C92E2D403B34771F60E7531202A",
+      "bytes": 3207541
+    },
+    {
+      "path": "gameplay_runs\\20261002_062354\\contact_on.png",
+      "sha256": "40DCE76188CFC7ADB96B4E61C320E61A3DD79A312658488CA246C5A308DD3C85",
+      "bytes": 3207772
+    },
+    {
+      "path": "gameplay_runs\\20261002_062354\\gameplay_measurements.json",
+      "sha256": "5E5FCCA124C09C5FE58EB22132B8B23D0AEDA7405C8F36683CB788C6CCB06149",
+      "bytes": 2395
+    },
+    {
+      "path": "gameplay_runs\\20261002_062354\\gameplay_motion_probe.json",
+      "sha256": "294FADA1A5A3ACB2DFD2644519FEA54E5A8B040FAEF3417EF06C529A842E4C35",
+      "bytes": 1520595
+    },
+    {
+      "path": "gameplay_runs\\20261002_062354\\gameplay_motion.mp4",
+      "sha256": "CA5D7DCE30426C7ACDFA35A4E01D9C78FEA036EDDD2A84B91459D63CCBFBB7D6",
+      "bytes": 24663366
+    },
+    {
+      "path": "gameplay_runs\\20261002_062354\\source_manifest.json",
+      "sha256": "CF5AF4FED964E2D1F9FC720704707EAD03578FB0C6FD92248FBEAED08B2A9744",
+      "bytes": 5039
+    },
+    {
+      "path": "native_skin_import.json",
+      "sha256": "F7E08992DB12A537522E046E8FB6FC2ADBC9B1EB3BA5491C9C358AB9E1002FB9",
+      "bytes": 368
+    },
+    {
+      "path": "R13_browser_review.png",
+      "sha256": "5AD43ACE975FF4DB3DEFAD920D8FAD125287B0ECDE752FE782DD7110C722D03F",
+      "bytes": 38523
+    },
+    {
+      "path": "r13_review_evidence.json",
+      "sha256": "A591FB8BC55050AB66490A5767A8B6665CA67BDAB9B33FFC80744F19D405467F",
+      "bytes": 11076
+    },
+    {
+      "path": "README_实施进度.md",
+      "sha256": "2F59DA21672EB173F1E7E034CB1770135FD6C404EDA17FCBBB4824699EFC73D8",
+      "bytes": 7394
+    },
+    {
+      "path": "README_R13_未验收.md",
+      "sha256": "632D0C0A1EC682F9A17D46BC716335C58A32C38541EB7C62F961D13422A01098",
+      "bytes": 1074
+    },
+    {
+      "path": "sample_runs/20261002_031453/frames/0057_walk_2.png",
+      "sha256": "511BD992135E6F6D546F4F13A69AFE5E93B4A24B3F7F9A0938B4B76632BF58AC",
+      "bytes": 191600
+    },
+    {
+      "path": "sample_runs/20261002_031453/frames/0183_run_6.png",
+      "sha256": "FF3DAD23C4B72C3F04CADFBF24A1F2BB666628804E1747FD3F82E868A4E3FAD0",
+      "bytes": 221641
+    },
+    {
+      "path": "sample_runs/20261002_062231/frames/0026_walk_0.png",
+      "sha256": "07E47CE077103D07E54BF60893D0A39AEA1DECB4514CECA485B7E8E3F750C508",
+      "bytes": 218133
+    },
+    {
+      "path": "sample_runs/20261002_062231/frames/0031_walk_5.png",
+      "sha256": "916C96D19E2FA7C68104D0B176411548F799E5EEF378BAE4D630D3F08515B1F5",
+      "bytes": 186849
+    },
+    {
+      "path": "sample_runs/20261002_062231/frames/0032_walk_6.png",
+      "sha256": "8A0D4CBFBDF9D7938FD5C4D2C0508CA19367D4CF0FB5775FB8119B45D055B947",
+      "bytes": 186687
+    },
+    {
+      "path": "sample_runs/20261002_062231/frames/0040_walk_12.png",
+      "sha256": "6EAE50B270375074ABC8C4420F58F10DC62CABB49811D6716006DB0865F9B48D",
+      "bytes": 224210
+    },
+    {
+      "path": "sample_runs/20261002_062231/frames/0048_walk_18.png",
+      "sha256": "E6413ADFE538FD006B56D8411BC6024CAFE1E74670C6910E5DC080350C454507",
+      "bytes": 186967
+    },
+    {
+      "path": "sample_runs/20261002_062231/frames/0183_run_18.png",
+      "sha256": "7D5260D257AB3FAA1DC293D638A62B61AE9ED3FBD8FA842F17EDF3277E452D62",
+      "bytes": 213187
+    },
+    {
+      "path": "sample_runs/20261002_062231/frames/0191_run_0.png",
+      "sha256": "86B0A17AAE1A67875F457B3540A814091D73F5CEA53DE47B540A756E65AE7F6D",
+      "bytes": 214340
+    },
+    {
+      "path": "sample_runs/20261002_062231/frames/0199_run_6.png",
+      "sha256": "0FC651D71FEB551BDB14BEEE317775F8B933971EA76556A510AF6814D9EA55B4",
+      "bytes": 216866
+    },
+    {
+      "path": "sample_runs/20261002_062231/frames/0206_run_12.png",
+      "sha256": "B7798CCA93D82DFA34A151A025C110C656FEEEF1A20550E4D670CE470F220779",
+      "bytes": 218283
+    },
+    {
+      "path": "sample_runs/20261002_062231/joints/0026_walk_0_hip_knee_ankle.png",
+      "sha256": "687BAC9166EDEA3B7689FE684D62CB61ABE2FCE603A60E0FE6700D194DA63FAF",
+      "bytes": 195014
+    },
+    {
+      "path": "sample_runs/20261002_062231/joints/0026_walk_0_neck_shoulder_wrist.png",
+      "sha256": "8BC4C64BC054D302E8E641D21CCB2DA9316E4133C7D999A6111C58AEA9CFE069",
+      "bytes": 148403
+    },
+    {
+      "path": "sample_runs/20261002_062231/joints/0032_walk_6_hip_knee_ankle.png",
+      "sha256": "655A90F6C38716170B25D31D8200A605B6D26D908C21323B39313DC687B7F861",
+      "bytes": 136599
+    },
+    {
+      "path": "sample_runs/20261002_062231/joints/0032_walk_6_neck_shoulder_wrist.png",
+      "sha256": "8EB3C225129C3DB6974ACAA6978CA49BB64AC8932F304B4FE2D463D583BF40E5",
+      "bytes": 137919
+    },
+    {
+      "path": "sample_runs/20261002_062231/joints/0040_walk_12_hip_knee_ankle.png",
+      "sha256": "EB3A35AC3AEC17A78DAFD5FC7B85C8498EC221554B71E4F6A64C56D0C84ADB41",
+      "bytes": 203084
+    },
+    {
+      "path": "sample_runs/20261002_062231/joints/0040_walk_12_neck_shoulder_wrist.png",
+      "sha256": "A3C727DA9AEE799F6CE5CF8C138B0245AA31A4DD65E43F178776DD5C071160DE",
+      "bytes": 157880
+    },
+    {
+      "path": "sample_runs/20261002_062231/joints/0048_walk_18_hip_knee_ankle.png",
+      "sha256": "4D245DD756E436456FAB16E588829155D344F3A52841BCC56417CCB0DDF9CB18",
+      "bytes": 138417
+    },
+    {
+      "path": "sample_runs/20261002_062231/joints/0048_walk_18_neck_shoulder_wrist.png",
+      "sha256": "E90C09B6136C40E37B1936E849479CB67C2227B84980153BED3DF0A69E61D932",
+      "bytes": 136466
+    },
+    {
+      "path": "sample_runs/20261002_062231/joints/0183_run_18_hip_knee_ankle.png",
+      "sha256": "D943CF89AA900F9397C1219D0456A968CCBC1D12358FDDD814FEE0083A4571F9",
+      "bytes": 184441
+    },
+    {
+      "path": "sample_runs/20261002_062231/joints/0183_run_18_neck_shoulder_wrist.png",
+      "sha256": "6F1F2F8E1F63F8077AB5CD2B7E4F9475205E10CE635ABE3393B72A58ACB81AE0",
+      "bytes": 152653
+    },
+    {
+      "path": "sample_runs/20261002_062231/joints/0191_run_0_hip_knee_ankle.png",
+      "sha256": "B75E7F245D4A4B72F2758595E6ED25741185AA1221BACBC96E636885907A4385",
+      "bytes": 151227
+    },
+    {
+      "path": "sample_runs/20261002_062231/joints/0191_run_0_neck_shoulder_wrist.png",
+      "sha256": "85990B1FC4A0CEE0C76654E7A9052080E8F15A76AD3124C4E00FB38514CE151A",
+      "bytes": 177926
+    },
+    {
+      "path": "sample_runs/20261002_062231/joints/0199_run_6_hip_knee_ankle.png",
+      "sha256": "7BD875B5011868610081BF294EC74244CE9D627A20F37EAA9D48C0088C5EA1F1",
+      "bytes": 190207
+    },
+    {
+      "path": "sample_runs/20261002_062231/joints/0199_run_6_neck_shoulder_wrist.png",
+      "sha256": "F45E5DBBDF3055FCAC20059ED226EB6113FD61A3168009A6B61DF9F599B49BDE",
+      "bytes": 161664
+    },
+    {
+      "path": "sample_runs/20261002_062231/joints/0206_run_12_hip_knee_ankle.png",
+      "sha256": "10A05B61F17FA4540BE10957B397DD14D93E09D602C3FFCDC9C023F00299C03C",
+      "bytes": 154431
+    },
+    {
+      "path": "sample_runs/20261002_062231/joints/0206_run_12_neck_shoulder_wrist.png",
+      "sha256": "9CB019754795F0061E02B3B3ED1C5EFBF9741DF76600E7DBF5D07A1F011A9AFC",
+      "bytes": 183513
+    },
+    {
+      "path": "sample_runs\\20261002_062231\\continuous_motion.mp4",
+      "sha256": "AE9E8BD6A9CD53AD68E580B9F6EB594BDEA3BA09781443FF60C0695A1701C4F8",
+      "bytes": 8865678
+    },
+    {
+      "path": "sample_runs\\20261002_062231\\motion_measurements.json",
+      "sha256": "7839BB09F27EBE3F084045C3507738BFEA021E9937FB4BA4BC5C36E61248108F",
+      "bytes": 4490
+    },
+    {
+      "path": "sample_runs\\20261002_062231\\sample_motion_probe.json",
+      "sha256": "E26A891D53DC7A7196156FBB034A0638483A5A8A4EFD05FBC5FAFD1EA23C87E9",
+      "bytes": 519070
+    },
+    {
+      "path": "sample_source_manifest.json",
+      "sha256": "CF5AF4FED964E2D1F9FC720704707EAD03578FB0C6FD92248FBEAED08B2A9744",
+      "bytes": 5039
+    },
+    {
+      "path": "sample_source_trace.json",
+      "sha256": "AD9A4B802121188B66DE89187DFB3FE37D647184A8133BCB90D8BAAA924F5484",
+      "bytes": 2229
+    },
+    {
+      "path": "preview.html",
+      "sha256": "F3C8BB1E9F400D2933174B2F98A722D3F8FDB8320E028EF449867269232AF34F",
+      "bytes": 5666
+    },
+    {
+      "path": "snapshot_manifest.json",
+      "sha256": "192C83D8B4771DFD70F1F2AB8B4DD00A9BD10B1779D30097D609A87C88FE548D",
+      "bytes": 3325
+    }
+  ],
+  "full_slow_movies_in_formal_archive_only": true
+}

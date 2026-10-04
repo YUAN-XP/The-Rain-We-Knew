@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using UnityEngine;
 
 public class ParentShadowSequence : MonoBehaviour
@@ -44,7 +44,7 @@ public class ParentShadowSequence : MonoBehaviour
         if(dimOverlay!=null)dimOverlay.enabled=true;
         for(float t=0;t<introDuration-.5f;t+=GameplayClock.Delta)
         {
-            if(frameDoorAndLamp && Camera.main!=null && lamp!=null && approachPoint!=null){var pos=Camera.main.transform.position;pos.x=Mathf.Lerp(pos.x,(lamp.transform.position.x+approachPoint.position.x)*.5f,5f*GameplayClock.Delta);Camera.main.transform.position=pos;}
+            if(frameDoorAndLamp && Camera.main!=null && lamp!=null && approachPoint!=null){var pos=Camera.main.transform.position;pos.x=Mathf.Lerp(pos.x,(lamp.transform.position.x+approachPoint.position.x)*.5f,5f*GameplayClock.Delta);Camera.main.transform.position=RoomCameraBounds.Confine(Camera.main,player,pos);}
             float strength=t<(introDuration-.5f)*.45f ? .8f+.15f*Mathf.Sin(t*32) : t<(introDuration-.5f)*.65f ? .04f : .45f;
             if(lamp!=null)lamp.color=new Color(lampColor.r*strength,lampColor.g*strength,lampColor.b*strength,lampColor.a);
             yield return null;

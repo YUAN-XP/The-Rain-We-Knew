@@ -27,10 +27,8 @@ public partial class DeskCloseupController : MonoBehaviour
         var root=RuntimePanelUI.Canvas("DeskAndOutfitCanvas",transform,130); canvas=root.gameObject;
         RuntimePanelUI.Panel("Backdrop",root,Vector2.zero,Vector2.one,new Color(.045f,.055f,.057f,.99f));
         desktop=PageRoot("Desktop",root); lockPanel=PageRoot("Drawer",root); computerPanel=PageRoot("Computer",root);
-        var desk=RuntimePanelUI.Panel("WoodDesktop",desktop.transform,new Vector2(.12f,.17f),new Vector2(.88f,.77f),new Color(.26f,.19f,.13f));
-        RuntimePanelUI.Button("电脑",desk.transform,font,new Vector2(.5f,.38f),new Vector2(.85f,.9f),()=>ShowPage("Computer"));
-        RuntimePanelUI.Button("抽屉",desk.transform,font,new Vector2(.08f,.1f),new Vector2(.45f,.38f),()=>ShowPage("Drawer"));
-        RuntimePanelUI.Button("[Esc] 退出",desktop.transform,font,new Vector2(.7f,.06f),new Vector2(.88f,.13f),Close);
+        BuildAuthoredDesktop();
+        RuntimePanelUI.Button("[Esc] 退出",desktop.transform,font,new Vector2(.73f,.035f),new Vector2(.92f,.11f),Close);
         wheels=new FourDigitLock[4];
         for(int i=0;i<4;i++) {
             float x=.28f+i*.115f;
@@ -51,6 +49,7 @@ public partial class DeskCloseupController : MonoBehaviour
         RuntimePanelUI.Button("确认",computerPanel.transform,font,new Vector2(.52f,.18f),new Vector2(.7f,.27f),SubmitComputer);
         RuntimePanelUI.Button("返回",computerPanel.transform,font,new Vector2(.3f,.18f),new Vector2(.48f,.27f),()=>ShowPage("Desktop"));
         RuntimePanelUI.Text("电脑",computerPanel.transform,font,new Vector2(.3f,.65f),new Vector2(.7f,.75f),38);
+        BuildAuthoredDrawer();
         BuildSchoolComputer();
 
     }

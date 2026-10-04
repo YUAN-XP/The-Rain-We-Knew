@@ -1,0 +1,41 @@
+{
+  "scope": "Existing Scene01 PlayerController and GameplayInput replay; candidate rig temporarily attached; original world camera rendered at 1920x1080; overlay UI and physical keyboard are not certified by this movie; production settings restored on cleanup",
+  "revision": "R11_measured_ground_contact_with_regressed_neck_hip_shoes",
+  "frames": 1335,
+  "duration_seconds": 18.00507690000086,
+  "walk_speed_original": 2.200000047683716,
+  "walk_speed_in_review": 1.350000023841858,
+  "mean_moving_speed": 1.1066026245564047,
+  "measured_cycles": 7.207413196563721,
+  "unexpected_continuous_motion_phase_resets": [],
+  "world_distance": 7.489840247048588,
+  "support_height_relative_to_ground": [
+    0.0,
+    0.0
+  ],
+  "pause_frames": 61,
+  "paused_phase_max_change": 0.0,
+  "shift_frames_before_unlock": 153,
+  "running_frames_before_unlock": 0,
+  "part_count_range": [
+    10,
+    10
+  ],
+  "probe_errors": [],
+  "native_media": [
+    {
+      "name": "gameplay_motion.mp4",
+      "sha256": "eac4caf6134fc30584f1fbcfee8c4dd08d323d7c84c779dac335565a7218e5ae"
+    },
+    {
+      "name": "gameplay_motion_slow.mp4",
+      "sha256": "8451fff31e53f78c0eafd6abf1874c2235cf94b9cac0e59c2138385e1d72b957"
+    }
+  ],
+  "not_certified": [
+    "Physical keyboard focus",
+    "Overlay UI",
+    "All other actors and directions",
+    "Full P02 acceptance"
+  ]
+}

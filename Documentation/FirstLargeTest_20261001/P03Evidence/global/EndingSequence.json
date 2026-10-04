@@ -1,0 +1,177 @@
+{
+    "scene": "EndingSequence",
+    "time": "2026-10-04T07:57:08.8289628+08:00",
+    "surfaces": [
+        {
+            "path": "EndingDirector/Scene03_River_Landmarks_VisualsOnly/Shadow",
+            "sprite": "Square",
+            "asset": "Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png",
+            "active": false,
+            "enabled": true,
+            "hidden": false,
+            "order": -3,
+            "bounds": {
+                "m_Center": {
+                    "x": 4.405649185180664,
+                    "y": 2.7211432456970217,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 2.154662847518921,
+                    "y": 0.587635338306427,
+                    "z": 0.3917568624019623
+                }
+            }
+        },
+        {
+            "path": "EndingDirector/Scene03_River_Landmarks_VisualsOnly/Trunk",
+            "sprite": "Square",
+            "asset": "Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png",
+            "active": false,
+            "enabled": true,
+            "hidden": false,
+            "order": -3,
+            "bounds": {
+                "m_Center": {
+                    "x": 3.6221275329589845,
+                    "y": 3.1129040718078615,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.450520396232605,
+                    "y": 1.7629058361053467,
+                    "z": 0.3917568624019623
+                }
+            }
+        },
+        {
+            "path": "EndingDirector/Scene03_River_Landmarks_VisualsOnly/Crown",
+            "sprite": "Square",
+            "asset": "Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png",
+            "active": false,
+            "enabled": true,
+            "hidden": false,
+            "order": -3,
+            "bounds": {
+                "m_Center": {
+                    "x": 3.6221275329589845,
+                    "y": 5.267568588256836,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 2.182443857192993,
+                    "y": 2.182443857192993,
+                    "z": 0.3917568624019623
+                }
+            }
+        },
+        {
+            "path": "EndingDirector/Scene03_River_Landmarks_VisualsOnly/Leaves",
+            "sprite": "Square",
+            "asset": "Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png",
+            "active": false,
+            "enabled": true,
+            "hidden": false,
+            "order": -3,
+            "bounds": {
+                "m_Center": {
+                    "x": 4.601519584655762,
+                    "y": 5.6593194007873539,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 1.0773314237594605,
+                    "y": 1.0773314237594605,
+                    "z": 0.3917568624019623
+                }
+            }
+        },
+        {
+            "path": "EndingDirector/Scene03_River_Landmarks_VisualsOnly/Platform",
+            "sprite": "Square",
+            "asset": "Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png",
+            "active": false,
+            "enabled": true,
+            "hidden": false,
+            "order": -3,
+            "bounds": {
+                "m_Center": {
+                    "x": 12.0,
+                    "y": 1.5044136047363282,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 3.088240623474121,
+                    "y": 0.12867669761180879,
+                    "z": 0.1029413565993309
+                }
+            }
+        },
+        {
+            "path": "EndingDirector/Scene03_River_Landmarks_VisualsOnly/Pillar",
+            "sprite": "Square",
+            "asset": "Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png",
+            "active": false,
+            "enabled": true,
+            "hidden": false,
+            "order": -3,
+            "bounds": {
+                "m_Center": {
+                    "x": 9.42646598815918,
+                    "y": 2.894120216369629,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.11323549598455429,
+                    "y": 1.5441203117370606,
+                    "z": 0.1029413565993309
+                }
+            }
+        },
+        {
+            "path": "EndingDirector/Scene03_River_Landmarks_VisualsOnly/Pillar",
+            "sprite": "Square",
+            "asset": "Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png",
+            "active": false,
+            "enabled": true,
+            "hidden": false,
+            "order": -3,
+            "bounds": {
+                "m_Center": {
+                    "x": 14.57353401184082,
+                    "y": 2.894120216369629,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.11323549598455429,
+                    "y": 1.5441203117370606,
+                    "z": 0.1029413565993309
+                }
+            }
+        },
+        {
+            "path": "EndingDirector/Scene03_River_Landmarks_VisualsOnly/Roof",
+            "sprite": "Square",
+            "asset": "Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png",
+            "active": false,
+            "enabled": true,
+            "hidden": false,
+            "order": -3,
+            "bounds": {
+                "m_Center": {
+                    "x": 12.0,
+                    "y": 4.644120216369629,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 3.3455941677093508,
+                    "y": 0.2058827131986618,
+                    "z": 0.1029413565993309
+                }
+            }
+        }
+    ],
+    "geometry": [
+        "ForegroundGround | BoxCollider2D active=True enabled=True trigger=False bounds=Center: (27.00, -1.30, 0.00), Extents: (50.00, 0.20, 0.00)"
+    ]
+}

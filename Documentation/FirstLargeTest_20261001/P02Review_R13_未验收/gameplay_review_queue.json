@@ -1,0 +1,13 @@
+{"steps":[
+  {"label":"P02_initial_idle","seconds":0.4,"keys":""},
+  {"label":"P02_right_walk_three_cycles","seconds":3.4,"keys":"D"},
+  {"label":"P02_stop","seconds":0.6,"keys":""},
+  {"label":"P02_shift_before_story_unlock","seconds":2.0,"keys":"D,LeftShift"},
+  {"label":"P02_stop_before_pause","seconds":0.5,"keys":""},
+  {"label":"P02_pause_press","seconds":0.08,"keys":"Escape"},
+  {"label":"P02_paused_release","seconds":0.8,"keys":""},
+  {"label":"P02_resume_press","seconds":0.08,"keys":"Escape"},
+  {"label":"P02_resumed_release","seconds":0.4,"keys":""},
+  {"label":"P02_right_walk_after_pause","seconds":1.3,"keys":"D"},
+  {"label":"P02_final_stop","seconds":1.0,"keys":""}
+]}

@@ -1,0 +1,45 @@
+{
+  "status": "candidate for native rig QA; not final art or phase acceptance",
+  "pixels_changed_by_script": false,
+  "native_scale": "uniform per part, no source resampling",
+  "inputs": [
+    {
+      "source": "C:\\Users\\31975\\.codex\\generated_images\\01a0c57a-db83-7dd3-8a8b-2e65283d876c\\exec-fd26b48e-918c-435e-9302-a81138fe5de1.png",
+      "project_file": "XP_Default_Right_Parts_Candidate02.png",
+      "sha256": "2c7556de0d87d0df44f7e55818530e768419d5c470d41d8f6293396031ab06f2"
+    },
+    {
+      "source": "C:\\Users\\31975\\.codex\\generated_images\\01a0c57a-db83-7dd3-8a8b-2e65283d876c\\exec-c3f99ae0-70a7-4afd-943f-bb7bc43331d1.png",
+      "project_file": "XP_Default_Right_Torso_Continuous_v01.png",
+      "sha256": "dd703586d4e9f5981d1a64acfa3a866ab6194e0bace75bdbc2799b7a8a6cbc32"
+    },
+    {
+      "source": "C:\\Users\\31975\\.codex\\generated_images\\01a0c57a-db83-7dd3-8a8b-2e65283d876c\\exec-7cfd984a-db84-41b5-a88a-4437c6afea49.png",
+      "project_file": "XP_Default_Right_Limbs_Continuous_v01.png",
+      "sha256": "691445b0f7878c85120ef9c7269316926d73241fbfa985ed2ba8efe3b37bbae2"
+    },
+    {
+      "source": "C:\\Users\\31975\\.codex\\generated_images\\01a0c57a-db83-7dd3-8a8b-2e65283d876c\\exec-f893106b-2f6d-4723-93cc-5ca7473f19ab.png",
+      "project_file": "XP_Default_Right_LeftPalm_v01.png",
+      "sha256": "68713dc4d01e6f234ffe34496ae9fc73fcf46f766e9609c39fa3e30cf0134b86"
+    },
+    {
+      "source": "C:\\Users\\31975\\.codex\\generated_images\\01a0c57a-db83-7dd3-8a8b-2e65283d876c\\exec-2f5f7fe0-1707-4759-8f67-f3252e8b439e.png",
+      "project_file": "XP_Default_Right_HandPoses_v01.png",
+      "sha256": "ab22c036b80f41b1d24d437c53aeeafff619fea0861ac61380b676a4e32fee2e"
+    }
+  ],
+  "rejected": [
+    "Candidate01 front torso",
+    "Candidate02 integrated sleeve torso",
+    "Candidate02 hard-edged separate elbows/knees and far hand back",
+    "Candidate03 sleeve torso",
+    "Candidate04 exposed grey shoulder opening"
+  ],
+  "required_qa": [
+    "continuous shoulder elbow wrist hip knee ankle coverage",
+    "far anatomical left palm facing viewer",
+    "three continuous cycles",
+    "painted sole and semantic ground alignment"
+  ]
+}

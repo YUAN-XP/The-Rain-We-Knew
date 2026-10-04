@@ -1,0 +1,162 @@
+{
+  "created": "2026-10-04T08:01:40.643170+08:00",
+  "phase": "P03",
+  "items": [
+    {
+      "id": "M01",
+      "title": "记者与证件套",
+      "confirmed_problem": "原记者只有一人，证件套像方块且悬空",
+      "implementation": "补群体与场景专用轻微待机；扁平证件套落地，保留原阻挡及拾取",
+      "final_runtime_image": "runtime/01_Reporters_Blocking.jpg",
+      "before_image": "baseline/Scene01_Rain_Crowd.jpg",
+      "retest": "reporter crowd blocks passage; credential retains original pickup; cannot leave a duplicate ground image",
+      "internal_status": "本阶段运行及相邻回归通过",
+      "human_acceptance": "待人工审计",
+      "cross_phase_remaining": null
+    },
+    {
+      "id": "M02",
+      "title": "水坑血脸近景",
+      "confirmed_problem": "旧近景为矩形街景，退出后有残留黑色倒影",
+      "implementation": "制作慌乱血脸水坑；按原比例显示，进入与退出清理错误倒影",
+      "final_runtime_image": "runtime/04_Puddle_Revealed.jpg",
+      "before_image": "baseline/Scene01_Rain_Puddle.jpg",
+      "retest": "puddle first close clears old portrait; repeat puddle uses original dialogue only",
+      "internal_status": "本阶段运行及相邻回归通过",
+      "human_acceptance": "待人工审计",
+      "cross_phase_remaining": null
+    },
+    {
+      "id": "M03",
+      "title": "路灯光源",
+      "confirmed_problem": "灯锥锚点与绘制灯泡不一致",
+      "implementation": "三个灯具使用实际灯泡位置的独立发光锚点",
+      "final_runtime_image": "runtime/03_Lamp_Emitter.jpg",
+      "before_image": "baseline/Scene01_Rain_Lamp.jpg",
+      "retest": "three lamp cones terminate exactly at bulb emitters",
+      "internal_status": "本阶段运行及相邻回归通过",
+      "human_acceptance": "待人工审计",
+      "cross_phase_remaining": null
+    },
+    {
+      "id": "M04",
+      "title": "自行车落地",
+      "confirmed_problem": "斜向图与侧向道路不相容",
+      "implementation": "换为等比例平行道路的自行车，双轮接同一地面",
+      "final_runtime_image": "runtime/02_Bicycle_Grounding.jpg",
+      "before_image": "baseline/Scene01_Rain_Bike.jpg",
+      "retest": "grounding screenshot, source aspect and edit geometry",
+      "internal_status": "本阶段运行及相邻回归通过",
+      "human_acceptance": "待人工审计",
+      "cross_phase_remaining": null
+    },
+    {
+      "id": "M05",
+      "title": "枪声漫画",
+      "confirmed_problem": "旧表情反复复用、缺文字和开枪动作",
+      "implementation": "三格新表情、有人吗？、开枪手、飞弹和Bang；原枪声与推进回调保留",
+      "final_runtime_image": "runtime/07_Comic_Bang.jpg",
+      "before_image": "baseline/Scene01_Rain_Lamp.jpg",
+      "retest": "05/06/07 ordered composed screenshots; native video decodes",
+      "internal_status": "本阶段运行及相邻回归通过",
+      "human_acceptance": "待人工审计",
+      "cross_phase_remaining": null
+    },
+    {
+      "id": "M06",
+      "title": "住宅门和动态雨",
+      "confirmed_problem": "门槛落在通行带，窗雨为静态贴画",
+      "implementation": "门贴墙脚，双向黑幕落地；五扇家属院窗增加逐玻璃裁切的动态雨",
+      "final_runtime_image": "runtime/10_StairsUp.jpg",
+      "before_image": "baseline/Scene02_Courtyard_FirstLeft.jpg",
+      "retest": "doors original fade/destination/no landing drop; five windows / fifteen panes",
+      "internal_status": "本阶段运行及相邻回归通过",
+      "human_acceptance": "待人工审计",
+      "cross_phase_remaining": null
+    },
+    {
+      "id": "M07",
+      "title": "污渍全家福与桌面支撑",
+      "confirmed_problem": "照片提前清晰，灯和相机悬在桌缘",
+      "implementation": "生日/拍照既有状态显影；家属院与童年已查实的灯/相机落入真正台面；建立全Demo审计",
+      "final_runtime_image": "runtime/08_Photo_Stained.jpg",
+      "before_image": "baseline/Scene02_Courtyard_FirstPhoto.jpg",
+      "retest": "stained/clean state; tabletop support; return living room enter/exit",
+      "internal_status": "本阶段运行及相邻回归通过",
+      "human_acceptance": "待人工审计",
+      "cross_phase_remaining": "全Demo延续条款仍跟随P04/P05/P06逐章处理与P08全流程验收，不标记为全局完成"
+    },
+    {
+      "id": "M08",
+      "title": "楼梯尺度",
+      "confirmed_problem": "旧五阶结构在近镜头下高过成人",
+      "implementation": "完整楼梯高度1.6世界单位，成人1.8；保留原上下楼交互",
+      "final_runtime_image": "runtime/12_StairsUpAgain.jpg",
+      "before_image": "baseline/Scene02_Courtyard_FirstStairs.jpg",
+      "retest": "stairs 1.6 < adult 1.8; stairs up/down/up no landing drop",
+      "internal_status": "本阶段运行及相邻回归通过",
+      "human_acceptance": "待人工审计",
+      "cross_phase_remaining": null
+    },
+    {
+      "id": "M09",
+      "title": "庭院黑雾与活动范围",
+      "confirmed_problem": "邱天右侧空路长、空气墙无视觉依据",
+      "implementation": "庭院横向布局统一压缩到原0.6；同步NPC/热点/地面/边界/旧档；黑雾与阻挡相邻",
+      "final_runtime_image": "runtime/14_MasterExit.jpg",
+      "before_image": "baseline/Scene02_Courtyard_FirstFog.jpg",
+      "retest": "layout/save migration, crowd/fog blocker, supported original door transitions",
+      "internal_status": "本阶段运行及相邻回归通过",
+      "human_acceptance": "待人工审计",
+      "cross_phase_remaining": "全Demo延续条款仍跟随P04/P05/P06逐章处理与P08全流程验收，不标记为全局完成"
+    },
+    {
+      "id": "M10",
+      "title": "主卧影灯演出",
+      "confirmed_problem": "灯和父母影子隔得太远，无法同时看见",
+      "implementation": "小桌支撑灯，残破父母影子同框；原接近触发与离场规则保留",
+      "final_runtime_image": "runtime/14B_ParentShadows.jpg",
+      "before_image": "baseline/Scene02_Courtyard_Master.jpg",
+      "retest": "original approach clears parent event and restores lamp",
+      "internal_status": "本阶段运行及相邻回归通过",
+      "human_acceptance": "待人工审计",
+      "cross_phase_remaining": null
+    },
+    {
+      "id": "M11",
+      "title": "次卧和密码桌近景",
+      "confirmed_problem": "窗与书柜重叠，桌无密码抽屉，仍用旧近景",
+      "implementation": "窗桌书柜重排；新密码桌与电脑/抽屉手绘轮廓热点；原生锁体与四轮输入；清除三张旧CU_HOME资源",
+      "final_runtime_image": "runtime/16_Drawer.jpg",
+      "before_image": "baseline/Scene02_Courtyard_SecondDesk.jpg",
+      "retest": "rendered contour/raycast; scroll/drag; birthday gate; duplicate prevention; native pixel budget",
+      "internal_status": "本阶段运行及相邻回归通过",
+      "human_acceptance": "待人工审计",
+      "cross_phase_remaining": null
+    },
+    {
+      "id": "M12",
+      "title": "连续异化二楼",
+      "confirmed_problem": "白块触发远处传送，回到旧楼梯且画面闪切",
+      "implementation": "次卧退出后接连贯异化二楼，停用楼梯/白块与旧远程背景；D/A实走，不增加中途切场",
+      "final_runtime_image": "runtime/17_HiddenExit_Continuous.jpg",
+      "before_image": "baseline/Scene02_Courtyard_SecondLeft.jpg",
+      "retest": "bedroom exit is distorted second floor without remote teleport; old stairs disappear",
+      "internal_status": "本阶段运行及相邻回归通过",
+      "human_acceptance": "待人工审计",
+      "cross_phase_remaining": null
+    },
+    {
+      "id": "M13",
+      "title": "两灯崩坏与三门同框",
+      "confirmed_problem": "长廊冗长，无崩坏阶段，三门互不可见",
+      "implementation": "两处经过灯推动单向递增崩坏；三门距离压缩并统一取景；存读恢复阶段和原右左中答案",
+      "final_runtime_image": "runtime/21_ThreeDoors.jpg",
+      "before_image": "baseline/Scene02_Courtyard_ThreeDoors.jpg",
+      "retest": "real crossing stage1/2; pause freeze; cold restore; wrong choice reset; E sequence2/0/1",
+      "internal_status": "本阶段运行及相邻回归通过",
+      "human_acceptance": "待人工审计",
+      "cross_phase_remaining": null
+    }
+  ]
+}

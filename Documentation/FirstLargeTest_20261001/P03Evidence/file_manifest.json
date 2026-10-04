@@ -1,0 +1,1332 @@
+{
+  "version": "P03-20261004-input-axis-fix",
+  "created": "2026-10-04T09:18:22.780108+08:00",
+  "baseline": "4cc3d96ed9a77a887eed8f70363471e07b67b38b",
+  "runtime": "200 checks; failures=0",
+  "edit_checks": 14,
+  "user_acceptance": "pending",
+  "files": [
+    {
+      "path": "Assets/Art/Demo2026/CU_HOME_COMPUTER.png",
+      "deleted": true,
+      "bytes": null,
+      "sha256": null
+    },
+    {
+      "path": "Assets/Art/Demo2026/CU_HOME_COMPUTER.png.meta",
+      "deleted": true,
+      "bytes": null,
+      "sha256": null
+    },
+    {
+      "path": "Assets/Art/Demo2026/CU_HOME_DESK.png",
+      "deleted": true,
+      "bytes": null,
+      "sha256": null
+    },
+    {
+      "path": "Assets/Art/Demo2026/CU_HOME_DESK.png.meta",
+      "deleted": true,
+      "bytes": null,
+      "sha256": null
+    },
+    {
+      "path": "Assets/Art/Demo2026/CU_HOME_LOCK.png",
+      "deleted": true,
+      "bytes": null,
+      "sha256": null
+    },
+    {
+      "path": "Assets/Art/Demo2026/CU_HOME_LOCK.png.meta",
+      "deleted": true,
+      "bytes": null,
+      "sha256": null
+    },
+    {
+      "path": "Assets/Art/正式/P03.meta",
+      "deleted": false,
+      "bytes": 172,
+      "sha256": "d9ad3f03293b287a4a78f39ef940049d1f1e32007c61baf24600c9ebe53691f3"
+    },
+    {
+      "path": "Assets/Art/正式/P03/P03FragmentPainting.shader",
+      "deleted": false,
+      "bytes": 1289,
+      "sha256": "5a190e966acd06a4122633f2a267d9f2d94c47830d5654bc8cb834d201d3b38b"
+    },
+    {
+      "path": "Assets/Art/正式/P03/P03FragmentPainting.shader.meta",
+      "deleted": false,
+      "bytes": 204,
+      "sha256": "28115341e3572daacf678e17e5b9455b1e60e1868082b255afada6da59d90652"
+    },
+    {
+      "path": "Assets/Art/正式/P03/P03RepeatedPainting.mat",
+      "deleted": false,
+      "bytes": 958,
+      "sha256": "f0d1cc38226c0b5825a3d279ee59576a6927c69049077104110a087f1fb6d712"
+    },
+    {
+      "path": "Assets/Art/正式/P03/P03RepeatedPainting.mat.meta",
+      "deleted": false,
+      "bytes": 188,
+      "sha256": "e497be44088532957aaa2a7ca71210be8668aeea40adee72970c16f542a71330"
+    },
+    {
+      "path": "Assets/Art/正式/P03/P03RepeatedPainting.shader",
+      "deleted": false,
+      "bytes": 980,
+      "sha256": "55d46d76db404ef24a34b3590086b5766927962bfb79bd39dbde9a2c7f10fa4a"
+    },
+    {
+      "path": "Assets/Art/正式/P03/P03RepeatedPainting.shader.meta",
+      "deleted": false,
+      "bytes": 204,
+      "sha256": "1ac2372462e50d5888f32d3b04d60e723bcdcb88b1e8fe56def2e773f45cad1d"
+    },
+    {
+      "path": "Assets/Art/正式/P03/P03_Bicycle.png",
+      "deleted": false,
+      "bytes": 2171401,
+      "sha256": "cdfe41d376606efd82bb8275510ba1de2f5ce63f1ea56f4f921a45d49d7be31a"
+    },
+    {
+      "path": "Assets/Art/正式/P03/P03_Bicycle.png.meta",
+      "deleted": false,
+      "bytes": 3288,
+      "sha256": "1388caa43c979df2a627192ab3ecd6b6393d1d74703dcaf48bc11463224a8a1a"
+    },
+    {
+      "path": "Assets/Art/正式/P03/P03_CollapseWall.png",
+      "deleted": false,
+      "bytes": 1947745,
+      "sha256": "e0f925cc5654d556c646c7bea0ab39b3e53b2df68e4b0c984f2caae161d1d831"
+    },
+    {
+      "path": "Assets/Art/正式/P03/P03_CollapseWall.png.meta",
+      "deleted": false,
+      "bytes": 3303,
+      "sha256": "6b2c86d5ddd9d6abf5013966a0fbf4340fff9bde64ddfa96d574c445305b2fa4"
+    },
+    {
+      "path": "Assets/Art/正式/P03/P03_CompactStairs.png",
+      "deleted": false,
+      "bytes": 1508981,
+      "sha256": "c24483def5cd06adce4500ba7069cbd2a7d74ed73ba6a6c7959d3005b9860d16"
+    },
+    {
+      "path": "Assets/Art/正式/P03/P03_CompactStairs.png.meta",
+      "deleted": false,
+      "bytes": 3310,
+      "sha256": "c84100680f26d1be162ced39ab541501eb366ffe3faba0a91d424f82f947a3b7"
+    },
+    {
+      "path": "Assets/Art/正式/P03/P03_Crack_lower.mat",
+      "deleted": false,
+      "bytes": 1223,
+      "sha256": "14edd3315cb8e6445f28005489966df4195be940f1c6b605bdc5f0806f787caf"
+    },
+    {
+      "path": "Assets/Art/正式/P03/P03_Crack_lower.mat.meta",
+      "deleted": false,
+      "bytes": 188,
+      "sha256": "42f558d37f18fdad1c6b7bf7017576172f0d83648f443b8842fa71fe131b3115"
+    },
+    {
+      "path": "Assets/Art/正式/P03/P03_Crack_middle.mat",
+      "deleted": false,
+      "bytes": 1222,
+      "sha256": "e47e99e8c7bf274034caef982b37eec4b50e4ae06caff784513a0d6a33a60e91"
+    },
+    {
+      "path": "Assets/Art/正式/P03/P03_Crack_middle.mat.meta",
+      "deleted": false,
+      "bytes": 188,
+      "sha256": "aefe9e6ff877128937c4c218223d343b877dc61b15c46ed266114f99bbcfdeb3"
+    },
+    {
+      "path": "Assets/Art/正式/P03/P03_Crack_upper.mat",
+      "deleted": false,
+      "bytes": 1221,
+      "sha256": "64c4e89191612018bb980a0c5be96f331c5ee6711f3f72e61d87fe67913850dc"
+    },
+    {
+      "path": "Assets/Art/正式/P03/P03_Crack_upper.mat.meta",
+      "deleted": false,
+      "bytes": 188,
+      "sha256": "d8c05bfcf4e2443ad332f71f85ca8c157d994585b73ef2336a20a3b58c1aff36"
+    },
+    {
+      "path": "Assets/Art/正式/P03/P03_CredentialCase.png",
+      "deleted": false,
+      "bytes": 1278070,
+      "sha256": "0cac45edeb0973d650c3fd0ebba5d1b238ebe661c1eb3a4aab328dc030f0a79a"
+    },
+    {
+      "path": "Assets/Art/正式/P03/P03_CredentialCase.png.meta",
+      "deleted": false,
+      "bytes": 13492,
+      "sha256": "1ac58a13aecbda1fdc13bb9df415a3b08c821ede21233fef2fb19ebb4bf64dbd"
+    },
+    {
+      "path": "Assets/Art/正式/P03/P03_GunComic.png",
+      "deleted": false,
+      "bytes": 2597467,
+      "sha256": "81cad33f40a6b5323e884095842d5bb430820dc2aa60ab28d67cdaf763119d5a"
+    },
+    {
+      "path": "Assets/Art/正式/P03/P03_GunComic.png.meta",
+      "deleted": false,
+      "bytes": 3291,
+      "sha256": "903ac15341903f5e2bd5b6ae7dcd61c2520836b5893d22f98185ccf5dfbc8d66"
+    },
+    {
+      "path": "Assets/Art/正式/P03/P03_LockCloseup.png",
+      "deleted": false,
+      "bytes": 2950070,
+      "sha256": "c7671e3d3eb07df10453790a75112ac9db05f3e88d16f0a5e3a5fa354a43c5f3"
+    },
+    {
+      "path": "Assets/Art/正式/P03/P03_LockCloseup.png.meta",
+      "deleted": false,
+      "bytes": 3302,
+      "sha256": "fb7bfcc945235ee00d2e87c0faf17cedb96ea57094dd8b78c192e93c69ea29d8"
+    },
+    {
+      "path": "Assets/Art/正式/P03/P03_ParentShadows.png",
+      "deleted": false,
+      "bytes": 1187680,
+      "sha256": "acc9441d7058a16cbe44d554e1f8204d3b494c57c8197992b1acb783a10a3c31"
+    },
+    {
+      "path": "Assets/Art/正式/P03/P03_ParentShadows.png.meta",
+      "deleted": false,
+      "bytes": 14732,
+      "sha256": "5db3aee7ecd8f258d381cac4276fefc79be7eced0340cb1320ea8a4d912db79a"
+    },
+    {
+      "path": "Assets/Art/正式/P03/P03_PasswordDesk.png",
+      "deleted": false,
+      "bytes": 1541395,
+      "sha256": "8b50b06ca6c69d9200e06b48535a58587ca02ecf8d2f710a0ac0c1f25f224f3e"
+    },
+    {
+      "path": "Assets/Art/正式/P03/P03_PasswordDesk.png.meta",
+      "deleted": false,
+      "bytes": 5815,
+      "sha256": "27c500e724964a75e75bf37e3f914c39772b66e69fe74b2991e47a6c892d02c0"
+    },
+    {
+      "path": "Assets/Art/正式/P03/P03_Puddle.png",
+      "deleted": false,
+      "bytes": 2653548,
+      "sha256": "4aedc6f0b89f4690dfa76b6bf241ca878b9a152122ba33b15de982931ab2a3d8"
+    },
+    {
+      "path": "Assets/Art/正式/P03/P03_Puddle.png.meta",
+      "deleted": false,
+      "bytes": 3285,
+      "sha256": "4e29dd2644ef7d1516b63a202683403d7ebca7f8d5e325afdf3d0161ea7def27"
+    },
+    {
+      "path": "Assets/Art/正式/P03/P03_Reporters.png",
+      "deleted": false,
+      "bytes": 2166484,
+      "sha256": "87fa82b3a2a7ce5962cee7ab5915de1d9904a6d1efdf45ec5564391f490ff4cf"
+    },
+    {
+      "path": "Assets/Art/正式/P03/P03_Reporters.png.meta",
+      "deleted": false,
+      "bytes": 3295,
+      "sha256": "166dd63e0085fbef87daf181b75c57a53e64b46be186c610a1dde2e7e3421c41"
+    },
+    {
+      "path": "Assets/Editor/P03CourtyardBuild.cs",
+      "deleted": false,
+      "bytes": 22367,
+      "sha256": "80a60f1bdbf1968d493db26170bb4a197e989f38d8b27d0df826be981f727c6c"
+    },
+    {
+      "path": "Assets/Editor/P03CourtyardBuild.cs.meta",
+      "deleted": false,
+      "bytes": 59,
+      "sha256": "355e8b21df3c27bf872e1ce6089aeb901db8fa1a1757cb085dda078276731571"
+    },
+    {
+      "path": "Assets/Editor/P03EvidenceRecorder.cs",
+      "deleted": false,
+      "bytes": 2702,
+      "sha256": "879bcb352bda5fa669e23dc2c42a07ee28350d7d9a668581bc2917e03f044d63"
+    },
+    {
+      "path": "Assets/Editor/P03EvidenceRecorder.cs.meta",
+      "deleted": false,
+      "bytes": 59,
+      "sha256": "88984164b4d81ecdc2bc238448504ad6af4444088b649dfa3229cdd052333166"
+    },
+    {
+      "path": "Assets/Editor/P03FinalDetails.cs",
+      "deleted": false,
+      "bytes": 8643,
+      "sha256": "7b534af7ff13272fad547807e24424b720aea9155c7838ed5d2c4784c640c17c"
+    },
+    {
+      "path": "Assets/Editor/P03FinalDetails.cs.meta",
+      "deleted": false,
+      "bytes": 59,
+      "sha256": "0daa4b8c075d1bafe09d83c44fb02082636228dae5c06d5c2792f1c4e3d5c5bb"
+    },
+    {
+      "path": "Assets/Editor/P03GlobalPresentationAudit.cs",
+      "deleted": false,
+      "bytes": 3458,
+      "sha256": "1ae0913c4567c2675916fdad0459a5fd0b0618d18ff72735bc94e8fb69468594"
+    },
+    {
+      "path": "Assets/Editor/P03GlobalPresentationAudit.cs.meta",
+      "deleted": false,
+      "bytes": 59,
+      "sha256": "c63448657e7575c565437ea2cfff079e2ef00c1bc24f9b9309f82798bb8d3570"
+    },
+    {
+      "path": "Assets/Editor/P03InputDriftCheck.cs",
+      "deleted": false,
+      "bytes": 3717,
+      "sha256": "b1a9e426e61eeb6a99410f1e9b800872e35e2a042ff1a55b8aee154604bc310e"
+    },
+    {
+      "path": "Assets/Editor/P03InputDriftCheck.cs.meta",
+      "deleted": false,
+      "bytes": 59,
+      "sha256": "5c4199f19c115c3e044821a17e2f8576a30e55f63f8002258969c7499117c21b"
+    },
+    {
+      "path": "Assets/Editor/P03LockRefinement.cs",
+      "deleted": false,
+      "bytes": 1323,
+      "sha256": "90391a9bf2c65e90c55adbac301c8a306388dc71ecac3acd1ca1809277e6125d"
+    },
+    {
+      "path": "Assets/Editor/P03LockRefinement.cs.meta",
+      "deleted": false,
+      "bytes": 59,
+      "sha256": "b17e82d5e8eeb1f89b7cc7cf030d85b53b9e7a38b10101fe1004421e3fc73fc6"
+    },
+    {
+      "path": "Assets/Editor/P03MediaVerifier.cs",
+      "deleted": false,
+      "bytes": 2449,
+      "sha256": "083928333099a9d3ae85960c6e2f14c88353e99fc9bc7ccbe00a98011ef52921"
+    },
+    {
+      "path": "Assets/Editor/P03MediaVerifier.cs.meta",
+      "deleted": false,
+      "bytes": 59,
+      "sha256": "f4925617e1f0e43117a603881298b6cb4f75648bc15c62eea886f645dfebe1d2"
+    },
+    {
+      "path": "Assets/Editor/P03ProductionBuild.cs",
+      "deleted": false,
+      "bytes": 8804,
+      "sha256": "c2d1dc57f7746c6fc9696c0b597bf542672d0d66741da91300021d62f05093a1"
+    },
+    {
+      "path": "Assets/Editor/P03ProductionBuild.cs.meta",
+      "deleted": false,
+      "bytes": 59,
+      "sha256": "a6435764133a39214db585fd6466c095c0f41ba46bf1b012b7aefb855045424f"
+    },
+    {
+      "path": "Assets/Editor/P03Regression.cs",
+      "deleted": false,
+      "bytes": 31626,
+      "sha256": "7ee8c4df9a1771dc79a168455087bf84daeb6bf3106468c594ef0b948ef5d212"
+    },
+    {
+      "path": "Assets/Editor/P03Regression.cs.meta",
+      "deleted": false,
+      "bytes": 59,
+      "sha256": "e2fdc4912d5c3d7a1386a03c8947a20a797ff3525bd02cff8a6fa6798651c9f1"
+    },
+    {
+      "path": "Assets/Editor/P03SceneEvidence.cs",
+      "deleted": false,
+      "bytes": 5491,
+      "sha256": "5392bdb8586d305febe09ee2646acc219e5e8be2ae77e7adebbaa426843761bc"
+    },
+    {
+      "path": "Assets/Editor/P03SceneEvidence.cs.meta",
+      "deleted": false,
+      "bytes": 59,
+      "sha256": "360b23fdf9260b49511d3a51d2d38444a24191e6a331ea22bd91f4b6750cdf19"
+    },
+    {
+      "path": "Assets/Editor/P03StageAudit.cs",
+      "deleted": false,
+      "bytes": 2682,
+      "sha256": "323683d6cc0da7368a6103649dfd0deeb184d1040ba0393dde3527a0a5f0f2ec"
+    },
+    {
+      "path": "Assets/Editor/P03StageAudit.cs.meta",
+      "deleted": false,
+      "bytes": 59,
+      "sha256": "abfe74a994b6f270bff2738039ac2ecb6cf2402d3416ae844976bce3ff8e8dd5"
+    },
+    {
+      "path": "Assets/Editor/P03ValidationBuild.cs",
+      "deleted": false,
+      "bytes": 1215,
+      "sha256": "6407f994d849335250066b439a57080b8a52fdf1f568b6f8819c86a81d02eefa"
+    },
+    {
+      "path": "Assets/Editor/P03ValidationBuild.cs.meta",
+      "deleted": false,
+      "bytes": 59,
+      "sha256": "5ada9fb19d45999ced004b885d44a72c5e755f1d8e30c208df48726f20d975d7"
+    },
+    {
+      "path": "Assets/Resources/DemoArtCatalog.asset",
+      "deleted": false,
+      "bytes": 3237533,
+      "sha256": "73b7c9743877b24871fb25f3af67db7cccd8923644b70bcd003c2f9040a8825a"
+    },
+    {
+      "path": "Assets/Scenes/Scene01_Rain.unity",
+      "deleted": false,
+      "bytes": 664230,
+      "sha256": "f089e91d64f9f9abd0a840c5d1a100c2f6812b515b2fdcab0606ff52017da951"
+    },
+    {
+      "path": "Assets/Scenes/Scene02_Courtyard.unity",
+      "deleted": false,
+      "bytes": 2473964,
+      "sha256": "e1721398d6537da169e3ecb902cc887b055c2a17d363ff236dc991a34bdb2a9c"
+    },
+    {
+      "path": "Assets/Scenes/Scene03_Childhood.unity",
+      "deleted": false,
+      "bytes": 17140785,
+      "sha256": "3548ff029933b656a2db963c6184a78612c4d6f2dcaad712ad0933ebfcb40035"
+    },
+    {
+      "path": "Assets/Scripts/Interaction/PuddleReflectionInteractable.cs",
+      "deleted": false,
+      "bytes": 4340,
+      "sha256": "e4c97b361f07a87a8647b1581faf1f4a40494e1d77ad2e334bc6c4e3a5b59690"
+    },
+    {
+      "path": "Assets/Scripts/Presentation/DemoCloseupPresentation.cs",
+      "deleted": false,
+      "bytes": 6738,
+      "sha256": "c27b7018812fca71324758d3245e5d90b1edb1daff5005cae460c6e36602d5bb"
+    },
+    {
+      "path": "Assets/Scripts/Presentation/DemoComicSequence.cs",
+      "deleted": false,
+      "bytes": 6946,
+      "sha256": "87f94ba4febe8558fe64a015b42ae1a10dd84b385febb7fcda7d7acbed5cc3f3"
+    },
+    {
+      "path": "Assets/Scripts/Presentation/P03CorridorCollapse.cs",
+      "deleted": false,
+      "bytes": 860,
+      "sha256": "05d07756d8f115f73e16dd1a76f41eb31f942d268f3deddaec9b4694d9ab116a"
+    },
+    {
+      "path": "Assets/Scripts/Presentation/P03CorridorCollapse.cs.meta",
+      "deleted": false,
+      "bytes": 59,
+      "sha256": "eaa9e182a3e6bb708a7ab23214d54df2ccc86fbbc69c21053a8d85176cfdc844"
+    },
+    {
+      "path": "Assets/Scripts/Presentation/P03FamilyPhotoPresentation.cs",
+      "deleted": false,
+      "bytes": 653,
+      "sha256": "8edb87aa07bb462744e4782973f8f7ce4587085612a48d74e24a525a60438549"
+    },
+    {
+      "path": "Assets/Scripts/Presentation/P03FamilyPhotoPresentation.cs.meta",
+      "deleted": false,
+      "bytes": 59,
+      "sha256": "50cfac191cdf53e811814cda60267204d816f5a800d9d335defde56d7dfa6a37"
+    },
+    {
+      "path": "Assets/Scripts/Presentation/P03RepeatedRoomStrip.cs",
+      "deleted": false,
+      "bytes": 2230,
+      "sha256": "a36f99bfa51ac8ed0532340b565201f0c68677d28a971cc61e5d0fc3892065d4"
+    },
+    {
+      "path": "Assets/Scripts/Presentation/P03RepeatedRoomStrip.cs.meta",
+      "deleted": false,
+      "bytes": 59,
+      "sha256": "a040325cc5621aafe095f373380af94ef426c55bd4730df22783cef664619407"
+    },
+    {
+      "path": "Assets/Scripts/Presentation/P03ReporterIdle.cs",
+      "deleted": false,
+      "bytes": 2798,
+      "sha256": "b704f301c4a8b76c1b9085ed681ebff766edb07bda66d9e8c78a658025d67d9b"
+    },
+    {
+      "path": "Assets/Scripts/Presentation/P03ReporterIdle.cs.meta",
+      "deleted": false,
+      "bytes": 59,
+      "sha256": "f59ecb01d508a3c9a5c00bcb8996b2ffaa52ab096118eb0e8d40f84f8ea9185f"
+    },
+    {
+      "path": "Assets/Scripts/Presentation/RoomPresentationFraming.cs",
+      "deleted": false,
+      "bytes": 4837,
+      "sha256": "648bb5305928b3e478972e7901f599cac8f182810d4909517e7995d5312b0090"
+    },
+    {
+      "path": "Assets/Scripts/Presentation/StreetAtmospherePresentation.cs",
+      "deleted": false,
+      "bytes": 5415,
+      "sha256": "7e31ec4fa42bf3496fe0913c0c12a386c498c82fb12ea60ef01cf620d4a9ee2c"
+    },
+    {
+      "path": "Assets/Scripts/Presentation/WindowRainPresentation.cs",
+      "deleted": false,
+      "bytes": 2156,
+      "sha256": "23784ef565455566cef5dee90a1c6652c67a6a3389d4ba0107700969951a536d"
+    },
+    {
+      "path": "Assets/Scripts/Presentation/WindowRainPresentation.cs.meta",
+      "deleted": false,
+      "bytes": 59,
+      "sha256": "c3ff69ec6903ca6bbafd252b9c6adc397933df6c21ede0f0cdc1635a6132079b"
+    },
+    {
+      "path": "Assets/Scripts/Story/DistortedCorridorController.cs",
+      "deleted": false,
+      "bytes": 4263,
+      "sha256": "f19c1006bd3208e3a6a02d3ed1770853362c8337e6e7ad57da2df252fbff7f38"
+    },
+    {
+      "path": "Assets/Scripts/Story/ParentShadowSequence.cs",
+      "deleted": false,
+      "bytes": 4778,
+      "sha256": "8230231b8b13406508de3d3134f620bad7483c66659a10b9f63f7577387d2f6e"
+    },
+    {
+      "path": "Assets/Scripts/System/FourSlotSaveStore.cs",
+      "deleted": false,
+      "bytes": 6188,
+      "sha256": "13652451051a249a1c1fb80d4ee3963910f5f3fa8727caf40b803e1c70abe012"
+    },
+    {
+      "path": "Assets/Scripts/System/GameSaveData.cs",
+      "deleted": false,
+      "bytes": 1709,
+      "sha256": "2ccb802553587419cf05702b61885d957e97503ca85b59793278b756d991df69"
+    },
+    {
+      "path": "Assets/Scripts/System/GameSaveService.cs",
+      "deleted": false,
+      "bytes": 12511,
+      "sha256": "65903c1077dad8c1e0d464a2f484da000f5591e9e5a7b88e3006240b0bcbde1f"
+    },
+    {
+      "path": "Assets/Scripts/System/P03SceneLayoutMigration.cs",
+      "deleted": false,
+      "bytes": 954,
+      "sha256": "e9b07f47f4ec2b43341cdb0f7a07ef43fc43791c6072fdd4b11a2c4337eea85e"
+    },
+    {
+      "path": "Assets/Scripts/System/P03SceneLayoutMigration.cs.meta",
+      "deleted": false,
+      "bytes": 59,
+      "sha256": "877ee043b8230a35fd57b74d789817486b20153f01f30a52b28aa8f8e4c5d2d4"
+    },
+    {
+      "path": "Assets/Scripts/System/RoomCameraBounds.cs",
+      "deleted": false,
+      "bytes": 2404,
+      "sha256": "edbeaf142da6315a77f349d3a70a605b356b1a10a23e70c9c54cba571101b560"
+    },
+    {
+      "path": "Assets/Scripts/UI/DeskAuthoredPresentation.cs",
+      "deleted": false,
+      "bytes": 3728,
+      "sha256": "1b57b59c45878361d030272b655055d0a9a0a36d595e50f9a0b40efdabb5673d"
+    },
+    {
+      "path": "Assets/Scripts/UI/DeskAuthoredPresentation.cs.meta",
+      "deleted": false,
+      "bytes": 59,
+      "sha256": "ba1bbb13b5578371cf7ad555d54457fef06b1627c035966cad22be72e1f913a7"
+    },
+    {
+      "path": "Assets/Scripts/UI/DeskCloseupController.cs",
+      "deleted": false,
+      "bytes": 6493,
+      "sha256": "51b340f96469660d5d4ca232000c2a688d41a1d7227710bbed93b99b9d7054ef"
+    },
+    {
+      "path": "Assets/Scripts/UI/DrawnHotspotGraphic.cs",
+      "deleted": false,
+      "bytes": 1878,
+      "sha256": "964c2322f3b75315a675517f95c974cfda9523ec903da8a9e20214d0ee325c67"
+    },
+    {
+      "path": "Assets/Scripts/UI/DrawnHotspotGraphic.cs.meta",
+      "deleted": false,
+      "bytes": 59,
+      "sha256": "474cf45b010c69e29e2bf06bd3d31e9de143e31ab864f65018a2448ef634eeff"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/02_需求与验收台账.csv",
+      "deleted": false,
+      "bytes": 65272,
+      "sha256": "cac90ad22cdf9fc3eed51482685afb78f01e73d66b9ba28eeb0dacf855d6e2e7"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/02_需求与验收台账.json",
+      "deleted": false,
+      "bytes": 173867,
+      "sha256": "c4fecb653681492eae4f436226e99ed8470768c55e1a3e1c81184ca18108dc8a"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/02_需求与验收台账.md",
+      "deleted": false,
+      "bytes": 37252,
+      "sha256": "99b4a04b53131101cabb3746961726de8e68fe0c3768905de27a7206d341e7c3"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/22_P03阶段报告与人工审计.md",
+      "deleted": false,
+      "bytes": 13564,
+      "sha256": "26f2122f619e697c84b0ba7038cc3bead8e7905445ed8197e00a16792bf94500"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/23_P03提交范围与英文内容.md",
+      "deleted": false,
+      "bytes": 2824,
+      "sha256": "8562c5b012dc73f3bb4536f1b89b0c4d0222d28a53ca381f3b0a2b4fef2a1aae"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/24_P03空间参数与防回退卡.md",
+      "deleted": false,
+      "bytes": 2178,
+      "sha256": "242eb975b0c3e59097e0a4673477a3599adeb320f0670b007a4a0525ac615416"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/25_P03开局自动移动修复.md",
+      "deleted": false,
+      "bytes": 1925,
+      "sha256": "747ab66581ccbe976209ffa9d09c2e0fd4d69aec3a06a829fbe8b8ef25c827a1"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/baseline/Lock_blurry_before.jpg",
+      "deleted": false,
+      "bytes": 308761,
+      "sha256": "27516e1e48a7cc569bd61dac10028deae080f1615b7d316cd5ad48ab53c8b212"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/baseline/Lock_fitter_before.jpg",
+      "deleted": false,
+      "bytes": 579318,
+      "sha256": "bc67a1da82c96f682064f2553ccd5bd55ebf63d72c10ba9267f549f53ae665ce"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/baseline/Scene01_Rain_Bike.jpg",
+      "deleted": false,
+      "bytes": 393883,
+      "sha256": "0d94ebfe6f903fdfa6e81adc61967471baddad6b0ea95cdb22ea0e72bf4cf9e1"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/baseline/Scene01_Rain_Crowd.jpg",
+      "deleted": false,
+      "bytes": 369338,
+      "sha256": "1cf67cbb833d8eb24bbedd6ed8d1af49044b692a390aa263eadb3961817dd4b4"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/baseline/Scene01_Rain_Lamp.jpg",
+      "deleted": false,
+      "bytes": 376276,
+      "sha256": "286df42da84e2289e49e44ae0c28b9ad6d3111ade3b4be7a90b1ce22c8a01a77"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/baseline/Scene01_Rain_Puddle.jpg",
+      "deleted": false,
+      "bytes": 375173,
+      "sha256": "a9eac0897adb030a1bc9a442af23e207cf012207c5a38b4288f08e8c7683f430"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/baseline/Scene02_Courtyard_FirstFog.jpg",
+      "deleted": false,
+      "bytes": 189776,
+      "sha256": "7d103481d852e195131b846d49884a5764478a8d76acae7192980bc77950bfaf"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/baseline/Scene02_Courtyard_FirstLeft.jpg",
+      "deleted": false,
+      "bytes": 218626,
+      "sha256": "25f0384fb82d7ff99f535ea56a6fbadea7533e168500d525590cda0af7b023fd"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/baseline/Scene02_Courtyard_FirstPhoto.jpg",
+      "deleted": false,
+      "bytes": 216464,
+      "sha256": "68049e1bb80b04146b9dd315f4de617dd018234851b3b3263bd6f731ffb4e672"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/baseline/Scene02_Courtyard_FirstStairs.jpg",
+      "deleted": false,
+      "bytes": 261715,
+      "sha256": "3ef2d9ee88924406de9df16552028e23f6adc774b72b9954b095be2e7c62f7cf"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/baseline/Scene02_Courtyard_Master.jpg",
+      "deleted": false,
+      "bytes": 243941,
+      "sha256": "fdd6b9955e5f0ae1d67a43c71236a1c6e1f2a03a76653636d3d91101d7665341"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/baseline/Scene02_Courtyard_SecondBed.jpg",
+      "deleted": false,
+      "bytes": 222022,
+      "sha256": "d296bf5afcbe6bda369251fb02f48aba16e55437f09bca204b1154b09c85c29d"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/baseline/Scene02_Courtyard_SecondDesk.jpg",
+      "deleted": false,
+      "bytes": 210271,
+      "sha256": "54a2c50795708a74b3016336eddc31af45ad4ba5e5181e0812c07fd63258d7b3"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/baseline/Scene02_Courtyard_SecondLeft.jpg",
+      "deleted": false,
+      "bytes": 190543,
+      "sha256": "b164380cc644509442f459870b4051a07733747aadd8cf65ebcf9e6303f448f2"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/baseline/Scene02_Courtyard_SecondRight.jpg",
+      "deleted": false,
+      "bytes": 210540,
+      "sha256": "d4b0f1609c1557854c1a59ba98a3d1d7e61979ef069be321398266461c04963d"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/baseline/Scene02_Courtyard_ThreeDoors.jpg",
+      "deleted": false,
+      "bytes": 186654,
+      "sha256": "d73f527851c0d99efb22a13ac6d085536626d3745272985f43c55fe687f0c1e6"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/checks/P02_protected_source_check.json",
+      "deleted": false,
+      "bytes": 59864,
+      "sha256": "0dabcb9cc95e3f63972feb638dad936cdf15474b45265265a50a0b9cfd5a2bf8"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/checks/P03_initial_git_status.txt",
+      "deleted": false,
+      "bytes": 41200,
+      "sha256": "552e78f1efa6ddfb0e918ea3247cc20ee4265f274ebd2d4823a5825f65db0156"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/checks/build-messages.txt",
+      "deleted": false,
+      "bytes": 156239,
+      "sha256": "f900c8c4f28d22728184148ba8f219b4d321d9522d77304896a78ad6554f92bd"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/checks/build-result.txt",
+      "deleted": false,
+      "bytes": 101,
+      "sha256": "aa1a7fafbd44643b27191d9a5f6b62a3741d070f0f6d478d2dd051a0ac386780"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/checks/build-scenes.txt",
+      "deleted": false,
+      "bytes": 184,
+      "sha256": "96994f2aef66b723bb6f327e3ea0803416ad1f11802928a8158bcadedae7d2cc"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/checks/capture_diagnostics.txt",
+      "deleted": false,
+      "bytes": 9982,
+      "sha256": "d0ce737793bcb09731d74546c11806d816b036254e795282a2d1b0f8c1ad5d00"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/checks/catalog_reference_regression.json",
+      "deleted": false,
+      "bytes": 882,
+      "sha256": "e38c09d14c77010d48684be8633eb03343c854574bda3040c07690de4de70fc0"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/checks/cleanup_result.json",
+      "deleted": false,
+      "bytes": 841,
+      "sha256": "daa81ac92a8536dac42c7efa5f9ffdc3dc5ddb78b18e6865112cb3918cf7b7de"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/checks/delivery_validation.json",
+      "deleted": false,
+      "bytes": 353,
+      "sha256": "b3b7df99a20991bf2d9cd1c4c736d7dd8b05900c09d2f275baf74074d9143633"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/checks/drawer_raycast.txt",
+      "deleted": false,
+      "bytes": 41,
+      "sha256": "f35600db7cce28bb549efe16177e25471387e083f488d3d4f0548f6809893785"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/checks/edit_audit.txt",
+      "deleted": false,
+      "bytes": 785,
+      "sha256": "905fb15fb62041d92b4dffb6b5e6b77e9deba850d1e30a8831c67e2ce3fc5472"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/checks/floor_retirement_fix.txt",
+      "deleted": false,
+      "bytes": 269,
+      "sha256": "2b88137961c41216d56c6da077622182354c5c111dc9f3f3ace583d3cf124576"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/checks/input_drift/after_first_start.json",
+      "deleted": false,
+      "bytes": 71711,
+      "sha256": "ecef11505fa8bb2c2eeaef0f07d1380b7927d89882c64d4c59d2fc276a6ee7f5"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/checks/input_drift/after_second_start.json",
+      "deleted": false,
+      "bytes": 72984,
+      "sha256": "7ed86809e9d74509db344d244296ab5451b10e52e4b1405c4f600db6114a1817"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/checks/input_drift/after_snapshot.json",
+      "deleted": false,
+      "bytes": 877,
+      "sha256": "6c909cdbbe16aa5bf74e1a0b3f13fefafd89ba5cc7d02d403bede3f1417b8bf6"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/checks/input_drift/before_observer.json",
+      "deleted": false,
+      "bytes": 64913,
+      "sha256": "4c93f7e1b7e5f5cba9646f2d4359510b1991ad070628e119d078fdaeb3e0ee2b"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/checks/input_drift/before_snapshot.json",
+      "deleted": false,
+      "bytes": 822,
+      "sha256": "4e3a07686dce6b26087d8d9d52fdeca8b26a0acaa2319e6ef24557950b6907b3"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/checks/input_drift/result.json",
+      "deleted": false,
+      "bytes": 1286,
+      "sha256": "afca228b968f13ecb5c19f8cc02f789656fc41c95c5240658affa86686e0f4f9"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/checks/input_trace.txt",
+      "deleted": false,
+      "bytes": 5407,
+      "sha256": "a06a102b8b50c66b1a5ab10a54abd4eb375239e9da87f836e4ce671ebbfa660c"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/checks/lamp_geometry.txt",
+      "deleted": false,
+      "bytes": 441,
+      "sha256": "17aa68b780ccedb39c327ec10ef86065bb1c8c7f43dd9e3eac4ec42495356a38"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/checks/ledger_integrity.json",
+      "deleted": false,
+      "bytes": 296,
+      "sha256": "c471abf863a627d0cf61df444e5af6ebc24a78e41646eb16f56a1a7f2a3a5110"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/checks/lock_refinement_failed_then_fixed.txt",
+      "deleted": false,
+      "bytes": 9390,
+      "sha256": "d3d3974c362616cc5c2472a252d86171effb9d67206c0bb961c77284a220c6e4"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/checks/obsolete_closeup_cleanup.txt",
+      "deleted": false,
+      "bytes": 388,
+      "sha256": "5d54d6943315aacbeffc942d48a3ff9d4e7172a5d91eabe0a85c0f8c8e384701"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/checks/position_trace.csv",
+      "deleted": false,
+      "bytes": 34917,
+      "sha256": "192f5734643ca0513d6badc16b8b887618d8b5cdd777359a4f6fffb834d2cbc4"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/checks/prompt_04_lock_refinement.json",
+      "deleted": false,
+      "bytes": 673,
+      "sha256": "7d6d3d8df6695a414126c3f0189ebd3b6a54019ab12b1da942d5276302f61f9f"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/checks/results.txt",
+      "deleted": false,
+      "bytes": 9390,
+      "sha256": "5fc1e03a34ad539ae059b551c45c41a831d4cf138b08fa91795c673018d45f5a"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/checks/scope_boundaries.json",
+      "deleted": false,
+      "bytes": 580,
+      "sha256": "c2ab8562adc95ac37dd89a42e12ab0d68b517116f165890d2d9045fe2e3528a0"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/checks/status.txt",
+      "deleted": false,
+      "bytes": 27,
+      "sha256": "4c5bbddd030af14e2db9e8bb2bf6568ad62ecb36481da1268af94f2867cdd297"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/checks/tabletop_audit_fixes.txt",
+      "deleted": false,
+      "bytes": 374,
+      "sha256": "485da57f7b3f6b72bd5dd3caa8bbcbf3aafa1d3b7d79a486c3c5cce6316eb89e"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/checks/video_verification.txt",
+      "deleted": false,
+      "bytes": 251,
+      "sha256": "19c146452818333746c8ae1ad00d27cbd64fc8fb98aec7e8659e083edb1595d9"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/commit_scope.json",
+      "deleted": false,
+      "bytes": 77142,
+      "sha256": "d3fed7acfd1294b58fa6c08de522afb7871bbfedd40fa7d17bd1a58f427593c2"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/current/Corridor_0.jpg",
+      "deleted": false,
+      "bytes": 110546,
+      "sha256": "1e1ee1be96e45ebdb36dcab9dcaa807356bb8e50e1859bbbd7982adcbce27e62"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/current/Corridor_1.jpg",
+      "deleted": false,
+      "bytes": 152335,
+      "sha256": "8a9743f4041132f25ee20c0b186e8c37ccb021eaaa93a341c217cc2669b74a92"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/current/Corridor_2.jpg",
+      "deleted": false,
+      "bytes": 175874,
+      "sha256": "7ac711f59a4f55683ad8f44aadf488981d336b6ac968fb35dd3b12bfa2c79cd9"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/current/Scene01_Rain_Bike.jpg",
+      "deleted": false,
+      "bytes": 394719,
+      "sha256": "200c56b96cf54b3637be1ad97535db8172b5e95e1d5b574744e49a1a9c53092f"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/current/Scene01_Rain_Credential.jpg",
+      "deleted": false,
+      "bytes": 379807,
+      "sha256": "7a0832761a52003cba643db2e06e0ceae24719343319dcac890241477691a4e5"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/current/Scene01_Rain_Crowd.jpg",
+      "deleted": false,
+      "bytes": 389907,
+      "sha256": "4de3c02c89d3a38079bb170fa963717e3932be4b55c5b6d9a1ae6dacd85cb387"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/current/Scene01_Rain_Lamp.jpg",
+      "deleted": false,
+      "bytes": 376877,
+      "sha256": "d8960c12682d2487d6c71a702133b8954a275085fde236f18b3a35f8ffc02558"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/current/Scene02_Courtyard_FirstFog.jpg",
+      "deleted": false,
+      "bytes": 225004,
+      "sha256": "b5f5610659dbb700c7e9c94c2883eb406b0cf04ced7cd56f262714aff19b0ff7"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/current/Scene02_Courtyard_FirstLeft.jpg",
+      "deleted": false,
+      "bytes": 262388,
+      "sha256": "9e862238992cfaee934b2b26d70b696157cbb734e5c02b6395c1f27b0f26194e"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/current/Scene02_Courtyard_FirstMiddle.jpg",
+      "deleted": false,
+      "bytes": 218892,
+      "sha256": "d0112871107f514e54a76bd42131a5650ae1091f0ecaf25dc44850c7f713a1f8"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/current/Scene02_Courtyard_FirstPhoto.jpg",
+      "deleted": false,
+      "bytes": 268796,
+      "sha256": "d42ae494cddb070b2a0a2694ae7f5f926fbe176a4d7a6e58632a539faad1cbb1"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/current/Scene02_Courtyard_FirstStairs.jpg",
+      "deleted": false,
+      "bytes": 223494,
+      "sha256": "7ae55e89223beaea003d557081f41f5ea6e0b267a464be36e924ab80cd4c0fd2"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/current/Scene02_Courtyard_MasterLeft.jpg",
+      "deleted": false,
+      "bytes": 250621,
+      "sha256": "f5f6c39e496c96795639312c6e3a216dd8cdcca083a717ed091087906de666d9"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/current/Scene02_Courtyard_MasterRight.jpg",
+      "deleted": false,
+      "bytes": 262231,
+      "sha256": "f3da95f414ca525928477d9e4c05866381db3cd7d1ff3b33f10c51a80a5a707d"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/current/Scene02_Courtyard_SecondBed.jpg",
+      "deleted": false,
+      "bytes": 232752,
+      "sha256": "e884c47007e1bb493c871ac2741908f4b384c2e044d5505964f135bb9e0cd8e9"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/current/Scene02_Courtyard_SecondDesk.jpg",
+      "deleted": false,
+      "bytes": 265040,
+      "sha256": "bdbf13644a5fa9c3dc5ac44b512f9d032fb5b304f76e34d0ee890a13ddc35da4"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/current/Scene02_Courtyard_SecondLeft.jpg",
+      "deleted": false,
+      "bytes": 208010,
+      "sha256": "9ece2365e78b35e961ca1e2c021fbfd126f34a2d5bc7f40c02fe4b2aeb12427e"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/current/Scene02_Courtyard_SecondRight.jpg",
+      "deleted": false,
+      "bytes": 235105,
+      "sha256": "6e1dcc71476723a632ce36127920ce104f1d87ffcd0c030eb3771b4a8a85df08"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/global/ChildHome_Table.jpg",
+      "deleted": false,
+      "bytes": 139222,
+      "sha256": "e20a6e2f92cdba857a725f37470a82f974473dd7488edfd9585dd0d37f64bc2a"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/global/ChildLiving.jpg",
+      "deleted": false,
+      "bytes": 195994,
+      "sha256": "26196e97f2b1ef173aad93cbdee919f2cb5b6065c931b98701419a749dfadd30"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/global/ChildMaster_Table.jpg",
+      "deleted": false,
+      "bytes": 174773,
+      "sha256": "907fb34b0099225f8171c75f624f4b82da9a014f9b289fd3a4e08259544a9697"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/global/ChildSecond_Window.jpg",
+      "deleted": false,
+      "bytes": 173000,
+      "sha256": "feaf3a0a50694c9d35235a29ab5ef933fda2555e07e0b36768d8cd59b431c986"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/global/Ending.jpg",
+      "deleted": false,
+      "bytes": 11086,
+      "sha256": "d36651da758cbfa03e8179db5a357ba6e51594664ead819bf8770a4471d85524"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/global/EndingSequence.json",
+      "deleted": false,
+      "bytes": 6237,
+      "sha256": "2321e81088755b4c3dbb0bf1a5336f42083d219872ec16269935ea4857be16c9"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/global/Rain_BackgroundWindow.jpg",
+      "deleted": false,
+      "bytes": 319976,
+      "sha256": "45b820f33b3be261e6a076b1d4ffa33cbceca75703058622dce402c655b61d90"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/global/ReturnLiving.jpg",
+      "deleted": false,
+      "bytes": 186866,
+      "sha256": "a4bcff4d0a9f9894bd169e3d28456d7f90590a88e2ac1c7bc3b28b1f76d4ca29"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/global/Scene01_Rain.json",
+      "deleted": false,
+      "bytes": 104929,
+      "sha256": "82df1902fdc128d85d000d16ff977287e69dba018bb983f70b3d60555b601ee3"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/global/Scene02_Courtyard.json",
+      "deleted": false,
+      "bytes": 415100,
+      "sha256": "7b3f48c8c04b72e442cc901cb320c01b2044dbc08c67da5c13f2553663141080"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/global/Scene03_Childhood.json",
+      "deleted": false,
+      "bytes": 3039570,
+      "sha256": "e11995f6d9e1fa0861fc133ff59d5707fd8df8e4dedc4c2e2ab74c8dbff0ade2"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/global/Scene04_School.json",
+      "deleted": false,
+      "bytes": 1252270,
+      "sha256": "cfd8fc21f5430bd3002a7d61ebfd708083b422015592f013057659e9f06002bc"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/global/SchoolClass31.jpg",
+      "deleted": false,
+      "bytes": 186344,
+      "sha256": "52bd63f5b1678ed804160418717719ea324a08b5b79bd462a34e7b8b1c357980"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/global/SchoolClass32.jpg",
+      "deleted": false,
+      "bytes": 203222,
+      "sha256": "388295af85fc24ab1bab4d59fbe5526dc7a078af629a1dca81f05125ff8ff242"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/global/SchoolEquipment.jpg",
+      "deleted": false,
+      "bytes": 147588,
+      "sha256": "ca49377afa19ecd9b35d791adcad17201dcce4cef0c2a0cae75345dbe9e37854"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/global/SchoolOffice.jpg",
+      "deleted": false,
+      "bytes": 132324,
+      "sha256": "85190a67e9325e740c233ceca3624fda2d05aebd96009de75a37b4c95156aea5"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/global/SchoolReading.jpg",
+      "deleted": false,
+      "bytes": 142765,
+      "sha256": "8a01096bd5acc596084a5d793ea1a9029879d56d1861a0058c72788bacbc0ef8"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/global/SchoolSecurity.jpg",
+      "deleted": false,
+      "bytes": 141080,
+      "sha256": "650405fadd02f01af5883e6121ce6a7b82f2814709589b383a0b7a7560d139f6"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/issue_closure.json",
+      "deleted": false,
+      "bytes": 8647,
+      "sha256": "91c2bacdb4eb56d15ff8d5326aaaed53eab5b5ac7c2f9ba1a898345f83acf6a1"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/review.html",
+      "deleted": false,
+      "bytes": 16357,
+      "sha256": "a8b299f3d3b99f859371220825e926ac3c5f5a529e8e7f2327834599868933a9"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/runtime/01_Reporters_Blocking.jpg",
+      "deleted": false,
+      "bytes": 786262,
+      "sha256": "d2c2426162401f2b07840c9e152116d63100f92aa4fda91b42067b9584e0871c"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/runtime/02_Bicycle_Grounding.jpg",
+      "deleted": false,
+      "bytes": 824161,
+      "sha256": "f95e0955255e338e6fe566f56af7b4d43aa70a8945ad0904d6c102a065777d98"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/runtime/03_Lamp_Emitter.jpg",
+      "deleted": false,
+      "bytes": 810776,
+      "sha256": "15c04827fe2fdb915e2b942a8cea4c3f903c0406587233895269c7544d5cf5f2"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/runtime/04_Puddle_Revealed.jpg",
+      "deleted": false,
+      "bytes": 820108,
+      "sha256": "acbdc0970cfdefd41a691380430c88b5352690828d2222732a395ce02c5cd531"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/runtime/05_Comic_Face.jpg",
+      "deleted": false,
+      "bytes": 279355,
+      "sha256": "4c3a0c46e45277389ec95b0800f2372d7a3782cf449f699fb6bc262ecf3285c7"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/runtime/06_Comic_Voice.jpg",
+      "deleted": false,
+      "bytes": 440825,
+      "sha256": "ccb1df46a4936996df0cbf517915ca0ab5cb2106dde28818cb7de8867e98178e"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/runtime/07_Comic_Bang.jpg",
+      "deleted": false,
+      "bytes": 828852,
+      "sha256": "2dae2b3cd1de011b7496c2e06b97947760d291d3b56c695df8a107f4164f1f5a"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/runtime/08_Photo_Stained.jpg",
+      "deleted": false,
+      "bytes": 609389,
+      "sha256": "003d230b24932e8a311a2c8ee9fac27fa785ce725be67beeee11391ddcff2151"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/runtime/09_Photo_Clean.jpg",
+      "deleted": false,
+      "bytes": 610093,
+      "sha256": "1c3910090128576a4d7b138ae3cbd0dc7aff0df79c09e8d8e4b56135c1de759d"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/runtime/10_StairsUp.jpg",
+      "deleted": false,
+      "bytes": 568433,
+      "sha256": "93b94fe369f148f4d6d1e46c416cf04306930399b8be7a0a8d7fc922dffa3453"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/runtime/11_StairsDown.jpg",
+      "deleted": false,
+      "bytes": 502994,
+      "sha256": "df4251097c319f9577acca90438647c70d25662cd839ac47edd1c1838e2821b8"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/runtime/12_StairsUpAgain.jpg",
+      "deleted": false,
+      "bytes": 568153,
+      "sha256": "ff02fba5d4b827dbd01e15820a8caa91431118b17be8e19dd50deb9bc3ce0cbc"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/runtime/13_MasterEnter.jpg",
+      "deleted": false,
+      "bytes": 557401,
+      "sha256": "a9535e12d91d0f66cb77c6f23c0ae8cca50aafeaa552b92f53c4821b06a6f2dc"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/runtime/14B_ParentShadows.jpg",
+      "deleted": false,
+      "bytes": 567678,
+      "sha256": "1d92dd91cb8e3b9edb8cd99ce7359c352855aaf4e26ffc1abba4210dc63f0296"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/runtime/14C_HiddenEnter.jpg",
+      "deleted": false,
+      "bytes": 553516,
+      "sha256": "9d0a4e45a092f7c391b51d4cdc372b14a1e1803ed6b13e5283d40208883cd34d"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/runtime/14D_ReturnLivingRoom.jpg",
+      "deleted": false,
+      "bytes": 565283,
+      "sha256": "d519c6e01b5bb3659d0f31e3d8bb5a4aea758440cd5e90e7eb7b4de220f8a4be"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/runtime/14E_ReturnLivingExit.jpg",
+      "deleted": false,
+      "bytes": 515030,
+      "sha256": "38af31823367ab3bc7f1161712ee46988a8f5450e29e282bf4709109bc1a6a09"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/runtime/14F_ReturnLivingEnter.jpg",
+      "deleted": false,
+      "bytes": 583017,
+      "sha256": "8b57530bfd7ab2b194518d2fb847348e81205fc2f255cfdb4fbfd6f27ed189f6"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/runtime/14_MasterExit.jpg",
+      "deleted": false,
+      "bytes": 466773,
+      "sha256": "1dbe2801ca01342079c7396672977321153a3623fd453b8675f7da82eeeb0e68"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/runtime/15_Desk.jpg",
+      "deleted": false,
+      "bytes": 375501,
+      "sha256": "8881f14e3bd953ed0ce987595b77a3430d9a9e56364b30827b64be006df35dae"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/runtime/16_Drawer.jpg",
+      "deleted": false,
+      "bytes": 364163,
+      "sha256": "0ed1ed2ff669a71f512700fa2c93d1a46a0946e4089bd7a621ada7f5d2f0efce"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/runtime/17_HiddenExit_Continuous.jpg",
+      "deleted": false,
+      "bytes": 289269,
+      "sha256": "53e8d74c90d19151200af1973df5a5afdc2a8cb35dc9d280dee1ca3709eccf35"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/runtime/18_Corridor_Stage1.jpg",
+      "deleted": false,
+      "bytes": 348229,
+      "sha256": "9d418e1585dbce05357cf4d8680f0233a27c2c4a1eabbd4b8e8329838f6ce4bd"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/runtime/19_Corridor_Stage1_Load.jpg",
+      "deleted": false,
+      "bytes": 343398,
+      "sha256": "d5ec9bf81619f35e6bbe65494ca498d12c4b7ce6b7beae98a9e2d6363ef9b62b"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/runtime/20_Corridor_Stage2.jpg",
+      "deleted": false,
+      "bytes": 396615,
+      "sha256": "6289859cb8b9484784d6d0aea87fe3504ce662b567088fae3df2beb8674b7c97"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/runtime/21_ThreeDoors.jpg",
+      "deleted": false,
+      "bytes": 430916,
+      "sha256": "3bd6fb36a59bff4980c071e456bf1c334eb2bef0b054017942e9547b1b43afef"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/runtime/22_WrongDoorReset.jpg",
+      "deleted": false,
+      "bytes": 441662,
+      "sha256": "7ba3e6984006c0ebf735b7d02d35f8bda2f0a0d1d0decfd157256536e018fd2b"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/runtime/23_OriginalScene03Transition.jpg",
+      "deleted": false,
+      "bytes": 467515,
+      "sha256": "3cab1506e54da6cc1c673be9d33f9a57f0eb2b6a944f7d050d2e5a1ba798989e"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/videos/Continuous_corridor.mp4",
+      "deleted": false,
+      "bytes": 10016836,
+      "sha256": "223904b53a928e7a06abbbbaa9995f2a3fe2d953b62d65e754991e7377dae582"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/videos/Courtyard_windows_and_tabletop.mp4",
+      "deleted": false,
+      "bytes": 4126559,
+      "sha256": "adb4013be2b8607c500b2e211849547bbfab6efb764a92e1149249c07c414e61"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P03Evidence/videos/Rain_memory.mp4",
+      "deleted": false,
+      "bytes": 3826075,
+      "sha256": "4b4af39d3749165c4cb5b4f4b8fd2e2e7863384cf715d78bb9d20ae3330e7b06"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/README_实施进度.md",
+      "deleted": false,
+      "bytes": 7982,
+      "sha256": "497de17a4e4d5b3ff548a2f9044f451d420c2757f4a535dea8b595fa38867ba6"
+    },
+    {
+      "path": "ProjectSettings/InputManager.asset",
+      "deleted": false,
+      "bytes": 9745,
+      "sha256": "1c6e02bb1d8ed3527401ff782904ed39983161239d1646957ac7fa78a360d31f"
+    }
+  ],
+  "native_input_check": "2 native-input startups: no replay, focused, unpaused, no input, no horizontal movement",
+  "build": "2026-10-04T09:15:14.8249977+08:00 Succeeded errors=0 warnings=488 bytes=2776783167 seconds=29.5322324"
+}

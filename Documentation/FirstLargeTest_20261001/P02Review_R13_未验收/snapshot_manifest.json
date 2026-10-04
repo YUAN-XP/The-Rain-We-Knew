@@ -1,0 +1,76 @@
+{
+  "revision": "R13",
+  "evidence": "20261002_062231",
+  "files": [
+    {
+      "path": "Assets\\Scripts\\Presentation\\P02RigDefinition.cs",
+      "sha256": "2612A79D4371266C571231B704FF106552E6F3E046C679BBF22BF19D82067E1D"
+    },
+    {
+      "path": "Assets\\Scripts\\Presentation\\P02CharacterRig.cs",
+      "sha256": "CCDB094114DA798CF2355992DE5DCE2001B9747712C2DD5094E52A3BD705C0A0"
+    },
+    {
+      "path": "Assets\\Scripts\\Presentation\\P02RigGroundContact.cs",
+      "sha256": "BBDEA33072D530A3379A93FB62BFDF59EEFFCB2419F3B89719EECD89FE1C1AF8"
+    },
+    {
+      "path": "Assets\\Scripts\\Presentation\\P02MotionSampleProbe.cs",
+      "sha256": "D7B1787D58BED418A64B4BA483718DCFCC363E049785CAEB8EBFDD0F81E4CE01"
+    },
+    {
+      "path": "Assets\\Scripts\\Presentation\\P02GameplayMotionProbe.cs",
+      "sha256": "2DF8504562833B4E45A1E351E99E15867098372A4C5750ECA34E483D52361ECF"
+    },
+    {
+      "path": "Assets\\Editor\\P02GameplayMotionReview.cs",
+      "sha256": "D9D10333E959868ABF06E0C3274024856C69E4E9C2AD33B38ABC47488C85C687"
+    },
+    {
+      "path": "Assets\\Editor\\P02RigFactory.cs",
+      "sha256": "7D18DB0401A0C8AF6A1873C4AA29F15B536870A010F1EF189DE525AFC0A0C894"
+    },
+    {
+      "path": "Assets\\Art\\P02Motion\\XP_Default_Right.asset",
+      "sha256": "068A5FCE03EB492C56E9ED658B8372EEF31E26AF8B07E12CBC09FC5D9920C8E9"
+    },
+    {
+      "path": "Assets\\Art\\P02Motion\\P02_XP_Default_Right.prefab",
+      "sha256": "31D3AD049C7752F6F67A8DC9BF6F1944347F8B189E603D9D67C5A539570ACF6B"
+    },
+    {
+      "path": "Assets\\Art\\P02Motion\\sample_source_manifest.json",
+      "sha256": "CF5AF4FED964E2D1F9FC720704707EAD03578FB0C6FD92248FBEAED08B2A9744"
+    },
+    {
+      "path": "Assets\\Art\\P02Motion\\sample_source_trace.json",
+      "sha256": "AD9A4B802121188B66DE89187DFB3FE37D647184A8133BCB90D8BAAA924F5484"
+    }
+  ],
+  "sourceHashes": [
+    {
+      "path": "D:\\GitHub Desktop\\ProjectMystery\\ProjectMystery\\Assets\\Art\\P02Motion\\XP_Default_Right_HandPoses_v01.png",
+      "sha256": "AB22C036B80F41B1D24D437C53AEEAFFF619FEA0861AC61380B676A4E32FEE2E"
+    },
+    {
+      "path": "D:\\GitHub Desktop\\ProjectMystery\\ProjectMystery\\Assets\\Art\\P02Motion\\XP_Default_Right_LeftPalm_v01.png",
+      "sha256": "68713DC4D01E6F234FFE34496AE9FC73FCF46F766E9609C39FA3E30CF0134B86"
+    },
+    {
+      "path": "D:\\GitHub Desktop\\ProjectMystery\\ProjectMystery\\Assets\\Art\\P02Motion\\XP_Default_Right_Limbs_Continuous_v01.png",
+      "sha256": "691445B0F7878C85120EF9C7269316926D73241FBFA985ED2BA8EFE3B37BBAE2"
+    },
+    {
+      "path": "D:\\GitHub Desktop\\ProjectMystery\\ProjectMystery\\Assets\\Art\\P02Motion\\XP_Default_Right_Parts_Candidate02.png",
+      "sha256": "2C7556DE0D87D0DF44F7E55818530E768419D5C470D41D8F6293396031AB06F2"
+    },
+    {
+      "path": "D:\\GitHub Desktop\\ProjectMystery\\ProjectMystery\\Assets\\Art\\P02Motion\\XP_Default_Right_Torso_Candidate04.png",
+      "sha256": "9E883610AA5FC8D3DA71CE61373AD556EFFB683229897E5A65A7BF09D22EB4BD"
+    },
+    {
+      "path": "D:\\GitHub Desktop\\ProjectMystery\\ProjectMystery\\Assets\\Art\\P02Motion\\XP_Default_Right_Torso_Continuous_v01.png",
+      "sha256": "DD703586D4E9F5981D1A64ACFA3A866AB6194E0BACE75BDBC2799B7A8A6CBC32"
+    }
+  ]
+}

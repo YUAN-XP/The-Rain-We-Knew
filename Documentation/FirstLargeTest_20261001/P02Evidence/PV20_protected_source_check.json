@@ -1,0 +1,78 @@
+{
+  "scope": "PV20 final candidate versus saved before-PV20 protected files; prior-P02 source boundary audit retained separately",
+  "checks": [
+    {
+      "path": "Assets\\Scenes\\EndingSequence.unity",
+      "expected": "3027f511758911bb4b788e513d67f0c70af9c9c7317064725805c3f402578b6d",
+      "actual": "3027f511758911bb4b788e513d67f0c70af9c9c7317064725805c3f402578b6d",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\Scenes\\SampleScene.unity",
+      "expected": "387d8216a517be775b6ecc2ab55b97ece687c3372322da2ba027a96908014912",
+      "actual": "387d8216a517be775b6ecc2ab55b97ece687c3372322da2ba027a96908014912",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\Scenes\\Scene01_Rain.unity",
+      "expected": "5736f95487be6c61bd439d0f63119c19d4bd86343cf4edb64d3beb1a0a57c9a3",
+      "actual": "5736f95487be6c61bd439d0f63119c19d4bd86343cf4edb64d3beb1a0a57c9a3",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\Scenes\\Scene02_Courtyard.unity",
+      "expected": "50635cac14efaac54e68d6a338b257f62d34c478cfb9b9ab90e07f19fd307cba",
+      "actual": "50635cac14efaac54e68d6a338b257f62d34c478cfb9b9ab90e07f19fd307cba",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\Scenes\\Scene03_Childhood.unity",
+      "expected": "70ef7cb4b3a657f920d856cb43cb84057dfde9191f69a442be6c2e10423650aa",
+      "actual": "70ef7cb4b3a657f920d856cb43cb84057dfde9191f69a442be6c2e10423650aa",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\Scenes\\Scene04_School.unity",
+      "expected": "45ad4f9e454293adac6fc62aaf6242bcc3bf6a7dffb78d2004a6c8a4d13b41b9",
+      "actual": "45ad4f9e454293adac6fc62aaf6242bcc3bf6a7dffb78d2004a6c8a4d13b41b9",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\Scripts\\Ending\\EndingHomeController.cs",
+      "expected": "ce097d438973b7a79925e7492bb8451269abe0b238946eed5bdd8532012c7bbe",
+      "actual": "ce097d438973b7a79925e7492bb8451269abe0b238946eed5bdd8532012c7bbe",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\Scripts\\Player\\AdultOutfitController.cs",
+      "expected": "173b4a25bad3ac98cab9adb22631c3c81098767fb0f2e6088e4991b20f438ef5",
+      "actual": "173b4a25bad3ac98cab9adb22631c3c81098767fb0f2e6088e4991b20f438ef5",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\Scripts\\Player\\PlayerController.cs",
+      "expected": "9219f85345992766d5ead9dc62541297f71e85e921a7a7605598cb589eda0573",
+      "actual": "9219f85345992766d5ead9dc62541297f71e85e921a7a7605598cb589eda0573",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\Scripts\\Player\\SprintAbility.cs",
+      "expected": "dfa209db6c99ab6ea0525b068871b31819869c5533441ee73b67e3092da1fca5",
+      "actual": "dfa209db6c99ab6ea0525b068871b31819869c5533441ee73b67e3092da1fca5",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\Scripts\\Scene03\\Scene03RiverSequence.cs",
+      "expected": "9b2a5aacce70faca8bf5a9587e0fd9cda01c09aa52d95375817151b5ee997350",
+      "actual": "9b2a5aacce70faca8bf5a9587e0fd9cda01c09aa52d95375817151b5ee997350",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\Scripts\\System\\CameraFollow.cs",
+      "expected": "8e0c708bdc4c1297dc6178498d829f4a39071c41e161bd5c5da94026b1244faa",
+      "actual": "8e0c708bdc4c1297dc6178498d829f4a39071c41e161bd5c5da94026b1244faa",
+      "unchanged": true
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,296 @@
+{
+  "revision": "R13_grouped_native_skin_with_post_record_contact_check",
+  "scope": "adult default right-facing sample only",
+  "sample_directory": "C:\\Users\\31975\\Documents\\Codex\\2026-09-22\\demo-demo-gdd-gdd-demo\\work\\2026-10-02-P02\\sample_runs\\20261002_062231",
+  "gameplay_directory": "C:\\Users\\31975\\Documents\\Codex\\2026-09-22\\demo-demo-gdd-gdd-demo\\work\\2026-10-02-P02\\gameplay_runs\\20261002_062354",
+  "report": "14_P02人物样板问题与复测记录.md",
+  "sample_measurements": {
+    "version_directory": "C:\\Users\\31975\\Documents\\Codex\\2026-09-22\\demo-demo-gdd-gdd-demo\\work\\2026-10-02-P02\\sample_runs\\20261002_062231",
+    "timestamp": "2026-10-02T06:22:42.4706505+08:00",
+    "scope": "isolated native rig; measured synthetic Transform movement; visual QA required; no production gameplay input replay",
+    "sole_measurement": "independent imported opaque alpha lower contour, threshold 128; shoes are rigid native skins; transparent rectangle bounds are excluded",
+    "native_meshes": 10,
+    "duplicate_meshes": 0,
+    "failures": [],
+    "measured_walk_cycles": 3.011749744415283,
+    "measured_run_cycles": 3.002106189727783,
+    "actions": {
+      "walk": {
+        "frames": 149,
+        "image_count": 24,
+        "max_delta_time": 0.053356099873781204,
+        "mean_speed": 1.3499999334348127,
+        "min_painted_left_sole_y": -1.4901161193847656e-08,
+        "min_painted_right_sole_y": -1.4901161193847656e-08,
+        "pelvis_range": [
+          0.8378667831420898,
+          0.9078474044799805
+        ],
+        "body_lean_range": [
+          0.32004624605178833,
+          1.7999999523162842
+        ],
+        "max_leg_endpoint_gap": 8.940696716308594e-08,
+        "steady_support_edge_max_frame_drift": 0.0,
+        "steady_planted_sole_height_range": [
+          -1.4901161193847656e-08,
+          1.4901161193847656e-08
+        ]
+      },
+      "run": {
+        "frames": 126,
+        "image_count": 24,
+        "max_delta_time": 0.03303619474172592,
+        "mean_speed": 2.092501585445707,
+        "min_painted_left_sole_y": -7.450580596923828e-09,
+        "min_painted_right_sole_y": -1.4901161193847656e-08,
+        "pelvis_range": [
+          0.8753281831741333,
+          0.9078566431999207
+        ],
+        "body_lean_range": [
+          2.957338571548462,
+          13.0
+        ],
+        "max_leg_endpoint_gap": 8.940696716308594e-08,
+        "steady_support_edge_max_frame_drift": 0.0,
+        "steady_planted_sole_height_range": [
+          -1.4901161193847656e-08,
+          7.450580596923828e-09
+        ]
+      },
+      "idle": {
+        "frames": 3,
+        "image_count": 1,
+        "max_delta_time": 0.35790759325027466,
+        "mean_speed": 0.0,
+        "min_painted_left_sole_y": 0.0,
+        "min_painted_right_sole_y": 0.0,
+        "pelvis_range": [
+          0.9065777063369751,
+          0.9065777063369751
+        ],
+        "body_lean_range": [
+          0.0,
+          0.0
+        ],
+        "max_leg_endpoint_gap": 2.9802322387695312e-08,
+        "steady_support_edge_max_frame_drift": 0,
+        "steady_planted_sole_height_range": [
+          0,
+          0
+        ]
+      },
+      "settled_idle": {
+        "frames": 35,
+        "image_count": 1,
+        "max_delta_time": 0.018741998821496964,
+        "mean_speed": 0.0,
+        "min_painted_left_sole_y": 0.0,
+        "min_painted_right_sole_y": 0.0,
+        "pelvis_range": [
+          0.8952922821044922,
+          0.9062142968177795
+        ],
+        "body_lean_range": [
+          0.0,
+          10.349737167358398
+        ],
+        "max_leg_endpoint_gap": 5.960464477539063e-08,
+        "steady_support_edge_max_frame_drift": 0,
+        "steady_planted_sole_height_range": [
+          0,
+          0
+        ]
+      }
+    },
+    "art_acceptance": "Requires inspection of actual video and rendered frames; these measurements alone do not certify art.",
+    "media": [
+      {
+        "file": "continuous_motion.mp4",
+        "bytes": 8865678,
+        "sha256": "ae9e8bd6a9cd53ad68e580b9f6eb594bdea3ba09781443ff60c0695a1701c4f8"
+      },
+      {
+        "file": "continuous_motion_slow.mp4",
+        "bytes": 9825322,
+        "sha256": "ff830bd8f8d59fc64dc2e10367505567a6aaf34ed850059cbec131afb7376e4b"
+      }
+    ],
+    "start_stop_same_painted_contact_edge": [
+      {
+        "action": "walk to walk",
+        "time": 0.367669899998873,
+        "foot": "right",
+        "drift": 1.4901161193847656e-08
+      },
+      {
+        "action": "idle to idle",
+        "time": 0.13194229999862728,
+        "foot": "right",
+        "drift": 0.0
+      },
+      {
+        "action": "idle to idle",
+        "time": 0.13194229999862728,
+        "foot": "left",
+        "drift": 0.0
+      },
+      {
+        "action": "idle to walk",
+        "time": 0.15787020000061602,
+        "foot": "right",
+        "drift": 0.0
+      },
+      {
+        "action": "walk to walk",
+        "time": 0.18651339999996708,
+        "foot": "right",
+        "drift": 0.0
+      },
+      {
+        "action": "walk to walk",
+        "time": 0.2238522000006924,
+        "foot": "right",
+        "drift": 0.0
+      }
+    ]
+  },
+  "gameplay_measurements": {
+    "scope": "Existing Scene01 PlayerController and GameplayInput replay; candidate rig temporarily attached; original world camera rendered at 1920x1080; overlay UI and physical keyboard are not certified by this movie; production settings restored on cleanup",
+    "revision": "R13_grouped_native_skin_with_post_record_contact_check",
+    "frames": 1306,
+    "duration_seconds": 18.000432799999544,
+    "walk_speed_original": 2.200000047683716,
+    "walk_speed_in_review": 1.350000023841858,
+    "mean_moving_speed": 1.1072204881023697,
+    "continuous_phase_advance_cycles_excluding_start_resets": 6.217345327138901,
+    "walking_stride": 1.2,
+    "moving_segments": [
+      {
+        "start_seconds": 0.41348590000052354,
+        "distance": 3.7895011922725295,
+        "frames": 268,
+        "end_seconds": 3.8251300000010815,
+        "distance_derived_cycles": 3.157917660227108
+      },
+      {
+        "start_seconds": 4.4165328000017325,
+        "distance": 2.2291185110808915,
+        "frames": 139,
+        "end_seconds": 6.4354622999999265,
+        "distance_derived_cycles": 1.8575987592340764
+      },
+      {
+        "start_seconds": 8.312516900001356,
+        "distance": 1.4712183028460426,
+        "frames": 96,
+        "end_seconds": 9.646114200000738,
+        "distance_derived_cycles": 1.2260152523717023
+      }
+    ],
+    "phase_distance_max_error": 5.960464477539063e-08,
+    "unexpected_phase_distance_mismatch": [],
+    "recorded_frame_gap_max_seconds": 0.035441500000160886,
+    "world_distance": 7.489840138810126,
+    "support_height_relative_to_ground": [
+      0.0,
+      5.960464477539062e-07
+    ],
+    "pause_frames": 63,
+    "paused_phase_max_change": 0.0,
+    "shift_frames_before_unlock": 138,
+    "running_frames_before_unlock": 0,
+    "part_count_range": [
+      10,
+      10
+    ],
+    "probe_errors": [],
+    "ground_contact_pixel_differences": 326,
+    "per_foot_contact_pixel_differences": [
+      214,
+      208
+    ],
+    "cleanup_exact_match": true,
+    "native_media": [
+      {
+        "name": "gameplay_motion.mp4",
+        "sha256": "ca5d7dce30426c7acdfa35a4e01d9c78fea036eddd2a84b91459d63ccbfbb7d6"
+      },
+      {
+        "name": "gameplay_motion_slow.mp4",
+        "sha256": "2ed4c41ce80d263c1c8733373e533eecdc66837d58df94fc92b7d9b5bf63f1b6"
+      }
+    ],
+    "not_certified": [
+      "Physical keyboard focus",
+      "Overlay UI",
+      "All other actors and directions",
+      "Full P02 acceptance"
+    ]
+  },
+  "source_assets": [
+    {
+      "path": "Assets/Art/P02Motion/XP_Default_Right_Parts_Candidate02.png",
+      "sha256": "2c7556de0d87d0df44f7e55818530e768419d5c470d41d8f6293396031ab06f2"
+    },
+    {
+      "path": "Assets/Art/P02Motion/XP_Default_Right_Torso_Continuous_v01.png",
+      "sha256": "dd703586d4e9f5981d1a64acfa3a866ab6194e0bace75bdbc2799b7a8a6cbc32"
+    },
+    {
+      "path": "Assets/Art/P02Motion/XP_Default_Right_Limbs_Continuous_v01.png",
+      "sha256": "691445b0f7878c85120ef9c7269316926d73241fbfa985ed2ba8efe3b37bbae2"
+    },
+    {
+      "path": "Assets/Art/P02Motion/XP_Default_Right_LeftPalm_v01.png",
+      "sha256": "68713dc4d01e6f234ffe34496ae9fc73fcf46f766e9609c39fa3e30cf0134b86"
+    },
+    {
+      "path": "Assets/Art/P02Motion/XP_Default_Right_HandPoses_v01.png",
+      "sha256": "ab22c036b80f41b1d24d437c53aeeafff619fea0861ac61380b676a4e32fee2e"
+    }
+  ],
+  "candidate_files": [
+    {
+      "path": "C:\\Users\\31975\\Documents\\Codex\\2026-09-22\\demo-demo-gdd-gdd-demo\\work\\2026-10-02-P02\\P02RigDefinition.cs",
+      "sha256": "2612a79d4371266c571231b704ff106552e6f3e046c679bbf22bf19d82067e1d"
+    },
+    {
+      "path": "C:\\Users\\31975\\Documents\\Codex\\2026-09-22\\demo-demo-gdd-gdd-demo\\work\\2026-10-02-P02\\P02CharacterRig.cs",
+      "sha256": "ccdb094114da798cf2355992de5dce2001b9747712c2dd5094e52a3bd705c0a0"
+    },
+    {
+      "path": "C:\\Users\\31975\\Documents\\Codex\\2026-09-22\\demo-demo-gdd-gdd-demo\\work\\2026-10-02-P02\\P02RigGroundContact.cs",
+      "sha256": "bbdea33072d530a3379a93fb62bfdf59eeffcb2419f3b89719eecd89fe1c1af8"
+    },
+    {
+      "path": "C:\\Users\\31975\\Documents\\Codex\\2026-09-22\\demo-demo-gdd-gdd-demo\\work\\2026-10-02-P02\\P02MotionSampleProbe.cs",
+      "sha256": "d7b1787d58bed418a64b4ba483718dcfcc363e049785caeb8ebfdd0f81e4ce01"
+    },
+    {
+      "path": "C:\\Users\\31975\\Documents\\Codex\\2026-09-22\\demo-demo-gdd-gdd-demo\\work\\2026-10-02-P02\\P02GameplayMotionProbe.cs",
+      "sha256": "2df8504562833b4e45a1e351e99e15867098372a4c5750eca34e483d52361ecf"
+    },
+    {
+      "path": "C:\\Users\\31975\\Documents\\Codex\\2026-09-22\\demo-demo-gdd-gdd-demo\\work\\2026-10-02-P02\\P02RigFactory.cs",
+      "sha256": "7d18db0401a0c8af6a1873c4aa29f15b536870a010f1ef189de525afc0a0c894"
+    },
+    {
+      "path": "C:\\Users\\31975\\Documents\\Codex\\2026-09-22\\demo-demo-gdd-gdd-demo\\work\\2026-10-02-P02\\P02GameplayMotionReview.cs",
+      "sha256": "d9d10333e959868abf06e0c3274024856c69e4e9c2ad33b38abc47488c85c687"
+    },
+    {
+      "path": "C:\\Users\\31975\\Documents\\Codex\\2026-09-22\\demo-demo-gdd-gdd-demo\\work\\2026-10-02-P02\\sample_source_manifest.json",
+      "sha256": "cf5af4fed964e2d1f9fc720704707ead03578fb0c6fd92248fbeaed08b2a9744"
+    }
+  ],
+  "human_acceptance": false,
+  "phase_complete": false,
+  "github_commit_created": false,
+  "visual_review_record": "browser_playback_review.json",
+  "comparison": "before_after.html",
+  "screenshot": "R13_browser_review.png",
+  "rollback_snapshot": "Documentation/FirstLargeTest_20261001/P02MotionVersions/R13_20261002_062231",
+  "archive_manifest": "archive_manifest.json"
+}

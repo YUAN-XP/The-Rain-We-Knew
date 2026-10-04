@@ -1,0 +1,16 @@
+[
+  {
+    "label": "走路经过姿势：头颈与鞋底",
+    "before_phase": 0.25483378767967224,
+    "after_phase": 0.2328956574201584,
+    "before": "sample_runs/20261002_031453/frames/0057_walk_2.png",
+    "after": "sample_runs/20261002_062231/frames/0031_walk_5.png"
+  },
+  {
+    "label": "跑步抬腿：头颈、髋部与脚踝",
+    "before_phase": 0.7672588229179382,
+    "after_phase": 0.7578120827674866,
+    "before": "sample_runs/20261002_031453/frames/0183_run_6.png",
+    "after": "sample_runs/20261002_062231/frames/0183_run_18.png"
+  }
+]

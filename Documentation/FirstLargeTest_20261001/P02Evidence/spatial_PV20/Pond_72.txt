@@ -1,0 +1,19 @@
+DIAGNOSTIC position sampling, not natural input
+scene=Scene03_Childhood player=(72.00, 31.21, 0.00) feet=30.505 speed=1.9 camera=(71.35, 31.90, -10.00) size=2.6 aspect=1.777778
+YoungXiaoPeng/P02_NativeBody/near_shoe/skin_near_shoe min=(71.88, 30.50, 0.00) max=(72.02, 30.62, 0.00) order=25 sprite=near_shoe texture=1536x1024
+YoungXiaoPeng/P02_NativeBody/far_hand/skin_far_hand min=(71.96, 31.04, 0.00) max=(72.06, 31.19, 0.00) order=17 sprite=far_hand texture=1536x1024
+Environment/ChildhoodStreet/赵炳程/NewArt_Actor min=(72.79, 30.50, -0.10) max=(73.41, 32.10, 0.10) order=7 sprite=CHR_STORY_ZHAO_ZHANG_BASE:1_VisualRegion texture=1536x1024
+YoungXiaoPeng/P02_NativeBody/near_arm/skin_near_arm min=(71.94, 31.14, 0.00) max=(72.11, 31.63, 0.00) order=25 sprite=near_arm texture=1536x1024
+YoungXiaoPeng/P02_NativeBody/head/skin_head min=(71.84, 31.58, 0.00) max=(72.10, 31.91, 0.00) order=21 sprite=head texture=1536x1024
+Environment/ChildhoodStreet/NewArt_Street/Pavement_13 min=(69.00, 29.73, -0.10) max=(77.00, 30.73, 0.10) order=-27 sprite=TEX_FLOOR_QUIET_V04:0 texture=2048x768
+YoungXiaoPeng/P02_NativeBody/far_shoe/skin_far_shoe min=(71.92, 30.50, 0.00) max=(72.07, 30.62, 0.00) order=14 sprite=far_shoe texture=1536x1024
+YoungXiaoPeng/P02_NativeBody/torso/skin_torso min=(71.88, 31.20, 0.00) max=(72.14, 31.64, 0.00) order=22 sprite=torso texture=1536x1024
+YoungXiaoPeng/P02_NativeBody/far_leg/skin_far_leg min=(71.85, 30.51, 0.00) max=(72.16, 31.22, 0.00) order=12 sprite=far_leg texture=1536x1024
+Environment/ChildhoodStreet/NewArt_Street/Pavement_12 min=(61.00, 29.73, -0.10) max=(69.00, 30.73, 0.10) order=-27 sprite=TEX_FLOOR_QUIET_V04:0 texture=2048x768
+YoungXiaoPeng/P02_NativeBody/near_hand/skin_near_hand min=(71.95, 31.04, 0.00) max=(72.04, 31.19, 0.00) order=27 sprite=near_hand texture=1536x1024
+Environment/ChildhoodStreet/NewArt_Street/Demo2026_FarTown_52 min=(52.00, 30.70, -0.10) max=(72.00, 41.94, 0.10) order=-45 sprite=BG_STREET_FAR_DAY texture=1672x940
+YoungXiaoPeng/P02_NativeBody/far_arm/skin_far_arm min=(71.95, 31.13, 0.00) max=(72.12, 31.62, 0.00) order=15 sprite=far_arm texture=1536x1024
+YoungXiaoPeng/P02_NativeBody/near_leg/skin_near_leg min=(71.83, 30.52, 0.00) max=(72.13, 31.22, 0.00) order=20 sprite=near_leg texture=1536x1024
+Environment/ChildhoodStreet/NewArt_Street/Seam_PondApproach min=(65.40, 30.68, -0.10) max=(67.33, 32.28, 0.10) order=-29 sprite=PondApproach_ContinuousPanel_V05C texture=2172x724
+Environment/ChildhoodStreet/NewArt_Street/Demo2026_FarTown_72 min=(72.00, 30.70, -0.10) max=(92.00, 41.94, 0.10) order=-45 sprite=BG_STREET_FAR_DAY texture=1672x940
+Environment/ChildhoodStreet/NewArt_Street/CloseScale_PondJunction min=(67.30, 30.68, -0.10) max=(77.10, 32.28, 0.10) order=-29 sprite=MOD_POND_WALL_JUNCTION_V05:inset texture=2172x724

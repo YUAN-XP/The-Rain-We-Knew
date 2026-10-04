@@ -1,0 +1,129 @@
+{
+  "reviewDate": "2026-10-02",
+  "revision": "R13_grouped_native_skin_with_post_record_contact_check",
+  "tabUrl": "http://127.0.0.1:8767/preview.html",
+  "actualBrowserPlayback": {
+    "isolatedNormal": {
+      "speed": 1,
+      "replaysObserved": 10,
+      "minimumCompleteWalkCyclesPerClip": 3,
+      "minimumCompleteRunCyclesPerClip": 3
+    },
+    "isolatedSlow": {
+      "speed": 0.25,
+      "completePlaybackObserved": true
+    },
+    "gameNormal": {
+      "speed": 1,
+      "completePlaybackObserved": true
+    },
+    "gameSlow": {
+      "speed": 0.25,
+      "replaysObserved": 5,
+      "source": "gameplay_runs/20261002_062354/gameplay_motion.mp4"
+    }
+  },
+  "reviewedJointFrames": [
+    {
+      "action": "walk",
+      "phase": 0.026641249656677246,
+      "image": "sample_runs/20261002_062231/frames/0026_walk_0.png",
+      "upperJoints": "sample_runs/20261002_062231/joints/0026_walk_0_neck_shoulder_wrist.png",
+      "lowerJoints": "sample_runs/20261002_062231/joints/0026_walk_0_hip_knee_ankle.png"
+    },
+    {
+      "action": "walk",
+      "phase": 0.26794278621673584,
+      "image": "sample_runs/20261002_062231/frames/0032_walk_6.png",
+      "upperJoints": "sample_runs/20261002_062231/joints/0032_walk_6_neck_shoulder_wrist.png",
+      "lowerJoints": "sample_runs/20261002_062231/joints/0032_walk_6_hip_knee_ankle.png"
+    },
+    {
+      "action": "walk",
+      "phase": 0.5186951160430908,
+      "image": "sample_runs/20261002_062231/frames/0040_walk_12.png",
+      "upperJoints": "sample_runs/20261002_062231/joints/0040_walk_12_neck_shoulder_wrist.png",
+      "lowerJoints": "sample_runs/20261002_062231/joints/0040_walk_12_hip_knee_ankle.png"
+    },
+    {
+      "action": "walk",
+      "phase": 0.7650600075721741,
+      "image": "sample_runs/20261002_062231/frames/0048_walk_18.png",
+      "upperJoints": "sample_runs/20261002_062231/joints/0048_walk_18_neck_shoulder_wrist.png",
+      "lowerJoints": "sample_runs/20261002_062231/joints/0048_walk_18_hip_knee_ankle.png"
+    },
+    {
+      "action": "run",
+      "phase": 0.7578120827674866,
+      "image": "sample_runs/20261002_062231/frames/0183_run_18.png",
+      "upperJoints": "sample_runs/20261002_062231/joints/0183_run_18_neck_shoulder_wrist.png",
+      "lowerJoints": "sample_runs/20261002_062231/joints/0183_run_18_hip_knee_ankle.png"
+    },
+    {
+      "action": "run",
+      "phase": 0.02395951747894287,
+      "image": "sample_runs/20261002_062231/frames/0191_run_0.png",
+      "upperJoints": "sample_runs/20261002_062231/joints/0191_run_0_neck_shoulder_wrist.png",
+      "lowerJoints": "sample_runs/20261002_062231/joints/0191_run_0_hip_knee_ankle.png"
+    },
+    {
+      "action": "run",
+      "phase": 0.2687765657901764,
+      "image": "sample_runs/20261002_062231/frames/0199_run_6.png",
+      "upperJoints": "sample_runs/20261002_062231/joints/0199_run_6_neck_shoulder_wrist.png",
+      "lowerJoints": "sample_runs/20261002_062231/joints/0199_run_6_hip_knee_ankle.png"
+    },
+    {
+      "action": "run",
+      "phase": 0.5009962320327759,
+      "image": "sample_runs/20261002_062231/frames/0206_run_12.png",
+      "upperJoints": "sample_runs/20261002_062231/joints/0206_run_12_neck_shoulder_wrist.png",
+      "lowerJoints": "sample_runs/20261002_062231/joints/0206_run_12_hip_knee_ankle.png"
+    }
+  ],
+  "reviewedGameplayFrames": [
+    {
+      "time": 0.7679653000013786,
+      "image": "gameplay_runs/20261002_062354/frames/00055.png",
+      "phase": 0.5929347276687622,
+      "actualSpeed": 1.1145663261413574,
+      "paused": false,
+      "paintedLeftSoleY": -0.9950003623962402,
+      "paintedRightSoleY": -0.983565628528595
+    },
+    {
+      "time": 2.294176100000186,
+      "image": "gameplay_runs/20261002_062354/frames/00174.png",
+      "phase": 0.010458827018737793,
+      "actualSpeed": 1.1145743131637573,
+      "paused": false,
+      "paintedLeftSoleY": -0.9950000047683716,
+      "paintedRightSoleY": -0.9950000047683716
+    },
+    {
+      "time": 6.927018099999259,
+      "image": "gameplay_runs/20261002_062354/frames/00514.png",
+      "phase": 0.1275985836982727,
+      "actualSpeed": 0,
+      "paused": true,
+      "paintedLeftSoleY": -0.9950000047683716,
+      "paintedRightSoleY": -0.9950000047683716
+    },
+    {
+      "time": 8.97919230000116,
+      "image": "gameplay_runs/20261002_062354/frames/00660.png",
+      "phase": 0.8859160542488098,
+      "actualSpeed": 1.1145620346069336,
+      "paused": false,
+      "paintedLeftSoleY": -0.9950000047683716,
+      "paintedRightSoleY": -0.9530078172683716
+    }
+  ],
+  "comparisonPageVisuallyOpened": true,
+  "comparison": "before_after.html",
+  "screenshot": "R13_browser_review.png",
+  "screenshotPositionSeconds": 4.616758823394775,
+  "reviewedFailures": "Original head gap, hip protruding cap and opaque shoe support faults not observed in final reviewed range. This is limited internal review, not absolute defect-free certification.",
+  "humanAcceptance": false,
+  "phaseComplete": false
+}

@@ -1,0 +1,38 @@
+{
+  "version": "P03-20261004-input-axis-fix",
+  "created": "2026-10-04T09:18:22.780108+08:00",
+  "cause": "Legacy joystick movement axes shared Horizontal/Vertical with keyboard; unnamed legacy input produced x=1 and y=-0.2275 without any keyboard input or replay.",
+  "changed_axes": [
+    "Horizontal",
+    "Vertical"
+  ],
+  "only_two_axis_names_changed": true,
+  "keyboard_bindings_and_other_settings_preserved": true,
+  "GameplayInput_source_unchanged": true,
+  "tests": [
+    {
+      "file": "after_first_start.json",
+      "samples": 59,
+      "focused_unpaused_idle_samples": 59,
+      "seconds": 11.710376,
+      "horizontal_axis_max": 0,
+      "vertical_axis_max": 0,
+      "horizontal_speed_max": 0,
+      "position_delta_x": 0.0,
+      "replay": "none"
+    },
+    {
+      "file": "after_second_start.json",
+      "samples": 60,
+      "focused_unpaused_idle_samples": 60,
+      "seconds": 11.905446,
+      "horizontal_axis_max": 0,
+      "vertical_axis_max": 0,
+      "horizontal_speed_max": 0,
+      "position_delta_x": 0.0,
+      "replay": "none"
+    }
+  ],
+  "physical_keyboard_press_release": "not automated in this check; original binding fields retained exactly",
+  "standalone_playthrough": "not run; validation build regenerated"
+}

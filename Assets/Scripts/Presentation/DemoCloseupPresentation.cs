@@ -68,19 +68,17 @@ public sealed class DemoCloseupPresentation : MonoBehaviour
     {
         Build("雨水中的倒影",false);busy=true;
         page.gameObject.AddComponent<RectMask2D>();
-        var ground=Art("WetGround","MOD_STREET_GROUND_STATES:2",page,Vector2.zero,Vector2.one);
-        // Cover the closeup frame proportionally; never stretch a panoramic strip.
-        if(ground.sprite){var fit=ground.gameObject.AddComponent<AspectRatioFitter>();fit.aspectMode=AspectRatioFitter.AspectMode.EnvelopeParent;fit.aspectRatio=ground.sprite.rect.width/ground.sprite.rect.height;}
-        ground.color=new Color(.45f,.57f,.67f,.55f);
-        var face=Art("Reflection","CHR_XP_ADULT_DEFAULT_CLOSEUP",page,new Vector2(.31f,.05f),new Vector2(.69f,.95f));
-        face.color=new Color(.70f,.79f,.82f,.69f);
+        var face=Art("IrregularWaterReflection","P03_Puddle",page,Vector2.zero,Vector2.one);
+        // One authored water/reflection image, never the regular dialogue portrait.
+        if(face.sprite){var fit=face.gameObject.AddComponent<AspectRatioFitter>();fit.aspectMode=AspectRatioFitter.AspectMode.EnvelopeParent;fit.aspectRatio=face.sprite.rect.width/face.sprite.rect.height;}
+        face.color=new Color(.30f,.34f,.38f,1);
         bool advance=false;
         var next=RuntimePanelUI.Button("继续 [E / 空格]",canvas,Font,new Vector2(.68f,.025f),new Vector2(.90f,.105f),()=>advance=true);
         next.name="PuddleContinue";next.gameObject.SetActive(false);
         yield return GameplayClock.Wait(.75f);
         var flash=RuntimePanelUI.Panel("ReflectionFlash",canvas,Vector2.zero,Vector2.one,new Color(.86f,.88f,.84f,.7f),false);
         yield return GameplayClock.Wait(.065f);flash.color=new Color(.03f,.02f,.035f,.9f);
-        face.sprite=DemoArtCatalog.Find("CHR_XP_ADULT_REFLECTION_INJURED");face.color=new Color(.77f,.71f,.72f,.84f);
+        face.color=Color.white;
         yield return GameplayClock.Wait(.075f);Destroy(flash.gameObject);
         yield return GameplayClock.Wait(.75f);
         // Require a new press after the reveal; a held interaction must not skip it.

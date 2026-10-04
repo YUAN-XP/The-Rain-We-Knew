@@ -1,0 +1,18 @@
+{
+  "asset": "P03_LockCloseup",
+  "reference": "P03_PasswordDesk.png",
+  "reason": "M11 native-pixel closeup; old 157x71 crop magnified into a blurry lock",
+  "requirements": "Front orthographic worn charcoal steel plate on grey-brown wood; exactly four blank mechanical readout bands; live existing digits and scroll/drag handlers; no numbers, UI, extra props or change to item/story gates",
+  "generated_native_size": [
+    1536,
+    1024
+  ],
+  "sprite_rect_unity": [
+    120,
+    229,
+    1296,
+    620
+  ],
+  "display_limit": "rendered width <=1296 at final QHD",
+  "source_sha256": "c7671e3d3eb07df10453790a75112ac9db05f3e88d16f0a5e3a5fa354a43c5f3"
+}

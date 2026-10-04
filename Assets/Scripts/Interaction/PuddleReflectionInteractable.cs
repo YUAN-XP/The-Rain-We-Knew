@@ -117,7 +117,7 @@ public class PuddleReflectionInteractable :
 
         if (reflectionObject != null)
         {
-            reflectionObject.SetActive(true);
+            reflectionObject.SetActive(false);
         }
 
         reflectionSeen = true;
@@ -159,6 +159,7 @@ public class PuddleReflectionInteractable :
         StopAllCoroutines();
         var closeup = GetComponent<DemoCloseupPresentation>();
         if (closeup) closeup.Close();
+        if (reflectionObject) reflectionObject.SetActive(false);
         ReleaseSequenceLock();
         sequenceRunning = false;
     }

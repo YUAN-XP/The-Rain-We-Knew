@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -17,12 +17,12 @@ public sealed class DemoComicSequence : MonoBehaviour
         Close();canvas=RuntimePanelUI.Canvas("PagedComic",transform,205);
         RuntimePanelUI.Panel("InkGutters",canvas,Vector2.zero,Vector2.one,new Color(.025f,.035f,.05f));
     }
-    RectTransform Frame(string name,Vector2 min,Vector2 max,string background=null)
+    RectTransform Frame(string name,Vector2 min,Vector2 max,string background=null,bool nativeAspect=false)
     {
         var frame=RuntimePanelUI.Panel(name,canvas,min,max,new Color(.075f,.095f,.12f));
         var mask=frame.gameObject.AddComponent<RectMask2D>();
         var group=frame.gameObject.AddComponent<CanvasGroup>();group.alpha=0;panels.Add(group);
-        if(background!=null)Art(frame.transform,background,Vector2.zero,Vector2.one,false);
+        if(background!=null)Art(frame.transform,background,Vector2.zero,Vector2.one,nativeAspect);
         DemoPaintedFrame.Add(frame.transform,new Color(.68f,.70f,.66f),2.4f);return frame.rectTransform;
     }
     static Image Art(Transform parent,string key,Vector2 min,Vector2 max,bool fit=true)
@@ -45,17 +45,14 @@ public sealed class DemoComicSequence : MonoBehaviour
     public IEnumerator Memory(Action gunshot)
     {
         Begin();
-        var first=Frame("Breathing",new Vector2(.065f,.54f),new Vector2(.48f,.91f));
-        var face=Art(first,"CHR_XP_ADULT_DEFAULT_CLOSEUP",new Vector2(.05f,-.6f),new Vector2(.90f,1.2f));face.color=new Color(.30f,.37f,.43f,1);
-        var second=Frame("VoiceInDarkness",new Vector2(.505f,.54f),new Vector2(.935f,.91f));
-        var cloud=Art(second,"FX_FOG_SHAPES:0",new Vector2(-.1f,-.1f),new Vector2(1.1f,1.1f));cloud.color=new Color(.28f,.36f,.43f,.8f);
-        Frame("AbruptMemory",new Vector2(.065f,.09f),new Vector2(.935f,.505f));
+        Frame("Breathing",new Vector2(.08f,.52f),new Vector2(.49f,.94f),"P03_GunComic:breathing",true);
+        Frame("VoiceInDarkness",new Vector2(.51f,.52f),new Vector2(.92f,.94f),"P03_GunComic:voice",true);
+        Frame("AbruptMemory",new Vector2(.08f,.06f),new Vector2(.92f,.48f),"P03_GunComic:shot",true);
         yield return Reveal(0);yield return GameplayClock.Wait(1.2f);
         yield return Reveal(1);yield return GameplayClock.Wait(1.0f);
         gunshot?.Invoke();panels[2].alpha=1;
-        var flash=RuntimePanelUI.Panel("MemoryWhiteStroke",panels[2].transform,new Vector2(0,.43f),new Vector2(1,.57f),new Color(.83f,.85f,.82f),false);
-        yield return GameplayClock.Wait(.08f);flash.color=new Color(.11f,.13f,.16f);
-        yield return GameplayClock.Wait(.95f);Close();
+        // The authored hand, gun, muzzle flash and bullet remain readable.
+        yield return GameplayClock.Wait(1.25f);Close();
     }
     public IEnumerator DeskGrab()
     {

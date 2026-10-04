@@ -1,0 +1,39 @@
+{
+  "original_keys": 925,
+  "final_keys": 941,
+  "existing_reference_changes": {
+    "CU_HOME_COMPUTER": [
+      "{fileID: -926299816145180057}",
+      null
+    ],
+    "CU_HOME_DESK": [
+      "{fileID: -1089505897391182376}",
+      null
+    ],
+    "CU_HOME_LOCK": [
+      "{fileID: -191853793446134599}",
+      null
+    ]
+  },
+  "new_keys": [
+    "P03_Reporters",
+    "P03_Bicycle",
+    "P03_CredentialCase",
+    "P03_PasswordDesk",
+    "P03_ParentShadows:father",
+    "P03_ParentShadows:mother",
+    "P03_Puddle",
+    "P03_GunComic:breathing",
+    "P03_GunComic:voice",
+    "P03_GunComic:shot",
+    "P03_PasswordDesk:drawer",
+    "P03_PasswordDesk:lock",
+    "P03_CompactStairs",
+    "P03_CollapseWall",
+    "P03_WallShelf",
+    "P03_CollapseWall:upper",
+    "P03_CollapseWall:lower",
+    "P03_CollapseWall:middle",
+    "P03_LockCloseup"
+  ]
+}

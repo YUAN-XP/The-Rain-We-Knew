@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -6,15 +6,15 @@ using UnityEngine.UI;
 [RequireComponent(typeof(Camera)), DefaultExecutionOrder(500)]
 public sealed class RoomPresentationFraming : MonoBehaviour
 {
-    [Serializable] public struct Room { public Rect area; public float floorY; public float size; }
+    [Serializable] public struct Room { public Rect area; public float floorY; public float size; public bool correctRoomLimits; }
     public Room[] rooms;
     [Range(0,.2f)] public float letterbox=.10f;
     public float centreAboveFloor=1.55f;
     public bool FramesPosition(Vector2 position)=>isActiveAndEnabled&&rooms!=null&&Array.Exists(rooms,room=>room.area.Contains(position));
     Camera view;CameraFollow follow;GameControlManager controls;
-    GameObject bars;bool applied;float previousSize,lastSize;
+    GameObject bars;bool applied,correctedLimits;float previousSize,lastSize;Vector2 previousLimits;
     void Awake(){view=GetComponent<Camera>();follow=GetComponent<CameraFollow>();}
-    void Update(){if(applied&&follow)follow.PresentationLimitPadding=Mathf.Max(0,previousSize-lastSize)*view.aspect;}
+    void Update(){if(applied&&follow)follow.PresentationLimitPadding=correctedLimits?0:Mathf.Max(0,previousSize-lastSize)*view.aspect;}
     // Explicitly called while a transition mask is opaque. Locks intentionally keep
     // normal following off, but must not postpone destination composition.
     public static void PrepareCurrentView()
@@ -42,7 +42,19 @@ public sealed class RoomPresentationFraming : MonoBehaviour
         if(!snap&&!follow.enabled){if(bars)bars.SetActive(applied);return;}
         if(!applied){previousSize=view.orthographicSize;applied=true;}
         view.orthographicSize=lastSize=rooms[room].size;
-        follow.PresentationLimitPadding=Mathf.Max(0,previousSize-lastSize)*view.aspect;
+        if(rooms[room].correctRoomLimits&&RoomCameraBounds.TryGetEdges(view,actor.transform,out var edges))
+        {
+            if(!correctedLimits){previousLimits=follow.HorizontalLimits;correctedLimits=true;}
+            float half=view.orthographicSize*view.aspect;
+            if(edges.y-edges.x<=half*2){float middle=(edges.x+edges.y)*.5f;follow.SetLimits(middle,middle);}
+            else follow.SetLimits(edges.x+half,edges.y-half);
+            follow.PresentationLimitPadding=0;
+        }
+        else
+        {
+            if(correctedLimits){follow.SetLimits(previousLimits.x,previousLimits.y);correctedLimits=false;}
+            follow.PresentationLimitPadding=Mathf.Max(0,previousSize-lastSize)*view.aspect;
+        }
         if(snap)follow.SnapToTarget();
         if(snap||follow.enabled){var p=view.transform.position;p.y=rooms[room].floorY+centreAboveFloor;
         view.transform.position=RoomCameraBounds.Confine(view,actor.transform,p);}
@@ -64,7 +76,8 @@ public sealed class RoomPresentationFraming : MonoBehaviour
     void Restore()
     {
         if(applied&&view&&Mathf.Approximately(view.orthographicSize,lastSize))view.orthographicSize=previousSize;
-        applied=false;if(bars)bars.SetActive(false);
+        if(correctedLimits&&follow)follow.SetLimits(previousLimits.x,previousLimits.y);
+        correctedLimits=false;applied=false;if(bars)bars.SetActive(false);
         if(follow)follow.PresentationLimitPadding=0;
     }
     void OnDisable(){Restore();}

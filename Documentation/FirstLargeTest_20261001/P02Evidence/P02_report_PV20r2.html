@@ -1,0 +1,302 @@
+<!doctype html><html lang="zh"><meta charset="utf-8"><title>P02 最终候选详细报告</title><style>body{font:16px system-ui;line-height:1.7;color:#20262d;max-width:1180px;margin:32px auto;padding:0 24px;background:#faf9f6}h1,h2{line-height:1.3}h2{margin-top:36px}table{border-collapse:collapse;width:100%;margin:18px 0}td,th{border:1px solid #c8cdd2;text-align:left;padding:12px;vertical-align:top}th{background:#edf0f3}img{max-width:100%;height:auto}pre{white-space:pre-wrap;background:#edf0f3;padding:16px}a{color:#07559c}code{overflow-wrap:anywhere}p{margin:12px 0}</style><body><h1 id="p02">P02 人物动作最终候选与详细交接报告</h1>
+<p>2026年10月4日。此报告供用户人工审计及下一窗口接续工作使用。P02的A01、A02人物制作、发现问题后的修复和本轮内部复测已完成，当前交付为待人工认可的候选。<strong>人工美术验收、GitHub提交和上传尚未进行。</strong> 这不是全Demo美术或全部后续阶段完成的声明；原隐蔽卧室退出镜头仍有问题，既有环境接缝也未在本轮处理。</p>
+<p>正式工程为 <code>D:\GitHub Desktop\ProjectMystery\ProjectMystery</code>，分支main，P01基线提交为 <code>c6a4664fa9a810b2f4d78a7abd3d20ef53198f40</code>。使用Unity 6000.5.10f1与Unity 2D Animation 15.1.0。当前版本由PV20身体和绑定、PV20r1持物转场修复、PV20r2邱天可见美术来源修复组成。编号只用于追溯；不能把不同版本的旧截图当成最终证据。</p>
+<h2 id="section">用户先看哪些交付</h2>
+<p><a href="/evidence/PV20r2_review.html">完整正常速度和四分之一速度预览</a>可直接在浏览器打开。当前本地地址为 <code>http://127.0.0.1:8768/evidence/PV20r2_review.html</code>，也可打开本地HTML，不依赖GitHub。页面包含20个方向、游戏内输入、河堤交接、递出姿势和持灯过门；正常和慢速共用同一份录像，不为慢速再复制一套大视频。视频定位功能已修复。</p>
+<p>先看人物骨骼第1至5组，再看原背景中的输入录像，最后看河堤起身离亭和前台持物/交接。五张完整人物组图在 <a href="/evidence/PV20_review">最终关节与全身证据目录</a>。该目录中的 <code>PV20_group_1.jpg</code> 至 <code>PV20_group_5.jpg</code> 对应成年三服装、儿童、青年、邱天、男孩和儿童八向；<code>PV20_upper_*</code>、<code>PV20_lower_*</code> 是肩颈、腕、髋膝和鞋的放大检查；<code>PV20_idle_recovery_*</code> 比较不同松键相位回到待机的结果。</p>
+<p>正式美术目录另保存 <a href="D:/%E6%B8%B8%E6%88%8F%E8%AE%BE%E8%AE%A1/%E6%AD%A3%E5%BC%8F%E7%BE%8E%E6%9C%AF/06_%E5%8A%A8%E7%94%BB/P02_PV20r2_%E5%BE%85%E4%BA%BA%E5%B7%A5%E5%AE%A1%E8%AE%A1">待人工审计候选存档</a>。它不等于已批准的正式美术，不覆盖原有用户文档与已确认源图。完整技术矩阵为 <a href="D:/GitHub%20Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/11_P02%E5%8A%A8%E4%BD%9C%E7%9F%A9%E9%98%B5%E4%B8%8E%E6%BA%90%E5%9B%BE%E6%A0%B8%E9%AA%8C.json">122条动作矩阵</a>，源文件哈希为 <a href="D:/GitHub%20Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/stage_source_hashes.json">当前身体与绑定校验</a>。</p>
+<h2 id="section-1">范围和完成数量</h2>
+<table>
+<thead>
+<tr>
+<th>身份与服装</th>
+<th style="text-align: right;">原生方向皮肤</th>
+<th>本轮内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>成年肖鹏默认服</td>
+<td style="text-align: right;">左右2个</td>
+<td>待机、走跑、相机取持收、油灯取持收及持灯走跑</td>
+</tr>
+<tr>
+<td>成年肖鹏背带服</td>
+<td style="text-align: right;">左右2个</td>
+<td>同上，保留成年身份与比例</td>
+</tr>
+<tr>
+<td>成年肖鹏校服</td>
+<td style="text-align: right;">左右2个</td>
+<td>同上，不替换成青年年龄素材</td>
+</tr>
+<tr>
+<td>童年肖鹏</td>
+<td style="text-align: right;">八向8个</td>
+<td>八向待机走跑，侧向相机取持收，迷宫停止恢复</td>
+</tr>
+<tr>
+<td>青年肖鹏</td>
+<td style="text-align: right;">左右2个</td>
+<td>待机、走路、奔跑及停止恢复</td>
+</tr>
+<tr>
+<td>成年邱天</td>
+<td style="text-align: right;">左右2个</td>
+<td>待机、走跑、原跟随、递出与交接表现</td>
+</tr>
+<tr>
+<td>童年男孩</td>
+<td style="text-align: right;">左右2个</td>
+<td>待机、走跑、坐姿转起身及原离亭跟随</td>
+</tr>
+</tbody>
+</table>
+<p>合计7种身份/服装配置、20个原生方向皮肤、22个动作使用上下文和122条状态组合。22个上下文多于20个皮肤，是因为递证等使用场景复用已有身体。状态数量为：camera_draw 8; camera_hold 8; camera_stow 8; credential_offer 2; idle 22; lamp_draw 6; lamp_hold 6; lamp_run 6; lamp_stow 6; lamp_walk 6; run 22; walk 22。这个数字表示矩阵覆盖，<strong>不表示122条都做过一次完整自然通关录像</strong>；独立循环、隔离输入、状态接口和自然主线的证据分别列在下面。</p>
+<p>仅实现已授权的现有待机、走跑、持物与递出表现。P04新增的河堤自由返街玩法、后续菜单美术和其他章节改造没有在P02扩做。已确认的肖鹏脸型、年龄、服装与当代偏写实二维手绘方向保留，角色名统一为“邱天”。</p>
+<h2 id="section-2">真实实现与问题分类</h2>
+<p>角色使用混合绑定。袖子和四肢的可弯曲部分使用Unity原生SpriteSkin连续网格，骨骼与权重保存在可编辑的导入及绑定资源中；头、手与鞋使用刚性形状并跟随对应关节。斜向儿童裤装增加腰髋稳定控制，避免腰根随着某一条抬腿被拖出。并非把所有部件硬切后分别旋转，也不是生成几张逐帧图片就结束。</p>
+<p>问题分开处理：肩根洞和旧鞋残片涉及素材或切片范围；肢体偏离涉及装配、轴心及方向配对；肘膝变形涉及网格与权重；前后穿插涉及绘制顺序；快步、滑步和停在运动姿势涉及曲线、真实位移观察与脚锁生命周期。没有每次重新生成整个人，也没有用大遮盖片统一掩盖缺口。</p>
+<p>当前动作由实际位移和原冲刺资格驱动，动画不写回玩家位置、碰撞体或正式移动速度。同伴表现只观察原同伴位移，不另行驱动NPC走位或推进故事。脚的接触使用实际不透明鞋底轮廓，排除透明矩形边界；斜向深度走动采取二维缩短投影，不把地面纵向位移误当成整条腿上下伸长。</p>
+<p>相关主入口包括 <code>Assets/Scripts/Presentation/P02ActorPresentation.cs</code>、<code>P02CharacterRig.cs</code>、<code>P02RigDefinition.cs</code>、<code>P02MotionLibrary.cs</code>、<code>P02CompanionFollow.cs</code> 和 <code>P02ToolMotion.cs</code>。生产绑定在 <code>Assets/Art/P02Motion/Production</code>；运行库在 <code>Assets/Resources/P02MotionLibrary.asset</code>。Editor中的P02诊断工具不保存到正式场景。独立构建内的诊断只接受显式测试参数，普通启动不自动注入道具或剧情状态。</p>
+<h2 id="section-3">主要问题的修复闭环</h2>
+<table>
+<thead>
+<tr>
+<th>问题及出现姿势</th>
+<th>已确认原因与本轮措施</th>
+<th>最终复查及边界</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>头颈分离和动作中露底</td>
+<td>修正头颈锚点、素材连接余量和头部随躯干关系，保留原脸型</td>
+<td>最终20方向完整图、肩颈极值和循环复查；未再观察到旧版明显断颈</td>
+</tr>
+<tr>
+<td>肩根浅色椭圆、手臂挂得过高</td>
+<td>区分原素材开口与装配误差，连续衣料和合理肩位分别修正</td>
+<td>站姿、前摆和后摆近景检查；不按颜色一概删除正常衣服细节</td>
+</tr>
+<tr>
+<td>腰髋突出、抬腿时多出身体片</td>
+<td>旧腰根受腿旋转拖拽及裤装连接/遮挡不连续；稳定腰髋权重与前后顺序</td>
+<td>儿童四个斜向及成人跑步极值复查，不再保留旧突片作为身体</td>
+</tr>
+<tr>
+<td>左手掌背与左右关系错误</td>
+<td>以角色本人的左右和近/远肢分别标识，核对拇指及腕向，使用对应手型</td>
+<td>左右站姿、摆臂、持物和递出检查；没有整体镜像替代独立方向</td>
+</tr>
+<tr>
+<td>躯干朝向与脸不一致</td>
+<td>分别核对每个方向源图及胸背、短裤、肩和脚的空间关系，修复前后斜向配对</td>
+<td>第4、5组完整人物及迷宫原镜头复查；迷宫角色很小，关节判断依赖独立近景补充</td>
+</tr>
+<tr>
+<td>上衣过宽与细腿不协调</td>
+<td>在同款服装内收紧躯干宽度，保留衣着；斜向裤装单独补足完整腰髋连接</td>
+<td>PV18比例修复沿用到PV20，原躯干宽度系数收至0.93；最终美术比例仍由用户判断</td>
+</tr>
+<tr>
+<td>鞋残片、踝缝、落脚僵硬</td>
+<td>修正切片与鞋底支撑点，加入落地滚动、承重及蹬离，保持鞋刚性</td>
+<td>上下肢近景、不同相位、正常/慢速走跑；不把透明鞋图边框当成鞋底</td>
+</tr>
+<tr>
+<td>走路节奏像跑步</td>
+<td>依真实行程推进步幅，走跑使用不同节奏与姿势，不靠放慢正式移速迎合画面</td>
+<td>独立走跑各至少3循环，游戏内原速度检查；预览样板速度不是正式移速</td>
+</tr>
+<tr>
+<td>跑步摆臂机械、前倾不足</td>
+<td>扩大上臂前后摆动，前臂屈收并加入时间差，躯干克制前倾</td>
+<td>成人各服装、青年、儿童与同伴极值及循环复查；不以大幅跳头/扭腰制造流畅感</td>
+</tr>
+<tr>
+<td>松键停在运动姿势</td>
+<td>放开脚锁并短暂过渡到各方向固定待机，清零走跑相位与前倾</td>
+<td>24个独立构建停止观察及游戏内松键检查；不要求当帧瞬切、不保留随机步态姿势</td>
+</tr>
+<tr>
+<td>斜向儿童上下起伏过大</td>
+<td>原深度位移被当成完整竖向腿伸缩；统一二维步幅和脚锁的深度投影</td>
+<td>PV20深度投影0.14，正常/慢速及八向存读；此数值只影响表现，不改迷宫移动</td>
+</tr>
+<tr>
+<td>河堤起身后腿/鞋散开或冻住</td>
+<td>剧情用Transform运动，刚体速度为零；另外坐姿/静态到移动的旧支撑锚点残留</td>
+<td>同时观察真实位移并在交接时重置支撑；原29音符流程、起身离亭及返家复查，原快速移动时序保留</td>
+</tr>
+<tr>
+<td>同场景黑幕后已举油灯被收掉</td>
+<td>持物表现清理混淆了转场锁与读档恢复锁</td>
+<td>PV20r1仅对SaveRestore清理逻辑道具；原门、楼梯与同场景黑幕保持灯状态，跨场景清理仍适用</td>
+</tr>
+<tr>
+<td>返家邱天身体透明</td>
+<td>EndingHome取到了透明占位根渲染器，未取可见QiuTian美术子节点</td>
+<td>PV20r2取NewArt_Actor或QiuTian_Visual；最终前台交接全程至少10个可见身体部件，原奖励/对白/跟随未改</td>
+</tr>
+</tbody>
+</table>
+<p>跑步上臂前摆约38度、后摆约48度，肘角采用约78至96度并带跟随，保留角色气质。鞋在早期接触、承重平放、蹬离间过渡；走路和跑步参数各自定义。松键采用约0.065秒的运动保持和约0.143秒的收束，而实际观察时间受物理帧和渲染帧影响：独立构建15帧测试约0.333秒，已有青年原输入最慢观察约0.601秒。不能把理想曲线时长写成每台机器的实测时长。</p>
+<p>修改前R13/PV16记录和必要反例保留；已废弃的大量视频和原始帧已按用户要求清理。旧失败不能被新结论删除成“从未出错”，旧通过也不能拿来证明新实现。具体可回退位置在 <a href="D:/%E6%B8%B8%E6%88%8F%E8%AE%BE%E8%AE%A1/Codex%E5%B7%A5%E4%BD%9C%E5%8C%BA/%E7%BB%B4%E6%8A%A4%E8%AE%B0%E5%BD%95">维护记录</a>；最终绑定与源图仍在D工程。</p>
+<h2 id="section-4">可直接查看的修复前后图</h2>
+<p>以下原图保留真实版本与日期，没有以旧预览证明新版本。前后不一定处于同一动作帧，适合比较身体朝向、衣服比例和腰髋连接；速度与落脚仍须看正常和慢速录像。</p>
+<table>
+<thead>
+<tr>
+<th>历史反例</th>
+<th>当前PV20身体</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>10月2日斜向身体/肩位与面朝配对问题</td>
+<td>第5组独立四斜向，胸背、肩与短裤使用对应方向</td>
+</tr>
+<tr>
+<td><img src="/evidence/PV20_review/historical_comparisons/before_direction_20261002_152731.jpg" alt="历史方向反例" /></td>
+<td><img src="/evidence/PV20_review/PV20_group_5.jpg" alt="最终四斜向全身与走跑" /></td>
+</tr>
+<tr>
+<td>10月3日17:10斜向抬腿，腰根露底、上衣过宽、旧臂姿</td>
+<td>已收紧比例和修复稳定腰髋；下图检查抬腿及鞋支撑极值</td>
+</tr>
+<tr>
+<td><img src="/evidence/PV20_review/historical_comparisons/before_child_quarter_20261003_171012.png" alt="历史斜向跑步反例" /></td>
+<td><img src="/evidence/PV20_review/PV20_lower_run_5.jpg" alt="最终斜向跑步下肢极值" /></td>
+</tr>
+</tbody>
+</table>
+<p>摆臂近景见 <a href="/evidence/PV20_review/PV20_upper_run_5.jpg">最终上肢跑步极值</a>，停止恢复见 <a href="/evidence/PV20_review/PV20_idle_recovery_5.jpg">不同松键相位回到待机</a>。完整正常/慢速预览在报告顶部；这些图片不替代连续播放或实际游戏验收。</p>
+<h2 id="section-5">相机和油灯</h2>
+<p>按Q从背后拿出相机，举持或曝光结束后收回；按R拿出或收回油灯，Q/R切换先收回当前物品再拿出另一件。获得物品不等于把物品永久挂在角色胸前或腰前。童年肖鹏使用相机的表现也包含在矩阵中。</p>
+<p>手持相机使用独立透明样式 <code>Assets/Resources/P02HeldCamera/hand_camera_PV18.png</code>，有适合手握的左右机身和短带，不沿用库存图中垂挂的长带状态。库存和拾取素材没有被替换。油灯保留用户认可的样式与原有使用规则。手腕/前臂对取出、举持、收回分别复查，手型替换复用同一手部渲染器，不叠出额外手臂。</p>
+<p>三套成年服装及童年的适用相机状态有最终输入记录。成年油灯取持收、左右切换和持灯走跑有隔离输入证据；另以原门交互检查主卧入口、主卧出口、上楼及下楼共4次，最终 <code>lamp=True, tool=Lamp, state=Holding, grounded=True</code>。这些4次起点采用诊断放置，不能写成纯键盘自然往返。详见 <a href="D:/%E6%B8%B8%E6%88%8F%E8%AE%BE%E8%AE%A1/Codex%E5%B7%A5%E4%BD%9C%E5%8C%BA/work/2026-10-03-P02/extra_PV20r2/lamp_room_results.txt">四门原交互检查</a> 和预览页“最终前台 递出姿势与持灯过四门”组。</p>
+<h2 id="section-6">同伴与递证</h2>
+<p>邱天和男孩使用各自身份及左右向绑定。邱天原跟随速度4.8与间距2.2保留；原跟随触发、停步条件、过门位置和剧情时序不由动画层重写。没有新增玩家停下后强行让同伴追到身边的逻辑。</p>
+<p>最后前台交接测试恢复了隔离剧情存档，再走原门、对白、接近、H04递证、原奖励与跟随。因原卧室退出镜头问题，<strong>这一次采用显式扩大范围的诊断镜头</strong>。37秒录像证明身体可见、递出和交接动作实际播放；不能用它证明原房间镜头正确。<a href="/evidence/native_gameplay_runs/20261004_012018_guide_handover_PV20r2_foreground_view_fixture/extended_functional_review.json">最终交接功能结果</a>的5项检查通过，记录2458帧、2458帧有焦点、无该测试记录的错误，角色部件最小可见数10。</p>
+<p>左右递出另录了4.5秒前台姿势片；它们只验证手臂与方向，没有凭空给角色加证件或推进故事。真正卡片表现与获得仍以原H04—H09交接为准。无需为单姿势验收制造新剧情。</p>
+<p>男孩的原吉他坐姿保持，吉他音频与按键机制保留。原起身、离亭、跟随及返家在正常速度、四分之一速度和关节组图中检查。原离亭有约0.34秒的快速走位段；本轮修正动画交接和支撑状态，<strong>没有擅自放慢或重排该剧情路线</strong>。如果后续要改变这一段演出节奏，应在对应剧情阶段单独确认。</p>
+<h2 id="section-7">验证层级和真实结果</h2>
+<table>
+<thead>
+<tr>
+<th>层级</th>
+<th>本轮真实结果</th>
+<th>不能据此推出什么</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>源图及绑定</td>
+<td>7份正式人物源图与D工程对应源图字节一致；20个生产皮肤、122矩阵关联校验</td>
+<td>原图一致不代表动画自然</td>
+</tr>
+<tr>
+<td>独立原生身体</td>
+<td>20个方向，各走路/奔跑至少3完整循环；全身、极值、关节图和正常/慢速复查</td>
+<td>合成位移独立预览不是完整游戏输入</td>
+</tr>
+<tr>
+<td>待机补证</td>
+<td>最终20方向同屏4.48个呼吸循环（319帧，录像约15.77秒），原游戏保持暂停，不注入库存或剧情</td>
+<td>待机补证不替代实机停止检查</td>
+</tr>
+<tr>
+<td>九组隔离后台输入</td>
+<td>成人三服装、儿童、青年、同伴街道/家中、迷宫和交接的元数据检查，无功能断言失败</td>
+<td>全部focused=false；不作持续前台证明，旧交接画面被最新前台记录取代</td>
+</tr>
+<tr>
+<td>最终四组前台</td>
+<td>交接2458/2458帧、右递出163/163、左递出170/170、持灯四门1324/1324均有焦点；错误记录为空</td>
+<td>起点与镜头有隔离设置；非从新游戏无注入自然通关</td>
+</tr>
+<tr>
+<td>原吉他输入</td>
+<td>真实按键完成4乐句、29个Perfect，重试0并成功回到原流程</td>
+<td>不是仅调用“成功”回调；不表示新音乐制作完成</td>
+</tr>
+<tr>
+<td>独立开发构建</td>
+<td>2026-10-04 00:38构建成功，0错误、3警告</td>
+<td>非Steam发布构建，不是零警告</td>
+</tr>
+<tr>
+<td>最终独立存读/停步</td>
+<td>5份最终报告的断言和SUMMARY均通过，含1920/2560、持灯、旧格式、八向和24个停止观察</td>
+<td>显式测试参数与隔离存档不等于自然主线</td>
+</tr>
+<tr>
+<td>冷进程补充</td>
+<td>8个迷宫方向及左右持灯10案例，各热进程和冷进程，20份报告均通过</td>
+<td>冷进程恢复正确不证明环境拼接美术正确</td>
+</tr>
+<tr>
+<td>原主线</td>
+<td>分段自然输入推进到Demo结束，保留原获得和触发规则；中途修复持灯转场后续接</td>
+<td>不是最终r2单次无中断完整录像；最终r2对受影响交接做定点复测</td>
+</tr>
+<tr>
+<td>正常开局清理</td>
+<td>Scene01，无回放/测试驱动、无库存相机灯、无举物和剧情标志，原走速2.2；原存档目录恢复</td>
+<td>最后一轮最小化时原暂停生效，CameraFollow=false属于GlobalPause控制，不作当前活动镜头证明</td>
+</tr>
+</tbody>
+</table>
+<p>独立构建五份报告分别记录91、38、12、100和11条PASS行，数字包含各自SUMMARY，不能把它们相加包装成独立用例数量。检查见 <a href="D:/%E6%B8%B8%E6%88%8F%E8%AE%BE%E8%AE%A1/Codex%E5%B7%A5%E4%BD%9C%E5%8C%BA/work/2026-10-03-P02/PV20r2_standalone_validation.json">最终构建验证</a>、<a href="D:/%E6%B8%B8%E6%88%8F%E8%AE%BE%E8%AE%A1/Codex%E5%B7%A5%E4%BD%9C%E5%8C%BA/work/2026-10-03-P02/PV20r2_cold_coverage_validation.json">十案例冷启动验证</a>、<a href="D:/%E6%B8%B8%E6%88%8F%E8%AE%BE%E8%AE%A1/Codex%E5%B7%A5%E4%BD%9C%E5%8C%BA/work/2026-10-03-P02/PV20r2_foreground_validation.json">最后前台焦点核对</a>。帧数是观测数据，不是审美结论。</p>
+<p>三个构建警告中，两条为 <code>ChineseMain SDF.asset</code> 导入结果不一致，一条来自性能测试包未发现RuntimePipelineManager。保留日志，没有报告成零警告，也没有借人物动作任务改动字体或渲染设置。Unity AI服务的NoSubscription/网络错误与本轮人物绑定不同；待机补证曾出现录像RGB纹理格式不符，改为编码器要求的RGBA并重录，最终交付采用成功重录片。</p>
+<h2 id="section-8">自然主线怎样验证</h2>
+<p>从Scene01正常新游戏开始，未获得相机与油灯时不能使用。按原游戏输入获得钥匙、报纸并通过门口，进入家属院；完成原楼梯、相机获取、父母及房门流程，进入童年。迷宫用原WASD路径与转向处理，吉他用实际节奏按键完成四乐句，再处理原合影与回家。</p>
+<p>返家继续原桌面0715、碎片和油灯获得流程，经过迷雾进入学校；篮球包含未中与重试，再取钥匙、换校服、铅笔/擦字、青年和USB4268、媒体/主任、成年追逐、屋顶两次相机与保安4268，以及原油灯与油组合流程。随后回到家中，完成原电脑xpzt0715/邮件，再经原邱天接近、九段对白、身份奖励、楼梯和街道流程。</p>
+<p>原街道身份证容器/证件组合、张先生、通知、上车，结局C01及回忆/医院原E和Space输入完成。最终观测 <code>EndingFocusCompleted</code>、<code>EndingFinalLineCompleted</code> 和 <code>DemoCompleted</code> 为true，并实际看见“Demo结束”。对应主线状态在 <a href="D:/%E6%B8%B8%E6%88%8F%E8%AE%BE%E8%AE%A1/Codex%E5%B7%A5%E4%BD%9C%E5%8C%BA/work/2026-10-03-P02/main_chain_PV20/natural_demo_completed_PV20r1_status.txt">自然分段主线最终状态</a>。</p>
+<p>主线在持灯进入同场景黑幕时发现表现状态被错误清理，先修复，再从已经通过自然输入取得的临时快照继续，没有伪造后续完成标志。这种分段接续有明确版本和快照边界，不能写成一次不中断自然跑完。邱天最终可见美术来源修复后，复测了接近/递证/跟随的受影响片段；没有重新跑完整主线去重复未受影响的剧情。</p>
+<h2 id="section-9">原游戏内容保护</h2>
+<p>原成年走速2.2、童年1.9、青年2.15和冲刺倍率1.55保留。独立预览使用成年1.35、童年1.05等样板速度来展示循环，这些不是修改正式移速。迷宫八向和相机/油灯资格仍由原控制器、库存及剧情管理器控制。</p>
+<p><a href="D:/GitHub%20Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/gameplay_boundary_audit.json">14项游戏规则保护核查</a>确认原河堤Sequence、邱天接近速度、跟随条件、出卧室、收证件、通知、街道互动及对白等代码块与P01基线一致；原PlayerController和SprintAbility语义一致。正式已跟踪Scenes、GameData、学校故事、迷宫、任务、原Prefab和BuildSettings场景顺序保持原规则。</p>
+<p>额外 <a href="D:/%E6%B8%B8%E6%88%8F%E8%AE%BE%E8%AE%A1/Codex%E5%B7%A5%E4%BD%9C%E5%8C%BA/work/2026-10-03-P02/protected_source_hashes_PV20r2.json">12份受保护文件精确字节核对</a>中11份完全相同；唯一明确差异是EndingHome选择可见邱天渲染器的表现绑定。不能声称EndingHome整个文件完全未改。P02为存档增加朝向/持物表现恢复入口，为原剧情绑定动作，但没有替换原任务推进方式。</p>
+<p>Editor里的存档准备、诊断放置、扩大镜头和八向/递出姿势开关有显式测试用途。正式场景没有保存这些临时对象。退出时测试组件和回放为空、原库存空、原剧情标志空，用户存档目录恢复；最后检查因为Unity最小化而保持原GlobalPause，未安装失焦暂停旁路。原用户存档位置仍为系统的LocalLow/Saves，本轮没有移动或覆盖原槽位。</p>
+<h2 id="section-10">尚未通过与未验证</h2>
+<p><strong>原隐蔽卧室退出后的镜头连续性未通过。</strong> 自然主线中角色已从卧室坐标区返回原楼层，镜头仍可能停在隐蔽卧室。原门的 <code>overrideCameraLimits</code>、<code>overrideVerticalCameraLimits</code> 为0，旧房间限制保留；RoomPresentationFraming恢复尺寸/黑边/填充，并不恢复这组限制及位置。正式Scene、CameraFollow和RoomTransition未由本轮改动，核对后不把它归因于动画，也不为让测试画面好看修改它。最终交接采用诊断镜头，报告和预览标签都明确限定用途。后续在空间/转场任务中单独修复并复测双向门；不应使用P02的宽测试镜头覆盖正式镜头。</p>
+<p><strong>既有环境接缝仍未通过整场美术验收。</strong> 池塘部分地面以及教室仍可见历史接头；空间回归只核对人物脚线、家具关系与既定布局，不代表从左到右所有墙地接头已解决。本次未放大地面、重建场景或改变家具。原河堤快速离亭演出的节奏也保留，是否改演出要由对应阶段确认。</p>
+<p><strong>未验证</strong>包括用户最终审美接受、Steam发布构建和所有硬件/帧率/分辨率组合；本轮测过的1920×1080与2560×1440不能推出全部平台都通过。独立3D足底接触、Spine导出和新增动作不适用；实现是二维投影与Unity绑定。没有新增跳跃、完整转身创作或新剧情状态来凑验收。</p>
+<p>本轮已修复并复测的人物阻塞问题见上表。当前未把原镜头问题或环境美术问题写成“已完成”，也不宣称绝对没有任何错误。用户仍需判断衣服与体型比例、跑步摆臂/前倾的感觉、儿童斜向体积和手持相机样式是否符合预期。</p>
+<h2 id="section-11">数据迁移与存储</h2>
+<p>Unity原Fatal Error提示的是系统内存分配失败，不能仅当成硬盘容量提示。本轮Unity实际预览、前台测试和独立构建都已运行完成；测试结束释放临时角色、退出Play并恢复导入进程数。磁盘迁移与媒体清理解决的是存储压力，不能据此承诺以后任何规模的导入都不会出现内存不足。</p>
+<p>用户桌面“游戏设计”文档已完整迁到 <code>D:\游戏设计</code>，记录1659文件、2116595733字节，逐文件验证成功；没有挑选删减用户文档。原Codex工作生成目录迁到 <code>D:\游戏设计\Codex工作区\work</code>，记录25883文件、6850998072字节。迁移记录在维护记录目录；一份旧生成依赖缓存迁移时因访问锁暂留C；本轮再检查该旧目录文件数为0，不是遗漏的用户文档。</p>
+<p>现有P02工作和所有本轮新增证据、构建、报告、维护备份均放D。先前已清理4313份过期生成媒体，释放8453352759字节，记录 <code>PV20_obsolete_media_cleanup.json</code>；更早清理记录与这笔不简单相加，避免重复计算。本次另清理被最后前台片取代的错误/离屏试录93个文件、435876428字节（约416MiB），保留原数据、必要反例与最新视频；明细为维护记录/PV20r2_obsolete_final_media_cleanup.json。这笔与前一笔不是重复文件。</p>
+<p>图像生成器最初产生的C路径是历史来源，生产引用以D工程绑定为准。当前正式人物源图7份已重新验证，完整生产PNG、切片/导入元数据和绑定保存在D；不得依赖已删旧媒体或历史C目录继续制作。后续每轮只保留一个正常速度母片，慢速通过播放器实现；新版本通过后清理相应废弃原始帧，不清理用户文档、恢复备份或唯一反例。</p>
+<h2 id="section-12">后续实施与防止返工</h2>
+<ol>
+<li>先读本报告、10号制作规范、动作矩阵和源哈希，确认正在操作D正式工程。16号报告是10月2日历史交接，不能继续按其中“PV16未完成”状态实施。</li>
+<li>人物修复先分辨源图、装配、轴心、层级、权重和运动曲线；只改导致问题的部分，保留修改前版本，不默认重新生成整个人。</li>
+<li>先定位问题时间/姿势，再修一次明确原因，复查该姿势并播放完整动作；共用绑定变化要回归受影响方向与持物。不能只看生成成功或无报错就完成。</li>
+<li>不改正式移动速度、相机、故事标志和任务顺序迎合动画；不要重跑旧整场重建脚本，也不要运行会重置121条台账的旧build_audit.py。</li>
+<li>保留稳定修复：衣服比例、连续腰髋、独立掌背、实际Transform观察、停步固定待机、二维深度投影、同场景持灯保持及可见邱天源。下一轮不重置成旧绑定或统一参数。</li>
+<li>测试准备显式标识；避免把宽诊断视野写到正式Scene。前台吉他严格保留原焦点要求；测试结束退出Play并恢复资源设置。</li>
+<li>只对新变化和失败扩测，未受影响已通过项不无休止重复；需要全流程时采用明确起点、分段记录和版本边界，不能伪造自然流程证明。</li>
+<li>在D整理素材、缓存和证据，改版通过后清旧媒体；保留源图、元数据、关键反例、报告与可回退版本。发生重复错误时回到结构定位，停止随机调参。</li>
+</ol>
+<p>Unity最后回到Scene01编辑状态，导入工作进程已恢复为2。后续优先进行用户人工审计；如用户指出具体动作问题，围绕该版本完成定点修复与关联复测，再重新更新证据。人工通过后再做阶段提交。进入P03等新阶段前，按01号阶段计划和原121条台账确认边界；本报告没有把未实施的新玩法变成既定内容。</p>
+<h2 id="github">GitHub留档文本</h2>
+<p>以下英文文本用于用户人工审计通过之后；当前未创建提交或上传。文件范围见 <a href="D:/GitHub%20Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/20_P02%E6%8F%90%E4%BA%A4%E8%8C%83%E5%9B%B4%E4%B8%8E%E8%8B%B1%E6%96%87%E5%86%85%E5%AE%B9.md">提交范围与英文内容</a>，其中列出应保留的动作资产/代码/报告及应排除的临时构建、过期录像和未归属P02的设置变化。</p>
+<p>Summary:</p>
+<p><code>Complete P02 character motion, held-item animation, and regression evidence</code></p>
+<p>Description:</p>
+<pre><code class="language-text">Implement Unity 2D Animation rigs for Xiao Peng's adult outfits, childhood and youth variants, Qiu Tian, and the childhood companion across 20 directional skins and 122 state combinations.
+
+Repair joint continuity, body-facing alignment, garment proportions, foot planting and roll, running arm swing and lean, and canonical idle recovery. Add the handheld camera artwork and preserve camera/lamp draw, hold, stow, switching, transition, and restore behavior.
+
+Keep authored movement speeds, scene layouts, item acquisition, story trigger order, and companion movement rules. Fix Qiu Tian's visible-artwork binding without changing the original handover or reward flow.
+
+Validation includes three-cycle native previews, focused interaction checks, the original guitar input, segmented main-story progression, standalone builds, and cold-process restores. The final development build succeeded with 0 errors and 3 recorded warnings.
+
+Known issues: the pre-existing hidden-bedroom exit camera limits and environmental floor seams remain outside this motion change. Human art review must be completed before committing this candidate.
+</code></pre>
+<h2 id="section-13">接续窗口可直接使用的任务说明</h2>
+<p>请在D正式工程继续ProjectMystery。P02人物制作与本轮内部复测已完成，用户审美验收和GitHub留档未完成。先读取19号最终候选报告、10号规范、11号动作矩阵、18号证据索引、stage_handoff_status和stage_source_hashes；不要使用16号历史PV16状态作为当前任务。用户要求质量优先，正式逻辑/场景/获得顺序不改，测试准备与正式交付分开，所有新输出放D。先处理用户人工审计反馈；原隐蔽卧室退出镜头和环境接缝是明确未修的空间问题，若进入对应阶段需单独审计与修复。任何新的动作修改保留回退，只对确切问题做修复和关联复测，禁止重建整场或用旧脚本覆盖已确认绑定。</p>
+</body></html>

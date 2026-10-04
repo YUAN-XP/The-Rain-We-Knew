@@ -1,0 +1,73 @@
+{
+  "scope": "Existing Scene01 PlayerController and GameplayInput replay; candidate rig temporarily attached; original world camera rendered at 1920x1080; overlay UI and physical keyboard are not certified by this movie; production settings restored on cleanup",
+  "revision": "R13_grouped_native_skin_with_post_record_contact_check",
+  "frames": 1306,
+  "duration_seconds": 18.000432799999544,
+  "walk_speed_original": 2.200000047683716,
+  "walk_speed_in_review": 1.350000023841858,
+  "mean_moving_speed": 1.1072204881023697,
+  "continuous_phase_advance_cycles_excluding_start_resets": 6.217345327138901,
+  "walking_stride": 1.2,
+  "moving_segments": [
+    {
+      "start_seconds": 0.41348590000052354,
+      "distance": 3.7895011922725295,
+      "frames": 268,
+      "end_seconds": 3.8251300000010815,
+      "distance_derived_cycles": 3.157917660227108
+    },
+    {
+      "start_seconds": 4.4165328000017325,
+      "distance": 2.2291185110808915,
+      "frames": 139,
+      "end_seconds": 6.4354622999999265,
+      "distance_derived_cycles": 1.8575987592340764
+    },
+    {
+      "start_seconds": 8.312516900001356,
+      "distance": 1.4712183028460426,
+      "frames": 96,
+      "end_seconds": 9.646114200000738,
+      "distance_derived_cycles": 1.2260152523717023
+    }
+  ],
+  "phase_distance_max_error": 5.960464477539063e-08,
+  "unexpected_phase_distance_mismatch": [],
+  "recorded_frame_gap_max_seconds": 0.035441500000160886,
+  "world_distance": 7.489840138810126,
+  "support_height_relative_to_ground": [
+    0.0,
+    5.960464477539062e-07
+  ],
+  "pause_frames": 63,
+  "paused_phase_max_change": 0.0,
+  "shift_frames_before_unlock": 138,
+  "running_frames_before_unlock": 0,
+  "part_count_range": [
+    10,
+    10
+  ],
+  "probe_errors": [],
+  "ground_contact_pixel_differences": 326,
+  "per_foot_contact_pixel_differences": [
+    214,
+    208
+  ],
+  "cleanup_exact_match": true,
+  "native_media": [
+    {
+      "name": "gameplay_motion.mp4",
+      "sha256": "ca5d7dce30426c7acdfa35a4e01d9c78fea036eddd2a84b91459d63ccbfbb7d6"
+    },
+    {
+      "name": "gameplay_motion_slow.mp4",
+      "sha256": "2ed4c41ce80d263c1c8733373e533eecdc66837d58df94fc92b7d9b5bf63f1b6"
+    }
+  ],
+  "not_certified": [
+    "Physical keyboard focus",
+    "Overlay UI",
+    "All other actors and directions",
+    "Full P02 acceptance"
+  ]
+}

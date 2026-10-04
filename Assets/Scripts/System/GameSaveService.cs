@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
@@ -53,7 +53,8 @@ public sealed class GameSaveService : MonoBehaviour {
         data.files=archive.Files.Select(f=>new SavedFile{key=Registry.Key(f),id=f.fileId}).ToArray();
         var school=FindAnyObjectByType<SchoolLayoutController>();if(school)data.school=new SavedSchool{present=true,room=school.CurrentRoom,variant=(int)school.Variant,actor=(int)school.Actor,phase=(int)school.Phase};
         var doors=FindAnyObjectByType<ThreeDoorPuzzleController>();if(doors)data.threeDoorProgress=doors.Progress;
-        var corridor=FindAnyObjectByType<DistortedCorridorController>();if(corridor)data.distortedJoined=corridor.HasJoined;
+        var corridor=FindAnyObjectByType<DistortedCorridorController>();if(corridor){data.distortedJoined=corridor.HasJoined;data.corridorLampStage=corridor.LampStage;}
+        data.courtyardLayoutRevision=P03SceneLayoutMigration.Revision;
         FourSlotSaveStore.Validate(data,slot);return data;
     }
     public bool Save(int slot,bool overwrite,out string error){
@@ -90,6 +91,7 @@ public sealed class GameSaveService : MonoBehaviour {
         RuntimePanelUI.Button("重新开始",root,font,new Vector2(.53f,.3f),new Vector2(.8f,.43f),()=>P01SessionRestart.Begin(gameObject));
     }
     IEnumerator RestoreRoutine(GameSaveData data){
+        P03SceneLayoutMigration.Apply(data);
         var dialogue=GetComponentInChildren<DialogueManager>(true);if(dialogue&&dialogue.IsDialogueActive())dialogue.CancelDialogue(dialogue.CurrentDialogue);
         GetComponent<CameraModeController>()?.AbortCapture();GetComponent<OilLampController>()?.LowerLamp();GetComponentInChildren<InventoryUI>(true)?.CloseInventory();
         GetComponent<SchoolChaseSession>()?.ResetForDiskLoad();GetComponent<EndingSession>()?.ResetForDiskLoad();
@@ -109,7 +111,7 @@ public sealed class GameSaveService : MonoBehaviour {
         var p=controls.ActivePlayer;if(!p)throw new InvalidOperationException("缺少玩家");
         var layout=FindAnyObjectByType<SchoolLayoutController>();
         if(data.school.present){if(!layout||layout.data.Room(data.school.room)==null)throw new InvalidOperationException("学校房间不存在");layout.ApplyVariant((SchoolWorldVariant)data.school.variant);layout.SetNarrative((SchoolActor)data.school.actor,(SchoolPhase)data.school.phase);layout.EnterRoom(data.school.room);}
-        var corridor=FindAnyObjectByType<DistortedCorridorController>();if(corridor)corridor.RestoreSave(data.distortedJoined);
+        var corridor=FindAnyObjectByType<DistortedCorridorController>();if(corridor)corridor.RestoreSave(data.distortedJoined,data.corridorLampStage);
         var doors=FindAnyObjectByType<ThreeDoorPuzzleController>();if(doors)doors.RestoreSave(data.threeDoorProgress);
         p.SetPlanarMovement(data.planar);p.transform.localScale=data.scale;EndingSession.Place(p,data.position);
         p.GetComponent<P02ActorPresentation>()?.RestoreDirection(string.IsNullOrEmpty(data.actorFacing)?(data.facing<0?"left":"right"):data.actorFacing);

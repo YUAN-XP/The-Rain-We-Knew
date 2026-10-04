@@ -1,0 +1,41 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>P02 人物运动复核</title>
+<style>body{margin:0;background:#22282c;color:#eee;font:16px system-ui}main{max-width:1280px;margin:20px auto;padding:0 20px}h2{font-size:24px}button,select{font:inherit;margin:6px 6px 6px 0;padding:8px 12px}p{margin:8px 0}small{color:#ccd1d5}.stage{height:clamp(320px,65vh,640px);overflow:hidden;background:#4c4f51}video{display:block;width:100%;height:100%;object-fit:contain}.focused video{object-fit:cover}input[type=range]{width:100%}.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}.gallery img{width:100%;display:block}a{color:#b8e1ff}details{margin:20px 0}</style>
+<main><h2>肖鹏 · 默认服 · 右向动作复核</h2>
+<p>当前 R13：头颈、髋部、鞋底与落地观感复测。尚未完成整个 P02 阶段，也未提交 GitHub。</p>
+<select id="version" aria-label="版本"><option value="R13">R13 当前复测</option></select>
+<select id="scope" aria-label="查看范围"><option value="sample">独立完整人物</option><option value="game">Scene01 游戏输入回放</option></select>
+<button id="normal">正常速度播放</button><button id="slow">四分之一速度播放</button><button id="pause">暂停</button><button id="restart">从头播放</button><button id="zoom">完整画面</button>
+<div class="stage focused" id="stage"><video id="movie" controls playsinline loop preload="auto" src="sample_runs/20261002_062231/continuous_motion.mp4"></video></div>
+<p id="status" aria-live="polite">正在读取视频</p><input id="seek" type="range" min="0" max="1" step="0.016667" value="0" aria-label="动作时间">
+<p id="note">独立 Unity 样本：站立、三个走路循环、三个奔跑循环和停止；画面含地面距离参照。</p>
+<small>“人物放大查看”仅裁去预览边缘的空白，人物和地面参照仍完整显示。游戏回放保留原游戏镜头；物理键盘、其他角色及方向另行验证。</small>
+<p><a href="before_after.html">查看修改前后对比及全部关节近景</a></p>
+<details><summary>最新头颈与鞋底近景</summary><div class="gallery">
+<a href="sample_runs/20261002_062231/joints/0032_walk_6_neck_shoulder_wrist.png"><img alt="R13 走路头颈与肩腕连接" src="sample_runs/20261002_062231/joints/0032_walk_6_neck_shoulder_wrist.png"></a>
+<a href="sample_runs/20261002_062231/joints/0183_run_18_neck_shoulder_wrist.png"><img alt="R13 奔跑头颈与肩腕连接" src="sample_runs/20261002_062231/joints/0183_run_18_neck_shoulder_wrist.png"></a>
+<a href="sample_runs/20261002_062231/joints/0032_walk_6_hip_knee_ankle.png"><img alt="R13 走路髋部及脚底接触" src="sample_runs/20261002_062231/joints/0032_walk_6_hip_knee_ankle.png"></a>
+<a href="sample_runs/20261002_062231/joints/0183_run_18_hip_knee_ankle.png"><img alt="R13 奔跑抬腿及鞋底接触" src="sample_runs/20261002_062231/joints/0183_run_18_hip_knee_ankle.png"></a>
+</div></details></main>
+<script>
+const versions={R13:{sample:'20261002_062231',game:'20261002_062354'},};
+const video=document.getElementById('movie'),status=document.getElementById('status'),seek=document.getElementById('seek'),stage=document.getElementById('stage');
+let loops=0,previous=0;
+function load(){let revision=document.getElementById('version').value,scope=document.getElementById('scope').value;
+ const directory=versions[revision][scope];if(!directory){status.textContent='该修改前版本没有游戏输入回放，请查看独立人物。';video.pause();return;}
+ video.src=(scope==='game'?'gameplay_runs/':'sample_runs/')+directory+(scope==='game'?'/gameplay_motion.mp4':'/continuous_motion.mp4');loops=0;previous=0;video.playbackRate=1;
+ stage.classList.toggle('focused',scope==='sample');document.getElementById('zoom').textContent=scope==='sample'?'完整画面':'人物放大查看';
+ document.getElementById('note').textContent=scope==='sample'?'独立 Unity 样本：站立、三个走路循环、三个奔跑循环和停止；画面含地面距离参照。':'Scene01 正常输入回放：起步、停止、未解锁时按 Shift、暂停及恢复。临时样板与速度设置已在测试结束后恢复；该录像不包含叠加界面。';}
+document.getElementById('normal').onclick=()=>{video.playbackRate=1;video.play();};
+document.getElementById('slow').onclick=()=>{video.playbackRate=.25;video.play();};
+document.getElementById('pause').onclick=()=>video.pause();
+document.getElementById('restart').onclick=()=>{video.currentTime=0;loops=0;previous=0;video.play();};
+document.getElementById('zoom').onclick=e=>{stage.classList.toggle('focused');e.target.textContent=stage.classList.contains('focused')?'完整画面':'人物放大查看';};
+document.getElementById('version').onchange=load;document.getElementById('scope').onchange=load;
+seek.oninput=()=>{video.pause();video.currentTime=Number(seek.value);};
+video.addEventListener('timeupdate',()=>{if(video.currentTime<previous-.5)loops++;previous=video.currentTime;seek.value=video.currentTime;status.textContent=`${video.paused?'暂停':'播放中'} · ${video.playbackRate} 倍速 · ${video.currentTime.toFixed(2)} / ${video.duration.toFixed(2)} 秒 · 已重播 ${loops} 次`;});
+video.addEventListener('loadedmetadata',()=>{seek.max=video.duration;status.textContent='视频已加载 · '+video.duration.toFixed(2)+' 秒';});
+video.addEventListener('error',()=>status.textContent='播放失败，请检查录像是否已完成：'+(video.error?.message||'未知错误'));
+</script></html>
+
+
+

@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: 729e85d78353ee949bfaed9df027247d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4985170069312696305
+    second: P03_ParentShadows_0
+  - first:
+      213: 6457344620467326444
+    second: P03_ParentShadows_1
+  - first:
+      213: 4953687931122955134
+    second: P03_ParentShadows_2
+  - first:
+      213: -1565331951505949844
+    second: P03_ParentShadows_3
+  - first:
+      213: 9031556086735231839
+    second: P03_ParentShadows_4
+  - first:
+      213: 464309256474660062
+    second: P03_ParentShadows_5
+  - first:
+      213: 5988350165934375967
+    second: P03_ParentShadows_6
+  - first:
+      213: 4743605286154876041
+    second: P03_ParentShadows_7
+  - first:
+      213: -2122123151090237414
+    second: P03_ParentShadows_8
+  - first:
+      213: -3371028518420598063
+    second: P03_ParentShadows_9
+  - first:
+      213: 2959321483955430163
+    second: P03_ParentShadows_10
+  - first:
+      213: -7083902157597261461
+    second: P03_ParentShadows_11
+  - first:
+      213: 8386542005970944714
+    second: P03_ParentShadows_12
+  - first:
+      213: 2085857050704533304
+    second: P03_ParentShadows_13
+  - first:
+      213: -3754142404934346409
+    second: P03_ParentShadows_14
+  - first:
+      213: 2595728683923137669
+    second: P03_ParentShadows_15
+  - first:
+      213: 2098520852918894905
+    second: P03_ParentShadows_16
+  - first:
+      213: 4746718527628332875
+    second: P03_ParentShadows_17
+  - first:
+      213: -2687887299405958148
+    second: P03_ParentShadows_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 7
+  spritePivot: {x: 0.5, y: 0}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: P03_ParentShadows_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 688
+        height: 1236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ffea46f3c1ee2540800000000000000
+      internalID: 4985170069312696305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P03_ParentShadows_1
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 1195
+        width: 41
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced0c3748b81d9950800000000000000
+      internalID: 6457344620467326444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P03_ParentShadows_2
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 0
+        width: 558
+        height: 1236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7339b67de80fb440800000000000000
+      internalID: 4953687931122955134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P03_ParentShadows_3
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 1193
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6b3be232e2d64ae0800000000000000
+      internalID: -1565331951505949844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P03_ParentShadows_4
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 1120
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5bdeded868865d70800000000000000
+      internalID: 9031556086735231839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P03_ParentShadows_5
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 1052
+        width: 52
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edc091a0fce817600800000000000000
+      internalID: 464309256474660062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P03_ParentShadows_6
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 1084
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f148b2f8fb4ea1350800000000000000
+      internalID: 5988350165934375967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P03_ParentShadows_7
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1044
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9843de300eba4d140800000000000000
+      internalID: 4743605286154876041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P03_ParentShadows_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 763
+        width: 75
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1042a1dc34bc82e0800000000000000
+      internalID: -2122123151090237414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P03_ParentShadows_9
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 947
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d234d74c63b731d0800000000000000
+      internalID: -3371028518420598063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P03_ParentShadows_10
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 827
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3136853e53f911920800000000000000
+      internalID: 2959321483955430163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P03_ParentShadows_11
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 699
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b61cac0158ce0bd90800000000000000
+      internalID: -7083902157597261461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P03_ParentShadows_12
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 735
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac24ac7458bf26470800000000000000
+      internalID: 8386542005970944714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P03_ParentShadows_13
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 600
+        width: 42
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 837dc7fafe372fc10800000000000000
+      internalID: 2085857050704533304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P03_ParentShadows_14
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 387
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75958ad7f5b96ebc0800000000000000
+      internalID: -3754142404934346409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P03_ParentShadows_15
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 312
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 584e78a3c71e50420800000000000000
+      internalID: 2595728683923137669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P03_ParentShadows_16
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 292
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9310bf7e8917f1d10800000000000000
+      internalID: 2098520852918894905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P03_ParentShadows_17
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 166
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4f4d080a5bbfd140800000000000000
+      internalID: 4746718527628332875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P03_ParentShadows_18
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 84
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf3bf920eb4b2bad0800000000000000
+      internalID: -2687887299405958148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      P03_ParentShadows_0: 4985170069312696305
+      P03_ParentShadows_1: 6457344620467326444
+      P03_ParentShadows_10: 2959321483955430163
+      P03_ParentShadows_11: -7083902157597261461
+      P03_ParentShadows_12: 8386542005970944714
+      P03_ParentShadows_13: 2085857050704533304
+      P03_ParentShadows_14: -3754142404934346409
+      P03_ParentShadows_15: 2595728683923137669
+      P03_ParentShadows_16: 2098520852918894905
+      P03_ParentShadows_17: 4746718527628332875
+      P03_ParentShadows_18: -2687887299405958148
+      P03_ParentShadows_2: 4953687931122955134
+      P03_ParentShadows_3: -1565331951505949844
+      P03_ParentShadows_4: 9031556086735231839
+      P03_ParentShadows_5: 464309256474660062
+      P03_ParentShadows_6: 5988350165934375967
+      P03_ParentShadows_7: 4743605286154876041
+      P03_ParentShadows_8: -2122123151090237414
+      P03_ParentShadows_9: -3371028518420598063
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

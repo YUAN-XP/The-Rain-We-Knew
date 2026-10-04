@@ -1,0 +1,31 @@
+DIAGNOSTIC position sampling, not natural input
+scene=Scene04_School player=(210.00, 16.86, 0.00) feet=16.005 speed=2.2 camera=(209.35, 17.35, -10.00) size=2.5 aspect=1.777778
+PersistentRuntime/Player/P02_NativeBody/far_shoe/skin_far_shoe min=(209.80, 16.05, 0.00) max=(210.10, 16.22, 0.00) order=14 sprite=far_shoe texture=1024x1536
+PersistentRuntime/Player/P02_NativeBody/far_hand/skin_far_hand min=(209.91, 16.72, 0.00) max=(210.05, 16.91, 0.00) order=17 sprite=far_hand texture=1536x1024
+School/Otherworld/Class3_2/Demo2026_ClassroomDressing/DeskRow_2_2 min=(209.18, 16.32, -0.10) max=(210.32, 17.17, 0.10) order=-3 sprite=MOD_SCHOOL_DESK_CHAIR_PAIR_V02:1 texture=1536x1024
+School/Otherworld/Class3_2/Demo2026_ClassroomDressing/WallClock min=(209.60, 18.05, -0.10) max=(209.90, 18.36, 0.10) order=-21 sprite=SPR_CLASSROOM_DRESSING_V02:1 texture=1086x1448
+PersistentRuntime/Player/P02_NativeBody/head/skin_head min=(209.76, 17.34, 0.00) max=(210.08, 17.75, 0.00) order=21 sprite=head texture=1024x1536
+School/Otherworld/Class3_2/NewArt_Environment/Wall_1 min=(207.99, 15.24, -0.10) max=(216.01, 19.01, 0.10) order=-40 sprite=MOD_SCHOOL_LOW_SHELL_V02:1_VisualRegion texture=1317x1194
+PersistentRuntime/Player/P02_NativeBody/near_arm/skin_near_arm min=(209.83, 16.83, 0.00) max=(210.06, 17.47, 0.00) order=25 sprite=near_arm texture=1536x1024
+School/Otherworld/Class3_2/NewArt_Environment/Demo2026_Light_1 min=(206.59, 18.70, -0.10) max=(207.21, 18.90, 0.10) order=-22 sprite=MOD_SCHOOL_COMMON_DRESSING:0 texture=1254x1254
+School/Otherworld/Class3_2/Demo2026_ClassroomDressing/LearningBooks_8 min=(211.56, 17.06, -0.10) max=(211.99, 17.25, 0.10) order=-2 sprite=SPR_CLASSROOM_DRESSING_V02:5 texture=1086x1448
+PersistentRuntime/Player/P02_NativeBody/torso/skin_torso min=(209.85, 16.92, 0.00) max=(210.09, 17.51, 0.00) order=22 sprite=torso texture=1536x1024
+PersistentRuntime/Player/P02_NativeBody/far_leg/skin_far_leg min=(209.74, 16.11, 0.00) max=(210.13, 16.96, 0.00) order=12 sprite=far_leg texture=1536x1024
+PersistentRuntime/Player/P02_NativeBody/near_hand/skin_near_hand min=(209.87, 16.72, 0.00) max=(210.00, 16.91, 0.00) order=27 sprite=near_hand texture=1536x1024
+PersistentRuntime/Player/P02_NativeBody/near_shoe/skin_near_shoe min=(209.81, 16.00, 0.00) max=(210.06, 16.15, 0.00) order=25 sprite=near_shoe texture=1536x1024
+School/Otherworld/Class3_2/NewArt_Environment/Window_223 min=(210.52, 17.05, -0.10) max=(212.48, 18.30, 0.10) order=-25 sprite=MOD_SCHOOL_WINDOWS_BOARDS:1_VisualRegion texture=1254x1254
+School/Otherworld/Class3_2/NewArt_Environment/Demo2026_Floor_Wall_1 min=(207.99, 15.50, -0.10) max=(216.01, 16.50, 0.10) order=-39 sprite=TEX_FLOOR_QUIET_V04:1 texture=2048x768
+School/Otherworld/Class3_2/Demo2026_ClassroomDressing/LearningNotice_2 min=(212.68, 17.16, -0.10) max=(213.93, 17.96, 0.10) order=-21 sprite=SPR_CLASSROOM_DRESSING_V02:3 texture=1086x1448
+PersistentRuntime/Player/P02_NativeBody/far_arm/skin_far_arm min=(209.90, 16.84, 0.00) max=(210.09, 17.47, 0.00) order=15 sprite=far_arm texture=1536x1024
+School/Otherworld/Class3_2/Demo2026_ClassroomDressing/DeskRow_3_2 min=(212.68, 16.32, -0.10) max=(213.82, 17.17, 0.10) order=-3 sprite=MOD_SCHOOL_DESK_CHAIR_PAIR_V02:1 texture=1536x1024
+School/Otherworld/Class3_2/Desk_1/NewArt_Desk min=(203.93, 16.32, -0.10) max=(205.07, 17.17, 0.10) order=-3 sprite=MOD_SCHOOL_DESK_CHAIR_PAIR_V02:1_VisualRegion texture=1536x1024
+School/Otherworld/Class3_2/NewArt_Environment/Demo2026_Floor_Wall_0 min=(199.99, 15.50, -0.10) max=(208.01, 16.50, 0.10) order=-39 sprite=TEX_FLOOR_QUIET_V04:1 texture=2048x768
+School/Otherworld/Class3_2/NewArt_Environment/Window_215 min=(206.52, 17.05, -0.10) max=(208.48, 18.30, 0.10) order=-25 sprite=MOD_SCHOOL_WINDOWS_BOARDS:1_VisualRegion texture=1254x1254
+School/Otherworld/Class3_2/NewArt_Environment/Wall_0 min=(199.99, 15.24, -0.10) max=(208.01, 19.01, 0.10) order=-40 sprite=MOD_SCHOOL_LOW_SHELL_V02:1_VisualRegion texture=1317x1194
+School/Otherworld/Class3_2/Desk_3/NewArt_Desk min=(210.93, 16.32, -0.10) max=(212.07, 17.17, 0.10) order=-3 sprite=MOD_SCHOOL_DESK_CHAIR_PAIR_V02:1_VisualRegion texture=1536x1024
+School/Otherworld/Class3_2/Desk_2/NewArt_Desk min=(207.43, 16.32, -0.10) max=(208.57, 17.17, 0.10) order=-3 sprite=MOD_SCHOOL_DESK_CHAIR_PAIR_V02:1_VisualRegion texture=1536x1024
+School/Otherworld/Class3_2/Demo2026_ClassroomDressing/LearningBooks_0 min=(204.56, 17.06, -0.10) max=(204.99, 17.25, 0.10) order=-2 sprite=SPR_CLASSROOM_DRESSING_V02:5 texture=1086x1448
+School/Otherworld/Class3_2/Demo2026_ClassroomDressing/LearningNotice_0 min=(204.98, 17.16, -0.10) max=(206.23, 17.96, 0.10) order=-21 sprite=SPR_CLASSROOM_DRESSING_V02:3 texture=1086x1448
+PersistentRuntime/Player/P02_NativeBody/near_leg/skin_near_leg min=(209.81, 16.07, 0.00) max=(210.13, 16.96, 0.00) order=20 sprite=near_leg texture=1536x1024
+School/Otherworld/Class3_2/Demo2026_ClassroomDressing/DeskRow_1_2 min=(205.68, 16.32, -0.10) max=(206.82, 17.17, 0.10) order=-3 sprite=MOD_SCHOOL_DESK_CHAIR_PAIR_V02:1 texture=1536x1024
+School/Otherworld/Class3_2/Demo2026_ClassroomDressing/LearningNotice_1 min=(209.13, 17.16, -0.10) max=(210.38, 17.96, 0.10) order=-21 sprite=SPR_CLASSROOM_DRESSING_V02:3 texture=1086x1448

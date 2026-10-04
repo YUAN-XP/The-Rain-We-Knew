@@ -1,0 +1,209 @@
+{
+  "identity": "XiaoPeng adult default right sample",
+  "revision": "R13_grouped_native_skin_with_post_record_contact_check",
+  "sources": [
+    {
+      "path": "Assets/Art/P02Motion/XP_Default_Right_Parts_Candidate02.png",
+      "width": 1254,
+      "height": 1254,
+      "parts": [
+        {
+          "name": "head",
+          "x": 76,
+          "y": 17,
+          "width": 224,
+          "height": 290,
+          "pivotX": 0.41,
+          "pivotY": 0.2517241379310345,
+          "paintedHeight": 0.4009216589861751,
+          "tipY": 0.82,
+          "order": 1,
+          "bend": 0,
+          "limb": false
+        },
+        {
+          "name": "near_hand",
+          "x": 108,
+          "y": 654,
+          "width": 116,
+          "height": 206,
+          "pivotX": 0.47,
+          "pivotY": 0.7,
+          "paintedHeight": 0.22,
+          "tipY": 0.18,
+          "order": 7,
+          "bend": 0,
+          "limb": false
+        },
+        {
+          "name": "near_shoe",
+          "x": 669,
+          "y": 1068,
+          "width": 247,
+          "height": 140,
+          "pivotX": 0.27,
+          "pivotY": 0.7,
+          "paintedHeight": 0.15,
+          "tipY": 0.2,
+          "order": 5,
+          "bend": 0,
+          "limb": false
+        },
+        {
+          "name": "far_shoe",
+          "x": 983,
+          "y": 1069,
+          "width": 243,
+          "height": 140,
+          "pivotX": 0.27,
+          "pivotY": 0.7,
+          "paintedHeight": 0.15,
+          "tipY": 0.2,
+          "order": -6,
+          "bend": 0,
+          "limb": false
+        }
+      ]
+    },
+    {
+      "path": "Assets/Art/P02Motion/XP_Default_Right_Torso_Continuous_v01.png",
+      "width": 962,
+      "height": 1635,
+      "parts": [
+        {
+          "name": "torso",
+          "x": 264,
+          "y": 158,
+          "width": 522,
+          "height": 1306,
+          "pivotX": 0.5,
+          "pivotY": 0.05,
+          "paintedHeight": 0.58,
+          "tipY": 0.8,
+          "order": 2,
+          "bend": 0,
+          "limb": false
+        }
+      ]
+    },
+    {
+      "path": "Assets/Art/P02Motion/XP_Default_Right_Limbs_Continuous_v01.png",
+      "width": 1536,
+      "height": 1024,
+      "parts": [
+        {
+          "name": "near_arm",
+          "x": 122,
+          "y": 101,
+          "width": 208,
+          "height": 822,
+          "pivotX": 0.51,
+          "pivotY": 0.94,
+          "paintedHeight": 0.59,
+          "tipY": 0.4654237288135592,
+          "order": 5,
+          "bend": 0,
+          "limb": true
+        },
+        {
+          "name": "far_arm",
+          "x": 479,
+          "y": 109,
+          "width": 218,
+          "height": 816,
+          "pivotX": 0.51,
+          "pivotY": 0.94,
+          "paintedHeight": 0.59,
+          "tipY": 0.4654237288135592,
+          "order": -5,
+          "bend": 0,
+          "limb": true
+        },
+        {
+          "name": "near_leg",
+          "x": 853,
+          "y": 74,
+          "width": 207,
+          "height": 894,
+          "pivotX": 0.52,
+          "pivotY": 0.94,
+          "paintedHeight": 0.87,
+          "tipY": 0.47448275862068956,
+          "order": 0,
+          "bend": 0,
+          "limb": true
+        },
+        {
+          "name": "far_leg",
+          "x": 1231,
+          "y": 72,
+          "width": 211,
+          "height": 896,
+          "pivotX": 0.5,
+          "pivotY": 0.94,
+          "paintedHeight": 0.87,
+          "tipY": 0.47448275862068956,
+          "order": -8,
+          "bend": 0,
+          "limb": true
+        }
+      ]
+    },
+    {
+      "path": "Assets/Art/P02Motion/XP_Default_Right_LeftPalm_v01.png",
+      "width": 1024,
+      "height": 1536,
+      "parts": [
+        {
+          "name": "far_hand",
+          "x": 227,
+          "y": 57,
+          "width": 654,
+          "height": 1357,
+          "pivotX": 0.46,
+          "pivotY": 0.745,
+          "paintedHeight": 0.22,
+          "tipY": 0.18,
+          "order": -3,
+          "bend": 0,
+          "limb": false
+        }
+      ]
+    },
+    {
+      "path": "Assets/Art/P02Motion/XP_Default_Right_HandPoses_v01.png",
+      "width": 1024,
+      "height": 1536,
+      "parts": [
+        {
+          "name": "near_hand_run",
+          "x": 128,
+          "y": 661,
+          "width": 318,
+          "height": 304,
+          "pivotX": 0.45,
+          "pivotY": 0.8486842105263158,
+          "paintedHeight": 0.12,
+          "tipY": 0.18,
+          "order": 7,
+          "bend": 0,
+          "limb": false
+        },
+        {
+          "name": "far_hand_run",
+          "x": 619,
+          "y": 661,
+          "width": 245,
+          "height": 304,
+          "pivotX": 0.44,
+          "pivotY": 0.8486842105263158,
+          "paintedHeight": 0.12,
+          "tipY": 0.18,
+          "order": -3,
+          "bend": 0,
+          "limb": false
+        }
+      ]
+    }
+  ]
+}

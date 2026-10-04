@@ -1,0 +1,200 @@
+PASS starts original Scene01
+PASS Scene01 start has no unearned lamp
+PASS Scene01 start has no unearned camera
+PASS dialogue released through E replay
+PASS settled initial Scene01
+PASS fixture original save loader: 
+PASS load settled without error 
+PASS fixture actor supported
+PASS reporter crowd blocks passage
+PASS final screenshot has composed picture 01_Reporters_Blocking
+PASS dialogue released through E replay
+PASS flat credential retains original pickup
+PASS credential cannot leave a duplicate ground image
+PASS reporter scene-owned idle is running
+PASS final screenshot has composed picture 02_Bicycle_Grounding
+PASS final screenshot has composed picture 03_Lamp_Emitter
+PASS three lamp cones terminate exactly at bulb emitters
+PASS dialogue released through E replay
+PASS settled 03_Lamp_Emitter
+PASS final screenshot has composed picture 04_Puddle_Revealed
+PASS dialogue released through E replay
+PASS settled 04_Puddle_Revealed
+PASS puddle first close clears old portrait
+PASS dialogue released through E replay
+PASS repeat puddle uses original dialogue only
+PASS final screenshot has composed picture 05_Comic_Face
+PASS final screenshot has composed picture 06_Comic_Voice
+PASS final screenshot has composed picture 07_Comic_Bang
+PASS memory entered via movement and original event releases lock
+PASS fixture original save loader: 
+PASS load settled without error 
+PASS fixture actor supported
+PASS photo remains stained before birthday
+PASS final screenshot has composed picture 08_Photo_Stained
+PASS photo switches only at birthday flag
+PASS final screenshot has composed picture 09_Photo_Clean
+PASS rain allocated exactly three glass panes on four windows
+PASS door transit forbids save 10_StairsUp
+PASS settled 10_StairsUp
+PASS only original door fade 10_StairsUp
+PASS original destination 10_StairsUp
+PASS no landing drop 10_StairsUp
+PASS final screenshot has composed picture 10_StairsUp
+PASS door transit forbids save 11_StairsDown
+PASS settled 11_StairsDown
+PASS only original door fade 11_StairsDown
+PASS original destination 11_StairsDown
+PASS no landing drop 11_StairsDown
+PASS final screenshot has composed picture 11_StairsDown
+PASS door transit forbids save 12_StairsUpAgain
+PASS settled 12_StairsUpAgain
+PASS only original door fade 12_StairsUpAgain
+PASS original destination 12_StairsUpAgain
+PASS no landing drop 12_StairsUpAgain
+PASS final screenshot has composed picture 12_StairsUpAgain
+PASS door transit forbids save 13_MasterEnter
+PASS settled 13_MasterEnter
+PASS only original door fade 13_MasterEnter
+PASS original destination 13_MasterEnter
+PASS no landing drop 13_MasterEnter
+PASS final screenshot has composed picture 13_MasterEnter
+PASS door transit forbids save 14_MasterExit
+PASS settled 14_MasterExit
+PASS only original door fade 14_MasterExit
+PASS original destination 14_MasterExit
+PASS no landing drop 14_MasterExit
+PASS final screenshot has composed picture 14_MasterExit
+PASS fixture original save loader: 
+PASS load settled without error 
+PASS fixture actor supported
+PASS dialogue released through E replay
+PASS settled fixture Scene02_Courtyard (350.00, 1.44, 0.00)
+PASS return living room keeps three animated glass panes
+PASS final screenshot has composed picture 14D_ReturnLivingRoom
+PASS door transit forbids save 14E_ReturnLivingExit
+PASS settled 14E_ReturnLivingExit
+PASS only original door fade 14E_ReturnLivingExit
+PASS original destination 14E_ReturnLivingExit
+PASS no landing drop 14E_ReturnLivingExit
+PASS final screenshot has composed picture 14E_ReturnLivingExit
+PASS return living door unlocks only through original inside callback
+PASS door transit forbids save 14F_ReturnLivingEnter
+PASS settled 14F_ReturnLivingEnter
+PASS only original door fade 14F_ReturnLivingEnter
+PASS original destination 14F_ReturnLivingEnter
+PASS no landing drop 14F_ReturnLivingEnter
+PASS final screenshot has composed picture 14F_ReturnLivingEnter
+PASS return living room both directions remain grounded
+PASS fixture original save loader: 
+PASS load settled without error 
+PASS fixture actor supported
+PASS fragmented parent silhouettes displayed through original event
+PASS both parent shadows and flickering lamp share view
+PASS final screenshot has composed picture 14B_ParentShadows
+PASS dialogue released through E replay
+PASS settled 14B_ParentShadows
+PASS original approach clears parent event and restores lamp
+PASS fixture original save loader: 
+PASS load settled without error 
+PASS fixture actor supported
+PASS dialogue released through E replay
+PASS settled fixture Scene02_Courtyard (-11.70, 7.43, 0.00)
+PASS door transit forbids save 14C_HiddenEnter
+PASS settled 14C_HiddenEnter
+PASS only original door fade 14C_HiddenEnter
+PASS original destination 14C_HiddenEnter
+PASS no landing drop 14C_HiddenEnter
+PASS final screenshot has composed picture 14C_HiddenEnter
+PASS fixture original save loader: 
+PASS load settled without error 
+PASS fixture actor supported
+PASS new authored desk opens through existing controller
+PASS desk closeup forbids save during interaction
+PASS final screenshot has composed picture 15_Desk
+PASS authored contour actually renders ComputerHotspot
+PASS authored contour actually renders DrawerHotspot
+PASS computer contour reaches original login page
+PASS computer cannot skip school login gates
+PASS actual graphic raycaster resolves drawn drawer as topmost target
+PASS drawn drawer contour accepts inside point
+PASS drawn drawer rejects desk legs
+PASS drawer UI event reaches original page
+PASS wrong password retained
+FAIL lock closeup uses native pixel budget without magnifying tiny desk crop
+PASS live roller raycast matches painted window Digit0
+PASS original scroll handler increments Digit0
+PASS original drag handler increments Digit0
+PASS live roller raycast matches painted window Digit1
+PASS original scroll handler increments Digit1
+PASS original drag handler increments Digit1
+PASS live roller raycast matches painted window Digit2
+PASS original scroll handler increments Digit2
+PASS original drag handler increments Digit2
+PASS live roller raycast matches painted window Digit3
+PASS original scroll handler increments Digit3
+PASS original drag handler increments Digit3
+PASS correct digits still require birthday knowledge
+PASS known birthday unlocks original lamp
+PASS repeated confirm cannot duplicate lamp
+PASS final screenshot has composed picture 16_Drawer
+PASS settled 16_Drawer
+PASS desk close retains child sequence order
+PASS door transit forbids save 17_HiddenExit_Continuous
+PASS settled 17_HiddenExit_Continuous
+PASS only original door fade 17_HiddenExit_Continuous
+PASS original destination 17_HiddenExit_Continuous
+PASS no landing drop 17_HiddenExit_Continuous
+PASS final screenshot has composed picture 17_HiddenExit_Continuous
+PASS bedroom exit is distorted second floor without remote teleport
+PASS old second floor stairs disappear
+PASS settled 17_HiddenExit_Continuous
+PASS wait follow-up retained before walking
+PASS first real crossing raises collapse stage 1
+PASS final screenshot has composed picture 18_Corridor_Stage1
+PASS pause freezes collapse clock, fragment positions, and lamp stage
+PASS pause preserves existing free-action save permission
+PASS save stage1 
+PASS backtracking cannot reverse first collapse
+PASS cold restore stage1 
+PASS stage1 restored in same floor
+PASS final screenshot has composed picture 19_Corridor_Stage1_Load
+PASS second real crossing raises collapse stage 2
+PASS final screenshot has composed picture 20_Corridor_Stage2
+PASS save stage2 
+PASS cold restore stage2 
+PASS stage2 restored without replaying first stage
+PASS walking reaches three-door area with production speed
+PASS three-door collider activates without blocking forward entry
+PASS final screenshot has composed picture 21_ThreeDoors
+PASS all three doors share actual camera view
+PASS wrong original door accepted
+PASS settled 21_ThreeDoors
+PASS wrong selection resets safely
+PASS final screenshot has composed picture 22_WrongDoorReset
+PASS original E target reaches relocated door 2
+PASS settled 22_WrongDoorReset
+PASS original E target reaches relocated door 0
+PASS settled 22_WrongDoorReset
+PASS right-left order retained
+PASS save between puzzle choices 
+PASS restore puzzle progress 
+PASS puzzle save retains required middle final door
+PASS original E target reaches final middle door
+PASS settled 22_WrongDoorReset
+PASS original chapter transition flag retained
+PASS settled 22_WrongDoorReset
+PASS final screenshot has composed picture 23_OriginalScene03Transition
+PASS legacy remote corridor save migrates to joined floor
+PASS native decoder prepares final video Rain_memory 
+PASS video sample Rain_memory 0 decodes 
+PASS video sample Rain_memory 1 decodes 
+PASS video sample Rain_memory 2 decodes 
+PASS native decoder prepares final video Courtyard_windows_and_tabletop 
+PASS video sample Courtyard_windows_and_tabletop 0 decodes 
+PASS video sample Courtyard_windows_and_tabletop 1 decodes 
+PASS video sample Courtyard_windows_and_tabletop 2 decodes 
+PASS native decoder prepares final video Continuous_corridor 
+PASS video sample Continuous_corridor 0 decodes 
+PASS video sample Continuous_corridor 1 decodes 
+PASS video sample Continuous_corridor 2 decodes 

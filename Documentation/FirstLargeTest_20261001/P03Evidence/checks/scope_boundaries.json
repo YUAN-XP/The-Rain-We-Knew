@@ -1,0 +1,8 @@
+{
+  "original_story_and_item_gates": "retained",
+  "allowed_story_change": "M12 explicit continuous distorted second floor, M13 two lamp collapse milestones",
+  "test_method": "isolation via original GameSaveService, GameplayInput replay, direct interface diagnostics explicitly labelled",
+  "actual_physical_keyboard_and_full_standalone_playthrough": "not rerun in P03",
+  "audio": "no new ambience, guitar and original interaction/narrative sounds retained",
+  "M07_M09_whole_demo": "audited, current independent corrections applied, chapter-owned remainder not closed"
+}

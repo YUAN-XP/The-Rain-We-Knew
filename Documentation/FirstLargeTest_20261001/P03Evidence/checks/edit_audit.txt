@@ -1,0 +1,14 @@
+PASS scene-owned reporter idle, P02 rig untouched
+PASS reporter solid blocking collider
+PASS no active old segmented courtyard floor remains visible
+PASS all 39 old floor strips retain suppression on reactivation
+PASS stairs full height 1.6 < adult 1.8, native aspect
+PASS glass clip Environment/Floor01/NewArt_RoomShell/UpperWindow
+PASS glass clip Environment/Floor02/NewArt_RoomShell/UpperWindow
+PASS glass clip Environment/MasterBedroomInterior/NewArt_RoomShell/BedroomWindow
+PASS glass clip Environment/HiddenBedroomArea/Window_Background/NewArt_Visual
+PASS glass clip LivingRoomInterior_Return/NewArt_RoomShell/LivingWindow
+PASS photo tabletop support
+PASS continuous second floor geometry
+PASS lamp support P03_LampWallShelf_0
+PASS lamp support P03_LampWallShelf_1

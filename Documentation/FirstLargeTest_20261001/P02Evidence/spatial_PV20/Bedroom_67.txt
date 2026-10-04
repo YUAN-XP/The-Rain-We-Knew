@@ -1,0 +1,22 @@
+DIAGNOSTIC position sampling, not natural input
+scene=Scene02_Courtyard player=(67.00, 1.36, 0.00) feet=0.5077868 speed=2.2 camera=(67.84, 1.85, -10.00) size=2.5 aspect=1.777778
+PersistentRuntime/Player/P02_NativeBody/far_shoe/skin_far_shoe min=(66.82, 0.50, 0.00) max=(67.12, 0.65, 0.00) order=14 sprite=far_shoe texture=1024x1536
+PersistentRuntime/Player/P02_NativeBody/far_hand/skin_far_hand min=(66.94, 1.22, 0.00) max=(67.09, 1.41, 0.00) order=17 sprite=far_hand texture=1536x1024
+Environment/MasterBedroomInterior/CompactLayout_Applied/Ground_1 min=(70.80, 0.02, -0.10) max=(78.80, 1.02, 0.10) order=-34 sprite=TEX_FLOOR_QUIET_V04:1 texture=2048x768
+Environment/MasterBedroomInterior/Bed_Placeholder/NewArt_Visual min=(69.74, 0.86, -0.10) max=(72.14, 2.01, 0.10) order=-3 sprite=SPR_HOME_BEDS_OTHER:0_VisualRegion texture=2172x724
+PersistentRuntime/Player/P02_NativeBody/head/skin_head min=(66.81, 1.85, 0.00) max=(67.14, 2.25, 0.00) order=21 sprite=head texture=1024x1536
+Environment/MasterBedroomInterior/CompactLayout_Applied/Ground_0 min=(62.80, 0.02, -0.10) max=(70.80, 1.02, 0.10) order=-34 sprite=TEX_FLOOR_QUIET_V04:1 texture=2048x768
+Environment/MasterBedroomInterior/Wardrobe_Placeholder/NewArt_Visual min=(66.55, 0.86, -0.10) max=(67.87, 2.91, 0.10) order=-4 sprite=SPR_HOME_WARDROBE_FRONT_V02:2 texture=1254x1254
+PersistentRuntime/Player/P02_NativeBody/near_arm/skin_near_arm min=(66.89, 1.34, 0.00) max=(67.11, 1.98, 0.00) order=25 sprite=near_arm texture=1536x1024
+Environment/MasterBedroomInterior/CompactLayout_Applied/Wall_2 min=(70.80, 1.02, -0.10) max=(74.80, 4.02, 0.10) order=-35 sprite=MOD_HOME_WALL_CLOSE_OTHER_V03 texture=1448x1086
+PersistentRuntime/Player/P02_NativeBody/torso/skin_torso min=(66.90, 1.43, 0.00) max=(67.13, 2.01, 0.00) order=22 sprite=torso texture=1536x1024
+PersistentRuntime/Player/P02_NativeBody/far_leg/skin_far_leg min=(66.88, 0.58, 0.00) max=(67.17, 1.47, 0.00) order=12 sprite=far_leg texture=1536x1024
+PersistentRuntime/Player/P02_NativeBody/near_hand/skin_near_hand min=(66.93, 1.22, 0.00) max=(67.06, 1.41, 0.00) order=27 sprite=near_hand texture=1536x1024
+PersistentRuntime/Player/P02_NativeBody/near_shoe/skin_near_shoe min=(66.79, 0.50, 0.00) max=(67.04, 0.65, 0.00) order=25 sprite=near_shoe texture=1536x1024
+Environment/MasterBedroomInterior/NewArt_RoomShell/BedroomWindow min=(69.89, 1.35, -0.10) max=(72.51, 3.00, 0.10) order=-15 sprite=SPR_HOME_WINDOW_BOOKCASE_OTHER:0_VisualRegion texture=1774x887
+PersistentRuntime/Player/P02_NativeBody/near_leg/skin_near_leg min=(66.83, 0.58, 0.00) max=(67.12, 1.47, 0.00) order=20 sprite=near_leg texture=1536x1024
+Environment/MasterBedroomInterior/Demo2026_Bookcase min=(72.26, 0.86, -0.10) max=(73.38, 2.68, 0.10) order=-5 sprite=SPR_HOME_WINDOW_BOOKCASE_OTHER:1 texture=1774x887
+PersistentRuntime/Player/P02_NativeBody/far_arm/skin_far_arm min=(66.95, 1.35, 0.00) max=(67.13, 1.98, 0.00) order=15 sprite=far_arm texture=1536x1024
+Environment/MasterBedroomInterior/CompactLayout_Applied/Wall_1 min=(66.80, 1.02, -0.10) max=(70.80, 4.02, 0.10) order=-35 sprite=MOD_HOME_WALL_CLOSE_OTHER_V03 texture=1448x1086
+Environment/MasterBedroomInterior/CompactLayout_Applied/Wall_0 min=(62.80, 1.02, -0.10) max=(66.80, 4.02, 0.10) order=-35 sprite=MOD_HOME_WALL_CLOSE_OTHER_V03 texture=1448x1086
+Environment/MasterBedroomInterior/ExitDoor_Point/NewArt_Visual min=(63.25, 0.50, -0.10) max=(64.26, 2.72, 0.10) order=-6 sprite=SPR_HOME_DOOR_TVCAB_OTHER:0_VisualRegion texture=1774x887

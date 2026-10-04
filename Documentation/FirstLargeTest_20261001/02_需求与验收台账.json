@@ -16,17 +16,24 @@
     "actions": "补齐记者阻挡群及待机；重做贴地证件套",
     "acceptance": "左边界确由人群解释；证件套可拾取且不悬空",
     "code_entry": "Presentation/RoomPresentationFraming.cs; Presentation/DemoActorArtwork.cs; Story/DistortedCorridorController.cs; Story/ThreeDoorPuzzleController.cs; UI/DeskCloseupController.cs",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "P03Evidence/checks/results.txt",
+      "P03Evidence/checks/edit_audit.txt",
+      "P03Evidence/runtime/01_Reporters_Blocking.jpg",
+      "22_P03阶段报告与人工审计.md"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [
       "B01",
       "B03",
       "B04",
       "B05"
     ],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "补群体与场景专用轻微待机；扁平证件套落地，保留原阻挡及拾取",
+    "verification_scope": "Scene01雨夜与Scene02家属院；输入回放、接口诊断和构建证据分列"
   },
   {
     "id": "M02",
@@ -46,17 +53,24 @@
     "actions": "重画水坑内痛苦血脸；调查后清除错误黑色倒影",
     "acceptance": "进入、退出及再次调查均无矩形街景或残影；不压缩比例",
     "code_entry": "Presentation/RoomPresentationFraming.cs; Presentation/DemoActorArtwork.cs; Story/DistortedCorridorController.cs; Story/ThreeDoorPuzzleController.cs; UI/DeskCloseupController.cs",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "P03Evidence/checks/results.txt",
+      "P03Evidence/checks/edit_audit.txt",
+      "P03Evidence/runtime/04_Puddle_Revealed.jpg",
+      "22_P03阶段报告与人工审计.md"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [
       "B01",
       "B03",
       "B04",
       "B05"
     ],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "制作慌乱血脸水坑；按原比例显示，进入与退出清理错误倒影",
+    "verification_scope": "Scene01雨夜与Scene02家属院；输入回放、接口诊断和构建证据分列"
   },
   {
     "id": "M03",
@@ -75,17 +89,24 @@
     "actions": "灯光与灯泡锚点统一",
     "acceptance": "静止和移动镜头均从灯泡中心发光",
     "code_entry": "Presentation/RoomPresentationFraming.cs; Presentation/DemoActorArtwork.cs; Story/DistortedCorridorController.cs; Story/ThreeDoorPuzzleController.cs; UI/DeskCloseupController.cs",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "P03Evidence/checks/results.txt",
+      "P03Evidence/checks/edit_audit.txt",
+      "P03Evidence/runtime/03_Lamp_Emitter.jpg",
+      "22_P03阶段报告与人工审计.md"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [
       "B01",
       "B03",
       "B04",
       "B05"
     ],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "三个灯具使用实际灯泡位置的独立发光锚点",
+    "verification_scope": "Scene01雨夜与Scene02家属院；输入回放、接口诊断和构建证据分列"
   },
   {
     "id": "M04",
@@ -104,17 +125,24 @@
     "actions": "调整为平行道路的方向并校正轮胎接地",
     "acceptance": "两轮接地且未非等比拉伸",
     "code_entry": "Presentation/RoomPresentationFraming.cs; Presentation/DemoActorArtwork.cs; Story/DistortedCorridorController.cs; Story/ThreeDoorPuzzleController.cs; UI/DeskCloseupController.cs",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "P03Evidence/checks/results.txt",
+      "P03Evidence/checks/edit_audit.txt",
+      "P03Evidence/runtime/02_Bicycle_Grounding.jpg",
+      "22_P03阶段报告与人工审计.md"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [
       "B01",
       "B03",
       "B04",
       "B05"
     ],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "换为等比例平行道路的自行车，双轮接同一地面",
+    "verification_scope": "Scene01雨夜与Scene02家属院；输入回放、接口诊断和构建证据分列"
   },
   {
     "id": "M05",
@@ -135,17 +163,24 @@
     "actions": "重做肖鹏表情、文字张力和开枪手、飞弹、Bang！",
     "acceptance": "三格顺序清楚；新图无旧表情机械复用；文字可读",
     "code_entry": "Presentation/RoomPresentationFraming.cs; Presentation/DemoActorArtwork.cs; Story/DistortedCorridorController.cs; Story/ThreeDoorPuzzleController.cs; UI/DeskCloseupController.cs",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "P03Evidence/checks/results.txt",
+      "P03Evidence/checks/edit_audit.txt",
+      "P03Evidence/runtime/07_Comic_Bang.jpg",
+      "22_P03阶段报告与人工审计.md"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [
       "B01",
       "B03",
       "B04",
       "B05"
     ],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "三格新表情、有人吗？、开枪手、飞弹和Bang；原枪声与推进回调保留",
+    "verification_scope": "Scene01雨夜与Scene02家属院；输入回放、接口诊断和构建证据分列"
   },
   {
     "id": "M06",
@@ -164,17 +199,24 @@
     "actions": "逐扇修正门槛墙脚；窗外雨独立动画",
     "acceptance": "一二楼各门出入正确；雨位于窗外且不穿墙",
     "code_entry": "Presentation/RoomPresentationFraming.cs; Presentation/DemoActorArtwork.cs; Story/DistortedCorridorController.cs; Story/ThreeDoorPuzzleController.cs; UI/DeskCloseupController.cs",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "P03Evidence/checks/results.txt",
+      "P03Evidence/checks/edit_audit.txt",
+      "P03Evidence/runtime/10_StairsUp.jpg",
+      "22_P03阶段报告与人工审计.md"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [
       "B01",
       "B03",
       "B04",
       "B05"
     ],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "门贴墙脚，双向黑幕落地；五扇家属院窗增加逐玻璃裁切的动态雨",
+    "verification_scope": "Scene01雨夜与Scene02家属院；输入回放、接口诊断和构建证据分列"
   },
   {
     "id": "M07",
@@ -193,17 +235,25 @@
     "actions": "照片按剧情显影；全Demo核对桌面物件与窗户",
     "acceptance": "拍照前污渍不泄露完整照片；拍照后正确更新；台灯机身真正落在桌面",
     "code_entry": "Presentation/RoomPresentationFraming.cs; Presentation/DemoActorArtwork.cs; Story/DistortedCorridorController.cs; Story/ThreeDoorPuzzleController.cs; UI/DeskCloseupController.cs",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计；全Demo延续条款未关闭",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "P03Evidence/checks/results.txt",
+      "P03Evidence/checks/edit_audit.txt",
+      "P03Evidence/runtime/08_Photo_Stained.jpg",
+      "22_P03阶段报告与人工审计.md"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [
       "B01",
       "B03",
       "B04",
       "B05"
     ],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "生日/拍照既有状态显影；家属院与童年已查实的灯/相机落入真正台面；建立全Demo审计",
+    "verification_scope": "Scene01雨夜与Scene02家属院；输入回放、接口诊断和构建证据分列",
+    "cross_phase_remaining": "全Demo延续条款仍跟随P04/P05/P06逐章处理与P08全流程验收，不标记为全局完成"
   },
   {
     "id": "M08",
@@ -222,17 +272,24 @@
     "actions": "以成年人体尺度重新布置踏步",
     "acceptance": "五级踏步不再高过成人；楼梯视觉与交互一致",
     "code_entry": "Presentation/RoomPresentationFraming.cs; Presentation/DemoActorArtwork.cs; Story/DistortedCorridorController.cs; Story/ThreeDoorPuzzleController.cs; UI/DeskCloseupController.cs",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "P03Evidence/checks/results.txt",
+      "P03Evidence/checks/edit_audit.txt",
+      "P03Evidence/runtime/12_StairsUpAgain.jpg",
+      "22_P03阶段报告与人工审计.md"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [
       "B01",
       "B03",
       "B04",
       "B05"
     ],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "完整楼梯高度1.6世界单位，成人1.8；保留原上下楼交互",
+    "verification_scope": "Scene01雨夜与Scene02家属院；输入回放、接口诊断和构建证据分列"
   },
   {
     "id": "M09",
@@ -253,17 +310,25 @@
     "actions": "邱天右侧设雾；缩短无效路程，补生活群组",
     "acceptance": "阻挡与雾一致；边界不留空路；正常往返不掉落",
     "code_entry": "Presentation/RoomPresentationFraming.cs; Presentation/DemoActorArtwork.cs; Story/DistortedCorridorController.cs; Story/ThreeDoorPuzzleController.cs; UI/DeskCloseupController.cs",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计；全Demo延续条款未关闭",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "P03Evidence/checks/results.txt",
+      "P03Evidence/checks/edit_audit.txt",
+      "P03Evidence/runtime/14_MasterExit.jpg",
+      "22_P03阶段报告与人工审计.md"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [
       "B01",
       "B03",
       "B04",
       "B05"
     ],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "庭院横向布局统一压缩到原0.6；同步NPC/热点/地面/边界/旧档；黑雾与阻挡相邻",
+    "verification_scope": "Scene01雨夜与Scene02家属院；输入回放、接口诊断和构建证据分列",
+    "cross_phase_remaining": "全Demo延续条款仍跟随P04/P05/P06逐章处理与P08全流程验收，不标记为全局完成"
   },
   {
     "id": "M10",
@@ -282,17 +347,24 @@
     "actions": "将两者纳入同一演出构图，重做破碎阴影",
     "acceptance": "事件发生时无需玩家追镜头；灯和影同时可读",
     "code_entry": "Presentation/RoomPresentationFraming.cs; Presentation/DemoActorArtwork.cs; Story/DistortedCorridorController.cs; Story/ThreeDoorPuzzleController.cs; UI/DeskCloseupController.cs",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "P03Evidence/checks/results.txt",
+      "P03Evidence/checks/edit_audit.txt",
+      "P03Evidence/runtime/14B_ParentShadows.jpg",
+      "22_P03阶段报告与人工审计.md"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [
       "B01",
       "B03",
       "B04",
       "B05"
     ],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "小桌支撑灯，残破父母影子同框；原接近触发与离场规则保留",
+    "verification_scope": "Scene01雨夜与Scene02家属院；输入回放、接口诊断和构建证据分列"
   },
   {
     "id": "M11",
@@ -313,17 +385,24 @@
     "actions": "窗桌书柜重排；制作带密码抽屉桌及匹配近景；替换后清除旧引用与旧图",
     "acceptance": "窗完整；电脑和密码柜均有准确热点及描边；谜题仍可完成",
     "code_entry": "Presentation/RoomPresentationFraming.cs; Presentation/DemoActorArtwork.cs; Story/DistortedCorridorController.cs; Story/ThreeDoorPuzzleController.cs; UI/DeskCloseupController.cs",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "P03Evidence/checks/results.txt",
+      "P03Evidence/checks/edit_audit.txt",
+      "P03Evidence/runtime/16_Drawer.jpg",
+      "22_P03阶段报告与人工审计.md"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [
       "B01",
       "B03",
       "B04",
       "B05"
     ],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "窗桌书柜重排；新密码桌与电脑/抽屉手绘轮廓热点；原生锁体与四轮输入；清除三张旧CU_HOME资源",
+    "verification_scope": "Scene01雨夜与Scene02家属院；输入回放、接口诊断和构建证据分列"
   },
   {
     "id": "M12",
@@ -342,17 +421,24 @@
     "actions": "离开次卧时切换整个二楼布局为连贯走廊；移除白块及旧楼梯残留",
     "acceptance": "直接步行抵达三门，无闪切、隐藏传送镜头或回到旧楼梯口",
     "code_entry": "Presentation/RoomPresentationFraming.cs; Presentation/DemoActorArtwork.cs; Story/DistortedCorridorController.cs; Story/ThreeDoorPuzzleController.cs; UI/DeskCloseupController.cs",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "P03Evidence/checks/results.txt",
+      "P03Evidence/checks/edit_audit.txt",
+      "P03Evidence/runtime/17_HiddenExit_Continuous.jpg",
+      "22_P03阶段报告与人工审计.md"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [
       "B01",
       "B03",
       "B04",
       "B05"
     ],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "次卧退出后接连贯异化二楼，停用楼梯/白块与旧远程背景；D/A实走，不增加中途切场",
+    "verification_scope": "Scene01雨夜与Scene02家属院；输入回放、接口诊断和构建证据分列"
   },
   {
     "id": "M13",
@@ -371,17 +457,24 @@
     "actions": "压缩长廊；两处经过灯光推动崩坏；三门一起入画",
     "acceptance": "灯光阶段不重复错乱；三门可同时辨认；错误和正确选择均可继续",
     "code_entry": "Presentation/RoomPresentationFraming.cs; Presentation/DemoActorArtwork.cs; Story/DistortedCorridorController.cs; Story/ThreeDoorPuzzleController.cs; UI/DeskCloseupController.cs",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "P03Evidence/checks/results.txt",
+      "P03Evidence/checks/edit_audit.txt",
+      "P03Evidence/runtime/21_ThreeDoors.jpg",
+      "22_P03阶段报告与人工审计.md"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [
       "B01",
       "B03",
       "B04",
       "B05"
     ],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "两处经过灯推动单向递增崩坏；三门距离压缩并统一取景；存读恢复阶段和原右左中答案",
+    "verification_scope": "Scene01雨夜与Scene02家属院；输入回放、接口诊断和构建证据分列"
   },
   {
     "id": "M14",

@@ -1,0 +1,3120 @@
+{
+    "scene": "Scene01_Rain",
+    "time": "2026-10-04T07:57:03.6971915+08:00",
+    "surfaces": [
+        {
+            "path": "Environment/Ground",
+            "sprite": "Square",
+            "asset": "Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": 0,
+            "bounds": {
+                "m_Center": {
+                    "x": 9.0,
+                    "y": -1.5,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 31.0,
+                    "y": 0.5,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/LeftBoundary",
+            "sprite": "Square",
+            "asset": "Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": 0,
+            "bounds": {
+                "m_Center": {
+                    "x": -22.0,
+                    "y": 2.0,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.5,
+                    "y": 4.0,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/RightBoundary",
+            "sprite": "Square",
+            "asset": "Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": 0,
+            "bounds": {
+                "m_Center": {
+                    "x": 40.0,
+                    "y": 2.0,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.5,
+                    "y": 4.0,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/CrowdPlaceholder",
+            "sprite": "Square",
+            "asset": "Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": 0,
+            "bounds": {
+                "m_Center": {
+                    "x": -20.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 1.5,
+                    "y": 1.5,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/CrowdPlaceholder/ReportersCrowd_Visual",
+            "sprite": "P03_Reporters",
+            "asset": "Assets/Resources/DemoArtCatalog.asset",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": 1,
+            "bounds": {
+                "m_Center": {
+                    "x": -19.600000381469728,
+                    "y": -0.10000002384185791,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 1.4361904859542847,
+                    "y": 0.8999999761581421,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Puddle_Placeholder",
+            "sprite": "Square",
+            "asset": "Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": 0,
+            "bounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": -0.8999999761581421,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 1.5,
+                    "y": 0.10000000149011612,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Puddle_Placeholder/Reflection_Placeholder",
+            "sprite": "Square",
+            "asset": "Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png",
+            "active": false,
+            "enabled": true,
+            "hidden": false,
+            "order": 0,
+            "bounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": -0.699999988079071,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 1.2000000476837159,
+                    "y": 0.02500000037252903,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Puddle_Placeholder/Reflection_Placeholder/Reflection_Visual_New",
+            "sprite": "PM_CH_XiaoPeng_Adult_Idle_A_v01",
+            "asset": "Assets/Art/正式/Characters/IdentityApproved/PM_CH_XiaoPeng_Adult_Idle_A_v01.png",
+            "active": false,
+            "enabled": true,
+            "hidden": false,
+            "order": -9,
+            "bounds": {
+                "m_Center": {
+                    "x": -0.013227539137005806,
+                    "y": -1.347499966621399,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.2150000035762787,
+                    "y": 0.3199999928474426,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Puddle_Placeholder/Puddle_Base_Visual",
+            "sprite": "PM_S01_Props_StreetAtlas_N01_VisualRegion",
+            "asset": "",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": -10,
+            "bounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": -1.0399999618530274,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 1.5,
+                    "y": 0.20999999344348908,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Gate_Placeholder",
+            "sprite": "Square",
+            "asset": "Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": 0,
+            "bounds": {
+                "m_Center": {
+                    "x": 15.0,
+                    "y": 1.5,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 1.25,
+                    "y": 2.0,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Gate_Placeholder/Gate_Visual",
+            "sprite": "SPR_STREET_GATE_MAILBOX:0_VisualRegion",
+            "asset": "",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": -5,
+            "bounds": {
+                "m_Center": {
+                    "x": 15.0,
+                    "y": 0.48500001430511477,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 2.05588436126709,
+                    "y": 1.4850000143051148,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Mailbox_Placeholder",
+            "sprite": "Square",
+            "asset": "Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": 0,
+            "bounds": {
+                "m_Center": {
+                    "x": 28.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.5,
+                    "y": 0.75,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Mailbox_Placeholder/NewspaperFragment01/Newspaper_Visual_New",
+            "sprite": "FILE_NEWSPAPER_FRAGMENT_01_render_VisualRegion",
+            "asset": "",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": 10,
+            "bounds": {
+                "m_Center": {
+                    "x": 28.0,
+                    "y": 0.11050000041723252,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.08082285523414612,
+                    "y": 0.11050000041723252,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Mailbox_Placeholder/Mailbox_Visual",
+            "sprite": "SPR_STREET_GATE_MAILBOX:2_VisualRegion",
+            "asset": "",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": -5,
+            "bounds": {
+                "m_Center": {
+                    "x": 28.0,
+                    "y": -0.1575000286102295,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.4254207909107208,
+                    "y": 0.8424999713897705,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/PoliceCar_Placeholder",
+            "sprite": "Square",
+            "asset": "Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": 0,
+            "bounds": {
+                "m_Center": {
+                    "x": 36.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 2.5,
+                    "y": 1.0,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/PoliceCar_Placeholder/PoliceCar_Visual",
+            "sprite": "SPR_POLICE_CAR_STATES:0_VisualRegion",
+            "asset": "",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": -2,
+            "bounds": {
+                "m_Center": {
+                    "x": 36.0,
+                    "y": -0.12049996852874756,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 2.4969305992126467,
+                    "y": 0.8795000314712524,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/GateKey_Placeholder",
+            "sprite": "Square",
+            "asset": "Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png",
+            "active": false,
+            "enabled": true,
+            "hidden": false,
+            "order": 0,
+            "bounds": {
+                "m_Center": {
+                    "x": 28.229999542236329,
+                    "y": 0.7300000190734863,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Backgrounds/NightSky_Fill",
+            "sprite": "Square",
+            "asset": "Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": -60,
+            "bounds": {
+                "m_Center": {
+                    "x": 8.0,
+                    "y": 3.0,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 43.0,
+                    "y": 10.0,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Backgrounds/Apartment_1",
+            "sprite": "PM_S01_BG_Apartment_A_v02",
+            "asset": "Assets/Art/旧/20260921/Backgrounds/Scene01/PM_S01_BG_Apartment_A_v02.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": -40,
+            "bounds": {
+                "m_Center": {
+                    "x": -28.027599334716798,
+                    "y": 6.708188056945801,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 6.193192481994629,
+                    "y": 7.7387309074401859,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Backgrounds/Apartment_2",
+            "sprite": "PM_S01_BG_Apartment_B_v02",
+            "asset": "Assets/Art/旧/20260921/Backgrounds/Scene01/PM_S01_BG_Apartment_B_v02.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": -41,
+            "bounds": {
+                "m_Center": {
+                    "x": -18.0202579498291,
+                    "y": 6.257274627685547,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 5.682320594787598,
+                    "y": 7.100368499755859,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Backgrounds/Apartment_3",
+            "sprite": "PM_S01_BG_Apartment_A_v02",
+            "asset": "Assets/Art/旧/20260921/Backgrounds/Scene01/PM_S01_BG_Apartment_A_v02.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": -40,
+            "bounds": {
+                "m_Center": {
+                    "x": -8.027599334716797,
+                    "y": 6.708188056945801,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 6.193192481994629,
+                    "y": 7.7387309074401859,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Backgrounds/Apartment_4",
+            "sprite": "PM_S01_BG_Apartment_B_v02",
+            "asset": "Assets/Art/旧/20260921/Backgrounds/Scene01/PM_S01_BG_Apartment_B_v02.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": -41,
+            "bounds": {
+                "m_Center": {
+                    "x": 1.9806629419326783,
+                    "y": 5.94558048248291,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 5.424033164978027,
+                    "y": 6.777624607086182,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Backgrounds/Apartment_5",
+            "sprite": "PM_S01_BG_Apartment_A_v02",
+            "asset": "Assets/Art/旧/20260921/Backgrounds/Scene01/PM_S01_BG_Apartment_A_v02.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": -40,
+            "bounds": {
+                "m_Center": {
+                    "x": 10.974700927734375,
+                    "y": 6.099172592163086,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 5.677093029022217,
+                    "y": 7.093836307525635,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Backgrounds/Apartment_6",
+            "sprite": "PM_S01_BG_Apartment_B_v02",
+            "asset": "Assets/Art/旧/20260921/Backgrounds/Scene01/PM_S01_BG_Apartment_B_v02.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": -41,
+            "bounds": {
+                "m_Center": {
+                    "x": 20.977901458740236,
+                    "y": 6.8806633949279789,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 6.198895454406738,
+                    "y": 7.745856761932373,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Backgrounds/Apartment_7",
+            "sprite": "PM_S01_BG_Apartment_A_v02",
+            "asset": "Assets/Art/旧/20260921/Backgrounds/Scene01/PM_S01_BG_Apartment_A_v02.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": -40,
+            "bounds": {
+                "m_Center": {
+                    "x": 30.975160598754884,
+                    "y": 5.9773688316345219,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 5.573873043060303,
+                    "y": 6.964857578277588,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Backgrounds/Apartment_8",
+            "sprite": "PM_S01_BG_Apartment_B_v02",
+            "asset": "Assets/Art/旧/20260921/Backgrounds/Scene01/PM_S01_BG_Apartment_B_v02.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": -41,
+            "bounds": {
+                "m_Center": {
+                    "x": 40.977901458740237,
+                    "y": 6.8806633949279789,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 6.198895454406738,
+                    "y": 7.745856761932373,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Backgrounds/WarmWindow_Visual",
+            "sprite": "PM_S01_Window_Warm_Sparse_A_v01",
+            "asset": "Assets/Art/旧/20260921/Backgrounds/Scene01/PM_S01_Window_Warm_Sparse_A_v01.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": -39,
+            "bounds": {
+                "m_Center": {
+                    "x": 1.8020492792129517,
+                    "y": 3.2418570518493654,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.7418595552444458,
+                    "y": 0.9825714230537415,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Backgrounds/Wires_1",
+            "sprite": "PM_S01_Wires_A_v02",
+            "asset": "Assets/Art/旧/20260921/Backgrounds/Scene01/PM_S01_Wires_A_v02.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": -12,
+            "bounds": {
+                "m_Center": {
+                    "x": -13.0,
+                    "y": 4.493441104888916,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 6.092566967010498,
+                    "y": 1.8065589666366578,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Backgrounds/Wires_2",
+            "sprite": "PM_S01_Wires_A_v02",
+            "asset": "Assets/Art/旧/20260921/Backgrounds/Scene01/PM_S01_Wires_A_v02.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": -12,
+            "bounds": {
+                "m_Center": {
+                    "x": 2.0,
+                    "y": 4.493441104888916,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 6.092566967010498,
+                    "y": 1.8065589666366578,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Backgrounds/Wires_3",
+            "sprite": "PM_S01_Wires_A_v02",
+            "asset": "Assets/Art/旧/20260921/Backgrounds/Scene01/PM_S01_Wires_A_v02.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": -12,
+            "bounds": {
+                "m_Center": {
+                    "x": 19.0,
+                    "y": 4.493441104888916,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 6.092566967010498,
+                    "y": 1.8065589666366578,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Backgrounds/Wires_4",
+            "sprite": "PM_S01_Wires_A_v02",
+            "asset": "Assets/Art/旧/20260921/Backgrounds/Scene01/PM_S01_Wires_A_v02.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": -12,
+            "bounds": {
+                "m_Center": {
+                    "x": 34.0,
+                    "y": 4.493441104888916,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 6.092566967010498,
+                    "y": 1.8065589666366578,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Backgrounds/Background_Atmosphere_Visual",
+            "sprite": "Square",
+            "asset": "Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": -35,
+            "bounds": {
+                "m_Center": {
+                    "x": 8.0,
+                    "y": 3.0,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 43.0,
+                    "y": 10.0,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Walls/Wall_1",
+            "sprite": "PM_S01_Wall_Old_A_v02",
+            "asset": "Assets/Art/旧/20260921/Backgrounds/Scene01/PM_S01_Wall_Old_A_v02.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": -30,
+            "bounds": {
+                "m_Center": {
+                    "x": -27.993104934692384,
+                    "y": 0.2423076629638672,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 3.5298752784729006,
+                    "y": 2.575147867202759,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Walls/Wall_2",
+            "sprite": "PM_S01_Wall_Old_B_v02",
+            "asset": "Assets/Art/旧/20260921/Backgrounds/Scene01/PM_S01_Wall_Old_B_v02.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": -30,
+            "bounds": {
+                "m_Center": {
+                    "x": -21.504304885864259,
+                    "y": 0.20911848545074464,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 3.305960178375244,
+                    "y": 1.9841945171356202,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Walls/Wall_3",
+            "sprite": "PM_S01_Wall_Old_A_v02",
+            "asset": "Assets/Art/旧/20260921/Backgrounds/Scene01/PM_S01_Wall_Old_A_v02.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": -30,
+            "bounds": {
+                "m_Center": {
+                    "x": -15.493597984313965,
+                    "y": 0.2423076629638672,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 3.2777414321899416,
+                    "y": 2.575147867202759,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Walls/Wall_4",
+            "sprite": "PM_S01_Wall_Old_B_v02",
+            "asset": "Assets/Art/旧/20260921/Backgrounds/Scene01/PM_S01_Wall_Old_B_v02.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": -30,
+            "bounds": {
+                "m_Center": {
+                    "x": -9.504304885864258,
+                    "y": 0.20911848545074464,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 3.305960178375244,
+                    "y": 1.9841945171356202,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Walls/Wall_5",
+            "sprite": "PM_S01_Wall_Old_A_v02",
+            "asset": "Assets/Art/旧/20260921/Backgrounds/Scene01/PM_S01_Wall_Old_A_v02.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": -30,
+            "bounds": {
+                "m_Center": {
+                    "x": -3.493598222732544,
+                    "y": 0.2423076629638672,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 3.2777414321899416,
+                    "y": 2.575147867202759,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Walls/Wall_6",
+            "sprite": "PM_S01_Wall_Old_B_v02",
+            "asset": "Assets/Art/旧/20260921/Backgrounds/Scene01/PM_S01_Wall_Old_B_v02.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": -30,
+            "bounds": {
+                "m_Center": {
+                    "x": 2.4956953525543215,
+                    "y": 0.20911848545074464,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 3.305960178375244,
+                    "y": 1.9841945171356202,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Walls/Wall_7",
+            "sprite": "PM_S01_Wall_Old_A_v02",
+            "asset": "Assets/Art/旧/20260921/Backgrounds/Scene01/PM_S01_Wall_Old_A_v02.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": -30,
+            "bounds": {
+                "m_Center": {
+                    "x": 8.906893730163575,
+                    "y": 0.2423076629638672,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 3.5298752784729006,
+                    "y": 2.575147867202759,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Walls/Wall_8",
+            "sprite": "PM_S01_Wall_Old_B_v02",
+            "asset": "Assets/Art/旧/20260921/Backgrounds/Scene01/PM_S01_Wall_Old_B_v02.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": -30,
+            "bounds": {
+                "m_Center": {
+                    "x": 20.29562759399414,
+                    "y": 0.20911848545074464,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 3.356821060180664,
+                    "y": 1.9841945171356202,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Walls/Wall_9",
+            "sprite": "PM_S01_Wall_Old_A_v02",
+            "asset": "Assets/Art/旧/20260921/Backgrounds/Scene01/PM_S01_Wall_Old_A_v02.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": -30,
+            "bounds": {
+                "m_Center": {
+                    "x": 26.406400680541993,
+                    "y": 0.2423076629638672,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 3.2777414321899416,
+                    "y": 2.575147867202759,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Walls/Wall_10",
+            "sprite": "PM_S01_Wall_Old_B_v02",
+            "asset": "Assets/Art/旧/20260921/Backgrounds/Scene01/PM_S01_Wall_Old_B_v02.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": -30,
+            "bounds": {
+                "m_Center": {
+                    "x": 32.495697021484378,
+                    "y": 0.20911848545074464,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 3.305960178375244,
+                    "y": 1.9841945171356202,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Walls/Wall_11",
+            "sprite": "PM_S01_Wall_Old_A_v02",
+            "asset": "Assets/Art/旧/20260921/Backgrounds/Scene01/PM_S01_Wall_Old_A_v02.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": -30,
+            "bounds": {
+                "m_Center": {
+                    "x": 38.50640106201172,
+                    "y": 0.2423076629638672,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 3.2777414321899416,
+                    "y": 2.575147867202759,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Walls/Wall_12",
+            "sprite": "PM_S01_Wall_Old_B_v02",
+            "asset": "Assets/Art/旧/20260921/Backgrounds/Scene01/PM_S01_Wall_Old_B_v02.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": -30,
+            "bounds": {
+                "m_Center": {
+                    "x": 44.495697021484378,
+                    "y": 0.20911848545074464,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 3.305960178375244,
+                    "y": 1.9841945171356202,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Road/StreetBase_Fill",
+            "sprite": "Square",
+            "asset": "Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png",
+            "active": true,
+            "enabled": false,
+            "hidden": true,
+            "order": -25,
+            "bounds": {
+                "m_Center": {
+                    "x": 8.0,
+                    "y": -4.5,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 43.0,
+                    "y": 3.5,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Road/WetRoad_1",
+            "sprite": "PM_S01_Ground_Wet_B_v02",
+            "asset": "Assets/Art/旧/20260921/Backgrounds/Scene01/PM_S01_Ground_Wet_B_v02.png",
+            "active": true,
+            "enabled": false,
+            "hidden": true,
+            "order": -20,
+            "bounds": {
+                "m_Center": {
+                    "x": -29.00650405883789,
+                    "y": -1.8255802392959595,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 3.624863624572754,
+                    "y": 2.347041606903076,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Road/WetRoad_2",
+            "sprite": "PM_S01_Ground_Wet_A_v02",
+            "asset": "Assets/Art/旧/20260921/Backgrounds/Scene01/PM_S01_Ground_Wet_A_v02.png",
+            "active": true,
+            "enabled": false,
+            "hidden": true,
+            "order": -20,
+            "bounds": {
+                "m_Center": {
+                    "x": -21.99782943725586,
+                    "y": -1.875433325767517,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 3.629265308380127,
+                    "y": 2.5038983821868898,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Road/WetRoad_3",
+            "sprite": "PM_S01_Ground_Wet_B_v02",
+            "asset": "Assets/Art/旧/20260921/Backgrounds/Scene01/PM_S01_Ground_Wet_B_v02.png",
+            "active": true,
+            "enabled": false,
+            "hidden": true,
+            "order": -20,
+            "bounds": {
+                "m_Center": {
+                    "x": -15.00650405883789,
+                    "y": -1.8255802392959595,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 3.624863624572754,
+                    "y": 2.347041606903076,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Road/WetRoad_4",
+            "sprite": "PM_S01_Ground_Wet_A_v02",
+            "asset": "Assets/Art/旧/20260921/Backgrounds/Scene01/PM_S01_Ground_Wet_A_v02.png",
+            "active": true,
+            "enabled": false,
+            "hidden": true,
+            "order": -20,
+            "bounds": {
+                "m_Center": {
+                    "x": -7.997829437255859,
+                    "y": -1.875433325767517,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 3.629265308380127,
+                    "y": 2.5038983821868898,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Road/WetRoad_5",
+            "sprite": "PM_S01_Ground_Wet_B_v02",
+            "asset": "Assets/Art/旧/20260921/Backgrounds/Scene01/PM_S01_Ground_Wet_B_v02.png",
+            "active": true,
+            "enabled": false,
+            "hidden": true,
+            "order": -20,
+            "bounds": {
+                "m_Center": {
+                    "x": -1.006503701210022,
+                    "y": -1.8255802392959595,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 3.624863624572754,
+                    "y": 2.347041606903076,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Road/WetRoad_6",
+            "sprite": "PM_S01_Ground_Wet_A_v02",
+            "asset": "Assets/Art/旧/20260921/Backgrounds/Scene01/PM_S01_Ground_Wet_A_v02.png",
+            "active": true,
+            "enabled": false,
+            "hidden": true,
+            "order": -20,
+            "bounds": {
+                "m_Center": {
+                    "x": 6.002170562744141,
+                    "y": -1.875433325767517,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 3.629265308380127,
+                    "y": 2.5038983821868898,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Road/WetRoad_7",
+            "sprite": "PM_S01_Ground_Wet_B_v02",
+            "asset": "Assets/Art/旧/20260921/Backgrounds/Scene01/PM_S01_Ground_Wet_B_v02.png",
+            "active": true,
+            "enabled": false,
+            "hidden": true,
+            "order": -20,
+            "bounds": {
+                "m_Center": {
+                    "x": 12.99349594116211,
+                    "y": -1.8255802392959595,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 3.624863624572754,
+                    "y": 2.347041606903076,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Road/WetRoad_8",
+            "sprite": "PM_S01_Ground_Wet_A_v02",
+            "asset": "Assets/Art/旧/20260921/Backgrounds/Scene01/PM_S01_Ground_Wet_A_v02.png",
+            "active": true,
+            "enabled": false,
+            "hidden": true,
+            "order": -20,
+            "bounds": {
+                "m_Center": {
+                    "x": 20.00217056274414,
+                    "y": -1.875433325767517,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 3.629265308380127,
+                    "y": 2.5038983821868898,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Road/WetRoad_9",
+            "sprite": "PM_S01_Ground_Wet_B_v02",
+            "asset": "Assets/Art/旧/20260921/Backgrounds/Scene01/PM_S01_Ground_Wet_B_v02.png",
+            "active": true,
+            "enabled": false,
+            "hidden": true,
+            "order": -20,
+            "bounds": {
+                "m_Center": {
+                    "x": 26.99349594116211,
+                    "y": -1.8255802392959595,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 3.624863624572754,
+                    "y": 2.347041606903076,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Road/WetRoad_10",
+            "sprite": "PM_S01_Ground_Wet_A_v02",
+            "asset": "Assets/Art/旧/20260921/Backgrounds/Scene01/PM_S01_Ground_Wet_A_v02.png",
+            "active": true,
+            "enabled": false,
+            "hidden": true,
+            "order": -20,
+            "bounds": {
+                "m_Center": {
+                    "x": 34.00217056274414,
+                    "y": -1.875433325767517,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 3.629265308380127,
+                    "y": 2.5038983821868898,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Road/WetRoad_11",
+            "sprite": "PM_S01_Ground_Wet_B_v02",
+            "asset": "Assets/Art/旧/20260921/Backgrounds/Scene01/PM_S01_Ground_Wet_B_v02.png",
+            "active": true,
+            "enabled": false,
+            "hidden": true,
+            "order": -20,
+            "bounds": {
+                "m_Center": {
+                    "x": 40.99349594116211,
+                    "y": -1.8255802392959595,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 3.624863624572754,
+                    "y": 2.347041606903076,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Road/WetRoad_12",
+            "sprite": "PM_S01_Ground_Wet_A_v02",
+            "asset": "Assets/Art/旧/20260921/Backgrounds/Scene01/PM_S01_Ground_Wet_A_v02.png",
+            "active": true,
+            "enabled": false,
+            "hidden": true,
+            "order": -20,
+            "bounds": {
+                "m_Center": {
+                    "x": 48.00217056274414,
+                    "y": -1.875433325767517,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 3.629265308380127,
+                    "y": 2.5038983821868898,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Props/GatePillar_Left_Visual",
+            "sprite": "PM_S01_GatePillar_Left_v01",
+            "asset": "Assets/Art/旧/20260921/Props/Scene01/Gate/PM_S01_GatePillar_Left_v01.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": -4,
+            "bounds": {
+                "m_Center": {
+                    "x": 13.147934913635254,
+                    "y": 1.0415682792663575,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.8332246541976929,
+                    "y": 2.0900514125823976,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Props/GatePillar_Right_Visual",
+            "sprite": "PM_S01_GatePillar_Right_v01",
+            "asset": "Assets/Art/旧/20260921/Props/Scene01/Gate/PM_S01_GatePillar_Right_v01.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": -4,
+            "bounds": {
+                "m_Center": {
+                    "x": 16.837724685668947,
+                    "y": 1.0406534671783448,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.811170220375061,
+                    "y": 2.0593464374542238,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Props/Lamp_Post_Visual",
+            "sprite": "PM_S01_Lamp_Post_A_v01",
+            "asset": "Assets/Art/旧/20260921/Props/Scene01/PM_S01_Lamp_Post_A_v01.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": -3,
+            "bounds": {
+                "m_Center": {
+                    "x": 10.057328224182129,
+                    "y": 1.4249999523162842,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.813016414642334,
+                    "y": 2.436216354370117,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Props/UtilityBox_Visual",
+            "sprite": "PM_S01_UtilityBox_Main_A_v01",
+            "asset": "Assets/Art/旧/20260921/Props/Scene01/PM_S01_UtilityBox_Main_A_v01.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": -3,
+            "bounds": {
+                "m_Center": {
+                    "x": 22.485599517822267,
+                    "y": -0.2956249713897705,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.5983999967575073,
+                    "y": 0.7667187452316284,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Props/TrashBin_Bags_Visual",
+            "sprite": "PM_S01_TrashBin_Bags_A_v01",
+            "asset": "Assets/Art/旧/20260921/Props/Scene01/PM_S01_TrashBin_Bags_A_v01.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": -3,
+            "bounds": {
+                "m_Center": {
+                    "x": -4.800000190734863,
+                    "y": -0.37263160943984988,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.5859574675559998,
+                    "y": 0.7378947138786316,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Props/Bicycle_Visual",
+            "sprite": "PM_S01_Bicycle_Old_A_v01",
+            "asset": "Assets/Art/旧/20260921/Props/Scene01/PM_S01_Bicycle_Old_A_v01.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": -3,
+            "bounds": {
+                "m_Center": {
+                    "x": 5.197553634643555,
+                    "y": -0.4227440357208252,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.8854675889015198,
+                    "y": 0.6654989123344421,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Foreground/Foliage_Edge_1",
+            "sprite": "PM_S01_FG_Foliage_A_v02",
+            "asset": "Assets/Art/旧/20260921/Props/Scene01/PM_S01_FG_Foliage_A_v02.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": 35,
+            "bounds": {
+                "m_Center": {
+                    "x": -8.0,
+                    "y": 6.525000095367432,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 2.75,
+                    "y": 1.5250000953674317,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Foreground/Foliage_Edge_2",
+            "sprite": "PM_S01_FG_Foliage_A_v02",
+            "asset": "Assets/Art/旧/20260921/Props/Scene01/PM_S01_FG_Foliage_A_v02.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": 35,
+            "bounds": {
+                "m_Center": {
+                    "x": 24.0,
+                    "y": 6.525000095367432,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 2.75,
+                    "y": 1.5250000953674317,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Weather/Rain_Reference_1",
+            "sprite": "PM_S01_Rain_Overlay_A_v02",
+            "asset": "Assets/Art/旧/20260921/Effects/Scene01/PM_S01_Rain_Overlay_A_v02.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": 50,
+            "bounds": {
+                "m_Center": {
+                    "x": -23.0,
+                    "y": 1.7000000476837159,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 9.0,
+                    "y": 5.5,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Weather/Rain_Reference_2",
+            "sprite": "PM_S01_Rain_Overlay_A_v02",
+            "asset": "Assets/Art/旧/20260921/Effects/Scene01/PM_S01_Rain_Overlay_A_v02.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": 50,
+            "bounds": {
+                "m_Center": {
+                    "x": -7.0,
+                    "y": 1.7000000476837159,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 9.0,
+                    "y": 5.5,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Weather/Rain_Reference_3",
+            "sprite": "PM_S01_Rain_Overlay_A_v02",
+            "asset": "Assets/Art/旧/20260921/Effects/Scene01/PM_S01_Rain_Overlay_A_v02.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": 50,
+            "bounds": {
+                "m_Center": {
+                    "x": 9.0,
+                    "y": 1.7000000476837159,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 9.0,
+                    "y": 5.5,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Weather/Rain_Reference_4",
+            "sprite": "PM_S01_Rain_Overlay_A_v02",
+            "asset": "Assets/Art/旧/20260921/Effects/Scene01/PM_S01_Rain_Overlay_A_v02.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": 50,
+            "bounds": {
+                "m_Center": {
+                    "x": 25.0,
+                    "y": 1.7000000476837159,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 9.0,
+                    "y": 5.5,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Weather/Rain_Reference_5",
+            "sprite": "PM_S01_Rain_Overlay_A_v02",
+            "asset": "Assets/Art/旧/20260921/Effects/Scene01/PM_S01_Rain_Overlay_A_v02.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": 50,
+            "bounds": {
+                "m_Center": {
+                    "x": 41.0,
+                    "y": 1.7000000476837159,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 9.0,
+                    "y": 5.5,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Weather/Lamp_Glow_Visual",
+            "sprite": "PM_S01_Lamp_Glow_A_v01",
+            "asset": "Assets/Art/旧/20260921/Effects/Scene01/PM_S01_Lamp_Glow_A_v01.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": 45,
+            "bounds": {
+                "m_Center": {
+                    "x": 10.268712997436524,
+                    "y": 1.2867724895477296,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 1.3687129020690919,
+                    "y": 2.539682388305664,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_Art/Weather/Ground_Reflection_Visual",
+            "sprite": "PM_S01_Ground_Reflection_A_v01",
+            "asset": "Assets/Art/旧/20260921/Effects/Scene01/PM_S01_Ground_Reflection_A_v01.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": -8,
+            "bounds": {
+                "m_Center": {
+                    "x": 10.664326667785645,
+                    "y": -1.5504587888717652,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 1.555873990058899,
+                    "y": 0.5396788716316223,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/Backgrounds/Apartments_0",
+            "sprite": "BG_STREET_FAR_NIGHT_VisualRegion",
+            "asset": "",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": -40,
+            "bounds": {
+                "m_Center": {
+                    "x": -28.0,
+                    "y": 5.139999866485596,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 10.024999618530274,
+                    "y": 5.639999866485596,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/Backgrounds/Apartments_1",
+            "sprite": "BG_STREET_FAR_NIGHT_VisualRegion",
+            "asset": "",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": -40,
+            "bounds": {
+                "m_Center": {
+                    "x": -8.0,
+                    "y": 5.139999866485596,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 10.024999618530274,
+                    "y": 5.639999866485596,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/Backgrounds/Apartments_2",
+            "sprite": "BG_STREET_FAR_NIGHT_VisualRegion",
+            "asset": "",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": -40,
+            "bounds": {
+                "m_Center": {
+                    "x": 12.0,
+                    "y": 5.139999866485596,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 10.024999618530274,
+                    "y": 5.639999866485596,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/Backgrounds/Apartments_3",
+            "sprite": "BG_STREET_FAR_NIGHT_VisualRegion",
+            "asset": "",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": -40,
+            "bounds": {
+                "m_Center": {
+                    "x": 32.0,
+                    "y": 5.139999866485596,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 10.024999618530274,
+                    "y": 5.639999866485596,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/Backgrounds/Apartments_4",
+            "sprite": "BG_STREET_FAR_NIGHT_VisualRegion",
+            "asset": "",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": -40,
+            "bounds": {
+                "m_Center": {
+                    "x": 52.0,
+                    "y": 5.139999866485596,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 10.024999618530274,
+                    "y": 5.639999866485596,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/Walls/Wall_0",
+            "sprite": "MOD_STREET_RESIDENTIAL_ADULT_RAIN_V02:1_VisualRegion",
+            "asset": "",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": -30,
+            "bounds": {
+                "m_Center": {
+                    "x": -35.772499084472659,
+                    "y": 0.5299999713897705,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 3.2365000247955324,
+                    "y": 1.2999999523162842,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/Walls/Wall_1",
+            "sprite": "MOD_STREET_RESIDENTIAL_ADULT_RAIN_V02:1_VisualRegion",
+            "asset": "",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": -30,
+            "bounds": {
+                "m_Center": {
+                    "x": -29.317501068115236,
+                    "y": 0.5299999713897705,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 3.2365000247955324,
+                    "y": 1.2999999523162842,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/Walls/Wall_2",
+            "sprite": "MOD_STREET_RESIDENTIAL_ADULT_RAIN_V02:1_VisualRegion",
+            "asset": "",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": -30,
+            "bounds": {
+                "m_Center": {
+                    "x": -22.862499237060548,
+                    "y": 0.5299999713897705,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 3.2365000247955324,
+                    "y": 1.2999999523162842,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/Walls/Wall_3",
+            "sprite": "MOD_STREET_RESIDENTIAL_ADULT_RAIN_V02:1_VisualRegion",
+            "asset": "",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": -30,
+            "bounds": {
+                "m_Center": {
+                    "x": -16.407501220703126,
+                    "y": 0.5299999713897705,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 3.2365000247955324,
+                    "y": 1.2999999523162842,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/Walls/Wall_4",
+            "sprite": "MOD_STREET_RESIDENTIAL_ADULT_RAIN_V02:1_VisualRegion",
+            "asset": "",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": -30,
+            "bounds": {
+                "m_Center": {
+                    "x": -9.952500343322754,
+                    "y": 0.5299999713897705,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 3.2365000247955324,
+                    "y": 1.2999999523162842,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/Walls/Wall_5",
+            "sprite": "MOD_STREET_RESIDENTIAL_ADULT_RAIN_V02:1_VisualRegion",
+            "asset": "",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": -30,
+            "bounds": {
+                "m_Center": {
+                    "x": -3.497500419616699,
+                    "y": 0.5299999713897705,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 3.2365000247955324,
+                    "y": 1.2999999523162842,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/Walls/Wall_6",
+            "sprite": "MOD_STREET_RESIDENTIAL_ADULT_RAIN_V02:1_VisualRegion",
+            "asset": "",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": -30,
+            "bounds": {
+                "m_Center": {
+                    "x": 2.9574995040893556,
+                    "y": 0.5299999713897705,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 3.2365000247955324,
+                    "y": 1.2999999523162842,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/Walls/Wall_7",
+            "sprite": "MOD_STREET_RESIDENTIAL_ADULT_RAIN_V02:1_VisualRegion",
+            "asset": "",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": -30,
+            "bounds": {
+                "m_Center": {
+                    "x": 9.41249942779541,
+                    "y": 0.5299999713897705,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 3.2365000247955324,
+                    "y": 1.2999999523162842,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/Walls/Wall_8",
+            "sprite": "MOD_STREET_RESIDENTIAL_ADULT_RAIN_V02:1_VisualRegion",
+            "asset": "",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": -30,
+            "bounds": {
+                "m_Center": {
+                    "x": 20.829999923706056,
+                    "y": 0.5299999713897705,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 3.4789998531341554,
+                    "y": 1.2999999523162842,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/Walls/Wall_9",
+            "sprite": "MOD_STREET_RESIDENTIAL_ADULT_RAIN_V02:1_VisualRegion",
+            "asset": "",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": -30,
+            "bounds": {
+                "m_Center": {
+                    "x": 27.770000457763673,
+                    "y": 0.5299999713897705,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 3.4789998531341554,
+                    "y": 1.2999999523162842,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/Walls/Wall_10",
+            "sprite": "MOD_STREET_RESIDENTIAL_ADULT_RAIN_V02:1_VisualRegion",
+            "asset": "",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": -30,
+            "bounds": {
+                "m_Center": {
+                    "x": 34.709999084472659,
+                    "y": 0.5299999713897705,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 3.4789998531341554,
+                    "y": 1.2999999523162842,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/Walls/Wall_11",
+            "sprite": "MOD_STREET_RESIDENTIAL_ADULT_RAIN_V02:1_VisualRegion",
+            "asset": "",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": -30,
+            "bounds": {
+                "m_Center": {
+                    "x": 41.650001525878909,
+                    "y": 0.5299999713897705,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 3.4789998531341554,
+                    "y": 1.2999999523162842,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/Walls/Wall_12",
+            "sprite": "MOD_STREET_RESIDENTIAL_ADULT_RAIN_V02:1_VisualRegion",
+            "asset": "",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": -30,
+            "bounds": {
+                "m_Center": {
+                    "x": 48.59000015258789,
+                    "y": 0.5299999713897705,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 3.4789998531341554,
+                    "y": 1.2999999523162842,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/Walls/Wall_13",
+            "sprite": "MOD_STREET_RESIDENTIAL_ADULT_RAIN_V02:1_VisualRegion",
+            "asset": "",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": -30,
+            "bounds": {
+                "m_Center": {
+                    "x": 55.53000259399414,
+                    "y": 0.5299999713897705,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 3.4789998531341554,
+                    "y": 1.2999999523162842,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/GroundVisuals/Road_0",
+            "sprite": "MOD_STREET_GROUND_STATES:2_VisualRegion",
+            "asset": "",
+            "active": true,
+            "enabled": true,
+            "hidden": true,
+            "order": -20,
+            "bounds": {
+                "m_Center": {
+                    "x": -35.0,
+                    "y": -2.950000047683716,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 4.010000228881836,
+                    "y": 2.299999952316284,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/GroundVisuals/Road_1",
+            "sprite": "MOD_STREET_GROUND_STATES:2_VisualRegion",
+            "asset": "",
+            "active": true,
+            "enabled": true,
+            "hidden": true,
+            "order": -20,
+            "bounds": {
+                "m_Center": {
+                    "x": -27.0,
+                    "y": -2.950000047683716,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 4.010000228881836,
+                    "y": 2.299999952316284,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/GroundVisuals/Road_2",
+            "sprite": "MOD_STREET_GROUND_STATES:2_VisualRegion",
+            "asset": "",
+            "active": true,
+            "enabled": true,
+            "hidden": true,
+            "order": -20,
+            "bounds": {
+                "m_Center": {
+                    "x": -19.0,
+                    "y": -2.950000047683716,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 4.010000228881836,
+                    "y": 2.299999952316284,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/GroundVisuals/Road_3",
+            "sprite": "MOD_STREET_GROUND_STATES:2_VisualRegion",
+            "asset": "",
+            "active": true,
+            "enabled": true,
+            "hidden": true,
+            "order": -20,
+            "bounds": {
+                "m_Center": {
+                    "x": -11.0,
+                    "y": -2.950000047683716,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 4.010000228881836,
+                    "y": 2.299999952316284,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/GroundVisuals/Road_4",
+            "sprite": "MOD_STREET_GROUND_STATES:2_VisualRegion",
+            "asset": "",
+            "active": true,
+            "enabled": true,
+            "hidden": true,
+            "order": -20,
+            "bounds": {
+                "m_Center": {
+                    "x": -3.0,
+                    "y": -2.950000047683716,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 4.010000228881836,
+                    "y": 2.299999952316284,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/GroundVisuals/Road_5",
+            "sprite": "MOD_STREET_GROUND_STATES:2_VisualRegion",
+            "asset": "",
+            "active": true,
+            "enabled": true,
+            "hidden": true,
+            "order": -20,
+            "bounds": {
+                "m_Center": {
+                    "x": 5.0,
+                    "y": -2.950000047683716,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 4.010000228881836,
+                    "y": 2.299999952316284,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/GroundVisuals/Road_6",
+            "sprite": "MOD_STREET_GROUND_STATES:2_VisualRegion",
+            "asset": "",
+            "active": true,
+            "enabled": true,
+            "hidden": true,
+            "order": -20,
+            "bounds": {
+                "m_Center": {
+                    "x": 13.0,
+                    "y": -2.950000047683716,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 4.010000228881836,
+                    "y": 2.299999952316284,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/GroundVisuals/Road_7",
+            "sprite": "MOD_STREET_GROUND_STATES:2_VisualRegion",
+            "asset": "",
+            "active": true,
+            "enabled": true,
+            "hidden": true,
+            "order": -20,
+            "bounds": {
+                "m_Center": {
+                    "x": 21.0,
+                    "y": -2.950000047683716,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 4.010000228881836,
+                    "y": 2.299999952316284,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/GroundVisuals/Road_8",
+            "sprite": "MOD_STREET_GROUND_STATES:2_VisualRegion",
+            "asset": "",
+            "active": true,
+            "enabled": true,
+            "hidden": true,
+            "order": -20,
+            "bounds": {
+                "m_Center": {
+                    "x": 29.0,
+                    "y": -2.950000047683716,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 4.010000228881836,
+                    "y": 2.299999952316284,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/GroundVisuals/Road_9",
+            "sprite": "MOD_STREET_GROUND_STATES:2_VisualRegion",
+            "asset": "",
+            "active": true,
+            "enabled": true,
+            "hidden": true,
+            "order": -20,
+            "bounds": {
+                "m_Center": {
+                    "x": 37.0,
+                    "y": -2.950000047683716,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 4.010000228881836,
+                    "y": 2.299999952316284,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/GroundVisuals/Road_10",
+            "sprite": "MOD_STREET_GROUND_STATES:2_VisualRegion",
+            "asset": "",
+            "active": true,
+            "enabled": true,
+            "hidden": true,
+            "order": -20,
+            "bounds": {
+                "m_Center": {
+                    "x": 45.0,
+                    "y": -2.950000047683716,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 4.010000228881836,
+                    "y": 2.299999952316284,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/GroundVisuals/Road_11",
+            "sprite": "MOD_STREET_GROUND_STATES:2_VisualRegion",
+            "asset": "",
+            "active": true,
+            "enabled": true,
+            "hidden": true,
+            "order": -20,
+            "bounds": {
+                "m_Center": {
+                    "x": 53.0,
+                    "y": -2.950000047683716,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 4.010000228881836,
+                    "y": 2.299999952316284,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/EnvironmentProps/Lamp_Gate",
+            "sprite": "SPR_STREET_LIFE_DRESSING:1_VisualRegion",
+            "asset": "",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": -8,
+            "bounds": {
+                "m_Center": {
+                    "x": 10.100000381469727,
+                    "y": 1.1800000667572022,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.604537844657898,
+                    "y": 2.180000066757202,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/EnvironmentProps/Lamp_Start",
+            "sprite": "SPR_STREET_LIFE_DRESSING:1_VisualRegion",
+            "asset": "",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": -8,
+            "bounds": {
+                "m_Center": {
+                    "x": -10.0,
+                    "y": 1.1800000667572022,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.604537844657898,
+                    "y": 2.180000066757202,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/EnvironmentProps/Lamp_Mailbox",
+            "sprite": "SPR_STREET_LIFE_DRESSING:1_VisualRegion",
+            "asset": "",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": -8,
+            "bounds": {
+                "m_Center": {
+                    "x": 26.0,
+                    "y": 1.1800000667572022,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.604537844657898,
+                    "y": 2.180000066757202,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/EnvironmentProps/UtilityBox",
+            "sprite": "SPR_STREET_LIFE_DRESSING:5_VisualRegion",
+            "asset": "",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": -7,
+            "bounds": {
+                "m_Center": {
+                    "x": 22.5,
+                    "y": -0.3250000476837158,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.8953264951705933,
+                    "y": 0.6749999523162842,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/EnvironmentProps/TrashBin",
+            "sprite": "SPR_STREET_LIFE_DRESSING:5_VisualRegion",
+            "asset": "",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": -6,
+            "bounds": {
+                "m_Center": {
+                    "x": -4.800000190734863,
+                    "y": -0.4150000214576721,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.7759495377540588,
+                    "y": 0.5849999785423279,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/EnvironmentProps/Bicycle",
+            "sprite": "P03_Bicycle",
+            "asset": "Assets/Resources/DemoArtCatalog.asset",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": -6,
+            "bounds": {
+                "m_Center": {
+                    "x": 5.199999809265137,
+                    "y": -0.5199999809265137,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.7504083514213562,
+                    "y": 0.47999998927116396,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/Foreground/Branch_0",
+            "sprite": "PM_S01_FG_Canopy_N02_VisualRegion",
+            "asset": "",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": 35,
+            "bounds": {
+                "m_Center": {
+                    "x": -14.0,
+                    "y": 6.575000286102295,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 1.7999999523162842,
+                    "y": 1.6750000715255738,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/Foreground/Branch_1",
+            "sprite": "PM_S01_FG_Canopy_N02_VisualRegion",
+            "asset": "",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": 35,
+            "bounds": {
+                "m_Center": {
+                    "x": 4.0,
+                    "y": 6.575000286102295,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 1.7999999523162842,
+                    "y": 1.6750000715255738,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/Foreground/Branch_2",
+            "sprite": "PM_S01_FG_Canopy_N02_VisualRegion",
+            "asset": "",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": 35,
+            "bounds": {
+                "m_Center": {
+                    "x": 22.0,
+                    "y": 6.575000286102295,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 1.7999999523162842,
+                    "y": 1.6750000715255738,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/Foreground/Branch_3",
+            "sprite": "PM_S01_FG_Canopy_N02_VisualRegion",
+            "asset": "",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": 35,
+            "bounds": {
+                "m_Center": {
+                    "x": 40.0,
+                    "y": 6.575000286102295,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 1.7999999523162842,
+                    "y": 1.6750000715255738,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/Demo2026_Pavement_-48",
+            "sprite": "MOD_STREET_PARALLEL_GROUND_V03:1",
+            "asset": "Assets/Resources/DemoArtCatalog.asset",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": -20,
+            "bounds": {
+                "m_Center": {
+                    "x": -44.0,
+                    "y": -1.5998786687850953,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 4.005000114440918,
+                    "y": 1.0001212358474732,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/Demo2026_Pavement_-40",
+            "sprite": "MOD_STREET_PARALLEL_GROUND_V03:1",
+            "asset": "Assets/Resources/DemoArtCatalog.asset",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": -20,
+            "bounds": {
+                "m_Center": {
+                    "x": -36.0,
+                    "y": -1.5998786687850953,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 4.005000114440918,
+                    "y": 1.0001212358474732,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/Demo2026_Pavement_-32",
+            "sprite": "MOD_STREET_PARALLEL_GROUND_V03:1",
+            "asset": "Assets/Resources/DemoArtCatalog.asset",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": -20,
+            "bounds": {
+                "m_Center": {
+                    "x": -28.0,
+                    "y": -1.5998786687850953,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 4.005000114440918,
+                    "y": 1.0001212358474732,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/Demo2026_Pavement_-24",
+            "sprite": "MOD_STREET_PARALLEL_GROUND_V03:1",
+            "asset": "Assets/Resources/DemoArtCatalog.asset",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": -20,
+            "bounds": {
+                "m_Center": {
+                    "x": -20.0,
+                    "y": -1.5998786687850953,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 4.005000114440918,
+                    "y": 1.0001212358474732,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/Demo2026_Pavement_-16",
+            "sprite": "MOD_STREET_PARALLEL_GROUND_V03:1",
+            "asset": "Assets/Resources/DemoArtCatalog.asset",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": -20,
+            "bounds": {
+                "m_Center": {
+                    "x": -12.0,
+                    "y": -1.5998786687850953,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 4.005000114440918,
+                    "y": 1.0001212358474732,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/Demo2026_Pavement_-8",
+            "sprite": "MOD_STREET_PARALLEL_GROUND_V03:1",
+            "asset": "Assets/Resources/DemoArtCatalog.asset",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": -20,
+            "bounds": {
+                "m_Center": {
+                    "x": -4.0,
+                    "y": -1.5998786687850953,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 4.005000114440918,
+                    "y": 1.0001212358474732,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/Demo2026_Pavement_0",
+            "sprite": "MOD_STREET_PARALLEL_GROUND_V03:1",
+            "asset": "Assets/Resources/DemoArtCatalog.asset",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": -20,
+            "bounds": {
+                "m_Center": {
+                    "x": 4.0,
+                    "y": -1.5998786687850953,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 4.005000114440918,
+                    "y": 1.0001212358474732,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/Demo2026_Pavement_8",
+            "sprite": "MOD_STREET_PARALLEL_GROUND_V03:1",
+            "asset": "Assets/Resources/DemoArtCatalog.asset",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": -20,
+            "bounds": {
+                "m_Center": {
+                    "x": 12.0,
+                    "y": -1.5998786687850953,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 4.005000114440918,
+                    "y": 1.0001212358474732,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/Demo2026_Pavement_16",
+            "sprite": "MOD_STREET_PARALLEL_GROUND_V03:1",
+            "asset": "Assets/Resources/DemoArtCatalog.asset",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": -20,
+            "bounds": {
+                "m_Center": {
+                    "x": 20.0,
+                    "y": -1.5998786687850953,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 4.005000114440918,
+                    "y": 1.0001212358474732,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/Demo2026_Pavement_24",
+            "sprite": "MOD_STREET_PARALLEL_GROUND_V03:1",
+            "asset": "Assets/Resources/DemoArtCatalog.asset",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": -20,
+            "bounds": {
+                "m_Center": {
+                    "x": 28.0,
+                    "y": -1.5998786687850953,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 4.005000114440918,
+                    "y": 1.0001212358474732,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/Demo2026_Pavement_32",
+            "sprite": "MOD_STREET_PARALLEL_GROUND_V03:1",
+            "asset": "Assets/Resources/DemoArtCatalog.asset",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": -20,
+            "bounds": {
+                "m_Center": {
+                    "x": 36.0,
+                    "y": -1.5998786687850953,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 4.005000114440918,
+                    "y": 1.0001212358474732,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/Demo2026_Pavement_40",
+            "sprite": "MOD_STREET_PARALLEL_GROUND_V03:1",
+            "asset": "Assets/Resources/DemoArtCatalog.asset",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": -20,
+            "bounds": {
+                "m_Center": {
+                    "x": 44.0,
+                    "y": -1.5998786687850953,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 4.005000114440918,
+                    "y": 1.0001212358474732,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/Demo2026_Pavement_48",
+            "sprite": "MOD_STREET_PARALLEL_GROUND_V03:1",
+            "asset": "Assets/Resources/DemoArtCatalog.asset",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": -20,
+            "bounds": {
+                "m_Center": {
+                    "x": 52.0,
+                    "y": -1.5998786687850953,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 4.005000114440918,
+                    "y": 1.0001212358474732,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/Demo2026_Pavement_56",
+            "sprite": "MOD_STREET_PARALLEL_GROUND_V03:1",
+            "asset": "Assets/Resources/DemoArtCatalog.asset",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": -20,
+            "bounds": {
+                "m_Center": {
+                    "x": 60.0,
+                    "y": -1.5998786687850953,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 4.005000114440918,
+                    "y": 1.0001212358474732,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/Demo2026_Residential_-30",
+            "sprite": "MOD_STREET_RESIDENTIAL_ADULT_RAIN_V02:0",
+            "asset": "Assets/Resources/DemoArtCatalog.asset",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": -35,
+            "bounds": {
+                "m_Center": {
+                    "x": -30.0,
+                    "y": 2.1000001430511476,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 3.710422992706299,
+                    "y": 2.9000000953674318,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/Demo2026_Residential_-10",
+            "sprite": "MOD_STREET_RESIDENTIAL_ADULT_RAIN_V02:0",
+            "asset": "Assets/Resources/DemoArtCatalog.asset",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": -35,
+            "bounds": {
+                "m_Center": {
+                    "x": -10.0,
+                    "y": 2.1000001430511476,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 3.710422992706299,
+                    "y": 2.9000000953674318,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/Demo2026_Residential_4",
+            "sprite": "MOD_STREET_RESIDENTIAL_ADULT_RAIN_V02:0",
+            "asset": "Assets/Resources/DemoArtCatalog.asset",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": -35,
+            "bounds": {
+                "m_Center": {
+                    "x": 4.0,
+                    "y": 2.1000001430511476,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 3.710422992706299,
+                    "y": 2.9000000953674318,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/Demo2026_Residential_30",
+            "sprite": "MOD_STREET_RESIDENTIAL_ADULT_RAIN_V02:0",
+            "asset": "Assets/Resources/DemoArtCatalog.asset",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": -35,
+            "bounds": {
+                "m_Center": {
+                    "x": 30.0,
+                    "y": 2.1000001430511476,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 3.710422992706299,
+                    "y": 2.9000000953674318,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Scene01_NewArt/Demo2026_Residential_47",
+            "sprite": "MOD_STREET_RESIDENTIAL_ADULT_RAIN_V02:0",
+            "asset": "Assets/Resources/DemoArtCatalog.asset",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": -35,
+            "bounds": {
+                "m_Center": {
+                    "x": 47.0,
+                    "y": 2.1000001430511476,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 3.710422992706299,
+                    "y": 2.9000000953674318,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Demo2026_GateWallJoins/GateAbutment_0",
+            "sprite": "MOD_STREET_RESIDENTIAL_ADULT_RAIN_V02:1_VisualRegion",
+            "asset": "",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": -31,
+            "bounds": {
+                "m_Center": {
+                    "x": 12.796557426452637,
+                    "y": 0.08816993236541748,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.3492625951766968,
+                    "y": 0.8581699132919312,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Environment/Demo2026_GateWallJoins/GateAbutment_1",
+            "sprite": "MOD_STREET_RESIDENTIAL_ADULT_RAIN_V02:1_VisualRegion",
+            "asset": "",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": -31,
+            "bounds": {
+                "m_Center": {
+                    "x": 17.203441619873048,
+                    "y": 0.08816993236541748,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.3754316568374634,
+                    "y": 0.8581699132919312,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Gameplay/IDHolder_Point",
+            "sprite": "Square",
+            "asset": "Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": 10,
+            "bounds": {
+                "m_Center": {
+                    "x": -15.0,
+                    "y": -0.699999988079071,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.32499998807907107,
+                    "y": 0.14000000059604646,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Gameplay/IDHolder_Point/IDHolder_Visual",
+            "sprite": "P03_CredentialCase",
+            "asset": "Assets/Resources/DemoArtCatalog.asset",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": 8,
+            "bounds": {
+                "m_Center": {
+                    "x": -15.0,
+                    "y": -0.9599999785423279,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.23266932368278504,
+                    "y": 0.07999999821186066,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Characters/QiuTian_Placeholder",
+            "sprite": "Square",
+            "asset": "Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png",
+            "active": true,
+            "enabled": false,
+            "hidden": false,
+            "order": 0,
+            "bounds": {
+                "m_Center": {
+                    "x": 12.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.4000000059604645,
+                    "y": 1.100000023841858,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Characters/QiuTian_Placeholder/QiuTian_Visual",
+            "sprite": "CHR_GUIDE_BASE_V02:0",
+            "asset": "Assets/Resources/DemoArtCatalog.asset",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": 0,
+            "bounds": {
+                "m_Center": {
+                    "x": 12.0,
+                    "y": -0.0899999737739563,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.3025515377521515,
+                    "y": 0.9100000262260437,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "PersistentRuntime/Player",
+            "sprite": "Square",
+            "asset": "Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": 0,
+            "bounds": {
+                "m_Center": {
+                    "x": -6.010000228881836,
+                    "y": -0.10000000149011612,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.4000000059604645,
+                    "y": 0.8999999761581421,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "PersistentRuntime/Player/AdultOveralls_Placeholder/BlueBib",
+            "sprite": "Square",
+            "asset": "Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png",
+            "active": false,
+            "enabled": true,
+            "hidden": false,
+            "order": 20,
+            "bounds": {
+                "m_Center": {
+                    "x": -6.010000228881836,
+                    "y": -0.18000000715255738,
+                    "z": -0.019999999552965165
+                },
+                "m_Extent": {
+                    "x": 0.2800000011920929,
+                    "y": 0.7649999856948853,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "PersistentRuntime/Player/AdultOveralls_Placeholder/Strap",
+            "sprite": "Square",
+            "asset": "Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png",
+            "active": false,
+            "enabled": true,
+            "hidden": false,
+            "order": 20,
+            "bounds": {
+                "m_Center": {
+                    "x": -6.230000019073486,
+                    "y": 0.3499999940395355,
+                    "z": -0.019999999552965165
+                },
+                "m_Extent": {
+                    "x": 0.04800000041723251,
+                    "y": 0.4950000047683716,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "PersistentRuntime/Player/AdultOveralls_Placeholder/Strap",
+            "sprite": "Square",
+            "asset": "Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png",
+            "active": false,
+            "enabled": true,
+            "hidden": false,
+            "order": 20,
+            "bounds": {
+                "m_Center": {
+                    "x": -5.7900004386901859,
+                    "y": 0.3499999940395355,
+                    "z": -0.019999999552965165
+                },
+                "m_Extent": {
+                    "x": 0.04800000041723251,
+                    "y": 0.4950000047683716,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "PersistentRuntime/AdultDefault_Visual",
+            "sprite": "CHR_XP_ADULT_DEFAULT_TURN3:1",
+            "asset": "Assets/Resources/DemoArtCatalog.asset",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": 0,
+            "bounds": {
+                "m_Center": {
+                    "x": -6.010000228881836,
+                    "y": -0.10000002384185791,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.24668674170970918,
+                    "y": 0.8999999761581421,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "EndingStreet/EndingVisitViews/ZhangChen",
+            "sprite": "Square",
+            "asset": "Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png",
+            "active": false,
+            "enabled": true,
+            "hidden": false,
+            "order": 25,
+            "bounds": {
+                "m_Center": {
+                    "x": 31.799999237060548,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.4000000059604645,
+                    "y": 0.8999999761581421,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "EndingStreet/EndingVisitViews/ZhangChen/Cap",
+            "sprite": "Square",
+            "asset": "Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png",
+            "active": false,
+            "enabled": false,
+            "hidden": false,
+            "order": 26,
+            "bounds": {
+                "m_Center": {
+                    "x": 31.799999237060548,
+                    "y": 0.8999999761581421,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.48000001907348635,
+                    "y": 0.10799999535083771,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "EndingStreet/EndingVisitViews/DriverDoor",
+            "sprite": "Square",
+            "asset": "Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png",
+            "active": false,
+            "enabled": false,
+            "hidden": false,
+            "order": 5,
+            "bounds": {
+                "m_Center": {
+                    "x": 37.20000076293945,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.03999999910593033,
+                    "y": 0.800000011920929,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "EndingStreet/EndingVisitViews/RearDoor",
+            "sprite": "Square",
+            "asset": "Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png",
+            "active": false,
+            "enabled": false,
+            "hidden": false,
+            "order": 5,
+            "bounds": {
+                "m_Center": {
+                    "x": 34.400001525878909,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.03999999910593033,
+                    "y": 0.800000011920929,
+                    "z": 0.10000000149011612
+                }
+            }
+        },
+        {
+            "path": "Demo2026_SparseForeground/LaterStreetBranch",
+            "sprite": "SPR_FOREGROUND_OCCLUDERS_V02:0",
+            "asset": "Assets/Resources/DemoArtCatalog.asset",
+            "active": true,
+            "enabled": true,
+            "hidden": false,
+            "order": 65,
+            "bounds": {
+                "m_Center": {
+                    "x": 18.5,
+                    "y": 3.125,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 1.041094422340393,
+                    "y": 0.7749999761581421,
+                    "z": 0.10000000149011612
+                }
+            }
+        }
+    ],
+    "geometry": [
+        "Main Camera | RoomPresentationFraming {\"MonoBehaviour\":{\"m_Enabled\":true,\"m_EditorHideFlags\":0,\"m_Name\":\"\",\"m_EditorClassIdentifier\":\"Assembly-CSharp::RoomPresentationFraming\",\"rooms\":[{\"area\":{\"serializedVersion\":\"2\",\"x\":-80.0,\"y\":-5.0,\"width\":160.0,\"height\":15.0},\"floorY\":-1.0,\"size\":3.0,\"correctRoomLimits\":false}],\"letterbox\":0.10000000149011612,\"centreAboveFloor\":1.649999976158142}}",
+        "Environment/Ground | BoxCollider2D active=True enabled=True trigger=False bounds=Center: (9.00, -1.50, 0.00), Extents: (31.00, 0.50, 0.00)",
+        "Environment/LeftBoundary | BoxCollider2D active=True enabled=True trigger=False bounds=Center: (-22.00, 2.00, 0.00), Extents: (0.50, 4.00, 0.00)",
+        "Environment/RightBoundary | BoxCollider2D active=True enabled=True trigger=False bounds=Center: (40.00, 2.00, 0.00), Extents: (0.50, 4.00, 0.00)"
+    ]
+}
