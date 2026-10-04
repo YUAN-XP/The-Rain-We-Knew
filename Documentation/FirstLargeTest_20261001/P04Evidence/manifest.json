@@ -1,0 +1,1502 @@
+{
+  "generated_at": "2026-10-04T14:53:47.215707+08:00",
+  "phase": "P04",
+  "baseline": "c64bbf3",
+  "user_audit": "pending",
+  "hash_algorithm": "SHA256",
+  "manifest_excludes_itself": true,
+  "evidence": [
+    {
+      "path": "before/before_chess_duplicate.jpg",
+      "bytes": 770096,
+      "sha256": "27290d6df50793e692f7df559864dcef4de73d65235ea5800b1fc0fa726f6d5c"
+    },
+    {
+      "path": "before/before_fisher_scale.jpg",
+      "bytes": 645623,
+      "sha256": "aca921752754913094488146d22149e9150ea46fd2856c984f0e72fbeca2c17f"
+    },
+    {
+      "path": "before/before_home_chair.jpg",
+      "bytes": 561313,
+      "sha256": "ca412573356294c3c0e29f5719cf88d1e708a5846864f566f0bfaab8d134c3cc"
+    },
+    {
+      "path": "checks/01_HomeInitial_renderers.txt",
+      "bytes": 8026,
+      "sha256": "56d20fc16fd119f341e29995b423b55b5d17ec28e13ed4e3885b879db5edc476"
+    },
+    {
+      "path": "checks/02_LivingSupport_renderers.txt",
+      "bytes": 7282,
+      "sha256": "70993eef331d3c3d60c4fff1fcb5481a23b354378d7476cb7a8feab4f1ce9361"
+    },
+    {
+      "path": "checks/03_StairBoundary_renderers.txt",
+      "bytes": 7836,
+      "sha256": "28924a8cbf24b664eff4bd221d4af4c6f6605e5a6a59f893bf0359cb32f3181e"
+    },
+    {
+      "path": "checks/03B_HomeReload_renderers.txt",
+      "bytes": 7836,
+      "sha256": "b549a68d8e8a022f6f382e80f6cf5b15da1c92e0288e657ed764bc4bc6a7bd5d"
+    },
+    {
+      "path": "checks/04_StreetGate_renderers.txt",
+      "bytes": 11442,
+      "sha256": "3985fe4f8ca22da44a7487e90779e074f54caf6b82abce6c961448798549bab0"
+    },
+    {
+      "path": "checks/05_DogDrinking_renderers.txt",
+      "bytes": 11442,
+      "sha256": "3736a0847a8c65ee9b82444a3df68ec445ca634720108310aebc2ecf9047a902"
+    },
+    {
+      "path": "checks/05_DogDrinking_Start_renderers.txt",
+      "bytes": 11442,
+      "sha256": "2f19a5175293d69a632377a2f9a387166446622459fd8ed52b6f645265182746"
+    },
+    {
+      "path": "checks/06_Storytelling_renderers.txt",
+      "bytes": 11452,
+      "sha256": "cc14bccfa0b503284c5aa8e408730665b7f4a1649e2f4f2611bfab1c2f109109"
+    },
+    {
+      "path": "checks/06_Storytelling_Start_renderers.txt",
+      "bytes": 11452,
+      "sha256": "2acd07398e4cc8d66f10948ff82575be1d681dd26593e39c4db215024f7c92f8"
+    },
+    {
+      "path": "checks/07_PuppetAct0_renderers.txt",
+      "bytes": 11452,
+      "sha256": "7918ba75aff9864151d125f417a1852a062fac87279b48f8b94b9d5279a7963f"
+    },
+    {
+      "path": "checks/07_PuppetAct1_renderers.txt",
+      "bytes": 11452,
+      "sha256": "22415b5e26376c3f2c78c434f65647badcb3a56d30ee61b30386e60fb72568c9"
+    },
+    {
+      "path": "checks/07_PuppetAct2_renderers.txt",
+      "bytes": 11452,
+      "sha256": "d0cb947233b81109e9ec74fa394e7b50fe163efa2e2e2f222d2323fafd433fdf"
+    },
+    {
+      "path": "checks/08_SeatedLiMei_renderers.txt",
+      "bytes": 11452,
+      "sha256": "5223aef86358bbccf7021e7300eb9020a331eabd756f55a20bc242277e8a28fa"
+    },
+    {
+      "path": "checks/09_ChessNeighbors_renderers.txt",
+      "bytes": 11442,
+      "sha256": "804ad171156316d35ad501d69fb2000cc4dc24088469439f687a921e36fc5838"
+    },
+    {
+      "path": "checks/09_ChessNeighbors_Start_renderers.txt",
+      "bytes": 11442,
+      "sha256": "4f6551259a7e5eedcc34ffb84cfe18c36c6e5167514b70e033faa927a00da668"
+    },
+    {
+      "path": "checks/10_SleepingCat_renderers.txt",
+      "bytes": 11442,
+      "sha256": "eaec40be4ac10a889062a2922748a1b1ae39a78a81118c3588009bb7fdfcc8eb"
+    },
+    {
+      "path": "checks/10_SleepingCat_Start_renderers.txt",
+      "bytes": 11442,
+      "sha256": "0e9a414b5c3e998dd194dd8f05d6279fb86983aa1435d5a13489c592fb38fe20"
+    },
+    {
+      "path": "checks/11_Fishing_renderers.txt",
+      "bytes": 11442,
+      "sha256": "2ea9888489014b16079c1336efbb4847ca46ea1f845f93350bfcfb74efca938a"
+    },
+    {
+      "path": "checks/11_Fishing_Start_renderers.txt",
+      "bytes": 11442,
+      "sha256": "c57487737b13409b437b400297f77b69cbec404a343eeec1b4367f34e7cee540"
+    },
+    {
+      "path": "checks/12_CatFed_renderers.txt",
+      "bytes": 11405,
+      "sha256": "6e96d50a40a5f70e9741222ff6f1e3679bf57affc7f1705b2547294047b9371a"
+    },
+    {
+      "path": "checks/13_SignAndPrizes_renderers.txt",
+      "bytes": 11405,
+      "sha256": "d0f7bb3f12affd957238c3cc683821d34853a6a9c179b771121637058da2d772"
+    },
+    {
+      "path": "checks/14_StreetSave_renderers.txt",
+      "bytes": 11405,
+      "sha256": "68c3ca313e26eab5fa9d9f4a36dea55a0cc7814b1fd800f9c2ed0cd7105f715a"
+    },
+    {
+      "path": "checks/14B_GateBeforeE_renderers.txt",
+      "bytes": 11415,
+      "sha256": "c3e519e55f71c37b1c4dfbf2c604a9df1c3c590ed331b48618d982f461f530c6"
+    },
+    {
+      "path": "checks/15_MazePreview_renderers.txt",
+      "bytes": 85227,
+      "sha256": "3c997e89e92b13acf089218abb55d76a429fe147e480204240e91ca25fa226e4"
+    },
+    {
+      "path": "checks/15A_Direction_down_left_renderers.txt",
+      "bytes": 85099,
+      "sha256": "8f066b76ad08ab960c178f9e3a062bf3acb5bda9d8f812ba8e7671b98b000510"
+    },
+    {
+      "path": "checks/15A_Direction_down_renderers.txt",
+      "bytes": 84956,
+      "sha256": "feb34c11d22bf9813351b772aadab9d55688c43cafb0725ade323f5266d897c5"
+    },
+    {
+      "path": "checks/15A_Direction_down_right_renderers.txt",
+      "bytes": 85100,
+      "sha256": "895afa4694429defb4ff11d0a940c77d39fcbb06d6d165711ed01845b2db3acf"
+    },
+    {
+      "path": "checks/15A_Direction_left_renderers.txt",
+      "bytes": 84956,
+      "sha256": "176478bc9fe83c3fa0c488161fed03f745d5771cb9e839c69af85cbca15c4f73"
+    },
+    {
+      "path": "checks/15A_Direction_right_renderers.txt",
+      "bytes": 84956,
+      "sha256": "625bf1c3302d5d4ee042081df7143411bfae5c637ece69bbb2b88ff1cdc26401"
+    },
+    {
+      "path": "checks/15A_Direction_up_left_renderers.txt",
+      "bytes": 85097,
+      "sha256": "115f731a56fab8aeba2b9f3e21c7838615b5e2b735578d8a79b5cbfe7d376862"
+    },
+    {
+      "path": "checks/15A_Direction_up_renderers.txt",
+      "bytes": 84956,
+      "sha256": "8259a45d00d91b9739785463d6df7b5fe7feead39e642bbb8fa09ffbc0fed20e"
+    },
+    {
+      "path": "checks/15A_Direction_up_right_renderers.txt",
+      "bytes": 85098,
+      "sha256": "282e5a021914e9f546a79ca4e3399a0e88d7cf92f63cfbbe3c79dbbe9626ca32"
+    },
+    {
+      "path": "checks/16_RiverArrival_renderers.txt",
+      "bytes": 4620,
+      "sha256": "e0c7c06f83a439c3223828be853cca0effdab2870f3f3f6f9711425beb603d4c"
+    },
+    {
+      "path": "checks/16B_RiverTreeBoundary_renderers.txt",
+      "bytes": 4620,
+      "sha256": "f5fe5a310902504d268b6fbd3b02238d244b11745dd33d726d41194cc8f144cc"
+    },
+    {
+      "path": "checks/17_RiverBeforeSong_renderers.txt",
+      "bytes": 4620,
+      "sha256": "b8627cbce5c5ca90c2433f244aa2359c6aabecbb1231efabcea3327b59643e0c"
+    },
+    {
+      "path": "checks/18_GuitarStart_renderers.txt",
+      "bytes": 2035,
+      "sha256": "5cf718ca89754626421811a1e9d141220eddc2e0192b50150b10da1429bedabb"
+    },
+    {
+      "path": "checks/18B_GuitarPlaying_renderers.txt",
+      "bytes": 2035,
+      "sha256": "51fa812009a70e3a0f9f7066b574915bb4ff33856d8dee114249688d734f6a69"
+    },
+    {
+      "path": "checks/19_RiverWide_renderers.txt",
+      "bytes": 2035,
+      "sha256": "e3b1a98bd909d8f58b9e576d372fe974c302aaf98f5ec2c358cc3fee63f416c5"
+    },
+    {
+      "path": "checks/20_ZhaoStays_renderers.txt",
+      "bytes": 4777,
+      "sha256": "86ebc8b65f526de0347351876ba46ccd2d86d0c1ba5a1f1379bc6999577754db"
+    },
+    {
+      "path": "checks/21_FreeRiverRestore_renderers.txt",
+      "bytes": 4790,
+      "sha256": "56a5b0879ece88dddf91bab3188a924cb3a5d555de304a7da2608f3da70a426d"
+    },
+    {
+      "path": "checks/22_FreeStreetReturn_renderers.txt",
+      "bytes": 13091,
+      "sha256": "1c35e09d84a4f40ef49d91c7e869c64e4fb90f9420c03edb3b3faeda99e5348d"
+    },
+    {
+      "path": "checks/23_FreeStreetRestore_renderers.txt",
+      "bytes": 13091,
+      "sha256": "1a38820f29fa27dd59a7badd15fcee6dd9e7d972e5b41aedc29eb2df5984743c"
+    },
+    {
+      "path": "checks/24_OptionalStreetCollection_renderers.txt",
+      "bytes": 13080,
+      "sha256": "691c1b4788a54bba90291fa5849629ee08e5d8c8442aed222a1255a16f4ba760"
+    },
+    {
+      "path": "checks/25_EveningHome_renderers.txt",
+      "bytes": 9747,
+      "sha256": "b726e7594037392e356f9a48acf6901047c271453678e8a9c4132a275af47d21"
+    },
+    {
+      "path": "checks/26_TripodPlacement_renderers.txt",
+      "bytes": 9003,
+      "sha256": "80ac437612b0a1cd130e63c4c6c0a46b7aaa8a15325cf0268cdceab28cd8be5b"
+    },
+    {
+      "path": "checks/27_FamilyViewfinder_renderers.txt",
+      "bytes": 6234,
+      "sha256": "4a904a45b3a9b88a577823faef75c8118c3b9aa7fb08500f9e6907b7fb9ed9b9"
+    },
+    {
+      "path": "checks/27B_DevelopedFamilyPhoto_renderers.txt",
+      "bytes": 6234,
+      "sha256": "38bcf5100de40f2cfa4b5f7d7abd526c379be49ec1fa062d65f3c599f3df81f2"
+    },
+    {
+      "path": "checks/28_ReturnLivingFirst_renderers.txt",
+      "bytes": 10108,
+      "sha256": "8fc4b28187bbd97c4c9a50b49e496e2cdfe338c0c92a8ecdbdfadb7e5720e5cd"
+    },
+    {
+      "path": "checks/29_ReturnLivingReload_renderers.txt",
+      "bytes": 10108,
+      "sha256": "dad9c69cc3cec1a11a6150c253435591e5957e1b893dba8c6175be645c45f9e9"
+    },
+    {
+      "path": "checks/30_ReturnHall_renderers.txt",
+      "bytes": 10393,
+      "sha256": "d9d4301c90108426e4eabced6787ce84c3a377adb0c535d4761314f630ac95fd"
+    },
+    {
+      "path": "checks/31_ReturnLivingReentry_renderers.txt",
+      "bytes": 10108,
+      "sha256": "35cb9ce159734877033821885db6d9867a29e5de479c507604ae951a36107eac"
+    },
+    {
+      "path": "checks/32_ReturnReentryReload_renderers.txt",
+      "bytes": 10108,
+      "sha256": "1ecba84c0803fae24ecfab1570be6506cb912409bf147b62539a1b02b084a648"
+    },
+    {
+      "path": "checks/build-messages.txt",
+      "bytes": 156239,
+      "sha256": "f900c8c4f28d22728184148ba8f219b4d321d9522d77304896a78ad6554f92bd"
+    },
+    {
+      "path": "checks/build-result.txt",
+      "bytes": 101,
+      "sha256": "ebe432301469e4d0e035793a70aeb01cfa4cf568e31de13489af8e5f4b9c1fbf"
+    },
+    {
+      "path": "checks/build-scenes.txt",
+      "bytes": 184,
+      "sha256": "96994f2aef66b723bb6f327e3ea0803416ad1f11802928a8158bcadedae7d2cc"
+    },
+    {
+      "path": "checks/capture_state.txt",
+      "bytes": 8812,
+      "sha256": "b70ba51eb05030937354abc6cfd9d1265916b2f64d24544aadc0d45572697eef"
+    },
+    {
+      "path": "checks/catalog_mapping_check.json",
+      "bytes": 1767,
+      "sha256": "5e5c95df231fa2675369da05bcbfa75b0746e6d38e2e9a822d567d6654eba325"
+    },
+    {
+      "path": "checks/evidence_version_notes.json",
+      "bytes": 462,
+      "sha256": "2828d9cf674225dc6fb2a32d754a3f33f0f79ce057579b31098be38bc56f96e5"
+    },
+    {
+      "path": "checks/final_edit_audit.txt",
+      "bytes": 1089,
+      "sha256": "0c02e395d6fc255e392f59c84950ac1ba5c31cad7866c03e654f97f5ec271eea"
+    },
+    {
+      "path": "checks/final_handoff_validation.json",
+      "bytes": 1534,
+      "sha256": "7f1d05f89127823b3742e23a61c92e3895864fbb823d260f563c3a73fb427580"
+    },
+    {
+      "path": "checks/gate_probe.txt",
+      "bytes": 619,
+      "sha256": "fa6eca8f28e8c39a8d7d02b32d6898fcd5028c1dd5205025903340fff58d9f18"
+    },
+    {
+      "path": "checks/home_final_results.txt",
+      "bytes": 1106,
+      "sha256": "bd00ffc2bd260ffdd4fa05fdadd5ef2c88ab389bd06c4e0e3645bb17a77c1443"
+    },
+    {
+      "path": "checks/home_final_status.txt",
+      "bytes": 25,
+      "sha256": "86203cb5b5229de45c0a5412d05c0566d0e1508b5dd367b0cd7c230bac0225af"
+    },
+    {
+      "path": "checks/ledger_update_check.json",
+      "bytes": 437,
+      "sha256": "ff195276443e18f1508b19b99096226b216fcd1c72094beb736985ce3c7235a3"
+    },
+    {
+      "path": "checks/media_playback_review.json",
+      "bytes": 634,
+      "sha256": "848331ec84b111ef98118579ba943b9847b75f7736f68de371b768cd0fc6adeb"
+    },
+    {
+      "path": "checks/obsolete_capture_cleanup_result.json",
+      "bytes": 4931,
+      "sha256": "5776c4b1aac26c043e2dacfd61bd2d9ff281fcf62b66cb01c5671be32cdbc872"
+    },
+    {
+      "path": "checks/P02_protected_source_check.json",
+      "bytes": 59816,
+      "sha256": "895fce58d830c3a97e224aebeae3a0582fba69fa4ead73de7a4caa14fcc4c0a8"
+    },
+    {
+      "path": "checks/protected_baseline_check.json",
+      "bytes": 2305,
+      "sha256": "d615956b3c170beb9b2eb15ef1c708cfcbdc614d51bdcefe4e7f329e9b726352"
+    },
+    {
+      "path": "checks/protected_hash_check.json",
+      "bytes": 923,
+      "sha256": "b9bc4c74d3468f2df7f563046d77ca214b45be953f7e966aaabdc5d5e6448597"
+    },
+    {
+      "path": "checks/results.txt",
+      "bytes": 10522,
+      "sha256": "b54b57d2c15986d9fba71383e2895a9bb3e5824733b98481556a502dcd1ac782"
+    },
+    {
+      "path": "checks/rhythm_judgments.csv",
+      "bytes": 928,
+      "sha256": "288e095df10342caa2efd0de9551a9f74cdcf3e0d51875d0da79d9ff615199b4"
+    },
+    {
+      "path": "checks/rhythm_timing.csv",
+      "bytes": 567,
+      "sha256": "b5cb847709b71fd94e53d64e7e136228b28cafb249f23f6314eb35a17d285f91"
+    },
+    {
+      "path": "checks/runtime_failure_repair_20261004.txt",
+      "bytes": 1724,
+      "sha256": "f7a2a8f6939436f03d1e48fa6d35d88ef87fccef79d4a7ca95c286562f976e29"
+    },
+    {
+      "path": "checks/status.txt",
+      "bytes": 26,
+      "sha256": "5af22b5448eff33095d47f502a006dbb8a6b0cd85318ea4323d17d566c981fa3"
+    },
+    {
+      "path": "checks/story_flags_check.json",
+      "bytes": 179,
+      "sha256": "a501d8c81edc8fea02b31cd76f415ee67376920126c50e8437c426843fd94ee1"
+    },
+    {
+      "path": "checks/street_contact_1.jpg",
+      "bytes": 415592,
+      "sha256": "7449088b69955686a4d81414663a573a8a1e26d8145d2957dd5bab7d9fcc402b"
+    },
+    {
+      "path": "checks/street_contact_2.jpg",
+      "bytes": 393091,
+      "sha256": "5439ead1bc88ba98c5ea729fb3dfd6abec6282bd020e0afabd1087114c9593d9"
+    },
+    {
+      "path": "checks/StreetSweep_00_renderers.txt",
+      "bytes": 11415,
+      "sha256": "789b69ce098186261692d3c485c2f22e01a377cdc4f7033ee592f5943809e557"
+    },
+    {
+      "path": "checks/StreetSweep_01_renderers.txt",
+      "bytes": 11415,
+      "sha256": "a6faef47a9fbc2aa98b88ebb34cc9ebbfb88acb72c03a996745680670487680d"
+    },
+    {
+      "path": "checks/StreetSweep_02_renderers.txt",
+      "bytes": 11405,
+      "sha256": "5300f9dc7c7d2f55fe108b53fa1d65873f28415b185db01957c6dfcb2be210f5"
+    },
+    {
+      "path": "checks/StreetSweep_03_renderers.txt",
+      "bytes": 11395,
+      "sha256": "1c8ed2e26fc272df979088ce0b7c8e33986867ecb9767114e8a89a1758571b65"
+    },
+    {
+      "path": "checks/StreetSweep_04_renderers.txt",
+      "bytes": 11405,
+      "sha256": "dd5ef86410b2273f0f5097fe160186ef7c0f4f0208e4f9684ab8b125afa926df"
+    },
+    {
+      "path": "checks/StreetSweep_05_renderers.txt",
+      "bytes": 11405,
+      "sha256": "c5ab5eddf32c885e21bde1fe3a8167b2a2b2a3ae9de18ebfd284b64c5d6539be"
+    },
+    {
+      "path": "checks/StreetSweep_06_renderers.txt",
+      "bytes": 11405,
+      "sha256": "b603e8a62235ec1c944978323e926bd66fe55913b104d53978b702cfd5c96c3d"
+    },
+    {
+      "path": "checks/StreetSweep_07_renderers.txt",
+      "bytes": 11405,
+      "sha256": "8438518207f2ead58dff545195dce0c10379cc04c7d70ea32c3d2f0591368a56"
+    },
+    {
+      "path": "checks/StreetSweep_08_renderers.txt",
+      "bytes": 11405,
+      "sha256": "35f06e84ca09765bd93599e523839eae2b875584bbd01d898222f803646d6c54"
+    },
+    {
+      "path": "checks/StreetSweep_09_renderers.txt",
+      "bytes": 11405,
+      "sha256": "d795351d687cff76e67d3820184a97301dff64aab717d5ac71c129cb23cc373b"
+    },
+    {
+      "path": "checks/StreetSweep_10_renderers.txt",
+      "bytes": 11405,
+      "sha256": "703e9d182807e096ef0065ad1bf75c9d0ea9960cea747319fe45944215287ce7"
+    },
+    {
+      "path": "checks/StreetSweep_11_renderers.txt",
+      "bytes": 11405,
+      "sha256": "cd9008097fc6298c121816129f7bfb026c642bfab693658ef7fab0d36bd350a7"
+    },
+    {
+      "path": "checks/StreetSweep_12_renderers.txt",
+      "bytes": 11405,
+      "sha256": "76507e0680fec1db271c329d68d4bc23eb3ea8bcf1d55c297db720ca4032e244"
+    },
+    {
+      "path": "checks/StreetSweep_13_renderers.txt",
+      "bytes": 11405,
+      "sha256": "a558276dbe23c166277b2e453638546493ee1b05ad4310d7cc247fc57f02a5d4"
+    },
+    {
+      "path": "checks/StreetSweep_14_renderers.txt",
+      "bytes": 11405,
+      "sha256": "ea2d958fd019f7bc28c4d6584249fbe71623d24d1d4bd2cafea0e9ed89a74d79"
+    },
+    {
+      "path": "checks/StreetSweep_15_renderers.txt",
+      "bytes": 11405,
+      "sha256": "5f16783de19f4a4cfd3029da359eaf4874c8bbb5db62ea61d30d48dc76d11b53"
+    },
+    {
+      "path": "checks/StreetSweep_16_renderers.txt",
+      "bytes": 11415,
+      "sha256": "81e605f6a69821c5b9ba666b3b8c1f47784a669e5dd859a3d3fa6f5ec510da42"
+    },
+    {
+      "path": "checks/StreetSweep_17_renderers.txt",
+      "bytes": 11415,
+      "sha256": "f8b55eb735982f0feeafd760cf37a8a30e72b499fa317c03dd43af3b0567a193"
+    },
+    {
+      "path": "commit_scope.json",
+      "bytes": 23975,
+      "sha256": "18851829235fd0cd808e388ea782e8bff60edfae62b466d8da905f988ea1f15e"
+    },
+    {
+      "path": "native/01_HomeInitial.png",
+      "bytes": 3294796,
+      "sha256": "5cbc1dcaeb01b62407b9df39354f6375a02498b666ff061d7303efdb12b6fb9a"
+    },
+    {
+      "path": "native/02_LivingSupport.png",
+      "bytes": 3502128,
+      "sha256": "f2e7695ba9b7d9714953a5bad508daf5c5c1d9589f420d0f0345d6957f849e18"
+    },
+    {
+      "path": "native/11_Fishing_Start.png",
+      "bytes": 3185524,
+      "sha256": "2507e5a504e5bf612e318a75542ad9debc1e3b2d0463f32dd5130d6f34b2a46b"
+    },
+    {
+      "path": "native/27_FamilyViewfinder.png",
+      "bytes": 2595165,
+      "sha256": "f3901eb35807cccb46d457f3ed8256e2f7a236e37eec145d294816b861f810bc"
+    },
+    {
+      "path": "native/27B_DevelopedFamilyPhoto.png",
+      "bytes": 2579104,
+      "sha256": "b1f23c903fa79a078aa7e1634abd4313b29802c89b798bff96678c0a1354025c"
+    },
+    {
+      "path": "native/31_ReturnLivingReentry.png",
+      "bytes": 3535394,
+      "sha256": "b9bc505d1f2f3de2d79409ff2bfcc1291aa0810a240f41f4ef31a04976e1c629"
+    },
+    {
+      "path": "native/StreetSweep_09.png",
+      "bytes": 3268789,
+      "sha256": "d6d6287c952d8344251251723b8aa15c9b80acef0393a664d4b8ef4bf99054f2"
+    },
+    {
+      "path": "native/StreetSweep_10.png",
+      "bytes": 3221891,
+      "sha256": "78c06feb24d8de58c5a5a1779e282a90b8513afdc45b9d0d9441e9b4b6173b6c"
+    },
+    {
+      "path": "native/StreetSweep_13.png",
+      "bytes": 3110459,
+      "sha256": "85988dd24f5d50e2a5b608ff331a06758f9bb0c247353374b232d7dffde4831a"
+    },
+    {
+      "path": "P04_overview.jpg",
+      "bytes": 428055,
+      "sha256": "6cf0d75766f855ca01cd0a3964f05cab41d5b6121d86d54ce85a6ab07c88f3f7"
+    },
+    {
+      "path": "review.html",
+      "bytes": 11614,
+      "sha256": "9aa67c51c793b5cca611acfdc66e0330a13ab1536e67c22d75cebeb43cf1ef6a"
+    },
+    {
+      "path": "runtime/01_HomeInitial.jpg",
+      "bytes": 559780,
+      "sha256": "48b0828af63f36e2c0aa2e14fafe3bfd6ff339cd7f14647c49b36b61864618fd"
+    },
+    {
+      "path": "runtime/02_LivingSupport.jpg",
+      "bytes": 654667,
+      "sha256": "b31a24469c243ccf39deb0c7f97b91089b9868bba17ca05f2defa678688b3fec"
+    },
+    {
+      "path": "runtime/03_StairBoundary.jpg",
+      "bytes": 484718,
+      "sha256": "6db7477e54010d8d82253824f2ba34b726770a0705b622597e608c1c0c190103"
+    },
+    {
+      "path": "runtime/03B_HomeReload.jpg",
+      "bytes": 484700,
+      "sha256": "1fb2fa04c59a612c71adb18b961a9fefc9c328fd7e59a73763d22207c0a0ab13"
+    },
+    {
+      "path": "runtime/04_StreetGate.jpg",
+      "bytes": 618034,
+      "sha256": "8c884ed6911598e339bfae0db04ede4734adba77eaf0d70c1545f54a277b2b98"
+    },
+    {
+      "path": "runtime/05_DogDrinking.jpg",
+      "bytes": 672534,
+      "sha256": "ae3024818a58aa531254a7e246ac673c0a129f064fb9a20c935b764c0c9a257a"
+    },
+    {
+      "path": "runtime/05_DogDrinking.mp4",
+      "bytes": 3876137,
+      "sha256": "ca1e967c9a6a916abc34af50542013912b7f853856a631a172797c72eb0dd77e"
+    },
+    {
+      "path": "runtime/05_DogDrinking.mp4.txt",
+      "bytes": 114,
+      "sha256": "5b758f4fe2cfefac49b0bbe23a3d8641368e12c3cb67fb3f2b1659e43be4d6f3"
+    },
+    {
+      "path": "runtime/05_DogDrinking_Start.jpg",
+      "bytes": 672335,
+      "sha256": "bca0e6c424a0640d105aaadaef7b07f8ecee6210bfde2fb689c027453b7b33c2"
+    },
+    {
+      "path": "runtime/06_Storytelling.jpg",
+      "bytes": 664816,
+      "sha256": "e809f6d26f9702a0f90642a3bfd16eac5b6509bd6b0ee5107968a7b425aa8c97"
+    },
+    {
+      "path": "runtime/06_Storytelling.mp4",
+      "bytes": 7956045,
+      "sha256": "6981350c42d8c68d225532985d9908782f2f3eaa183e805ceba975a1703c4352"
+    },
+    {
+      "path": "runtime/06_Storytelling.mp4.txt",
+      "bytes": 115,
+      "sha256": "318e1477fbeeec643deb3bc5ed65f8ae3a8a004fff62fc586c3386a3bdb6dc67"
+    },
+    {
+      "path": "runtime/06_Storytelling_Start.jpg",
+      "bytes": 664911,
+      "sha256": "029dcf29536f64f044399c705f2c274d1b182da90109d2e671a2d0ed27605158"
+    },
+    {
+      "path": "runtime/07_PuppetAct0.jpg",
+      "bytes": 610595,
+      "sha256": "7f4c891a5bacf603f18d5f4356854f980e2b1e64e8baaae89827f9c2dc25965b"
+    },
+    {
+      "path": "runtime/07_PuppetAct1.jpg",
+      "bytes": 640629,
+      "sha256": "85bafec8877718c4db487597e1fa97de87af8a709e49a5b98ca1bf445b17e798"
+    },
+    {
+      "path": "runtime/07_PuppetAct2.jpg",
+      "bytes": 640730,
+      "sha256": "fca0de8269bbc69c8e49d1313b9450d19273f65827b853852f08a1e061ac9450"
+    },
+    {
+      "path": "runtime/08_SeatedLiMei.jpg",
+      "bytes": 662691,
+      "sha256": "35bbcf8c47ba888ee1b6d09e0650d44c0a6365cf6476a4479d8436d73e2f99c6"
+    },
+    {
+      "path": "runtime/09_ChessNeighbors.jpg",
+      "bytes": 746526,
+      "sha256": "432e0e3b0b8e299fdb6bbd5866ad0f47d692374c3653d5ec94deee3a5243c50d"
+    },
+    {
+      "path": "runtime/09_ChessNeighbors.mp4",
+      "bytes": 12032102,
+      "sha256": "8c117a079a990495e423a79c1cb472230c7989ed8c21db3cad0358771c68bb04"
+    },
+    {
+      "path": "runtime/09_ChessNeighbors.mp4.txt",
+      "bytes": 115,
+      "sha256": "c5933a1f3b5f4ecf6f38e0dcc864f72a755c65d8ef55748b51ca34e7b8141ee3"
+    },
+    {
+      "path": "runtime/09_ChessNeighbors_Start.jpg",
+      "bytes": 746692,
+      "sha256": "addd9467c0dbfb7a6a9353d10a124389f5b2331d669aaa6a003ce85a06a852c1"
+    },
+    {
+      "path": "runtime/10_SleepingCat.jpg",
+      "bytes": 621437,
+      "sha256": "843351148e10f8b15e194de31efc1b58b5034413e02601a87192e4b5b634a1ec"
+    },
+    {
+      "path": "runtime/10_SleepingCat.mp4",
+      "bytes": 9052407,
+      "sha256": "16800df2b5403816c3fdb0fceaa6ae704a91ba32ee013de43e68685d7e2f42d7"
+    },
+    {
+      "path": "runtime/10_SleepingCat.mp4.txt",
+      "bytes": 115,
+      "sha256": "71f0284517334222ac0d9ade76eada21c506c561218a0cff80c38617f8cb8457"
+    },
+    {
+      "path": "runtime/10_SleepingCat_Start.jpg",
+      "bytes": 621463,
+      "sha256": "1077a8a66517c9e3595bef70e3367c45f0731c147dcd528003c06d274e44f7fe"
+    },
+    {
+      "path": "runtime/11_Fishing.jpg",
+      "bytes": 635201,
+      "sha256": "954c1c67689cf8da9caf915dd5618af1fdb403330788def8516dfba4a442617b"
+    },
+    {
+      "path": "runtime/11_Fishing.mp4",
+      "bytes": 7956779,
+      "sha256": "44c56f6b3d0cea434b42ff311e36260b6a73335621f489ce6c12e34e6aeb1186"
+    },
+    {
+      "path": "runtime/11_Fishing.mp4.txt",
+      "bytes": 115,
+      "sha256": "1851c8a0369eca1444e6fd8957588516dbac55a4cc8d7e196d66d1173a9fae13"
+    },
+    {
+      "path": "runtime/11_Fishing_Start.jpg",
+      "bytes": 635423,
+      "sha256": "2fd4d365d064b390837072b0994d0583aa0ab590aebe3d08506c59bc678bc569"
+    },
+    {
+      "path": "runtime/12_CatFed.jpg",
+      "bytes": 646922,
+      "sha256": "c45c9f6633cc26ac0e33f228bfd58143bf80beef9d66397dbba08f07a53ea39a"
+    },
+    {
+      "path": "runtime/13_SignAndPrizes.jpg",
+      "bytes": 632414,
+      "sha256": "2a5eb2fcd77e0798c0281a53cdead5f7bcaf20b662ade85377edaf1fec3eb4e9"
+    },
+    {
+      "path": "runtime/14_StreetSave.jpg",
+      "bytes": 632545,
+      "sha256": "63726ed852b990e9c3682a2872da007231ef61140fc5d029d97f2ed65c3aec11"
+    },
+    {
+      "path": "runtime/14B_GateBeforeE.jpg",
+      "bytes": 601810,
+      "sha256": "af974df040c2568e640f4f41ecd7c6c18ab7763a58f2e4ada0ddd2855c386e96"
+    },
+    {
+      "path": "runtime/14C_ContinuousStreetSweep.mp4",
+      "bytes": 32798636,
+      "sha256": "0fa751f79323ea1c6e5ccdc8d7bfc097e8b0fc547d9ef90ea0f05eaf0d13b39f"
+    },
+    {
+      "path": "runtime/14C_ContinuousStreetSweep.mp4.txt",
+      "bytes": 116,
+      "sha256": "3964b4a5ab8f1deadf0e0c0bf06b737e675c3313690c5225821055ae6c4599d1"
+    },
+    {
+      "path": "runtime/15_MazePreview.jpg",
+      "bytes": 998897,
+      "sha256": "8a007c8e12088039d4d8dc6dda2456463e3ea838ada7af9803ebc42c131e8f85"
+    },
+    {
+      "path": "runtime/15A_Direction_down.jpg",
+      "bytes": 907165,
+      "sha256": "78d206de5c3005f782ade3085d2be3aa42b89b528c6bf7032005fc1293394234"
+    },
+    {
+      "path": "runtime/15A_Direction_down_left.jpg",
+      "bytes": 893686,
+      "sha256": "8d897cb5428d305b21364073ee3c4f91c33e48e9e9924e66fa48a53ddeb774b7"
+    },
+    {
+      "path": "runtime/15A_Direction_down_right.jpg",
+      "bytes": 893639,
+      "sha256": "bd718a700c5ac4f60bc678be7b9b6da956a8a2b6d0fc67c5135e693aba3b8c45"
+    },
+    {
+      "path": "runtime/15A_Direction_left.jpg",
+      "bytes": 906822,
+      "sha256": "cb6fcec4f89a6e93f02733012403dcf4f466b6e3ae5f3fbd102a05330341e0c2"
+    },
+    {
+      "path": "runtime/15A_Direction_right.jpg",
+      "bytes": 906717,
+      "sha256": "9df0b9b90b80a603cdee34d3fc1f2d25d8ccbf10876195c9b9de39d395ddd844"
+    },
+    {
+      "path": "runtime/15A_Direction_up.jpg",
+      "bytes": 907227,
+      "sha256": "fa7eb076fdeccf388c99abc2f8095796f36ee9cbb22ae32406f6a9025392065b"
+    },
+    {
+      "path": "runtime/15A_Direction_up_left.jpg",
+      "bytes": 906964,
+      "sha256": "02e79fdfe24b9d3aff6914cd8a600b92b83c35f731ea9ab60005c204a797ce7b"
+    },
+    {
+      "path": "runtime/15A_Direction_up_right.jpg",
+      "bytes": 907102,
+      "sha256": "47f416575352593d40712578a5a437b2f1ed4684a7c3aed4d58a7093e63c104f"
+    },
+    {
+      "path": "runtime/16_RiverArrival.jpg",
+      "bytes": 837712,
+      "sha256": "f32c8edb1e21bfd0299950ec9f69bdcf78311daaec5d504037ce752a0d979715"
+    },
+    {
+      "path": "runtime/16B_RiverTreeBoundary.jpg",
+      "bytes": 756101,
+      "sha256": "45ef66d4a4748a6258e3293bcfa9d973cf2a0ed2d1b01f6f65573ecfb1064c77"
+    },
+    {
+      "path": "runtime/17_RiverBeforeSong.jpg",
+      "bytes": 838058,
+      "sha256": "f2d1fc8a22b066f07a7f23bd47e87b78c5c88409de34785d93e566c6b264c3ac"
+    },
+    {
+      "path": "runtime/18_GuitarStart.jpg",
+      "bytes": 456655,
+      "sha256": "999f5afa67e72b55e5af8304ea0c588e2a88f863eb67c5cb0439fab1d6fee4d4"
+    },
+    {
+      "path": "runtime/18B_GuitarMotion.mp4",
+      "bytes": 3586021,
+      "sha256": "558fd9c3b2e3af241f924da015c2da66b68f96c2be2ce90f9d3220b2e7bb1185"
+    },
+    {
+      "path": "runtime/18B_GuitarMotion.mp4.txt",
+      "bytes": 114,
+      "sha256": "741ab847fd05ce10ab94d6deac0963ba5416c27ba2659e46f22c8bf728f2f95a"
+    },
+    {
+      "path": "runtime/18B_GuitarPlaying.jpg",
+      "bytes": 462682,
+      "sha256": "ab9ae5c731a5dcbfcfe2e9ad805ae635a0a75fb93892efccd9e003c64cc30617"
+    },
+    {
+      "path": "runtime/19_RiverWide.jpg",
+      "bytes": 1062656,
+      "sha256": "8162f1cbe1c642b78cad917b85e7fb260554169ddc9dd33ff37b688ca9df1ac2"
+    },
+    {
+      "path": "runtime/19_RiverWideLife.mp4",
+      "bytes": 7074307,
+      "sha256": "0c47fb307cc546297704fa36bb18568f8dbe6af10c733afa6173e46191398722"
+    },
+    {
+      "path": "runtime/19_RiverWideLife.mp4.txt",
+      "bytes": 115,
+      "sha256": "a644ac1bf8c65f07fb8b13ab1cc6a5642d6a5cac310f7f1f38076c4be2e15675"
+    },
+    {
+      "path": "runtime/20_ZhaoStays.jpg",
+      "bytes": 847258,
+      "sha256": "5cdf43f1c6fca4f131b9e4ac4ac55287ef3d29368a556a57b4db40cbefbd5777"
+    },
+    {
+      "path": "runtime/21_FreeRiverRestore.jpg",
+      "bytes": 845447,
+      "sha256": "942cfb921e8058209bb7a07ac5e6922b4e77287befe6a0d5864627bdc59aa16b"
+    },
+    {
+      "path": "runtime/22_FreeStreetReturn.jpg",
+      "bytes": 614409,
+      "sha256": "87a27baab2a37a9ebabb615177e7f10d53b8819f7cd792da96c8b2d9a088e4db"
+    },
+    {
+      "path": "runtime/23_FreeStreetRestore.jpg",
+      "bytes": 611325,
+      "sha256": "094d309e455ae60498b60314e9eaf0ada3dd59bf058c724708219911ce70c8c3"
+    },
+    {
+      "path": "runtime/24_OptionalStreetCollection.jpg",
+      "bytes": 469016,
+      "sha256": "71b282aa1c7487630caf219d695946ceb86779ecb79133ef354c4b757fa1b5fd"
+    },
+    {
+      "path": "runtime/25_EveningHome.jpg",
+      "bytes": 557450,
+      "sha256": "bac01e32cbd599cfd38b308a32d720a4411e4704e5aab1b01f93b60b49d10886"
+    },
+    {
+      "path": "runtime/26_TripodPlacement.jpg",
+      "bytes": 668428,
+      "sha256": "f98f4418bf92324aefafded2c7ee7aefbe0c341da0be94ff2b4600c07fb610af"
+    },
+    {
+      "path": "runtime/27_FamilyCameraSequence.mp4",
+      "bytes": 4777451,
+      "sha256": "a4c8b9ceb3cb20eab3b5de284cb450f5e052fa0db3b9922bfb56d257ff9d2a8b"
+    },
+    {
+      "path": "runtime/27_FamilyCameraSequence.mp4.txt",
+      "bytes": 115,
+      "sha256": "646c0485317e5d52c3c42b1ab3ab304aed1a0e67d61a1ab32be7a3bd449b6d56"
+    },
+    {
+      "path": "runtime/27_FamilyViewfinder.jpg",
+      "bytes": 611781,
+      "sha256": "78ddd545cceb970eb44b891870c4626812ed760a222ace49137e72a43922415b"
+    },
+    {
+      "path": "runtime/27B_DevelopedFamilyPhoto.jpg",
+      "bytes": 599630,
+      "sha256": "50e69b4d9988aed6ef9fc28efcb630d17a4891dada89b976d769bb2ba2041758"
+    },
+    {
+      "path": "runtime/28_ReturnLivingFirst.jpg",
+      "bytes": 560180,
+      "sha256": "9cac517663f04277baafb9faffa247f3d32563af784b51033dc793f4aca5b404"
+    },
+    {
+      "path": "runtime/29_ReturnLivingReload.jpg",
+      "bytes": 560506,
+      "sha256": "e2a6330d54b53ecfe9afdf005920a39d2cec0dddd95e111c3648e534e2d11827"
+    },
+    {
+      "path": "runtime/30_ReturnHall.jpg",
+      "bytes": 536501,
+      "sha256": "eba78914650f7296254db9b47b8ecbae46976bdb8ccf0cbf1f0355487dcb0c6a"
+    },
+    {
+      "path": "runtime/31_ReturnLivingReentry.jpg",
+      "bytes": 568051,
+      "sha256": "98ed22464a2de5d52cf3f7429af554f33538e493c098016c630db31a6d0957c1"
+    },
+    {
+      "path": "runtime/32_ReturnReentryReload.jpg",
+      "bytes": 564256,
+      "sha256": "23c3bea0217676d254515b75b8e6aa3b7308d9b19791b645a73457cfb51ba5bd"
+    },
+    {
+      "path": "runtime/StreetSweep_00.jpg",
+      "bytes": 681285,
+      "sha256": "77d7146f61b238f6de96ca3ee6ee3e7dd393bdd310d42fabb87e0591628bcd50"
+    },
+    {
+      "path": "runtime/StreetSweep_01.jpg",
+      "bytes": 669897,
+      "sha256": "2eac9002e6fa1a98f3faf4e4da86f17d98f3c26c251ccf31d3d96ce18ed3bc12"
+    },
+    {
+      "path": "runtime/StreetSweep_02.jpg",
+      "bytes": 686844,
+      "sha256": "9b5c198af472c2d11bc63e73d0eef86328804e4c6af6fe2191222022f00d6b60"
+    },
+    {
+      "path": "runtime/StreetSweep_03.jpg",
+      "bytes": 611922,
+      "sha256": "b38cc2242fe9b795d91663ea1abc56d53a0e70358aea6dd90929f6a1121b8e7c"
+    },
+    {
+      "path": "runtime/StreetSweep_04.jpg",
+      "bytes": 623983,
+      "sha256": "f9189cfca1e3a85532123ff7cac08969f8394f0416ce221a39a2d1a51d0384e7"
+    },
+    {
+      "path": "runtime/StreetSweep_05.jpg",
+      "bytes": 721091,
+      "sha256": "ff3d91106967dcf523debfda2f109113664b19b826d76d387b7d573faf2eaa7a"
+    },
+    {
+      "path": "runtime/StreetSweep_06.jpg",
+      "bytes": 640236,
+      "sha256": "6e49495b6f927d5fcf94ed4dcc80c710423d30790c5d75e1d66b5b4435656709"
+    },
+    {
+      "path": "runtime/StreetSweep_07.jpg",
+      "bytes": 686703,
+      "sha256": "8c0c13b4c5b1adf095973d0b99c86d54c31b5546f56b583b887fbfc015a3c68f"
+    },
+    {
+      "path": "runtime/StreetSweep_08.jpg",
+      "bytes": 652614,
+      "sha256": "67ddfa4a70ca90b6dfbfca19560837b6b8bf2250b5f9cea08671b047e0ccfff5"
+    },
+    {
+      "path": "runtime/StreetSweep_09.jpg",
+      "bytes": 649621,
+      "sha256": "30ccd3ae0044cc48f0008f8d844dcec3447b35b322095743ff309b32ed0c3eb2"
+    },
+    {
+      "path": "runtime/StreetSweep_10.jpg",
+      "bytes": 647194,
+      "sha256": "5e6aad39e5e983d9ffc0f587cd0760f22c4578bf963a220048be77758b50bd7b"
+    },
+    {
+      "path": "runtime/StreetSweep_11.jpg",
+      "bytes": 632939,
+      "sha256": "87ed80e98b8f5c42f58e0c1013da66ed3e28a05b19eaa95a2f341b536b7f12ce"
+    },
+    {
+      "path": "runtime/StreetSweep_12.jpg",
+      "bytes": 588413,
+      "sha256": "8ac81c274d26df91b06812801db634f1d37c00700addccd2ecccf4a42baf2893"
+    },
+    {
+      "path": "runtime/StreetSweep_13.jpg",
+      "bytes": 592715,
+      "sha256": "bcfe2639043f77bc756b30bad0d358cb69b407e1ebe0bb10f8092240861772b7"
+    },
+    {
+      "path": "runtime/StreetSweep_14.jpg",
+      "bytes": 628594,
+      "sha256": "cb3572e8b0c32015d1617e1f95df10a0b1bffa840f75352227880dfa3403a055"
+    },
+    {
+      "path": "runtime/StreetSweep_15.jpg",
+      "bytes": 633130,
+      "sha256": "6896a96b1361bee73996b9b9c230e1501053145ae7730e9b5a6bc1649a080160"
+    },
+    {
+      "path": "runtime/StreetSweep_16.jpg",
+      "bytes": 605291,
+      "sha256": "48c6cbdbf861dd6342b3d941d74cb0b5d650790983d98ad10ac08f923b80f91a"
+    },
+    {
+      "path": "runtime/StreetSweep_17.jpg",
+      "bytes": 601137,
+      "sha256": "8409ae7e7a606346ef00ebaa0d02cf81c51c757efb7a5cda0a0e4f506de9e905"
+    }
+  ],
+  "sources_and_documents": [
+    {
+      "path": "Assets/Art/正式/P04.meta",
+      "bytes": 172,
+      "sha256": "491bb718192cc116b496661c2037fb6ca814ee27b0e143d22550233abf4331b5"
+    },
+    {
+      "path": "Assets/Art/正式/P04/P04Ink.mat",
+      "bytes": 1130,
+      "sha256": "fbd21c8a82821460f84e908d8d9804384609be04507e10b60c325ad2b6bf6f9c"
+    },
+    {
+      "path": "Assets/Art/正式/P04/P04Ink.mat.meta",
+      "bytes": 188,
+      "sha256": "2fd40e88f803701510e15c6665a6c88bd35ffa91b57e7fe22c8bf15fbbde9c0d"
+    },
+    {
+      "path": "Assets/Art/正式/P04/P04_CatSleepLoop.png",
+      "bytes": 1213175,
+      "sha256": "ab2854b0333fd73ca5109badcbb20f36a23643585f24b02ffc94db97525e4a0c"
+    },
+    {
+      "path": "Assets/Art/正式/P04/P04_CatSleepLoop.png.meta",
+      "bytes": 5198,
+      "sha256": "6dd7d5c4a515883e9472a5380f40cfe478eed35105cc6463063f1be5db905b4d"
+    },
+    {
+      "path": "Assets/Art/正式/P04/P04_ChessLoop.png",
+      "bytes": 2342058,
+      "sha256": "89cdde92bba1284a7155c683bba0ef4031f551a75fc513ae194a44a90f960ea6"
+    },
+    {
+      "path": "Assets/Art/正式/P04/P04_ChessLoop.png.meta",
+      "bytes": 5164,
+      "sha256": "8eecd8e9a026d64237200719f2e2d5da490bab159b31e74af8d7666a6b83b953"
+    },
+    {
+      "path": "Assets/Art/正式/P04/P04_ChessTable.png",
+      "bytes": 1171144,
+      "sha256": "147a9447aa62f803ca7266495e04807940e0a0cc5e9fa605ad90687c258f7651"
+    },
+    {
+      "path": "Assets/Art/正式/P04/P04_ChessTable.png.meta",
+      "bytes": 3299,
+      "sha256": "ff2ca75c34c1fcc8359d68ac395d508a6e771d6ad3f72fe5fb57d8acb0a96956"
+    },
+    {
+      "path": "Assets/Art/正式/P04/P04_DogPuddle.png",
+      "bytes": 532491,
+      "sha256": "f9d4b240134c801a0518e3d4572d9e79a8f170137ef1cd30418685b5ed92d6f0"
+    },
+    {
+      "path": "Assets/Art/正式/P04/P04_DogPuddle.png.meta",
+      "bytes": 5786,
+      "sha256": "e43c2126ca29ff5155423bb3d2de85c149957f321dea3e9729768aea08657026"
+    },
+    {
+      "path": "Assets/Art/正式/P04/P04_DrinkingDog.png",
+      "bytes": 1503016,
+      "sha256": "87b01e066f2d3eefc6fd96d949f83d9a9a6eb83358bea7e6c991ee3da56ee749"
+    },
+    {
+      "path": "Assets/Art/正式/P04/P04_DrinkingDog.png.meta",
+      "bytes": 4562,
+      "sha256": "8becf79989d3ccf5e56db1b12337914120aaa3a0637936ed1ce3494992018942"
+    },
+    {
+      "path": "Assets/Art/正式/P04/P04_Fisher.png",
+      "bytes": 1829919,
+      "sha256": "e7616f8b38815a269ec7a16cd18cbe51b1e3507a5b1031c739acbb64418f9ccf"
+    },
+    {
+      "path": "Assets/Art/正式/P04/P04_Fisher.png.meta",
+      "bytes": 6348,
+      "sha256": "aecc16ab0d62b31b902915aba4cc96e30c46cace939cca188feeb85118fa08f1"
+    },
+    {
+      "path": "Assets/Art/正式/P04/P04_FisherBody.png",
+      "bytes": 1346073,
+      "sha256": "986d8e95cd675f39cd493e4dd3c44d6b4df10f9672d496f5ca0d6ec026370161"
+    },
+    {
+      "path": "Assets/Art/正式/P04/P04_FisherBody.png.meta",
+      "bytes": 3301,
+      "sha256": "0d9e9ad124e551bbad46074de0e7f19f2ff7e99c2f2e9ff38e36cdad6fb165f0"
+    },
+    {
+      "path": "Assets/Art/正式/P04/P04_GuitarHands.png",
+      "bytes": 2240881,
+      "sha256": "ae23076032da5c24b3710d06530fd0a08a4eb03d4e5978164e5051ba7840862a"
+    },
+    {
+      "path": "Assets/Art/正式/P04/P04_GuitarHands.png.meta",
+      "bytes": 3299,
+      "sha256": "2f463d7cd0a4ecd6fc61751e15a0dec9d136f816ba84415f25f64524a41c13da"
+    },
+    {
+      "path": "Assets/Art/正式/P04/P04_LiMeiSeated.png",
+      "bytes": 1741143,
+      "sha256": "eb9ab8c55485a36a3020ef40cb0bb833930ff9925e2108ce9bff363498556fd8"
+    },
+    {
+      "path": "Assets/Art/正式/P04/P04_LiMeiSeated.png.meta",
+      "bytes": 3932,
+      "sha256": "3491d91f8293517713b768c05eb00b5fa53b9597be538270eb2228abf2c97fbc"
+    },
+    {
+      "path": "Assets/Art/正式/P04/P04_StoryAudience.png",
+      "bytes": 2399371,
+      "sha256": "789c3a9ac797a04908cf227a66f36c9b70f89d5da12b98fb53c673032de3653f"
+    },
+    {
+      "path": "Assets/Art/正式/P04/P04_StoryAudience.png.meta",
+      "bytes": 3943,
+      "sha256": "d0a802f24c0242c0b99c3a55921562fd39a57146db80ac9be08ed9c88cf7bbe7"
+    },
+    {
+      "path": "Assets/Art/正式/P04/P04_StoryLoop.png",
+      "bytes": 1510461,
+      "sha256": "fe65ec79d7a5d6b62e6230415c873fe32ef988db81789fa4a34fe1f735010b8a"
+    },
+    {
+      "path": "Assets/Art/正式/P04/P04_StoryLoop.png.meta",
+      "bytes": 4542,
+      "sha256": "d4ca1cbe1d110cfa5abe851f081b21fb94e9a37b0da4295ef5664e9c383bbf8f"
+    },
+    {
+      "path": "Assets/Art/正式/P04/P04_TownContinuous.png",
+      "bytes": 1553394,
+      "sha256": "f4a8804c0c6db39b3a1ca8a5a68b124fbdee0f00307ecd82db5407aaba72a914"
+    },
+    {
+      "path": "Assets/Art/正式/P04/P04_TownContinuous.png.meta",
+      "bytes": 3313,
+      "sha256": "f9048349ecc76fae45507538b22a81225f436706689a969837e0b5e5202d3fcf"
+    },
+    {
+      "path": "Assets/Art/正式/P04/P04_TripodCamera.png",
+      "bytes": 1405849,
+      "sha256": "ca8e5df84ecd719693d698f2f989bebd7b3b7e4b0fbadecabe56d0fbae8745a8"
+    },
+    {
+      "path": "Assets/Art/正式/P04/P04_TripodCamera.png.meta",
+      "bytes": 3304,
+      "sha256": "dbe6c3891cf5fb662461fe7efa897283b59b1379b3c1fedc17cfc80b4733910c"
+    },
+    {
+      "path": "Assets/Art/正式/P04/P04_WangPing.png",
+      "bytes": 1637270,
+      "sha256": "bf8a50b1a4cd404fe6c90a4059ceff6b0955187e4be17f88ee0359ecb6432c75"
+    },
+    {
+      "path": "Assets/Art/正式/P04/P04_WangPing.png.meta",
+      "bytes": 3292,
+      "sha256": "62d56d883af44c56e0c1b26d73140442686ace5b5c4c5257421f8e61e387c5b3"
+    },
+    {
+      "path": "Assets/Art/正式/P04/P04_ZhaoWalk.png",
+      "bytes": 933013,
+      "sha256": "fd705435044f434aec7a55262ddd7e276a54ee7dad793081f8a3e44524bde27e"
+    },
+    {
+      "path": "Assets/Art/正式/P04/P04_ZhaoWalk.png.meta",
+      "bytes": 12607,
+      "sha256": "9372f520cf9224d6fdf42b94cf9572f492b4863c458389d1806ea0a0fc356a21"
+    },
+    {
+      "path": "Assets/Editor/P04Audit.cs",
+      "bytes": 3515,
+      "sha256": "3fcfdbf33828356557cbef8fe1386b19c2c0b6b36514061f875481c1ef8f18b8"
+    },
+    {
+      "path": "Assets/Editor/P04Audit.cs.meta",
+      "bytes": 59,
+      "sha256": "1382555aacbe6616daf563267b11b6a02bee75256ef09d2a7c2ad729c6667302"
+    },
+    {
+      "path": "Assets/Editor/P04Bindings.cs",
+      "bytes": 1298,
+      "sha256": "b1640f99bd757f8b4ee389bf69211973d0d1e20a15509a413070b37ee4ed43ba"
+    },
+    {
+      "path": "Assets/Editor/P04Bindings.cs.meta",
+      "bytes": 59,
+      "sha256": "7a393a685fcb83bcf2825ee4371072c7af0748f838f0e6839e46e3e526dec735"
+    },
+    {
+      "path": "Assets/Editor/P04Diagnostics.cs",
+      "bytes": 3319,
+      "sha256": "0182f3fa0e1aaf97423a5b94a5fe68f0f57470bd05e35acff03d201de6492ef6"
+    },
+    {
+      "path": "Assets/Editor/P04Diagnostics.cs.meta",
+      "bytes": 59,
+      "sha256": "147c2a532b2732e976bb7c3e8a546ace349b4f7880cea50cdee03d410548f6f8"
+    },
+    {
+      "path": "Assets/Editor/P04EvidenceRecorder.cs",
+      "bytes": 2814,
+      "sha256": "c627ec4a367418d9be8cf3a43971d93fa5842c752363d0709b7b3212f8ae3630"
+    },
+    {
+      "path": "Assets/Editor/P04EvidenceRecorder.cs.meta",
+      "bytes": 59,
+      "sha256": "b6b85295e4a4f3b7d1a4f94ccdecdc25971bc89a9ad6ce6c0a1b18ac049015b2"
+    },
+    {
+      "path": "Assets/Editor/P04FinalAudit.cs",
+      "bytes": 3313,
+      "sha256": "9f9f84dd4a582ca2984d226556465cecfd51206eb5ed5497b5a77ea8bbc53225"
+    },
+    {
+      "path": "Assets/Editor/P04FinalAudit.cs.meta",
+      "bytes": 59,
+      "sha256": "c7025da3efd676cdf658096cac47f480bce1fc65489ddb6ee8d376ddcc7a7f4f"
+    },
+    {
+      "path": "Assets/Editor/P04FinalPresentation.cs",
+      "bytes": 4441,
+      "sha256": "7cbc4606763e68785e752d29050d278f2a5ccf494ad51d9355ae3d1442c1c371"
+    },
+    {
+      "path": "Assets/Editor/P04FinalPresentation.cs.meta",
+      "bytes": 59,
+      "sha256": "975260feb4ef675b3b72e5dd2093795dffc3e02ef1f555beb406219ceaffab4d"
+    },
+    {
+      "path": "Assets/Editor/P04FinalPropRepair.cs",
+      "bytes": 2357,
+      "sha256": "8a6827829e04aa15c830b8956c861aec40db52c9007f33647cd713f1ccba13f3"
+    },
+    {
+      "path": "Assets/Editor/P04FinalPropRepair.cs.meta",
+      "bytes": 59,
+      "sha256": "258036af965ec1e45f3d8a01d32eca16cc3603df6f1886cf8287eebaf3fd8733"
+    },
+    {
+      "path": "Assets/Editor/P04ProductionBuild.cs",
+      "bytes": 31791,
+      "sha256": "64b791cef02d1eb84c62e1440c4eb9542086c1b933839e594039fe68fb81a772"
+    },
+    {
+      "path": "Assets/Editor/P04ProductionBuild.cs.meta",
+      "bytes": 59,
+      "sha256": "ab8efdbfc2bfad231d108a8839b73d8aa04ad1f9ebe6cea8d0ab1ccb0195a794"
+    },
+    {
+      "path": "Assets/Editor/P04Regression.cs",
+      "bytes": 33750,
+      "sha256": "6eace99e77f4b712d6be2161b78e606899a483755fcc56c65ce7217d68654af7"
+    },
+    {
+      "path": "Assets/Editor/P04Regression.cs.meta",
+      "bytes": 59,
+      "sha256": "df68831f3a29be11d3a1c35ce9325096393349c5d1f2cb71b423ccf074f93a2e"
+    },
+    {
+      "path": "Assets/Editor/P04SettledEvidence.cs",
+      "bytes": 2731,
+      "sha256": "fed045805ca4c6d4d478485d27bccd712e24abbc8bea78b3cfe1ed6bfabc5d8d"
+    },
+    {
+      "path": "Assets/Editor/P04SettledEvidence.cs.meta",
+      "bytes": 59,
+      "sha256": "c1897649926ff9cd3517438a9e9ff91d2c35474d437e40812f45d970e3442857"
+    },
+    {
+      "path": "Assets/Editor/P04ValidationBuild.cs",
+      "bytes": 1232,
+      "sha256": "1342acef43712c7dbe5d2bf777242b10278f8ec90cb9a7f1556e634b0b3f3257"
+    },
+    {
+      "path": "Assets/Editor/P04ValidationBuild.cs.meta",
+      "bytes": 59,
+      "sha256": "ba30e3e7a502ece49f4a896babf376b1cdcd434c43cd27c40b22e5f9836ef00a"
+    },
+    {
+      "path": "Assets/Resources/DemoArtCatalog.asset",
+      "bytes": 3406192,
+      "sha256": "e35ef1489cb95c792b22a6609b838c748a499392276f10fc2d86b37e07a35572"
+    },
+    {
+      "path": "Assets/Scenes/Scene02_Courtyard.unity",
+      "bytes": 2509337,
+      "sha256": "7ab3da5af234555f503f340575a0e5f60ab550a50ddc98ccba1c5df5c71fc402"
+    },
+    {
+      "path": "Assets/Scenes/Scene03_Childhood.unity",
+      "bytes": 17429193,
+      "sha256": "28fc7547c111696cff50f0f6bde21cd0587aeaa6c431e7871d80a155e9c6e3e5"
+    },
+    {
+      "path": "Assets/Scripts/Dialogue/DialogueIdentity.cs",
+      "bytes": 4967,
+      "sha256": "5088d0d96120c831ce8f95732493b6959272e92ca67e0e64daac24d7206f352c"
+    },
+    {
+      "path": "Assets/Scripts/Player/PlayerController.cs",
+      "bytes": 2360,
+      "sha256": "6616422754155251a4eb4615b7f2ab4313101e6451b39a2ea6ef4467f0a1ed73"
+    },
+    {
+      "path": "Assets/Scripts/Scene03/ChildhoodActivityUI.cs",
+      "bytes": 23122,
+      "sha256": "26a68cfda26ec9be89566abc25ba286a8d29161885e0e9daea6161ce4fbaff2e"
+    },
+    {
+      "path": "Assets/Scripts/Scene03/GuitarRhythmGame.cs",
+      "bytes": 12033,
+      "sha256": "28c618995ac331c1a8ee7505ac3de21417ea079e134c17cd417e9677188bed83"
+    },
+    {
+      "path": "Assets/Scripts/Scene03/P04ChapterPresentation.cs",
+      "bytes": 2668,
+      "sha256": "1180987d88def55d4229d01ace84b56200160bc9faa3b1963d5260a7ad37ce95"
+    },
+    {
+      "path": "Assets/Scripts/Scene03/P04ChapterPresentation.cs.meta",
+      "bytes": 59,
+      "sha256": "3665334ef9c5c3ab2157792edf89a39ac7146c42b2c26b5448ba6cc4d7302e68"
+    },
+    {
+      "path": "Assets/Scripts/Scene03/P04CoinGlint.cs",
+      "bytes": 1063,
+      "sha256": "9ec21da8a692f292f334cc061d780a74f6dcbb277875d1d3da0e55e054589c53"
+    },
+    {
+      "path": "Assets/Scripts/Scene03/P04CoinGlint.cs.meta",
+      "bytes": 59,
+      "sha256": "e5648653faa4f9930d439ad6a800a380256054798a531972499028d5dc5373cb"
+    },
+    {
+      "path": "Assets/Scripts/Scene03/P04FamilyTripod.cs",
+      "bytes": 262,
+      "sha256": "659b14e5a6bd8adfc93fec7334991f8886eba364425c560bc20740769b03837d"
+    },
+    {
+      "path": "Assets/Scripts/Scene03/P04FamilyTripod.cs.meta",
+      "bytes": 59,
+      "sha256": "2398c96ffe4cf1acc2eb4780a18d5452cf486916d10f1970f6e76e7ccc85bc68"
+    },
+    {
+      "path": "Assets/Scripts/Scene03/P04FishingRod.cs",
+      "bytes": 2283,
+      "sha256": "0a4f37946b6c1952880b6411b7e5c1dd305bd808e598e48abadc6eb0fd593db0"
+    },
+    {
+      "path": "Assets/Scripts/Scene03/P04FishingRod.cs.meta",
+      "bytes": 59,
+      "sha256": "6138e26af7c74a265145ccc463f6a8bd84a1df6ba7620df7394522303317cdb8"
+    },
+    {
+      "path": "Assets/Scripts/Scene03/P04GuitarHands.cs",
+      "bytes": 1391,
+      "sha256": "fdcba5a5192e4a9e2fb54292d858426037918d9f8428b9acb2f9d9e6f3ca8adc"
+    },
+    {
+      "path": "Assets/Scripts/Scene03/P04GuitarHands.cs.meta",
+      "bytes": 59,
+      "sha256": "297226bfcbc0a4a9c86c166075924e881de233d5369ce017b04d9770f71fde8e"
+    },
+    {
+      "path": "Assets/Scripts/Scene03/P04PaintedLife.cs",
+      "bytes": 2175,
+      "sha256": "c23b0d7f9aa73ae6d54ce7002a3d466cffdc671886e5dbc0202793586c28f5fa"
+    },
+    {
+      "path": "Assets/Scripts/Scene03/P04PaintedLife.cs.meta",
+      "bytes": 59,
+      "sha256": "251a5349a3527686e48347bb0dc52e44030237284cfc0e6845a0983efd980a93"
+    },
+    {
+      "path": "Assets/Scripts/Scene03/P04PondLife.cs",
+      "bytes": 1045,
+      "sha256": "10f939938cd1f78153527f47d73263318495a5548cd5d7564e5ce71eb6e5d274"
+    },
+    {
+      "path": "Assets/Scripts/Scene03/P04PondLife.cs.meta",
+      "bytes": 59,
+      "sha256": "37c9f53f37d31dac933f7f759b1ba6e8980b21cc87078a425d88789947b202e7"
+    },
+    {
+      "path": "Assets/Scripts/Scene03/P04RiverLife.cs",
+      "bytes": 2963,
+      "sha256": "6eb97bf0f23585578e9bda36fda66126a0681ca76c00284376cb11087a62b067"
+    },
+    {
+      "path": "Assets/Scripts/Scene03/P04RiverLife.cs.meta",
+      "bytes": 59,
+      "sha256": "e4ec6cc3a56d724b03090ea186246272462c06dad0cfd739d2c38b3c4dd8724d"
+    },
+    {
+      "path": "Assets/Scripts/Scene03/Scene03Chapter.cs",
+      "bytes": 11176,
+      "sha256": "ac0fd3323eecb59121727d7a4057191a6d49e56e5e076f68456825e39fa9589e"
+    },
+    {
+      "path": "Assets/Scripts/Scene03/Scene03FamilySequence.cs",
+      "bytes": 11809,
+      "sha256": "7c6d1e81c581b96cdb930d20bea6996326f7b8ca5d34999a7f5e9a68bdce66ee"
+    },
+    {
+      "path": "Assets/Scripts/Scene03/Scene03HomeReturn.cs",
+      "bytes": 700,
+      "sha256": "76cdde8a29529f4cd669f061c976919988de8577477044be63d3081e89164ed7"
+    },
+    {
+      "path": "Assets/Scripts/Scene03/Scene03HomeReturn.cs.meta",
+      "bytes": 59,
+      "sha256": "933f8efc6b470f3aa36049154f3bb323be2723fd3e356d8ab7c78f27cc51b9d9"
+    },
+    {
+      "path": "Assets/Scripts/Scene03/Scene03Interactable.cs",
+      "bytes": 861,
+      "sha256": "47cdf0ffceef461739bc3e0c7c42c928101e953f9bba03fc39b8a4bf26f416fd"
+    },
+    {
+      "path": "Assets/Scripts/Scene03/Scene03MazeController.cs",
+      "bytes": 13569,
+      "sha256": "98d97afa5047aa9f67213c30ee260b73021ad599c7d7f36a155848d69cf7f9e5"
+    },
+    {
+      "path": "Assets/Scripts/Scene03/Scene03RiverSequence.cs",
+      "bytes": 9931,
+      "sha256": "023a7f0fcc6963d7497692398542c8c23b5e0791526c743b796625ae35a4ac3e"
+    },
+    {
+      "path": "Assets/Scripts/Story/StoryStateManager.cs",
+      "bytes": 6341,
+      "sha256": "14f116d3039ff7861d9deee15de9b6b33973369548cc9f9467fb2ccf68dabe22"
+    },
+    {
+      "path": "Assets/Scripts/System/CompanionSaveState.cs",
+      "bytes": 3488,
+      "sha256": "2e14612df8f21bacd47f9064e31fa5244098508e635a724adf6cd45b01b86242"
+    },
+    {
+      "path": "Assets/Scripts/System/FourSlotSaveStore.cs",
+      "bytes": 6294,
+      "sha256": "5f1616c4c2cae49a03bdb000e0a4063671d36e24ed85f95e5e620a833d9c50b8"
+    },
+    {
+      "path": "Assets/Scripts/System/GameSaveData.cs",
+      "bytes": 1730,
+      "sha256": "f9aa1e1173fbe2a8ef7a6762124394541b18966fcd52cbf59fe7e0ac4dec3e42"
+    },
+    {
+      "path": "Assets/Scripts/System/GameSaveService.cs",
+      "bytes": 12606,
+      "sha256": "afc02c9d7b805e6a966040dd7c08c221db92d61fe6fd35180c417a1b9bfd7c73"
+    },
+    {
+      "path": "Assets/Scripts/System/P04SceneLayoutMigration.cs",
+      "bytes": 588,
+      "sha256": "d7a6b6293c94a4e428dc8c0d0ec507a7a92d6b017ff641a97cbe66c615b0a3d8"
+    },
+    {
+      "path": "Assets/Scripts/System/P04SceneLayoutMigration.cs.meta",
+      "bytes": 59,
+      "sha256": "77e8e24c715c0bb71dbafdc0b394e5f7e2b70a2d3a50f0ef66c0f4346c1b00d0"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/02_需求与验收台账.csv",
+      "bytes": 69697,
+      "sha256": "27656ba701d7fa49a8897bdcd25afe5182a57851ab458861f480fcd4e1213030"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/02_需求与验收台账.json",
+      "bytes": 190768,
+      "sha256": "5e6d1144fed1d37a63c034764265626da131f9b3bc0c770884b3381e8b521630"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/02_需求与验收台账.md",
+      "bytes": 43991,
+      "sha256": "442e7d4c623b9c8e9fc4892a666bdefb701e1b1110b27ce545f633635831d525"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/26_P04执行与防回退卡.md",
+      "bytes": 2709,
+      "sha256": "94dcb4ec2ef55345c698294c8a9a6fac0655ae7617c604adce0271aeaa357610"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/27_P04阶段报告与人工审计.md",
+      "bytes": 16209,
+      "sha256": "5c4bebaa7a6baeb9b9911073c9d18aca8ed6911f35327941d75ec22ed3174763"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/28_P04提交范围与英文内容.md",
+      "bytes": 3020,
+      "sha256": "eae1a5aed38afd8337ab6c8a04122f63bde5274434f61b5429d589a79f8421c6"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/29_P04空间参数与防回退卡.md",
+      "bytes": 6283,
+      "sha256": "78097ac249ac30c3fe02d007759cf606b751151d54157561f05b33c83fd3d39a"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/README_实施进度.md",
+      "bytes": 8424,
+      "sha256": "5af87153e5cd0f2a4698d05cc0beffebd852955dca6b72a1ec997394bc9a4ace"
+    }
+  ]
+}

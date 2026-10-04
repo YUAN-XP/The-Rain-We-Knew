@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.IO;
 using System.Linq;
 using System.Security.Cryptography;
@@ -37,7 +37,7 @@ public sealed class FourSlotSaveStore {
         if(d==null||d.version!=1||d.slot!=slot||slot<1||slot>4)throw new InvalidDataException("存档版本或槽位不兼容");
         if(d.scene!="Scene01_Rain"&&d.scene!="Scene02_Courtyard"&&d.scene!="Scene03_Childhood"&&d.scene!="Scene04_School")throw new InvalidDataException("不支持的场景");
         if(d.story==null||d.story.flags==null||d.items==null||d.files==null||d.school==null||d.firstObtained==null||d.companions==null||!QuestProgress.Valid(d.quests))throw new InvalidDataException("存档状态缺失");
-        if(!Enum.IsDefined(typeof(AdultOutfit),d.story.outfit)||d.threeDoorProgress<0||d.threeDoorProgress>3||d.corridorLampStage<0||d.corridorLampStage>2||d.courtyardLayoutRevision<0||d.courtyardLayoutRevision>P03SceneLayoutMigration.Revision)throw new InvalidDataException("存档状态越界");
+        if(!Enum.IsDefined(typeof(AdultOutfit),d.story.outfit)||d.threeDoorProgress<0||d.threeDoorProgress>3||d.corridorLampStage<0||d.corridorLampStage>2||d.courtyardLayoutRevision<0||d.courtyardLayoutRevision>P03SceneLayoutMigration.Revision||d.childhoodLayoutRevision<0||d.childhoodLayoutRevision>P04SceneLayoutMigration.Revision)throw new InvalidDataException("存档状态越界");
         if(d.story.flags.Distinct().Count()!=d.story.flags.Length)throw new InvalidDataException("重复剧情状态");
         foreach(var f in d.story.flags)if(!Enum.TryParse<StoryFlag>(f,out var value)||!Enum.IsDefined(typeof(StoryFlag),value))throw new InvalidDataException("未知剧情状态："+f);
         foreach(var v in new[]{d.position.x,d.position.y,d.position.z,d.cameraSize,d.scale.x,d.scale.y,d.scale.z,d.cameraPosition.x,d.cameraPosition.y,d.cameraPosition.z,d.cameraOffset,d.facing,d.cameraX.x,d.cameraX.y,d.cameraY.x,d.cameraY.y})if(float.IsNaN(v)||float.IsInfinity(v))throw new InvalidDataException("无效坐标");
@@ -48,7 +48,7 @@ public sealed class FourSlotSaveStore {
         var roles=new System.Collections.Generic.HashSet<string>();
         foreach(var c in d.companions){
             if(c==null||!roles.Add(c.role)||
-                !(c.role=="childhood-boy"&&d.scene=="Scene03_Childhood"&&(c.parent=="home"||c.parent=="living"||c.parent=="river")||c.role=="home-guide"&&d.scene=="Scene02_Courtyard"&&c.parent=="authored"||c.role=="street-guide"&&d.scene=="Scene01_Rain"&&c.parent=="authored"))throw new InvalidDataException("同伴身份不兼容");
+                !(c.role=="childhood-boy"&&d.scene=="Scene03_Childhood"&&(c.parent=="home"||c.parent=="living"||c.parent=="river"||c.parent=="street")||c.role=="home-guide"&&d.scene=="Scene02_Courtyard"&&c.parent=="authored"||c.role=="street-guide"&&d.scene=="Scene01_Rain"&&c.parent=="authored"))throw new InvalidDataException("同伴身份不兼容");
             foreach(float v in new[]{c.position.x,c.position.y,c.position.z,c.scale.x,c.scale.y,c.scale.z,c.direction})if(float.IsNaN(v)||float.IsInfinity(v))throw new InvalidDataException("同伴坐标无效");
         }
         if(d.items.Select(x=>x.key).Distinct().Count()!=d.items.Length||d.files.Select(x=>x.key).Distinct().Count()!=d.files.Length)throw new InvalidDataException("重复库存");

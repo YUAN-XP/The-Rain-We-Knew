@@ -1,0 +1,5 @@
+player=(108.62, 31.21, 0.00) scale=(1.00, 1.00, 1.00) speed=1.9 feet=(108.62, 30.54) enabled=True target=Stage4B_Entry (Scene03Interactable) blocked=False lock=False
+Environment/ChildhoodStreet/Stage4B_Entry bounds=Center: (108.00, 31.23, 0.00), Extents: (0.95, 0.90, 0.00) enabled=True layer=6 trigger=True
+reach=(108.00, 31.23, 0.00) h=0.95 v=1.8
+Environment/ChildhoodStreet/Stage4B_StopBoundary bounds=Center: (109.20, 34.00, 0.00), Extents: (0.30, 4.50, 0.00) enabled=True layer=0 trigger=False
+YoungXiaoPeng bounds=Center: (108.62, 31.21, 0.00), Extents: (0.28, 0.70, 0.00) enabled=True layer=0 trigger=False

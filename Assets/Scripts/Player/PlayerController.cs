@@ -4,6 +4,7 @@ public class PlayerController : MonoBehaviour
 {
     [Header("Movement")]
     [SerializeField] private float moveSpeed = 5f;
+    public void SetWalkSpeed(float value){moveSpeed=Mathf.Max(.1f,value);}
     public float WalkSpeed => moveSpeed;
 
     private Rigidbody2D rb;

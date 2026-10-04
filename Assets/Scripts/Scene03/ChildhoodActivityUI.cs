@@ -110,7 +110,7 @@ public class ChildhoodActivityUI : MonoBehaviour
         heading.text="城门前的小骑士 · 第 "+(act+1)+" 幕";
         if(body==null)body=Text("",panel,.06f,.71f,.94f,.86f,27);
         string introduction=chapter.content.storyActs[act].Split('\n')[0];
-        body.text=introduction;
+        body.text=new[]{"老国王病重，宫中不可一日无人","粮仓告罄，骚动增加","我知道他会挺身而出"}[act];
         stage=RuntimePanelUI.Panel("木偶舞台",panel,new Vector2(.06f,.14f),new Vector2(.94f,.70f),new Color(.77f,.82f,.78f)).rectTransform;
         RuntimePanelUI.Panel("舞台地板",stage,Vector2.zero,new Vector2(1,.36f),new Color(.52f,.36f,.25f),false);
         for(int i=0;i<8;i++)RuntimePanelUI.Panel("木纹",stage,new Vector2(i*.125f,0),new Vector2(i*.125f+.004f,.36f),new Color(.38f,.26f,.23f),false);
@@ -118,15 +118,16 @@ public class ChildhoodActivityUI : MonoBehaviour
         for(int i=0;i<4;i++)Art("围观木偶",stage,ChildhoodIllustration.Picture.Rebel,.73f+i*.045f,.38f,.81f+i*.045f,.68f);
         foreach(float x in new[]{0f,.94f}){RuntimePanelUI.Panel("舞台红帘",stage,new Vector2(x,.30f),new Vector2(x+.06f,1),new Color(.54f,.19f,.27f),false);}
         RuntimePanelUI.Panel("上帷幕",stage,new Vector2(0,.92f),Vector2.one,new Color(.62f,.23f,.30f),false);
-        foreach(var caption in new[]{Text("宫门",stage,.10f,.77f,.33f,.88f,22),Text("城门前",stage,.39f,.79f,.64f,.90f,22),Text("人群",stage,.72f,.77f,.94f,.88f,22)})caption.color=new Color(.29f,.32f,.28f);
-        if(act>0)Art("已入场的公主",stage,Character(0),.17f,.37f,.29f,.76f);
-        if(act>1)Art("已入场的反叛者",stage,Character(2),.71f,.35f,.83f,.75f);
+        // Painted scenery is self-explanatory; no world placeholder captions.
+        if(act>0)Art("已入场的公主",stage,Character(0),.17f,.36f,.29f,.76f);
+        if(act>1)Art("已入场的反叛者",stage,Character(2),.71f,.36f,.83f,.76f);
         float sx=act==0?.15f:act==1?.69f:.43f;
-        slot=RuntimePanelUI.Panel("角色位置",stage,new Vector2(sx,.35f),new Vector2(sx+.16f,.76f),new Color(.97f,.86f,.53f,.44f)).rectTransform;
+        slot=RuntimePanelUI.Panel("角色位置",stage,new Vector2(sx,.36f),new Vector2(sx+.16f,.76f),new Color(.97f,.86f,.53f,.44f)).rectTransform;
         var outline=slot.gameObject.AddComponent<Outline>();outline.effectColor=new Color(.98f,.83f,.43f);outline.effectDistance=new Vector2(3,-3);
         Text("· · ·",slot,.1f,0,.9f,.16f,25);
         for(int i=0;i<3;i++)
         {
+            if(act>0&&i==0||act>1&&i==2)continue;
             string label=new[]{"公主","骑士","反叛者"}[i];
             var card=RuntimePanelUI.Panel(label+"卡",stage,new Vector2(.15f+i*.255f,.018f),new Vector2(.34f+i*.255f,.29f),new Color(.96f,.87f,.68f)).rectTransform;
             var shadow=card.gameObject.AddComponent<Shadow>();shadow.effectColor=new Color(.15f,.12f,.14f,.6f);shadow.effectDistance=new Vector2(5,-6);
@@ -135,7 +136,7 @@ public class ChildhoodActivityUI : MonoBehaviour
         }
         if(status==null)status=Text("",panel,.12f,.02f,.88f,.115f,24);
         var directions=chapter.content.storyActs[act].Split('\n');
-        status.text=directions.Length>1?directions[1]:"拖动角色卡片，让故事继续。";
+        status.text="拖动角色卡片，让故事继续。";
     }
     public bool DropCard(int index,Vector2 screenPoint)
     {

@@ -45,14 +45,15 @@ public class Scene03RiverSequence : MonoBehaviour, IInteractable
         if(chapter.Story.Has(StoryFlag.Scene03RiverSequenceCompleted)&&!chapter.Story.Has(StoryFlag.Scene03ReturnedHome))
         {
             while(!chapter.maze.IsAtRiver)yield return null;
-            chapter.Controls.AcquireLock(ControlLockReason.Cutscene);ownsLock=true;
-            yield return chapter.Fade(1,.4f);chapter.ReturnHomeFromRiver();yield return chapter.Fade(0,.7f);Release();
+            chapter.Controls.AcquireLock(ControlLockReason.Cutscene,this);ownsLock=true;
+            zhao.gameObject.SetActive(true);
+            zhao.position=new Vector3(297.3f,70.86f,0);var standing=zhao.GetComponentInChildren<P04PaintedLife>();if(standing){standing.walking=false;standing.frames=new[]{DemoArtCatalog.Find("CHR_STORY_ZHAO_ZHANG_BASE:1")};}Release();
         }
     }
     IEnumerator Sequence()
     {
         PersistentRuntime.Instance.GetComponent<QuestProgress>()?.Publish(QuestEvent.BoyFound);
-        Busy=true;chapter.Controls.AcquireLock(ControlLockReason.Cutscene);ownsLock=true;
+        Busy=true;chapter.Controls.AcquireLock(ControlLockReason.Cutscene,this);ownsLock=true;
         try
         {
             if(!chapter.Story.Has(StoryFlag.Scene03RhythmCompleted))
@@ -72,7 +73,9 @@ public class Scene03RiverSequence : MonoBehaviour, IInteractable
             yield return AppreciateSong();
             yield return chapter.Say(praise);
             zhao.gameObject.SetActive(true);
-            yield return Move(zhao,zhao.position+Vector3.left*3,1.1f);
+            zhao.position=new Vector3(294.8f,70.86f,0);var step=zhao.GetComponentInChildren<P04PaintedLife>();if(step)step.walking=true;
+            yield return Move(zhao,new Vector3(297.3f,70.86f,0),2.2f);
+            if(step){step.walking=false;step.frames=new[]{DemoArtCatalog.Find("CHR_STORY_ZHAO_ZHANG_BASE:1")};}
             yield return chapter.Say(zhaoCall);
             SetSeated(false);
             Vector3 childFrom=chapter.child.transform.position,boyFrom=boy.position;
@@ -80,10 +83,9 @@ public class Scene03RiverSequence : MonoBehaviour, IInteractable
             {float k=t/1.4f;PlaceChild(Vector3.Lerp(childFrom,departure.position,k));boy.position=Vector3.Lerp(boyFrom,departure.position+Vector3.right,k);yield return null;}
             PlaceChild(departure.position);boy.position=departure.position+Vector3.right;
             fishing=true;yield return chapter.Say(zhaoAside);fishing=false;
-            chapter.Story.Set(StoryFlag.Scene03RiverSequenceCompleted);
-            yield return chapter.Fade(1,.55f);
-            chapter.ReturnHomeFromRiver();
-            yield return chapter.Fade(0,.7f);
+            chapter.Story.SetTogether(StoryFlag.Scene03RiverSequenceCompleted,StoryFlag.Scene03FreeRiver);
+            PersistentRuntime.Instance.GetComponent<QuestProgress>()?.Publish(QuestEvent.ReturnControlAfterZhao);
+            chapter.follow.SnapToTarget();RoomPresentationFraming.PrepareCurrentView();
         }
         finally {SetSeated(false);Busy=false;Appreciating=false;CanLeaveSong=false;if(leaveText!=null)leaveText.alpha=0;Release();}
     }
@@ -137,7 +139,7 @@ public class Scene03RiverSequence : MonoBehaviour, IInteractable
 
     }
     void LateUpdate(){
-        if(!usePaintedPoses||!boy)return;
+        if(!usePaintedPoses||!boy)return;var family=GetComponent<Scene03FamilySequence>();if(family&&family.Busy)return;
         if(!boyPainting){var p=boy.Find("NewArt_Actor");if(p)boyPainting=p.GetComponent<SpriteRenderer>();}
         if(!boyPainting)return;
         if(!boyView){boyView=P02ActorPresentation.AttachCompanion(boy,boyPainting,"boy_child",1.46f);boyView.SetStaticPose(seated);}
@@ -150,6 +152,6 @@ public class Scene03RiverSequence : MonoBehaviour, IInteractable
         boyPainting.transform.position=boy.position+Vector3.up*(-.7f+(seated?.48f:0));
     }
     void Update(){if(fishing&&fishingRod!=null)fishingRod.localRotation=Quaternion.Euler(0,0,Mathf.Sin(GameplayClock.Now*2)*5);}
-    void Release(){if(ownsLock&&chapter!=null&&chapter.Controls!=null)chapter.Controls.ReleaseLock(ControlLockReason.Cutscene);ownsLock=false;}
+    void Release(){if(ownsLock&&chapter!=null&&chapter.Controls!=null)chapter.Controls.ReleaseLock(ControlLockReason.Cutscene,this);ownsLock=false;}
     void OnDisable(){StopAllCoroutines();SetSeated(false);if(music!=null)music.Stop();Busy=false;Release();}
 }

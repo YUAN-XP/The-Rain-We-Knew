@@ -1,0 +1,251 @@
+PASS original dialogue finished by E
+PASS settled starting
+PASS Scene01 remains still without input
+PASS no unearned oil lamp at game start
+PASS fixture original loader 
+PASS load completed 
+PASS actor supported or valid planar ground
+PASS legacy hallway migration applied once
+PASS M15 no future family photo
+PASS original dialogue finished by E
+PASS phone then parents introduction retains order
+PASS original door binding Home_Floor01_Normal/S03_LivingRoomDoor
+PASS settled door Home_Floor01_Normal/S03_LivingRoomDoor
+PASS door destination supported
+PASS original dialogue finished by E
+PASS camera awarded by original interaction
+PASS original door binding LivingRoomInterior/S03_LivingRoomExit
+PASS settled door LivingRoomInterior/S03_LivingRoomExit
+PASS door destination supported
+PASS M16 right boundary at compact stair cabinet
+PASS settled 03_StairBoundary
+PASS original leaving-home transition reaches street
+PASS M29 camera hint absent on street
+PASS save prohibited in puppet closeup
+PASS M22 exact prompt act 0
+PASS M22 spent cards absent act 0
+PASS wrong card rejected without losing choices
+PASS correct puppet drop act 0
+PASS settled 06_Storytelling
+PASS M22 exact prompt act 1
+PASS M22 spent cards absent act 1
+PASS wrong card rejected without losing choices
+PASS correct puppet drop act 1
+PASS settled 07_PuppetAct0
+PASS M22 exact prompt act 2
+PASS M22 spent cards absent act 2
+PASS wrong card rejected without losing choices
+PASS correct puppet drop act 2
+PASS settled 07_PuppetAct1
+PASS original dialogue finished by E
+PASS all three puppet acts complete
+PASS fresh puppet replay has required cards
+PASS original dialogue finished by E
+PASS M23 obsolete oversized neighbour suppressed
+PASS M26 seated fisher remains at authored scale
+PASS original dialogue finished by E
+PASS Li Mei message delivered to original chess interaction
+PASS original dialogue finished by E
+PASS fisher gives original fish item
+PASS original dialogue finished by E
+PASS cat feeding and coin reward retained
+PASS original ring throw 0
+PASS original dialogue finished by E
+PASS original ring throw 1
+PASS original dialogue finished by E
+PASS original ring throw 2
+PASS original dialogue finished by E
+PASS original ring throw 3
+PASS original dialogue finished by E
+PASS original dialogue finished by E
+PASS ring prize archived with original four-target gameplay
+PASS settled 13_SignAndPrizes
+PASS save free action 14_StreetSave 
+PASS reload 14_StreetSave 
+PASS settled 13_SignAndPrizes
+PASS restore 14_StreetSave
+PASS position preserved 14_StreetSave
+PASS test checkpoint before maze 
+PASS continuous street traversal -27
+PASS street camera follows at -27
+PASS continuous street traversal -16
+PASS street camera follows at -16
+PASS continuous street traversal -5
+PASS street camera follows at -5
+PASS continuous street traversal 4
+PASS street camera follows at 4
+PASS continuous street traversal 15
+PASS street camera follows at 15
+PASS continuous street traversal 26
+PASS street camera follows at 26
+PASS continuous street traversal 37
+PASS street camera follows at 37
+PASS continuous street traversal 47
+PASS street camera follows at 47
+PASS continuous street traversal 62
+PASS street camera follows at 62
+PASS continuous street traversal 65.4
+PASS street camera follows at 65.4
+PASS continuous street traversal 69
+PASS street camera follows at 69
+PASS continuous street traversal 72.2
+PASS street camera follows at 72.2
+PASS continuous street traversal 78
+PASS street camera follows at 78
+PASS continuous street traversal 82.5
+PASS street camera follows at 82.5
+PASS continuous street traversal 87
+PASS street camera follows at 87
+PASS continuous street traversal 96
+PASS street camera follows at 96
+PASS continuous street traversal 102
+PASS street camera follows at 102
+PASS continuous street traversal 107
+PASS street camera follows at 107
+PASS original dialogue finished by E
+PASS M28 original E interaction at actual gate enters maze
+PASS settled 14B_GateBeforeE
+PASS M29 actor actually visible in maze walking camera
+PASS M29 hint occurs after maze entry
+PASS M29 maze-only speed raised
+PASS M29 real movement and accepted pose up delta=(0.00, 0.41) pose=up
+PASS M29 real movement and accepted pose down delta=(0.00, -0.48) pose=down
+PASS M29 real movement and accepted pose left delta=(-0.45, 0.00) pose=left
+PASS M29 real movement and accepted pose right delta=(0.46, 0.00) pose=right
+PASS M29 real movement and accepted pose up_left delta=(-0.34, 0.34) pose=up_left
+PASS M29 real movement and accepted pose up_right delta=(0.36, 0.36) pose=up_right
+PASS M29 real movement and accepted pose down_left delta=(-0.34, -0.34) pose=down_left
+PASS M29 real movement and accepted pose down_right delta=(0.35, -0.35) pose=down_right
+PASS eight direction movement stays in real maze geometry
+PASS settled 15A_Direction_down_right
+PASS settled 15_MazePreview
+PASS M29 real camera switch safe
+PASS settled 15_MazePreview
+PASS second layout capture restores first geometry
+PASS two-layout route exists
+PASS native movement reached (14, 1)
+PASS native movement reached (14, 2)
+PASS native movement reached (14, 3)
+PASS native movement reached (14, 4)
+PASS native movement reached (13, 4)
+PASS native movement reached (13, 5)
+PASS settled maze route 7/41 cell=(13, 5) layout=1
+PASS native movement reached (12, 5)
+PASS native movement reached (12, 6)
+PASS native movement reached (12, 7)
+PASS settled maze route 11/41 cell=(12, 7) layout=0
+PASS native movement reached (11, 7)
+PASS settled maze route 13/41 cell=(11, 7) layout=1
+PASS native movement reached (11, 8)
+PASS native movement reached (11, 9)
+PASS native movement reached (10, 9)
+PASS native movement reached (10, 10)
+PASS native movement reached (10, 11)
+PASS settled maze route 19/41 cell=(10, 11) layout=0
+PASS native movement reached (10, 12)
+PASS native movement reached (10, 13)
+PASS native movement reached (9, 13)
+PASS native movement reached (9, 14)
+PASS native movement reached (8, 14)
+PASS settled maze route 25/41 cell=(8, 14) layout=1
+PASS native movement reached (8, 15)
+PASS settled maze route 27/41 cell=(8, 15) layout=0
+PASS native movement reached (7, 15)
+PASS settled maze route 29/41 cell=(7, 15) layout=1
+PASS native movement reached (7, 16)
+PASS native movement reached (7, 17)
+PASS settled maze route 32/41 cell=(7, 17) layout=0
+PASS native movement reached (6, 17)
+PASS native movement reached (5, 17)
+PASS native movement reached (5, 18)
+PASS native movement reached (5, 19)
+PASS native movement reached (4, 19)
+PASS native movement reached (3, 19)
+PASS native movement reached (2, 19)
+PASS native movement reached (1, 19)
+PASS settled maze route 41/41 cell=(0, 19) layout=0
+PASS actual maze route reaches river
+PASS settled maze route 41/41 cell=(0, 19) layout=0
+PASS river arrival actor visible after transition
+PASS street speed and gravity restored at river
+PASS M30 river ends just right of tree
+PASS settled 16B_RiverTreeBoundary
+PASS save free action 17_RiverBeforeSong 
+PASS reload 17_RiverBeforeSong 
+PASS settled 16B_RiverTreeBoundary
+PASS restore 17_RiverBeforeSong
+PASS position preserved 17_RiverBeforeSong
+PASS original dialogue finished by E
+PASS settled 17_RiverBeforeSong
+PASS M31 exact start prompt
+PASS M31 pause preserves exact rhythm time
+PASS four phrase hit timestamps and retry semantics
+PASS song cutscene still prohibits save
+PASS all four phrases and one retry complete
+PASS settled 18B_GuitarPlaying
+PASS M32 approved wide composition unchanged
+PASS M32 retained guitar source playing
+PASS settled 19_RiverWide
+PASS M32 leave becomes available after eight seconds
+PASS original dialogue finished by E
+PASS M33 free river control, no forced home
+PASS M33 one Zhao and leftover fishing rod
+PASS settled 20_ZhaoStays
+PASS save free action 21_FreeRiverRestore 
+PASS reload 21_FreeRiverRestore 
+PASS settled 20_ZhaoStays
+PASS restore 21_FreeRiverRestore
+PASS position preserved 21_FreeRiverRestore
+PASS settled 21_FreeRiverRestore
+PASS M33 walking left skips maze and restores street
+PASS settled 22_FreeStreetReturn
+PASS save free action 23_FreeStreetRestore 
+PASS reload 23_FreeStreetRestore 
+PASS settled 22_FreeStreetReturn
+PASS restore 23_FreeStreetRestore
+PASS position preserved 23_FreeStreetRestore
+PASS M33 boy follows after street reload
+PASS settled 24_OptionalStreetCollection
+PASS settled 24_OptionalStreetCollection
+PASS save free action 25_EveningHome 
+PASS reload 25_EveningHome 
+PASS settled 24_OptionalStreetCollection
+PASS restore 25_EveningHome
+PASS position preserved 25_EveningHome
+PASS original door binding Home_Floor01_Normal/S03_LivingRoomDoor
+PASS settled door Home_Floor01_Normal/S03_LivingRoomDoor
+PASS door destination supported
+PASS original dialogue finished by E
+PASS M34 dinner dialogue precedes tripod placement
+PASS M34 placement beside table, not TV
+PASS reached presentation cue 26_TripodPlacement
+PASS M35 camera frame matches actual photo aspect
+PASS M35 original portraits hidden only during camera presentation
+PASS M35 original dialogue readable in camera matte
+PASS reached presentation cue 27_FamilyViewfinder
+PASS M35 developed photograph retains opaque stage
+PASS settled 27B_DevelopedFamilyPhoto
+PASS original dialogue finished by E
+PASS M35 family photo unlocks original Scene02 return once
+PASS original dialogue canvas restored after family sequence
+PASS settled 28_ReturnLivingFirst
+PASS save free action 29_ReturnLivingReload 
+PASS reload 29_ReturnLivingReload 
+PASS settled 28_ReturnLivingFirst
+PASS restore 29_ReturnLivingReload
+PASS position preserved 29_ReturnLivingReload
+PASS original door binding LivingRoomInterior_Return/ReturnLivingRoomDoor
+PASS settled door LivingRoomInterior_Return/ReturnLivingRoomDoor
+PASS door destination supported
+PASS original inside callback unlocks reentry
+PASS original door binding Environment/Floor01/LockedLivingRoom_Placeholder
+PASS settled door Environment/Floor01/LockedLivingRoom_Placeholder
+PASS door destination supported
+PASS M36 same four supported furnishings after first/reentry/reload
+PASS settled 31_ReturnLivingReentry
+PASS save free action 32_ReturnReentryReload 
+PASS reload 32_ReturnReentryReload 
+PASS settled 31_ReturnLivingReentry
+PASS restore 32_ReturnReentryReload
+PASS position preserved 32_ReturnReentryReload
+PASS P04 no environment audio loops restored

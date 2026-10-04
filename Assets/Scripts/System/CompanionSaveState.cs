@@ -8,7 +8,7 @@ public static class CompanionSaveState {
     public static SavedCompanion[] Capture(){
         var result=new List<SavedCompanion>();
         var river=UnityEngine.Object.FindAnyObjectByType<Scene03RiverSequence>(FindObjectsInactive.Include);
-        if(river&&river.boy){var chapter=river.chapter;string parent=river.boy.IsChildOf(chapter.homeRoot.transform)?"home":river.boy.IsChildOf(chapter.livingRoomRoot.transform)?"living":"river";result.Add(Snapshot("childhood-boy",river.boy,parent,river.boy.GetComponent<P02ActorPresentation>()?.Direction=="left"?-1:1));}
+        if(river&&river.boy){var chapter=river.chapter;string parent=river.boy.IsChildOf(chapter.homeRoot.transform)?"home":river.boy.IsChildOf(chapter.livingRoomRoot.transform)?"living":river.boy.IsChildOf(chapter.streetRoot.transform)?"street":"river";result.Add(Snapshot("childhood-boy",river.boy,parent,river.boy.GetComponent<P02ActorPresentation>()?.Direction=="left"?-1:1));}
         var home=UnityEngine.Object.FindAnyObjectByType<EndingHomeController>(FindObjectsInactive.Include);
         if(home&&home.guide)result.Add(Snapshot("home-guide",home.guide,"authored",home.SaveFollowDirection));
         var street=UnityEngine.Object.FindAnyObjectByType<EndingStreetController>(FindObjectsInactive.Include);
@@ -23,6 +23,7 @@ public static class CompanionSaveState {
                 if(!river||!river.boy)throw new InvalidOperationException("男孩角色未就绪");actor=river.boy;
                 if(state.parent=="home")actor.SetParent(river.chapter.homeRoot.transform,true);
                 else if(state.parent=="living")actor.SetParent(river.chapter.livingRoomRoot.transform,true);
+                else actor.SetParent(state.parent=="street"?river.chapter.streetRoot.transform:river.chapter.maze.riverRoot.transform,true);
             }else if(state.role=="home-guide"){
                 var home=UnityEngine.Object.FindAnyObjectByType<EndingHomeController>(FindObjectsInactive.Include);
                 if(!home||!home.guide)throw new InvalidOperationException("家属院引路人未就绪");actor=home.guide;home.RestoreFollowDirection(state.direction);

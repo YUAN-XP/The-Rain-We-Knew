@@ -42,6 +42,7 @@ public class Scene03MazeController : CameraCaptureContext
     readonly List<Rect>[] wallRects = { new List<Rect>(), new List<Rect>() };
     Rigidbody2D body; Collider2D bodyCollider; CameraModeController cameraMode;
     bool ready, transitioning, ownsLock;
+    float originalWalkSpeed;
     float previousSize, previousOffset; bool previousFollowY; Vector2 previousX, previousY;
 
     IEnumerator Start()
@@ -57,7 +58,7 @@ public class Scene03MazeController : CameraCaptureContext
         cameraMode = PersistentRuntime.Instance.GetComponent<CameraModeController>();
         for (int i = 0; i < 2; i++) wallRects[i].AddRange(layouts[i].WallRects(cellSize, wallThickness));
         ready = true;
-        if (chapter.Story.Has(StoryFlag.Scene03MazeEntered) && !chapter.Story.Has(StoryFlag.Scene03ReturnedHome))
+        if (chapter.Story.Has(StoryFlag.Scene03MazeEntered) && !chapter.Story.Has(StoryFlag.Scene03ReturnedHome) && (!chapter.Story.Has(StoryFlag.Scene03ReturnedToStreet)||chapter.Story.Has(StoryFlag.Scene03FreeRiver)))
         {
             RememberCamera();
             if (chapter.Story.Has(StoryFlag.Scene03MazeCompleted)) ArriveAtRiver();
@@ -75,10 +76,11 @@ public class Scene03MazeController : CameraCaptureContext
         yield return chapter.Fade(1, .3f);
         bool resume = chapter.Story.Has(StoryFlag.Scene03MazeEntered);
         chapter.Story.Set(StoryFlag.Scene03MazeEntered);
-        if (chapter.Story.Has(StoryFlag.Scene03MazeCompleted)) ArriveAtRiver(); else ActivateMaze(resume);
+        if (chapter.Story.Has(StoryFlag.Scene03MazeCompleted)) {chapter.Story.Set(StoryFlag.Scene03FreeRiver);ArriveAtRiver();} else ActivateMaze(resume);
         yield return new WaitForFixedUpdate();
         chapter.follow.SnapToTarget();
         yield return chapter.Fade(0, .4f);
+        if(IsInMaze&&!chapter.Story.Has(StoryFlag.Scene03MazePreludeReached)){yield return chapter.Say(chapter.content.prelude);chapter.Story.Set(StoryFlag.Scene03MazePreludeReached);}
         Unlock(); transitioning = false;
         if (IsInMaze && !chapter.Story.Has(StoryFlag.Scene03MazeFirstSwitch))
             PersistentRuntime.Instance.GetComponent<StoryNoticeUI>().Show("[W/A/S/D] 或方向键移动    [Q] 举起相机", 5);
@@ -96,9 +98,13 @@ public class Scene03MazeController : CameraCaptureContext
         riverRoot.SetActive(false); mazeSpace.gameObject.SetActive(true);
         CurrentLayout = chapter.Story.Has(StoryFlag.Scene03MazeCurrentLayout) ? 1 : 0;
         ApplyLayout();
+        originalWalkSpeed=chapter.child.WalkSpeed;chapter.child.SetWalkSpeed(originalWalkSpeed*1.35f);
         chapter.child.SetPlanarMovement(true);
         SetPosition(CellCenter(resume ? chapter.Story.Scene03MazeCell : new Vector2Int(14, 0)));
         cameraMode.SetCaptureContext(this); cameraMode.ContextAvailable = true;
+        // Release the old street framing before applying the maze's camera limits.
+        // Otherwise its Restore() call would overwrite these new limits during Fade(0).
+        RoomPresentationFraming.PrepareCurrentView();
         var bounds = MazeBounds;
         chapter.follow.SetLimits(bounds.min.x + walkingViewSize * Camera.main.aspect, bounds.max.x - walkingViewSize * Camera.main.aspect);
         chapter.follow.SetVerticalLimits(true, 0, bounds.min.y + walkingViewSize, bounds.max.y - walkingViewSize);
@@ -174,6 +180,7 @@ public class Scene03MazeController : CameraCaptureContext
     void ArriveAtRiver()
     {
         cameraMode.SetCaptureContext(null); IsInMaze = false; IsAtRiver = true;
+        if(originalWalkSpeed>0){chapter.child.SetWalkSpeed(originalWalkSpeed);originalWalkSpeed=0;}
         chapter.child.SetPlanarMovement(false); mazeSpace.gameObject.SetActive(false);
         chapter.homeRoot.SetActive(false); chapter.livingRoomRoot.SetActive(false); chapter.streetRoot.SetActive(false);
         riverRoot.SetActive(true); SetPosition(riverSpawn.position);
@@ -185,19 +192,21 @@ public class Scene03MazeController : CameraCaptureContext
     public void ReleaseToHome()
     {
         cameraMode.SetCaptureContext(null); IsInMaze=false; IsAtRiver=false;
+        if(originalWalkSpeed>0){chapter.child.SetWalkSpeed(originalWalkSpeed);originalWalkSpeed=0;}
         chapter.child.SetPlanarMovement(false); mazeSpace.gameObject.SetActive(false); riverRoot.SetActive(false);
         chapter.follow.SetVerticalLimits(previousFollowY,previousOffset,previousY.x,previousY.y);
     }
     void SetPosition(Vector2 value) { body.linearVelocity = Vector2.zero; body.position = value; chapter.child.transform.position = value; }
-    void Lock() { chapter.Controls.AcquireLock(ControlLockReason.Interaction); ownsLock = true; }
-    void Unlock() { if (ownsLock && chapter != null && chapter.Controls != null) chapter.Controls.ReleaseLock(ControlLockReason.Interaction); ownsLock = false; }
+    void Lock() { chapter.Controls.AcquireLock(ControlLockReason.Interaction,this); ownsLock = true; }
+    void Unlock() { if (ownsLock && chapter != null && chapter.Controls != null) chapter.Controls.ReleaseLock(ControlLockReason.Interaction,this); ownsLock = false; }
     void OnDisable()
     {
         StopAllCoroutines(); Unlock();
         if (IsInMaze && chapter != null && chapter.child != null)
         {
             if (cameraMode != null) cameraMode.SetCaptureContext(null);
-            chapter.child.SetPlanarMovement(false);
+            if(originalWalkSpeed>0){chapter.child.SetWalkSpeed(originalWalkSpeed);originalWalkSpeed=0;}
+        chapter.child.SetPlanarMovement(false);
             if (chapter.follow != null) { chapter.follow.SetLimits(previousX.x, previousX.y); chapter.follow.SetVerticalLimits(previousFollowY, previousOffset, previousY.x, previousY.y); }
         }
         IsInMaze = false;

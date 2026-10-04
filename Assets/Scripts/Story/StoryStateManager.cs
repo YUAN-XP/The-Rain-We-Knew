@@ -30,7 +30,7 @@ public enum StoryFlag { CameraDoorRevealed, CameraTutorialTriggered, CameraFirst
     EndingIdentityReceived, EndingIdentityHintIssued, CompleteCredentialArchived, EndingStreetVisit,
     EndingStreetPanCompleted, EndingZhangCompleted, EndingBoardingCompleted, EndingCarCompleted,
     EndingChildCompleted, EndingYouthCompleted, EndingHospitalCompleted, EndingFocusCompleted,
-    EndingNameHeard, EndingFinalLineCompleted, DemoCompleted, Scene01MemoryFlashPlayed, Scene01GateKeyCollected }
+    EndingNameHeard, EndingFinalLineCompleted, DemoCompleted, Scene01MemoryFlashPlayed, Scene01GateKeyCollected, Scene03ReturnedToStreet, Scene03FreeRiver }
 public enum AdultOutfit { Default, Overalls, SchoolUniform }
 
 [DisallowMultipleComponent]

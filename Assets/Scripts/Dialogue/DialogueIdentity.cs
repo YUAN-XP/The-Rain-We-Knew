@@ -73,7 +73,7 @@ public static class DialogueIdentity
             case DialogueCharacterId.ZhangChen: return "CHR_STORY_ZHAO_ZHANG_BASE:CH_ZHANGCHEN";
             case DialogueCharacterId.SunFu: return "CHR_CHESS_NEIGHBORS_BASE:CH_SUNFU";
             case DialogueCharacterId.WangKun: return "CHR_CHESS_NEIGHBORS_BASE:CH_WANGKUN";
-            case DialogueCharacterId.WangPing: return "CHR_CHESS_NEIGHBORS_BASE:CH_WANGPING";
+            case DialogueCharacterId.WangPing: return "P04_WangPing";
             case DialogueCharacterId.RingVendor: return "CHR_TOWN_TRADERS_BASE:CH_RING_VENDOR";
             // Missing approved portraits remain absent; never substitute a different person.
             default: return null;

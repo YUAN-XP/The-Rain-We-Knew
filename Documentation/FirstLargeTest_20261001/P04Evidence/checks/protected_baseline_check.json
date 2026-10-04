@@ -1,0 +1,62 @@
+{
+  "protected": [
+    {
+      "path": "D:\\GitHub Desktop\\ProjectMystery\\ProjectMystery\\ProjectSettings\\InputManager.asset",
+      "matches_baseline": true,
+      "sha256": "1c6e02bb1d8ed3527401ff782904ed39983161239d1646957ac7fa78a360d31f"
+    },
+    {
+      "path": "D:\\GitHub Desktop\\ProjectMystery\\ProjectMystery\\Assets\\Scripts\\Presentation\\P02CharacterRig.cs",
+      "matches_baseline": true,
+      "sha256": "b533f633ee360aafbcddf865b67af1b41e57713f55c1de07cdc703d940bbc2c0"
+    },
+    {
+      "path": "D:\\GitHub Desktop\\ProjectMystery\\ProjectMystery\\Assets\\Scripts\\Presentation\\P02MotionLibrary.cs",
+      "matches_baseline": true,
+      "sha256": "04563aa83ae6eb28a31dfc179135d0c326af771dd2778102818bf25b5e522590"
+    },
+    {
+      "path": "D:\\GitHub Desktop\\ProjectMystery\\ProjectMystery\\Assets\\Scripts\\Presentation\\P02ActorPresentation.cs",
+      "matches_baseline": true,
+      "sha256": "92af17acbf2703ab644a328330fa075730578632526142435537b1caf42adbef"
+    }
+  ],
+  "untouched_boundaries": [
+    {
+      "path": "Assets/Scenes/Scene01_Rain.unity",
+      "byte_equal": true,
+      "text_equal": true,
+      "sha256": "f089e91d64f9f9abd0a840c5d1a100c2f6812b515b2fdcab0606ff52017da951"
+    },
+    {
+      "path": "Assets/Scenes/Scene04_School.unity",
+      "byte_equal": true,
+      "text_equal": true,
+      "sha256": "45ad4f9e454293adac6fc62aaf6242bcc3bf6a7dffb78d2004a6c8a4d13b41b9"
+    },
+    {
+      "path": "Assets/Scenes/EndingSequence.unity",
+      "byte_equal": true,
+      "text_equal": true,
+      "sha256": "3027f511758911bb4b788e513d67f0c70af9c9c7317064725805c3f402578b6d"
+    },
+    {
+      "path": "ProjectSettings/InputManager.asset",
+      "byte_equal": true,
+      "text_equal": true,
+      "sha256": "1c6e02bb1d8ed3527401ff782904ed39983161239d1646957ac7fa78a360d31f"
+    },
+    {
+      "path": "ProjectSettings/EditorBuildSettings.asset",
+      "byte_equal": true,
+      "text_equal": true,
+      "sha256": "d0dff5c60086f7e6d24f3f68a33d20c893985158a09496ae99419516ded28b34"
+    },
+    {
+      "path": "Assets/Scripts/System/GameplayInput.cs",
+      "byte_equal": true,
+      "text_equal": true,
+      "sha256": "165a11a21c3a9c3aab575ae12467ecf09d3ecddb254ab839532dd27d0bb68c42"
+    }
+  ]
+}

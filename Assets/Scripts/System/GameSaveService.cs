@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
@@ -54,7 +54,7 @@ public sealed class GameSaveService : MonoBehaviour {
         var school=FindAnyObjectByType<SchoolLayoutController>();if(school)data.school=new SavedSchool{present=true,room=school.CurrentRoom,variant=(int)school.Variant,actor=(int)school.Actor,phase=(int)school.Phase};
         var doors=FindAnyObjectByType<ThreeDoorPuzzleController>();if(doors)data.threeDoorProgress=doors.Progress;
         var corridor=FindAnyObjectByType<DistortedCorridorController>();if(corridor){data.distortedJoined=corridor.HasJoined;data.corridorLampStage=corridor.LampStage;}
-        data.courtyardLayoutRevision=P03SceneLayoutMigration.Revision;
+        data.courtyardLayoutRevision=P03SceneLayoutMigration.Revision;data.childhoodLayoutRevision=P04SceneLayoutMigration.Revision;
         FourSlotSaveStore.Validate(data,slot);return data;
     }
     public bool Save(int slot,bool overwrite,out string error){
@@ -91,7 +91,7 @@ public sealed class GameSaveService : MonoBehaviour {
         RuntimePanelUI.Button("重新开始",root,font,new Vector2(.53f,.3f),new Vector2(.8f,.43f),()=>P01SessionRestart.Begin(gameObject));
     }
     IEnumerator RestoreRoutine(GameSaveData data){
-        P03SceneLayoutMigration.Apply(data);
+        P03SceneLayoutMigration.Apply(data);P04SceneLayoutMigration.Apply(data);
         var dialogue=GetComponentInChildren<DialogueManager>(true);if(dialogue&&dialogue.IsDialogueActive())dialogue.CancelDialogue(dialogue.CurrentDialogue);
         GetComponent<CameraModeController>()?.AbortCapture();GetComponent<OilLampController>()?.LowerLamp();GetComponentInChildren<InventoryUI>(true)?.CloseInventory();
         GetComponent<SchoolChaseSession>()?.ResetForDiskLoad();GetComponent<EndingSession>()?.ResetForDiskLoad();

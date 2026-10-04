@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 785a08ad2c88b3749ab97350cfaae4eb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8612577589084618376
+    second: P04_ZhaoWalk_0
+  - first:
+      213: 1885098997309871543
+    second: P04_ZhaoWalk_1
+  - first:
+      213: -6829245630151862678
+    second: P04_ZhaoWalk_2
+  - first:
+      213: -3736836550613841277
+    second: P04_ZhaoWalk_3
+  - first:
+      213: -869286474415192205
+    second: P04_ZhaoWalk_4
+  - first:
+      213: -7440270508881467626
+    second: P04_ZhaoWalk_5
+  - first:
+      213: -5962551760881246431
+    second: P04_ZhaoWalk_6
+  - first:
+      213: -8724282640891441857
+    second: P04_ZhaoWalk_7
+  - first:
+      213: -2232039933850005587
+    second: P04_ZhaoWalk_8
+  - first:
+      213: -4655218639610155577
+    second: P04_ZhaoWalk_9
+  - first:
+      213: 4839382438652602967
+    second: P04_ZhaoWalk_10
+  - first:
+      213: -7910719603316181356
+    second: P04_ZhaoWalk_11
+  - first:
+      213: 8987542838572650148
+    second: P04_ZhaoWalk_12
+  - first:
+      213: 5602012384711234884
+    second: P04_ZhaoWalk_13
+  - first:
+      213: 2922691574664498997
+    second: P04_ZhaoWalk_14
+  - first:
+      213: -4903986008665884498
+    second: P04_ZhaoWalk_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 7
+  spritePivot: {x: 0.5, y: 0}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: P04_ZhaoWalk_0
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 648
+        width: 513
+        height: 641
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88ef0e59fa5068770800000000000000
+      internalID: 8612577589084618376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P04_ZhaoWalk_1
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1196
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b59915ec87392a10800000000000000
+      internalID: 1885098997309871543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P04_ZhaoWalk_2
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 1144
+        width: 30
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a66d8e24845a931a0800000000000000
+      internalID: -6829245630151862678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P04_ZhaoWalk_3
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 660
+        width: 486
+        height: 627
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38a47f0b4f6142cc0800000000000000
+      internalID: -3736836550613841277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P04_ZhaoWalk_4
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 995
+        width: 102
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3774e64ae8cafe3f0800000000000000
+      internalID: -869286474415192205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P04_ZhaoWalk_5
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 1039
+        width: 50
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6172e457469deb890800000000000000
+      internalID: -7440270508881467626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P04_ZhaoWalk_6
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1085
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12f1bc1b3c2c04da0800000000000000
+      internalID: -5962551760881246431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P04_ZhaoWalk_7
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 1087
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3d0f8d492f1de680800000000000000
+      internalID: -8724282640891441857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P04_ZhaoWalk_8
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 904
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daf426a81833601e0800000000000000
+      internalID: -2232039933850005587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P04_ZhaoWalk_9
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 905
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd624acf47556fb0800000000000000
+      internalID: -4655218639610155577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P04_ZhaoWalk_10
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 879
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75ae62410b0f82340800000000000000
+      internalID: 4839382438652602967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P04_ZhaoWalk_11
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 801
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 496be9efe6a773290800000000000000
+      internalID: -7910719603316181356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P04_ZhaoWalk_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31
+        width: 611
+        height: 625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ae8ab8f79a2abc70800000000000000
+      internalID: 8987542838572650148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P04_ZhaoWalk_13
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 29
+        width: 482
+        height: 629
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4455d0a45985ebd40800000000000000
+      internalID: 5602012384711234884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P04_ZhaoWalk_14
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 462
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53f87e7808c7f8820800000000000000
+      internalID: 2922691574664498997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P04_ZhaoWalk_15
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 408
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea8fbf125ba81fbb0800000000000000
+      internalID: -4903986008665884498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      P04_ZhaoWalk_0: 8612577589084618376
+      P04_ZhaoWalk_1: 1885098997309871543
+      P04_ZhaoWalk_10: 4839382438652602967
+      P04_ZhaoWalk_11: -7910719603316181356
+      P04_ZhaoWalk_12: 8987542838572650148
+      P04_ZhaoWalk_13: 5602012384711234884
+      P04_ZhaoWalk_14: 2922691574664498997
+      P04_ZhaoWalk_15: -4903986008665884498
+      P04_ZhaoWalk_2: -6829245630151862678
+      P04_ZhaoWalk_3: -3736836550613841277
+      P04_ZhaoWalk_4: -869286474415192205
+      P04_ZhaoWalk_5: -7440270508881467626
+      P04_ZhaoWalk_6: -5962551760881246431
+      P04_ZhaoWalk_7: -8724282640891441857
+      P04_ZhaoWalk_8: -2232039933850005587
+      P04_ZhaoWalk_9: -4655218639610155577
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

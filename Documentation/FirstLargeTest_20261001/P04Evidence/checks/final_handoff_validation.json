@@ -1,0 +1,43 @@
+{
+  "generated_at": "2026-10-04T14:53:47.215707+08:00",
+  "phase": "P04",
+  "base_commit": "c64bbf3",
+  "status": "Internal scope complete; awaiting user audit before commit or push",
+  "test_records": {
+    "results.txt": {
+      "pass": 251,
+      "fail": 0
+    },
+    "home_final_results.txt": {
+      "pass": 27,
+      "fail": 0
+    },
+    "final_edit_audit.txt": {
+      "pass": 17,
+      "fail": 0
+    }
+  },
+  "build_result": "2026-10-04T14:26:17.6241188+08:00 Succeeded errors=0 warnings=488 bytes=2868121227 seconds=75.2049515",
+  "current_protected_p02_files_rechecked": 287,
+  "current_protected_p02_changes": [],
+  "original_art_keys_preserved": 941,
+  "added_art_keys": 33,
+  "unchanged_existing_duplicate_aliases": 18,
+  "ledger_rows_updated": 24,
+  "unrelated_ledger_rows_preserved": 97,
+  "preview_broken_links": [],
+  "final_video_count": 9,
+  "largest_video_bytes": 32798636,
+  "obsolete_capture_files_removed": 34,
+  "obsolete_capture_bytes_removed": 52821484.0,
+  "unclassified_tracked_changes": [],
+  "commit_created": false,
+  "pushed": false,
+  "not_verified": [
+    "Fresh standalone native-input end-to-end playthrough",
+    "Human art approval and subjective difficulty",
+    "Every puppet card with physical mouse drag",
+    "All resolutions and long-duration performance"
+  ],
+  "integrity_rule": "manifest.json hashes final evidence except itself, and all P04 source/document include paths; do not modify artifacts after hashing without regenerating manifest"
+}

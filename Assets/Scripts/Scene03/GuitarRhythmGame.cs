@@ -30,7 +30,11 @@ public class GuitarRhythmGame : MonoBehaviour
     Image sustainInk;
     readonly RhythmHoldTracker sustain = new RhythmHoldTracker();
     [Min(.1f)] public float releaseGraceSeconds=.18f;
-    [Min(2)] public float spaceApproachSeconds=3.2f;
+    [Min(2)] public float spaceApproachSeconds=6;
+    public float ChordApproachSeconds=>approachSeconds+2;
+    public float SpaceLeadSeconds=>ChordApproachSeconds+2+(phrases[Mathf.Clamp(PhraseIndex,0,3)].notes[phrases[Mathf.Clamp(PhraseIndex,0,3)].notes.Length-1].time-phrases[Mathf.Clamp(PhraseIndex,0,3)].notes[0].time);
+    public float PreRollSeconds=>Mathf.Max(0,ChordApproachSeconds-phrases[PhraseIndex].notes[0].time,SpaceLeadSeconds-phrases[PhraseIndex].notes[phrases[PhraseIndex].notes.Length-1].time);
+    P04GuitarHands hands;
     public bool SustainedChordFailed => sustain.Failed;
     static readonly KeyCode[] Keys={KeyCode.W,KeyCode.S,KeyCode.A,KeyCode.D,KeyCode.Space};
 
@@ -47,9 +51,9 @@ public class GuitarRhythmGame : MonoBehaviour
         IsRunning=true;Completed=false;PhraseIndex=0;RetryCount=0;
         chapter.Controls.AcquireLock(ControlLockReason.CloseUp);ownsLock=true;
         Build();WaitingForStart=true;
-        title.text="河堤边 · 生日快乐";
-        instruction.text="右侧长条到横线后，持续按住对应方向键\n左侧音符到竖线时按键；段尾松开 W/S/A/D，再按 Space";
-        feedback.text="按 [E] 开始";chord.text="第一段：持续按住 ←";
+        title.text="";
+        instruction.text="";
+        feedback.text="按E开始";chord.text="←";
     }
     void Build()
     {
@@ -59,7 +63,7 @@ public class GuitarRhythmGame : MonoBehaviour
         group=page.gameObject.AddComponent<CanvasGroup>();
         RuntimePanelUI.Panel("RiverView",page,new Vector2(.025f,.65f),new Vector2(.72f,.98f),new Color(.46f,.66f,.62f));
         for(int i=0;i<4;i++)RuntimePanelUI.Panel("WaterGlint",page,new Vector2(.04f+i*.16f,.72f+(i%2)*.06f),new Vector2(.15f+i*.16f,.724f+(i%2)*.06f),new Color(.74f,.82f,.68f),false);
-        var art=RuntimePanelUI.Rect("GuitarAndHands",page,new Vector2(.12f,.65f),new Vector2(.68f,.99f));art.gameObject.AddComponent<GuitarCloseupGraphic>().raycastTarget=false;
+        var art=RuntimePanelUI.Rect("GuitarAndHands",page,new Vector2(.12f,.65f),new Vector2(.68f,.99f));hands=art.gameObject.AddComponent<P04GuitarHands>();hands.rhythm=this;
         title=Text("",.74f,.9f,.98f,.98f,28);
         chordPlate=RuntimePanelUI.Panel("HeldChord",page,new Vector2(.75f,.72f),new Vector2(.97f,.89f),new Color(.27f,.34f,.29f));
         chord=RuntimePanelUI.Text("",chordPlate.transform,chapter.font,new Vector2(.02f,.05f),new Vector2(.98f,.95f),30);
@@ -94,14 +98,14 @@ public class GuitarRhythmGame : MonoBehaviour
             var note=p.notes[i];int lane=Array.IndexOf(Keys,note.key);
             var token=RuntimePanelUI.Panel(note.key.ToString(),track,Vector2.zero,Vector2.zero,new Color(.91f,.72f,.37f),false).rectTransform;
             token.sizeDelta=new Vector2(note.key==KeyCode.Space?76:44,42);tokens[i]=token;
-            RuntimePanelUI.Text(note.key==KeyCode.Space?"拍":note.key.ToString(),token,chapter.font,Vector2.zero,Vector2.one,25).color=new Color(.19f,.22f,.18f);
+            RuntimePanelUI.Text(note.key==KeyCode.Space?"Space":note.key.ToString(),token,chapter.font,Vector2.zero,Vector2.one,25).color=new Color(.19f,.22f,.18f);
         }
         sustain.Reset(p.notes[0].time, p.notes[p.notes.Length-1].time, releaseGraceSeconds);
-        missed=false;transitioning=false;phraseStarted=GameplayClock.Now;
-        title.text=$"第 {PhraseIndex+1} / 4 段";
-        chord.text="持续按住\n"+(p.heldChord==KeyCode.LeftArrow?"←":"→");
-        feedback.text="跟着琴弦慢慢来";
-        instruction.text="音符到竖线时按键 · 段尾松开 W/S/A/D 后按 Space · Good / Perfect 均可通过";
+        missed=false;transitioning=false;phraseStarted=GameplayClock.Now+PreRollSeconds;
+        title.text="";
+        chord.text=p.heldChord==KeyCode.LeftArrow?"←":"→";
+        feedback.text="";feedback.enabled=false;
+        instruction.text="";
         PhraseStarted?.Invoke(PhraseIndex);
     }
     bool HeldCorrectly()=>GameplayInput.GetKey(phrases[PhraseIndex].heldChord)&&!GameplayInput.GetKey(phrases[PhraseIndex].heldChord==KeyCode.LeftArrow?KeyCode.RightArrow:KeyCode.LeftArrow);
@@ -122,8 +126,8 @@ public class GuitarRhythmGame : MonoBehaviour
     }
     void DrawSustain(float time,bool held)
     {
-        var p=phrases[PhraseIndex];float head=.145f+(p.notes[0].time-time)/approachSeconds*.80f;
-        float tail=.145f+(p.notes[p.notes.Length-1].time-time)/approachSeconds*.80f;
+        var p=phrases[PhraseIndex];float head=.145f+(p.notes[0].time-time)/ChordApproachSeconds*.825f;
+        float tail=.145f+(p.notes[p.notes.Length-1].time-time)/ChordApproachSeconds*.825f;
         float x=p.heldChord==KeyCode.LeftArrow?.09f:.59f;
         sustainBar.gameObject.SetActive(head<=.97f&&tail>=.145f);
         sustainBar.anchorMin=new Vector2(x,Mathf.Clamp(head,.145f,.97f));
@@ -136,8 +140,8 @@ public class GuitarRhythmGame : MonoBehaviour
         var p=phrases[PhraseIndex];
         for(int i=0;i<p.notes.Length;i++)
         {
-            float lead=p.notes[i].key==KeyCode.Space?Mathf.Max(approachSeconds,spaceApproachSeconds):approachSeconds;
-            float normalized=.18f+(p.notes[i].time-time)/lead*.78f;
+            float lead=p.notes[i].key==KeyCode.Space?SpaceLeadSeconds:approachSeconds;
+            float normalized=.18f+(p.notes[i].time-time)/lead*.82f;
             tokens[i].anchorMin=tokens[i].anchorMax=new Vector2(normalized,.90f-Array.IndexOf(Keys,p.notes[i].key)*.18f);
             tokens[i].anchoredPosition=Vector2.zero;tokens[i].gameObject.SetActive(!judged[i]&&normalized>=.04f&&normalized<=1);
             if(!judged[i]&&time>p.notes[i].time+p.goodWindow)Judge(i,false,time,"Miss · 漏拍");
@@ -188,3 +192,6 @@ public class GuitarRhythmGame : MonoBehaviour
     void Release(){if(ownsLock&&chapter!=null&&chapter.Controls!=null)chapter.Controls.ReleaseLock(ControlLockReason.CloseUp);ownsLock=false;}
     void OnDisable(){StopAllCoroutines();IsRunning=false;Release();if(canvas!=null)canvas.gameObject.SetActive(false);}
 }
+
+
+

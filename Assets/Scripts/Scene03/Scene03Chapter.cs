@@ -44,9 +44,9 @@ public class Scene03Chapter : MonoBehaviour
     void SetupSound()
     {
         Loop(phone,content.phoneRing,Story.Has(StoryFlag.Scene03PhoneAnswered)?0:.2f);
-        if(Story.Has(StoryFlag.Scene03PhoneAnswered))phone.Stop();
+        if(phone&&Story.Has(StoryFlag.Scene03PhoneAnswered))phone.Stop();
     }
-    static void Loop(AudioSource s,AudioClip clip,float volume){s.clip=clip;s.loop=true;s.volume=volume;s.Play();}
+    static void Loop(AudioSource s,AudioClip clip,float volume){if(!s||!clip)return;s.clip=clip;s.loop=true;s.volume=volume;s.Play();}
     void Update()
     {
         if(!ready)return;
@@ -60,18 +60,24 @@ public class Scene03Chapter : MonoBehaviour
         float x=child.transform.position.x;
         var framing=Camera.main.GetComponent<RoomPresentationFraming>();
         if(street && x>108 && (!framing||!framing.FramesPosition(child.transform.position)))Camera.main.orthographicSize=Mathf.Lerp(Camera.main.orthographicSize,6.8f,Time.deltaTime);
-        if(street && x>112 && !Story.Has(StoryFlag.Scene03MazePreludeReached) && !Controls.IsLocked() && !busy)StartCoroutine(Prelude());
+        // The camera reaction belongs to actual maze entry, not the street approach.
         if(!street&&!Story.Has(StoryFlag.Scene03PhoneAnswered)&&Time.time>reminderAt&&!Controls.IsLocked())
         {PersistentRuntime.Instance.GetComponent<StoryNoticeUI>().Show("小鹏，电话响半天了。",4);reminderAt=Time.time+25;}
     }
-    void SetArea(bool street)
+    public void SetArea(bool street)
     {
         homeRoot.SetActive(!street);streetRoot.SetActive(street);
         if(livingRoomRoot!=null)livingRoomRoot.SetActive(!street);
         var p=(street?streetSpawn:homeSpawn).position;child.transform.position=p;child.GetComponent<Rigidbody2D>().position=p;
         child.GetComponent<Rigidbody2D>().linearVelocity=Vector2.zero;
         GroundedPlacement.Settle(child);
-        follow.SetLimits(street?-22:-19,street?135:15);Camera.main.orthographicSize=street?5.7f:5.2f;follow.SnapToTarget();
+        follow.SetLimits(street?-28:-12.2f,street?105:3.6f);Camera.main.orthographicSize=street?5.7f:5.2f;follow.SnapToTarget();
+    }
+    public void ReturnToStreet(Vector3 position)
+    {
+        maze.ReleaseToHome();Story.Set(StoryFlag.Scene03FreeRiver,false);Story.Set(StoryFlag.Scene03ReturnedToStreet);SetArea(true);
+        child.transform.position=position;child.GetComponent<Rigidbody2D>().position=position;GroundedPlacement.Settle(child);
+        follow.SnapToTarget();RoomPresentationFraming.PrepareCurrentView();
     }
     public void ReturnHomeFromRiver()
     {
@@ -88,6 +94,7 @@ public class Scene03Chapter : MonoBehaviour
     public void Interact(ChildhoodAction action)
     {
         if(!ready||busy||Controls.IsLocked())return;
+        if(action==ChildhoodAction.Fish&&Story.Has(StoryFlag.Scene03RiverSequenceCompleted))return;
         if (action == ChildhoodAction.Endpoint && maze != null) { maze.Enter(); return; }
         if(Story.Has(StoryFlag.Scene03ReturnedHome))
         {
@@ -114,7 +121,7 @@ public class Scene03Chapter : MonoBehaviour
             {
                 case ChildhoodAction.Phone:
                     if(Story.Has(StoryFlag.Scene03PhoneAnswered)){yield return Say(content.parentsRepeat);break;}
-                    phone.Stop();yield return Say(content.phone);Story.Set(StoryFlag.Scene03PhoneAnswered);
+                    if(phone)phone.Stop();yield return Say(content.phone);Story.Set(StoryFlag.Scene03PhoneAnswered);
                     yield return Say(content.parents);Story.Set(StoryFlag.Scene03IntroCompleted);break;
                 case ChildhoodAction.Parents:yield return Say(Story.Has(StoryFlag.Scene03IntroCompleted)?content.parentsRepeat:content.stairs);break;
                 case ChildhoodAction.Camera:
@@ -170,7 +177,7 @@ public class Scene03Chapter : MonoBehaviour
         for(float t=0;t<duration;t+=GameplayClock.Delta){curtain.alpha=Mathf.Lerp(start,alpha,t/duration);yield return null;}
         curtain.alpha=alpha;curtain.blocksRaycasts=alpha>.01f;
     }
-    void Lock(){Controls.AcquireLock(ControlLockReason.Interaction);ownsLock=true;}
-    void Unlock(){if(ownsLock&&Controls!=null)Controls.ReleaseLock(ControlLockReason.Interaction);ownsLock=false;}
+    void Lock(){Controls.AcquireLock(ControlLockReason.Interaction,this);ownsLock=true;}
+    void Unlock(){if(ownsLock&&Controls!=null)Controls.ReleaseLock(ControlLockReason.Interaction,this);ownsLock=false;}
     void OnDisable(){StopAllCoroutines();Unlock();if(cameraMode!=null)cameraMode.ContextAvailable=true;}
 }

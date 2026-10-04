@@ -1,0 +1,15 @@
+Riverbank/P04_QuietRiverGround | MeshRenderer | foot=69.420 height=1.600 x=303.000 | Transform,P03RepeatedRoomStrip,MeshFilter,MeshRenderer
+Demo2026_SparseForeground/StreetBranchRight | SPR_FOREGROUND_OCCLUDERS_V02:1 | foot=32.500 height=1.500 x=25.800 | Transform,SpriteRenderer
+Riverbank/小凉亭/Stage_StraightPavilion | SPR_RIVER_PAVILION_STRAIGHT_V02 | foot=70.500 height=3.100 x=299.500 | Transform,SpriteRenderer
+Riverbank/CloseScale_FarShore | RIVER_DISTANT_ONLY | foot=75.050 height=8.980 x=303.000 | Transform,SpriteRenderer
+Riverbank/Revision_ContinuousWater | TEX_RIVER_WATER_CLOSE_V05 | foot=70.750 height=4.300 x=303.000 | Transform,SpriteRenderer
+Riverbank/CloseScale_Bank_1 | RiverBank_ParapetOnly_V2 | foot=70.843 height=0.626 x=294.980 | Transform,SpriteRenderer
+Riverbank/CloseScale_Bank_2 | RiverBank_ParapetOnly_V2 | foot=70.843 height=0.626 x=302.960 | Transform,SpriteRenderer
+Riverbank/CloseScale_Bank_3 | RiverBank_ParapetOnly_V2 | foot=70.843 height=0.626 x=310.940 | Transform,SpriteRenderer
+Riverbank/Boy_WaitingWithGuitar/NewArt_Actor | CHR_BOY_CHILD_ACTION4_V02:1 | foot=70.980 height=1.180 x=300.200 | Transform,SpriteRenderer,RetiredArtVisibility,PaintedContactShadow
+Demo2026_SparseForeground/HomeNearChairBack | SPR_FOREGROUND_OCCLUDERS_V02:2 | foot=-0.550 height=1.380 x=-11.500 | Transform,SpriteRenderer
+Demo2026_SparseForeground/StreetBranchLeft | SPR_FOREGROUND_OCCLUDERS_V02:0 | foot=32.500 height=1.500 x=120.500 | Transform,SpriteRenderer
+Riverbank/CloseScale_Bank_4 | RiverBank_ParapetOnly_V2 | foot=70.843 height=0.626 x=318.920 | Transform,SpriteRenderer
+YoungXiaoPeng/Demo2026_PlayerPainting | CHR_XP_CHILD_ACTION4_B:2 | foot=70.985 height=1.080 x=298.900 | Transform,SpriteRenderer,PaintedContactShadow
+Riverbank/河堤老树/NewArt_Visual | SPR_RIVER_TREE_PAVILION:0 | foot=70.859 height=4.802 x=309.199 | Transform,SpriteRenderer,RetiredArtVisibility
+Riverbank/CloseScale_Bank_0 | RiverBank_ParapetOnly_V2 | foot=70.843 height=0.626 x=287.000 | Transform,SpriteRenderer
