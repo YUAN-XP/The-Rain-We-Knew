@@ -116,7 +116,7 @@ public class GuitarRhythmGame : MonoBehaviour
         if(!hadFocus){hadFocus=true;StartPhrase();}
         bool held=HeldCorrectly();chordPlate.color=held?new Color(.37f,.52f,.33f):new Color(.37f,.31f,.23f);
         if(sustain.Tick(PhraseTime,GameplayClock.Delta,held)){
-            missed=true;feedback.text="Miss · 长条结束前请持续按住和弦";
+            missed=true;feedback.text="未命中 · 长条结束前请持续按住和弦";
             feedback.color=new Color(1,.70f,.55f);Judged?.Invoke(phrases[PhraseIndex].heldChord,false,PhraseTime,"Miss · 和弦中断");
         }
         DrawSustain(PhraseTime,held);
@@ -159,7 +159,7 @@ public class GuitarRhythmGame : MonoBehaviour
         }
         if(!remaining)return;
         if(nearest<0||delta>p.goodWindow)
-        {missed=true;feedback.text="Miss · 跟着当前音符";feedback.color=new Color(1,.70f,.55f);Judged?.Invoke(key,held,time,"Miss · 错键或时机");return;}
+        {missed=true;feedback.text="未命中 · 跟着当前音符";feedback.color=new Color(1,.70f,.55f);Judged?.Invoke(key,held,time,"Miss · 错键或时机");return;}
         bool released=true;
         if(key==KeyCode.Space)foreach(var noteKey in Keys)if(noteKey!=KeyCode.Space&&GameplayInput.GetKey(noteKey))released=false;
         if(!released){Judge(nearest,false,time,"Miss · 拍弦前请松开 W/S/A/D");return;}
@@ -169,7 +169,7 @@ public class GuitarRhythmGame : MonoBehaviour
     void Judge(int index,bool success,float time,string text)
     {
         judged[index]=true;missed|=!success;tokens[index].gameObject.SetActive(false);
-        feedback.text=text;feedback.color=success?new Color(.80f,.94f,.63f):new Color(1,.70f,.55f);
+        feedback.text=text.Replace("Miss ·","未命中 ·").Replace("Perfect","完美").Replace("Good","良好");feedback.color=success?new Color(.80f,.94f,.63f):new Color(1,.70f,.55f);
         if(success&&phrases[PhraseIndex].notes[index].tone!=null)instrument.PlayOneShot(phrases[PhraseIndex].notes[index].tone,.65f);
         Judged?.Invoke(phrases[PhraseIndex].notes[index].key,success,time,text);
     }

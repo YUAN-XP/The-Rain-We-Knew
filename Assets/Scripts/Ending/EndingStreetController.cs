@@ -84,7 +84,7 @@ public sealed class EndingStreetController:EndingStageController
         noticeRunning=false;
     }
     IEnumerator Board(){
-        if(!CanBoard)yield break;Lock();followGuide=false;if(nativeFollow)nativeFollow.End();boardingInProgress=true;boardingPlayerPosition=controls.ActivePlayer.transform.position;
+        if(!CanBoard)yield break;Lock();runtime.GetComponent<QuestProgress>()?.Publish(QuestEvent.BoardingTriggered);followGuide=false;if(nativeFollow)nativeFollow.End();boardingInProgress=true;boardingPlayerPosition=controls.ActivePlayer.transform.position;
         var player=controls.ActivePlayer;var body=player.GetComponent<Rigidbody2D>();bool simulated=body.simulated;boardingBody=body;boardingSimulated=simulated;body.simulated=false;
         try {
             yield return Move(player.transform,playerWait.position,data.boardingSeconds*.6f);

@@ -1,0 +1,37 @@
+{
+  "head": "103a1de",
+  "files": [
+    {
+      "file": "Assets/Scripts/System/GamePause.cs",
+      "sha256": "388a5e8aebfa2029c417f27304719347854067d5757cc51ea080d59b71e6db14"
+    },
+    {
+      "file": "Assets/Scripts/System/PersistentRuntime.cs",
+      "sha256": "da3dd790520acdd9d0a54d00ae44d8bfab9981603972802b73b5dcf76d21ec1d"
+    },
+    {
+      "file": "Assets/Scripts/System/P01SessionRestart.cs",
+      "sha256": "8c0a994b52e1a7ee0693fcc5684c6ff72f6e7983c3b3b7b69b97f52cc09f2a78"
+    },
+    {
+      "file": "Assets/Scripts/Story/QuestProgress.cs",
+      "sha256": "43e298256659ec62c071f957e1d59ecc43f2cba78901c1927765c7c356ead296"
+    },
+    {
+      "file": "Assets/Scripts/Ending/EndingHospital.cs",
+      "sha256": "30a99c6902341ee1380eb781f98a2b48dd1bbb5db43d762572bde00a528e7363"
+    },
+    {
+      "file": "Assets/Resources/DemoArtCatalog.asset",
+      "sha256": "df1c58a83f141133f27ce3c63fd28488341ce483a691ef9a5351389f25090604"
+    },
+    {
+      "file": "Assets/Scripts/Presentation/P02CharacterRig.cs",
+      "sha256": "b533f633ee360aafbcddf865b67af1b41e57713f55c1de07cdc703d940bbc2c0"
+    },
+    {
+      "file": "Assets/Scenes/Scene01_Rain.unity",
+      "sha256": "f089e91d64f9f9abd0a840c5d1a100c2f6812b515b2fdcab0606ff52017da951"
+    }
+  ]
+}

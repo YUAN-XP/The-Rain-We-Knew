@@ -40,6 +40,8 @@ public sealed class P02CharacterRig : MonoBehaviour
     public float ToolBlend { get; set; }
     public string ToolKind { get; set; }
     public bool CredentialOffer { get; set; }
+    // P07 opening-only pose; locomotion and other animations are untouched when negative.
+    public float OpeningRise=-1;
     public bool planarMovement;
     Vector2 travelAxis=Vector2.right;
     // Ground depth and body height share the screen Y axis in this 2D view.
@@ -278,6 +280,7 @@ public sealed class P02CharacterRig : MonoBehaviour
             Arm("near",0,torsoBase+new Vector2(sign*Mathf.Abs(definition.shoulderOffset.x)*definition.torsoWidth,definition.shoulderOffset.y),h,lean);
             Arm("far",.5f,torsoBase+new Vector2(-sign*Mathf.Abs(definition.shoulderOffset.x)*definition.torsoWidth,definition.shoulderOffset.y),h,lean);
         }else{Arm("near", 0, shoulder, h, lean);Arm("far", .5f, shoulder + Rotate(new Vector2(-.02f,0), -lean), h, lean);}
+        if(OpeningRise>=0)ApplyOpeningRise(h);
         foreach (var part in parts)
         {
             if(part.binding.runSprite)
@@ -309,6 +312,54 @@ public sealed class P02CharacterRig : MonoBehaviour
                 part.bend * (breath * .55f + Mathf.Sin(phase * Mathf.PI * 2) * movementBlend);
             part.tip.localRotation = part.tipBind * Quaternion.Euler(0, 0, bend*facingSign);
         }
+    }
+
+
+    // Opening-only supported push-up -> half kneel -> stand. Ground contacts
+    // are calibrated from the painted sole, exactly as in normal locomotion.
+    // No actor/collider or production gait parameters are changed by this pose.
+    void ApplyOpeningRise(float h)
+    {
+        float u=Mathf.Clamp01(OpeningRise);
+        var normalPelvis=(Vector2)(Joint("pelvis").localPosition/h);normalPelvis.x*=facingSign;
+        Vector2 pelvis=OpeningPoint(u,new Vector2(-.33f,.195f),new Vector2(-.33f,.28f),new Vector2(-.28f,.52f),new Vector2(-.18f,.52f),new Vector2(-.06f,.67f),normalPelvis);
+        float lean=OpeningScalar(u,88,67,43,24,13,0);
+        for(int n=0;n<6;n++){
+            float minimum=1;foreach(string side in new[]{"near","far"}){
+                bool close=side=="near";float x=close?Mathf.Lerp(-1.018f,.075f,Mathf.SmoothStep(0,1,Mathf.InverseLerp(.12f,.34f,u))):OpeningScalar(u,-.995f,-.86f,-.49f,-.43f,-.12f,-.028f);
+                float angle=close?Mathf.Lerp(-82,0,Mathf.SmoothStep(0,1,Mathf.InverseLerp(.12f,.34f,u))):OpeningScalar(u,-82,-68,-44,-23,0,0);float low=1;foreach(var v in paintedSoles[side+"_shoe"])low=Mathf.Min(low,Rotate(Canonical(v),angle).y);
+                var knee=SolveJoint(pelvis+Vector2.down*definition.waistToHip,new Vector2(x,-low),definition.thighLength,definition.shinLength,true);minimum=Mathf.Min(minimum,knee.y);
+            }if(minimum>=.065f||u>.82f)break;pelvis.y+=.065f-minimum;
+        }
+        bodyLean=lean;pelvisHeight=pelvis.y;Set("pelvis",pelvis*h,0);Set("hem",(pelvis+Rotate(new Vector2(.004f,.07f),-lean))*h,-lean);
+        var torso=pelvis+new Vector2(0,.035f);Set("torso",torso*h,-lean);Set("head",(torso+Rotate(definition.neckOffset,-lean))*h,-lean);
+        foreach(string side in new[]{"near","far"}){
+            bool close=side=="near";var normal=(Vector2)(Joint(side+"_shoe").localPosition/h);normal.x*=facingSign;
+            float x=close?Mathf.Lerp(-1.018f,.075f,Mathf.SmoothStep(0,1,Mathf.InverseLerp(.12f,.34f,u))):OpeningScalar(u,-.995f,-.86f,-.49f,-.43f,-.12f,normal.x);if(close&&u>.82f)x=Mathf.Lerp(.075f,normal.x,Mathf.SmoothStep(0,1,Mathf.InverseLerp(.82f,1,u)));
+            float angle=close?Mathf.Lerp(-82,0,Mathf.SmoothStep(0,1,Mathf.InverseLerp(.12f,.34f,u))):OpeningScalar(u,-82,-68,-44,-23,0,0);
+            float lift=close&&u>.12f&&u<.34f?.13f*Mathf.Sin((u-.12f)/.22f*Mathf.PI):!close&&u>.62f&&u<.82f?.065f*Mathf.Sin((u-.62f)/.20f*Mathf.PI):0;
+            var sole=paintedSoles[side+"_shoe"];var low=Rotate(Canonical(sole[0]),angle);int selected=0;
+            for(int i=1;i<sole.Length;i++){var v=Rotate(Canonical(sole[i]),angle);if(v.y<low.y){low=v;selected=i;}}
+            var ankle=new Vector2(x,-low.y+lift);
+            var foot=new FootPose{ankle=ankle,angle=angle,lift=lift,heel=ankle+Rotate(Canonical(sole[0]),angle),toe=ankle+Rotate(Canonical(sole[sole.Length-1]),angle),support=ankle+low,supportIndex=selected,contact=lift<.002f};
+            Leg(side,foot,pelvis,h);
+            var shoulder=torso+Rotate(new Vector2(definition.shoulderOffset.x*definition.torsoWidth+(close?0:-.02f),definition.shoulderOffset.y),-lean);
+            var rest=(Vector2)(Joint(side+"_hand").localPosition/h);rest.x*=facingSign;
+            // Hands press the pavement while the chest is low, then release
+            // before their measured reach is exceeded. Arms fold independently.
+            var press=new Vector2(.27f+(close?0:.025f),.055f);
+            var wrist=OpeningPoint(u,press,press,new Vector2(.31f,.32f),new Vector2(.25f,.57f),new Vector2(.15f,.76f),rest);
+            float reach=definition.upperArmLength+definition.forearmLength-.004f;
+            var axis=wrist-shoulder;if(axis.magnitude>reach)wrist=shoulder+axis.normalized*reach;
+            var elbow=SolveJoint(shoulder,wrist,definition.upperArmLength,definition.forearmLength,false);
+            SetSegment(side+"_upper_arm",shoulder*h,elbow*h);SetSegment(side+"_forearm",elbow*h,wrist*h);SetLimb(side+"_arm",shoulder*h,elbow*h,wrist*h);
+            Set(side+"_hand",wrist*h,Mathf.Atan2(wrist.y-elbow.y,wrist.x-elbow.x)*Mathf.Rad2Deg+90);
+        }
+    }
+    static Vector2 OpeningPoint(float u,Vector2 a,Vector2 b,Vector2 c,Vector2 d,Vector2 e,Vector2 f)=>new Vector2(OpeningScalar(u,a.x,b.x,c.x,d.x,e.x,f.x),OpeningScalar(u,a.y,b.y,c.y,d.y,e.y,f.y));
+    static float OpeningScalar(float u,float a,float b,float c,float d,float e,float f){
+        float[] times={0,.22f,.42f,.62f,.82f,1};float[] values={a,b,c,d,e,f};
+        for(int i=0;i<5;i++)if(u<=times[i+1])return Mathf.Lerp(values[i],values[i+1],Mathf.SmoothStep(0,1,Mathf.InverseLerp(times[i],times[i+1],u)));return f;
     }
 
     void ApplyGarment(SkinnedPart part)
@@ -346,7 +397,7 @@ public sealed class P02CharacterRig : MonoBehaviour
         if(leg){
             part.root.position=Joint(part.joint).position;
             part.root.rotation=transform.rotation;
-            if(projectedLeg){
+            if(projectedLeg||OpeningRise>=0){
                 var waistTurn=Quaternion.Euler(0,0,-bodyLean);
                 var center=Joint("pelvis").position;
                 part.root.position=center+waistTurn*(part.root.position-center);

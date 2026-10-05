@@ -1,0 +1,38 @@
+[
+  {
+    "scene": "Scene01_Rain",
+    "from": "Memory...",
+    "to": "",
+    "count": 1
+  },
+  {
+    "scene": "Scene01_Rain",
+    "from": "DialogueText...",
+    "to": "",
+    "count": 1
+  },
+  {
+    "scene": "Scene01_Rain",
+    "from": "New Text",
+    "to": "",
+    "count": 4
+  },
+  {
+    "scene": "Scene04_School",
+    "from": "1F",
+    "to": "一楼",
+    "count": 2
+  },
+  {
+    "scene": "Scene04_School",
+    "from": "2F",
+    "to": "二楼",
+    "count": 2
+  },
+  {
+    "scene": "Scene04_School",
+    "from": "3F",
+    "to": "三楼",
+    "count": 4
+  }
+]

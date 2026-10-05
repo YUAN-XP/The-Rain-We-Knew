@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "id": "M01",
     "title": "记者与证件套",
@@ -3084,12 +3084,22 @@
     "actions": "替换旧结束UI；五人构图肖鹏邱天主要、主体右侧，保留悬念；左侧标题按钮",
     "acceptance": "结束页有人物且不泄露剧情，与无人物开始页明确区分；按钮可用",
     "code_entry": "Ending/EndingHospital.cs; Ending/EndingPresentation.cs",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "39_P07阶段报告与人工审计.md",
+      "40_P07验证与问题闭环.md",
+      "P07Evidence/checks/suite-summary.json",
+      "P07Evidence/checks/source-version.json",
+      "P07Evidence/runtime/ending/results.txt",
+      "P07Evidence/runtime/ending/37_DemoCompleteMenu.jpg",
+      "P07Evidence/runtime/completion/results.txt"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "用既有五名角色参考制作结束菜单；肖鹏/邱天主要，张若媛/张辰/向焱次要，主体右侧。页面接在原有最后三句及结束条件之后。",
+    "verification_scope": "P07最终候选；474项隔离Play Mode检查、25项规则检查及独立游戏真实设置/重启/退出。完整干净档Demo通关属于P08，本轮不宣称完成。"
   },
   {
     "id": "G01",
@@ -3174,12 +3184,22 @@
     "actions": "清点运行时UI、ScriptableObject和动态拼字中文；名字统一邱天；保留指定开场双语、按键和Bang！",
     "acceptance": "逐场景截图与文本扫描一致；不误删牌面、谜题、任务及开场英文",
     "code_entry": "Assets/Scripts; Assets/GameData; Assets/Resources",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "39_P07阶段报告与人工审计.md",
+      "40_P07验证与问题闭环.md",
+      "P07Evidence/checks/suite-summary.json",
+      "P07Evidence/checks/source-version.json",
+      "P07Evidence/checks/visible-language-review.json",
+      "P07Evidence/checks/settings-and-language-rules.txt",
+      "P07Evidence/runtime/interface/results.txt"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "中文化本轮可见菜单、物品/交互旧显示字符串、吉他判定、学校占位文字；名字保持邱天。保留指定双语引文、标题、按键和Bang，不修改物品ID/存档内容。",
+    "verification_scope": "P07最终候选；474项隔离Play Mode检查、25项规则检查及独立游戏真实设置/重启/退出。完整干净档Demo通关属于P08，本轮不宣称完成。"
   },
   {
     "id": "N01",
@@ -3219,12 +3239,21 @@
     "actions": "无人雨雾吉他离别底图，主视觉右侧；依有效存档决定3/5菜单；继续读最近保存",
     "acceptance": "无存档/仅损坏存档/有效存档分别验证；新游戏完整重置而不偷偷覆盖旧槽",
     "code_entry": "新增主菜单入口；ProjectSettings/EditorBuildSettings.asset",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "39_P07阶段报告与人工审计.md",
+      "40_P07验证与问题闭环.md",
+      "P07Evidence/checks/suite-summary.json",
+      "P07Evidence/checks/source-version.json",
+      "P07Evidence/runtime/interface/results.txt",
+      "P07Evidence/checks/acquisition-rules.txt"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "无人雨雾吉他开始页；空/仅损坏目录三按钮，有效存档五按钮；继续载入最近有效槽。新游戏清空本局，保留磁盘四槽；取消不改变当前会话。",
+    "verification_scope": "P07最终候选；474项隔离Play Mode检查、25项规则检查及独立游戏真实设置/重启/退出。完整干净档Demo通关属于P08，本轮不宣称完成。"
   },
   {
     "id": "N02",
@@ -3252,12 +3281,23 @@
     "actions": "共享设置页默认音频；全局音量；分辨率降序且列表仅当前+2额外可见、支持滚动；制作名单依图99",
     "acceptance": "主菜单和暂停设置一致持久化；分辨率切换不裁切UI；无声环境保持无声，吉他正常响应音量",
     "code_entry": "新增SettingsService及设置界面",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "39_P07阶段报告与人工审计.md",
+      "40_P07验证与问题闭环.md",
+      "P07Evidence/checks/suite-summary.json",
+      "P07Evidence/checks/source-version.json",
+      "P07Evidence/checks/native-validation.json",
+      "P07Evidence/checks/settings-and-language-rules.txt",
+      "P07Evidence/native/12_Restart_Audio.png",
+      "P07Evidence/native/13_Restart_Resolution.png"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "共享音频/画面/制作名单；默认音频，实际全局音量与持久化；分辨率去重降序、当前值及两展开行、滚轮/滑条；袁潇鹏与AI辅助署名。原生窗口验证并恢复测试前设置。",
+    "verification_scope": "P07最终候选；474项隔离Play Mode检查、25项规则检查及独立游戏真实设置/重启/退出。完整干净档Demo通关属于P08，本轮不宣称完成。"
   },
   {
     "id": "N03",
@@ -3277,8 +3317,8 @@
     "actions": "先做稳定状态数据契约和磁盘四槽；P07做正式界面；日期、游玩时长、任务名；空槽不可读",
     "acceptance": "保存→退进程→加载：物品文件服装/剧情/世界/同伴/任务/位置一致；损坏槽明确提示不重置其他槽",
     "code_entry": "Story/StoryStateManager.cs; Ending/EndingSession.cs; Inventory/*; 新增SaveService",
-    "status": "P01范围已存档，后续章节按原阶段实施",
-    "implementation_commit": "c6a4664fa9a810b2f4d78a7abd3d20ef53198f40",
+    "status": "本阶段测试通过，待人工审计",
+    "implementation_commit": null,
     "test_evidence": [
       "Evidence/P01Verification/persistence-runtime.txt",
       "Evidence/ColdCrossChapter/write-report.txt",
@@ -3287,16 +3327,24 @@
       "Evidence/native-menu-check.json",
       "07_P01阶段验收与人工存档.md",
       "Evidence/Continuous/visual-review.json",
-      "Evidence/MainChain/main-chain-complete-status.txt"
+      "Evidence/MainChain/main-chain-complete-status.txt",
+      "39_P07阶段报告与人工审计.md",
+      "40_P07验证与问题闭环.md",
+      "P07Evidence/checks/suite-summary.json",
+      "P07Evidence/checks/source-version.json",
+      "P07Evidence/runtime/interface/results.txt",
+      "P07Evidence/checks/acquisition-rules.txt"
     ],
-    "human_acceptance": "用户同意进入P02；未单独记录逐项人工审计结果",
+    "human_acceptance": "待人工审计",
     "regression_to": [],
     "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
     "implementation_date": "2026-10-01",
     "implemented_scope": "四槽校验原子写入、自由行动限定、损坏隔离、保护恢复；两个独立进程跨四章存读通过；实际菜单覆盖取消与读取通过。",
     "remaining_scope": "P01磁盘四槽与恢复基础已验；正式槽位美术P07。",
     "archive_date": "2026-10-02",
-    "archive_confirmation": "用户确认已留档并要求进入P02；本地origin/main与HEAD一致，未重新发起远端认证或查询。"
+    "archive_confirmation": "用户确认已留档并要求进入P02；本地origin/main与HEAD一致，未重新发起远端认证或查询。",
+    "implementation_detail": "在P01四槽持久化契约上完成纸面四槽界面、任务/日期/时长、空/损坏禁读、覆盖/加载取消及最近有效继续；自由行动禁存规则保留。",
+    "verification_scope": "P07最终候选；474项隔离Play Mode检查、25项规则检查及独立游戏真实设置/重启/退出。完整干净档Demo通关属于P08，本轮不宣称完成。"
   },
   {
     "id": "N04",
@@ -3317,12 +3365,24 @@
     "actions": "六行按1+4、2+5、3+6配对同起同止；保持3秒、文字化黑、独白无立绘、画面亮、推进、起身后交控制",
     "acceptance": "逐行按原图101转录校验；帧时间验证；重复新游戏不叠玩家；继续游戏不重播开场",
     "code_entry": "新增OpeningDirector；Presentation/RoomPresentationFraming.cs",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "39_P07阶段报告与人工审计.md",
+      "40_P07验证与问题闭环.md",
+      "P07Evidence/checks/suite-summary.json",
+      "P07Evidence/checks/source-version.json",
+      "P07Evidence/runtime/interface/results.txt",
+      "P07Evidence/runtime/opening/results.txt",
+      "P07Evidence/runtime/interface/OpeningNormal.mp4",
+      "P07Evidence/runtime/opening/RiseNormal.mp4",
+      "P07Evidence/runtime/opening/RiseSlow.mp4"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "六行引文按1+4/2+5/3+6配对同步，完整后保留3秒；墨化、无立绘头痛独白，P02原生绑定6.5秒起身，原镜头跟随归还，Q01只发布一次。",
+    "verification_scope": "P07最终候选；474项隔离Play Mode检查、25项规则检查及独立游戏真实设置/重启/退出。完整干净档Demo通关属于P08，本轮不宣称完成。"
   },
   {
     "id": "N05",
@@ -3348,23 +3408,31 @@
     "actions": "独立任务投影状态/事件；P07完成黑边左上图标文字渐显、旧任务划线消失再新任务",
     "acceptance": "24节点有唯一事件与隐藏态；重复触发不倒退；读档只显示当前任务；黑划线在黑边仍可辨",
     "code_entry": "Story/StoryStateManager.cs; 新增QuestPresentation",
-    "status": "P01范围已存档，后续章节按原阶段实施",
-    "implementation_commit": "c6a4664fa9a810b2f4d78a7abd3d20ef53198f40",
+    "status": "本阶段测试通过，待人工审计",
+    "implementation_commit": null,
     "test_evidence": [
       "Evidence/P01RestoreEdges/results.txt",
       "Evidence/ColdCrossChapter/read-report.txt",
       "07_P01阶段验收与人工存档.md",
       "Evidence/Continuous/visual-review.json",
-      "Evidence/MainChain/main-chain-complete-status.txt"
+      "Evidence/MainChain/main-chain-complete-status.txt",
+      "39_P07阶段报告与人工审计.md",
+      "40_P07验证与问题闭环.md",
+      "P07Evidence/checks/suite-summary.json",
+      "P07Evidence/checks/source-version.json",
+      "P07Evidence/runtime/tasks/results.txt",
+      "P07Evidence/runtime/tasks/TaskTransitions.mp4"
     ],
-    "human_acceptance": "用户同意进入P02；未单独记录逐项人工审计结果",
+    "human_acceptance": "待人工审计",
     "regression_to": [],
     "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
     "implementation_date": "2026-10-01",
     "implemented_scope": "24稳定事件、当前任务/隐藏态、首次获得去重与存档恢复基础已接入；重复加载不重放。",
     "remaining_scope": "P01事件与恢复基础已验；新增剧情接入及P07任务动画仍按原计划。",
     "archive_date": "2026-10-02",
-    "archive_confirmation": "用户确认已留档并要求进入P02；本地origin/main与HEAD一致，未重新发起远端认证或查询。"
+    "archive_confirmation": "用户确认已留档并要求进入P02；本地origin/main与HEAD一致，未重新发起远端认证或查询。",
+    "implementation_detail": "左上图标淡入、逐字、旧任务划线再新任务，文字自适应底纹；29个语义事件覆盖24需求，隐藏段/重复/旧区回退/读档立即恢复已测。",
+    "verification_scope": "P07最终候选；474项隔离Play Mode检查、25项规则检查及独立游戏真实设置/重启/退出。完整干净档Demo通关属于P08，本轮不宣称完成。"
   },
   {
     "id": "N06",
@@ -3388,12 +3456,21 @@
     "actions": "黑边右上淡底纹按字宽；物品文件服装获得后提示；物品/文件可组合时随后排队提示",
     "acceptance": "多项同时获得不互盖、不重复；仅实际能组合时提示；服装不出现错误组合提示",
     "code_entry": "Inventory/InventoryManager.cs; Inventory/FileArchiveManager.cs; UI/OutfitInventoryPage.cs",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "39_P07阶段报告与人工审计.md",
+      "40_P07验证与问题闭环.md",
+      "P07Evidence/checks/suite-summary.json",
+      "P07Evidence/checks/source-version.json",
+      "P07Evidence/runtime/interface/results.txt",
+      "P07Evidence/checks/acquisition-rules.txt"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "右上浅底纹入包队列，自适应字宽；仅真实配方满足材料/数量/前提/结果/永久物品限制时排队组合提示；成功交易后通知，失败回滚不产生假获得。",
+    "verification_scope": "P07最终候选；474项隔离Play Mode检查、25项规则检查及独立游戏真实设置/重启/退出。完整干净档Demo通关属于P08，本轮不宣称完成。"
   },
   {
     "id": "N07",
@@ -3418,13 +3495,22 @@
     "actions": "首次物品暗环境放大ESC关；文件中心图E读ESC关，读时暗文件中心文字；获得标记随存档",
     "acceptance": "先暂停后打开；关闭不连带暂停菜单；读文不全屏变黑；重复获取不重复首次演出",
     "code_entry": "Inventory/InventoryUI.cs; 新增AcquisitionPresenter",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "39_P07阶段报告与人工审计.md",
+      "40_P07验证与问题闭环.md",
+      "P07Evidence/checks/suite-summary.json",
+      "P07Evidence/checks/source-version.json",
+      "P07Evidence/runtime/interface/results.txt",
+      "P07Evidence/checks/acquisition-rules.txt"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [],
     "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
-    "open_decision": "标题包含服装首次近景，但正文未定服装近景布局；P07开工前确认，不能自行视为取消"
+    "open_decision": "标题包含服装首次近景，但正文未定服装近景布局；P07开工前确认，不能自行视为取消",
+    "implementation_detail": "首次物品黑底放大ESC关；首次文件居中E阅读、文件变暗与居中容器、ESC关；首次标记可存读，重复不重演，非自由行动的近景延迟到原流程归还控制。",
+    "verification_scope": "P07最终候选；474项隔离Play Mode检查、25项规则检查及独立游戏真实设置/重启/退出。完整干净档Demo通关属于P08，本轮不宣称完成。"
   },
   {
     "id": "N08",
@@ -3449,8 +3535,8 @@
     "actions": "先统一模拟时钟和模态输入，P07做左下正式菜单；继续/四槽保存/设置/回主菜单/退出；后二者取消左确认右",
     "acceptance": "物理、敌人、unscaled协程、节奏时钟和音频暂停一致；ESC只关最上层；取消不丢进度",
     "code_entry": "System/GameControlManager.cs; Ending/EndingStageController.cs; Scene03/GuitarRhythmGame.cs",
-    "status": "P01范围已存档，后续章节按原阶段实施",
-    "implementation_commit": "c6a4664fa9a810b2f4d78a7abd3d20ef53198f40",
+    "status": "本阶段测试通过，待人工审计",
+    "implementation_commit": null,
     "test_evidence": [
       "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/Evidence/runtime-rules-check.txt",
       "Evidence/P01Verification/persistence-runtime.txt",
@@ -3459,16 +3545,24 @@
       "Evidence/native-menu-check.json",
       "07_P01阶段验收与人工存档.md",
       "Evidence/Continuous/visual-review.json",
-      "Evidence/MainChain/main-chain-complete-status.txt"
+      "Evidence/MainChain/main-chain-complete-status.txt",
+      "39_P07阶段报告与人工审计.md",
+      "40_P07验证与问题闭环.md",
+      "P07Evidence/checks/suite-summary.json",
+      "P07Evidence/checks/source-version.json",
+      "P07Evidence/runtime/interface/results.txt",
+      "P07Evidence/checks/acquisition-rules.txt"
     ],
-    "human_acceptance": "用户同意进入P02；未单独记录逐项人工审计结果",
+    "human_acceptance": "待人工审计",
     "regression_to": [],
     "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
     "implementation_date": "2026-10-01",
     "implemented_scope": "统一时钟/物理/追逐/吉他音频暂停、所有者控制锁、ESC基础菜单；暂停不可绕过禁存。",
     "remaining_scope": "P01暂停及基础菜单已验；正式菜单、设置P07。",
     "archive_date": "2026-10-02",
-    "archive_confirmation": "用户确认已留档并要求进入P02；本地origin/main与HEAD一致，未重新发起远端认证或查询。"
+    "archive_confirmation": "用户确认已留档并要求进入P02；本地origin/main与HEAD一致，未重新发起远端认证或查询。",
+    "implementation_detail": "共用冻结源的左下五按钮暂停页；返回/退出确认取消左确认右，取消不丢进度；最上层ESC消费同帧，暂停、演出、追逐、吉他禁存与原失焦规则保留。",
+    "verification_scope": "P07最终候选；474项隔离Play Mode检查、25项规则检查及独立游戏真实设置/重启/退出。完整干净档Demo通关属于P08，本轮不宣称完成。"
   },
   {
     "id": "Q01",
@@ -3484,12 +3578,21 @@
     "actions": "按原文事件投影任务，不用坐标轮询推进；拟事件 OpeningControlGranted",
     "acceptance": "按节点前/后、重复事件、返回旧区域、保存重载四种情况验证；包括原文指定隐藏时段",
     "code_entry": "新Quest事件表；对应场景控制器",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "39_P07阶段报告与人工审计.md",
+      "40_P07验证与问题闭环.md",
+      "P07Evidence/checks/suite-summary.json",
+      "P07Evidence/checks/source-version.json",
+      "P07Evidence/runtime/tasks/results.txt",
+      "P07Evidence/runtime/tasks/TaskTransitions.mp4"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "起身结束并归还控制；OpeningControlGranted；最终显示：探索周围。只投影原语义事件，不用坐标轮询推进剧情。",
+    "verification_scope": "P07最终候选；474项隔离Play Mode检查、25项规则检查及独立游戏真实设置/重启/退出。完整干净档Demo通关属于P08，本轮不宣称完成。"
   },
   {
     "id": "Q02",
@@ -3505,12 +3608,21 @@
     "actions": "按原文事件投影任务，不用坐标轮询推进；拟事件 GateKeyMissing",
     "acceptance": "按节点前/后、重复事件、返回旧区域、保存重载四种情况验证；包括原文指定隐藏时段",
     "code_entry": "新Quest事件表；对应场景控制器",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "39_P07阶段报告与人工审计.md",
+      "40_P07验证与问题闭环.md",
+      "P07Evidence/checks/suite-summary.json",
+      "P07Evidence/checks/source-version.json",
+      "P07Evidence/runtime/tasks/results.txt",
+      "P07Evidence/runtime/tasks/TaskTransitions.mp4"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "原铁门缺钥匙交互；GateKeyMissing；最终显示：寻找铁门钥匙。只投影原语义事件，不用坐标轮询推进剧情。",
+    "verification_scope": "P07最终候选；474项隔离Play Mode检查、25项规则检查及独立游戏真实设置/重启/退出。完整干净档Demo通关属于P08，本轮不宣称完成。"
   },
   {
     "id": "Q03",
@@ -3526,12 +3638,21 @@
     "actions": "按原文事件投影任务，不用坐标轮询推进；拟事件 GateKeyObtained",
     "acceptance": "按节点前/后、重复事件、返回旧区域、保存重载四种情况验证；包括原文指定隐藏时段",
     "code_entry": "新Quest事件表；对应场景控制器",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "39_P07阶段报告与人工审计.md",
+      "40_P07验证与问题闭环.md",
+      "P07Evidence/checks/suite-summary.json",
+      "P07Evidence/checks/source-version.json",
+      "P07Evidence/runtime/tasks/results.txt",
+      "P07Evidence/runtime/tasks/TaskTransitions.mp4"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "原钥匙入包；GateKeyObtained；最终显示：探索家属院。只投影原语义事件，不用坐标轮询推进剧情。",
+    "verification_scope": "P07最终候选；474项隔离Play Mode检查、25项规则检查及独立游戏真实设置/重启/退出。完整干净档Demo通关属于P08，本轮不宣称完成。"
   },
   {
     "id": "Q04",
@@ -3547,12 +3668,21 @@
     "actions": "按原文事件投影任务，不用坐标轮询推进；拟事件 ChildShadowTriggered",
     "acceptance": "按节点前/后、重复事件、返回旧区域、保存重载四种情况验证；包括原文指定隐藏时段",
     "code_entry": "新Quest事件表；对应场景控制器",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "39_P07阶段报告与人工审计.md",
+      "40_P07验证与问题闭环.md",
+      "P07Evidence/checks/suite-summary.json",
+      "P07Evidence/checks/source-version.json",
+      "P07Evidence/runtime/tasks/results.txt",
+      "P07Evidence/runtime/tasks/TaskTransitions.mp4"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "原孩童阴影演出开始；ChildShadowTriggered；最终显示：追上阴影。只投影原语义事件，不用坐标轮询推进剧情。",
+    "verification_scope": "P07最终候选；474项隔离Play Mode检查、25项规则检查及独立游戏真实设置/重启/退出。完整干净档Demo通关属于P08，本轮不宣称完成。"
   },
   {
     "id": "Q05",
@@ -3568,12 +3698,21 @@
     "actions": "按原文事件投影任务，不用坐标轮询推进；拟事件 ChildhoodEntered",
     "acceptance": "按节点前/后、重复事件、返回旧区域、保存重载四种情况验证；包括原文指定隐藏时段",
     "code_entry": "新Quest事件表；对应场景控制器",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "39_P07阶段报告与人工审计.md",
+      "40_P07验证与问题闭环.md",
+      "P07Evidence/checks/suite-summary.json",
+      "P07Evidence/checks/source-version.json",
+      "P07Evidence/runtime/tasks/results.txt",
+      "P07Evidence/runtime/tasks/TaskTransitions.mp4"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "原童年场景开始；ChildhoodEntered；最终显示：接电话。只投影原语义事件，不用坐标轮询推进剧情。",
+    "verification_scope": "P07最终候选；474项隔离Play Mode检查、25项规则检查及独立游戏真实设置/重启/退出。完整干净档Demo通关属于P08，本轮不宣称完成。"
   },
   {
     "id": "Q06",
@@ -3589,12 +3728,21 @@
     "actions": "按原文事件投影任务，不用坐标轮询推进；拟事件 PhoneDialogueCompleted",
     "acceptance": "按节点前/后、重复事件、返回旧区域、保存重载四种情况验证；包括原文指定隐藏时段",
     "code_entry": "新Quest事件表；对应场景控制器",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "39_P07阶段报告与人工审计.md",
+      "40_P07验证与问题闭环.md",
+      "P07Evidence/checks/suite-summary.json",
+      "P07Evidence/checks/source-version.json",
+      "P07Evidence/runtime/tasks/results.txt",
+      "P07Evidence/runtime/tasks/TaskTransitions.mp4"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "原电话对白结束；PhoneDialogueCompleted；最终显示：前往客厅拿上相机。只投影原语义事件，不用坐标轮询推进剧情。",
+    "verification_scope": "P07最终候选；474项隔离Play Mode检查、25项规则检查及独立游戏真实设置/重启/退出。完整干净档Demo通关属于P08，本轮不宣称完成。"
   },
   {
     "id": "Q07",
@@ -3610,12 +3758,21 @@
     "actions": "按原文事件投影任务，不用坐标轮询推进；拟事件 CameraObtained",
     "acceptance": "按节点前/后、重复事件、返回旧区域、保存重载四种情况验证；包括原文指定隐藏时段",
     "code_entry": "新Quest事件表；对应场景控制器",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "39_P07阶段报告与人工审计.md",
+      "40_P07验证与问题闭环.md",
+      "P07Evidence/checks/suite-summary.json",
+      "P07Evidence/checks/source-version.json",
+      "P07Evidence/runtime/tasks/results.txt",
+      "P07Evidence/runtime/tasks/TaskTransitions.mp4"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "原客厅相机实际获得；CameraObtained；最终显示：探索周围，前往河畔寻找男孩。只投影原语义事件，不用坐标轮询推进剧情。",
+    "verification_scope": "P07最终候选；474项隔离Play Mode检查、25项规则检查及独立游戏真实设置/重启/退出。完整干净档Demo通关属于P08，本轮不宣称完成。"
   },
   {
     "id": "Q08",
@@ -3631,12 +3788,21 @@
     "actions": "按原文事件投影任务，不用坐标轮询推进；拟事件 BoyFound/ReturnControlAfterZhao",
     "acceptance": "按节点前/后、重复事件、返回旧区域、保存重载四种情况验证；包括原文指定隐藏时段",
     "code_entry": "新Quest事件表；对应场景控制器",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "39_P07阶段报告与人工审计.md",
+      "40_P07验证与问题闭环.md",
+      "P07Evidence/checks/suite-summary.json",
+      "P07Evidence/checks/source-version.json",
+      "P07Evidence/runtime/tasks/results.txt",
+      "P07Evidence/runtime/tasks/TaskTransitions.mp4"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "找到男孩先隐藏；赵诚段落归还控制后；BoyFound → ReturnControlAfterZhao；最终显示：回家。只投影原语义事件，不用坐标轮询推进剧情。",
+    "verification_scope": "P07最终候选；474项隔离Play Mode检查、25项规则检查及独立游戏真实设置/重启/退出。完整干净档Demo通关属于P08，本轮不宣称完成。"
   },
   {
     "id": "Q09",
@@ -3652,12 +3818,21 @@
     "actions": "按原文事件投影任务，不用坐标轮询推进；拟事件 HomeEnteredAfterRiver",
     "acceptance": "按节点前/后、重复事件、返回旧区域、保存重载四种情况验证；包括原文指定隐藏时段",
     "code_entry": "新Quest事件表；对应场景控制器",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "39_P07阶段报告与人工审计.md",
+      "40_P07验证与问题闭环.md",
+      "P07Evidence/checks/suite-summary.json",
+      "P07Evidence/checks/source-version.json",
+      "P07Evidence/runtime/tasks/results.txt",
+      "P07Evidence/runtime/tasks/TaskTransitions.mp4"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "原返家状态建立；HomeEnteredAfterRiver；最终显示：探索客厅。只投影原语义事件，不用坐标轮询推进剧情。",
+    "verification_scope": "P07最终候选；474项隔离Play Mode检查、25项规则检查及独立游戏真实设置/重启/退出。完整干净档Demo通关属于P08，本轮不宣称完成。"
   },
   {
     "id": "Q10",
@@ -3673,12 +3848,21 @@
     "actions": "按原文事件投影任务，不用坐标轮询推进；拟事件 FamilyPhotoAgreed",
     "acceptance": "按节点前/后、重复事件、返回旧区域、保存重载四种情况验证；包括原文指定隐藏时段",
     "code_entry": "新Quest事件表；对应场景控制器",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "39_P07阶段报告与人工审计.md",
+      "40_P07验证与问题闭环.md",
+      "P07Evidence/checks/suite-summary.json",
+      "P07Evidence/checks/source-version.json",
+      "P07Evidence/runtime/tasks/results.txt",
+      "P07Evidence/runtime/tasks/TaskTransitions.mp4"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "原家庭合照准备完成；FamilyPhotoAgreed；最终显示：将相机放至机架。只投影原语义事件，不用坐标轮询推进剧情。",
+    "verification_scope": "P07最终候选；474项隔离Play Mode检查、25项规则检查及独立游戏真实设置/重启/退出。完整干净档Demo通关属于P08，本轮不宣称完成。"
   },
   {
     "id": "Q11",
@@ -3694,12 +3878,21 @@
     "actions": "按原文事件投影任务，不用坐标轮询推进；拟事件 CameraPlaced/OtherworldHomeControl",
     "acceptance": "按节点前/后、重复事件、返回旧区域、保存重载四种情况验证；包括原文指定隐藏时段",
     "code_entry": "新Quest事件表；对应场景控制器",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "39_P07阶段报告与人工审计.md",
+      "40_P07验证与问题闭环.md",
+      "P07Evidence/checks/suite-summary.json",
+      "P07Evidence/checks/source-version.json",
+      "P07Evidence/runtime/tasks/results.txt",
+      "P07Evidence/runtime/tasks/TaskTransitions.mp4"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "放置相机先隐藏；异世界控制归还后；CameraPlaced → OtherworldHomeControl；最终显示：探索二楼次卧。只投影原语义事件，不用坐标轮询推进剧情。",
+    "verification_scope": "P07最终候选；474项隔离Play Mode检查、25项规则检查及独立游戏真实设置/重启/退出。完整干净档Demo通关属于P08，本轮不宣称完成。"
   },
   {
     "id": "Q12",
@@ -3715,12 +3908,21 @@
     "actions": "按原文事件投影任务，不用坐标轮询推进；拟事件 LampObtained",
     "acceptance": "按节点前/后、重复事件、返回旧区域、保存重载四种情况验证；包括原文指定隐藏时段",
     "code_entry": "新Quest事件表；对应场景控制器",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "39_P07阶段报告与人工审计.md",
+      "40_P07验证与问题闭环.md",
+      "P07Evidence/checks/suite-summary.json",
+      "P07Evidence/checks/source-version.json",
+      "P07Evidence/runtime/tasks/results.txt",
+      "P07Evidence/runtime/tasks/TaskTransitions.mp4"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "原油灯获得；LampObtained；最终显示：穿越黑雾。只投影原语义事件，不用坐标轮询推进剧情。",
+    "verification_scope": "P07最终候选；474项隔离Play Mode检查、25项规则检查及独立游戏真实设置/重启/退出。完整干净档Demo通关属于P08，本轮不宣称完成。"
   },
   {
     "id": "Q13",
@@ -3736,12 +3938,21 @@
     "actions": "按原文事件投影任务，不用坐标轮询推进；拟事件 SchoolEntered",
     "acceptance": "按节点前/后、重复事件、返回旧区域、保存重载四种情况验证；包括原文指定隐藏时段",
     "code_entry": "新Quest事件表；对应场景控制器",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "39_P07阶段报告与人工审计.md",
+      "40_P07验证与问题闭环.md",
+      "P07Evidence/checks/suite-summary.json",
+      "P07Evidence/checks/source-version.json",
+      "P07Evidence/runtime/tasks/results.txt",
+      "P07Evidence/runtime/tasks/TaskTransitions.mp4"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "原学校进入/黑雾引导结束；SchoolEntered；最终显示：探索学校。只投影原语义事件，不用坐标轮询推进剧情。",
+    "verification_scope": "P07最终候选；474项隔离Play Mode检查、25项规则检查及独立游戏真实设置/重启/退出。完整干净档Demo通关属于P08，本轮不宣称完成。"
   },
   {
     "id": "Q14",
@@ -3757,12 +3968,21 @@
     "actions": "按原文事件投影任务，不用坐标轮询推进；拟事件 EquipmentVoiceHeard",
     "acceptance": "按节点前/后、重复事件、返回旧区域、保存重载四种情况验证；包括原文指定隐藏时段",
     "code_entry": "新Quest事件表；对应场景控制器",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "39_P07阶段报告与人工审计.md",
+      "40_P07验证与问题闭环.md",
+      "P07Evidence/checks/suite-summary.json",
+      "P07Evidence/checks/source-version.json",
+      "P07Evidence/runtime/tasks/results.txt",
+      "P07Evidence/runtime/tasks/TaskTransitions.mp4"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "原器材室声音播放；EquipmentVoiceHeard；最终显示：寻找钥匙。只投影原语义事件，不用坐标轮询推进剧情。",
+    "verification_scope": "P07最终候选；474项隔离Play Mode检查、25项规则检查及独立游戏真实设置/重启/退出。完整干净档Demo通关属于P08，本轮不宣称完成。"
   },
   {
     "id": "Q15",
@@ -3778,12 +3998,21 @@
     "actions": "按原文事件投影任务，不用坐标轮询推进；拟事件 EquipmentKeyObtained",
     "acceptance": "按节点前/后、重复事件、返回旧区域、保存重载四种情况验证；包括原文指定隐藏时段",
     "code_entry": "新Quest事件表；对应场景控制器",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "39_P07阶段报告与人工审计.md",
+      "40_P07验证与问题闭环.md",
+      "P07Evidence/checks/suite-summary.json",
+      "P07Evidence/checks/source-version.json",
+      "P07Evidence/runtime/tasks/results.txt",
+      "P07Evidence/runtime/tasks/TaskTransitions.mp4"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "原篮球钥匙入包；EquipmentKeyObtained；最终显示：探索体育器材室。只投影原语义事件，不用坐标轮询推进剧情。",
+    "verification_scope": "P07最终候选；474项隔离Play Mode检查、25项规则检查及独立游戏真实设置/重启/退出。完整干净档Demo通关属于P08，本轮不宣称完成。"
   },
   {
     "id": "Q16",
@@ -3799,12 +4028,21 @@
     "actions": "按原文事件投影任务，不用坐标轮询推进；拟事件 PencilObtained",
     "acceptance": "按节点前/后、重复事件、返回旧区域、保存重载四种情况验证；包括原文指定隐藏时段",
     "code_entry": "新Quest事件表；对应场景控制器",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "39_P07阶段报告与人工审计.md",
+      "40_P07验证与问题闭环.md",
+      "P07Evidence/checks/suite-summary.json",
+      "P07Evidence/checks/source-version.json",
+      "P07Evidence/runtime/tasks/results.txt",
+      "P07Evidence/runtime/tasks/TaskTransitions.mp4"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "原铅笔入包；PencilObtained；最终显示：探索学校。只投影原语义事件，不用坐标轮询推进剧情。",
+    "verification_scope": "P07最终候选；474项隔离Play Mode检查、25项规则检查及独立游戏真实设置/重启/退出。完整干净档Demo通关属于P08，本轮不宣称完成。"
   },
   {
     "id": "Q17",
@@ -3820,12 +4058,21 @@
     "actions": "按原文事件投影任务，不用坐标轮询推进；拟事件 YouthMemoryEntered/ControlGranted",
     "acceptance": "按节点前/后、重复事件、返回旧区域、保存重载四种情况验证；包括原文指定隐藏时段",
     "code_entry": "新Quest事件表；对应场景控制器",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "39_P07阶段报告与人工审计.md",
+      "40_P07验证与问题闭环.md",
+      "P07Evidence/checks/suite-summary.json",
+      "P07Evidence/checks/source-version.json",
+      "P07Evidence/runtime/tasks/results.txt",
+      "P07Evidence/runtime/tasks/TaskTransitions.mp4"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "青年记忆进入先隐藏；原对白完成归还控制后；YouthMemoryEntered → YouthControlGranted；最终显示：前往二楼一班。只投影原语义事件，不用坐标轮询推进剧情。",
+    "verification_scope": "P07最终候选；474项隔离Play Mode检查、25项规则检查及独立游戏真实设置/重启/退出。完整干净档Demo通关属于P08，本轮不宣称完成。"
   },
   {
     "id": "Q18",
@@ -3841,12 +4088,21 @@
     "actions": "按原文事件投影任务，不用坐标轮询推进；拟事件 ZhangRuoyuanDialogueCompleted",
     "acceptance": "按节点前/后、重复事件、返回旧区域、保存重载四种情况验证；包括原文指定隐藏时段",
     "code_entry": "新Quest事件表；对应场景控制器",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "39_P07阶段报告与人工审计.md",
+      "40_P07验证与问题闭环.md",
+      "P07Evidence/checks/suite-summary.json",
+      "P07Evidence/checks/source-version.json",
+      "P07Evidence/runtime/tasks/results.txt",
+      "P07Evidence/runtime/tasks/TaskTransitions.mp4"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "原张若媛U盘对白结束；ZhangRuoyuanDialogueCompleted；最终显示：探索一楼。只投影原语义事件，不用坐标轮询推进剧情。",
+    "verification_scope": "P07最终候选；474项隔离Play Mode检查、25项规则检查及独立游戏真实设置/重启/退出。完整干净档Demo通关属于P08，本轮不宣称完成。"
   },
   {
     "id": "Q19",
@@ -3862,12 +4118,21 @@
     "actions": "按原文事件投影任务，不用坐标轮询推进；拟事件 SecurityCopiedAndPasswordChanged/ControlGranted",
     "acceptance": "按节点前/后、重复事件、返回旧区域、保存重载四种情况验证；包括原文指定隐藏时段",
     "code_entry": "新Quest事件表；对应场景控制器",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "39_P07阶段报告与人工审计.md",
+      "40_P07验证与问题闭环.md",
+      "P07Evidence/checks/suite-summary.json",
+      "P07Evidence/checks/source-version.json",
+      "P07Evidence/runtime/tasks/results.txt",
+      "P07Evidence/runtime/tasks/TaskTransitions.mp4"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "原证据已获得且原媒体密码已修改同时成立；SecurityCopiedAndPasswordChanged；最终显示：前往三楼教师办公室。只投影原语义事件，不用坐标轮询推进剧情。",
+    "verification_scope": "P07最终候选；474项隔离Play Mode检查、25项规则检查及独立游戏真实设置/重启/退出。完整干净档Demo通关属于P08，本轮不宣称完成。"
   },
   {
     "id": "Q20",
@@ -3883,12 +4148,21 @@
     "actions": "按原文事件投影任务，不用坐标轮询推进；拟事件 OfficeReported/ChaseStarted",
     "acceptance": "按节点前/后、重复事件、返回旧区域、保存重载四种情况验证；包括原文指定隐藏时段",
     "code_entry": "新Quest事件表；对应场景控制器",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "39_P07阶段报告与人工审计.md",
+      "40_P07验证与问题闭环.md",
+      "P07Evidence/checks/suite-summary.json",
+      "P07Evidence/checks/source-version.json",
+      "P07Evidence/runtime/tasks/results.txt",
+      "P07Evidence/runtime/tasks/TaskTransitions.mp4"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "原办公室汇报先隐藏；追逐开始后；OfficeReported → ChaseStarted；最终显示：取得灯油，逃离学校。只投影原语义事件，不用坐标轮询推进剧情。",
+    "verification_scope": "P07最终候选；474项隔离Play Mode检查、25项规则检查及独立游戏真实设置/重启/退出。完整干净档Demo通关属于P08，本轮不宣称完成。"
   },
   {
     "id": "Q21",
@@ -3904,12 +4178,21 @@
     "actions": "按原文事件投影任务，不用坐标轮询推进；拟事件 XiangYanDispersed/ControlGranted",
     "acceptance": "按节点前/后、重复事件、返回旧区域、保存重载四种情况验证；包括原文指定隐藏时段",
     "code_entry": "新Quest事件表；对应场景控制器",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "39_P07阶段报告与人工审计.md",
+      "40_P07验证与问题闭环.md",
+      "P07Evidence/checks/suite-summary.json",
+      "P07Evidence/checks/source-version.json",
+      "P07Evidence/runtime/tasks/results.txt",
+      "P07Evidence/runtime/tasks/TaskTransitions.mp4"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "原向焱追逐完成；XiangYanDispersed；最终显示：穿越黑雾。只投影原语义事件，不用坐标轮询推进剧情。",
+    "verification_scope": "P07最终候选；474项隔离Play Mode检查、25项规则检查及独立游戏真实设置/重启/退出。完整干净档Demo通关属于P08，本轮不宣称完成。"
   },
   {
     "id": "Q22",
@@ -3925,12 +4208,21 @@
     "actions": "按原文事件投影任务，不用坐标轮询推进；拟事件 HomeReturnedAfterSchool",
     "acceptance": "按节点前/后、重复事件、返回旧区域、保存重载四种情况验证；包括原文指定隐藏时段",
     "code_entry": "新Quest事件表；对应场景控制器",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "39_P07阶段报告与人工审计.md",
+      "40_P07验证与问题闭环.md",
+      "P07Evidence/checks/suite-summary.json",
+      "P07Evidence/checks/source-version.json",
+      "P07Evidence/runtime/tasks/results.txt",
+      "P07Evidence/runtime/tasks/TaskTransitions.mp4"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "原学校后返家状态；HomeReturnedAfterSchool；最终显示：探索二楼次卧。只投影原语义事件，不用坐标轮询推进剧情。",
+    "verification_scope": "P07最终候选；474项隔离Play Mode检查、25项规则检查及独立游戏真实设置/重启/退出。完整干净档Demo通关属于P08，本轮不宣称完成。"
   },
   {
     "id": "Q23",
@@ -3946,12 +4238,21 @@
     "actions": "按原文事件投影任务，不用坐标轮询推进；拟事件 EmailRead/HandoverAndOutsideSound/ControlGranted",
     "acceptance": "按节点前/后、重复事件、返回旧区域、保存重载四种情况验证；包括原文指定隐藏时段",
     "code_entry": "新Quest事件表；对应场景控制器",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "39_P07阶段报告与人工审计.md",
+      "40_P07验证与问题闭环.md",
+      "P07Evidence/checks/suite-summary.json",
+      "P07Evidence/checks/source-version.json",
+      "P07Evidence/runtime/tasks/results.txt",
+      "P07Evidence/runtime/tasks/TaskTransitions.mp4"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "原邮件阅读先隐藏；原交接及屋外声事件后；EmailRead → HandoverAndOutsideSound；最终显示：探索屋外。只投影原语义事件，不用坐标轮询推进剧情。",
+    "verification_scope": "P07最终候选；474项隔离Play Mode检查、25项规则检查及独立游戏真实设置/重启/退出。完整干净档Demo通关属于P08，本轮不宣称完成。"
   },
   {
     "id": "Q24",
@@ -3967,12 +4268,21 @@
     "actions": "按原文事件投影任务，不用坐标轮询推进；拟事件 BoardingTriggered",
     "acceptance": "按节点前/后、重复事件、返回旧区域、保存重载四种情况验证；包括原文指定隐藏时段",
     "code_entry": "新Quest事件表；对应场景控制器",
-    "status": "已审计待实施",
+    "status": "本阶段测试通过，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "39_P07阶段报告与人工审计.md",
+      "40_P07验证与问题闭环.md",
+      "P07Evidence/checks/suite-summary.json",
+      "P07Evidence/checks/source-version.json",
+      "P07Evidence/runtime/tasks/results.txt",
+      "P07Evidence/runtime/tasks/TaskTransitions.mp4"
+    ],
+    "human_acceptance": "待人工审计",
     "regression_to": [],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_detail": "原登车控制者开始登车；BoardingTriggered；最终显示：旧任务划线并隐藏，不追加新任务。只投影原语义事件，不用坐标轮询推进剧情。",
+    "verification_scope": "P07最终候选；474项隔离Play Mode检查、25项规则检查及独立游戏真实设置/重启/退出。完整干净档Demo通关属于P08，本轮不宣称完成。"
   },
   {
     "id": "B01",

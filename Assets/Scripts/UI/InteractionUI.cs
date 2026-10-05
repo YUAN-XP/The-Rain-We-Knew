@@ -20,7 +20,7 @@ public class InteractionUI : MonoBehaviour
     public void ShowPrompt(string text,Transform target)
     {
         if(!promptRoot||!promptText||!target){HidePrompt();return;}
-        actor=target;promptText.text=text;promptRoot.SetActive(true);
+        actor=target;promptText.text=P07Language.Display(text);promptRoot.SetActive(true);
     }
     // Preserve the API for Inspector events; runtime player interaction always supplies its owner.
     public void ShowPrompt(string text)

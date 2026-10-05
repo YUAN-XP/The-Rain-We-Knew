@@ -1,0 +1,67 @@
+PASS empty store yields three-button menu
+PASS corrupt-only store remains first-time menu
+PASS active clickable 设置
+PASS settings opens on audio
+PASS active clickable 画面
+PASS active clickable 2560 × 1440
+PASS resolution dropdown exactly two 70-point rows
+PASS resolution list scrollable and scrollbar present
+PASS active clickable 制作名单
+PASS exact author and AI-assisted disclosure
+PASS active clickable [Esc] 返回
+PASS active clickable 开始游戏
+PASS quote full hold exactly three game seconds
+PASS paired English/Chinese reveal synchronized by normalized progress
+PASS get-up releases controls and publishes Q01 once
+PASS fresh opening does not grant camera or lamp
+PASS opening ends on real ground collider
+PASS reached capture OpeningFreeTask
+PASS continue chooses newest valid timestamp, skipping damaged slot
+PASS ESC pauses once
+PASS pause freezes simulation and audio
+PASS active clickable 保存游戏
+PASS active slot 1
+PASS active clickable 取消
+PASS overwrite cancel preserves slot bytes
+PASS active slot 3
+PASS empty slot UI writes current task and session
+PASS active clickable [Esc] 返回
+PASS active clickable 退出至游戏主菜单
+PASS active clickable 取消
+PASS cancel return preserves player position
+PASS active clickable 退出至游戏主菜单
+PASS active clickable 确认
+PASS valid store yields five-button menu
+PASS active clickable 读取游戏
+PASS new valid slot loads while damaged slot remains disabled
+PASS active slot 1
+PASS active clickable 取消
+PASS load cancel preserves session and slot bytes
+PASS active clickable [Esc] 返回
+PASS active clickable 继续游戏
+PASS reached UI pointer click 继续游戏
+PASS continue restores through original save loader
+PASS continue skips opening and restores newest played time
+PASS reached first item
+PASS first item freezes surroundings before close-up
+PASS item ESC closes only close-up and returns original simulation
+PASS reacquisition does not repeat first-item presentation
+PASS reached capture ItemToast
+PASS file reading dims document only, retains environment shade and centered content
+PASS file ESC closes without pause fall-through
+PASS reached capture FirstFileRead
+PASS outfit is toast only as confirmed
+PASS failed transaction rolls back history without notifying UI
+PASS rollback has no phantom close-up
+PASS active clickable 开始新游戏
+PASS active clickable 取消
+PASS cancel new game leaves first-seen history intact
+PASS active clickable 开始新游戏
+PASS active clickable 确认
+PASS quote full hold exactly three game seconds
+PASS paired English/Chinese reveal synchronized by normalized progress
+PASS get-up releases controls and publishes Q01 once
+PASS fresh opening does not grant camera or lamp
+PASS opening ends on real ground collider
+PASS new game clears per-session history/files/story
+PASS new game preserves existing disk slots

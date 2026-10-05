@@ -1,0 +1,76 @@
+{
+  "runtime_checks": 474,
+  "rule_checks": 25,
+  "failures": 0,
+  "suites": [
+    {
+      "suite": "interface",
+      "source_run": "interface-124532",
+      "checks": 67,
+      "failures": 0,
+      "method": "editor-isolated fixture, original production controllers and real runtime UI; not a fresh full-Demo walkthrough"
+    },
+    {
+      "suite": "tasks",
+      "source_run": "tasks-124815",
+      "checks": 68,
+      "failures": 0,
+      "method": "editor-isolated fixture, original production controllers and real runtime UI; not a fresh full-Demo walkthrough"
+    },
+    {
+      "suite": "opening",
+      "source_run": "opening-125534",
+      "checks": 29,
+      "failures": 0,
+      "method": "editor-isolated fixture, original production controllers and real runtime UI; not a fresh full-Demo walkthrough"
+    },
+    {
+      "suite": "chase",
+      "source_run": "flow0-124234",
+      "checks": 155,
+      "failures": 0,
+      "method": "editor-isolated fixture, original production controllers and real runtime UI; not a fresh full-Demo walkthrough"
+    },
+    {
+      "suite": "ending",
+      "source_run": "flow1-125713",
+      "checks": 93,
+      "failures": 0,
+      "method": "editor-isolated fixture, original production controllers and real runtime UI; not a fresh full-Demo walkthrough"
+    },
+    {
+      "suite": "completion",
+      "source_run": "flow6-130032",
+      "checks": 16,
+      "failures": 0,
+      "method": "editor-isolated fixture, original production controllers and real runtime UI; not a fresh full-Demo walkthrough"
+    },
+    {
+      "suite": "camera",
+      "source_run": "camera1-130525",
+      "checks": 22,
+      "failures": 0,
+      "method": "editor-isolated fixture, original production controllers and real runtime UI; not a fresh full-Demo walkthrough"
+    },
+    {
+      "suite": "combined",
+      "source_run": "flow3-131129",
+      "checks": 24,
+      "failures": 0,
+      "method": "editor-isolated fixture, original production controllers and real runtime UI; not a fresh full-Demo walkthrough"
+    },
+    {
+      "suite": "acquisition-rules.txt",
+      "checks": 11,
+      "failures": 0,
+      "method": "production components in inactive editor fixture; actual AudioListener/PlayerPrefs or actual combination transaction"
+    },
+    {
+      "suite": "settings-and-language-rules.txt",
+      "checks": 14,
+      "failures": 0,
+      "method": "production components in inactive editor fixture; actual AudioListener/PlayerPrefs or actual combination transaction"
+    }
+  ],
+  "build": "2026-10-05T13:14:54.9681760+08:00 Succeeded errors=0 warnings=486 bytes=2977114675 seconds=72.8477253"
+}

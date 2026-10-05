@@ -1,0 +1,11 @@
+PASS missing material has no item-combination hint
+PASS unmet original prerequisite has no hint
+PASS eligible item recipe yields item-only hint
+PASS hint query does not consume or notify
+PASS eligible file result yields file-only hint
+PASS already-owned result does not hint
+PASS actual unique inventory count enforced
+PASS permanent material cannot be consumed
+PASS original successful combination notifies exactly once after commit
+PASS completed recipe has no duplicate hint
+PASS transaction rollback clears phantom first-acquisition entry

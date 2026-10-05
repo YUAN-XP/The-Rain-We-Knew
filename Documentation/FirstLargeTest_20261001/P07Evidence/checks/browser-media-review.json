@@ -1,0 +1,25 @@
+{
+  "checked_at": "2026-10-05T14:29:59.889455",
+  "method": "Actual in-app browser UI playback buttons, visible video rendering, read-only playback state, and final source-pose image inspection",
+  "videos": [
+    {
+      "artifact": "runtime/interface/OpeningNormal.mp4",
+      "duration_seconds": 23.766667,
+      "played_to_end": true,
+      "decoder_error": null
+    },
+    {
+      "artifact": "runtime/opening/RiseNormal.mp4",
+      "duration_seconds": 6.7,
+      "played_to_end": true,
+      "decoder_error": null
+    },
+    {
+      "artifact": "runtime/opening/RiseSlow.mp4",
+      "duration_seconds": 13.2,
+      "played_to_end": true,
+      "decoder_error": null
+    }
+  ],
+  "visual_scope": "start/end playback output and supporting final sampled poses; final user aesthetic approval pending; no hardware listening claim"
+}

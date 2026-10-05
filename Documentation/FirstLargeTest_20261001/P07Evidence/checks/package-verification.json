@@ -1,0 +1,246 @@
+{
+  "checked_at": "2026-10-05T14:35:50.966062",
+  "checks": [
+    {
+      "pass": true,
+      "check": "121 original IDs and 34 scoped records"
+    },
+    {
+      "pass": true,
+      "check": "87 other JSON records exactly unchanged"
+    },
+    {
+      "pass": true,
+      "check": "Original requirement wording, sources, stage and acceptance preserved"
+    },
+    {
+      "pass": true,
+      "check": "87 other CSV records unchanged"
+    },
+    {
+      "pass": true,
+      "check": "Markdown ledger agrees with scoped JSON/CSV state"
+    },
+    {
+      "pass": true,
+      "check": "61 final Assets hashes still match tested source"
+    },
+    {
+      "pass": true,
+      "check": "valid GUID: Assets/Art/Demo2026/P07.meta"
+    },
+    {
+      "pass": true,
+      "check": "meta target exists: Assets/Art/Demo2026/P07.meta"
+    },
+    {
+      "pass": true,
+      "check": "valid GUID: Assets/Art/Demo2026/P07/P07_EndMenu.png.meta"
+    },
+    {
+      "pass": true,
+      "check": "meta target exists: Assets/Art/Demo2026/P07/P07_EndMenu.png.meta"
+    },
+    {
+      "pass": true,
+      "check": "valid GUID: Assets/Art/Demo2026/P07/P07_StartMenu.png.meta"
+    },
+    {
+      "pass": true,
+      "check": "meta target exists: Assets/Art/Demo2026/P07/P07_StartMenu.png.meta"
+    },
+    {
+      "pass": true,
+      "check": "valid GUID: Assets/Editor/P07Audit.cs.meta"
+    },
+    {
+      "pass": true,
+      "check": "meta target exists: Assets/Editor/P07Audit.cs.meta"
+    },
+    {
+      "pass": true,
+      "check": "valid GUID: Assets/Editor/P07CameraRegression.cs.meta"
+    },
+    {
+      "pass": true,
+      "check": "meta target exists: Assets/Editor/P07CameraRegression.cs.meta"
+    },
+    {
+      "pass": true,
+      "check": "valid GUID: Assets/Editor/P07Coverage.cs.meta"
+    },
+    {
+      "pass": true,
+      "check": "meta target exists: Assets/Editor/P07Coverage.cs.meta"
+    },
+    {
+      "pass": true,
+      "check": "valid GUID: Assets/Editor/P07EvidenceRecorder.cs.meta"
+    },
+    {
+      "pass": true,
+      "check": "meta target exists: Assets/Editor/P07EvidenceRecorder.cs.meta"
+    },
+    {
+      "pass": true,
+      "check": "valid GUID: Assets/Editor/P07FlowRegression.cs.meta"
+    },
+    {
+      "pass": true,
+      "check": "meta target exists: Assets/Editor/P07FlowRegression.cs.meta"
+    },
+    {
+      "pass": true,
+      "check": "valid GUID: Assets/Editor/P07Production.cs.meta"
+    },
+    {
+      "pass": true,
+      "check": "meta target exists: Assets/Editor/P07Production.cs.meta"
+    },
+    {
+      "pass": true,
+      "check": "valid GUID: Assets/Editor/P07Regression.cs.meta"
+    },
+    {
+      "pass": true,
+      "check": "meta target exists: Assets/Editor/P07Regression.cs.meta"
+    },
+    {
+      "pass": true,
+      "check": "valid GUID: Assets/Editor/P07Rules.cs.meta"
+    },
+    {
+      "pass": true,
+      "check": "meta target exists: Assets/Editor/P07Rules.cs.meta"
+    },
+    {
+      "pass": true,
+      "check": "valid GUID: Assets/Editor/P07ValidationBuild.cs.meta"
+    },
+    {
+      "pass": true,
+      "check": "meta target exists: Assets/Editor/P07ValidationBuild.cs.meta"
+    },
+    {
+      "pass": true,
+      "check": "valid GUID: Assets/Resources/P07Presentation.asset.meta"
+    },
+    {
+      "pass": true,
+      "check": "meta target exists: Assets/Resources/P07Presentation.asset.meta"
+    },
+    {
+      "pass": true,
+      "check": "valid GUID: Assets/Scripts/UI/P07AcquisitionPresentation.cs.meta"
+    },
+    {
+      "pass": true,
+      "check": "meta target exists: Assets/Scripts/UI/P07AcquisitionPresentation.cs.meta"
+    },
+    {
+      "pass": true,
+      "check": "valid GUID: Assets/Scripts/UI/P07Interface.cs.meta"
+    },
+    {
+      "pass": true,
+      "check": "meta target exists: Assets/Scripts/UI/P07Interface.cs.meta"
+    },
+    {
+      "pass": true,
+      "check": "valid GUID: Assets/Scripts/UI/P07Language.cs.meta"
+    },
+    {
+      "pass": true,
+      "check": "meta target exists: Assets/Scripts/UI/P07Language.cs.meta"
+    },
+    {
+      "pass": true,
+      "check": "valid GUID: Assets/Scripts/UI/P07PresentationData.cs.meta"
+    },
+    {
+      "pass": true,
+      "check": "meta target exists: Assets/Scripts/UI/P07PresentationData.cs.meta"
+    },
+    {
+      "pass": true,
+      "check": "valid GUID: Assets/Scripts/UI/P07QuestDisplay.cs.meta"
+    },
+    {
+      "pass": true,
+      "check": "meta target exists: Assets/Scripts/UI/P07QuestDisplay.cs.meta"
+    },
+    {
+      "pass": true,
+      "check": "valid GUID: Assets/Scripts/UI/P07SettingsPanel.cs.meta"
+    },
+    {
+      "pass": true,
+      "check": "meta target exists: Assets/Scripts/UI/P07SettingsPanel.cs.meta"
+    },
+    {
+      "pass": true,
+      "check": "valid GUID: Assets/Scripts/UI/P07UI.cs.meta"
+    },
+    {
+      "pass": true,
+      "check": "meta target exists: Assets/Scripts/UI/P07UI.cs.meta"
+    },
+    {
+      "pass": true,
+      "check": "New meta GUIDs unique"
+    },
+    {
+      "pass": true,
+      "check": "New meta GUIDs do not collide with existing Assets"
+    },
+    {
+      "pass": true,
+      "check": "113 copied final runtime artifacts intact"
+    },
+    {
+      "pass": true,
+      "check": "No intermediate base64 screenshot files"
+    },
+    {
+      "pass": true,
+      "check": "Real save-slot hashes and modification times preserved"
+    },
+    {
+      "pass": true,
+      "check": "Native test preferences restored"
+    },
+    {
+      "pass": true,
+      "check": "15 obsolete batches removed; exact reclaimed bytes recorded"
+    },
+    {
+      "pass": true,
+      "check": "Eight final raw source batches preserved"
+    },
+    {
+      "pass": true,
+      "check": "Editor clean and stopped at Scene01"
+    },
+    {
+      "pass": true,
+      "check": "No pending editor command"
+    },
+    {
+      "pass": true,
+      "check": "Final test-floor-line scan empty"
+    },
+    {
+      "pass": true,
+      "check": "Every local review image/video/check link resolves"
+    },
+    {
+      "pass": true,
+      "check": "No final evidence file exceeds the usual 100MiB Git file limit"
+    }
+  ],
+  "failures": 0,
+  "source_files": 61,
+  "reclaimed_bytes": 756968435.0,
+  "evidence_size_MiB": 211.0,
+  "code_and_runtime_counts_are_separate": true
+}

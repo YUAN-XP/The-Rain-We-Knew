@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
@@ -23,6 +23,7 @@ public sealed class GameSaveService : MonoBehaviour {
     public bool CanSave(out string reason){
         reason="当前无法保存：请在自由行动时保存。";
         if(GamePause.IsPaused&&!GetComponent<GamePause>().SaveAvailableBeforePause)return false;
+        if(GetComponent<GamePause>()?.IsMainMenu==true)return false;
         if(IsRestoring||!controls||!controls.ActivePlayer||!controls.ActivePlayer.isActiveAndEnabled)return false;
         foreach(ControlLockReason r in Enum.GetValues(typeof(ControlLockReason)))if(r!=ControlLockReason.GlobalPause&&controls.IsLockedBy(r))return false;
         string scene=SceneManager.GetActiveScene().name;if(scene=="EndingSequence")return false;
@@ -72,7 +73,7 @@ public sealed class GameSaveService : MonoBehaviour {
         foreach(var f in data.files){var asset=Registry.Resolve<FileData>(f.key);if(!asset||asset.fileId!=f.id)throw new InvalidDataException("存档文件资源缺失："+f.id);}
     }
     IEnumerator LoadGuarded(GameSaveData data){
-        IsRestoring=true;LastError=null;GetComponent<GamePause>()?.SetPaused(false);
+        IsRestoring=true;LastError=null;GetComponent<P07AcquisitionPresentation>()?.ResetPresentation();GetComponent<GamePause>()?.SetPaused(false);
         if(loadingCover){loadingCover.SetActive(false);Destroy(loadingCover);}
         var root=RuntimePanelUI.Canvas("SaveRestoreCurtain",transform,32700);loadingCover=root.gameObject;
         RuntimePanelUI.Panel("Black",root,Vector2.zero,Vector2.one,Color.black);

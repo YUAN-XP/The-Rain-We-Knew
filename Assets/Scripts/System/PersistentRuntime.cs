@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class PersistentRuntime : MonoBehaviour
@@ -26,6 +26,7 @@ public class PersistentRuntime : MonoBehaviour
         if(!GetComponent<AcquisitionHistory>())gameObject.AddComponent<AcquisitionHistory>();
         if(!GetComponent<GameSaveService>())gameObject.AddComponent<GameSaveService>();
         if(!GetComponent<GamePause>())gameObject.AddComponent<GamePause>();
+        if(!GetComponent<P07Interface>())gameObject.AddComponent<P07Interface>();
 
         SceneManager.sceneLoaded += OnSceneLoaded;
     }

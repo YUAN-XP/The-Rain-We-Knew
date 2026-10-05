@@ -1,0 +1,36 @@
+{
+  "unchanged": [
+    {
+      "file": "Assets/Resources/DemoArtCatalog.asset",
+      "matches_HEAD": true,
+      "sha256": "df1c58a83f141133f27ce3c63fd28488341ce483a691ef9a5351389f25090604"
+    },
+    {
+      "file": "Assets/Scenes/Scene02_Courtyard.unity",
+      "matches_HEAD": true,
+      "sha256": "e9a3e1c0ba88a3b15c0864bd8976c333d69cd3cb8da756d8e4b0eb85bc0e7756"
+    },
+    {
+      "file": "Assets/Scenes/Scene03_Childhood.unity",
+      "matches_HEAD": true,
+      "sha256": "cc2a9890251e353d4647f839e8a26669e7cc1936adcc18b2d86c6eb22c7ed9c2"
+    },
+    {
+      "file": "Assets/Scenes/EndingSequence.unity",
+      "matches_HEAD": true,
+      "sha256": "3027f511758911bb4b788e513d67f0c70af9c9c7317064725805c3f402578b6d"
+    }
+  ],
+  "scene_text_only": {
+    "Assets/Scenes/Scene01_Rain.unity": {
+      "only_serialized_text_changed": true,
+      "removed_text_lines": 6,
+      "added_text_lines": 6
+    },
+    "Assets/Scenes/Scene04_School.unity": {
+      "only_serialized_text_changed": true,
+      "removed_text_lines": 8,
+      "added_text_lines": 8
+    }
+  }
+}

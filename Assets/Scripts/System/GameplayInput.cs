@@ -60,6 +60,7 @@ public static class GameplayInput
         Replay=null;
 #endif
     }
+    public static bool FrameConsumed => consumedFrame==Time.frameCount;
     public static bool Blocked => GamePause.IsPaused || consumedFrame==Time.frameCount;
     public static void ConsumeFrame() { consumedFrame=Time.frameCount; }
     public static bool GetKey(KeyCode key) => !Blocked && RawKey(key);

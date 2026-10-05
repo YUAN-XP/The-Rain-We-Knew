@@ -1,0 +1,900 @@
+{
+  "serialized_english_candidates": [
+    {
+      "file": "Assets/Scenes/Scene01_Rain.unity",
+      "line": 10924,
+      "field": "promptText",
+      "value": "{fileID: 1417229242}",
+      "classification": "serialized object reference, not visible text"
+    },
+    {
+      "file": "Assets/Scenes/Scene02_Courtyard.unity",
+      "line": 29386,
+      "field": "interactionPrompt",
+      "value": "'[E] Talk'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene02_Courtyard.unity",
+      "line": 70890,
+      "field": "interactionPrompt",
+      "value": "'[E] Exit'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 5811,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 8255,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 8455,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 9784,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 11566,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 23152,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 26129,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 33262,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 39992,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 41161,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 46289,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 47927,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 54890,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 63997,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 77161,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 83943,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 87069,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 89325,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 90311,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 97882,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 104590,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 105863,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 106180,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 108148,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 129859,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 131038,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 145183,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 146309,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 171180,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 171680,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 173538,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 179983,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 182781,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 193323,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 193630,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 198364,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 205985,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 209275,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 215231,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 217353,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 222245,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 224091,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 232831,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 246923,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 271168,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 274306,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 275241,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 278587,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 282708,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 286881,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 290798,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 292395,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 292559,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 297647,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 299705,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "line": 300225,
+      "field": "interactionPrompt",
+      "value": "'[E] Enter'",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/GameData/Items/Scene01/I_S01_GateKey.asset",
+      "line": 16,
+      "field": "itemName",
+      "value": "Gate Key",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/GameData/Items/Scene01/I_S01_IDHolder.asset",
+      "line": 16,
+      "field": "itemName",
+      "value": "ID Holder",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/GameData/Items/Scene01/I_S01_NewspaperFragment01.asset",
+      "line": 16,
+      "field": "itemName",
+      "value": "Newspaper Fragment 01",
+      "classification": "legacy display translated by P07Language at InteractionUI/Inventory boundaries"
+    },
+    {
+      "file": "Assets/GameData/School/Stage5B/S05_READING_EXIT_HINT.asset",
+      "line": 21,
+      "field": "text",
+      "value": "[Esc] 起身",
+      "classification": "intentional key label with Chinese instruction"
+    }
+  ],
+  "source_candidates_require_context_not_all_visible_text": [
+    {
+      "file": "Assets/Scripts/Dialogue/DialogueInteractable.cs",
+      "line": 7,
+      "value": "[E] Talk",
+      "classification": "legacy authored fallback translated at shared display boundary"
+    },
+    {
+      "file": "Assets/Scripts/Ending/EndingHospital.cs",
+      "line": 27,
+      "value": "ProjectMystery",
+      "classification": "intentional title or key label"
+    },
+    {
+      "file": "Assets/Scripts/Ending/EndingStreetController.cs",
+      "line": 23,
+      "value": ":story.Has(StoryFlag.EndingZhangCompleted)?",
+      "classification": "context reviewed: regular-expression fragment or Inspector/implementation label, not visible player text"
+    },
+    {
+      "file": "Assets/Scripts/Interaction/GateInteractable.cs",
+      "line": 8,
+      "value": "[E] Inspect",
+      "classification": "legacy authored fallback translated at shared display boundary"
+    },
+    {
+      "file": "Assets/Scripts/Interaction/GateKeyInteractable.cs",
+      "line": 7,
+      "value": "[E] Pick Up",
+      "classification": "legacy authored fallback translated at shared display boundary"
+    },
+    {
+      "file": "Assets/Scripts/Interaction/IDHolderInteractable.cs",
+      "line": 7,
+      "value": "[E] Collect",
+      "classification": "legacy authored fallback translated at shared display boundary"
+    },
+    {
+      "file": "Assets/Scripts/Interaction/ItemPickupInteractable.cs",
+      "line": 6,
+      "value": "[E] Pick Up",
+      "classification": "legacy authored fallback translated at shared display boundary"
+    },
+    {
+      "file": "Assets/Scripts/Interaction/NewspaperFragmentInteractable.cs",
+      "line": 7,
+      "value": "[E] Collect",
+      "classification": "legacy authored fallback translated at shared display boundary"
+    },
+    {
+      "file": "Assets/Scripts/Interaction/RoomTransitionInteractable.cs",
+      "line": 11,
+      "value": "[E] Enter",
+      "classification": "legacy authored fallback translated at shared display boundary"
+    },
+    {
+      "file": "Assets/Scripts/Inventory/CombinationManager.cs",
+      "line": 69,
+      "value": "Combination rolled back: ",
+      "classification": "diagnostic log, not UI"
+    },
+    {
+      "file": "Assets/Scripts/Presentation/DemoComicSequence.cs",
+      "line": 86,
+      "value": ":line.speaker+",
+      "classification": "context reviewed: regular-expression fragment or Inspector/implementation label, not visible player text"
+    },
+    {
+      "file": "Assets/Scripts/Presentation/P02GameplayMotionProbe.cs",
+      "line": 157,
+      "value": "gameplay_motion_probe.json",
+      "classification": "scoped test diagnostics or report path, not normal player UI"
+    },
+    {
+      "file": "Assets/Scripts/Presentation/P02MotionSampleProbe.cs",
+      "line": 103,
+      "value": "IDLE",
+      "classification": "scoped test diagnostics or report path, not normal player UI"
+    },
+    {
+      "file": "Assets/Scripts/Presentation/P02MotionSampleProbe.cs",
+      "line": 103,
+      "value": "RUN",
+      "classification": "scoped test diagnostics or report path, not normal player UI"
+    },
+    {
+      "file": "Assets/Scripts/Presentation/P02MotionSampleProbe.cs",
+      "line": 103,
+      "value": "WALK",
+      "classification": "scoped test diagnostics or report path, not normal player UI"
+    },
+    {
+      "file": "Assets/Scripts/Presentation/P02MotionSampleProbe.cs",
+      "line": 103,
+      "value": " units/s  |  ",
+      "classification": "scoped test diagnostics or report path, not normal player UI"
+    },
+    {
+      "file": "Assets/Scripts/Presentation/P02MotionSampleProbe.cs",
+      "line": 132,
+      "value": "sample_runs/",
+      "classification": "scoped test diagnostics or report path, not normal player UI"
+    },
+    {
+      "file": "Assets/Scripts/Presentation/P02MotionSampleProbe.cs",
+      "line": 132,
+      "value": "production_runs/",
+      "classification": "scoped test diagnostics or report path, not normal player UI"
+    },
+    {
+      "file": "Assets/Scripts/Presentation/P02MotionSampleProbe.cs",
+      "line": 132,
+      "value": "yyyyMMdd_HHmmss",
+      "classification": "scoped test diagnostics or report path, not normal player UI"
+    },
+    {
+      "file": "Assets/Scripts/Presentation/P02MotionSampleProbe.cs",
+      "line": 174,
+      "value": "sample_motion_probe.json",
+      "classification": "scoped test diagnostics or report path, not normal player UI"
+    },
+    {
+      "file": "Assets/Scripts/Presentation/P02MotionSampleProbe.cs",
+      "line": 175,
+      "value": "sample_motion_probe.json",
+      "classification": "scoped test diagnostics or report path, not normal player UI"
+    },
+    {
+      "file": "Assets/Scripts/Presentation/StreetAtmospherePresentation.cs",
+      "line": 51,
+      "value": "_Presentation",
+      "classification": "internal object/resource/preference name or date formatter"
+    },
+    {
+      "file": "Assets/Scripts/Scene03/ChildhoodActivityUI.cs",
+      "line": 158,
+      "value": ";status.text=",
+      "classification": "context reviewed: regular-expression fragment or Inspector/implementation label, not visible player text"
+    },
+    {
+      "file": "Assets/Scripts/Scene03/GuitarRhythmGame.cs",
+      "line": 75,
+      "value": "Space",
+      "classification": "intentional title or key label"
+    },
+    {
+      "file": "Assets/Scripts/Scene03/GuitarRhythmGame.cs",
+      "line": 101,
+      "value": "Space",
+      "classification": "intentional title or key label"
+    },
+    {
+      "file": "Assets/Scripts/Scene03/GuitarRhythmGame.cs",
+      "line": 172,
+      "value": "Miss ·",
+      "classification": "Judge translates the visible feedback; diagnostic event text retains original label"
+    },
+    {
+      "file": "Assets/Scripts/Scene03/GuitarRhythmGame.cs",
+      "line": 172,
+      "value": "Perfect",
+      "classification": "Judge translates the visible feedback; diagnostic event text retains original label"
+    },
+    {
+      "file": "Assets/Scripts/Scene03/GuitarRhythmGame.cs",
+      "line": 172,
+      "value": "Good",
+      "classification": "Judge translates the visible feedback; diagnostic event text retains original label"
+    },
+    {
+      "file": "Assets/Scripts/Scene03/Scene03FamilySequence.cs",
+      "line": 133,
+      "value": ":line.speaker+",
+      "classification": "context reviewed: regular-expression fragment or Inspector/implementation label, not visible player text"
+    },
+    {
+      "file": "Assets/Scripts/School/FogIntroController.cs",
+      "line": 248,
+      "value": "; if (bullyingRight != null) bullyingRight.text = ",
+      "classification": "context reviewed: regular-expression fragment or Inspector/implementation label, not visible player text"
+    },
+    {
+      "file": "Assets/Scripts/School/SchoolPortal.cs",
+      "line": 16,
+      "value": "Reading_",
+      "classification": "internal page or room identifier; visible labels remain Chinese"
+    },
+    {
+      "file": "Assets/Scripts/School/SchoolPortal.cs",
+      "line": 16,
+      "value": ":chase!=null&&chase.IsActive&&!chase.CanPass(Definition)?",
+      "classification": "context reviewed: regular-expression fragment or Inspector/implementation label, not visible player text"
+    },
+    {
+      "file": "Assets/Scripts/School/SchoolSceneController.cs",
+      "line": 52,
+      "value": "Short UI labels / notices",
+      "classification": "context reviewed: regular-expression fragment or Inspector/implementation label, not visible player text"
+    },
+    {
+      "file": "Assets/Scripts/System/GamePause.cs",
+      "line": 59,
+      "value": "ConfirmDim",
+      "classification": "internal object/resource/preference name or date formatter"
+    },
+    {
+      "file": "Assets/Scripts/System/GamePause.cs",
+      "line": 66,
+      "value": "yyyy-MM-dd HH:mm",
+      "classification": "internal object/resource/preference name or date formatter"
+    },
+    {
+      "file": "Assets/Scripts/System/GamePause.cs",
+      "line": 71,
+      "value": "yyyy-MM-dd HH:mm",
+      "classification": "internal object/resource/preference name or date formatter"
+    },
+    {
+      "file": "Assets/Scripts/System/GamePause.cs",
+      "line": 76,
+      "value": "P07Presentation",
+      "classification": "internal object/resource/preference name or date formatter"
+    },
+    {
+      "file": "Assets/Scripts/System/GamePause.cs",
+      "line": 76,
+      "value": "ProjectMystery",
+      "classification": "intentional title or key label"
+    },
+    {
+      "file": "Assets/Scripts/System/P01ColdSaveProbe.cs",
+      "line": 14,
+      "value": "-report.txt",
+      "classification": "scoped test diagnostics or report path, not normal player UI"
+    },
+    {
+      "file": "Assets/Scripts/System/P01ColdSaveProbe.cs",
+      "line": 14,
+      "value": "PASS ",
+      "classification": "scoped test diagnostics or report path, not normal player UI"
+    },
+    {
+      "file": "Assets/Scripts/System/P01ColdSaveProbe.cs",
+      "line": 14,
+      "value": "FAIL ",
+      "classification": "scoped test diagnostics or report path, not normal player UI"
+    },
+    {
+      "file": "Assets/Scripts/System/P01ColdSaveProbe.cs",
+      "line": 15,
+      "value": "-report.txt",
+      "classification": "scoped test diagnostics or report path, not normal player UI"
+    },
+    {
+      "file": "Assets/Scripts/System/P01ColdSaveProbe.cs",
+      "line": 15,
+      "value": "Process=",
+      "classification": "scoped test diagnostics or report path, not normal player UI"
+    },
+    {
+      "file": "Assets/Scripts/System/P01ColdSaveProbe.cs",
+      "line": 15,
+      "value": " UTC=",
+      "classification": "scoped test diagnostics or report path, not normal player UI"
+    },
+    {
+      "file": "Assets/Scripts/System/P01ColdSaveProbe.cs",
+      "line": 15,
+      "value": "SUMMARY",
+      "classification": "scoped test diagnostics or report path, not normal player UI"
+    },
+    {
+      "file": "Assets/Scripts/System/P02StandaloneCheck.cs",
+      "line": 23,
+      "value": "PASS ",
+      "classification": "scoped test diagnostics or report path, not normal player UI"
+    },
+    {
+      "file": "Assets/Scripts/System/P02StandaloneCheck.cs",
+      "line": 23,
+      "value": "FAIL ",
+      "classification": "scoped test diagnostics or report path, not normal player UI"
+    },
+    {
+      "file": "Assets/Scripts/System/P02StandaloneCheck.cs",
+      "line": 23,
+      "value": "report.txt",
+      "classification": "scoped test diagnostics or report path, not normal player UI"
+    },
+    {
+      "file": "Assets/Scripts/System/P02StandaloneCheck.cs",
+      "line": 31,
+      "value": "plan.json",
+      "classification": "scoped test diagnostics or report path, not normal player UI"
+    },
+    {
+      "file": "Assets/Scripts/System/P02StandaloneCheck.cs",
+      "line": 69,
+      "value": "capture camera missing ",
+      "classification": "scoped test diagnostics or report path, not normal player UI"
+    },
+    {
+      "file": "Assets/Scripts/System/P02StandaloneCheck.cs",
+      "line": 75,
+      "value": "_world.png",
+      "classification": "scoped test diagnostics or report path, not normal player UI"
+    },
+    {
+      "file": "Assets/Scripts/System/P02StateProbe.cs",
+      "line": 18,
+      "value": "state-plan.json",
+      "classification": "scoped test diagnostics or report path, not normal player UI"
+    },
+    {
+      "file": "Assets/Scripts/System/P02StateProbe.cs",
+      "line": 33,
+      "value": " direction ",
+      "classification": "scoped test diagnostics or report path, not normal player UI"
+    },
+    {
+      "file": "Assets/Scripts/System/P02StateProbe.cs",
+      "line": 33,
+      "value": " expected ",
+      "classification": "scoped test diagnostics or report path, not normal player UI"
+    },
+    {
+      "file": "Assets/Scripts/System/P02StateProbe.cs",
+      "line": 34,
+      "value": " one native body",
+      "classification": "scoped test diagnostics or report path, not normal player UI"
+    },
+    {
+      "file": "Assets/Scripts/System/P02StateProbe.cs",
+      "line": 35,
+      "value": " position",
+      "classification": "scoped test diagnostics or report path, not normal player UI"
+    },
+    {
+      "file": "Assets/Scripts/System/P02StateProbe.cs",
+      "line": 36,
+      "value": " lamp restored=",
+      "classification": "scoped test diagnostics or report path, not normal player UI"
+    },
+    {
+      "file": "Assets/Scripts/System/P02StateProbe.cs",
+      "line": 37,
+      "value": " story unchanged",
+      "classification": "scoped test diagnostics or report path, not normal player UI"
+    },
+    {
+      "file": "Assets/Scripts/System/P02StateProbe.cs",
+      "line": 38,
+      "value": " inventory unchanged",
+      "classification": "scoped test diagnostics or report path, not normal player UI"
+    },
+    {
+      "file": "Assets/Scripts/System/P02StateProbe.cs",
+      "line": 39,
+      "value": " companion count",
+      "classification": "scoped test diagnostics or report path, not normal player UI"
+    },
+    {
+      "file": "Assets/Scripts/System/P02StateProbe.cs",
+      "line": 40,
+      "value": " lamp visual adopted",
+      "classification": "scoped test diagnostics or report path, not normal player UI"
+    },
+    {
+      "file": "Assets/Scripts/System/P02StateProbe.cs",
+      "line": 59,
+      "value": "legacy missing actorFacing",
+      "classification": "scoped test diagnostics or report path, not normal player UI"
+    },
+    {
+      "file": "Assets/Scripts/UI/DeskCloseupController.cs",
+      "line": 71,
+      "value": "Computer",
+      "classification": "internal page or room identifier; visible labels remain Chinese"
+    },
+    {
+      "file": "Assets/Scripts/UI/DeskCloseupController.cs",
+      "line": 71,
+      "value": "; password.text=",
+      "classification": "context reviewed: regular-expression fragment or Inspector/implementation label, not visible player text"
+    },
+    {
+      "file": "Assets/Scripts/UI/DeskCloseupController.cs",
+      "line": 72,
+      "value": "Drawer",
+      "classification": "internal page or room identifier; visible labels remain Chinese"
+    },
+    {
+      "file": "Assets/Scripts/UI/DeskCloseupController.cs",
+      "line": 75,
+      "value": "Computer",
+      "classification": "internal page or room identifier; visible labels remain Chinese"
+    },
+    {
+      "file": "Assets/Scripts/UI/DeskSchoolComputer.cs",
+      "line": 32,
+      "value": ").Replace(",
+      "classification": "context reviewed: regular-expression fragment or Inspector/implementation label, not visible player text"
+    },
+    {
+      "file": "Assets/Scripts/UI/P07AcquisitionPresentation.cs",
+      "line": 57,
+      "value": "AcquisitionToasts",
+      "classification": "internal object/resource/preference name or date formatter"
+    },
+    {
+      "file": "Assets/Scripts/UI/P07AcquisitionPresentation.cs",
+      "line": 57,
+      "value": "TopRightToast",
+      "classification": "internal object/resource/preference name or date formatter"
+    },
+    {
+      "file": "Assets/Scripts/UI/P07Interface.cs",
+      "line": 32,
+      "value": "headache_no_portrait",
+      "classification": "internal object/resource/preference name or date formatter"
+    },
+    {
+      "file": "Assets/Scripts/UI/P07SettingsPanel.cs",
+      "line": 24,
+      "value": "P07.MasterVolume",
+      "classification": "internal object/resource/preference name or date formatter"
+    },
+    {
+      "file": "Assets/Scripts/UI/P07SettingsPanel.cs",
+      "line": 28,
+      "value": "P07Presentation",
+      "classification": "internal object/resource/preference name or date formatter"
+    },
+    {
+      "file": "Assets/Scripts/UI/P07SettingsPanel.cs",
+      "line": 37,
+      "value": "P07.Width",
+      "classification": "internal object/resource/preference name or date formatter"
+    },
+    {
+      "file": "Assets/Scripts/UI/P07SettingsPanel.cs",
+      "line": 37,
+      "value": "P07.Height",
+      "classification": "internal object/resource/preference name or date formatter"
+    }
+  ],
+  "note": "English keys and internal object identifiers are candidates, not evidence of visible untranslated UI. Specified opening quote, proper game title, key labels, and Bang are intentional exceptions.",
+  "additional_preserved_legacy_boundary": {
+    "notice": "Stage5A / Play Mode wording remains only in the historical missing-youthFlow endpoint fallback. Scene04 has the full youthFlow binding, and the final chase/ending routes use it. Not claimed as translated development-only fallback UI.",
+    "production_binding": "Scene04_School SchoolSceneController youthFlow: fileID 1556183129",
+    "source_entries": [
+      "SchoolSceneController.cs missing-youthFlow branches",
+      "SchoolPortal.cs IsYouthEndpoint branch"
+    ]
+  }
+}

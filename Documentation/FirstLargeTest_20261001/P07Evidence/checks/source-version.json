@@ -1,0 +1,311 @@
+{
+  "baseline": "103a1dea8e00ddd5c39fb81e1aa0a2936978f419",
+  "generated_at": "2026-10-05T13:32:02.441201",
+  "files": [
+    {
+      "file": "Assets/Art/Demo2026/P07.meta",
+      "sha256": "b6a53aa28e2f401ec73d8bcd28690682fdd0aaaaf7f4c31779e5e95debd5d10c",
+      "bytes": 172
+    },
+    {
+      "file": "Assets/Art/Demo2026/P07/P07_EndMenu.png",
+      "sha256": "28addd919d6950dfa84bc0d9f385350f1d6a2ab3040345b676dde56a3077c4fe",
+      "bytes": 2620682
+    },
+    {
+      "file": "Assets/Art/Demo2026/P07/P07_EndMenu.png.meta",
+      "sha256": "dbff0d9e58ca6197dddb6a2fae5d24c04e2d0c38929d062a1a4b9d66fce44d6f",
+      "bytes": 3292
+    },
+    {
+      "file": "Assets/Art/Demo2026/P07/P07_StartMenu.png",
+      "sha256": "c0866e8e2eac58705f1400d2f34dd8b0c1c73f7c036d0e08600ce4e481e5a415",
+      "bytes": 2526162
+    },
+    {
+      "file": "Assets/Art/Demo2026/P07/P07_StartMenu.png.meta",
+      "sha256": "069c63a267bec0d599517e00dae39cecbe8e50c5258e3d096fcbe9e347425a97",
+      "bytes": 3295
+    },
+    {
+      "file": "Assets/Editor/P07Audit.cs",
+      "sha256": "3a4e735e39291a44fb83e12a354f584cf1e58cc30f59741c74de5dd9d9312e4f",
+      "bytes": 1005
+    },
+    {
+      "file": "Assets/Editor/P07Audit.cs.meta",
+      "sha256": "d2ad4224e330dfe0e9c7e71abac445662d641ce0f297013a9fbac25c2bac0450",
+      "bytes": 59
+    },
+    {
+      "file": "Assets/Editor/P07CameraRegression.cs",
+      "sha256": "50bafe8e24a4d504b1a142cdd4a5ebe47c59e6c3b4a4ba3035d3924bd8f86818",
+      "bytes": 15701
+    },
+    {
+      "file": "Assets/Editor/P07CameraRegression.cs.meta",
+      "sha256": "9ce816e9ef706c726e9d49cdb45dafd868d1d64888b8f580e76b53fe0c57282e",
+      "bytes": 59
+    },
+    {
+      "file": "Assets/Editor/P07Coverage.cs",
+      "sha256": "48a4f59b8772dda5aa8e0df6d5731c510c6c8a44ae9dafb6caed346668c26819",
+      "bytes": 10549
+    },
+    {
+      "file": "Assets/Editor/P07Coverage.cs.meta",
+      "sha256": "24480734041f6a7faf745e94cd3fe7b737b3d1531c81613c1134252ba80e1184",
+      "bytes": 59
+    },
+    {
+      "file": "Assets/Editor/P07EvidenceRecorder.cs",
+      "sha256": "1d1a75436c097e26ce64970adf65ae131353f6afb654a81c9996f0f00622bc69",
+      "bytes": 2970
+    },
+    {
+      "file": "Assets/Editor/P07EvidenceRecorder.cs.meta",
+      "sha256": "b2886cedfdc6f6822fbf42c6f58ec61f6ec23cd63f218a4860e96ac43a4ad855",
+      "bytes": 59
+    },
+    {
+      "file": "Assets/Editor/P07FlowRegression.cs",
+      "sha256": "32903ca8213f023a69dc2692a6f933ef7c28084a20848e6ffda81198a0c22128",
+      "bytes": 43818
+    },
+    {
+      "file": "Assets/Editor/P07FlowRegression.cs.meta",
+      "sha256": "34d5a6e15c7e1d7b8ccd62242e4a8b2e382cda0aaca103c785215f0873c02cde",
+      "bytes": 59
+    },
+    {
+      "file": "Assets/Editor/P07Production.cs",
+      "sha256": "c3921b8a05fa96e61ab21c3a74fe72aa560170e0e790f8d799d33a4a3d2263e6",
+      "bytes": 1351
+    },
+    {
+      "file": "Assets/Editor/P07Production.cs.meta",
+      "sha256": "2ff63404666c0e25c2789029a5a1918b6f1a1643ed50addedfc9476e47bb40b6",
+      "bytes": 59
+    },
+    {
+      "file": "Assets/Editor/P07Regression.cs",
+      "sha256": "c0a3ca16c2bb7bac172ff152d6da4fb7e93ea656984963cc6894c4ad130a0e64",
+      "bytes": 15914
+    },
+    {
+      "file": "Assets/Editor/P07Regression.cs.meta",
+      "sha256": "e02121c52b32a401c17a2c78f282d88b2608c0180c44009da3127001eeb927a5",
+      "bytes": 59
+    },
+    {
+      "file": "Assets/Editor/P07Rules.cs",
+      "sha256": "6f2e40a8f1468fd4c4ec448728086234bcf4a5f7102531f01a71a33b572d8037",
+      "bytes": 6308
+    },
+    {
+      "file": "Assets/Editor/P07Rules.cs.meta",
+      "sha256": "b7728746dc0fe8f7a6e874fc200ce0ed9b01897d869438286b6bb096795e1c34",
+      "bytes": 59
+    },
+    {
+      "file": "Assets/Editor/P07ValidationBuild.cs",
+      "sha256": "a765d6e923caf11aedc4d943779cf9bd90bea6dfc8495e46a7a7a09f21873e25",
+      "bytes": 1305
+    },
+    {
+      "file": "Assets/Editor/P07ValidationBuild.cs.meta",
+      "sha256": "32b12a8a5533ac0dda2537943413c5f4e49301a053d0cc11143b4249e3bcc584",
+      "bytes": 59
+    },
+    {
+      "file": "Assets/Fonts/ChineseMain SDF.asset",
+      "sha256": "840c0311263fc040a17c1fc411433cacca68071f5700603a567eb3afd86d33e3",
+      "bytes": 3835724
+    },
+    {
+      "file": "Assets/GameData/School/Stage5B/S05_STAGE_END_NOTICE.asset",
+      "sha256": "b92066202295ee4496004f7fa97de4a910b10e0c95444e06cf4a7563d84b5c08",
+      "bytes": 684
+    },
+    {
+      "file": "Assets/Resources/P07Presentation.asset",
+      "sha256": "fe4a3aeb142eecde9c2e75a56d296176319c97ed620c7f03b2ebfa0bc3316f1b",
+      "bytes": 853
+    },
+    {
+      "file": "Assets/Resources/P07Presentation.asset.meta",
+      "sha256": "c968a798aecca6eb7fd903ab900823c7360eb34c96d64469be4127223ea9a79f",
+      "bytes": 189
+    },
+    {
+      "file": "Assets/Scenes/Scene01_Rain.unity",
+      "sha256": "dacded1ed04801d284a532afa05b22a62a5fcf9fb443618c0fdc269ed79b620a",
+      "bytes": 664186
+    },
+    {
+      "file": "Assets/Scenes/Scene04_School.unity",
+      "sha256": "bab068f6a3dec1631ddd8cce0bbd60af6ac2fbf404645589060cd13462c42c68",
+      "bytes": 8459665
+    },
+    {
+      "file": "Assets/Scripts/Ending/EndingHospital.cs",
+      "sha256": "ebc2c83ac4ab65f5a0246a6698bbe7e219a1b378257ab7d83a0e30693573bff4",
+      "bytes": 4951
+    },
+    {
+      "file": "Assets/Scripts/Ending/EndingStageController.cs",
+      "sha256": "86255fa42e6db89d07c3de541017701fe39cf94faddff5a328720b3a1bab651d",
+      "bytes": 4823
+    },
+    {
+      "file": "Assets/Scripts/Ending/EndingStreetController.cs",
+      "sha256": "83df2eb18a202e57b9e186609ca70d8f330bf5b0b5a3f8eaab4f86ab5e252dae",
+      "bytes": 9609
+    },
+    {
+      "file": "Assets/Scripts/Interaction/SimpleInteractable.cs",
+      "sha256": "03c35fb7882d3b5140406137ad5235e83db86e57bb14bf617ff4c4224b9f0fe0",
+      "bytes": 447
+    },
+    {
+      "file": "Assets/Scripts/Inventory/CombinationManager.cs",
+      "sha256": "ab01e73b7452e4be28302112a6a470edf0116fbc8f23c8488fd99bbe8c7fad46",
+      "bytes": 5866
+    },
+    {
+      "file": "Assets/Scripts/Inventory/InventoryManager.cs",
+      "sha256": "0a5257c120c22c439739283c2bb08a5c59a189e53c5b38c7085de37d8b0ae825",
+      "bytes": 3406
+    },
+    {
+      "file": "Assets/Scripts/Presentation/P02CharacterRig.cs",
+      "sha256": "5a48991d1503f4f0deca1072e1852cf19f1340ac692275107381ccff399f896d",
+      "bytes": 41211
+    },
+    {
+      "file": "Assets/Scripts/Scene03/GuitarRhythmGame.cs",
+      "sha256": "b9b489b4b78cb53f53006a174dff84d6a125368879d6a437d72e69b4bf5d6721",
+      "bytes": 12130
+    },
+    {
+      "file": "Assets/Scripts/School/SchoolYouthController.cs",
+      "sha256": "abacd1345bfe2a368f331fb1dbcd8e15c1eec8f18ca5c1e546b6bc34c158a0e9",
+      "bytes": 16020
+    },
+    {
+      "file": "Assets/Scripts/Story/QuestProgress.cs",
+      "sha256": "f09eda4318fffd8c28899a2ec8e919b9606e5a85013940a7da0d7458cd1242a2",
+      "bytes": 6948
+    },
+    {
+      "file": "Assets/Scripts/Story/StoryStateManager.cs",
+      "sha256": "e6be2ca12bd9696457fd60e27ea7f3b0e26d6ecda362b7007ccb5d02b600ac58",
+      "bytes": 6483
+    },
+    {
+      "file": "Assets/Scripts/System/AcquisitionHistory.cs",
+      "sha256": "3e64c23c18b43013519df71503ed20e70c7e6c4a12fb54576f10c5d721258e2e",
+      "bytes": 1303
+    },
+    {
+      "file": "Assets/Scripts/System/GamePause.cs",
+      "sha256": "8450aca549d040976321f04fb615c54dcd266f99a914426e3359270cdf6646ee",
+      "bytes": 10357
+    },
+    {
+      "file": "Assets/Scripts/System/GameSaveService.cs",
+      "sha256": "dc20c10480f589cc9fa18c72c63b824ce5b01cb732232ec4f5a4c65991690ebb",
+      "bytes": 13371
+    },
+    {
+      "file": "Assets/Scripts/System/GameplayInput.cs",
+      "sha256": "6d148738a3dc3de0396d9cc29f98026f338b628e007d36ab45130bfbdf9d99c2",
+      "bytes": 3121
+    },
+    {
+      "file": "Assets/Scripts/System/P01SessionRestart.cs",
+      "sha256": "b4c4094805f4dc4b5b61f4f41776bfe490449d799599587420cdd3c1542cce67",
+      "bytes": 895
+    },
+    {
+      "file": "Assets/Scripts/System/PersistentRuntime.cs",
+      "sha256": "7a287d2a628ade463e6073dc2ab933e86a5920a7caff7dd79e9bd70d48ffff36",
+      "bytes": 3179
+    },
+    {
+      "file": "Assets/Scripts/UI/InteractionUI.cs",
+      "sha256": "ca62c12df9bf0e5025732befa226d882fd83fa0f9e8a62054bb33d0800fe543b",
+      "bytes": 3656
+    },
+    {
+      "file": "Assets/Scripts/UI/P07AcquisitionPresentation.cs",
+      "sha256": "eb7afa618b0532143a7a2148a97459fbb9b12242af0d629036d3c15b06a8ce1f",
+      "bytes": 7093
+    },
+    {
+      "file": "Assets/Scripts/UI/P07AcquisitionPresentation.cs.meta",
+      "sha256": "f5a20838f827c42378417f2add44631b01e8f197ff50ad94e9c48e0961b48bf8",
+      "bytes": 59
+    },
+    {
+      "file": "Assets/Scripts/UI/P07Interface.cs",
+      "sha256": "4ccce61451a3ce2dcddf5783868210b3ef9cdb4a3c9219440ca8d1a6d85a0b66",
+      "bytes": 5999
+    },
+    {
+      "file": "Assets/Scripts/UI/P07Interface.cs.meta",
+      "sha256": "6f0b90085e7f6881249da2f36bda866f38c8311e6db85f8f8a31b1ab61aef570",
+      "bytes": 59
+    },
+    {
+      "file": "Assets/Scripts/UI/P07Language.cs",
+      "sha256": "480cac20beff2f8b1ac35898efd4ebb54abf5b9dee01b87431c367598a196ac1",
+      "bytes": 909
+    },
+    {
+      "file": "Assets/Scripts/UI/P07Language.cs.meta",
+      "sha256": "fbfb32ded48742e21d2b1e6673fb5f39238a4ee4d6858372aec1a57b3cc7b430",
+      "bytes": 59
+    },
+    {
+      "file": "Assets/Scripts/UI/P07PresentationData.cs",
+      "sha256": "ac4d531cca35cdf7a0aae0e6df5284171eb2b0fb06982ca26b7e1730aad460c5",
+      "bytes": 317
+    },
+    {
+      "file": "Assets/Scripts/UI/P07PresentationData.cs.meta",
+      "sha256": "e20f5dfb38e3755f575ef0814903c8bff37743d8fb898f70a767d125f0022b22",
+      "bytes": 59
+    },
+    {
+      "file": "Assets/Scripts/UI/P07QuestDisplay.cs",
+      "sha256": "2d704d000c09dd939a9b2165c9de3b4e395aded196c6ef911019413472b8bc20",
+      "bytes": 3384
+    },
+    {
+      "file": "Assets/Scripts/UI/P07QuestDisplay.cs.meta",
+      "sha256": "977a363b8e4824a7cdf5d2b483731beb2771b6474ee462a381af1262ae71d151",
+      "bytes": 59
+    },
+    {
+      "file": "Assets/Scripts/UI/P07SettingsPanel.cs",
+      "sha256": "870b9594c00af7c884d59ca94212a71f54fee01ed03dd5a62e98c6d63e88d9ca",
+      "bytes": 6621
+    },
+    {
+      "file": "Assets/Scripts/UI/P07SettingsPanel.cs.meta",
+      "sha256": "ec256ce6ccfb4e87a5a39c431c3ef8872aebe20de58ab840336ca9630fc8788b",
+      "bytes": 59
+    },
+    {
+      "file": "Assets/Scripts/UI/P07UI.cs",
+      "sha256": "e722a58169ffe8281d3576be20f175883932b3ad7e080063d1ce4c53fe826160",
+      "bytes": 8521
+    },
+    {
+      "file": "Assets/Scripts/UI/P07UI.cs.meta",
+      "sha256": "1dc45110499c321c748b3654c72e5f72890b72c3e1a4351cd8d3d3cfa9b54e46",
+      "bytes": 59
+    }
+  ]
+}

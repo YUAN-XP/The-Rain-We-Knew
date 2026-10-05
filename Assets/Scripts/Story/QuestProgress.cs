@@ -68,7 +68,7 @@ public sealed class QuestProgress : MonoBehaviour {
         case QuestEvent.GateKeyObtained:return "探索家属院";
         case QuestEvent.ChildShadowTriggered:return "追上阴影";
         case QuestEvent.ChildhoodEntered:return "接电话";
-        case QuestEvent.PhoneDialogueCompleted:return "前往卧室拿上相机";
+        case QuestEvent.PhoneDialogueCompleted:return "前往客厅拿上相机";
         case QuestEvent.CameraObtained:return "探索周围，前往河畔寻找男孩";
         case QuestEvent.ReturnControlAfterZhao:return "回家";
         case QuestEvent.HomeEnteredAfterRiver:return "探索客厅";

@@ -1,0 +1,16 @@
+{
+  "checked_at": "2026-10-05T13:58:16.3087964+08:00",
+  "checks": [
+    {
+      "path": "HKCU:\\Software\\DefaultCompany\\ProjectMystery",
+      "matches_pretest_selected_values": true,
+      "values_restored": 15
+    },
+    {
+      "path": "HKCU:\\Software\\Unity\\UnityEditor\\DefaultCompany\\ProjectMystery",
+      "matches_pretest_selected_values": true,
+      "values_restored": 0
+    }
+  ],
+  "scope": "Only P07.* and Screenmanager* values in the two captured ProjectMystery keys; unrelated values and save files untouched."
+}

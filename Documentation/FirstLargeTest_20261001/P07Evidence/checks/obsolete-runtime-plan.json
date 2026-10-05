@@ -1,0 +1,77 @@
+{
+  "approved_scope": "User requested deleting obsolete generated test recordings; only older P07 runtime batches in this exact D workspace. Final evidence, final source batches, backups and user documents preserved.",
+  "retained_final_batches": [
+    "camera1-130525",
+    "flow0-124234",
+    "flow1-125713",
+    "flow3-131129",
+    "flow6-130032",
+    "interface-124532",
+    "opening-125534",
+    "tasks-124815"
+  ],
+  "obsolete_batches": [
+    {
+      "path": "D:\\游戏设计\\Codex工作区\\work\\2026-10-05-P07\\runtime\\camera1-121000",
+      "bytes": 7355640
+    },
+    {
+      "path": "D:\\游戏设计\\Codex工作区\\work\\2026-10-05-P07\\runtime\\flow0-122415",
+      "bytes": 87885761
+    },
+    {
+      "path": "D:\\游戏设计\\Codex工作区\\work\\2026-10-05-P07\\runtime\\flow1-121202",
+      "bytes": 92732095
+    },
+    {
+      "path": "D:\\游戏设计\\Codex工作区\\work\\2026-10-05-P07\\runtime\\flow6-122228",
+      "bytes": 904855
+    },
+    {
+      "path": "D:\\游戏设计\\Codex工作区\\work\\2026-10-05-P07\\runtime\\interface-102118",
+      "bytes": 14756122
+    },
+    {
+      "path": "D:\\游戏设计\\Codex工作区\\work\\2026-10-05-P07\\runtime\\interface-102453",
+      "bytes": 112191474
+    },
+    {
+      "path": "D:\\游戏设计\\Codex工作区\\work\\2026-10-05-P07\\runtime\\interface-104011",
+      "bytes": 78748643
+    },
+    {
+      "path": "D:\\游戏设计\\Codex工作区\\work\\2026-10-05-P07\\runtime\\interface-105043",
+      "bytes": 92530625
+    },
+    {
+      "path": "D:\\游戏设计\\Codex工作区\\work\\2026-10-05-P07\\runtime\\interface-120647",
+      "bytes": 98066643
+    },
+    {
+      "path": "D:\\游戏设计\\Codex工作区\\work\\2026-10-05-P07\\runtime\\opening-110902",
+      "bytes": 62434749
+    },
+    {
+      "path": "D:\\游戏设计\\Codex工作区\\work\\2026-10-05-P07\\runtime\\opening-114152",
+      "bytes": 53
+    },
+    {
+      "path": "D:\\游戏设计\\Codex工作区\\work\\2026-10-05-P07\\runtime\\opening-115005",
+      "bytes": 62959833
+    },
+    {
+      "path": "D:\\游戏设计\\Codex工作区\\work\\2026-10-05-P07\\runtime\\tasks-115251",
+      "bytes": 3075059
+    },
+    {
+      "path": "D:\\游戏设计\\Codex工作区\\work\\2026-10-05-P07\\runtime\\tasks-120040",
+      "bytes": 4245828
+    },
+    {
+      "path": "D:\\游戏设计\\Codex工作区\\work\\2026-10-05-P07\\runtime\\tasks-120250",
+      "bytes": 39081055
+    }
+  ],
+  "bytes_to_reclaim": 756968435,
+  "final_evidence_hashes_verified": 113
+}

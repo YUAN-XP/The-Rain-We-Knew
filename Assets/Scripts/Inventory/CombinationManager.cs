@@ -50,6 +50,7 @@ public sealed class CombinationManager : MonoBehaviour
         var before=inventory.CaptureSession();var beforeFiles=files.Files.ToArray();
         var flags=new Dictionary<StoryFlag,bool>{{r.completedFlag,story.Has(r.completedFlag)}};
         if(r.restoreLamp)flags[StoryFlag.OilLampExhausted]=story.Has(StoryFlag.OilLampExhausted);
+        var history=GetComponent<AcquisitionHistory>();history?.BeginTransaction();
         busy=true;
         try {
             foreach(var m in r.materials.Where(m=>m.consume)){inventory.RemoveItem(m.item);if(inventory.HasItem(m.item))throw new InvalidOperationException("Material removal rejected");}
@@ -64,9 +65,9 @@ public sealed class CombinationManager : MonoBehaviour
             if(r.restoreLamp&&!lamp.StoryUsable)throw new InvalidOperationException("Lamp restoration rejected");
             feedback=r.resultFile!=null?r.resultFile.fileName:r.resultName;
         } catch(Exception e) {
-            inventory.RestoreSession(before);files.RestoreSession(beforeFiles);story.RestoreSubset(flags);
+            inventory.RestoreSession(before);files.RestoreSession(beforeFiles);story.RestoreSubset(flags);history?.RollbackTransaction();
             Debug.LogWarning("Combination rolled back: "+e.Message,this);feedback="组合未完成，材料已保留。";return false;
         } finally {busy=false;}
-        Completed?.Invoke(r);return true;
+        history?.CommitTransaction();Completed?.Invoke(r);return true;
     }
 }

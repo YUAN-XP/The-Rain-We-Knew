@@ -16,8 +16,8 @@ public class InventoryManager : MonoBehaviour
     {
         if (item != null && HasItem(item)) presentation[item] = (name, description);
     }
-    public string DisplayName(ItemData item) => item != null && presentation.TryGetValue(item, out var value) ? value.name : item != null ? item.itemName : "";
-    public string DisplayDescription(ItemData item) => item != null && presentation.TryGetValue(item, out var value) ? value.description : item != null ? item.description : "";
+    public string DisplayName(ItemData item) => P07Language.Display(item != null && presentation.TryGetValue(item, out var value) ? value.name : item != null ? item.itemName : "");
+    public string DisplayDescription(ItemData item) => P07Language.Display(item != null && presentation.TryGetValue(item, out var value) ? value.description : item != null ? item.description : "");
 
     // A checkpoint owns the complete session snapshot. This does not relax
     // RemoveItem's permanent-item guard or modify any authored ItemData.

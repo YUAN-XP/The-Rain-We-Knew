@@ -1,0 +1,1234 @@
+[
+  {
+    "source_run": "interface-124532",
+    "source_name": "ContinueNoOpening.png",
+    "source_sha256": "17c0204e3713e312dc926bdb69f0c6ef9f6ad505e04a7c5148273169ef013218",
+    "artifact": "runtime/interface/ContinueNoOpening.jpg",
+    "artifact_sha256": "2a3075f0dcec9b98f6bd7fc505859851ec3b9337a6c4db28c4c02f938f2826fd",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "interface-124532",
+    "source_name": "FirstFileCloseup.png",
+    "source_sha256": "9e63dc94d289029d35cc572b8da70d66f28ffda9219032adb9f66095e5148bb6",
+    "artifact": "runtime/interface/FirstFileCloseup.jpg",
+    "artifact_sha256": "e66ad0b8b779f9f903e13a108706a1292e50d2171103fc7b3b095f3767f71ede",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "interface-124532",
+    "source_name": "FirstFileRead.png",
+    "source_sha256": "a3747ea361903db9e0301c5135aef63ea413e284aac586e0ae4190e68f5cb791",
+    "artifact": "runtime/interface/FirstFileRead.jpg",
+    "artifact_sha256": "1897b27d6f3a44a20155c9b68e4d29d435a27cf42dd957df90939fb502eda985",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "interface-124532",
+    "source_name": "FirstItemCloseup.png",
+    "source_sha256": "e039fde2cce050ed2a74fadce812e436b8da42cee94d174ea57bde732286c136",
+    "artifact": "runtime/interface/FirstItemCloseup.jpg",
+    "artifact_sha256": "4be455e8bfa6a18f312264304129daab6a490ca73214290ae616078826b34612",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "interface-124532",
+    "source_name": "FourLoadSlots.png",
+    "source_sha256": "ed4a4a72f6a13ff943aeb5832abd4494b83077cf47a87061f7b4bff3ad9550f4",
+    "artifact": "runtime/interface/FourLoadSlots.jpg",
+    "artifact_sha256": "711c3cfdc0f1f1582bdddc5e60c4a114e672ffe06d88feb71223f78e618a77f0",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "interface-124532",
+    "source_name": "FourSaveSlots.png",
+    "source_sha256": "e55f541507d9eec9e74a41a11322c5de501396700e5c0d23a8f00cdc0ec9af42",
+    "artifact": "runtime/interface/FourSaveSlots.jpg",
+    "artifact_sha256": "cd87109b5d0f9d7de8b640e58ab303dfd5900b39011375f30aae75eee74571a4",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "interface-124532",
+    "source_name": "ItemToast.png",
+    "source_sha256": "2f9cc2d403b5a65d2ba737f0bdb5851d7f7d6a98a06626b8b196e4d31646a6a9",
+    "artifact": "runtime/interface/ItemToast.jpg",
+    "artifact_sha256": "d679a3142b5e4aa66ce6c923d567bf2d6de5cd5c730c67f72dd965443f4abcdf",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "interface-124532",
+    "source_name": "LoadConfirmation.png",
+    "source_sha256": "8efd72d4e9d0f8598f23e10bc7365fa3cbe96caba5c6e999c7f8cc1b35ea4c3e",
+    "artifact": "runtime/interface/LoadConfirmation.jpg",
+    "artifact_sha256": "63e5f021bc830c839f552e37f4f2d958e37ef5106d5c7b3a131f32faaf3701ed",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "interface-124532",
+    "source_name": "MenuCorruptOnly.png",
+    "source_sha256": "7f6b3d3262ef94119dedd93de74ec892ad1cbddae04d89c75ea8068ac47b5584",
+    "artifact": "runtime/interface/MenuCorruptOnly.jpg",
+    "artifact_sha256": "4a0a2b11ab0d9f4da2a2f44a86cdd1c55c02519813eeaf62b382022f6695abd0",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "interface-124532",
+    "source_name": "MenuNoSave.png",
+    "source_sha256": "1c5c25c0213ba2460cc56963e63ea242281be3c661dda9aa6eaf9dd7a4bd9b48",
+    "artifact": "runtime/interface/MenuNoSave.jpg",
+    "artifact_sha256": "1517ea3b2fa30da4a1a232b3a4a5caaefbc68e473d62887267a73ea3db29d96f",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "interface-124532",
+    "source_name": "MenuWithSave.png",
+    "source_sha256": "b3c2460663ad8029766692210160816c57a20017584caf90c9a61b0731d8d754",
+    "artifact": "runtime/interface/MenuWithSave.jpg",
+    "artifact_sha256": "6fcf26be3ee575605e02045474471a33f76daa37f745f7201bc6ac36855dc2e5",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "interface-124532",
+    "source_name": "NewGameCleanSession.png",
+    "source_sha256": "d34308e92e0060e742a8429208efb7b13dbc669a31c4f2e01506d0308be1abbe",
+    "artifact": "runtime/interface/NewGameCleanSession.jpg",
+    "artifact_sha256": "7c448dda90761cd24dc32bdaf616d3f300b1e7d8d208175ca051bcd0b11a1432",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "interface-124532",
+    "source_name": "NewGameConfirmation.png",
+    "source_sha256": "64c0de8eb0fc8fb3fcdcd12072eb055e50c996b2138a355ed72c0ec40f28d016",
+    "artifact": "runtime/interface/NewGameConfirmation.jpg",
+    "artifact_sha256": "435a86c177556e38fbbeeb638517c3b429f1441c9e865e298150844c11dbc3fd",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "interface-124532",
+    "source_name": "Opening_headache_no_portrait.png",
+    "source_sha256": "b6788929b4dd0941c9afb383f39a2ce1ab65cb6e3ef078a9b1cd175b2e2ce8f6",
+    "artifact": "runtime/interface/Opening_headache_no_portrait.jpg",
+    "artifact_sha256": "adf796cb622c05e911278a7677d0752e70f70fef4fe737133004c0a9581164e3",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "interface-124532",
+    "source_name": "Opening_hold_three_seconds.png",
+    "source_sha256": "b173a249e82e1bbf07d4a4f53a208d1c782dfcedab4d1814e7dacecc15ce15dd",
+    "artifact": "runtime/interface/Opening_hold_three_seconds.jpg",
+    "artifact_sha256": "01701f2031bc29c14d2734ceee9f821b05706f13fc9ece555cba7c97d4ba646a",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "interface-124532",
+    "source_name": "Opening_ink_melt.png",
+    "source_sha256": "9a32380b35d0a50b50cae79e42b3c8f74c5c6175be442f6d9a677b2a21591e6a",
+    "artifact": "runtime/interface/Opening_ink_melt.jpg",
+    "artifact_sha256": "0c22ec1b256894a44610431b67bd43557ead957199ebf4ba398c087e450181d9",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "interface-124532",
+    "source_name": "Opening_paired_quote.png",
+    "source_sha256": "b79a4e2a8c002789ce6ac08314b9989d851161ec98f9b132f890d862f578a07c",
+    "artifact": "runtime/interface/Opening_paired_quote.jpg",
+    "artifact_sha256": "7eb192d3ec48772db716a6172761b37e1df853df21f92afacb8c9433bbf7147d",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "interface-124532",
+    "source_name": "Opening_white.png",
+    "source_sha256": "c529506c0bf006fab92785fb851a88f7d06301de413414ed5351dcb24e428602",
+    "artifact": "runtime/interface/Opening_white.jpg",
+    "artifact_sha256": "adeb19b85a2ba663f71c40ee9e1b9d76c0b2c15be5ef07cb4fa23d19b1d2d15a",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "interface-124532",
+    "source_name": "OpeningFreeTask.png",
+    "source_sha256": "441f0a0cb4958dff3bdfe1fe368e4d786fe982f0f7db91d7cd3936e3e6193f7e",
+    "artifact": "runtime/interface/OpeningFreeTask.jpg",
+    "artifact_sha256": "5417ef1d6d4c4623b008b3c03058be1d51fb6a6b9f0bd8298bbb07d50179a0b8",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "interface-124532",
+    "source_name": "OutfitToastOnly.png",
+    "source_sha256": "991bdd20d016d33bb3284c2284746b4e4c18776ce23750bcfee254445934c853",
+    "artifact": "runtime/interface/OutfitToastOnly.jpg",
+    "artifact_sha256": "c5c9622fcda04ca851cb7eb325cd091628e458830976d920ec8bcbfc7914a7f1",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "interface-124532",
+    "source_name": "OverwriteConfirmation.png",
+    "source_sha256": "5d6312612af6d072172042a0a04795f1b242596e4048413586d890d03053c5be",
+    "artifact": "runtime/interface/OverwriteConfirmation.jpg",
+    "artifact_sha256": "b920d2a288f09ed01b7b14e1a7ed1c223ba5da353d3bddc9ae1a88689a4a889a",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "interface-124532",
+    "source_name": "PauseFiveButtons.png",
+    "source_sha256": "39e3520d554a60ecfc649a3531c1bb2847811f35e828ad0f4c568cfbb61bb599",
+    "artifact": "runtime/interface/PauseFiveButtons.jpg",
+    "artifact_sha256": "164346ea3b82fa5872103c27debcf1c860479ea77d78dafdeb594e4c92ca8d73",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "interface-124532",
+    "source_name": "results.txt",
+    "source_sha256": "21b9cee79fdbafe159bea284aaffb77e56148b5e38f1a9d195ec5201f2d8476b",
+    "artifact": "runtime/interface/results.txt",
+    "artifact_sha256": "21b9cee79fdbafe159bea284aaffb77e56148b5e38f1a9d195ec5201f2d8476b",
+    "processing": "exact copy"
+  },
+  {
+    "source_run": "interface-124532",
+    "source_name": "ReturnConfirmation.png",
+    "source_sha256": "05e427bae16edf9a8529b944f8f3cd5d3232dd6fadb7735b45510faf8968d688",
+    "artifact": "runtime/interface/ReturnConfirmation.jpg",
+    "artifact_sha256": "eeed62a1e4562354ccd654b37cb028e846f0d92c5fb866b9a6d3fc351668afe0",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "interface-124532",
+    "source_name": "RiseStandingMid.png",
+    "source_sha256": "2e2826a378fe1752500cab4a6d9a7b5c1183c87b740ec71acb0f611012be2d7f",
+    "artifact": "runtime/interface/RiseStandingMid.jpg",
+    "artifact_sha256": "26c0fb132519ac944729c24aebb18d2cc5f2f0e492c605a838087d463e538454",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "interface-124532",
+    "source_name": "RiseSupportedMid.png",
+    "source_sha256": "6a0afaf826652792fa82eecd5fcf4d190b546577d64cd127e794b133f80c40f3",
+    "artifact": "runtime/interface/RiseSupportedMid.jpg",
+    "artifact_sha256": "fb00a303f1496769e2bf5dbe25344987d53d1a2ecd84f85572aae855404221e5",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "interface-124532",
+    "source_name": "SettingsAudio.png",
+    "source_sha256": "54c82d44783fb8a9552241757f4ec3e790da1de55b0e6775cfc36ff19cedb599",
+    "artifact": "runtime/interface/SettingsAudio.jpg",
+    "artifact_sha256": "2364ce90744a7b71e137d7e117fce40429a5302f8bf6a1f590ac1a8fa028872e",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "interface-124532",
+    "source_name": "SettingsCredits.png",
+    "source_sha256": "27ec002414f8cf10b6014597a4a358b00a175feacaa75b39de402c6382b20e79",
+    "artifact": "runtime/interface/SettingsCredits.jpg",
+    "artifact_sha256": "98e2dd08d1246e0dc4fcc6fef7e57b60ea2c9a9f8cd057717ee09ecc023c4391",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "interface-124532",
+    "source_name": "SettingsVideoScrolled.png",
+    "source_sha256": "e5929bd0e6c9997df6524da03edc660c69c5bc64f0c659e605c8c90e329e40a5",
+    "artifact": "runtime/interface/SettingsVideoScrolled.jpg",
+    "artifact_sha256": "befba9eead2c5aad2bc427d9aae93c4dc23b53e1cc2c0f825882e0657f7029ab",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "interface-124532",
+    "source_name": "SettingsVideoTwoRows.png",
+    "source_sha256": "07e1775372997cad8f1cd22ba636c43a2dd9b47094e3431da90c19f80374fa0d",
+    "artifact": "runtime/interface/SettingsVideoTwoRows.jpg",
+    "artifact_sha256": "14ec4fa68f029eb233a717d4434c5d5be6b1f7fc5f25bb4a78e38b46b126bc42",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "interface-124532",
+    "source_name": "status.txt",
+    "source_sha256": "ff5cf155c4c5de5a9b9869fe54f70c6bbadc4294122857f436c4992fbe7fc973",
+    "artifact": "runtime/interface/status.txt",
+    "artifact_sha256": "ff5cf155c4c5de5a9b9869fe54f70c6bbadc4294122857f436c4992fbe7fc973",
+    "processing": "exact copy"
+  },
+  {
+    "source_run": "tasks-124815",
+    "source_name": "BoardingStroke.png",
+    "source_sha256": "6222a0f13e80b070226af13d95fbf1bab0737b34feaa2d5e0ebe5995c07a5f1d",
+    "artifact": "runtime/tasks/BoardingStroke.jpg",
+    "artifact_sha256": "48fb0382b545606ddea45e13d4bd171613e16196b0e37b17d3a53d35226043cb",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "tasks-124815",
+    "source_name": "results.txt",
+    "source_sha256": "7f5c819e12e38980c4f62a4b8bdc443880f156d31ad53001c3723f316502a331",
+    "artifact": "runtime/tasks/results.txt",
+    "artifact_sha256": "7f5c819e12e38980c4f62a4b8bdc443880f156d31ad53001c3723f316502a331",
+    "processing": "exact copy"
+  },
+  {
+    "source_run": "tasks-124815",
+    "source_name": "status.txt",
+    "source_sha256": "a59744130cac01bd7c58ad1d3c8d869245095965cc10ca3d29df1dbf9e350e00",
+    "artifact": "runtime/tasks/status.txt",
+    "artifact_sha256": "a59744130cac01bd7c58ad1d3c8d869245095965cc10ca3d29df1dbf9e350e00",
+    "processing": "exact copy"
+  },
+  {
+    "source_run": "tasks-124815",
+    "source_name": "Task_10.png",
+    "source_sha256": "bf5445fb387f7cc646f352c1da33b6aed37661f0ee1650d3429fb50d4d9523ed",
+    "artifact": "runtime/tasks/Task_10.jpg",
+    "artifact_sha256": "7b315f9525c0e1e31887658ee27e62c92fc07c6c6cfcb84e46f5a6f5c81673f9",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "tasks-124815",
+    "source_name": "Task_115.png",
+    "source_sha256": "f3edf280fe87624b3ed986deb0ecccd52fa0eeabf2f287a4f97d4e53b5ca390f",
+    "artifact": "runtime/tasks/Task_115.jpg",
+    "artifact_sha256": "fcfd90e285b2c166482ec1afa03b164367b42ed3abec120211faf551c503acfe",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "tasks-124815",
+    "source_name": "Task_190.png",
+    "source_sha256": "88bae2044206ba957a24e5f1a529a79a091e8105ecb9954815a2faf8c78c9593",
+    "artifact": "runtime/tasks/Task_190.jpg",
+    "artifact_sha256": "2b6f91f3e2c5f61eda86418ef5d56d7fb614d71ad72d05aa4b2bffd38addf426",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "tasks-124815",
+    "source_name": "Task_235.png",
+    "source_sha256": "276519198a7d4ed470415131d1b35f54f8920a2596e1ccaac2a3355b86f3e2c0",
+    "artifact": "runtime/tasks/Task_235.jpg",
+    "artifact_sha256": "b270a06c28601e79ef681e497213d2bd91c17510a966588a6ee9f264e066b6a4",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "tasks-124815",
+    "source_name": "Task_240.png",
+    "source_sha256": "5e846b5e7a681b2faaf9bfda5fd183a12b3809b4cbc99ff8acc000daed1c18a5",
+    "artifact": "runtime/tasks/Task_240.jpg",
+    "artifact_sha256": "e7bcf17bd16a2e3c1f814930bbe8768f56963444a3e969b1d5e7960e58a3dd4c",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "tasks-124815",
+    "source_name": "Task_60.png",
+    "source_sha256": "a1b0d7baa24cfe4cf20db05dd6e5e1af99c71c285d5c7d2d5ed12d5fe57be418",
+    "artifact": "runtime/tasks/Task_60.jpg",
+    "artifact_sha256": "489938e8f635fb7ef492b77fcf3dabfdc20a28ac0d60030c9687c9d1630ea5dd",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "tasks-124815",
+    "source_name": "Task_70.png",
+    "source_sha256": "b1009de95854efb8ca4b885877f5b339e690bfdd09316fb355cf99671107de61",
+    "artifact": "runtime/tasks/Task_70.jpg",
+    "artifact_sha256": "b2b4e7915e0a8880b64b824076b0c850603534f686f8efdc77d03fbf74df91d6",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "opening-125534",
+    "source_name": "pose-metrics.csv",
+    "source_sha256": "797dcf4bb3a25afa36146998e53121238868a4d2e8ffda3b9f19d9a236540aef",
+    "artifact": "runtime/opening/pose-metrics.csv",
+    "artifact_sha256": "797dcf4bb3a25afa36146998e53121238868a4d2e8ffda3b9f19d9a236540aef",
+    "processing": "exact copy"
+  },
+  {
+    "source_run": "opening-125534",
+    "source_name": "results.txt",
+    "source_sha256": "164e1f534a6ba1caafeda0a938835a84fbbf85b0d4402ca5ee9bbdd508055fe1",
+    "artifact": "runtime/opening/results.txt",
+    "artifact_sha256": "164e1f534a6ba1caafeda0a938835a84fbbf85b0d4402ca5ee9bbdd508055fe1",
+    "processing": "exact copy"
+  },
+  {
+    "source_run": "opening-125534",
+    "source_name": "Rise_000.png",
+    "source_sha256": "9e66142882da0f12ef810d16161d98f8f7c8cd166e0bb3e74b9fb4d1d872095f",
+    "artifact": "runtime/opening/Rise_000.jpg",
+    "artifact_sha256": "b263594d3e9b701f1f2a5066ce478b00467476373206fa9b9ec73d459042e312",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "opening-125534",
+    "source_name": "Rise_012.png",
+    "source_sha256": "d30c8367ede982683757af4d45217e79c1631e0db5dc9e854cca325d7a3a9dce",
+    "artifact": "runtime/opening/Rise_012.jpg",
+    "artifact_sha256": "c7bce05f4a0ec00d6f6e8e2b9d9c5e7ce98e503b27e472ba8812101092d42744",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "opening-125534",
+    "source_name": "Rise_022.png",
+    "source_sha256": "93dbfcac233d31a64998786ada58b17e2071dac770286546fcb05fe4f7a85651",
+    "artifact": "runtime/opening/Rise_022.jpg",
+    "artifact_sha256": "c6471562a3d0a2730879132497f166426517006c06a098fdb201735c2893dd58",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "opening-125534",
+    "source_name": "Rise_031.png",
+    "source_sha256": "a3a800d523673c644a3ad02ef154eaf0a53b3f29a2b158ae57ec39aac3efb0e4",
+    "artifact": "runtime/opening/Rise_031.jpg",
+    "artifact_sha256": "303d4c848ed7efa61e5c2ed9098a1bcf05be31ad15f15449e71e192e64acf95b",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "opening-125534",
+    "source_name": "Rise_034.png",
+    "source_sha256": "cc2ef6d4f9fca7b2eec94ec23a04d44e43471541dd6cce2e1b1e3e3f0d3c0160",
+    "artifact": "runtime/opening/Rise_034.jpg",
+    "artifact_sha256": "b19c6fd4c9f8098b0f5393ca452365bf21ae2c42ce84c05caff31b5aa9329d83",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "opening-125534",
+    "source_name": "Rise_042.png",
+    "source_sha256": "d02afa445e4691e59981d4ddd2d14c33428d0b6d1b599f717394c3a116f223d2",
+    "artifact": "runtime/opening/Rise_042.jpg",
+    "artifact_sha256": "55e118ce1f372a8c1e590d66e36f5e7a07cfbe678e1d98933c8840ff9a59963d",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "opening-125534",
+    "source_name": "Rise_062.png",
+    "source_sha256": "195b61b13cee451c72b5b2afc457d2f45dd46ced77b4ba423aed95f7d002746f",
+    "artifact": "runtime/opening/Rise_062.jpg",
+    "artifact_sha256": "d064c93f3aae23af08ea5eb5efa500f46806f70ec78f9862f9d48099f7c7d053",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "opening-125534",
+    "source_name": "Rise_070.png",
+    "source_sha256": "dda5e919c60ca600d236e97bfdbadd0c046870654680ba2691bdf928453b638e",
+    "artifact": "runtime/opening/Rise_070.jpg",
+    "artifact_sha256": "0c69b63922a9261fe75490d989f29d48cdc9e8e2c661eaa9c1b40dffe2a1f728",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "opening-125534",
+    "source_name": "Rise_082.png",
+    "source_sha256": "b934d6350ac9716c316df2ad4b0db8d852820b462034f32ad59dcfbed51b2fb6",
+    "artifact": "runtime/opening/Rise_082.jpg",
+    "artifact_sha256": "afe7dba6cd10778f40de4f870f8c8eb9871e456bf3a1ee414543b95b76681252",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "opening-125534",
+    "source_name": "Rise_095.png",
+    "source_sha256": "7632f3de5ee8e663372fc9aeabd622986fd3c5e1fa2932eec2da636d8d4e3e10",
+    "artifact": "runtime/opening/Rise_095.jpg",
+    "artifact_sha256": "f891ee36f6274402376a17377bec0b872ee310acbfdd5ea5b725a7fc97b19067",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "opening-125534",
+    "source_name": "Rise_100.png",
+    "source_sha256": "fe3ce2ab028ed1487a355b2ebf173fa97584daefc585dfc8d00b2694fcfff746",
+    "artifact": "runtime/opening/Rise_100.jpg",
+    "artifact_sha256": "e7a292baf58d395c36d46e072c24ac769e39b1c12682aeace5121a4c90de5bf4",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "opening-125534",
+    "source_name": "status.txt",
+    "source_sha256": "95dc0f18e205bb7543b031ce0eb2bdf38823d71b0b8467d5650b52fc4d515ecc",
+    "artifact": "runtime/opening/status.txt",
+    "artifact_sha256": "95dc0f18e205bb7543b031ce0eb2bdf38823d71b0b8467d5650b52fc4d515ecc",
+    "processing": "exact copy"
+  },
+  {
+    "source_run": "flow0-124234",
+    "source_name": "00_ComicEmbeddedDialogue.jpg",
+    "source_sha256": "5bf033bff1affcd2d4a2ae1faf85f85405354391d33a002dbe2e365e89a9cf9a",
+    "artifact": "runtime/chase/00_ComicEmbeddedDialogue.jpg",
+    "artifact_sha256": "deba10e2eda52d398b76ad0a1ded4833de392204471e9a5ca4cf537e9524e5a5",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "flow0-124234",
+    "source_name": "00b_ComicFourFramesAndText.jpg",
+    "source_sha256": "a81fcc67364864f25f94985bbd8b7150fa0e1143e55728353b8ab3fa65b41bf3",
+    "artifact": "runtime/chase/00b_ComicFourFramesAndText.jpg",
+    "artifact_sha256": "c185777e873386d1b44515e3cbbc665e872203fc32594f2fae7fbfab86f6891e",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "flow0-124234",
+    "source_name": "03_LeftApproach.jpg",
+    "source_sha256": "96d85ceffc6536ff45e808c25f5231a4dee5303e3243aa6c883243e77de459e0",
+    "artifact": "runtime/chase/03_LeftApproach.jpg",
+    "artifact_sha256": "59381ed9b1c146d43c40ad745b1eb60328bc39972704a6f179019d16308fe149",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "flow0-124234",
+    "source_name": "04_ChaseComplete.jpg",
+    "source_sha256": "09e4c31661b5a721174530bfc500a04d162416fdec577dd68df142c219733095",
+    "artifact": "runtime/chase/04_ChaseComplete.jpg",
+    "artifact_sha256": "5eeb8aa2e85e2b9e3764b1c8f9bd174f656adf55938d6e162d759e81cbddc1da",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "flow0-124234",
+    "source_name": "05_ChaseCompletionReload.jpg",
+    "source_sha256": "401b6569911511c2a0911c44825190e3ec2ff065e027f4b4f34c6fd4bca95c08",
+    "artifact": "runtime/chase/05_ChaseCompletionReload.jpg",
+    "artifact_sha256": "b4d6620ef93521fb430545c06c1c23d74748edc4d5889afdeaf122e15f82fcda",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "flow0-124234",
+    "source_name": "80_OriginalChaseOpening.jpg",
+    "source_sha256": "293ae81acf76d49d216d9b47b7b285d3aaea5ee3d7a8bb0f0af19be3c1992453",
+    "artifact": "runtime/chase/80_OriginalChaseOpening.jpg",
+    "artifact_sha256": "3e60bb7c4cff26d6c120acc2d44fd28e8c2b1896ae39e30bcbce72260db3f80f",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "flow0-124234",
+    "source_name": "81_ChaseRoofCrossed.jpg",
+    "source_sha256": "cf4dedf9f3fa3e6321e9890be9f837804e25f1bdb7ea0942e79ecb7226d37bde",
+    "artifact": "runtime/chase/81_ChaseRoofCrossed.jpg",
+    "artifact_sha256": "2ae94940499d34dd1af69fa4b34d250d630109e371f16122336170393c068537",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "flow0-124234",
+    "source_name": "82_ChaseSecurityArrival.jpg",
+    "source_sha256": "c62ca9a5468b41bab4dd9d36f5ad99ea4a056190fffd7132903dfe721331700e",
+    "artifact": "runtime/chase/82_ChaseSecurityArrival.jpg",
+    "artifact_sha256": "0d17712ad47afc44352694c7a84c4e36dfd4231315441f98223a8f4169fd011d",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "flow0-124234",
+    "source_name": "captures.csv",
+    "source_sha256": "d10b166554dd4ca0ce48eb39fc956a32e7dbb0108b6c9bdf4240eb38d9cc96e1",
+    "artifact": "runtime/chase/captures.csv",
+    "artifact_sha256": "d10b166554dd4ca0ce48eb39fc956a32e7dbb0108b6c9bdf4240eb38d9cc96e1",
+    "processing": "exact copy"
+  },
+  {
+    "source_run": "flow0-124234",
+    "source_name": "results.txt",
+    "source_sha256": "20d0297b8003214af1498b7faf1b3f84a0091ce197678ba8424e06ea80804ff7",
+    "artifact": "runtime/chase/results.txt",
+    "artifact_sha256": "20d0297b8003214af1498b7faf1b3f84a0091ce197678ba8424e06ea80804ff7",
+    "processing": "exact copy"
+  },
+  {
+    "source_run": "flow0-124234",
+    "source_name": "status.txt",
+    "source_sha256": "73b4ea3358a4cb3ef8dafe9f65b796bd8f8f8f1506547ffd598b183f6f397564",
+    "artifact": "runtime/chase/status.txt",
+    "artifact_sha256": "73b4ea3358a4cb3ef8dafe9f65b796bd8f8f8f1506547ffd598b183f6f397564",
+    "processing": "exact copy"
+  },
+  {
+    "source_run": "flow1-125713",
+    "source_name": "10_MailReadable.jpg",
+    "source_sha256": "d2edd30f81512b35fed9ae4d448fa8e0a80ca76a470d247d8973e0c0917d5a6c",
+    "artifact": "runtime/ending/10_MailReadable.jpg",
+    "artifact_sha256": "5ba59a5ac27635c93f6ee508c05cd4f389d6d7a88d0b69f251ecb78b6444052f",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "flow1-125713",
+    "source_name": "11_HandoverPortraits.jpg",
+    "source_sha256": "fa7248403343a164fceaa96a10d0e8c100d9af1ac521980b618606520d906ead",
+    "artifact": "runtime/ending/11_HandoverPortraits.jpg",
+    "artifact_sha256": "dd049c90c68a6d115caf16e22786765467925dfdfe277973a54e5dad651b4c1a",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "flow1-125713",
+    "source_name": "12_ZhangStablePortraits.jpg",
+    "source_sha256": "b5b50df35734d43fe29c75b8808e901423dc3aac80b977f87842b1f079c71dd8",
+    "artifact": "runtime/ending/12_ZhangStablePortraits.jpg",
+    "artifact_sha256": "dcc17908124909bc50118567809d2e79d5d4ef9807ee9b5b3775f4e432160e47",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "flow1-125713",
+    "source_name": "13_BoardingThreeEntries.jpg",
+    "source_sha256": "90672fa5810472ff61df66f6f6152b3acd523363a68472862356d632df1697d6",
+    "artifact": "runtime/ending/13_BoardingThreeEntries.jpg",
+    "artifact_sha256": "d5382ac206baa0777304ed536973603265fc961940c2035aaaf06f05499d692a",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "flow1-125713",
+    "source_name": "14_SeatedCar.jpg",
+    "source_sha256": "912d845c48274f4060d8a44d02e1a3277ce681b0be7c2578e424d6c0515a1072",
+    "artifact": "runtime/ending/14_SeatedCar.jpg",
+    "artifact_sha256": "e8c49b2497841f6d1a46177add5f4dcdab1d6b9f8ec3d9739776459d4b71c219",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "flow1-125713",
+    "source_name": "20_ChildMemory.jpg",
+    "source_sha256": "43c9d79b10b13b821f0cd6093d1b13b2112aab9dda660b4bef9e9d29122d69bb",
+    "artifact": "runtime/ending/20_ChildMemory.jpg",
+    "artifact_sha256": "bb6df9727aeaa3574f63f85118a1295cf877866a44b7610f11966e364fb3af1a",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "flow1-125713",
+    "source_name": "21_PendantTransfer.jpg",
+    "source_sha256": "b0c3305a08c3feccd45736b6fe1ff31c67a35a5f038e5e62b065f78766c1d07d",
+    "artifact": "runtime/ending/21_PendantTransfer.jpg",
+    "artifact_sha256": "3f8a25cb82534fc4263eb6fc745cf5903a3ddafb44ec3f501d020f094a410a8c",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "flow1-125713",
+    "source_name": "22_YouthMemory.jpg",
+    "source_sha256": "8bd3dd6d836ed2944f0fef99f34c081b70cb674ca35c83a760045549263d797c",
+    "artifact": "runtime/ending/22_YouthMemory.jpg",
+    "artifact_sha256": "3d8aa5031b515dad17be9631fea4c7f511db4fcdb076ea62788e0c2e502caf9d",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "flow1-125713",
+    "source_name": "23_NativeSupportArm.jpg",
+    "source_sha256": "aab8f927a283f0d2f699f7a0ccc2e9556c656209c86f6c782044c5f0775c0646",
+    "artifact": "runtime/ending/23_NativeSupportArm.jpg",
+    "artifact_sha256": "225b31921cbc4818cd929f45137678d3507f2a27edf0f787460d8d2e56d1b486",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "flow1-125713",
+    "source_name": "24_AnonymousGurneys.jpg",
+    "source_sha256": "a11453636ce1b63d671214b9d0cffd2f5715f62d6e0b136f2a5936f36536fe3e",
+    "artifact": "runtime/ending/24_AnonymousGurneys.jpg",
+    "artifact_sha256": "2143b8d2991672338cdb23ad1d155b5876744a4676b6dd87dc8810b68fc6fe5c",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "flow1-125713",
+    "source_name": "25_GurneyPassing.jpg",
+    "source_sha256": "80a3e27684038d8d058d04cfd72a4b863970dea0ae79ecbfe0c50e0b0eb3a263",
+    "artifact": "runtime/ending/25_GurneyPassing.jpg",
+    "artifact_sha256": "99d62363e70b36158776250c76096117c52252a36f14daf781e5f0adf6c6eb91",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "flow1-125713",
+    "source_name": "30_WardEntry.jpg",
+    "source_sha256": "21bfbd5a607ce93ddab6e229098b48f8e2e3d1970f7e81d1a87d1d75c821b885",
+    "artifact": "runtime/ending/30_WardEntry.jpg",
+    "artifact_sha256": "908a9d457fa7dea4778edbf6c5a5ffd4e7efcbcde33d7261805f1cf5214e2411",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "flow1-125713",
+    "source_name": "31_WardGroundedBed.jpg",
+    "source_sha256": "5eab40d7dbeed0739aa8e8d2e35112677fd4e23d471af617eb8f7b8b57de99e4",
+    "artifact": "runtime/ending/31_WardGroundedBed.jpg",
+    "artifact_sha256": "f9a1229bb6979721f5c58e8ebee7cdeb62525421588ebe73b9c07fd37ef2c548",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "flow1-125713",
+    "source_name": "32_WardRightBoundary.jpg",
+    "source_sha256": "3784f74999cf6536eb2213ec39e38b724bdb20c5b166fde1b9cf4bd123c9841c",
+    "artifact": "runtime/ending/32_WardRightBoundary.jpg",
+    "artifact_sha256": "9a778509e643ed290878cd2054b1c920a925c7b56db4f9cc706d6dcc3c7671fa",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "flow1-125713",
+    "source_name": "33_CurtainedCloseup.jpg",
+    "source_sha256": "8be720adc0835c56d57f93a4d10d4fc77f5be8f169999ad5c06fec50a740b8b4",
+    "artifact": "runtime/ending/33_CurtainedCloseup.jpg",
+    "artifact_sha256": "ce0fc86cfb029f206691173fff39be4e624dbd9ac64d921d62abc93e132956d5",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "flow1-125713",
+    "source_name": "34_DoctorNoPortrait.jpg",
+    "source_sha256": "9201856b297d7ecbf68537f06ff554283d2f4d44844ed1b1c82474e0c056e948",
+    "artifact": "runtime/ending/34_DoctorNoPortrait.jpg",
+    "artifact_sha256": "3dbd448e6a29dea1ac932fddb12e65d6d819251bd78e50267af934fb90cfc30a",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "flow1-125713",
+    "source_name": "35_BlackFinalDialogue.jpg",
+    "source_sha256": "4ff49fb492114411801a8b2fc7ef8ed233a0ee3cc42bc54a2a21a7eac2bec8a6",
+    "artifact": "runtime/ending/35_BlackFinalDialogue.jpg",
+    "artifact_sha256": "cc38e1a5c57f5d1a95131abb085d8a25f1e96c4f17275d888c0ab0d56447d6e9",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "flow1-125713",
+    "source_name": "36_FinalLineBeforeFade.jpg",
+    "source_sha256": "a59a496720382d1e7374dffc4f59ae705fc3d0139ccf99e797d897bfbea6d696",
+    "artifact": "runtime/ending/36_FinalLineBeforeFade.jpg",
+    "artifact_sha256": "4f7df98d6f46913ec68411f611097d08e1ac667b18c6c21ac036892249efcead",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "flow1-125713",
+    "source_name": "37_DemoCompleteMenu.jpg",
+    "source_sha256": "81fa277cb980124fd808936b587f6b1aae600f46401220980afc5e41b6ff4628",
+    "artifact": "runtime/ending/37_DemoCompleteMenu.jpg",
+    "artifact_sha256": "fa6506d161669a826544a73545e6af998d3ee62b9c7539a94d75501006b4189c",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "flow1-125713",
+    "source_name": "captures.csv",
+    "source_sha256": "bfa56ffd2c230825679aab73080b91b7d4bbafe0f64e16ef4477571d7e7c409e",
+    "artifact": "runtime/ending/captures.csv",
+    "artifact_sha256": "bfa56ffd2c230825679aab73080b91b7d4bbafe0f64e16ef4477571d7e7c409e",
+    "processing": "exact copy"
+  },
+  {
+    "source_run": "flow1-125713",
+    "source_name": "results.txt",
+    "source_sha256": "b81f42638c9c426674bdc7233f391fdc28d4e028c747f5a03388f8feb3082298",
+    "artifact": "runtime/ending/results.txt",
+    "artifact_sha256": "b81f42638c9c426674bdc7233f391fdc28d4e028c747f5a03388f8feb3082298",
+    "processing": "exact copy"
+  },
+  {
+    "source_run": "flow1-125713",
+    "source_name": "status.txt",
+    "source_sha256": "78cf75a115b46b5c73c0b195659ad233885b9430d7493a1df0ab9a75cfcefe5c",
+    "artifact": "runtime/ending/status.txt",
+    "artifact_sha256": "78cf75a115b46b5c73c0b195659ad233885b9430d7493a1df0ab9a75cfcefe5c",
+    "processing": "exact copy"
+  },
+  {
+    "source_run": "flow6-130032",
+    "source_name": "captures.csv",
+    "source_sha256": "4aa772c74c0206fcc25376d0301471fe7a564a29a81d7434781d8975d45d6717",
+    "artifact": "runtime/completion/captures.csv",
+    "artifact_sha256": "4aa772c74c0206fcc25376d0301471fe7a564a29a81d7434781d8975d45d6717",
+    "processing": "exact copy"
+  },
+  {
+    "source_run": "flow6-130032",
+    "source_name": "CompletionExitAndMenu.jpg",
+    "source_sha256": "81fa277cb980124fd808936b587f6b1aae600f46401220980afc5e41b6ff4628",
+    "artifact": "runtime/completion/CompletionExitAndMenu.jpg",
+    "artifact_sha256": "fa6506d161669a826544a73545e6af998d3ee62b9c7539a94d75501006b4189c",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "flow6-130032",
+    "source_name": "results.txt",
+    "source_sha256": "15f34a7db2421da4585ffcaf73389f0c3bd88d4cf7126b681706170ceedd0f33",
+    "artifact": "runtime/completion/results.txt",
+    "artifact_sha256": "15f34a7db2421da4585ffcaf73389f0c3bd88d4cf7126b681706170ceedd0f33",
+    "processing": "exact copy"
+  },
+  {
+    "source_run": "flow6-130032",
+    "source_name": "status.txt",
+    "source_sha256": "0ed59415b57862cf9770c40e769cf35b03c127086cf786941782aa37c30ce237",
+    "artifact": "runtime/completion/status.txt",
+    "artifact_sha256": "0ed59415b57862cf9770c40e769cf35b03c127086cf786941782aa37c30ce237",
+    "processing": "exact copy"
+  },
+  {
+    "source_run": "camera1-130525",
+    "source_name": "capture_state.txt",
+    "source_sha256": "ea8c7e837ded249e48330259c83480bedcec2bcc4e81d9e2e4e57e001e9fd51b",
+    "artifact": "runtime/camera/capture_state.txt",
+    "artifact_sha256": "ea8c7e837ded249e48330259c83480bedcec2bcc4e81d9e2e4e57e001e9fd51b",
+    "processing": "exact copy"
+  },
+  {
+    "source_run": "camera1-130525",
+    "source_name": "interaction-probe.txt",
+    "source_sha256": "ef6cd9eeca0eac735368cfc027fce4b1360393928d672c6fa88dec11df25a4f3",
+    "artifact": "runtime/camera/interaction-probe.txt",
+    "artifact_sha256": "ef6cd9eeca0eac735368cfc027fce4b1360393928d672c6fa88dec11df25a4f3",
+    "processing": "exact copy"
+  },
+  {
+    "source_run": "camera1-130525",
+    "source_name": "LivingRoom_CameraPrompt.png",
+    "source_sha256": "92c74e4952c05b3addde65d200934ea9077599b4fe88295470c4b9cdd16ed7b9",
+    "artifact": "runtime/camera/LivingRoom_CameraPrompt.jpg",
+    "artifact_sha256": "701f5f1efb6ce6fd98ec4a07cadecce897883747e978c6ad1b2a25047cf4c7e1",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "camera1-130525",
+    "source_name": "LivingRoom_CameraRaised_AfterE.png",
+    "source_sha256": "a564d6d7a4b1aa8cfd1a7bbb7d785208f86a0bf0862a13d424da605cc019fbb7",
+    "artifact": "runtime/camera/LivingRoom_CameraRaised_AfterE.jpg",
+    "artifact_sha256": "9d08028e7c676c17f4b99777d06cc1cb49d5cc64a7a8b0642a3fdd343c26fcef",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "camera1-130525",
+    "source_name": "results.txt",
+    "source_sha256": "fe284afd9de060063e28f8108b74874fcdf8d7dae75b43a756c8e948017009da",
+    "artifact": "runtime/camera/results.txt",
+    "artifact_sha256": "fe284afd9de060063e28f8108b74874fcdf8d7dae75b43a756c8e948017009da",
+    "processing": "exact copy"
+  },
+  {
+    "source_run": "camera1-130525",
+    "source_name": "status.txt",
+    "source_sha256": "45d33eddb110b9ae2e17e43c4a3d9b3daf602b9ed1e94e9882bf9e84562868d5",
+    "artifact": "runtime/camera/status.txt",
+    "artifact_sha256": "45d33eddb110b9ae2e17e43c4a3d9b3daf602b9ed1e94e9882bf9e84562868d5",
+    "processing": "exact copy"
+  },
+  {
+    "source_run": "flow3-131129",
+    "source_name": "12_ZhangStablePortraits.jpg",
+    "source_sha256": "376bdd9a480513f3ccff539e238396fa6a2cf36f183faa5ba3edf000ada41f45",
+    "artifact": "runtime/combined/12_ZhangStablePortraits.jpg",
+    "artifact_sha256": "50323735209788b9cb265c08e94da880ee80f4bcdbbb9806dba01d5afdcde06a",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "flow3-131129",
+    "source_name": "13_BoardingThreeEntries.jpg",
+    "source_sha256": "90672fa5810472ff61df66f6f6152b3acd523363a68472862356d632df1697d6",
+    "artifact": "runtime/combined/13_BoardingThreeEntries.jpg",
+    "artifact_sha256": "d5382ac206baa0777304ed536973603265fc961940c2035aaaf06f05499d692a",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "flow3-131129",
+    "source_name": "14_SeatedCar.jpg",
+    "source_sha256": "e81940a07b046a746601576b93a1934ad21066bbe21bbd919fee3de8094532c0",
+    "artifact": "runtime/combined/14_SeatedCar.jpg",
+    "artifact_sha256": "61a9ff299a01055941aeb89f9325be22435157c5aca39b303ad924e29cb306cc",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "flow3-131129",
+    "source_name": "captures.csv",
+    "source_sha256": "95292abd64b2c0284425d4abe27caef646dd27b451a58cb6bbaee6a5959ac4af",
+    "artifact": "runtime/combined/captures.csv",
+    "artifact_sha256": "95292abd64b2c0284425d4abe27caef646dd27b451a58cb6bbaee6a5959ac4af",
+    "processing": "exact copy"
+  },
+  {
+    "source_run": "flow3-131129",
+    "source_name": "CombinedCredentialCar.jpg",
+    "source_sha256": "7cf07e7b78b5c8abb45889a50f876a99174317071b80e8e4d97909554b94278c",
+    "artifact": "runtime/combined/CombinedCredentialCar.jpg",
+    "artifact_sha256": "62fbd1211c56f4eb05d22278a58d3ae3d527681f4cb52efcc4fddf530644cabc",
+    "size": [
+      2560,
+      1440
+    ],
+    "processing": "same dimensions; JPEG evidence encoding only, no crop or retouch"
+  },
+  {
+    "source_run": "flow3-131129",
+    "source_name": "results.txt",
+    "source_sha256": "863eb4be942160bef713367530f3bd46cb6d93ae4b8c8941213339621a0b0e07",
+    "artifact": "runtime/combined/results.txt",
+    "artifact_sha256": "863eb4be942160bef713367530f3bd46cb6d93ae4b8c8941213339621a0b0e07",
+    "processing": "exact copy"
+  },
+  {
+    "source_run": "flow3-131129",
+    "source_name": "status.txt",
+    "source_sha256": "d30ebf45d4ad995c62274db3851baef1abbd858ff479a3566f0983d8f49d8cc5",
+    "artifact": "runtime/combined/status.txt",
+    "artifact_sha256": "d30ebf45d4ad995c62274db3851baef1abbd858ff479a3566f0983d8f49d8cc5",
+    "processing": "exact copy"
+  },
+  {
+    "source_run": "interface-124532",
+    "source_name": "OpeningNormal.mp4",
+    "source_sha256": "32571bd05a7df20966dfc37eddeafd7053fb67b1055e6624b53572a70348ce73",
+    "artifact": "runtime/interface/OpeningNormal.mp4",
+    "artifact_sha256": "32571bd05a7df20966dfc37eddeafd7053fb67b1055e6624b53572a70348ce73",
+    "processing": "exact final-version bounded recording; no audio"
+  },
+  {
+    "source_run": "opening-125534",
+    "source_name": "RiseNormal.mp4",
+    "source_sha256": "38055eb04e42ca03a136d7992096f842f348dc6c5fbf205f34fcac6424b04ba9",
+    "artifact": "runtime/opening/RiseNormal.mp4",
+    "artifact_sha256": "38055eb04e42ca03a136d7992096f842f348dc6c5fbf205f34fcac6424b04ba9",
+    "processing": "exact final-version bounded recording; no audio"
+  },
+  {
+    "source_run": "opening-125534",
+    "source_name": "RiseSlow.mp4",
+    "source_sha256": "7beef106dbe18b03563bc567295372d98324711c4d81f81a77787a3c9d4e93b0",
+    "artifact": "runtime/opening/RiseSlow.mp4",
+    "artifact_sha256": "7beef106dbe18b03563bc567295372d98324711c4d81f81a77787a3c9d4e93b0",
+    "processing": "exact final-version bounded recording; no audio"
+  },
+  {
+    "source_run": "tasks-124815",
+    "source_name": "TaskTransitions.mp4",
+    "source_sha256": "c11d6376ab9d959c6766facfa8e01062068e33cfd4c11e754968a77489df6c56",
+    "artifact": "runtime/tasks/TaskTransitions.mp4",
+    "artifact_sha256": "c11d6376ab9d959c6766facfa8e01062068e33cfd4c11e754968a77489df6c56",
+    "processing": "exact final-version bounded recording; no audio"
+  },
+  {
+    "source_run": "flow0-124234",
+    "source_name": "01_ActualChase.mp4",
+    "source_sha256": "ac8446a472cb6336f9d0ee4f47f55d99e6ab40a89221c51102d56c2234fbcf46",
+    "artifact": "runtime/chase/01_ActualChase.mp4",
+    "artifact_sha256": "ac8446a472cb6336f9d0ee4f47f55d99e6ab40a89221c51102d56c2234fbcf46",
+    "processing": "exact final-version bounded recording; no audio"
+  },
+  {
+    "source_run": "flow1-125713",
+    "source_name": "04_ActualBoarding.mp4",
+    "source_sha256": "aeac86de967b2db21230c6db6b501c5cef076ef5c66e31354ba78f350d93c131",
+    "artifact": "runtime/ending/04_ActualBoarding.mp4",
+    "artifact_sha256": "aeac86de967b2db21230c6db6b501c5cef076ef5c66e31354ba78f350d93c131",
+    "processing": "exact final-version bounded recording; no audio"
+  },
+  {
+    "source_run": "flow1-125713",
+    "source_name": "10_FocusFinale.mp4",
+    "source_sha256": "fefb8a8295058cbb0a1b8aedb60c49ff6683d26f32c51362b80afafc2cb58510",
+    "artifact": "runtime/ending/10_FocusFinale.mp4",
+    "artifact_sha256": "fefb8a8295058cbb0a1b8aedb60c49ff6683d26f32c51362b80afafc2cb58510",
+    "processing": "exact final-version bounded recording; no audio"
+  },
+  {
+    "source_run": "flow3-131129",
+    "source_name": "05_CombinedBoarding.mp4",
+    "source_sha256": "739ac4753ae2e1037b2b5ce8867c1c2a27cf0fc8565e312b8105c8642c0d44f8",
+    "artifact": "runtime/combined/05_CombinedBoarding.mp4",
+    "artifact_sha256": "739ac4753ae2e1037b2b5ce8867c1c2a27cf0fc8565e312b8105c8642c0d44f8",
+    "processing": "exact final-version bounded recording; no audio"
+  }
+]

@@ -3,10 +3,10 @@ using UnityEngine;
 public class SimpleInteractable : MonoBehaviour, IInteractable
 {
     [Header("Interaction")]
-    [SerializeField] private string interactionPrompt = "[E] 调查";
+    [SerializeField] private string interactionPrompt = "[E] 璋冩煡";
 
     [TextArea]
-    [SerializeField] private string interactionText = "可以调查。";
+    [SerializeField] private string interactionText = "璋冩煡";
 
     public string GetInteractionPrompt()
     {

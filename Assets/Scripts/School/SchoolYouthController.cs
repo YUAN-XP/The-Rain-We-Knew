@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using TMPro;
 using UnityEngine;
@@ -161,7 +161,7 @@ public sealed class SchoolYouthController : MonoBehaviour
             if (!Story.Has(StoryFlag.SchoolOfficeHandoffReady)) { Notice("先向主任告别吧。", 3); return true; }
             if (officeExitHandler is ISchoolOfficeExitHandler handler && handler.TryExit(this)) return true;
             var canvas = BeginModal("开发检查点");
-            RuntimePanelUI.Text("Stage5B已完成，后续追逐待接入", canvas.transform, font, new Vector2(.1f,.32f), new Vector2(.9f,.7f), 34);
+            RuntimePanelUI.Text("本阶段已完成，后续追逐待接入", canvas.transform, font, new Vector2(.1f,.32f), new Vector2(.9f,.7f), 34);
             return true;
         }
         if (d.targetRoom == "StaffOffice" && !OfficeCanEnter)

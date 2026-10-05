@@ -42,7 +42,7 @@ public abstract class EndingStageController : MonoBehaviour
         var camera=runtime.GetComponent<CameraModeController>();camera?.AbortCapture();camera?.Lower();runtime.GetComponent<OilLampController>()?.LowerLamp();
         controls.AcquireLock(ControlLockReason.EndingSequence);sequenceLock=true;busy=true;
     }
-    protected void Unlock(){dialogue?.GetComponent<DemoDialogueArtwork>()?.EndConversation(this);if(sequenceLock&&controls!=null)controls.ReleaseLock(ControlLockReason.EndingSequence);sequenceLock=false;busy=false;}
+    protected void Unlock(){if(dialogue)dialogue.GetComponent<DemoDialogueArtwork>()?.EndConversation(this);if(sequenceLock&&controls!=null)controls.ReleaseLock(ControlLockReason.EndingSequence);sequenceLock=false;busy=false;}
     protected IEnumerator Wait(float seconds){float t=0;while(t<seconds){t+=Delta;yield return null;}}
     protected IEnumerator FreshKeys(){yield return null;while(paused||GameplayInput.GetKey(KeyCode.E)||GameplayInput.GetKey(KeyCode.Space))yield return null;yield return null;}
     protected IEnumerator Say(string id){

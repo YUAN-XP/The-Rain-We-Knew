@@ -1,0 +1,68 @@
+PASS semantic observer / label 10
+PASS rendered HUD after transition 10
+PASS semantic observer / label 20
+PASS rendered HUD after transition 20
+PASS actual upper-bar UI exists
+PASS dialogue hides task HUD
+PASS HUD returns after modal without another quest
+PASS semantic observer / label 30
+PASS rendered HUD after transition 30
+PASS earlier / duplicate events do not regress HUD
+PASS semantic observer / label 40
+PASS rendered HUD after transition 40
+PASS completion stroke freezes during pause
+PASS snapshot restores matching current task
+PASS semantic observer / label 50
+PASS rendered HUD after transition 50
+PASS semantic observer / label 60
+PASS rendered HUD after transition 60
+PASS semantic observer / label 70
+PASS rendered HUD after transition 70
+PASS semantic observer / label 80
+PASS rendered HUD after transition 80
+PASS semantic observer / label 85
+PASS rendered HUD after transition 85
+PASS semantic observer / label 90
+PASS rendered HUD after transition 90
+PASS semantic observer / label 100
+PASS rendered HUD after transition 100
+PASS semantic observer / label 110
+PASS rendered HUD after transition 110
+PASS semantic observer / label 115
+PASS rendered HUD after transition 115
+PASS semantic observer / label 120
+PASS rendered HUD after transition 120
+PASS semantic observer / label 130
+PASS rendered HUD after transition 130
+PASS semantic observer / label 140
+PASS rendered HUD after transition 140
+PASS semantic observer / label 150
+PASS rendered HUD after transition 150
+PASS semantic observer / label 160
+PASS rendered HUD after transition 160
+PASS semantic observer / label 170
+PASS rendered HUD after transition 170
+PASS semantic observer / label 175
+PASS rendered HUD after transition 175
+PASS semantic observer / label 180
+PASS rendered HUD after transition 180
+PASS Q19 waits for changed password
+PASS semantic observer / label 190
+PASS rendered HUD after transition 190
+PASS semantic observer / label 200
+PASS rendered HUD after transition 200
+PASS semantic observer / label 205
+PASS rendered HUD after transition 205
+PASS semantic observer / label 210
+PASS rendered HUD after transition 210
+PASS semantic observer / label 220
+PASS rendered HUD after transition 220
+PASS semantic observer / label 230
+PASS rendered HUD after transition 230
+PASS semantic observer / label 235
+PASS rendered HUD after transition 235
+PASS boarding triggers completion stroke while original boarding cutscene owns controls
+PASS boarding removes final task after stroke
+PASS semantic observer / label 240
+PASS rendered HUD after transition 240
+PASS all semantic events form valid monotonic save snapshot

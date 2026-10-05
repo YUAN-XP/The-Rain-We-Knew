@@ -1,0 +1,155 @@
+PASS original E dialogue and transaction finished
+PASS settled starting
+PASS original start does not auto-walk
+PASS original starting tools remain unearned
+PASS reaction state boundary 0
+PASS reaction state boundary 1
+PASS reaction state boundary 1.99
+PASS reaction state boundary 2.01
+PASS suspended reaction time is frozen
+PASS charge release never grants a fresh deadline
+PASS original isolated save loader 
+PASS settled isolated loader Scene04_School StaffOffice
+PASS load succeeds 
+PASS original E dialogue and transaction finished
+PASS actor on actual collider floor
+PASS settled isolated loader Scene04_School StaffOffice
+PASS settled isolated loader Scene04_School StaffOffice
+PASS settled isolated loader Scene04_School StaffOffice
+PASS comic alone shows original opening line 0
+PASS settled isolated loader Scene04_School StaffOffice
+PASS settled 00_ComicEmbeddedDialogue
+PASS comic alone shows original opening line 1
+PASS settled 00_ComicEmbeddedDialogue
+PASS comic alone shows original opening line 2
+PASS settled 00_ComicEmbeddedDialogue
+PASS all four transformation panels revealed with original final line
+PASS settled 00b_ComicFourFramesAndText
+PASS original office exit starts adult chase after handover
+PASS chase remains unsaveable
+PASS settled 00b_ComicFourFramesAndText
+PASS settled 80_OriginalChaseOpening
+PASS original Q camera preview opens
+PASS continuous NPC meshes hidden at rendered camera-preview frame: 
+PASS settled 80_OriginalChaseOpening
+PASS original Space capture commits world Otherworld refusal=
+PASS camera switching stays on actual floor
+PASS native sprint reaches 70
+PASS native route displacement matches speed and elapsed frame time 70 max delta=0.05137634 excess=0
+PASS settled original gateway Stair_F03_Roof_Right_AtoB
+PASS grounded arrival Stair_F03_Roof_Right_AtoB
+PASS original chase route enters actual roof
+PASS native sprint reaches 16
+PASS native route displacement matches speed and elapsed frame time 16 max delta=0.06070328 excess=0
+PASS original right-to-left roof crossing recorded by native sprint
+PASS settled original sprint route to 16
+PASS settled original gateway Stair_F03_Roof_Left_BtoA
+PASS grounded arrival Stair_F03_Roof_Left_BtoA
+PASS original roof left exit advances route
+PASS settled original gateway Stair_F03_Roof_Left_BtoA
+PASS original Q camera preview opens
+PASS continuous NPC meshes hidden at rendered camera-preview frame: 
+PASS settled original gateway Stair_F03_Roof_Left_BtoA
+PASS original Space capture commits world Memory refusal=
+PASS camera switching stays on actual floor
+PASS native sprint reaches 4
+PASS native route displacement matches speed and elapsed frame time 4 max delta=0.1569452 excess=0
+PASS settled original gateway Stair_F02_F03_Left_BtoA
+PASS grounded arrival Stair_F02_F03_Left_BtoA
+PASS original second-floor route advances
+PASS settled original gateway Stair_F02_F03_Left_BtoA
+PASS original Q camera preview opens
+PASS continuous NPC meshes hidden at rendered camera-preview frame: 
+PASS settled original gateway Stair_F02_F03_Left_BtoA
+PASS original Space capture commits world Otherworld refusal=
+PASS camera switching stays on actual floor
+PASS settled original sprint route to 27
+PASS original Q camera preview opens
+PASS continuous NPC meshes hidden at rendered camera-preview frame: 
+PASS settled original sprint route to 27
+PASS original Space capture commits world Memory refusal=
+PASS camera switching stays on actual floor
+PASS settled original sprint route to 27
+PASS original Q camera preview opens
+PASS continuous NPC meshes hidden at rendered camera-preview frame: 
+PASS settled original sprint route to 27
+PASS original Space capture commits world Otherworld refusal=
+PASS camera switching stays on actual floor
+PASS native sprint reaches 27
+PASS native route displacement matches speed and elapsed frame time 27 max delta=0.06787682 excess=0
+PASS settled original gateway Stair_F01_F02_Right_BtoA
+PASS grounded arrival Stair_F01_F02_Right_BtoA
+PASS native sprint reaches 44
+PASS native route displacement matches speed and elapsed frame time 44 max delta=0.06165314 excess=0
+PASS original security code panel opens during chase
+PASS incorrect original code rejected
+PASS original 4268 permits security entry
+PASS settled original sprint route to 44
+PASS chase arrives original security room
+PASS settled original sprint route to 44
+PASS actual native pursuer observed at least three cycles both ways: right=10,left=28
+PASS settled 82_ChaseSecurityArrival
+PASS original oil pickup opens tutorial
+PASS real Tab opens oil inventory
+PASS original oil recipe completes 小油灯
+PASS settled 82_ChaseSecurityArrival
+PASS final enemy visibly approaches from the left
+PASS settled 82_ChaseSecurityArrival
+PASS late reaction fails rather than extending deadline
+PASS pre-oil security checkpoint available for isolated boundary case
+PASS original pre-oil security checkpoint restored for isolated boundary case
+PASS settled 03_LeftApproach
+PASS original oil pickup opens tutorial
+PASS real Tab opens oil inventory
+PASS original oil recipe completes 小油灯
+PASS settled 03_LeftApproach
+PASS final enemy visibly approaches from the left
+PASS actual inventory freezes original reaction time
+PASS inventory close preserves elapsed deadline
+PASS real held Space starts original continuous lamp charge before release
+PASS global pause clears charge and freezes reaction timer
+PASS native black flames freeze during actual pause
+PASS held Space cannot resume charge without release
+PASS original E dialogue and transaction finished
+PASS fresh Space after pause completes original dispersal
+PASS settled 03_LeftApproach
+PASS pre-oil security checkpoint available for isolated boundary case
+PASS original pre-oil security checkpoint restored for isolated boundary case
+PASS settled 04_ChaseComplete
+PASS original oil pickup opens tutorial
+PASS real Tab opens oil inventory
+PASS original oil recipe completes 小油灯
+PASS settled 04_ChaseComplete
+PASS final enemy visibly approaches from the left
+PASS actual early Space accepted requested=0 elapsed=0.3452424
+PASS original E dialogue and transaction finished
+PASS actual early start completes full unchanged charge requested=0
+PASS pre-oil security checkpoint available for isolated boundary case
+PASS original pre-oil security checkpoint restored for isolated boundary case
+PASS settled 04_ChaseComplete
+PASS original oil pickup opens tutorial
+PASS real Tab opens oil inventory
+PASS original oil recipe completes 小油灯
+PASS settled 04_ChaseComplete
+PASS final enemy visibly approaches from the left
+PASS actual early Space accepted requested=1 elapsed=1.004658
+PASS original E dialogue and transaction finished
+PASS actual early start completes full unchanged charge requested=1
+PASS pre-oil security checkpoint available for isolated boundary case
+PASS original pre-oil security checkpoint restored for isolated boundary case
+PASS settled 04_ChaseComplete
+PASS original oil pickup opens tutorial
+PASS real Tab opens oil inventory
+PASS original oil recipe completes 小油灯
+PASS settled 04_ChaseComplete
+PASS final enemy visibly approaches from the left
+PASS near deadline actual Space accepted at 1.943239
+PASS original E dialogue and transaction finished
+PASS near deadline accepted start survives full unchanged charge duration
+PASS settled 04_ChaseComplete
+PASS save free movement 
+PASS reload 05_ChaseCompletionReload 
+PASS settled 04_ChaseComplete
+PASS restored 05_ChaseCompletionReload
+PASS restored position 05_ChaseCompletionReload
+PASS settled 04_ChaseComplete

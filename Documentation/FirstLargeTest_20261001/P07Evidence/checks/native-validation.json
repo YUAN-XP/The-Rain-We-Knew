@@ -1,0 +1,136 @@
+{
+  "checked_at": "2026-10-05T14:08:10.063550",
+  "method": "Computer Use actual standalone window, mouse clicks, wheel and scrollbar drag; not invoked UI callbacks",
+  "application": "local Windows development build, final source manifest",
+  "display_scaling_note": "Computer Use screenshots use Windows-scaled coordinates; settings values and the actual resized native window are separately observed",
+  "checks": [
+    "Initial launch at 1280x720 showed the complete main menu",
+    "Actual slider click displayed 37% and wrote the P07 master-volume preference",
+    "Resolution list showed the current value plus two extra visible rows",
+    "Mouse wheel exposed further descending resolution choices",
+    "Actual selection resized the native window to 1920x1080 without clipped UI",
+    "Scrollbar drag reached the lowest choices and returned to the top",
+    "Actual selection resized the native window to 1920x1200 (16:10) without clipped UI",
+    "Credits showed 袁潇鹏 and 部分内容由AI辅助生成",
+    "Actual first menu Quit closed process 18732",
+    "Relaunch restored the saved 37% volume and 1920x1200 resolution",
+    "Actual second menu Quit closed process 6652",
+    "Original selected preferences restored; both real save-slot hashes and mtimes unchanged"
+  ],
+  "captures": [
+    {
+      "artifact": "native/01_MainMenu.png",
+      "sha256": "74c6f30751f5c5247d6b44bbaec709eed5216cfac8d54b17cf573132a592e773",
+      "screenshot_dimensions": [
+        734,
+        442
+      ]
+    },
+    {
+      "artifact": "native/03_NativeVolume.png",
+      "sha256": "98376353531c4ee900783249bbf2b33a7a70caff600d00b347903f2bb80c645b",
+      "screenshot_dimensions": [
+        734,
+        442
+      ]
+    },
+    {
+      "artifact": "native/04_Resolution_TwoExtraRows.png",
+      "sha256": "14e0598ccc5b2426125e238117ed384fb1debef3f830318e672ae1cc6bf903dc",
+      "screenshot_dimensions": [
+        734,
+        442
+      ]
+    },
+    {
+      "artifact": "native/05_Resolution_MouseWheel.png",
+      "sha256": "ab50764f88fbf21f9235b90e84a574f3442261b4ba997923bf24856481f48f2a",
+      "screenshot_dimensions": [
+        734,
+        442
+      ]
+    },
+    {
+      "artifact": "native/06_Resolution_1920x1080.png",
+      "sha256": "1bf0387d401ac7372b110219b22f5dbad061c4867348248c6fefe530cbdc8bbb",
+      "screenshot_dimensions": [
+        1099,
+        648
+      ]
+    },
+    {
+      "artifact": "native/07_Resolution_Scrollbar.png",
+      "sha256": "2831ce526d5c8a1eb2e402046bcce9b69c20357d2d5d57a1356e85db2df41091",
+      "screenshot_dimensions": [
+        1099,
+        648
+      ]
+    },
+    {
+      "artifact": "native/08_Resolution_1920x1200.png",
+      "sha256": "d30c6f7971e7d5ec7d643e205fe4dd4b08451b62f84f7f9149ec620e5778d6ba",
+      "screenshot_dimensions": [
+        1099,
+        717
+      ]
+    },
+    {
+      "artifact": "native/09_Credits.png",
+      "sha256": "cc0c2b576353f805b57e515be3e143d4e34f749cc627fa520e39aa6cf6a16f06",
+      "screenshot_dimensions": [
+        1099,
+        717
+      ]
+    },
+    {
+      "artifact": "native/10_Menu_16x10.png",
+      "sha256": "fcf7bad287b74ea84e77b790760498d69569fd8bbd6ffe0e39aece9307cfc946",
+      "screenshot_dimensions": [
+        1099,
+        717
+      ]
+    },
+    {
+      "artifact": "native/11_Restart_MainMenu.png",
+      "sha256": "cd650cde1fd8aee9db011156f2e137fe9e908e2b9e3940cb038ac14303b3d1ca",
+      "screenshot_dimensions": [
+        1099,
+        717
+      ]
+    },
+    {
+      "artifact": "native/12_Restart_Audio.png",
+      "sha256": "199716f9e2374252c4af2e04512b3b6771c15da092ce7a9ef4b625690421dde7",
+      "screenshot_dimensions": [
+        1099,
+        717
+      ]
+    },
+    {
+      "artifact": "native/13_Restart_Resolution.png",
+      "sha256": "5450780333ad7824a5d4814bd2bad309dd388ed0f1a82a12a2f62ba63a8a9ad3",
+      "screenshot_dimensions": [
+        1099,
+        717
+      ]
+    }
+  ],
+  "player_log_review": {
+    "Player.log": {
+      "sha256": "6bf5649bc2277953569dcb966a3c60a389b13b3e093422dfdc3ba7d5e33ed0b2",
+      "curl_certificate_messages": 12,
+      "gameplay_exception_lines": []
+    },
+    "Player-second.log": {
+      "sha256": "9a3aec96461fed8e7fcddd2c511cac60140714567703d37faf6b8b861a49186c",
+      "curl_certificate_messages": 7,
+      "gameplay_exception_lines": []
+    }
+  },
+  "limits": [
+    "Development build; production release optimization not covered",
+    "No fresh full-Demo native walkthrough in this phase",
+    "Hardware speaker listening not claimed",
+    "4K and ultrawide native displays not available for actual device checks"
+  ]
+}

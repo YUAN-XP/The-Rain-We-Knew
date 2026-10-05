@@ -71,7 +71,7 @@ public class StoryStateManager : MonoBehaviour
     public bool Set(StoryFlag flag, bool value = true)
     {
         bool changed = value ? flags.Add(flag) : flags.Remove(flag);
-        if (changed) Changed?.Invoke();
+        if (changed) {Changed?.Invoke();if(value&&(flag==StoryFlag.OverallsUnlocked||flag==StoryFlag.SchoolUniformOwned))GetComponent<AcquisitionHistory>()?.Record("outfit:"+flag);}
         return changed;
     }
     public void RefreshObservers(){Changed?.Invoke();}

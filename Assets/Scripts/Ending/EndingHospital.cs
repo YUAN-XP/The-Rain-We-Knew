@@ -22,11 +22,12 @@ public sealed partial class EndingDirector
         focusPage.SetActive(false);
         focusText=RuntimePanelUI.Text("",endingCanvas,data.font,new Vector2(.2f,.79f),new Vector2(.8f,.9f),31);
         endPage=RuntimePanelUI.Rect("DemoCompletion",endingCanvas,Vector2.zero,Vector2.one).gameObject;
-        RuntimePanelUI.Panel("CompletionBackground",endPage.transform,Vector2.zero,Vector2.one,new Color(.035f,.045f,.055f));
-        RuntimePanelUI.Text("Demo结束",endPage.transform,data.font,new Vector2(.18f,.53f),new Vector2(.82f,.69f),60);
-        RuntimePanelUI.Text("感谢游玩",endPage.transform,data.font,new Vector2(.25f,.4f),new Vector2(.75f,.5f),32);
-        exitButton=RuntimePanelUI.Button("退出游戏",endPage.transform,data.font,new Vector2(.38f,.23f),new Vector2(.62f,.33f),QuitExplicitly);
-        RuntimePanelUI.Button("返回主菜单",endPage.transform,data.font,new Vector2(.38f,.10f),new Vector2(.62f,.20f),()=>{if(endArmed&&Step==EndingStep.Complete)GamePause.Instance?.ShowMainMenu();});
+        P07UI.Background(endPage.transform,true);
+        var presentationData=Resources.Load<P07PresentationData>("P07Presentation");
+        P07UI.Text(presentationData?presentationData.gameTitle:"ProjectMystery",endPage.transform,new Vector2(.07f,.76f),new Vector2(.45f,.9f),54);
+        P07UI.Text("感谢游玩",endPage.transform,new Vector2(.07f,.64f),new Vector2(.40f,.73f),31);
+        exitButton=P07UI.Button("退出游戏",endPage.transform,new Vector2(.07f,.16f),new Vector2(.34f,.23f),QuitExplicitly);
+        P07UI.Button("返回主菜单",endPage.transform,new Vector2(.07f,.27f),new Vector2(.34f,.34f),()=>{if(endArmed&&Step==EndingStep.Complete)GamePause.Instance?.ShowMainMenu();});
         endPage.SetActive(false);
         veil=RuntimePanelUI.Panel("WhiteBlackTransition",endingCanvas,Vector2.zero,Vector2.one,Color.clear,false);
     }

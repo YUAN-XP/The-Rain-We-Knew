@@ -1,0 +1,86 @@
+[
+  {
+    "path": "HKCU:\\Software\\DefaultCompany\\ProjectMystery",
+    "values": [
+      {
+        "name": "Screenmanager Stereo 3D_h1665754519",
+        "kind": "DWord",
+        "data": 1
+      },
+      {
+        "name": "Screenmanager Resolution Width_h182942802",
+        "kind": "DWord",
+        "data": 1920
+      },
+      {
+        "name": "Screenmanager Resolution Height_h2627697771",
+        "kind": "DWord",
+        "data": 1080
+      },
+      {
+        "name": "Screenmanager Fullscreen mode_h3630240806",
+        "kind": "DWord",
+        "data": 3
+      },
+      {
+        "name": "Screenmanager Window Position X_h4088080503",
+        "kind": "DWord",
+        "data": 0
+      },
+      {
+        "name": "Screenmanager Window Position Y_h4088080502",
+        "kind": "DWord",
+        "data": 106
+      },
+      {
+        "name": "Screenmanager Native RefreshRate Numerator_h4243137005",
+        "kind": "DWord",
+        "data": 240
+      },
+      {
+        "name": "Screenmanager Native RefreshRate Denominator_h3121420550",
+        "kind": "DWord",
+        "data": 1
+      },
+      {
+        "name": "Screenmanager Resolution Window Width_h2524650974",
+        "kind": "DWord",
+        "data": 1920
+      },
+      {
+        "name": "Screenmanager Resolution Window Height_h1684712807",
+        "kind": "DWord",
+        "data": 1080
+      },
+      {
+        "name": "Screenmanager Resolution Use Native_h1405027254",
+        "kind": "DWord",
+        "data": 0
+      },
+      {
+        "name": "Screenmanager Resolution Width Default_h680557497",
+        "kind": "DWord",
+        "data": 1920
+      },
+      {
+        "name": "Screenmanager Resolution Height Default_h1380706816",
+        "kind": "DWord",
+        "data": 1080
+      },
+      {
+        "name": "Screenmanager Resolution Use Native Default_h1405981789",
+        "kind": "DWord",
+        "data": 1
+      },
+      {
+        "name": "Screenmanager Fullscreen mode Default_h401710285",
+        "kind": "DWord",
+        "data": 1
+      }
+    ]
+  },
+  {
+    "path": "HKCU:\\Software\\Unity\\UnityEditor\\DefaultCompany\\ProjectMystery",
+    "values": []
+  }
+]
