@@ -57,10 +57,12 @@ public sealed class EndingStreetController:EndingStageController
     public void Interact(){
         if(!ready||!activeVisit||busy||paused||controls.IsLocked()||dialogue.DidDialogueEndThisFrame())return;
         if(!story.Has(StoryFlag.EndingZhangCompleted)){StartCoroutine(Talk());return;}
-        if(!CanBoard){runtime.GetComponent<StoryNoticeUI>().Show(inventory.HasItem(data.identityCard)&&inventory.HasItem(data.originalHolder)?"先把证件整理好。可以在背包中组合。":"先把证件整理好。",4);return;}
+        if(!CanBoard){runtime.GetComponent<StoryNoticeUI>().Show(inventory.HasItem(data.identityCard)&&inventory.HasItem(data.originalHolder)?"还需要完成证件交接。":"还需要完成证件交接。",4);return;}
         StartCoroutine(Board());
     }
-    public bool CanBoard=>ready&&story.Has(StoryFlag.EndingZhangCompleted)&&story.Has(StoryFlag.CompleteCredentialArchived)&&files.HasFile(data.completeCredential);
+    public bool CanBoard=>ready&&story.Has(StoryFlag.EndingZhangCompleted)
+        && ((story.Has(StoryFlag.EndingIdentityReceived)&&inventory.HasItem(data.identityCard))
+            || (story.Has(StoryFlag.CompleteCredentialArchived)&&files.HasFile(data.completeCredential)));
     IEnumerator Talk(){Lock();for(int n=1;n<=8;n++){yield return Say("Z"+n.ToString("00"));if(!speechCompleted){Unlock();yield break;}}
         story.Set(StoryFlag.EndingZhangCompleted);yield return FreshKeys();Unlock();}
     protected override void Update(){

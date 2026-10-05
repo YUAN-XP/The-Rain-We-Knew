@@ -1,0 +1,26 @@
+{
+  "time": "2026-10-05T06:30:46",
+  "observed_media": [
+    "12_PursuerRightPreview",
+    "13_PursuerLeftPreview",
+    "20_ChildMemory",
+    "22_YouthMemory",
+    "24_AnonymousGurneys",
+    "09_WardWalking",
+    "10_FocusFinale"
+  ],
+  "normal_and_half_speed_pursuer_both_directions": true,
+  "cycles_recorded_per_direction": 10,
+  "review_evidence": "Actual final compressed Game recordings played in local review; close-up Game screenshots supplement the same feature output",
+  "findings": [
+    "Native rig head/neck and limbs remain connected at full-body view; no whole-body static image translation used as the animation",
+    "Single shallow ground, anonymous counterparts and native existing arms checked in final screenshots",
+    "Fixed ward background, shallow floor, opaque curtain and right clamp observed; final user art judgment pending"
+  ],
+  "manual_acceptance": "pending",
+  "boundaries": [
+    "Pursuer close-follow clips use isolated preview movement and camera; real AI route tested separately",
+    "Videos have no audio track",
+    "No fresh-game complete native-input playthrough or standalone application exit verified"
+  ]
+}

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
@@ -12,9 +12,11 @@ public sealed partial class SchoolChaseController : IInventoryAccessPolicy
     public DialogueData finaleDialogue;
     InventoryUI inventoryUI;CombinationManager combination;
     bool spaceArmed,finaleStarted;
-    [Tooltip("After the first successful bag close, allow reading/charging before the visible doorway threat starts moving. Bag pause preserves this clock.")]
+    [Tooltip("After the first successful bag close, legacy Inspector field retained for compatibility; P06 uses the fixed two-second reaction deadline.")]
     [Min(0)] public float finalePromptLead=1.2f;
-    float finaleLeadRemaining;
+    SchoolFinalChargeWindow finaleWindow;
+    public float FinaleReactionElapsed=>finaleWindow?.Elapsed??0;
+    public bool FinaleReactionAccepted=>finaleWindow?.Accepted??false;
     Image finaleFlash;
     public bool TryCanOpenInventory(out bool allowed)
     {
@@ -59,19 +61,19 @@ public sealed partial class SchoolChaseController : IInventoryAccessPolicy
         if(Step==SchoolChaseStep.OilTutorial&&recipe.restoreLamp&&Story.Has(StoryFlag.SchoolLampRestored)&&lamp.StoryUsable)Step=SchoolChaseStep.OilReady;
         if(Step==SchoolChaseStep.Exploring)SaveCompletedResume();
     }
-    void BagOpened(){if(Step==SchoolChaseStep.FinalCharge){spaceArmed=false;lamp.CancelCharge();}}
+    void BagOpened(){if(Step==SchoolChaseStep.FinalCharge){spaceArmed=false;lamp.CancelCharge();finaleWindow?.Cancel();}}
     void BagClosed()
     {
         if(Step==SchoolChaseStep.OilTutorial){Notice("按【tab】打开背包右键组合关键物品",6);return;}
         if(Step==SchoolChaseStep.OilReady&&!finaleStarted){StartCoroutine(BeginFinale());return;}
-        if(Step==SchoolChaseStep.FinalCharge){spaceArmed=false;lamp.CancelCharge();}
+        if(Step==SchoolChaseStep.FinalCharge){spaceArmed=false;lamp.CancelCharge();finaleWindow?.Cancel();}
     }
     IEnumerator BeginFinale()
     {
         finaleStarted=true;OwnSequence();cameraTool.AbortCapture();lamp.RestoreUseState(true);
         Route=SchoolChaseRoute.SecurityFinale;Step=SchoolChaseStep.FinalCharge;spaceArmed=false;
-        var door=Layout.data.Portal("Security_Door_BtoA");float x=Layout.data.Room(door.sourceRoom).ToWorld(door.sourceLocal).x;
-        ClearEnemy();Spawn("SecurityRoom",x,false);inputAfterFrame=Time.frameCount+1;finaleLeadRemaining=finalePromptLead;
+        var room=Layout.data.Room("SecurityRoom");float x=Mathf.Clamp(Controls.ActivePlayer.transform.position.x-3.3f,room.origin.x+.8f,room.origin.x+room.width-.8f);
+        ClearEnemy();if(!Spawn("SecurityRoom",x,false)){Debug.LogError("Finale requires clear visible left approach ground.",this);Die();yield break;}inputAfterFrame=Time.frameCount+1;finaleWindow=new SchoolFinalChargeWindow();
         Notice("按住【Space】让灯光驱散向焱",8);yield return null;
     }
     bool SecurityPaused {
@@ -86,17 +88,25 @@ public sealed partial class SchoolChaseController : IInventoryAccessPolicy
     void TickFinalCharge(bool spaceHeld,float dt)
     {
         if(Step!=SchoolChaseStep.FinalCharge)return;
-        if(SecurityPaused){spaceArmed=false;lamp.CancelCharge();return;}
+        if(SecurityPaused){spaceArmed=false;lamp.CancelCharge();finaleWindow?.Cancel();return;}
         if(Time.frameCount<=inputAfterFrame)return;
-        if(!spaceHeld){spaceArmed=true;lamp.CancelCharge();}
-        else if(spaceArmed){if(!lamp.IsCharging)lamp.BeginCharge();lamp.TickCharge(true,dt);}
+        if(!spaceHeld){spaceArmed=true;lamp.CancelCharge();finaleWindow?.Cancel();}
+        else if(spaceArmed&&finaleWindow!=null&&finaleWindow.TryBegin()){
+            if(!lamp.IsCharging)lamp.BeginCharge();lamp.TickCharge(true,dt);
+        }
         if(Step!=SchoolChaseStep.FinalCharge)return;
-        // Prompt and original charge input are live immediately. This one-time
-        // lead is not refreshed by reopening the bag; its remaining time pauses.
-        float approachDt=Mathf.Max(0,dt-finaleLeadRemaining);
-        finaleLeadRemaining=Mathf.Max(0,finaleLeadRemaining-dt);
-        if(EnemyActive){MoveEnemyTowards(Controls.ActivePlayer.transform.position.x,finalEnemySpeed*approachDt);
-            if(Mathf.Abs(Controls.ActivePlayer.transform.position.x-enemy.transform.position.x)<=catchDistance)Die();}
+        finaleWindow?.Advance(dt,false);
+        if(finaleWindow!=null&&finaleWindow.Expired){Die();return;}
+        if(EnemyActive){
+            float distance=Mathf.Abs(Controls.ActivePlayer.transform.position.x-enemy.transform.position.x);
+            float speed=.42f;
+            if(finaleWindow!=null&&finaleWindow.Accepted){
+                float remaining=(1-lamp.Charge01)*lamp.ChargeDuration;
+                speed=Mathf.Min(finalEnemySpeed,Mathf.Max(0,distance-catchDistance-.18f)/(remaining+.35f));
+            }
+            MoveEnemyTowards(Controls.ActivePlayer.transform.position.x,speed*dt);
+            if(Mathf.Abs(Controls.ActivePlayer.transform.position.x-enemy.transform.position.x)<=catchDistance)Die();
+        }
     }
     void ChargeCompleted(){if(Step==SchoolChaseStep.FinalCharge&&!SecurityPaused)StartCoroutine(Disperse());}
     IEnumerator Disperse()
@@ -115,7 +125,7 @@ public sealed partial class SchoolChaseController : IInventoryAccessPolicy
     }
     partial void RestoreSecurity(SchoolCheckpointReason reason)
     {
-        inventoryUI?.CloseInventory();lamp.CancelCharge();finaleStarted=false;spaceArmed=false;finaleLeadRemaining=0;
+        inventoryUI?.CloseInventory();lamp.CancelCharge();finaleStarted=false;spaceArmed=false;finaleWindow=null;
         if(finaleFlash!=null)finaleFlash.color=Color.clear;
         if(reason==SchoolCheckpointReason.Security)OnSecurityReady();SyncSecurityPickups();
     }

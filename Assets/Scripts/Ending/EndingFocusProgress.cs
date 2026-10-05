@@ -7,10 +7,10 @@ public sealed class EndingFocusProgress
     public float Progress {get;private set;}
     public bool Complete=>Progress>=1;
     bool released,holding;
-    public void RequireNewPress(){released=false;holding=false;}
+    public void RequireNewPress(){released=false;holding=false;Progress=0;}
     public void Tick(bool held,bool down,float delta,float duration,bool suspended){
         if(suspended){RequireNewPress();return;}
-        if(!held){released=true;holding=false;return;}
+        if(!held){released=true;holding=false;Progress=0;return;}
         if(released&&down)holding=true;
         if(!holding||Complete||duration<=0)return;
         Progress=Mathf.Clamp01(Progress+Mathf.Clamp(delta,0,.1f)/duration);

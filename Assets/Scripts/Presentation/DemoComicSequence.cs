@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -65,36 +65,38 @@ public sealed class DemoComicSequence : MonoBehaviour
         yield return Reveal(0);yield return GameplayClock.Wait(.6f);yield return Reveal(1);yield return GameplayClock.Wait(.6f);yield return Reveal(2);
         yield return FreshAdvance(.85f);Close();
     }
-    public void BeginConfrontation(DialogueManager dialogue)
+    public bool Completed {get;private set;}
+    public IEnumerator Confrontation(DialogueData source)
     {
+        Completed=false;if(source==null||source.lines==null||source.lines.Length==0)yield break;
         Begin();
-        var a=Frame("OfficeThreshold",new Vector2(.05f,.57f),new Vector2(.48f,.93f),"MOD_SCHOOL_SHELL_MEMORY");
-        Art(a,"CHR_SCHOOL_SUPPORT_BASE:CH_XIANGYAN_normal_reference",new Vector2(.58f,.01f),new Vector2(.96f,.94f));
-        var b=Frame("XiaoPengReaction",new Vector2(.505f,.57f),new Vector2(.95f,.93f));Art(b,"CHR_XP_ADULT_DEFAULT_CLOSEUP",new Vector2(.1f,-.5f),new Vector2(.9f,1.15f));
-        var c=Frame("ThreatApproaches",new Vector2(.505f,.265f),new Vector2(.95f,.54f));
-        var threat=Art(c,"CHR_SCHOOL_SUPPORT_ACTION_V02:CH_XIANGYAN_chase",new Vector2(.22f,-.35f),new Vector2(.82f,1.4f));threat.color=new Color(.62f,.43f,.46f,1);
-        var d=Frame("Transformation",new Vector2(.05f,.265f),new Vector2(.48f,.54f));
-        Art(d,"CHR_XIANGYAN_TRANSFORM:2",new Vector2(.14f,-.40f),new Vector2(.91f,1.3f));
-        dialogueCanvas=dialogue?dialogue.PresentationCanvas:null;
-        if(dialogueCanvas){priorDialogueOrder=dialogueCanvas.sortingOrder;priorOverride=dialogueCanvas.overrideSorting;dialogueCanvas.overrideSorting=true;dialogueCanvas.sortingOrder=215;}
-        StartCoroutine(RevealThreat());
+        Frame("Threshold",new Vector2(.035f,.51f),new Vector2(.49f,.96f),"P06_TransformationComic:0");
+        Frame("UnsettlingChange",new Vector2(.51f,.51f),new Vector2(.965f,.96f),"P06_TransformationComic:1");
+        Frame("Transformation",new Vector2(.035f,.055f),new Vector2(.49f,.49f),"P06_TransformationComic:2");
+        Frame("Pursuit",new Vector2(.51f,.055f),new Vector2(.965f,.49f),"P06_TransformationComic:3");
+        var font=PersistentRuntime.Instance.GetComponentInChildren<TMPro.TMP_Text>(true).font;
+        var bubble=RuntimePanelUI.Panel("ComicDialogue",canvas,new Vector2(.06f,.045f),new Vector2(.94f,.21f),new Color(.025f,.035f,.045f,.94f),false);
+        DemoPaintedFrame.Add(bubble.transform,new Color(.65f,.67f,.60f),1.6f);
+        var text=RuntimePanelUI.Text("",bubble.transform,font,new Vector2(.025f,.19f),new Vector2(.975f,.93f),30);text.alignment=TMPro.TextAlignmentOptions.TopLeft;text.textWrappingMode=TMPro.TextWrappingModes.Normal;
+        RuntimePanelUI.Text("[E] 继续",bubble.transform,font,new Vector2(.84f,.015f),new Vector2(.975f,.19f),19);
+        int visible=-1;
+        for(int n=0;n<source.lines.Length;n++){
+            int frame=source.lines.Length==1?3:Mathf.Min(3,n*3/(source.lines.Length-1));
+            while(visible<frame){visible++;yield return Reveal(visible,.42f);}
+            var line=source.lines[n];text.text=(string.IsNullOrWhiteSpace(line.speaker)?"":line.speaker+"：")+line.text;
+            yield return FreshAdvance(Mathf.Max(.45f,source.minimumReadSeconds));
+        }
+        while(visible<3){visible++;yield return Reveal(visible,.42f);}
+        yield return GameplayClock.Wait(.45f);Close();Completed=true;
     }
-    IEnumerator RevealThreat(){for(int i=0;i<4;i++){yield return Reveal(i,.5f);yield return GameplayClock.Wait(.5f);}}
-    public IEnumerator FinishConfrontation(){while(panels.Count==4&&panels[3]&&panels[3].alpha<1)yield return null;yield return GameplayClock.Wait(.3f);Close();}
     public void BeginBoarding()
     {
         Begin();
-        var a=Frame("DriverBoards",new Vector2(.055f,.535f),new Vector2(.40f,.915f));
-        Art(a,"SPR_POLICE_CAR_SINGLE_DOOR_STATES:0",new Vector2(.00f,.00f),new Vector2(1,.92f));
-        Art(a,"CHR_STORY_ZHAO_ZHANG_ACTION:CH_ZHANGCHEN_driver_door",new Vector2(.52f,.07f),new Vector2(.81f,.9f));
-        var b=Frame("GuideBoardsFirst",new Vector2(.055f,.085f),new Vector2(.40f,.50f));
-        Art(b,"SPR_POLICE_CAR_SINGLE_DOOR_STATES:1",new Vector2(0,0),new Vector2(1,.9f));
-        Art(b,"CHR_GUIDE_BASE_V02:0",new Vector2(.21f,.06f),new Vector2(.47f,.9f));
-        var c=Frame("XiaoPengBoardsLast",new Vector2(.435f,.085f),new Vector2(.945f,.915f));
-        Art(c,"SPR_POLICE_CAR_SINGLE_DOOR_STATES:1",new Vector2(-.1f,.07f),new Vector2(1.15f,.85f));
-        Art(c,"CHR_XP_ADULT_DEFAULT_TURN3:1",new Vector2(.27f,.12f),new Vector2(.61f,.82f));
+        var story=PersistentRuntime.Instance.GetComponent<StoryStateManager>();
+        string variant=story.Outfit==AdultOutfit.Overalls?"Overalls":story.Outfit==AdultOutfit.SchoolUniform?"School":"Default";
+        for(int i=0;i<3;i++)Frame(new[]{"DriverEnteringFront","GuideEnteringRear","XiaoPengTakingSeat"}[i],new Vector2(.035f+i*.32f,.12f),new Vector2(.325f+i*.32f,.92f),"P06_Boarding"+(i<2?"Default":variant)+":"+i,true);
     }
-    public IEnumerator BoardingStep(int step){yield return Reveal(step);yield return GameplayClock.Wait(.65f);}
+    public IEnumerator BoardingStep(int step){yield return Reveal(step,.42f);yield return GameplayClock.Wait(1.15f);}
     public IEnumerator FinishBoarding(){yield return FreshAdvance(.55f);Close();}
     public void Close()
     {

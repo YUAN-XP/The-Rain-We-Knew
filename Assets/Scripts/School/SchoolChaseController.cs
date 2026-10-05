@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -221,9 +221,8 @@ public sealed partial class SchoolChaseController : MonoBehaviour, ISchoolOffice
         var shot=Camera.main;var follow=shot.GetComponent<CameraFollow>();
         openingFollow=follow;openingFollowWasEnabled=follow.enabled;follow.enabled=false;
         shot.transform.position=new Vector3(Mathf.Clamp(shot.transform.position.x-openingCameraPan,follow.HorizontalLimits.x,follow.HorizontalLimits.y),shot.transform.position.y,shot.transform.position.z);
-        var comic=DemoComicSequence.For(gameObject);comic.BeginConfrontation(school.Dialogue);
-        yield return Say(openingDialogue);
-        yield return comic.FinishConfrontation();
+        var comic=DemoComicSequence.For(gameObject);
+        openingCompleted=false;yield return comic.Confrontation(openingDialogue);openingCompleted=comic.Completed;
         if(!openingCompleted){Die();yield break;}
         Notice("相机似乎有反应...",3);
         yield return GameplayClock.Wait(.8f);
@@ -260,7 +259,8 @@ public sealed partial class SchoolChaseController : MonoBehaviour, ISchoolOffice
         ||cameraTool!=null&&cameraTool.IsBusy;
     void Update()
     {
-        if(!ready||GamePause.IsPaused)return;
+        if(!ready)return;
+        if(GamePause.IsPaused){if(Step==SchoolChaseStep.FinalCharge){spaceArmed=false;lamp.CancelCharge();finaleWindow?.Cancel();}return;}
         if(Step==SchoolChaseStep.Opening&&EnemyActive&&ownedDialogue!=null)
             MoveEnemyTowards(officeThreatX+1.4f,.6f*GameplayClock.Delta);
         if(Step==SchoolChaseStep.Dead){

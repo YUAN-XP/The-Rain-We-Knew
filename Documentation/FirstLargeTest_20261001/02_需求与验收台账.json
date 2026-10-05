@@ -2214,17 +2214,27 @@
     "actions": "重设计恐怖转变，将对白纳入漫画，删除并行对话",
     "acceptance": "没有双重推进/重复对白；结束准确进入追逐",
     "code_entry": "School/SchoolChaseController.cs; School/SchoolSecurityFinale.cs; Ending/EndingHomeController.cs; Ending/EndingStreetController.cs; Ending/EndingHospital.cs; Ending/EndingFocusProgress.cs; Presentation/EndingArtwork.cs; Presentation/DemoDialogueArtwork.cs",
-    "status": "已审计待实施",
+    "status": "P06 本轮内部检查完成，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "35_P06阶段报告与人工审计.md",
+      "P06Evidence/review.html",
+      "P06Evidence/checks/final-check-summary.json",
+      "P06Evidence/runtime/flow0/00b_ComicFourFramesAndText.jpg"
+    ],
+    "human_acceptance": "待用户本轮人工审计",
     "regression_to": [
       "B01",
       "B03",
       "B04",
       "B05"
     ],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_date": "2026-10-05",
+    "implemented_scope": "四格变身逐步揭示，原三句文字嵌入漫画；不并行开启对白窗口，最后一句期间能看到第四格。",
+    "implementation_detail": "四格变身逐步揭示，原三句文字嵌入漫画；不并行开启对白窗口，最后一句期间能看到第四格。",
+    "remaining_scope": "用户人工美术与体验审计、批准后GitHub存档；独立播放器完整通关/实际关闭未验证",
+    "verification_scope": "Scene01启动；D盘隔离存档，部分起点及门梯/组合用诊断接口，实际输入走原路径；不是新游戏全Demo连续通关"
   },
   {
     "id": "M61",
@@ -2317,17 +2327,27 @@
     "actions": "向焱初始可见于左侧并慢跑；起按窗口2秒且窗口内任意起按可成功",
     "acceptance": "0、1、1.99秒开始均可完成；超时按设计失败；暂停不刷新窗口",
     "code_entry": "School/SchoolChaseController.cs; School/SchoolSecurityFinale.cs; Ending/EndingHomeController.cs; Ending/EndingStreetController.cs; Ending/EndingHospital.cs; Ending/EndingFocusProgress.cs; Presentation/EndingArtwork.cs; Presentation/DemoDialogueArtwork.cs",
-    "status": "已审计待实施",
+    "status": "P06 本轮内部检查完成，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "35_P06阶段报告与人工审计.md",
+      "P06Evidence/review.html",
+      "P06Evidence/checks/final-check-summary.json",
+      "P06Evidence/runtime/flow0/03_LeftApproach.jpg"
+    ],
+    "human_acceptance": "待用户本轮人工审计",
     "regression_to": [
       "B01",
       "B03",
       "B04",
       "B05"
     ],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_date": "2026-10-05",
+    "implemented_scope": "两秒是起按窗口；按下获准后仍完成原2.2秒连续蓄力。向焱初始在左侧可见、慢速接近；暂停/背包不刷新截止时间，松手取消蓄力。",
+    "implementation_detail": "两秒是起按窗口；按下获准后仍完成原2.2秒连续蓄力。向焱初始在左侧可见、慢速接近；暂停/背包不刷新截止时间，松手取消蓄力。",
+    "remaining_scope": "用户人工美术与体验审计、批准后GitHub存档；独立播放器完整通关/实际关闭未验证",
+    "verification_scope": "Scene01启动；D盘隔离存档，部分起点及门梯/组合用诊断接口，实际输入走原路径；不是新游戏全Demo连续通关"
   },
   {
     "id": "M64",
@@ -2346,17 +2366,27 @@
     "actions": "按当前风格制作邮件查看UI",
     "acceptance": "正文可读、关闭返回正确且任务节点只触发一次",
     "code_entry": "School/SchoolChaseController.cs; School/SchoolSecurityFinale.cs; Ending/EndingHomeController.cs; Ending/EndingStreetController.cs; Ending/EndingHospital.cs; Ending/EndingFocusProgress.cs; Presentation/EndingArtwork.cs; Presentation/DemoDialogueArtwork.cs",
-    "status": "已审计待实施",
+    "status": "P06 本轮内部检查完成，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "35_P06阶段报告与人工审计.md",
+      "P06Evidence/review.html",
+      "P06Evidence/checks/final-check-summary.json",
+      "P06Evidence/runtime/flow1/10_MailReadable.jpg"
+    ],
+    "human_acceptance": "待用户本轮人工审计",
     "regression_to": [
       "B01",
       "B03",
       "B04",
       "B05"
     ],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_date": "2026-10-05",
+    "implemented_scope": "电脑通知改成正式纸面邮件；原正文、密码与任务条件保留；关闭首读反应只触发一次。",
+    "implementation_detail": "电脑通知改成正式纸面邮件；原正文、密码与任务条件保留；关闭首读反应只触发一次。",
+    "remaining_scope": "用户人工美术与体验审计、批准后GitHub存档；独立播放器完整通关/实际关闭未验证",
+    "verification_scope": "Scene01启动；D盘隔离存档，部分起点及门梯/组合用诊断接口，实际输入走原路径；不是新游戏全Demo连续通关"
   },
   {
     "id": "M65",
@@ -2375,17 +2405,27 @@
     "actions": "立绘稳定只微放大说话者；上车条件不再依赖组合证件",
     "acceptance": "未组合也能继续到上车；已组合仍正确；逐句录像无闪白闪黑",
     "code_entry": "School/SchoolChaseController.cs; School/SchoolSecurityFinale.cs; Ending/EndingHomeController.cs; Ending/EndingStreetController.cs; Ending/EndingHospital.cs; Ending/EndingFocusProgress.cs; Presentation/EndingArtwork.cs; Presentation/DemoDialogueArtwork.cs",
-    "status": "已审计待实施",
+    "status": "P06 本轮内部检查完成，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "35_P06阶段报告与人工审计.md",
+      "P06Evidence/review.html",
+      "P06Evidence/checks/final-check-summary.json",
+      "P06Evidence/runtime/flow1/11_HandoverPortraits.jpg"
+    ],
+    "human_acceptance": "待用户本轮人工审计",
     "regression_to": [
       "B01",
       "B03",
       "B04",
       "B05"
     ],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_date": "2026-10-05",
+    "implemented_scope": "交接及后续两侧立绘固定身份、只放大当前说话者2.5%；未组合与已组合证件均可按原张晨对话条件上车。",
+    "implementation_detail": "交接及后续两侧立绘固定身份、只放大当前说话者2.5%；未组合与已组合证件均可按原张晨对话条件上车。",
+    "remaining_scope": "用户人工美术与体验审计、批准后GitHub存档；独立播放器完整通关/实际关闭未验证",
+    "verification_scope": "Scene01启动；D盘隔离存档，部分起点及门梯/组合用诊断接口，实际输入走原路径；不是新游戏全Demo连续通关"
   },
   {
     "id": "M66",
@@ -2404,17 +2444,27 @@
     "actions": "重做开门入车顺序及干净角色切片",
     "acceptance": "清楚看到进入车辆动作，非站在车旁消失",
     "code_entry": "School/SchoolChaseController.cs; School/SchoolSecurityFinale.cs; Ending/EndingHomeController.cs; Ending/EndingStreetController.cs; Ending/EndingHospital.cs; Ending/EndingFocusProgress.cs; Presentation/EndingArtwork.cs; Presentation/DemoDialogueArtwork.cs",
-    "status": "已审计待实施",
+    "status": "P06 本轮内部检查完成，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "35_P06阶段报告与人工审计.md",
+      "P06Evidence/review.html",
+      "P06Evidence/checks/final-check-summary.json",
+      "P06Evidence/runtime/flow1/13_BoardingThreeEntries.jpg"
+    ],
+    "human_acceptance": "待用户本轮人工审计",
     "regression_to": [
       "B01",
       "B03",
       "B04",
       "B05"
     ],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_date": "2026-10-05",
+    "implemented_scope": "重绘驾驶员、引路人、肖鹏三步入车漫画，沿原上车顺序揭示；最后一人按当前服装显示。",
+    "implementation_detail": "重绘驾驶员、引路人、肖鹏三步入车漫画，沿原上车顺序揭示；最后一人按当前服装显示。",
+    "remaining_scope": "用户人工美术与体验审计、批准后GitHub存档；独立播放器完整通关/实际关闭未验证",
+    "verification_scope": "Scene01启动；D盘隔离存档，部分起点及门梯/组合用诊断接口，实际输入走原路径；不是新游戏全Demo连续通关"
   },
   {
     "id": "M67",
@@ -2433,17 +2483,27 @@
     "actions": "两人面向前方，校正腿和画面中心",
     "acceptance": "与座椅支撑关系正确，角色身份/当前成年服装一致",
     "code_entry": "School/SchoolChaseController.cs; School/SchoolSecurityFinale.cs; Ending/EndingHomeController.cs; Ending/EndingStreetController.cs; Ending/EndingHospital.cs; Ending/EndingFocusProgress.cs; Presentation/EndingArtwork.cs; Presentation/DemoDialogueArtwork.cs",
-    "status": "已审计待实施",
+    "status": "P06 本轮内部检查完成，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "35_P06阶段报告与人工审计.md",
+      "P06Evidence/review.html",
+      "P06Evidence/checks/final-check-summary.json",
+      "P06Evidence/runtime/flow4/CarOutfit_SchoolUniform.jpg"
+    ],
+    "human_acceptance": "待用户本轮人工审计",
     "regression_to": [
       "B01",
       "B03",
       "B04",
       "B05"
     ],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_date": "2026-10-05",
+    "implemented_scope": "两人朝车前坐，手放大腿、腿脚完整；肖鹏默认/背带裤/校服三种坐姿单独切片，车内屏蔽旧站姿。",
+    "implementation_detail": "两人朝车前坐，手放大腿、腿脚完整；肖鹏默认/背带裤/校服三种坐姿单独切片，车内屏蔽旧站姿。",
+    "remaining_scope": "用户人工美术与体验审计、批准后GitHub存档；独立播放器完整通关/实际关闭未验证",
+    "verification_scope": "Scene01启动；D盘隔离存档，部分起点及门梯/组合用诊断接口，实际输入走原路径；不是新游戏全Demo连续通关"
   },
   {
     "id": "M68",
@@ -2463,12 +2523,16 @@
     "actions": "一套连续地面；除肖鹏外人物仅阴影残影；不显示可辨地点或立绘",
     "acceptance": "没有两层地面或多肢；肖鹏具名其他？？？；镜头移动同速不泄露身份",
     "code_entry": "School/SchoolChaseController.cs; School/SchoolSecurityFinale.cs; Ending/EndingHomeController.cs; Ending/EndingStreetController.cs; Ending/EndingHospital.cs; Ending/EndingFocusProgress.cs; Presentation/EndingArtwork.cs; Presentation/DemoDialogueArtwork.cs",
-    "status": "实施中",
+    "status": "P06 本轮内部检查完成，待人工审计",
     "implementation_commit": null,
     "test_evidence": [
-      "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/Evidence/portrait-rules-check.txt"
+      "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/Evidence/portrait-rules-check.txt",
+      "35_P06阶段报告与人工审计.md",
+      "P06Evidence/review.html",
+      "P06Evidence/checks/final-check-summary.json",
+      "P06Evidence/runtime/flow1/21_PendantTransfer.jpg"
     ],
-    "human_acceptance": "未验收",
+    "human_acceptance": "待用户本轮人工审计",
     "regression_to": [
       "B01",
       "B03",
@@ -2476,9 +2540,11 @@
       "B05"
     ],
     "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
-    "implementation_date": "2026-10-01",
-    "implemented_scope": "F01至F05闪回隐藏全部立绘；F02/F04字幕显示名改为？？？，身份字段保留。",
-    "remaining_scope": "闪回残影、动作、地面及全景尚未修复；结尾连贯演出未回归。"
+    "implementation_date": "2026-10-05",
+    "implemented_scope": "闪回只保留肖鹏具象与具名，其他人为匿名剪影和？？？；单一浅地面固定，使用已有原生手臂完成项链与扶持，不加额外手臂或可辨地点。",
+    "remaining_scope": "用户人工美术与体验审计、批准后GitHub存档；独立播放器完整通关/实际关闭未验证",
+    "implementation_detail": "闪回只保留肖鹏具象与具名，其他人为匿名剪影和？？？；单一浅地面固定，使用已有原生手臂完成项链与扶持，不加额外手臂或可辨地点。",
+    "verification_scope": "Scene01启动；D盘隔离存档，部分起点及门梯/组合用诊断接口，实际输入走原路径；不是新游戏全Demo连续通关"
   },
   {
     "id": "M69",
@@ -2497,17 +2563,27 @@
     "actions": "墙地同一世界空间所有者，清跟随相机错误层",
     "acceptance": "全段行走墙地无相对滑移或旧层残留",
     "code_entry": "School/SchoolChaseController.cs; School/SchoolSecurityFinale.cs; Ending/EndingHomeController.cs; Ending/EndingStreetController.cs; Ending/EndingHospital.cs; Ending/EndingFocusProgress.cs; Presentation/EndingArtwork.cs; Presentation/DemoDialogueArtwork.cs",
-    "status": "已审计待实施",
+    "status": "P06 本轮内部检查完成，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "35_P06阶段报告与人工审计.md",
+      "P06Evidence/review.html",
+      "P06Evidence/checks/final-check-summary.json",
+      "P06Evidence/runtime/flow1/25_GurneyPassing.jpg"
+    ],
+    "human_acceptance": "待用户本轮人工审计",
     "regression_to": [
       "B01",
       "B03",
       "B04",
       "B05"
     ],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_date": "2026-10-05",
+    "implemented_scope": "医院墙、地台、地面固定在同一世界坐标；匿名推床移动，背景不被每帧拖动。",
+    "implementation_detail": "医院墙、地台、地面固定在同一世界坐标；匿名推床移动，背景不被每帧拖动。",
+    "remaining_scope": "用户人工美术与体验审计、批准后GitHub存档；独立播放器完整通关/实际关闭未验证",
+    "verification_scope": "Scene01启动；D盘隔离存档，部分起点及门梯/组合用诊断接口，实际输入走原路径；不是新游戏全Demo连续通关"
   },
   {
     "id": "M70",
@@ -2526,17 +2602,27 @@
     "actions": "帘遮床，右界紧随帘边，压缩空房段",
     "acceptance": "入口到床侧构图完整，帘遮挡符合演出",
     "code_entry": "School/SchoolChaseController.cs; School/SchoolSecurityFinale.cs; Ending/EndingHomeController.cs; Ending/EndingStreetController.cs; Ending/EndingHospital.cs; Ending/EndingFocusProgress.cs; Presentation/EndingArtwork.cs; Presentation/DemoDialogueArtwork.cs",
-    "status": "已审计待实施",
+    "status": "P06 本轮内部检查完成，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "35_P06阶段报告与人工审计.md",
+      "P06Evidence/review.html",
+      "P06Evidence/checks/final-check-summary.json",
+      "P06Evidence/runtime/flow1/32_WardRightBoundary.jpg"
+    ],
+    "human_acceptance": "待用户本轮人工审计",
     "regression_to": [
       "B01",
       "B03",
       "B04",
       "B05"
     ],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_date": "2026-10-05",
+    "implemented_scope": "重新绘制连续病房墙地与不透明床帘；床侧锚点取源图44%处，右边界限定到帘右侧稍后并按实际画幅裁定镜头。",
+    "implementation_detail": "重新绘制连续病房墙地与不透明床帘；床侧锚点取源图44%处，右边界限定到帘右侧稍后并按实际画幅裁定镜头。",
+    "remaining_scope": "用户人工美术与体验审计、批准后GitHub存档；独立播放器完整通关/实际关闭未验证",
+    "verification_scope": "Scene01启动；D盘隔离存档，部分起点及门梯/组合用诊断接口，实际输入走原路径；不是新游戏全Demo连续通关"
   },
   {
     "id": "M71",
@@ -2555,17 +2641,27 @@
     "actions": "重画含床帘近景去方块；松开重置进度，无进度条",
     "acceptance": "持1秒松开再持从0开始；暂停恢复不误触；身份遮挡永不揭开",
     "code_entry": "School/SchoolChaseController.cs; School/SchoolSecurityFinale.cs; Ending/EndingHomeController.cs; Ending/EndingStreetController.cs; Ending/EndingHospital.cs; Ending/EndingFocusProgress.cs; Presentation/EndingArtwork.cs; Presentation/DemoDialogueArtwork.cs",
-    "status": "已审计待实施",
+    "status": "P06 本轮内部检查完成，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "35_P06阶段报告与人工审计.md",
+      "P06Evidence/review.html",
+      "P06Evidence/checks/final-check-summary.json",
+      "P06Evidence/runtime/flow1/33_CurtainedCloseup.jpg"
+    ],
+    "human_acceptance": "待用户本轮人工审计",
     "regression_to": [
       "B01",
       "B03",
       "B04",
       "B05"
     ],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_date": "2026-10-05",
+    "implemented_scope": "近景使用真实床与帘，消除占位块；连续空格3秒，松手清零，暂停后须重新按；不显示进度条、不揭示被遮挡身份。",
+    "implementation_detail": "近景使用真实床与帘，消除占位块；连续空格3秒，松手清零，暂停后须重新按；不显示进度条、不揭示被遮挡身份。",
+    "remaining_scope": "用户人工美术与体验审计、批准后GitHub存档；独立播放器完整通关/实际关闭未验证",
+    "verification_scope": "Scene01启动；D盘隔离存档，部分起点及门梯/组合用诊断接口，实际输入走原路径；不是新游戏全Demo连续通关"
   },
   {
     "id": "M72",
@@ -2584,12 +2680,16 @@
     "actions": "绑定医生或符合剧情的非肖鹏说话模式",
     "acceptance": "医生发言绝不显示肖鹏在讲话",
     "code_entry": "School/SchoolChaseController.cs; School/SchoolSecurityFinale.cs; Ending/EndingHomeController.cs; Ending/EndingStreetController.cs; Ending/EndingHospital.cs; Ending/EndingFocusProgress.cs; Presentation/EndingArtwork.cs; Presentation/DemoDialogueArtwork.cs",
-    "status": "实施中",
+    "status": "P06 本轮内部检查完成，待人工审计",
     "implementation_commit": null,
     "test_evidence": [
-      "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/Evidence/portrait-rules-check.txt"
+      "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/Evidence/portrait-rules-check.txt",
+      "35_P06阶段报告与人工审计.md",
+      "P06Evidence/review.html",
+      "P06Evidence/checks/final-check-summary.json",
+      "P06Evidence/runtime/flow1/34_DoctorNoPortrait.jpg"
     ],
-    "human_acceptance": "未验收",
+    "human_acceptance": "待用户本轮人工审计",
     "regression_to": [
       "B01",
       "B03",
@@ -2597,9 +2697,11 @@
       "B05"
     ],
     "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
-    "implementation_date": "2026-10-01",
-    "implemented_scope": "E01医生对白隐藏立绘，不带出肖鹏。",
-    "remaining_scope": "当前仅对白呈现层验证；医院演出与后续黑场顺序待P06。"
+    "implementation_date": "2026-10-05",
+    "implemented_scope": "E01医生语句显式无立绘，不把肖鹏套作医生。",
+    "remaining_scope": "用户人工美术与体验审计、批准后GitHub存档；独立播放器完整通关/实际关闭未验证",
+    "implementation_detail": "E01医生语句显式无立绘，不把肖鹏套作医生。",
+    "verification_scope": "Scene01启动；D盘隔离存档，部分起点及门梯/组合用诊断接口，实际输入走原路径；不是新游戏全Demo连续通关"
   },
   {
     "id": "M73",
@@ -2620,17 +2722,27 @@
     "actions": "医生结束立即黑场，两句按指定对话构图后慢淡出",
     "acceptance": "严格时序；不残留白底；结束页能回菜单/退出",
     "code_entry": "School/SchoolChaseController.cs; School/SchoolSecurityFinale.cs; Ending/EndingHomeController.cs; Ending/EndingStreetController.cs; Ending/EndingHospital.cs; Ending/EndingFocusProgress.cs; Presentation/EndingArtwork.cs; Presentation/DemoDialogueArtwork.cs",
-    "status": "已审计待实施",
+    "status": "P06 本轮内部检查完成，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "35_P06阶段报告与人工审计.md",
+      "P06Evidence/review.html",
+      "P06Evidence/checks/final-check-summary.json",
+      "P06Evidence/runtime/flow1/37_DemoCompleteMenu.jpg"
+    ],
+    "human_acceptance": "待用户本轮人工审计",
     "regression_to": [
       "B01",
       "B03",
       "B04",
       "B05"
     ],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_date": "2026-10-05",
+    "implemented_scope": "医生原句后立即黑场，E02/E03保留原文与两侧立绘，最后字幕/立绘1.8秒慢淡出后出现完成页；返回菜单及退出按钮松键/暂停保护完成Editor复测。",
+    "implementation_detail": "医生原句后立即黑场，E02/E03保留原文与两侧立绘，最后字幕/立绘1.8秒慢淡出后出现完成页；返回菜单及退出按钮松键/暂停保护完成Editor复测。",
+    "remaining_scope": "用户人工美术与体验审计、批准后GitHub存档；独立播放器完整通关/实际关闭未验证",
+    "verification_scope": "Scene01启动；D盘隔离存档，部分起点及门梯/组合用诊断接口，实际输入走原路径；不是新游戏全Demo连续通关"
   },
   {
     "id": "A01",
@@ -2660,7 +2772,9 @@
       "P02Evidence/idle_cycles_PV20r2/idle_cycle_report.json",
       "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\PV20r2_foreground_validation.json",
       "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\PV20r2_standalone_validation.json",
-      "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\PV20r2_cold_coverage_validation.json"
+      "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\PV20r2_cold_coverage_validation.json",
+      "P06Evidence/checks/camera-results.txt",
+      "35_P06阶段报告与人工审计.md"
     ],
     "human_acceptance": "2026-10-04 用户明确授权存档并进入P03；未追加声称人工审美复查",
     "regression_to": [],
@@ -2688,7 +2802,19 @@
       "stage_close_cleanup.json",
       "gameplay_boundary_audit.json"
     ],
-    "archive_authorization": "上面说错了，你帮我完成P02存档吧，我已经打开了GitHub Desktop。完成后就可以直接开始P03"
+    "archive_authorization": "上面说错了，你帮我完成P02存档吧，我已经打开了GitHub Desktop。完成后就可以直接开始P03",
+    "p06_camera_pickup_supplement": {
+      "date": "2026-10-05",
+      "cause": "桌子与父母较大的相邻交互范围抢占桌面相机",
+      "change": "只细分三个传感范围和锚点；保持原画位置与电话/对话/获取顺序",
+      "verified": "22/0实际目标筛选、两侧行走E拾取、获取后Q举起",
+      "evidence": [
+        "P06Evidence/checks/camera-results.txt",
+        "P06Evidence/runtime/camera/LivingRoom_CameraPrompt.png",
+        "P06Evidence/runtime/camera/LivingRoom_CameraRaised_AfterE.png"
+      ],
+      "human_acceptance": "待P06人工审计"
+    }
   },
   {
     "id": "A02",
@@ -2829,12 +2955,22 @@
     "actions": "左右跑步及动态黑焰，在追逐和变身状态衔接",
     "acceptance": "动作不靠拉伸整人；黑焰不遮出口；暂停不移动",
     "code_entry": "Presentation/SchoolEnemyArtwork.cs; School/SchoolChaseController.cs",
-    "status": "已审计待实施",
+    "status": "P06 本轮内部检查完成，待人工审计",
     "implementation_commit": null,
-    "test_evidence": [],
-    "human_acceptance": "未验收",
+    "test_evidence": [
+      "35_P06阶段报告与人工审计.md",
+      "P06Evidence/review.html",
+      "P06Evidence/checks/final-check-summary.json",
+      "P06Evidence/runtime/flow5/PursuerLeftGrounded.jpg"
+    ],
+    "human_acceptance": "待用户本轮人工审计",
     "regression_to": [],
-    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值"
+    "code_entry_status": "静态定位入口；实施前必须核实实例与序列化绑定，不能只改脚本默认值",
+    "implementation_date": "2026-10-05",
+    "implemented_scope": "原追逐实体使用P02成人校服原生绑定，左右身份头单独切片，九条连续黑焰随暂停时钟冻结；AI、速度比和路线保留。",
+    "implementation_detail": "原追逐实体使用P02成人校服原生绑定，左右身份头单独切片，九条连续黑焰随暂停时钟冻结；AI、速度比和路线保留。",
+    "remaining_scope": "用户人工美术与体验审计、批准后GitHub存档；独立播放器完整通关/实际关闭未验证",
+    "verification_scope": "Scene01启动；D盘隔离存档，部分起点及门梯/组合用诊断接口，实际输入走原路径；不是新游戏全Demo连续通关"
   },
   {
     "id": "U01",

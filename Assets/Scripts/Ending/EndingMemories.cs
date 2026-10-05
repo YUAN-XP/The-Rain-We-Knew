@@ -14,13 +14,15 @@ public sealed partial class EndingDirector
     }
     IEnumerator Gift(System.Action done){
         var stage=childSet.transform;
-        var gift=EndingActorView.Part("取出的拨片项链",stage,data.bodySprite,Vector2.zero,new Vector2(.13f,.17f),new Color(.95f,.77f,.38f),30).transform;
-        Vector3 pocket=stage.InverseTransformPoint(child.transform.TransformPoint(new Vector3(.3f,-.35f,0)));
-        Vector3 chest=stage.InverseTransformPoint(child.transform.TransformPoint(new Vector3(.45f,.45f,0)));
-        Vector3 neck=stage.InverseTransformPoint(boy.pendant.position);
-        gift.localPosition=pocket;float t=0;
-        while(t<data.actionSeconds){t+=Delta;float f=Mathf.Clamp01(t/data.actionSeconds);Vector3 pos=f<.35f?Vector3.Lerp(pocket,chest,f/.35f):Vector3.Lerp(chest,neck,(f-.35f)/.65f);child.Reach(stage.TransformPoint(pos));gift.localPosition=pos;yield return null;}
-        boy.pendant.gameObject.SetActive(true);Destroy(gift.gameObject);yield return Wait(.6f);done();
+        var pendantSprite=GetComponent<EndingArtwork>().PendantSprite??data.bodySprite;
+        var gift=EndingActorView.Part("取出的拨片项链",stage,pendantSprite,Vector2.zero,new Vector2(.13f,.17f),new Color(.95f,.77f,.38f),30).transform;
+        gift.localScale=Vector3.one*(.15f/pendantSprite.bounds.size.y);
+        Vector3 pocket=stage.InverseTransformPoint(child.PocketPoint);
+        Vector3 chest=Vector3.Lerp(pocket,stage.InverseTransformPoint(boy.NecklacePoint),.55f)+Vector3.up*.04f;
+        Vector3 neck=stage.InverseTransformPoint(boy.NecklacePoint);
+        gift.localPosition=pocket;gift.gameObject.AddComponent<P06HeldPendant>().actor=child;float t=0;
+        while(t<data.actionSeconds){t+=Delta;float f=Mathf.Clamp01(t/data.actionSeconds);Vector3 pos=f<.35f?Vector3.Lerp(pocket,chest,f/.35f):Vector3.Lerp(chest,neck,(f-.35f)/.65f);child.Reach(stage.TransformPoint(pos));yield return null;}
+        boy.pendant.gameObject.SetActive(true);Destroy(gift.gameObject);child.EndReach();yield return Wait(.6f);done();
     }
     IEnumerator YouthMemory(){
         bool actionDone=false;StartCoroutine(SupportArm(()=>actionDone=true));
@@ -30,8 +32,8 @@ public sealed partial class EndingDirector
         story.Set(StoryFlag.EndingYouthCompleted);EnterWalkStage(EndingStep.WalkHospital);yield return Cover(Color.clear,.5f);
     }
     IEnumerator SupportArm(System.Action done){
-        var stage=youthSet.transform;Vector3 start=stage.InverseTransformPoint(youth.hand.position);Vector3 end=stage.InverseTransformPoint(friend.transform.TransformPoint(new Vector3(-.35f,.2f,0)));float t=0;
-        while(t<data.actionSeconds){t+=Delta;youth.Reach(stage.TransformPoint(Vector3.Lerp(start,end,Mathf.Clamp01(t/data.actionSeconds))));yield return null;}yield return Wait(.5f);done();
+        var stage=youthSet.transform;Vector3 start=stage.InverseTransformPoint(youth.hand.position);Vector3 end=stage.InverseTransformPoint(friend.NecklacePoint-Vector3.up*.16f);float t=0;
+        while(t<data.actionSeconds){t+=Delta;youth.Reach(stage.TransformPoint(Vector3.Lerp(start,end,Mathf.Clamp01(t/data.actionSeconds))));yield return null;}yield return Wait(.5f);youth.EndReach();done();
     }
     IEnumerator HospitalMemory(){
         bool actionDone=false;StartCoroutine(PassBeds(()=>actionDone=true));

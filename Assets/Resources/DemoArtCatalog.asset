@@ -16397,7 +16397,7 @@ Sprite:
       height: 501
     textureRectOffset: {x: 0, y: 0}
     atlasRectOffset: {x: -1, y: -1}
-    settingsRaw: 3072
+    settingsRaw: 0
     uvTransform: {x: 256, y: 1338.5, z: 256, w: 142}
     downscaleMultiplier: 1
   m_AtlasRD:
@@ -20137,7 +20137,7 @@ Sprite:
       height: 383
     textureRectOffset: {x: 0, y: 0}
     atlasRectOffset: {x: -1, y: -1}
-    settingsRaw: 3072
+    settingsRaw: 0
     uvTransform: {x: 256, y: 1255, z: 256, w: 459}
     downscaleMultiplier: 1
   m_AtlasRD:
@@ -29377,7 +29377,7 @@ Sprite:
       height: 487
     textureRectOffset: {x: 0, y: 0}
     atlasRectOffset: {x: -1, y: -1}
-    settingsRaw: 3072
+    settingsRaw: 0
     uvTransform: {x: 256, y: 1519, z: 256, w: 136}
     downscaleMultiplier: 1
   m_AtlasRD:
@@ -30022,7 +30022,7 @@ Sprite:
         format: 0
         dimension: 0
       m_DataSize: 80
-      _typelessdata: 000036bf00003040000000000000363f0000304000000000000036bf00000000000000000000363f00000000000000000000000000000000000000000000000000000000000000000000000000000000
+      _typelessdata: 000036bf00003040000000000000363f0000304000000000000036bf00000000000000000000363f00000000000000000080143fabaafb3e00806f3fabaafb3e0080143f0000083d00806f3f0000083d
     m_Bindpose: []
     m_BlendShapes:
       vertices: []
@@ -30037,7 +30037,7 @@ Sprite:
       height: 704
     textureRectOffset: {x: 0, y: 0}
     atlasRectOffset: {x: -1, y: -1}
-    settingsRaw: 3072
+    settingsRaw: 0
     uvTransform: {x: 256, y: 776, z: 256, w: 51}
     downscaleMultiplier: 1
   m_AtlasRD:
@@ -47857,7 +47857,7 @@ Sprite:
       height: 590
     textureRectOffset: {x: 0, y: 0}
     atlasRectOffset: {x: -1, y: -1}
-    settingsRaw: 3072
+    settingsRaw: 0
     uvTransform: {x: 256, y: 329, z: 256, w: 24}
     downscaleMultiplier: 1
   m_AtlasRD:
@@ -57522,7 +57522,7 @@ Sprite:
         format: 0
         dimension: 0
       m_DataSize: 80
-      _typelessdata: 00a03ac000c06e400000000000a03a4000c06e400000000000a03ac0000000000000000000a03a4000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      _typelessdata: 00a03ac000c06e400000000000a03a4000c06e400000000000a03ac0000000000000000000a03a400000000000000000abaa6a3c00807c3f00807c3f00807c3fabaa6a3c00005c3d00807c3f00005c3d
     m_Bindpose: []
     m_BlendShapes:
       vertices: []
@@ -57537,7 +57537,7 @@ Sprite:
       height: 955
     textureRectOffset: {x: 0, y: 0}
     atlasRectOffset: {x: -1, y: -1}
-    settingsRaw: 3072
+    settingsRaw: 0
     uvTransform: {x: 256, y: 768.5, z: 256, w: 55}
     downscaleMultiplier: 1
   m_AtlasRD:
@@ -66542,7 +66542,7 @@ Sprite:
         format: 0
         dimension: 0
       m_DataSize: 80
-      _typelessdata: 00802dbf0000e43f0000000000802d3f0000e43f0000000000802dbf000000000000000000802d3f00000000000000000000000000000000000000000000000000000000000000000000000000000000
+      _typelessdata: 00802dbf0000e43f0000000000802d3f0000e43f0000000000802dbf000000000000000000802d3f00000000000000005555c93e0080fc3e00801e3f0080fc3e5555c93e0000443d00801e3f0000443d
     m_Bindpose: []
     m_BlendShapes:
       vertices: []
@@ -66557,7 +66557,7 @@ Sprite:
       height: 456
     textureRectOffset: {x: 0, y: 0}
     atlasRectOffset: {x: -1, y: -1}
-    settingsRaw: 3072
+    settingsRaw: 0
     uvTransform: {x: 256, y: 777.5, z: 256, w: 49}
     downscaleMultiplier: 1
   m_AtlasRD:
@@ -68302,7 +68302,7 @@ Sprite:
         format: 0
         dimension: 0
       m_DataSize: 80
-      _typelessdata: 000015c00000db3f00000000000015400000db3f00000000000015c000000000000000000000154000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      _typelessdata: 000015c00000db3f00000000000015400000db3f00000000000015c000000000000000000000154000000000000000000000f43d00406b3fab2a653f00406b3f0000f43d0080fb3eab2a653f0080fb3e
     m_Bindpose: []
     m_BlendShapes:
       vertices: []
@@ -68317,7 +68317,7 @@ Sprite:
       height: 438
     textureRectOffset: {x: 0, y: 0}
     atlasRectOffset: {x: -1, y: -1}
-    settingsRaw: 3072
+    settingsRaw: 0
     uvTransform: {x: 256, y: 779, z: 256, w: 503}
     downscaleMultiplier: 1
   m_AtlasRD:
@@ -75122,7 +75122,7 @@ Sprite:
         format: 0
         dimension: 0
       m_DataSize: 80
-      _typelessdata: 000051c000406b40000000000000514000406b4000000000000051c000000000000000000000514000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      _typelessdata: 000051c000406b40000000000000514000406b4000000000000051c00000000000000000000051400000000000000000000000000000803f0000803f0000803f00000000000000000000803f00000000
     m_Bindpose: []
     m_BlendShapes:
       vertices: []
@@ -75137,7 +75137,7 @@ Sprite:
       height: 941
     textureRectOffset: {x: 0, y: 0}
     atlasRectOffset: {x: -1, y: -1}
-    settingsRaw: 3072
+    settingsRaw: 0
     uvTransform: {x: 256, y: 836, z: 256, w: 0}
     downscaleMultiplier: 1
   m_AtlasRD:
@@ -75577,7 +75577,7 @@ Sprite:
       height: 809
     textureRectOffset: {x: 0, y: 0}
     atlasRectOffset: {x: -1, y: -1}
-    settingsRaw: 3072
+    settingsRaw: 0
     uvTransform: {x: 256, y: 444, z: 256, w: 37}
     downscaleMultiplier: 1
   m_AtlasRD:
@@ -79077,6 +79077,48 @@ MonoBehaviour:
     sprite: {fileID: 1232113294703242533}
   - key: P05_FogBackdrop
     sprite: {fileID: -3082954717081940834}
+  - key: P06_BedCloseup
+    sprite: {fileID: -1037804034, guid: 652e27c0a92ecca44ba0f0780a96d1d1, type: 3}
+  - key: P06_TransformationComic:0
+    sprite: {fileID: 721087079, guid: 9e1c14b77bc38014a874ae663cc4e474, type: 3}
+  - key: P06_TransformationComic:1
+    sprite: {fileID: 1812051517, guid: 9e1c14b77bc38014a874ae663cc4e474, type: 3}
+  - key: P06_TransformationComic:2
+    sprite: {fileID: 655846429, guid: 9e1c14b77bc38014a874ae663cc4e474, type: 3}
+  - key: P06_TransformationComic:3
+    sprite: {fileID: -1196084877, guid: 9e1c14b77bc38014a874ae663cc4e474, type: 3}
+  - key: P06_CarSeated:0
+    sprite: {fileID: -1028196017, guid: c94c65a887682014d8e2c0cecbe4d8c1, type: 3}
+  - key: P06_CarSeated:1
+    sprite: {fileID: -228142805, guid: c94c65a887682014d8e2c0cecbe4d8c1, type: 3}
+  - key: P06_CarSeated:2
+    sprite: {fileID: 510721495, guid: c94c65a887682014d8e2c0cecbe4d8c1, type: 3}
+  - key: P06_CarSeated:3
+    sprite: {fileID: -7395922, guid: c94c65a887682014d8e2c0cecbe4d8c1, type: 3}
+  - key: P06_XiangHeads:0
+    sprite: {fileID: 1121743130, guid: 85639b5c6080a0f4a82cb279bbeb8ab2, type: 3}
+  - key: P06_XiangHeads:1
+    sprite: {fileID: 505490958, guid: 85639b5c6080a0f4a82cb279bbeb8ab2, type: 3}
+  - key: P06_BoardingDefault:0
+    sprite: {fileID: -1501062037, guid: 15ff9dbdebb987d479f75fdd67452059, type: 3}
+  - key: P06_BoardingDefault:1
+    sprite: {fileID: -846756000, guid: 15ff9dbdebb987d479f75fdd67452059, type: 3}
+  - key: P06_BoardingDefault:2
+    sprite: {fileID: 8685479, guid: 15ff9dbdebb987d479f75fdd67452059, type: 3}
+  - key: P06_BoardingOveralls:0
+    sprite: {fileID: -799795748, guid: 17bb37f6795a08d408a0c39c9774aa48, type: 3}
+  - key: P06_BoardingOveralls:1
+    sprite: {fileID: 678193848, guid: 17bb37f6795a08d408a0c39c9774aa48, type: 3}
+  - key: P06_BoardingOveralls:2
+    sprite: {fileID: 1402976306, guid: 17bb37f6795a08d408a0c39c9774aa48, type: 3}
+  - key: P06_BoardingSchool:0
+    sprite: {fileID: 338676633, guid: 2d77bf7df70ab94479b250af800222ae, type: 3}
+  - key: P06_BoardingSchool:1
+    sprite: {fileID: -120060490, guid: 2d77bf7df70ab94479b250af800222ae, type: 3}
+  - key: P06_BoardingSchool:2
+    sprite: {fileID: -2019662844, guid: 2d77bf7df70ab94479b250af800222ae, type: 3}
+  - key: P06_WardWide
+    sprite: {fileID: 1929629302, guid: 7a93bc21a7a1ddd48995b4b78fe7bf92, type: 3}
 --- !u!213 &74691573851045889
 Sprite:
   serializedVersion: 2
@@ -87554,7 +87596,7 @@ Sprite:
       height: 861
     textureRectOffset: {x: 0, y: 0}
     atlasRectOffset: {x: -1, y: -1}
-    settingsRaw: 3072
+    settingsRaw: 0
     uvTransform: {x: 256, y: 846, z: 256, w: 91}
     downscaleMultiplier: 1
   m_AtlasRD:
@@ -89754,7 +89796,7 @@ Sprite:
       height: 558
     textureRectOffset: {x: 0, y: 0}
     atlasRectOffset: {x: -1, y: -1}
-    settingsRaw: 3072
+    settingsRaw: 0
     uvTransform: {x: 256, y: 462, z: 256, w: 132}
     downscaleMultiplier: 1
   m_AtlasRD:
@@ -94594,7 +94636,7 @@ Sprite:
       height: 676
     textureRectOffset: {x: 0, y: 0}
     atlasRectOffset: {x: -1, y: -1}
-    settingsRaw: 3072
+    settingsRaw: 0
     uvTransform: {x: 256, y: 1467.5, z: 256, w: 92}
     downscaleMultiplier: 1
   m_AtlasRD:
@@ -95914,7 +95956,7 @@ Sprite:
       height: 567
     textureRectOffset: {x: 0, y: 0}
     atlasRectOffset: {x: -1, y: -1}
-    settingsRaw: 3072
+    settingsRaw: 0
     uvTransform: {x: 256, y: 1285.5, z: 256, w: 53}
     downscaleMultiplier: 1
   m_AtlasRD:
@@ -97454,7 +97496,7 @@ Sprite:
       height: 466
     textureRectOffset: {x: 0, y: 0}
     atlasRectOffset: {x: -1, y: -1}
-    settingsRaw: 3072
+    settingsRaw: 0
     uvTransform: {x: 256, y: 333, z: 256, w: 712}
     downscaleMultiplier: 1
   m_AtlasRD:
@@ -98099,7 +98141,7 @@ Sprite:
         format: 0
         dimension: 0
       m_DataSize: 80
-      _typelessdata: 00805cbf0080a03f0000000000805c3f0080a03f0000000000805cbf000000000000000000805c3f00000000000000000000000000000000000000000000000000000000000000000000000000000000
+      _typelessdata: 00805cbf0080a03f0000000000805c3f0080a03f0000000000805cbf000000000000000000805c3f0000000000000000abaab53e0000d73e5555243f0000d73eabaab53e0000da3d5555243f0000da3d
     m_Bindpose: []
     m_BlendShapes:
       vertices: []
@@ -98114,7 +98156,7 @@ Sprite:
       height: 321
     textureRectOffset: {x: 0, y: 0}
     atlasRectOffset: {x: -1, y: -1}
-    settingsRaw: 3072
+    settingsRaw: 0
     uvTransform: {x: 256, y: 765.5, z: 256, w: 109}
     downscaleMultiplier: 1
   m_AtlasRD:
@@ -134978,7 +135020,7 @@ Sprite:
   m_Extrude: 0
   m_PackingTag: 
   m_RenderDataKey:
-    00000000000000000000000000000000: 0
+    5cdbc21edcd793945b4010c2285f1740: 6807407851299037387
   m_AtlasTags: []
   m_SpriteAtlas: {fileID: 0}
   m_RD:
@@ -139474,7 +139516,7 @@ Sprite:
       height: 1086
     textureRectOffset: {x: 0, y: 0}
     atlasRectOffset: {x: -1, y: -1}
-    settingsRaw: 3072
+    settingsRaw: 0
     uvTransform: {x: 256, y: 724, z: 256, w: 0}
     downscaleMultiplier: 1
   m_AtlasRD:
@@ -149498,7 +149540,7 @@ Sprite:
   m_Extrude: 0
   m_PackingTag: 
   m_RenderDataKey:
-    00000000000000000000000000000000: 0
+    5cdbc21edcd793945b4010c2285f1740: 8488616987913218677
   m_AtlasTags: []
   m_SpriteAtlas: {fileID: 0}
   m_RD:

@@ -1,0 +1,52 @@
+{
+  "time": "2026-10-05T06:15:15",
+  "final_runtime_assertions": 366,
+  "groups": {
+    "camera": {
+      "passed": 22,
+      "failed": 0,
+      "scope": "isolated Editor Play Mode"
+    },
+    "flow0": {
+      "passed": 155,
+      "failed": 0,
+      "scope": "isolated Editor Play Mode"
+    },
+    "flow1": {
+      "passed": 93,
+      "failed": 0,
+      "scope": "isolated Editor Play Mode"
+    },
+    "flow3": {
+      "passed": 24,
+      "failed": 0,
+      "scope": "isolated Editor Play Mode"
+    },
+    "flow4": {
+      "passed": 40,
+      "failed": 0,
+      "scope": "isolated Editor Play Mode"
+    },
+    "flow5": {
+      "passed": 16,
+      "failed": 0,
+      "scope": "isolated preview"
+    },
+    "flow6": {
+      "passed": 16,
+      "failed": 0,
+      "scope": "isolated Editor Play Mode"
+    },
+    "edit": {
+      "passed": 38,
+      "failed": 0
+    },
+    "cleanup": {
+      "passed": 3,
+      "failed": 0
+    }
+  },
+  "earlier_ward_38_not_counted": true,
+  "manual_art_acceptance": "pending",
+  "standalone_interactive_quit": "not_verified"
+}

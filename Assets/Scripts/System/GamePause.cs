@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using TMPro;
 using UnityEngine;
 
@@ -39,6 +39,7 @@ public sealed class GamePause : MonoBehaviour
         // Other school pages own CloseUp/Inventory; their existing ESC handlers run first.
         return controls&&controls.IsLockedBy(ControlLockReason.Inventory);
     }
+    public void ShowMainMenu(){mainMenu=true;confirmReturn=false;confirmed=null;screen=0;message="";SetPaused(true);Draw();ReturnToMenuRequested?.Invoke();}
     public void SetPaused(bool value){
         if(paused==value)return;
         if(value){SaveAvailableBeforePause=GetComponent<GameSaveService>()?.CanSave(out _)==true;pausedBody=controls&&controls.ActivePlayer?controls.ActivePlayer.GetComponent<Rigidbody2D>():null;if(pausedBody)pausedVelocity=pausedBody.linearVelocity;}

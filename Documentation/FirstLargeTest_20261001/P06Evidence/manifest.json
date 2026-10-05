@@ -1,0 +1,989 @@
+{
+  "time": "2026-10-05T06:33:02",
+  "baseline": "e95ddc8b0e83ae122f7c0f7b1bfb1834ac29eef5",
+  "production_fingerprint": "015bf8d228bc39d147e61c55d6ffc8eddedf93a4f5024e9a659a8adf92408090",
+  "files": [
+    {
+      "path": "Assets/Art/Demo2026/P06.meta",
+      "bytes": 172,
+      "sha256": "33dbd30ab0e7cb73d6ced243ddaefc2be11a0986db22516cb62745b79ef940c0"
+    },
+    {
+      "path": "Assets/Art/Demo2026/P06/P06_BedCloseup.png",
+      "bytes": 1972105,
+      "sha256": "449f5e73cb071cc57ca56854ead77f4fe259d5c7459a89dec52209eab8260585"
+    },
+    {
+      "path": "Assets/Art/Demo2026/P06/P06_BedCloseup.png.meta",
+      "bytes": 3279,
+      "sha256": "abbd5e176b41d62f46b066d17ea7d6f18b121773c50e51bbf7239dd9c0b61f64"
+    },
+    {
+      "path": "Assets/Art/Demo2026/P06/P06_BoardingDefault.png",
+      "bytes": 2802303,
+      "sha256": "3460ddc0c78c12797e19a45f40cf8fd90c2fdf4923c186aebf972cbd0529e44c"
+    },
+    {
+      "path": "Assets/Art/Demo2026/P06/P06_BoardingDefault.png.meta",
+      "bytes": 4385,
+      "sha256": "eeaf7d2ed15442a726041f049e3fb2d5120b63d739df123f6885e0832fc0c038"
+    },
+    {
+      "path": "Assets/Art/Demo2026/P06/P06_BoardingOveralls.png",
+      "bytes": 2657356,
+      "sha256": "b0d5c738ab12bf21270f40eb48e00bc389df008158b44b792f677d9d735cd494"
+    },
+    {
+      "path": "Assets/Art/Demo2026/P06/P06_BoardingOveralls.png.meta",
+      "bytes": 4393,
+      "sha256": "d878d9c8032ada2a5dc7adda482e9398fa3fde6566f61f5167e1370ca44e6f73"
+    },
+    {
+      "path": "Assets/Art/Demo2026/P06/P06_BoardingSchool.png",
+      "bytes": 2650848,
+      "sha256": "364831e420f157585fbf3a38a3800dc3230db54a58d59be0953a24016c772ad2"
+    },
+    {
+      "path": "Assets/Art/Demo2026/P06/P06_BoardingSchool.png.meta",
+      "bytes": 4381,
+      "sha256": "d52e5b77782c6ab461cca9832775bb25b403be5eb44480eb0e77097b7f6a6ea5"
+    },
+    {
+      "path": "Assets/Art/Demo2026/P06/P06_CarSeated.png",
+      "bytes": 1490071,
+      "sha256": "d763d319d0a302bd262eee72bc1f08ebdec79caecd0973da930c23d9b35295df"
+    },
+    {
+      "path": "Assets/Art/Demo2026/P06/P06_CarSeated.png.meta",
+      "bytes": 5092,
+      "sha256": "0e2fe3945c7706190d7288c705a41479d0f43a1c5dec7cd73bec5c1c8f91e305"
+    },
+    {
+      "path": "Assets/Art/Demo2026/P06/P06_TransformationComic.png",
+      "bytes": 2153072,
+      "sha256": "acc61e1e7c9170de17b3f9c754d55a0df767467f748b8def550c5b0ed000ac78"
+    },
+    {
+      "path": "Assets/Art/Demo2026/P06/P06_TransformationComic.png.meta",
+      "bytes": 4970,
+      "sha256": "b5fc71d83729a030d314b05227f5aac3354ea18d098e9ea74a40d8c7f0fd72eb"
+    },
+    {
+      "path": "Assets/Art/Demo2026/P06/P06_WardWide.png",
+      "bytes": 1908198,
+      "sha256": "94d954af583ac4e32b3cd84c21fdae73b0896d3b762ad455aac29848ac64badb"
+    },
+    {
+      "path": "Assets/Art/Demo2026/P06/P06_WardWide.png.meta",
+      "bytes": 3271,
+      "sha256": "12fbe535befcd4f545509f5db740ccfbac9ce4226f0ba915facc893025b7a8aa"
+    },
+    {
+      "path": "Assets/Art/Demo2026/P06/P06_XiangHeads.png",
+      "bytes": 1597597,
+      "sha256": "0d6f12796189b8ab536aac42c00b9545923f79196d4276210874b373789940e6"
+    },
+    {
+      "path": "Assets/Art/Demo2026/P06/P06_XiangHeads.png.meta",
+      "bytes": 6627,
+      "sha256": "2d3989915c5b4b71fbc4877f14b80e232cfe93f141170384fc84d428ba2d9560"
+    },
+    {
+      "path": "Assets/Editor/P06EvidenceRecorder.cs",
+      "bytes": 2926,
+      "sha256": "82054f793f93ab9ca2851b541fd319b08b96328bc1ecc6f58fc8dca79471e845"
+    },
+    {
+      "path": "Assets/Editor/P06EvidenceRecorder.cs.meta",
+      "bytes": 59,
+      "sha256": "529dfcc0afc16bec120de469878a85ac11d0bff61da1c830781d7bce5bb59d0d"
+    },
+    {
+      "path": "Assets/Editor/P06FinalAudit.cs",
+      "bytes": 4394,
+      "sha256": "9dc6076faaed369ab7c698d1566c5c18ce964a249f6f211135b91a82333da9a2"
+    },
+    {
+      "path": "Assets/Editor/P06FinalAudit.cs.meta",
+      "bytes": 59,
+      "sha256": "6540e4a70fa4d3041f3a0ed50b67cae121e270951c2640e2698ed8e84b9de360"
+    },
+    {
+      "path": "Assets/Editor/P06FlowRegression.cs",
+      "bytes": 43242,
+      "sha256": "68277b1dfc584a19f8c1e2fe87d975c32bdc13aa6e3268709ca58c438a2385de"
+    },
+    {
+      "path": "Assets/Editor/P06FlowRegression.cs.meta",
+      "bytes": 59,
+      "sha256": "5cd70ab03e9a12004a26302eb783b3906ea292e7ba3ed500705f0706d6f8aa47"
+    },
+    {
+      "path": "Assets/Editor/P06Production.cs",
+      "bytes": 4282,
+      "sha256": "9fceb060ff7d38e3eff02fee0e947261c2bd1336b4f01d05734bef0845a55869"
+    },
+    {
+      "path": "Assets/Editor/P06Production.cs.meta",
+      "bytes": 59,
+      "sha256": "8a3b4aefb9f7b0f807ee04047518b33abf892e0cc1ee35340cdb395550c6752b"
+    },
+    {
+      "path": "Assets/Editor/P06Regression.cs",
+      "bytes": 15431,
+      "sha256": "7667bc122ce7bb85276929e3e67a79de376c2f8d975e1d54b1ff587e14df4ef8"
+    },
+    {
+      "path": "Assets/Editor/P06Regression.cs.meta",
+      "bytes": 59,
+      "sha256": "72298578f0f7e9901b0e768dc686dac6fe6420206c6f1e0fbe8a777504d201cf"
+    },
+    {
+      "path": "Assets/Editor/P06ValidationBuild.cs",
+      "bytes": 1305,
+      "sha256": "8f9e21d600f1b8e0a97d8c6b497b493cd5c1a1274d4ac04dacc2ef8d6e1e811f"
+    },
+    {
+      "path": "Assets/Editor/P06ValidationBuild.cs.meta",
+      "bytes": 59,
+      "sha256": "2662e890a5f5315cbc46dddffea9ea803733469ac79d726c84b47992df95e8d7"
+    },
+    {
+      "path": "Assets/Resources/DemoArtCatalog.asset",
+      "bytes": 3633577,
+      "sha256": "df1c58a83f141133f27ce3c63fd28488341ce483a691ef9a5351389f25090604"
+    },
+    {
+      "path": "Assets/Scenes/Scene03_Childhood.unity",
+      "bytes": 17433452,
+      "sha256": "cc2a9890251e353d4647f839e8a26669e7cc1936adcc18b2d86c6eb22c7ed9c2"
+    },
+    {
+      "path": "Assets/Scripts/Ending/EndingActorView.cs",
+      "bytes": 5076,
+      "sha256": "8b71ac39df0994e3e24c8450d43e12e586a8dc8b18b8b5698d76fd2422a539c7"
+    },
+    {
+      "path": "Assets/Scripts/Ending/EndingDirector.cs",
+      "bytes": 8659,
+      "sha256": "e30680e0e030dd85c9fa615505ed3c2cedb5542f4cab2d8806d4004fdbf3bc4e"
+    },
+    {
+      "path": "Assets/Scripts/Ending/EndingFocusProgress.cs",
+      "bytes": 796,
+      "sha256": "ae1a61e47534ea26819816b7bd71848244458f598a4a82397a1187dee10831ad"
+    },
+    {
+      "path": "Assets/Scripts/Ending/EndingHospital.cs",
+      "bytes": 4968,
+      "sha256": "30a99c6902341ee1380eb781f98a2b48dd1bbb5db43d762572bde00a528e7363"
+    },
+    {
+      "path": "Assets/Scripts/Ending/EndingMemories.cs",
+      "bytes": 3659,
+      "sha256": "30f790ea6e6ee2b3181537f280fcd8a491279f8687030170af315d7b43fc565c"
+    },
+    {
+      "path": "Assets/Scripts/Ending/EndingStageController.cs",
+      "bytes": 4812,
+      "sha256": "671696dcb733eb2018e30b226971892077a880e327ca962dd3c45e185786e2d6"
+    },
+    {
+      "path": "Assets/Scripts/Ending/EndingStreetController.cs",
+      "bytes": 9532,
+      "sha256": "4ac102ff133c4f2ed8e7ac9c0233452f203b972c75f5bebb729d5bd2bb04412b"
+    },
+    {
+      "path": "Assets/Scripts/Ending/EndingWalkStage.cs",
+      "bytes": 1433,
+      "sha256": "f273d069c4ec6c47c0182248249850230ccdd119f4bc4e4c606f3864663a9179"
+    },
+    {
+      "path": "Assets/Scripts/Presentation/DemoComicSequence.cs",
+      "bytes": 6944,
+      "sha256": "7bd8a8b6b0ef4265219040e9c52087a03873be70f944e11f1e5370a39c4bbfb3"
+    },
+    {
+      "path": "Assets/Scripts/Presentation/DemoDialogueArtwork.cs",
+      "bytes": 9894,
+      "sha256": "cc3e552a92bcb95d033133b09cfa404f3e396572bea90653c857d7451738935e"
+    },
+    {
+      "path": "Assets/Scripts/Presentation/EndingArtwork.cs",
+      "bytes": 6134,
+      "sha256": "f5edd779a6124c2c7c27249f8c7d7a9460874eb11e8071e41b618837df18e546"
+    },
+    {
+      "path": "Assets/Scripts/Presentation/P06EndingArtworkAlignment.cs",
+      "bytes": 1377,
+      "sha256": "874863c70c55fd3a523c9b3f45888f415544d3e908d4240aaf2109f4560a7104"
+    },
+    {
+      "path": "Assets/Scripts/Presentation/P06EndingArtworkAlignment.cs.meta",
+      "bytes": 59,
+      "sha256": "9206e1e22ec4bd4df489512dbf938a108fb2f367ef6253ba3eb71fbf4f4b0d91"
+    },
+    {
+      "path": "Assets/Scripts/Presentation/P06PursuerMotion.cs",
+      "bytes": 2280,
+      "sha256": "484fc3d703e6af26a0e0496c13c75799107f276a8277d0dbb36c1513e91df776"
+    },
+    {
+      "path": "Assets/Scripts/Presentation/P06PursuerMotion.cs.meta",
+      "bytes": 59,
+      "sha256": "199f6adaccf7c775198cf1c20403fadb4c6d8d9e8caaecf2ce5f1cb1e52a104f"
+    },
+    {
+      "path": "Assets/Scripts/Presentation/SchoolEnemyArtwork.cs",
+      "bytes": 787,
+      "sha256": "45167ca46f275b53979c113fc1ff69cefa1af017f53f79bd65c5053934fc7bfd"
+    },
+    {
+      "path": "Assets/Scripts/Scene03/Scene03Interactable.cs",
+      "bytes": 1046,
+      "sha256": "9f44a1d8b61a7869e296143a9f5220ac7bda3611c4fd6a58afe0b25984d2035a"
+    },
+    {
+      "path": "Assets/Scripts/School/OilLampController.cs",
+      "bytes": 9244,
+      "sha256": "8b6406f6b020e55e245f070052fec8b7a2e742ea728616e6250c75e64bea0209"
+    },
+    {
+      "path": "Assets/Scripts/School/SchoolChaseController.cs",
+      "bytes": 27614,
+      "sha256": "4d39b00d42cb8ac2581e34f7da71ab34dd776c4592ffcb115a87fe03cefc143f"
+    },
+    {
+      "path": "Assets/Scripts/School/SchoolFinalChargeWindow.cs",
+      "bytes": 610,
+      "sha256": "af826be065df6020edbfd4388cc2c09053a3e06b3f98b931e51241beb6cf742a"
+    },
+    {
+      "path": "Assets/Scripts/School/SchoolFinalChargeWindow.cs.meta",
+      "bytes": 59,
+      "sha256": "1a9132bebc45a9ff36e9c51128207339237484110bda1b9624e6ccaf3b6af03a"
+    },
+    {
+      "path": "Assets/Scripts/School/SchoolSecurityFinale.cs",
+      "bytes": 10437,
+      "sha256": "ca21a00780b5878360c2b60a0cfb2a4d694247e6b832ecf35f6f3b5c52f02190"
+    },
+    {
+      "path": "Assets/Scripts/System/GamePause.cs",
+      "bytes": 9234,
+      "sha256": "388a5e8aebfa2029c417f27304719347854067d5757cc51ea080d59b71e6db14"
+    },
+    {
+      "path": "Assets/Scripts/UI/DeskSchoolComputer.cs",
+      "bytes": 4019,
+      "sha256": "a7c1175f5f4e5620c30b804d89c5e512eaef0d045b29ca8c99863d8f671a1ece"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/02_需求与验收台账.csv",
+      "bytes": 78112,
+      "sha256": "afa81e1c40cfe28b3e3c7485b82d891e473d40a9af68e2107cfaa04b85773867"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/02_需求与验收台账.json",
+      "bytes": 216746,
+      "sha256": "c6abafb4f59158c416639d4bf6ad08da3bed435a3e2c961de85feab322b0ea23"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/02_需求与验收台账.md",
+      "bytes": 49547,
+      "sha256": "4309a6dcffe798b64fa1378f639b68ddb466f087e990d02f41579166ea6ca473"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/34_P06执行与防回退卡.md",
+      "bytes": 3601,
+      "sha256": "e493e30d03280172a1c1b6aed4a9c9b9d9d0e1d5f733801c806e3bc825835daa"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/35_P06阶段报告与人工审计.md",
+      "bytes": 13032,
+      "sha256": "62dc5738f37fb54de424680fff392753cbd6dfaaef206d0ec6caae1883286b6b"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/36_P06提交范围与英文内容.md",
+      "bytes": 2802,
+      "sha256": "31d7af41cd26ca1f43cec402280d41204b52df1108a50c118f183909db8e0f0b"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/37_P06空间参数与防回退卡.md",
+      "bytes": 3496,
+      "sha256": "debc75b7ff704675e386b0c5cf5ccbc0a89001e13270e2ffd7694911bcd1d9fe"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/audit/baseline.json",
+      "bytes": 171999,
+      "sha256": "6089270dacbae762370f784c69eb16a89a1be111beb837cc9d535d8bee8668f3"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/audit/camera-before-probe.txt",
+      "bytes": 2797,
+      "sha256": "1547b4219e5464324c5ae2ff339316a13cdf3192e7e9cf58ff86b5aa0a5f3218"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/audit/camera-before-results.txt",
+      "bytes": 516,
+      "sha256": "ce517de8c39c51f611b92b3c47accfc768c82390699ee0df03723f7ecd533c81"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/audit/current-compile-gate.json",
+      "bytes": 845,
+      "sha256": "8942ad107019bdeeba67a5a3672aacdcba65693c97d2eeaecf4dc609952676af"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/audit/diagnostic-before-baseline-scoped-audit.txt",
+      "bytes": 1921,
+      "sha256": "f04c315bed113f376491355b6934a40f565e593d4cf6ef697f54dc0ebcd098c7"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/audit/final-edit-audit.txt",
+      "bytes": 1968,
+      "sha256": "98835ba6ce2c000dccd9d525bb85f09f3c1eeb8c89d91d55891ec11ee6700032"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/audit/final-runtime-cleanup.txt",
+      "bytes": 174,
+      "sha256": "52b00a0856fb6b82f9af5e452a01785afa5a6136f909a24d80a620042730a242"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/audit/font-cache-diff.json",
+      "bytes": 2594,
+      "sha256": "096a155bd08dfc39694e2c16b8239fd0bb46d1c6be3d36ec8d4d6d0324510c85"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/audit/font-cache-restore-final.json",
+      "bytes": 302,
+      "sha256": "d4492140834ad81922a146ef139bc098466bdf16dd7b5d8aa37d6fd047066b89"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/audit/font-cache-restore.json",
+      "bytes": 471,
+      "sha256": "23b757378b1a2edc90bafd25daf94759d3988364af418497732f503de954148a"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/audit/ledger-update-verification.json",
+      "bytes": 466,
+      "sha256": "c8b529dcf678bcb247d78f198e18a5859a39d119444dee1d5517269169359a25"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/audit/media-validation.json",
+      "bytes": 4623,
+      "sha256": "785ecb4c4e6667eef68c6c1cf6094b8c3d193aa42bd5e77daa897179eab510a9"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/audit/protected-regression-final.json",
+      "bytes": 1806,
+      "sha256": "f3094e9bee060b5728b87a8afb400e9fc23c9c45e28d1c4b28cad997d40c1754"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/audit/protected-regression.json",
+      "bytes": 1512,
+      "sha256": "247befba0a9ec3708ecd9427ea245b8603e7f55fa4a983f06c37b08348bedbf8"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/audit/retired-generated-files-cleanup.json",
+      "bytes": 8527,
+      "sha256": "91c011889ec5013dab01d68d1381b9b2784c0611074cf6c435ce6dd268387ebb"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/audit/storage-summary.json",
+      "bytes": 419,
+      "sha256": "bc1fe8aca7ca77adbc279cdf7a956257373f98d2275ad6880b66ae63ca7c1354"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/audit/visual-review.json",
+      "bytes": 1178,
+      "sha256": "d5d4b1bdd252d3a9010eb39bae58c243fd37885ebe23271e4f833c2a9278a15f"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/checks/camera-results.txt",
+      "bytes": 981,
+      "sha256": "b85d90f48e1ed80af488f4d28dcc314c986280a01fa0eedea4b352f9bedd9b40"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/checks/camera-status.txt",
+      "bytes": 25,
+      "sha256": "45d33eddb110b9ae2e17e43c4a3d9b3daf602b9ed1e94e9882bf9e84562868d5"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/checks/final-check-summary.json",
+      "bytes": 1106,
+      "sha256": "d3bcfa52e5561923e1ff326cf1835213ed65b3ee6b8ae46be41d5db83d279c03"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/checks/flow0-results.txt",
+      "bytes": 7692,
+      "sha256": "26b03891373d71883c08e6afbc4516043783067deb7dc7ab12138a45110b8c4d"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/checks/flow0-status.txt",
+      "bytes": 26,
+      "sha256": "73b4ea3358a4cb3ef8dafe9f65b796bd8f8f8f1506547ffd598b183f6f397564"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/checks/flow1-results.txt",
+      "bytes": 3719,
+      "sha256": "b81f42638c9c426674bdc7233f391fdc28d4e028c747f5a03388f8feb3082298"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/checks/flow1-status.txt",
+      "bytes": 25,
+      "sha256": "78cf75a115b46b5c73c0b195659ad233885b9430d7493a1df0ab9a75cfcefe5c"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/checks/flow3-results.txt",
+      "bytes": 1021,
+      "sha256": "863eb4be942160bef713367530f3bd46cb6d93ae4b8c8941213339621a0b0e07"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/checks/flow3-status.txt",
+      "bytes": 25,
+      "sha256": "d30ebf45d4ad995c62274db3851baef1abbd858ff479a3566f0983d8f49d8cc5"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/checks/flow4-results.txt",
+      "bytes": 1793,
+      "sha256": "df1deda92a2439794cee9584ef87223dabf38ca17bdf94e349c1470deef1bea2"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/checks/flow4-status.txt",
+      "bytes": 25,
+      "sha256": "72553549dfb6a016c61b595fbdab9cc952954a6a04eb0392ed1564d98db06a7c"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/checks/flow5-results.txt",
+      "bytes": 780,
+      "sha256": "6f57976121bf4a1cf0313869144020ed2fa75c7f2a01f940ffe681c6527b9266"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/checks/flow5-status.txt",
+      "bytes": 25,
+      "sha256": "0ed59415b57862cf9770c40e769cf35b03c127086cf786941782aa37c30ce237"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/checks/flow6-results.txt",
+      "bytes": 840,
+      "sha256": "15f34a7db2421da4585ffcaf73389f0c3bd88d4cf7126b681706170ceedd0f33"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/checks/flow6-status.txt",
+      "bytes": 25,
+      "sha256": "0ed59415b57862cf9770c40e769cf35b03c127086cf786941782aa37c30ce237"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/checks/ward-earlier-results.txt",
+      "bytes": 1502,
+      "sha256": "0cc4d13cfa4091d6d78176235854ed2303937f6b4edca86d70c4031da173271b"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/commit_scope.json",
+      "bytes": 16238,
+      "sha256": "56b84dd1925cb43c23f287bfa08e1e6f1abc7b90ee5fc22241e599db4ec20277"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/production-version.json",
+      "bytes": 8800,
+      "sha256": "c23fc3e8d8c78115b45100f930417fdb4562910edd4b752c6342ebb4012bb89a"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/review.html",
+      "bytes": 13651,
+      "sha256": "a0f3549ab6e59644788c540cdbb5c8e031c85704fe658318e941904c32ad1254"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/camera/LivingRoom_CameraPrompt.png",
+      "bytes": 3480424,
+      "sha256": "913885786d6781806c45b0ece23c56eeb7a76815f8f3ebbc724d83858fa3dd67"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/camera/LivingRoom_CameraRaised_AfterE.png",
+      "bytes": 3852167,
+      "sha256": "794cf5c16f11d79533fa9432bfa4d3f8e64760b500e7e88b109cbbbcc506c912"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/camera/capture_state.txt",
+      "bytes": 930,
+      "sha256": "dcd054ce4f835a838e2095e56a165218527205d7425cb072f0b8e74099f2e72e"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/camera/interaction-probe.txt",
+      "bytes": 5616,
+      "sha256": "1f5d8a8cd6d4e46fd5dff74afe67d3f40f71ea184bbd7077a97eb1360f68a32f"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/camera/probe.txt",
+      "bytes": 1456,
+      "sha256": "a7cb3a00ccd56a71c16d5dec7f5837471e82aa34a7093001cae21c2b99c00091"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/camera/results.txt",
+      "bytes": 981,
+      "sha256": "b85d90f48e1ed80af488f4d28dcc314c986280a01fa0eedea4b352f9bedd9b40"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/camera/status.txt",
+      "bytes": 25,
+      "sha256": "45d33eddb110b9ae2e17e43c4a3d9b3daf602b9ed1e94e9882bf9e84562868d5"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow0/00_ComicEmbeddedDialogue.jpg",
+      "bytes": 220389,
+      "sha256": "76c6cf95b4981152840e30d0a401ebf63b2d1d92bd86985d9586093c43aa00e2"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow0/00b_ComicFourFramesAndText.jpg",
+      "bytes": 594210,
+      "sha256": "a81fcc67364864f25f94985bbd8b7150fa0e1143e55728353b8ab3fa65b41bf3"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow0/03_LeftApproach.jpg",
+      "bytes": 445505,
+      "sha256": "f877018ba44810dbb5af9d8a90ff6ec66c4a3c70de171b6032da41627536115d"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow0/04_ChaseComplete.jpg",
+      "bytes": 418687,
+      "sha256": "55c1acbf4b4ad6f42a97f4f1a7b4a0f28fdff090953492dfb091ac2661650b41"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow0/05_ChaseCompletionReload.jpg",
+      "bytes": 449993,
+      "sha256": "81142bddf6c4291e709e19d4409f522cd8ceb68a24b060aa5aaf91cd3e66a9ff"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow0/80_OriginalChaseOpening.jpg",
+      "bytes": 315042,
+      "sha256": "032003988421c2b57fe1150eb764e9e09c395fe24c85f627be3bbb8b4e797296"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow0/81_ChaseRoofCrossed.jpg",
+      "bytes": 621332,
+      "sha256": "c0abb12ff1d39021b36656bbf411c3e5b8f9f816e0d3e7edeb297cc2e4c0a618"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow0/82_ChaseSecurityArrival.jpg",
+      "bytes": 440405,
+      "sha256": "aa471b9e835c19cb1b2811c399e013ce2ecf6b112c21e0bf3ed4b0ffb43474f1"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow0/captures.csv",
+      "bytes": 602,
+      "sha256": "f4c494d2c9a312fa7b0e6fc2ab066e3596f0f4a3de7d00dcfee0a55f36e91926"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow0/legacy_position_trace.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow0/results.txt",
+      "bytes": 7692,
+      "sha256": "26b03891373d71883c08e6afbc4516043783067deb7dc7ab12138a45110b8c4d"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow0/security-diagnostic.txt",
+      "bytes": 1520,
+      "sha256": "d14c0ffcfcd9b60cc6b7500fe0f0e8d90f26879690238e7bebc980b8590e61a6"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow0/status.txt",
+      "bytes": 26,
+      "sha256": "73b4ea3358a4cb3ef8dafe9f65b796bd8f8f8f1506547ffd598b183f6f397564"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow1/10_MailReadable.jpg",
+      "bytes": 187471,
+      "sha256": "a1c54ea73f2247d3cab21a3bd5485101b1e55fb2915ff6ecd7e1c7da6dfe4e49"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow1/11_HandoverPortraits.jpg",
+      "bytes": 554797,
+      "sha256": "b0e23d88d010b8e5435199f750176417d4f2d7055f4bfb6d8d9273f4287db6d4"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow1/12_ZhangStablePortraits.jpg",
+      "bytes": 668598,
+      "sha256": "a5cd38674aa99cc7d0c180b3dd57c3be7101e2238024f9ff0e6516088b1d398a"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow1/13_BoardingThreeEntries.jpg",
+      "bytes": 675560,
+      "sha256": "90672fa5810472ff61df66f6f6152b3acd523363a68472862356d632df1697d6"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow1/14_SeatedCar.jpg",
+      "bytes": 362254,
+      "sha256": "b94723a0cbfb6f707cb6c03830263e78fa26983b29c22fecb335f44ba2595e22"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow1/20_ChildMemory.jpg",
+      "bytes": 169874,
+      "sha256": "758e09e474d77faff7fcf78dc890aced099e1e21ac3acc21e53cc996e0cad4b4"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow1/21_PendantTransfer.jpg",
+      "bytes": 167918,
+      "sha256": "2e68d533cea0c4a6f958ff1cbeed9cf4168e3e3766993fa7881a47e51315bd38"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow1/22_YouthMemory.jpg",
+      "bytes": 176579,
+      "sha256": "38eda4ac021931c7350bdb5b5a2f9d5e274d888c71c7e645fb948f635b8abb76"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow1/23_NativeSupportArm.jpg",
+      "bytes": 174585,
+      "sha256": "19e634b8f7fdbc6eb341f297e9dfde9ffc13ad9a8c7327d8c8de5fbf8e0e08c4"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow1/24_AnonymousGurneys.jpg",
+      "bytes": 140675,
+      "sha256": "73f4d29ca5af6fc523224b90cc807dce5164a2df5f2ac52ff4405d3edd244dbb"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow1/25_GurneyPassing.jpg",
+      "bytes": 168545,
+      "sha256": "6386a00cb5a29abc37df7ac5d4fb1bc4b51d11f5992e0d1ed2810baf7b15d082"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow1/30_WardEntry.jpg",
+      "bytes": 431120,
+      "sha256": "e6e58492778145d21a844cd896fc3f1b379362669bc3cc3ae06b514edda57d76"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow1/31_WardGroundedBed.jpg",
+      "bytes": 462644,
+      "sha256": "11aebbc93c1fab7d93ade0613db5d3ac01a7678ce29375a1673e5d383a35895d"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow1/32_WardRightBoundary.jpg",
+      "bytes": 466590,
+      "sha256": "c635ef6c4fee5469fd994860bd506809cc42f28ba579b2a63a29cec21c92bd6f"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow1/33_CurtainedCloseup.jpg",
+      "bytes": 195945,
+      "sha256": "611a2d2ed435afb560e9340ffb56bf1dc025d95255ffad6184b0b06905fb8795"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow1/34_DoctorNoPortrait.jpg",
+      "bytes": 91218,
+      "sha256": "6556890b690d2588393b2d4f28fdeeb5e3739e0ed712f15b49d1f763e7400c4d"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow1/35_BlackFinalDialogue.jpg",
+      "bytes": 279147,
+      "sha256": "73ebd8bbd220a49c5fce088357ff5d01522fe2717db23dae6e91d2b6762c2678"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow1/36_FinalLineBeforeFade.jpg",
+      "bytes": 278034,
+      "sha256": "b304693e9ac032e5131751831d1d2f24564db00309dbf8f21df0cea2685eb06d"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow1/37_DemoCompleteMenu.jpg",
+      "bytes": 98249,
+      "sha256": "4625bb46f7b81d1fc9e7e6a8ce3ea012811185436626318d31cc11430c94f372"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow1/captures.csv",
+      "bytes": 1356,
+      "sha256": "05cefffb58d4bd99588dd60b5139eab2392d89681b961d17a29a5d0787600017"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow1/legacy_position_trace.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow1/results.txt",
+      "bytes": 3719,
+      "sha256": "b81f42638c9c426674bdc7233f391fdc28d4e028c747f5a03388f8feb3082298"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow1/status.txt",
+      "bytes": 25,
+      "sha256": "78cf75a115b46b5c73c0b195659ad233885b9430d7493a1df0ab9a75cfcefe5c"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow3/12_ZhangStablePortraits.jpg",
+      "bytes": 670512,
+      "sha256": "bb4375c3e6d5878923a6f44f54ea13d4f51d4963ba6e6aa4daba07a49c16ee84"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow3/13_BoardingThreeEntries.jpg",
+      "bytes": 675560,
+      "sha256": "90672fa5810472ff61df66f6f6152b3acd523363a68472862356d632df1697d6"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow3/14_SeatedCar.jpg",
+      "bytes": 349231,
+      "sha256": "7001616328776fa4e54414312def830946ecba45f9a30b6147d43cf9ba45d417"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow3/CombinedCredentialCar.jpg",
+      "bytes": 512370,
+      "sha256": "a58ac9d7f4d926f60e3a1416d5fbe56827dcee9997663cbd2765f491157b7714"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow3/captures.csv",
+      "bytes": 284,
+      "sha256": "b08b7323f3718ce5eb9a979a4fd0341fed9a9b872162c89406970ccd557bc28a"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow3/legacy_position_trace.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow3/results.txt",
+      "bytes": 1021,
+      "sha256": "863eb4be942160bef713367530f3bd46cb6d93ae4b8c8941213339621a0b0e07"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow3/status.txt",
+      "bytes": 25,
+      "sha256": "d30ebf45d4ad995c62274db3851baef1abbd858ff479a3566f0983d8f49d8cc5"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow4/CarOutfit_Default.jpg",
+      "bytes": 573798,
+      "sha256": "664483287e48567456471d77cd52792286c5bb6435f3d3a5c4729f16aec26569"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow4/CarOutfit_Overalls.jpg",
+      "bytes": 585056,
+      "sha256": "92d434c38a48748258cb086c1108878ba344813de67f9cdc051c765f61ea2418"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow4/CarOutfit_SchoolUniform.jpg",
+      "bytes": 576575,
+      "sha256": "a2dcbe1a47e600060a61b3fbae227c6f0088efde66f54f288566ac1da2788b28"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow4/captures.csv",
+      "bytes": 210,
+      "sha256": "8e7a94983e02a804690ae5be2e4e6cf83da4e6bc343ba3af886584a442385564"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow4/legacy_position_trace.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow4/results.txt",
+      "bytes": 1793,
+      "sha256": "df1deda92a2439794cee9584ef87223dabf38ca17bdf94e349c1470deef1bea2"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow4/status.txt",
+      "bytes": 25,
+      "sha256": "72553549dfb6a016c61b595fbdab9cc952954a6a04eb0392ed1564d98db06a7c"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow5/PursuerLeftGrounded.jpg",
+      "bytes": 590402,
+      "sha256": "e78b894cc0a3752db8d7b73af7f07a2bc55b9def50e0fa3b96b7b0b72f2542a1"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow5/PursuerRightGrounded.jpg",
+      "bytes": 596956,
+      "sha256": "1e5554644ff19101d6e9998c7046c28b13c6c066ee907e8ac248c4b12c263051"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow5/captures.csv",
+      "bytes": 149,
+      "sha256": "26db55ade2233e74694d21dae144708ff2e87f52e0a98794572206799fed0491"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow5/legacy_position_trace.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow5/results.txt",
+      "bytes": 780,
+      "sha256": "6f57976121bf4a1cf0313869144020ed2fa75c7f2a01f940ffe681c6527b9266"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow5/status.txt",
+      "bytes": 25,
+      "sha256": "0ed59415b57862cf9770c40e769cf35b03c127086cf786941782aa37c30ce237"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow6/CompletionExitAndMenu.jpg",
+      "bytes": 98249,
+      "sha256": "07ee939b506b6aa3a9eb485ae586747c99c00e271e428e1e85de3c06b3cca753"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow6/captures.csv",
+      "bytes": 71,
+      "sha256": "ad46c58fe310f6c557b8f2151d786f1481b3c6406efd129d3d888aa6a5861647"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow6/legacy_position_trace.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow6/results.txt",
+      "bytes": 840,
+      "sha256": "15f34a7db2421da4585ffcaf73389f0c3bd88d4cf7126b681706170ceedd0f33"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/runtime/flow6/status.txt",
+      "bytes": 25,
+      "sha256": "0ed59415b57862cf9770c40e769cf35b03c127086cf786941782aa37c30ce237"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/source/prompt-provenance.json",
+      "bytes": 15177,
+      "sha256": "08ec8423418d2bd88030c48f70a6cd846ac5131e5a0bbcf8b4e354d446682aca"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/source/sprite-regions.json",
+      "bytes": 3935,
+      "sha256": "a9df599e24a178a7595303eeacb1bfea1a89e8e81e14d5d0b36f6c0be19408bd"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/videos/00_TransformationDialogue.mp4",
+      "bytes": 2571922,
+      "sha256": "6896d3b0641883b414a5408910e74f965f192116ebb2bf218acc57d560af3ad7"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/videos/00_TransformationDialogue.mp4.txt",
+      "bytes": 114,
+      "sha256": "8f703872d32bfbf3301ce33558508fa6de3723e8f23c55dc78f8952f4ff6c71d"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/videos/01_ActualChase.mp4",
+      "bytes": 18365817,
+      "sha256": "7b0ae7a0fd3afa6729c024d5286fc34fe316d459c56c6b3875ff5fa796e17c5a"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/videos/01_ActualChase.mp4.txt",
+      "bytes": 116,
+      "sha256": "67e44e38be78144b95d6fa1907dda555bd72d0ff41f0033c90eb2155e496608a"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/videos/02_FinalCharge.mp4",
+      "bytes": 3259575,
+      "sha256": "ed1cbef857bfe6366bf384a844f1eec8b0e2b60cf3ee0332a39502f7485a42a1"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/videos/02_FinalCharge.mp4.txt",
+      "bytes": 114,
+      "sha256": "b84a655d98214963bb2617235938a88bd3bc39462acab44e54326f4f111a1c57"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/videos/03_CredentialHandover.mp4",
+      "bytes": 27938773,
+      "sha256": "cb6b2089e8c9b784fe73b4bfe74f2a8a49d00752d6f4cf0a919abe18e529eea5"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/videos/03_CredentialHandover.mp4.txt",
+      "bytes": 115,
+      "sha256": "0cf536884d5931e96f6c94aa71354d057667dd0478b559a4f93c4552005a98d8"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/videos/04_ActualBoarding.mp4",
+      "bytes": 13534234,
+      "sha256": "bc7972c972f46ba2ba48533566a0f5b879893f49907f7ceee1969129f50aa1fd"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/videos/04_ActualBoarding.mp4.txt",
+      "bytes": 115,
+      "sha256": "a53c78749e0632b8ed14cbdf594736930afb41ba5bd4a22264e6adaf25ea6d0d"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/videos/06_CarDialogue.mp4",
+      "bytes": 6838285,
+      "sha256": "4972568a112f3c844bcc37ea0c8cf1a91f81fd7c7885ebf06a7782ae7596570f"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/videos/06_CarDialogue.mp4.txt",
+      "bytes": 115,
+      "sha256": "10ff11f43d5604f0dd773ddcbbc6bb2d8c2e5fd4955d9e40e2fe58f39488c37b"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/videos/09_WardWalking.mp4",
+      "bytes": 15149322,
+      "sha256": "1beff176722eaac790f95b3ce03bd9836a8f35931d72a9185d3a46b1983ac9e4"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/videos/09_WardWalking.mp4.txt",
+      "bytes": 114,
+      "sha256": "8f703872d32bfbf3301ce33558508fa6de3723e8f23c55dc78f8952f4ff6c71d"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/videos/10_FocusFinale.mp4",
+      "bytes": 7927335,
+      "sha256": "6696c8b224f866ff44a3b6c7bca667a81fb32678a13669a2f0cc179671bab40e"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/videos/10_FocusFinale.mp4.txt",
+      "bytes": 114,
+      "sha256": "efc8cf0d78ff2210ce11931c67257c03712791fed82f9ca82d8d0469541efa6f"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/videos/12_PursuerRightPreview.mp4",
+      "bytes": 3173263,
+      "sha256": "633443d6bd267171a30d01d53040f99988733b34162e753817ce63253d3a882d"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/videos/12_PursuerRightPreview.mp4.txt",
+      "bytes": 114,
+      "sha256": "b9615200333cbf68318da3dc8e2b79bbdd267da4ed4614a58b42e5fa2594ec5a"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/videos/13_PursuerLeftPreview.mp4",
+      "bytes": 4858321,
+      "sha256": "d20fa6f6d5fa13545bbb3fae64242a9d48e385df9fe36be220f4f0d56cdcdbe4"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/videos/13_PursuerLeftPreview.mp4.txt",
+      "bytes": 114,
+      "sha256": "275150d4c6c6022c6a91910bd18049a5b7804ed9003658319171eeab20bb2ac3"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/videos/20_ChildMemory.mp4",
+      "bytes": 3602294,
+      "sha256": "4dab01286cd2d4be0a3c5dec5397d98dfd83606bea02f7a0073300049a20325b"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/videos/20_ChildMemory.mp4.txt",
+      "bytes": 114,
+      "sha256": "a2cea66ac0a2d61f008caa320d605e43ab2de870e61909108314070c91f7897b"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/videos/22_YouthMemory.mp4",
+      "bytes": 3178919,
+      "sha256": "f428789b2a0cd3259c1a77e76ede02937a7549f8308a306c6c66be0f7aa53366"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/videos/22_YouthMemory.mp4.txt",
+      "bytes": 114,
+      "sha256": "1f1349f9bcb1857030ca796ee5744384e109804f11282c33f95bf61535031ee0"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/videos/24_AnonymousGurneys.mp4",
+      "bytes": 3497189,
+      "sha256": "fb7e20f82177c771af8d9d1c8ea3597f02c6edc4065e0a810f455f57d0f3d1d9"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/P06Evidence/videos/24_AnonymousGurneys.mp4.txt",
+      "bytes": 114,
+      "sha256": "c232450145efd69c69067092e292ed6886b1c428b7a8dfe898b000a98d19bef1"
+    },
+    {
+      "path": "Documentation/FirstLargeTest_20261001/README_实施进度.md",
+      "bytes": 9237,
+      "sha256": "4e6379f6c32a12f9c0ea1859153cc4743034c415db102f5718210e6881e5478e"
+    }
+  ],
+  "self_not_hashed": true,
+  "manual_audit": "pending"
+}

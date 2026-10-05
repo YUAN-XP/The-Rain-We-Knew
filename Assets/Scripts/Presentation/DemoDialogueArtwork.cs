@@ -9,10 +9,23 @@ public sealed class DemoDialogueArtwork : MonoBehaviour
     DialogueManager dialogue;Image left,right;GameObject root;string lastSignature;DialogueData lastDialogue;Sprite leftCrop,rightCrop;
     bool leftSpeaking,rightSpeaking;
     float leftScale=1,rightScale=1;
+    Object conversationOwner;string conversationPartner,leftKey,rightKey;bool keepFinalLine;
+    public bool PortraitsVisible=>root&&root.activeInHierarchy;
+    public void BeginConversation(Object owner,string partner){conversationOwner=owner;conversationPartner=partner;}
+    public void EndConversation(Object owner){if(conversationOwner!=owner)return;conversationOwner=null;conversationPartner=null;keepFinalLine=false;if(!dialogue.IsDialogueActive()&&root)root.SetActive(false);}
+    public void KeepFinalLine(){keepFinalLine=true;}
+    public System.Collections.IEnumerator FadeFinal(float seconds){
+        var canvas=dialogue.PresentationCanvas;if(!canvas)yield break;
+        var group=canvas.GetComponent<CanvasGroup>();if(!group)group=canvas.gameObject.AddComponent<CanvasGroup>();
+        if(dialogue.PresentationBackground)dialogue.PresentationBackground.gameObject.SetActive(true);
+        float t=0;while(t<seconds){t+=GameplayClock.Delta;group.alpha=1-Mathf.Clamp01(t/seconds);yield return null;}
+        if(root)root.SetActive(false);if(dialogue.PresentationBackground)dialogue.PresentationBackground.gameObject.SetActive(false);keepFinalLine=false;conversationOwner=null;conversationPartner=null;group.alpha=1;
+    }
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
     static void Install(){SceneManager.sceneLoaded-=OnScene;SceneManager.sceneLoaded+=OnScene;OnScene(SceneManager.GetActiveScene(),LoadSceneMode.Single);}
     static void OnScene(Scene scene,LoadSceneMode mode){foreach(var d in Object.FindObjectsByType<DialogueManager>(FindObjectsInactive.Include))if(!d.GetComponent<DemoDialogueArtwork>())d.gameObject.AddComponent<DemoDialogueArtwork>();}
     void Awake(){dialogue=GetComponent<DialogueManager>();}
+    void OnDisable(){if(dialogue&&dialogue.PresentationCanvas){var g=dialogue.PresentationCanvas.GetComponent<CanvasGroup>();if(g)g.alpha=1;}}
     void Build()
     {
         var canvas=dialogue.PresentationCanvas;if(!canvas)return;
@@ -38,9 +51,10 @@ public sealed class DemoDialogueArtwork : MonoBehaviour
     void LateUpdate()
     {
         if(!dialogue||!DemoArtCatalog.Current)return;if(!root)Build();if(!root)return;
-        bool active=dialogue.IsDialogueActive() && !(dialogue.CurrentDialogue&&dialogue.CurrentDialogue.hideAllPortraits);root.SetActive(active);if(!active){lastSignature=null;return;}
+        bool active=(dialogue.IsDialogueActive()||conversationOwner) && !(dialogue.CurrentDialogue&&dialogue.CurrentDialogue.hideAllPortraits);root.SetActive(active);if(!active){lastSignature=null;return;}
+        if(!dialogue.IsDialogueActive()){if(keepFinalLine&&dialogue.PresentationBackground)dialogue.PresentationBackground.gameObject.SetActive(true);AlignPortraits();return;}
         var data=dialogue.CurrentDialogue;int index=dialogue.CurrentLineIndex;if(data==null||index<0||index>=data.lines.Length)return;
-        if(data!=lastDialogue){lastDialogue=data;lastSignature=null;if(rightCrop)Destroy(rightCrop);rightCrop=null;right.sprite=null;}
+        if(data!=lastDialogue){lastDialogue=data;lastSignature=null;}
         var line=data.lines[index];
         var identity=DialogueIdentity.Resolve(line);
         var age=ContextAge();
@@ -51,11 +65,11 @@ public sealed class DemoDialogueArtwork : MonoBehaviour
         bool protagonist=identity==DialogueCharacterId.XiaoPeng;
         bool narration=identity==DialogueCharacterId.Narrator;
         leftSpeaking=protagonist&&!narration;rightSpeaking=!protagonist&&!narration;
-        Set(left,protagonist ? LineKey(line,age) : xp,ref leftCrop);
+        SetCached(left,protagonist ? LineKey(line,age) : xp,ref leftCrop,ref leftKey);
         left.enabled=!narration&&left.sprite;
         left.color=protagonist?Color.white:new Color(.52f,.56f,.63f,1);
         var partner=protagonist?PartnerLine(data,index):line;
-        Set(right,LineKey(partner,age),ref rightCrop);
+        SetCached(right,conversationPartner??LineKey(partner,age),ref rightCrop,ref rightKey);
         right.enabled=!narration&&right.sprite;
         right.color=protagonist?new Color(.52f,.56f,.63f,1):Color.white;
         AlignPortraits();
@@ -109,6 +123,7 @@ public sealed class DemoDialogueArtwork : MonoBehaviour
         if(line.portraitMode==DialoguePortraitMode.Silhouette)return null;
         return DialogueIdentity.PortraitKey(DialogueIdentity.Resolve(line),line.age==DialogueAge.Context?context:line.age);
     }
+    static void SetCached(Image output,string key,ref Sprite cropped,ref string previous){if(previous==key&&output.sprite)return;previous=key;Set(output,key,ref cropped);}
     static void Set(Image output,string key,ref Sprite cropped)
     {
         if(cropped){Object.Destroy(cropped);cropped=null;}

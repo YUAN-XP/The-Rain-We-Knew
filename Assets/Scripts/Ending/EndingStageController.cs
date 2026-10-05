@@ -42,13 +42,16 @@ public abstract class EndingStageController : MonoBehaviour
         var camera=runtime.GetComponent<CameraModeController>();camera?.AbortCapture();camera?.Lower();runtime.GetComponent<OilLampController>()?.LowerLamp();
         controls.AcquireLock(ControlLockReason.EndingSequence);sequenceLock=true;busy=true;
     }
-    protected void Unlock(){if(sequenceLock&&controls!=null)controls.ReleaseLock(ControlLockReason.EndingSequence);sequenceLock=false;busy=false;}
+    protected void Unlock(){dialogue?.GetComponent<DemoDialogueArtwork>()?.EndConversation(this);if(sequenceLock&&controls!=null)controls.ReleaseLock(ControlLockReason.EndingSequence);sequenceLock=false;busy=false;}
     protected IEnumerator Wait(float seconds){float t=0;while(t<seconds){t+=Delta;yield return null;}}
     protected IEnumerator FreshKeys(){yield return null;while(paused||GameplayInput.GetKey(KeyCode.E)||GameplayInput.GetKey(KeyCode.Space))yield return null;yield return null;}
     protected IEnumerator Say(string id){
         speechCompleted=false;var line=data.Find(id);
         if(line==null){Debug.LogError("Missing ending semantic cue: "+id,this);yield break;}
         while(dialogue.IsDialogueActive()||paused)yield return null;
+        var artwork=dialogue.GetComponent<DemoDialogueArtwork>();
+        string partner=id.StartsWith("Z")?DialogueIdentity.PortraitKey(DialogueCharacterId.ZhangChen,DialogueAge.Adult):id.StartsWith("H")||id.StartsWith("C")||id=="E02"||id=="E03"?DialogueIdentity.PortraitKey(DialogueCharacterId.QiuTian,DialogueAge.Adult):null;
+        if(partner!=null)artwork?.BeginConversation(this,partner);else artwork?.EndConversation(this);
         yield return FreshKeys();ownedDialogue=line;int before=dialogue.CompletedCount;
         dialogue.StartDialogue(line);yield return null;
         while(dialogue.IsDialogueActive()&&dialogue.CurrentDialogue==line)yield return null;

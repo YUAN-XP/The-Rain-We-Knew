@@ -1,0 +1,159 @@
+{
+  "time": "2026-10-05T06:24:18.4935881+08:00",
+  "verified_files": 25,
+  "bytes_removed": 58049810.0,
+  "user_documents": "preserved",
+  "final_media": "preserved",
+  "files": [
+    {
+      "path": "D:\\游戏设计\\Codex工作区\\work\\2026-10-05-P06\\runtime\\videos\\05_CombinedBoarding.mp4",
+      "bytes": 15087271,
+      "sha256": "17e9159c3d7534487f4ba22f6ef5f24cd17fa268ccdbc20eb2b22e9754f36493",
+      "reason": "Redundant video: final branch checks / static outfit screens retained"
+    },
+    {
+      "path": "D:\\游戏设计\\Codex工作区\\work\\2026-10-05-P06\\runtime\\videos\\05_CombinedBoarding.mp4.txt",
+      "bytes": 115,
+      "sha256": "677d82253be7451db38b83387e1a23a87226fcc3254df2b444633b5bc7e4e4e2",
+      "reason": "Redundant video: final branch checks / static outfit screens retained"
+    },
+    {
+      "path": "D:\\游戏设计\\Codex工作区\\work\\2026-10-05-P06\\runtime\\videos\\11_CarOutfit_Default.mp4",
+      "bytes": 4421213,
+      "sha256": "03461c240a06436520f988ad304da3bbbc89aee9a65b11b2aeab5c6eb7a75b1f",
+      "reason": "Redundant video: final branch checks / static outfit screens retained"
+    },
+    {
+      "path": "D:\\游戏设计\\Codex工作区\\work\\2026-10-05-P06\\runtime\\videos\\11_CarOutfit_Default.mp4.txt",
+      "bytes": 113,
+      "sha256": "060dab7ec0b5e2a083d082003ab7d812c43f8ee091544a621a802684e677d89f",
+      "reason": "Redundant video: final branch checks / static outfit screens retained"
+    },
+    {
+      "path": "D:\\游戏设计\\Codex工作区\\work\\2026-10-05-P06\\runtime\\videos\\11_CarOutfit_Overalls.mp4",
+      "bytes": 4559476,
+      "sha256": "9e5d489c2b39e4e2bf43589ac20bc70fbccc81ed426abe10d96a744d0a139341",
+      "reason": "Redundant video: final branch checks / static outfit screens retained"
+    },
+    {
+      "path": "D:\\游戏设计\\Codex工作区\\work\\2026-10-05-P06\\runtime\\videos\\11_CarOutfit_Overalls.mp4.txt",
+      "bytes": 113,
+      "sha256": "060dab7ec0b5e2a083d082003ab7d812c43f8ee091544a621a802684e677d89f",
+      "reason": "Redundant video: final branch checks / static outfit screens retained"
+    },
+    {
+      "path": "D:\\游戏设计\\Codex工作区\\work\\2026-10-05-P06\\runtime\\videos\\11_CarOutfit_SchoolUniform.mp4",
+      "bytes": 4510492,
+      "sha256": "50f26dd1cc7fc0baf291ea3833deb1d1b340c90d69359e4b6ccae37a1b36e10c",
+      "reason": "Redundant video: final branch checks / static outfit screens retained"
+    },
+    {
+      "path": "D:\\游戏设计\\Codex工作区\\work\\2026-10-05-P06\\runtime\\videos\\11_CarOutfit_SchoolUniform.mp4.txt",
+      "bytes": 113,
+      "sha256": "060dab7ec0b5e2a083d082003ab7d812c43f8ee091544a621a802684e677d89f",
+      "reason": "Redundant video: final branch checks / static outfit screens retained"
+    },
+    {
+      "path": "D:\\游戏设计\\Codex工作区\\work\\2026-10-05-P06\\runtime\\flow2\\30_WardEntry.jpg",
+      "bytes": 435755,
+      "sha256": "58d6ea8635b143daec137a7dc903e34c289cbb1529e69e51c88bb017d8da5e9a",
+      "reason": "Superseded by final flow1; historic results retained"
+    },
+    {
+      "path": "D:\\游戏设计\\Codex工作区\\work\\2026-10-05-P06\\runtime\\flow2\\31_WardGroundedBed.jpg",
+      "bytes": 470588,
+      "sha256": "ae008a037862137e69bd9466d65bdfc02c142b21c35efa3f6a4cb2aec1cfc5cb",
+      "reason": "Superseded by final flow1; historic results retained"
+    },
+    {
+      "path": "D:\\游戏设计\\Codex工作区\\work\\2026-10-05-P06\\runtime\\flow2\\32_WardRightBoundary.jpg",
+      "bytes": 324382,
+      "sha256": "5a7419896b8a02a8bbee7851940293c5a92f5ff7c80e0cfafc8e0535ff8ac49e",
+      "reason": "Superseded by final flow1; historic results retained"
+    },
+    {
+      "path": "D:\\游戏设计\\Codex工作区\\work\\2026-10-05-P06\\runtime\\flow2\\33_CurtainedCloseup.jpg",
+      "bytes": 195925,
+      "sha256": "a3b8f06d5fe45d336d7c941bae72cb3f1c8e7e0098837c302d591c5231a7b871",
+      "reason": "Superseded by final flow1; historic results retained"
+    },
+    {
+      "path": "D:\\游戏设计\\Codex工作区\\work\\2026-10-05-P06\\runtime\\flow2\\34_DoctorNoPortrait.jpg",
+      "bytes": 91218,
+      "sha256": "6556890b690d2588393b2d4f28fdeeb5e3739e0ed712f15b49d1f763e7400c4d",
+      "reason": "Superseded by final flow1; historic results retained"
+    },
+    {
+      "path": "D:\\游戏设计\\Codex工作区\\work\\2026-10-05-P06\\runtime\\flow2\\35_BlackFinalDialogue.jpg",
+      "bytes": 279151,
+      "sha256": "e10663e562ebcb08693d2832e544b7da19d446c729d10a12f183e737554018b8",
+      "reason": "Superseded by final flow1; historic results retained"
+    },
+    {
+      "path": "D:\\游戏设计\\Codex工作区\\work\\2026-10-05-P06\\runtime\\flow2\\36_FinalLineBeforeFade.jpg",
+      "bytes": 277923,
+      "sha256": "87e9c5954143640f08e165343df9db5d86eb88bef1464ff388176dea77fe1687",
+      "reason": "Superseded by final flow1; historic results retained"
+    },
+    {
+      "path": "D:\\游戏设计\\Codex工作区\\work\\2026-10-05-P06\\runtime\\flow2\\37_DemoCompleteMenu.jpg",
+      "bytes": 98249,
+      "sha256": "4625bb46f7b81d1fc9e7e6a8ce3ea012811185436626318d31cc11430c94f372",
+      "reason": "Superseded by final flow1; historic results retained"
+    },
+    {
+      "path": "D:\\GitHub Desktop\\ProjectMystery\\ProjectMystery\\Documentation\\FirstLargeTest_20261001\\P06Evidence\\runtime\\camera\\Child_CameraRaised.png",
+      "bytes": 3864964,
+      "sha256": "d54b88b5f44407a10ebb294aad1ea3803e336c32aa79ff893a1c1fe1b6821d7f",
+      "reason": "Early direct-interface camera diagnosis; actual E pickup final images retained"
+    },
+    {
+      "path": "D:\\GitHub Desktop\\ProjectMystery\\ProjectMystery\\Documentation\\FirstLargeTest_20261001\\P06Evidence\\runtime\\camera\\Street_CameraRaised.png",
+      "bytes": 3647498,
+      "sha256": "2bb76d72eb1f49b5cbd0e77f9a1aeea796e23790991274ae37bb203869860b0f",
+      "reason": "Early direct-interface camera diagnosis; actual E pickup final images retained"
+    },
+    {
+      "path": "D:\\GitHub Desktop\\ProjectMystery\\ProjectMystery\\Documentation\\FirstLargeTest_20261001\\P06Evidence\\runtime\\camera\\Street_Reload.png",
+      "bytes": 3140705,
+      "sha256": "185adc5c09f65ee4d81d2cc070fe72443880670c17802c374722462cdda775db",
+      "reason": "Early direct-interface camera diagnosis; actual E pickup final images retained"
+    },
+    {
+      "path": "D:\\游戏设计\\Codex工作区\\work\\2026-10-05-P06\\runtime\\camera\\Child_CameraRaised.png",
+      "bytes": 3864964,
+      "sha256": "d54b88b5f44407a10ebb294aad1ea3803e336c32aa79ff893a1c1fe1b6821d7f",
+      "reason": "Early direct-interface camera diagnosis; actual E pickup final images retained"
+    },
+    {
+      "path": "D:\\游戏设计\\Codex工作区\\work\\2026-10-05-P06\\runtime\\camera\\Street_CameraRaised.png",
+      "bytes": 3647498,
+      "sha256": "2bb76d72eb1f49b5cbd0e77f9a1aeea796e23790991274ae37bb203869860b0f",
+      "reason": "Early direct-interface camera diagnosis; actual E pickup final images retained"
+    },
+    {
+      "path": "D:\\游戏设计\\Codex工作区\\work\\2026-10-05-P06\\runtime\\camera\\Street_Reload.png",
+      "bytes": 3140705,
+      "sha256": "185adc5c09f65ee4d81d2cc070fe72443880670c17802c374722462cdda775db",
+      "reason": "Early direct-interface camera diagnosis; actual E pickup final images retained"
+    },
+    {
+      "path": "D:\\游戏设计\\Codex工作区\\work\\2026-10-05-P06\\source\\P06_XiangRunRight.png",
+      "bytes": 1971022,
+      "sha256": "5d76c4839510f0ab2c4d8001869618fb9ab296090b7cfcfe4e159c707505f64d",
+      "reason": "Rejected generated full-body run sprite; native P02 binding and accepted heads retained"
+    },
+    {
+      "path": "D:\\游戏设计\\Codex工作区\\work\\2026-10-05-P06\\source\\P06_XiangRunLeft_rejected.png",
+      "bytes": 2112159,
+      "sha256": "07e6c698ddf9dd122edc29ec3049d0616ffd06d95fa654b10905699aa9a1c0f1",
+      "reason": "Rejected generated full-body run sprite; native P02 binding and accepted heads retained"
+    },
+    {
+      "path": "C:\\Users\\31975\\.codex\\generated_images\\01a0c57a-db83-7dd3-8a8b-2e65283d876c\\exec-e6447b36-51b0-43b6-bacd-0a64679ee697.png",
+      "bytes": 1908198,
+      "sha256": "94d954af583ac4e32b3cd84c21fdae73b0896d3b762ad455aac29848ac64badb",
+      "reason": "Verified duplicate of final D-drive WardWide source and production asset"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+Scene01-start scene=Scene01_Rain player=Player owns=True direction=right context=True can=False busy=False raised=False tool=None/None/Stowed blend=0 blocked=False locks=
+child-before scene=Scene03_Childhood player=YoungXiaoPeng owns=True direction=right context=False can=False busy=False raised=False tool=None/None/Stowed blend=0 blocked=False locks=
+child-acquired scene=Scene03_Childhood player=YoungXiaoPeng owns=True direction=right context=True can=True busy=False raised=False tool=None/None/Stowed blend=0 blocked=False locks=
+child-Q scene=Scene03_Childhood player=YoungXiaoPeng owns=True direction=right context=True can=True busy=False raised=True tool=Camera/Camera/Holding blend=1 blocked=False locks=Camera
+child-Q-stow scene=Scene03_Childhood player=YoungXiaoPeng owns=True direction=right context=True can=True busy=False raised=False tool=None/None/Stowed blend=0 blocked=False locks=
+child-street scene=Scene03_Childhood player=YoungXiaoPeng owns=True direction=left context=True can=True busy=False raised=False tool=None/None/Stowed blend=0 blocked=False locks=
+street-Q scene=Scene03_Childhood player=YoungXiaoPeng owns=True direction=left context=True can=True busy=False raised=True tool=Camera/Camera/Holding blend=1 blocked=False locks=Camera
+reload-Q scene=Scene03_Childhood player=YoungXiaoPeng owns=True direction=left context=True can=True busy=False raised=True tool=Camera/Camera/Holding blend=1 blocked=False locks=Camera

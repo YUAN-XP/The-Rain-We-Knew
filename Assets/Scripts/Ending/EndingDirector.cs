@@ -27,6 +27,7 @@ public sealed partial class EndingDirector:EndingStageController
     TMP_Text focusText;
     Button exitButton;
     bool bedArmed,endArmed;
+    EndingActorView headacheGesture;float wardVisualLeft,wardVisualRight;
     AudioSource monitor,footsteps;
     protected override bool PauseAvailable=>true;
     protected override IEnumerator Begin(){
@@ -47,11 +48,12 @@ public sealed partial class EndingDirector:EndingStageController
         Step=EndingStep.Car;SetSets(carSet);PlaceForeground(-2.2f);player.transform.position=new Vector3(-2.2f,.15f,0);
         shotCamera.transform.position=new Vector3(0,1.5f,-10);shotCamera.orthographicSize=4.4f;
         for(int n=1;n<=15;n++){yield return Say("C"+n.ToString("00"));if(!speechCompleted)yield break;}
-        painHand.SetActive(true);yield return FadeOwnedAudio(.7f);yield return Cover(Color.black,.55f);
+        dialogue.GetComponent<DemoDialogueArtwork>()?.EndConversation(this);painHand.SetActive(false);EnsureHeadacheGesture();yield return FadeOwnedAudio(.7f);yield return Cover(Color.black,.55f);
         story.Set(StoryFlag.EndingCarCompleted);
     }
+    void EnsureHeadacheGesture(){if(!headacheGesture){headacheGesture=player.gameObject.AddComponent<EndingActorView>();headacheGesture.nativePose=player.GetComponent<P02ActorPresentation>();headacheGesture.HoldTemple=true;}}
     void ResumeWalking(){
-        shotCamera.orthographicSize=4.8f;veil.color=Color.clear;painHand.SetActive(true);Focus.RequireNewPress();
+        shotCamera.orthographicSize=4.8f;veil.color=Color.clear;painHand.SetActive(false);EnsureHeadacheGesture();Focus.RequireNewPress();
         PrepareWalkLane();PlaceForeground(0);
         if(story.Has(StoryFlag.EndingHospitalCompleted))EnterWalkStage(EndingStep.WalkBed);
         else if(story.Has(StoryFlag.EndingYouthCompleted))EnterWalkStage(EndingStep.WalkHospital);
@@ -62,12 +64,14 @@ public sealed partial class EndingDirector:EndingStageController
     void ApplyWalkComposition(float x){
         if(!shotCamera)return;
         bool hospital=Step==EndingStep.WalkHospital||Step==EndingStep.Hospital||Step==EndingStep.WalkBed||Step==EndingStep.BedIntro;
-        shotCamera.orthographicSize=hospital?hospitalViewSize:memoryViewSize;
-        shotCamera.transform.position=new Vector3(x+(hospital?1.5f:3.2f),hospital?.25f:.9f,-10);
+        shotCamera.orthographicSize=Step==EndingStep.WalkBed||Step==EndingStep.BedIntro?2.0f:Mathf.Min(2.5f,hospital?hospitalViewSize:memoryViewSize);
+        float cx=x+(hospital?1.5f:2.0f);
+        if((Step==EndingStep.WalkBed||Step==EndingStep.BedIntro)&&wardVisualRight>wardVisualLeft){float half=shotCamera.orthographicSize*shotCamera.aspect;cx=Mathf.Clamp(cx,wardVisualLeft+half,wardVisualRight-half);}
+        shotCamera.transform.position=new Vector3(cx,-.05f,-10);
     }
     void PlaceForeground(float x){EndingSession.Place(player,new Vector3(x,foregroundY,0));ApplyWalkComposition(x);}
     protected override void Update(){
-        base.Update();if(!ready||player==null||paused)return;
+        base.Update();if(!ready||player==null)return;if(paused){if(Step==EndingStep.Focus){Focus.RequireNewPress();RenderFocus();}return;}
         if(IsWalking){
             float axis=GameplayInput.GetAxisRaw("Horizontal");
             TickWalk(axis,Delta);
@@ -83,7 +87,7 @@ public sealed partial class EndingDirector:EndingStageController
     // Shared real input path, also exercised explicitly as API diagnostics (never labelled native).
     internal void TickWalk(float axis,float delta){
         if(!IsWalking||paused||Mathf.Abs(axis)<.001f)return;
-        float x=player.transform.position.x+Mathf.Clamp(axis,-1,1)*player.WalkSpeed*data.flashbackRatio*Mathf.Clamp(delta,0,.1f);
+        float x=Mathf.Clamp(player.transform.position.x+Mathf.Clamp(axis,-1,1)*player.WalkSpeed*data.flashbackRatio*Mathf.Clamp(delta,0,.1f),stageLeft,stageRight);
         player.transform.position=new Vector3(x,foregroundY,0);
         ApplyWalkComposition(x);
         UpdateWalkStage();
@@ -101,7 +105,7 @@ public sealed partial class EndingDirector:EndingStageController
         if(dialogueBackground!=null)dialogueBackground.color=originalDialogueBackground;
         base.OnDisable();if(playerBody!=null){playerBody.simulated=savedSimulated;playerBody.linearVelocity=Vector2.zero;}
         if(shotFollow!=null)shotFollow.enabled=savedFollow;
-        if(painHand!=null)Destroy(painHand);if(presentation!=null)Destroy(presentation.gameObject);if(endingCanvas!=null)Destroy(endingCanvas.gameObject);
+        if(headacheGesture)Destroy(headacheGesture);if(painHand!=null)Destroy(painHand);if(presentation!=null)Destroy(presentation.gameObject);if(endingCanvas!=null)Destroy(endingCanvas.gameObject);
         player=null;
     }
 }

@@ -1,0 +1,176 @@
+{
+  "time": "2026-10-05T06:19:20",
+  "files": [
+    {
+      "path": "videos/00_TransformationDialogue.mp4",
+      "bytes": 2571922,
+      "sha256": "6896d3b0641883b414a5408910e74f965f192116ebb2bf218acc57d560af3ad7",
+      "duration_seconds": 7.37,
+      "fps": 30.0,
+      "size": [
+        1440,
+        810
+      ],
+      "audio_track": false,
+      "full_decode_errors": 0
+    },
+    {
+      "path": "videos/01_ActualChase.mp4",
+      "bytes": 18365817,
+      "sha256": "7b0ae7a0fd3afa6729c024d5286fc34fe316d459c56c6b3875ff5fa796e17c5a",
+      "duration_seconds": 45.03,
+      "fps": 30.0,
+      "size": [
+        1440,
+        810
+      ],
+      "audio_track": false,
+      "full_decode_errors": 0
+    },
+    {
+      "path": "videos/02_FinalCharge.mp4",
+      "bytes": 3259575,
+      "sha256": "ed1cbef857bfe6366bf384a844f1eec8b0e2b60cf3ee0332a39502f7485a42a1",
+      "duration_seconds": 3.7,
+      "fps": 30.0,
+      "size": [
+        1440,
+        810
+      ],
+      "audio_track": false,
+      "full_decode_errors": 0
+    },
+    {
+      "path": "videos/03_CredentialHandover.mp4",
+      "bytes": 27938773,
+      "sha256": "cb6b2089e8c9b784fe73b4bfe74f2a8a49d00752d6f4cf0a919abe18e529eea5",
+      "duration_seconds": 12.83,
+      "fps": 30.0,
+      "size": [
+        1440,
+        810
+      ],
+      "audio_track": false,
+      "full_decode_errors": 0
+    },
+    {
+      "path": "videos/04_ActualBoarding.mp4",
+      "bytes": 13534234,
+      "sha256": "bc7972c972f46ba2ba48533566a0f5b879893f49907f7ceee1969129f50aa1fd",
+      "duration_seconds": 12.17,
+      "fps": 30.0,
+      "size": [
+        1440,
+        810
+      ],
+      "audio_track": false,
+      "full_decode_errors": 0
+    },
+    {
+      "path": "videos/06_CarDialogue.mp4",
+      "bytes": 6838285,
+      "sha256": "4972568a112f3c844bcc37ea0c8cf1a91f81fd7c7885ebf06a7782ae7596570f",
+      "duration_seconds": 17.27,
+      "fps": 30.0,
+      "size": [
+        1440,
+        810
+      ],
+      "audio_track": false,
+      "full_decode_errors": 0
+    },
+    {
+      "path": "videos/09_WardWalking.mp4",
+      "bytes": 15149322,
+      "sha256": "1beff176722eaac790f95b3ce03bd9836a8f35931d72a9185d3a46b1983ac9e4",
+      "duration_seconds": 7.37,
+      "fps": 30.0,
+      "size": [
+        1440,
+        810
+      ],
+      "audio_track": false,
+      "full_decode_errors": 0
+    },
+    {
+      "path": "videos/10_FocusFinale.mp4",
+      "bytes": 7927335,
+      "sha256": "6696c8b224f866ff44a3b6c7bca667a81fb32678a13669a2f0cc179671bab40e",
+      "duration_seconds": 9.9,
+      "fps": 30.0,
+      "size": [
+        1440,
+        810
+      ],
+      "audio_track": false,
+      "full_decode_errors": 0
+    },
+    {
+      "path": "videos/12_PursuerRightPreview.mp4",
+      "bytes": 3173263,
+      "sha256": "633443d6bd267171a30d01d53040f99988733b34162e753817ce63253d3a882d",
+      "duration_seconds": 6.0,
+      "fps": 30.0,
+      "size": [
+        1440,
+        810
+      ],
+      "audio_track": false,
+      "full_decode_errors": 0
+    },
+    {
+      "path": "videos/13_PursuerLeftPreview.mp4",
+      "bytes": 4858321,
+      "sha256": "d20fa6f6d5fa13545bbb3fae64242a9d48e385df9fe36be220f4f0d56cdcdbe4",
+      "duration_seconds": 6.0,
+      "fps": 30.0,
+      "size": [
+        1440,
+        810
+      ],
+      "audio_track": false,
+      "full_decode_errors": 0
+    },
+    {
+      "path": "videos/20_ChildMemory.mp4",
+      "bytes": 3602294,
+      "sha256": "4dab01286cd2d4be0a3c5dec5397d98dfd83606bea02f7a0073300049a20325b",
+      "duration_seconds": 7.37,
+      "fps": 30.0,
+      "size": [
+        1440,
+        810
+      ],
+      "audio_track": false,
+      "full_decode_errors": 0
+    },
+    {
+      "path": "videos/22_YouthMemory.mp4",
+      "bytes": 3178919,
+      "sha256": "f428789b2a0cd3259c1a77e76ede02937a7549f8308a306c6c66be0f7aa53366",
+      "duration_seconds": 7.27,
+      "fps": 30.0,
+      "size": [
+        1440,
+        810
+      ],
+      "audio_track": false,
+      "full_decode_errors": 0
+    },
+    {
+      "path": "videos/24_AnonymousGurneys.mp4",
+      "bytes": 3497189,
+      "sha256": "fb7e20f82177c771af8d9d1c8ea3597f02c6edc4065e0a810f455f57d0f3d1d9",
+      "duration_seconds": 8.47,
+      "fps": 30.0,
+      "size": [
+        1440,
+        810
+      ],
+      "audio_track": false,
+      "full_decode_errors": 0
+    }
+  ],
+  "bytes": 113895249,
+  "note": "Read/decode validation is distinct from visual review; normal and half speed use identical final media."
+}

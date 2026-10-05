@@ -37,6 +37,7 @@ public class OilLampController : MonoBehaviour
     public bool IsIlluminating => IsRaised && CanUseLamp;
     public bool IsCharging => charging;
     public float Charge01 => Mathf.Clamp01(charge / chargeSeconds);
+    public float ChargeDuration=>chargeSeconds;
     public event Action ChargeCompleted;
 
     private void Awake() { Resolve(); SceneManager.activeSceneChanged += SceneChanged; }

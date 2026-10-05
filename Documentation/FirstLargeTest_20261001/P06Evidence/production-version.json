@@ -1,0 +1,234 @@
+{
+  "time": "2026-10-05T06:30:46",
+  "baseline": "e95ddc8b0e83ae122f7c0f7b1bfb1834ac29eef5",
+  "files": [
+    {
+      "path": "Assets/Art/Demo2026/P06.meta",
+      "bytes": 172,
+      "sha256": "33dbd30ab0e7cb73d6ced243ddaefc2be11a0986db22516cb62745b79ef940c0"
+    },
+    {
+      "path": "Assets/Art/Demo2026/P06/P06_BedCloseup.png",
+      "bytes": 1972105,
+      "sha256": "449f5e73cb071cc57ca56854ead77f4fe259d5c7459a89dec52209eab8260585"
+    },
+    {
+      "path": "Assets/Art/Demo2026/P06/P06_BedCloseup.png.meta",
+      "bytes": 3279,
+      "sha256": "abbd5e176b41d62f46b066d17ea7d6f18b121773c50e51bbf7239dd9c0b61f64"
+    },
+    {
+      "path": "Assets/Art/Demo2026/P06/P06_BoardingDefault.png",
+      "bytes": 2802303,
+      "sha256": "3460ddc0c78c12797e19a45f40cf8fd90c2fdf4923c186aebf972cbd0529e44c"
+    },
+    {
+      "path": "Assets/Art/Demo2026/P06/P06_BoardingDefault.png.meta",
+      "bytes": 4385,
+      "sha256": "eeaf7d2ed15442a726041f049e3fb2d5120b63d739df123f6885e0832fc0c038"
+    },
+    {
+      "path": "Assets/Art/Demo2026/P06/P06_BoardingOveralls.png",
+      "bytes": 2657356,
+      "sha256": "b0d5c738ab12bf21270f40eb48e00bc389df008158b44b792f677d9d735cd494"
+    },
+    {
+      "path": "Assets/Art/Demo2026/P06/P06_BoardingOveralls.png.meta",
+      "bytes": 4393,
+      "sha256": "d878d9c8032ada2a5dc7adda482e9398fa3fde6566f61f5167e1370ca44e6f73"
+    },
+    {
+      "path": "Assets/Art/Demo2026/P06/P06_BoardingSchool.png",
+      "bytes": 2650848,
+      "sha256": "364831e420f157585fbf3a38a3800dc3230db54a58d59be0953a24016c772ad2"
+    },
+    {
+      "path": "Assets/Art/Demo2026/P06/P06_BoardingSchool.png.meta",
+      "bytes": 4381,
+      "sha256": "d52e5b77782c6ab461cca9832775bb25b403be5eb44480eb0e77097b7f6a6ea5"
+    },
+    {
+      "path": "Assets/Art/Demo2026/P06/P06_CarSeated.png",
+      "bytes": 1490071,
+      "sha256": "d763d319d0a302bd262eee72bc1f08ebdec79caecd0973da930c23d9b35295df"
+    },
+    {
+      "path": "Assets/Art/Demo2026/P06/P06_CarSeated.png.meta",
+      "bytes": 5092,
+      "sha256": "0e2fe3945c7706190d7288c705a41479d0f43a1c5dec7cd73bec5c1c8f91e305"
+    },
+    {
+      "path": "Assets/Art/Demo2026/P06/P06_TransformationComic.png",
+      "bytes": 2153072,
+      "sha256": "acc61e1e7c9170de17b3f9c754d55a0df767467f748b8def550c5b0ed000ac78"
+    },
+    {
+      "path": "Assets/Art/Demo2026/P06/P06_TransformationComic.png.meta",
+      "bytes": 4970,
+      "sha256": "b5fc71d83729a030d314b05227f5aac3354ea18d098e9ea74a40d8c7f0fd72eb"
+    },
+    {
+      "path": "Assets/Art/Demo2026/P06/P06_WardWide.png",
+      "bytes": 1908198,
+      "sha256": "94d954af583ac4e32b3cd84c21fdae73b0896d3b762ad455aac29848ac64badb"
+    },
+    {
+      "path": "Assets/Art/Demo2026/P06/P06_WardWide.png.meta",
+      "bytes": 3271,
+      "sha256": "12fbe535befcd4f545509f5db740ccfbac9ce4226f0ba915facc893025b7a8aa"
+    },
+    {
+      "path": "Assets/Art/Demo2026/P06/P06_XiangHeads.png",
+      "bytes": 1597597,
+      "sha256": "0d6f12796189b8ab536aac42c00b9545923f79196d4276210874b373789940e6"
+    },
+    {
+      "path": "Assets/Art/Demo2026/P06/P06_XiangHeads.png.meta",
+      "bytes": 6627,
+      "sha256": "2d3989915c5b4b71fbc4877f14b80e232cfe93f141170384fc84d428ba2d9560"
+    },
+    {
+      "path": "Assets/Resources/DemoArtCatalog.asset",
+      "bytes": 3633577,
+      "sha256": "df1c58a83f141133f27ce3c63fd28488341ce483a691ef9a5351389f25090604"
+    },
+    {
+      "path": "Assets/Scenes/Scene03_Childhood.unity",
+      "bytes": 17433452,
+      "sha256": "cc2a9890251e353d4647f839e8a26669e7cc1936adcc18b2d86c6eb22c7ed9c2"
+    },
+    {
+      "path": "Assets/Scripts/Ending/EndingActorView.cs",
+      "bytes": 5076,
+      "sha256": "8b71ac39df0994e3e24c8450d43e12e586a8dc8b18b8b5698d76fd2422a539c7"
+    },
+    {
+      "path": "Assets/Scripts/Ending/EndingDirector.cs",
+      "bytes": 8659,
+      "sha256": "e30680e0e030dd85c9fa615505ed3c2cedb5542f4cab2d8806d4004fdbf3bc4e"
+    },
+    {
+      "path": "Assets/Scripts/Ending/EndingFocusProgress.cs",
+      "bytes": 796,
+      "sha256": "ae1a61e47534ea26819816b7bd71848244458f598a4a82397a1187dee10831ad"
+    },
+    {
+      "path": "Assets/Scripts/Ending/EndingHospital.cs",
+      "bytes": 4968,
+      "sha256": "30a99c6902341ee1380eb781f98a2b48dd1bbb5db43d762572bde00a528e7363"
+    },
+    {
+      "path": "Assets/Scripts/Ending/EndingMemories.cs",
+      "bytes": 3659,
+      "sha256": "30f790ea6e6ee2b3181537f280fcd8a491279f8687030170af315d7b43fc565c"
+    },
+    {
+      "path": "Assets/Scripts/Ending/EndingStageController.cs",
+      "bytes": 4812,
+      "sha256": "671696dcb733eb2018e30b226971892077a880e327ca962dd3c45e185786e2d6"
+    },
+    {
+      "path": "Assets/Scripts/Ending/EndingStreetController.cs",
+      "bytes": 9532,
+      "sha256": "4ac102ff133c4f2ed8e7ac9c0233452f203b972c75f5bebb729d5bd2bb04412b"
+    },
+    {
+      "path": "Assets/Scripts/Ending/EndingWalkStage.cs",
+      "bytes": 1433,
+      "sha256": "f273d069c4ec6c47c0182248249850230ccdd119f4bc4e4c606f3864663a9179"
+    },
+    {
+      "path": "Assets/Scripts/Presentation/DemoComicSequence.cs",
+      "bytes": 6944,
+      "sha256": "7bd8a8b6b0ef4265219040e9c52087a03873be70f944e11f1e5370a39c4bbfb3"
+    },
+    {
+      "path": "Assets/Scripts/Presentation/DemoDialogueArtwork.cs",
+      "bytes": 9894,
+      "sha256": "cc3e552a92bcb95d033133b09cfa404f3e396572bea90653c857d7451738935e"
+    },
+    {
+      "path": "Assets/Scripts/Presentation/EndingArtwork.cs",
+      "bytes": 6134,
+      "sha256": "f5edd779a6124c2c7c27249f8c7d7a9460874eb11e8071e41b618837df18e546"
+    },
+    {
+      "path": "Assets/Scripts/Presentation/P06EndingArtworkAlignment.cs",
+      "bytes": 1377,
+      "sha256": "874863c70c55fd3a523c9b3f45888f415544d3e908d4240aaf2109f4560a7104"
+    },
+    {
+      "path": "Assets/Scripts/Presentation/P06EndingArtworkAlignment.cs.meta",
+      "bytes": 59,
+      "sha256": "9206e1e22ec4bd4df489512dbf938a108fb2f367ef6253ba3eb71fbf4f4b0d91"
+    },
+    {
+      "path": "Assets/Scripts/Presentation/P06PursuerMotion.cs",
+      "bytes": 2280,
+      "sha256": "484fc3d703e6af26a0e0496c13c75799107f276a8277d0dbb36c1513e91df776"
+    },
+    {
+      "path": "Assets/Scripts/Presentation/P06PursuerMotion.cs.meta",
+      "bytes": 59,
+      "sha256": "199f6adaccf7c775198cf1c20403fadb4c6d8d9e8caaecf2ce5f1cb1e52a104f"
+    },
+    {
+      "path": "Assets/Scripts/Presentation/SchoolEnemyArtwork.cs",
+      "bytes": 787,
+      "sha256": "45167ca46f275b53979c113fc1ff69cefa1af017f53f79bd65c5053934fc7bfd"
+    },
+    {
+      "path": "Assets/Scripts/Scene03/Scene03Interactable.cs",
+      "bytes": 1046,
+      "sha256": "9f44a1d8b61a7869e296143a9f5220ac7bda3611c4fd6a58afe0b25984d2035a"
+    },
+    {
+      "path": "Assets/Scripts/School/OilLampController.cs",
+      "bytes": 9244,
+      "sha256": "8b6406f6b020e55e245f070052fec8b7a2e742ea728616e6250c75e64bea0209"
+    },
+    {
+      "path": "Assets/Scripts/School/SchoolChaseController.cs",
+      "bytes": 27614,
+      "sha256": "4d39b00d42cb8ac2581e34f7da71ab34dd776c4592ffcb115a87fe03cefc143f"
+    },
+    {
+      "path": "Assets/Scripts/School/SchoolFinalChargeWindow.cs",
+      "bytes": 610,
+      "sha256": "af826be065df6020edbfd4388cc2c09053a3e06b3f98b931e51241beb6cf742a"
+    },
+    {
+      "path": "Assets/Scripts/School/SchoolFinalChargeWindow.cs.meta",
+      "bytes": 59,
+      "sha256": "1a9132bebc45a9ff36e9c51128207339237484110bda1b9624e6ccaf3b6af03a"
+    },
+    {
+      "path": "Assets/Scripts/School/SchoolSecurityFinale.cs",
+      "bytes": 10437,
+      "sha256": "ca21a00780b5878360c2b60a0cfb2a4d694247e6b832ecf35f6f3b5c52f02190"
+    },
+    {
+      "path": "Assets/Scripts/System/GamePause.cs",
+      "bytes": 9234,
+      "sha256": "388a5e8aebfa2029c417f27304719347854067d5757cc51ea080d59b71e6db14"
+    },
+    {
+      "path": "Assets/Scripts/UI/DeskSchoolComputer.cs",
+      "bytes": 4019,
+      "sha256": "a7c1175f5f4e5620c30b804d89c5e512eaef0d045b29ca8c99863d8f671a1ece"
+    }
+  ],
+  "validation_build": "P06Evidence/build/build-result.txt",
+  "recording_scope": "Final feature-specific visual content; independent feature captures preceded final unrelated feature changes. Build includes unified final production content.",
+  "post_build_semantic_changes": false,
+  "post_build_changes": [
+    "Editor-only regression / exit callback diagnostic additions",
+    "Three newly added empty Unity m_Name fields whitespace normalization; final Edit audit 38/0 repeated"
+  ],
+  "exclude_from_runtime": [
+    "Assets/Editor/P06*",
+    "P06Evidence",
+    "D-drive isolated slots"
+  ],
+  "fingerprint": "015bf8d228bc39d147e61c55d6ffc8eddedf93a4f5024e9a659a8adf92408090"
+}

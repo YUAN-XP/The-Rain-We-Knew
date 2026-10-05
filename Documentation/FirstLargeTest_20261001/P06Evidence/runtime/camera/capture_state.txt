@@ -1,0 +1,7 @@
+Child_CameraRaised camera=(199.41, 1.90, -10.00) size=2.2 target=screen active=none curtain=0 locked=True roots=True/False/False
+Street_CameraRaised camera=(15.65, 31.90, -10.00) size=2.6 target=screen active=none curtain=0 locked=True roots=False/True/False
+Street_Reload camera=(15.65, 31.90, -10.00) size=2.6 target=screen active=none curtain=0 locked=False roots=False/True/False
+LivingRoom_CameraPrompt camera=(200.15, 1.90, -10.00) size=2.2 target=screen active=none curtain=0 locked=False roots=True/False/False
+LivingRoom_CameraPrompt camera=(200.15, 1.90, -10.00) size=2.2 target=screen active=none curtain=0 locked=False roots=True/False/False
+LivingRoom_CameraPrompt camera=(200.65, 1.90, -10.00) size=2.2 target=screen active=none curtain=0 locked=False roots=True/False/False
+LivingRoom_CameraRaised_AfterE camera=(199.80, 1.90, -10.00) size=2.2 target=screen active=none curtain=0 locked=True roots=True/False/False

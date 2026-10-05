@@ -1,0 +1,41 @@
+{
+  "protectedFiles": 920,
+  "unchanged": 900,
+  "modified": [
+    "Assets/Scripts/Ending/EndingActorView.cs",
+    "Assets/Scripts/Ending/EndingDirector.cs",
+    "Assets/Scripts/Ending/EndingFocusProgress.cs",
+    "Assets/Scripts/Ending/EndingHospital.cs",
+    "Assets/Scripts/Ending/EndingMemories.cs",
+    "Assets/Scripts/Ending/EndingStageController.cs",
+    "Assets/Scripts/Ending/EndingStreetController.cs",
+    "Assets/Scripts/Ending/EndingWalkStage.cs",
+    "Assets/Scripts/Presentation/DemoComicSequence.cs",
+    "Assets/Scripts/Presentation/DemoDialogueArtwork.cs",
+    "Assets/Scripts/Presentation/EndingArtwork.cs",
+    "Assets/Scripts/Presentation/SchoolEnemyArtwork.cs",
+    "Assets/Scripts/Scene03/Scene03Interactable.cs",
+    "Assets/Scripts/School/OilLampController.cs",
+    "Assets/Scripts/School/SchoolChaseController.cs",
+    "Assets/Scripts/School/SchoolSecurityFinale.cs",
+    "Assets/Scripts/System/GamePause.cs",
+    "Assets/Scripts/UI/DeskSchoolComputer.cs",
+    "Assets/Scenes/Scene03_Childhood.unity",
+    "Assets/Resources/DemoArtCatalog.asset"
+  ],
+  "checks": {
+    "baselineCommitMatchesHead": true,
+    "storyEnumsAndStateSourceUnchanged": true,
+    "allProtectedChangesWithinP06": true,
+    "P02SourceAssetsUnchanged": true,
+    "P04AndP05SourceAssetsUnchanged": true,
+    "onlyChildhoodSceneChanged": true,
+    "gameDataAndProjectSettingsUnchanged": true
+  },
+  "scope": "offline byte-hash audit; runtime cleanup and build checked separately",
+  "final_time": "2026-10-05T06:30:46",
+  "original_catalogue_entries_retained": 1032,
+  "original_user_doc_sha256": "8f7a14aefc71c4955e229a76e52e77d8404c7928e54d3910af1aa8a4a91b807a",
+  "font_cache_restored_to_baseline": true,
+  "new_serialized_empty_names_whitespace_only_normalized": 3
+}
