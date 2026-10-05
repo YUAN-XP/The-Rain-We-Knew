@@ -1,0 +1,111 @@
+{
+    "stamp": "2026-10-05T15:42:33.1305362+08:00",
+    "scene": "Scene01_Rain",
+    "world": "",
+    "active": "opening_free_final",
+    "opening": "free",
+    "target": "",
+    "dialogue": "",
+    "error": "",
+    "time": 86.97440338134766,
+    "stepTime": 0.0,
+    "focused": true,
+    "paused": false,
+    "locked": false,
+    "canSave": true,
+    "saveReason": "",
+    "queued": 15,
+    "width": 2560,
+    "height": 1440,
+    "runtimes": 1,
+    "players": 1,
+    "cameras": 1,
+    "player": {
+        "x": -6.010000228881836,
+        "y": -0.09500004351139069,
+        "z": 0.0
+    },
+    "camera": {
+        "x": -5.360000133514404,
+        "y": 0.6499999761581421,
+        "z": -10.0
+    },
+    "cameraSize": 3.0,
+    "flags": [],
+    "texts": [
+        "探索周围"
+    ],
+    "hotspots": [
+        {
+            "path": "Characters/QiuTian_Placeholder",
+            "type": "DialogueInteractable",
+            "prompt": "[E] 对话",
+            "position": {
+                "x": 12.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/Mailbox_Placeholder/NewspaperFragment01",
+            "type": "NewspaperFragmentInteractable",
+            "prompt": "[E] 调查",
+            "position": {
+                "x": 28.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Gameplay/IDHolder_Point",
+            "type": "IDHolderInteractable",
+            "prompt": "[E] 拾取",
+            "position": {
+                "x": -15.0,
+                "y": -0.699999988079071,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/Puddle_Placeholder",
+            "type": "PuddleReflectionInteractable",
+            "prompt": "[E] 调查",
+            "position": {
+                "x": 0.0,
+                "y": -0.8999999761581421,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/PoliceCar_Placeholder",
+            "type": "DialogueInteractable",
+            "prompt": "[E] 调查",
+            "position": {
+                "x": 36.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/CrowdPlaceholder",
+            "type": "DialogueInteractable",
+            "prompt": "[E] 调查",
+            "position": {
+                "x": -20.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/Gate_Placeholder",
+            "type": "GateInteractable",
+            "prompt": "[E] 调查",
+            "position": {
+                "x": 15.0,
+                "y": 1.5,
+                "z": 0.0
+            }
+        }
+    ],
+    "buttons": []
+}

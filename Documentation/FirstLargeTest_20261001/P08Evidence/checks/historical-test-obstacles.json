@@ -1,0 +1,199 @@
+{
+  "attempt_failures_retained": 24,
+  "do_not_report_as_862_of_862_assertions": true,
+  "full_demo_final_evidence": "runtime/main_full_demo_completed_status.json",
+  "records": [
+    {
+      "time": "2026-10-05T15:33:10.4342019+08:00",
+      "attempt": "QUEUE ERROR",
+      "original_record": "2026-10-05T15:33:10.4342019+08:00 QUEUE ERROR System.IO.IOException: Sharing violation on path D:\\游戏设计\\Codex工作区\\work\\2026-10-05-P08\\runtime\\queue.json",
+      "cause_and_limit": "confirmed test queue file sharing violation; separate from production gameplay",
+      "closure_evidence": "runtime/events.txt",
+      "count_as_final_pass": false
+    },
+    {
+      "time": "2026-10-05T15:36:08.7209905+08:00",
+      "attempt": "puddle_unlocked",
+      "original_record": "2026-10-05T15:36:08.7209905+08:00 FAIL puddle_unlocked System.Exception: Timed out waitfree ",
+      "cause_and_limit": "historical replay wait/target/modal-input obstacle; cause not independently isolated for this individual attempt; later full original-input progression completed",
+      "closure_evidence": "runtime/main_full_demo_completed_status.json",
+      "count_as_final_pass": false
+    },
+    {
+      "time": "2026-10-05T15:42:50.7731356+08:00",
+      "attempt": "puddle_release_final",
+      "original_record": "2026-10-05T15:42:50.7731356+08:00 FAIL puddle_release_final System.Exception: Timed out waitfree ",
+      "cause_and_limit": "historical replay wait/target/modal-input obstacle; cause not independently isolated for this individual attempt; later full original-input progression completed",
+      "closure_evidence": "runtime/main_full_demo_completed_status.json",
+      "count_as_final_pass": false
+    },
+    {
+      "time": "2026-10-05T16:10:59.9586989+08:00",
+      "attempt": "s02_parent_exit_walk",
+      "original_record": "2026-10-05T16:10:59.9586989+08:00 FAIL s02_parent_exit_walk System.Exception: Timed out walk ExitDoor_Point",
+      "cause_and_limit": "historical replay wait/target/modal-input obstacle; cause not independently isolated for this individual attempt; later full original-input progression completed",
+      "closure_evidence": "runtime/main_full_demo_completed_status.json",
+      "count_as_final_pass": false
+    },
+    {
+      "time": "2026-10-05T16:32:19.8355146+08:00",
+      "attempt": "main_cat_reward_verified",
+      "original_record": "2026-10-05T16:32:19.8355146+08:00 FAIL main_cat_reward_verified System.Exception: Timed out waitflag ",
+      "cause_and_limit": "historical replay wait/target/modal-input obstacle; cause not independently isolated for this individual attempt; later full original-input progression completed",
+      "closure_evidence": "runtime/main_full_demo_completed_status.json",
+      "count_as_final_pass": false
+    },
+    {
+      "time": "2026-10-05T16:40:27.1144290+08:00",
+      "attempt": "main_resume_natural_slot1",
+      "original_record": "2026-10-05T16:40:27.1144290+08:00 FAIL main_resume_natural_slot1 System.Exception: 正在载入",
+      "cause_and_limit": "historical replay wait/target/modal-input obstacle; cause not independently isolated for this individual attempt; later full original-input progression completed",
+      "closure_evidence": "runtime/main_full_demo_completed_status.json",
+      "count_as_final_pass": false
+    },
+    {
+      "time": "2026-10-05T16:44:07.8523265+08:00",
+      "attempt": "main_story_act1_continue",
+      "original_record": "2026-10-05T16:44:07.8523265+08:00 FAIL main_story_act1_continue System.Exception: Timed out button 继续听书",
+      "cause_and_limit": "historical replay wait/target/modal-input obstacle; cause not independently isolated for this individual attempt; later full original-input progression completed",
+      "closure_evidence": "runtime/main_full_demo_completed_status.json",
+      "count_as_final_pass": false
+    },
+    {
+      "time": "2026-10-05T16:49:16.5447329+08:00",
+      "attempt": "main_maze_40_cell_0_19",
+      "original_record": "2026-10-05T16:49:16.5447329+08:00 FAIL main_maze_40_cell_0_19 System.Exception: Timed out goto2d ",
+      "cause_and_limit": "historical replay wait/target/modal-input obstacle; cause not independently isolated for this individual attempt; later full original-input progression completed",
+      "closure_evidence": "runtime/main_full_demo_completed_status.json",
+      "count_as_final_pass": false
+    },
+    {
+      "time": "2026-10-05T16:54:57.6374077+08:00",
+      "attempt": "main_returned_street",
+      "original_record": "2026-10-05T16:54:57.6374077+08:00 FAIL main_returned_street System.Exception: Timed out waitflag ",
+      "cause_and_limit": "historical replay wait/target/modal-input obstacle; cause not independently isolated for this individual attempt; later full original-input progression completed",
+      "closure_evidence": "runtime/main_full_demo_completed_status.json",
+      "count_as_final_pass": false
+    },
+    {
+      "time": "2026-10-05T17:11:25.7178034+08:00",
+      "attempt": "main_return_scene02_free",
+      "original_record": "2026-10-05T17:11:25.7178034+08:00 FAIL main_return_scene02_free System.Exception: Timed out waitfree ",
+      "cause_and_limit": "confirmed game defect: street gate layer did not match the interaction mask",
+      "closure_evidence": "checks/gate-layer-fix.json",
+      "count_as_final_pass": false
+    },
+    {
+      "time": "2026-10-05T17:26:43.7578909+08:00",
+      "attempt": "main_fog_enter_continuous",
+      "original_record": "2026-10-05T17:26:43.7578909+08:00 FAIL main_fog_enter_continuous System.Exception: Timed out goto ",
+      "cause_and_limit": "historical replay wait/target/modal-input obstacle; cause not independently isolated for this individual attempt; later full original-input progression completed",
+      "closure_evidence": "runtime/main_full_demo_completed_status.json",
+      "count_as_final_pass": false
+    },
+    {
+      "time": "2026-10-05T17:28:17.0260141+08:00",
+      "attempt": "main_fog_inquiry_read",
+      "original_record": "2026-10-05T17:28:17.0260141+08:00 FAIL main_fog_inquiry_read System.Exception: Timed out dialogue ",
+      "cause_and_limit": "historical replay wait/target/modal-input obstacle; cause not independently isolated for this individual attempt; later full original-input progression completed",
+      "closure_evidence": "runtime/main_full_demo_completed_status.json",
+      "count_as_final_pass": false
+    },
+    {
+      "time": "2026-10-05T17:42:31.4416757+08:00",
+      "attempt": "school_investigate_equipment",
+      "original_record": "2026-10-05T17:42:31.4416757+08:00 FAIL school_investigate_equipment System.Exception: Timed out walk EquipmentEcho",
+      "cause_and_limit": "historical replay wait/target/modal-input obstacle; cause not independently isolated for this individual attempt; later full original-input progression completed",
+      "closure_evidence": "runtime/main_full_demo_completed_status.json",
+      "count_as_final_pass": false
+    },
+    {
+      "time": "2026-10-05T17:45:59.1526015+08:00",
+      "attempt": "school_actual_mouse_pull_release",
+      "original_record": "2026-10-05T17:45:59.1526015+08:00 FAIL school_actual_mouse_pull_release System.Exception: Timed out throw ",
+      "cause_and_limit": "test helper waited for aiming after the original release had already thrown the ball; key dropped normally",
+      "closure_evidence": "runtime/school_ball_key_on_ground_status.json",
+      "count_as_final_pass": false
+    },
+    {
+      "time": "2026-10-05T17:49:49.8849368+08:00",
+      "attempt": "school_own_desk_approach",
+      "original_record": "2026-10-05T17:49:49.8849368+08:00 FAIL school_own_desk_approach System.Exception: Timed out walk OwnDesk_Investigation",
+      "cause_and_limit": "historical replay wait/target/modal-input obstacle; cause not independently isolated for this individual attempt; later full original-input progression completed",
+      "closure_evidence": "runtime/main_full_demo_completed_status.json",
+      "count_as_final_pass": false
+    },
+    {
+      "time": "2026-10-05T18:12:43.1385564+08:00",
+      "attempt": "school_second_stair",
+      "original_record": "2026-10-05T18:12:43.1385564+08:00 FAIL school_second_stair System.Exception: Timed out goto ",
+      "cause_and_limit": "historical replay wait/target/modal-input obstacle; cause not independently isolated for this individual attempt; later full original-input progression completed",
+      "closure_evidence": "runtime/main_full_demo_completed_status.json",
+      "count_as_final_pass": false
+    },
+    {
+      "time": "2026-10-05T18:26:24.8719803+08:00",
+      "attempt": "school_return_continuous_walk",
+      "original_record": "2026-10-05T18:26:24.8719803+08:00 FAIL school_return_continuous_walk System.Exception: Timed out goto ",
+      "cause_and_limit": "original unlit-lamp return barrier; continued by raising the lamp",
+      "closure_evidence": "runtime/school_return_home_natural_status.json",
+      "count_as_final_pass": false
+    },
+    {
+      "time": "2026-10-05T18:30:38.7460063+08:00",
+      "attempt": "QUEUE ERROR",
+      "original_record": "2026-10-05T18:30:38.7460063+08:00 QUEUE ERROR System.IO.IOException: Sharing violation on path D:\\游戏设计\\Codex工作区\\work\\2026-10-05-P08\\runtime\\queue.json",
+      "cause_and_limit": "confirmed test queue file sharing violation; separate from production gameplay",
+      "closure_evidence": "runtime/events.txt",
+      "count_as_final_pass": false
+    },
+    {
+      "time": "2026-10-05T18:33:46.1892249+08:00",
+      "attempt": "home_handover_original_complete",
+      "original_record": "2026-10-05T18:33:46.1892249+08:00 FAIL home_handover_original_complete System.Exception: Timed out waitflag ",
+      "cause_and_limit": "historical replay wait/target/modal-input obstacle; cause not independently isolated for this individual attempt; later full original-input progression completed",
+      "closure_evidence": "runtime/main_full_demo_completed_status.json",
+      "count_as_final_pass": false
+    },
+    {
+      "time": "2026-10-05T18:41:38.4396419+08:00",
+      "attempt": "",
+      "original_record": "2026-10-05T18:41:38.4396419+08:00 FAIL  System.Exception: Timed out button 服装",
+      "cause_and_limit": "historical replay wait/target/modal-input obstacle; cause not independently isolated for this individual attempt; later full original-input progression completed",
+      "closure_evidence": "runtime/main_full_demo_completed_status.json",
+      "count_as_final_pass": false
+    },
+    {
+      "time": "2026-10-05T18:47:54.6842169+08:00",
+      "attempt": "",
+      "original_record": "2026-10-05T18:47:54.6842169+08:00 FAIL  System.Exception: Timed out button 继续游戏",
+      "cause_and_limit": "historical replay wait/target/modal-input obstacle; cause not independently isolated for this individual attempt; later full original-input progression completed",
+      "closure_evidence": "runtime/main_full_demo_completed_status.json",
+      "count_as_final_pass": false
+    },
+    {
+      "time": "2026-10-05T19:02:41.3248680+08:00",
+      "attempt": "",
+      "original_record": "2026-10-05T19:02:41.3248680+08:00 FAIL  System.Exception: Expected unique active hotspot: EndingVisitViews/ZhangChen found=0",
+      "cause_and_limit": "historical replay wait/target/modal-input obstacle; cause not independently isolated for this individual attempt; later full original-input progression completed",
+      "closure_evidence": "runtime/main_full_demo_completed_status.json",
+      "count_as_final_pass": false
+    },
+    {
+      "time": "2026-10-05T19:10:56.3255636+08:00",
+      "attempt": "",
+      "original_record": "2026-10-05T19:10:56.3255636+08:00 FAIL  System.Exception: Timed out waitflag ",
+      "cause_and_limit": "historical replay wait/target/modal-input obstacle; cause not independently isolated for this individual attempt; later full original-input progression completed",
+      "closure_evidence": "runtime/main_full_demo_completed_status.json",
+      "count_as_final_pass": false
+    },
+    {
+      "time": "2026-10-05T19:36:12.1655472+08:00",
+      "attempt": "retest_original_school_to_home_walk",
+      "original_record": "2026-10-05T19:36:12.1655472+08:00 FAIL retest_original_school_to_home_walk System.Exception: Timed out goto ",
+      "cause_and_limit": "original return barrier remains closed until the lamp is raised; original R released it",
+      "closure_evidence": "runtime/retest_home_inventory_open_resident_school_status.json",
+      "count_as_final_pass": false
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+PASS Scene01_Rain missing scripts zero
+PASS Scene01_Rain no serialized replay driver
+PASS Scene01_Rain valid authored room rectangles
+PASS Scene02_Courtyard missing scripts zero
+PASS Scene02_Courtyard no serialized replay driver
+PASS Scene02_Courtyard valid authored room rectangles
+PASS Scene03_Childhood missing scripts zero
+PASS Scene03_Childhood no serialized replay driver
+PASS Scene03_Childhood valid authored room rectangles
+PASS Scene03_Childhood original home-return gate included in interaction mask
+PASS Scene04_School missing scripts zero
+PASS Scene04_School no serialized replay driver
+PASS Scene04_School valid authored room rectangles
+PASS Otherworld actual room root Floor01
+PASS Otherworld supporting floor collider Floor01
+PASS Otherworld actual room root Floor02
+PASS Otherworld supporting floor collider Floor02
+PASS Otherworld actual room root Floor03Left
+PASS Otherworld supporting floor collider Floor03Left
+PASS Otherworld actual room root Floor03Right
+PASS Otherworld supporting floor collider Floor03Right
+PASS Otherworld actual room root Roof
+PASS Otherworld supporting floor collider Roof
+PASS Otherworld actual room root ReadingPassage
+PASS Otherworld supporting floor collider ReadingPassage
+PASS Otherworld actual room root SecurityRoom
+PASS Otherworld supporting floor collider SecurityRoom
+PASS Otherworld actual room root EquipmentRoom
+PASS Otherworld supporting floor collider EquipmentRoom
+PASS Otherworld actual room root Class3_2
+PASS Otherworld supporting floor collider Class3_2
+PASS Otherworld actual room root Class3_1
+PASS Otherworld supporting floor collider Class3_1
+PASS Otherworld actual room root MaleToilet
+PASS Otherworld supporting floor collider MaleToilet
+PASS Otherworld actual room root StaffOffice
+PASS Otherworld supporting floor collider StaffOffice
+PASS Memory actual room root Floor01
+PASS Memory supporting floor collider Floor01
+PASS Memory actual room root Floor02
+PASS Memory supporting floor collider Floor02
+PASS Memory actual room root Floor03Left
+PASS Memory supporting floor collider Floor03Left
+PASS Memory actual room root Floor03Right
+PASS Memory supporting floor collider Floor03Right
+PASS Memory actual room root Roof
+PASS Memory supporting floor collider Roof
+PASS Memory actual room root ReadingPassage
+PASS Memory supporting floor collider ReadingPassage
+PASS Memory actual room root SecurityRoom
+PASS Memory supporting floor collider SecurityRoom
+PASS Memory actual room root EquipmentRoom
+PASS Memory supporting floor collider EquipmentRoom
+PASS Memory actual room root Class3_2
+PASS Memory supporting floor collider Class3_2
+PASS Memory actual room root Class3_1
+PASS Memory supporting floor collider Class3_1
+PASS Memory actual room root MaleToilet
+PASS Memory supporting floor collider MaleToilet
+PASS Memory actual room root StaffOffice
+PASS Memory supporting floor collider StaffOffice
+PASS EndingSequence missing scripts zero
+PASS EndingSequence no serialized replay driver

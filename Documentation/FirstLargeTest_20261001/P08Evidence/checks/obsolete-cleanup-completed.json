@@ -1,0 +1,35 @@
+{
+  "stamp": "2026-10-05T20:26:20.763718",
+  "obsolete_recordings": [
+    {
+      "path": "D:\\游戏设计\\Codex工作区\\work\\2026-10-05-P08\\runtime\\main_boarding_car.mp4",
+      "bytes": 19891498,
+      "sha256": "3044276069b4c0d99c3cc48f1a63b02bbcc2bd94cd6753b76e996a7a16ef0ec3",
+      "reason": "abandoned recording; stopped before the actual boarding comic; replaced by main_boarding_car_valid"
+    },
+    {
+      "path": "D:\\游戏设计\\Codex工作区\\work\\2026-10-05-P08\\runtime\\main_ending_bed_focus_completion.mp4",
+      "bytes": 14666945,
+      "sha256": "cf0462d2a2297c2b086bda1f444fd1f274ace68abf00d6c24a91d17fb363cc24",
+      "reason": "abandoned recording with wrong diagnostic bed anchor; replaced by main_ending_focus_valid"
+    },
+    {
+      "path": "D:\\游戏设计\\Codex工作区\\work\\2026-10-05-P08\\runtime\\main_fog_disperse.mp4",
+      "bytes": 14749784,
+      "sha256": "59310624c224a919e0b24e0908fd26ed5549299b9c09a3fc462ba52fa0afd108",
+      "reason": "expired recording before the actual completed fog charge; later school arrival and return evidence retained"
+    },
+    {
+      "path": "D:\\游戏设计\\Codex工作区\\work\\2026-10-05-P08\\runtime\\main_school_desktop_handover.mp4",
+      "bytes": 32012584,
+      "sha256": "97ee5118f7d2d5de64046b7cb5f76aa2e8b2a2a669a68bbd83a68cf6699555b2",
+      "reason": "expired recording before the actual rubbing action; successful rubbing states and later youth entry retained"
+    }
+  ],
+  "temporary_development_build": "D:\\游戏设计\\Codex工作区\\work\\2026-10-05-P08\\build_cold",
+  "temporary_build_bytes": 2977770554,
+  "all_final_recording_originals_retained": true,
+  "all_user_documents_retained": true,
+  "cold_report_preserved": true,
+  "completed": true
+}

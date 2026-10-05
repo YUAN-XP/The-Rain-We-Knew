@@ -1,0 +1,379 @@
+{
+    "stamp": "2026-10-05T18:27:52.3331925+08:00",
+    "scene": "Scene02_Courtyard",
+    "world": "Otherworld",
+    "active": "school_return_home_natural",
+    "opening": "",
+    "target": "",
+    "dialogue": "",
+    "error": "",
+    "room": "Floor01",
+    "actor": "Adult",
+    "chase": "FogReturn",
+    "route": "Completed",
+    "fog": "Completed",
+    "ending": "",
+    "locks": [],
+    "coverage1": 0.7325297594070435,
+    "coverage2": 0.7933502197265625,
+    "charge": 0.0,
+    "enemy": {
+        "x": 204.41604614257813,
+        "y": 0.800000011920929
+    },
+    "comic": false,
+    "rubOpen": false,
+    "digits": [],
+    "time": 2941.0625,
+    "stepTime": 0.0,
+    "focused": true,
+    "paused": false,
+    "locked": false,
+    "canSave": true,
+    "saveReason": "",
+    "queued": 2,
+    "width": 2560,
+    "height": 1440,
+    "runtimes": 1,
+    "players": 1,
+    "cameras": 1,
+    "player": {
+        "x": 8.641255378723145,
+        "y": 1.40500009059906,
+        "z": 0.0
+    },
+    "camera": {
+        "x": 7.80555534362793,
+        "y": 1.850000023841858,
+        "z": -10.0
+    },
+    "cameraSize": 2.5,
+    "flags": [
+        "CameraDoorRevealed",
+        "CameraTutorialTriggered",
+        "CameraFirstRaised",
+        "DeskEventTriggered",
+        "ChildShadowSequencePlayed",
+        "SprintUnlocked",
+        "ThreeDoorPuzzleCompleted",
+        "Scene03BirthdayKnown",
+        "OverallsUnlocked",
+        "CorridorRemarkShown",
+        "DrawerOpened",
+        "ChildShadowFollowupPlayed",
+        "DistortedCorridorStarted",
+        "ParentShadowEventPlayed",
+        "Scene01GateOpened",
+        "Scene01NewspaperTaken",
+        "Scene03Started",
+        "Scene03IntroCompleted",
+        "Scene03PhoneAnswered",
+        "Scene03CameraTaken",
+        "StorytellerGameCompleted",
+        "FishObtained",
+        "CatFed",
+        "GameCoinObtained",
+        "GameCoinSpent",
+        "CameraGentlemanCardObtained",
+        "Scene03StreetReached",
+        "Scene03MazePreludeReached",
+        "LiMeiMessageAccepted",
+        "LiMeiMessageDelivered",
+        "Scene03FishHintShown",
+        "Scene03MazeEntered",
+        "Scene03MazeFirstSwitch",
+        "Scene03MazeCompleted",
+        "Scene03RhythmCompleted",
+        "Scene03RiverSequenceCompleted",
+        "Scene03ReturnedHome",
+        "Scene03FamilySetupComplete",
+        "Scene03FamilyPhotoTaken",
+        "Scene03Completed",
+        "LivingRoomDoorOpened",
+        "Scene03CameraGentlemanEchoCollected",
+        "OilLampObtained",
+        "Scene02Fragment2Collected",
+        "Scene03ReturnReactionPlayed",
+        "Scene03FileNoticeShown",
+        "Scene03DrawerNoticeShown",
+        "FogIntroCompleted",
+        "EquipmentVoicePlayed",
+        "EquipmentDoorOpened",
+        "BasketKeyRevealed",
+        "BasketKeyDropped",
+        "BasketKeyCollected",
+        "SchoolUniformOwned",
+        "PencilOwned",
+        "SchoolNameRevealed",
+        "Scene05OpeningPlayed",
+        "SchoolSecurityClueSeen",
+        "SchoolEvidenceObtained",
+        "SchoolYouthConversationCompleted",
+        "SchoolUsbReceived",
+        "SchoolSecurityMemoryOpened",
+        "SchoolMediaPasswordChanged",
+        "SchoolEvidenceSubmitted",
+        "SchoolOfficeHandoffReady",
+        "SchoolCrowdSeen",
+        "SchoolChaseStarted",
+        "SchoolChaseCompleted",
+        "SchoolSecurityEntered",
+        "SchoolOilTaken",
+        "SchoolLampRestored",
+        "SchoolFragment3Taken",
+        "SchoolReturnedHome",
+        "Scene01IDHolderTaken",
+        "Scene01MemoryFlashPlayed",
+        "Scene01GateKeyCollected",
+        "Scene03ReturnedToStreet"
+    ],
+    "texts": [
+        "二楼电脑应该可以打开了",
+        "穿越黑雾",
+        "一楼走廊"
+    ],
+    "hotspots": [
+        {
+            "path": "Environment/MasterBedroomInterior/Cabinet_Placeholder",
+            "type": "DialogueInteractable",
+            "prompt": "[E] 调查",
+            "position": {
+                "x": 74.43112182617188,
+                "y": 0.9900000095367432,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/MasterBedroomInterior/CameraItem_Placeholder",
+            "type": "ItemPickupInteractable",
+            "prompt": "",
+            "position": {
+                "x": 74.83599853515625,
+                "y": 1.9600000381469727,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/HiddenBedroomArea/HiddenBedroom_Bed",
+            "type": "DialogueInteractable",
+            "prompt": "[E] Talk",
+            "position": {
+                "x": 132.0,
+                "y": 1.100000023841858,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Characters/QiuTian_Placeholder",
+            "type": "DialogueInteractable",
+            "prompt": "[E] 对话",
+            "position": {
+                "x": 16.27460479736328,
+                "y": 1.815385103225708,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/Floor01/BrokenLamp_Placeholder",
+            "type": "DialogueInteractable",
+            "prompt": "[E] 调查",
+            "position": {
+                "x": -6.0,
+                "y": 1.909999966621399,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/Floor01/LockedLivingRoom_Placeholder",
+            "type": "RoomTransitionInteractable",
+            "prompt": "[E] 开门",
+            "position": {
+                "x": -1.2000000476837159,
+                "y": 1.7070000171661378,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/HiddenBedroomArea/HiddenBedroom_Desk",
+            "type": "PanelInteractable",
+            "prompt": "[E] 调查",
+            "position": {
+                "x": 136.85000610351563,
+                "y": 1.399999976158142,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/Floor01/DirtyPhoto_Placeholder",
+            "type": "FileArchiveInteractable",
+            "prompt": "[E] 调查",
+            "position": {
+                "x": -9.0,
+                "y": 2.049999952316284,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/Floor01/BackGate_Placeholder",
+            "type": "SceneReturnInteractable",
+            "prompt": "[E] 返回",
+            "position": {
+                "x": -13.800000190734864,
+                "y": 1.5773999691009522,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/MasterBedroomInterior/Bed_Placeholder",
+            "type": "DialogueInteractable",
+            "prompt": "[E] 调查",
+            "position": {
+                "x": 70.93599700927735,
+                "y": 0.9100000262260437,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/Floor02/MasterBedroom_Placeholder",
+            "type": "RoomTransitionInteractable",
+            "prompt": "[E] 进入",
+            "position": {
+                "x": -3.620000123977661,
+                "y": 8.480600357055664,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/HiddenBedroomArea/HiddenBedroom_Wardrobe",
+            "type": "PanelInteractable",
+            "prompt": "[E] 调查",
+            "position": {
+                "x": 129.0,
+                "y": 1.899999976158142,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/Floor02/HiddenBedroom_RevealDoor",
+            "type": "RoomTransitionInteractable",
+            "prompt": "[E] 进入 / 返回",
+            "position": {
+                "x": -13.579999923706055,
+                "y": 8.300000190734864,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/MasterBedroomInterior/ExitDoor_Point",
+            "type": "RoomTransitionInteractable",
+            "prompt": "[E] Exit",
+            "position": {
+                "x": 63.75400161743164,
+                "y": 2.187700033187866,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/Floor02/StairExit_Point",
+            "type": "RoomTransitionInteractable",
+            "prompt": "[E] 下楼",
+            "position": {
+                "x": 7.799999713897705,
+                "y": 7.040000915527344,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "LivingRoomInterior_Return/ReturnLivingRoomDoor",
+            "type": "RoomTransitionInteractable",
+            "prompt": "[E] 开门",
+            "position": {
+                "x": 344.6000061035156,
+                "y": 0.5,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/MasterBedroomInterior/Lamp_Placeholder",
+            "type": "DialogueInteractable",
+            "prompt": "[E] 调查",
+            "position": {
+                "x": 65.44999694824219,
+                "y": 1.6399999856948853,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/HiddenBedroomArea/HiddenBedroom_Exit",
+            "type": "RoomTransitionInteractable",
+            "prompt": "[E] 进入 / 返回",
+            "position": {
+                "x": 126.25,
+                "y": 2.200000047683716,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/Floor01/StairsUp_InteractZone",
+            "type": "RoomTransitionInteractable",
+            "prompt": "[E] 上楼",
+            "position": {
+                "x": 4.099999904632568,
+                "y": 1.600000023841858,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/MasterBedroomInterior/Wardrobe_Placeholder",
+            "type": "DialogueInteractable",
+            "prompt": "[E] 调查",
+            "position": {
+                "x": 67.20999908447266,
+                "y": 1.3600000143051148,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/Floor01/DarkFog_Placeholder",
+            "type": "Scene02ReturnInteractable",
+            "prompt": "",
+            "position": {
+                "x": 10.399999618530274,
+                "y": 2.0999999046325685,
+                "z": 0.0
+            }
+        }
+    ],
+    "buttons": [],
+    "drags": [],
+    "sliders": [],
+    "mazeOrigin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "ballWorld": {
+        "x": 72.4000015258789,
+        "y": 0.6399999856948853,
+        "z": 0.0
+    },
+    "boardWorld": {
+        "x": 72.01190185546875,
+        "y": 3.1294937133789064,
+        "z": 0.0
+    },
+    "ballScreen": {
+        "x": 19883.19921875,
+        "y": 371.52001953125
+    },
+    "mazeCellSize": 0.0,
+    "rhythmTime": 0.0,
+    "mazeLayout": 0,
+    "mazeRow": 0,
+    "mazeColumn": 0,
+    "rhythmPhrase": 0,
+    "rhythmRetries": 0,
+    "inMaze": false,
+    "rhythmRunning": false,
+    "basketball": "Completed"
+}

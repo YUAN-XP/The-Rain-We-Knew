@@ -1,0 +1,118 @@
+{
+    "stamp": "2026-10-05T16:48:04.8822144+08:00",
+    "scene": "Scene03_Childhood",
+    "world": "",
+    "active": "main_maze_preview_cancel_before",
+    "opening": "",
+    "target": "",
+    "dialogue": "",
+    "error": "",
+    "time": 616.6914672851563,
+    "stepTime": 0.0,
+    "focused": true,
+    "paused": false,
+    "locked": true,
+    "canSave": false,
+    "saveReason": "当前无法保存：请在自由行动时保存。",
+    "queued": 76,
+    "width": 2560,
+    "height": 1440,
+    "runtimes": 1,
+    "players": 1,
+    "cameras": 1,
+    "player": {
+        "x": 181.60000610351563,
+        "y": 71.5999984741211,
+        "z": 0.0
+    },
+    "camera": {
+        "x": 212.0,
+        "y": 94.0,
+        "z": -10.0
+    },
+    "cameraSize": 26.0,
+    "flags": [
+        "CameraDoorRevealed",
+        "CameraTutorialTriggered",
+        "CameraFirstRaised",
+        "DeskEventTriggered",
+        "ChildShadowSequencePlayed",
+        "SprintUnlocked",
+        "ThreeDoorPuzzleCompleted",
+        "OverallsUnlocked",
+        "CorridorRemarkShown",
+        "ChildShadowFollowupPlayed",
+        "DistortedCorridorStarted",
+        "ParentShadowEventPlayed",
+        "Scene01GateOpened",
+        "Scene01NewspaperTaken",
+        "Scene03Started",
+        "Scene03IntroCompleted",
+        "Scene03PhoneAnswered",
+        "Scene03CameraTaken",
+        "StorytellerGameCompleted",
+        "FishObtained",
+        "CatFed",
+        "GameCoinObtained",
+        "GameCoinSpent",
+        "CameraGentlemanCardObtained",
+        "Scene03StreetReached",
+        "Scene03MazePreludeReached",
+        "LiMeiMessageAccepted",
+        "LiMeiMessageDelivered",
+        "Scene03FishHintShown",
+        "Scene03MazeEntered",
+        "Scene01IDHolderTaken",
+        "Scene01MemoryFlashPlayed",
+        "Scene01GateKeyCollected"
+    ],
+    "texts": [
+        "[E] 离开",
+        "[Space] 拍照    [Q] 放下相机",
+        "河堤 →"
+    ],
+    "hotspots": [
+        {
+            "path": "Scene03Chapter",
+            "type": "Scene03RiverSequence",
+            "prompt": "[E] 坐一会儿",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        }
+    ],
+    "buttons": [],
+    "drags": [],
+    "sliders": [],
+    "mazeOrigin": {
+        "x": 180.0,
+        "y": 70.0,
+        "z": 0.0
+    },
+    "ballWorld": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "boardWorld": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "ballScreen": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "mazeCellSize": 3.200000047683716,
+    "rhythmTime": 1929.110107421875,
+    "mazeLayout": 0,
+    "mazeRow": 14,
+    "mazeColumn": 0,
+    "rhythmPhrase": 0,
+    "rhythmRetries": 0,
+    "inMaze": true,
+    "rhythmRunning": false,
+    "basketball": ""
+}

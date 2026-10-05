@@ -1,0 +1,631 @@
+[
+  {
+    "kind": "slider",
+    "label": "main_ring_1_angle",
+    "target": "角度",
+    "x": 45,
+    "seconds": 8
+  },
+  {
+    "kind": "slider",
+    "label": "main_ring_1_power",
+    "target": "力度",
+    "x": 378.07562268756266,
+    "seconds": 8
+  },
+  {
+    "kind": "button",
+    "label": "main_ring_1_throw",
+    "target": "投掷",
+    "seconds": 8
+  },
+  {
+    "kind": "wait",
+    "label": "main_ring_1_flight",
+    "seconds": 3.2
+  },
+  {
+    "kind": "slider",
+    "label": "main_ring_2_angle",
+    "target": "角度",
+    "x": 45,
+    "seconds": 8
+  },
+  {
+    "kind": "slider",
+    "label": "main_ring_2_power",
+    "target": "力度",
+    "x": 559.7928684393502,
+    "seconds": 8
+  },
+  {
+    "kind": "button",
+    "label": "main_ring_2_throw",
+    "target": "投掷",
+    "seconds": 8
+  },
+  {
+    "kind": "wait",
+    "label": "main_ring_2_flight",
+    "seconds": 3.2
+  },
+  {
+    "kind": "slider",
+    "label": "main_ring_3_angle",
+    "target": "角度",
+    "x": 45,
+    "seconds": 8
+  },
+  {
+    "kind": "slider",
+    "label": "main_ring_3_power",
+    "target": "力度",
+    "x": 603.7383539249432,
+    "seconds": 8
+  },
+  {
+    "kind": "button",
+    "label": "main_ring_3_throw",
+    "target": "投掷",
+    "seconds": 8
+  },
+  {
+    "kind": "wait",
+    "label": "main_ring_3_flight",
+    "seconds": 3.2
+  },
+  {
+    "kind": "slider",
+    "label": "main_ring_4_angle",
+    "target": "角度",
+    "x": 45,
+    "seconds": 8
+  },
+  {
+    "kind": "slider",
+    "label": "main_ring_4_power",
+    "target": "力度",
+    "x": 725.891874926636,
+    "seconds": 8
+  },
+  {
+    "kind": "button",
+    "label": "main_ring_4_throw",
+    "target": "投掷",
+    "seconds": 8
+  },
+  {
+    "kind": "wait",
+    "label": "main_ring_4_flight",
+    "seconds": 3.2
+  },
+  {
+    "kind": "dialogue",
+    "label": "main_ring_reward",
+    "seconds": 50
+  },
+  {
+    "kind": "waitflag",
+    "label": "main_ring_reward_verified",
+    "flag": "CameraGentlemanCardObtained",
+    "seconds": 8
+  },
+  {
+    "kind": "checkpoint",
+    "label": "main_all_early_sidequests",
+    "capture": true
+  },
+  {
+    "kind": "walk",
+    "label": "main_maze_endpoint",
+    "target": "Stage4B_Entry",
+    "run": true,
+    "seconds": 30
+  },
+  {
+    "kind": "key",
+    "label": "main_maze_enter",
+    "keys": "E",
+    "seconds": 0.12
+  },
+  {
+    "kind": "dialogue",
+    "label": "main_maze_prelude",
+    "seconds": 50
+  },
+  {
+    "kind": "checkpoint",
+    "label": "main_maze_entry",
+    "capture": true
+  },
+  {
+    "kind": "save",
+    "label": "main_maze_natural_slot2",
+    "slot": 2,
+    "seconds": 5
+  },
+  {
+    "kind": "key",
+    "label": "main_maze_preview",
+    "keys": "Q",
+    "seconds": 0.12
+  },
+  {
+    "kind": "wait",
+    "label": "main_maze_preview_ready",
+    "seconds": 1.7
+  },
+  {
+    "kind": "checkpoint",
+    "label": "main_maze_preview_cancel_before",
+    "capture": true
+  },
+  {
+    "kind": "key",
+    "label": "main_maze_preview_cancel",
+    "keys": "Q",
+    "seconds": 0.12
+  },
+  {
+    "kind": "wait",
+    "label": "main_maze_preview_cancel_ready",
+    "seconds": 1
+  },
+  {
+    "kind": "goto2d",
+    "label": "main_maze_0_cell_14_1",
+    "x": 184.8,
+    "y": 71.6,
+    "seconds": 8
+  },
+  {
+    "kind": "goto2d",
+    "label": "main_maze_1_cell_14_2",
+    "x": 188.0,
+    "y": 71.6,
+    "seconds": 8
+  },
+  {
+    "kind": "goto2d",
+    "label": "main_maze_2_cell_14_3",
+    "x": 191.2,
+    "y": 71.6,
+    "seconds": 8
+  },
+  {
+    "kind": "goto2d",
+    "label": "main_maze_3_cell_14_4",
+    "x": 194.4,
+    "y": 71.6,
+    "seconds": 8
+  },
+  {
+    "kind": "goto2d",
+    "label": "main_maze_4_cell_13_4",
+    "x": 194.4,
+    "y": 74.8,
+    "seconds": 8
+  },
+  {
+    "kind": "goto2d",
+    "label": "main_maze_5_cell_12_4",
+    "x": 194.4,
+    "y": 78.0,
+    "seconds": 8
+  },
+  {
+    "kind": "key",
+    "label": "main_maze_6_raise",
+    "keys": "Q",
+    "seconds": 0.12
+  },
+  {
+    "kind": "wait",
+    "label": "main_maze_6_preview",
+    "seconds": 1.7
+  },
+  {
+    "kind": "key",
+    "label": "main_maze_6_capture",
+    "keys": "Space",
+    "seconds": 0.12
+  },
+  {
+    "kind": "wait",
+    "label": "main_maze_6_settle",
+    "seconds": 0.8
+  },
+  {
+    "kind": "goto2d",
+    "label": "main_maze_7_cell_11_4",
+    "x": 194.4,
+    "y": 81.2,
+    "seconds": 8
+  },
+  {
+    "kind": "key",
+    "label": "main_maze_8_raise",
+    "keys": "Q",
+    "seconds": 0.12
+  },
+  {
+    "kind": "wait",
+    "label": "main_maze_8_preview",
+    "seconds": 1.7
+  },
+  {
+    "kind": "key",
+    "label": "main_maze_8_capture",
+    "keys": "Space",
+    "seconds": 0.12
+  },
+  {
+    "kind": "wait",
+    "label": "main_maze_8_settle",
+    "seconds": 0.8
+  },
+  {
+    "kind": "goto2d",
+    "label": "main_maze_9_cell_11_5",
+    "x": 197.6,
+    "y": 81.2,
+    "seconds": 8
+  },
+  {
+    "kind": "key",
+    "label": "main_maze_10_raise",
+    "keys": "Q",
+    "seconds": 0.12
+  },
+  {
+    "kind": "wait",
+    "label": "main_maze_10_preview",
+    "seconds": 1.7
+  },
+  {
+    "kind": "key",
+    "label": "main_maze_10_capture",
+    "keys": "Space",
+    "seconds": 0.12
+  },
+  {
+    "kind": "wait",
+    "label": "main_maze_10_settle",
+    "seconds": 0.8
+  },
+  {
+    "kind": "goto2d",
+    "label": "main_maze_11_cell_11_6",
+    "x": 200.8,
+    "y": 81.2,
+    "seconds": 8
+  },
+  {
+    "kind": "goto2d",
+    "label": "main_maze_12_cell_11_7",
+    "x": 204.0,
+    "y": 81.2,
+    "seconds": 8
+  },
+  {
+    "kind": "goto2d",
+    "label": "main_maze_13_cell_11_8",
+    "x": 207.2,
+    "y": 81.2,
+    "seconds": 8
+  },
+  {
+    "kind": "goto2d",
+    "label": "main_maze_14_cell_11_9",
+    "x": 210.4,
+    "y": 81.2,
+    "seconds": 8
+  },
+  {
+    "kind": "goto2d",
+    "label": "main_maze_15_cell_10_9",
+    "x": 210.4,
+    "y": 84.4,
+    "seconds": 8
+  },
+  {
+    "kind": "goto2d",
+    "label": "main_maze_16_cell_10_10",
+    "x": 213.6,
+    "y": 84.4,
+    "seconds": 8
+  },
+  {
+    "kind": "goto2d",
+    "label": "main_maze_17_cell_9_10",
+    "x": 213.6,
+    "y": 87.6,
+    "seconds": 8
+  },
+  {
+    "kind": "key",
+    "label": "main_maze_18_raise",
+    "keys": "Q",
+    "seconds": 0.12
+  },
+  {
+    "kind": "wait",
+    "label": "main_maze_18_preview",
+    "seconds": 1.7
+  },
+  {
+    "kind": "key",
+    "label": "main_maze_18_capture",
+    "keys": "Space",
+    "seconds": 0.12
+  },
+  {
+    "kind": "wait",
+    "label": "main_maze_18_settle",
+    "seconds": 0.8
+  },
+  {
+    "kind": "goto2d",
+    "label": "main_maze_19_cell_9_11",
+    "x": 216.8,
+    "y": 87.6,
+    "seconds": 8
+  },
+  {
+    "kind": "goto2d",
+    "label": "main_maze_20_cell_9_12",
+    "x": 220.0,
+    "y": 87.6,
+    "seconds": 8
+  },
+  {
+    "kind": "goto2d",
+    "label": "main_maze_21_cell_9_13",
+    "x": 223.2,
+    "y": 87.6,
+    "seconds": 8
+  },
+  {
+    "kind": "goto2d",
+    "label": "main_maze_22_cell_9_14",
+    "x": 226.4,
+    "y": 87.6,
+    "seconds": 8
+  },
+  {
+    "kind": "goto2d",
+    "label": "main_maze_23_cell_8_14",
+    "x": 226.4,
+    "y": 90.8,
+    "seconds": 8
+  },
+  {
+    "kind": "key",
+    "label": "main_maze_24_raise",
+    "keys": "Q",
+    "seconds": 0.12
+  },
+  {
+    "kind": "wait",
+    "label": "main_maze_24_preview",
+    "seconds": 1.7
+  },
+  {
+    "kind": "key",
+    "label": "main_maze_24_capture",
+    "keys": "Space",
+    "seconds": 0.12
+  },
+  {
+    "kind": "wait",
+    "label": "main_maze_24_settle",
+    "seconds": 0.8
+  },
+  {
+    "kind": "goto2d",
+    "label": "main_maze_25_cell_8_15",
+    "x": 229.6,
+    "y": 90.8,
+    "seconds": 8
+  },
+  {
+    "kind": "key",
+    "label": "main_maze_26_raise",
+    "keys": "Q",
+    "seconds": 0.12
+  },
+  {
+    "kind": "wait",
+    "label": "main_maze_26_preview",
+    "seconds": 1.7
+  },
+  {
+    "kind": "key",
+    "label": "main_maze_26_capture",
+    "keys": "Space",
+    "seconds": 0.12
+  },
+  {
+    "kind": "wait",
+    "label": "main_maze_26_settle",
+    "seconds": 0.8
+  },
+  {
+    "kind": "goto2d",
+    "label": "main_maze_27_cell_7_15",
+    "x": 229.6,
+    "y": 94.0,
+    "seconds": 8
+  },
+  {
+    "kind": "key",
+    "label": "main_maze_28_raise",
+    "keys": "Q",
+    "seconds": 0.12
+  },
+  {
+    "kind": "wait",
+    "label": "main_maze_28_preview",
+    "seconds": 1.7
+  },
+  {
+    "kind": "key",
+    "label": "main_maze_28_capture",
+    "keys": "Space",
+    "seconds": 0.12
+  },
+  {
+    "kind": "wait",
+    "label": "main_maze_28_settle",
+    "seconds": 0.8
+  },
+  {
+    "kind": "goto2d",
+    "label": "main_maze_29_cell_7_16",
+    "x": 232.8,
+    "y": 94.0,
+    "seconds": 8
+  },
+  {
+    "kind": "goto2d",
+    "label": "main_maze_30_cell_7_17",
+    "x": 236.0,
+    "y": 94.0,
+    "seconds": 8
+  },
+  {
+    "kind": "key",
+    "label": "main_maze_31_raise",
+    "keys": "Q",
+    "seconds": 0.12
+  },
+  {
+    "kind": "wait",
+    "label": "main_maze_31_preview",
+    "seconds": 1.7
+  },
+  {
+    "kind": "key",
+    "label": "main_maze_31_capture",
+    "keys": "Space",
+    "seconds": 0.12
+  },
+  {
+    "kind": "wait",
+    "label": "main_maze_31_settle",
+    "seconds": 0.8
+  },
+  {
+    "kind": "goto2d",
+    "label": "main_maze_32_cell_6_17",
+    "x": 236.0,
+    "y": 97.2,
+    "seconds": 8
+  },
+  {
+    "kind": "goto2d",
+    "label": "main_maze_33_cell_5_17",
+    "x": 236.0,
+    "y": 100.4,
+    "seconds": 8
+  },
+  {
+    "kind": "goto2d",
+    "label": "main_maze_34_cell_5_18",
+    "x": 239.2,
+    "y": 100.4,
+    "seconds": 8
+  },
+  {
+    "kind": "goto2d",
+    "label": "main_maze_35_cell_5_19",
+    "x": 242.4,
+    "y": 100.4,
+    "seconds": 8
+  },
+  {
+    "kind": "goto2d",
+    "label": "main_maze_36_cell_4_19",
+    "x": 242.4,
+    "y": 103.6,
+    "seconds": 8
+  },
+  {
+    "kind": "goto2d",
+    "label": "main_maze_37_cell_3_19",
+    "x": 242.4,
+    "y": 106.80000000000001,
+    "seconds": 8
+  },
+  {
+    "kind": "goto2d",
+    "label": "main_maze_38_cell_2_19",
+    "x": 242.4,
+    "y": 110.0,
+    "seconds": 8
+  },
+  {
+    "kind": "goto2d",
+    "label": "main_maze_39_cell_1_19",
+    "x": 242.4,
+    "y": 113.2,
+    "seconds": 8
+  },
+  {
+    "kind": "goto2d",
+    "label": "main_maze_40_cell_0_19",
+    "x": 242.4,
+    "y": 116.4,
+    "seconds": 8
+  },
+  {
+    "kind": "waitflag",
+    "label": "main_maze_complete",
+    "flag": "Scene03MazeCompleted",
+    "seconds": 15
+  },
+  {
+    "kind": "waitfree",
+    "label": "main_river_control",
+    "seconds": 15
+  },
+  {
+    "kind": "checkpoint",
+    "label": "main_river_arrival",
+    "capture": true
+  },
+  {
+    "kind": "save",
+    "label": "main_river_natural_slot3",
+    "slot": 3,
+    "seconds": 5
+  },
+  {
+    "kind": "stoprecord",
+    "label": "main_sidequest_record_end",
+    "seconds": 1
+  },
+  {
+    "kind": "record",
+    "label": "main_river_guitar",
+    "seconds": 180
+  },
+  {
+    "kind": "goto",
+    "label": "main_boy_approach",
+    "x": 303.2,
+    "seconds": 20
+  },
+  {
+    "kind": "key",
+    "label": "main_boy_sit",
+    "keys": "E",
+    "seconds": 0.12
+  },
+  {
+    "kind": "key",
+    "label": "main_boy_introduction_inputs",
+    "keys": "E",
+    "seconds": 0.12
+  }
+]

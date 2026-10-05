@@ -1,0 +1,259 @@
+{
+    "stamp": "2026-10-05T16:15:41.2755154+08:00",
+    "scene": "Scene02_Courtyard",
+    "world": "",
+    "active": "s02_corridor_load",
+    "opening": "free",
+    "target": "",
+    "dialogue": "",
+    "error": "",
+    "time": 1424.5621337890625,
+    "stepTime": 0.0,
+    "focused": true,
+    "paused": false,
+    "locked": false,
+    "canSave": true,
+    "saveReason": "",
+    "queued": 18,
+    "width": 2560,
+    "height": 1440,
+    "runtimes": 1,
+    "players": 1,
+    "cameras": 1,
+    "player": {
+        "x": 0.951797604560852,
+        "y": 7.434999465942383,
+        "z": 0.0
+    },
+    "camera": {
+        "x": 1.6017975807189942,
+        "y": 7.880000114440918,
+        "z": -10.0
+    },
+    "cameraSize": 2.5,
+    "flags": [
+        "CameraDoorRevealed",
+        "CameraTutorialTriggered",
+        "CameraFirstRaised",
+        "DeskEventTriggered",
+        "ChildShadowSequencePlayed",
+        "SprintUnlocked",
+        "OverallsUnlocked",
+        "CorridorRemarkShown",
+        "ChildShadowFollowupPlayed",
+        "DistortedCorridorStarted",
+        "ParentShadowEventPlayed",
+        "Scene01GateOpened",
+        "Scene01NewspaperTaken",
+        "Scene01IDHolderTaken",
+        "Scene01MemoryFlashPlayed",
+        "Scene01GateKeyCollected"
+    ],
+    "texts": [
+        "走廊好像不一样了。",
+        "追上阴影"
+    ],
+    "hotspots": [
+        {
+            "path": "Environment/MasterBedroomInterior/Lamp_Placeholder",
+            "type": "DialogueInteractable",
+            "prompt": "[E] 调查",
+            "position": {
+                "x": 65.44999694824219,
+                "y": 1.6399999856948853,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/Floor01/DarkFog_Placeholder",
+            "type": "Scene02ReturnInteractable",
+            "prompt": "",
+            "position": {
+                "x": 10.399999618530274,
+                "y": 2.0999999046325685,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/Floor01/BrokenLamp_Placeholder",
+            "type": "DialogueInteractable",
+            "prompt": "[E] 调查",
+            "position": {
+                "x": -6.0,
+                "y": 1.909999966621399,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/MasterBedroomInterior/Bed_Placeholder",
+            "type": "DialogueInteractable",
+            "prompt": "[E] 调查",
+            "position": {
+                "x": 70.93599700927735,
+                "y": 0.9100000262260437,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/MasterBedroomInterior/CameraItem_Placeholder",
+            "type": "ItemPickupInteractable",
+            "prompt": "",
+            "position": {
+                "x": 74.83599853515625,
+                "y": 1.9600000381469727,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/Floor01/LockedLivingRoom_Placeholder",
+            "type": "RoomTransitionInteractable",
+            "prompt": "[E] 开门",
+            "position": {
+                "x": -1.2000000476837159,
+                "y": 1.7070000171661378,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/Floor01/DirtyPhoto_Placeholder",
+            "type": "FileArchiveInteractable",
+            "prompt": "[E] 调查",
+            "position": {
+                "x": -9.0,
+                "y": 2.049999952316284,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/HiddenBedroomArea/HiddenBedroom_Wardrobe",
+            "type": "PanelInteractable",
+            "prompt": "[E] 调查",
+            "position": {
+                "x": 129.0,
+                "y": 1.899999976158142,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Gameplay/Scene02_Midgame/DistortedCorridorArea/ThreeDoor_Right",
+            "type": "PuzzleDoorInteractable",
+            "prompt": "",
+            "position": {
+                "x": 17.5,
+                "y": 8.15999984741211,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Gameplay/Scene02_Midgame/DistortedCorridorArea/ThreeDoor_Left",
+            "type": "PuzzleDoorInteractable",
+            "prompt": "",
+            "position": {
+                "x": 12.5,
+                "y": 8.15999984741211,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/MasterBedroomInterior/Wardrobe_Placeholder",
+            "type": "DialogueInteractable",
+            "prompt": "[E] 调查",
+            "position": {
+                "x": 67.20999908447266,
+                "y": 1.3600000143051148,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/MasterBedroomInterior/Cabinet_Placeholder",
+            "type": "DialogueInteractable",
+            "prompt": "[E] 调查",
+            "position": {
+                "x": 74.43112182617188,
+                "y": 0.9900000095367432,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/Floor01/BackGate_Placeholder",
+            "type": "SceneReturnInteractable",
+            "prompt": "[E] 返回",
+            "position": {
+                "x": -13.800000190734864,
+                "y": 1.5773999691009522,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Gameplay/Scene02_Midgame/DistortedCorridorArea/ThreeDoor_Middle",
+            "type": "PuzzleDoorInteractable",
+            "prompt": "",
+            "position": {
+                "x": 15.0,
+                "y": 8.15999984741211,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/HiddenBedroomArea/HiddenBedroom_Desk",
+            "type": "PanelInteractable",
+            "prompt": "[E] 调查",
+            "position": {
+                "x": 136.85000610351563,
+                "y": 1.399999976158142,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/Floor01/StairsUp_InteractZone",
+            "type": "RoomTransitionInteractable",
+            "prompt": "[E] 上楼",
+            "position": {
+                "x": 4.099999904632568,
+                "y": 1.600000023841858,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/MasterBedroomInterior/ExitDoor_Point",
+            "type": "RoomTransitionInteractable",
+            "prompt": "[E] Exit",
+            "position": {
+                "x": 63.75400161743164,
+                "y": 2.187700033187866,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/HiddenBedroomArea/HiddenBedroom_Bed",
+            "type": "DialogueInteractable",
+            "prompt": "[E] Talk",
+            "position": {
+                "x": 132.0,
+                "y": 1.100000023841858,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/HiddenBedroomArea/HiddenBedroom_Exit",
+            "type": "RoomTransitionInteractable",
+            "prompt": "[E] 进入 / 返回",
+            "position": {
+                "x": 126.25,
+                "y": 2.200000047683716,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Characters/QiuTian_Placeholder",
+            "type": "DialogueInteractable",
+            "prompt": "[E] 对话",
+            "position": {
+                "x": 9.108000755310059,
+                "y": 1.7899999618530274,
+                "z": 0.0
+            }
+        }
+    ],
+    "buttons": []
+}

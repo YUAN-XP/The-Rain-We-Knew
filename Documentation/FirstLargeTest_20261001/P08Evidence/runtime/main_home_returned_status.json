@@ -1,0 +1,263 @@
+{
+    "stamp": "2026-10-05T16:57:01.7745740+08:00",
+    "scene": "Scene03_Childhood",
+    "world": "",
+    "active": "main_home_returned",
+    "opening": "",
+    "target": "",
+    "dialogue": "",
+    "error": "",
+    "time": 1153.583251953125,
+    "stepTime": 0.0,
+    "focused": true,
+    "paused": false,
+    "locked": false,
+    "canSave": true,
+    "saveReason": "",
+    "queued": 0,
+    "width": 2560,
+    "height": 1440,
+    "runtimes": 1,
+    "players": 1,
+    "cameras": 1,
+    "player": {
+        "x": 15.039505004882813,
+        "y": 31.204999923706056,
+        "z": 0.0
+    },
+    "camera": {
+        "x": 14.510210990905762,
+        "y": 31.899999618530275,
+        "z": -10.0
+    },
+    "cameraSize": 2.5999999046325685,
+    "flags": [
+        "CameraDoorRevealed",
+        "CameraTutorialTriggered",
+        "CameraFirstRaised",
+        "DeskEventTriggered",
+        "ChildShadowSequencePlayed",
+        "SprintUnlocked",
+        "ThreeDoorPuzzleCompleted",
+        "OverallsUnlocked",
+        "CorridorRemarkShown",
+        "ChildShadowFollowupPlayed",
+        "DistortedCorridorStarted",
+        "ParentShadowEventPlayed",
+        "Scene01GateOpened",
+        "Scene01NewspaperTaken",
+        "Scene03Started",
+        "Scene03IntroCompleted",
+        "Scene03PhoneAnswered",
+        "Scene03CameraTaken",
+        "StorytellerGameCompleted",
+        "FishObtained",
+        "CatFed",
+        "GameCoinObtained",
+        "GameCoinSpent",
+        "CameraGentlemanCardObtained",
+        "Scene03StreetReached",
+        "Scene03MazePreludeReached",
+        "LiMeiMessageAccepted",
+        "LiMeiMessageDelivered",
+        "Scene03FishHintShown",
+        "Scene03MazeEntered",
+        "Scene03MazeFirstSwitch",
+        "Scene03MazeCompleted",
+        "Scene03RhythmCompleted",
+        "Scene03RiverSequenceCompleted",
+        "Scene01IDHolderTaken",
+        "Scene01MemoryFlashPlayed",
+        "Scene01GateKeyCollected",
+        "Scene03ReturnedToStreet"
+    ],
+    "texts": [
+        "[E] 离开",
+        "河堤",
+        "回家"
+    ],
+    "hotspots": [
+        {
+            "path": "Environment/ChildhoodStreet/S03_ZhaoHome",
+            "type": "DialogueInteractable",
+            "prompt": "[E] 对话",
+            "position": {
+                "x": 61.0,
+                "y": 30.5,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/ChildhoodStreet/Stage4B_Entry",
+            "type": "Scene03Interactable",
+            "prompt": "[E] 走向河堤",
+            "position": {
+                "x": 108.0,
+                "y": 31.229999542236329,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/ChildhoodStreet/S03_Chess",
+            "type": "Scene03Interactable",
+            "prompt": "[E] 对话",
+            "position": {
+                "x": 26.100000381469728,
+                "y": 31.229999542236329,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/ChildhoodStreet/S03_LiMei",
+            "type": "Scene03Interactable",
+            "prompt": "[E] 对话",
+            "position": {
+                "x": -13.149999618530274,
+                "y": 31.229999542236329,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/ChildhoodStreet/S03_Storyteller",
+            "type": "Scene03Interactable",
+            "prompt": "[E] 旁听一会",
+            "position": {
+                "x": -25.850000381469728,
+                "y": 31.229999542236329,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/ChildhoodStreet/S03_Shop",
+            "type": "DialogueInteractable",
+            "prompt": "[E] 对话",
+            "position": {
+                "x": -5.0,
+                "y": 30.5,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/ChildhoodStreet/S03_Fish",
+            "type": "Scene03Interactable",
+            "prompt": "",
+            "position": {
+                "x": 72.0,
+                "y": 30.5,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Scene03Chapter",
+            "type": "Scene03RiverSequence",
+            "prompt": "",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/ChildhoodStreet/S03_Rings",
+            "type": "Scene03Interactable",
+            "prompt": "[E] 套圈",
+            "position": {
+                "x": 92.80000305175781,
+                "y": 30.5,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/ChildhoodStreet/S03_Puddle",
+            "type": "DialogueInteractable",
+            "prompt": "[E] 对话",
+            "position": {
+                "x": 0.0,
+                "y": 30.5,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/ChildhoodStreet/S03_Bulletin",
+            "type": "Scene03Interactable",
+            "prompt": "[E] 看公告栏",
+            "position": {
+                "x": 87.0,
+                "y": 30.5,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/ChildhoodStreet/Boy_WaitingWithGuitar",
+            "type": "RiverTalkInteractable",
+            "prompt": "",
+            "position": {
+                "x": 33.45679473876953,
+                "y": 31.174997329711915,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/ChildhoodStreet/S03_Gate",
+            "type": "Scene03HomeReturn",
+            "prompt": "[E] 回家吃晚餐",
+            "position": {
+                "x": 15.0,
+                "y": 31.229999542236329,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/ChildhoodStreet/S03_Restaurant",
+            "type": "DialogueInteractable",
+            "prompt": "[E] 对话",
+            "position": {
+                "x": 47.0,
+                "y": 30.5,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/ChildhoodStreet/S03_Cat",
+            "type": "Scene03Interactable",
+            "prompt": "[E] 看看小猫",
+            "position": {
+                "x": 37.0,
+                "y": 30.5,
+                "z": 0.0
+            }
+        }
+    ],
+    "buttons": [],
+    "drags": [],
+    "sliders": [],
+    "mazeOrigin": {
+        "x": 180.0,
+        "y": 70.0,
+        "z": 0.0
+    },
+    "ballWorld": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "boardWorld": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "ballScreen": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "mazeCellSize": 3.200000047683716,
+    "rhythmTime": 291.597412109375,
+    "mazeLayout": 0,
+    "mazeRow": 14,
+    "mazeColumn": 0,
+    "rhythmPhrase": 4,
+    "rhythmRetries": 0,
+    "inMaze": false,
+    "rhythmRunning": false,
+    "basketball": ""
+}

@@ -1,0 +1,77 @@
+{
+    "version": 1,
+    "slot": 1,
+    "savedUtcTicks": 639267829531255225,
+    "playSeconds": 24.34771158127114,
+    "scene": "Scene01_Rain",
+    "actor": "adult",
+    "actorFacing": "right",
+    "position": {
+        "x": -6.010000228881836,
+        "y": -0.09500004351139069,
+        "z": 0.0
+    },
+    "scale": {
+        "x": 0.800000011920929,
+        "y": 1.7999999523162842,
+        "z": 1.0
+    },
+    "cameraPosition": {
+        "x": -5.360000133514404,
+        "y": 0.6499999761581421,
+        "z": -10.0
+    },
+    "planar": false,
+    "followY": false,
+    "lampRaised": false,
+    "cameraAvailable": true,
+    "facing": 1.0,
+    "cameraSize": 3.0,
+    "cameraOffset": 0.0,
+    "cameraX": {
+        "x": -13.0,
+        "y": 31.0
+    },
+    "cameraY": {
+        "x": -10.0,
+        "y": 10.0
+    },
+    "story": {
+        "flags": [],
+        "outfit": 0,
+        "mazeCell": {
+            "x": 14,
+            "y": 0
+        },
+        "hasSchoolPosition": false,
+        "schoolRoom": "",
+        "schoolLocal": {
+            "x": 0.0,
+            "y": 0.0
+        },
+        "schoolFacing": 1.0
+    },
+    "quests": {
+        "currentEvent": 10,
+        "completedEvents": [
+            10
+        ]
+    },
+    "items": [],
+    "files": [],
+    "firstObtained": [],
+    "school": {
+        "present": false,
+        "room": "",
+        "variant": 0,
+        "actor": 0,
+        "phase": 0
+    },
+    "companions": [],
+    "threeDoorProgress": 0,
+    "distortedJoined": false,
+    "courtyardLayoutRevision": 3,
+    "childhoodLayoutRevision": 1,
+    "corridorLampStage": 0,
+    "schoolLayoutRevision": 1
+}

@@ -1,0 +1,22 @@
+{
+  "stamp": "2026-10-05T22:24:09.785403",
+  "phase": "P08",
+  "implementation_and_planned_internal_validation": "complete",
+  "human_art_and_experience_review": "pending user, not replaced by internal validation",
+  "requirements": 121,
+  "source_and_acceptance_unchanged": true,
+  "evidence_missing": 0,
+  "review_local_links": 74,
+  "missing_review_links": [],
+  "native_checks_pass": 14,
+  "native_screenshots": 28,
+  "production_changes": 2,
+  "protected_unchanged": 254,
+  "formal_release_errors": 0,
+  "formal_release_warnings": 487,
+  "user_saves_unchanged": 2,
+  "word_source_unchanged": true,
+  "other_hardware_and_speaker_listening": "not verified",
+  "git_head_unchanged": "a2b42e67f7a29ab3fed5a0a2f373bfdc8a6fec79",
+  "commit_or_push_created": false
+}

@@ -1,0 +1,139 @@
+{
+    "stamp": "2026-10-05T15:33:10.5511959+08:00",
+    "scene": "Scene01_Rain",
+    "world": "",
+    "active": "clean_menu",
+    "opening": "",
+    "target": "",
+    "dialogue": "",
+    "error": "",
+    "time": 112.61061096191406,
+    "stepTime": 0.0030579010490328075,
+    "focused": true,
+    "paused": true,
+    "locked": true,
+    "canSave": false,
+    "saveReason": "当前无法保存：请在自由行动时保存。",
+    "queued": 8,
+    "width": 2560,
+    "height": 1440,
+    "runtimes": 1,
+    "players": 1,
+    "cameras": 1,
+    "player": {
+        "x": -6.010000228881836,
+        "y": -0.09686746448278427,
+        "z": 0.0
+    },
+    "camera": {
+        "x": -6.0,
+        "y": 2.0,
+        "z": -10.0
+    },
+    "cameraSize": 5.0,
+    "flags": [],
+    "texts": [
+        "开始游戏",
+        "设置",
+        "退出游戏",
+        "ProjectMystery"
+    ],
+    "hotspots": [
+        {
+            "path": "Characters/QiuTian_Placeholder",
+            "type": "DialogueInteractable",
+            "prompt": "[E] 对话",
+            "position": {
+                "x": 12.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Gameplay/IDHolder_Point",
+            "type": "IDHolderInteractable",
+            "prompt": "[E] 拾取",
+            "position": {
+                "x": -15.0,
+                "y": -0.699999988079071,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/Puddle_Placeholder",
+            "type": "PuddleReflectionInteractable",
+            "prompt": "[E] 调查",
+            "position": {
+                "x": 0.0,
+                "y": -0.8999999761581421,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/CrowdPlaceholder",
+            "type": "DialogueInteractable",
+            "prompt": "[E] 调查",
+            "position": {
+                "x": -20.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/PoliceCar_Placeholder",
+            "type": "DialogueInteractable",
+            "prompt": "[E] 调查",
+            "position": {
+                "x": 36.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/Mailbox_Placeholder/NewspaperFragment01",
+            "type": "NewspaperFragmentInteractable",
+            "prompt": "[E] 调查",
+            "position": {
+                "x": 28.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/Gate_Placeholder",
+            "type": "GateInteractable",
+            "prompt": "[E] 调查",
+            "position": {
+                "x": 15.0,
+                "y": 1.5,
+                "z": 0.0
+            }
+        }
+    ],
+    "buttons": [
+        {
+            "path": "PersistentRuntime/P07GlobalMenu/开始游戏",
+            "text": "开始游戏",
+            "screen": {
+                "x": 569.5999755859375,
+                "y": 462.9599914550781
+            }
+        },
+        {
+            "path": "PersistentRuntime/P07GlobalMenu/设置",
+            "text": "设置",
+            "screen": {
+                "x": 569.5999755859375,
+                "y": 340.55999755859377
+            }
+        },
+        {
+            "path": "PersistentRuntime/P07GlobalMenu/退出游戏",
+            "text": "退出游戏",
+            "screen": {
+                "x": 569.5999755859375,
+                "y": 218.16000366210938
+            }
+        }
+    ]
+}

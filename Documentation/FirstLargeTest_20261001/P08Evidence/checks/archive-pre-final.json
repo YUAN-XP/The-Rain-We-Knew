@@ -1,0 +1,23 @@
+{
+  "stamp": "2026-10-05T20:50:01.747655",
+  "review_local_links": 55,
+  "missing_review_links": [],
+  "original_recordings_retained": 11,
+  "valid_review_clips": 11,
+  "user_saves_unchanged_before_native_actions": [
+    {
+      "path": "C:\\Users\\31975\\AppData\\LocalLow\\DefaultCompany\\ProjectMystery\\Saves\\slot-01.json",
+      "before": "8f393be01f93f97a67f89c990475ddbba3a841b858b4fb2b09c90762536c23ae",
+      "after": "8f393be01f93f97a67f89c990475ddbba3a841b858b4fb2b09c90762536c23ae"
+    },
+    {
+      "path": "C:\\Users\\31975\\AppData\\LocalLow\\DefaultCompany\\ProjectMystery\\Saves\\slot-02.json",
+      "before": "e12a0002e51d354d4c7c5897fef9165108cf45e2f532bb87d5006a91ac476f8f",
+      "after": "e12a0002e51d354d4c7c5897fef9165108cf45e2f532bb87d5006a91ac476f8f"
+    }
+  ],
+  "editor_state": "Scene01_Rain dirty=False playing=False at 20:41:37",
+  "native_settings_test": "pending firewall dialog handoff",
+  "historical_pre_final_record": true,
+  "superseded_by": "checks/phase-final-verification.json"
+}

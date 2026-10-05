@@ -1,0 +1,121 @@
+{
+    "stamp": "2026-10-05T15:35:55.5572259+08:00",
+    "scene": "Scene01_Rain",
+    "world": "",
+    "active": "puddle_closeup",
+    "opening": "free",
+    "target": "",
+    "dialogue": "",
+    "error": "",
+    "time": 277.6166687011719,
+    "stepTime": 0.004460402298718691,
+    "focused": true,
+    "paused": false,
+    "locked": true,
+    "canSave": false,
+    "saveReason": "当前无法保存：请在自由行动时保存。",
+    "queued": 10,
+    "width": 2560,
+    "height": 1440,
+    "runtimes": 1,
+    "players": 1,
+    "cameras": 1,
+    "player": {
+        "x": -2.0415825843811037,
+        "y": -0.0950000211596489,
+        "z": 0.0
+    },
+    "camera": {
+        "x": -1.641947865486145,
+        "y": 0.6499999761581421,
+        "z": -10.0
+    },
+    "cameraSize": 3.0,
+    "flags": [],
+    "texts": [
+        "雨水中的倒影",
+        "继续 [E / 空格]"
+    ],
+    "hotspots": [
+        {
+            "path": "Gameplay/IDHolder_Point",
+            "type": "IDHolderInteractable",
+            "prompt": "[E] 拾取",
+            "position": {
+                "x": -15.0,
+                "y": -0.699999988079071,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Characters/QiuTian_Placeholder",
+            "type": "DialogueInteractable",
+            "prompt": "[E] 对话",
+            "position": {
+                "x": 12.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/CrowdPlaceholder",
+            "type": "DialogueInteractable",
+            "prompt": "[E] 调查",
+            "position": {
+                "x": -20.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/Puddle_Placeholder",
+            "type": "PuddleReflectionInteractable",
+            "prompt": "[E] 调查",
+            "position": {
+                "x": 0.0,
+                "y": -0.8999999761581421,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/Mailbox_Placeholder/NewspaperFragment01",
+            "type": "NewspaperFragmentInteractable",
+            "prompt": "[E] 调查",
+            "position": {
+                "x": 28.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/PoliceCar_Placeholder",
+            "type": "DialogueInteractable",
+            "prompt": "[E] 调查",
+            "position": {
+                "x": 36.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/Gate_Placeholder",
+            "type": "GateInteractable",
+            "prompt": "[E] 调查",
+            "position": {
+                "x": 15.0,
+                "y": 1.5,
+                "z": 0.0
+            }
+        }
+    ],
+    "buttons": [
+        {
+            "path": "DemoCloseup/PuddleContinue",
+            "text": "继续 [E / 空格]",
+            "screen": {
+                "x": 2022.4000244140625,
+                "y": 93.5999755859375
+            }
+        }
+    ]
+}

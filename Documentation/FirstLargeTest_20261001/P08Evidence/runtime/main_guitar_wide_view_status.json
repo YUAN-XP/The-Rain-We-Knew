@@ -1,0 +1,129 @@
+{
+    "stamp": "2026-10-05T16:52:29.9042859+08:00",
+    "scene": "Scene03_Childhood",
+    "world": "",
+    "active": "main_guitar_wide_view",
+    "opening": "",
+    "target": "",
+    "dialogue": "",
+    "error": "",
+    "time": 881.7133178710938,
+    "stepTime": 0.0,
+    "focused": true,
+    "paused": false,
+    "locked": true,
+    "canSave": false,
+    "saveReason": "当前无法保存：请在自由行动时保存。",
+    "queued": 5,
+    "width": 2560,
+    "height": 1440,
+    "runtimes": 1,
+    "players": 1,
+    "cameras": 1,
+    "player": {
+        "x": 298.8999938964844,
+        "y": 71.20498657226563,
+        "z": 0.0
+    },
+    "camera": {
+        "x": 303.0,
+        "y": 75.62000274658203,
+        "z": -10.0
+    },
+    "cameraSize": 7.099999904632568,
+    "flags": [
+        "CameraDoorRevealed",
+        "CameraTutorialTriggered",
+        "CameraFirstRaised",
+        "DeskEventTriggered",
+        "ChildShadowSequencePlayed",
+        "SprintUnlocked",
+        "ThreeDoorPuzzleCompleted",
+        "OverallsUnlocked",
+        "CorridorRemarkShown",
+        "ChildShadowFollowupPlayed",
+        "DistortedCorridorStarted",
+        "ParentShadowEventPlayed",
+        "Scene01GateOpened",
+        "Scene01NewspaperTaken",
+        "Scene03Started",
+        "Scene03IntroCompleted",
+        "Scene03PhoneAnswered",
+        "Scene03CameraTaken",
+        "StorytellerGameCompleted",
+        "FishObtained",
+        "CatFed",
+        "GameCoinObtained",
+        "GameCoinSpent",
+        "CameraGentlemanCardObtained",
+        "Scene03StreetReached",
+        "Scene03MazePreludeReached",
+        "LiMeiMessageAccepted",
+        "LiMeiMessageDelivered",
+        "Scene03FishHintShown",
+        "Scene03MazeEntered",
+        "Scene03MazeFirstSwitch",
+        "Scene03MazeCompleted",
+        "Scene03RhythmCompleted",
+        "Scene01IDHolderTaken",
+        "Scene01MemoryFlashPlayed",
+        "Scene01GateKeyCollected"
+    ],
+    "texts": [
+        "[E] 离开"
+    ],
+    "hotspots": [
+        {
+            "path": "Scene03Chapter",
+            "type": "Scene03RiverSequence",
+            "prompt": "",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Riverbank/Boy_WaitingWithGuitar",
+            "type": "RiverTalkInteractable",
+            "prompt": "",
+            "position": {
+                "x": 300.20001220703127,
+                "y": 71.19999694824219,
+                "z": 0.0
+            }
+        }
+    ],
+    "buttons": [],
+    "drags": [],
+    "sliders": [],
+    "mazeOrigin": {
+        "x": 180.0,
+        "y": 70.0,
+        "z": 0.0
+    },
+    "ballWorld": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "boardWorld": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "ballScreen": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "mazeCellSize": 3.200000047683716,
+    "rhythmTime": 19.734375,
+    "mazeLayout": 0,
+    "mazeRow": 14,
+    "mazeColumn": 19,
+    "rhythmPhrase": 4,
+    "rhythmRetries": 0,
+    "inMaze": false,
+    "rhythmRunning": false,
+    "basketball": ""
+}

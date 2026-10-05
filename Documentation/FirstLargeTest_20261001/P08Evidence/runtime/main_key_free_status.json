@@ -1,0 +1,127 @@
+{
+    "stamp": "2026-10-05T15:59:52.9954206+08:00",
+    "scene": "Scene01_Rain",
+    "world": "",
+    "active": "main_key_free",
+    "opening": "free",
+    "target": "",
+    "dialogue": "",
+    "error": "",
+    "time": 476.28265380859377,
+    "stepTime": 0.0,
+    "focused": true,
+    "paused": false,
+    "locked": false,
+    "canSave": true,
+    "saveReason": "",
+    "queued": 7,
+    "width": 2560,
+    "height": 1440,
+    "runtimes": 1,
+    "players": 1,
+    "cameras": 1,
+    "player": {
+        "x": 27.387630462646486,
+        "y": -0.0950000211596489,
+        "z": 0.0
+    },
+    "camera": {
+        "x": 28.037614822387697,
+        "y": 0.6499999761581421,
+        "z": -10.0
+    },
+    "cameraSize": 3.0,
+    "flags": [
+        "Scene01NewspaperTaken",
+        "Scene01IDHolderTaken",
+        "Scene01MemoryFlashPlayed",
+        "Scene01GateKeyCollected"
+    ],
+    "texts": [
+        "探索家属院",
+        "报纸碎片一已放入背包"
+    ],
+    "hotspots": [
+        {
+            "path": "Characters/QiuTian_Placeholder",
+            "type": "DialogueInteractable",
+            "prompt": "[E] 对话",
+            "position": {
+                "x": 12.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/GateKey_Placeholder",
+            "type": "GateKeyInteractable",
+            "prompt": "[E] 拾取",
+            "position": {
+                "x": 28.229999542236329,
+                "y": 0.7300000190734863,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/Mailbox_Placeholder/NewspaperFragment01",
+            "type": "NewspaperFragmentInteractable",
+            "prompt": "[E] 调查",
+            "position": {
+                "x": 28.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/Gate_Placeholder",
+            "type": "GateInteractable",
+            "prompt": "[E] Open",
+            "position": {
+                "x": 15.0,
+                "y": 1.5,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/Puddle_Placeholder",
+            "type": "PuddleReflectionInteractable",
+            "prompt": "[E] 调查",
+            "position": {
+                "x": 0.0,
+                "y": -0.8999999761581421,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/CrowdPlaceholder",
+            "type": "DialogueInteractable",
+            "prompt": "[E] 调查",
+            "position": {
+                "x": -20.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Gameplay/IDHolder_Point",
+            "type": "IDHolderInteractable",
+            "prompt": "[E] 拾取",
+            "position": {
+                "x": -15.0,
+                "y": -0.699999988079071,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/PoliceCar_Placeholder",
+            "type": "DialogueInteractable",
+            "prompt": "[E] 调查",
+            "position": {
+                "x": 36.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        }
+    ],
+    "buttons": []
+}

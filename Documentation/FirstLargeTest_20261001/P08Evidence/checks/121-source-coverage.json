@@ -1,0 +1,3287 @@
+{
+  "stamp": "2026-10-05T22:24:09.785403",
+  "requirements": 121,
+  "unique_ids": 121,
+  "source_and_acceptance_changed": 0,
+  "missing_evidence_paths": 0,
+  "final_native_ui": "complete, actual Windows release validation",
+  "internal_implementation_review": "complete with retained stage evidence and relevant P08 regression; not every old boundary case re-executed",
+  "final_human_art_approval": "pending user review, not claimed",
+  "rows": [
+    {
+      "id": "M01",
+      "phase": "P03",
+      "paragraphs": [
+        "P0036",
+        "P0037"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P03Evidence/checks/results.txt",
+        "P03Evidence/checks/edit_audit.txt",
+        "P03Evidence/runtime/01_Reporters_Blocking.jpg",
+        "22_P03阶段报告与人工审计.md",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/rain_sheet.jpg",
+        "P08Evidence/global/courtyard_sheet.jpg"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M02",
+      "phase": "P03",
+      "paragraphs": [
+        "P0038",
+        "P0039"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P03Evidence/checks/results.txt",
+        "P03Evidence/checks/edit_audit.txt",
+        "P03Evidence/runtime/04_Puddle_Revealed.jpg",
+        "22_P03阶段报告与人工审计.md",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/rain_sheet.jpg",
+        "P08Evidence/global/courtyard_sheet.jpg"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M03",
+      "phase": "P03",
+      "paragraphs": [
+        "P0040",
+        "P0041"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P03Evidence/checks/results.txt",
+        "P03Evidence/checks/edit_audit.txt",
+        "P03Evidence/runtime/03_Lamp_Emitter.jpg",
+        "22_P03阶段报告与人工审计.md",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/rain_sheet.jpg",
+        "P08Evidence/global/courtyard_sheet.jpg"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M04",
+      "phase": "P03",
+      "paragraphs": [
+        "P0042",
+        "P0043"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P03Evidence/checks/results.txt",
+        "P03Evidence/checks/edit_audit.txt",
+        "P03Evidence/runtime/02_Bicycle_Grounding.jpg",
+        "22_P03阶段报告与人工审计.md",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/rain_sheet.jpg",
+        "P08Evidence/global/courtyard_sheet.jpg"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M05",
+      "phase": "P03",
+      "paragraphs": [
+        "P0044",
+        "P0045",
+        "P0046"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P03Evidence/checks/results.txt",
+        "P03Evidence/checks/edit_audit.txt",
+        "P03Evidence/runtime/07_Comic_Bang.jpg",
+        "22_P03阶段报告与人工审计.md",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/rain_sheet.jpg",
+        "P08Evidence/global/courtyard_sheet.jpg"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M06",
+      "phase": "P03",
+      "paragraphs": [
+        "P0047",
+        "P0048"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P03Evidence/checks/results.txt",
+        "P03Evidence/checks/edit_audit.txt",
+        "P03Evidence/runtime/10_StairsUp.jpg",
+        "22_P03阶段报告与人工审计.md",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/rain_sheet.jpg",
+        "P08Evidence/global/courtyard_sheet.jpg"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M07",
+      "phase": "P03",
+      "paragraphs": [
+        "P0049",
+        "P0050"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P03Evidence/checks/results.txt",
+        "P03Evidence/checks/edit_audit.txt",
+        "P03Evidence/runtime/08_Photo_Stained.jpg",
+        "22_P03阶段报告与人工审计.md",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/global/courtyard_sheet.jpg",
+        "P08Evidence/global/homes_sheet.jpg",
+        "P08Evidence/runtime/005_main_scene02_return_clean_photo.png",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/rain_sheet.jpg"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计；全Demo延续条款未关闭",
+      "current_status": "本阶段测试通过；P08 全Demo延续条款已复核，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M08",
+      "phase": "P03",
+      "paragraphs": [
+        "P0051",
+        "P0052"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P03Evidence/checks/results.txt",
+        "P03Evidence/checks/edit_audit.txt",
+        "P03Evidence/runtime/12_StairsUpAgain.jpg",
+        "22_P03阶段报告与人工审计.md",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/rain_sheet.jpg",
+        "P08Evidence/global/courtyard_sheet.jpg"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M09",
+      "phase": "P03",
+      "paragraphs": [
+        "P0053",
+        "P0054",
+        "P0055"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P03Evidence/checks/results.txt",
+        "P03Evidence/checks/edit_audit.txt",
+        "P03Evidence/runtime/14_MasterExit.jpg",
+        "22_P03阶段报告与人工审计.md",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/global/checks.txt",
+        "P08Evidence/global/summary.txt",
+        "P08Evidence/global/street_sheet.jpg",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/rain_sheet.jpg",
+        "P08Evidence/global/courtyard_sheet.jpg"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计；全Demo延续条款未关闭",
+      "current_status": "本阶段测试通过；P08 全Demo延续条款已复核，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M10",
+      "phase": "P03",
+      "paragraphs": [
+        "P0056",
+        "P0057"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P03Evidence/checks/results.txt",
+        "P03Evidence/checks/edit_audit.txt",
+        "P03Evidence/runtime/14B_ParentShadows.jpg",
+        "22_P03阶段报告与人工审计.md",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/rain_sheet.jpg",
+        "P08Evidence/global/courtyard_sheet.jpg"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M11",
+      "phase": "P03",
+      "paragraphs": [
+        "P0058",
+        "P0059",
+        "P0060"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P03Evidence/checks/results.txt",
+        "P03Evidence/checks/edit_audit.txt",
+        "P03Evidence/runtime/16_Drawer.jpg",
+        "22_P03阶段报告与人工审计.md",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/rain_sheet.jpg",
+        "P08Evidence/global/courtyard_sheet.jpg"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M12",
+      "phase": "P03",
+      "paragraphs": [
+        "P0061",
+        "P0062"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P03Evidence/checks/results.txt",
+        "P03Evidence/checks/edit_audit.txt",
+        "P03Evidence/runtime/17_HiddenExit_Continuous.jpg",
+        "22_P03阶段报告与人工审计.md",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/rain_sheet.jpg",
+        "P08Evidence/global/courtyard_sheet.jpg"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M13",
+      "phase": "P03",
+      "paragraphs": [
+        "P0063",
+        "P0064"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P03Evidence/checks/results.txt",
+        "P03Evidence/checks/edit_audit.txt",
+        "P03Evidence/runtime/21_ThreeDoors.jpg",
+        "22_P03阶段报告与人工审计.md",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/rain_sheet.jpg",
+        "P08Evidence/global/courtyard_sheet.jpg"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M14",
+      "phase": "P04",
+      "paragraphs": [
+        "P0065",
+        "P0066"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P04Evidence/checks/results.txt",
+        "P04Evidence/checks/home_final_results.txt",
+        "P04Evidence/checks/final_edit_audit.txt",
+        "27_P04阶段报告与人工审计.md",
+        "P04Evidence/runtime/01_HomeInitial.jpg",
+        "P04Evidence/runtime/03_StairBoundary.jpg",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/street_sheet.jpg",
+        "P08Evidence/review/main_river_guitar.mp4",
+        "P08Evidence/review/main_family_photo.mp4"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段内部检查完成，待人工审计",
+      "current_status": "本阶段内部检查完成，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M15",
+      "phase": "P04",
+      "paragraphs": [
+        "P0067",
+        "P0068"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P04Evidence/checks/results.txt",
+        "P04Evidence/checks/home_final_results.txt",
+        "P04Evidence/checks/final_edit_audit.txt",
+        "27_P04阶段报告与人工审计.md",
+        "P04Evidence/runtime/01_HomeInitial.jpg",
+        "P04Evidence/runtime/27B_DevelopedFamilyPhoto.jpg",
+        "P04Evidence/runtime/25_EveningHome.jpg",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/street_sheet.jpg",
+        "P08Evidence/review/main_river_guitar.mp4",
+        "P08Evidence/review/main_family_photo.mp4"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段内部检查完成，待人工审计",
+      "current_status": "本阶段内部检查完成，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M16",
+      "phase": "P04",
+      "paragraphs": [
+        "P0069",
+        "P0070"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P04Evidence/checks/results.txt",
+        "P04Evidence/checks/home_final_results.txt",
+        "P04Evidence/checks/final_edit_audit.txt",
+        "27_P04阶段报告与人工审计.md",
+        "P04Evidence/runtime/03_StairBoundary.jpg",
+        "P04Evidence/runtime/03B_HomeReload.jpg",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/street_sheet.jpg",
+        "P08Evidence/review/main_river_guitar.mp4",
+        "P08Evidence/review/main_family_photo.mp4"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段内部检查完成，待人工审计",
+      "current_status": "本阶段内部检查完成，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M17",
+      "phase": "P04",
+      "paragraphs": [
+        "P0071",
+        "P0072"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P04Evidence/checks/results.txt",
+        "P04Evidence/checks/home_final_results.txt",
+        "P04Evidence/checks/final_edit_audit.txt",
+        "27_P04阶段报告与人工审计.md",
+        "P04Evidence/runtime/02_LivingSupport.jpg",
+        "P04Evidence/runtime/26_TripodPlacement.jpg",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/street_sheet.jpg",
+        "P08Evidence/review/main_river_guitar.mp4",
+        "P08Evidence/review/main_family_photo.mp4"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段内部检查完成，待人工审计",
+      "current_status": "本阶段内部检查完成，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M18",
+      "phase": "P04",
+      "paragraphs": [
+        "P0073",
+        "P0074"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P04Evidence/checks/results.txt",
+        "P04Evidence/checks/home_final_results.txt",
+        "P04Evidence/checks/final_edit_audit.txt",
+        "27_P04阶段报告与人工审计.md",
+        "P04Evidence/runtime/04_StreetGate.jpg",
+        "P04Evidence/runtime/StreetSweep_04.jpg",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/street_sheet.jpg",
+        "P08Evidence/review/main_river_guitar.mp4",
+        "P08Evidence/review/main_family_photo.mp4"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段内部检查完成，待人工审计",
+      "current_status": "本阶段内部检查完成，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M19",
+      "phase": "P04",
+      "paragraphs": [
+        "P0075",
+        "P0076"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P04Evidence/checks/results.txt",
+        "P04Evidence/checks/home_final_results.txt",
+        "P04Evidence/checks/final_edit_audit.txt",
+        "27_P04阶段报告与人工审计.md",
+        "P04Evidence/runtime/05_DogDrinking_Start.jpg",
+        "P04Evidence/runtime/05_DogDrinking.jpg",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/street_sheet.jpg",
+        "P08Evidence/review/main_river_guitar.mp4",
+        "P08Evidence/review/main_family_photo.mp4"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段内部检查完成，待人工审计",
+      "current_status": "本阶段内部检查完成，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M20",
+      "phase": "P04",
+      "paragraphs": [
+        "P0077",
+        "P0078"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P04Evidence/checks/results.txt",
+        "P04Evidence/checks/home_final_results.txt",
+        "P04Evidence/checks/final_edit_audit.txt",
+        "27_P04阶段报告与人工审计.md",
+        "P04Evidence/runtime/StreetSweep_01.jpg",
+        "P04Evidence/runtime/StreetSweep_02.jpg",
+        "P04Evidence/runtime/StreetSweep_05.jpg",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/street_sheet.jpg",
+        "P08Evidence/review/main_river_guitar.mp4",
+        "P08Evidence/review/main_family_photo.mp4"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段内部检查完成，待人工审计",
+      "current_status": "本阶段内部检查完成，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M21",
+      "phase": "P04",
+      "paragraphs": [
+        "P0079",
+        "P0080"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P04Evidence/checks/results.txt",
+        "P04Evidence/checks/home_final_results.txt",
+        "P04Evidence/checks/final_edit_audit.txt",
+        "27_P04阶段报告与人工审计.md",
+        "P04Evidence/runtime/06_Storytelling_Start.jpg",
+        "P04Evidence/runtime/06_Storytelling.jpg",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/street_sheet.jpg",
+        "P08Evidence/review/main_river_guitar.mp4",
+        "P08Evidence/review/main_family_photo.mp4"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段内部检查完成，待人工审计",
+      "current_status": "本阶段内部检查完成，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M22",
+      "phase": "P04",
+      "paragraphs": [
+        "P0081",
+        "P0082",
+        "P0083",
+        "P0084"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P04Evidence/checks/results.txt",
+        "P04Evidence/checks/home_final_results.txt",
+        "P04Evidence/checks/final_edit_audit.txt",
+        "27_P04阶段报告与人工审计.md",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/street_sheet.jpg",
+        "P08Evidence/review/main_river_guitar.mp4",
+        "P08Evidence/review/main_family_photo.mp4"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段内部检查完成，待人工审计",
+      "current_status": "本阶段内部检查完成，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M23",
+      "phase": "P04",
+      "paragraphs": [
+        "P0085",
+        "P0086"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P04Evidence/checks/results.txt",
+        "P04Evidence/checks/home_final_results.txt",
+        "P04Evidence/checks/final_edit_audit.txt",
+        "27_P04阶段报告与人工审计.md",
+        "P04Evidence/runtime/09_ChessNeighbors_Start.jpg",
+        "P04Evidence/runtime/StreetSweep_05.jpg",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/street_sheet.jpg",
+        "P08Evidence/review/main_river_guitar.mp4",
+        "P08Evidence/review/main_family_photo.mp4"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段内部检查完成，待人工审计",
+      "current_status": "本阶段内部检查完成，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M24",
+      "phase": "P04",
+      "paragraphs": [
+        "P0087",
+        "P0088"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P04Evidence/checks/results.txt",
+        "P04Evidence/checks/home_final_results.txt",
+        "P04Evidence/checks/final_edit_audit.txt",
+        "27_P04阶段报告与人工审计.md",
+        "P04Evidence/runtime/09_ChessNeighbors_Start.jpg",
+        "P04Evidence/runtime/09_ChessNeighbors.jpg",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/street_sheet.jpg",
+        "P08Evidence/review/main_river_guitar.mp4",
+        "P08Evidence/review/main_family_photo.mp4"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段内部检查完成，待人工审计",
+      "current_status": "本阶段内部检查完成，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M25",
+      "phase": "P04",
+      "paragraphs": [
+        "P0089",
+        "P0090"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P04Evidence/checks/results.txt",
+        "P04Evidence/checks/home_final_results.txt",
+        "P04Evidence/checks/final_edit_audit.txt",
+        "27_P04阶段报告与人工审计.md",
+        "P04Evidence/runtime/StreetSweep_07.jpg",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/street_sheet.jpg",
+        "P08Evidence/review/main_river_guitar.mp4",
+        "P08Evidence/review/main_family_photo.mp4"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段内部检查完成，待人工审计",
+      "current_status": "本阶段内部检查完成，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M26",
+      "phase": "P04",
+      "paragraphs": [
+        "P0091",
+        "P0092"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P04Evidence/checks/results.txt",
+        "P04Evidence/checks/home_final_results.txt",
+        "P04Evidence/checks/final_edit_audit.txt",
+        "27_P04阶段报告与人工审计.md",
+        "P04Evidence/runtime/11_Fishing_Start.jpg",
+        "P04Evidence/runtime/11_Fishing.jpg",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/street_sheet.jpg",
+        "P08Evidence/review/main_river_guitar.mp4",
+        "P08Evidence/review/main_family_photo.mp4"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段内部检查完成，待人工审计",
+      "current_status": "本阶段内部检查完成，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M27",
+      "phase": "P04",
+      "paragraphs": [
+        "P0093",
+        "P0094"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P04Evidence/checks/results.txt",
+        "P04Evidence/checks/home_final_results.txt",
+        "P04Evidence/checks/final_edit_audit.txt",
+        "27_P04阶段报告与人工审计.md",
+        "P04Evidence/runtime/StreetSweep_15.jpg",
+        "P04Evidence/runtime/StreetSweep_17.jpg",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/street_sheet.jpg",
+        "P08Evidence/review/main_river_guitar.mp4",
+        "P08Evidence/review/main_family_photo.mp4"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段内部检查完成，待人工审计",
+      "current_status": "本阶段内部检查完成，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M28",
+      "phase": "P04",
+      "paragraphs": [
+        "P0095",
+        "P0096"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P04Evidence/checks/results.txt",
+        "P04Evidence/checks/home_final_results.txt",
+        "P04Evidence/checks/final_edit_audit.txt",
+        "27_P04阶段报告与人工审计.md",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/street_sheet.jpg",
+        "P08Evidence/review/main_river_guitar.mp4",
+        "P08Evidence/review/main_family_photo.mp4"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段内部检查完成，待人工审计",
+      "current_status": "本阶段内部检查完成，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M29",
+      "phase": "P04",
+      "paragraphs": [
+        "P0097",
+        "P0098"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P04Evidence/checks/results.txt",
+        "P04Evidence/checks/home_final_results.txt",
+        "P04Evidence/checks/final_edit_audit.txt",
+        "27_P04阶段报告与人工审计.md",
+        "P04Evidence/runtime/16_RiverArrival.jpg",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/street_sheet.jpg",
+        "P08Evidence/review/main_river_guitar.mp4",
+        "P08Evidence/review/main_family_photo.mp4"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段内部检查完成，待人工审计",
+      "current_status": "本阶段内部检查完成，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M30",
+      "phase": "P04",
+      "paragraphs": [
+        "P0099",
+        "P0100"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P04Evidence/checks/results.txt",
+        "P04Evidence/checks/home_final_results.txt",
+        "P04Evidence/checks/final_edit_audit.txt",
+        "27_P04阶段报告与人工审计.md",
+        "P04Evidence/runtime/16B_RiverTreeBoundary.jpg",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/street_sheet.jpg",
+        "P08Evidence/review/main_river_guitar.mp4",
+        "P08Evidence/review/main_family_photo.mp4"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段内部检查完成，待人工审计",
+      "current_status": "本阶段内部检查完成，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M31",
+      "phase": "P04",
+      "paragraphs": [
+        "P0101",
+        "P0102"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P04Evidence/checks/results.txt",
+        "P04Evidence/checks/home_final_results.txt",
+        "P04Evidence/checks/final_edit_audit.txt",
+        "27_P04阶段报告与人工审计.md",
+        "P04Evidence/runtime/18_GuitarStart.jpg",
+        "P04Evidence/runtime/18B_GuitarPlaying.jpg",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/street_sheet.jpg",
+        "P08Evidence/review/main_river_guitar.mp4",
+        "P08Evidence/review/main_family_photo.mp4"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段内部检查完成，待人工审计",
+      "current_status": "本阶段内部检查完成，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M32",
+      "phase": "P04",
+      "paragraphs": [
+        "P0103",
+        "P0104"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P04Evidence/checks/results.txt",
+        "P04Evidence/checks/home_final_results.txt",
+        "P04Evidence/checks/final_edit_audit.txt",
+        "27_P04阶段报告与人工审计.md",
+        "P04Evidence/runtime/19_RiverWide.jpg",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/street_sheet.jpg",
+        "P08Evidence/review/main_river_guitar.mp4",
+        "P08Evidence/review/main_family_photo.mp4"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段内部检查完成，待人工审计",
+      "current_status": "本阶段内部检查完成，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M33",
+      "phase": "P04",
+      "paragraphs": [
+        "P0105",
+        "P0106"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P04Evidence/checks/results.txt",
+        "P04Evidence/checks/home_final_results.txt",
+        "P04Evidence/checks/final_edit_audit.txt",
+        "27_P04阶段报告与人工审计.md",
+        "P04Evidence/runtime/20_ZhaoStays.jpg",
+        "P04Evidence/runtime/22_FreeStreetReturn.jpg",
+        "P04Evidence/runtime/24_OptionalStreetCollection.jpg",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/street_sheet.jpg",
+        "P08Evidence/review/main_river_guitar.mp4",
+        "P08Evidence/review/main_family_photo.mp4"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段内部检查完成，待人工审计",
+      "current_status": "本阶段内部检查完成，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M34",
+      "phase": "P04",
+      "paragraphs": [
+        "P0107",
+        "P0108"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P04Evidence/checks/results.txt",
+        "P04Evidence/checks/home_final_results.txt",
+        "P04Evidence/checks/final_edit_audit.txt",
+        "27_P04阶段报告与人工审计.md",
+        "P04Evidence/runtime/26_TripodPlacement.jpg",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/street_sheet.jpg",
+        "P08Evidence/review/main_river_guitar.mp4",
+        "P08Evidence/review/main_family_photo.mp4"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段内部检查完成，待人工审计",
+      "current_status": "本阶段内部检查完成，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M35",
+      "phase": "P04",
+      "paragraphs": [
+        "P0109",
+        "P0110"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P04Evidence/checks/results.txt",
+        "P04Evidence/checks/home_final_results.txt",
+        "P04Evidence/checks/final_edit_audit.txt",
+        "27_P04阶段报告与人工审计.md",
+        "P04Evidence/runtime/27_FamilyViewfinder.jpg",
+        "P04Evidence/runtime/27B_DevelopedFamilyPhoto.jpg",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/street_sheet.jpg",
+        "P08Evidence/review/main_river_guitar.mp4",
+        "P08Evidence/review/main_family_photo.mp4"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段内部检查完成，待人工审计",
+      "current_status": "本阶段内部检查完成，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M36",
+      "phase": "P04",
+      "paragraphs": [
+        "P0111",
+        "P0112"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P04Evidence/checks/results.txt",
+        "P04Evidence/checks/home_final_results.txt",
+        "P04Evidence/checks/final_edit_audit.txt",
+        "27_P04阶段报告与人工审计.md",
+        "P04Evidence/runtime/28_ReturnLivingFirst.jpg",
+        "P04Evidence/runtime/29_ReturnLivingReload.jpg",
+        "P04Evidence/runtime/31_ReturnLivingReentry.jpg",
+        "P04Evidence/runtime/32_ReturnReentryReload.jpg",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/street_sheet.jpg",
+        "P08Evidence/review/main_river_guitar.mp4",
+        "P08Evidence/review/main_family_photo.mp4"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段内部检查完成，待人工审计",
+      "current_status": "本阶段内部检查完成，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M37",
+      "phase": "P05",
+      "paragraphs": [
+        "P0113",
+        "P0114"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P05Evidence/checks/part0/results.txt",
+        "P05Evidence/checks/part3/results.txt",
+        "31_P05阶段报告与人工审计.md",
+        "P05Evidence/review.html",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/checks.txt",
+        "P08Evidence/global/school_1_sheet.jpg",
+        "P08Evidence/review/main_school_chase.mp4"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M38",
+      "phase": "P05",
+      "paragraphs": [
+        "P0115",
+        "P0116"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P05Evidence/checks/part0/results.txt",
+        "31_P05阶段报告与人工审计.md",
+        "P05Evidence/review.html",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/checks.txt",
+        "P08Evidence/global/school_1_sheet.jpg",
+        "P08Evidence/review/main_school_chase.mp4"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M39",
+      "phase": "P05",
+      "paragraphs": [
+        "P0117",
+        "P0118",
+        "P0119"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P05Evidence/checks/part1/results.txt",
+        "P05Evidence/checks/part3/results.txt",
+        "P05Evidence/checks/part8/results.txt",
+        "P05Evidence/checks/part9/results.txt",
+        "31_P05阶段报告与人工审计.md",
+        "P05Evidence/review.html",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/checks.txt",
+        "P08Evidence/global/school_1_sheet.jpg",
+        "P08Evidence/review/main_school_chase.mp4"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M40",
+      "phase": "P05",
+      "paragraphs": [
+        "P0120",
+        "P0121"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P05Evidence/checks/part1/results.txt",
+        "P05Evidence/checks/part2/results.txt",
+        "31_P05阶段报告与人工审计.md",
+        "P05Evidence/review.html",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/checks.txt",
+        "P08Evidence/global/school_1_sheet.jpg",
+        "P08Evidence/review/main_school_chase.mp4"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M41",
+      "phase": "P05",
+      "paragraphs": [
+        "P0122",
+        "P0123"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P05Evidence/checks/part4/results.txt",
+        "P05Evidence/checks/part5/results.txt",
+        "P05Evidence/checks/part8/results.txt",
+        "31_P05阶段报告与人工审计.md",
+        "P05Evidence/review.html",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/checks.txt",
+        "P08Evidence/global/school_1_sheet.jpg",
+        "P08Evidence/review/main_school_chase.mp4"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M42",
+      "phase": "P05",
+      "paragraphs": [
+        "P0124",
+        "P0125"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P05Evidence/checks/part1/results.txt",
+        "31_P05阶段报告与人工审计.md",
+        "P05Evidence/review.html",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/checks.txt",
+        "P08Evidence/global/school_1_sheet.jpg",
+        "P08Evidence/review/main_school_chase.mp4"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M43",
+      "phase": "P05",
+      "paragraphs": [
+        "P0126",
+        "P0127"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P05Evidence/checks/part4/results.txt",
+        "P05Evidence/checks/part5/results.txt",
+        "31_P05阶段报告与人工审计.md",
+        "P05Evidence/review.html",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/checks.txt",
+        "P08Evidence/global/school_1_sheet.jpg",
+        "P08Evidence/review/main_school_chase.mp4"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M44",
+      "phase": "P05",
+      "paragraphs": [
+        "P0128",
+        "P0129"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P05Evidence/checks/part1/results.txt",
+        "P05Evidence/checks/part4/results.txt",
+        "P05Evidence/checks/part7/results.txt",
+        "31_P05阶段报告与人工审计.md",
+        "P05Evidence/review.html",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/checks.txt",
+        "P08Evidence/global/school_1_sheet.jpg",
+        "P08Evidence/review/main_school_chase.mp4"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M45",
+      "phase": "P05",
+      "paragraphs": [
+        "P0130",
+        "P0131"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P05Evidence/checks/part1/results.txt",
+        "31_P05阶段报告与人工审计.md",
+        "P05Evidence/review.html",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/checks.txt",
+        "P08Evidence/global/school_1_sheet.jpg",
+        "P08Evidence/review/main_school_chase.mp4"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M46",
+      "phase": "P05",
+      "paragraphs": [
+        "P0132",
+        "P0133"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P05Evidence/checks/part1/results.txt",
+        "P05Evidence/checks/part4/results.txt",
+        "31_P05阶段报告与人工审计.md",
+        "P05Evidence/review.html",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/checks.txt",
+        "P08Evidence/global/school_1_sheet.jpg",
+        "P08Evidence/review/main_school_chase.mp4"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M47",
+      "phase": "P05",
+      "paragraphs": [
+        "P0134",
+        "P0135"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P05Evidence/checks/part4/results.txt",
+        "P05Evidence/checks/part8/results.txt",
+        "31_P05阶段报告与人工审计.md",
+        "P05Evidence/review.html",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/checks.txt",
+        "P08Evidence/global/school_1_sheet.jpg",
+        "P08Evidence/review/main_school_chase.mp4"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M48",
+      "phase": "P05",
+      "paragraphs": [
+        "P0136",
+        "P0137"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P05Evidence/checks/part2/results.txt",
+        "P05Evidence/checks/part4/results.txt",
+        "P05Evidence/checks/part7/results.txt",
+        "31_P05阶段报告与人工审计.md",
+        "P05Evidence/review.html",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/checks.txt",
+        "P08Evidence/global/school_1_sheet.jpg",
+        "P08Evidence/review/main_school_chase.mp4"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M49",
+      "phase": "P05",
+      "paragraphs": [
+        "P0138",
+        "P0139"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P05Evidence/checks/part1/results.txt",
+        "31_P05阶段报告与人工审计.md",
+        "P05Evidence/review.html",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/checks.txt",
+        "P08Evidence/global/school_1_sheet.jpg",
+        "P08Evidence/review/main_school_chase.mp4"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M50",
+      "phase": "P05",
+      "paragraphs": [
+        "P0140",
+        "P0141"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P05Evidence/checks/part1/results.txt",
+        "P05Evidence/checks/part2/results.txt",
+        "P05Evidence/checks/part4/results.txt",
+        "P05Evidence/checks/part6/results.txt",
+        "31_P05阶段报告与人工审计.md",
+        "P05Evidence/review.html",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/checks.txt",
+        "P08Evidence/global/school_1_sheet.jpg",
+        "P08Evidence/review/main_school_chase.mp4"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M51",
+      "phase": "P05",
+      "paragraphs": [
+        "P0142",
+        "P0143"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P05Evidence/checks/part4/results.txt",
+        "P05Evidence/checks/part7/results.txt",
+        "31_P05阶段报告与人工审计.md",
+        "P05Evidence/review.html",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/checks.txt",
+        "P08Evidence/global/school_1_sheet.jpg",
+        "P08Evidence/review/main_school_chase.mp4"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M52",
+      "phase": "P05",
+      "paragraphs": [
+        "P0144",
+        "P0145"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P05Evidence/checks/part4/results.txt",
+        "P05Evidence/checks/part6/results.txt",
+        "P05Evidence/checks/part7/results.txt",
+        "31_P05阶段报告与人工审计.md",
+        "P05Evidence/review.html",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/checks.txt",
+        "P08Evidence/global/school_1_sheet.jpg",
+        "P08Evidence/review/main_school_chase.mp4"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M53",
+      "phase": "P05",
+      "paragraphs": [
+        "P0146",
+        "P0147"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P05Evidence/checks/part2/results.txt",
+        "P05Evidence/checks/part4/results.txt",
+        "P05Evidence/checks/part7/results.txt",
+        "31_P05阶段报告与人工审计.md",
+        "P05Evidence/review.html",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/checks.txt",
+        "P08Evidence/global/school_1_sheet.jpg",
+        "P08Evidence/review/main_school_chase.mp4"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M54",
+      "phase": "P05",
+      "paragraphs": [
+        "P0148",
+        "P0149",
+        "P0150"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P05Evidence/checks/part2/results.txt",
+        "P05Evidence/checks/part4/results.txt",
+        "31_P05阶段报告与人工审计.md",
+        "P05Evidence/review.html",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/checks.txt",
+        "P08Evidence/global/school_1_sheet.jpg",
+        "P08Evidence/review/main_school_chase.mp4"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M55",
+      "phase": "P05",
+      "paragraphs": [
+        "P0151",
+        "P0152"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P05Evidence/checks/part1/results.txt",
+        "P05Evidence/checks/part2/results.txt",
+        "P05Evidence/checks/part4/results.txt",
+        "P05Evidence/checks/part8/results.txt",
+        "31_P05阶段报告与人工审计.md",
+        "P05Evidence/review.html",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/checks.txt",
+        "P08Evidence/global/school_1_sheet.jpg",
+        "P08Evidence/review/main_school_chase.mp4"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M56",
+      "phase": "P05",
+      "paragraphs": [
+        "P0153",
+        "P0154",
+        "P0155"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P05Evidence/checks/part4/results.txt",
+        "P05Evidence/checks/part5/results.txt",
+        "P05Evidence/checks/part8/results.txt",
+        "31_P05阶段报告与人工审计.md",
+        "P05Evidence/review.html",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/checks.txt",
+        "P08Evidence/global/school_1_sheet.jpg",
+        "P08Evidence/review/main_school_chase.mp4"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M57",
+      "phase": "P05",
+      "paragraphs": [
+        "P0156",
+        "P0157"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P05Evidence/checks/part2/results.txt",
+        "P05Evidence/checks/part4/results.txt",
+        "P05Evidence/checks/part8/results.txt",
+        "31_P05阶段报告与人工审计.md",
+        "P05Evidence/review.html",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/checks.txt",
+        "P08Evidence/global/school_1_sheet.jpg",
+        "P08Evidence/review/main_school_chase.mp4"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M58",
+      "phase": "P05",
+      "paragraphs": [
+        "P0158",
+        "P0159"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P05Evidence/checks/part2/results.txt",
+        "P05Evidence/checks/part4/results.txt",
+        "31_P05阶段报告与人工审计.md",
+        "P05Evidence/review.html",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/checks.txt",
+        "P08Evidence/global/school_1_sheet.jpg",
+        "P08Evidence/review/main_school_chase.mp4"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M59",
+      "phase": "P05",
+      "paragraphs": [
+        "P0160",
+        "P0161"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P05Evidence/checks/part2/results.txt",
+        "P05Evidence/checks/part4/results.txt",
+        "P05Evidence/checks/part7/results.txt",
+        "P05Evidence/checks/part8/results.txt",
+        "31_P05阶段报告与人工审计.md",
+        "P05Evidence/review.html",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/checks.txt",
+        "P08Evidence/global/school_1_sheet.jpg",
+        "P08Evidence/review/main_school_chase.mp4"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M60",
+      "phase": "P06",
+      "paragraphs": [
+        "P0162",
+        "P0163"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "35_P06阶段报告与人工审计.md",
+        "P06Evidence/review.html",
+        "P06Evidence/checks/final-check-summary.json",
+        "P06Evidence/runtime/flow0/00b_ComicFourFramesAndText.jpg",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/review/main_ending_memories.mp4",
+        "P08Evidence/review/main_ending_focus_valid.mp4",
+        "P08Evidence/runtime/051_main_full_demo_completed.png"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "P06 本轮内部检查完成，待人工审计",
+      "current_status": "P06 本轮内部检查完成，待人工审计",
+      "human_acceptance": "待用户本轮人工审计"
+    },
+    {
+      "id": "M61",
+      "phase": "P05",
+      "paragraphs": [
+        "P0164",
+        "P0165"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P05Evidence/checks/part4/results.txt",
+        "P05Evidence/checks/part5/results.txt",
+        "P05Evidence/checks/part8/results.txt",
+        "31_P05阶段报告与人工审计.md",
+        "P05Evidence/review.html",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/checks.txt",
+        "P08Evidence/global/school_1_sheet.jpg",
+        "P08Evidence/review/main_school_chase.mp4"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M62",
+      "phase": "P05",
+      "paragraphs": [
+        "P0166",
+        "P0167"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P05Evidence/checks/part4/results.txt",
+        "P05Evidence/checks/part5/results.txt",
+        "P05Evidence/checks/part8/results.txt",
+        "31_P05阶段报告与人工审计.md",
+        "P05Evidence/review.html",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/global/checks.txt",
+        "P08Evidence/global/school_1_sheet.jpg",
+        "P08Evidence/review/main_school_chase.mp4"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "M63",
+      "phase": "P06",
+      "paragraphs": [
+        "P0168",
+        "P0169"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "35_P06阶段报告与人工审计.md",
+        "P06Evidence/review.html",
+        "P06Evidence/checks/final-check-summary.json",
+        "P06Evidence/runtime/flow0/03_LeftApproach.jpg",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/review/main_ending_memories.mp4",
+        "P08Evidence/review/main_ending_focus_valid.mp4",
+        "P08Evidence/runtime/051_main_full_demo_completed.png"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "P06 本轮内部检查完成，待人工审计",
+      "current_status": "P06 本轮内部检查完成，待人工审计",
+      "human_acceptance": "待用户本轮人工审计"
+    },
+    {
+      "id": "M64",
+      "phase": "P06",
+      "paragraphs": [
+        "P0170",
+        "P0171"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "35_P06阶段报告与人工审计.md",
+        "P06Evidence/review.html",
+        "P06Evidence/checks/final-check-summary.json",
+        "P06Evidence/runtime/flow1/10_MailReadable.jpg",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/review/main_ending_memories.mp4",
+        "P08Evidence/review/main_ending_focus_valid.mp4",
+        "P08Evidence/runtime/051_main_full_demo_completed.png"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "P06 本轮内部检查完成，待人工审计",
+      "current_status": "P06 本轮内部检查完成，待人工审计",
+      "human_acceptance": "待用户本轮人工审计"
+    },
+    {
+      "id": "M65",
+      "phase": "P06",
+      "paragraphs": [
+        "P0172",
+        "P0173"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "35_P06阶段报告与人工审计.md",
+        "P06Evidence/review.html",
+        "P06Evidence/checks/final-check-summary.json",
+        "P06Evidence/runtime/flow1/11_HandoverPortraits.jpg",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/review/main_ending_memories.mp4",
+        "P08Evidence/review/main_ending_focus_valid.mp4",
+        "P08Evidence/runtime/051_main_full_demo_completed.png"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "P06 本轮内部检查完成，待人工审计",
+      "current_status": "P06 本轮内部检查完成，待人工审计",
+      "human_acceptance": "待用户本轮人工审计"
+    },
+    {
+      "id": "M66",
+      "phase": "P06",
+      "paragraphs": [
+        "P0174",
+        "P0175"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "35_P06阶段报告与人工审计.md",
+        "P06Evidence/review.html",
+        "P06Evidence/checks/final-check-summary.json",
+        "P06Evidence/runtime/flow1/13_BoardingThreeEntries.jpg",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/review/main_ending_memories.mp4",
+        "P08Evidence/review/main_ending_focus_valid.mp4",
+        "P08Evidence/runtime/051_main_full_demo_completed.png"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "P06 本轮内部检查完成，待人工审计",
+      "current_status": "P06 本轮内部检查完成，待人工审计",
+      "human_acceptance": "待用户本轮人工审计"
+    },
+    {
+      "id": "M67",
+      "phase": "P06",
+      "paragraphs": [
+        "P0176",
+        "P0177"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "35_P06阶段报告与人工审计.md",
+        "P06Evidence/review.html",
+        "P06Evidence/checks/final-check-summary.json",
+        "P06Evidence/runtime/flow4/CarOutfit_SchoolUniform.jpg",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/review/main_ending_memories.mp4",
+        "P08Evidence/review/main_ending_focus_valid.mp4",
+        "P08Evidence/runtime/051_main_full_demo_completed.png"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "P06 本轮内部检查完成，待人工审计",
+      "current_status": "P06 本轮内部检查完成，待人工审计",
+      "human_acceptance": "待用户本轮人工审计"
+    },
+    {
+      "id": "M68",
+      "phase": "P06",
+      "paragraphs": [
+        "P0178",
+        "P0179"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/Evidence/portrait-rules-check.txt",
+        "35_P06阶段报告与人工审计.md",
+        "P06Evidence/review.html",
+        "P06Evidence/checks/final-check-summary.json",
+        "P06Evidence/runtime/flow1/21_PendantTransfer.jpg",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/review/main_ending_memories.mp4",
+        "P08Evidence/review/main_ending_focus_valid.mp4",
+        "P08Evidence/runtime/051_main_full_demo_completed.png"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "P06 本轮内部检查完成，待人工审计",
+      "current_status": "P06 本轮内部检查完成，待人工审计",
+      "human_acceptance": "待用户本轮人工审计"
+    },
+    {
+      "id": "M69",
+      "phase": "P06",
+      "paragraphs": [
+        "P0180",
+        "P0181"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "35_P06阶段报告与人工审计.md",
+        "P06Evidence/review.html",
+        "P06Evidence/checks/final-check-summary.json",
+        "P06Evidence/runtime/flow1/25_GurneyPassing.jpg",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/review/main_ending_memories.mp4",
+        "P08Evidence/review/main_ending_focus_valid.mp4",
+        "P08Evidence/runtime/051_main_full_demo_completed.png"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "P06 本轮内部检查完成，待人工审计",
+      "current_status": "P06 本轮内部检查完成，待人工审计",
+      "human_acceptance": "待用户本轮人工审计"
+    },
+    {
+      "id": "M70",
+      "phase": "P06",
+      "paragraphs": [
+        "P0182",
+        "P0183"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "35_P06阶段报告与人工审计.md",
+        "P06Evidence/review.html",
+        "P06Evidence/checks/final-check-summary.json",
+        "P06Evidence/runtime/flow1/32_WardRightBoundary.jpg",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/review/main_ending_memories.mp4",
+        "P08Evidence/review/main_ending_focus_valid.mp4",
+        "P08Evidence/runtime/051_main_full_demo_completed.png"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "P06 本轮内部检查完成，待人工审计",
+      "current_status": "P06 本轮内部检查完成，待人工审计",
+      "human_acceptance": "待用户本轮人工审计"
+    },
+    {
+      "id": "M71",
+      "phase": "P06",
+      "paragraphs": [
+        "P0184",
+        "P0185"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "35_P06阶段报告与人工审计.md",
+        "P06Evidence/review.html",
+        "P06Evidence/checks/final-check-summary.json",
+        "P06Evidence/runtime/flow1/33_CurtainedCloseup.jpg",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/review/main_ending_memories.mp4",
+        "P08Evidence/review/main_ending_focus_valid.mp4",
+        "P08Evidence/runtime/051_main_full_demo_completed.png"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "P06 本轮内部检查完成，待人工审计",
+      "current_status": "P06 本轮内部检查完成，待人工审计",
+      "human_acceptance": "待用户本轮人工审计"
+    },
+    {
+      "id": "M72",
+      "phase": "P06",
+      "paragraphs": [
+        "P0186",
+        "P0187"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/Evidence/portrait-rules-check.txt",
+        "35_P06阶段报告与人工审计.md",
+        "P06Evidence/review.html",
+        "P06Evidence/checks/final-check-summary.json",
+        "P06Evidence/runtime/flow1/34_DoctorNoPortrait.jpg",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/review/main_ending_memories.mp4",
+        "P08Evidence/review/main_ending_focus_valid.mp4",
+        "P08Evidence/runtime/051_main_full_demo_completed.png"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "P06 本轮内部检查完成，待人工审计",
+      "current_status": "P06 本轮内部检查完成，待人工审计",
+      "human_acceptance": "待用户本轮人工审计"
+    },
+    {
+      "id": "M73",
+      "phase": "P06",
+      "paragraphs": [
+        "P0188",
+        "P0189",
+        "P0190"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "35_P06阶段报告与人工审计.md",
+        "P06Evidence/review.html",
+        "P06Evidence/checks/final-check-summary.json",
+        "P06Evidence/runtime/flow1/37_DemoCompleteMenu.jpg",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/review/main_ending_memories.mp4",
+        "P08Evidence/review/main_ending_focus_valid.mp4",
+        "P08Evidence/runtime/051_main_full_demo_completed.png"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "P06 本轮内部检查完成，待人工审计",
+      "current_status": "P06 本轮内部检查完成，待人工审计",
+      "human_acceptance": "待用户本轮人工审计"
+    },
+    {
+      "id": "A01",
+      "phase": "P02",
+      "paragraphs": [
+        "P0003",
+        "P0004"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "19_P02最终候选详细报告_2026-10-04.md",
+        "18_P02证据索引与版本核对.md",
+        "stage_handoff_status.json",
+        "stage_source_hashes.json",
+        "gameplay_boundary_audit.json",
+        "stage_close_cleanup.json",
+        "P02Evidence/PV20r2_review.html",
+        "P02Evidence/idle_cycles_PV20r2/idle_cycle_report.json",
+        "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\PV20r2_foreground_validation.json",
+        "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\PV20r2_standalone_validation.json",
+        "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\PV20r2_cold_coverage_validation.json",
+        "P06Evidence/checks/camera-results.txt",
+        "35_P06阶段报告与人工审计.md",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/025_s03_camera_verified.png",
+        "P08Evidence/runtime/032_outfits_overalls_equipped.png",
+        "P08Evidence/runtime/034_outfits_uniform_equipped.png"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "P02 内部验证完成，用户授权阶段存档",
+      "current_status": "P02 内部验证完成，用户授权阶段存档",
+      "human_acceptance": "2026-10-04 用户明确授权存档并进入P03；未追加声称人工审美复查"
+    },
+    {
+      "id": "A02",
+      "phase": "P02",
+      "paragraphs": [
+        "P0005",
+        "P0006",
+        "P0007"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "19_P02最终候选详细报告_2026-10-04.md",
+        "18_P02证据索引与版本核对.md",
+        "stage_handoff_status.json",
+        "stage_source_hashes.json",
+        "gameplay_boundary_audit.json",
+        "stage_close_cleanup.json",
+        "P02Evidence/PV20r2_review.html",
+        "P02Evidence/idle_cycles_PV20r2/idle_cycle_report.json",
+        "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\PV20r2_foreground_validation.json",
+        "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\PV20r2_standalone_validation.json",
+        "D:\\游戏设计\\Codex工作区\\work\\2026-10-03-P02\\PV20r2_cold_coverage_validation.json",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/review/main_river_guitar.mp4",
+        "P08Evidence/runtime/012_main_river_follow_visual.png"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "P02 内部验证完成，用户授权阶段存档",
+      "current_status": "P02 内部验证完成，用户授权阶段存档",
+      "human_acceptance": "2026-10-04 用户明确授权存档并进入P03；未追加声称人工审美复查"
+    },
+    {
+      "id": "A03",
+      "phase": "P04",
+      "paragraphs": [
+        "P0008",
+        "P0009",
+        "P0010"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P04Evidence/checks/results.txt",
+        "P04Evidence/checks/home_final_results.txt",
+        "P04Evidence/checks/final_edit_audit.txt",
+        "27_P04阶段报告与人工审计.md",
+        "P04Evidence/runtime/05_DogDrinking.jpg",
+        "P04Evidence/runtime/06_Storytelling.jpg",
+        "P04Evidence/runtime/09_ChessNeighbors.jpg",
+        "P04Evidence/runtime/10_SleepingCat.jpg",
+        "P04Evidence/runtime/11_Fishing.jpg",
+        "P04Evidence/runtime/19_RiverWide.jpg",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/global/street_sheet.jpg",
+        "P08Evidence/runtime/008_reverse_branches_both_completed.png"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段内部检查完成，待人工审计",
+      "current_status": "本阶段内部检查完成，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "A04",
+      "phase": "P05",
+      "paragraphs": [
+        "P0011",
+        "P0012",
+        "P0013",
+        "P0014",
+        "P0015",
+        "P0016"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "P05Evidence/checks/part4/results.txt",
+        "P05Evidence/checks/part7/results.txt",
+        "P05Evidence/checks/part8/results.txt",
+        "31_P05阶段报告与人工审计.md",
+        "P05Evidence/review.html",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/global/school_2_sheet.jpg",
+        "P08Evidence/global/school_3_sheet.jpg"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "A05",
+      "phase": "P06",
+      "paragraphs": [
+        "P0017"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "35_P06阶段报告与人工审计.md",
+        "P06Evidence/review.html",
+        "P06Evidence/checks/final-check-summary.json",
+        "P06Evidence/runtime/flow5/PursuerLeftGrounded.jpg",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/review/main_school_chase.mp4"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "P06 本轮内部检查完成，待人工审计",
+      "current_status": "P06 本轮内部检查完成，待人工审计",
+      "human_acceptance": "待用户本轮人工审计"
+    },
+    {
+      "id": "U01",
+      "phase": "P01",
+      "paragraphs": [
+        "P0019",
+        "P0020",
+        "P0021",
+        "P0022",
+        "P0023"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/Evidence/reach-check.txt",
+        "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/Evidence/runtime-rules-check.txt",
+        "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/Evidence/bedroom-reach-check.txt",
+        "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/Evidence/prompt-geometry.txt",
+        "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/Evidence/P01_U01_final.png",
+        "Evidence/reach-check.txt",
+        "Evidence/runtime-rules-check.txt",
+        "Evidence/bedroom-reach-check.txt",
+        "Evidence/P01SceneChecks/coverage-runtime.txt",
+        "Evidence/P01PromptChecks/results.txt",
+        "Evidence/P01InteractionBindings/applied.txt",
+        "07_P01阶段验收与人工存档.md",
+        "Evidence/Continuous/visual-review.json",
+        "Evidence/MainChain/main-chain-complete-status.txt",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/prompt-render/results.txt",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/runtime/main_full_demo_completed_status.json"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "P01范围已存档，后续章节按原阶段实施",
+      "current_status": "P01已存档；P03至P08全Demo推广与相关内部复核完成，待人工审计",
+      "human_acceptance": "用户同意进入P02；未单独记录逐项人工审计结果"
+    },
+    {
+      "id": "U02",
+      "phase": "P01",
+      "paragraphs": [
+        "P0024",
+        "P0025",
+        "P0026",
+        "P0027"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/Evidence/identity-check.txt",
+        "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/Evidence/portrait-rules-check.txt",
+        "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/Evidence/P01_U02_XiaoPengSpeaking.png",
+        "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/Evidence/P01_U02_QiuTianSpeaking.png",
+        "Evidence/identity-check.txt",
+        "Evidence/portrait-rules-check.txt",
+        "07_P01阶段验收与人工存档.md",
+        "Evidence/Continuous/visual-review.json",
+        "Evidence/MainChain/main-chain-complete-status.txt",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/runtime/main_full_demo_completed_status.json"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "P01范围已存档，后续章节按原阶段实施",
+      "current_status": "P01已存档；P03至P08全Demo推广与相关内部复核完成，待人工审计",
+      "human_acceptance": "用户同意进入P02；未单独记录逐项人工审计结果"
+    },
+    {
+      "id": "U03",
+      "phase": "P07",
+      "paragraphs": [
+        "P0028",
+        "P0029",
+        "P0030",
+        "P0031",
+        "P0032"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "39_P07阶段报告与人工审计.md",
+        "40_P07验证与问题闭环.md",
+        "P07Evidence/checks/suite-summary.json",
+        "P07Evidence/checks/source-version.json",
+        "P07Evidence/runtime/ending/results.txt",
+        "P07Evidence/runtime/ending/37_DemoCompleteMenu.jpg",
+        "P07Evidence/runtime/completion/results.txt",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/runtime/main_full_demo_completed_status.json"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "G01",
+      "phase": "P01",
+      "paragraphs": [
+        "P0033",
+        "P0034",
+        "P0035"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/Evidence/spatial-master-before.txt",
+        "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/Evidence/P01_S02_master_measurement.png",
+        "Evidence/P01SceneChecks/matrix.txt",
+        "Evidence/P01Transitions/results.txt",
+        "07_P01阶段验收与人工存档.md",
+        "Evidence/Continuous/visual-review.json",
+        "Evidence/MainChain/main-chain-complete-status.txt",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/global/checks.txt",
+        "P08Evidence/global/summary.txt"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "P01范围已存档，后续章节按原阶段实施",
+      "current_status": "P01已存档；P03至P08全Demo推广与相关内部复核完成，待人工审计",
+      "human_acceptance": "用户同意进入P02；未单独记录逐项人工审计结果"
+    },
+    {
+      "id": "G02",
+      "phase": "P01",
+      "paragraphs": [
+        "P0191"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "Evidence/P01Transitions/results.txt",
+        "Evidence/P01RestoreEdges/results.txt",
+        "07_P01阶段验收与人工存档.md",
+        "Evidence/Continuous/visual-review.json",
+        "Evidence/MainChain/main-chain-complete-status.txt",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/global/checks.txt",
+        "P08Evidence/global/summary.txt"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "P01范围已存档，后续章节按原阶段实施",
+      "current_status": "P01已存档；P03至P08全Demo推广与相关内部复核完成，待人工审计",
+      "human_acceptance": "用户同意进入P02；未单独记录逐项人工审计结果"
+    },
+    {
+      "id": "G03",
+      "phase": "P07",
+      "paragraphs": [
+        "P0192",
+        "P0193"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "39_P07阶段报告与人工审计.md",
+        "40_P07验证与问题闭环.md",
+        "P07Evidence/checks/suite-summary.json",
+        "P07Evidence/checks/source-version.json",
+        "P07Evidence/checks/visible-language-review.json",
+        "P07Evidence/checks/settings-and-language-rules.txt",
+        "P07Evidence/runtime/interface/results.txt",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/global/checks.txt",
+        "P08Evidence/global/summary.txt"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "N01",
+      "phase": "P07",
+      "paragraphs": [
+        "P0195",
+        "P0196",
+        "P0197",
+        "P0198",
+        "P0199",
+        "P0200",
+        "P0201",
+        "P0202",
+        "P0203",
+        "P0204",
+        "P0205",
+        "P0206",
+        "P0207",
+        "P0208",
+        "P0209",
+        "P0210",
+        "P0211",
+        "P0212",
+        "P0213",
+        "P0214",
+        "P0215"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "39_P07阶段报告与人工审计.md",
+        "40_P07验证与问题闭环.md",
+        "P07Evidence/checks/suite-summary.json",
+        "P07Evidence/checks/source-version.json",
+        "P07Evidence/runtime/interface/results.txt",
+        "P07Evidence/checks/acquisition-rules.txt",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/runtime/main_full_demo_completed_status.json",
+        "P08Evidence/checks/native-window-final.json",
+        "P08Evidence/native/capture_manifest.json",
+        "P08Evidence/checks/user-saves-after-native.json"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "N02",
+      "phase": "P07",
+      "paragraphs": [
+        "P0216",
+        "P0217",
+        "P0218",
+        "P0219",
+        "P0220",
+        "P0221",
+        "P0222",
+        "P0223"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "39_P07阶段报告与人工审计.md",
+        "40_P07验证与问题闭环.md",
+        "P07Evidence/checks/suite-summary.json",
+        "P07Evidence/checks/source-version.json",
+        "P07Evidence/checks/native-validation.json",
+        "P07Evidence/checks/settings-and-language-rules.txt",
+        "P07Evidence/native/12_Restart_Audio.png",
+        "P07Evidence/native/13_Restart_Resolution.png",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/checks/P07_settings_language_rules.txt",
+        "P08Evidence/checks/release-build.txt",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/runtime/main_full_demo_completed_status.json",
+        "P08Evidence/checks/native-window-final.json",
+        "P08Evidence/native/capture_manifest.json",
+        "P08Evidence/checks/user-saves-after-native.json"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "N03",
+      "phase": "P01",
+      "paragraphs": [
+        "P0224",
+        "P0225",
+        "P0226"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "Evidence/P01Verification/persistence-runtime.txt",
+        "Evidence/ColdCrossChapter/write-report.txt",
+        "Evidence/ColdCrossChapter/read-report.txt",
+        "Evidence/P01Recovery/results.txt",
+        "Evidence/native-menu-check.json",
+        "07_P01阶段验收与人工存档.md",
+        "Evidence/Continuous/visual-review.json",
+        "Evidence/MainChain/main-chain-complete-status.txt",
+        "39_P07阶段报告与人工审计.md",
+        "40_P07验证与问题闭环.md",
+        "P07Evidence/checks/suite-summary.json",
+        "P07Evidence/checks/source-version.json",
+        "P07Evidence/runtime/interface/results.txt",
+        "P07Evidence/checks/acquisition-rules.txt",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/cold-read/read-report.txt",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/runtime/main_full_demo_completed_status.json"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "N04",
+      "phase": "P07",
+      "paragraphs": [
+        "P0227",
+        "P0228",
+        "P0229",
+        "P0230"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "39_P07阶段报告与人工审计.md",
+        "40_P07验证与问题闭环.md",
+        "P07Evidence/checks/suite-summary.json",
+        "P07Evidence/checks/source-version.json",
+        "P07Evidence/runtime/interface/results.txt",
+        "P07Evidence/runtime/opening/results.txt",
+        "P07Evidence/runtime/interface/OpeningNormal.mp4",
+        "P07Evidence/runtime/opening/RiseNormal.mp4",
+        "P07Evidence/runtime/opening/RiseSlow.mp4",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/runtime/main_full_demo_completed_status.json",
+        "P08Evidence/checks/native-window-final.json",
+        "P08Evidence/native/capture_manifest.json",
+        "P08Evidence/checks/user-saves-after-native.json"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "N05",
+      "phase": "P01",
+      "paragraphs": [
+        "P0231",
+        "P0232",
+        "P0233",
+        "P0234",
+        "P0235",
+        "P0236",
+        "P0237",
+        "P0238"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "Evidence/P01RestoreEdges/results.txt",
+        "Evidence/ColdCrossChapter/read-report.txt",
+        "07_P01阶段验收与人工存档.md",
+        "Evidence/Continuous/visual-review.json",
+        "Evidence/MainChain/main-chain-complete-status.txt",
+        "39_P07阶段报告与人工审计.md",
+        "40_P07验证与问题闭环.md",
+        "P07Evidence/checks/suite-summary.json",
+        "P07Evidence/checks/source-version.json",
+        "P07Evidence/runtime/tasks/results.txt",
+        "P07Evidence/runtime/tasks/TaskTransitions.mp4",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/runtime/main_full_demo_completed_status.json"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "N06",
+      "phase": "P07",
+      "paragraphs": [
+        "P0263",
+        "P0264",
+        "P0265",
+        "P0266",
+        "P0267",
+        "P0268",
+        "P0269"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "39_P07阶段报告与人工审计.md",
+        "40_P07验证与问题闭环.md",
+        "P07Evidence/checks/suite-summary.json",
+        "P07Evidence/checks/source-version.json",
+        "P07Evidence/runtime/interface/results.txt",
+        "P07Evidence/checks/acquisition-rules.txt",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/runtime/main_full_demo_completed_status.json"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "N07",
+      "phase": "P07",
+      "paragraphs": [
+        "P0270",
+        "P0271",
+        "P0272",
+        "P0273",
+        "P0274",
+        "P0275"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "39_P07阶段报告与人工审计.md",
+        "40_P07验证与问题闭环.md",
+        "P07Evidence/checks/suite-summary.json",
+        "P07Evidence/checks/source-version.json",
+        "P07Evidence/runtime/interface/results.txt",
+        "P07Evidence/checks/acquisition-rules.txt",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/runtime/main_full_demo_completed_status.json"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "N08",
+      "phase": "P01",
+      "paragraphs": [
+        "P0276",
+        "P0277",
+        "P0278",
+        "P0279",
+        "P0280",
+        "P0281",
+        "P0282",
+        "P0283"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/Evidence/runtime-rules-check.txt",
+        "Evidence/P01Verification/persistence-runtime.txt",
+        "Evidence/P01SceneChecks/matrix.txt",
+        "Evidence/P01Recovery/results.txt",
+        "Evidence/native-menu-check.json",
+        "07_P01阶段验收与人工存档.md",
+        "Evidence/Continuous/visual-review.json",
+        "Evidence/MainChain/main-chain-complete-status.txt",
+        "39_P07阶段报告与人工审计.md",
+        "40_P07验证与问题闭环.md",
+        "P07Evidence/checks/suite-summary.json",
+        "P07Evidence/checks/source-version.json",
+        "P07Evidence/runtime/interface/results.txt",
+        "P07Evidence/checks/acquisition-rules.txt",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/runtime/main_full_demo_completed_status.json"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "Q01",
+      "phase": "P07",
+      "paragraphs": [
+        "P0239"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "39_P07阶段报告与人工审计.md",
+        "40_P07验证与问题闭环.md",
+        "P07Evidence/checks/suite-summary.json",
+        "P07Evidence/checks/source-version.json",
+        "P07Evidence/runtime/tasks/results.txt",
+        "P07Evidence/runtime/tasks/TaskTransitions.mp4",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/runtime/main_full_demo_completed_status.json"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "Q02",
+      "phase": "P07",
+      "paragraphs": [
+        "P0240"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "39_P07阶段报告与人工审计.md",
+        "40_P07验证与问题闭环.md",
+        "P07Evidence/checks/suite-summary.json",
+        "P07Evidence/checks/source-version.json",
+        "P07Evidence/runtime/tasks/results.txt",
+        "P07Evidence/runtime/tasks/TaskTransitions.mp4",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/runtime/main_full_demo_completed_status.json"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "Q03",
+      "phase": "P07",
+      "paragraphs": [
+        "P0241"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "39_P07阶段报告与人工审计.md",
+        "40_P07验证与问题闭环.md",
+        "P07Evidence/checks/suite-summary.json",
+        "P07Evidence/checks/source-version.json",
+        "P07Evidence/runtime/tasks/results.txt",
+        "P07Evidence/runtime/tasks/TaskTransitions.mp4",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/runtime/main_full_demo_completed_status.json"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "Q04",
+      "phase": "P07",
+      "paragraphs": [
+        "P0242"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "39_P07阶段报告与人工审计.md",
+        "40_P07验证与问题闭环.md",
+        "P07Evidence/checks/suite-summary.json",
+        "P07Evidence/checks/source-version.json",
+        "P07Evidence/runtime/tasks/results.txt",
+        "P07Evidence/runtime/tasks/TaskTransitions.mp4",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/runtime/main_full_demo_completed_status.json"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "Q05",
+      "phase": "P07",
+      "paragraphs": [
+        "P0243"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "39_P07阶段报告与人工审计.md",
+        "40_P07验证与问题闭环.md",
+        "P07Evidence/checks/suite-summary.json",
+        "P07Evidence/checks/source-version.json",
+        "P07Evidence/runtime/tasks/results.txt",
+        "P07Evidence/runtime/tasks/TaskTransitions.mp4",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/runtime/main_full_demo_completed_status.json"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "Q06",
+      "phase": "P07",
+      "paragraphs": [
+        "P0244"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "39_P07阶段报告与人工审计.md",
+        "40_P07验证与问题闭环.md",
+        "P07Evidence/checks/suite-summary.json",
+        "P07Evidence/checks/source-version.json",
+        "P07Evidence/runtime/tasks/results.txt",
+        "P07Evidence/runtime/tasks/TaskTransitions.mp4",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/runtime/main_full_demo_completed_status.json"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "Q07",
+      "phase": "P07",
+      "paragraphs": [
+        "P0245"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "39_P07阶段报告与人工审计.md",
+        "40_P07验证与问题闭环.md",
+        "P07Evidence/checks/suite-summary.json",
+        "P07Evidence/checks/source-version.json",
+        "P07Evidence/runtime/tasks/results.txt",
+        "P07Evidence/runtime/tasks/TaskTransitions.mp4",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/runtime/main_full_demo_completed_status.json"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "Q08",
+      "phase": "P07",
+      "paragraphs": [
+        "P0246"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "39_P07阶段报告与人工审计.md",
+        "40_P07验证与问题闭环.md",
+        "P07Evidence/checks/suite-summary.json",
+        "P07Evidence/checks/source-version.json",
+        "P07Evidence/runtime/tasks/results.txt",
+        "P07Evidence/runtime/tasks/TaskTransitions.mp4",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/runtime/main_full_demo_completed_status.json"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "Q09",
+      "phase": "P07",
+      "paragraphs": [
+        "P0247"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "39_P07阶段报告与人工审计.md",
+        "40_P07验证与问题闭环.md",
+        "P07Evidence/checks/suite-summary.json",
+        "P07Evidence/checks/source-version.json",
+        "P07Evidence/runtime/tasks/results.txt",
+        "P07Evidence/runtime/tasks/TaskTransitions.mp4",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/runtime/main_full_demo_completed_status.json"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "Q10",
+      "phase": "P07",
+      "paragraphs": [
+        "P0248"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "39_P07阶段报告与人工审计.md",
+        "40_P07验证与问题闭环.md",
+        "P07Evidence/checks/suite-summary.json",
+        "P07Evidence/checks/source-version.json",
+        "P07Evidence/runtime/tasks/results.txt",
+        "P07Evidence/runtime/tasks/TaskTransitions.mp4",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/runtime/main_full_demo_completed_status.json"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "Q11",
+      "phase": "P07",
+      "paragraphs": [
+        "P0249"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "39_P07阶段报告与人工审计.md",
+        "40_P07验证与问题闭环.md",
+        "P07Evidence/checks/suite-summary.json",
+        "P07Evidence/checks/source-version.json",
+        "P07Evidence/runtime/tasks/results.txt",
+        "P07Evidence/runtime/tasks/TaskTransitions.mp4",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/runtime/main_full_demo_completed_status.json"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "Q12",
+      "phase": "P07",
+      "paragraphs": [
+        "P0250"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "39_P07阶段报告与人工审计.md",
+        "40_P07验证与问题闭环.md",
+        "P07Evidence/checks/suite-summary.json",
+        "P07Evidence/checks/source-version.json",
+        "P07Evidence/runtime/tasks/results.txt",
+        "P07Evidence/runtime/tasks/TaskTransitions.mp4",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/runtime/main_full_demo_completed_status.json"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "Q13",
+      "phase": "P07",
+      "paragraphs": [
+        "P0251"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "39_P07阶段报告与人工审计.md",
+        "40_P07验证与问题闭环.md",
+        "P07Evidence/checks/suite-summary.json",
+        "P07Evidence/checks/source-version.json",
+        "P07Evidence/runtime/tasks/results.txt",
+        "P07Evidence/runtime/tasks/TaskTransitions.mp4",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/runtime/main_full_demo_completed_status.json"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "Q14",
+      "phase": "P07",
+      "paragraphs": [
+        "P0252"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "39_P07阶段报告与人工审计.md",
+        "40_P07验证与问题闭环.md",
+        "P07Evidence/checks/suite-summary.json",
+        "P07Evidence/checks/source-version.json",
+        "P07Evidence/runtime/tasks/results.txt",
+        "P07Evidence/runtime/tasks/TaskTransitions.mp4",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/runtime/main_full_demo_completed_status.json"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "Q15",
+      "phase": "P07",
+      "paragraphs": [
+        "P0253"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "39_P07阶段报告与人工审计.md",
+        "40_P07验证与问题闭环.md",
+        "P07Evidence/checks/suite-summary.json",
+        "P07Evidence/checks/source-version.json",
+        "P07Evidence/runtime/tasks/results.txt",
+        "P07Evidence/runtime/tasks/TaskTransitions.mp4",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/runtime/main_full_demo_completed_status.json"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "Q16",
+      "phase": "P07",
+      "paragraphs": [
+        "P0254"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "39_P07阶段报告与人工审计.md",
+        "40_P07验证与问题闭环.md",
+        "P07Evidence/checks/suite-summary.json",
+        "P07Evidence/checks/source-version.json",
+        "P07Evidence/runtime/tasks/results.txt",
+        "P07Evidence/runtime/tasks/TaskTransitions.mp4",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/runtime/main_full_demo_completed_status.json"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "Q17",
+      "phase": "P07",
+      "paragraphs": [
+        "P0255"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "39_P07阶段报告与人工审计.md",
+        "40_P07验证与问题闭环.md",
+        "P07Evidence/checks/suite-summary.json",
+        "P07Evidence/checks/source-version.json",
+        "P07Evidence/runtime/tasks/results.txt",
+        "P07Evidence/runtime/tasks/TaskTransitions.mp4",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/runtime/main_full_demo_completed_status.json"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "Q18",
+      "phase": "P07",
+      "paragraphs": [
+        "P0256"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "39_P07阶段报告与人工审计.md",
+        "40_P07验证与问题闭环.md",
+        "P07Evidence/checks/suite-summary.json",
+        "P07Evidence/checks/source-version.json",
+        "P07Evidence/runtime/tasks/results.txt",
+        "P07Evidence/runtime/tasks/TaskTransitions.mp4",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/runtime/main_full_demo_completed_status.json"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "Q19",
+      "phase": "P07",
+      "paragraphs": [
+        "P0257"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "39_P07阶段报告与人工审计.md",
+        "40_P07验证与问题闭环.md",
+        "P07Evidence/checks/suite-summary.json",
+        "P07Evidence/checks/source-version.json",
+        "P07Evidence/runtime/tasks/results.txt",
+        "P07Evidence/runtime/tasks/TaskTransitions.mp4",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/runtime/main_full_demo_completed_status.json"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "Q20",
+      "phase": "P07",
+      "paragraphs": [
+        "P0258"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "39_P07阶段报告与人工审计.md",
+        "40_P07验证与问题闭环.md",
+        "P07Evidence/checks/suite-summary.json",
+        "P07Evidence/checks/source-version.json",
+        "P07Evidence/runtime/tasks/results.txt",
+        "P07Evidence/runtime/tasks/TaskTransitions.mp4",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/runtime/main_full_demo_completed_status.json"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "Q21",
+      "phase": "P07",
+      "paragraphs": [
+        "P0259"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "39_P07阶段报告与人工审计.md",
+        "40_P07验证与问题闭环.md",
+        "P07Evidence/checks/suite-summary.json",
+        "P07Evidence/checks/source-version.json",
+        "P07Evidence/runtime/tasks/results.txt",
+        "P07Evidence/runtime/tasks/TaskTransitions.mp4",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/runtime/main_full_demo_completed_status.json"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "Q22",
+      "phase": "P07",
+      "paragraphs": [
+        "P0260"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "39_P07阶段报告与人工审计.md",
+        "40_P07验证与问题闭环.md",
+        "P07Evidence/checks/suite-summary.json",
+        "P07Evidence/checks/source-version.json",
+        "P07Evidence/runtime/tasks/results.txt",
+        "P07Evidence/runtime/tasks/TaskTransitions.mp4",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/runtime/main_full_demo_completed_status.json"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "Q23",
+      "phase": "P07",
+      "paragraphs": [
+        "P0261"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "39_P07阶段报告与人工审计.md",
+        "40_P07验证与问题闭环.md",
+        "P07Evidence/checks/suite-summary.json",
+        "P07Evidence/checks/source-version.json",
+        "P07Evidence/runtime/tasks/results.txt",
+        "P07Evidence/runtime/tasks/TaskTransitions.mp4",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/runtime/main_full_demo_completed_status.json"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "Q24",
+      "phase": "P07",
+      "paragraphs": [
+        "P0262"
+      ],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "39_P07阶段报告与人工审计.md",
+        "40_P07验证与问题闭环.md",
+        "P07Evidence/checks/suite-summary.json",
+        "P07Evidence/checks/source-version.json",
+        "P07Evidence/runtime/tasks/results.txt",
+        "P07Evidence/runtime/tasks/TaskTransitions.mp4",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/events.txt",
+        "P08Evidence/runtime/main_full_demo_completed_status.json"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "本阶段测试通过，待人工审计",
+      "current_status": "本阶段测试通过，待人工审计",
+      "human_acceptance": "待人工审计"
+    },
+    {
+      "id": "B01",
+      "phase": "P08",
+      "paragraphs": [],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/checks/environment-final-P08.json",
+        "P08Evidence/checks/audio-assets.json",
+        "P08Evidence/review/main_river_guitar.mp4"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "已审计待实施",
+      "current_status": "P08 实现、相关内部复核和最终窗口复测完成；待用户人工审计",
+      "human_acceptance": "未验收"
+    },
+    {
+      "id": "B02",
+      "phase": "P08",
+      "paragraphs": [],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/checks/cleanup-completed.json",
+        "P08Evidence/checks/formal-art-archive.json",
+        "P08Evidence/checks/asset-audit-status.txt"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "已审计待实施",
+      "current_status": "P08 实现、相关内部复核和最终窗口复测完成；待用户人工审计",
+      "human_acceptance": "未验收"
+    },
+    {
+      "id": "B03",
+      "phase": "P08",
+      "paragraphs": [],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/runtime/031_outfits_overalls_three_columns.png",
+        "P08Evidence/runtime/033_outfits_uniform_three_columns.png",
+        "P08Evidence/runtime/004_file_long_text_top.png",
+        "P08Evidence/runtime/005_file_long_text_bottom_native_scroll.png",
+        "P08Evidence/runtime/040_credential_file_true_aspect.png"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "已审计待实施",
+      "current_status": "P08 实现、相关内部复核和最终窗口复测完成；待用户人工审计",
+      "human_acceptance": "未验收"
+    },
+    {
+      "id": "B04",
+      "phase": "P01",
+      "paragraphs": [],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/Evidence/spatial-master-before.txt",
+        "D:/GitHub Desktop/ProjectMystery/ProjectMystery/Documentation/FirstLargeTest_20261001/Evidence/P01_S02_master_measurement.png",
+        "Evidence/P01SceneChecks/matrix.txt",
+        "07_P01阶段验收与人工存档.md",
+        "Evidence/Continuous/visual-review.json",
+        "Evidence/MainChain/main-chain-complete-status.txt",
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/global/checks.txt",
+        "P08Evidence/global/homes_sheet.jpg",
+        "P08Evidence/global/school_3_sheet.jpg"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "P01范围已存档，后续章节按原阶段实施",
+      "current_status": "P01已存档；P03至P08全Demo推广与相关内部复核完成，待人工审计",
+      "human_acceptance": "用户同意进入P02；未单独记录逐项人工审计结果"
+    },
+    {
+      "id": "B05",
+      "phase": "P08",
+      "paragraphs": [],
+      "source_preserved": true,
+      "acceptance_preserved": true,
+      "evidence_paths": [
+        "43_P08全流程验收与原文闭环报告.md",
+        "P08Evidence/checks/protected-final.json",
+        "P08Evidence/review/main_river_guitar.mp4",
+        "P08Evidence/runtime/010_main_guitar_wide_view.png",
+        "P08Evidence/runtime/005_school_basketball_aim.png"
+      ],
+      "all_evidence_exists": true,
+      "prior_status": "已审计待实施",
+      "current_status": "P08 实现、相关内部复核和最终窗口复测完成；待用户人工审计",
+      "human_acceptance": "未验收"
+    }
+  ]
+}

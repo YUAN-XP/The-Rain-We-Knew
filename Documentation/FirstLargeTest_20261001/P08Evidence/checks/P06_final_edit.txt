@@ -1,0 +1,38 @@
+PASS replay cleared after exiting Play Mode
+PASS catalogue references resolve
+PASS P06 catalogue additions have no duplicate keys; baseline catalogue is retained
+PASS approved sprite resolves P06_BedCloseup
+PASS approved sprite resolves P06_WardWide
+PASS approved sprite resolves P06_TransformationComic:0
+PASS approved sprite resolves P06_TransformationComic:1
+PASS approved sprite resolves P06_TransformationComic:2
+PASS approved sprite resolves P06_TransformationComic:3
+PASS approved sprite resolves P06_CarSeated:0
+PASS approved sprite resolves P06_CarSeated:1
+PASS approved sprite resolves P06_CarSeated:2
+PASS approved sprite resolves P06_CarSeated:3
+PASS approved sprite resolves P06_XiangHeads:0
+PASS approved sprite resolves P06_XiangHeads:1
+PASS native approved import settings P06_BedCloseup.png
+PASS native approved import settings P06_BoardingDefault.png
+PASS native approved import settings P06_BoardingOveralls.png
+PASS native approved import settings P06_BoardingSchool.png
+PASS native approved import settings P06_CarSeated.png
+PASS native approved import settings P06_TransformationComic.png
+PASS native approved import settings P06_WardWide.png
+PASS native approved import settings P06_XiangHeads.png
+PASS original visual position retained S03_Camera
+PASS authored interaction point S03_Camera
+PASS distinct sensor size S03_Camera
+PASS original visual position retained S03_Parents
+PASS authored interaction point S03_Parents
+PASS distinct sensor size S03_Parents
+PASS original visual position retained S03_Table
+PASS authored interaction point S03_Table
+PASS distinct sensor size S03_Table
+PASS no test fixture serialized Scene01_Rain.unity
+PASS no test fixture serialized Scene02_Courtyard.unity
+PASS no test fixture serialized Scene03_Childhood.unity
+PASS no test fixture serialized Scene04_School.unity
+PASS no test fixture serialized EndingSequence.unity
+PASS returned to clean original Scene01 Edit Mode

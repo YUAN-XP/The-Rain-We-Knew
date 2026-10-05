@@ -1,0 +1,21 @@
+{
+  "stamp": "2026-10-05T20:17:08.740311",
+  "scope": "environment_only; retain guitar, rest music, narrative and interaction",
+  "deleted_environment_assets": [
+    "Assets/Audio/Stage4BPlaceholder/RainReturn_Placeholder.wav",
+    "Assets/Audio/Stage3APlaceholder/LampBuzz.wav",
+    "Assets/Audio/Stage4APlaceholder/Water.wav",
+    "Assets/Audio/Stage4APlaceholder/Tableware.wav",
+    "Assets/Audio/Stage4APlaceholder/Neighbourhood.wav",
+    "Assets/Audio/Stage4APlaceholder/Cicadas.wav",
+    "Assets/GameData/Ending/Stage6/carLoop.wav",
+    "Assets/GameData/Ending/Stage6/riverLoop.wav",
+    "Assets/GameData/Ending/Stage6/rainLoop.wav"
+  ],
+  "removed_files_and_meta_absent": true,
+  "residual_deleted_clip_references": [],
+  "retained_clips": 24,
+  "audio_listener_settings_changed_in_P08": false,
+  "encoded_review_videos_have_audio": false,
+  "speaker_listening_test": "not independently recorded"
+}

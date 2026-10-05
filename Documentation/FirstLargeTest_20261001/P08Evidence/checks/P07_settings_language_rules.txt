@@ -1,0 +1,14 @@
+PASS production settings defaults to audio with actual slider
+PASS actual slider updates global AudioListener and persistent volume
+PASS zero volume reaches the actual audio listener
+PASS saved volume restored by production startup
+PASS global volume restores normally without deleting guitar clips
+PASS device resolution options unique and descending
+PASS legacy display translated: [E] Talk
+PASS legacy display translated: [E] Enter
+PASS legacy display translated: Gate Key
+PASS legacy display translated: ID Holder
+PASS legacy display translated: Newspaper Fragment 01
+PASS proper title, Bang and specified key labels preserved
+PASS old-save runtime presentation translated without changing item identity
+PASS translation does not rewrite authored IDs or saved content

@@ -1,0 +1,19 @@
+{
+  "stamp": "2026-10-05T22:18:49.264888",
+  "protected_files": 256,
+  "unchanged": 254,
+  "changes": [
+    {
+      "path": "Assets/Scripts/School/SchoolSecurityFinale.cs",
+      "before": "ca21a00780b5878360c2b60a0cfb2a4d694247e6b832ecf35f6f3b5c52f02190",
+      "after": "9113560ea0c9377bd30bab1ab7b81de606ebdef5f1e1af8cbd5ddf3e0ab0a3b9"
+    },
+    {
+      "path": "Assets/Scenes/Scene03_Childhood.unity",
+      "before": "cc2a9890251e353d4647f839e8a26669e7cc1936adcc18b2d86c6eb22c7ed9c2",
+      "after": "f8583ee5cd56055e7cc86822b74013b7dbaef4092defb81e2019e61d78e16ff3"
+    }
+  ],
+  "cold_probe_exactly_restored": true,
+  "unchanged_scope": "PlayerInput, movement speeds, cameras, puzzles, story flags/data, other scenes and ProjectSettings"
+}

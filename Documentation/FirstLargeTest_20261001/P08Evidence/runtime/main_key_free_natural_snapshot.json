@@ -1,0 +1,106 @@
+{
+    "version": 1,
+    "slot": 1,
+    "savedUtcTicks": 639267839929954206,
+    "playSeconds": 267.29611806059259,
+    "scene": "Scene01_Rain",
+    "actor": "adult",
+    "actorFacing": "right",
+    "position": {
+        "x": 27.387630462646486,
+        "y": -0.0950000211596489,
+        "z": 0.0
+    },
+    "scale": {
+        "x": 0.800000011920929,
+        "y": 1.7999999523162842,
+        "z": 1.0
+    },
+    "cameraPosition": {
+        "x": 28.037614822387697,
+        "y": 0.6499999761581421,
+        "z": -10.0
+    },
+    "planar": false,
+    "followY": false,
+    "lampRaised": false,
+    "cameraAvailable": true,
+    "facing": 1.0,
+    "cameraSize": 3.0,
+    "cameraOffset": 0.0,
+    "cameraX": {
+        "x": -13.0,
+        "y": 31.0
+    },
+    "cameraY": {
+        "x": -10.0,
+        "y": 10.0
+    },
+    "story": {
+        "flags": [
+            "Scene01GateKeyCollected",
+            "Scene01IDHolderTaken",
+            "Scene01MemoryFlashPlayed",
+            "Scene01NewspaperTaken"
+        ],
+        "outfit": 0,
+        "mazeCell": {
+            "x": 14,
+            "y": 0
+        },
+        "hasSchoolPosition": false,
+        "schoolRoom": "",
+        "schoolLocal": {
+            "x": 0.0,
+            "y": 0.0
+        },
+        "schoolFacing": 1.0
+    },
+    "quests": {
+        "currentEvent": 30,
+        "completedEvents": [
+            10,
+            30
+        ]
+    },
+    "items": [
+        {
+            "key": "a646b5f57a7482a4092434f4be47dc5c",
+            "id": "id_holder",
+            "displayName": "破旧证件套",
+            "description": "肖鹏破损的证件套。"
+        },
+        {
+            "key": "2d03b7372e5e06d45921ba0e71dc4d06",
+            "id": "newspaper_fragment_01",
+            "displayName": "报纸碎片一",
+            "description": "从旧报纸上撕下的一块碎片。"
+        },
+        {
+            "key": "dbcd2fe04ec022146995d4fb221b54bc",
+            "id": "gate_key",
+            "displayName": "铁门钥匙",
+            "description": "在报纸碎片下面找到的一把旧钥匙。"
+        }
+    ],
+    "files": [],
+    "firstObtained": [
+        "item:gate_key",
+        "item:id_holder",
+        "item:newspaper_fragment_01"
+    ],
+    "school": {
+        "present": false,
+        "room": "",
+        "variant": 0,
+        "actor": 0,
+        "phase": 0
+    },
+    "companions": [],
+    "threeDoorProgress": 0,
+    "distortedJoined": false,
+    "courtyardLayoutRevision": 3,
+    "childhoodLayoutRevision": 1,
+    "corridorLampStage": 0,
+    "schoolLayoutRevision": 1
+}

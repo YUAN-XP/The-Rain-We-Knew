@@ -1,0 +1,931 @@
+{
+    "stamp": "2026-10-05T18:16:56.6866230+08:00",
+    "scene": "Scene04_School",
+    "world": "Memory",
+    "active": "school_office_pre_chase",
+    "opening": "",
+    "target": "School/Memory/StaffOffice/B5_Director",
+    "dialogue": "",
+    "error": "",
+    "room": "StaffOffice",
+    "actor": "Youth",
+    "chase": "Dormant",
+    "route": "None",
+    "fog": "Idle",
+    "ending": "",
+    "locks": [],
+    "coverage1": 0.7325297594070435,
+    "coverage2": 0.7933502197265625,
+    "charge": 0.0,
+    "enemy": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "comic": false,
+    "rubOpen": false,
+    "digits": [],
+    "time": 2285.415771484375,
+    "stepTime": 0.0,
+    "focused": true,
+    "paused": false,
+    "locked": false,
+    "canSave": true,
+    "saveReason": "",
+    "queued": 2,
+    "width": 2560,
+    "height": 1440,
+    "runtimes": 1,
+    "players": 1,
+    "cameras": 1,
+    "player": {
+        "x": 270.9309997558594,
+        "y": 32.855003356933597,
+        "z": 0.0
+    },
+    "camera": {
+        "x": 269.5555114746094,
+        "y": 33.349998474121097,
+        "z": -10.0
+    },
+    "cameraSize": 2.5,
+    "flags": [
+        "CameraDoorRevealed",
+        "CameraTutorialTriggered",
+        "CameraFirstRaised",
+        "DeskEventTriggered",
+        "ChildShadowSequencePlayed",
+        "SprintUnlocked",
+        "ThreeDoorPuzzleCompleted",
+        "Scene03BirthdayKnown",
+        "OverallsUnlocked",
+        "CorridorRemarkShown",
+        "DrawerOpened",
+        "ChildShadowFollowupPlayed",
+        "DistortedCorridorStarted",
+        "ParentShadowEventPlayed",
+        "Scene01GateOpened",
+        "Scene01NewspaperTaken",
+        "Scene03Started",
+        "Scene03IntroCompleted",
+        "Scene03PhoneAnswered",
+        "Scene03CameraTaken",
+        "StorytellerGameCompleted",
+        "FishObtained",
+        "CatFed",
+        "GameCoinObtained",
+        "GameCoinSpent",
+        "CameraGentlemanCardObtained",
+        "Scene03StreetReached",
+        "Scene03MazePreludeReached",
+        "LiMeiMessageAccepted",
+        "LiMeiMessageDelivered",
+        "Scene03FishHintShown",
+        "Scene03MazeEntered",
+        "Scene03MazeFirstSwitch",
+        "Scene03MazeCompleted",
+        "Scene03RhythmCompleted",
+        "Scene03RiverSequenceCompleted",
+        "Scene03ReturnedHome",
+        "Scene03FamilySetupComplete",
+        "Scene03FamilyPhotoTaken",
+        "Scene03Completed",
+        "LivingRoomDoorOpened",
+        "Scene03CameraGentlemanEchoCollected",
+        "OilLampObtained",
+        "Scene02Fragment2Collected",
+        "Scene03ReturnReactionPlayed",
+        "Scene03FileNoticeShown",
+        "Scene03DrawerNoticeShown",
+        "OilLampExhausted",
+        "FogIntroCompleted",
+        "EquipmentVoicePlayed",
+        "EquipmentDoorOpened",
+        "BasketKeyRevealed",
+        "BasketKeyDropped",
+        "BasketKeyCollected",
+        "SchoolUniformOwned",
+        "PencilOwned",
+        "SchoolNameRevealed",
+        "Scene05OpeningPlayed",
+        "SchoolSecurityClueSeen",
+        "SchoolEvidenceObtained",
+        "SchoolYouthConversationCompleted",
+        "SchoolUsbReceived",
+        "SchoolSecurityMemoryOpened",
+        "SchoolMediaPasswordChanged",
+        "SchoolEvidenceSubmitted",
+        "SchoolOfficeHandoffReady",
+        "SchoolCrowdSeen",
+        "Scene01IDHolderTaken",
+        "Scene01MemoryFlashPlayed",
+        "Scene01GateKeyCollected",
+        "Scene03ReturnedToStreet"
+    ],
+    "texts": [
+        "[E] 交谈"
+    ],
+    "hotspots": [
+        {
+            "path": "School/Memory/Class3_2/Class3_2_Back_BtoA",
+            "type": "SchoolPortal",
+            "prompt": "[E] 进入 / 返回",
+            "position": {
+                "x": 201.0,
+                "y": 17.200000762939454,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Floor02/Class3_2_Front_AtoB/Transition",
+            "type": "RoomTransitionInteractable",
+            "prompt": "[E] Enter",
+            "position": {
+                "x": 13.0,
+                "y": 17.200000762939454,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Floor03Right/StaffOffice_Door_AtoB",
+            "type": "SchoolPortal",
+            "prompt": "[E] 进入 / 返回",
+            "position": {
+                "x": 60.0,
+                "y": 33.20000076293945,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Class3_1/Class3_1_Back_BtoA/Transition",
+            "type": "RoomTransitionInteractable",
+            "prompt": "[E] Enter",
+            "position": {
+                "x": 261.0,
+                "y": 17.200000762939454,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Floor03Left/Stair_F03_Roof_Left_AtoB",
+            "type": "SchoolPortal",
+            "prompt": "[E] 楼梯",
+            "position": {
+                "x": 16.0,
+                "y": 33.20000076293945,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Floor02/B5_Crowd/NoticeRight",
+            "type": "SchoolYouthInteractable",
+            "prompt": "[E] 调查",
+            "position": {
+                "x": 21.125,
+                "y": 17.200000762939454,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Floor03Right/Stair_F03_Roof_Right_AtoB",
+            "type": "SchoolPortal",
+            "prompt": "[E] 楼梯",
+            "position": {
+                "x": 70.0,
+                "y": 33.20000076293945,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Floor02/B5_FemaleToiletNotice",
+            "type": "SchoolYouthInteractable",
+            "prompt": "[E] 调查",
+            "position": {
+                "x": 34.33333206176758,
+                "y": 17.200000762939454,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/EquipmentRoom/Equipment_Door_BtoA",
+            "type": "SchoolPortal",
+            "prompt": "[E] 进入 / 返回",
+            "position": {
+                "x": 240.7857208251953,
+                "y": 1.2000000476837159,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/StaffOffice/StaffOffice_Door_BtoA",
+            "type": "SchoolPortal",
+            "prompt": "[E] 进入 / 返回",
+            "position": {
+                "x": 260.875,
+                "y": 33.20000076293945,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Floor03Left/Stair_F02_F03_Left_BtoA/Transition",
+            "type": "RoomTransitionInteractable",
+            "prompt": "[E] Enter",
+            "position": {
+                "x": 4.0,
+                "y": 33.20000076293945,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Class3_1/Class3_1_Front_BtoA/Transition",
+            "type": "RoomTransitionInteractable",
+            "prompt": "[E] Enter",
+            "position": {
+                "x": 275.0,
+                "y": 17.200000762939454,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Floor02/Class3_1_Front_AtoB",
+            "type": "SchoolPortal",
+            "prompt": "[E] 进入 / 返回",
+            "position": {
+                "x": 23.0,
+                "y": 17.200000762939454,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Floor02/Class3_1_Front_AtoB/Transition",
+            "type": "RoomTransitionInteractable",
+            "prompt": "[E] Enter",
+            "position": {
+                "x": 23.0,
+                "y": 17.200000762939454,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/SecurityRoom/Security_Door_BtoA/Transition",
+            "type": "RoomTransitionInteractable",
+            "prompt": "[E] Enter",
+            "position": {
+                "x": 201.0,
+                "y": 1.2000000476837159,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Characters/QiuTian_Placeholder",
+            "type": "DialogueInteractable",
+            "prompt": "[E] 对话",
+            "position": {
+                "x": 9.108000755310059,
+                "y": 1.7899999618530274,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/Floor01/BrokenLamp_Placeholder",
+            "type": "DialogueInteractable",
+            "prompt": "[E] 调查",
+            "position": {
+                "x": -6.0,
+                "y": 1.909999966621399,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/ReadingPassage/B5_ReadingChair",
+            "type": "SchoolYouthInteractable",
+            "prompt": "[E] 坐下",
+            "position": {
+                "x": 32.28571319580078,
+                "y": 33.19999694824219,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Class3_1/Class3_1_Back_BtoA",
+            "type": "SchoolPortal",
+            "prompt": "[E] 进入 / 返回",
+            "position": {
+                "x": 261.0,
+                "y": 17.200000762939454,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Floor03Right/Reading_Right_AtoB",
+            "type": "SchoolPortal",
+            "prompt": "",
+            "position": {
+                "x": 50.0,
+                "y": 33.20000076293945,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Roof/Stair_F03_Roof_Left_BtoA/Transition",
+            "type": "RoomTransitionInteractable",
+            "prompt": "[E] Enter",
+            "position": {
+                "x": 16.0,
+                "y": 49.20000076293945,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Floor03Right/Reading_Right_AtoB/Transition",
+            "type": "RoomTransitionInteractable",
+            "prompt": "[E] Enter",
+            "position": {
+                "x": 50.0,
+                "y": 33.20000076293945,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/Floor01/LockedLivingRoom_Placeholder",
+            "type": "RoomTransitionInteractable",
+            "prompt": "[E] 开门",
+            "position": {
+                "x": -1.2000000476837159,
+                "y": 1.7070000171661378,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/SecurityRoom/B5_SecurityComputer",
+            "type": "SchoolYouthInteractable",
+            "prompt": "[E] 使用电脑",
+            "position": {
+                "x": 204.60000610351563,
+                "y": 1.2000000476837159,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Floor01/B5_SchoolGateNotice",
+            "type": "SchoolYouthInteractable",
+            "prompt": "[E] 调查",
+            "position": {
+                "x": 38.733333587646487,
+                "y": 1.7000000476837159,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Roof/Stair_F03_Roof_Left_BtoA",
+            "type": "SchoolPortal",
+            "prompt": "[E] 楼梯",
+            "position": {
+                "x": 16.0,
+                "y": 49.20000076293945,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/ReadingPassage/Reading_Right_BtoA",
+            "type": "SchoolPortal",
+            "prompt": "",
+            "position": {
+                "x": 46.42857360839844,
+                "y": 33.19999694824219,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/StaffOffice/B5_Director",
+            "type": "SchoolYouthInteractable",
+            "prompt": "[E] 交谈",
+            "position": {
+                "x": 270.9375,
+                "y": 33.099998474121097,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/StaffOffice/StaffOffice_Door_BtoA/Transition",
+            "type": "RoomTransitionInteractable",
+            "prompt": "[E] Enter",
+            "position": {
+                "x": 260.875,
+                "y": 33.20000076293945,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/Floor01/DirtyPhoto_Placeholder",
+            "type": "FileArchiveInteractable",
+            "prompt": "[E] 调查",
+            "position": {
+                "x": -9.0,
+                "y": 2.049999952316284,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/MaleToilet/MaleToilet_Door_BtoA/Transition",
+            "type": "RoomTransitionInteractable",
+            "prompt": "[E] Enter",
+            "position": {
+                "x": 320.81817626953127,
+                "y": 17.200000762939454,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Floor01/Security_Door_AtoB/Transition",
+            "type": "RoomTransitionInteractable",
+            "prompt": "[E] Enter",
+            "position": {
+                "x": 44.0,
+                "y": 1.7000000476837159,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Class3_2/ScratchedDesk_Investigation",
+            "type": "SchoolInteractable",
+            "prompt": "[E] 调查",
+            "position": {
+                "x": 208.0,
+                "y": 17.200000762939454,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Floor02/Class3_2_Back_AtoB/Transition",
+            "type": "RoomTransitionInteractable",
+            "prompt": "[E] Enter",
+            "position": {
+                "x": 7.0,
+                "y": 17.200000762939454,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Floor02/Class3_1_Back_AtoB",
+            "type": "SchoolPortal",
+            "prompt": "[E] 进入 / 返回",
+            "position": {
+                "x": 17.0,
+                "y": 17.200000762939454,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Floor03Left/Reading_Left_AtoB/Transition",
+            "type": "RoomTransitionInteractable",
+            "prompt": "[E] Enter",
+            "position": {
+                "x": 24.0,
+                "y": 33.20000076293945,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/Floor01/BackGate_Placeholder",
+            "type": "SceneReturnInteractable",
+            "prompt": "[E] 返回",
+            "position": {
+                "x": -13.800000190734864,
+                "y": 1.5773999691009522,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Class3_2/Class3_2_Front_BtoA",
+            "type": "SchoolPortal",
+            "prompt": "[E] 进入 / 返回",
+            "position": {
+                "x": 213.0,
+                "y": 17.200000762939454,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Class3_1/B5_ZhangRuoyuan",
+            "type": "SchoolYouthInteractable",
+            "prompt": "[E] 交谈",
+            "position": {
+                "x": 273.1333312988281,
+                "y": 17.100000381469728,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Floor03Left/Stair_F02_F03_Left_BtoA",
+            "type": "SchoolPortal",
+            "prompt": "[E] 楼梯",
+            "position": {
+                "x": 4.0,
+                "y": 33.20000076293945,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Floor02/MaleToilet_Door_AtoB/Transition",
+            "type": "RoomTransitionInteractable",
+            "prompt": "[E] Enter",
+            "position": {
+                "x": 31.0,
+                "y": 17.200000762939454,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Floor01/Equipment_Door_AtoB/Transition",
+            "type": "RoomTransitionInteractable",
+            "prompt": "[E] Enter",
+            "position": {
+                "x": 50.0,
+                "y": 1.7000000476837159,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Floor02/Stair_F02_F03_Left_AtoB",
+            "type": "SchoolPortal",
+            "prompt": "[E] 楼梯",
+            "position": {
+                "x": 2.0,
+                "y": 17.200000762939454,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/MaleToilet/B5_ToiletListening",
+            "type": "SchoolYouthInteractable",
+            "prompt": "[E] 听一听",
+            "position": {
+                "x": 324.0909118652344,
+                "y": 17.200000762939454,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/ReadingPassage/Reading_Left_BtoA",
+            "type": "SchoolPortal",
+            "prompt": "",
+            "position": {
+                "x": 27.571428298950197,
+                "y": 33.19999694824219,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Floor02/Stair_F01_F02_Right_BtoA/Transition",
+            "type": "RoomTransitionInteractable",
+            "prompt": "[E] Enter",
+            "position": {
+                "x": 27.0,
+                "y": 17.200000762939454,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Floor02/Class3_1_Back_AtoB/Transition",
+            "type": "RoomTransitionInteractable",
+            "prompt": "[E] Enter",
+            "position": {
+                "x": 17.0,
+                "y": 17.200000762939454,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Class3_2/ZhengTao_OpeningOnly/B5_ZhengTaoInteraction",
+            "type": "SchoolYouthInteractable",
+            "prompt": "[E] 交谈",
+            "position": {
+                "x": 208.60000610351563,
+                "y": 16.219999313354493,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/SecurityRoom/Security_Door_BtoA",
+            "type": "SchoolInteractable",
+            "prompt": "[E] 查看密码锁",
+            "position": {
+                "x": 201.0,
+                "y": 1.2000000476837159,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Class3_2/OwnDesk_Investigation",
+            "type": "SchoolInteractable",
+            "prompt": "[E] 调查",
+            "position": {
+                "x": 205.6666717529297,
+                "y": 17.200000762939454,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Class3_2/Class3_2_Front_BtoA/Transition",
+            "type": "RoomTransitionInteractable",
+            "prompt": "[E] Enter",
+            "position": {
+                "x": 213.0,
+                "y": 17.200000762939454,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Floor01/Security_Door_AtoB",
+            "type": "SchoolInteractable",
+            "prompt": "[E] 查看密码锁",
+            "position": {
+                "x": 44.0,
+                "y": 1.7000000476837159,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Floor02/MaleToilet_Door_AtoB",
+            "type": "SchoolPortal",
+            "prompt": "[E] 进入 / 返回",
+            "position": {
+                "x": 31.0,
+                "y": 17.200000762939454,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Floor03Left/Reading_Left_AtoB",
+            "type": "SchoolPortal",
+            "prompt": "",
+            "position": {
+                "x": 24.0,
+                "y": 33.20000076293945,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/ReadingPassage/Reading_Right_BtoA/Transition",
+            "type": "RoomTransitionInteractable",
+            "prompt": "[E] Enter",
+            "position": {
+                "x": 46.42857360839844,
+                "y": 33.19999694824219,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Floor03Right/StaffOffice_Door_AtoB/Transition",
+            "type": "RoomTransitionInteractable",
+            "prompt": "[E] Enter",
+            "position": {
+                "x": 60.0,
+                "y": 33.20000076293945,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Class3_2/Class3_2_Back_BtoA/Transition",
+            "type": "RoomTransitionInteractable",
+            "prompt": "[E] Enter",
+            "position": {
+                "x": 201.0,
+                "y": 17.200000762939454,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Floor02/Class3_2_Back_AtoB",
+            "type": "SchoolPortal",
+            "prompt": "[E] 进入 / 返回",
+            "position": {
+                "x": 7.0,
+                "y": 17.200000762939454,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Floor02/Stair_F01_F02_Right_BtoA",
+            "type": "SchoolPortal",
+            "prompt": "[E] 楼梯",
+            "position": {
+                "x": 27.0,
+                "y": 17.200000762939454,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/EquipmentRoom/Equipment_Door_BtoA/Transition",
+            "type": "RoomTransitionInteractable",
+            "prompt": "[E] Enter",
+            "position": {
+                "x": 240.7857208251953,
+                "y": 1.2000000476837159,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Class3_1/Class3_1_Front_BtoA",
+            "type": "SchoolPortal",
+            "prompt": "[E] 进入 / 返回",
+            "position": {
+                "x": 275.0,
+                "y": 17.200000762939454,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Floor03Right/Stair_F03_Roof_Right_AtoB/Transition",
+            "type": "RoomTransitionInteractable",
+            "prompt": "[E] Enter",
+            "position": {
+                "x": 70.0,
+                "y": 33.20000076293945,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Floor01/B5_SecurityWindow",
+            "type": "SchoolInteractable",
+            "prompt": "[E] 查看窗内",
+            "position": {
+                "x": 42.33333206176758,
+                "y": 1.7000000476837159,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Roof/Stair_F03_Roof_Right_BtoA/Transition",
+            "type": "RoomTransitionInteractable",
+            "prompt": "[E] Enter",
+            "position": {
+                "x": 70.0,
+                "y": 49.20000076293945,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/MaleToilet/MaleToilet_Door_BtoA",
+            "type": "SchoolPortal",
+            "prompt": "[E] 进入 / 返回",
+            "position": {
+                "x": 320.81817626953127,
+                "y": 17.200000762939454,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Floor02/Stair_F02_F03_Left_AtoB/Transition",
+            "type": "RoomTransitionInteractable",
+            "prompt": "[E] Enter",
+            "position": {
+                "x": 2.0,
+                "y": 17.200000762939454,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Floor01/Stair_F01_F02_Right_AtoB/Transition",
+            "type": "RoomTransitionInteractable",
+            "prompt": "[E] Enter",
+            "position": {
+                "x": 58.0,
+                "y": 1.7000000476837159,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/Floor01/StairsUp_InteractZone",
+            "type": "RoomTransitionInteractable",
+            "prompt": "[E] 上楼",
+            "position": {
+                "x": 4.099999904632568,
+                "y": 1.600000023841858,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Floor03Left/Stair_F03_Roof_Left_AtoB/Transition",
+            "type": "RoomTransitionInteractable",
+            "prompt": "[E] Enter",
+            "position": {
+                "x": 16.0,
+                "y": 33.20000076293945,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Floor02/B5_Crowd/NoticeLeft",
+            "type": "SchoolYouthInteractable",
+            "prompt": "[E] 调查",
+            "position": {
+                "x": 18.875,
+                "y": 17.200000762939454,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Floor01/Stair_F01_F02_Right_AtoB",
+            "type": "SchoolPortal",
+            "prompt": "[E] 楼梯",
+            "position": {
+                "x": 58.0,
+                "y": 1.7000000476837159,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Roof/Stair_F03_Roof_Right_BtoA",
+            "type": "SchoolPortal",
+            "prompt": "[E] 楼梯",
+            "position": {
+                "x": 70.0,
+                "y": 49.20000076293945,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/ReadingPassage/Reading_Left_BtoA/Transition",
+            "type": "RoomTransitionInteractable",
+            "prompt": "[E] Enter",
+            "position": {
+                "x": 27.571428298950197,
+                "y": 33.19999694824219,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Floor01/Equipment_Door_AtoB",
+            "type": "SchoolInteractable",
+            "prompt": "[E] 进入 / 返回",
+            "position": {
+                "x": 50.0,
+                "y": 1.7000000476837159,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Floor02/Class3_2_Front_AtoB",
+            "type": "SchoolPortal",
+            "prompt": "[E] 进入 / 返回",
+            "position": {
+                "x": 13.0,
+                "y": 17.200000762939454,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "School/Memory/Floor01/B5_SecurityNote",
+            "type": "SchoolYouthInteractable",
+            "prompt": "[E] 查看便利贴",
+            "position": {
+                "x": 44.810001373291019,
+                "y": 1.7000000476837159,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/Floor01/DarkFog_Placeholder",
+            "type": "Scene02ReturnInteractable",
+            "prompt": "",
+            "position": {
+                "x": 10.399999618530274,
+                "y": 2.0999999046325685,
+                "z": 0.0
+            }
+        }
+    ],
+    "buttons": [],
+    "drags": [],
+    "sliders": [],
+    "mazeOrigin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "ballWorld": {
+        "x": 72.4000015258789,
+        "y": 0.6399999856948853,
+        "z": 0.0
+    },
+    "boardWorld": {
+        "x": 72.01190185546875,
+        "y": 3.1294937133789064,
+        "z": 0.0
+    },
+    "ballScreen": {
+        "x": -55500.7890625,
+        "y": -8700.4794921875
+    },
+    "mazeCellSize": 0.0,
+    "rhythmTime": 0.0,
+    "mazeLayout": 0,
+    "mazeRow": 0,
+    "mazeColumn": 0,
+    "rhythmPhrase": 0,
+    "rhythmRetries": 0,
+    "inMaze": false,
+    "rhythmRunning": false,
+    "basketball": "Completed"
+}

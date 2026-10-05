@@ -1,0 +1,23 @@
+{
+  "symptom": "Tab cannot open inventory after natural continuous school-home return, while freely moving with zero control locks; opens after leaving resident school scene",
+  "confirmed_cause": "Resident SchoolChaseController at FogReturn handled the inventory policy and returned allowed=false after the original continuous return",
+  "fix": "FogReturn declines school-specific policy; original free-roam lock guard decides",
+  "before_sha256": "ca21a00780b5878360c2b60a0cfb2a4d694247e6b832ecf35f6f3b5c52f02190",
+  "after_sha256": "9113560ea0c9377bd30bab1ab7b81de606ebdef5f1e1af8cbd5ddf3e0ab0a3b9",
+  "tested_before": [
+    "runtime/bag_actual_free_after_school_status.json",
+    "runtime/credential_materials_status.json"
+  ],
+  "retest": {
+    "result": "PASS",
+    "scene": "Scene02_Courtyard",
+    "resident_school_step": "FogReturn",
+    "native_inventory_tab_open": true,
+    "evidence": [
+      "runtime/retest_home_inventory_open_resident_school_status.json",
+      "runtime/002_retest_home_inventory_open_resident_school.png",
+      "review/retest_inventory_return_fixed.mp4"
+    ],
+    "cold_read": "cold_read/read-report.txt; four natural states all PASS"
+  }
+}

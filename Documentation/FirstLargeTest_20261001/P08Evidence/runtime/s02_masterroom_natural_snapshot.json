@@ -1,0 +1,124 @@
+{
+    "version": 1,
+    "slot": 1,
+    "savedUtcTicks": 639267844141625361,
+    "playSeconds": 515.3204355365597,
+    "scene": "Scene02_Courtyard",
+    "actor": "adult",
+    "actorFacing": "left",
+    "position": {
+        "x": 65.80000305175781,
+        "y": 1.4049999713897706,
+        "z": 0.0
+    },
+    "scale": {
+        "x": 0.800000011920929,
+        "y": 1.7999999523162842,
+        "z": 1.0
+    },
+    "cameraPosition": {
+        "x": 67.84444427490235,
+        "y": 1.850000023841858,
+        "z": -10.0
+    },
+    "planar": false,
+    "followY": true,
+    "lampRaised": false,
+    "cameraAvailable": true,
+    "facing": -1.0,
+    "cameraSize": 2.5,
+    "cameraOffset": 0.5,
+    "cameraX": {
+        "x": 67.84444427490235,
+        "y": 71.35556030273438
+    },
+    "cameraY": {
+        "x": -1.0,
+        "y": 40.0
+    },
+    "story": {
+        "flags": [
+            "Scene01GateKeyCollected",
+            "Scene01GateOpened",
+            "Scene01IDHolderTaken",
+            "Scene01MemoryFlashPlayed",
+            "Scene01NewspaperTaken"
+        ],
+        "outfit": 0,
+        "mazeCell": {
+            "x": 14,
+            "y": 0
+        },
+        "hasSchoolPosition": false,
+        "schoolRoom": "",
+        "schoolLocal": {
+            "x": 0.0,
+            "y": 0.0
+        },
+        "schoolFacing": 1.0
+    },
+    "quests": {
+        "currentEvent": 30,
+        "completedEvents": [
+            10,
+            30
+        ]
+    },
+    "items": [
+        {
+            "key": "a646b5f57a7482a4092434f4be47dc5c",
+            "id": "id_holder",
+            "displayName": "破旧证件套",
+            "description": "肖鹏破损的证件套。"
+        },
+        {
+            "key": "2d03b7372e5e06d45921ba0e71dc4d06",
+            "id": "newspaper_fragment_01",
+            "displayName": "报纸碎片一",
+            "description": "从旧报纸上撕下的一块碎片。"
+        }
+    ],
+    "files": [
+        {
+            "key": "7b039daa41f12464182f7b6b3c76ed6e",
+            "id": "file_stained_photo"
+        }
+    ],
+    "firstObtained": [
+        "file:file_stained_photo",
+        "item:gate_key",
+        "item:id_holder",
+        "item:newspaper_fragment_01"
+    ],
+    "school": {
+        "present": false,
+        "room": "",
+        "variant": 0,
+        "actor": 0,
+        "phase": 0
+    },
+    "companions": [
+        {
+            "role": "home-guide",
+            "parent": "authored",
+            "position": {
+                "x": 9.108000755310059,
+                "y": 1.7899999618530274,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 2.630770206451416,
+                "z": 1.0
+            },
+            "active": true,
+            "direction": 1.0
+        }
+    ],
+    "threeDoorProgress": 0,
+    "distortedJoined": false,
+    "courtyardLayoutRevision": 3,
+    "childhoodLayoutRevision": 1,
+    "corridorLampStage": 0,
+    "schoolLayoutRevision": 1
+}

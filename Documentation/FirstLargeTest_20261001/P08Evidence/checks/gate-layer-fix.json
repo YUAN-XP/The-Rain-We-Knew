@@ -1,0 +1,10 @@
+{
+  "scene": "D:\\GitHub Desktop\\ProjectMystery\\ProjectMystery\\Assets\\Scenes\\Scene03_Childhood.unity",
+  "gameObject": "Environment/ChildhoodStreet/S03_Gate",
+  "beforeLayer": 0,
+  "afterLayer": 6,
+  "beforeSHA256": "cc2a9890251e353d4647f839e8a26669e7cc1936adcc18b2d86c6eb22c7ed9c2",
+  "afterSHA256": "f8583ee5cd56055e7cc86822b74013b7dbaef4092defb81e2019e61d78e16ff3",
+  "cause": "PlayerInteraction mask is 64 (layer 6); gate sensor was on layer 0. Existing return condition and behavior unchanged.",
+  "rollback": "D:\\游戏设计\\Codex工作区\\work\\2026-10-05-P08\\checks\\rollback\\Scene03_Childhood.unity.before_gate_layer"
+}

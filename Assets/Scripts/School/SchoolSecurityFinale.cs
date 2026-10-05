@@ -20,7 +20,8 @@ public sealed partial class SchoolChaseController : IInventoryAccessPolicy
     Image finaleFlash;
     public bool TryCanOpenInventory(out bool allowed)
     {
-        allowed=false;if(!IsActive)return false;
+        // During the continuous return, school remains resident but no longer owns home inventory access.
+        allowed=false;if(!IsActive||Step==SchoolChaseStep.FogReturn)return false;
         if(Step==SchoolChaseStep.Escaping||Step==SchoolChaseStep.Exploring){allowed=!Controls.IsLocked();return true;}
         if(Step!=SchoolChaseStep.OilTutorial&&Step!=SchoolChaseStep.OilReady&&Step!=SchoolChaseStep.FinalCharge)return true;
         allowed=true;foreach(ControlLockReason reason in Enum.GetValues(typeof(ControlLockReason)))

@@ -1,0 +1,115 @@
+{
+  "stamp": "2026-10-05T22:18:49.267938",
+  "release_build": "BuildOptions.None 2026-10-05 20:08:51; errors 0; warnings 487",
+  "checks": [
+    {
+      "name": "start menu",
+      "result": "PASS",
+      "detail": "Original five Chinese entries displayed in three separately launched release processes."
+    },
+    {
+      "name": "volume persistence",
+      "result": "PASS",
+      "detail": "100 -> 37; restart displays 37; restore 100; next restart displays 100."
+    },
+    {
+      "name": "native resolution",
+      "result": "PASS",
+      "detail": "1920x1080 -> 2560x1600 -> 2560x1440 -> 1280x720 -> 1920x1080; final restart preserves 1920x1080."
+    },
+    {
+      "name": "resolution list scroll",
+      "result": "PASS",
+      "detail": "Actual wheel scroll exposes lower choices and permits selection."
+    },
+    {
+      "name": "credits",
+      "result": "PASS",
+      "detail": "袁潇鹏; 部分内容由 AI 辅助生成."
+    },
+    {
+      "name": "original new game",
+      "result": "PASS",
+      "detail": "Original confirmation and opening reaches Scene01 street; no pre-acquired items inserted."
+    },
+    {
+      "name": "early camera/lamp",
+      "result": "PASS",
+      "detail": "Q/R do not raise props; both ordinary and key-item lists empty."
+    },
+    {
+      "name": "new-game idle",
+      "result": "PASS",
+      "detail": "Observed standing idle across early Q/R and inventory actions; no spontaneous rightward motion."
+    },
+    {
+      "name": "focus pause",
+      "result": "PASS",
+      "detail": "Real focus loss paused game; original Continue returns to idle."
+    },
+    {
+      "name": "in-game settings",
+      "result": "PASS",
+      "detail": "Esc -> Settings displays restored 100%."
+    },
+    {
+      "name": "quit cancel",
+      "result": "PASS",
+      "detail": "Cancel returns to original Pause; no save write."
+    },
+    {
+      "name": "quit confirmation",
+      "result": "PASS",
+      "detail": "Confirm exits test process; native process independently absent afterwards."
+    },
+    {
+      "name": "menu quit",
+      "result": "PASS",
+      "detail": "Main-menu Quit exits without invented extra confirmation."
+    },
+    {
+      "name": "save preservation",
+      "result": "PASS",
+      "detail": "Both existing user slots unchanged by SHA256."
+    },
+    {
+      "name": "continuous native walking",
+      "result": "NOT A NEW ASSERTION",
+      "detail": "Sky short-key pulse is insufficient to independently validate a full walk/run cycle. Do not use these stills as new locomotion proof; unchanged P02 sources and stage/gameplay evidence retained."
+    },
+    {
+      "name": "native 4K/21:9 and other hardware",
+      "result": "UNVERIFIED",
+      "detail": "Those GameView layouts passed; current physical display did not offer corresponding native modes."
+    },
+    {
+      "name": "speaker listening",
+      "result": "UNVERIFIED",
+      "detail": "No encoded audio track in review recorder; do not infer listening quality from video."
+    }
+  ],
+  "native_screenshot_count": 28,
+  "native_input": "Computer-use actual application UI/keys, not editor callbacks or production state injection",
+  "screenshots": "native/capture_manifest.json",
+  "user_saves": "checks/user-saves-after-native.json",
+  "production_hashes": "checks/protected-final.json",
+  "native_process_after_quit": "not running, independently checked with Get-Process after exits",
+  "final_restored_settings": {
+    "width": 1920,
+    "height": 1080,
+    "windowed": true,
+    "master_volume_percent": 100,
+    "confirmed_after_restart": true
+  },
+  "latest_player_log_messages": [
+    "PersistentRuntime: No PlayerSpawnPoint found in Scene01_Rain",
+    "Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7",
+    "Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7",
+    "Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7",
+    "Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7",
+    "Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7",
+    "Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7"
+  ],
+  "latest_player_log_has_exception_text": false,
+  "notes": "Existing initial menu No PlayerSpawnPoint and Unity TLS certificate errors are retained explicitly; scene/new-game/settings/offline flow worked. No security, packages, renderer or authored spawn settings were changed. Three native launches total."
+}

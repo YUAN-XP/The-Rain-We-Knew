@@ -1,0 +1,284 @@
+{
+    "version": 1,
+    "slot": 1,
+    "savedUtcTicks": 639267951423334036,
+    "playSeconds": 7772.279946998926,
+    "scene": "Scene01_Rain",
+    "actor": "adult",
+    "actorFacing": "right",
+    "position": {
+        "x": 30.96820068359375,
+        "y": -0.0950000211596489,
+        "z": 0.0
+    },
+    "scale": {
+        "x": 0.800000011920929,
+        "y": 1.7999999523162842,
+        "z": 1.0
+    },
+    "cameraPosition": {
+        "x": 31.618192672729493,
+        "y": 0.6499999761581421,
+        "z": -10.0
+    },
+    "planar": false,
+    "followY": false,
+    "lampRaised": false,
+    "cameraAvailable": true,
+    "facing": 1.0,
+    "cameraSize": 3.0,
+    "cameraOffset": 0.0,
+    "cameraX": {
+        "x": -13.0,
+        "y": 31.0
+    },
+    "cameraY": {
+        "x": -10.0,
+        "y": 10.0
+    },
+    "story": {
+        "flags": [
+            "BasketKeyCollected",
+            "BasketKeyDropped",
+            "BasketKeyRevealed",
+            "CameraDoorRevealed",
+            "CameraFirstRaised",
+            "CameraGentlemanCardObtained",
+            "CameraTutorialTriggered",
+            "CatFed",
+            "ChildShadowFollowupPlayed",
+            "ChildShadowSequencePlayed",
+            "CompleteCredentialArchived",
+            "CorridorRemarkShown",
+            "DeskEventTriggered",
+            "DistortedCorridorStarted",
+            "DrawerOpened",
+            "EndingEmailReactionCompleted",
+            "EndingHandoverCompleted",
+            "EndingIdentityHintIssued",
+            "EndingIdentityReceived",
+            "EndingStreetPanCompleted",
+            "EndingStreetVisit",
+            "EndingZhangCompleted",
+            "EquipmentDoorOpened",
+            "EquipmentVoicePlayed",
+            "FishObtained",
+            "FogIntroCompleted",
+            "GameCoinObtained",
+            "GameCoinSpent",
+            "LiMeiMessageAccepted",
+            "LiMeiMessageDelivered",
+            "LivingRoomDoorOpened",
+            "OilLampObtained",
+            "OverallsUnlocked",
+            "ParentShadowEventPlayed",
+            "PencilOwned",
+            "Scene01GateKeyCollected",
+            "Scene01GateOpened",
+            "Scene01IDHolderTaken",
+            "Scene01MemoryFlashPlayed",
+            "Scene01NewspaperTaken",
+            "Scene02Fragment2Collected",
+            "Scene03BirthdayKnown",
+            "Scene03CameraGentlemanEchoCollected",
+            "Scene03CameraTaken",
+            "Scene03Completed",
+            "Scene03DrawerNoticeShown",
+            "Scene03FamilyPhotoTaken",
+            "Scene03FamilySetupComplete",
+            "Scene03FileNoticeShown",
+            "Scene03FishHintShown",
+            "Scene03IntroCompleted",
+            "Scene03MazeCompleted",
+            "Scene03MazeEntered",
+            "Scene03MazeFirstSwitch",
+            "Scene03MazePreludeReached",
+            "Scene03PhoneAnswered",
+            "Scene03ReturnReactionPlayed",
+            "Scene03ReturnedHome",
+            "Scene03ReturnedToStreet",
+            "Scene03RhythmCompleted",
+            "Scene03RiverSequenceCompleted",
+            "Scene03Started",
+            "Scene03StreetReached",
+            "Scene05OpeningPlayed",
+            "SchoolChaseCompleted",
+            "SchoolChaseStarted",
+            "SchoolComputerLoggedIn",
+            "SchoolCrowdSeen",
+            "SchoolEmailRead",
+            "SchoolEvidenceObtained",
+            "SchoolEvidenceSubmitted",
+            "SchoolFragment3Taken",
+            "SchoolLampRestored",
+            "SchoolMediaPasswordChanged",
+            "SchoolNameRevealed",
+            "SchoolOfficeHandoffReady",
+            "SchoolOilTaken",
+            "SchoolReturnedHome",
+            "SchoolSecurityClueSeen",
+            "SchoolSecurityEntered",
+            "SchoolSecurityMemoryOpened",
+            "SchoolUniformOwned",
+            "SchoolUsbReceived",
+            "SchoolYouthConversationCompleted",
+            "SprintUnlocked",
+            "StorytellerGameCompleted",
+            "ThreeDoorPuzzleCompleted"
+        ],
+        "outfit": 0,
+        "mazeCell": {
+            "x": 0,
+            "y": 19
+        },
+        "hasSchoolPosition": true,
+        "schoolRoom": "StaffOffice",
+        "schoolLocal": {
+            "x": 0.956939697265625,
+            "y": 0.8550033569335938
+        },
+        "schoolFacing": -1.0
+    },
+    "quests": {
+        "currentEvent": 235,
+        "completedEvents": [
+            10,
+            30,
+            40,
+            50,
+            60,
+            70,
+            80,
+            85,
+            90,
+            100,
+            110,
+            115,
+            120,
+            130,
+            140,
+            150,
+            160,
+            170,
+            175,
+            180,
+            190,
+            200,
+            205,
+            210,
+            220,
+            230,
+            235
+        ]
+    },
+    "items": [
+        {
+            "key": "2d03b7372e5e06d45921ba0e71dc4d06",
+            "id": "newspaper_fragment_01",
+            "displayName": "报纸碎片一",
+            "description": "从旧报纸上撕下的一块碎片。"
+        },
+        {
+            "key": "5ea6dc41abd14a840855e713fa97f42e",
+            "id": "key_camera_old",
+            "displayName": "旧相机",
+            "description": "一台保存得还算完整的旧相机。\n不知道为什么，握住它时总有种奇怪的熟悉感。"
+        },
+        {
+            "key": "b60a098668a37f94a8449a83a37908f8",
+            "id": "paper_fragment_02",
+            "displayName": "文件碎片2",
+            "description": "一张残缺的文件碎片，内容尚不完整。"
+        },
+        {
+            "key": "aa55aff95e992b84e80839bcc7b43ebb",
+            "id": "key_oil_lamp",
+            "displayName": "小油灯",
+            "description": "补充了灯油的小油灯。温暖的光可以照亮黑暗。"
+        },
+        {
+            "key": "6666837a5d22e9d469d09d9ce8332f49",
+            "id": "school_equipment_key",
+            "displayName": "器材室钥匙",
+            "description": "从篮球架上打落的钥匙。"
+        },
+        {
+            "key": "142838215c86b63498ff615d53eb7d30",
+            "id": "school_pencil",
+            "displayName": "铅笔",
+            "description": "可以用来摹出桌面刻痕的铅笔。"
+        },
+        {
+            "key": "5d1abf915acde78419aac75f1ef758d3",
+            "id": "school_newspaper_fragment_03",
+            "displayName": "报纸碎片3",
+            "description": "一张残缺的旧报纸，似乎能与之前找到的碎片拼在一起。"
+        }
+    ],
+    "files": [
+        {
+            "key": "3c5d796e69267d84aa0ad45660713bd8",
+            "id": "file_stained_photo"
+        },
+        {
+            "key": "d433aa3031b43974387bdd8f230525ba",
+            "id": "s03_camera_gentleman"
+        },
+        {
+            "key": "5414f21fc2d3c6142b393533789ed202",
+            "id": "file_xiaopeng_complete_credential"
+        }
+    ],
+    "firstObtained": [
+        "file:file_stained_photo",
+        "file:file_xiaopeng_complete_credential",
+        "file:s03_camera_gentleman",
+        "item:ending_identity_card",
+        "item:gate_key",
+        "item:id_holder",
+        "item:key_camera_old",
+        "item:key_oil_lamp",
+        "item:newspaper_fragment_01",
+        "item:paper_fragment_02",
+        "item:s03_fish",
+        "item:s03_game_coin",
+        "item:school_equipment_key",
+        "item:school_lamp_oil",
+        "item:school_newspaper_fragment_03",
+        "item:school_pencil",
+        "item:school_usb",
+        "outfit:OverallsUnlocked",
+        "outfit:SchoolUniformOwned"
+    ],
+    "school": {
+        "present": false,
+        "room": "",
+        "variant": 0,
+        "actor": 0,
+        "phase": 0
+    },
+    "companions": [
+        {
+            "role": "street-guide",
+            "parent": "authored",
+            "position": {
+                "x": 28.634990692138673,
+                "y": 0.10500001907348633,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 0.800000011920929,
+                "y": 2.200000047683716,
+                "z": 1.0
+            },
+            "active": true,
+            "direction": 1.0
+        }
+    ],
+    "threeDoorProgress": 0,
+    "distortedJoined": false,
+    "courtyardLayoutRevision": 3,
+    "childhoodLayoutRevision": 1,
+    "corridorLampStage": 0,
+    "schoolLayoutRevision": 1
+}

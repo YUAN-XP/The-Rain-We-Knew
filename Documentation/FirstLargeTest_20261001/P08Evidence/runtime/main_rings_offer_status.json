@@ -1,0 +1,313 @@
+{
+    "stamp": "2026-10-05T16:46:27.8139695+08:00",
+    "scene": "Scene03_Childhood",
+    "world": "",
+    "active": "main_rings_offer",
+    "opening": "",
+    "target": "",
+    "dialogue": "",
+    "error": "",
+    "time": 519.6226806640625,
+    "stepTime": 0.0,
+    "focused": true,
+    "paused": false,
+    "locked": true,
+    "canSave": false,
+    "saveReason": "当前无法保存：请在自由行动时保存。",
+    "queued": 0,
+    "width": 2560,
+    "height": 1440,
+    "runtimes": 1,
+    "players": 1,
+    "cameras": 1,
+    "player": {
+        "x": 91.95205688476563,
+        "y": 31.204998016357423,
+        "z": 0.0
+    },
+    "camera": {
+        "x": 92.26092529296875,
+        "y": 31.899999618530275,
+        "z": -10.0
+    },
+    "cameraSize": 2.5999999046325685,
+    "flags": [
+        "CameraDoorRevealed",
+        "CameraTutorialTriggered",
+        "CameraFirstRaised",
+        "DeskEventTriggered",
+        "ChildShadowSequencePlayed",
+        "SprintUnlocked",
+        "ThreeDoorPuzzleCompleted",
+        "OverallsUnlocked",
+        "CorridorRemarkShown",
+        "ChildShadowFollowupPlayed",
+        "DistortedCorridorStarted",
+        "ParentShadowEventPlayed",
+        "Scene01GateOpened",
+        "Scene01NewspaperTaken",
+        "Scene03Started",
+        "Scene03IntroCompleted",
+        "Scene03PhoneAnswered",
+        "Scene03CameraTaken",
+        "StorytellerGameCompleted",
+        "FishObtained",
+        "CatFed",
+        "GameCoinObtained",
+        "GameCoinSpent",
+        "Scene03StreetReached",
+        "LiMeiMessageAccepted",
+        "LiMeiMessageDelivered",
+        "Scene03FishHintShown",
+        "Scene01IDHolderTaken",
+        "Scene01MemoryFlashPlayed",
+        "Scene01GateKeyCollected"
+    ],
+    "texts": [
+        "3",
+        "[E] 离开",
+        "套圈挑战",
+        "拖住左下方的圈，向左下拉开后松手投掷；也可调节角度与力度，再点投掷。",
+        "河堤",
+        "剩余 4 次  ·  已套中 0 / 4",
+        "投掷",
+        "角度",
+        "4",
+        "1",
+        "离开",
+        "力度",
+        "2"
+    ],
+    "hotspots": [
+        {
+            "path": "Environment/ChildhoodStreet/S03_ZhaoHome",
+            "type": "DialogueInteractable",
+            "prompt": "[E] 对话",
+            "position": {
+                "x": 61.0,
+                "y": 30.5,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/ChildhoodStreet/Stage4B_Entry",
+            "type": "Scene03Interactable",
+            "prompt": "[E] 走向河堤",
+            "position": {
+                "x": 108.0,
+                "y": 31.229999542236329,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/ChildhoodStreet/S03_Chess",
+            "type": "Scene03Interactable",
+            "prompt": "[E] 对话",
+            "position": {
+                "x": 26.100000381469728,
+                "y": 31.229999542236329,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/ChildhoodStreet/S03_LiMei",
+            "type": "Scene03Interactable",
+            "prompt": "[E] 对话",
+            "position": {
+                "x": -13.149999618530274,
+                "y": 31.229999542236329,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/ChildhoodStreet/S03_Storyteller",
+            "type": "Scene03Interactable",
+            "prompt": "[E] 旁听一会",
+            "position": {
+                "x": -25.850000381469728,
+                "y": 31.229999542236329,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/ChildhoodStreet/S03_Shop",
+            "type": "DialogueInteractable",
+            "prompt": "[E] 对话",
+            "position": {
+                "x": -5.0,
+                "y": 30.5,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/ChildhoodStreet/S03_Fish",
+            "type": "Scene03Interactable",
+            "prompt": "[E] 对话",
+            "position": {
+                "x": 72.0,
+                "y": 30.5,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Scene03Chapter",
+            "type": "Scene03RiverSequence",
+            "prompt": "[E] 坐一会儿",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/ChildhoodStreet/S03_Rings",
+            "type": "Scene03Interactable",
+            "prompt": "[E] 套圈",
+            "position": {
+                "x": 92.80000305175781,
+                "y": 30.5,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/ChildhoodStreet/S03_Puddle",
+            "type": "DialogueInteractable",
+            "prompt": "[E] 对话",
+            "position": {
+                "x": 0.0,
+                "y": 30.5,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/ChildhoodStreet/S03_Bulletin",
+            "type": "Scene03Interactable",
+            "prompt": "[E] 看公告栏",
+            "position": {
+                "x": 87.0,
+                "y": 30.5,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/ChildhoodStreet/S03_Gate",
+            "type": "Scene03HomeReturn",
+            "prompt": "",
+            "position": {
+                "x": 15.0,
+                "y": 31.229999542236329,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/ChildhoodStreet/S03_Restaurant",
+            "type": "DialogueInteractable",
+            "prompt": "[E] 对话",
+            "position": {
+                "x": 47.0,
+                "y": 30.5,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/ChildhoodStreet/S03_Cat",
+            "type": "Scene03Interactable",
+            "prompt": "[E] 看看小猫",
+            "position": {
+                "x": 37.0,
+                "y": 30.5,
+                "z": 0.0
+            }
+        }
+    ],
+    "buttons": [
+        {
+            "path": "Scene03Chapter/ChildhoodActivitiesCanvas/套圈挑战/离开",
+            "text": "离开",
+            "screen": {
+                "x": 2226.176025390625,
+                "y": 1271.2320556640625
+            },
+            "value": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "path": "Scene03Chapter/ChildhoodActivitiesCanvas/套圈挑战/投掷",
+            "text": "投掷",
+            "screen": {
+                "x": 2102.27197265625,
+                "y": 168.7679443359375
+            },
+            "value": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "drags": [
+        {
+            "path": "Scene03Chapter/ChildhoodActivitiesCanvas/套圈挑战/投掷场/投掷坐标/拖动套圈",
+            "text": "ring",
+            "screen": {
+                "x": 383.12420654296877,
+                "y": 516.8134765625
+            },
+            "value": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "sliders": [
+        {
+            "path": "Scene03Chapter/ChildhoodActivitiesCanvas/套圈挑战/角度",
+            "text": "",
+            "screen": {
+                "x": 874.4959716796875,
+                "y": 339.8399963378906
+            },
+            "value": 45.0,
+            "min": 15.0,
+            "max": 75.0
+        },
+        {
+            "path": "Scene03Chapter/ChildhoodActivitiesCanvas/套圈挑战/力度",
+            "text": "",
+            "screen": {
+                "x": 1843.2000732421875,
+                "y": 339.8399963378906
+            },
+            "value": 650.0,
+            "min": 250.0,
+            "max": 1050.0
+        }
+    ],
+    "mazeOrigin": {
+        "x": 180.0,
+        "y": 70.0,
+        "z": 0.0
+    },
+    "ballWorld": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "boardWorld": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "ballScreen": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "mazeCellSize": 3.200000047683716,
+    "rhythmTime": 1832.741943359375,
+    "mazeLayout": 0,
+    "mazeRow": 14,
+    "mazeColumn": 0,
+    "rhythmPhrase": 0,
+    "rhythmRetries": 0,
+    "inMaze": false,
+    "rhythmRunning": false,
+    "basketball": ""
+}

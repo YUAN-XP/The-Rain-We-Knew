@@ -1,0 +1,154 @@
+{
+    "stamp": "2026-10-05T16:17:54.9786693+08:00",
+    "scene": "Scene03_Childhood",
+    "world": "",
+    "active": "s03_living",
+    "opening": "free",
+    "target": "Environment/LivingRoomInterior/S03_LivingRoomExit",
+    "dialogue": "",
+    "error": "",
+    "time": 1558.2652587890625,
+    "stepTime": 0.0,
+    "focused": true,
+    "paused": false,
+    "locked": false,
+    "canSave": true,
+    "saveReason": "",
+    "queued": 13,
+    "width": 2560,
+    "height": 1440,
+    "runtimes": 1,
+    "players": 1,
+    "cameras": 1,
+    "player": {
+        "x": 196.02996826171876,
+        "y": 1.2049669027328492,
+        "z": 0.0
+    },
+    "camera": {
+        "x": 199.41111755371095,
+        "y": 1.899999976158142,
+        "z": -10.0
+    },
+    "cameraSize": 2.200000047683716,
+    "flags": [
+        "CameraDoorRevealed",
+        "CameraTutorialTriggered",
+        "CameraFirstRaised",
+        "DeskEventTriggered",
+        "ChildShadowSequencePlayed",
+        "SprintUnlocked",
+        "ThreeDoorPuzzleCompleted",
+        "OverallsUnlocked",
+        "CorridorRemarkShown",
+        "ChildShadowFollowupPlayed",
+        "DistortedCorridorStarted",
+        "ParentShadowEventPlayed",
+        "Scene01GateOpened",
+        "Scene01NewspaperTaken",
+        "Scene03Started",
+        "Scene03IntroCompleted",
+        "Scene03PhoneAnswered",
+        "Scene01IDHolderTaken",
+        "Scene01MemoryFlashPlayed",
+        "Scene01GateKeyCollected"
+    ],
+    "texts": [
+        "[E] 返回走廊",
+        "[E] 离开",
+        "前往客厅拿上相机"
+    ],
+    "hotspots": [
+        {
+            "path": "Environment/Home_Floor01_Normal/S03_Phone",
+            "type": "Scene03Interactable",
+            "prompt": "[E] 接电话",
+            "position": {
+                "x": -12.600000381469727,
+                "y": 1.350000023841858,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/LivingRoomInterior/LivingRoomFurniture/S03_Parents",
+            "type": "Scene03Interactable",
+            "prompt": "[E] 对话",
+            "position": {
+                "x": 199.89999389648438,
+                "y": 1.2999999523162842,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/LivingRoomInterior/LivingRoomFurniture/S03_Table",
+            "type": "DialogueInteractable",
+            "prompt": "[E] 对话",
+            "position": {
+                "x": 200.0,
+                "y": 0.5,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Scene03Chapter",
+            "type": "Scene03RiverSequence",
+            "prompt": "[E] 坐一会儿",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/Home_Floor01_Normal/S03_LivingRoomDoor",
+            "type": "RoomTransitionInteractable",
+            "prompt": "[E] 进入客厅",
+            "position": {
+                "x": -1.2000000476837159,
+                "y": 0.5,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/Home_Floor01_Normal/S03_Stairs",
+            "type": "Scene03Interactable",
+            "prompt": "[E] 上楼",
+            "position": {
+                "x": 4.099999904632568,
+                "y": 1.4500000476837159,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/LivingRoomInterior/LivingRoomFurniture/S03_Camera",
+            "type": "Scene03Interactable",
+            "prompt": "[E] 拿上相机",
+            "position": {
+                "x": 200.0,
+                "y": 1.4299999475479127,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/LivingRoomInterior/S03_LivingRoomExit",
+            "type": "RoomTransitionInteractable",
+            "prompt": "[E] 返回走廊",
+            "position": {
+                "x": 194.60000610351563,
+                "y": 0.5,
+                "z": 0.0
+            }
+        },
+        {
+            "path": "Environment/Home_Floor01_Normal/S03_ExitHome",
+            "type": "Scene03Interactable",
+            "prompt": "[E] 出门",
+            "position": {
+                "x": -13.800000190734864,
+                "y": 0.5,
+                "z": 0.0
+            }
+        }
+    ],
+    "buttons": []
+}
