@@ -231,6 +231,7 @@ public static class P02RigFactory
                 int a=y*(cols+1)+x, b=a+1, c=a+cols+1, d=c+1;
                 indices.AddRange(new[] { a,c,b,b,c,d });
             }
+            P02VisualAssetRules.FilterHeadMesh(source.path,rect.name,ref vertices,ref indices);
             mesh.SetVertices(rect.spriteID, vertices);
             mesh.SetIndices(rect.spriteID, indices.ToArray());
             var edges = new HashSet<Vector2Int>();

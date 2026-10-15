@@ -1,0 +1,114 @@
+--- before/Assets/Scripts/UI/GameLocalization.cs
++++ after/Assets/Scripts/UI/GameLocalization.cs
+@@ -178,10 +178,12 @@
+         labels.Add(text);
+     }
+ 
+-    public static void BindScene(Scene scene)
+-    {
+-        foreach (var root in scene.GetRootGameObjects())
+-            foreach (var text in root.GetComponentsInChildren<TMP_Text>(true)) Bind(text);
++    public static void BindLoadedText()
++    {
++        // A new-game session recreates PersistentRuntime during Awake and moves
++        // its serialized UI to DontDestroyOnLoad before sceneLoaded. Scanning
++        // only the loaded scene's roots misses all of that replacement UI.
++        foreach (var text in UnityEngine.Object.FindObjectsByType<TMP_Text>(FindObjectsInactive.Include)) Bind(text);
+     }
+ 
+     public static int VisibleLength(string source) => Regex.Replace(Display(source ?? ""), "<[^>]+>", "").Length;
+@@ -199,10 +201,7 @@
+ public sealed class LocalizationPresentation : MonoBehaviour
+ {
+     void Awake() { SceneManager.sceneLoaded += Loaded; }
+-    void Start()
+-    {
+-        foreach (var text in FindObjectsByType<TMP_Text>(FindObjectsInactive.Include)) GameLocalization.Bind(text);
+-    }
+-    void Loaded(Scene scene, LoadSceneMode mode) { GameLocalization.BindScene(scene); }
++    void Start() { GameLocalization.BindLoadedText(); }
++    void Loaded(Scene scene, LoadSceneMode mode) { GameLocalization.BindLoadedText(); }
+     void OnDestroy() { SceneManager.sceneLoaded -= Loaded; }
+ }
+--- before/Assets/Scripts/Dialogue/DialogueManager.cs
++++ after/Assets/Scripts/Dialogue/DialogueManager.cs
+@@ -30,6 +30,7 @@
+ 
+     private void Awake()
+     {
++        BindLocalizedText();
+         if (fitLegacyCanvasToScreen) RuntimePanelUI.FitLegacyCanvas(dialoguePanel);
+         if (dialoguePanel != null)
+         {
+@@ -170,6 +171,10 @@
+                 currentLineIndex
+             ];
+ 
++        // Display boundaries also cover late-created/replaced dialogue UI.
++        // Keep authored source strings intact for identity and story checks.
++        BindLocalizedText();
++
+         if (speakerText != null)
+         {
+             bool hasSpeaker =
+@@ -198,6 +203,15 @@
+ 
+             dialogueText.ForceMeshUpdate();
+         }
++    }
++
++    private void BindLocalizedText()
++    {
++        GameLocalization.Bind(speakerText);
++        GameLocalization.Bind(dialogueText);
++        if (dialoguePanel != null)
++            foreach (var label in dialoguePanel.GetComponentsInChildren<TMP_Text>(true))
++                GameLocalization.Bind(label);
+     }
+ 
+     public int CompletedCount { get; private set; }
+--- before/Assets/Editor/LocalizationReview.cs
++++ after/Assets/Editor/LocalizationReview.cs
+@@ -72,6 +72,7 @@
+             Check(GameLocalization.Display("XPZT0715") == "XPZT0715" && GameLocalization.Display("0715") == "0715", "Password clues and digits unchanged");
+             Check(GameLocalization.VisibleLength("探索周围") == "Explore the surroundings".Length, "Typewriter uses displayed-language length");
+             VerifyLateInteractionPrompt();
++            VerifyLateDialoguePresentation();
+ 
+             var inventory = JsonUtility.FromJson<LocalizationProjectAudit.Inventory>(File.ReadAllText(W + "serialized_strings.json"));
+             var untranslated = new List<string>();
+@@ -122,6 +123,34 @@
+             Check(label.textPreprocessor is GameLocalization.LocalizedTextPreprocessor,"Late-created interaction prompt binds localization on first display");
+             Check(label.text=="[E] 调查" && !han.IsMatch(label.textPreprocessor.PreprocessText(label.text)),"Interaction identity remains Chinese internally while English prompt renders in English");
+         } finally {UnityEngine.Object.DestroyImmediate(owner);}
++    }
++
++    static void VerifyLateDialoguePresentation()
++    {
++        var root=new GameObject("Late dialogue language review");
++        DialogueData data=null;
++        try
++        {
++            var canvas=RuntimePanelUI.Canvas("DialogueCanvas",root.transform,100);
++            var panel=RuntimePanelUI.Panel("DialoguePanel",canvas,Vector2.zero,Vector2.one,Color.black).gameObject;
++            var body=RuntimePanelUI.Rect("DialogueText",panel.transform,new Vector2(.1f,.1f),new Vector2(.9f,.7f)).gameObject.AddComponent<TextMeshProUGUI>();
++            var speaker=RuntimePanelUI.Rect("SpeakerText",panel.transform,new Vector2(.1f,.7f),new Vector2(.9f,.9f)).gameObject.AddComponent<TextMeshProUGUI>();
++            body.font=speaker.font=P07UI.Font;body.textPreprocessor=speaker.textPreprocessor=null;
++            var manager=root.AddComponent<DialogueManager>();
++            var flags=BindingFlags.Instance|BindingFlags.NonPublic;
++            typeof(DialogueManager).GetField("dialoguePanel",flags).SetValue(manager,panel);
++            typeof(DialogueManager).GetField("dialogueText",flags).SetValue(manager,body);
++            typeof(DialogueManager).GetField("speakerText",flags).SetValue(manager,speaker);
++            data=ScriptableObject.CreateInstance<DialogueData>();
++            data.lines=new[]{new DialogueLine {speaker="肖鹏",text="所以你是怎么知道这些情况的？",characterId=DialogueCharacterId.XiaoPeng}};
++            typeof(DialogueManager).GetField("currentDialogue",flags).SetValue(manager,data);
++            typeof(DialogueManager).GetMethod("DisplayCurrentLine",flags).Invoke(manager,null);
++            Check(body.textPreprocessor is GameLocalization.LocalizedTextPreprocessor&&speaker.textPreprocessor is GameLocalization.LocalizedTextPreprocessor,"Late-created dialogue and speaker bind on real display boundary");
++            body.ForceMeshUpdate();speaker.ForceMeshUpdate();
++            Check(body.GetParsedText()=="So how do you know all this?"&&speaker.GetParsedText()=="Xiao Peng","Late-created dialogue renders English body and speaker");
++            Check(body.text==data.lines[0].text&&speaker.text==data.lines[0].speaker&&DialogueIdentity.Resolve(data.lines[0])==DialogueCharacterId.XiaoPeng,"Dialogue source, speaker identity and authored data stay unchanged");
++        }
++        finally {UnityEngine.Object.DestroyImmediate(root);if(data)UnityEngine.Object.DestroyImmediate(data);}
+     }
+ 
+     static void Preview()

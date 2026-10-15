@@ -30,6 +30,7 @@ public class DialogueManager : MonoBehaviour
 
     private void Awake()
     {
+        BindLocalizedText();
         if (fitLegacyCanvasToScreen) RuntimePanelUI.FitLegacyCanvas(dialoguePanel);
         if (dialoguePanel != null)
         {
@@ -170,6 +171,10 @@ public class DialogueManager : MonoBehaviour
                 currentLineIndex
             ];
 
+        // Display boundaries also cover late-created/replaced dialogue UI.
+        // Keep authored source strings intact for identity and story checks.
+        BindLocalizedText();
+
         if (speakerText != null)
         {
             bool hasSpeaker =
@@ -198,6 +203,15 @@ public class DialogueManager : MonoBehaviour
 
             dialogueText.ForceMeshUpdate();
         }
+    }
+
+    private void BindLocalizedText()
+    {
+        GameLocalization.Bind(speakerText);
+        GameLocalization.Bind(dialogueText);
+        if (dialoguePanel != null)
+            foreach (var label in dialoguePanel.GetComponentsInChildren<TMP_Text>(true))
+                GameLocalization.Bind(label);
     }
 
     public int CompletedCount { get; private set; }

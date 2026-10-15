@@ -12,9 +12,11 @@ public class RhythmPhraseData : ScriptableObject
     }
     public KeyCode heldChord = KeyCode.LeftArrow;
     public Note[] notes;
-    [Min(.05f)] public float perfectWindow = .13f;
-    [Min(.1f)] public float goodWindow = .30f;
+    [Min(.05f)] public float perfectWindow = .25f;
+    [Min(.1f)] public float goodWindow = .55f;
+    [Min(.1f)] public float strumWindow = .85f;
     [Min(.2f)] public float tail = .8f;
+    public float Window(KeyCode key) => key == KeyCode.Space ? Mathf.Max(goodWindow, strumWindow) : goodWindow;
     public bool IsValid()
     {
         if (heldChord != KeyCode.LeftArrow && heldChord != KeyCode.RightArrow || notes == null || notes.Length < 2 || perfectWindow > goodWindow) return false;

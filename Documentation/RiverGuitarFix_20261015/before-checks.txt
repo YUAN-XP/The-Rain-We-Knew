@@ -1,0 +1,28 @@
+PASS CenteredAllFour completed=True phrase=4 retries=0 judged=29 misses=0
+PASS CenteredAllFour completion releases CloseUp lock
+PASS CenteredAllFour original no-extra-text presentation retained
+REPRO GoodEarlySpaceThenRelease completed=False phrase=0 retries=1 judged=8 misses=1
+PASS GoodEarlySpaceThenRelease original no-extra-text presentation retained
+PASS PerfectEarlySpaceThenRelease completed=True phrase=4 retries=0 judged=29 misses=0
+PASS PerfectEarlySpaceThenRelease completion releases CloseUp lock
+PASS PerfectEarlySpaceThenRelease original no-extra-text presentation retained
+PASS GoodLateSpaceThenRelease completed=True phrase=4 retries=0 judged=29 misses=0
+PASS GoodLateSpaceThenRelease completion releases CloseUp lock
+PASS GoodLateSpaceThenRelease original no-extra-text presentation retained
+PASS MissFirstNote completed=False phrase=0 retries=1 judged=7 misses=1
+PASS MissFirstNote original no-extra-text presentation retained
+PASS SpaceWithNoteKeyHeld completed=False phrase=0 retries=1 judged=7 misses=1
+PASS SpaceWithNoteKeyHeld original no-extra-text presentation retained
+PASS WrongChord completed=False phrase=0 retries=1 judged=8 misses=8
+PASS WrongChord original no-extra-text presentation retained
+PASS ChordGap completed=False phrase=0 retries=1 judged=8 misses=1
+PASS ChordGap original no-extra-text presentation retained
+PASS SpaceTooEarly completed=False phrase=0 retries=1 judged=9 misses=2
+PASS SpaceTooEarly original no-extra-text presentation retained
+PASS SpaceTooLate completed=False phrase=0 retries=1 judged=7 misses=1
+PASS SpaceTooLate original no-extra-text presentation retained
+PASS RetrySecondPhraseThenRecover completed=True phrase=4 retries=1 judged=36 misses=1
+PASS RetrySecondPhraseThenRecover completion releases CloseUp lock
+PASS RetrySecondPhraseThenRecover original no-extra-text presentation retained
+PASS MissEarlierDespiteFinalGood completed=False phrase=0 retries=1 judged=8 misses=2
+PASS MissEarlierDespiteFinalGood original no-extra-text presentation retained

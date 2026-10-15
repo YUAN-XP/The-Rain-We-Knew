@@ -21,11 +21,11 @@ public sealed class P07Interface:MonoBehaviour {
  IEnumerator Fade(Color from,Color to,float duration){for(float t=0;t<duration;t+=GameplayClock.Delta){cover.color=Color.Lerp(from,to,t/duration);yield return null;}cover.color=to;}
  IEnumerator Opening(){OpeningActive=true;OpeningPhase="white";page=RuntimePanelUI.Canvas("P07Opening",transform,31000).gameObject;cover=RuntimePanelUI.Panel("OpeningPaper",page.transform,Vector2.zero,Vector2.one,Color.black);
   yield return Fade(Color.black,Color.white,1.6f);
-  string[] lines={"So we beat on, boats against the current,","borne back ceaselessly into the past.","F. Scott Fitzgerald — The Great Gatsby","于是我们继续向前，逆流而行，","却又不断被推回往昔。","——《了不起的盖茨比》"};
-  TMP_Text[] texts=new TMP_Text[6];float[] ys={.77f,.66f,.55f,.40f,.29f,.18f};
-  for(int i=0;i<6;i++){texts[i]=P07UI.Text(lines[i],page.transform,new Vector2(.13f,ys[i]),new Vector2(.91f,ys[i]+.075f),i==2||i==5?28:34,true);texts[i].maxVisibleCharacters=0;}
+  string[] lines={"于是我们继续向前，逆流而行，","却又不断被推回往昔。","——《了不起的盖茨比》"};
+  TMP_Text[] texts=new TMP_Text[3];float[] ys={.66f,.53f,.40f};
+  for(int i=0;i<3;i++){texts[i]=P07UI.Text(lines[i],page.transform,new Vector2(.13f,ys[i]),new Vector2(.91f,ys[i]+.075f),i==2?28:34,true);texts[i].maxVisibleCharacters=0;}
   OpeningPhase="paired_quote";
-  for(int pair=0;pair<3;pair++){float duration=pair==2?2.2f:2.6f;for(float t=0;t<duration;t+=GameplayClock.Delta){texts[pair].maxVisibleCharacters=Mathf.CeilToInt(lines[pair].Length*t/duration);texts[pair+3].maxVisibleCharacters=Mathf.CeilToInt(lines[pair+3].Length*t/duration);yield return null;}texts[pair].maxVisibleCharacters=texts[pair+3].maxVisibleCharacters=int.MaxValue;}
+  for(int pair=0;pair<3;pair++){float duration=pair==2?2.2f:2.6f;for(float t=0;t<duration;t+=GameplayClock.Delta){texts[pair].maxVisibleCharacters=Mathf.CeilToInt(GameLocalization.VisibleLength(lines[pair])*t/duration);yield return null;}texts[pair].maxVisibleCharacters=int.MaxValue;}
   OpeningPhase="hold_three_seconds";yield return GameplayClock.Wait(3);
   OpeningPhase="ink_melt";var melt=RuntimePanelUI.Rect("QuoteInkMelt",page.transform,Vector2.zero,Vector2.one).gameObject.AddComponent<P07InkMelt>();melt.raycastTarget=false;
   for(float t=0;t<2.4f;t+=GameplayClock.Delta){melt.progress=t/2.4f;melt.SetVerticesDirty();foreach(var x in texts)x.color=new Color(0,0,0,Mathf.Clamp01(1-t/.8f));yield return null;}cover.color=Color.black;Destroy(melt.gameObject);foreach(var x in texts)x.gameObject.SetActive(false);

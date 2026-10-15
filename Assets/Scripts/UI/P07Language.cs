@@ -8,5 +8,5 @@ public static class P07Language {
  {"An old key found beneath a newspaper fragment.","在报纸碎片下面找到的一把旧钥匙。"},
  {"Xiao Peng's damaged ID holder.","肖鹏破损的证件套。"},
  {"A torn piece of an old newspaper.","从旧报纸上撕下的一块碎片。"}};
- public static string Display(string value)=>value!=null&&legacy.TryGetValue(value,out var translated)?translated:value;
+ public static string Display(string value)=>GameLocalization.ToChinese(value!=null&&legacy.TryGetValue(value,out var translated)?translated:value);
 }

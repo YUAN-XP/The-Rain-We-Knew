@@ -1,0 +1,65 @@
+PASS Fresh language preference defaults to English
+PASS Saved Chinese preference and invalid-value fallback
+PASS Runtime translation catalog loaded
+PASS Authored game title is the confirmed title
+PASS Existing save and preferences namespace retained
+PASS English title
+PASS Dynamic numbered save confirmation
+PASS Dynamic acquisition toast
+PASS Dynamic puppet act title
+PASS Dynamic ring-toss counters
+PASS Password clues and digits unchanged
+PASS Typewriter uses displayed-language length
+PASS Legacy speaker identity preserved
+PASS Legacy speaker identity preserved
+PASS Legacy speaker identity preserved
+PASS Legacy speaker identity preserved
+PASS Legacy speaker identity preserved
+PASS Legacy speaker identity preserved
+PASS Legacy speaker identity preserved
+PASS Legacy speaker identity preserved
+PASS Legacy speaker identity preserved
+PASS Legacy speaker identity preserved
+PASS Legacy speaker identity preserved
+PASS Legacy speaker identity preserved
+PASS Legacy speaker identity preserved
+PASS Legacy speaker identity preserved
+PASS Legacy speaker identity preserved
+PASS Legacy speaker identity preserved
+PASS Legacy speaker identity preserved
+PASS Legacy speaker identity preserved
+PASS Legacy speaker identity preserved
+PASS Legacy speaker identity preserved
+PASS Legacy speaker identity preserved
+PASS Legacy speaker identity preserved
+PASS Legacy speaker identity preserved
+PASS Legacy speaker identity preserved
+PASS Legacy speaker identity preserved
+PASS Legacy speaker identity preserved
+PASS Legacy speaker identity preserved
+PASS Legacy speaker identity preserved
+PASS Legacy speaker identity preserved
+PASS Legacy speaker identity preserved
+PASS Legacy speaker identity preserved
+PASS Legacy speaker identity preserved
+PASS Legacy speaker identity preserved
+PASS Legacy speaker identity preserved
+PASS Legacy speaker identity preserved
+PASS Legacy speaker identity preserved
+PASS Authored Chinese text has English display coverage
+PASS Chinese title
+PASS Legacy English dialogue has Chinese display
+PASS Legacy English interaction has Chinese display
+PASS Authored pure-English subtitles and labels covered in Chinese
+PASS Language choice saved to preferences
+PASS en current language option is identifiable
+PASS Actual settings button switches and saves Chinese
+PASS Actual settings button switches back and saves English
+PASS en rendered translation preserves original text used by existing logic
+PASS en interaction rendering
+PASS en actual text mesh matches translated character count
+PASS zh current language option is identifiable
+PASS zh rendered translation preserves original text used by existing logic
+PASS zh interaction rendering
+PASS zh actual text mesh matches translated character count
+PASS Audio and resolution preferences untouched by language selection

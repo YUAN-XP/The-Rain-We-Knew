@@ -1,0 +1,222 @@
+{
+  "samples": 22062,
+  "first": "2026-10-06T00:34:03.2590536+08:00",
+  "last": "2026-10-06T01:48:58.0078347+08:00",
+  "stateSamples": {
+    "RainExplore": 831,
+    "HomeExplore": 4033,
+    "None": 147,
+    "ThreeDoors": 177,
+    "StreetExplore": 5569,
+    "MazeExplore": 1405,
+    "BirthdayPerformance": 388,
+    "SchoolOtherworld": 5049,
+    "SchoolMemory": 531,
+    "Chase": 269,
+    "Companionship": 2783,
+    "EndTheme": 288,
+    "MainTheme": 592
+  },
+  "managerCounts": [
+    1
+  ],
+  "runtimeCounts": [
+    1
+  ],
+  "maxMasterPeak": 0.31769442558288574,
+  "ordinaryOverlapOutsideFade": 0,
+  "rhythmOrdinaryOverlap": 0,
+  "appreciatingOrdinaryOverlap": 0,
+  "endThemeBeforeFinalLine": 0,
+  "doors": [
+    {
+      "stage": 0,
+      "samples": 146,
+      "answer": 2,
+      "sampleSpreadValues": [
+        0,
+        1024
+      ],
+      "exampleStamp": "2026-10-06T00:40:50.0475616+08:00",
+      "sources": [
+        {
+          "name": "ThreeDoor_Left",
+          "time": 7.627999782562256,
+          "samples": 366144,
+          "volume": 0.036921147257089615,
+          "cutoff": 2600.0029296875,
+          "pan": 0.07490285485982895,
+          "clip": "Assets/Audio/Music/Puzzle/ThreeDoors_MotherTrack.mp3"
+        },
+        {
+          "name": "ThreeDoor_Middle",
+          "time": 7.627999782562256,
+          "samples": 366144,
+          "volume": 0.012671238742768764,
+          "cutoff": 1050.00146484375,
+          "pan": 0.21379174292087555,
+          "clip": "Assets/Audio/Music/Puzzle/ThreeDoors_MotherTrack.mp3"
+        },
+        {
+          "name": "ThreeDoor_Right",
+          "time": 7.627999782562256,
+          "samples": 366144,
+          "volume": 0.05533454939723015,
+          "cutoff": 5999.98388671875,
+          "pan": 0.35268062353134155,
+          "clip": "Assets/Audio/Music/Puzzle/ThreeDoors_MotherTrack.mp3"
+        }
+      ]
+    },
+    {
+      "stage": 1,
+      "samples": 6,
+      "answer": 0,
+      "sampleSpreadValues": [
+        0
+      ],
+      "exampleStamp": "2026-10-06T00:41:05.4476824+08:00",
+      "sources": [
+        {
+          "name": "ThreeDoor_Left",
+          "time": 23.00933265686035,
+          "samples": 1104448,
+          "volume": 0.09002619981765747,
+          "cutoff": 7570.79443359375,
+          "pan": 0.07133780419826508,
+          "clip": "Assets/Audio/Music/Puzzle/ThreeDoors_MotherTrack.mp3"
+        },
+        {
+          "name": "ThreeDoor_Middle",
+          "time": 23.00933265686035,
+          "samples": 1104448,
+          "volume": 0.03191261366009712,
+          "cutoff": 3277.29833984375,
+          "pan": 0.21022669970989227,
+          "clip": "Assets/Audio/Music/Puzzle/ThreeDoors_MotherTrack.mp3"
+        },
+        {
+          "name": "ThreeDoor_Right",
+          "time": 23.00933265686035,
+          "samples": 1104448,
+          "volume": 0.015005424618721008,
+          "cutoff": 1569.3017578125,
+          "pan": 0.3491155803203583,
+          "clip": "Assets/Audio/Music/Puzzle/ThreeDoors_MotherTrack.mp3"
+        }
+      ]
+    },
+    {
+      "stage": 2,
+      "samples": 11,
+      "answer": 1,
+      "sampleSpreadValues": [
+        0,
+        1024
+      ],
+      "exampleStamp": "2026-10-06T00:41:07.2992928+08:00",
+      "sources": [
+        {
+          "name": "ThreeDoor_Left",
+          "time": 24.865333557128906,
+          "samples": 1193536,
+          "volume": 0.022366873919963837,
+          "cutoff": 1746.978515625,
+          "pan": 0.008964061737060547,
+          "clip": "Assets/Audio/Music/Puzzle/ThreeDoors_MotherTrack.mp3"
+        },
+        {
+          "name": "ThreeDoor_Middle",
+          "time": 24.865333557128906,
+          "samples": 1193536,
+          "volume": 0.09045066684484482,
+          "cutoff": 9813.2421875,
+          "pan": 0.14785295724868774,
+          "clip": "Assets/Audio/Music/Puzzle/ThreeDoors_MotherTrack.mp3"
+        },
+        {
+          "name": "ThreeDoor_Right",
+          "time": 24.865333557128906,
+          "samples": 1193536,
+          "volume": 0.03265955671668053,
+          "cutoff": 4252.14453125,
+          "pan": 0.28674185276031494,
+          "clip": "Assets/Audio/Music/Puzzle/ThreeDoors_MotherTrack.mp3"
+        }
+      ]
+    },
+    {
+      "stage": 3,
+      "samples": 5,
+      "answer": 1,
+      "sampleSpreadValues": [
+        0
+      ],
+      "exampleStamp": "2026-10-06T00:41:08.8094341+08:00",
+      "sources": [
+        {
+          "name": "ThreeDoor_Left",
+          "time": 26.3799991607666,
+          "samples": 1266240,
+          "volume": 0.013272684998810291,
+          "cutoff": 2076.23681640625,
+          "pan": -0.0809800922870636,
+          "clip": "Assets/Audio/Music/Puzzle/ThreeDoors_MotherTrack.mp3"
+        },
+        {
+          "name": "ThreeDoor_Middle",
+          "time": 26.3799991607666,
+          "samples": 1266240,
+          "volume": 0.07227355241775513,
+          "cutoff": 11863.814453125,
+          "pan": 0.0579087994992733,
+          "clip": "Assets/Audio/Music/Puzzle/ThreeDoors_MotherTrack.mp3"
+        },
+        {
+          "name": "ThreeDoor_Right",
+          "time": 26.3799991607666,
+          "samples": 1266240,
+          "volume": 0.025128453969955444,
+          "cutoff": 5140.98486328125,
+          "pan": 0.1967976838350296,
+          "clip": "Assets/Audio/Music/Puzzle/ThreeDoors_MotherTrack.mp3"
+        }
+      ]
+    }
+  ],
+  "mazeLayouts": [
+    0,
+    1
+  ],
+  "schoolWorlds": [
+    "Memory",
+    "Otherworld"
+  ],
+  "chaseSteps": [
+    "Dispersing",
+    "Dormant",
+    "Escaping",
+    "Exploring",
+    "FinalCharge",
+    "FogReturn",
+    "OilReady",
+    "OilTutorial",
+    "Opening",
+    "SecurityArrival"
+  ],
+  "endingSteps": [
+    "BedIntro",
+    "Car",
+    "Child",
+    "Complete",
+    "Declaration",
+    "Focus",
+    "Hospital",
+    "WalkBed",
+    "WalkChild",
+    "WalkHospital",
+    "WalkYouth",
+    "Youth"
+  ],
+  "runtimeErrorLines": 0
+}

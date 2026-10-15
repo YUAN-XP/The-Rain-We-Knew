@@ -1,0 +1,383 @@
+{
+  "cutoff": "2026-10-06T00:34:00+08:00",
+  "captures": [
+    {
+      "label": "01_RainExplore",
+      "stamp": "2026-10-06T00:34:04.4146894+08:00",
+      "state": "RainExplore",
+      "stage": -1,
+      "rhythm": false,
+      "appreciating": false,
+      "master": 1.0,
+      "audioCapture": {
+        "stamp": "2026-10-06T00:34:16.4925822+08:00",
+        "sampleRate": 48000,
+        "channelCount": 2,
+        "sampleCount": 1152000,
+        "clippedSamples": 0,
+        "seconds": 12.0,
+        "peak": 0.20960716903209686,
+        "rms": 0.03691847845022792
+      },
+      "files": [
+        "listening/01_RainExplore_state.json",
+        "listening/01_RainExplore.png",
+        "listening/01_RainExplore.wav",
+        "listening/01_RainExplore.wav.json"
+      ]
+    },
+    {
+      "label": "02_HomeExplore",
+      "stamp": "2026-10-06T00:35:47.6460674+08:00",
+      "state": "HomeExplore",
+      "stage": 0,
+      "rhythm": false,
+      "appreciating": false,
+      "master": 1.0,
+      "audioCapture": {
+        "stamp": "2026-10-06T00:35:59.7471815+08:00",
+        "sampleRate": 48000,
+        "channelCount": 2,
+        "sampleCount": 1152000,
+        "clippedSamples": 0,
+        "seconds": 12.0,
+        "peak": 0.1268186867237091,
+        "rms": 0.025979340199689793
+      },
+      "files": [
+        "listening/02_HomeExplore_state.json",
+        "listening/02_HomeExplore.png",
+        "listening/02_HomeExplore.wav",
+        "listening/02_HomeExplore.wav.json"
+      ]
+    },
+    {
+      "label": "03_ThreeDoors_stage0",
+      "stamp": "2026-10-06T00:40:39.9575554+08:00",
+      "state": "ThreeDoors",
+      "stage": 0,
+      "rhythm": false,
+      "appreciating": false,
+      "master": 1.0,
+      "audioCapture": {
+        "stamp": "2026-10-06T00:40:41.3368304+08:00",
+        "sampleRate": 48000,
+        "channelCount": 2,
+        "sampleCount": 133120,
+        "clippedSamples": 0,
+        "seconds": 1.3866666666666667,
+        "peak": 0.0012472565285861492,
+        "rms": 0.0002317565567031251
+      },
+      "files": [
+        "listening/03_ThreeDoors_stage0_state.json",
+        "listening/03_ThreeDoors_stage0.png",
+        "listening/03_ThreeDoors_stage0.wav",
+        "listening/03_ThreeDoors_stage0.wav.json"
+      ]
+    },
+    {
+      "label": "04_ThreeDoors_stage1",
+      "stamp": "2026-10-06T00:41:04.8322126+08:00",
+      "state": "ThreeDoors",
+      "stage": 1,
+      "rhythm": false,
+      "appreciating": false,
+      "master": 1.0,
+      "audioCapture": {
+        "stamp": "2026-10-06T00:41:06.0668538+08:00",
+        "sampleRate": 48000,
+        "channelCount": 2,
+        "sampleCount": 118784,
+        "clippedSamples": 0,
+        "seconds": 1.2373333333333334,
+        "peak": 0.11827385425567627,
+        "rms": 0.046785981873435405
+      },
+      "files": [
+        "listening/04_ThreeDoors_stage1_state.json",
+        "listening/04_ThreeDoors_stage1.png",
+        "listening/04_ThreeDoors_stage1.wav",
+        "listening/04_ThreeDoors_stage1.wav.json"
+      ]
+    },
+    {
+      "label": "05_ThreeDoors_stage2",
+      "stamp": "2026-10-06T00:41:06.0526219+08:00",
+      "state": "ThreeDoors",
+      "stage": 2,
+      "rhythm": false,
+      "appreciating": false,
+      "master": 1.0,
+      "audioCapture": {
+        "stamp": "2026-10-06T00:41:08.3392428+08:00",
+        "sampleRate": 48000,
+        "channelCount": 2,
+        "sampleCount": 215040,
+        "clippedSamples": 0,
+        "seconds": 2.24,
+        "peak": 0.14651033282279968,
+        "rms": 0.049266603074144044
+      },
+      "files": [
+        "listening/05_ThreeDoors_stage2_state.json",
+        "listening/05_ThreeDoors_stage2.png",
+        "listening/05_ThreeDoors_stage2.wav",
+        "listening/05_ThreeDoors_stage2.wav.json"
+      ]
+    },
+    {
+      "label": "06_ThreeDoors_stage3",
+      "stamp": "2026-10-06T00:41:08.3192680+08:00",
+      "state": "ThreeDoors",
+      "stage": 3,
+      "rhythm": false,
+      "appreciating": false,
+      "master": 1.0,
+      "audioCapture": {
+        "stamp": "2026-10-06T00:41:11.3592234+08:00",
+        "sampleRate": 48000,
+        "channelCount": 2,
+        "sampleCount": 286720,
+        "clippedSamples": 0,
+        "seconds": 2.986666666666667,
+        "peak": 0.1479056179523468,
+        "rms": 0.022935672451051586
+      },
+      "files": [
+        "listening/06_ThreeDoors_stage3_state.json",
+        "listening/06_ThreeDoors_stage3.png",
+        "listening/06_ThreeDoors_stage3.wav",
+        "listening/06_ThreeDoors_stage3.wav.json"
+      ]
+    },
+    {
+      "label": "07_StreetExplore",
+      "stamp": "2026-10-06T00:41:12.9166106+08:00",
+      "state": "StreetExplore",
+      "stage": -1,
+      "rhythm": false,
+      "appreciating": false,
+      "master": 1.0,
+      "audioCapture": {
+        "stamp": "2026-10-06T00:41:25.0101868+08:00",
+        "sampleRate": 48000,
+        "channelCount": 2,
+        "sampleCount": 1152000,
+        "clippedSamples": 0,
+        "seconds": 12.0,
+        "peak": 0.22840236127376556,
+        "rms": 0.03111766630794296
+      },
+      "files": [
+        "listening/07_StreetExplore_state.json",
+        "listening/07_StreetExplore.png",
+        "listening/07_StreetExplore.wav",
+        "listening/07_StreetExplore.wav.json"
+      ]
+    },
+    {
+      "label": "08_MazeExplore",
+      "stamp": "2026-10-06T00:51:26.4824558+08:00",
+      "state": "MazeExplore",
+      "stage": -1,
+      "rhythm": false,
+      "appreciating": false,
+      "master": 1.0,
+      "audioCapture": {
+        "stamp": "2026-10-06T00:51:38.5609088+08:00",
+        "sampleRate": 48000,
+        "channelCount": 2,
+        "sampleCount": 1152000,
+        "clippedSamples": 0,
+        "seconds": 12.0,
+        "peak": 0.1327141523361206,
+        "rms": 0.04216167690146295
+      },
+      "files": [
+        "listening/08_MazeExplore_state.json",
+        "listening/08_MazeExplore.png",
+        "listening/08_MazeExplore.wav",
+        "listening/08_MazeExplore.wav.json"
+      ]
+    },
+    {
+      "label": "09_BirthdayPerformance",
+      "stamp": "2026-10-06T00:59:02.9028677+08:00",
+      "state": "BirthdayPerformance",
+      "stage": -1,
+      "rhythm": false,
+      "appreciating": true,
+      "master": 1.0,
+      "audioCapture": {
+        "stamp": "2026-10-06T00:59:14.9979022+08:00",
+        "sampleRate": 48000,
+        "channelCount": 2,
+        "sampleCount": 1152000,
+        "clippedSamples": 0,
+        "seconds": 12.0,
+        "peak": 0.19193464517593384,
+        "rms": 0.034126256880995694
+      },
+      "files": [
+        "listening/09_BirthdayPerformance_state.json",
+        "listening/09_BirthdayPerformance.png",
+        "listening/09_BirthdayPerformance.wav",
+        "listening/09_BirthdayPerformance.wav.json"
+      ]
+    },
+    {
+      "label": "10_SchoolOtherworld",
+      "stamp": "2026-10-06T01:14:40.3978320+08:00",
+      "state": "SchoolOtherworld",
+      "stage": -1,
+      "rhythm": false,
+      "appreciating": false,
+      "master": 1.0,
+      "audioCapture": {
+        "stamp": "2026-10-06T01:14:52.4806897+08:00",
+        "sampleRate": 48000,
+        "channelCount": 2,
+        "sampleCount": 1152000,
+        "clippedSamples": 0,
+        "seconds": 12.0,
+        "peak": 0.1262730360031128,
+        "rms": 0.02930076316643837
+      },
+      "files": [
+        "listening/10_SchoolOtherworld_state.json",
+        "listening/10_SchoolOtherworld.png",
+        "listening/10_SchoolOtherworld.wav",
+        "listening/10_SchoolOtherworld.wav.json"
+      ]
+    },
+    {
+      "label": "11_SchoolMemory",
+      "stamp": "2026-10-06T01:18:28.1182617+08:00",
+      "state": "SchoolMemory",
+      "stage": -1,
+      "rhythm": false,
+      "appreciating": false,
+      "master": 1.0,
+      "audioCapture": {
+        "stamp": "2026-10-06T01:18:40.2198942+08:00",
+        "sampleRate": 48000,
+        "channelCount": 2,
+        "sampleCount": 1152000,
+        "clippedSamples": 0,
+        "seconds": 12.0,
+        "peak": 0.11989634484052658,
+        "rms": 0.041268207258660546
+      },
+      "files": [
+        "listening/11_SchoolMemory_state.json",
+        "listening/11_SchoolMemory.png",
+        "listening/11_SchoolMemory.wav",
+        "listening/11_SchoolMemory.wav.json"
+      ]
+    },
+    {
+      "label": "12_Chase",
+      "stamp": "2026-10-06T01:20:13.4780794+08:00",
+      "state": "Chase",
+      "stage": -1,
+      "rhythm": false,
+      "appreciating": false,
+      "master": 1.0,
+      "audioCapture": {
+        "stamp": "2026-10-06T01:20:25.5945434+08:00",
+        "sampleRate": 48000,
+        "channelCount": 2,
+        "sampleCount": 1152000,
+        "clippedSamples": 0,
+        "seconds": 12.0,
+        "peak": 0.13559697568416595,
+        "rms": 0.028458179530666452
+      },
+      "files": [
+        "listening/12_Chase_state.json",
+        "listening/12_Chase.png",
+        "listening/12_Chase.wav",
+        "listening/12_Chase.wav.json"
+      ]
+    },
+    {
+      "label": "13_Companionship",
+      "stamp": "2026-10-06T01:35:04.3732503+08:00",
+      "state": "Companionship",
+      "stage": 0,
+      "rhythm": false,
+      "appreciating": false,
+      "master": 1.0,
+      "audioCapture": {
+        "stamp": "2026-10-06T01:35:16.4739063+08:00",
+        "sampleRate": 48000,
+        "channelCount": 2,
+        "sampleCount": 1152000,
+        "clippedSamples": 0,
+        "seconds": 12.0,
+        "peak": 0.11799710988998413,
+        "rms": 0.02396311868480348
+      },
+      "files": [
+        "listening/13_Companionship_state.json",
+        "listening/13_Companionship.png",
+        "listening/13_Companionship.wav",
+        "listening/13_Companionship.wav.json"
+      ]
+    },
+    {
+      "label": "14_EndTheme",
+      "stamp": "2026-10-06T01:44:55.3543505+08:00",
+      "state": "EndTheme",
+      "stage": -1,
+      "rhythm": false,
+      "appreciating": false,
+      "master": 1.0,
+      "audioCapture": {
+        "stamp": "2026-10-06T01:45:07.4445567+08:00",
+        "sampleRate": 48000,
+        "channelCount": 2,
+        "sampleCount": 1152000,
+        "clippedSamples": 0,
+        "seconds": 12.0,
+        "peak": 0.21462932229042053,
+        "rms": 0.02749604419111165
+      },
+      "files": [
+        "listening/14_EndTheme_state.json",
+        "listening/14_EndTheme.png",
+        "listening/14_EndTheme.wav",
+        "listening/14_EndTheme.wav.json"
+      ]
+    },
+    {
+      "label": "15_MainTheme",
+      "stamp": "2026-10-06T01:45:53.2621302+08:00",
+      "state": "MainTheme",
+      "stage": -1,
+      "rhythm": false,
+      "appreciating": false,
+      "master": 1.0,
+      "audioCapture": {
+        "stamp": "2026-10-06T01:46:05.3507668+08:00",
+        "sampleRate": 48000,
+        "channelCount": 2,
+        "sampleCount": 1152000,
+        "clippedSamples": 0,
+        "seconds": 12.0,
+        "peak": 0.21462932229042053,
+        "rms": 0.027371695118728574
+      },
+      "files": [
+        "listening/15_MainTheme_state.json",
+        "listening/15_MainTheme.png",
+        "listening/15_MainTheme.wav",
+        "listening/15_MainTheme.wav.json"
+      ]
+    }
+  ],
+  "obsoleteCandidates": 0,
+  "totalFinalClippedSamples": 0,
+  "maxFinalPeak": 0.22840236127376556
+}

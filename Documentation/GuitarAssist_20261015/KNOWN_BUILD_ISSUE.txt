@@ -1,0 +1,6 @@
+The Rain We Knew / 旧雨
+Local review: guitar-guidance-forgiving-02
+
+Gameplay/UI verification: 22 isolated Play Mode cases, 132 checks passed.
+
+Known build issue (unresolved): Unity reports BuildResult.Succeeded with one error while saving Assets/TextMesh Pro/Settings/UniversalRP.asset during build initialization. The configuration file is byte-identical to the backed-up source. This is not a clean zero-error build. The diagnostic is retained in Documentation/GuitarAssist_20261015. Physical keyboard feel and the full owner playthrough remain pending. Formal desktop publication and GitHub upload await owner review.

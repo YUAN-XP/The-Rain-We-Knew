@@ -342756,6 +342756,52 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::RetiredArtVisibility
   renderers:
   - {fileID: 1160888004}
+--- !u!1 &1160917245
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1160917247}
+  - component: {fileID: 1160917246}
+  m_Layer: 0
+  m_Name: AudioPass0_Profile
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1160917246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1160917245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4220ec1d88c32f541a3e484ea776f92d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SceneMusicProfile
+  role: 2
+  defaultState: 5
+--- !u!4 &1160917247
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1160917245}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1161079681
 GameObject:
   m_ObjectHideFlags: 0
@@ -607715,7 +607761,7 @@ MonoBehaviour:
   zhaoCall: {fileID: 11400000, guid: 8e456cb9eefb25a4e8d2088fff333dbe, type: 2}
   zhaoAside: {fileID: 11400000, guid: 54d8b60d2f951b14d997ad69a732d50b, type: 2}
   music: {fileID: 2051306247}
-  fullBirthdaySong: {fileID: 8300000, guid: 87e595028f4ac7a45a1cd28e13224e60, type: 3}
+  fullBirthdaySong: {fileID: 8300000, guid: 90b7da712f501d34b8a043fe0a5b4bd7, type: 3}
   boy: {fileID: 1596638013}
   childSeat: {fileID: 937036498}
   boySeat: {fileID: 510717563}
@@ -636599,3 +636645,4 @@ SceneRoots:
   - {fileID: 1446690573}
   - {fileID: 1869345357}
   - {fileID: 770958500}
+  - {fileID: 1160917247}

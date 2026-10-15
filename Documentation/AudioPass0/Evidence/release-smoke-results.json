@@ -1,0 +1,51 @@
+{
+  "stamp": "2026-10-06T02:10:02.166648+08:00",
+  "executable": "D:\\游戏设计\\Codex工作区\\work\\2026-10-06-AudioPass0\\build_release\\ProjectMystery.exe",
+  "method": "Cold start of final Windows build; real native UI observed and operated using Sky. No gameplay input replay or editor probe in the player.",
+  "observations": [
+    {
+      "check": "main_menu",
+      "result": "PASS",
+      "detail": "Original Chinese menu and artwork displayed. Existing continue/load options retained."
+    },
+    {
+      "check": "new_game_confirmation",
+      "result": "PASS",
+      "detail": "Original confirmation used; no save was written."
+    },
+    {
+      "check": "scene01_original_opening",
+      "result": "PASS",
+      "detail": "Original opening completed and exploration task appeared in the original scene."
+    },
+    {
+      "check": "idle_without_input",
+      "result": "PASS",
+      "detail": "Repeated live screenshots over more than one minute showed the player stationary beside the bins."
+    },
+    {
+      "check": "original_quit",
+      "result": "PASS",
+      "detail": "Escape, Exit Game, original confirmation; process closed normally."
+    }
+  ],
+  "audio_subjective_listening": "NOT VERIFIED in the standalone smoke test. Use final editor output WAV captures and user audition for tonal balance and loop seams.",
+  "full_demo_standalone_replay": "NOT RUN a second time. Full normal-entry run was completed in Unity Play Mode before the final build.",
+  "native_screenshots": "Live UI screenshots displayed in the task conversation; no disk screenshot archive from this smoke test.",
+  "runtimeExceptionOrMusicErrorLines": [],
+  "unityNetworkMessages": [
+    "Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7",
+    "Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7",
+    "Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7",
+    "Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7",
+    "Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7",
+    "Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7",
+    "Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7",
+    "Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7"
+  ],
+  "spawnMessages": [
+    "PersistentRuntime: No PlayerSpawnPoint found in Scene01_Rain",
+    "PersistentRuntime: No PlayerSpawnPoint found in Scene01_Rain"
+  ],
+  "notes": "Unity TLS/network messages and a PlayerSpawnPoint warning were observed; they are not MusicManager errors. No unrelated settings were changed to suppress them."
+}

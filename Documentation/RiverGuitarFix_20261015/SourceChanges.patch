@@ -1,0 +1,63 @@
+--- before/GuitarRhythmGame.cs
++++ after/GuitarRhythmGame.cs
+@@ -24,7 +24,7 @@
+     Image chordPlate;
+     RectTransform[] tokens;
+     bool[] judged;
+-    bool missed, transitioning, ownsLock, hadFocus = true;
++    bool missed, transitioning, ownsLock, hadFocus = true, finalStrokeAccepted;
+     float phraseStarted;
+     RectTransform sustainTrack,sustainBar;
+     Image sustainInk;
+@@ -101,7 +101,7 @@
+             RuntimePanelUI.Text(note.key==KeyCode.Space?"Space":note.key.ToString(),token,chapter.font,Vector2.zero,Vector2.one,25).color=new Color(.19f,.22f,.18f);
+         }
+         sustain.Reset(p.notes[0].time, p.notes[p.notes.Length-1].time, releaseGraceSeconds);
+-        missed=false;transitioning=false;phraseStarted=GameplayClock.Now+PreRollSeconds;
++        missed=false;transitioning=false;finalStrokeAccepted=false;phraseStarted=GameplayClock.Now+PreRollSeconds;
+         title.text="";
+         chord.text=p.heldChord==KeyCode.LeftArrow?"←":"→";
+         feedback.text="";feedback.enabled=false;
+@@ -114,18 +114,25 @@
+         if(GameplayInput.Blocked||!IsRunning||transitioning||!Application.isFocused)return;
+         if(WaitingForStart){if(GameplayInput.GetKeyDown(KeyCode.E)){WaitingForStart=false;StartPhrase();}return;}
+         if(!hadFocus){hadFocus=true;StartPhrase();}
+-        bool held=HeldCorrectly();chordPlate.color=held?new Color(.37f,.52f,.33f):new Color(.37f,.31f,.23f);
+-        if(sustain.Tick(PhraseTime,GameplayClock.Delta,held)){
++        PlayFrame(HeldCorrectly(),PhraseTime,GameplayClock.Delta);
++    }
++    // The focused, unpaused Update above owns input admission. Keeping the
++    // phrase step separate also permits isolated deterministic input regression.
++    void PlayFrame(bool held,float time,float delta)
++    {
++        chordPlate.color=held?new Color(.37f,.52f,.33f):new Color(.37f,.31f,.23f);
++        if(!finalStrokeAccepted&&sustain.Tick(time,delta,held)){
+             missed=true;feedback.text="未命中 · 长条结束前请持续按住和弦";
+             feedback.color=new Color(1,.70f,.55f);Judged?.Invoke(phrases[PhraseIndex].heldChord,false,PhraseTime,"Miss · 和弦中断");
+         }
+-        DrawSustain(PhraseTime,held);
+-        Tick(PhraseTime);
++        DrawSustain(time,held);
++        Tick(time);
+         if(transitioning)return;
+-        foreach(var key in Keys)if(GameplayInput.GetKeyDown(key))Hit(key,held,PhraseTime);
++        foreach(var key in Keys)if(GameplayInput.GetKeyDown(key))Hit(key,held,time);
+     }
+     void DrawSustain(float time,bool held)
+     {
++        if(finalStrokeAccepted){sustainBar.gameObject.SetActive(false);return;}
+         var p=phrases[PhraseIndex];float head=.145f+(p.notes[0].time-time)/ChordApproachSeconds*.825f;
+         float tail=.145f+(p.notes[p.notes.Length-1].time-time)/ChordApproachSeconds*.825f;
+         float x=p.heldChord==KeyCode.LeftArrow?.09f:.59f;
+@@ -169,6 +176,11 @@
+     void Judge(int index,bool success,float time,string text)
+     {
+         judged[index]=true;missed|=!success;tokens[index].gameObject.SetActive(false);
++        // The final strum accepts the same early/late Good window as every note.
++        // Once accepted, releasing the chord must not add a new sustain miss
++        // before the nominal end time. Earlier misses remain in 'missed'.
++        if(success&&index==phrases[PhraseIndex].notes.Length-1&&phrases[PhraseIndex].notes[index].key==KeyCode.Space)
++            finalStrokeAccepted=true;
+         feedback.text=text.Replace("Miss ·","未命中 ·").Replace("Perfect","完美").Replace("Good","良好");feedback.color=success?new Color(.80f,.94f,.63f):new Color(1,.70f,.55f);
+         if(success&&phrases[PhraseIndex].notes[index].tone!=null)instrument.PlayOneShot(phrases[PhraseIndex].notes[index].tone,.65f);
+         Judged?.Invoke(phrases[PhraseIndex].notes[index].key,success,time,text);

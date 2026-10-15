@@ -77,7 +77,7 @@ public class DistortedCorridorController : MonoBehaviour
    if(i==lampStage-1&&clock<flickerUntil)light=Mathf.Sin(clock*39f)>.2f?.78f:.06f;
    lamps[i].color=new Color(c.r*light,c.g*light,c.b*light,c.a);
   }
-  if(guitarGuide&&player)
+  if(guitarGuide&&player&&!(MusicManager.Instance&&MusicManager.Instance.Ready))
   {
    guitarGuide.volume=player.transform.position.x<9?strength*.22f:0;
    if(joined&&!guitarGuide.isPlaying)guitarGuide.Play();

@@ -4,5 +4,5 @@ using TMPro;
 public sealed class P07PresentationData:ScriptableObject {
  public TMP_FontAsset font;public Sprite startBackground,endingBackground;
  [TextArea] public string credits="";
- public string gameTitle="ProjectMystery";
+ public string gameTitle="旧雨";
 }

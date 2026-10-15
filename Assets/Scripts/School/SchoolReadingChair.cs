@@ -171,6 +171,8 @@ public class SchoolReadingChair : MonoBehaviour
 
     void PlayMusic()
     {
+        // The scene's configured school cue continues through this optional seated view.
+        if (MusicManager.Instance && MusicManager.Instance.Ready) return;
         if (music == null)
         {
             music = gameObject.AddComponent<AudioSource>();

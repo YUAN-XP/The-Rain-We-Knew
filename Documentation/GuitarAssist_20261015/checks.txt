@@ -1,0 +1,132 @@
+PASS Centered completion=True phrase=4 retries=0 hits=29 misses=0
+PASS Centered all authored notes accepted without hidden extra misses
+PASS Centered feedback label is enabled
+PASS Centered completion releases CloseUp lock
+PASS EarlyWithinWindow completion=True phrase=4 retries=0 hits=29 misses=0
+PASS EarlyWithinWindow all authored notes accepted without hidden extra misses
+PASS EarlyWithinWindow feedback label is enabled
+PASS EarlyWithinWindow completion releases CloseUp lock
+PASS LateWithinWindow late note stays visible at judgement line
+PASS LateWithinWindow completion=True phrase=4 retries=0 hits=29 misses=0
+PASS LateWithinWindow all authored notes accepted without hidden extra misses
+PASS LateWithinWindow feedback label is enabled
+PASS LateWithinWindow completion releases CloseUp lock
+PASS EarlyStrumThenRelease completion=True phrase=4 retries=0 hits=29 misses=0
+PASS EarlyStrumThenRelease all authored notes accepted without hidden extra misses
+PASS EarlyStrumThenRelease feedback label is enabled
+PASS EarlyStrumThenRelease completion releases CloseUp lock
+PASS ShortChordGap completion=True phrase=4 retries=0 hits=29 misses=0
+PASS ShortChordGap all authored notes accepted without hidden extra misses
+PASS ShortChordGap feedback label is enabled
+PASS ShortChordGap completion releases CloseUp lock
+PASS NoteDuringBriefRelease completion=True phrase=4 retries=0 hits=29 misses=0
+PASS NoteDuringBriefRelease all authored notes accepted without hidden extra misses
+PASS NoteDuringBriefRelease feedback label is enabled
+PASS NoteDuringBriefRelease completion releases CloseUp lock
+PASS RecoverLongChordGap completion=True phrase=4 retries=0 hits=25 misses=4
+PASS RecoverLongChordGap feedback label is enabled
+PASS RecoverLongChordGap completion releases CloseUp lock
+PASS OneMissAllowed completion=True phrase=4 retries=0 hits=25 misses=4
+PASS OneMissAllowed feedback label is enabled
+PASS OneMissAllowed completion releases CloseUp lock
+PASS TwoMissesRetry completion=False phrase=0 retries=1 hits=5 misses=2
+PASS TwoMissesRetry feedback label is enabled
+PASS TwoMissesRetry retry explains excess melody misses
+PASS WrongChord completion=False phrase=0 retries=1 hits=0 misses=7
+PASS WrongChord feedback label is enabled
+PASS ExtraEarlyKey completion=True phrase=4 retries=0 hits=29 misses=0
+PASS ExtraEarlyKey all authored notes accepted without hidden extra misses
+PASS ExtraEarlyKey feedback label is enabled
+PASS ExtraEarlyKey completion releases CloseUp lock
+PASS ExtraKeyWithCorrectNote completion=True phrase=4 retries=0 hits=29 misses=0
+PASS ExtraKeyWithCorrectNote all authored notes accepted without hidden extra misses
+PASS ExtraKeyWithCorrectNote feedback label is enabled
+PASS ExtraKeyWithCorrectNote completion releases CloseUp lock
+PASS NoteKeyHeldAtStrum completion=True phrase=4 retries=0 hits=29 misses=0
+PASS NoteKeyHeldAtStrum all authored notes accepted without hidden extra misses
+PASS NoteKeyHeldAtStrum feedback label is enabled
+PASS NoteKeyHeldAtStrum completion releases CloseUp lock
+PASS BothArrowsOverlap completion=True phrase=4 retries=0 hits=29 misses=0
+PASS BothArrowsOverlap all authored notes accepted without hidden extra misses
+PASS BothArrowsOverlap feedback label is enabled
+PASS BothArrowsOverlap completion releases CloseUp lock
+PASS StrumTooEarly completion=False phrase=0 retries=1 hits=6 misses=1
+PASS StrumTooEarly feedback label is enabled
+PASS StrumTooEarly retry identifies the missing final strum
+PASS StrumTooLate completion=False phrase=0 retries=1 hits=6 misses=1
+PASS StrumTooLate feedback label is enabled
+PASS StrumTooLate retry identifies the missing final strum
+PASS NoStrum completion=False phrase=0 retries=1 hits=6 misses=1
+PASS NoStrum feedback label is enabled
+PASS NoStrum retry identifies the missing final strum
+PASS NoNotes completion=False phrase=0 retries=1 hits=0 misses=7
+PASS NoNotes feedback label is enabled
+PASS ChordCorrectedWithinWindow completion=True phrase=4 retries=0 hits=29 misses=0
+PASS ChordCorrectedWithinWindow all authored notes accepted without hidden extra misses
+PASS ChordCorrectedWithinWindow feedback label is enabled
+PASS ChordCorrectedWithinWindow completion releases CloseUp lock
+PASS SecondPhraseRetryRecovery completion=True phrase=4 retries=1 hits=34 misses=2
+PASS SecondPhraseRetryRecovery feedback label is enabled
+PASS SecondPhraseRetryRecovery completion releases CloseUp lock
+PASS FeedbackPersistence specific missed-key hint survives the next successful notes
+PASS FeedbackPersistence guidance fits: SimplifiedChinese / 
+PASS FeedbackPersistence guidance fits: SimplifiedChinese / ←
+PASS FeedbackPersistence guidance fits: SimplifiedChinese / W
+PASS FeedbackPersistence guidance fits: SimplifiedChinese / S
+PASS FeedbackPersistence guidance fits: SimplifiedChinese / A
+PASS FeedbackPersistence guidance fits: SimplifiedChinese / D
+PASS FeedbackPersistence guidance fits: SimplifiedChinese / Space
+PASS FeedbackPersistence guidance fits: SimplifiedChinese / W
+PASS FeedbackPersistence guidance fits: SimplifiedChinese / W
+PASS FeedbackPersistence guidance fits: SimplifiedChinese / S
+PASS FeedbackPersistence guidance fits: SimplifiedChinese / W
+PASS FeedbackPersistence guidance fits: SimplifiedChinese / A
+PASS FeedbackPersistence guidance fits: SimplifiedChinese / D
+PASS FeedbackPersistence guidance fits: SimplifiedChinese / Space
+PASS FeedbackPersistence guidance fits: SimplifiedChinese / ←
+PASS FeedbackPersistence guidance fits: SimplifiedChinese / →
+PASS FeedbackPersistence guidance fits: SimplifiedChinese / W 漏拍：接着弹即可，本段允许漏 1 个旋律音符。
+PASS FeedbackPersistence guidance fits: SimplifiedChinese / 按住 ←；音符靠近金线时按键，最后按空格。
+PASS FeedbackPersistence guidance fits: English / 
+PASS FeedbackPersistence English guidance is translated: 
+PASS FeedbackPersistence guidance fits: English / ←
+PASS FeedbackPersistence English guidance is translated: ←
+PASS FeedbackPersistence guidance fits: English / W
+PASS FeedbackPersistence English guidance is translated: W
+PASS FeedbackPersistence guidance fits: English / S
+PASS FeedbackPersistence English guidance is translated: S
+PASS FeedbackPersistence guidance fits: English / A
+PASS FeedbackPersistence English guidance is translated: A
+PASS FeedbackPersistence guidance fits: English / D
+PASS FeedbackPersistence English guidance is translated: D
+PASS FeedbackPersistence guidance fits: English / Space
+PASS FeedbackPersistence English guidance is translated: Space
+PASS FeedbackPersistence guidance fits: English / W
+PASS FeedbackPersistence English guidance is translated: W
+PASS FeedbackPersistence guidance fits: English / W
+PASS FeedbackPersistence English guidance is translated: W
+PASS FeedbackPersistence guidance fits: English / S
+PASS FeedbackPersistence English guidance is translated: S
+PASS FeedbackPersistence guidance fits: English / W
+PASS FeedbackPersistence English guidance is translated: W
+PASS FeedbackPersistence guidance fits: English / A
+PASS FeedbackPersistence English guidance is translated: A
+PASS FeedbackPersistence guidance fits: English / D
+PASS FeedbackPersistence English guidance is translated: D
+PASS FeedbackPersistence guidance fits: English / Space
+PASS FeedbackPersistence English guidance is translated: Space
+PASS FeedbackPersistence guidance fits: English / ←
+PASS FeedbackPersistence English guidance is translated: ←
+PASS FeedbackPersistence guidance fits: English / →
+PASS FeedbackPersistence English guidance is translated: →
+PASS FeedbackPersistence guidance fits: English / W 漏拍：接着弹即可，本段允许漏 1 个旋律音符。
+PASS FeedbackPersistence English guidance is translated: W 漏拍：接着弹即可，本段允许漏 1 个旋律音符。
+PASS FeedbackPersistence guidance fits: English / 按住 ←；音符靠近金线时按键，最后按空格。
+PASS FeedbackPersistence English guidance is translated: 按住 ←；音符靠近金线时按键，最后按空格。
+PASS FeedbackPersistence completion=True phrase=4 retries=0 hits=25 misses=4
+PASS FeedbackPersistence feedback label is enabled
+PASS FeedbackPersistence completion releases CloseUp lock
+PASS ReleaseJustBeforeStrum completion=True phrase=4 retries=0 hits=29 misses=0
+PASS ReleaseJustBeforeStrum all authored notes accepted without hidden extra misses
+PASS ReleaseJustBeforeStrum feedback label is enabled
+PASS ReleaseJustBeforeStrum completion releases CloseUp lock

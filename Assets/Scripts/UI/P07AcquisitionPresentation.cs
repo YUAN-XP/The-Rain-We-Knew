@@ -28,7 +28,7 @@ public sealed class P07AcquisitionPresentation:MonoBehaviour {
   }
   if(IsOpen)return;
   if(string.IsNullOrEmpty(toastValue)&&toasts.Count>0)BeginToast(toasts.Dequeue());
-  if(!string.IsNullOrEmpty(toastValue)){toastAge+=Time.unscaledDeltaTime;toastText.maxVisibleCharacters=Mathf.CeilToInt(toastValue.Length*Mathf.Clamp01(toastAge/.6f));toastInk.SetProgress(Mathf.Clamp01(toastAge/.4f));if(toastAge>3.2f){toastValue=null;toastRoot.SetActive(false);}}
+  if(!string.IsNullOrEmpty(toastValue)){toastAge+=Time.unscaledDeltaTime;toastText.maxVisibleCharacters=Mathf.CeilToInt(GameLocalization.VisibleLength(toastValue)*Mathf.Clamp01(toastAge/.6f));toastInk.SetProgress(Mathf.Clamp01(toastAge/.4f));if(toastAge>3.2f){toastValue=null;toastRoot.SetActive(false);}}
  }
  bool Combinable(bool file){var cm=GetComponent<CombinationManager>();var inv=GetComponent<InventoryManager>();var files=GetComponent<FileArchiveManager>();if(!cm)return false;
   // Query the original candidate rules; never award, remove or combine anything here.
@@ -55,7 +55,7 @@ public sealed class P07AcquisitionPresentation:MonoBehaviour {
  }
  public void Close(){GameplayInput.ConsumeFrame();controls.ReleaseLock(ControlLockReason.CloseUp,this);pause.Thaw(this);if(page){page.SetActive(false);Destroy(page);}page=null;currentFile=null;reading=false;}
  void BeginToast(string value){if(!toastRoot){var c=RuntimePanelUI.Canvas("AcquisitionToasts",transform,150);toastRoot=RuntimePanelUI.Rect("TopRightToast",c,new Vector2(.63f,.932f),new Vector2(.965f,.98f)).gameObject;toastInk=toastRoot.AddComponent<P07InkGraphic>();toastInk.color=P07UI.Paper;toastInk.raycastTarget=false;toastText=P07UI.Text("",toastRoot.transform,new Vector2(.04f,.02f),new Vector2(.98f,.98f),23,true);}
-  toastRoot.SetActive(true);toastValue=value;toastText.text=value;toastAge=0;toastText.maxVisibleCharacters=0;float width=Mathf.Clamp(toastText.GetPreferredValues(value).x+50,140,535);var r=(RectTransform)toastRoot.transform;r.anchorMin=r.anchorMax=new Vector2(.965f,.966f);r.pivot=new Vector2(1,.5f);r.sizeDelta=new Vector2(width,40);}
+  toastRoot.SetActive(true);toastValue=value;toastText.text=value;toastAge=0;toastText.maxVisibleCharacters=0;float width=Mathf.Clamp(toastText.GetPreferredValues(GameLocalization.Display(value)).x+50,140,535);var r=(RectTransform)toastRoot.transform;r.anchorMin=r.anchorMax=new Vector2(.965f,.966f);r.pivot=new Vector2(1,.5f);r.sizeDelta=new Vector2(width,40);}
  public void ResetPresentation(){gains.Clear();toasts.Clear();toastValue=null;if(toastRoot)toastRoot.SetActive(false);if(IsOpen)Close();}
  void OnDestroy(){if(history)history.Obtained-=Gained;if(pause)pause.Thaw(this);if(controls)controls.ReleaseLock(ControlLockReason.CloseUp,this);}
 }

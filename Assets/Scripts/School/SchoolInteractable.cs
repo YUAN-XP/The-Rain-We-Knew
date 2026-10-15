@@ -15,8 +15,17 @@ public sealed class SchoolInteractable : MonoBehaviour, IInteractable
     public RoomTransitionInteractable transition;
     public string destinationRoomId;
     public DialogueData investigation;
-    public string GetInteractionPrompt() => school!=null&&school.chase!=null&&school.chase.IsActive
-        &&school.chase.Step!=SchoolChaseStep.Escaping&&school.chase.Step!=SchoolChaseStep.Exploring?"":interactionPrompt;
+    public string GetInteractionPrompt()
+    {
+        if(school!=null&&school.chase!=null&&school.chase.IsActive
+            &&school.chase.Step!=SchoolChaseStep.Escaping&&school.chase.Step!=SchoolChaseStep.Exploring)return "";
+        // The normal-campus flow deliberately ignores these otherworld-only props.
+        // Do not leave a dead E target in front of the nearby living character.
+        if(school!=null&&school.youthFlow!=null&&school.youthFlow.IsYouthMemory
+            &&(action==SchoolAction.OwnDesk||action==SchoolAction.ScratchedDesk
+               ||action==SchoolAction.UniformAndPencil||action==SchoolAction.Basketball||action==SchoolAction.BasketKey))return "";
+        return interactionPrompt;
+    }
     public void Interact() { if (school != null) school.Interact(this); }
     public void Arrived()
     {

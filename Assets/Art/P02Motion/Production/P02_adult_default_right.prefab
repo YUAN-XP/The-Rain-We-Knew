@@ -143,7 +143,7 @@ Transform:
   m_GameObject: {fileID: 350724825016857968}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.002, y: 0.008, z: 0}
   m_LocalScale: {x: 0.07564839, y: 0.07564839, z: 0.07564839}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -401,6 +401,7 @@ MonoBehaviour:
   targetHeight: 1.8
   motionSource: {fileID: 0}
   groundOffset: {x: 0, y: 0, z: 0}
+  OpeningRise: -1
   planarMovement: 0
   nearHeel: {x: -0.03896429, y: 0.01392857, z: 0}
   nearToe: {x: 0.22032145, y: 0.02142857, z: 0}

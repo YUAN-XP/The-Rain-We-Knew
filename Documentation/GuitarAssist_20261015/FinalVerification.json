@@ -1,0 +1,28 @@
+{
+  "revision": "guitar-guidance-forgiving-02",
+  "integrityAndGameplayChecksPassed": true,
+  "cleanBuild": false,
+  "buildReportErrors": 1,
+  "runtimeInspection": {
+    "builtRuntimeIncludesForgivingStrumWindow": true,
+    "builtRuntimeHasVisibleFeedbackMethod": true,
+    "builtRuntimeHasNoDiagnosticReplay": true,
+    "builtRuntimeHasFinalStrumState": true,
+    "builtRuntimeSustainUsesFinalStrumState": true,
+    "builtRuntimeJudgeSetsFinalStrumState": true,
+    "builtRuntimeUpdateKeepsFocusGate": true,
+    "builtRuntimeUpdateKeepsPauseGate": true,
+    "builtRuntimeUpdateCallsPhraseStep": true,
+    "builtRuntimeExcludesGuitarEditorProbe": true,
+    "builtRuntimeKeepsSubtitleSessionFix": true
+  },
+  "archiveContainsLatestRuntime": true,
+  "archiveSHA256": "15c620c6a2f879b307c38f4fb50181510950c4df665208760aa246b51ca2b718",
+  "zipIntegrity": "passed",
+  "sceneFilesUnchanged": true,
+  "authoredBeatTimesAndTonesUnchanged": true,
+  "physicalKeyboardTested": false,
+  "fullStoryPlaythrough": false,
+  "formalDesktopPublished": false,
+  "githubPublished": false
+}

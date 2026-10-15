@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad9e61e4eb45e9d4785fcc81989ccd9a, type: 3}
+  m_Name: MusicLibrary
+  m_EditorClassIdentifier: Assembly-CSharp::MusicLibrary
+  cues:
+  - {fileID: 11400000, guid: ad5635572bf4e8d4488aa3b80855202e, type: 2}
+  - {fileID: 11400000, guid: b142b34ec82afeb46a2a06acd775756b, type: 2}
+  - {fileID: 11400000, guid: a4bc2da7888c79b4f94a0d675601ab8b, type: 2}
+  - {fileID: 11400000, guid: 68fd86a0f56aedf4e863af1d3f1d22de, type: 2}
+  - {fileID: 11400000, guid: fd44deb08fb3da84cb82a289fb1c3ad0, type: 2}
+  - {fileID: 11400000, guid: b0f716cb5dc190b4fab69c44a709a532, type: 2}
+  - {fileID: 11400000, guid: b2153bcb5aa8c6d4884531c6d22e5e89, type: 2}
+  - {fileID: 11400000, guid: dfb73664a41553e4a8a9d1d657a337e1, type: 2}
+  - {fileID: 11400000, guid: 27e0aebcc3e1b8c46a03ed45d076ccdc, type: 2}
+  - {fileID: 11400000, guid: 0a73ef054ad07374f96c231279f74d75, type: 2}
+  - {fileID: 11400000, guid: 74d19d86f0c6d38479298f277be39eb9, type: 2}
+  - {fileID: 11400000, guid: 762f19ea57f6f3846a6ff59cd5430c28, type: 2}
+  themeInstrumentalReserve: {fileID: 8300000, guid: ac332167e38b3fc479bc07939c5a4905, type: 3}
+  mixer: {fileID: 24100000, guid: ee1098ea6ecef7b44a4b01149780f7f9, type: 2}
+  musicGroup: {fileID: 9223031051334925019, guid: ee1098ea6ecef7b44a4b01149780f7f9, type: 2}
+  ambienceGroup: {fileID: -5820929388962012747, guid: ee1098ea6ecef7b44a4b01149780f7f9, type: 2}
+  sfxGroup: {fileID: -6590667234138412329, guid: ee1098ea6ecef7b44a4b01149780f7f9, type: 2}
+  uiGroup: {fileID: 7998360224827867199, guid: ee1098ea6ecef7b44a4b01149780f7f9, type: 2}
+  dialogueGain: 0.45
+  duckAttack: 0.2
+  duckRelease: 0.8

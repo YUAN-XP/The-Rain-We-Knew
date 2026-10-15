@@ -1,0 +1,938 @@
+﻿Type,Chinese,English
+Text,"
+可以重试载入，或重新开始。已有存档会保留。","
+You can retry loading or start again. Existing saves will be kept."
+Text, 幕,
+Text, 次, attempts
+Text, 次  ·  已套中 , attempts  |  Hits: 
+Text, 次 · 向右上投出 · 力度 , attempts | Throw up and right | Power: 
+Text,% · 松手投掷,% | Release to throw
+Text,% · 轨迹线是篮球的飞行方向 · 松手投掷  [Esc] 取消,% | The line shows the ball's path | Release to throw  [Esc] Cancel
+Text,(占位标签),
+Text,...,...
+Text,02号病床邱天，23点16分抢救无效，确认死亡。,"Patient Qiu Tian, Bed 02. Resuscitation unsuccessful. Death confirmed at 23:16."
+Text,"7月15日 安全公告
+近日天气晴朗，是走亲访友的好季节；注意外出安全；有事及时拨打 110 联系当地民警。
+——警卫处","July 15 - Safety Notice
+The weather has been fine, making this a good time to visit friends and relatives. Take care when going out. If you need police assistance, call 110.
+- Security Office"
+Text,Miss · 和弦中断,Miss | Chord released
+Text,Miss · 拍弦前请松开 W/S/A/D,Miss | Release W/S/A/D before strumming
+Text,Miss · 漏拍,Miss | Missed beat
+Text,Miss · 请持续按住正确和弦,Miss | Keep holding the correct chord
+Text,Miss · 错键或时机,Miss | Wrong key or timing
+Text,Stage 5A 到此结束，可在教室内活动；退出 Play Mode 可结束体验。,This section is complete. You can explore the classroom; leave Play Mode to end the preview.
+Text,Stage 5A 已结束。可以在教室内活动；退出 Play Mode 可结束本次体验。,This section is complete. You can explore the classroom; leave Play Mode to end the preview.
+Text,U盘,USB Drive
+Text,U盘（监控）,USB Drive (Surveillance Footage)
+Text,[E] 上楼,[E] Go upstairs
+Text,[E] 上车,[E] Get in
+Text,[E] 下楼,[E] Go downstairs
+Text,[E] 交互,[E] Interact
+Text,[E] 交谈,[E] Talk
+Text,[E] 使用,[E] Use
+Text,[E] 出门,[E] Go outside
+Text,[E] 听一听,[E] Listen
+Text,[E] 喂小猫,[E] Feed the kitten
+Text,[E] 回家吃晚餐,[E] Go home for dinner
+Text,[E] 坐一会儿,[E] Sit for a while
+Text,[E] 坐下,[E] Sit down
+Text,[E] 对话,[E] Talk
+Text,[E] 开门,[E] Open door
+Text,[E] 打开,[E] Open
+Text,[E] 拾取,[E] Pick up
+Text,[E] 拾取钥匙,[E] Pick up key
+Text,[E] 拿上相机,[E] Take camera
+Text,[E] 拿起灯油,[E] Pick up lamp oil
+Text,[E] 拿起篮球,[E] Pick up basketball
+Text,[E] 收集,[E] Collect
+Text,[E] 放置相机,[E] Place camera
+Text,[E] 旁听一会,[E] Listen for a while
+Text,[E] 查看便利贴,[E] Read sticky note
+Text,[E] 查看密码锁,[E] Examine combination lock
+Text,[E] 查看窗内,[E] Look through window
+Text,[E] 查看黑雾,[E] Examine black fog
+Text,[E] 楼梯,[E] Stairs
+Text,[E] 看公告栏,[E] Read noticeboard
+Text,[E] 看看小猫,[E] Look at kitten
+Text,[E] 离开,[E] Leave
+Text,[E] 继续,[E] Continue
+Text,[E] 调查,[E] Examine
+Text,[E] 走向河堤,[E] Go to riverside
+Text,[E] 返回,[E] Return
+Text,[E] 返回走廊,[E] Return to corridor
+Text,[E] 进入,[E] Enter
+Text,[E] 进入 / 返回,[E] Enter / return
+Text,[E] 重试,[E] Retry
+Text,[E] 阅读,[E] Read
+Text,[Esc] 关闭,[Esc] Close
+Text,[Esc] 起身,[Esc] Stand up
+Text,[Esc] 返回,[Esc] Back
+Text,[Esc] 退出,[Esc] Exit
+Text,[Q] 举起 / 放下相机,[Q] Raise / lower camera
+Text,[R] 使用小油灯,[R] Use small oil lamp
+Text,[Shift] 奔跑,[Shift] Run
+Text,[Space] 拍照    [Q] 放下相机,[Space] Take photo    [Q] Lower camera
+Text,[W/A/S/D] 或方向键移动    [Q] 举起相机,[W/A/S/D] or arrow keys to move    [Q] Raise camera
+Text,[空格] 继续,[Space] Continue
+Text,——《了不起的盖茨比》,F. Scott Fitzgerald - The Great Gatsby
+Text,……,...
+Text,……。,...
+Text,……他们都在看什么？,...What are they all looking at?
+Text,……嗯。,...Yeah.
+Text,……我不想盯着它看太久。,...I don't want to look at it for too long.
+Text,……打开了。,...It's open.
+Text,……有没有办法看清？,...Is there a way to see it clearly?
+Text,……知道了。,...Okay.
+Text,……等等。,...Wait.
+Text,……这是我的证件套？,...Is this my ID holder?
+Text,……这种味道，我好像在哪里闻过。,...I feel as if I've smelled this somewhere before.
+Text,……那个骑士还挺帅的。,"...That knight is kind of handsome, though."
+Text,……里面有人吗？,...Is anyone in there?
+Text,……？,...?
+Text,←,←
+Text,→,→
+Text,一个你一直想回来的地方。,Somewhere you've always wanted to come back to.
+Text,一个篮球。,A basketball.
+Text,一切的时候？,Everything?
+Text,一只很可爱的小猫，怀里护着什么东西。,A very cute kitten is curled up around something.
+Text,"一台保存得还算完整的旧相机。
+不知道为什么，握住它时总有种奇怪的熟悉感。","An old camera in fairly good condition.
+For some reason, holding it gives me a strange feeling of familiarity."
+Text,一块撕下来的报纸碎片……,A torn piece of newspaper...
+Text,一张残缺的文件碎片，内容尚不完整。,An incomplete document fragment. Some of the text is missing.
+Text,一张残缺的旧报纸，似乎能与之前找到的碎片拼在一起。,A torn piece of an old newspaper. It might fit with the fragments found earlier.
+Text,一张被严重污渍覆盖的旧合影。,An old group photo covered in heavy stains.
+Text,一把钥匙……,A key...
+Text,一枚从小猫身旁拾到的游戏币，可以用来套圈。,A token found beside the kitten. It can be used for ring toss.
+Text,一楼,Ground Floor
+Text,一楼走廊,Ground-Floor Corridor
+Text,一楼连续主路,Continuous ground-floor main route
+Text,一盏坏掉的台灯。,A broken desk lamp.
+Text,一盏小油灯，微弱的光也许能照亮前面的黑暗。,A small oil lamp. Its faint light might illuminate the darkness ahead.
+Text,一盏很旧的台灯。,A very old desk lamp.
+Text,一盘棋下这么久，茶都凉了。,"You've spent so long on one game, the tea's gone cold."
+Text,一辆警车……,A police car...
+Text,三张残缺的报纸终于拼在了一起。报道提到，周边地区的毒品活动已经影响到居民生活，相关调查仍在继续。,The three torn pieces of newspaper are finally together. The report says drug activity in the surrounding area has affected residents' lives. The investigation is ongoing.
+Text,三楼,Third Floor
+Text,三楼右半；左端实体封口,Third-floor right section; solid boundary on the left
+Text,三楼左半；右端实体封口,Third-floor left section; solid boundary on the right
+Text,三楼必经阅读区独立块；不是第五层,Separate required third-floor reading area; not an additional floor
+Text,上帷幕,Upper Curtain
+Text,上面有把钥匙，应该可以用篮球砸下来,There's a key up there. I should be able to knock it down with the basketball.
+Text,下午的体育课很快就要到了，我得抓紧时间。,PE starts soon this afternoon. I need to hurry.
+Text,不支持的场景,Unsupported scene
+Text,不然呢。,Where else would I be?
+Text,不用了，谢谢。,"No, thank you."
+Text,不知道。所以才应该先查清楚。,I don't know. That's why we should find out first.
+Text,不知道小猫喜不喜欢吃……,I wonder if the kitten would like this...
+Text,不，我也是才知道。,No. I only just found out too.
+Text,"临时停水通知
+7月17日上午8:00至12:00，西街供水管道检修，请居民提前储水。
+——镇供水处","Temporary Water Interruption
+Water will be shut off on West Street from 8:00 a.m. to noon on July 17 for pipe maintenance. Please store water in advance.
+- Town Water Department"
+Text,为什么……这么熟悉？,Why does this feel... so familiar?
+Text,为什么这么说？,What for?
+Text,主任,Director
+Text,主任再见。,"Goodbye, sir."
+Text,主任好，是这样......,"Hello, sir. It's like this..."
+Text,主卧,Main Bedroom
+Text,二楼,Second Floor
+Text,二楼似乎有点不对劲,Something seems wrong upstairs.
+Text,二楼抽屉应该可以打开了。,The drawer upstairs should open now.
+Text,二楼电脑应该可以打开了,The computer upstairs should work now.
+Text,二楼连续走廊,Continuous second-floor corridor
+Text,于是我们继续向前，逆流而行，,"So we beat on, boats against the current,"
+Text,交互,Interact
+Text,交还的证件,Returned Identification
+Text,人多，就一定是对的吗？,Does having more people on your side make you right?
+Text,什么也看不清。,I can't see anything.
+Text,什么老地方？,What usual spot?
+Text,什么？,What?
+Text,仍缺少物品/文件,An item or document is still missing.
+Text,从安保室找到的灯油，可以用来补充小油灯。,Oil found in the security room. It can refill the small oil lamp.
+Text,从旧报纸上撕下的一块碎片。,A torn piece of an old newspaper.
+Text,从次卧衣柜里找到的背带装。,Overalls found in the second bedroom's wardrobe.
+Text,从篮球架上打落的钥匙。,A key knocked down from the basketball stand.
+Text,他也一起去吧，我还有好多事情要问他。,He should come too. I still have so much to ask him.
+Text,他们又在计划什么，我得抢在他们之前先把这事解决了，要不然永远没完。,"What are they planning now? I have to deal with this before they do, or it'll never end."
+Text,他们把我锁里面了，钥匙被他们拿走了。,They locked me in. They took the key.
+Text,他？……,Him?...
+Text,以后还会来的嘛，我喜欢这。,"We'll come back, won't we? I like it here."
+Text,似乎没有人注意到我。,No one seems to notice me.
+Text,但有些东西……你得自己看见。,But there are some things... you have to see for yourself.
+Text,体育器材室,Sports Equipment Room
+Text,体育器材室独立内部,Separate sports-equipment-room interior
+Text,你也一起来吧，难得小鹏愿意出去找朋友玩。,You should join us too. It's not often Xiao Peng wants to go out and see a friend.
+Text,你什么密码都喜欢用同一个。,You use the same password for everything.
+Text,你刚才不怕他们连你一起骂吗？,Weren't you scared they'd start shouting at you too?
+Text,你又知道我以前了？我小时候也不怎么爱说话，但经常听到勇敢骑士的故事，挺喜欢。,"Now you know what I was like before? I didn't talk much as a kid either, but I often heard stories about brave knights. I liked them."
+Text,你好，我是肖鹏，这是要准备去哪？,"Hello, I'm Xiao Peng. Where are we going?"
+Text,你弹得真好。,You play really well.
+Text,你怎么从一楼上来了，我还以为你在二楼。,How did you come up from the ground floor? I thought you were upstairs.
+Text,你怎么来了？,What are you doing here?
+Text,你怎么满头大汗的，还好吧？,Why are you sweating so much? Are you okay?
+Text,你怎么知道我的生日？,How do you know it's my birthday?
+Text,你怎么知道？,How do you know?
+Text,你收到刘队发的邮件了吧，这群团伙可真难找。希望这次能一网打尽，咱们一起过去。,"You got Captain Liu's email, right? This gang has been hard to find. Hopefully we can round them all up this time. Let's go together."
+Text,你早知道我会收到这封邮件？,You knew I would get this email?
+Text,你是想...,You're thinking...
+Text,你是肖警官吧，我是新来的警员张辰。,"You must be Officer Xiao. I'm Zhang Chen, the new officer."
+Text,你是谁，我要去哪里找他们？,Who are you? Where can I find them?
+Text,你是谁？,Who are you?
+Text,你最好是。隔壁班张若媛好像有事找你，你有空了过去一班看看吧。,You'd better. Zhang Ruoyuan in the next class seems to need you. Go and see her in Class 1 when you have time.
+Text,你来了，我把U盘带过来了，你确定想好了吗？,You're here. I brought the USB drive. Are you sure you've thought this through?
+Text,你没事吧？,Are you all right?
+Text,你爸爸妈妈来了嘛？,Are your mom and dad here yet?
+Text,你现在还不会相信我。,You wouldn't believe me yet.
+Text,你的意识消散了,Your consciousness faded
+Text,你的手臂没事吧，怎么有这么大一道伤口，你还好吗？,Is your arm all right? That's a huge wound. Are you okay?
+Text,你装什么,Who do you think you are?
+Text,你要走了吗？我有个东西送给你。,Are you leaving? I have something for you.
+Text,你认识他？,You know him?
+Text,你认识我吗？这里怎么了,Do you know me? What happened here?
+Text,你还喜欢拍照。,You liked taking pictures too.
+Text,你还在家啊？,You're still at home?
+Text,你还是和以前一样，实在是太仗义了。,You're just like you used to be. You always stand up for people.
+Text,你还能走吗？,Can you still walk?
+Text,你还跟着我？,You're still following me?
+Text,使用,Use
+Text,便利店,Convenience Store
+Text,便利店老板,Shopkeeper
+Text,便利贴,Sticky Note
+Text,保存游戏,Save Game
+Text,倒影还在那里。,The reflection is still there.
+Text,像是从里面反锁了。,It seems to be locked from the inside.
+Text,像是曾经被人反复拉开过。,As if someone used to open it again and again.
+Text,先去客厅吧，晚餐准备好了。,Go to the living room first. Dinner is ready.
+Text,先去找朋友吧。,Go and find your friend first.
+Text,先向主任告别吧。,Say goodbye to the dean first.
+Text,先回房间休息吧。,Go back to the bedroom and rest first.
+Text,先按 R 举起小油灯，再进入黑雾。,Press R to raise the small oil lamp before entering the black fog.
+Text,先接电话吧，准备出门了。二楼就别上去了。,"Answer the phone first, then get ready to go out. Don't go upstairs."
+Text,先接电话，再拿上桌上的相机吧。,"Answer the phone first, then take the camera from the table."
+Text,光天化日进女厕所不太好吧，还是先别进去了,I should not be going into the girls' restroom in broad daylight. Better stay out.
+Text,全局音量,Master Volume
+Text,"全游戏制作：袁潇鹏
+
+部分内容由 AI 辅助生成","Created by Yuan Xiaopeng
+
+Some content was created with AI assistance."
+Text,公主,Princess
+Text,公告 ,Notice 
+Text,公告栏,Noticeboard
+Text,公用电脑,Shared Computer
+Text,关键物品,Key Items
+Text,关闭菜单,Close Menu
+Text,内心,Thoughts
+Text,再拉开一点距离，然后松手投掷。  [Esc] 放下篮球,"Pull back a little farther, then release to throw.  [Esc] Put down basketball"
+Text,再看看这里吧。,Look around here some more.
+Text,再给你一次机会吧。,I'll give you one more try.
+Text,冷启动验证：,Cold-start check: 
+Text,准备出门吧。,Time to get ready to go out.
+Text,击中了挡板！,You hit the board!
+Text,分辨率,Resolution
+Text,刘队我之前认识，我们合作过一段时间。,I knew Captain Liu before. We worked together for a while.
+Text,刘队派我过来的，你那颗痣我一眼就认出来了，哈哈。,Captain Liu sent me. I recognized you straight away from that mole. Ha ha.
+Text,刚才有一瞬间，我还以为身后站着一个人。,"For a second, I thought someone was standing behind me."
+Text,别急。,Don't rush.
+Text,别急，慢慢想。我在东郊等你。,Don't rush. Take your time. I'll wait for you in the eastern suburbs.
+Text,别跑太远。,Don't go too far.
+Text,制作名单,Credits
+Text,前往三楼教师办公室,Go to the teachers' office on the third floor
+Text,前往二楼一班,Go to Class 1 on the second floor
+Text,前往客厅拿上相机,Get the camera from the living room
+Text,前面一片漆黑。,Pitch-black darkness ahead.
+Text,前面那是什么？,What's that up ahead?
+Text,剩余 ,Remaining: 
+Text,力度,Power
+Text,力度 ,Power: 
+Text,医生,Doctor
+Text,卡, Card
+Text,却又不断被推回往昔。,borne back ceaselessly into the past.
+Text,原本的衣着。,The clothes I was wearing before.
+Text,去一班找张若媛。,Go to Class 1 and find Zhang Ruoyuan.
+Text,去找朋友。,To see a friend.
+Text,去过一次也是老地方。快点啊，我有东西给你看。,Once is enough to make it our usual spot. Hurry up! I've got something to show you.
+Text,又是这个故事，老套啦。,This story again? It's so old.
+Text,反叛者,Rebel
+Text,发件人：,From: 
+Text,取出的拨片项链,Guitar-Pick Necklace
+Text,取得灯油，逃离学校,Get the lamp oil and escape the school
+Text,取消,Cancel
+Text,取消选择,Deselect
+Text,只是雨水……,Just rainwater...
+Text,可以呀。,Of course.
+Text,可以用来摹出桌面刻痕的铅笔。,A pencil for tracing the scratches on the desk.
+Text,可怕也不能装没看见。,But being scared doesn't mean I can pretend I didn't see it.
+Text,可这封邮件后面发生了什么，我还是不知道。,But I still don't know what happened after that email.
+Text,台座,Pedestal
+Text,同一物品不能重复选择。,You cannot select the same item twice.
+Text,同伴坐标无效,Invalid companion coordinates
+Text,同伴身份不兼容,Incompatible companion identity
+Text,向焱,Xiang Yan
+Text,否,No
+Text,听书居民,Listener
+Text,咱们下午是不是有节体育课？,Don't we have PE this afternoon?
+Text,哎，好！下完这盘就回。,"Ah, all right! I'll go after this game."
+Text,啊，头好痛！,Ah! My head!
+Text,喂？,Hello?
+Text,嗯……好。,Um... okay.
+Text,嗯……好。咱们先上车吧。,Um... all right. Let's get in the car first.
+Text,嗯。,Yeah.
+Text,嗯。您在钓鱼？,Yeah. Are you fishing?
+Text,嗯，小时候的那个朋友，还有学校里的那些事……我想起来一些了。,"Yeah. That childhood friend, and what happened at school... I've remembered some of it."
+Text,嘘，待会出去说。,Shh. We'll talk outside in a bit.
+Text,器材室钥匙,Equipment-Room Key
+Text,四楼完整左右可走天台,"Complete rooftop route, accessible on both sides"
+Text,回家,Go home
+Text,围观木偶,Puppet Audience
+Text,在体育器材室找到的校服。,A school uniform found in the sports equipment room.
+Text,在报纸碎片下面找到的一把旧钥匙。,An old key found beneath a newspaper fragment.
+Text,在路上呢，估计还要一会。,They're on their way. It'll probably be a while.
+Text,场景不在当前构建中,This scene is not included in the build.
+Text,场景初始化超时，未放开玩家控制,Scene initialization timed out. Player control remains locked.
+Text,城门前的小骑士,The Little Knight at the City Gate
+Text,城门前的小骑士 · 第 ,The Little Knight at the City Gate - Act 
+Text,墙上挂着一张已经发黄的合影。,A yellowed group photo hangs on the wall.
+Text,墙根的小猫,Kitten by the Wall
+Text,外面发生什么了？我们先出去看看吧。,What's happening outside? Let's go and take a look.
+Text,天台,Rooftop
+Text,天台楼梯,Rooftop Stairwell
+Text,太多人把路口堵住了，不知道在说些什么，过不去,There are too many people blocking the way. I wonder what they are talking about. I cannot get through.
+Text,头好痛，记忆要承受不过来了。,My head hurts. I can't take all these memories.
+Text,头好痛，这是哪里？,My head hurts... Where am I?
+Text,套中了！ · 剩余 ,You got it! | Remaining: 
+Text,套圈,Ring Toss
+Text,套圈挑战,Ring-Toss Challenge
+Text,套圈老板,Ring-Toss Vendor
+Text,女厕,Girls' Restroom
+Text,她今早还叫我们一起去吃晚餐呢。,She invited us over for dinner this morning too.
+Text,好……好的。谢谢叔。,"O-okay. Thank you, Uncle."
+Text,好像有人在这呆过一阵子,It looks like someone spent some time here.
+Text,好模糊，这里躺着的是谁？,It's so blurry. Who is lying here?
+Text,好，你先回去吧，课也快开始了。,All right. Head back. Class will start soon.
+Text,妈妈,Mom
+Text,姓名：肖鹏。这是我的工作证件，已经整理完整，可以带上出发了。,Name: Xiao Peng. My work identification is complete now. I can take it with me and set off.
+Text,存档 ,Save Slot 
+Text,存档大小异常,Invalid save size
+Text,存档文件资源缺失：,Missing saved document asset: 
+Text,存档校验失败,Save integrity check failed
+Text,存档版本或槽位不兼容,Incompatible save version or slot
+Text,存档物品资源缺失：,Missing saved item asset: 
+Text,存档状态缺失,Missing saved state
+Text,存档状态越界,Saved state is out of range
+Text,孙付,Sun Fu
+Text,孙付叔，李梅阿姨叫你回去准备做晚饭。,"Uncle Sun Fu, Aunt Li Mei wants you to come home and get dinner ready."
+Text,孙福,Sun Fu
+Text,学校大门,School Gate
+Text,学校房间不存在,The school room does not exist.
+Text,学校追逐系统尚未就绪,The school chase system is not ready.
+Text,它怀里好像护着什么，还是别抢了。,It seems to be guarding something. I'd better not grab it.
+Text,它看起来很旧，也许就是那扇铁门的钥匙。,It looks old enough to belong to that gate.
+Text,安保人员不在。窗内是正常的监控屏幕和一台公用电脑。,The security staff are away. Inside the window are working surveillance screens and a shared computer.
+Text,安保人员外出中，急事可使用安保室中的公共电脑进行监控查看,"Security staff are out. For urgent matters, use the shared computer in the security room to view surveillance footage."
+Text,安保室,Security Room
+Text,安保室密码锁,Security-Room Combination Lock
+Text,安保室独立内部,Separate security-room interior
+Text,安保室窗内,Inside the Security-Room Window
+Text,安保室落点尚未就绪。,The security-room arrival point is not ready.
+Text,完美,Perfect
+Text,客厅,Living Room
+Text,室内无人、监控正常、桌上有电脑,"No one is inside. The cameras are working, and there is a computer on the desk."
+Text,家属院,Residential Courtyard
+Text,家属院引路人未就绪,The courtyard guide is not ready.
+Text,家属院的铁门敞着。,The courtyard's iron gate is open.
+Text,家常饭店,Family Restaurant
+Text,家庭相机,Family Camera
+Text,家里的照片,Family Photo
+Text,密码不对。,That is not the right combination.
+Text,密码位 ,Digit 
+Text,密码修改成功,Password changed successfully
+Text,密码错误,Incorrect Password
+Text,对不起，我——,"I'm sorry, I--"
+Text,对了，谢谢你。,"By the way, thank you."
+Text,对了，顺手登陆下我的媒体改个密码，就用我和郑涛的姓名首字母加上我的生日吧，他们应该想不到了,"While I'm here, I'll log into my social account and change the password. I'll use my and Zheng Tao's initials, then my birthday. They shouldn't guess that."
+Text,对，上次跟你说我爸爸的新吉他，就是这个。,"Right, this is my dad's new guitar. The one I told you about last time."
+Text,对，我一直替你收着没敢给你。但我觉得你现在已经准备好想起来了。,Yes. I've been keeping it for you. I didn't dare give it back before. But I think you're ready to remember now.
+Text,对，我觉得老师应该要知道这些事，不能再让这群人欺负郑涛了。,Yes. The teachers need to know. We can't let them keep bullying Zheng Tao.
+Text,对，放心，他不会妨碍我们的。,Yes. Don't worry. He won't get in our way.
+Text,寻找钥匙,Find the key
+Text,寻找铁门钥匙,Find the gate key
+Text,将军！这步你可没看见吧。,"Check! Didn't see that coming, did you?"
+Text,将引路人交还的证件放入破旧证件套后，身份信息终于完整了。,"With the identification returned by the guide placed inside the worn holder, the identity details are finally complete."
+Text,将相机放至机架,Put the camera on the stand
+Text,小心别太聪明了。,Careful. Don't get too clever.
+Text,小朋友，要吃饭吗？,"Want something to eat, young man?"
+Text,小油灯,Small Oil Lamp
+Text,小油灯没燃料了，暂时回不去了,The small oil lamp is out of fuel. I can't go back for now.
+Text,小油灯燃料耗尽了，暂时亮不起来了,The small oil lamp has run out of fuel. It will not light for now.
+Text,小猫低头吃了起来，露出原本护着的一枚游戏币。,"The kitten bends down to eat, revealing the game token it was guarding."
+Text,小猫低头吃着鱼仔，身旁露出一枚游戏币。,The kitten is eating the fish. A game token has appeared beside it.
+Text,小猫吃得正香。,The kitten is enjoying its meal.
+Text,小猫懒洋洋地趴着。,The kitten is lazing around.
+Text,小猫移开了，游戏币露了出来。,"The kitten moved aside, revealing a game token."
+Text,小猫近景,Kitten Close-up
+Text,小鱼仔,Small Fish
+Text,小鹏,Xiao Peng
+Text,小鹏出来玩了？小孩子就是要多走走才对。村西边有个说书人，小娃娃感兴趣可以去听听。,"Out playing, Xiao Peng? Children should get out more. There's a storyteller on the west side of the village. You could go and listen if you're interested."
+Text,小鹏难得交上个朋友……也不知道这孩子会在镇上住多久。,It's not often Xiao Peng makes a friend... I wonder how long this boy will stay in town.
+Text,小鹏，电话响半天了。,"Xiao Peng, the phone has been ringing for ages."
+Text,小鹏，相机给我吧，待会给你拍张照。,"Xiao Peng, give me the camera. I'll take your picture in a moment."
+Text,小鹏？今天竟然出来玩啦。,Xiao Peng? You're actually out playing today.
+Text,就上次那个地方啊。,The place we went last time.
+Text,就是你向教导老师告状是吧，那你也一起陪葬吧。,So you're the one who told the dean. Then you can go down with him.
+Text,差一点…… · 剩余 ,So close... | Remaining: 
+Text,已保存至存档 ,Saved to Slot 
+Text,已入场的公主,Princess on Stage
+Text,已入场的反叛者,Rebel on Stage
+Text,"已到达 Stage 5A 体验终点。
+可在教室内活动，或退出 Play Mode。","This section of the preview is complete.
+You can explore the classroom, or leave Play Mode."
+Text,已拷入用于举报的监控视频,Contains the surveillance footage for the report.
+Text,已放入背包, added to inventory
+Text,已穿戴,Equipped
+Text,已经闻得到饭香。,I can already smell dinner.
+Text,已获得监控,Surveillance footage obtained
+Text,巷道在前面转了个弯。,The alley bends up ahead.
+Text,干嘛呢，被我抓到了吧,What are you doing? Caught you!
+Text,干嘛呢，被我抓到了吧。,What are you doing? Caught you!
+Text,平时叫你出去走走都不肯。今天过生日，难得有朋友来约。,You never want to go out when we ask. It's nice that a friend has invited you out on your birthday.
+Text,"年轻的守门骑士站到公主与反叛者／群众之间。
+把骑士拖到两方之间。","The young knight at the gate stands between the princess and the rebel / crowd.
+Drag the knight between the two sides."
+Text,床铺已经发潮，床头还能看到一些被磨得发白的痕迹。,"The bedding is damp. Pale, worn marks are still visible on the headboard."
+Text,开关已经失灵了，灯罩里积着一层灰。,The switch no longer works. A layer of dust has settled inside the shade.
+Text,开发检查点,Development Checkpoint
+Text,开发检查点：本阶段已完成，后续追逐待接入,Development checkpoint: this section is complete; the following chase has not been connected yet.
+Text,开始新游戏,New Game
+Text,开始新游戏？未保存的进度将丢失，已有存档保留。,Start a new game? Unsaved progress will be lost. Existing saves will be kept.
+Text,开始游戏,Start Game
+Text,引路人一直替我收着的证件。,The identification the guide has been keeping for me.
+Text,张晨,Zhang Chen
+Text,张若媛,Zhang Ruoyuan
+Text,张若媛交给我的空U盘，可以用来拷贝监控视频。,An empty USB drive Zhang Ruoyuan gave me. I can use it to copy the surveillance footage.
+Text,张若媛在一班等你。,Zhang Ruoyuan is waiting in Class 1.
+Text,张若媛点了点头。,Zhang Ruoyuan nodded.
+Text,张若媛（待机）,Zhang Ruoyuan
+Text,张若源,Zhang Ruoyuan
+Text,张辰,Zhang Chen
+Text,弹点什么呢……奥对，今天是你的生日，就弹《生日快乐》吧。,"What should I play... Oh, right! It's your birthday today. Let's play Happy Birthday."
+Text,当前无法保存：请在自由行动时保存。,Saving is unavailable right now. Save while freely exploring.
+Text,当前无法保存：请站稳后重试。,Saving is unavailable right now. Stand still and try again.
+Text,当前语言：,Current language: 
+Text,当前镜头尚未就绪,The current camera is not ready.
+Text,快去休息吧。,Go and get some rest.
+Text,快去找朋友吧，别让人等急了。,Go and find your friend. Don't keep him waiting.
+Text,快来呀。,Come on!
+Text,快，快让一下，快让！,"Quick! Make room! Please, move!"
+Text,怕啊。,Of course I was.
+Text,怪不得。,That explains it.
+Text,感谢游玩,Thank you for playing
+Text,我不知道该怎么告诉你。,I don't know how to tell you.
+Text,我也不知道。,I don't know either.
+Text,我也挺喜欢音乐的。,I like music quite a lot too.
+Text,我也来？,Me too?
+Text,我们就在这玩过一次，怎么就变成老地方了。,We've only played here once. How is it our usual spot already?
+Text,我们才去过一次。,We've only been there once.
+Text,我们认识吗？,Do we know each other?
+Text,我儿子炳瑞最近回家，说城里的音乐剧很好看。我们也想以后去城里听听音乐。,My son Bingrui came home recently and said the musicals in the city are wonderful. We'd like to go and hear some music too.
+Text,我先跑出来玩了。,I ran out to play first.
+Text,我和赵今瑞还想着，以后攒点钱，去城市旅游。,Zhao Jinrui and I are thinking of saving up for a trip to the city someday.
+Text,我好像把密码设置成了我和郑涛的姓名首字母加上我的生日。,"I think I used my and Zheng Tao's initials, followed by my birthday, for the password."
+Text,我应该把它收起来。,I should keep this.
+Text,我爸爸教我的。,My dad taught me.
+Text,我猜的，而且你现在还带着相机呢。,"A guess. Besides, you've still got a camera with you."
+Text,我的倒影……看起来很正常。,My reflection... looks normal.
+Text,我的脸上为什么会有血？,Why is there blood on my face?
+Text,我的证件？,My identification?
+Text,我知道他会挺身而出,I knew he would step forward.
+Text,我这不是想让你的桌子更有标志性嘛。和你一样，别人一眼就记住你眼角的痣了。,I'm just making your desk easier to recognize. Like you. People remember that mole by your eye straight away.
+Text,我迷迷糊糊醒来，也不知道发生了什么。,I woke up in a daze. I had no idea what had happened.
+Text,我都出来了。老地方等你。,I'm already out. I'll wait at our usual spot.
+Text,我问的是，你是谁。,I asked who you are.
+Text,我？,Me?
+Text,所以你……,So you...
+Text,所以你是怎么知道这些情况的？,So how do you know all this?
+Text,打开,Open
+Text,找到了，现在把监控视频拷进U盘吧,Found it. Now I'll copy the surveillance footage onto the USB drive.
+Text,把家里的相机挂在了胸前。,The family camera is hanging around my neck.
+Text,把小鱼仔放在一旁。,You put the small fish down beside the kitten.
+Text,把架上的钥匙打下来,Knock the key off the shelf
+Text,把桌上的相机带上吧，出去玩随便拍拍。,Take the camera from the table. Have fun and take some pictures.
+Text,把鱼仔放在一旁,Put the Fish Beside It
+Text,投掷,Throw
+Text,投掷场,Throwing Area
+Text,投掷坐标,Throwing Coordinates
+Text,抛物线预览,Trajectory Preview
+Text,报纸碎片3,Newspaper Fragment 3
+Text,报纸碎片一,Newspaper Fragment 1
+Text,报道的大部分内容都缺失了。,Most of the article is missing.
+Text,抽屉已经打开，小油灯已取出。,The drawer is already open. The small oil lamp has been taken.
+Text,拉弦力度,Throwing Power
+Text,拖住左下方的圈，向左下拉开后松手投掷；也可调节角度与力度，再点投掷。,"Hold the ring at the lower left, pull down and left, then release to throw. You can also adjust the angle and power and click Throw."
+Text,拖动套圈,Drag the Ring
+Text,拖动角色卡片，让故事继续。,Drag the character cards into place to continue the story.
+Text,拼合后的报纸,Reassembled Newspaper
+Text,拾起游戏币,Pick Up Game Token
+Text,拿在手里的瞬间，一种莫名的熟悉感从指尖传了上来。,"The moment I pick it up, an inexplicable familiarity spreads from my fingertips."
+Text,拿稳了，别摔坏。晚饭前回来。,Hold it carefully. Don't drop it. Be back before dinner.
+Text,按 E 交互,Press E to interact
+Text,按 E 继续,Press E to continue
+Text,按E开始,Press E to begin
+Text,按【tab】打开背包右键组合关键物品,Press Tab to open the inventory. Right-click to combine key items.
+Text,按住【Space】让灯光驱散向焱,Hold Space to make the lamp's light drive Xiang Yan away.
+Text,按住篮球，向投掷方向的反方向拖动，再松手。  [Esc] 放下篮球,"Hold the basketball, drag opposite to the direction you want to throw, then release.  [Esc] Put down basketball"
+Text,按住鼠标左键，在刻痕上移动铅笔,Hold the left mouse button and move the pencil over the scratches
+Text,按空格继续,Press Space to continue
+Text,挺好的，你已经慢慢想起来了。,That's good. You're starting to remember.
+Text,"损坏或不兼容
+此存档无法读取","Damaged or incompatible
+This save cannot be loaded"
+Text,探索一楼,Explore the ground floor
+Text,探索二楼次卧,Explore the second bedroom upstairs
+Text,探索体育器材室,Explore the sports equipment room
+Text,探索周围,Explore the surroundings
+Text,探索周围，前往河畔寻找男孩,Explore the neighborhood and find the boy by the river
+Text,探索学校,Explore the school
+Text,探索客厅,Explore the living room
+Text,探索家属院,Explore the residential courtyard
+Text,探索屋外,Explore outside
+Text,接电话,Answer the phone
+Text,搭配不符。,These do not go together.
+Text,摊棚条纹,Awning Stripes
+Text,收件箱,Inbox
+Text,教导主任,Dean of Students
+Text,教导主任已经收下了 U 盘。,The dean has taken the USB drive.
+Text,教师办公室,Teachers' Office
+Text,教师办公室独立内部，语义属于三楼,Separate teachers' office interior on the third floor
+Text,文件,Documents
+Text,文件已更新,Document updated
+Text,文件正文滚动区,Document text scroll area
+Text,文件碎片2,Document Fragment 2
+Text,斑驳墙根,Weathered Wall
+Text,旁白,Narrator
+Text,无反应,No reaction
+Text,无效坐标,Invalid coordinates
+Text,无效学校状态,Invalid school state
+Text,无效时间或镜头,Invalid play time or camera state
+Text,无效角色,Invalid character
+Text,无法读取存档：文件损坏、版本不兼容或无法访问。请尝试其他存档。,"Unable to load this save. It may be damaged, incompatible, or inaccessible. Please try another save."
+Text,旧全家福,Old Family Photo
+Text,"旧物交换活动
+本周日下午镇文化站院内举行旧书、旧玩具及闲置生活用品交换活动。
+——镇文化站","Secondhand Exchange
+This Sunday afternoon, the cultural center courtyard will host an exchange of used books, old toys, and spare household items.
+- Town Cultural Center"
+Text,旧相机,Old Camera
+Text,旧雨,The Rain We Knew
+Text,昨天刚搬来的那个男孩吧？快去，别让朋友等急了。,The boy who moved in yesterday? Off you go. Don't keep your friend waiting.
+Text,昨天我们刚搬过来的时候去你们家做客，你妈妈说的。,"Your mom told us when we visited your house yesterday, after we moved in."
+Text,是,Yes
+Text,是吗，我小时候有个朋友他也喜欢这些故事和摄影。后来我搬走了，估计他也不记得了。,Did I? I had a friend when I was little who liked those stories and photography too. Then I moved away. He probably doesn't remember anymore.
+Text,是啊，还有那个肖鹏。得想个办法把他们拆开。,Yeah. And Xiao Peng. We need to find a way to split them up.
+Text,是嘛！你这是要去哪儿？,Do you? Where are you off to?
+Text,是昨天刚搬来的那个男孩？才认识一两天，就这么熟了。,"The boy who moved in yesterday? You've only known each other a day or two, and you're already so close."
+Text,晚饭前回来。,Be back before dinner.
+Text,暂停,Paused
+Text,有人在里面吗？,Is anyone in there?
+Text,有文件待组合,Documents are available to combine
+Text,有时候我真想好好收拾他一顿。,Sometimes I really want to teach him a lesson.
+Text,有点旧的床，我好像在哪里见过。,An old bed. I feel as if I've seen it somewhere before.
+Text,有物品待组合,Items are available to combine
+Text,服装,Outfits
+Text,服装已放入背包,Outfit added to inventory
+Text,木偶, Puppet
+Text,木偶奖品,Puppet Prize
+Text,木偶舞台,Puppet Stage
+Text,木偶说书气泡,Puppet Story Speech Bubble
+Text,木纹,Wood Grain
+Text,木质摊面,Wooden Stall Counter
+Text,未命中,Miss
+Text,未命中 ·,Miss |
+Text,未命中 · 和弦中断,Miss | Chord released
+Text,未命中 · 拍弦前请松开 W/S/A/D,Miss | Release W/S/A/D before strumming
+Text,未命中 · 漏拍,Miss | Missed beat
+Text,未命中 · 请持续按住正确和弦,Miss | Keep holding the correct chord
+Text,未命中 · 跟着当前音符,Miss | Follow the current note
+Text,未命中 · 错键或时机,Miss | Wrong key or timing
+Text,未命中 · 长条结束前请持续按住和弦,Miss | Keep holding the chord until the long note ends
+Text,未知剧情状态：,Unknown story state: 
+Text,未知同伴状态,Unknown companion state
+Text,本阶段已完成，后续追逐待接入,This section is complete. The following chase has not been connected yet.
+Text,机身已经有不少划痕，镜头却意外地保存得很好。,"The body is scratched, but the lens is surprisingly well preserved."
+Text,李梅,Li Mei
+Text,李梅家,Li Mei's Home
+Text,来了！,Coming!
+Text,来呀。,Come on.
+Text,杨骏汪,Yang Junwang
+Text,柜子旁放着一台旧相机。,An old camera sits beside the cabinet.
+Text,柜面落满了灰，抽屉边缘却比其他地方干净一些。,"The cabinet is covered in dust, but the edges of the drawer are cleaner than the rest."
+Text,校服,School Uniform
+Text,校服里好像有什么东西,There seems to be something inside the uniform.
+Text,根据情报，东郊一处废弃工厂是毒贩聚集点。请带上工作证件，到该工厂外围集合。,"According to our intelligence, drug dealers are gathering at an abandoned factory in the eastern suburbs. Bring your work identification and assemble outside the factory."
+Text,桌上有一壶灯油，应该能让小油灯重新亮起来,There's a jar of oil on the desk. It should get the small oil lamp burning again.
+Text,桌面有淡淡的划痕，应该可以用什么东西摹出来,There are faint scratches on the desk. Maybe I can trace them with something.
+Text,桌面有淡淡的划痕，应该可以用刚刚这支铅笔摹出来,There are faint scratches on the desk. I should be able to trace them with the pencil I just found.
+Text,楼梯,Stairs
+Text,楼梯间锁上了。,The stairwell is locked.
+Text,次卧,Second Bedroom
+Text,正在修改媒体密码……,Changing social account password...
+Text,正在拷贝监控视频……,Copying surveillance footage...
+Text,正在载入,Loading
+Text,此操作会丢失未保存游戏内容，是否继续？,Unsaved progress will be lost. Continue?
+Text,母亲,Mother
+Text,"毒品活动侵扰周边社区，居民盼恢复安宁
+
+近来，周边地区接连出现与毒品有关的治安问题。原本安静的街巷中，夜间争吵、陌生人员频繁出入等情况逐渐增多，一些居民开始提前关门，商铺也缩短了营业时间。
+
+对不少家庭而言，变化并不是从一次严重事件开始的。有人起初只是经常晚归，随后失去工作、向亲友借钱，最终连家中的日常开支也难以维持。家属往往在问题已经难以掩盖时，才意识到发生了什么。
+
+一名不愿透露姓名的居民说，过去孩子们放学后会在附近玩到天黑，如今家长总会反复叮嘱他们早点回家。比起新闻里的案件，人们更直接感受到的，是生活中越来越多的不安。
+
+目前，警方正对相关线索展开调查。部分问题并非局限于某一处场所，涉案人员之间的联系仍有待查明。居民希望，调查能够尽快取得进展，让街道重新恢复往日的安宁。
+
+……报道下方已经破损，后续内容无法辨认。","Drug Activity Disrupts Local Communities; Residents Hope for Peace
+
+Recently, neighborhoods in the surrounding area have seen a series of drug-related disturbances. Once-quiet streets now face more nighttime arguments and frequent visits from unfamiliar people. Some residents have begun closing their doors early, and shops have shortened their opening hours.
+
+For many families, the change did not begin with one major incident. Someone might first return home late more often, then lose their job and borrow from friends and relatives, until even everyday household costs became impossible to meet. Family members often only understood what had happened when the problem could no longer be hidden.
+
+One resident, who asked to remain anonymous, said children used to play nearby after school until dark. Now parents repeatedly remind them to come home early. More than the cases in the news, people feel a growing unease in their daily lives.
+
+Police are currently investigating the available leads. The problems may not be confined to a single location, and the connections between those involved have yet to be established. Residents hope the investigation will make progress soon and restore the streets to their former peace.
+
+...The bottom of the report is torn. The remaining text cannot be read."
+Text,水面平静得有些奇怪。,The surface is strangely still.
+Text,水面晃得厉害，什么也照不清。,The water is rippling too much to see any reflection clearly.
+Text,污渍照片,Stained Photo
+Text,没事儿，我早看向焱不爽了，就是家里有点钱罢了，到处欺负转校生。对了，我刚刚路过的时候好像听到向焱在厕所和他那跟班在讨论什么，你要是顺路可以过去看看。,"No problem. I've been sick of Xiang Yan for ages. His family has a bit of money, and he goes around picking on transfer students. By the way, I think I heard him and his lackey talking in the restroom when I passed. You could take a look if you're going that way."
+Text,没什么事还是不要动这台公用电脑吧,I'd better leave this shared computer alone unless I need it.
+Text,没关系，你要是出事了谁还陪我玩。,"It's okay. If something happens to you, who'll hang out with me?"
+Text,没有反应,No response
+Text,没有回应...,No answer...
+Text,河堤,Riverside
+Text,河堤 →,Riverside ->
+Text,游戏币,Game Token
+Text,游戏结束,Game Over
+Text,游戏语言,Game Language
+Text,滚轮 / 上下拖动,Scroll with the mouse wheel / drag up or down
+Text,滚轮或拖动右侧滑条查看更多,Use the mouse wheel or drag the scrollbar to see more
+Text,演出角色,Cast
+Text,灯油,Lamp Oil
+Text,灯罩已经发黄，可灯泡居然还能亮。,"The shade has yellowed, but somehow the bulb still lights up."
+Text,点击电脑或密码抽屉,Click the computer or the locked drawer
+Text,点击邮箱内的文件碎片。,Click the document fragment inside the mailbox.
+Text,照片上的几张脸几乎都被污渍盖住了。,Stains cover almost all the faces in the photo.
+Text,照片中的人物几乎无法辨认。只能看出，这似乎是一张家庭合影。,The people in the photo are almost impossible to recognize. It seems to be a family picture.
+Text,照片和名字都对得上，可我为什么会在这里？,The photo and name match. So why am I here?
+Text,父亲,Father
+Text,爸爸,Dad
+Text,物品,Items
+Text,物品组合菜单,Item combination menu
+Text,状态应在另一进程中恢复,The state should be restored in another process.
+Text,王坤,Wang Kun
+Text,王平,Wang Ping
+Text,王平家,Wang Ping's Home
+Text,王萍,Wang Ping
+Text,现在去一楼客厅吃晚餐吧。,Go downstairs to the living room for dinner.
+Text,现在知道了保安室的密码，可以去拿灯油了。,I know the security-room combination now. I can go and get the lamp oil.
+Text,现在还过不去。,I can't get through yet.
+Text,现在进去……恐怕走不了多远。,If I go in now... I probably won't get far.
+Text,"生命的诞生是伟大的，多关注周遭，
+感受这天不一样的魔力和小惊喜。
+——相机先生","The beginning of a life is a wonderful thing. Look a little closer at the world,
+and feel the special magic and small surprises of this day.
+- Mr. Camera"
+Text,生命的诞生是伟大的，多关注周遭，感受这天不一样的魔力和小惊喜——相机先生,"The beginning of a life is a wonderful thing. Look a little closer at the world, and feel the special magic and small surprises of this day. - Mr. Camera"
+Text,电脑,Computer
+Text,电话,Telephone
+Text,电话已经挂断了。,The call has already ended.
+Text,男厕,Boys' Restroom
+Text,男厕独立内部,Separate boys' restroom interior
+Text,男孩,Boy
+Text,男孩角色未就绪,The boy character is not ready.
+Text,画面,Display
+Text,监控已拷贝，媒体密码已修改。,Surveillance footage copied. Social account password changed.
+Text,目标 ,Target 
+Text,相机似乎有些反应...,The camera seems to be reacting...
+Text,相机似乎有些反应……,The camera seems to be reacting...
+Text,相机似乎有反应...,The camera seems to be reacting...
+Text,相机先生,Mr. Camera
+Text,相机先生卡片,Mr. Camera Card
+Text,相机先生卡片已经收好了。,The Mr. Camera card is already tucked away.
+Text,相机有定时功能。把相机放稳，拨好定时器，它就会自己拍了。,"The camera has a timer. Set it down somewhere steady, turn the timer, and it'll take the picture by itself."
+Text,看来你收到邮件了。,Looks like you got the email.
+Text,看来你真的什么都不记得了。,Looks like you really don't remember anything.
+Text,看着这里，总觉得以前有人常常坐在床边。,"Looking at it, I feel as though someone used to sit on the edge of this bed all the time."
+Text,真把自己当回事了,"You really think you're something, don't you?"
+Text,砖缝,Crack in the Bricks
+Text,破旧证件套,Worn ID Holder
+Text,确认,Confirm
+Text,碗筷摆好了，饭菜似乎还没准备齐。,"The bowls and chopsticks are out, but the meal doesn't seem quite ready."
+Text,"禁毒宣传
+拒绝毒品宣传，珍爱生命，远离毒品。
+——小镇宣传办","Drug Prevention
+Say no to drugs. Cherish life and stay away from drugs.
+- Town Public Information Office"
+Text,离开,Leave
+Text,空,Empty
+Text,空存档,Empty save slot
+Text,空格,Space
+Text,穿上,Wear
+Text,穿戴效果,Outfit Preview
+Text,穿越黑雾,Pass through the black fog
+Text,穿过那扇铁门，你会找到遗忘的东西。,Go through that gate. You'll find what you forgot.
+Text,竹圈,Bamboo Ring
+Text,等你想起一切的时候。,When you remember everything.
+Text,等等。,Wait.
+Text,等等，我再想想。,"Wait, let me think."
+Text,简体中文,简体中文
+Text,篮球飞行中……  [Esc] 放下篮球,The basketball is in the air...  [Esc] Put down basketball
+Text,粮仓告罄，骚动增加,"The granary is empty, and unrest is growing."
+Text,"粮仓少粮尚未查清，反叛者煽动群众；越来越多人不明真相，却跟着攻击公主。
+把反叛者拖到群众最前方。","The missing grain has not yet been investigated. The rebel stirs up the crowd. More and more people attack the princess without knowing the truth.
+Drag the rebel to the front of the crowd."
+Text,纸张下露出一把钥匙，点击拾取。,A key is sticking out from beneath the paper. Click to pick it up.
+Text,纸景城门,Paper City Gate
+Text,组合,Combine
+Text,组合完成,Combination Complete
+Text,组合未完成，材料已保留。,The combination failed. Your materials were kept.
+Text,组合结果尚未配置。,This combination has no configured result.
+Text,终于结束了吗，可以回去家属院了。,Is it finally over? I can go back to the courtyard now.
+Text,继续,Continue
+Text,继续 [E / 空格],Continue [E / Space]
+Text,继续听书,Keep Listening
+Text,继续游戏,Continue
+Text,缺少玩家,Player is missing.
+Text,群众,Townspeople
+Text,老国王病重，宫中不可一日无人,The old king is gravely ill. The kingdom cannot go a day without a ruler.
+Text,"老国王病重，年轻公主暂代处理城中事务。
+把公主拖到宫门／王座的位置。","The old king is gravely ill. The young princess is managing the city in his place.
+Drag the princess to the palace gate / throne."
+Text,老师们怕同学去天台玩出事，把去天台的楼梯间锁上了,The teachers locked the rooftop stairwell to keep students from getting hurt up there.
+Text,老板,Vendor
+Text,老板：一枚游戏币，套四个目标。要试试吗？,"Vendor: One game token, four targets. Want to try?"
+Text,老板：上次的机会还在，要继续吗？,Vendor: Your remaining attempts are still available. Want to continue?
+Text,老板：想试试吗？可以找父母兑换游戏币，或看看周围有没有。,"Vendor: Want a try? You can ask your parents for a game token, or look around for one."
+Text,肖鹏,Xiao Peng
+Text,肖鹏幼时在 7 月 15 日生日这天获得的一张卡通卡片。,"A cartoon card Xiao Peng received on his childhood birthday, July 15."
+Text,肖鹏的完整证件,Xiao Peng's Restored Identification
+Text,肖鹏破损的证件套。,Xiao Peng's damaged ID holder.
+Text,肖鹏，我刚刚碰到你妈妈了，她叫你准备回去开饭了。,"Xiao Peng, I just saw your mom. She wants you to come home for dinner soon."
+Text,肖鹏，看见你孙付叔了嘛？他去你王坤叔家下棋了，要是碰到了叫他回来准备做晚饭了。,"Xiao Peng, have you seen Uncle Sun Fu? He went to Uncle Wang Kun's to play chess. If you see him, tell him to come home and get dinner ready."
+Text,肖鹏：,Xiao Peng: 
+Text,背包,Inventory
+Text,背带装,Overalls
+Text,脑袋好痛，我好像进到记忆里了。,My head hurts. I think I've entered a memory.
+Text,自由探索,Free Exploration
+Text,至少我认识你。,At least I know you.
+Text,舞台地板,Stage Floor
+Text,舞台红帘,Red Stage Curtain
+Text,良好,Good
+Text,获得了 U 盘。,USB Drive received.
+Text,获得了「相机先生」卡通卡片。,Mr. Camera Cartoon Card received.
+Text,获得了一包小鱼仔。,Small Fish received.
+Text,获得了一支笔,Pencil received.
+Text,获得了关键物品「旧相机」。,Key item received: Old Camera.
+Text,获得了小油灯。,Small Oil Lamp received.
+Text,获得了报纸碎片3。,Newspaper Fragment 3 received.
+Text,获得了文件碎片2。,Document Fragment 2 received.
+Text,获得了服装「背带装」。,Overalls outfit received.
+Text,获得了校服,School Uniform received.
+Text,获得了游戏币。,Game Token received.
+Text,获得了钥匙,Key received.
+Text,获得证件。,Identification received.
+Text,菜单,Menu
+Text,藏着的游戏币,Hidden Game Token
+Text,虽然不记得什么事了，但是篮球还有有一手的,"I don't remember much, but I still know my way around a basketball."
+Text,蛮勇敢。,Pretty brave.
+Text,行。,All right.
+Text,行，安保室在一楼，你可以用电脑去拷一份监控视频带到三楼去给老师。,"Okay. The security room is on the ground floor. You can use the computer to copy the surveillance footage, then take it to the teachers on the third floor."
+Text,行，我知道了，你把U盘先给我吧，我会关注这件事的。,"All right, I understand. Give me the USB drive first. I'll look into it."
+Text,行，谢谢主任。希望主任能帮我们打击这种校园霸凌行为。,"Thank you, sir. I hope you can help us stop this bullying."
+Text,街坊公告栏,Neighborhood Noticeboard
+Text,街边套圈,Street Ring Toss
+Text,街道引路人未就绪,The street guide is not ready.
+Text,衣柜已经空了。,The wardrobe is empty now.
+Text,衣柜门有些变形，木头受潮后留下了一股淡淡的樟脑味。,The wardrobe doors are warped. The damp wood has a faint smell of camphor.
+Text,补充了灯油的小油灯。温暖的光可以照亮黑暗。,The small oil lamp has been refilled. Its warm light can illuminate the darkness.
+Text,被东西堵住了,Something is blocking the way.
+Text,装配未就绪,Presentation not ready
+Text,要不我现在给你们拍一张全家福吧。,How about I take a family photo for you now?
+Text,覆盖存档 ,Overwrite Save Slot 
+Text,角度,Angle
+Text,角色位置,Character Position
+Text,警察为什么会在这里？,Why would the police be here?
+Text,认识，非常认识。好了，现在不是说这个的时候，去休息下吧，别累着了。,I do. Very well. But now isn't the time to talk about that. Go and rest. Don't wear yourself out.
+Text,让这首歌继续吧。,Let the song carry on.
+Text,设置,Settings
+Text,证件,Identification
+Text,证件与破旧证件套可以在背包中组合。,You can combine the identification with the worn ID holder in your inventory.
+Text,该存档槽已有内容，请先确认覆盖,This slot already contains a save. Confirm before overwriting it.
+Text,语言,Language
+Text,说书人,Storyteller
+Text,读取游戏,Load Game
+Text,读完并关闭 [Esc],Finish Reading and Close [Esc]
+Text,谁让你在我桌子上刻我名字的，我也要在你桌子上刻,Who told you to carve my name into my desk? Now I'm carving mine into yours.
+Text,谁让你在我桌子上刻我名字的，我也要在你桌子上刻。,Who told you to carve my name into my desk? Now I'm carving mine into yours.
+Text,调查,Examine
+Text,谢了，放学请你吃东西。,Thanks. I'll buy you something to eat after school.
+Text,谢谢。,Thank you.
+Text,谢谢你一直在这里。,Thank you for staying here.
+Text,谢谢你，我会一直——,Thank you. I'll always--
+Text,资源身份缺失,Missing asset identity
+Text,走廊好像不一样了。,The corridor looks different.
+Text,赵今瑞家,Zhao Jinrui's Home
+Text,赵炳程,Zhao Bingcheng
+Text,赵炳程正在隔壁池塘钓鱼。,Zhao Bingcheng is fishing at the pond next door.
+Text,赵炳程送的一包小鱼仔。,A small bag of fish given to me by Zhao Bingcheng.
+Text,赵秉承,Zhao Bingcheng
+Text,车灯熄着，看起来已经停了有一会儿。,"The lights are off, but it looks like it has been here for a while."
+Text,转动四位密码盘,Turn the four number wheels
+Text,转弯处,Bend in the Road
+Text,载入存档 ,Load Save Slot 
+Text,载入未完成：,Loading did not finish: 
+Text,返回,Back
+Text,返回 [Esc],Back [Esc]
+Text,返回主菜单,Return to Main Menu
+Text,返程入口尚未就绪。,The return entrance is not ready.
+Text,还不是你，被盗号了都不知道。他们用你QQ把我约到体育器材室去了。快回去换一个，别再用自己名字首字母加上生日做账号密码了。,Because of you. Your account was hacked and you didn't even notice. They used your QQ account to ask me to meet in the equipment room. Go and change your password. Stop using your initials followed by your birthday.
+Text,还好，就是有点不好。差点被高中记忆里的小孩杀了。,"I'm fine. Well, not really. A kid from my high-school memories almost killed me."
+Text,还挺记仇。对了，这几次谢谢你帮我解围，他们这些人真是无聊到没事干，就知道欺负我这种外地人。,"You really hold a grudge. Anyway, thanks for getting me out of trouble lately. They must have nothing better to do than pick on outsiders like me."
+Text,还没放学，还是别离开了。,School is not over yet. I had better stay.
+Text,还没有准备好要交给主任的监控。,I have not prepared the surveillance footage for the dean yet.
+Text,还需要完成证件交接。,I still need to hand over the identification.
+Text,这一段再来一次，前面弹好的都还在。,Try this phrase again. The phrases you finished are still saved.
+Text,这一段弹好了,That phrase is complete.
+Text,这个位置无法安全切换。,I cannot switch safely here.
+Text,这个给你。,Here. This is for you.
+Text,这么多人都说她有问题，难道大家还能一起说错？,So many people say there's something wrong with her. Surely they can't all be wrong?
+Text,这位角色还没有到出场的时候，再想一想。,It is not this character's turn to appear yet. Think again.
+Text,这包小鱼仔送你。,"Here, have this little bag of fish."
+Text,这张照片拍摄于肖鹏幼时 7 月 15 日生日当天。,"Taken on Xiao Peng's childhood birthday, July 15."
+Text,"这张照片拍摄于肖鹏幼时 7 月 15 日生日当天。
+照片里是年幼的肖鹏和父母，边缘站着那个男孩。
+我记得他，却还是想不起他的名字。","This photo was taken on Xiao Peng's childhood birthday, July 15.
+Young Xiao Peng is with his parents. The boy is standing at the edge of the picture.
+I remember him, but I still can't remember his name."
+Text,这是我小时候获得的卡片，怎么在这里。,This is the card I got as a child. How did it end up here?
+Text,这是我的座位？,Is this my seat?
+Text,这是我的证件？,Is this my identification?
+Text,这条路……有这么绕吗？,Was this path... always so winding?
+Text,这点暖光放在这个房间里……反而显得有些不自然。,That little patch of warm light feels... oddly out of place in this room.
+Text,这话您刚才可说过了。,That's what you said just now.
+Text,这都没中...,How did that miss...
+Text,这里到底是什么地方？,"What is this place, really?"
+Text,这里堆满了杂物，无法通行,The way is blocked by clutter.
+Text,这里太黑了，有些令人不安...,It is so dark here... Something feels wrong.
+Text,这里好黑，到底通往什么地方,It's so dark here. Where does this lead?
+Text,这里是……刚才的客厅。,This is... the living room from before.
+Text,这里是哪儿？,Where is this?
+Text,这里聚了太多人。,There are too many people gathered here.
+Text,这里还有东西在等你看见。,There's still something here waiting for you to see it.
+Text,进入,Enter
+Text,追上阴影,Catch up with the shadow
+Text,退出 [Esc],Exit [Esc]
+Text,退出游戏,Quit Game
+Text,退出至游戏主菜单,Return to Main Menu
+Text,选择,Select
+Text,选择一件物品,Select an item
+Text,选择一份文件,Select a document
+Text,选择后立即生效，并在下次启动时保留。,Changes take effect immediately and are remembered for your next launch.
+Text,通知 · 1,Notice | 1
+Text,遮罩,Mask
+Text,那个孩子……我记得他。可我还是想不起他的名字。,That boy... I remember him. But I still can't remember his name.
+Text,那为什么周围的一切都这么陌生？,Then why does everything around me feel so unfamiliar?
+Text,那你什么时候告诉我你的名字？,Then when will you tell me your name?
+Text,那你现在知道发生什么事了吗？,Do you know what happened now?
+Text,那可不一定。对了，昨天你怎么被他们关在体育器材室了？,"I wouldn't be so sure. Anyway, how did they lock you in the equipment room yesterday?"
+Text,那就告诉我，发生了什么。,Then tell me what happened.
+Text,那我下次设置密码把你的名字也加上。,Next time I'll put your name in it too.
+Text,那是我吗？,Is that me?
+Text,邮件,Mail
+Text,邮箱,Mailbox
+Text,邱天,Qiu Tian
+Text,邱天……是谁？,Qiu Tian... Who is that?
+Text,邻居说赵今瑞可能去接补习班的孩子了。,A neighbor says Zhao Jinrui may have gone to pick up children from tutoring class.
+Text,郑涛,Zheng Tao
+Text,郑涛昨天就被锁在这了，还以为我找他有事，带了一只铅笔下来，结果被关里面了。,"They locked Zheng Tao in here yesterday. He thought I wanted to see him, so he came down with a pencil. Then they locked him in."
+Text,郑涛昨天就被锁在这了，还以为我找他有事，带了一只铅笔下来，结果被关里面了，看来待会得把我社交平台的密码改了。,"They locked Zheng Tao in here yesterday. He thought I wanted to see him, so he came down with a pencil. Then they locked him in. Looks like I need to change my social account password later."
+Text,郑涛还在座位旁。,Zheng Tao is still by his seat.
+Text,郑涛这家伙真是个麻烦事。,That Zheng Tao is such a pain.
+Text,都看这边。,"Everyone, look this way."
+Text,配方材料配置无效。,The recipe's ingredients are invalid.
+Text,里面现在什么也没有。,There's nothing inside now.
+Text,里面还有一张工作证……边角已经被雨水泡软了。,There's a work ID inside too... Its corners are soft from the rain.
+Text,里面都是老师和领导，没有事情还是最好不要进去了,It is full of teachers and school administrators. Best not to go in without a reason.
+Text,重复剧情状态,Duplicate story state
+Text,重复库存,Duplicate inventory entries
+Text,重新开始,Start Again
+Text,重要物品,Key Items
+Text,重试载入,Retry Loading
+Text,钓点鱼，拿到隔壁镇集市卖，补贴家用。,Catching a few fish to sell at the next town's market. A little extra for the family.
+Text,钥匙应该就在附近。,There must be a key somewhere nearby.
+Text,钥匙正好能插进去。,The key fits.
+Text,铁门钥匙,Gate Key
+Text,铅笔,Pencil
+Text,锁很旧，却还牢牢锁着。,"The lock is old, but it is still holding."
+Text,锁没有反应。,The lock does not respond.
+Text,锁着。,Locked.
+Text,长按空格,Hold Space
+Text,长按空格努力看清,Hold Space to try to see clearly
+Text,门前靠着钓鱼竿，旁边放着水桶。,"A fishing rod leans beside the door, with a bucket nearby."
+Text,门打不开。,The door won't open.
+Text,门锁住了。,The door is locked.
+Text,阅读区,Reading Area
+Text,阴凉地面,Shaded Ground
+Text,随你怎么说，让我刻完先。,Say what you like. Let me finish carving first.
+Text,随便拍拍，玩得开心。,Take some pictures and have fun.
+Text,集合通知,Assembly Notice
+Text,雨水中的倒影,Reflection in the Rain
+Text,"露天电影放映通知
+7月16日晚7:30，镇文化站门前夏季露天电影，居民自带板凳，小朋友由家长陪同。
+——镇文化站","Outdoor Movie Screening
+A summer outdoor film will be shown outside the cultural center at 7:30 p.m. on July 16. Bring your own stool. Children should be accompanied by a parent.
+- Town Cultural Center"
+Text,音频,Audio
+Text,领导（占位标签）,Supervisor
+Text,饭店老板,Restaurant Owner
+Text,骑士,Knight
+Text,骑士翻查账本，又找来车夫。原来粮食按老国王的命令，送往城外受灾的村庄。,"The knight searched the ledgers and found the wagon driver. The grain had been sent, on the old king's orders, to villages outside the city struck by disaster."
+Text,高三一班,Class 3-1
+Text,高三一班独立内部；双门保留,Separate Class 3-1 interior; both doors retained
+Text,高三二班,Class 3-2
+Text,高三二班独立内部；两版本同四桌位置,Separate Class 3-2 interior; matching four-desk positions in both versions
+Text,黑雾,Black Fog
+Text,默认服装,Everyday Clothes
+Text,（占位标签）,
+Text,（本阶段体验到此结束。）,(This section of the preview ends here.)
+Text,？原存档将被替换。,? The existing save will be replaced.
+Text,？未保存的进度将丢失。,? Unsaved progress will be lost.
+Text,？？？,???
+Template,存档 {0},Save Slot {0}
+Template,覆盖存档 {0}？原存档将被替换。,Overwrite Save Slot {0}? The existing save will be replaced.
+Template,载入存档 {0}？未保存的进度将丢失。,Load Save Slot {0}? Unsaved progress will be lost.
+Template,已保存至存档 {0},Saved to Slot {0}
+Template,{0}已放入背包,{0} added to inventory
+Template,城门前的小骑士 · 第 {0} 幕,The Little Knight at the City Gate - Act {0}
+Template,公告 {0},Notice {0}
+Template,目标 {0},Target {0}
+Template,密码位 {0},Digit {0}
+Template,剩余 {0} 次  ·  已套中 {1},Attempts left: {0} | Targets hit: {1}
+Template,剩余 {0} 次 · 向右上投出 · 力度 {1}% · 松手投掷,Attempts left: {0} | Throw up and right | Power: {1}% | Release to throw
+Template,套中了！ · 剩余 {0} 次,You got it! | Attempts left: {0}
+Template,差一点…… · 剩余 {0} 次,So close... | Attempts left: {0}
+Template,力度 {0}% · 轨迹线是篮球的飞行方向 · 松手投掷  [Esc] 取消,Power: {0}% | The line shows the ball's path | Release to throw  [Esc] Cancel
+Template,发件人：{0},From: {0}
+Template,肖鹏：{0},Xiao Peng: {0}
+Template,{0}卡,{0} Card
+Template,{0}木偶,{0} Puppet
+Template,存档物品资源缺失：{0},Missing saved item asset: {0}
+Template,存档文件资源缺失：{0},Missing saved document asset: {0}
+Template,"载入未完成：{0}
+可以重试载入，或重新开始。已有存档会保留。","Loading did not finish: {0}
+You can retry loading or start again. Existing saves will be kept."
+Template,未知剧情状态：{0},Unknown story state: {0}
+Template,当前语言：{0},Current language: {0}

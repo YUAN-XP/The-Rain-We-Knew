@@ -87,6 +87,7 @@ public static class P02ProductionFactory
             definition.walkingLean=right.walkingLean;definition.runningLean=right.runningLean;
             definition.walkLift=new AnimationCurve(right.walkLift.keys);definition.runLift=new AnimationCurve(right.runLift.keys);
             definition.walkSwing=new AnimationCurve(right.walkSwing.keys);definition.runSwing=new AnimationCurve(right.runSwing.keys);
+            P02VisualAssetRules.Apply(definition);
             EditorUtility.SetDirty(definition);
             var actor=new GameObject("P02_"+input.actor+"_"+input.direction);
             try{var rig=actor.AddComponent<P02CharacterRig>();rig.definition=definition;rig.targetHeight=input.targetHeight;rig.sampleMode=true;rig.Build();

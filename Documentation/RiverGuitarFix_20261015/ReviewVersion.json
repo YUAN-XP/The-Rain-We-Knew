@@ -1,0 +1,23 @@
+{
+  "revision": "river-guitar-final-strum-fix-01",
+  "date": "2026-10-15T19:36:39",
+  "title": "旧雨 / The Rain We Knew",
+  "assemblySHA256": "7fb452807337665f30550e3e3dd301efd71564b769a72bfa341f1461dc1abc00",
+  "guitarCases": 12,
+  "guitarChecksPassed": 29,
+  "physicalKeyboardTested": false,
+  "fullPlaythrough": false,
+  "desktopFormalUpdated": false,
+  "githubUpdated": false,
+  "scenesUnchanged": true,
+  "rhythmAssetsUnchanged": true,
+  "containsPreviousSubtitleSessionFix": true,
+  "archive": {
+    "zip": "D:\\游戏设计\\Codex工作区\\work\\2026-10-15-Localization\\TheRainWeKnew_EarlyPreview_Windows_20261015.zip",
+    "bytes": 965819732,
+    "files": 204,
+    "sha256": "6e9b73325f750d0cfe59ac5bb18192e01ce5870c1be07773b99217b027e60b5e",
+    "integrity": "passed"
+  },
+  "supersededBy": "Documentation/GuitarAssist_20261015/ReviewVersion.json"
+}

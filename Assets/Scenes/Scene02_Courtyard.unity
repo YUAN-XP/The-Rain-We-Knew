@@ -10976,7 +10976,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: -0.40713665, z: 0}
-  m_LocalScale: {x: 0.47572592, y: 0.09093214, z: 1}
+  m_LocalScale: {x: 0.9217189, y: 0.176181, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 498343770}
@@ -32141,6 +32141,52 @@ MonoBehaviour:
   widthFactor: 0.85
   minimumWidth: 0.15
   depth: 0.11
+--- !u!1 &685368344
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 685368346}
+  - component: {fileID: 685368345}
+  m_Layer: 0
+  m_Name: AudioPass0_Profile
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &685368345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 685368344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4220ec1d88c32f541a3e484ea776f92d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SceneMusicProfile
+  role: 1
+  defaultState: 3
+--- !u!4 &685368346
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 685368344}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &690527411
 GameObject:
   m_ObjectHideFlags: 0
@@ -61258,6 +61304,7 @@ GameObject:
   - component: {fileID: 1447654397}
   - component: {fileID: 1447654395}
   - component: {fileID: 1447654396}
+  - component: {fileID: 1447654399}
   m_Layer: 0
   m_Name: ThreeDoorPuzzleArea
   m_TagString: Untagged
@@ -61460,6 +61507,32 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1119664276}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1447654399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1447654394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62d9f86015739044b9592cdc0bc028b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ThreeDoorsMusicController
+  puzzle: {fileID: 1447654395}
+  corridor: {fileID: 692559794}
+  settings: {fileID: 11400000, guid: 2f5ee74de67b09b4b91e5162d8db3d71, type: 2}
+  doorAudio:
+  - {fileID: 1979932844}
+  - {fileID: 208451139}
+  - {fileID: 1090203755}
+  legacyCorridorGuide: {fileID: 1663563366}
+  currentStage: 0
+  correctDoor: 0
+  leftClarity: 
+  middleClarity: 
+  rightClarity: 
+  scheduledStart: 0
 --- !u!1 &1450298925
 GameObject:
   m_ObjectHideFlags: 0
@@ -92151,3 +92224,4 @@ SceneRoots:
   - {fileID: 1326870491}
   - {fileID: 264598095}
   - {fileID: 1838205554}
+  - {fileID: 685368346}

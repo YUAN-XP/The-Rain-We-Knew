@@ -92,7 +92,9 @@ public class Scene03RiverSequence : MonoBehaviour, IInteractable
     IEnumerator AppreciateSong()
     {
         Appreciating=true;CanLeaveSong=false;leaveText.alpha=0;
-        music.clip=fullBirthdaySong;music.loop=false;music.volume=.55f;music.Play();
+        var musicManager=MusicManager.Instance;
+        if(musicManager&&musicManager.Ready)yield return musicManager.PreparePerformance(music);
+        music.clip=fullBirthdaySong;music.loop=false;music.volume=musicManager&&musicManager.Ready?0:.55f;music.Play();
         float began=GameplayClock.Now;Vector3 center=new Vector3(wideViewCenter.x,wideViewCenter.y,0);
         yield return Zoom(wideViewSize,center,3);
         while(music.isPlaying)
@@ -102,6 +104,7 @@ public class Scene03RiverSequence : MonoBehaviour, IInteractable
             if(CanLeaveSong&&GameplayInput.GetKeyDown(KeyCode.E))break;
             yield return null;
         }
+        if(musicManager&&musicManager.Ready)yield return musicManager.FinishPerformance(music);
         music.Stop();leaveText.alpha=0;CanLeaveSong=false;Appreciating=false;
         yield return Zoom(2.6f,new Vector3((childSeat.position.x+boySeat.position.x)/2,72.1f,0),1.5f);
     }

@@ -1,0 +1,13 @@
+Summary
+Fix character presentation and continuous comic music
+
+Description
+- Repair the opening hip/waist hinge and unreachable two-bone IK targets.
+- Correct left-facing hand anatomy and the affected sleeve orientation.
+- Remove the retained collar fragment from Qiu Tian's head mesh and refine his resting pose.
+- Restore human-scale courtyard stairs without changing the interaction zone.
+- Keep BGM running throughout paged comic presentations.
+- Bind late-created interaction prompts to the selected display language.
+- Preserve story flow, movement input, camera rules, saved data, and the desktop release boundary.
+
+Validation: native model/pose samples, three walk/run loops, complete opening, continuous BGM sample clock and PCM output, focused bilingual checks, and a Windows review build. Owner playthrough and release approval remain pending.

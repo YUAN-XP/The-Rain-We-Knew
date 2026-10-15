@@ -64,8 +64,8 @@ public static partial class P05ProductionBuild {
   else {Strip(art,"SchoolWall",memory?"P05_WallMemory":"P05_WallOther",x+w/2,f+.25f,w+.04f,3.6f,-35);}
   var bounds=Get<RoomCameraBounds>(Node(art,"ViewBounds"));Field(bounds,"actorRegion",p=>p.rectValue=new Rect(x,f-2,w,8));Field(bounds,"horizontalEdges",p=>p.vector2Value=r.id.StartsWith("Floor03")||r.id=="ReadingPassage"?new Vector2(0,80):new Vector2(x,x+w));Field(bounds,"priority",p=>p.intValue=20);
   // Paint only actual traversable gateways. Reading boundaries have no fake doors.
-  foreach(var p in root.GetComponentsInChildren<SchoolPortal>(true)){if(p.portalId.StartsWith("Reading_"))continue;var d=p.Definition;string key=d.id.Contains("Roof")?r.id=="Roof"?"P05_RoofAccess":"P05_IronGate":d.id.StartsWith("Stair_")?"P05_StairUp":"MOD_SCHOOL_DOORS:"+(memory?0:1);if(r.id=="Floor02"&&d.targetRoom=="Floor01")key="P05_Downstairs";float h=key=="P05_RoofAccess"?2.65f:key=="P05_Downstairs"?2.8f:2.35f;float px=p.transform.position.x,foot=f+.25f;if(key=="P05_Downstairs"){px+=1.7f;foot-=1.4f;}Paint(art,"Gateway_"+p.portalId,key,px,foot,h,-11);}
-  foreach(var p in root.GetComponentsInChildren<SchoolInteractable>(true)){if(p.name.Contains("Door"))Paint(art,"Gateway_"+p.name,"MOD_SCHOOL_DOORS:"+(memory?0:1),p.transform.position.x,f+.25f,2.35f,-11);}
+  foreach(var p in root.GetComponentsInChildren<SchoolPortal>(true)){if(p.portalId.StartsWith("Reading_"))continue;var d=p.Definition;string key=d.id.Contains("Roof")?r.id=="Roof"?"P05_RoofAccess":"P05_IronGate":d.id.StartsWith("Stair_")?"P05_StairUp":"MOD_SCHOOL_DOORS:"+(memory?0:2);if(r.id=="Floor02"&&d.targetRoom=="Floor01")key="P05_Downstairs";float h=key=="P05_RoofAccess"?2.65f:key=="P05_Downstairs"?2.8f:2.35f;float px=p.transform.position.x,foot=f+.25f;if(key=="P05_Downstairs"){px+=1.7f;foot-=1.4f;}Paint(art,"Gateway_"+p.portalId,key,px,foot,h,-11);}
+  foreach(var p in root.GetComponentsInChildren<SchoolInteractable>(true)){if(p.name.Contains("Door"))Paint(art,"Gateway_"+p.name,"MOD_SCHOOL_DOORS:"+(memory?0:2),p.transform.position.x,f+.25f,2.35f,-11);}
   if(r.id=="Floor01"){
    Paint(art,"InsideSecurityWindow","P05_Security",x+4.4f,f+1.05f,1.15f,-12);
    Shadow(Paint(art,"LowLocker","P05_ShoeLocker",x+16,f+.23f,.8f));
@@ -79,7 +79,7 @@ public static partial class P05ProductionBuild {
   }
   if(r.id=="Class3_2"||r.id=="Class3_1"){
    Paint(art,"Board","MOD_SCHOOL_WINDOWS_BOARDS:0",x+w*.55f,f+1.75f,1.05f,-15);
-   for(int i=0;i<3;i++)Shadow(Paint(art,"Desk_"+i,"MOD_SCHOOL_DESK_CHAIR_PAIR_V02:"+(memory?0:1),x+3.3f+i*3.2f,f+.23f,1.05f,-10));
+   for(int i=0;i<4;i++){var seat=root.Find("Desk_"+(i+1));Shadow(Paint(art,"Desk_"+i,"MOD_SCHOOL_DESK_CHAIR_PAIR_V02:"+(memory?0:1),seat?seat.position.x:x+3.3f+i*2.33f,f+.23f,1.05f,-10));}
    if(memory&&r.id=="Class3_2")Life(Paint(art,"Seated_S03","P05_Loop:0",x+4.2f,f+.23f,1.31f,-9),"S03","writing",Frames("P05_Loop",0),.42f,1.31f,0);
    if(memory&&r.id=="Class3_1"){var z=root.Find("B5_ZhangRuoyuan");if(z){Paint(z,"P05_Zhang","CHR_SCHOOL_SUPPORT_BASE:0",z.position.x,f+.23f,1.65f,-5);}}
   }

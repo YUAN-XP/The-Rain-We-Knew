@@ -20,6 +20,9 @@ public class InteractionUI : MonoBehaviour
     public void ShowPrompt(string text,Transform target)
     {
         if(!promptRoot||!promptText||!target){HidePrompt();return;}
+        // This runtime UI can be instantiated after the scene language scan.
+        // Bind at its display boundary so prompts follow the selected language.
+        GameLocalization.Bind(promptText);
         actor=target;promptText.text=P07Language.Display(text);promptRoot.SetActive(true);
     }
     // Preserve the API for Inspector events; runtime player interaction always supplies its owner.

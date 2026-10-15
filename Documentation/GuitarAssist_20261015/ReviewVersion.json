@@ -1,0 +1,39 @@
+{
+  "revision": "guitar-guidance-forgiving-02",
+  "date": "2026-10-15T20:16:09",
+  "title": "旧雨 / The Rain We Knew",
+  "assemblySHA256": "c4e8b93bbd47da7c7012db1aa2d77aba06c059d00696d4c2c0be996a2e8c7d7b",
+  "guitarCases": 22,
+  "guitarChecksPassed": 132,
+  "noteGoodSeconds": 0.55,
+  "perfectSeconds": 0.25,
+  "strumSeconds": 0.85,
+  "chordGraceSeconds": 0.65,
+  "allowedMelodyMissesPerPhrase": 1,
+  "physicalKeyboardTested": false,
+  "fullPlaythrough": false,
+  "desktopFormalUpdated": false,
+  "githubUpdated": false,
+  "scenesUnchanged": true,
+  "noteTimesOrderAndTonesUnchanged": true,
+  "feedbackVisibleAndBilingual": true,
+  "buildReportErrors": 1,
+  "cleanBuild": false,
+  "editorPipelineSaveDiagnostics": 1,
+  "sources": {
+    "Assets/Scripts/Scene03/GuitarRhythmGame.cs": "f877a9320e75437aceca2070077f86b9060c82c6f436e038a2d590eb01bc1379",
+    "Assets/Scripts/Scene03/RhythmPhraseData.cs": "38f92f5f2ec892af5c5a3d50b2a78d51fcaa698b98ddaed269a6894d64501f5c",
+    "Assets/Resources/Localization/GameText.json": "24644f1b99120bdc481cc7d198063c8d4df6f648c5d96c86a73db36bb731a8de",
+    "Assets/GameData/Scene03/RhythmPhrase1.asset": "cf917656990dfae7491e7890fe2b6e7ec95b54c78e1961a8b2c4c3cacb0520ec",
+    "Assets/GameData/Scene03/RhythmPhrase2.asset": "5af49314bf0f307bf891dbe659da2299a6e34311c1e183e663ac9ea7a32baba2",
+    "Assets/GameData/Scene03/RhythmPhrase3.asset": "a0f01a02f5c4a8bc536c646ecf22ba0efa4eed6a2f01945467b12f2dca383e76",
+    "Assets/GameData/Scene03/RhythmPhrase4.asset": "c03b06b0309c57068f9e39e1f5b5e5723a4f2e7b5ad509cd7168dc215b64c921"
+  },
+  "archive": {
+    "zip": "D:\\游戏设计\\Codex工作区\\work\\2026-10-15-Localization\\TheRainWeKnew_EarlyPreview_Windows_20261015.zip",
+    "bytes": 965829530,
+    "files": 205,
+    "sha256": "15c620c6a2f879b307c38f4fb50181510950c4df665208760aa246b51ca2b718",
+    "integrity": "passed"
+  }
+}

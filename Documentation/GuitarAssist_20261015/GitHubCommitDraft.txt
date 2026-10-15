@@ -1,0 +1,7 @@
+Summary:
+Add guitar guidance and forgiving rhythm input
+
+Description:
+Show specific bilingual error messages below the guitar lanes and keep them visible long enough to read. Widen timing and chord-release windows, allow one missed melody note per phrase, and remove penalties for extra taps and unreleased melody keys during the final strum. Keep original note timing, audio, four-phrase progress and story flow.
+
+Validation: 22 isolated Play Mode scenarios pass, including early/late notes, missed-note tolerance, chord recovery, final strums and retry recovery. Actual Chinese and English UI renders and layout checks pass. Windows build reports success; its one URP configuration-save error is documented and remains unresolved. Package integrity checks pass. Physical keyboard feel and full owner playthrough remain pending.

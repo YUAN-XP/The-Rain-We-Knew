@@ -1,0 +1,50 @@
+{
+    "stamp": "2026-10-06T00:08:53.6669930+08:00",
+    "checks": [
+        {
+            "name": "ordinary_single_owner",
+            "result": "PASS",
+            "detail": "one manager, one steady ordinary voice"
+        },
+        {
+            "name": "duplicate_discarded",
+            "result": "PASS",
+            "detail": "duplicate removed; original persistent game runtime retained"
+        },
+        {
+            "name": "same_state_continuity",
+            "result": "PASS",
+            "detail": "position advanced from 107.8613 to 108.3733"
+        },
+        {
+            "name": "crossfade_overlap_only",
+            "result": "PASS",
+            "detail": "both transitional voices audible with complementary ramps"
+        },
+        {
+            "name": "rapid_request_settles",
+            "result": "PASS",
+            "detail": "last requested state retained, no third ordinary voice"
+        },
+        {
+            "name": "none_fades_to_silence",
+            "result": "PASS",
+            "detail": "both sources stopped only at zero gain"
+        },
+        {
+            "name": "menu_pause_exception_scoped",
+            "result": "PASS",
+            "detail": "only menu cue ignores listener pause"
+        },
+        {
+            "name": "full_theme_loop_wrap",
+            "result": "PASS",
+            "detail": "test seek near full-song end; wrapped to 0.772"
+        },
+        {
+            "name": "exploration_honors_pause",
+            "result": "PASS",
+            "detail": "ordinary cue retains original global pause behavior"
+        }
+    ]
+}

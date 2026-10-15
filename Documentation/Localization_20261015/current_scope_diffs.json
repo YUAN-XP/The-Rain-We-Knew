@@ -1,0 +1,37 @@
+{
+  "changedBaseline": [
+    "Assets/Scripts/Inventory/InventoryUI.cs",
+    "Assets/Scripts/UI/P07AcquisitionPresentation.cs",
+    "Assets/Scripts/UI/P07Interface.cs",
+    "Assets/Scripts/UI/P07Language.cs",
+    "Assets/Scripts/UI/P07PresentationData.cs",
+    "Assets/Scripts/UI/P07QuestDisplay.cs",
+    "Assets/Scripts/UI/P07SettingsPanel.cs",
+    "Assets/Scripts/UI/RuntimePanelUI.cs",
+    "Assets/Resources/P07Presentation.asset"
+  ],
+  "newStatus": [
+    " M Assets/Resources/P07Presentation.asset",
+    " M Assets/Scripts/Inventory/InventoryUI.cs",
+    " M Assets/Scripts/UI/P07AcquisitionPresentation.cs",
+    " M Assets/Scripts/UI/P07Interface.cs",
+    " M Assets/Scripts/UI/P07Language.cs",
+    " M Assets/Scripts/UI/P07PresentationData.cs",
+    " M Assets/Scripts/UI/P07QuestDisplay.cs",
+    " M Assets/Scripts/UI/P07SettingsPanel.cs",
+    " M Assets/Scripts/UI/RuntimePanelUI.cs",
+    "?? Assets/Editor/LocalizationProjectAudit.cs",
+    "?? Assets/Editor/LocalizationProjectAudit.cs.meta",
+    "?? Assets/Editor/LocalizationReview.cs",
+    "?? Assets/Editor/LocalizationReview.cs.meta",
+    "?? Assets/Resources/Localization.meta",
+    "?? Assets/Resources/Localization/",
+    "?? Assets/Resources/PerformanceTestRunInfo.json",
+    "?? Assets/Resources/PerformanceTestRunInfo.json.meta",
+    "?? Assets/Resources/PerformanceTestRunSettings.json",
+    "?? Assets/Resources/PerformanceTestRunSettings.json.meta",
+    "?? Assets/Scripts/UI/GameLocalization.cs",
+    "?? Assets/Scripts/UI/GameLocalization.cs.meta"
+  ],
+  "sceneBytesUnchanged": true
+}

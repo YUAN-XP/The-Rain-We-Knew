@@ -1,0 +1,46 @@
+PASS All 20 installed identity/direction skins retained
+PASS adult_default/right has all source parts
+PASS adult_overalls/right has all source parts
+PASS adult_overalls/left has all source parts
+PASS adult_overalls near back-of-hand / far palm mapping
+PASS adult_school/right has all source parts
+PASS adult_school/left has all source parts
+PASS adult_school near back-of-hand / far palm mapping
+PASS child/right has all source parts
+PASS child/left has all source parts
+PASS child near back-of-hand / far palm mapping
+PASS qt_adult/right has all source parts
+PASS qt_adult/left has all source parts
+PASS qt_adult near back-of-hand / far palm mapping
+PASS boy_child/right has all source parts
+PASS boy_child/left has all source parts
+PASS boy_child near back-of-hand / far palm mapping
+PASS youth/right has all source parts
+PASS youth/left has all source parts
+PASS youth near back-of-hand / far palm mapping
+PASS child/up has all source parts
+PASS child/down has all source parts
+PASS adult_default/left has all source parts
+PASS adult_default near back-of-hand / far palm mapping
+PASS child/up_left has all source parts
+PASS child/up_right has all source parts
+PASS child/down_left has all source parts
+PASS child/down_right has all source parts
+PASS Walk actual native deformation output; 65 frames, world ground reference
+PASS Run actual native deformation output; 44 frames, world ground reference
+PASS Opening actual native deformation output; 157 frames, world ground reference
+PASS Both normal/slow native video outputs contain encoded frames
+PASS Native character endpoints stayed finite across three walk/run loops and entire opening
+PASS Every sampled skinned part stayed within its anatomical size envelope
+PASS Measured lower-leg endpoint error remained below 0.006 units: 0.000000
+PASS Actual configured music manager ready
+PASS Shared paged-animation canvas is open (used by all four comic presentations)
+PASS Same BGM source/clip retained playback and nonzero source gain throughout paged canvas
+PASS Paged presentation never reduced BGM duck gain to zero
+PASS BGM sample clock advanced through the presentation without restarting
+PASS Nonzero decoded BGM signal during paged presentation: 0.127901
+PASS Actual listener output remained present with unchanged audio settings: 0.127901
+PASS Paged canvas closed normally
+PASS Actual courtyard staircase has reviewed full height
+PASS Staircase still rests on original floor
+PASS Authored courtyard scene rendered with static review actors; no saved camera/player/trigger changes

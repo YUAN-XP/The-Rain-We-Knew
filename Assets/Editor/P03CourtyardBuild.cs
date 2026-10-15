@@ -111,7 +111,7 @@ public static partial class P03ProductionBuild
   var stairs=T("Environment/Floor01/Stairs_Placeholder");
   foreach(var r in stairs.GetComponentsInChildren<SpriteRenderer>(true))r.gameObject.SetActive(false);
   stairs.gameObject.SetActive(true);
-  var steps=Visual(stairs,"P03_CompactStairs","P03_CompactStairs",4.8f,.86f,1.60f,-8);
+  var steps=Visual(stairs,"P03_CompactStairs","P03_CompactStairs",4.8f,.86f,P02VisualAssetRules.CourtyardStairHeight,-8);
   var sh=Get<PaintedContactShadow>(steps.transform);sh.target=steps;
   Box(T("Environment/Floor01/StairsUp_InteractZone"),4.10f,1.6f,1.6f,2.2f,true);
   foreach(var t in new[]{T("Environment/Floor02/MasterBedroom_Placeholder"),T("Environment/Floor02/HiddenBedroom_RevealDoor")})Door(t,7.05f);
@@ -218,7 +218,7 @@ public static partial class P03ProductionBuild
   if(EditorApplication.isPlaying||SceneManager.GetActiveScene().isDirty)throw new Exception("Requires clean edit mode");
   EditorSceneManager.OpenScene("Assets/Scenes/Scene02_Courtyard.unity");
   catalog=AssetDatabase.LoadAssetAtPath<DemoArtCatalog>("Assets/Resources/DemoArtCatalog.asset");
-  Paint(T("Environment/Floor01/Stairs_Placeholder/P03_CompactStairs").GetComponent<SpriteRenderer>(),S("P03_CompactStairs"),4.8f,.86f,1.6f);
+  Paint(T("Environment/Floor01/Stairs_Placeholder/P03_CompactStairs").GetComponent<SpriteRenderer>(),S("P03_CompactStairs"),4.8f,.86f,P02VisualAssetRules.CourtyardStairHeight);
   var area=T("Gameplay/Scene02_Midgame/DistortedCorridorArea");
   var wall=T("Gameplay/Scene02_Midgame/DistortedCorridorArea/ThreeDoor_NormalWall").GetComponent<SpriteRenderer>();
   area.Find("P03_ThreeDoorWall").gameObject.SetActive(false);

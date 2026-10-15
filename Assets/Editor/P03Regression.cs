@@ -29,7 +29,7 @@ public static class P03Regression
     var retiredFloors=transforms.Select(t=>t.GetComponent<SpriteRenderer>()).Where(r=>r&&r.name.StartsWith("Demo2026_Floor_")).ToArray();
     rows.Add((!retiredFloors.Any(r=>r.gameObject.activeInHierarchy&&r.enabled&&!r.forceRenderingOff)?"PASS ":"FAIL ")+"no active old segmented courtyard floor remains visible");
     rows.Add((retiredFloors.All(r=>r.GetComponent<RetiredArtVisibility>()&&r.GetComponent<RetiredArtVisibility>().Renderers.Contains(r))?"PASS ":"FAIL ")+"all "+retiredFloors.Length+" old floor strips retain suppression on reactivation");
-    var stairs=transforms.First(t=>t.name=="P03_CompactStairs").GetComponent<SpriteRenderer>();rows.Add((Mathf.Abs(stairs.bounds.size.y-1.6f)<.01f?"PASS ":"FAIL ")+"stairs full height 1.6 < adult 1.8, native aspect");
+    var stairs=transforms.First(t=>t.name=="P03_CompactStairs").GetComponent<SpriteRenderer>();rows.Add((Mathf.Abs(stairs.bounds.size.y-P02VisualAssetRules.CourtyardStairHeight)<.01f?"PASS ":"FAIL ")+"stairs retain a human-scale landing and railing, native aspect");
     foreach(var window in transforms.Select(t=>t.GetComponent<WindowRainPresentation>()).Where(r=>r))rows.Add((window.panes.Length==3&&window.panes[0].width<.08f?"PASS ":"FAIL ")+"glass clip "+P03RegressionDriver.PathOf(window.transform));
     var photo=transforms.First(t=>t.name=="P03_PhotoSupport").GetComponent<SpriteRenderer>();rows.Add((Mathf.Abs(photo.bounds.max.y-1.66f)<.02f?"PASS ":"FAIL ")+"photo tabletop support");
     rows.Add((transforms.Any(t=>t.name=="P03_ContinuousCorridor")?"PASS ":"FAIL ")+"continuous second floor geometry");

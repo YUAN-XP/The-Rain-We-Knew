@@ -1,0 +1,45 @@
+旧雨 / The Rain We Knew｜全游戏字幕语言修复
+日期：2026-10-15
+状态：本地审核候选；未更新桌面正式版或 GitHub；仍待用户完整游玩审查。
+
+一、范围与已确认原因
+范围包含五个正式构建场景及全部章节的对白、独白、说话人名称、交互提示与文字界面，不限于 Scene01。
+已在原独立程序的隔离副本中，调用真正的“开始游戏”入口复现：初始主菜单的字幕组件已有语言绑定，但点击开始后重建了 PersistentRuntime；新的常驻 UI 在 Awake 中被移动到 DontDestroyOnLoad 场景。旧代码只扫描新加载场景的根节点，因此漏掉新常驻 UI，而最初的一次全局 Start 扫描已经执行完。
+修复前：语言为 English，bodyBound=False，speakerBound=False；译表能返回英文，实际字幕仍为中文。再次选择 English 也不能刷新未绑定的组件。此证据见 before-newgame-evidence.txt。
+先前的文字表覆盖检查及未点击开始游戏的启动检查，没有覆盖这个真实路径；不能以那些结果证明新会话字幕正确。
+
+二、修改
+GameLocalization：每次场景加载时扫描当前全部已加载的 TMP 文字，包括 DontDestroyOnLoad 与未激活组件；只在加载事件执行，不增加逐帧全局搜索。
+DialogueManager：在初始化及每次显示对白时绑定正文、说话人和继续提示，覆盖后来创建或替换的字幕组件。
+译文仅改变显示；原始字幕文字、角色身份、物品标识、任务事件、剧情时序、存档内容和场景文件保留。
+本次不需要重写剧情译文表：问题是运行时绑定丢失，并非只缺 Scene01 的翻译。
+
+三、实际输出验证
+编辑器原生 Play Mode：从真实菜单入口重新开始后，遍历 149 组 DialogueData 的 341 条正文及对应说话人，按英文→中文→英文检查；2049 项检查，0 失败。重新创建的 35 个常驻 TMP 组件均已绑定。
+独立 Windows 游戏：隔离副本中使用真实开始游戏入口两次；各章节正文、说话人及源文字保持共 3074 项检查，0 失败，共 1023 次实际行呈现。还验证显示时修复后来失去绑定的标签。
+测试读取组件正常更新后的 GetParsedText；回归脚本未调用 GameLocalization.Bind 或 ForceMeshUpdate 帮助字幕通过。英中英切换也检查当前可见字幕。
+现有语言/标题/提示检查：70 项通过；五场景及数据的 969 个序列化显示字段覆盖检查未发现中文漏译。
+章节数据分布：
+- EndingSequence: 42 组 / 42 条
+- Scene03_Childhood: 35 组 / 103 条
+- Scene04_School: 47 组 / 116 条
+- Scene01_Rain: 12 组 / 42 条
+- Scene02_Courtyard: 13 组 / 38 条
+
+四、证据边界
+PNG 为最终源码对应的真实 DialogueCanvas 原生渲染，隔离了场景与其他界面，以便核对字幕；深色底是证据背景，未写入游戏场景。包含普通对白与无说话人独白的英中版本。
+独立程序的测试副本仅在初始化处增加诊断协程入口，并临时加载同一份作者数据；正式审核构建未加入该探针、自动输入、跳关标记或测试道具。测试后原构建 DLL 哈希和用户存档文件均保持一致，详见 player-probe-integrity.json。
+本轮没有进行从开头玩到结尾的全流程验收，也没有重新验收全部美术。翻译语气、长段文字的最终阅读体验和完整游玩仍由用户人工审查。图像内招牌、手写字等美术刻字未在本轮重绘。
+
+五、本地审核入口
+D:\游戏设计\Codex工作区\work\2026-10-15-Localization\ReviewBuild\ProjectMystery.exe
+程序已更新在原审核路径。游戏内部标题为“旧雨 / The Rain We Knew”；程序文件名及用户数据空间保留 ProjectMystery。
+下载 ZIP 与精确版本见同目录 ReviewVersion.json 和 DownloadPackage.txt。桌面正式入口仍待用户审核后才发布更新；本轮未 Commit、Push 或公开上传。
+
+构建结果：
+Result=Succeeded
+Errors=0
+Warnings=486
+Bytes=1161488571
+Seconds=322.2131136
+Development build=False

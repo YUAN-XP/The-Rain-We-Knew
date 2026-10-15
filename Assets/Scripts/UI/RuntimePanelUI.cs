@@ -41,7 +41,7 @@ public static class RuntimePanelUI
     public static TMP_Text Text(string text,Transform parent,TMP_FontAsset font,Vector2 min,Vector2 max,float size=30)
     {
         var t=Rect("Text",parent,min,max).gameObject.AddComponent<TextMeshProUGUI>();
-        t.font=font; t.text=text; t.fontSize=size; t.alignment=TextAlignmentOptions.Center; t.raycastTarget=false;
+        t.font=font; GameLocalization.Bind(t); t.text=text; t.fontSize=size; t.alignment=TextAlignmentOptions.Center; t.raycastTarget=false;
         t.color=new Color(.91f,.89f,.81f); return t;
     }
     public static Button Button(string text,Transform parent,TMP_FontAsset font,Vector2 min,Vector2 max,UnityAction action)

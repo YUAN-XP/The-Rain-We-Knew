@@ -1,0 +1,51 @@
+--- before task
+
++++ after task
+
+@@ -6,2 +6,11 @@
+
+  M Assets/Art/P02Motion/Production/P02_adult_default_right.prefab
++ M Assets/Art/P02Motion/Production/adult_default_left.asset
++ M Assets/Art/P02Motion/Production/adult_overalls_left.asset
++ M Assets/Art/P02Motion/Production/adult_school_left.asset
++ M Assets/Art/P02Motion/Production/boy_child_left.asset
++ M Assets/Art/P02Motion/Production/child_left.asset
++ M Assets/Art/P02Motion/Production/qt_adult_left.asset
++ M Assets/Art/P02Motion/Production/qt_adult_right.asset
++ M Assets/Art/P02Motion/Production/qt_adult_right_head_source_v01.png.meta
++ M Assets/Art/P02Motion/Production/youth_left.asset
+  D "Assets/Art/\346\227\247.meta"
+@@ -148,2 +157,6 @@
+
+  D Assets/Editor/P02FarLegCandidateReview.cs.meta
++ M Assets/Editor/P02ProductionFactory.cs
++ M Assets/Editor/P02RigFactory.cs
++ M Assets/Editor/P03CourtyardBuild.cs
++ M Assets/Editor/P03Regression.cs
+  M Assets/Resources/P07Presentation.asset
+@@ -155,2 +168,4 @@
+
+  M Assets/Scripts/Inventory/InventoryUI.cs
++ M Assets/Scripts/Presentation/P02CharacterRig.cs
++ M Assets/Scripts/Presentation/P02RigDefinition.cs
+  M Assets/Scripts/Scene03/Scene03RiverSequence.cs
+@@ -159,2 +174,3 @@
+
+  M Assets/Scripts/Story/ThreeDoorPuzzleController.cs
++ M Assets/Scripts/UI/InteractionUI.cs
+  M Assets/Scripts/UI/P07AcquisitionPresentation.cs
+@@ -279,2 +295,8 @@
+
+ ?? Assets/Editor/LocalizationReview.cs.meta
++?? Assets/Editor/P02VisualAssetRules.cs
++?? Assets/Editor/P02VisualAssetRules.cs.meta
++?? Assets/Editor/VisualFeedbackPlaybackReview.cs
++?? Assets/Editor/VisualFeedbackPlaybackReview.cs.meta
++?? Assets/Editor/VisualFeedbackReview.cs
++?? Assets/Editor/VisualFeedbackReview.cs.meta
+ ?? Assets/Resources/AudioPass0.meta
+@@ -293,2 +315,3 @@
+
+ ?? Documentation/Release/
++?? Documentation/VisualFeedback_20261015/
+ ?? Tools/

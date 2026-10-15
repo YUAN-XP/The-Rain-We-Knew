@@ -18,6 +18,7 @@ MonoBehaviour:
   viewKind: profile
   nearAnatomicalSide: left
   targetHeight: 1.8
+  torsoWidth: 0.93
   shoulderOffset: {x: -0.010908401, y: 0.4321}
   neckOffset: {x: 0.0054542003, y: 0.4843}
   projectedPlacement: 0
@@ -198,6 +199,9 @@ MonoBehaviour:
     articulatedLimb: 1
     stabilizedWaist: 0
     calibratedLimb: 1
+    mirrorLimbArtwork: 0
+    mirrorArtworkX: 0
+    pelvisGarment: 0
     bindUpperLength: 0.26306888
     bindLowerLength: 0.26693112
     paintedSole: []
@@ -213,6 +217,9 @@ MonoBehaviour:
     articulatedLimb: 1
     stabilizedWaist: 0
     calibratedLimb: 1
+    mirrorLimbArtwork: 0
+    mirrorArtworkX: 0
+    pelvisGarment: 0
     bindUpperLength: 0.2627329
     bindLowerLength: 0.2672671
     paintedSole: []
@@ -228,6 +235,9 @@ MonoBehaviour:
     articulatedLimb: 1
     stabilizedWaist: 1
     calibratedLimb: 1
+    mirrorLimbArtwork: 0
+    mirrorArtworkX: 0
+    pelvisGarment: 0
     bindUpperLength: 0.319437
     bindLowerLength: 0.375563
     paintedSole: []
@@ -243,6 +253,9 @@ MonoBehaviour:
     articulatedLimb: 1
     stabilizedWaist: 1
     calibratedLimb: 1
+    mirrorLimbArtwork: 0
+    mirrorArtworkX: 0
+    pelvisGarment: 0
     bindUpperLength: 0.31942332
     bindLowerLength: 0.37557667
     paintedSole: []
@@ -258,6 +271,9 @@ MonoBehaviour:
     articulatedLimb: 0
     stabilizedWaist: 0
     calibratedLimb: 0
+    mirrorLimbArtwork: 0
+    mirrorArtworkX: 0
+    pelvisGarment: 0
     bindUpperLength: 0
     bindLowerLength: 0
     paintedSole:
@@ -576,6 +592,9 @@ MonoBehaviour:
     articulatedLimb: 0
     stabilizedWaist: 0
     calibratedLimb: 0
+    mirrorLimbArtwork: 0
+    mirrorArtworkX: 0
+    pelvisGarment: 0
     bindUpperLength: 0
     bindLowerLength: 0
     paintedSole:
@@ -872,8 +891,8 @@ MonoBehaviour:
     - {x: 0.075, y: -0.08909091}
     - {x: 0.07590909, y: -0.08727273}
   - joint: near_hand
-    sprite: {fileID: -1579866794, guid: cb4a2cdc7db368140ab6e01aaa216547, type: 3}
-    runSprite: {fileID: -114641482, guid: cb4a2cdc7db368140ab6e01aaa216547, type: 3}
+    sprite: {fileID: -990511864, guid: cb4a2cdc7db368140ab6e01aaa216547, type: 3}
+    runSprite: {fileID: -1738153045, guid: cb4a2cdc7db368140ab6e01aaa216547, type: 3}
     runPaintedHeight: 0.12
     paintedHeight: 0.18
     artworkAngle: 0
@@ -883,12 +902,15 @@ MonoBehaviour:
     articulatedLimb: 0
     stabilizedWaist: 0
     calibratedLimb: 0
+    mirrorLimbArtwork: 0
+    mirrorArtworkX: 0
+    pelvisGarment: 0
     bindUpperLength: 0
     bindLowerLength: 0
     paintedSole: []
   - joint: far_hand
-    sprite: {fileID: -990511864, guid: cb4a2cdc7db368140ab6e01aaa216547, type: 3}
-    runSprite: {fileID: -1738153045, guid: cb4a2cdc7db368140ab6e01aaa216547, type: 3}
+    sprite: {fileID: -1579866794, guid: cb4a2cdc7db368140ab6e01aaa216547, type: 3}
+    runSprite: {fileID: -114641482, guid: cb4a2cdc7db368140ab6e01aaa216547, type: 3}
     runPaintedHeight: 0.12
     paintedHeight: 0.18
     artworkAngle: 0
@@ -898,6 +920,9 @@ MonoBehaviour:
     articulatedLimb: 0
     stabilizedWaist: 0
     calibratedLimb: 0
+    mirrorLimbArtwork: 0
+    mirrorArtworkX: 0
+    pelvisGarment: 0
     bindUpperLength: 0
     bindLowerLength: 0
     paintedSole: []
@@ -913,6 +938,9 @@ MonoBehaviour:
     articulatedLimb: 0
     stabilizedWaist: 0
     calibratedLimb: 0
+    mirrorLimbArtwork: 0
+    mirrorArtworkX: 0
+    pelvisGarment: 0
     bindUpperLength: 0
     bindLowerLength: 0
     paintedSole: []
@@ -928,6 +956,9 @@ MonoBehaviour:
     articulatedLimb: 0
     stabilizedWaist: 0
     calibratedLimb: 0
+    mirrorLimbArtwork: 0
+    mirrorArtworkX: 0
+    pelvisGarment: 0
     bindUpperLength: 0
     bindLowerLength: 0
     paintedSole: []

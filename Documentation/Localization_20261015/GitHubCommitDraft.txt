@@ -1,0 +1,9 @@
+Summary:
+Add bilingual preview UI and fix subtitles across new-game sessions
+
+Description:
+Introduce the confirmed title, The Rain We Knew / 旧雨, with English-first startup and persistent English/Simplified Chinese settings. Localize dialogue, monologue, speaker names, prompts, inventory, files and game UI.
+
+Bind replacement persistent text after starting a new game, and bind dialogue text at its actual display boundary. Preserve authored dialogue identities, gameplay progression, saves and scene layouts. Includes the reviewed character assembly, left-facing art, staircase scale and uninterrupted comic-music corrections.
+
+Validation: all 149 dialogue assets (341 lines) rendered in English, Chinese and English again in native Play Mode; independent-player regression with two real new-game restarts; language/UI coverage checks and Windows release build. Full owner playthrough and publication approval remain pending.

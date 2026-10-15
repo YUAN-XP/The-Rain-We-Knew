@@ -1,0 +1,210 @@
+CenteredAllFour PHRASE=0 retries=0
+CenteredAllFour 0 W True t=2.0000 Perfect
+CenteredAllFour 0 W True t=2.6750 Perfect
+CenteredAllFour 0 S True t=2.9000 Perfect
+CenteredAllFour 0 W True t=3.8000 Perfect
+CenteredAllFour 0 A True t=4.7000 Perfect
+CenteredAllFour 0 D True t=5.6000 Perfect
+CenteredAllFour 0 Space True t=7.8500 Perfect
+CenteredAllFour PHRASE=1 retries=0
+CenteredAllFour 1 W True t=2.0000 Perfect
+CenteredAllFour 1 W True t=2.6833 Perfect
+CenteredAllFour 1 S True t=2.9083 Perfect
+CenteredAllFour 1 W True t=3.8083 Perfect
+CenteredAllFour 1 D True t=4.7083 Perfect
+CenteredAllFour 1 A True t=5.6083 Perfect
+CenteredAllFour 1 Space True t=7.8583 Perfect
+CenteredAllFour PHRASE=2 retries=0
+CenteredAllFour 2 W True t=2.0000 Perfect
+CenteredAllFour 2 W True t=2.6833 Perfect
+CenteredAllFour 2 D True t=2.9083 Perfect
+CenteredAllFour 2 A True t=3.8083 Perfect
+CenteredAllFour 2 S True t=4.7083 Perfect
+CenteredAllFour 2 A True t=5.6083 Perfect
+CenteredAllFour 2 S True t=6.5000 Perfect
+CenteredAllFour 2 Space True t=8.7500 Perfect
+CenteredAllFour PHRASE=3 retries=0
+CenteredAllFour 3 A True t=2.0000 Perfect
+CenteredAllFour 3 A True t=2.6833 Perfect
+CenteredAllFour 3 S True t=2.9000 Perfect
+CenteredAllFour 3 W True t=3.8083 Perfect
+CenteredAllFour 3 D True t=4.7000 Perfect
+CenteredAllFour 3 W True t=5.6083 Perfect
+CenteredAllFour 3 Space True t=7.8583 Perfect
+GoodEarlySpaceThenRelease PHRASE=0 retries=0
+GoodEarlySpaceThenRelease 0 W True t=2.0000 Perfect
+GoodEarlySpaceThenRelease 0 W True t=2.6750 Perfect
+GoodEarlySpaceThenRelease 0 S True t=2.9000 Perfect
+GoodEarlySpaceThenRelease 0 W True t=3.8000 Perfect
+GoodEarlySpaceThenRelease 0 A True t=4.7000 Perfect
+GoodEarlySpaceThenRelease 0 D True t=5.6000 Perfect
+GoodEarlySpaceThenRelease 0 Space True t=7.6000 Good
+GoodEarlySpaceThenRelease 0 LeftArrow False t=7.7833 Miss · 和弦中断
+PerfectEarlySpaceThenRelease PHRASE=0 retries=0
+PerfectEarlySpaceThenRelease 0 W True t=2.0000 Perfect
+PerfectEarlySpaceThenRelease 0 W True t=2.6750 Perfect
+PerfectEarlySpaceThenRelease 0 S True t=2.9000 Perfect
+PerfectEarlySpaceThenRelease 0 W True t=3.8000 Perfect
+PerfectEarlySpaceThenRelease 0 A True t=4.7000 Perfect
+PerfectEarlySpaceThenRelease 0 D True t=5.6000 Perfect
+PerfectEarlySpaceThenRelease 0 Space True t=7.7500 Perfect
+PerfectEarlySpaceThenRelease PHRASE=1 retries=0
+PerfectEarlySpaceThenRelease 1 W True t=2.0000 Perfect
+PerfectEarlySpaceThenRelease 1 W True t=2.6833 Perfect
+PerfectEarlySpaceThenRelease 1 S True t=2.9083 Perfect
+PerfectEarlySpaceThenRelease 1 W True t=3.8083 Perfect
+PerfectEarlySpaceThenRelease 1 D True t=4.7000 Perfect
+PerfectEarlySpaceThenRelease 1 A True t=5.6000 Perfect
+PerfectEarlySpaceThenRelease 1 Space True t=7.7500 Perfect
+PerfectEarlySpaceThenRelease PHRASE=2 retries=0
+PerfectEarlySpaceThenRelease 2 W True t=2.0000 Perfect
+PerfectEarlySpaceThenRelease 2 W True t=2.6833 Perfect
+PerfectEarlySpaceThenRelease 2 D True t=2.9083 Perfect
+PerfectEarlySpaceThenRelease 2 A True t=3.8083 Perfect
+PerfectEarlySpaceThenRelease 2 S True t=4.7000 Perfect
+PerfectEarlySpaceThenRelease 2 A True t=5.6083 Perfect
+PerfectEarlySpaceThenRelease 2 S True t=6.5000 Perfect
+PerfectEarlySpaceThenRelease 2 Space True t=8.6583 Perfect
+PerfectEarlySpaceThenRelease PHRASE=3 retries=0
+PerfectEarlySpaceThenRelease 3 A True t=2.0000 Perfect
+PerfectEarlySpaceThenRelease 3 A True t=2.6833 Perfect
+PerfectEarlySpaceThenRelease 3 S True t=2.9000 Perfect
+PerfectEarlySpaceThenRelease 3 W True t=3.8083 Perfect
+PerfectEarlySpaceThenRelease 3 D True t=4.7000 Perfect
+PerfectEarlySpaceThenRelease 3 W True t=5.6000 Perfect
+PerfectEarlySpaceThenRelease 3 Space True t=7.7500 Perfect
+GoodLateSpaceThenRelease PHRASE=0 retries=0
+GoodLateSpaceThenRelease 0 W True t=2.0000 Perfect
+GoodLateSpaceThenRelease 0 W True t=2.6750 Perfect
+GoodLateSpaceThenRelease 0 S True t=2.9000 Perfect
+GoodLateSpaceThenRelease 0 W True t=3.8000 Perfect
+GoodLateSpaceThenRelease 0 A True t=4.7000 Perfect
+GoodLateSpaceThenRelease 0 D True t=5.6000 Perfect
+GoodLateSpaceThenRelease 0 Space True t=8.1000 Good
+GoodLateSpaceThenRelease PHRASE=1 retries=0
+GoodLateSpaceThenRelease 1 W True t=2.0000 Perfect
+GoodLateSpaceThenRelease 1 W True t=2.6833 Perfect
+GoodLateSpaceThenRelease 1 S True t=2.9083 Perfect
+GoodLateSpaceThenRelease 1 W True t=3.8083 Perfect
+GoodLateSpaceThenRelease 1 D True t=4.7083 Perfect
+GoodLateSpaceThenRelease 1 A True t=5.6083 Perfect
+GoodLateSpaceThenRelease 1 Space True t=8.1083 Good
+GoodLateSpaceThenRelease PHRASE=2 retries=0
+GoodLateSpaceThenRelease 2 W True t=2.0000 Perfect
+GoodLateSpaceThenRelease 2 W True t=2.6833 Perfect
+GoodLateSpaceThenRelease 2 D True t=2.9083 Perfect
+GoodLateSpaceThenRelease 2 A True t=3.8083 Perfect
+GoodLateSpaceThenRelease 2 S True t=4.7083 Perfect
+GoodLateSpaceThenRelease 2 A True t=5.6083 Perfect
+GoodLateSpaceThenRelease 2 S True t=6.5000 Perfect
+GoodLateSpaceThenRelease 2 Space True t=9.0000 Good
+GoodLateSpaceThenRelease PHRASE=3 retries=0
+GoodLateSpaceThenRelease 3 A True t=2.0000 Perfect
+GoodLateSpaceThenRelease 3 A True t=2.6833 Perfect
+GoodLateSpaceThenRelease 3 S True t=2.9000 Perfect
+GoodLateSpaceThenRelease 3 W True t=3.8083 Perfect
+GoodLateSpaceThenRelease 3 D True t=4.7000 Perfect
+GoodLateSpaceThenRelease 3 W True t=5.6083 Perfect
+GoodLateSpaceThenRelease 3 Space True t=8.1083 Good
+MissFirstNote PHRASE=0 retries=0
+MissFirstNote 0 W False t=2.3000 Miss · 漏拍
+MissFirstNote 0 W True t=2.6750 Perfect
+MissFirstNote 0 S True t=2.9000 Perfect
+MissFirstNote 0 W True t=3.8000 Perfect
+MissFirstNote 0 A True t=4.7000 Perfect
+MissFirstNote 0 D True t=5.6000 Perfect
+MissFirstNote 0 Space True t=7.8500 Perfect
+SpaceWithNoteKeyHeld PHRASE=0 retries=0
+SpaceWithNoteKeyHeld 0 W True t=2.0000 Perfect
+SpaceWithNoteKeyHeld 0 W True t=2.6750 Perfect
+SpaceWithNoteKeyHeld 0 S True t=2.9000 Perfect
+SpaceWithNoteKeyHeld 0 W True t=3.8000 Perfect
+SpaceWithNoteKeyHeld 0 A True t=4.7000 Perfect
+SpaceWithNoteKeyHeld 0 D True t=5.6000 Perfect
+SpaceWithNoteKeyHeld 0 Space False t=7.8500 Miss · 拍弦前请松开 W/S/A/D
+WrongChord PHRASE=0 retries=0
+WrongChord 0 W False t=2.0000 Miss · 请持续按住正确和弦
+WrongChord 0 LeftArrow False t=2.1750 Miss · 和弦中断
+WrongChord 0 W False t=2.6750 Miss · 请持续按住正确和弦
+WrongChord 0 S False t=2.9000 Miss · 请持续按住正确和弦
+WrongChord 0 W False t=3.8000 Miss · 请持续按住正确和弦
+WrongChord 0 A False t=4.7000 Miss · 请持续按住正确和弦
+WrongChord 0 D False t=5.6000 Miss · 请持续按住正确和弦
+WrongChord 0 Space False t=7.8500 Miss · 请持续按住正确和弦
+ChordGap PHRASE=0 retries=0
+ChordGap 0 W True t=2.0000 Perfect
+ChordGap 0 W True t=2.6750 Perfect
+ChordGap 0 S True t=2.9000 Perfect
+ChordGap 0 LeftArrow False t=3.2833 Miss · 和弦中断
+ChordGap 0 W True t=3.8000 Perfect
+ChordGap 0 A True t=4.7000 Perfect
+ChordGap 0 D True t=5.6000 Perfect
+ChordGap 0 Space True t=7.8500 Perfect
+SpaceTooEarly PHRASE=0 retries=0
+SpaceTooEarly 0 W True t=2.0000 Perfect
+SpaceTooEarly 0 W True t=2.6750 Perfect
+SpaceTooEarly 0 S True t=2.9000 Perfect
+SpaceTooEarly 0 W True t=3.8000 Perfect
+SpaceTooEarly 0 A True t=4.7000 Perfect
+SpaceTooEarly 0 D True t=5.6000 Perfect
+SpaceTooEarly 0 Space True t=7.4000 Miss · 错键或时机
+SpaceTooEarly 0 LeftArrow False t=7.5833 Miss · 和弦中断
+SpaceTooEarly 0 Space False t=8.1500 Miss · 漏拍
+SpaceTooLate PHRASE=0 retries=0
+SpaceTooLate 0 W True t=2.0000 Perfect
+SpaceTooLate 0 W True t=2.6750 Perfect
+SpaceTooLate 0 S True t=2.9000 Perfect
+SpaceTooLate 0 W True t=3.8000 Perfect
+SpaceTooLate 0 A True t=4.7000 Perfect
+SpaceTooLate 0 D True t=5.6000 Perfect
+SpaceTooLate 0 Space False t=8.1500 Miss · 漏拍
+RetrySecondPhraseThenRecover PHRASE=0 retries=0
+RetrySecondPhraseThenRecover 0 W True t=2.0000 Perfect
+RetrySecondPhraseThenRecover 0 W True t=2.6750 Perfect
+RetrySecondPhraseThenRecover 0 S True t=2.9000 Perfect
+RetrySecondPhraseThenRecover 0 W True t=3.8000 Perfect
+RetrySecondPhraseThenRecover 0 A True t=4.7000 Perfect
+RetrySecondPhraseThenRecover 0 D True t=5.6000 Perfect
+RetrySecondPhraseThenRecover 0 Space True t=7.8500 Perfect
+RetrySecondPhraseThenRecover PHRASE=1 retries=0
+RetrySecondPhraseThenRecover 1 W False t=2.3083 Miss · 漏拍
+RetrySecondPhraseThenRecover 1 W True t=2.6833 Perfect
+RetrySecondPhraseThenRecover 1 S True t=2.9083 Perfect
+RetrySecondPhraseThenRecover 1 W True t=3.8083 Perfect
+RetrySecondPhraseThenRecover 1 D True t=4.7083 Perfect
+RetrySecondPhraseThenRecover 1 A True t=5.6083 Perfect
+RetrySecondPhraseThenRecover 1 Space True t=7.8583 Perfect
+RetrySecondPhraseThenRecover PHRASE=1 retries=1
+RetrySecondPhraseThenRecover 1 W True t=2.0000 Perfect
+RetrySecondPhraseThenRecover 1 W True t=2.6750 Perfect
+RetrySecondPhraseThenRecover 1 S True t=2.9000 Perfect
+RetrySecondPhraseThenRecover 1 W True t=3.8000 Perfect
+RetrySecondPhraseThenRecover 1 D True t=4.7000 Perfect
+RetrySecondPhraseThenRecover 1 A True t=5.6000 Perfect
+RetrySecondPhraseThenRecover 1 Space True t=7.8500 Perfect
+RetrySecondPhraseThenRecover PHRASE=2 retries=1
+RetrySecondPhraseThenRecover 2 W True t=2.0000 Perfect
+RetrySecondPhraseThenRecover 2 W True t=2.6833 Perfect
+RetrySecondPhraseThenRecover 2 D True t=2.9000 Perfect
+RetrySecondPhraseThenRecover 2 A True t=3.8083 Perfect
+RetrySecondPhraseThenRecover 2 S True t=4.7000 Perfect
+RetrySecondPhraseThenRecover 2 A True t=5.6000 Perfect
+RetrySecondPhraseThenRecover 2 S True t=6.5000 Perfect
+RetrySecondPhraseThenRecover 2 Space True t=8.7500 Perfect
+RetrySecondPhraseThenRecover PHRASE=3 retries=1
+RetrySecondPhraseThenRecover 3 A True t=2.0000 Perfect
+RetrySecondPhraseThenRecover 3 A True t=2.6833 Perfect
+RetrySecondPhraseThenRecover 3 S True t=2.9000 Perfect
+RetrySecondPhraseThenRecover 3 W True t=3.8083 Perfect
+RetrySecondPhraseThenRecover 3 D True t=4.7083 Perfect
+RetrySecondPhraseThenRecover 3 W True t=5.6083 Perfect
+RetrySecondPhraseThenRecover 3 Space True t=7.8583 Perfect
+MissEarlierDespiteFinalGood PHRASE=0 retries=0
+MissEarlierDespiteFinalGood 0 W False t=2.3000 Miss · 漏拍
+MissEarlierDespiteFinalGood 0 W True t=2.6750 Perfect
+MissEarlierDespiteFinalGood 0 S True t=2.9000 Perfect
+MissEarlierDespiteFinalGood 0 W True t=3.8000 Perfect
+MissEarlierDespiteFinalGood 0 A True t=4.7000 Perfect
+MissEarlierDespiteFinalGood 0 D True t=5.6000 Perfect
+MissEarlierDespiteFinalGood 0 Space True t=7.6000 Good
+MissEarlierDespiteFinalGood 0 LeftArrow False t=7.7833 Miss · 和弦中断

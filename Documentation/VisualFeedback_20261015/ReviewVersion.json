@@ -1,0 +1,37 @@
+{
+  "title": "旧雨 / The Rain We Knew",
+  "date": "2026-10-15",
+  "revision": "subtitle-language-session-fix-01",
+  "nativeChecksPassed": 46,
+  "languageChecksPassed": 70,
+  "assemblySHA256": "db165be8929d5c5fd0cf31ace3a37702d7dd7d4d2b0d4396cd6bb49f0183bf03",
+  "archive": {
+    "zip": "D:\\游戏设计\\Codex工作区\\work\\2026-10-15-Localization\\TheRainWeKnew_EarlyPreview_Windows_20261015.zip",
+    "bytes": 965819541,
+    "files": 204,
+    "sha256": "4f6fe7dac8f66032a937cda54554a9ce41bbf6cd964461af2ee6ee7b0591d7cb",
+    "integrity": "passed"
+  },
+  "fullPlaythrough": false,
+  "desktopFormalUpdated": false,
+  "githubUpdated": false,
+  "editorOnlyChecks": [
+    {
+      "file": "Assets/Editor/P02VisualAssetRules.cs",
+      "sha256": "b329f5fbd26835d15efa756aa120dd09b1e844013b01a8ce45aad8f455b61549"
+    },
+    {
+      "file": "Assets/Editor/VisualFeedbackReview.cs",
+      "sha256": "099571e03cdfb57f7095f33c0c8f2cebcd4b89cc4139eafacab2896bd4899f2d"
+    },
+    {
+      "file": "Assets/Editor/VisualFeedbackPlaybackReview.cs",
+      "sha256": "b0a259e0e85fba3ea8b0556aa444ec4aa61085a2f241a63c972a8bdb421d46e8"
+    }
+  ],
+  "subtitleAudit": "Documentation/SubtitleLocalization_20261015/Report.txt",
+  "subtitleEditorChecks": 2049,
+  "subtitlePlayerChecks": 3074,
+  "visualChecksNotRerunForSubtitleOnlyChange": true,
+  "supersededBy": "Documentation/GuitarAssist_20261015/ReviewVersion.json"
+}

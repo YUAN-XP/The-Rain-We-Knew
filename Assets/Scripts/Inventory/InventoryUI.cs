@@ -439,6 +439,7 @@ public partial class InventoryUI : MonoBehaviour
             label.fontSharedMaterial = label.font.material;
         label.gameObject.SetActive(true);
         label.enabled = true;
+        GameLocalization.Bind(label);
         label.text = value;
     }
 

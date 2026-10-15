@@ -1,0 +1,883 @@
+{
+  "deletedFiles": 219,
+  "freedBytes": 36479218,
+  "scope": "This task generated obsolete captures/logs only. Source art, user documents, rollback backups, and current review clips preserved.",
+  "files": [
+    {
+      "path": "After/adult_default_right_run.png",
+      "bytes": 157159
+    },
+    {
+      "path": "After/adult_default_right_walk.png",
+      "bytes": 145239
+    },
+    {
+      "path": "After/adult_overalls_left_idle.png",
+      "bytes": 155852
+    },
+    {
+      "path": "After/adult_overalls_left_run.png",
+      "bytes": 191181
+    },
+    {
+      "path": "After/adult_overalls_left_walk.png",
+      "bytes": 184177
+    },
+    {
+      "path": "After/adult_overalls_right_idle.png",
+      "bytes": 150046
+    },
+    {
+      "path": "After/adult_overalls_right_run.png",
+      "bytes": 184430
+    },
+    {
+      "path": "After/adult_overalls_right_walk.png",
+      "bytes": 178757
+    },
+    {
+      "path": "After/adult_school_left_idle.png",
+      "bytes": 132145
+    },
+    {
+      "path": "After/adult_school_left_run.png",
+      "bytes": 173787
+    },
+    {
+      "path": "After/adult_school_left_walk.png",
+      "bytes": 159655
+    },
+    {
+      "path": "After/adult_school_right_idle.png",
+      "bytes": 135025
+    },
+    {
+      "path": "After/adult_school_right_run.png",
+      "bytes": 178957
+    },
+    {
+      "path": "After/adult_school_right_walk.png",
+      "bytes": 165359
+    },
+    {
+      "path": "After/boy_child_left_run.png",
+      "bytes": 120684
+    },
+    {
+      "path": "After/boy_child_left_walk.png",
+      "bytes": 111227
+    },
+    {
+      "path": "After/boy_child_right_idle.png",
+      "bytes": 97293
+    },
+    {
+      "path": "After/boy_child_right_run.png",
+      "bytes": 119345
+    },
+    {
+      "path": "After/boy_child_right_walk.png",
+      "bytes": 109508
+    },
+    {
+      "path": "After/child_down_idle.png",
+      "bytes": 126082
+    },
+    {
+      "path": "After/child_down_left_idle.png",
+      "bytes": 127966
+    },
+    {
+      "path": "After/child_down_left_run.png",
+      "bytes": 130514
+    },
+    {
+      "path": "After/child_down_left_walk.png",
+      "bytes": 127566
+    },
+    {
+      "path": "After/child_down_right_idle.png",
+      "bytes": 125860
+    },
+    {
+      "path": "After/child_down_right_run.png",
+      "bytes": 127327
+    },
+    {
+      "path": "After/child_down_right_walk.png",
+      "bytes": 126814
+    },
+    {
+      "path": "After/child_down_run.png",
+      "bytes": 120280
+    },
+    {
+      "path": "After/child_down_walk.png",
+      "bytes": 126902
+    },
+    {
+      "path": "After/child_left_run.png",
+      "bytes": 115628
+    },
+    {
+      "path": "After/child_left_walk.png",
+      "bytes": 110307
+    },
+    {
+      "path": "After/child_right_idle.png",
+      "bytes": 99031
+    },
+    {
+      "path": "After/child_right_run.png",
+      "bytes": 116687
+    },
+    {
+      "path": "After/child_right_walk.png",
+      "bytes": 110962
+    },
+    {
+      "path": "After/child_up_idle.png",
+      "bytes": 131292
+    },
+    {
+      "path": "After/child_up_left_idle.png",
+      "bytes": 124939
+    },
+    {
+      "path": "After/child_up_left_run.png",
+      "bytes": 120293
+    },
+    {
+      "path": "After/child_up_left_walk.png",
+      "bytes": 119257
+    },
+    {
+      "path": "After/child_up_right_idle.png",
+      "bytes": 125959
+    },
+    {
+      "path": "After/child_up_right_run.png",
+      "bytes": 123168
+    },
+    {
+      "path": "After/child_up_right_walk.png",
+      "bytes": 122753
+    },
+    {
+      "path": "After/child_up_run.png",
+      "bytes": 123396
+    },
+    {
+      "path": "After/child_up_walk.png",
+      "bytes": 126775
+    },
+    {
+      "path": "After/opening_00.png",
+      "bytes": 90620
+    },
+    {
+      "path": "After/opening_01.png",
+      "bytes": 104923
+    },
+    {
+      "path": "After/opening_03.png",
+      "bytes": 113887
+    },
+    {
+      "path": "After/opening_05.png",
+      "bytes": 120205
+    },
+    {
+      "path": "After/opening_06.png",
+      "bytes": 116924
+    },
+    {
+      "path": "After/opening_07.png",
+      "bytes": 111706
+    },
+    {
+      "path": "After/opening_08.png",
+      "bytes": 108236
+    },
+    {
+      "path": "After/opening_09.png",
+      "bytes": 106689
+    },
+    {
+      "path": "After/opening_10.png",
+      "bytes": 97054
+    },
+    {
+      "path": "After/qt_adult_left_run.png",
+      "bytes": 158161
+    },
+    {
+      "path": "After/qt_adult_left_walk.png",
+      "bytes": 150221
+    },
+    {
+      "path": "After/qt_adult_right_walk.png",
+      "bytes": 143995
+    },
+    {
+      "path": "After/youth_left_idle.png",
+      "bytes": 123091
+    },
+    {
+      "path": "After/youth_left_run.png",
+      "bytes": 160790
+    },
+    {
+      "path": "After/youth_left_walk.png",
+      "bytes": 148429
+    },
+    {
+      "path": "After/youth_right_idle.png",
+      "bytes": 125196
+    },
+    {
+      "path": "After/youth_right_run.png",
+      "bytes": 166501
+    },
+    {
+      "path": "After/youth_right_walk.png",
+      "bytes": 152789
+    },
+    {
+      "path": "after-live-editor.log",
+      "bytes": 75564
+    },
+    {
+      "path": "After_Opening.jpg",
+      "bytes": 143008
+    },
+    {
+      "path": "After_Profiles.jpg",
+      "bytes": 175906
+    },
+    {
+      "path": "Before/adult_default_left_idle.png",
+      "bytes": 123072
+    },
+    {
+      "path": "Before/adult_default_left_run.png",
+      "bytes": 159879
+    },
+    {
+      "path": "Before/adult_default_left_source_far_arm.png",
+      "bytes": 166796
+    },
+    {
+      "path": "Before/adult_default_left_source_far_hand.png",
+      "bytes": 63039
+    },
+    {
+      "path": "Before/adult_default_left_source_far_leg.png",
+      "bytes": 207325
+    },
+    {
+      "path": "Before/adult_default_left_source_far_shoe.png",
+      "bytes": 33591
+    },
+    {
+      "path": "Before/adult_default_left_source_head.png",
+      "bytes": 110090
+    },
+    {
+      "path": "Before/adult_default_left_source_near_arm.png",
+      "bytes": 165164
+    },
+    {
+      "path": "Before/adult_default_left_source_near_hand.png",
+      "bytes": 65658
+    },
+    {
+      "path": "Before/adult_default_left_source_near_leg.png",
+      "bytes": 214769
+    },
+    {
+      "path": "Before/adult_default_left_source_near_shoe.png",
+      "bytes": 56271
+    },
+    {
+      "path": "Before/adult_default_left_source_torso.png",
+      "bytes": 280603
+    },
+    {
+      "path": "Before/adult_default_left_walk.png",
+      "bytes": 148917
+    },
+    {
+      "path": "Before/adult_default_right_idle.png",
+      "bytes": 118556
+    },
+    {
+      "path": "Before/adult_default_right_run.png",
+      "bytes": 157159
+    },
+    {
+      "path": "Before/adult_default_right_source_far_arm.png",
+      "bytes": 244428
+    },
+    {
+      "path": "Before/adult_default_right_source_far_hand.png",
+      "bytes": 1279852
+    },
+    {
+      "path": "Before/adult_default_right_source_far_leg.png",
+      "bytes": 263232
+    },
+    {
+      "path": "Before/adult_default_right_source_far_shoe.png",
+      "bytes": 50603
+    },
+    {
+      "path": "Before/adult_default_right_source_head.png",
+      "bytes": 107574
+    },
+    {
+      "path": "Before/adult_default_right_source_near_arm.png",
+      "bytes": 243366
+    },
+    {
+      "path": "Before/adult_default_right_source_near_hand.png",
+      "bytes": 39139
+    },
+    {
+      "path": "Before/adult_default_right_source_near_leg.png",
+      "bytes": 265052
+    },
+    {
+      "path": "Before/adult_default_right_source_near_shoe.png",
+      "bytes": 50951
+    },
+    {
+      "path": "Before/adult_default_right_source_torso.png",
+      "bytes": 872136
+    },
+    {
+      "path": "Before/adult_default_right_walk.png",
+      "bytes": 145239
+    },
+    {
+      "path": "Before/adult_overalls_left_idle.png",
+      "bytes": 156215
+    },
+    {
+      "path": "Before/adult_overalls_left_run.png",
+      "bytes": 191085
+    },
+    {
+      "path": "Before/adult_overalls_left_walk.png",
+      "bytes": 183778
+    },
+    {
+      "path": "Before/adult_overalls_right_idle.png",
+      "bytes": 150046
+    },
+    {
+      "path": "Before/adult_overalls_right_run.png",
+      "bytes": 184430
+    },
+    {
+      "path": "Before/adult_overalls_right_walk.png",
+      "bytes": 178757
+    },
+    {
+      "path": "Before/adult_school_left_idle.png",
+      "bytes": 132705
+    },
+    {
+      "path": "Before/adult_school_left_run.png",
+      "bytes": 173743
+    },
+    {
+      "path": "Before/adult_school_left_walk.png",
+      "bytes": 160560
+    },
+    {
+      "path": "Before/adult_school_right_idle.png",
+      "bytes": 135025
+    },
+    {
+      "path": "Before/adult_school_right_run.png",
+      "bytes": 178957
+    },
+    {
+      "path": "Before/adult_school_right_walk.png",
+      "bytes": 165359
+    },
+    {
+      "path": "Before/boy_child_left_idle.png",
+      "bytes": 97197
+    },
+    {
+      "path": "Before/boy_child_left_run.png",
+      "bytes": 120675
+    },
+    {
+      "path": "Before/boy_child_left_walk.png",
+      "bytes": 111479
+    },
+    {
+      "path": "Before/boy_child_right_idle.png",
+      "bytes": 97293
+    },
+    {
+      "path": "Before/boy_child_right_run.png",
+      "bytes": 119345
+    },
+    {
+      "path": "Before/boy_child_right_walk.png",
+      "bytes": 109508
+    },
+    {
+      "path": "Before/child_down_idle.png",
+      "bytes": 126082
+    },
+    {
+      "path": "Before/child_down_left_idle.png",
+      "bytes": 127966
+    },
+    {
+      "path": "Before/child_down_left_run.png",
+      "bytes": 130514
+    },
+    {
+      "path": "Before/child_down_left_walk.png",
+      "bytes": 127566
+    },
+    {
+      "path": "Before/child_down_right_idle.png",
+      "bytes": 125860
+    },
+    {
+      "path": "Before/child_down_right_run.png",
+      "bytes": 127327
+    },
+    {
+      "path": "Before/child_down_right_walk.png",
+      "bytes": 126814
+    },
+    {
+      "path": "Before/child_down_run.png",
+      "bytes": 120280
+    },
+    {
+      "path": "Before/child_down_walk.png",
+      "bytes": 126902
+    },
+    {
+      "path": "Before/child_left_idle.png",
+      "bytes": 97880
+    },
+    {
+      "path": "Before/child_left_run.png",
+      "bytes": 115763
+    },
+    {
+      "path": "Before/child_left_walk.png",
+      "bytes": 110549
+    },
+    {
+      "path": "Before/child_right_idle.png",
+      "bytes": 99031
+    },
+    {
+      "path": "Before/child_right_run.png",
+      "bytes": 116687
+    },
+    {
+      "path": "Before/child_right_walk.png",
+      "bytes": 110962
+    },
+    {
+      "path": "Before/child_up_idle.png",
+      "bytes": 131292
+    },
+    {
+      "path": "Before/child_up_left_idle.png",
+      "bytes": 124939
+    },
+    {
+      "path": "Before/child_up_left_run.png",
+      "bytes": 120293
+    },
+    {
+      "path": "Before/child_up_left_walk.png",
+      "bytes": 119257
+    },
+    {
+      "path": "Before/child_up_right_idle.png",
+      "bytes": 125959
+    },
+    {
+      "path": "Before/child_up_right_run.png",
+      "bytes": 123168
+    },
+    {
+      "path": "Before/child_up_right_walk.png",
+      "bytes": 122753
+    },
+    {
+      "path": "Before/child_up_run.png",
+      "bytes": 123396
+    },
+    {
+      "path": "Before/child_up_walk.png",
+      "bytes": 126775
+    },
+    {
+      "path": "Before/opening_00.png",
+      "bytes": 97584
+    },
+    {
+      "path": "Before/opening_01.png",
+      "bytes": 107854
+    },
+    {
+      "path": "Before/opening_02.png",
+      "bytes": 111563
+    },
+    {
+      "path": "Before/opening_03.png",
+      "bytes": 116801
+    },
+    {
+      "path": "Before/opening_04.png",
+      "bytes": 122065
+    },
+    {
+      "path": "Before/opening_05.png",
+      "bytes": 122237
+    },
+    {
+      "path": "Before/opening_06.png",
+      "bytes": 119279
+    },
+    {
+      "path": "Before/opening_07.png",
+      "bytes": 112664
+    },
+    {
+      "path": "Before/opening_08.png",
+      "bytes": 108003
+    },
+    {
+      "path": "Before/opening_09.png",
+      "bytes": 106583
+    },
+    {
+      "path": "Before/opening_10.png",
+      "bytes": 97054
+    },
+    {
+      "path": "Before/qt_adult_left_idle.png",
+      "bytes": 124770
+    },
+    {
+      "path": "Before/qt_adult_left_run.png",
+      "bytes": 158199
+    },
+    {
+      "path": "Before/qt_adult_left_source_far_arm.png",
+      "bytes": 107186
+    },
+    {
+      "path": "Before/qt_adult_left_source_far_hand.png",
+      "bytes": 49152
+    },
+    {
+      "path": "Before/qt_adult_left_source_far_leg.png",
+      "bytes": 163466
+    },
+    {
+      "path": "Before/qt_adult_left_source_far_shoe.png",
+      "bytes": 59284
+    },
+    {
+      "path": "Before/qt_adult_left_source_head.png",
+      "bytes": 734433
+    },
+    {
+      "path": "Before/qt_adult_left_source_near_arm.png",
+      "bytes": 112572
+    },
+    {
+      "path": "Before/qt_adult_left_source_near_hand.png",
+      "bytes": 54240
+    },
+    {
+      "path": "Before/qt_adult_left_source_near_leg.png",
+      "bytes": 162476
+    },
+    {
+      "path": "Before/qt_adult_left_source_near_shoe.png",
+      "bytes": 52241
+    },
+    {
+      "path": "Before/qt_adult_left_source_torso.png",
+      "bytes": 505184
+    },
+    {
+      "path": "Before/qt_adult_left_walk.png",
+      "bytes": 150667
+    },
+    {
+      "path": "Before/qt_adult_right_idle.png",
+      "bytes": 120787
+    },
+    {
+      "path": "Before/qt_adult_right_run.png",
+      "bytes": 153779
+    },
+    {
+      "path": "Before/qt_adult_right_source_far_arm.png",
+      "bytes": 136161
+    },
+    {
+      "path": "Before/qt_adult_right_source_far_hand.png",
+      "bytes": 43607
+    },
+    {
+      "path": "Before/qt_adult_right_source_far_leg.png",
+      "bytes": 192794
+    },
+    {
+      "path": "Before/qt_adult_right_source_far_shoe.png",
+      "bytes": 38742
+    },
+    {
+      "path": "Before/qt_adult_right_source_head.png",
+      "bytes": 70600
+    },
+    {
+      "path": "Before/qt_adult_right_source_near_arm.png",
+      "bytes": 146575
+    },
+    {
+      "path": "Before/qt_adult_right_source_near_hand.png",
+      "bytes": 42950
+    },
+    {
+      "path": "Before/qt_adult_right_source_near_leg.png",
+      "bytes": 197026
+    },
+    {
+      "path": "Before/qt_adult_right_source_near_shoe.png",
+      "bytes": 38436
+    },
+    {
+      "path": "Before/qt_adult_right_source_torso.png",
+      "bytes": 507756
+    },
+    {
+      "path": "Before/qt_adult_right_walk.png",
+      "bytes": 144326
+    },
+    {
+      "path": "Before/youth_left_idle.png",
+      "bytes": 123466
+    },
+    {
+      "path": "Before/youth_left_run.png",
+      "bytes": 160639
+    },
+    {
+      "path": "Before/youth_left_walk.png",
+      "bytes": 149109
+    },
+    {
+      "path": "Before/youth_right_idle.png",
+      "bytes": 125196
+    },
+    {
+      "path": "Before/youth_right_run.png",
+      "bytes": 166501
+    },
+    {
+      "path": "Before/youth_right_walk.png",
+      "bytes": 152789
+    },
+    {
+      "path": "before-editor.log",
+      "bytes": 57462
+    },
+    {
+      "path": "before-live-editor.log",
+      "bytes": 60652
+    },
+    {
+      "path": "Before_Opening.jpg",
+      "bytes": 136627
+    },
+    {
+      "path": "Before_OtherSkins.jpg",
+      "bytes": 196927
+    },
+    {
+      "path": "Before_Profiles.jpg",
+      "bytes": 164684
+    },
+    {
+      "path": "Before_SourceParts.jpg",
+      "bytes": 253710
+    },
+    {
+      "path": "corrected-playback-editor.log",
+      "bytes": 380712
+    },
+    {
+      "path": "final-playback-editor.log",
+      "bytes": 495437
+    },
+    {
+      "path": "final-skins-editor.log",
+      "bytes": 38418
+    },
+    {
+      "path": "LeftHandAnatomy.jpg",
+      "bytes": 261305
+    },
+    {
+      "path": "LeftSources.jpg",
+      "bytes": 303505
+    },
+    {
+      "path": "Playback/1_000.png",
+      "bytes": 257412
+    },
+    {
+      "path": "Playback/1_008.png",
+      "bytes": 251048
+    },
+    {
+      "path": "Playback/1_016.png",
+      "bytes": 216730
+    },
+    {
+      "path": "Playback/1_024.png",
+      "bytes": 249558
+    },
+    {
+      "path": "Playback/1_032.png",
+      "bytes": 259398
+    },
+    {
+      "path": "Playback/1_040.png",
+      "bytes": 249012
+    },
+    {
+      "path": "Playback/1_048.png",
+      "bytes": 212032
+    },
+    {
+      "path": "Playback/1_056.png",
+      "bytes": 251317
+    },
+    {
+      "path": "Playback/1_064.png",
+      "bytes": 257412
+    },
+    {
+      "path": "Playback/2_000.png",
+      "bytes": 259251
+    },
+    {
+      "path": "Playback/2_008.png",
+      "bytes": 256482
+    },
+    {
+      "path": "Playback/2_016.png",
+      "bytes": 243907
+    },
+    {
+      "path": "Playback/2_024.png",
+      "bytes": 256207
+    },
+    {
+      "path": "Playback/2_032.png",
+      "bytes": 254424
+    },
+    {
+      "path": "Playback/2_040.png",
+      "bytes": 263510
+    },
+    {
+      "path": "Playback/3_000.png",
+      "bytes": 87357
+    },
+    {
+      "path": "Playback/3_013.png",
+      "bytes": 98565
+    },
+    {
+      "path": "Playback/3_026.png",
+      "bytes": 105170
+    },
+    {
+      "path": "Playback/3_039.png",
+      "bytes": 104486
+    },
+    {
+      "path": "Playback/3_052.png",
+      "bytes": 113509
+    },
+    {
+      "path": "Playback/3_065.png",
+      "bytes": 114991
+    },
+    {
+      "path": "Playback/3_078.png",
+      "bytes": 115832
+    },
+    {
+      "path": "Playback/3_091.png",
+      "bytes": 113900
+    },
+    {
+      "path": "Playback/3_104.png",
+      "bytes": 111547
+    },
+    {
+      "path": "Playback/3_117.png",
+      "bytes": 107351
+    },
+    {
+      "path": "Playback/3_130.png",
+      "bytes": 105984
+    },
+    {
+      "path": "Playback/3_143.png",
+      "bytes": 104028
+    },
+    {
+      "path": "Playback/3_156.png",
+      "bytes": 96240
+    },
+    {
+      "path": "playback-editor.log",
+      "bytes": 838749
+    },
+    {
+      "path": "PlaybackContactSheet.jpg",
+      "bytes": 524305
+    },
+    {
+      "path": "qt_adult_left_source_head_grid.png",
+      "bytes": 566643
+    },
+    {
+      "path": "qt_adult_right_source_head_grid.png",
+      "bytes": 254715
+    },
+    {
+      "path": "rig-definition-diffs.json",
+      "bytes": 21834
+    },
+    {
+      "path": "updated-review-build.log",
+      "bytes": 899965
+    }
+  ]
+}

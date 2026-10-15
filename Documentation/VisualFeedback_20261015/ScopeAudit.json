@@ -1,0 +1,132 @@
+{
+  "sourceChanges": [
+    {
+      "path": "Assets/Art/P02Motion/Production/adult_default_left.asset",
+      "before": "01935067c4cca3f0134abd018928fa7fa50fa9c664537eaf93e7448d91a9a3d6",
+      "after": "969123cb2ce13709ceacd6e1152e9eac415e1526d9b5fff3488f2feb9694821a",
+      "diffLines": 101
+    },
+    {
+      "path": "Assets/Art/P02Motion/Production/adult_overalls_left.asset",
+      "before": "9ef9c19c93e9dacc201f8e14f80d8a97ef8e1595086cdaa4d5532528df4c0003",
+      "after": "0ea79729b8411f1bc58fb28a3bcbcadfcb2c0d20191deab48ec63773c5d88e51",
+      "diffLines": 80
+    },
+    {
+      "path": "Assets/Art/P02Motion/Production/adult_school_left.asset",
+      "before": "d7accd47f82d75881d8edc6ec6b9d2ee60287044d3b0b859d9860cd0f1783719",
+      "after": "70783937cd6fed9368e904008c6c7329fc2d82ddf6395e64d39601e8c8a4d921",
+      "diffLines": 80
+    },
+    {
+      "path": "Assets/Art/P02Motion/Production/boy_child_left.asset",
+      "before": "bd8e6066346e463e968f3ce04619a4e5187a39f84effd5d52349cbc2f6c02a75",
+      "after": "af65ebba02900e0954cafc9b8bef1793c79137b064ba334a1922b84a97b7e33d",
+      "diffLines": 101
+    },
+    {
+      "path": "Assets/Art/P02Motion/Production/child_left.asset",
+      "before": "8c14e436685dce9a56a1a9e63429cc53720138955cf04c0af6700fdc2610c08e",
+      "after": "781f18c82469bc8d4b0fd7fd6454a730e04bbe1c2293324ec29626aa90a9fa38",
+      "diffLines": 101
+    },
+    {
+      "path": "Assets/Art/P02Motion/Production/qt_adult_left.asset",
+      "before": "5143f805e940c5454d2ca8454e29941284c7750db1010d58aefb899c32fd54eb",
+      "after": "9b3dc78565c180c9a1397e54e00aa468471645b0913302f007346a1d7d81d318",
+      "diffLines": 87
+    },
+    {
+      "path": "Assets/Art/P02Motion/Production/qt_adult_right.asset",
+      "before": "499e29afb4f4840c5a62a2e13a75c5f2d37901664d709b353b37d517046e1fc2",
+      "after": "2bf601b89f0f3a67c381e34e7bd1277c2561451eda052913fdc2609983b80137",
+      "diffLines": 73
+    },
+    {
+      "path": "Assets/Art/P02Motion/Production/qt_adult_right_head_source_v01.png.meta",
+      "before": "de8fb1e0d09597868f1818a95187f2161467618bcb9181c702488a6b8e53578e",
+      "after": "9f5337d853ccdcde237c76c8eb776d2bac51652d133c24c95d84af7d8f1871ec"
+    },
+    {
+      "path": "Assets/Art/P02Motion/Production/youth_left.asset",
+      "before": "ec9959059ee5d6208dc1a47c11b83a52b2fb9b0c8437489c08d283572ae82a9d",
+      "after": "9e1669bff588bfd831f642b58a6d71bb1bddb242e899065ccfc33424bfb4cec2",
+      "diffLines": 80
+    },
+    {
+      "path": "Assets/Editor/LocalizationReview.cs",
+      "before": "11fd901f7f427c7ee1ec1c95ffba5fad13f41fecc89a772f0f3341eabd9c7415",
+      "after": "b60953e13c4a7a95fc7a0f96a690fae93d01339002e23b5915cd49a47d624a6f",
+      "diffLines": 24
+    },
+    {
+      "path": "Assets/Editor/P02ProductionFactory.cs",
+      "before": "6282a3c9bab05a15ee23bb8c5fa7992ff3d4c0dc058d12dd501817f40f9628fb",
+      "after": "885b5dd5183e84f38e00904253999fdc79163abffe01dd59f4cc9e004838283c",
+      "diffLines": 6
+    },
+    {
+      "path": "Assets/Editor/P02RigFactory.cs",
+      "before": "ab6dedb65cbd18144ad7c8cf70b929bf60449aae47a580bdb35b7c933019188e",
+      "after": "d8f63dd627d0335fbffcf462d4b2386b988a160a9f2b5f62fc8de406fb02c1dc",
+      "diffLines": 6
+    },
+    {
+      "path": "Assets/Editor/P03CourtyardBuild.cs",
+      "before": "80a60f1bdbf1968d493db26170bb4a197e989f38d8b27d0df826be981f727c6c",
+      "after": "e13c08826a3d74ad79730ec85e230c8222599d4cef60be0ae1adae4f75a2a528",
+      "diffLines": 12
+    },
+    {
+      "path": "Assets/Editor/P03Regression.cs",
+      "before": "7ee8c4df9a1771dc79a168455087bf84daeb6bf3106468c594ef0b948ef5d212",
+      "after": "5e66cf82bc7ec7a01fe7a7d4fbe48c149010a7a14cbe12b5be833dac9d163a2a",
+      "diffLines": 7
+    },
+    {
+      "path": "Assets/Scenes/Scene02_Courtyard.unity",
+      "before": "24c9b53301268eeb01e7f3652449b3a88831de317e884c7c461b97204094a30c",
+      "after": "346af38ceeb9d42f8635de14e33e8f973629761ae5dc4b644fa133d76be02edd",
+      "diffLines": 7,
+      "diff": [
+        "--- \n",
+        "+++ \n",
+        "@@ -10978,3 +10978,3 @@\n",
+        "   m_LocalPosition: {x: 0, y: -0.40713665, z: 0}",
+        "-  m_LocalScale: {x: 0.47572592, y: 0.09093214, z: 1}",
+        "+  m_LocalScale: {x: 0.9217189, y: 0.176181, z: 1}",
+        "   m_ConstrainProportionsScale: 0"
+      ]
+    },
+    {
+      "path": "Assets/Scripts/Audio/MusicStateRouter.cs",
+      "before": "77e99eaf3dd014091d5e38de8622cf92b46511d2bb4a50ebd019bef8490d727f",
+      "after": "d0021e61b6e582fa363b4b3844a208ab61f0a30290f983057736ef998383f9da",
+      "diffLines": 10
+    },
+    {
+      "path": "Assets/Scripts/Presentation/P02CharacterRig.cs",
+      "before": "5a48991d1503f4f0deca1072e1852cf19f1340ac692275107381ccff399f896d",
+      "after": "1953d964fa60811b632f07314577c150f9bd179baf02f25c33ff4af3e620f801",
+      "diffLines": 101
+    },
+    {
+      "path": "Assets/Scripts/Presentation/P02RigDefinition.cs",
+      "before": "104dae6ab6020287246525faaa31b486244dd78501089f169b9b25be8a20839e",
+      "after": "d4effbfee718ff7a018ee854479896f9713e56c19494f4116d620d07ae95ea80",
+      "diffLines": 9
+    },
+    {
+      "path": "Assets/Scripts/UI/InteractionUI.cs",
+      "before": "ca62c12df9bf0e5025732befa226d882fd83fa0f9e8a62054bb33d0800fe543b",
+      "after": "93c13a44fc3aad30eab30f41153993811c544c8a3bb3c140d883098fa62dd274",
+      "diffLines": 8
+    }
+  ],
+  "sceneChangeOnlyStairVisualScale": true,
+  "textureSpriteBoneIdsPreserved": true,
+  "unrelatedSceneBytesPreserved": true,
+  "fullPlaythrough": false,
+  "githubPublished": false,
+  "formalDesktopPublished": false
+}

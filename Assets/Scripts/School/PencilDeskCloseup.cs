@@ -107,6 +107,10 @@ public class PencilDeskCloseup : MonoBehaviour
         revealedName.raycastTarget = false;
         ownName = RuntimePanelUI.Text("肖鹏", writingSurface, font, Vector2.zero, Vector2.one, 150);
         ownName.color = new Color(.19f, .12f, .074f);
+        ownName.enableAutoSizing = true;
+        ownName.fontSizeMin = 48;
+        ownName.fontSizeMax = 150;
+        ownName.textWrappingMode = TextWrappingModes.NoWrap;
         glyphTemplate = RuntimePanelUI.Text("郑涛", writingSurface, font, Vector2.zero, Vector2.one, 150);
         glyphTemplate.characterSpacing = 15;
         // Transparent vertex colors survive CanvasRenderer rebuild/clear, including TMP submeshes.
@@ -126,6 +130,9 @@ public class PencilDeskCloseup : MonoBehaviour
 
     bool BuildGlyphMask()
     {
+        // This invisible mesh is the authored two-character engraving geometry,
+        // not a UI label. Translating it changes the raster mask and blocks Open.
+        glyphTemplate.textPreprocessor = null;
         glyphTemplate.gameObject.SetActive(true);
         glyphTemplate.ForceMeshUpdate(true, true);
         glyphTemplate.canvasRenderer.SetAlpha(0);
@@ -282,7 +289,8 @@ public class PencilDeskCloseup : MonoBehaviour
         completing = true;
         drawing = false;
         closeButton.interactable = false;
-        instruction.text = "";
+        // Translate the readable caption, while retaining the physical engraving.
+        instruction.text = "郑涛";
         investigation.text = "";
         for (int i = 0; i < pixelOwner.Length; i++)
             if (pixelOwner[i] >= 0) inkPixels[i] = new Color32(42, 31, 23, 255);

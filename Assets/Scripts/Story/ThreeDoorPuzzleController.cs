@@ -30,8 +30,10 @@ public class ThreeDoorPuzzleController : MonoBehaviour
         controls=FindAnyObjectByType<GameControlManager>();story=FindAnyObjectByType<StoryStateManager>();player=FindAnyObjectByType<PlayerController>();
         abnormalColors=new Color[abnormalLayers.Length];for(int i=0;i<abnormalLayers.Length;i++)abnormalColors[i]=abnormalLayers[i].color;
         leftBoundary.enabled=false;leftBoundary.GetComponent<SpriteRenderer>().enabled=false;SetRecovery(0);
-        double start=AudioSettings.dspTime+.1;
-        foreach(var sound in doorSounds){sound.clip=guitarClip;sound.loop=true;sound.spatialBlend=0;sound.volume=0;sound.PlayScheduled(start);}
+        if(GetComponent<ThreeDoorsMusicController>()?.OwnsAudio!=true){
+            double start=AudioSettings.dspTime+.1;
+            foreach(var sound in doorSounds){sound.clip=guitarClip;sound.loop=true;sound.spatialBlend=0;sound.volume=0;sound.PlayScheduled(start);}
+        }
         if(story!=null && story.Has(StoryFlag.ThreeDoorPuzzleCompleted)){Progress=3;SetRecovery(3);}
     }
     private void OnTriggerStay2D(Collider2D other)
@@ -42,7 +44,7 @@ public class ThreeDoorPuzzleController : MonoBehaviour
     private void Update()
     {
         if(player==null)return;
-        for(int i=0;i<doorSounds.Length;i++){
+        if(GetComponent<ThreeDoorsMusicController>()?.OwnsAudio!=true)for(int i=0;i<doorSounds.Length;i++){
             bool correct=i==CorrectDoor;
             float volume=correct?strongestVolume:(i==(CorrectDoor+1)%3?weakerVolume:weakestVolume);
             float distance=Mathf.Abs(player.transform.position.x-doorSounds[i].transform.position.x);

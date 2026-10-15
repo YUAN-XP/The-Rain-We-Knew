@@ -2212,7 +2212,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandDrawnInteractionHighlight
   interactionSource: {fileID: 8100655}
   visuals:
-  - {fileID: 54043394}
+  - {fileID: 867648067}
   outlineMaterial: {fileID: 2100000, guid: f4d8c11774e8e0d4a9e3fef0a7f13a1b, type: 2}
   lineColor: {r: 1, g: 0.79, b: 0.48, a: 0.66}
   strokePixels: 1.5
@@ -2303,7 +2303,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -11
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 4393690566012557626, guid: 5cdbc21edcd793945b4010c2285f1740, type: 2}
+  m_Sprite: {fileID: -5801842420153596239, guid: 5cdbc21edcd793945b4010c2285f1740, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4188,7 +4188,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandDrawnInteractionHighlight
   interactionSource: {fileID: 21696483}
   visuals:
-  - {fileID: 1905039140}
+  - {fileID: 1117630582}
   outlineMaterial: {fileID: 2100000, guid: f4d8c11774e8e0d4a9e3fef0a7f13a1b, type: 2}
   lineColor: {r: 1, g: 0.79, b: 0.48, a: 0.66}
   strokePixels: 1.5
@@ -7855,7 +7855,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -11
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 4393690566012557626, guid: 5cdbc21edcd793945b4010c2285f1740, type: 2}
+  m_Sprite: {fileID: -5801842420153596239, guid: 5cdbc21edcd793945b4010c2285f1740, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -11402,7 +11402,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandDrawnInteractionHighlight
   interactionSource: {fileID: 80997036}
   visuals:
-  - {fileID: 863114695}
+  - {fileID: 1750139587}
   outlineMaterial: {fileID: 2100000, guid: f4d8c11774e8e0d4a9e3fef0a7f13a1b, type: 2}
   lineColor: {r: 1, g: 0.79, b: 0.48, a: 0.66}
   strokePixels: 1.5
@@ -12119,7 +12119,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -11
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 4393690566012557626, guid: 5cdbc21edcd793945b4010c2285f1740, type: 2}
+  m_Sprite: {fileID: -5801842420153596239, guid: 5cdbc21edcd793945b4010c2285f1740, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -13077,7 +13077,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -11
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 4393690566012557626, guid: 5cdbc21edcd793945b4010c2285f1740, type: 2}
+  m_Sprite: {fileID: -5801842420153596239, guid: 5cdbc21edcd793945b4010c2285f1740, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -20632,7 +20632,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u4e09\u697c"
+  m_text: "\u4E09\u697C"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e016d2a2a11444e48b4aee4225c6fff5, type: 2}
   m_sharedMaterial: {fileID: 7209629382546241987, guid: e016d2a2a11444e48b4aee4225c6fff5, type: 2}
@@ -21852,7 +21852,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -11
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 4393690566012557626, guid: 5cdbc21edcd793945b4010c2285f1740, type: 2}
+  m_Sprite: {fileID: -5801842420153596239, guid: 5cdbc21edcd793945b4010c2285f1740, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -33077,7 +33077,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u4e09\u697c"
+  m_text: "\u4E09\u697C"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e016d2a2a11444e48b4aee4225c6fff5, type: 2}
   m_sharedMaterial: {fileID: 7209629382546241987, guid: e016d2a2a11444e48b4aee4225c6fff5, type: 2}
@@ -42548,6 +42548,7 @@ GameObject:
   - component: {fileID: 287758993}
   - component: {fileID: 287758992}
   - component: {fileID: 287758994}
+  - component: {fileID: 287758995}
   m_Layer: 6
   m_Name: ScratchedDesk_Investigation
   m_TagString: Untagged
@@ -42648,7 +42649,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandDrawnInteractionHighlight
   interactionSource: {fileID: 287758992}
   visuals:
-  - {fileID: 1066632547}
+  - {fileID: 1348199219}
   outlineMaterial: {fileID: 2100000, guid: f4d8c11774e8e0d4a9e3fef0a7f13a1b, type: 2}
   lineColor: {r: 0.66, g: 0.6, b: 0.88, a: 0.7}
   strokePixels: 1.5
@@ -42658,6 +42659,22 @@ MonoBehaviour:
   opacityBreath: 0.16
   outerContour: []
   contourMaterial: {fileID: 0}
+--- !u!114 &287758995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 287758990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495a9edc27acfc3408afd4976a2d9469, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteractionReach
+  anchor: {fileID: 0}
+  visualSurface: {fileID: 1348199219}
+  horizontalReach: 0.55
+  verticalReach: 1.8
 --- !u!1 &288533447
 GameObject:
   m_ObjectHideFlags: 0
@@ -57652,6 +57669,7 @@ Transform:
   - {fileID: 1189431132}
   - {fileID: 1014319311}
   - {fileID: 1425855551}
+  - {fileID: 1041100980}
   m_Father: {fileID: 86778975}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &397129362
@@ -63478,7 +63496,7 @@ Transform:
   m_GameObject: {fileID: 447068381}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.5, y: 0.22999954, z: 0}
+  m_LocalPosition: {x: 6.444458, y: 0.22999954, z: 0}
   m_LocalScale: {x: 0.5780645, y: 0.5780645, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -64201,7 +64219,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandDrawnInteractionHighlight
   interactionSource: {fileID: 451987902}
   visuals:
-  - {fileID: 1086930164}
+  - {fileID: 717186699}
   outlineMaterial: {fileID: 2100000, guid: f4d8c11774e8e0d4a9e3fef0a7f13a1b, type: 2}
   lineColor: {r: 1, g: 0.79, b: 0.48, a: 0.66}
   strokePixels: 1.5
@@ -65442,7 +65460,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -11
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 4393690566012557626, guid: 5cdbc21edcd793945b4010c2285f1740, type: 2}
+  m_Sprite: {fileID: -5801842420153596239, guid: 5cdbc21edcd793945b4010c2285f1740, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -68772,7 +68790,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u4e8c\u697c"
+  m_text: "\u4E8C\u697C"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e016d2a2a11444e48b4aee4225c6fff5, type: 2}
   m_sharedMaterial: {fileID: 7209629382546241987, guid: e016d2a2a11444e48b4aee4225c6fff5, type: 2}
@@ -76921,6 +76939,115 @@ MonoBehaviour:
   - {fileID: 1205833851}
   - {fileID: 1290568327}
   - {fileID: 96896007}
+--- !u!1 &555069375
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 555069376}
+  - component: {fileID: 555069378}
+  - component: {fileID: 555069377}
+  m_Layer: 0
+  m_Name: Desk_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &555069376
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 555069375}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 11.8888855, y: 0.22999954, z: 0}
+  m_LocalScale: {x: 0.5780645, y: 0.5780645, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1526255791}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &555069377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 555069375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa8bbfb0135c1bd4581a30a8fe3feff4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PaintedContactShadow
+  target: {fileID: 555069378}
+  widthFactor: 0.7
+  minimumWidth: 0.16
+  depth: 0.045
+--- !u!212 &555069378
+SpriteRenderer:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 555069375}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: -10
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 1876743751203868196, guid: 5cdbc21edcd793945b4010c2285f1740, type: 2}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2.4492188, y: 1.8164062}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+  m_BlendShapeWeights: []
 --- !u!1 &555425900
 GameObject:
   m_ObjectHideFlags: 0
@@ -78877,7 +79004,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandDrawnInteractionHighlight
   interactionSource: {fileID: 572551075}
   visuals:
-  - {fileID: 1830120034}
+  - {fileID: 1169910746}
   outlineMaterial: {fileID: 2100000, guid: f4d8c11774e8e0d4a9e3fef0a7f13a1b, type: 2}
   lineColor: {r: 1, g: 0.79, b: 0.48, a: 0.66}
   strokePixels: 1.5
@@ -84209,7 +84336,7 @@ Transform:
   m_GameObject: {fileID: 610136252}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.5, y: 0.22999954, z: 0}
+  m_LocalPosition: {x: 5.6666718, y: 0.22999954, z: 0}
   m_LocalScale: {x: 0.5793103, y: 0.5793103, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -85633,7 +85760,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandDrawnInteractionHighlight
   interactionSource: {fileID: 617981722}
   visuals:
-  - {fileID: 1546501887}
+  - {fileID: 86827741}
   outlineMaterial: {fileID: 2100000, guid: f4d8c11774e8e0d4a9e3fef0a7f13a1b, type: 2}
   lineColor: {r: 0.66, g: 0.6, b: 0.88, a: 0.7}
   strokePixels: 1.5
@@ -89140,7 +89267,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u4e00\u697c"
+  m_text: "\u4E00\u697C"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e016d2a2a11444e48b4aee4225c6fff5, type: 2}
   m_sharedMaterial: {fileID: 7209629382546241987, guid: e016d2a2a11444e48b4aee4225c6fff5, type: 2}
@@ -89810,7 +89937,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandDrawnInteractionHighlight
   interactionSource: {fileID: 647708790}
   visuals:
-  - {fileID: 878507296}
+  - {fileID: 94729400}
   outlineMaterial: {fileID: 2100000, guid: f4d8c11774e8e0d4a9e3fef0a7f13a1b, type: 2}
   lineColor: {r: 0.66, g: 0.6, b: 0.88, a: 0.7}
   strokePixels: 1.5
@@ -89848,7 +89975,7 @@ Transform:
   m_GameObject: {fileID: 647915802}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.199997, y: 0.22999954, z: 0}
+  m_LocalPosition: {x: 3.3333282, y: 0.22999954, z: 0}
   m_LocalScale: {x: 0.8260098, y: 0.8260098, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -90545,7 +90672,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -11
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 4393690566012557626, guid: 5cdbc21edcd793945b4010c2285f1740, type: 2}
+  m_Sprite: {fileID: -5801842420153596239, guid: 5cdbc21edcd793945b4010c2285f1740, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -94250,7 +94377,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandDrawnInteractionHighlight
   interactionSource: {fileID: 680404800}
   visuals:
-  - {fileID: 761434039}
+  - {fileID: 1553505355}
   outlineMaterial: {fileID: 2100000, guid: f4d8c11774e8e0d4a9e3fef0a7f13a1b, type: 2}
   lineColor: {r: 0.66, g: 0.6, b: 0.88, a: 0.7}
   strokePixels: 1.5
@@ -107365,7 +107492,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandDrawnInteractionHighlight
   interactionSource: {fileID: 779545456}
   visuals:
-  - {fileID: 551244773}
+  - {fileID: 1988562126}
   outlineMaterial: {fileID: 2100000, guid: f4d8c11774e8e0d4a9e3fef0a7f13a1b, type: 2}
   lineColor: {r: 0.66, g: 0.6, b: 0.88, a: 0.7}
   strokePixels: 1.5
@@ -107877,7 +108004,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandDrawnInteractionHighlight
   interactionSource: {fileID: 784712486}
   visuals:
-  - {fileID: 1973497508}
+  - {fileID: 1556053037}
   outlineMaterial: {fileID: 2100000, guid: f4d8c11774e8e0d4a9e3fef0a7f13a1b, type: 2}
   lineColor: {r: 1, g: 0.79, b: 0.48, a: 0.66}
   strokePixels: 1.5
@@ -111391,7 +111518,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandDrawnInteractionHighlight
   interactionSource: {fileID: 806287642}
   visuals:
-  - {fileID: 1430684223}
+  - {fileID: 160328171}
   outlineMaterial: {fileID: 2100000, guid: f4d8c11774e8e0d4a9e3fef0a7f13a1b, type: 2}
   lineColor: {r: 1, g: 0.79, b: 0.48, a: 0.66}
   strokePixels: 1.5
@@ -115624,7 +115751,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandDrawnInteractionHighlight
   interactionSource: {fileID: 844094596}
   visuals:
-  - {fileID: 357959110}
+  - {fileID: 1475345492}
   outlineMaterial: {fileID: 2100000, guid: f4d8c11774e8e0d4a9e3fef0a7f13a1b, type: 2}
   lineColor: {r: 0.66, g: 0.6, b: 0.88, a: 0.7}
   strokePixels: 1.5
@@ -118323,7 +118450,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u4e09\u697c"
+  m_text: "\u4E09\u697C"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e016d2a2a11444e48b4aee4225c6fff5, type: 2}
   m_sharedMaterial: {fileID: 7209629382546241987, guid: e016d2a2a11444e48b4aee4225c6fff5, type: 2}
@@ -119898,6 +120025,7 @@ Transform:
   - {fileID: 1903216668}
   - {fileID: 1863678780}
   - {fileID: 1348199217}
+  - {fileID: 1097607011}
   m_Father: {fileID: 1728260880}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &867648065
@@ -123663,7 +123791,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandDrawnInteractionHighlight
   interactionSource: {fileID: 895491255}
   visuals:
-  - {fileID: 1329446348}
+  - {fileID: 1606400400}
   outlineMaterial: {fileID: 2100000, guid: f4d8c11774e8e0d4a9e3fef0a7f13a1b, type: 2}
   lineColor: {r: 0.66, g: 0.6, b: 0.88, a: 0.7}
   strokePixels: 1.5
@@ -128424,7 +128552,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandDrawnInteractionHighlight
   interactionSource: {fileID: 923208764}
   visuals:
-  - {fileID: 579112596}
+  - {fileID: 1620265646}
   outlineMaterial: {fileID: 2100000, guid: f4d8c11774e8e0d4a9e3fef0a7f13a1b, type: 2}
   lineColor: {r: 1, g: 0.79, b: 0.48, a: 0.66}
   strokePixels: 1.5
@@ -132028,7 +132156,7 @@ Transform:
   m_GameObject: {fileID: 945821414}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.699997, y: 0.22999954, z: 0}
+  m_LocalPosition: {x: 8, y: 0.22999954, z: 0}
   m_LocalScale: {x: 0.5793103, y: 0.5793103, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -140134,7 +140262,7 @@ Transform:
   m_GameObject: {fileID: 1014319310}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.5, y: 0.22999954, z: 0}
+  m_LocalPosition: {x: 6.444458, y: 0.22999954, z: 0}
   m_LocalScale: {x: 0.5793103, y: 0.5793103, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -142535,7 +142663,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -11
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 4393690566012557626, guid: 5cdbc21edcd793945b4010c2285f1740, type: 2}
+  m_Sprite: {fileID: -5801842420153596239, guid: 5cdbc21edcd793945b4010c2285f1740, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -144742,6 +144870,115 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::RetiredArtVisibility
   renderers:
   - {fileID: 1038988538}
+--- !u!1 &1041100979
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1041100980}
+  - component: {fileID: 1041100982}
+  - component: {fileID: 1041100981}
+  m_Layer: 0
+  m_Name: Desk_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1041100980
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041100979}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 11.8888855, y: 0.22999954, z: 0}
+  m_LocalScale: {x: 0.5793103, y: 0.5793103, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 396451847}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1041100981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041100979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa8bbfb0135c1bd4581a30a8fe3feff4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PaintedContactShadow
+  target: {fileID: 1041100982}
+  widthFactor: 0.7
+  minimumWidth: 0.16
+  depth: 0.045
+--- !u!212 &1041100982
+SpriteRenderer:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041100979}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: -10
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: -8983935570984076611, guid: 5cdbc21edcd793945b4010c2285f1740, type: 2}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2.4453125, y: 1.8125}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+  m_BlendShapeWeights: []
 --- !u!1 &1041271077
 GameObject:
   m_ObjectHideFlags: 0
@@ -150179,7 +150416,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -11
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 4393690566012557626, guid: 5cdbc21edcd793945b4010c2285f1740, type: 2}
+  m_Sprite: {fileID: -5801842420153596239, guid: 5cdbc21edcd793945b4010c2285f1740, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -152001,6 +152238,7 @@ GameObject:
   - component: {fileID: 1086727261}
   - component: {fileID: 1086727260}
   - component: {fileID: 1086727262}
+  - component: {fileID: 1086727263}
   m_Layer: 6
   m_Name: OwnDesk_Investigation
   m_TagString: Untagged
@@ -152101,7 +152339,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandDrawnInteractionHighlight
   interactionSource: {fileID: 1086727260}
   visuals:
-  - {fileID: 361640370}
+  - {fileID: 610136255}
   outlineMaterial: {fileID: 2100000, guid: f4d8c11774e8e0d4a9e3fef0a7f13a1b, type: 2}
   lineColor: {r: 1, g: 0.79, b: 0.48, a: 0.66}
   strokePixels: 1.5
@@ -152111,6 +152349,22 @@ MonoBehaviour:
   opacityBreath: 0.16
   outerContour: []
   contourMaterial: {fileID: 0}
+--- !u!114 &1086727263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1086727258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495a9edc27acfc3408afd4976a2d9469, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteractionReach
+  anchor: {fileID: 0}
+  visualSurface: {fileID: 610136255}
+  horizontalReach: 0.55
+  verticalReach: 1.8
 --- !u!1 &1086930161
 GameObject:
   m_ObjectHideFlags: 0
@@ -153379,6 +153633,115 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::RetiredArtVisibility
   renderers:
   - {fileID: 1097567945}
+--- !u!1 &1097607010
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1097607011}
+  - component: {fileID: 1097607013}
+  - component: {fileID: 1097607012}
+  m_Layer: 0
+  m_Name: Desk_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1097607011
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097607010}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 10.333328, y: 0.22999954, z: 0}
+  m_LocalScale: {x: 0.5780645, y: 0.5780645, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 867109975}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1097607012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097607010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa8bbfb0135c1bd4581a30a8fe3feff4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PaintedContactShadow
+  target: {fileID: 1097607013}
+  widthFactor: 0.7
+  minimumWidth: 0.16
+  depth: 0.045
+--- !u!212 &1097607013
+SpriteRenderer:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097607010}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: -10
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 1876743751203868196, guid: 5cdbc21edcd793945b4010c2285f1740, type: 2}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2.4492188, y: 1.8164062}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+  m_BlendShapeWeights: []
 --- !u!1 &1098140432
 GameObject:
   m_ObjectHideFlags: 0
@@ -155505,7 +155868,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandDrawnInteractionHighlight
   interactionSource: {fileID: 1116919527}
   visuals:
-  - {fileID: 1573704115}
+  - {fileID: 1376391522}
   outlineMaterial: {fileID: 2100000, guid: f4d8c11774e8e0d4a9e3fef0a7f13a1b, type: 2}
   lineColor: {r: 1, g: 0.79, b: 0.48, a: 0.66}
   strokePixels: 1.5
@@ -157440,7 +157803,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandDrawnInteractionHighlight
   interactionSource: {fileID: 1133868763}
   visuals:
-  - {fileID: 13519177}
+  - {fileID: 8369383}
   outlineMaterial: {fileID: 2100000, guid: f4d8c11774e8e0d4a9e3fef0a7f13a1b, type: 2}
   lineColor: {r: 0.66, g: 0.6, b: 0.88, a: 0.7}
   strokePixels: 1.5
@@ -159716,7 +160079,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandDrawnInteractionHighlight
   interactionSource: {fileID: 1147652388}
   visuals:
-  - {fileID: 1068684021}
+  - {fileID: 1188910678}
   outlineMaterial: {fileID: 2100000, guid: f4d8c11774e8e0d4a9e3fef0a7f13a1b, type: 2}
   lineColor: {r: 1, g: 0.79, b: 0.48, a: 0.66}
   strokePixels: 1.5
@@ -165599,7 +165962,7 @@ Transform:
   m_GameObject: {fileID: 1189431131}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.2999878, y: 0.22999954, z: 0}
+  m_LocalPosition: {x: 3.722229, y: 0.22999954, z: 0}
   m_LocalScale: {x: 0.5793103, y: 0.5793103, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -169858,7 +170221,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandDrawnInteractionHighlight
   interactionSource: {fileID: 1215124423}
   visuals:
-  - {fileID: 587599411}
+  - {fileID: 1991658826}
   outlineMaterial: {fileID: 2100000, guid: f4d8c11774e8e0d4a9e3fef0a7f13a1b, type: 2}
   lineColor: {r: 1, g: 0.79, b: 0.48, a: 0.66}
   strokePixels: 1.5
@@ -170604,6 +170967,115 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::RetiredArtVisibility
   renderers:
   - {fileID: 1220599594}
+--- !u!1 &1221976956
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1221976957}
+  - component: {fileID: 1221976959}
+  - component: {fileID: 1221976958}
+  m_Layer: 0
+  m_Name: Desk_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1221976957
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221976956}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 10.333328, y: 0.22999954, z: 0}
+  m_LocalScale: {x: 0.5793103, y: 0.5793103, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1497583173}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1221976958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221976956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa8bbfb0135c1bd4581a30a8fe3feff4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PaintedContactShadow
+  target: {fileID: 1221976959}
+  widthFactor: 0.7
+  minimumWidth: 0.16
+  depth: 0.045
+--- !u!212 &1221976959
+SpriteRenderer:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221976956}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: -10
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: -8983935570984076611, guid: 5cdbc21edcd793945b4010c2285f1740, type: 2}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2.4453125, y: 1.8125}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+  m_BlendShapeWeights: []
 --- !u!1 &1225326386
 GameObject:
   m_ObjectHideFlags: 0
@@ -181611,7 +182083,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u4e8c\u697c"
+  m_text: "\u4E8C\u697C"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e016d2a2a11444e48b4aee4225c6fff5, type: 2}
   m_sharedMaterial: {fileID: 7209629382546241987, guid: e016d2a2a11444e48b4aee4225c6fff5, type: 2}
@@ -181899,7 +182371,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandDrawnInteractionHighlight
   interactionSource: {fileID: 1318507851}
   visuals:
-  - {fileID: 116556664}
+  - {fileID: 1693291141}
   outlineMaterial: {fileID: 2100000, guid: f4d8c11774e8e0d4a9e3fef0a7f13a1b, type: 2}
   lineColor: {r: 0.66, g: 0.6, b: 0.88, a: 0.7}
   strokePixels: 1.5
@@ -186995,7 +187467,7 @@ Transform:
   m_GameObject: {fileID: 1348199216}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.699997, y: 0.22999954, z: 0}
+  m_LocalPosition: {x: 8, y: 0.22999954, z: 0}
   m_LocalScale: {x: 0.5780645, y: 0.5780645, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -190742,7 +191214,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandDrawnInteractionHighlight
   interactionSource: {fileID: 1370730018}
   visuals:
-  - {fileID: 1725324763}
+  - {fileID: 1641683910}
   outlineMaterial: {fileID: 2100000, guid: f4d8c11774e8e0d4a9e3fef0a7f13a1b, type: 2}
   lineColor: {r: 1, g: 0.79, b: 0.48, a: 0.66}
   strokePixels: 1.5
@@ -191596,7 +192068,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandDrawnInteractionHighlight
   interactionSource: {fileID: 1373189785}
   visuals:
-  - {fileID: 1683415784}
+  - {fileID: 1701245990}
   outlineMaterial: {fileID: 2100000, guid: f4d8c11774e8e0d4a9e3fef0a7f13a1b, type: 2}
   lineColor: {r: 1, g: 0.79, b: 0.48, a: 0.66}
   strokePixels: 1.5
@@ -198844,7 +199316,7 @@ Transform:
   m_GameObject: {fileID: 1425855550}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.700012, y: 0.22999954, z: 0}
+  m_LocalPosition: {x: 9.1666565, y: 0.22999954, z: 0}
   m_LocalScale: {x: 0.5793103, y: 0.5793103, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -207183,7 +207655,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -11
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 4393690566012557626, guid: 5cdbc21edcd793945b4010c2285f1740, type: 2}
+  m_Sprite: {fileID: -5801842420153596239, guid: 5cdbc21edcd793945b4010c2285f1740, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -209541,7 +210013,7 @@ Transform:
   m_GameObject: {fileID: 1496089229}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.700012, y: 0.22999954, z: 0}
+  m_LocalPosition: {x: 9.1666565, y: 0.22999954, z: 0}
   m_LocalScale: {x: 0.5780645, y: 0.5780645, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -209897,6 +210369,7 @@ Transform:
   - {fileID: 610136253}
   - {fileID: 945821415}
   - {fileID: 647915803}
+  - {fileID: 1221976957}
   m_Father: {fileID: 898977633}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1498480320
@@ -213445,6 +213918,7 @@ Transform:
   - {fileID: 1874381269}
   - {fileID: 447068382}
   - {fileID: 1496089230}
+  - {fileID: 555069376}
   m_Father: {fileID: 369692697}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1529424647
@@ -214174,7 +214648,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u4e00\u697c"
+  m_text: "\u4E00\u697C"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e016d2a2a11444e48b4aee4225c6fff5, type: 2}
   m_sharedMaterial: {fileID: 7209629382546241987, guid: e016d2a2a11444e48b4aee4225c6fff5, type: 2}
@@ -214811,7 +215285,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u4e09\u697c"
+  m_text: "\u4E09\u697C"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e016d2a2a11444e48b4aee4225c6fff5, type: 2}
   m_sharedMaterial: {fileID: 7209629382546241987, guid: e016d2a2a11444e48b4aee4225c6fff5, type: 2}
@@ -217049,7 +217523,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -11
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 4393690566012557626, guid: 5cdbc21edcd793945b4010c2285f1740, type: 2}
+  m_Sprite: {fileID: -5801842420153596239, guid: 5cdbc21edcd793945b4010c2285f1740, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -222096,7 +222570,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandDrawnInteractionHighlight
   interactionSource: {fileID: 1589185741}
   visuals:
-  - {fileID: 902392435}
+  - {fileID: 1717799791}
   outlineMaterial: {fileID: 2100000, guid: f4d8c11774e8e0d4a9e3fef0a7f13a1b, type: 2}
   lineColor: {r: 1, g: 0.79, b: 0.48, a: 0.66}
   strokePixels: 1.5
@@ -224304,7 +224778,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -11
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 4393690566012557626, guid: 5cdbc21edcd793945b4010c2285f1740, type: 2}
+  m_Sprite: {fileID: -5801842420153596239, guid: 5cdbc21edcd793945b4010c2285f1740, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -229571,6 +230045,7 @@ GameObject:
   - component: {fileID: 1641858703}
   - component: {fileID: 1641858702}
   - component: {fileID: 1641858704}
+  - component: {fileID: 1641858705}
   m_Layer: 6
   m_Name: OwnDesk_Investigation
   m_TagString: Untagged
@@ -229671,7 +230146,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandDrawnInteractionHighlight
   interactionSource: {fileID: 1641858702}
   visuals:
-  - {fileID: 1668428104}
+  - {fileID: 1863678782}
   outlineMaterial: {fileID: 2100000, guid: f4d8c11774e8e0d4a9e3fef0a7f13a1b, type: 2}
   lineColor: {r: 0.66, g: 0.6, b: 0.88, a: 0.7}
   strokePixels: 1.5
@@ -229681,6 +230156,22 @@ MonoBehaviour:
   opacityBreath: 0.16
   outerContour: []
   contourMaterial: {fileID: 0}
+--- !u!114 &1641858705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641858700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495a9edc27acfc3408afd4976a2d9469, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteractionReach
+  anchor: {fileID: 0}
+  visualSurface: {fileID: 1863678782}
+  horizontalReach: 0.55
+  verticalReach: 1.8
 --- !u!1 &1642852369
 GameObject:
   m_ObjectHideFlags: 0
@@ -231477,7 +231968,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -11
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 4393690566012557626, guid: 5cdbc21edcd793945b4010c2285f1740, type: 2}
+  m_Sprite: {fileID: -5801842420153596239, guid: 5cdbc21edcd793945b4010c2285f1740, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -234823,7 +235314,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandDrawnInteractionHighlight
   interactionSource: {fileID: 1675411628}
   visuals:
-  - {fileID: 636568741}
+  - {fileID: 469344015}
   outlineMaterial: {fileID: 2100000, guid: f4d8c11774e8e0d4a9e3fef0a7f13a1b, type: 2}
   lineColor: {r: 0.66, g: 0.6, b: 0.88, a: 0.7}
   strokePixels: 1.5
@@ -235533,7 +236024,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandDrawnInteractionHighlight
   interactionSource: {fileID: 1681633100}
   visuals:
-  - {fileID: 496746637}
+  - {fileID: 778866081}
   outlineMaterial: {fileID: 2100000, guid: f4d8c11774e8e0d4a9e3fef0a7f13a1b, type: 2}
   lineColor: {r: 1, g: 0.79, b: 0.48, a: 0.66}
   strokePixels: 1.5
@@ -237160,7 +237651,7 @@ Transform:
   m_GameObject: {fileID: 1692593450}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.300003, y: 0.22999954, z: 0}
+  m_LocalPosition: {x: 3.3333282, y: 0.22999954, z: 0}
   m_LocalScale: {x: 0.5793103, y: 0.5793103, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -237323,7 +237814,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -11
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 4393690566012557626, guid: 5cdbc21edcd793945b4010c2285f1740, type: 2}
+  m_Sprite: {fileID: -5801842420153596239, guid: 5cdbc21edcd793945b4010c2285f1740, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -237602,6 +238093,7 @@ GameObject:
   - component: {fileID: 1695668247}
   - component: {fileID: 1695668246}
   - component: {fileID: 1695668248}
+  - component: {fileID: 1695668249}
   m_Layer: 6
   m_Name: ScratchedDesk_Investigation
   m_TagString: Untagged
@@ -237702,7 +238194,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandDrawnInteractionHighlight
   interactionSource: {fileID: 1695668246}
   visuals:
-  - {fileID: 1210778244}
+  - {fileID: 945821417}
   outlineMaterial: {fileID: 2100000, guid: f4d8c11774e8e0d4a9e3fef0a7f13a1b, type: 2}
   lineColor: {r: 1, g: 0.79, b: 0.48, a: 0.66}
   strokePixels: 1.5
@@ -237712,6 +238204,22 @@ MonoBehaviour:
   opacityBreath: 0.16
   outerContour: []
   contourMaterial: {fileID: 0}
+--- !u!114 &1695668249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1695668244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495a9edc27acfc3408afd4976a2d9469, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteractionReach
+  anchor: {fileID: 0}
+  visualSurface: {fileID: 945821417}
+  horizontalReach: 0.55
+  verticalReach: 1.8
 --- !u!1 &1696074006
 GameObject:
   m_ObjectHideFlags: 0
@@ -242456,7 +242964,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandDrawnInteractionHighlight
   interactionSource: {fileID: 1727020816}
   visuals:
-  - {fileID: 1458834193}
+  - {fileID: 1073481988}
   outlineMaterial: {fileID: 2100000, guid: f4d8c11774e8e0d4a9e3fef0a7f13a1b, type: 2}
   lineColor: {r: 0.66, g: 0.6, b: 0.88, a: 0.7}
   strokePixels: 1.5
@@ -242895,7 +243403,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandDrawnInteractionHighlight
   interactionSource: {fileID: 1728876714}
   visuals:
-  - {fileID: 1201986708}
+  - {fileID: 1650210764}
   outlineMaterial: {fileID: 2100000, guid: f4d8c11774e8e0d4a9e3fef0a7f13a1b, type: 2}
   lineColor: {r: 0.66, g: 0.6, b: 0.88, a: 0.7}
   strokePixels: 1.5
@@ -259596,7 +260104,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandDrawnInteractionHighlight
   interactionSource: {fileID: 1846858721}
   visuals:
-  - {fileID: 1980807481}
+  - {fileID: 145238940}
   outlineMaterial: {fileID: 2100000, guid: f4d8c11774e8e0d4a9e3fef0a7f13a1b, type: 2}
   lineColor: {r: 0.66, g: 0.6, b: 0.88, a: 0.7}
   strokePixels: 1.5
@@ -262930,7 +263438,7 @@ Transform:
   m_GameObject: {fileID: 1863678779}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.5, y: 0.22999954, z: 0}
+  m_LocalPosition: {x: 5.6666718, y: 0.22999954, z: 0}
   m_LocalScale: {x: 0.5780645, y: 0.5780645, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -263773,7 +264281,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandDrawnInteractionHighlight
   interactionSource: {fileID: 1867525829}
   visuals:
-  - {fileID: 1798161243}
+  - {fileID: 1884303960}
   outlineMaterial: {fileID: 2100000, guid: f4d8c11774e8e0d4a9e3fef0a7f13a1b, type: 2}
   lineColor: {r: 0.66, g: 0.6, b: 0.88, a: 0.7}
   strokePixels: 1.5
@@ -264362,7 +264870,7 @@ Transform:
   m_GameObject: {fileID: 1874381268}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.2999878, y: 0.22999954, z: 0}
+  m_LocalPosition: {x: 3.722229, y: 0.22999954, z: 0}
   m_LocalScale: {x: 0.5780645, y: 0.5780645, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -265103,7 +265611,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandDrawnInteractionHighlight
   interactionSource: {fileID: 1879018525}
   visuals:
-  - {fileID: 1192093964}
+  - {fileID: 1096412248}
   outlineMaterial: {fileID: 2100000, guid: f4d8c11774e8e0d4a9e3fef0a7f13a1b, type: 2}
   lineColor: {r: 1, g: 0.79, b: 0.48, a: 0.66}
   strokePixels: 1.5
@@ -265301,7 +265809,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -11
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 4393690566012557626, guid: 5cdbc21edcd793945b4010c2285f1740, type: 2}
+  m_Sprite: {fileID: -5801842420153596239, guid: 5cdbc21edcd793945b4010c2285f1740, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -267999,7 +268507,7 @@ Transform:
   m_GameObject: {fileID: 1903216667}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.300003, y: 0.22999954, z: 0}
+  m_LocalPosition: {x: 3.3333282, y: 0.22999954, z: 0}
   m_LocalScale: {x: 0.5780645, y: 0.5780645, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -273503,6 +274011,52 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::RetiredArtVisibility
   renderers:
   - {fileID: 1939913457}
+--- !u!1 &1940148703
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1940148705}
+  - component: {fileID: 1940148704}
+  m_Layer: 0
+  m_Name: AudioPass0_Profile
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1940148704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940148703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4220ec1d88c32f541a3e484ea776f92d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SceneMusicProfile
+  role: 3
+  defaultState: 8
+--- !u!4 &1940148705
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940148703}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1942166778
 GameObject:
   m_ObjectHideFlags: 0
@@ -275385,7 +275939,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandDrawnInteractionHighlight
   interactionSource: {fileID: 1957522453}
   visuals:
-  - {fileID: 234668747}
+  - {fileID: 1026418844}
   outlineMaterial: {fileID: 2100000, guid: f4d8c11774e8e0d4a9e3fef0a7f13a1b, type: 2}
   lineColor: {r: 0.66, g: 0.6, b: 0.88, a: 0.7}
   strokePixels: 1.5
@@ -279731,7 +280285,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -11
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 4393690566012557626, guid: 5cdbc21edcd793945b4010c2285f1740, type: 2}
+  m_Sprite: {fileID: -5801842420153596239, guid: 5cdbc21edcd793945b4010c2285f1740, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -284200,7 +284754,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandDrawnInteractionHighlight
   interactionSource: {fileID: 2011144955}
   visuals:
-  - {fileID: 849973352}
+  - {fileID: 651445275}
   outlineMaterial: {fileID: 2100000, guid: f4d8c11774e8e0d4a9e3fef0a7f13a1b, type: 2}
   lineColor: {r: 0.66, g: 0.6, b: 0.88, a: 0.7}
   strokePixels: 1.5
@@ -295010,7 +295564,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandDrawnInteractionHighlight
   interactionSource: {fileID: 2096995909}
   visuals:
-  - {fileID: 883273824}
+  - {fileID: 52121597}
   outlineMaterial: {fileID: 2100000, guid: f4d8c11774e8e0d4a9e3fef0a7f13a1b, type: 2}
   lineColor: {r: 0.66, g: 0.6, b: 0.88, a: 0.7}
   strokePixels: 1.5
@@ -301976,3 +302530,4 @@ SceneRoots:
   - {fileID: 1021606423}
   - {fileID: 930627519}
   - {fileID: 1478078791}
+  - {fileID: 1940148705}

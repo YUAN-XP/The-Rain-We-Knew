@@ -1,0 +1,11 @@
+Summary
+Add Audio Pass 0 music states and complete Demo integration
+
+Description
+Introduce a persistent MusicManager with configurable cues, dual-source crossfades, dialogue ducking, and Music/Ambience/SFX/UI mixer groups. Import the confirmed full-length tracks without modifying the original files, retain separate menu and ending cues, and preserve the instrumental theme as an unused reserve.
+
+Integrate music with existing exploration, maze, guitar performance, school-world, chase, and ending states. Reuse the original three-door sources with scheduled playback, configurable clarity profiles, and the unchanged right-left-middle answer. Preserve existing gameplay, scene topology, quest order, guitar notes, narrative effects, pause behavior, and user saves.
+
+Validation: 23 configuration checks and 9 isolated playback checks passed. A normal-entry Play Mode run completed the original Demo through the ending, with one MusicManager and one PersistentRuntime, no steady-state BGM overlap, and no final music runtime exceptions. The Windows build succeeded with zero errors; native cold-start/menu/new-game/idle/quit checks passed. Editor-only replay and capture types are excluded from the player build.
+
+Audio Pass 0 uses initial gain and fade settings. Final loudness, seamless loops, three-door listening balance, and Scene06 scoring remain subject to manual audition and later audio passes. See Documentation/AudioPass0/AudioPass0_Report.md and AudioPass0_FileManifest.tsv. Keep generated builds and large listening captures outside Git.

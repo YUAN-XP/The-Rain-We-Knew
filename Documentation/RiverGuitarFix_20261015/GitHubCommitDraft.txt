@@ -1,0 +1,7 @@
+Summary:
+Fix river guitar retries after a valid final strum
+
+Description:
+Finish sustained-chord judging when the final Space note is accepted within the existing timing window. Releasing the chord after an early Good strum no longer adds an erroneous sustain miss. Keep earlier misses, retries, the original four phrases, input keys, timing windows and story handoff unchanged.
+
+Validation: reproduced the original first-phrase retry; all 12 isolated Play Mode input cases and 29 assertions pass, including all 29 notes, valid early/late strums, genuine mistakes, retry recovery and completion lock release. Windows release build succeeds. Physical keyboard and full owner playthrough remain for manual review.

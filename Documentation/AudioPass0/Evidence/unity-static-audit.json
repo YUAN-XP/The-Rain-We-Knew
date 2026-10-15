@@ -1,0 +1,120 @@
+{
+    "stamp": "2026-10-06T01:50:17.1431467+08:00",
+    "checks": [
+        {
+            "name": "single_config",
+            "result": "PASS",
+            "detail": "cues=12"
+        },
+        {
+            "name": "mixer_hierarchy",
+            "result": "PASS",
+            "detail": "Assets/Audio/Mixer/ProjectMystery_AudioMixer.mixer"
+        },
+        {
+            "name": "cue_MainTheme",
+            "result": "PASS",
+            "detail": "Assets/Audio/Music/Theme/Theme_Full.mp3 seconds=250.296 channels=2 gain=0.3917"
+        },
+        {
+            "name": "cue_EndTheme",
+            "result": "PASS",
+            "detail": "Assets/Audio/Music/Theme/Theme_Full.mp3 seconds=250.296 channels=2 gain=0.3917"
+        },
+        {
+            "name": "cue_RainExplore",
+            "result": "PASS",
+            "detail": "Assets/Audio/Music/Exploration/RainExplore.mp3 seconds=206.232 channels=2 gain=0.2901"
+        },
+        {
+            "name": "cue_HomeExplore",
+            "result": "PASS",
+            "detail": "Assets/Audio/Music/Exploration/HomeExplore.mp3 seconds=140.112 channels=2 gain=0.1349"
+        },
+        {
+            "name": "cue_ThreeDoors",
+            "result": "PASS",
+            "detail": "Assets/Audio/Music/Puzzle/ThreeDoors_MotherTrack.mp3 seconds=161.088 channels=2 gain=0.1354"
+        },
+        {
+            "name": "cue_StreetExplore",
+            "result": "PASS",
+            "detail": "Assets/Audio/Music/Exploration/StreetExplore.mp3 seconds=124.992 channels=2 gain=0.2742"
+        },
+        {
+            "name": "cue_MazeExplore",
+            "result": "PASS",
+            "detail": "Assets/Audio/Music/Exploration/MazeExplore.mp3 seconds=170.232 channels=2 gain=0.1354"
+        },
+        {
+            "name": "cue_BirthdayPerformance",
+            "result": "PASS",
+            "detail": "Assets/Audio/Music/Narrative/BirthdayPerformance.mp3 seconds=116.689 channels=2 gain=0.5794"
+        },
+        {
+            "name": "cue_SchoolOtherworld",
+            "result": "PASS",
+            "detail": "Assets/Audio/Music/Exploration/SchoolOtherworld.mp3 seconds=202.704 channels=2 gain=0.1347"
+        },
+        {
+            "name": "cue_SchoolMemory",
+            "result": "PASS",
+            "detail": "Assets/Audio/Music/Exploration/SchoolMemory.mp3 seconds=132.888 channels=2 gain=0.1199"
+        },
+        {
+            "name": "cue_Chase",
+            "result": "PASS",
+            "detail": "Assets/Audio/Music/Chase/Chase.mp3 seconds=77.856 channels=2 gain=0.1376"
+        },
+        {
+            "name": "cue_Companionship",
+            "result": "PASS",
+            "detail": "Assets/Audio/Music/Narrative/Companionship.mp3 seconds=193.296 channels=2 gain=0.1255"
+        },
+        {
+            "name": "separate_theme_cues",
+            "result": "PASS",
+            "detail": "same full song; separate assets; zero offset and loop"
+        },
+        {
+            "name": "instrumental_reserve_only",
+            "result": "PASS",
+            "detail": "imported, not assigned to a cue"
+        },
+        {
+            "name": "profile_Scene01_Rain",
+            "result": "PASS",
+            "detail": "Rain -> RainExplore"
+        },
+        {
+            "name": "profile_Scene02_Courtyard",
+            "result": "PASS",
+            "detail": "Home -> HomeExplore"
+        },
+        {
+            "name": "unchanged_door_answer",
+            "result": "PASS",
+            "detail": "2,0,1"
+        },
+        {
+            "name": "three_door_audio_bindings",
+            "result": "PASS",
+            "detail": "ThreeDoor_Left@(12.50, 8.16, 0.00) | ThreeDoor_Middle@(15.00, 8.16, 0.00) | ThreeDoor_Right@(17.50, 8.16, 0.00)"
+        },
+        {
+            "name": "profile_Scene03_Childhood",
+            "result": "PASS",
+            "detail": "Childhood -> StreetExplore"
+        },
+        {
+            "name": "profile_Scene04_School",
+            "result": "PASS",
+            "detail": "School -> SchoolOtherworld"
+        },
+        {
+            "name": "profile_EndingSequence",
+            "result": "PASS",
+            "detail": "Ending -> Companionship"
+        }
+    ]
+}

@@ -55,6 +55,10 @@ public sealed class P02RigDefinition : ScriptableObject
         public bool articulatedLimb;
         public bool stabilizedWaist;
         public bool calibratedLimb;
+        // Reverse the painted sleeve across its own measured limb axis. Joint
+        // endpoints stay in world space; the pose and travel are never mirrored.
+        public bool mirrorLimbArtwork;
+        public bool mirrorArtworkX;
         public bool pelvisGarment;
         public float bindUpperLength, bindLowerLength;
         // Opaque lower contour, measured from the imported sprite. Values are in

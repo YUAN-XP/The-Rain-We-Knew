@@ -35,6 +35,7 @@ MonoBehaviour:
   - key: 32
     time: 7.8499994
     tone: {fileID: 8300000, guid: 8e198d450a4ad054d8f0ed5752de563e, type: 3}
-  perfectWindow: 0.13
-  goodWindow: 0.3
+  perfectWindow: 0.25
+  goodWindow: 0.55
+  strumWindow: 0.85
   tail: 0.8

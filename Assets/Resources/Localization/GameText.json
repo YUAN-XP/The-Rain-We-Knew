@@ -1,0 +1,3865 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "zh": "\n可以重试载入，或重新开始。已有存档会保留。",
+      "en": "\nYou can retry loading or start again. Existing saves will be kept."
+    },
+    {
+      "zh": " 幕",
+      "en": ""
+    },
+    {
+      "zh": " 次",
+      "en": " attempts"
+    },
+    {
+      "zh": " 次  ·  已套中 ",
+      "en": " attempts  |  Hits: "
+    },
+    {
+      "zh": " 次 · 向右上投出 · 力度 ",
+      "en": " attempts | Throw up and right | Power: "
+    },
+    {
+      "zh": "% · 松手投掷",
+      "en": "% | Release to throw"
+    },
+    {
+      "zh": "% · 轨迹线是篮球的飞行方向 · 松手投掷  [Esc] 取消",
+      "en": "% | The line shows the ball's path | Release to throw  [Esc] Cancel"
+    },
+    {
+      "zh": "(占位标签)",
+      "en": ""
+    },
+    {
+      "zh": "...",
+      "en": "..."
+    },
+    {
+      "zh": "02号病床邱天，23点16分抢救无效，确认死亡。",
+      "en": "Patient Qiu Tian, Bed 02. Resuscitation unsuccessful. Death confirmed at 23:16."
+    },
+    {
+      "zh": "7月15日 安全公告\n近日天气晴朗，是走亲访友的好季节；注意外出安全；有事及时拨打 110 联系当地民警。\n——警卫处",
+      "en": "July 15 - Safety Notice\nThe weather has been fine, making this a good time to visit friends and relatives. Take care when going out. If you need police assistance, call 110.\n- Security Office"
+    },
+    {
+      "zh": "Miss · 和弦中断",
+      "en": "Miss | Chord released"
+    },
+    {
+      "zh": "Miss · 拍弦前请松开 W/S/A/D",
+      "en": "Miss | Release W/S/A/D before strumming"
+    },
+    {
+      "zh": "Miss · 漏拍",
+      "en": "Miss | Missed beat"
+    },
+    {
+      "zh": "Miss · 请持续按住正确和弦",
+      "en": "Miss | Keep holding the correct chord"
+    },
+    {
+      "zh": "Miss · 错键或时机",
+      "en": "Miss | Wrong key or timing"
+    },
+    {
+      "zh": "Stage 5A 到此结束，可在教室内活动；退出 Play Mode 可结束体验。",
+      "en": "This section is complete. You can explore the classroom; leave Play Mode to end the preview."
+    },
+    {
+      "zh": "Stage 5A 已结束。可以在教室内活动；退出 Play Mode 可结束本次体验。",
+      "en": "This section is complete. You can explore the classroom; leave Play Mode to end the preview."
+    },
+    {
+      "zh": "U盘",
+      "en": "USB Drive"
+    },
+    {
+      "zh": "U盘（监控）",
+      "en": "USB Drive (Surveillance Footage)"
+    },
+    {
+      "zh": "[E] 上楼",
+      "en": "[E] Go upstairs"
+    },
+    {
+      "zh": "[E] 上车",
+      "en": "[E] Get in"
+    },
+    {
+      "zh": "[E] 下楼",
+      "en": "[E] Go downstairs"
+    },
+    {
+      "zh": "[E] 交互",
+      "en": "[E] Interact"
+    },
+    {
+      "zh": "[E] 交谈",
+      "en": "[E] Talk"
+    },
+    {
+      "zh": "[E] 使用",
+      "en": "[E] Use"
+    },
+    {
+      "zh": "[E] 出门",
+      "en": "[E] Go outside"
+    },
+    {
+      "zh": "[E] 听一听",
+      "en": "[E] Listen"
+    },
+    {
+      "zh": "[E] 喂小猫",
+      "en": "[E] Feed the kitten"
+    },
+    {
+      "zh": "[E] 回家吃晚餐",
+      "en": "[E] Go home for dinner"
+    },
+    {
+      "zh": "[E] 坐一会儿",
+      "en": "[E] Sit for a while"
+    },
+    {
+      "zh": "[E] 坐下",
+      "en": "[E] Sit down"
+    },
+    {
+      "zh": "[E] 对话",
+      "en": "[E] Talk"
+    },
+    {
+      "zh": "[E] 开门",
+      "en": "[E] Open door"
+    },
+    {
+      "zh": "[E] 打开",
+      "en": "[E] Open"
+    },
+    {
+      "zh": "[E] 拾取",
+      "en": "[E] Pick up"
+    },
+    {
+      "zh": "[E] 拾取钥匙",
+      "en": "[E] Pick up key"
+    },
+    {
+      "zh": "[E] 拿上相机",
+      "en": "[E] Take camera"
+    },
+    {
+      "zh": "[E] 拿起灯油",
+      "en": "[E] Pick up lamp oil"
+    },
+    {
+      "zh": "[E] 拿起篮球",
+      "en": "[E] Pick up basketball"
+    },
+    {
+      "zh": "[E] 收集",
+      "en": "[E] Collect"
+    },
+    {
+      "zh": "[E] 放置相机",
+      "en": "[E] Place camera"
+    },
+    {
+      "zh": "[E] 旁听一会",
+      "en": "[E] Listen for a while"
+    },
+    {
+      "zh": "[E] 查看便利贴",
+      "en": "[E] Read sticky note"
+    },
+    {
+      "zh": "[E] 查看密码锁",
+      "en": "[E] Examine combination lock"
+    },
+    {
+      "zh": "[E] 查看窗内",
+      "en": "[E] Look through window"
+    },
+    {
+      "zh": "[E] 查看黑雾",
+      "en": "[E] Examine black fog"
+    },
+    {
+      "zh": "[E] 楼梯",
+      "en": "[E] Stairs"
+    },
+    {
+      "zh": "[E] 看公告栏",
+      "en": "[E] Read noticeboard"
+    },
+    {
+      "zh": "[E] 看看小猫",
+      "en": "[E] Look at kitten"
+    },
+    {
+      "zh": "[E] 离开",
+      "en": "[E] Leave"
+    },
+    {
+      "zh": "[E] 继续",
+      "en": "[E] Continue"
+    },
+    {
+      "zh": "[E] 调查",
+      "en": "[E] Examine"
+    },
+    {
+      "zh": "[E] 走向河堤",
+      "en": "[E] Go to riverside"
+    },
+    {
+      "zh": "[E] 返回",
+      "en": "[E] Return"
+    },
+    {
+      "zh": "[E] 返回走廊",
+      "en": "[E] Return to corridor"
+    },
+    {
+      "zh": "[E] 进入",
+      "en": "[E] Enter"
+    },
+    {
+      "zh": "[E] 进入 / 返回",
+      "en": "[E] Enter / return"
+    },
+    {
+      "zh": "[E] 重试",
+      "en": "[E] Retry"
+    },
+    {
+      "zh": "[E] 阅读",
+      "en": "[E] Read"
+    },
+    {
+      "zh": "[Esc] 关闭",
+      "en": "[Esc] Close"
+    },
+    {
+      "zh": "[Esc] 起身",
+      "en": "[Esc] Stand up"
+    },
+    {
+      "zh": "[Esc] 返回",
+      "en": "[Esc] Back"
+    },
+    {
+      "zh": "[Esc] 退出",
+      "en": "[Esc] Exit"
+    },
+    {
+      "zh": "[Q] 举起 / 放下相机",
+      "en": "[Q] Raise / lower camera"
+    },
+    {
+      "zh": "[R] 使用小油灯",
+      "en": "[R] Use small oil lamp"
+    },
+    {
+      "zh": "[Shift] 奔跑",
+      "en": "[Shift] Run"
+    },
+    {
+      "zh": "[Space] 拍照    [Q] 放下相机",
+      "en": "[Space] Take photo    [Q] Lower camera"
+    },
+    {
+      "zh": "[W/A/S/D] 或方向键移动    [Q] 举起相机",
+      "en": "[W/A/S/D] or arrow keys to move    [Q] Raise camera"
+    },
+    {
+      "zh": "[空格] 继续",
+      "en": "[Space] Continue"
+    },
+    {
+      "zh": "——《了不起的盖茨比》",
+      "en": "F. Scott Fitzgerald - The Great Gatsby"
+    },
+    {
+      "zh": "……",
+      "en": "..."
+    },
+    {
+      "zh": "……。",
+      "en": "..."
+    },
+    {
+      "zh": "……他们都在看什么？",
+      "en": "...What are they all looking at?"
+    },
+    {
+      "zh": "……嗯。",
+      "en": "...Yeah."
+    },
+    {
+      "zh": "……我不想盯着它看太久。",
+      "en": "...I don't want to look at it for too long."
+    },
+    {
+      "zh": "……打开了。",
+      "en": "...It's open."
+    },
+    {
+      "zh": "……有没有办法看清？",
+      "en": "...Is there a way to see it clearly?"
+    },
+    {
+      "zh": "……知道了。",
+      "en": "...Okay."
+    },
+    {
+      "zh": "……等等。",
+      "en": "...Wait."
+    },
+    {
+      "zh": "……这是我的证件套？",
+      "en": "...Is this my ID holder?"
+    },
+    {
+      "zh": "……这种味道，我好像在哪里闻过。",
+      "en": "...I feel as if I've smelled this somewhere before."
+    },
+    {
+      "zh": "……那个骑士还挺帅的。",
+      "en": "...That knight is kind of handsome, though."
+    },
+    {
+      "zh": "……里面有人吗？",
+      "en": "...Is anyone in there?"
+    },
+    {
+      "zh": "……？",
+      "en": "...?"
+    },
+    {
+      "zh": "←",
+      "en": "←"
+    },
+    {
+      "zh": "→",
+      "en": "→"
+    },
+    {
+      "zh": "一个你一直想回来的地方。",
+      "en": "Somewhere you've always wanted to come back to."
+    },
+    {
+      "zh": "一个篮球。",
+      "en": "A basketball."
+    },
+    {
+      "zh": "一切的时候？",
+      "en": "Everything?"
+    },
+    {
+      "zh": "一只很可爱的小猫，怀里护着什么东西。",
+      "en": "A very cute kitten is curled up around something."
+    },
+    {
+      "zh": "一台保存得还算完整的旧相机。\n不知道为什么，握住它时总有种奇怪的熟悉感。",
+      "en": "An old camera in fairly good condition.\nFor some reason, holding it gives me a strange feeling of familiarity."
+    },
+    {
+      "zh": "一块撕下来的报纸碎片……",
+      "en": "A torn piece of newspaper..."
+    },
+    {
+      "zh": "一张残缺的文件碎片，内容尚不完整。",
+      "en": "An incomplete document fragment. Some of the text is missing."
+    },
+    {
+      "zh": "一张残缺的旧报纸，似乎能与之前找到的碎片拼在一起。",
+      "en": "A torn piece of an old newspaper. It might fit with the fragments found earlier."
+    },
+    {
+      "zh": "一张被严重污渍覆盖的旧合影。",
+      "en": "An old group photo covered in heavy stains."
+    },
+    {
+      "zh": "一把钥匙……",
+      "en": "A key..."
+    },
+    {
+      "zh": "一枚从小猫身旁拾到的游戏币，可以用来套圈。",
+      "en": "A token found beside the kitten. It can be used for ring toss."
+    },
+    {
+      "zh": "一楼",
+      "en": "Ground Floor"
+    },
+    {
+      "zh": "一楼走廊",
+      "en": "Ground-Floor Corridor"
+    },
+    {
+      "zh": "一楼连续主路",
+      "en": "Continuous ground-floor main route"
+    },
+    {
+      "zh": "一盏坏掉的台灯。",
+      "en": "A broken desk lamp."
+    },
+    {
+      "zh": "一盏小油灯，微弱的光也许能照亮前面的黑暗。",
+      "en": "A small oil lamp. Its faint light might illuminate the darkness ahead."
+    },
+    {
+      "zh": "一盏很旧的台灯。",
+      "en": "A very old desk lamp."
+    },
+    {
+      "zh": "一盘棋下这么久，茶都凉了。",
+      "en": "You've spent so long on one game, the tea's gone cold."
+    },
+    {
+      "zh": "一辆警车……",
+      "en": "A police car..."
+    },
+    {
+      "zh": "三张残缺的报纸终于拼在了一起。报道提到，周边地区的毒品活动已经影响到居民生活，相关调查仍在继续。",
+      "en": "The three torn pieces of newspaper are finally together. The report says drug activity in the surrounding area has affected residents' lives. The investigation is ongoing."
+    },
+    {
+      "zh": "三楼",
+      "en": "Third Floor"
+    },
+    {
+      "zh": "三楼右半；左端实体封口",
+      "en": "Third-floor right section; solid boundary on the left"
+    },
+    {
+      "zh": "三楼左半；右端实体封口",
+      "en": "Third-floor left section; solid boundary on the right"
+    },
+    {
+      "zh": "三楼必经阅读区独立块；不是第五层",
+      "en": "Separate required third-floor reading area; not an additional floor"
+    },
+    {
+      "zh": "上帷幕",
+      "en": "Upper Curtain"
+    },
+    {
+      "zh": "上面有把钥匙，应该可以用篮球砸下来",
+      "en": "There's a key up there. I should be able to knock it down with the basketball."
+    },
+    {
+      "zh": "下午的体育课很快就要到了，我得抓紧时间。",
+      "en": "PE starts soon this afternoon. I need to hurry."
+    },
+    {
+      "zh": "不支持的场景",
+      "en": "Unsupported scene"
+    },
+    {
+      "zh": "不然呢。",
+      "en": "Where else would I be?"
+    },
+    {
+      "zh": "不用了，谢谢。",
+      "en": "No, thank you."
+    },
+    {
+      "zh": "不知道。所以才应该先查清楚。",
+      "en": "I don't know. That's why we should find out first."
+    },
+    {
+      "zh": "不知道小猫喜不喜欢吃……",
+      "en": "I wonder if the kitten would like this..."
+    },
+    {
+      "zh": "不，我也是才知道。",
+      "en": "No. I only just found out too."
+    },
+    {
+      "zh": "临时停水通知\n7月17日上午8:00至12:00，西街供水管道检修，请居民提前储水。\n——镇供水处",
+      "en": "Temporary Water Interruption\nWater will be shut off on West Street from 8:00 a.m. to noon on July 17 for pipe maintenance. Please store water in advance.\n- Town Water Department"
+    },
+    {
+      "zh": "为什么……这么熟悉？",
+      "en": "Why does this feel... so familiar?"
+    },
+    {
+      "zh": "为什么这么说？",
+      "en": "What for?"
+    },
+    {
+      "zh": "主任",
+      "en": "Director"
+    },
+    {
+      "zh": "主任再见。",
+      "en": "Goodbye, sir."
+    },
+    {
+      "zh": "主任好，是这样......",
+      "en": "Hello, sir. It's like this..."
+    },
+    {
+      "zh": "主卧",
+      "en": "Main Bedroom"
+    },
+    {
+      "zh": "二楼",
+      "en": "Second Floor"
+    },
+    {
+      "zh": "二楼似乎有点不对劲",
+      "en": "Something seems wrong upstairs."
+    },
+    {
+      "zh": "二楼抽屉应该可以打开了。",
+      "en": "The drawer upstairs should open now."
+    },
+    {
+      "zh": "二楼电脑应该可以打开了",
+      "en": "The computer upstairs should work now."
+    },
+    {
+      "zh": "二楼连续走廊",
+      "en": "Continuous second-floor corridor"
+    },
+    {
+      "zh": "于是我们继续向前，逆流而行，",
+      "en": "So we beat on, boats against the current,"
+    },
+    {
+      "zh": "交互",
+      "en": "Interact"
+    },
+    {
+      "zh": "交还的证件",
+      "en": "Returned Identification"
+    },
+    {
+      "zh": "人多，就一定是对的吗？",
+      "en": "Does having more people on your side make you right?"
+    },
+    {
+      "zh": "什么也看不清。",
+      "en": "I can't see anything."
+    },
+    {
+      "zh": "什么老地方？",
+      "en": "What usual spot?"
+    },
+    {
+      "zh": "什么？",
+      "en": "What?"
+    },
+    {
+      "zh": "仍缺少物品/文件",
+      "en": "An item or document is still missing."
+    },
+    {
+      "zh": "从安保室找到的灯油，可以用来补充小油灯。",
+      "en": "Oil found in the security room. It can refill the small oil lamp."
+    },
+    {
+      "zh": "从旧报纸上撕下的一块碎片。",
+      "en": "A torn piece of an old newspaper."
+    },
+    {
+      "zh": "从次卧衣柜里找到的背带装。",
+      "en": "Overalls found in the second bedroom's wardrobe."
+    },
+    {
+      "zh": "从篮球架上打落的钥匙。",
+      "en": "A key knocked down from the basketball stand."
+    },
+    {
+      "zh": "他也一起去吧，我还有好多事情要问他。",
+      "en": "He should come too. I still have so much to ask him."
+    },
+    {
+      "zh": "他们又在计划什么，我得抢在他们之前先把这事解决了，要不然永远没完。",
+      "en": "What are they planning now? I have to deal with this before they do, or it'll never end."
+    },
+    {
+      "zh": "他们把我锁里面了，钥匙被他们拿走了。",
+      "en": "They locked me in. They took the key."
+    },
+    {
+      "zh": "他？……",
+      "en": "Him?..."
+    },
+    {
+      "zh": "以后还会来的嘛，我喜欢这。",
+      "en": "We'll come back, won't we? I like it here."
+    },
+    {
+      "zh": "似乎没有人注意到我。",
+      "en": "No one seems to notice me."
+    },
+    {
+      "zh": "但有些东西……你得自己看见。",
+      "en": "But there are some things... you have to see for yourself."
+    },
+    {
+      "zh": "体育器材室",
+      "en": "Sports Equipment Room"
+    },
+    {
+      "zh": "体育器材室独立内部",
+      "en": "Separate sports-equipment-room interior"
+    },
+    {
+      "zh": "你也一起来吧，难得小鹏愿意出去找朋友玩。",
+      "en": "You should join us too. It's not often Xiao Peng wants to go out and see a friend."
+    },
+    {
+      "zh": "你什么密码都喜欢用同一个。",
+      "en": "You use the same password for everything."
+    },
+    {
+      "zh": "你刚才不怕他们连你一起骂吗？",
+      "en": "Weren't you scared they'd start shouting at you too?"
+    },
+    {
+      "zh": "你又知道我以前了？我小时候也不怎么爱说话，但经常听到勇敢骑士的故事，挺喜欢。",
+      "en": "Now you know what I was like before? I didn't talk much as a kid either, but I often heard stories about brave knights. I liked them."
+    },
+    {
+      "zh": "你好，我是肖鹏，这是要准备去哪？",
+      "en": "Hello, I'm Xiao Peng. Where are we going?"
+    },
+    {
+      "zh": "你弹得真好。",
+      "en": "You play really well."
+    },
+    {
+      "zh": "你怎么从一楼上来了，我还以为你在二楼。",
+      "en": "How did you come up from the ground floor? I thought you were upstairs."
+    },
+    {
+      "zh": "你怎么来了？",
+      "en": "What are you doing here?"
+    },
+    {
+      "zh": "你怎么满头大汗的，还好吧？",
+      "en": "Why are you sweating so much? Are you okay?"
+    },
+    {
+      "zh": "你怎么知道我的生日？",
+      "en": "How do you know it's my birthday?"
+    },
+    {
+      "zh": "你怎么知道？",
+      "en": "How do you know?"
+    },
+    {
+      "zh": "你收到刘队发的邮件了吧，这群团伙可真难找。希望这次能一网打尽，咱们一起过去。",
+      "en": "You got Captain Liu's email, right? This gang has been hard to find. Hopefully we can round them all up this time. Let's go together."
+    },
+    {
+      "zh": "你早知道我会收到这封邮件？",
+      "en": "You knew I would get this email?"
+    },
+    {
+      "zh": "你是想...",
+      "en": "You're thinking..."
+    },
+    {
+      "zh": "你是肖警官吧，我是新来的警员张辰。",
+      "en": "You must be Officer Xiao. I'm Zhang Chen, the new officer."
+    },
+    {
+      "zh": "你是谁，我要去哪里找他们？",
+      "en": "Who are you? Where can I find them?"
+    },
+    {
+      "zh": "你是谁？",
+      "en": "Who are you?"
+    },
+    {
+      "zh": "你最好是。隔壁班张若媛好像有事找你，你有空了过去一班看看吧。",
+      "en": "You'd better. Zhang Ruoyuan in the next class seems to need you. Go and see her in Class 1 when you have time."
+    },
+    {
+      "zh": "你来了，我把U盘带过来了，你确定想好了吗？",
+      "en": "You're here. I brought the USB drive. Are you sure you've thought this through?"
+    },
+    {
+      "zh": "你没事吧？",
+      "en": "Are you all right?"
+    },
+    {
+      "zh": "你爸爸妈妈来了嘛？",
+      "en": "Are your mom and dad here yet?"
+    },
+    {
+      "zh": "你现在还不会相信我。",
+      "en": "You wouldn't believe me yet."
+    },
+    {
+      "zh": "你的意识消散了",
+      "en": "Your consciousness faded"
+    },
+    {
+      "zh": "你的手臂没事吧，怎么有这么大一道伤口，你还好吗？",
+      "en": "Is your arm all right? That's a huge wound. Are you okay?"
+    },
+    {
+      "zh": "你装什么",
+      "en": "Who do you think you are?"
+    },
+    {
+      "zh": "你要走了吗？我有个东西送给你。",
+      "en": "Are you leaving? I have something for you."
+    },
+    {
+      "zh": "你认识他？",
+      "en": "You know him?"
+    },
+    {
+      "zh": "你认识我吗？这里怎么了",
+      "en": "Do you know me? What happened here?"
+    },
+    {
+      "zh": "你还喜欢拍照。",
+      "en": "You liked taking pictures too."
+    },
+    {
+      "zh": "你还在家啊？",
+      "en": "You're still at home?"
+    },
+    {
+      "zh": "你还是和以前一样，实在是太仗义了。",
+      "en": "You're just like you used to be. You always stand up for people."
+    },
+    {
+      "zh": "你还能走吗？",
+      "en": "Can you still walk?"
+    },
+    {
+      "zh": "你还跟着我？",
+      "en": "You're still following me?"
+    },
+    {
+      "zh": "使用",
+      "en": "Use"
+    },
+    {
+      "zh": "便利店",
+      "en": "Convenience Store"
+    },
+    {
+      "zh": "便利店老板",
+      "en": "Shopkeeper"
+    },
+    {
+      "zh": "便利贴",
+      "en": "Sticky Note"
+    },
+    {
+      "zh": "保存游戏",
+      "en": "Save Game"
+    },
+    {
+      "zh": "倒影还在那里。",
+      "en": "The reflection is still there."
+    },
+    {
+      "zh": "像是从里面反锁了。",
+      "en": "It seems to be locked from the inside."
+    },
+    {
+      "zh": "像是曾经被人反复拉开过。",
+      "en": "As if someone used to open it again and again."
+    },
+    {
+      "zh": "先去客厅吧，晚餐准备好了。",
+      "en": "Go to the living room first. Dinner is ready."
+    },
+    {
+      "zh": "先去找朋友吧。",
+      "en": "Go and find your friend first."
+    },
+    {
+      "zh": "先向主任告别吧。",
+      "en": "Say goodbye to the dean first."
+    },
+    {
+      "zh": "先回房间休息吧。",
+      "en": "Go back to the bedroom and rest first."
+    },
+    {
+      "zh": "先按 R 举起小油灯，再进入黑雾。",
+      "en": "Press R to raise the small oil lamp before entering the black fog."
+    },
+    {
+      "zh": "先接电话吧，准备出门了。二楼就别上去了。",
+      "en": "Answer the phone first, then get ready to go out. Don't go upstairs."
+    },
+    {
+      "zh": "先接电话，再拿上桌上的相机吧。",
+      "en": "Answer the phone first, then take the camera from the table."
+    },
+    {
+      "zh": "光天化日进女厕所不太好吧，还是先别进去了",
+      "en": "I should not be going into the girls' restroom in broad daylight. Better stay out."
+    },
+    {
+      "zh": "全局音量",
+      "en": "Master Volume"
+    },
+    {
+      "zh": "全游戏制作：袁潇鹏\n\n部分内容由 AI 辅助生成",
+      "en": "Created by Yuan Xiaopeng\n\nSome content was created with AI assistance."
+    },
+    {
+      "zh": "公主",
+      "en": "Princess"
+    },
+    {
+      "zh": "公告 ",
+      "en": "Notice "
+    },
+    {
+      "zh": "公告栏",
+      "en": "Noticeboard"
+    },
+    {
+      "zh": "公用电脑",
+      "en": "Shared Computer"
+    },
+    {
+      "zh": "关键物品",
+      "en": "Key Items"
+    },
+    {
+      "zh": "关闭菜单",
+      "en": "Close Menu"
+    },
+    {
+      "zh": "内心",
+      "en": "Thoughts"
+    },
+    {
+      "zh": "再拉开一点距离，然后松手投掷。  [Esc] 放下篮球",
+      "en": "Pull back a little farther, then release to throw.  [Esc] Put down basketball"
+    },
+    {
+      "zh": "再看看这里吧。",
+      "en": "Look around here some more."
+    },
+    {
+      "zh": "再给你一次机会吧。",
+      "en": "I'll give you one more try."
+    },
+    {
+      "zh": "冷启动验证：",
+      "en": "Cold-start check: "
+    },
+    {
+      "zh": "准备出门吧。",
+      "en": "Time to get ready to go out."
+    },
+    {
+      "zh": "击中了挡板！",
+      "en": "You hit the board!"
+    },
+    {
+      "zh": "分辨率",
+      "en": "Resolution"
+    },
+    {
+      "zh": "刘队我之前认识，我们合作过一段时间。",
+      "en": "I knew Captain Liu before. We worked together for a while."
+    },
+    {
+      "zh": "刘队派我过来的，你那颗痣我一眼就认出来了，哈哈。",
+      "en": "Captain Liu sent me. I recognized you straight away from that mole. Ha ha."
+    },
+    {
+      "zh": "刚才有一瞬间，我还以为身后站着一个人。",
+      "en": "For a second, I thought someone was standing behind me."
+    },
+    {
+      "zh": "别急。",
+      "en": "Don't rush."
+    },
+    {
+      "zh": "别急，慢慢想。我在东郊等你。",
+      "en": "Don't rush. Take your time. I'll wait for you in the eastern suburbs."
+    },
+    {
+      "zh": "别跑太远。",
+      "en": "Don't go too far."
+    },
+    {
+      "zh": "制作名单",
+      "en": "Credits"
+    },
+    {
+      "zh": "前往三楼教师办公室",
+      "en": "Go to the teachers' office on the third floor"
+    },
+    {
+      "zh": "前往二楼一班",
+      "en": "Go to Class 1 on the second floor"
+    },
+    {
+      "zh": "前往客厅拿上相机",
+      "en": "Get the camera from the living room"
+    },
+    {
+      "zh": "前面一片漆黑。",
+      "en": "Pitch-black darkness ahead."
+    },
+    {
+      "zh": "前面那是什么？",
+      "en": "What's that up ahead?"
+    },
+    {
+      "zh": "剩余 ",
+      "en": "Remaining: "
+    },
+    {
+      "zh": "力度",
+      "en": "Power"
+    },
+    {
+      "zh": "力度 ",
+      "en": "Power: "
+    },
+    {
+      "zh": "医生",
+      "en": "Doctor"
+    },
+    {
+      "zh": "卡",
+      "en": " Card"
+    },
+    {
+      "zh": "却又不断被推回往昔。",
+      "en": "borne back ceaselessly into the past."
+    },
+    {
+      "zh": "原本的衣着。",
+      "en": "The clothes I was wearing before."
+    },
+    {
+      "zh": "去一班找张若媛。",
+      "en": "Go to Class 1 and find Zhang Ruoyuan."
+    },
+    {
+      "zh": "去找朋友。",
+      "en": "To see a friend."
+    },
+    {
+      "zh": "去过一次也是老地方。快点啊，我有东西给你看。",
+      "en": "Once is enough to make it our usual spot. Hurry up! I've got something to show you."
+    },
+    {
+      "zh": "又是这个故事，老套啦。",
+      "en": "This story again? It's so old."
+    },
+    {
+      "zh": "反叛者",
+      "en": "Rebel"
+    },
+    {
+      "zh": "发件人：",
+      "en": "From: "
+    },
+    {
+      "zh": "取出的拨片项链",
+      "en": "Guitar-Pick Necklace"
+    },
+    {
+      "zh": "取得灯油，逃离学校",
+      "en": "Get the lamp oil and escape the school"
+    },
+    {
+      "zh": "取消",
+      "en": "Cancel"
+    },
+    {
+      "zh": "取消选择",
+      "en": "Deselect"
+    },
+    {
+      "zh": "只是雨水……",
+      "en": "Just rainwater..."
+    },
+    {
+      "zh": "可以呀。",
+      "en": "Of course."
+    },
+    {
+      "zh": "可以用来摹出桌面刻痕的铅笔。",
+      "en": "A pencil for tracing the scratches on the desk."
+    },
+    {
+      "zh": "可怕也不能装没看见。",
+      "en": "But being scared doesn't mean I can pretend I didn't see it."
+    },
+    {
+      "zh": "可这封邮件后面发生了什么，我还是不知道。",
+      "en": "But I still don't know what happened after that email."
+    },
+    {
+      "zh": "台座",
+      "en": "Pedestal"
+    },
+    {
+      "zh": "同一物品不能重复选择。",
+      "en": "You cannot select the same item twice."
+    },
+    {
+      "zh": "同伴坐标无效",
+      "en": "Invalid companion coordinates"
+    },
+    {
+      "zh": "同伴身份不兼容",
+      "en": "Incompatible companion identity"
+    },
+    {
+      "zh": "向焱",
+      "en": "Xiang Yan"
+    },
+    {
+      "zh": "否",
+      "en": "No"
+    },
+    {
+      "zh": "听书居民",
+      "en": "Listener"
+    },
+    {
+      "zh": "咱们下午是不是有节体育课？",
+      "en": "Don't we have PE this afternoon?"
+    },
+    {
+      "zh": "哎，好！下完这盘就回。",
+      "en": "Ah, all right! I'll go after this game."
+    },
+    {
+      "zh": "啊，头好痛！",
+      "en": "Ah! My head!"
+    },
+    {
+      "zh": "喂？",
+      "en": "Hello?"
+    },
+    {
+      "zh": "嗯……好。",
+      "en": "Um... okay."
+    },
+    {
+      "zh": "嗯……好。咱们先上车吧。",
+      "en": "Um... all right. Let's get in the car first."
+    },
+    {
+      "zh": "嗯。",
+      "en": "Yeah."
+    },
+    {
+      "zh": "嗯。您在钓鱼？",
+      "en": "Yeah. Are you fishing?"
+    },
+    {
+      "zh": "嗯，小时候的那个朋友，还有学校里的那些事……我想起来一些了。",
+      "en": "Yeah. That childhood friend, and what happened at school... I've remembered some of it."
+    },
+    {
+      "zh": "嘘，待会出去说。",
+      "en": "Shh. We'll talk outside in a bit."
+    },
+    {
+      "zh": "器材室钥匙",
+      "en": "Equipment-Room Key"
+    },
+    {
+      "zh": "四楼完整左右可走天台",
+      "en": "Complete rooftop route, accessible on both sides"
+    },
+    {
+      "zh": "回家",
+      "en": "Go home"
+    },
+    {
+      "zh": "围观木偶",
+      "en": "Puppet Audience"
+    },
+    {
+      "zh": "在体育器材室找到的校服。",
+      "en": "A school uniform found in the sports equipment room."
+    },
+    {
+      "zh": "在报纸碎片下面找到的一把旧钥匙。",
+      "en": "An old key found beneath a newspaper fragment."
+    },
+    {
+      "zh": "在路上呢，估计还要一会。",
+      "en": "They're on their way. It'll probably be a while."
+    },
+    {
+      "zh": "场景不在当前构建中",
+      "en": "This scene is not included in the build."
+    },
+    {
+      "zh": "场景初始化超时，未放开玩家控制",
+      "en": "Scene initialization timed out. Player control remains locked."
+    },
+    {
+      "zh": "城门前的小骑士",
+      "en": "The Little Knight at the City Gate"
+    },
+    {
+      "zh": "城门前的小骑士 · 第 ",
+      "en": "The Little Knight at the City Gate - Act "
+    },
+    {
+      "zh": "墙上挂着一张已经发黄的合影。",
+      "en": "A yellowed group photo hangs on the wall."
+    },
+    {
+      "zh": "墙根的小猫",
+      "en": "Kitten by the Wall"
+    },
+    {
+      "zh": "外面发生什么了？我们先出去看看吧。",
+      "en": "What's happening outside? Let's go and take a look."
+    },
+    {
+      "zh": "天台",
+      "en": "Rooftop"
+    },
+    {
+      "zh": "天台楼梯",
+      "en": "Rooftop Stairwell"
+    },
+    {
+      "zh": "太多人把路口堵住了，不知道在说些什么，过不去",
+      "en": "There are too many people blocking the way. I wonder what they are talking about. I cannot get through."
+    },
+    {
+      "zh": "头好痛，记忆要承受不过来了。",
+      "en": "My head hurts. I can't take all these memories."
+    },
+    {
+      "zh": "头好痛，这是哪里？",
+      "en": "My head hurts... Where am I?"
+    },
+    {
+      "zh": "套中了！ · 剩余 ",
+      "en": "You got it! | Remaining: "
+    },
+    {
+      "zh": "套圈",
+      "en": "Ring Toss"
+    },
+    {
+      "zh": "套圈挑战",
+      "en": "Ring-Toss Challenge"
+    },
+    {
+      "zh": "套圈老板",
+      "en": "Ring-Toss Vendor"
+    },
+    {
+      "zh": "女厕",
+      "en": "Girls' Restroom"
+    },
+    {
+      "zh": "她今早还叫我们一起去吃晚餐呢。",
+      "en": "She invited us over for dinner this morning too."
+    },
+    {
+      "zh": "好……好的。谢谢叔。",
+      "en": "O-okay. Thank you, Uncle."
+    },
+    {
+      "zh": "好像有人在这呆过一阵子",
+      "en": "It looks like someone spent some time here."
+    },
+    {
+      "zh": "好模糊，这里躺着的是谁？",
+      "en": "It's so blurry. Who is lying here?"
+    },
+    {
+      "zh": "好，你先回去吧，课也快开始了。",
+      "en": "All right. Head back. Class will start soon."
+    },
+    {
+      "zh": "妈妈",
+      "en": "Mom"
+    },
+    {
+      "zh": "姓名：肖鹏。这是我的工作证件，已经整理完整，可以带上出发了。",
+      "en": "Name: Xiao Peng. My work identification is complete now. I can take it with me and set off."
+    },
+    {
+      "zh": "存档 ",
+      "en": "Save Slot "
+    },
+    {
+      "zh": "存档大小异常",
+      "en": "Invalid save size"
+    },
+    {
+      "zh": "存档文件资源缺失：",
+      "en": "Missing saved document asset: "
+    },
+    {
+      "zh": "存档校验失败",
+      "en": "Save integrity check failed"
+    },
+    {
+      "zh": "存档版本或槽位不兼容",
+      "en": "Incompatible save version or slot"
+    },
+    {
+      "zh": "存档物品资源缺失：",
+      "en": "Missing saved item asset: "
+    },
+    {
+      "zh": "存档状态缺失",
+      "en": "Missing saved state"
+    },
+    {
+      "zh": "存档状态越界",
+      "en": "Saved state is out of range"
+    },
+    {
+      "zh": "孙付",
+      "en": "Sun Fu"
+    },
+    {
+      "zh": "孙付叔，李梅阿姨叫你回去准备做晚饭。",
+      "en": "Uncle Sun Fu, Aunt Li Mei wants you to come home and get dinner ready."
+    },
+    {
+      "zh": "孙福",
+      "en": "Sun Fu"
+    },
+    {
+      "zh": "学校大门",
+      "en": "School Gate"
+    },
+    {
+      "zh": "学校房间不存在",
+      "en": "The school room does not exist."
+    },
+    {
+      "zh": "学校追逐系统尚未就绪",
+      "en": "The school chase system is not ready."
+    },
+    {
+      "zh": "它怀里好像护着什么，还是别抢了。",
+      "en": "It seems to be guarding something. I'd better not grab it."
+    },
+    {
+      "zh": "它看起来很旧，也许就是那扇铁门的钥匙。",
+      "en": "It looks old enough to belong to that gate."
+    },
+    {
+      "zh": "安保人员不在。窗内是正常的监控屏幕和一台公用电脑。",
+      "en": "The security staff are away. Inside the window are working surveillance screens and a shared computer."
+    },
+    {
+      "zh": "安保人员外出中，急事可使用安保室中的公共电脑进行监控查看",
+      "en": "Security staff are out. For urgent matters, use the shared computer in the security room to view surveillance footage."
+    },
+    {
+      "zh": "安保室",
+      "en": "Security Room"
+    },
+    {
+      "zh": "安保室密码锁",
+      "en": "Security-Room Combination Lock"
+    },
+    {
+      "zh": "安保室独立内部",
+      "en": "Separate security-room interior"
+    },
+    {
+      "zh": "安保室窗内",
+      "en": "Inside the Security-Room Window"
+    },
+    {
+      "zh": "安保室落点尚未就绪。",
+      "en": "The security-room arrival point is not ready."
+    },
+    {
+      "zh": "完美",
+      "en": "Perfect"
+    },
+    {
+      "zh": "客厅",
+      "en": "Living Room"
+    },
+    {
+      "zh": "室内无人、监控正常、桌上有电脑",
+      "en": "No one is inside. The cameras are working, and there is a computer on the desk."
+    },
+    {
+      "zh": "家属院",
+      "en": "Residential Courtyard"
+    },
+    {
+      "zh": "家属院引路人未就绪",
+      "en": "The courtyard guide is not ready."
+    },
+    {
+      "zh": "家属院的铁门敞着。",
+      "en": "The courtyard's iron gate is open."
+    },
+    {
+      "zh": "家常饭店",
+      "en": "Family Restaurant"
+    },
+    {
+      "zh": "家庭相机",
+      "en": "Family Camera"
+    },
+    {
+      "zh": "家里的照片",
+      "en": "Family Photo"
+    },
+    {
+      "zh": "密码不对。",
+      "en": "That is not the right combination."
+    },
+    {
+      "zh": "密码位 ",
+      "en": "Digit "
+    },
+    {
+      "zh": "密码修改成功",
+      "en": "Password changed successfully"
+    },
+    {
+      "zh": "密码错误",
+      "en": "Incorrect Password"
+    },
+    {
+      "zh": "对不起，我——",
+      "en": "I'm sorry, I--"
+    },
+    {
+      "zh": "对了，谢谢你。",
+      "en": "By the way, thank you."
+    },
+    {
+      "zh": "对了，顺手登陆下我的媒体改个密码，就用我和郑涛的姓名首字母加上我的生日吧，他们应该想不到了",
+      "en": "While I'm here, I'll log into my social account and change the password. I'll use my and Zheng Tao's initials, then my birthday. They shouldn't guess that."
+    },
+    {
+      "zh": "对，上次跟你说我爸爸的新吉他，就是这个。",
+      "en": "Right, this is my dad's new guitar. The one I told you about last time."
+    },
+    {
+      "zh": "对，我一直替你收着没敢给你。但我觉得你现在已经准备好想起来了。",
+      "en": "Yes. I've been keeping it for you. I didn't dare give it back before. But I think you're ready to remember now."
+    },
+    {
+      "zh": "对，我觉得老师应该要知道这些事，不能再让这群人欺负郑涛了。",
+      "en": "Yes. The teachers need to know. We can't let them keep bullying Zheng Tao."
+    },
+    {
+      "zh": "对，放心，他不会妨碍我们的。",
+      "en": "Yes. Don't worry. He won't get in our way."
+    },
+    {
+      "zh": "寻找钥匙",
+      "en": "Find the key"
+    },
+    {
+      "zh": "寻找铁门钥匙",
+      "en": "Find the gate key"
+    },
+    {
+      "zh": "将军！这步你可没看见吧。",
+      "en": "Check! Didn't see that coming, did you?"
+    },
+    {
+      "zh": "将引路人交还的证件放入破旧证件套后，身份信息终于完整了。",
+      "en": "With the identification returned by the guide placed inside the worn holder, the identity details are finally complete."
+    },
+    {
+      "zh": "将相机放至机架",
+      "en": "Put the camera on the stand"
+    },
+    {
+      "zh": "小心别太聪明了。",
+      "en": "Careful. Don't get too clever."
+    },
+    {
+      "zh": "小朋友，要吃饭吗？",
+      "en": "Want something to eat, young man?"
+    },
+    {
+      "zh": "小油灯",
+      "en": "Small Oil Lamp"
+    },
+    {
+      "zh": "小油灯没燃料了，暂时回不去了",
+      "en": "The small oil lamp is out of fuel. I can't go back for now."
+    },
+    {
+      "zh": "小油灯燃料耗尽了，暂时亮不起来了",
+      "en": "The small oil lamp has run out of fuel. It will not light for now."
+    },
+    {
+      "zh": "小猫低头吃了起来，露出原本护着的一枚游戏币。",
+      "en": "The kitten bends down to eat, revealing the game token it was guarding."
+    },
+    {
+      "zh": "小猫低头吃着鱼仔，身旁露出一枚游戏币。",
+      "en": "The kitten is eating the fish. A game token has appeared beside it."
+    },
+    {
+      "zh": "小猫吃得正香。",
+      "en": "The kitten is enjoying its meal."
+    },
+    {
+      "zh": "小猫懒洋洋地趴着。",
+      "en": "The kitten is lazing around."
+    },
+    {
+      "zh": "小猫移开了，游戏币露了出来。",
+      "en": "The kitten moved aside, revealing a game token."
+    },
+    {
+      "zh": "小猫近景",
+      "en": "Kitten Close-up"
+    },
+    {
+      "zh": "小鱼仔",
+      "en": "Small Fish"
+    },
+    {
+      "zh": "小鹏",
+      "en": "Xiao Peng"
+    },
+    {
+      "zh": "小鹏出来玩了？小孩子就是要多走走才对。村西边有个说书人，小娃娃感兴趣可以去听听。",
+      "en": "Out playing, Xiao Peng? Children should get out more. There's a storyteller on the west side of the village. You could go and listen if you're interested."
+    },
+    {
+      "zh": "小鹏难得交上个朋友……也不知道这孩子会在镇上住多久。",
+      "en": "It's not often Xiao Peng makes a friend... I wonder how long this boy will stay in town."
+    },
+    {
+      "zh": "小鹏，电话响半天了。",
+      "en": "Xiao Peng, the phone has been ringing for ages."
+    },
+    {
+      "zh": "小鹏，相机给我吧，待会给你拍张照。",
+      "en": "Xiao Peng, give me the camera. I'll take your picture in a moment."
+    },
+    {
+      "zh": "小鹏？今天竟然出来玩啦。",
+      "en": "Xiao Peng? You're actually out playing today."
+    },
+    {
+      "zh": "就上次那个地方啊。",
+      "en": "The place we went last time."
+    },
+    {
+      "zh": "就是你向教导老师告状是吧，那你也一起陪葬吧。",
+      "en": "So you're the one who told the dean. Then you can go down with him."
+    },
+    {
+      "zh": "差一点…… · 剩余 ",
+      "en": "So close... | Remaining: "
+    },
+    {
+      "zh": "已保存至存档 ",
+      "en": "Saved to Slot "
+    },
+    {
+      "zh": "已入场的公主",
+      "en": "Princess on Stage"
+    },
+    {
+      "zh": "已入场的反叛者",
+      "en": "Rebel on Stage"
+    },
+    {
+      "zh": "已到达 Stage 5A 体验终点。\n可在教室内活动，或退出 Play Mode。",
+      "en": "This section of the preview is complete.\nYou can explore the classroom, or leave Play Mode."
+    },
+    {
+      "zh": "已拷入用于举报的监控视频",
+      "en": "Contains the surveillance footage for the report."
+    },
+    {
+      "zh": "已放入背包",
+      "en": " added to inventory"
+    },
+    {
+      "zh": "已穿戴",
+      "en": "Equipped"
+    },
+    {
+      "zh": "已经闻得到饭香。",
+      "en": "I can already smell dinner."
+    },
+    {
+      "zh": "已获得监控",
+      "en": "Surveillance footage obtained"
+    },
+    {
+      "zh": "巷道在前面转了个弯。",
+      "en": "The alley bends up ahead."
+    },
+    {
+      "zh": "干嘛呢，被我抓到了吧",
+      "en": "What are you doing? Caught you!"
+    },
+    {
+      "zh": "干嘛呢，被我抓到了吧。",
+      "en": "What are you doing? Caught you!"
+    },
+    {
+      "zh": "平时叫你出去走走都不肯。今天过生日，难得有朋友来约。",
+      "en": "You never want to go out when we ask. It's nice that a friend has invited you out on your birthday."
+    },
+    {
+      "zh": "年轻的守门骑士站到公主与反叛者／群众之间。\n把骑士拖到两方之间。",
+      "en": "The young knight at the gate stands between the princess and the rebel / crowd.\nDrag the knight between the two sides."
+    },
+    {
+      "zh": "床铺已经发潮，床头还能看到一些被磨得发白的痕迹。",
+      "en": "The bedding is damp. Pale, worn marks are still visible on the headboard."
+    },
+    {
+      "zh": "开关已经失灵了，灯罩里积着一层灰。",
+      "en": "The switch no longer works. A layer of dust has settled inside the shade."
+    },
+    {
+      "zh": "开发检查点",
+      "en": "Development Checkpoint"
+    },
+    {
+      "zh": "开发检查点：本阶段已完成，后续追逐待接入",
+      "en": "Development checkpoint: this section is complete; the following chase has not been connected yet."
+    },
+    {
+      "zh": "开始新游戏",
+      "en": "New Game"
+    },
+    {
+      "zh": "开始新游戏？未保存的进度将丢失，已有存档保留。",
+      "en": "Start a new game? Unsaved progress will be lost. Existing saves will be kept."
+    },
+    {
+      "zh": "开始游戏",
+      "en": "Start Game"
+    },
+    {
+      "zh": "引路人一直替我收着的证件。",
+      "en": "The identification the guide has been keeping for me."
+    },
+    {
+      "zh": "张晨",
+      "en": "Zhang Chen"
+    },
+    {
+      "zh": "张若媛",
+      "en": "Zhang Ruoyuan"
+    },
+    {
+      "zh": "张若媛交给我的空U盘，可以用来拷贝监控视频。",
+      "en": "An empty USB drive Zhang Ruoyuan gave me. I can use it to copy the surveillance footage."
+    },
+    {
+      "zh": "张若媛在一班等你。",
+      "en": "Zhang Ruoyuan is waiting in Class 1."
+    },
+    {
+      "zh": "张若媛点了点头。",
+      "en": "Zhang Ruoyuan nodded."
+    },
+    {
+      "zh": "张若媛（待机）",
+      "en": "Zhang Ruoyuan"
+    },
+    {
+      "zh": "张若源",
+      "en": "Zhang Ruoyuan"
+    },
+    {
+      "zh": "张辰",
+      "en": "Zhang Chen"
+    },
+    {
+      "zh": "弹点什么呢……奥对，今天是你的生日，就弹《生日快乐》吧。",
+      "en": "What should I play... Oh, right! It's your birthday today. Let's play Happy Birthday."
+    },
+    {
+      "zh": "当前无法保存：请在自由行动时保存。",
+      "en": "Saving is unavailable right now. Save while freely exploring."
+    },
+    {
+      "zh": "当前无法保存：请站稳后重试。",
+      "en": "Saving is unavailable right now. Stand still and try again."
+    },
+    {
+      "zh": "当前语言：",
+      "en": "Current language: "
+    },
+    {
+      "zh": "当前镜头尚未就绪",
+      "en": "The current camera is not ready."
+    },
+    {
+      "zh": "快去休息吧。",
+      "en": "Go and get some rest."
+    },
+    {
+      "zh": "快去找朋友吧，别让人等急了。",
+      "en": "Go and find your friend. Don't keep him waiting."
+    },
+    {
+      "zh": "快来呀。",
+      "en": "Come on!"
+    },
+    {
+      "zh": "快，快让一下，快让！",
+      "en": "Quick! Make room! Please, move!"
+    },
+    {
+      "zh": "怕啊。",
+      "en": "Of course I was."
+    },
+    {
+      "zh": "怪不得。",
+      "en": "That explains it."
+    },
+    {
+      "zh": "感谢游玩",
+      "en": "Thank you for playing"
+    },
+    {
+      "zh": "我不知道该怎么告诉你。",
+      "en": "I don't know how to tell you."
+    },
+    {
+      "zh": "我也不知道。",
+      "en": "I don't know either."
+    },
+    {
+      "zh": "我也挺喜欢音乐的。",
+      "en": "I like music quite a lot too."
+    },
+    {
+      "zh": "我也来？",
+      "en": "Me too?"
+    },
+    {
+      "zh": "我们就在这玩过一次，怎么就变成老地方了。",
+      "en": "We've only played here once. How is it our usual spot already?"
+    },
+    {
+      "zh": "我们才去过一次。",
+      "en": "We've only been there once."
+    },
+    {
+      "zh": "我们认识吗？",
+      "en": "Do we know each other?"
+    },
+    {
+      "zh": "我儿子炳瑞最近回家，说城里的音乐剧很好看。我们也想以后去城里听听音乐。",
+      "en": "My son Bingrui came home recently and said the musicals in the city are wonderful. We'd like to go and hear some music too."
+    },
+    {
+      "zh": "我先跑出来玩了。",
+      "en": "I ran out to play first."
+    },
+    {
+      "zh": "我和赵今瑞还想着，以后攒点钱，去城市旅游。",
+      "en": "Zhao Jinrui and I are thinking of saving up for a trip to the city someday."
+    },
+    {
+      "zh": "我好像把密码设置成了我和郑涛的姓名首字母加上我的生日。",
+      "en": "I think I used my and Zheng Tao's initials, followed by my birthday, for the password."
+    },
+    {
+      "zh": "我应该把它收起来。",
+      "en": "I should keep this."
+    },
+    {
+      "zh": "我爸爸教我的。",
+      "en": "My dad taught me."
+    },
+    {
+      "zh": "我猜的，而且你现在还带着相机呢。",
+      "en": "A guess. Besides, you've still got a camera with you."
+    },
+    {
+      "zh": "我的倒影……看起来很正常。",
+      "en": "My reflection... looks normal."
+    },
+    {
+      "zh": "我的脸上为什么会有血？",
+      "en": "Why is there blood on my face?"
+    },
+    {
+      "zh": "我的证件？",
+      "en": "My identification?"
+    },
+    {
+      "zh": "我知道他会挺身而出",
+      "en": "I knew he would step forward."
+    },
+    {
+      "zh": "我这不是想让你的桌子更有标志性嘛。和你一样，别人一眼就记住你眼角的痣了。",
+      "en": "I'm just making your desk easier to recognize. Like you. People remember that mole by your eye straight away."
+    },
+    {
+      "zh": "我迷迷糊糊醒来，也不知道发生了什么。",
+      "en": "I woke up in a daze. I had no idea what had happened."
+    },
+    {
+      "zh": "我都出来了。老地方等你。",
+      "en": "I'm already out. I'll wait at our usual spot."
+    },
+    {
+      "zh": "我问的是，你是谁。",
+      "en": "I asked who you are."
+    },
+    {
+      "zh": "我？",
+      "en": "Me?"
+    },
+    {
+      "zh": "所以你……",
+      "en": "So you..."
+    },
+    {
+      "zh": "所以你是怎么知道这些情况的？",
+      "en": "So how do you know all this?"
+    },
+    {
+      "zh": "打开",
+      "en": "Open"
+    },
+    {
+      "zh": "找到了，现在把监控视频拷进U盘吧",
+      "en": "Found it. Now I'll copy the surveillance footage onto the USB drive."
+    },
+    {
+      "zh": "把家里的相机挂在了胸前。",
+      "en": "The family camera is hanging around my neck."
+    },
+    {
+      "zh": "把小鱼仔放在一旁。",
+      "en": "You put the small fish down beside the kitten."
+    },
+    {
+      "zh": "把架上的钥匙打下来",
+      "en": "Knock the key off the shelf"
+    },
+    {
+      "zh": "把桌上的相机带上吧，出去玩随便拍拍。",
+      "en": "Take the camera from the table. Have fun and take some pictures."
+    },
+    {
+      "zh": "把鱼仔放在一旁",
+      "en": "Put the Fish Beside It"
+    },
+    {
+      "zh": "投掷",
+      "en": "Throw"
+    },
+    {
+      "zh": "投掷场",
+      "en": "Throwing Area"
+    },
+    {
+      "zh": "投掷坐标",
+      "en": "Throwing Coordinates"
+    },
+    {
+      "zh": "抛物线预览",
+      "en": "Trajectory Preview"
+    },
+    {
+      "zh": "报纸碎片3",
+      "en": "Newspaper Fragment 3"
+    },
+    {
+      "zh": "报纸碎片一",
+      "en": "Newspaper Fragment 1"
+    },
+    {
+      "zh": "报道的大部分内容都缺失了。",
+      "en": "Most of the article is missing."
+    },
+    {
+      "zh": "抽屉已经打开，小油灯已取出。",
+      "en": "The drawer is already open. The small oil lamp has been taken."
+    },
+    {
+      "zh": "拉弦力度",
+      "en": "Throwing Power"
+    },
+    {
+      "zh": "拖住左下方的圈，向左下拉开后松手投掷；也可调节角度与力度，再点投掷。",
+      "en": "Hold the ring at the lower left, pull down and left, then release to throw. You can also adjust the angle and power and click Throw."
+    },
+    {
+      "zh": "拖动套圈",
+      "en": "Drag the Ring"
+    },
+    {
+      "zh": "拖动角色卡片，让故事继续。",
+      "en": "Drag the character cards into place to continue the story."
+    },
+    {
+      "zh": "拼合后的报纸",
+      "en": "Reassembled Newspaper"
+    },
+    {
+      "zh": "拾起游戏币",
+      "en": "Pick Up Game Token"
+    },
+    {
+      "zh": "拿在手里的瞬间，一种莫名的熟悉感从指尖传了上来。",
+      "en": "The moment I pick it up, an inexplicable familiarity spreads from my fingertips."
+    },
+    {
+      "zh": "拿稳了，别摔坏。晚饭前回来。",
+      "en": "Hold it carefully. Don't drop it. Be back before dinner."
+    },
+    {
+      "zh": "按 E 交互",
+      "en": "Press E to interact"
+    },
+    {
+      "zh": "按 E 继续",
+      "en": "Press E to continue"
+    },
+    {
+      "zh": "按E开始",
+      "en": "Press E to begin"
+    },
+    {
+      "zh": "按【tab】打开背包右键组合关键物品",
+      "en": "Press Tab to open the inventory. Right-click to combine key items."
+    },
+    {
+      "zh": "按住【Space】让灯光驱散向焱",
+      "en": "Hold Space to make the lamp's light drive Xiang Yan away."
+    },
+    {
+      "zh": "按住篮球，向投掷方向的反方向拖动，再松手。  [Esc] 放下篮球",
+      "en": "Hold the basketball, drag opposite to the direction you want to throw, then release.  [Esc] Put down basketball"
+    },
+    {
+      "zh": "按住鼠标左键，在刻痕上移动铅笔",
+      "en": "Hold the left mouse button and move the pencil over the scratches"
+    },
+    {
+      "zh": "按空格继续",
+      "en": "Press Space to continue"
+    },
+    {
+      "zh": "挺好的，你已经慢慢想起来了。",
+      "en": "That's good. You're starting to remember."
+    },
+    {
+      "zh": "损坏或不兼容\n此存档无法读取",
+      "en": "Damaged or incompatible\nThis save cannot be loaded"
+    },
+    {
+      "zh": "探索一楼",
+      "en": "Explore the ground floor"
+    },
+    {
+      "zh": "探索二楼次卧",
+      "en": "Explore the second bedroom upstairs"
+    },
+    {
+      "zh": "探索体育器材室",
+      "en": "Explore the sports equipment room"
+    },
+    {
+      "zh": "探索周围",
+      "en": "Explore the surroundings"
+    },
+    {
+      "zh": "探索周围，前往河畔寻找男孩",
+      "en": "Explore the neighborhood and find the boy by the river"
+    },
+    {
+      "zh": "探索学校",
+      "en": "Explore the school"
+    },
+    {
+      "zh": "探索客厅",
+      "en": "Explore the living room"
+    },
+    {
+      "zh": "探索家属院",
+      "en": "Explore the residential courtyard"
+    },
+    {
+      "zh": "探索屋外",
+      "en": "Explore outside"
+    },
+    {
+      "zh": "接电话",
+      "en": "Answer the phone"
+    },
+    {
+      "zh": "搭配不符。",
+      "en": "These do not go together."
+    },
+    {
+      "zh": "摊棚条纹",
+      "en": "Awning Stripes"
+    },
+    {
+      "zh": "收件箱",
+      "en": "Inbox"
+    },
+    {
+      "zh": "教导主任",
+      "en": "Dean of Students"
+    },
+    {
+      "zh": "教导主任已经收下了 U 盘。",
+      "en": "The dean has taken the USB drive."
+    },
+    {
+      "zh": "教师办公室",
+      "en": "Teachers' Office"
+    },
+    {
+      "zh": "教师办公室独立内部，语义属于三楼",
+      "en": "Separate teachers' office interior on the third floor"
+    },
+    {
+      "zh": "文件",
+      "en": "Documents"
+    },
+    {
+      "zh": "文件已更新",
+      "en": "Document updated"
+    },
+    {
+      "zh": "文件正文滚动区",
+      "en": "Document text scroll area"
+    },
+    {
+      "zh": "文件碎片2",
+      "en": "Document Fragment 2"
+    },
+    {
+      "zh": "斑驳墙根",
+      "en": "Weathered Wall"
+    },
+    {
+      "zh": "旁白",
+      "en": "Narrator"
+    },
+    {
+      "zh": "无反应",
+      "en": "No reaction"
+    },
+    {
+      "zh": "无效坐标",
+      "en": "Invalid coordinates"
+    },
+    {
+      "zh": "无效学校状态",
+      "en": "Invalid school state"
+    },
+    {
+      "zh": "无效时间或镜头",
+      "en": "Invalid play time or camera state"
+    },
+    {
+      "zh": "无效角色",
+      "en": "Invalid character"
+    },
+    {
+      "zh": "无法读取存档：文件损坏、版本不兼容或无法访问。请尝试其他存档。",
+      "en": "Unable to load this save. It may be damaged, incompatible, or inaccessible. Please try another save."
+    },
+    {
+      "zh": "旧全家福",
+      "en": "Old Family Photo"
+    },
+    {
+      "zh": "旧物交换活动\n本周日下午镇文化站院内举行旧书、旧玩具及闲置生活用品交换活动。\n——镇文化站",
+      "en": "Secondhand Exchange\nThis Sunday afternoon, the cultural center courtyard will host an exchange of used books, old toys, and spare household items.\n- Town Cultural Center"
+    },
+    {
+      "zh": "旧相机",
+      "en": "Old Camera"
+    },
+    {
+      "zh": "旧雨",
+      "en": "The Rain We Knew"
+    },
+    {
+      "zh": "昨天刚搬来的那个男孩吧？快去，别让朋友等急了。",
+      "en": "The boy who moved in yesterday? Off you go. Don't keep your friend waiting."
+    },
+    {
+      "zh": "昨天我们刚搬过来的时候去你们家做客，你妈妈说的。",
+      "en": "Your mom told us when we visited your house yesterday, after we moved in."
+    },
+    {
+      "zh": "是",
+      "en": "Yes"
+    },
+    {
+      "zh": "是吗，我小时候有个朋友他也喜欢这些故事和摄影。后来我搬走了，估计他也不记得了。",
+      "en": "Did I? I had a friend when I was little who liked those stories and photography too. Then I moved away. He probably doesn't remember anymore."
+    },
+    {
+      "zh": "是啊，还有那个肖鹏。得想个办法把他们拆开。",
+      "en": "Yeah. And Xiao Peng. We need to find a way to split them up."
+    },
+    {
+      "zh": "是嘛！你这是要去哪儿？",
+      "en": "Do you? Where are you off to?"
+    },
+    {
+      "zh": "是昨天刚搬来的那个男孩？才认识一两天，就这么熟了。",
+      "en": "The boy who moved in yesterday? You've only known each other a day or two, and you're already so close."
+    },
+    {
+      "zh": "晚饭前回来。",
+      "en": "Be back before dinner."
+    },
+    {
+      "zh": "暂停",
+      "en": "Paused"
+    },
+    {
+      "zh": "有人在里面吗？",
+      "en": "Is anyone in there?"
+    },
+    {
+      "zh": "有文件待组合",
+      "en": "Documents are available to combine"
+    },
+    {
+      "zh": "有时候我真想好好收拾他一顿。",
+      "en": "Sometimes I really want to teach him a lesson."
+    },
+    {
+      "zh": "有点旧的床，我好像在哪里见过。",
+      "en": "An old bed. I feel as if I've seen it somewhere before."
+    },
+    {
+      "zh": "有物品待组合",
+      "en": "Items are available to combine"
+    },
+    {
+      "zh": "服装",
+      "en": "Outfits"
+    },
+    {
+      "zh": "服装已放入背包",
+      "en": "Outfit added to inventory"
+    },
+    {
+      "zh": "木偶",
+      "en": " Puppet"
+    },
+    {
+      "zh": "木偶奖品",
+      "en": "Puppet Prize"
+    },
+    {
+      "zh": "木偶舞台",
+      "en": "Puppet Stage"
+    },
+    {
+      "zh": "木偶说书气泡",
+      "en": "Puppet Story Speech Bubble"
+    },
+    {
+      "zh": "木纹",
+      "en": "Wood Grain"
+    },
+    {
+      "zh": "木质摊面",
+      "en": "Wooden Stall Counter"
+    },
+    {
+      "zh": "未命中",
+      "en": "Miss"
+    },
+    {
+      "zh": "未命中 ·",
+      "en": "Miss |"
+    },
+    {
+      "zh": "未命中 · 和弦中断",
+      "en": "Miss | Chord released"
+    },
+    {
+      "zh": "未命中 · 拍弦前请松开 W/S/A/D",
+      "en": "Miss | Release W/S/A/D before strumming"
+    },
+    {
+      "zh": "未命中 · 漏拍",
+      "en": "Miss | Missed beat"
+    },
+    {
+      "zh": "未命中 · 请持续按住正确和弦",
+      "en": "Miss | Keep holding the correct chord"
+    },
+    {
+      "zh": "未命中 · 跟着当前音符",
+      "en": "Miss | Follow the current note"
+    },
+    {
+      "zh": "未命中 · 错键或时机",
+      "en": "Miss | Wrong key or timing"
+    },
+    {
+      "zh": "未命中 · 长条结束前请持续按住和弦",
+      "en": "Miss | Keep holding the chord until the long note ends"
+    },
+    {
+      "zh": "未知剧情状态：",
+      "en": "Unknown story state: "
+    },
+    {
+      "zh": "未知同伴状态",
+      "en": "Unknown companion state"
+    },
+    {
+      "zh": "本阶段已完成，后续追逐待接入",
+      "en": "This section is complete. The following chase has not been connected yet."
+    },
+    {
+      "zh": "机身已经有不少划痕，镜头却意外地保存得很好。",
+      "en": "The body is scratched, but the lens is surprisingly well preserved."
+    },
+    {
+      "zh": "李梅",
+      "en": "Li Mei"
+    },
+    {
+      "zh": "李梅家",
+      "en": "Li Mei's Home"
+    },
+    {
+      "zh": "来了！",
+      "en": "Coming!"
+    },
+    {
+      "zh": "来呀。",
+      "en": "Come on."
+    },
+    {
+      "zh": "杨骏汪",
+      "en": "Yang Junwang"
+    },
+    {
+      "zh": "柜子旁放着一台旧相机。",
+      "en": "An old camera sits beside the cabinet."
+    },
+    {
+      "zh": "柜面落满了灰，抽屉边缘却比其他地方干净一些。",
+      "en": "The cabinet is covered in dust, but the edges of the drawer are cleaner than the rest."
+    },
+    {
+      "zh": "校服",
+      "en": "School Uniform"
+    },
+    {
+      "zh": "校服里好像有什么东西",
+      "en": "There seems to be something inside the uniform."
+    },
+    {
+      "zh": "根据情报，东郊一处废弃工厂是毒贩聚集点。请带上工作证件，到该工厂外围集合。",
+      "en": "According to our intelligence, drug dealers are gathering at an abandoned factory in the eastern suburbs. Bring your work identification and assemble outside the factory."
+    },
+    {
+      "zh": "桌上有一壶灯油，应该能让小油灯重新亮起来",
+      "en": "There's a jar of oil on the desk. It should get the small oil lamp burning again."
+    },
+    {
+      "zh": "桌面有淡淡的划痕，应该可以用什么东西摹出来",
+      "en": "There are faint scratches on the desk. Maybe I can trace them with something."
+    },
+    {
+      "zh": "桌面有淡淡的划痕，应该可以用刚刚这支铅笔摹出来",
+      "en": "There are faint scratches on the desk. I should be able to trace them with the pencil I just found."
+    },
+    {
+      "zh": "楼梯",
+      "en": "Stairs"
+    },
+    {
+      "zh": "楼梯间锁上了。",
+      "en": "The stairwell is locked."
+    },
+    {
+      "zh": "次卧",
+      "en": "Second Bedroom"
+    },
+    {
+      "zh": "正在修改媒体密码……",
+      "en": "Changing social account password..."
+    },
+    {
+      "zh": "正在拷贝监控视频……",
+      "en": "Copying surveillance footage..."
+    },
+    {
+      "zh": "正在载入",
+      "en": "Loading"
+    },
+    {
+      "zh": "此操作会丢失未保存游戏内容，是否继续？",
+      "en": "Unsaved progress will be lost. Continue?"
+    },
+    {
+      "zh": "母亲",
+      "en": "Mother"
+    },
+    {
+      "zh": "毒品活动侵扰周边社区，居民盼恢复安宁\n\n近来，周边地区接连出现与毒品有关的治安问题。原本安静的街巷中，夜间争吵、陌生人员频繁出入等情况逐渐增多，一些居民开始提前关门，商铺也缩短了营业时间。\n\n对不少家庭而言，变化并不是从一次严重事件开始的。有人起初只是经常晚归，随后失去工作、向亲友借钱，最终连家中的日常开支也难以维持。家属往往在问题已经难以掩盖时，才意识到发生了什么。\n\n一名不愿透露姓名的居民说，过去孩子们放学后会在附近玩到天黑，如今家长总会反复叮嘱他们早点回家。比起新闻里的案件，人们更直接感受到的，是生活中越来越多的不安。\n\n目前，警方正对相关线索展开调查。部分问题并非局限于某一处场所，涉案人员之间的联系仍有待查明。居民希望，调查能够尽快取得进展，让街道重新恢复往日的安宁。\n\n……报道下方已经破损，后续内容无法辨认。",
+      "en": "Drug Activity Disrupts Local Communities; Residents Hope for Peace\n\nRecently, neighborhoods in the surrounding area have seen a series of drug-related disturbances. Once-quiet streets now face more nighttime arguments and frequent visits from unfamiliar people. Some residents have begun closing their doors early, and shops have shortened their opening hours.\n\nFor many families, the change did not begin with one major incident. Someone might first return home late more often, then lose their job and borrow from friends and relatives, until even everyday household costs became impossible to meet. Family members often only understood what had happened when the problem could no longer be hidden.\n\nOne resident, who asked to remain anonymous, said children used to play nearby after school until dark. Now parents repeatedly remind them to come home early. More than the cases in the news, people feel a growing unease in their daily lives.\n\nPolice are currently investigating the available leads. The problems may not be confined to a single location, and the connections between those involved have yet to be established. Residents hope the investigation will make progress soon and restore the streets to their former peace.\n\n...The bottom of the report is torn. The remaining text cannot be read."
+    },
+    {
+      "zh": "水面平静得有些奇怪。",
+      "en": "The surface is strangely still."
+    },
+    {
+      "zh": "水面晃得厉害，什么也照不清。",
+      "en": "The water is rippling too much to see any reflection clearly."
+    },
+    {
+      "zh": "污渍照片",
+      "en": "Stained Photo"
+    },
+    {
+      "zh": "没事儿，我早看向焱不爽了，就是家里有点钱罢了，到处欺负转校生。对了，我刚刚路过的时候好像听到向焱在厕所和他那跟班在讨论什么，你要是顺路可以过去看看。",
+      "en": "No problem. I've been sick of Xiang Yan for ages. His family has a bit of money, and he goes around picking on transfer students. By the way, I think I heard him and his lackey talking in the restroom when I passed. You could take a look if you're going that way."
+    },
+    {
+      "zh": "没什么事还是不要动这台公用电脑吧",
+      "en": "I'd better leave this shared computer alone unless I need it."
+    },
+    {
+      "zh": "没关系，你要是出事了谁还陪我玩。",
+      "en": "It's okay. If something happens to you, who'll hang out with me?"
+    },
+    {
+      "zh": "没有反应",
+      "en": "No response"
+    },
+    {
+      "zh": "没有回应...",
+      "en": "No answer..."
+    },
+    {
+      "zh": "河堤",
+      "en": "Riverside"
+    },
+    {
+      "zh": "河堤 →",
+      "en": "Riverside ->"
+    },
+    {
+      "zh": "游戏币",
+      "en": "Game Token"
+    },
+    {
+      "zh": "游戏结束",
+      "en": "Game Over"
+    },
+    {
+      "zh": "游戏语言",
+      "en": "Game Language"
+    },
+    {
+      "zh": "滚轮 / 上下拖动",
+      "en": "Scroll with the mouse wheel / drag up or down"
+    },
+    {
+      "zh": "滚轮或拖动右侧滑条查看更多",
+      "en": "Use the mouse wheel or drag the scrollbar to see more"
+    },
+    {
+      "zh": "演出角色",
+      "en": "Cast"
+    },
+    {
+      "zh": "灯油",
+      "en": "Lamp Oil"
+    },
+    {
+      "zh": "灯罩已经发黄，可灯泡居然还能亮。",
+      "en": "The shade has yellowed, but somehow the bulb still lights up."
+    },
+    {
+      "zh": "点击电脑或密码抽屉",
+      "en": "Click the computer or the locked drawer"
+    },
+    {
+      "zh": "点击邮箱内的文件碎片。",
+      "en": "Click the document fragment inside the mailbox."
+    },
+    {
+      "zh": "照片上的几张脸几乎都被污渍盖住了。",
+      "en": "Stains cover almost all the faces in the photo."
+    },
+    {
+      "zh": "照片中的人物几乎无法辨认。只能看出，这似乎是一张家庭合影。",
+      "en": "The people in the photo are almost impossible to recognize. It seems to be a family picture."
+    },
+    {
+      "zh": "照片和名字都对得上，可我为什么会在这里？",
+      "en": "The photo and name match. So why am I here?"
+    },
+    {
+      "zh": "父亲",
+      "en": "Father"
+    },
+    {
+      "zh": "爸爸",
+      "en": "Dad"
+    },
+    {
+      "zh": "物品",
+      "en": "Items"
+    },
+    {
+      "zh": "物品组合菜单",
+      "en": "Item combination menu"
+    },
+    {
+      "zh": "状态应在另一进程中恢复",
+      "en": "The state should be restored in another process."
+    },
+    {
+      "zh": "王坤",
+      "en": "Wang Kun"
+    },
+    {
+      "zh": "王平",
+      "en": "Wang Ping"
+    },
+    {
+      "zh": "王平家",
+      "en": "Wang Ping's Home"
+    },
+    {
+      "zh": "王萍",
+      "en": "Wang Ping"
+    },
+    {
+      "zh": "现在去一楼客厅吃晚餐吧。",
+      "en": "Go downstairs to the living room for dinner."
+    },
+    {
+      "zh": "现在知道了保安室的密码，可以去拿灯油了。",
+      "en": "I know the security-room combination now. I can go and get the lamp oil."
+    },
+    {
+      "zh": "现在还过不去。",
+      "en": "I can't get through yet."
+    },
+    {
+      "zh": "现在进去……恐怕走不了多远。",
+      "en": "If I go in now... I probably won't get far."
+    },
+    {
+      "zh": "生命的诞生是伟大的，多关注周遭，\n感受这天不一样的魔力和小惊喜。\n——相机先生",
+      "en": "The beginning of a life is a wonderful thing. Look a little closer at the world,\nand feel the special magic and small surprises of this day.\n- Mr. Camera"
+    },
+    {
+      "zh": "生命的诞生是伟大的，多关注周遭，感受这天不一样的魔力和小惊喜——相机先生",
+      "en": "The beginning of a life is a wonderful thing. Look a little closer at the world, and feel the special magic and small surprises of this day. - Mr. Camera"
+    },
+    {
+      "zh": "电脑",
+      "en": "Computer"
+    },
+    {
+      "zh": "电话",
+      "en": "Telephone"
+    },
+    {
+      "zh": "电话已经挂断了。",
+      "en": "The call has already ended."
+    },
+    {
+      "zh": "男厕",
+      "en": "Boys' Restroom"
+    },
+    {
+      "zh": "男厕独立内部",
+      "en": "Separate boys' restroom interior"
+    },
+    {
+      "zh": "男孩",
+      "en": "Boy"
+    },
+    {
+      "zh": "男孩角色未就绪",
+      "en": "The boy character is not ready."
+    },
+    {
+      "zh": "画面",
+      "en": "Display"
+    },
+    {
+      "zh": "监控已拷贝，媒体密码已修改。",
+      "en": "Surveillance footage copied. Social account password changed."
+    },
+    {
+      "zh": "目标 ",
+      "en": "Target "
+    },
+    {
+      "zh": "相机似乎有些反应...",
+      "en": "The camera seems to be reacting..."
+    },
+    {
+      "zh": "相机似乎有些反应……",
+      "en": "The camera seems to be reacting..."
+    },
+    {
+      "zh": "相机似乎有反应...",
+      "en": "The camera seems to be reacting..."
+    },
+    {
+      "zh": "相机先生",
+      "en": "Mr. Camera"
+    },
+    {
+      "zh": "相机先生卡片",
+      "en": "Mr. Camera Card"
+    },
+    {
+      "zh": "相机先生卡片已经收好了。",
+      "en": "The Mr. Camera card is already tucked away."
+    },
+    {
+      "zh": "相机有定时功能。把相机放稳，拨好定时器，它就会自己拍了。",
+      "en": "The camera has a timer. Set it down somewhere steady, turn the timer, and it'll take the picture by itself."
+    },
+    {
+      "zh": "看来你收到邮件了。",
+      "en": "Looks like you got the email."
+    },
+    {
+      "zh": "看来你真的什么都不记得了。",
+      "en": "Looks like you really don't remember anything."
+    },
+    {
+      "zh": "看着这里，总觉得以前有人常常坐在床边。",
+      "en": "Looking at it, I feel as though someone used to sit on the edge of this bed all the time."
+    },
+    {
+      "zh": "真把自己当回事了",
+      "en": "You really think you're something, don't you?"
+    },
+    {
+      "zh": "砖缝",
+      "en": "Crack in the Bricks"
+    },
+    {
+      "zh": "破旧证件套",
+      "en": "Worn ID Holder"
+    },
+    {
+      "zh": "确认",
+      "en": "Confirm"
+    },
+    {
+      "zh": "碗筷摆好了，饭菜似乎还没准备齐。",
+      "en": "The bowls and chopsticks are out, but the meal doesn't seem quite ready."
+    },
+    {
+      "zh": "禁毒宣传\n拒绝毒品宣传，珍爱生命，远离毒品。\n——小镇宣传办",
+      "en": "Drug Prevention\nSay no to drugs. Cherish life and stay away from drugs.\n- Town Public Information Office"
+    },
+    {
+      "zh": "离开",
+      "en": "Leave"
+    },
+    {
+      "zh": "空",
+      "en": "Empty"
+    },
+    {
+      "zh": "空存档",
+      "en": "Empty save slot"
+    },
+    {
+      "zh": "空格",
+      "en": "Space"
+    },
+    {
+      "zh": "穿上",
+      "en": "Wear"
+    },
+    {
+      "zh": "穿戴效果",
+      "en": "Outfit Preview"
+    },
+    {
+      "zh": "穿越黑雾",
+      "en": "Pass through the black fog"
+    },
+    {
+      "zh": "穿过那扇铁门，你会找到遗忘的东西。",
+      "en": "Go through that gate. You'll find what you forgot."
+    },
+    {
+      "zh": "竹圈",
+      "en": "Bamboo Ring"
+    },
+    {
+      "zh": "等你想起一切的时候。",
+      "en": "When you remember everything."
+    },
+    {
+      "zh": "等等。",
+      "en": "Wait."
+    },
+    {
+      "zh": "等等，我再想想。",
+      "en": "Wait, let me think."
+    },
+    {
+      "zh": "简体中文",
+      "en": "简体中文"
+    },
+    {
+      "zh": "篮球飞行中……  [Esc] 放下篮球",
+      "en": "The basketball is in the air...  [Esc] Put down basketball"
+    },
+    {
+      "zh": "粮仓告罄，骚动增加",
+      "en": "The granary is empty, and unrest is growing."
+    },
+    {
+      "zh": "粮仓少粮尚未查清，反叛者煽动群众；越来越多人不明真相，却跟着攻击公主。\n把反叛者拖到群众最前方。",
+      "en": "The missing grain has not yet been investigated. The rebel stirs up the crowd. More and more people attack the princess without knowing the truth.\nDrag the rebel to the front of the crowd."
+    },
+    {
+      "zh": "纸张下露出一把钥匙，点击拾取。",
+      "en": "A key is sticking out from beneath the paper. Click to pick it up."
+    },
+    {
+      "zh": "纸景城门",
+      "en": "Paper City Gate"
+    },
+    {
+      "zh": "组合",
+      "en": "Combine"
+    },
+    {
+      "zh": "组合完成",
+      "en": "Combination Complete"
+    },
+    {
+      "zh": "组合未完成，材料已保留。",
+      "en": "The combination failed. Your materials were kept."
+    },
+    {
+      "zh": "组合结果尚未配置。",
+      "en": "This combination has no configured result."
+    },
+    {
+      "zh": "终于结束了吗，可以回去家属院了。",
+      "en": "Is it finally over? I can go back to the courtyard now."
+    },
+    {
+      "zh": "继续",
+      "en": "Continue"
+    },
+    {
+      "zh": "继续 [E / 空格]",
+      "en": "Continue [E / Space]"
+    },
+    {
+      "zh": "继续听书",
+      "en": "Keep Listening"
+    },
+    {
+      "zh": "继续游戏",
+      "en": "Continue"
+    },
+    {
+      "zh": "缺少玩家",
+      "en": "Player is missing."
+    },
+    {
+      "zh": "群众",
+      "en": "Townspeople"
+    },
+    {
+      "zh": "老国王病重，宫中不可一日无人",
+      "en": "The old king is gravely ill. The kingdom cannot go a day without a ruler."
+    },
+    {
+      "zh": "老国王病重，年轻公主暂代处理城中事务。\n把公主拖到宫门／王座的位置。",
+      "en": "The old king is gravely ill. The young princess is managing the city in his place.\nDrag the princess to the palace gate / throne."
+    },
+    {
+      "zh": "老师们怕同学去天台玩出事，把去天台的楼梯间锁上了",
+      "en": "The teachers locked the rooftop stairwell to keep students from getting hurt up there."
+    },
+    {
+      "zh": "老板",
+      "en": "Vendor"
+    },
+    {
+      "zh": "老板：一枚游戏币，套四个目标。要试试吗？",
+      "en": "Vendor: One game token, four targets. Want to try?"
+    },
+    {
+      "zh": "老板：上次的机会还在，要继续吗？",
+      "en": "Vendor: Your remaining attempts are still available. Want to continue?"
+    },
+    {
+      "zh": "老板：想试试吗？可以找父母兑换游戏币，或看看周围有没有。",
+      "en": "Vendor: Want a try? You can ask your parents for a game token, or look around for one."
+    },
+    {
+      "zh": "肖鹏",
+      "en": "Xiao Peng"
+    },
+    {
+      "zh": "肖鹏幼时在 7 月 15 日生日这天获得的一张卡通卡片。",
+      "en": "A cartoon card Xiao Peng received on his childhood birthday, July 15."
+    },
+    {
+      "zh": "肖鹏的完整证件",
+      "en": "Xiao Peng's Restored Identification"
+    },
+    {
+      "zh": "肖鹏破损的证件套。",
+      "en": "Xiao Peng's damaged ID holder."
+    },
+    {
+      "zh": "肖鹏，我刚刚碰到你妈妈了，她叫你准备回去开饭了。",
+      "en": "Xiao Peng, I just saw your mom. She wants you to come home for dinner soon."
+    },
+    {
+      "zh": "肖鹏，看见你孙付叔了嘛？他去你王坤叔家下棋了，要是碰到了叫他回来准备做晚饭了。",
+      "en": "Xiao Peng, have you seen Uncle Sun Fu? He went to Uncle Wang Kun's to play chess. If you see him, tell him to come home and get dinner ready."
+    },
+    {
+      "zh": "肖鹏：",
+      "en": "Xiao Peng: "
+    },
+    {
+      "zh": "背包",
+      "en": "Inventory"
+    },
+    {
+      "zh": "背带装",
+      "en": "Overalls"
+    },
+    {
+      "zh": "脑袋好痛，我好像进到记忆里了。",
+      "en": "My head hurts. I think I've entered a memory."
+    },
+    {
+      "zh": "自由探索",
+      "en": "Free Exploration"
+    },
+    {
+      "zh": "至少我认识你。",
+      "en": "At least I know you."
+    },
+    {
+      "zh": "舞台地板",
+      "en": "Stage Floor"
+    },
+    {
+      "zh": "舞台红帘",
+      "en": "Red Stage Curtain"
+    },
+    {
+      "zh": "良好",
+      "en": "Good"
+    },
+    {
+      "zh": "获得了 U 盘。",
+      "en": "USB Drive received."
+    },
+    {
+      "zh": "获得了「相机先生」卡通卡片。",
+      "en": "Mr. Camera Cartoon Card received."
+    },
+    {
+      "zh": "获得了一包小鱼仔。",
+      "en": "Small Fish received."
+    },
+    {
+      "zh": "获得了一支笔",
+      "en": "Pencil received."
+    },
+    {
+      "zh": "获得了关键物品「旧相机」。",
+      "en": "Key item received: Old Camera."
+    },
+    {
+      "zh": "获得了小油灯。",
+      "en": "Small Oil Lamp received."
+    },
+    {
+      "zh": "获得了报纸碎片3。",
+      "en": "Newspaper Fragment 3 received."
+    },
+    {
+      "zh": "获得了文件碎片2。",
+      "en": "Document Fragment 2 received."
+    },
+    {
+      "zh": "获得了服装「背带装」。",
+      "en": "Overalls outfit received."
+    },
+    {
+      "zh": "获得了校服",
+      "en": "School Uniform received."
+    },
+    {
+      "zh": "获得了游戏币。",
+      "en": "Game Token received."
+    },
+    {
+      "zh": "获得了钥匙",
+      "en": "Key received."
+    },
+    {
+      "zh": "获得证件。",
+      "en": "Identification received."
+    },
+    {
+      "zh": "菜单",
+      "en": "Menu"
+    },
+    {
+      "zh": "藏着的游戏币",
+      "en": "Hidden Game Token"
+    },
+    {
+      "zh": "虽然不记得什么事了，但是篮球还有有一手的",
+      "en": "I don't remember much, but I still know my way around a basketball."
+    },
+    {
+      "zh": "蛮勇敢。",
+      "en": "Pretty brave."
+    },
+    {
+      "zh": "行。",
+      "en": "All right."
+    },
+    {
+      "zh": "行，安保室在一楼，你可以用电脑去拷一份监控视频带到三楼去给老师。",
+      "en": "Okay. The security room is on the ground floor. You can use the computer to copy the surveillance footage, then take it to the teachers on the third floor."
+    },
+    {
+      "zh": "行，我知道了，你把U盘先给我吧，我会关注这件事的。",
+      "en": "All right, I understand. Give me the USB drive first. I'll look into it."
+    },
+    {
+      "zh": "行，谢谢主任。希望主任能帮我们打击这种校园霸凌行为。",
+      "en": "Thank you, sir. I hope you can help us stop this bullying."
+    },
+    {
+      "zh": "街坊公告栏",
+      "en": "Neighborhood Noticeboard"
+    },
+    {
+      "zh": "街边套圈",
+      "en": "Street Ring Toss"
+    },
+    {
+      "zh": "街道引路人未就绪",
+      "en": "The street guide is not ready."
+    },
+    {
+      "zh": "衣柜已经空了。",
+      "en": "The wardrobe is empty now."
+    },
+    {
+      "zh": "衣柜门有些变形，木头受潮后留下了一股淡淡的樟脑味。",
+      "en": "The wardrobe doors are warped. The damp wood has a faint smell of camphor."
+    },
+    {
+      "zh": "补充了灯油的小油灯。温暖的光可以照亮黑暗。",
+      "en": "The small oil lamp has been refilled. Its warm light can illuminate the darkness."
+    },
+    {
+      "zh": "被东西堵住了",
+      "en": "Something is blocking the way."
+    },
+    {
+      "zh": "装配未就绪",
+      "en": "Presentation not ready"
+    },
+    {
+      "zh": "要不我现在给你们拍一张全家福吧。",
+      "en": "How about I take a family photo for you now?"
+    },
+    {
+      "zh": "覆盖存档 ",
+      "en": "Overwrite Save Slot "
+    },
+    {
+      "zh": "角度",
+      "en": "Angle"
+    },
+    {
+      "zh": "角色位置",
+      "en": "Character Position"
+    },
+    {
+      "zh": "警察为什么会在这里？",
+      "en": "Why would the police be here?"
+    },
+    {
+      "zh": "认识，非常认识。好了，现在不是说这个的时候，去休息下吧，别累着了。",
+      "en": "I do. Very well. But now isn't the time to talk about that. Go and rest. Don't wear yourself out."
+    },
+    {
+      "zh": "让这首歌继续吧。",
+      "en": "Let the song carry on."
+    },
+    {
+      "zh": "设置",
+      "en": "Settings"
+    },
+    {
+      "zh": "证件",
+      "en": "Identification"
+    },
+    {
+      "zh": "证件与破旧证件套可以在背包中组合。",
+      "en": "You can combine the identification with the worn ID holder in your inventory."
+    },
+    {
+      "zh": "该存档槽已有内容，请先确认覆盖",
+      "en": "This slot already contains a save. Confirm before overwriting it."
+    },
+    {
+      "zh": "语言",
+      "en": "Language"
+    },
+    {
+      "zh": "说书人",
+      "en": "Storyteller"
+    },
+    {
+      "zh": "读取游戏",
+      "en": "Load Game"
+    },
+    {
+      "zh": "读完并关闭 [Esc]",
+      "en": "Finish Reading and Close [Esc]"
+    },
+    {
+      "zh": "谁让你在我桌子上刻我名字的，我也要在你桌子上刻",
+      "en": "Who told you to carve my name into my desk? Now I'm carving mine into yours."
+    },
+    {
+      "zh": "谁让你在我桌子上刻我名字的，我也要在你桌子上刻。",
+      "en": "Who told you to carve my name into my desk? Now I'm carving mine into yours."
+    },
+    {
+      "zh": "调查",
+      "en": "Examine"
+    },
+    {
+      "zh": "谢了，放学请你吃东西。",
+      "en": "Thanks. I'll buy you something to eat after school."
+    },
+    {
+      "zh": "谢谢。",
+      "en": "Thank you."
+    },
+    {
+      "zh": "谢谢你一直在这里。",
+      "en": "Thank you for staying here."
+    },
+    {
+      "zh": "谢谢你，我会一直——",
+      "en": "Thank you. I'll always--"
+    },
+    {
+      "zh": "资源身份缺失",
+      "en": "Missing asset identity"
+    },
+    {
+      "zh": "走廊好像不一样了。",
+      "en": "The corridor looks different."
+    },
+    {
+      "zh": "赵今瑞家",
+      "en": "Zhao Jinrui's Home"
+    },
+    {
+      "zh": "赵炳程",
+      "en": "Zhao Bingcheng"
+    },
+    {
+      "zh": "赵炳程正在隔壁池塘钓鱼。",
+      "en": "Zhao Bingcheng is fishing at the pond next door."
+    },
+    {
+      "zh": "赵炳程送的一包小鱼仔。",
+      "en": "A small bag of fish given to me by Zhao Bingcheng."
+    },
+    {
+      "zh": "赵秉承",
+      "en": "Zhao Bingcheng"
+    },
+    {
+      "zh": "车灯熄着，看起来已经停了有一会儿。",
+      "en": "The lights are off, but it looks like it has been here for a while."
+    },
+    {
+      "zh": "转动四位密码盘",
+      "en": "Turn the four number wheels"
+    },
+    {
+      "zh": "转弯处",
+      "en": "Bend in the Road"
+    },
+    {
+      "zh": "载入存档 ",
+      "en": "Load Save Slot "
+    },
+    {
+      "zh": "载入未完成：",
+      "en": "Loading did not finish: "
+    },
+    {
+      "zh": "返回",
+      "en": "Back"
+    },
+    {
+      "zh": "返回 [Esc]",
+      "en": "Back [Esc]"
+    },
+    {
+      "zh": "返回主菜单",
+      "en": "Return to Main Menu"
+    },
+    {
+      "zh": "返程入口尚未就绪。",
+      "en": "The return entrance is not ready."
+    },
+    {
+      "zh": "还不是你，被盗号了都不知道。他们用你QQ把我约到体育器材室去了。快回去换一个，别再用自己名字首字母加上生日做账号密码了。",
+      "en": "Because of you. Your account was hacked and you didn't even notice. They used your QQ account to ask me to meet in the equipment room. Go and change your password. Stop using your initials followed by your birthday."
+    },
+    {
+      "zh": "还好，就是有点不好。差点被高中记忆里的小孩杀了。",
+      "en": "I'm fine. Well, not really. A kid from my high-school memories almost killed me."
+    },
+    {
+      "zh": "还挺记仇。对了，这几次谢谢你帮我解围，他们这些人真是无聊到没事干，就知道欺负我这种外地人。",
+      "en": "You really hold a grudge. Anyway, thanks for getting me out of trouble lately. They must have nothing better to do than pick on outsiders like me."
+    },
+    {
+      "zh": "还没放学，还是别离开了。",
+      "en": "School is not over yet. I had better stay."
+    },
+    {
+      "zh": "还没有准备好要交给主任的监控。",
+      "en": "I have not prepared the surveillance footage for the dean yet."
+    },
+    {
+      "zh": "还需要完成证件交接。",
+      "en": "I still need to hand over the identification."
+    },
+    {
+      "zh": "这一段再来一次，前面弹好的都还在。",
+      "en": "Try this phrase again. The phrases you finished are still saved."
+    },
+    {
+      "zh": "这一段弹好了",
+      "en": "That phrase is complete."
+    },
+    {
+      "zh": "这个位置无法安全切换。",
+      "en": "I cannot switch safely here."
+    },
+    {
+      "zh": "这个给你。",
+      "en": "Here. This is for you."
+    },
+    {
+      "zh": "这么多人都说她有问题，难道大家还能一起说错？",
+      "en": "So many people say there's something wrong with her. Surely they can't all be wrong?"
+    },
+    {
+      "zh": "这位角色还没有到出场的时候，再想一想。",
+      "en": "It is not this character's turn to appear yet. Think again."
+    },
+    {
+      "zh": "这包小鱼仔送你。",
+      "en": "Here, have this little bag of fish."
+    },
+    {
+      "zh": "这张照片拍摄于肖鹏幼时 7 月 15 日生日当天。",
+      "en": "Taken on Xiao Peng's childhood birthday, July 15."
+    },
+    {
+      "zh": "这张照片拍摄于肖鹏幼时 7 月 15 日生日当天。\n照片里是年幼的肖鹏和父母，边缘站着那个男孩。\n我记得他，却还是想不起他的名字。",
+      "en": "This photo was taken on Xiao Peng's childhood birthday, July 15.\nYoung Xiao Peng is with his parents. The boy is standing at the edge of the picture.\nI remember him, but I still can't remember his name."
+    },
+    {
+      "zh": "这是我小时候获得的卡片，怎么在这里。",
+      "en": "This is the card I got as a child. How did it end up here?"
+    },
+    {
+      "zh": "这是我的座位？",
+      "en": "Is this my seat?"
+    },
+    {
+      "zh": "这是我的证件？",
+      "en": "Is this my identification?"
+    },
+    {
+      "zh": "这条路……有这么绕吗？",
+      "en": "Was this path... always so winding?"
+    },
+    {
+      "zh": "这点暖光放在这个房间里……反而显得有些不自然。",
+      "en": "That little patch of warm light feels... oddly out of place in this room."
+    },
+    {
+      "zh": "这话您刚才可说过了。",
+      "en": "That's what you said just now."
+    },
+    {
+      "zh": "这都没中...",
+      "en": "How did that miss..."
+    },
+    {
+      "zh": "这里到底是什么地方？",
+      "en": "What is this place, really?"
+    },
+    {
+      "zh": "这里堆满了杂物，无法通行",
+      "en": "The way is blocked by clutter."
+    },
+    {
+      "zh": "这里太黑了，有些令人不安...",
+      "en": "It is so dark here... Something feels wrong."
+    },
+    {
+      "zh": "这里好黑，到底通往什么地方",
+      "en": "It's so dark here. Where does this lead?"
+    },
+    {
+      "zh": "这里是……刚才的客厅。",
+      "en": "This is... the living room from before."
+    },
+    {
+      "zh": "这里是哪儿？",
+      "en": "Where is this?"
+    },
+    {
+      "zh": "这里聚了太多人。",
+      "en": "There are too many people gathered here."
+    },
+    {
+      "zh": "这里还有东西在等你看见。",
+      "en": "There's still something here waiting for you to see it."
+    },
+    {
+      "zh": "进入",
+      "en": "Enter"
+    },
+    {
+      "zh": "追上阴影",
+      "en": "Catch up with the shadow"
+    },
+    {
+      "zh": "退出 [Esc]",
+      "en": "Exit [Esc]"
+    },
+    {
+      "zh": "退出游戏",
+      "en": "Quit Game"
+    },
+    {
+      "zh": "退出至游戏主菜单",
+      "en": "Return to Main Menu"
+    },
+    {
+      "zh": "选择",
+      "en": "Select"
+    },
+    {
+      "zh": "选择一件物品",
+      "en": "Select an item"
+    },
+    {
+      "zh": "选择一份文件",
+      "en": "Select a document"
+    },
+    {
+      "zh": "选择后立即生效，并在下次启动时保留。",
+      "en": "Changes take effect immediately and are remembered for your next launch."
+    },
+    {
+      "zh": "通知 · 1",
+      "en": "Notice | 1"
+    },
+    {
+      "zh": "遮罩",
+      "en": "Mask"
+    },
+    {
+      "zh": "那个孩子……我记得他。可我还是想不起他的名字。",
+      "en": "That boy... I remember him. But I still can't remember his name."
+    },
+    {
+      "zh": "那为什么周围的一切都这么陌生？",
+      "en": "Then why does everything around me feel so unfamiliar?"
+    },
+    {
+      "zh": "那你什么时候告诉我你的名字？",
+      "en": "Then when will you tell me your name?"
+    },
+    {
+      "zh": "那你现在知道发生什么事了吗？",
+      "en": "Do you know what happened now?"
+    },
+    {
+      "zh": "那可不一定。对了，昨天你怎么被他们关在体育器材室了？",
+      "en": "I wouldn't be so sure. Anyway, how did they lock you in the equipment room yesterday?"
+    },
+    {
+      "zh": "那就告诉我，发生了什么。",
+      "en": "Then tell me what happened."
+    },
+    {
+      "zh": "那我下次设置密码把你的名字也加上。",
+      "en": "Next time I'll put your name in it too."
+    },
+    {
+      "zh": "那是我吗？",
+      "en": "Is that me?"
+    },
+    {
+      "zh": "邮件",
+      "en": "Mail"
+    },
+    {
+      "zh": "邮箱",
+      "en": "Mailbox"
+    },
+    {
+      "zh": "邱天",
+      "en": "Qiu Tian"
+    },
+    {
+      "zh": "邱天……是谁？",
+      "en": "Qiu Tian... Who is that?"
+    },
+    {
+      "zh": "邻居说赵今瑞可能去接补习班的孩子了。",
+      "en": "A neighbor says Zhao Jinrui may have gone to pick up children from tutoring class."
+    },
+    {
+      "zh": "郑涛",
+      "en": "Zheng Tao"
+    },
+    {
+      "zh": "郑涛昨天就被锁在这了，还以为我找他有事，带了一只铅笔下来，结果被关里面了。",
+      "en": "They locked Zheng Tao in here yesterday. He thought I wanted to see him, so he came down with a pencil. Then they locked him in."
+    },
+    {
+      "zh": "郑涛昨天就被锁在这了，还以为我找他有事，带了一只铅笔下来，结果被关里面了，看来待会得把我社交平台的密码改了。",
+      "en": "They locked Zheng Tao in here yesterday. He thought I wanted to see him, so he came down with a pencil. Then they locked him in. Looks like I need to change my social account password later."
+    },
+    {
+      "zh": "郑涛还在座位旁。",
+      "en": "Zheng Tao is still by his seat."
+    },
+    {
+      "zh": "郑涛这家伙真是个麻烦事。",
+      "en": "That Zheng Tao is such a pain."
+    },
+    {
+      "zh": "都看这边。",
+      "en": "Everyone, look this way."
+    },
+    {
+      "zh": "配方材料配置无效。",
+      "en": "The recipe's ingredients are invalid."
+    },
+    {
+      "zh": "里面现在什么也没有。",
+      "en": "There's nothing inside now."
+    },
+    {
+      "zh": "里面还有一张工作证……边角已经被雨水泡软了。",
+      "en": "There's a work ID inside too... Its corners are soft from the rain."
+    },
+    {
+      "zh": "里面都是老师和领导，没有事情还是最好不要进去了",
+      "en": "It is full of teachers and school administrators. Best not to go in without a reason."
+    },
+    {
+      "zh": "重复剧情状态",
+      "en": "Duplicate story state"
+    },
+    {
+      "zh": "重复库存",
+      "en": "Duplicate inventory entries"
+    },
+    {
+      "zh": "重新开始",
+      "en": "Start Again"
+    },
+    {
+      "zh": "重要物品",
+      "en": "Key Items"
+    },
+    {
+      "zh": "重试载入",
+      "en": "Retry Loading"
+    },
+    {
+      "zh": "钓点鱼，拿到隔壁镇集市卖，补贴家用。",
+      "en": "Catching a few fish to sell at the next town's market. A little extra for the family."
+    },
+    {
+      "zh": "钥匙应该就在附近。",
+      "en": "There must be a key somewhere nearby."
+    },
+    {
+      "zh": "钥匙正好能插进去。",
+      "en": "The key fits."
+    },
+    {
+      "zh": "铁门钥匙",
+      "en": "Gate Key"
+    },
+    {
+      "zh": "铅笔",
+      "en": "Pencil"
+    },
+    {
+      "zh": "锁很旧，却还牢牢锁着。",
+      "en": "The lock is old, but it is still holding."
+    },
+    {
+      "zh": "锁没有反应。",
+      "en": "The lock does not respond."
+    },
+    {
+      "zh": "锁着。",
+      "en": "Locked."
+    },
+    {
+      "zh": "长按空格",
+      "en": "Hold Space"
+    },
+    {
+      "zh": "长按空格努力看清",
+      "en": "Hold Space to try to see clearly"
+    },
+    {
+      "zh": "门前靠着钓鱼竿，旁边放着水桶。",
+      "en": "A fishing rod leans beside the door, with a bucket nearby."
+    },
+    {
+      "zh": "门打不开。",
+      "en": "The door won't open."
+    },
+    {
+      "zh": "门锁住了。",
+      "en": "The door is locked."
+    },
+    {
+      "zh": "阅读区",
+      "en": "Reading Area"
+    },
+    {
+      "zh": "阴凉地面",
+      "en": "Shaded Ground"
+    },
+    {
+      "zh": "随你怎么说，让我刻完先。",
+      "en": "Say what you like. Let me finish carving first."
+    },
+    {
+      "zh": "随便拍拍，玩得开心。",
+      "en": "Take some pictures and have fun."
+    },
+    {
+      "zh": "集合通知",
+      "en": "Assembly Notice"
+    },
+    {
+      "zh": "雨水中的倒影",
+      "en": "Reflection in the Rain"
+    },
+    {
+      "zh": "露天电影放映通知\n7月16日晚7:30，镇文化站门前夏季露天电影，居民自带板凳，小朋友由家长陪同。\n——镇文化站",
+      "en": "Outdoor Movie Screening\nA summer outdoor film will be shown outside the cultural center at 7:30 p.m. on July 16. Bring your own stool. Children should be accompanied by a parent.\n- Town Cultural Center"
+    },
+    {
+      "zh": "音频",
+      "en": "Audio"
+    },
+    {
+      "zh": "领导（占位标签）",
+      "en": "Supervisor"
+    },
+    {
+      "zh": "饭店老板",
+      "en": "Restaurant Owner"
+    },
+    {
+      "zh": "骑士",
+      "en": "Knight"
+    },
+    {
+      "zh": "骑士翻查账本，又找来车夫。原来粮食按老国王的命令，送往城外受灾的村庄。",
+      "en": "The knight searched the ledgers and found the wagon driver. The grain had been sent, on the old king's orders, to villages outside the city struck by disaster."
+    },
+    {
+      "zh": "高三一班",
+      "en": "Class 3-1"
+    },
+    {
+      "zh": "高三一班独立内部；双门保留",
+      "en": "Separate Class 3-1 interior; both doors retained"
+    },
+    {
+      "zh": "高三二班",
+      "en": "Class 3-2"
+    },
+    {
+      "zh": "高三二班独立内部；两版本同四桌位置",
+      "en": "Separate Class 3-2 interior; matching four-desk positions in both versions"
+    },
+    {
+      "zh": "黑雾",
+      "en": "Black Fog"
+    },
+    {
+      "zh": "默认服装",
+      "en": "Everyday Clothes"
+    },
+    {
+      "zh": "（占位标签）",
+      "en": ""
+    },
+    {
+      "zh": "（本阶段体验到此结束。）",
+      "en": "(This section of the preview ends here.)"
+    },
+    {
+      "zh": "？原存档将被替换。",
+      "en": "? The existing save will be replaced."
+    },
+    {
+      "zh": "？未保存的进度将丢失。",
+      "en": "? Unsaved progress will be lost."
+    },
+    {
+      "zh": "？？？",
+      "en": "???"
+    },
+    {
+      "zh": "按住右侧箭头；音符靠近金线时按对应键，最后按空格。",
+      "en": "Hold the indicated arrow. Press each note near the gold line, then press Space."
+    },
+    {
+      "zh": "刚才多按的键不扣分，跟着还亮着的音符继续。",
+      "en": "Extra key presses do not count against you. Follow the remaining notes."
+    },
+    {
+      "zh": "空格拍弦漏掉了：按住箭头，空格靠近金线时再按。",
+      "en": "The Space strum was missed. Hold the arrow and press Space near the gold line."
+    },
+    {
+      "zh": "拍弦成功，可以松开和弦了。",
+      "en": "Strum complete. You can release the chord now."
+    },
+    {
+      "zh": "本段重试：最后的空格没有拍到。按住箭头，在空格靠近金线时按下。",
+      "en": "Retry this phrase: the final Space strum was missed. Hold the arrow and press Space near the gold line."
+    },
+    {
+      "zh": "这一段通过了，已容错 1 个漏拍。",
+      "en": "Phrase complete. One missed note was forgiven."
+    }
+  ],
+  "templates": [
+    {
+      "zh": "存档 {0}",
+      "en": "Save Slot {0}"
+    },
+    {
+      "zh": "覆盖存档 {0}？原存档将被替换。",
+      "en": "Overwrite Save Slot {0}? The existing save will be replaced."
+    },
+    {
+      "zh": "载入存档 {0}？未保存的进度将丢失。",
+      "en": "Load Save Slot {0}? Unsaved progress will be lost."
+    },
+    {
+      "zh": "已保存至存档 {0}",
+      "en": "Saved to Slot {0}"
+    },
+    {
+      "zh": "{0}已放入背包",
+      "en": "{0} added to inventory"
+    },
+    {
+      "zh": "城门前的小骑士 · 第 {0} 幕",
+      "en": "The Little Knight at the City Gate - Act {0}"
+    },
+    {
+      "zh": "公告 {0}",
+      "en": "Notice {0}"
+    },
+    {
+      "zh": "目标 {0}",
+      "en": "Target {0}"
+    },
+    {
+      "zh": "密码位 {0}",
+      "en": "Digit {0}"
+    },
+    {
+      "zh": "剩余 {0} 次  ·  已套中 {1}",
+      "en": "Attempts left: {0} | Targets hit: {1}"
+    },
+    {
+      "zh": "剩余 {0} 次 · 向右上投出 · 力度 {1}% · 松手投掷",
+      "en": "Attempts left: {0} | Throw up and right | Power: {1}% | Release to throw"
+    },
+    {
+      "zh": "套中了！ · 剩余 {0} 次",
+      "en": "You got it! | Attempts left: {0}"
+    },
+    {
+      "zh": "差一点…… · 剩余 {0} 次",
+      "en": "So close... | Attempts left: {0}"
+    },
+    {
+      "zh": "力度 {0}% · 轨迹线是篮球的飞行方向 · 松手投掷  [Esc] 取消",
+      "en": "Power: {0}% | The line shows the ball's path | Release to throw  [Esc] Cancel"
+    },
+    {
+      "zh": "发件人：{0}",
+      "en": "From: {0}"
+    },
+    {
+      "zh": "肖鹏：{0}",
+      "en": "Xiao Peng: {0}"
+    },
+    {
+      "zh": "{0}卡",
+      "en": "{0} Card"
+    },
+    {
+      "zh": "{0}木偶",
+      "en": "{0} Puppet"
+    },
+    {
+      "zh": "存档物品资源缺失：{0}",
+      "en": "Missing saved item asset: {0}"
+    },
+    {
+      "zh": "存档文件资源缺失：{0}",
+      "en": "Missing saved document asset: {0}"
+    },
+    {
+      "zh": "载入未完成：{0}\n可以重试载入，或重新开始。已有存档会保留。",
+      "en": "Loading did not finish: {0}\nYou can retry loading or start again. Existing saves will be kept."
+    },
+    {
+      "zh": "未知剧情状态：{0}",
+      "en": "Unknown story state: {0}"
+    },
+    {
+      "zh": "当前语言：{0}",
+      "en": "Current language: {0}"
+    },
+    {
+      "zh": "按住 {0}；音符靠近金线时按键，最后按空格。",
+      "en": "Hold {0}. Press each note near the gold line, then press Space."
+    },
+    {
+      "zh": "第 {0}/4 段 · 每段允许漏 1 个旋律音符。",
+      "en": "Phrase {0}/4 · One missed melody note per phrase is allowed."
+    },
+    {
+      "zh": "请按住 {0}，再按音符键；这一拍还可以补。",
+      "en": "Hold {0}, then tap the note again. There is still time to catch it."
+    },
+    {
+      "zh": "和弦松开太久：重新按住 {0}，接着弹即可。",
+      "en": "The chord was released too long. Hold {0} again and keep playing."
+    },
+    {
+      "zh": "{0} 按早了：等它靠近金线再按，这次不扣分。",
+      "en": "{0} was early. Wait until it is near the gold line, then tap again. No penalty."
+    },
+    {
+      "zh": "{0} 已错过：跟着下一个音符继续。每段允许漏 1 个旋律音符。",
+      "en": "{0} has passed. Follow the next note. One missed melody note is allowed."
+    },
+    {
+      "zh": "{0} 漏拍：接着弹即可，本段允许漏 1 个旋律音符。",
+      "en": "Missed {0}. Keep playing; one missed melody note is allowed in this phrase."
+    },
+    {
+      "zh": "本段漏了 {0} 个旋律音符，已超过 1 个的容错。再试一次，前面的段落保留。",
+      "en": "You missed {0} melody notes; one miss is allowed. Try this phrase again. Earlier phrases are kept."
+    }
+  ],
+  "aliases": [
+    {
+      "source": "[E] Talk",
+      "zh": "[E] 对话"
+    },
+    {
+      "source": "[E] Exit",
+      "zh": "[E] 离开"
+    },
+    {
+      "source": "[E] Enter",
+      "zh": "[E] 进入"
+    },
+    {
+      "source": "[E] Inspect",
+      "zh": "[E] 调查"
+    },
+    {
+      "source": "[E] Pick Up",
+      "zh": "[E] 拾取"
+    },
+    {
+      "source": "[E] Collect",
+      "zh": "[E] 收集"
+    },
+    {
+      "source": "[E] Interact",
+      "zh": "[E] 交互"
+    },
+    {
+      "source": "[E] Continue",
+      "zh": "[E] 继续"
+    },
+    {
+      "source": "[E] Read",
+      "zh": "[E] 阅读"
+    },
+    {
+      "source": "[E] Back",
+      "zh": "[E] 返回"
+    },
+    {
+      "source": "[E] Open",
+      "zh": "[E] 打开"
+    },
+    {
+      "source": "[E] Use",
+      "zh": "[E] 使用"
+    },
+    {
+      "source": "[Space] Continue",
+      "zh": "[空格] 继续"
+    },
+    {
+      "source": "Press E to continue",
+      "zh": "按 E 继续"
+    },
+    {
+      "source": "Press E to interact",
+      "zh": "按 E 交互"
+    },
+    {
+      "source": "Press Space to continue",
+      "zh": "按空格继续"
+    },
+    {
+      "source": "Continue",
+      "zh": "继续"
+    },
+    {
+      "source": "Back",
+      "zh": "返回"
+    },
+    {
+      "source": "Items",
+      "zh": "物品"
+    },
+    {
+      "source": "Key Items",
+      "zh": "重要物品"
+    },
+    {
+      "source": "Files",
+      "zh": "文件"
+    },
+    {
+      "source": "Outfits",
+      "zh": "服装"
+    },
+    {
+      "source": "Inventory",
+      "zh": "背包"
+    },
+    {
+      "source": "Important Items",
+      "zh": "重要物品"
+    },
+    {
+      "source": "Game Over",
+      "zh": "游戏结束"
+    },
+    {
+      "source": "Gate Key",
+      "zh": "铁门钥匙"
+    },
+    {
+      "source": "ID Holder",
+      "zh": "破旧证件套"
+    },
+    {
+      "source": "Newspaper Fragment 01",
+      "zh": "报纸碎片一"
+    },
+    {
+      "source": "An old key found beneath a newspaper fragment.",
+      "zh": "在报纸碎片下面找到的一把旧钥匙。"
+    },
+    {
+      "source": "Xiao Peng's damaged ID holder.",
+      "zh": "肖鹏破损的证件套。"
+    },
+    {
+      "source": "A torn piece of an old newspaper.",
+      "zh": "从旧报纸上撕下的一块碎片。"
+    },
+    {
+      "source": "Xiao Peng",
+      "zh": "肖鹏"
+    },
+    {
+      "source": "Qiu Tian",
+      "zh": "邱天"
+    },
+    {
+      "source": "Who are you?",
+      "zh": "你是谁？"
+    },
+    {
+      "source": "Me?",
+      "zh": "我？"
+    },
+    {
+      "source": "Do we know each other?",
+      "zh": "我们认识吗？"
+    },
+    {
+      "source": "At least I know you.",
+      "zh": "至少我认识你。"
+    },
+    {
+      "source": "Where is this?",
+      "zh": "这里是哪儿？"
+    },
+    {
+      "source": "Somewhere you've always wanted to come back to.",
+      "zh": "一个你一直想回来的地方。"
+    },
+    {
+      "source": "Then why does everything around me feel so unfamiliar?",
+      "zh": "那为什么周围的一切都这么陌生？"
+    },
+    {
+      "source": "Looks like you really don't remember anything.",
+      "zh": "看来你真的什么都不记得了。"
+    },
+    {
+      "source": "Then tell me what happened.",
+      "zh": "那就告诉我，发生了什么。"
+    },
+    {
+      "source": "You wouldn't believe me yet.",
+      "zh": "你现在还不会相信我。"
+    },
+    {
+      "source": "I asked who you are.",
+      "zh": "我问的是，你是谁。"
+    },
+    {
+      "source": "Go through that gate. You'll find what you forgot.",
+      "zh": "穿过那扇铁门，你会找到遗忘的东西。"
+    },
+    {
+      "source": "No one seems to notice me.",
+      "zh": "似乎没有人注意到我。"
+    },
+    {
+      "source": "...What are they all looking at?",
+      "zh": "……他们都在看什么？"
+    },
+    {
+      "source": "There are too many people gathered here.",
+      "zh": "这里聚了太多人。"
+    },
+    {
+      "source": "...I don't want to look at it for too long.",
+      "zh": "……我不想盯着它看太久。"
+    },
+    {
+      "source": "A police car...",
+      "zh": "一辆警车……"
+    },
+    {
+      "source": "The lights are off, but it looks like it has been here for a while.",
+      "zh": "车灯熄着，看起来已经停了有一会儿。"
+    },
+    {
+      "source": "Why would the police be here?",
+      "zh": "警察为什么会在这里？"
+    },
+    {
+      "source": "Just rainwater...",
+      "zh": "只是雨水……"
+    },
+    {
+      "source": "The surface is strangely still.",
+      "zh": "水面平静得有些奇怪。"
+    },
+    {
+      "source": "...Wait.",
+      "zh": "……等等。"
+    },
+    {
+      "source": "Is that me?",
+      "zh": "那是我吗？"
+    },
+    {
+      "source": "Why is there blood on my face?",
+      "zh": "我的脸上为什么会有血？"
+    },
+    {
+      "source": "My reflection... looks normal.",
+      "zh": "我的倒影……看起来很正常。"
+    },
+    {
+      "source": "For a second, I thought someone was standing behind me.",
+      "zh": "刚才有一瞬间，我还以为身后站着一个人。"
+    },
+    {
+      "source": "The reflection is still there.",
+      "zh": "倒影还在那里。"
+    },
+    {
+      "source": "A torn piece of newspaper...",
+      "zh": "一块撕下来的报纸碎片……"
+    },
+    {
+      "source": "Most of the article is missing.",
+      "zh": "报道的大部分内容都缺失了。"
+    },
+    {
+      "source": "I should keep this.",
+      "zh": "我应该把它收起来。"
+    },
+    {
+      "source": "A key...",
+      "zh": "一把钥匙……"
+    },
+    {
+      "source": "It looks old enough to belong to that gate.",
+      "zh": "它看起来很旧，也许就是那扇铁门的钥匙。"
+    },
+    {
+      "source": "Locked.",
+      "zh": "锁着。"
+    },
+    {
+      "source": "The lock is old, but it is still holding.",
+      "zh": "锁很旧，却还牢牢锁着。"
+    },
+    {
+      "source": "There must be a key somewhere nearby.",
+      "zh": "钥匙应该就在附近。"
+    },
+    {
+      "source": "The key fits.",
+      "zh": "钥匙正好能插进去。"
+    },
+    {
+      "source": "...It's open.",
+      "zh": "……打开了。"
+    },
+    {
+      "source": "What?",
+      "zh": "什么？"
+    },
+    {
+      "source": "Can you still walk?",
+      "zh": "你还能走吗？"
+    },
+    {
+      "source": "ProjectMystery",
+      "zh": "旧雨"
+    },
+    {
+      "source": "So we beat on, boats against the current,",
+      "zh": "于是我们继续向前，逆流而行，"
+    },
+    {
+      "source": "borne back ceaselessly into the past.",
+      "zh": "却又不断被推回往昔。"
+    },
+    {
+      "source": "F. Scott Fitzgerald — The Great Gatsby",
+      "zh": "——《了不起的盖茨比》"
+    },
+    {
+      "source": "Perfect",
+      "zh": "完美"
+    },
+    {
+      "source": "Good",
+      "zh": "良好"
+    },
+    {
+      "source": "Miss",
+      "zh": "未命中"
+    },
+    {
+      "source": "DialogueText...",
+      "zh": ""
+    },
+    {
+      "source": "New Text",
+      "zh": ""
+    }
+  ]
+}
